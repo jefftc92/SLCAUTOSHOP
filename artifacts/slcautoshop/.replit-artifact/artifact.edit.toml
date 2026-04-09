@@ -1,0 +1,13 @@
+kind = "web"
+previewPath = "/"
+title = "SLC Auto Shop"
+version = "1.0.0"
+id = "slcautoshop-main"
+
+[[services]]
+localPort = 3000
+name = "web"
+paths = ["/"]
+
+[services.development]
+run = "cd artifacts/slcautoshop && node server.js"
