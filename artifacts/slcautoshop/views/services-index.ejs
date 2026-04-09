@@ -1,0 +1,60 @@
+<%- include('partials/header') %>
+
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Services'}]}) %>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('<%= site.heroImage %>')"></div>
+  <div class="container">
+    <h1>Auto Repair Services</h1>
+    <p>Expert automotive repair in South Salt Lake, Utah. From our specialty clutch repair to complete auto service—quality work for all makes and models.</p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call Now: <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <% services.forEach((s, i) => { %>
+    <div class="service-detail-card<%= i % 2 === 1 ? ' reverse' : '' %>">
+      <div class="service-detail-text">
+        <h2><%= s.name %></h2>
+        <p><%= s.shortDesc %></p>
+        <h3>Services:</h3>
+        <ul>
+          <% s.coverageList.slice(0,5).forEach(item => { %>
+          <li><%= item %></li>
+          <% }) %>
+        </ul>
+        <a href="/services/<%= s.slug %>" class="btn btn-primary">Learn More About <%= s.name %></a>
+      </div>
+      <div class="service-detail-image">
+        <img src="<%= s.image %>" alt="<%= s.name %> service at Scott's Auto and Clutch" loading="lazy" width="400" height="267">
+      </div>
+    </div>
+    <% }) %>
+  </div>
+</section>
+
+<section class="values-section alt-bg">
+  <div class="container">
+    <h2>Why Choose Scott's Auto and Clutch</h2>
+    <div class="values-grid">
+      <% [
+        { title: "35+ Years Experience", desc: "Decades of expertise serving Salt Lake Valley drivers with quality repairs." },
+        { title: "Free Diagnosis", desc: "We diagnose your vehicle at no charge and explain exactly what's needed." },
+        { title: "Transparent Pricing", desc: "Detailed estimates before work begins. No hidden fees or surprises." }
+      ].forEach(v => { %>
+      <div class="value-card">
+        <h3><%= v.title %></h3>
+        <p><%= v.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<% var ctaTitle = "Ready for Reliable Auto Repair?"; var ctaDesc = "Contact Scott's Auto and Clutch today. We'll diagnose your vehicle and get you back on the road."; %>
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>

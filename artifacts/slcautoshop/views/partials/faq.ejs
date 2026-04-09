@@ -1,0 +1,27 @@
+<% if (typeof pageFaqs !== 'undefined' && pageFaqs && pageFaqs.length) { %>
+<section class="content-section<%= typeof faqAlt !== 'undefined' && faqAlt ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2><%= typeof faqTitle !== 'undefined' && faqTitle ? faqTitle : 'Frequently Asked Questions' %></h2>
+    <div class="faq-list">
+      <% pageFaqs.forEach(faq => { %>
+      <div class="faq-item">
+        <h3><%= faq.q %></h3>
+        <p><%= faq.a %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<script type="application/ld+json"><%- JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": pageFaqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.a
+    }
+  }))
+}) %></script>
+<% } %>

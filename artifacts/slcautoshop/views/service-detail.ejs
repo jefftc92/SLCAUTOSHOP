@@ -1,0 +1,126 @@
+<%- include('partials/header') %>
+
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Services',url:'/services'},{label:service.name}]}) %>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('<%= service.heroImage %>')"></div>
+  <div class="container">
+    <h1><%= service.metaTitle %></h1>
+    <p><%= service.intro %></p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>What Our <%= service.name %> Covers</h2>
+    <p class="section-subtitle">Tailored to your vehicle's needs</p>
+    <ul class="checklist">
+      <% service.coverageList.forEach(item => { %>
+      <li><%= item %></li>
+      <% }) %>
+    </ul>
+
+    <% if (service.specializedServices && service.specializedServices.length) { %>
+    <h3>Specialized <%= service.name %> Services</h3>
+    <div class="brand-tags">
+      <% service.specializedServices.forEach(ss => { %>
+      <span class="tag"><%= ss %></span>
+      <% }) %>
+    </div>
+    <% } %>
+  </div>
+</section>
+
+<section class="values-section alt-bg">
+  <div class="container">
+    <h2><%= service.name %> Expertise You Can Count On</h2>
+    <p class="section-subtitle">Our experienced mechanics take a thorough approach to every repair.</p>
+    <div class="values-grid">
+      <% service.whyUs.forEach(w => { %>
+      <div class="value-card">
+        <h3><%= w.title %></h3>
+        <p><%= w.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>How We Handle Your <%= service.name %></h2>
+    <p class="section-subtitle">From diagnosis to repair, we keep you informed every step of the way.</p>
+    <div class="process-steps">
+      <% service.process.forEach(p => { %>
+      <div class="process-step">
+        <span class="step-num"><%= p.step %></span>
+        <div>
+          <h3><%= p.title %></h3>
+          <p><%= p.desc %></p>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<% if (service.commonIssues && service.commonIssues.length) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Common Issues We Fix</h2>
+    <p class="section-subtitle">Our experienced technicians diagnose and repair these common problems every day.</p>
+    <div class="issues-grid">
+      <% service.commonIssues.forEach(issue => { %>
+      <div class="issue-card">
+        <h3><%= issue.title %></h3>
+        <p><%= issue.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<section class="content-section">
+  <div class="container">
+    <h2><%= service.name %> Service Areas</h2>
+    <p>We serve drivers throughout the Salt Lake Valley.</p>
+    <div class="locations-grid-compact">
+      <% allLocations.forEach(l => { %>
+      <a href="/locations/<%= l.slug %>" class="location-tag">
+        <strong><%= l.name %>, UT</strong>
+        <span><%= l.isHome ? 'Our Location' : l.distance + ' - ' + service.name %></span>
+      </a>
+      <% }) %>
+    </div>
+    <a href="<%= site.directionsUrl %>" class="btn btn-outline" target="_blank" rel="noopener">Get Directions</a>
+  </div>
+</section>
+
+<% var faqAlt = true; %>
+<%- include('partials/faq') %>
+
+<% if (relatedServices && relatedServices.length) { %>
+<section class="content-section">
+  <div class="container">
+    <h2>Related Services</h2>
+    <div class="services-grid small">
+      <% relatedServices.forEach(rs => { %>
+      <a href="/services/<%= rs.slug %>" class="service-card">
+        <h3><%= rs.name %></h3>
+        <p><%= rs.shortDesc %></p>
+        <span class="card-link">View service</span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<% var ctaTitle = "Get a " + service.name + " Estimate"; var ctaDesc = "Contact Scott's Auto and Clutch today for a free diagnosis. We'll get your vehicle running right."; %>
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>

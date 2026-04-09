@@ -1,0 +1,147 @@
+<%- include('partials/header') %>
+
+<section class="hero">
+  <div class="hero-bg" style="background-image:url('<%= site.heroImage %>')"></div>
+  <div class="container hero-content">
+    <h1>Auto Mechanic &amp; Car Repair<br><span class="hero-accent">South Salt Lake</span></h1>
+    <p class="hero-badge">Family-Owned Since 1990</p>
+    <p class="hero-desc">Your trusted auto repair shop for clutch replacement, manual transmission repair, brake service, CV axle repair, and complete car repair. Our experienced car mechanics serve South Salt Lake, Millcreek, Sugar House, Murray, and the entire Salt Lake Valley.</p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call Now</a>
+      <a href="sms:<%= site.phoneTel %>" class="btn btn-secondary">Text For Quote</a>
+    </div>
+  </div>
+</section>
+
+<section class="services-section">
+  <div class="container">
+    <p class="section-label">Full Service</p>
+    <h2>Auto Repair Services</h2>
+    <div class="services-grid">
+      <% services.slice(0, 8).forEach(s => { %>
+      <a href="/services/<%= s.slug %>" class="service-card">
+        <img src="<%= s.image %>" alt="<%= s.fullName %> service" loading="lazy" width="400" height="267">
+        <h3><%= s.fullName %></h3>
+        <p><%= s.shortDesc %></p>
+        <span class="card-link">Learn More</span>
+      </a>
+      <% }) %>
+    </div>
+    <div class="section-action">
+      <a href="/services" class="btn btn-outline">Explore All Services</a>
+    </div>
+  </div>
+</section>
+
+<section class="values-section">
+  <div class="container">
+    <div class="values-grid">
+      <% [
+        { title: "Quality Auto Repair", desc: "Expert car repair by experienced auto mechanics with 35+ years of knowledge." },
+        { title: "Attention to Detail", desc: "Thorough inspections and meticulous workmanship on every car mechanic job." },
+        { title: "Transparency & Honesty", desc: "No hidden fees—just upfront auto repair pricing and clear communication." },
+        { title: "Efficiency", desc: "Our car mechanics work smart to get your vehicle back on the road." },
+        { title: "Always Responsive", desc: "We're available and keep you updated every step of the way." },
+        { title: "Satisfaction Guaranteed", desc: "We stand behind our auto repair work and your satisfaction is our priority." }
+      ].forEach(v => { %>
+      <div class="value-card">
+        <h3><%= v.title %></h3>
+        <p><%= v.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="about-preview">
+  <div class="container about-preview-inner">
+    <div class="about-preview-text">
+      <h2>Your Trusted Auto Mechanic in Salt Lake</h2>
+      <p>At Scott's Auto and Clutch, we understand the importance of keeping your vehicle running smoothly. Our car mechanics have been serving the Salt Lake Valley since 1990, specializing in clutch repair, transmission service, and complete car repair.</p>
+      <p>Whether you're dealing with a slipping clutch from navigating Big Cottonwood Canyon, need brake service after commuting on I-15, or require routine auto repair—we're here to help. Our auto mechanics service all makes and models, from daily drivers to trucks and performance vehicles.</p>
+      <p>With 35+ years of experience and a commitment to honest, quality auto repair, we're not just car mechanics—we're your partners in keeping your vehicle safe and reliable.</p>
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Contact Us Today</a>
+    </div>
+    <div class="stats-grid">
+      <% [
+        { num: "35+", label: "Years Experience" },
+        { num: "1000s", label: "Repairs Completed" },
+        { num: "5", label: "Star Rated" },
+        { num: "All", label: "Makes & Models" }
+      ].forEach(s => { %>
+      <div class="stat-card">
+        <span class="stat-num"><%= s.num %></span>
+        <span class="stat-label"><%= s.label %></span>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/testimonials') %>
+
+<section class="symptoms-preview">
+  <div class="container">
+    <p class="section-label">Symptoms Guide</p>
+    <h2>Common Problems We Solve</h2>
+    <p>Experiencing any of these issues? We can help diagnose and fix them.</p>
+    <div class="symptom-tags">
+      <% allSymptoms.slice(0, 8).forEach(sy => { %>
+      <a href="/symptoms/<%= sy.slug %>" class="tag"><%= sy.shortName %></a>
+      <% }) %>
+    </div>
+    <div class="section-action">
+      <a href="/symptoms" class="btn btn-outline">View All Symptoms Guide</a>
+    </div>
+  </div>
+</section>
+
+<section class="locations-preview">
+  <div class="container">
+    <p class="section-label">Service Area</p>
+    <h2>Serving the Salt Lake Valley</h2>
+    <p>Conveniently located in South Salt Lake, serving communities throughout the valley.</p>
+    <div class="locations-grid-compact">
+      <% allLocations.slice(0, 8).forEach(l => { %>
+      <a href="/locations/<%= l.slug %>" class="location-tag">
+        <strong><%= l.name %></strong>
+        <span><%= l.isHome ? 'Our Location' : l.driveTime + ' drive' %></span>
+      </a>
+      <% }) %>
+    </div>
+    <div class="section-action">
+      <a href="/locations" class="btn btn-outline">View All Service Areas</a>
+    </div>
+    <div class="location-info-box">
+      <p><strong><%= site.fullAddress %></strong></p>
+      <p>Mon-Fri: 9:00 AM - 5:00 PM</p>
+      <p>Call or text anytime</p>
+      <div class="cta-buttons">
+        <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call Now For Service</a>
+        <a href="sms:<%= site.phoneTel %>" class="btn btn-secondary">Text For Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="brands-preview">
+  <div class="container">
+    <p class="section-label">All Makes &amp; Models</p>
+    <h2>Vehicle Brands We Service</h2>
+    <p>Expert clutch, brake, and drivetrain service for all major manufacturers.</p>
+    <div class="brands-grid">
+      <% allVehicleBrands.filter(v => v.popular).slice(0, 12).forEach(v => { %>
+      <a href="/vehicle-brands/<%= v.slug %>" class="brand-card">
+        <img src="<%= v.logoUrl %>" alt="<%= v.name %> logo" class="brand-logo" loading="lazy" width="80" height="80">
+        <h3><%= v.name %></h3>
+      </a>
+      <% }) %>
+    </div>
+    <div class="section-action">
+      <a href="/vehicle-brands" class="btn btn-outline">View All Vehicle Brands</a>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>

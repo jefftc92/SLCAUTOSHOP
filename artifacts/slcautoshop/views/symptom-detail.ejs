@@ -1,0 +1,88 @@
+<%- include('partials/header') %>
+
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Symptoms Guide',url:'/symptoms'},{label:symptom.shortName}]}) %>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('/assets/hero-600-DnXM3vMX.webp')"></div>
+  <div class="container">
+    <span class="symptom-priority priority-<%= symptom.priority.toLowerCase() %>"><%= symptom.priority %> Priority</span>
+    <h1><%= symptom.name %> — Repair in South Salt Lake UT</h1>
+    <p><%= symptom.intro %></p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Our Diagnosis Process</h2>
+    <p class="section-subtitle">From diagnosis to repair, we keep you informed every step of the way.</p>
+    <div class="process-steps">
+      <% [
+        { step: 1, title: "Describe Symptoms", desc: "Call or text us to describe what you're experiencing with your vehicle." },
+        { step: 2, title: "Free Diagnosis", desc: "Bring your vehicle in and our technicians will perform a thorough inspection." },
+        { step: 3, title: "Detailed Quote", desc: "We explain what we found and provide a clear, upfront quote before any work begins." },
+        { step: 4, title: "Expert Repair", desc: "Our experienced technicians complete the repair using quality parts and proven techniques." },
+        { step: 5, title: "Quality Check", desc: "We test drive and verify the repair is complete before returning your vehicle." }
+      ].forEach(p => { %>
+      <div class="process-step">
+        <span class="step-num"><%= p.step %></span>
+        <div>
+          <h3><%= p.title %></h3>
+          <p><%= p.desc %></p>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Why <%= symptom.name %> Happens</h2>
+    <p class="section-subtitle">These are the most common reasons drivers experience this symptom.</p>
+    <div class="issues-grid">
+      <% symptom.causes.forEach(c => { %>
+      <div class="issue-card">
+        <h3><%= c.title %></h3>
+        <p><%= c.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<% if (relatedService) { %>
+<section class="content-section">
+  <div class="container">
+    <h2>Recommended Service</h2>
+    <a href="/services/<%= relatedService.slug %>" class="service-link-card" style="display:block;max-width:500px">
+      <strong><%= relatedService.fullName %></strong>
+      <span><%= relatedService.shortDesc %></span>
+    </a>
+  </div>
+</section>
+<% } %>
+
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Other Symptoms</h2>
+    <div class="symptom-tags">
+      <% allSymptoms.filter(s => s.slug !== symptom.slug).slice(0, 10).forEach(sy => { %>
+      <a href="/symptoms/<%= sy.slug %>" class="tag"><%= sy.shortName %></a>
+      <% }) %>
+    </div>
+    <div class="section-action">
+      <a href="/symptoms" class="btn btn-outline">View All Symptoms</a>
+    </div>
+  </div>
+</section>
+
+<% var faqAlt = false; %>
+<%- include('partials/faq') %>
+
+<% var ctaTitle = "Experiencing " + symptom.shortName + "?"; var ctaDesc = "Contact Scott's Auto and Clutch today for a free diagnosis. We'll get your vehicle running right."; %>
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>

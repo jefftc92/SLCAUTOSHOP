@@ -1,0 +1,162 @@
+<%- include('partials/header') %>
+
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Service Areas',url:'/locations'},{label:location.name}]}) %>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('<%= site.symptomsHeroImage %>')"></div>
+  <div class="container">
+    <h1><%= location.heading %></h1>
+    <p><%= location.intro %></p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>The Shop <%= location.name %> Drivers Rely On</h2>
+    <p><%= location.whyChooseUs %></p>
+    <% if (locSeo && locSeo.keywordIntro) { %>
+    <p style="margin-top:1rem"><%= locSeo.keywordIntro %></p>
+    <% } %>
+    <div class="visit-grid" style="margin-top:2rem">
+      <div class="visit-detail"><h3>Distance</h3><p><%= location.distance %><% if (!location.isHome) { %> (<%= location.driveTime %>)<% } %></p></div>
+      <div class="visit-detail"><h3>Hours</h3><p><%= site.hoursShort %><br><%= site.satHours %></p></div>
+      <div class="visit-detail"><h3>Zip Codes We Serve</h3><p><%= location.zipCodes.join(', ') %></p></div>
+    </div>
+  </div>
+</section>
+
+<% if (locSeo && locSeo.commonNeeds && locSeo.commonNeeds.length) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Auto Repair Services <%= location.name %> Drivers Need Most</h2>
+    <p>Based on 35+ years of serving <%= location.name %> drivers, these are the services we perform most often for vehicles in this area—and why the local driving conditions create demand for each one.</p>
+    <div class="issues-grid">
+      <% locSeo.commonNeeds.forEach(need => { %>
+      <div class="issue-card">
+        <h3><%= need.service %> in <%= location.name %></h3>
+        <p><%= need.context %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<% if (locSeo && locSeo.vehicleContext) { %>
+<section class="content-section">
+  <div class="container">
+    <h2>Vehicles We Service in <%= location.name %></h2>
+    <p><%= locSeo.vehicleContext %></p>
+  </div>
+</section>
+<% } %>
+
+<% if (locSeo && locSeo.routeInfo) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>How to Get to Our Shop from <%= location.name %></h2>
+    <p><%= locSeo.routeInfo %></p>
+  </div>
+</section>
+<% } %>
+
+<% if (location.landmarks && location.landmarks.length) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Directions from <%= location.name %> Landmarks</h2>
+    <p>Find us easily from popular <%= location.name %> locations. Our shop is at 144 W Crystal Ave in South Salt Lake.</p>
+    <div class="issues-grid">
+      <% location.landmarks.forEach(lm => { %>
+      <div class="issue-card">
+        <h3><%= lm.name %></h3>
+        <p><strong><%= lm.distance %> from our shop</strong></p>
+        <p><%= lm.tip %></p>
+      </div>
+      <% }) %>
+    </div>
+    <div style="margin-top:1.5rem">
+      <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions from <%= location.name %></a>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<% if (location.drivingTips && location.drivingTips.length) { %>
+<section class="content-section">
+  <div class="container">
+    <h2>Driving Tips for <%= location.name %></h2>
+    <div class="process-steps">
+      <% location.drivingTips.forEach((tip, i) => { %>
+      <div class="process-step">
+        <span class="step-num"><%= i + 1 %></span>
+        <div><p><%= tip %></p></div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<% if (location.aboutCity) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>About <%= location.name %></h2>
+    <div class="prose"><p><%= location.aboutCity %></p></div>
+  </div>
+</section>
+<% } %>
+
+<% if (location.neighborhoods && location.neighborhoods.length) { %>
+<section class="content-section">
+  <div class="container">
+    <h2>Neighborhoods We Serve in <%= location.name %></h2>
+    <div class="brand-tags">
+      <% location.neighborhoods.forEach(n => { %>
+      <span class="tag"><%= n %></span>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Auto Services for <%= location.name %> Drivers</h2>
+    <div class="services-grid small">
+      <% services.slice(0, 6).forEach(s => { %>
+      <a href="/services/<%= s.slug %>" class="service-card">
+        <h3><%= s.name %></h3>
+        <p><%= s.shortDesc %></p>
+        <span class="card-link">View service</span>
+      </a>
+      <% }) %>
+    </div>
+    <div class="section-action">
+      <a href="/services" class="btn btn-outline">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Other Service Areas</h2>
+    <div class="brand-tags">
+      <% allLocations.filter(l => l.slug !== location.slug).forEach(l => { %>
+      <a href="/locations/<%= l.slug %>" class="tag"><%= l.name %></a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/testimonials') %>
+
+<% var faqAlt = false; %>
+<%- include('partials/faq') %>
+
+<% var ctaTitle = "Need Auto Repair Near " + location.name + "?"; var ctaDesc = "Contact Scott's Auto and Clutch today." + (!location.isHome ? " We're just " + location.distance + " from " + location.name + "." : ""); %>
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>

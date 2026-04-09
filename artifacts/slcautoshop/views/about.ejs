@@ -1,0 +1,119 @@
+<%- include('partials/header') %>
+
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'About Us'}]}) %>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('<%= site.symptomsHeroImage %>')"></div>
+  <div class="container">
+    <h1>Family-Owned Auto Mechanic in South Salt Lake</h1>
+    <p>For over 36 years, SLC Auto Shop has been the trusted name for auto repair and car mechanic services in South Salt Lake and the surrounding Salt Lake Valley. We're clutch repair specialists who also provide complete car repair—all with honest pricing and quality workmanship from experienced auto mechanics.</p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="stats-banner">
+  <div class="container">
+    <div class="stats-grid">
+      <% [
+        { num: "36+", label: "Years Experience" },
+        { num: "5,000+", label: "Happy Customers" },
+        { num: "10,000+", label: "Repairs Completed" },
+        { num: "100%", label: "Satisfaction Focus" }
+      ].forEach(s => { %>
+      <div class="stat-card">
+        <span class="stat-num"><%= s.num %></span>
+        <span class="stat-label"><%= s.label %></span>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Our Story</h2>
+    <p class="section-subtitle">From a small clutch specialty shop to a full-service auto repair and car mechanic center.</p>
+    <div class="prose">
+      <p>SLC Auto Shop was founded in 1990 with a simple mission: provide honest, quality car repair at fair prices. What started as a clutch specialty shop has grown into a full-service auto repair center serving drivers throughout the Salt Lake Valley.</p>
+      <p>Our founder learned early on that the key to a successful auto mechanic business isn't just fixing cars—it's building trust. That means explaining problems clearly, offering options instead of pressure, and standing behind our car repair work. It's an approach that's earned us loyal customers who've been coming back for over two decades.</p>
+      <p>Today, we still specialize in clutch repair—it's in our name, after all—but we've expanded to offer complete car repair and auto mechanic services. From brake repair to timing belt replacement, engine diagnostics to exhaust work, our experienced car mechanics handle it all. We work on all makes and models, domestic and import, and we treat every vehicle like it's our own.</p>
+    </div>
+  </div>
+</section>
+
+<section class="values-section alt-bg">
+  <div class="container">
+    <h2>Our Values</h2>
+    <p class="section-subtitle">What sets us apart from other car mechanics and auto repair shops in South Salt Lake.</p>
+    <div class="values-grid">
+      <% [
+        { title: "Honest Service", desc: "We explain what's wrong, give you options, and never push unnecessary repairs. You'll always know exactly what you're paying for." },
+        { title: "Fair Pricing", desc: "Competitive rates without hidden fees. We provide detailed estimates before any work begins." },
+        { title: "Quality Parts", desc: "We use OEM and quality aftermarket parts that meet or exceed manufacturer specifications." },
+        { title: "Expert Technicians", desc: "Our experienced mechanics are trained to work on all makes and models, domestic and import." }
+      ].forEach(v => { %>
+      <div class="value-card">
+        <h3><%= v.title %></h3>
+        <p><%= v.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Services We Offer</h2>
+    <p class="section-subtitle">Complete auto repair and maintenance for all makes and models.</p>
+    <div class="service-links-grid">
+      <% services.slice(0, 6).forEach(s => { %>
+      <a href="/services/<%= s.slug %>" class="service-link-card">
+        <strong><%= s.name %></strong>
+        <span><%= s.shortDesc %></span>
+      </a>
+      <% }) %>
+    </div>
+    <div class="section-action">
+      <a href="/services" class="btn btn-outline">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<section class="visit-section alt-bg">
+  <div class="container">
+    <h2>Visit Our Shop</h2>
+    <p class="section-subtitle">Conveniently located in South Salt Lake, just off I-15.</p>
+    <div class="visit-grid">
+      <div class="visit-info">
+        <div class="visit-detail"><h3>Address</h3><p><%= site.fullAddress %></p></div>
+        <div class="visit-detail"><h3>Phone</h3><p><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></p></div>
+        <div class="visit-detail"><h3>Hours</h3><p><%= site.hours %><br><%= site.sunHours %></p></div>
+        <div class="cta-buttons">
+          <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions</a>
+          <a href="tel:<%= site.phoneTel %>" class="btn btn-secondary">Call Us</a>
+        </div>
+      </div>
+      <div class="visit-areas">
+        <h3>Areas We Serve</h3>
+        <div class="location-tags-compact">
+          <% allLocations.slice(0, 8).forEach(l => { %>
+          <a href="/locations/<%= l.slug %>" class="tag"><%= l.name %></a>
+          <% }) %>
+        </div>
+        <div class="section-action">
+          <a href="/locations" class="btn btn-outline">View Service Areas</a>
+          <a href="/contact" class="btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/testimonials') %>
+
+<% var ctaTitle = "Ready to Experience Honest Auto Repair?"; var ctaDesc = "Contact SLC Auto Shop today for a free diagnosis. We'll take care of your vehicle like it's our own."; %>
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>

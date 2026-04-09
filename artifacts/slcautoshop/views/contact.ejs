@@ -1,0 +1,78 @@
+<%- include('partials/header') %>
+
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Contact'}]}) %>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('<%= site.symptomsHeroImage %>')"></div>
+  <div class="container">
+    <p class="section-label">South Salt Lake Auto Repair</p>
+    <h1>Contact Scott's Auto and Clutch</h1>
+    <p>Ready to schedule your clutch repair, brake service, or transmission work? Call or text us today for a free quote. We're here to help Salt Lake Valley drivers get back on the road.</p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us for a Quote</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Get in Touch with Our Team</h2>
+    <p>Scott's Auto and Clutch has been serving Salt Lake Valley drivers since 1990. Whether you need clutch replacement, brake repair, CV axle service, or transmission diagnostics, we're here to help. Give us a call or send a text message to discuss your vehicle's needs and get a free quote.</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Call Us</h3>
+        <p>Speak directly with our team about your auto repair needs</p>
+        <a href="tel:<%= site.phoneTel %>" class="btn btn-primary"><%= site.phone %></a>
+      </div>
+      <div class="contact-card">
+        <h3>Text Us</h3>
+        <p>Send a text with your vehicle info and we'll respond with a quote</p>
+        <a href="sms:<%= site.phoneSms %>" class="btn btn-primary"><%= site.phone %></a>
+      </div>
+    </div>
+
+    <div class="visit-grid" style="margin-top:3rem">
+      <div class="visit-detail"><h3>Shop Location</h3><p><%= site.fullAddress %></p></div>
+      <div class="visit-detail"><h3>Business Hours</h3><p>Mon-Fri: 8AM-5PM<br><%= site.satHours %></p></div>
+    </div>
+    <a href="<%= site.directionsUrl %>" class="btn btn-outline" target="_blank" rel="noopener">Get Directions to Our Shop</a>
+  </div>
+</section>
+
+<section class="values-section alt-bg">
+  <div class="container">
+    <h2>Why Salt Lake Valley Drivers Choose Scott's Auto</h2>
+    <p class="section-subtitle">For over 35 years, we've been the trusted clutch and transmission specialists.</p>
+    <div class="values-grid">
+      <% [
+        { title: "Clutch Specialists", desc: "Expert clutch repair and replacement for all makes and models" },
+        { title: "All Makes & Models", desc: "From Honda to Ford, we service all vehicle brands" },
+        { title: "Honest Quotes", desc: "Transparent pricing with no hidden fees or surprises" },
+        { title: "35+ Years Experience", desc: "Family-owned and operated since 1990" }
+      ].forEach(v => { %>
+      <div class="value-card">
+        <h3><%= v.title %></h3>
+        <p><%= v.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Serving the Salt Lake Valley</h2>
+    <p>Our South Salt Lake shop is conveniently located to serve drivers from these communities.</p>
+    <div class="brand-tags">
+      <% allLocations.forEach(l => { %>
+      <span class="tag"><%= l.name %><% if (!l.isHome) { %> (<%= l.distance %>)<% } %></span>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<% var ctaTitle = "Ready to Get Started?"; var ctaDesc = "Contact Scott's Auto and Clutch today for a free quote on your clutch repair, brake service, or transmission work."; %>
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>

@@ -1,0 +1,32 @@
+<%- include('partials/header') %>
+
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Service Areas'}]}) %>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('<%= site.symptomsHeroImage %>')"></div>
+  <div class="container">
+    <h1>Service Areas — Salt Lake Valley Auto Repair</h1>
+    <p>Conveniently located in South Salt Lake, Scott's Auto and Clutch serves drivers throughout the Salt Lake Valley. Find your community below.</p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <div class="locations-grid">
+      <% allLocations.forEach(l => { %>
+      <a href="/locations/<%= l.slug %>" class="location-card">
+        <h3><%= l.name %>, UT</h3>
+        <p><%= l.isHome ? 'Our Location' : l.distance + ' (' + l.driveTime + ' drive)' %></p>
+        <span class="card-link">View Details</span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>

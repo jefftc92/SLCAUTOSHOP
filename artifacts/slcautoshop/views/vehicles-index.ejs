@@ -1,0 +1,42 @@
+<%- include('partials/header') %>
+
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Vehicle Brands'}]}) %>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('<%= site.heroImage %>')"></div>
+  <div class="container">
+    <h1>Vehicle Brands We Service</h1>
+    <p>Expert clutch, brake, and drivetrain service for all major manufacturers. Select your vehicle brand below for more information.</p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Popular Brands</h2>
+    <div class="brands-grid">
+      <% allVehicleBrands.filter(v => v.popular).forEach(v => { %>
+      <a href="/vehicle-brands/<%= v.slug %>" class="brand-card">
+        <img src="<%= v.logoUrl %>" alt="<%= v.name %> logo" class="brand-logo" loading="lazy" width="80" height="80">
+        <h3><%= v.name %></h3>
+      </a>
+      <% }) %>
+    </div>
+
+    <h2 style="margin-top:3rem">All Brands</h2>
+    <div class="brands-grid">
+      <% allVehicleBrands.filter(v => !v.popular).forEach(v => { %>
+      <a href="/vehicle-brands/<%= v.slug %>" class="brand-card">
+        <img src="<%= v.logoUrl %>" alt="<%= v.name %> logo" class="brand-logo" loading="lazy" width="80" height="80">
+        <h3><%= v.name %></h3>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>

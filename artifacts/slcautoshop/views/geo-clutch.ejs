@@ -1,0 +1,116 @@
+<%- include('partials/header') %>
+
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Services',url:'/services'},{label:'Clutch Repair',url:'/services/clutch-repair-south-salt-lake-ut'},{label:geo.locationName}]}) %>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('/assets/hero-600-DnXM3vMX.webp')"></div>
+  <div class="container">
+    <h1><%= geo.heading %></h1>
+    <p><%= geo.intro %></p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Why <%= geo.locationName %> Drivers Need Clutch Specialists</h2>
+    <div class="prose">
+      <p><%= geo.localContent %></p>
+    </div>
+    <div class="visit-grid" style="margin-top:2rem">
+      <div class="visit-detail"><h3>Distance from <%= geo.locationName %></h3><p><%= geo.distance %> (<%= geo.driveTime %> drive)</p></div>
+      <div class="visit-detail"><h3>Hours</h3><p><%= site.hoursShort %></p></div>
+      <div class="visit-detail"><h3>Specialization</h3><p>Clutch repair since 1990 — 35+ years</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Local Clutch Tip for <%= geo.locationName %> Drivers</h2>
+    <div class="issue-card" style="max-width:700px">
+      <p style="font-size:1.05rem;line-height:1.7"><%= geo.localTip %></p>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>What Our Clutch Repair Covers</h2>
+    <ul class="checklist">
+      <% clutchService.coverageList.forEach(item => { %>
+      <li><%= item %></li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
+
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Why <%= geo.locationName %> Drivers Choose Us</h2>
+    <div class="values-grid">
+      <% clutchService.whyUs.forEach(w => { %>
+      <div class="value-card">
+        <h3><%= w.title %></h3>
+        <p><%= w.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Common Clutch Symptoms</h2>
+    <p>Experiencing any of these? We can help. Click a symptom for more details.</p>
+    <div class="symptoms-grid" style="margin-top:1rem">
+      <% allSymptoms.filter(s => s.category === 'Clutch').slice(0, 4).forEach(sy => { %>
+      <a href="/symptoms/<%= sy.slug %>" class="symptom-card">
+        <h3><%= sy.shortName %></h3>
+        <span class="card-link">Learn more</span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Related Services</h2>
+    <div class="services-grid small">
+      <% services.filter(s => ['cv-joint-repair-south-salt-lake-ut','brake-service-south-salt-lake-ut','timing-chain-repair-south-salt-lake-ut'].includes(s.slug)).forEach(s => { %>
+      <a href="/services/<%= s.slug %>" class="service-card">
+        <h3><%= s.name %></h3>
+        <p><%= s.shortDesc %></p>
+        <span class="card-link">View service</span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Clutch Repair for Other Areas</h2>
+    <div class="locations-grid-compact">
+      <% allLocations.filter(l => !l.isHome).forEach(l => { %>
+      <a href="/services/clutch-repair-near-<%= l.slug.replace('-auto-repair','') %>" class="location-tag">
+        <strong><%= l.name %></strong>
+        <span><%= l.distance %></span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/testimonials') %>
+
+<% var faqAlt = true; %>
+<%- include('partials/faq') %>
+
+<% var ctaTitle = "Need Clutch Repair Near " + geo.locationName + "?"; var ctaDesc = "Contact Scott's Auto and Clutch today. We're just " + geo.distance + " from " + geo.locationName + "."; %>
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>

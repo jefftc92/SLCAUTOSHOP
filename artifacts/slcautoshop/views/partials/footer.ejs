@@ -1,0 +1,82 @@
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="<%= site.footerLogo %>" alt="Scott's Auto and Clutch logo" class="footer-logo" style="height:90px;width:auto;border-radius:6px;background:#fff;padding:6px 10px" loading="lazy">
+          <p>Your trusted auto mechanic since 1990. Serving the Salt Lake Valley for over 35 years.</p>
+          <address>
+            <%= site.address %><br>
+            <%= site.city %>, <%= site.state %> <%= site.zip %>
+          </address>
+          <a href="tel:<%= site.phoneTel %>" class="footer-phone"><%= site.phone %></a>
+          <p class="footer-hours"><%= site.hours %></p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Our Services</h3>
+          <ul>
+            <% services.slice(0, 12).forEach(s => { %>
+            <li><a href="/services/<%= s.slug %>"><%= s.name %></a></li>
+            <% }) %>
+            <li><a href="/services">View All Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Service Areas</h3>
+          <ul>
+            <% allLocations.slice(0, 12).forEach(l => { %>
+            <li><a href="/locations/<%= l.slug %>"><%= l.name %></a></li>
+            <% }) %>
+            <li><a href="/locations">All Service Areas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Common Problems</h3>
+          <ul>
+            <% allSymptoms.slice(0, 12).forEach(sy => { %>
+            <li><a href="/symptoms/<%= sy.slug %>"><%= sy.shortName %></a></li>
+            <% }) %>
+            <li><a href="/symptoms">All Symptoms Guide</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Vehicle Brands</h3>
+          <ul>
+            <% allVehicleBrands.filter(v => v.popular).slice(0, 12).forEach(v => { %>
+            <li><a href="/vehicle-brands/<%= v.slug %>"><%= v.name %></a></li>
+            <% }) %>
+            <li><a href="/vehicle-brands">All Vehicle Brands</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call Now: <%= site.phone %></a>
+        <div class="footer-links">
+          <a href="/about">About Us</a> |
+          <a href="/contact">Contact</a> |
+          <a href="/privacy">Privacy Policy</a> |
+          <a href="/terms">Terms of Service</a>
+        </div>
+        <p>&copy; <%= new Date().getFullYear() %> <%= site.name %>. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky CTA bar -->
+  <div class="mobile-cta-bar" role="complementary" aria-label="Quick contact">
+    <a href="tel:<%= site.phoneTel %>" class="mobile-cta-call" aria-label="Call <%= site.name %>">📞 Call Now</a>
+    <a href="sms:<%= site.phoneSms %>" class="mobile-cta-text" aria-label="Text <%= site.name %>">💬 Text Us</a>
+  </div>
+
+  <script>
+    // Mobile nav close on link click
+    document.querySelectorAll('.main-nav .nav-link').forEach(link => {
+      link.addEventListener('click', () => document.body.classList.remove('nav-open'));
+    });
+  </script>
+</body>
+</html>

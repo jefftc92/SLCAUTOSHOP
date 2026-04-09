@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label: pageTitle}]}) %>
+<section class="content-section">
+  <div class="container prose">
+    <h1><%= pageTitle %></h1>
+    <p><em>Last updated: February 4, 2026</em></p>
+    <%- content %>
+  </div>
+</section>
+<%- include('partials/footer') %>

@@ -1,0 +1,19 @@
+<section class="testimonials-section">
+  <div class="container">
+    <h2><%= typeof testimonialTitle !== 'undefined' ? testimonialTitle : 'What Our Customers Say' %></h2>
+    <div class="testimonials-grid">
+      <% site.testimonials.forEach(t => { %>
+      <div class="testimonial-card">
+        <p class="testimonial-quote">&ldquo;<%= t.quote %>&rdquo;</p>
+        <div class="testimonial-author">
+          <span class="testimonial-initial"><%= t.initial %></span>
+          <div>
+            <strong><%= t.name %></strong>
+            <span><%= t.location %></span>
+          </div>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>

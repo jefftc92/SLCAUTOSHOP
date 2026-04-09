@@ -1,0 +1,10 @@
+<% var bc = typeof breadcrumbs !== 'undefined' ? breadcrumbs : (typeof locals !== 'undefined' && locals.breadcrumbs ? locals.breadcrumbs : []); %>
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    <% bc.forEach((crumb, i) => { %>
+    <li<%= i === bc.length - 1 ? ' aria-current="page"' : '' %>>
+      <% if (crumb.url) { %><a href="<%= crumb.url %>"><%= crumb.label %></a><% } else { %><%= crumb.label %><% } %>
+    </li>
+    <% }) %>
+  </ol>
+</nav>

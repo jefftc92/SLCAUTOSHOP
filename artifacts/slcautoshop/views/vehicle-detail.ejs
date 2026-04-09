@@ -1,0 +1,118 @@
+<%- include('partials/header') %>
+
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Vehicle Brands',url:'/vehicle-brands'},{label:brand.name}]}) %>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('<%= brand.heroImage || site.heroImage %>')"></div>
+  <div class="container">
+    <h1><%= brand.heading %></h1>
+    <p><%= brand.intro %></p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I need service for my ' + brand.name + '.') %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="values-section">
+  <div class="container">
+    <h2>Why <%= brand.name %> Drivers Choose Us</h2>
+    <div class="values-grid">
+      <% [
+        { title: "35+ Years Experience", desc: "Our technicians have decades of hands-on experience working on all vehicle makes and models." },
+        { title: "Quality Parts", desc: "We use OEM and quality aftermarket parts that meet or exceed manufacturer specifications." },
+        { title: "Same-Day Service", desc: "Many repairs completed same-day. We respect your time and work efficiently." },
+        { title: "Honest Pricing", desc: "No surprises. We provide upfront quotes and explain every repair before we start." }
+      ].forEach(v => { %>
+      <div class="value-card">
+        <h3><%= v.title %></h3>
+        <p><%= v.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<% if (brandContent && brandContent.issues && brandContent.issues.length) { %>
+<section class="content-section">
+  <div class="container">
+    <h2>Common <%= brand.name %> Issues We Repair</h2>
+    <p>These are the most frequent <%= brand.name %>-specific problems we see at our South Salt Lake shop.</p>
+    <div class="issues-grid">
+      <% brandContent.issues.forEach(issue => { %>
+      <div class="issue-card">
+        <h3><%= issue.t %></h3>
+        <p><%= issue.d %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Expert <%= brand.name %> Mechanics Near You</h2>
+    <h3>Common <%= brand.name %> Models We Service</h3>
+    <div class="brand-tags">
+      <% brand.models.forEach(m => { %>
+      <span class="tag"><%= brand.name %> <%= m %></span>
+      <% }) %>
+    </div>
+    <p style="margin-top:1rem">Don't see your <%= brand.name %> model listed? No problem! We service all <%= brand.name %> vehicles. Give us a call to discuss your specific vehicle.</p>
+  </div>
+</section>
+
+<% if (brandContent && brandContent.tips && brandContent.tips.length) { %>
+<section class="content-section">
+  <div class="container">
+    <h2><%= brand.name %> Maintenance Tips for Utah Drivers</h2>
+    <div class="process-steps">
+      <% brandContent.tips.forEach((tip, i) => { %>
+      <div class="process-step">
+        <span class="step-num"><%= i + 1 %></span>
+        <div><p><%= tip %></p></div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Our <%= brand.name %> Repair Capabilities</h2>
+    <div class="services-grid small">
+      <% services.forEach(s => { %>
+      <a href="/services/<%= s.slug %>" class="service-card">
+        <h3><%= brand.name %> <%= s.name %></h3>
+        <p><%= s.shortDesc %></p>
+        <span class="card-link">View service</span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<% var faqAlt = false; %>
+<%- include('partials/faq') %>
+
+<%- include('partials/testimonials') %>
+
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Other Vehicle Brands</h2>
+    <div class="brand-tags">
+      <% allVehicleBrands.filter(v => v.slug !== brand.slug).slice(0, 15).forEach(v => { %>
+      <a href="/vehicle-brands/<%= v.slug %>" class="tag"><%= v.name %></a>
+      <% }) %>
+    </div>
+    <div class="section-action">
+      <a href="/vehicle-brands" class="btn btn-outline">View All Brands</a>
+    </div>
+  </div>
+</section>
+
+<% var ctaTitle = "Need " + brand.name + " Repair?"; var ctaDesc = "Contact Scott's Auto and Clutch today. Expert " + brand.name + " service at honest prices."; %>
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>
