@@ -35,7 +35,7 @@ ul,ol{list-style:none}address{font-style:normal}
 .nav-link .arrow{border:solid var(--c-text-dim);border-width:0 1.5px 1.5px 0;display:inline-block;padding:2px;transform:rotate(45deg);margin-top:-2px;transition:transform .2s}
 .nav-item:hover .nav-link .arrow{transform:rotate(-135deg);margin-top:2px}
 .nav-dropdown{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid var(--c-border);border-radius:var(--radius);box-shadow:var(--shadow-lg);min-width:250px;padding:.5rem 0;z-index:200}
-.nav-item:hover .nav-dropdown{display:block}
+.nav-item:hover .nav-dropdown,.nav-item.click-open .nav-dropdown{display:block}
 .nav-dropdown a{display:block;padding:.45rem 1rem;font-size:.84rem;color:var(--c-text-muted);transition:all var(--transition)}
 .nav-dropdown a:hover{background:var(--c-primary-light);color:var(--c-primary)}
 .nav-dropdown .dd-label{padding:.5rem 1rem .2rem;font-size:.68rem;font-weight:700;color:var(--c-text-dim);text-transform:uppercase;letter-spacing:.06em}

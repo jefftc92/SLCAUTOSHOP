@@ -122,3 +122,27 @@
       </nav>
     </div>
   </header>
+  <script>
+    (function() {
+      var items = document.querySelectorAll('.nav-item');
+      items.forEach(function(item) {
+        var dropdown = item.querySelector('.nav-dropdown');
+        if (!dropdown) return;
+        var link = item.querySelector('.nav-link');
+        if (!link) return;
+        link.addEventListener('click', function(e) {
+          var isMobile = window.innerWidth <= 768;
+          if (isMobile) return;
+          e.preventDefault();
+          var isOpen = item.classList.contains('click-open');
+          items.forEach(function(i) { i.classList.remove('click-open'); });
+          if (!isOpen) item.classList.add('click-open');
+        });
+      });
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.nav-item')) {
+          items.forEach(function(i) { i.classList.remove('click-open'); });
+        }
+      });
+    })();
+  </script>
