@@ -116,7 +116,19 @@
           </div>
         </div>
 
-        <a href="/about" class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'about' ? ' active' : '' %>">About</a>
+        <!-- About Dropdown -->
+        <div class="nav-item">
+          <a href="/about" class="nav-link<%= typeof activePage !== 'undefined' && activePage === 'about' ? ' active' : '' %>" onclick="this.parentElement.classList.toggle('mobile-open')">
+            About <i class="arrow"></i>
+          </a>
+          <div class="nav-dropdown">
+            <a href="/about">About Us</a>
+            <a href="/contact">Contact Us</a>
+            <div class="dd-divider"></div>
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/terms">Terms of Service</a>
+          </div>
+        </div>
 
         <a href="tel:<%= site.phoneTel %>" class="nav-phone"><%= site.phone %></a>
       </nav>
