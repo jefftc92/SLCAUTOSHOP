@@ -23,7 +23,15 @@
       <div class="symptoms-grid">
         <% allSymptoms.filter(s => s.category === cat).forEach(sy => { %>
         <a href="/symptoms/<%= sy.slug %>" class="symptom-card">
-          <span class="symptom-priority priority-<%= sy.priority.toLowerCase() %>"><%= sy.priority %> Priority</span>
+          <span class="symptom-icon"><%=
+            sy.category === 'Clutch' ? '🔧' :
+            sy.category === 'Brakes' ? '🛑' :
+            sy.category === 'Exhaust' ? '💨' :
+            sy.category === 'Suspension' ? '🚗' :
+            sy.category === 'CV Joint' ? '⚙️' :
+            sy.category === 'Cooling' ? '🌡️' :
+            sy.category === 'Timing' ? '⏱️' : '🔍'
+          %></span>
           <h3><%= sy.name %></h3>
           <span class="card-link">Learn More</span>
         </a>

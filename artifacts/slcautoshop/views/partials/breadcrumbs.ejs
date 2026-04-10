@@ -1,5 +1,6 @@
 <% var bc = typeof breadcrumbs !== 'undefined' ? breadcrumbs : (typeof locals !== 'undefined' && locals.breadcrumbs ? locals.breadcrumbs : []); %>
 <nav class="breadcrumbs" aria-label="Breadcrumb">
+  <div class="container">
   <ol>
     <% bc.forEach((crumb, i) => { %>
     <li<%= i === bc.length - 1 ? ' aria-current="page"' : '' %>>
@@ -7,4 +8,5 @@
     </li>
     <% }) %>
   </ol>
+  </div>
 </nav>

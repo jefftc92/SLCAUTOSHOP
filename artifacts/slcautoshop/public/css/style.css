@@ -182,6 +182,7 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
 .symptom-priority{display:inline-block;padding:.2rem .6rem;border-radius:var(--radius-sm);font-size:.73rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
 .priority-high{background:#fef2f2;color:var(--c-danger)}
 .priority-medium{background:#fefce8;color:var(--c-warning)}
+.symptom-icon{display:inline-block;font-size:1.75rem;line-height:1;margin-bottom:.25rem}
 
 /* === Issues === */
 .issues-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem;margin-top:1.5rem}

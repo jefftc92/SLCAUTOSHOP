@@ -17,7 +17,7 @@ module.exports = {
   yearsExperience: "36+",
   domain: "https://slcautoshop.com",
   directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=144%20W%20Crystal%20Ave%2C%20Salt%20Lake%20City%2C%20UT%2084117",
-  headerLogo: "/assets/scotts-logo.svg",
+  headerLogo: "/assets/header-logo-CbiMbQv6.webp",
   footerLogo: "/assets/scotts-logo.svg",
   heroImage: "/images/hero.webp",
   symptomsHeroImage: "/images/symptoms-hero.webp",
