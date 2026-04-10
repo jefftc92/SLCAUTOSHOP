@@ -183,6 +183,15 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
 .priority-high{background:#fef2f2;color:var(--c-danger)}
 .priority-medium{background:#fefce8;color:var(--c-warning)}
 .symptom-icon{display:inline-block;font-size:1.75rem;line-height:1;margin-bottom:.25rem}
+.symptom-cat-chip{display:inline-block;padding:.18rem .6rem;border-radius:2rem;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#fff;margin-bottom:.5rem}
+.cat-clutch{border-top:3px solid #2563eb}.cat-clutch .symptom-cat-chip{background:#2563eb}
+.cat-brakes{border-top:3px solid #dc2626}.cat-brakes .symptom-cat-chip{background:#dc2626}
+.cat-exhaust{border-top:3px solid #6b7280}.cat-exhaust .symptom-cat-chip{background:#6b7280}
+.cat-suspension{border-top:3px solid #7c3aed}.cat-suspension .symptom-cat-chip{background:#7c3aed}
+.cat-cvjoint{border-top:3px solid #ea580c}.cat-cvjoint .symptom-cat-chip{background:#ea580c}
+.cat-cooling{border-top:3px solid #0891b2}.cat-cooling .symptom-cat-chip{background:#0891b2}
+.cat-timing{border-top:3px solid #d97706}.cat-timing .symptom-cat-chip{background:#d97706}
+.cat-general{border-top:3px solid #374151}.cat-general .symptom-cat-chip{background:#374151}
 
 /* === Issues === */
 .issues-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem;margin-top:1.5rem}
