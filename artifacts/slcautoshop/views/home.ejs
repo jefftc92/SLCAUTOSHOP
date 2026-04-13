@@ -15,7 +15,6 @@
 
 <section class="services-section">
   <div class="container">
-    <p class="section-label">Full Service</p>
     <h2>Auto Repair Services</h2>
     <div class="services-grid">
       <% services.slice(0, 8).forEach(s => { %>
@@ -112,19 +111,32 @@
     <div class="section-action">
       <a href="/locations" class="btn btn-outline">View All Service Areas</a>
     </div>
-    <div class="location-info-box">
-      <p><strong><%= site.fullAddress %></strong></p>
-      <p>Mon-Fri: 9:00 AM - 5:00 PM</p>
-      <p>Call or text anytime</p>
-      <div class="cta-buttons">
-        <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call Now For Service</a>
-        <a href="sms:<%= site.phoneTel %>" class="btn btn-secondary">Text For Quote</a>
+    <div class="location-map-row">
+      <div class="location-info-box">
+        <p><strong><%= site.fullAddress %></strong></p>
+        <p>Mon-Fri: 8:00 AM - 5:30 PM &nbsp;|&nbsp; Sat: By Appointment</p>
+        <p>Call or text anytime</p>
+        <div class="cta-buttons">
+          <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call Now For Service</a>
+          <a href="sms:<%= site.phoneTel %>" class="btn btn-secondary">Text For Quote</a>
+        </div>
+      </div>
+      <div class="location-map">
+        <iframe
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave+South+Salt+Lake+UT+84117&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          width="100%"
+          height="260"
+          style="border:0;border-radius:var(--radius);display:block"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Scott's Auto and Clutch location map"></iframe>
       </div>
     </div>
   </div>
 </section>
 
-<section class="brands-preview">
+<section class="brands-preview" style="padding-bottom:4rem">
   <div class="container">
     <p class="section-label">All Makes &amp; Models</p>
     <h2>Vehicle Brands We Service</h2>

@@ -163,8 +163,10 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
 .location-tag:hover{border-color:var(--c-primary);box-shadow:var(--shadow)}
 .location-tag strong{font-size:.88rem;color:var(--c-dark)}
 .location-tag span{font-size:.78rem;color:var(--c-text-dim)}
-.location-info-box{margin-top:2rem;background:var(--c-bg-alt);border:1px solid var(--c-border);border-radius:var(--radius);padding:1.5rem;max-width:500px}
+.location-map-row{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:2rem;align-items:start}
+.location-info-box{background:var(--c-bg-alt);border:1px solid var(--c-border);border-radius:var(--radius);padding:1.5rem}
 .location-info-box p{color:var(--c-text-muted);margin-bottom:.5rem}
+.location-map{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
 
 /* === Brands === */
 .brands-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.75rem;margin-top:1.5rem}
@@ -298,6 +300,7 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
   .stats-grid{grid-template-columns:repeat(2,1fr)}
   .values-grid{grid-template-columns:1fr}
   .btn{padding:.6rem 1.2rem;font-size:.88rem}
+  .location-map-row{grid-template-columns:1fr}
 }
 @media(max-width:480px){
   .hero{min-height:280px;max-height:340px}
