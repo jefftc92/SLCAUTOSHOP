@@ -16,6 +16,7 @@ const geoPages = require('./data/geoPages');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const CSS_VER = Date.now();
 
 // Middleware
 app.use(compression());
@@ -32,6 +33,7 @@ app.set('views', path.join(__dirname, 'views'));
 // Shared locals (available in all templates)
 app.use((req, res, next) => {
   res.locals.site = site;
+  res.locals.cssVer = CSS_VER;
   res.locals.services = services;
   res.locals.allLocations = locations;
   res.locals.allSymptoms = symptoms;
