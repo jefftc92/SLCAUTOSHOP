@@ -115,7 +115,7 @@ ul,ol{list-style:none}address{font-style:normal}
 .service-detail-image img{border-radius:var(--radius)}
 
 /* === Values === */
-.values-section{padding:3.5rem 0}
+.services-section,.values-section,.symptoms-preview,.locations-preview,.brands-preview{padding:3.5rem 0 5rem}
 .values-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.25rem;margin-top:2rem}
 .value-card{background:#fff;border:1px solid var(--c-border);border-radius:var(--radius);padding:1.5rem;transition:all var(--transition);box-shadow:var(--shadow-sm)}
 .value-card:hover{border-color:var(--c-primary);box-shadow:var(--shadow)}
@@ -130,13 +130,13 @@ ul,ol{list-style:none}address{font-style:normal}
 .stat-label{font-size:.83rem;color:var(--c-text-muted);margin-top:.25rem}
 
 /* === About Preview === */
-.about-preview{padding:3.5rem 0}
+.about-preview{padding:3.5rem 0 5rem}
 .about-preview-inner{display:grid;grid-template-columns:1.2fr 1fr;gap:3rem;align-items:start}
 .about-preview-text h2{margin-bottom:1rem}
 .about-preview-text p{color:var(--c-text-muted);margin-bottom:1rem}
 
 /* === Testimonials === */
-.testimonials-section{padding:3.5rem 0}
+.testimonials-section{padding:3.5rem 0 5rem}
 .testimonials-section h2{text-align:center;margin-bottom:2rem}
 .testimonials-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.25rem}
 .testimonial-card{background:#fff;border:1px solid var(--c-border);border-radius:var(--radius);padding:1.5rem;box-shadow:var(--shadow-sm);display:flex;flex-direction:column}
