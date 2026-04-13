@@ -15,7 +15,22 @@
   </div>
 </section>
 
+<% if (relatedService) { %>
 <section class="content-section">
+  <div class="container">
+    <h2>Recommended Service</h2>
+    <div class="recommended-service-block">
+      <p>For drivers experiencing <strong><%= symptom.name %></strong>, we recommend our <a href="/services/<%= relatedService.slug %>"><strong><%= relatedService.fullName %></strong></a> service. <%= relatedService.shortDesc %> Our technicians have been diagnosing and fixing this problem for Salt Lake Valley drivers since 1990 — we'll give you a clear, honest assessment and a fair quote before any work begins.</p>
+      <div style="margin-top:1.25rem;display:flex;gap:.75rem;flex-wrap:wrap">
+        <a href="/services/<%= relatedService.slug %>" class="btn btn-primary">Learn About This Service</a>
+        <a href="tel:<%= site.phoneTel %>" class="btn btn-outline">Call for a Free Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<section class="content-section alt-bg">
   <div class="container">
     <h2>Our Diagnosis Process</h2>
     <p class="section-subtitle">From diagnosis to repair, we keep you informed every step of the way.</p>
@@ -39,7 +54,7 @@
   </div>
 </section>
 
-<% var faqAlt = true; %>
+<% var faqAlt = false; %>
 <%- include('partials/faq') %>
 
 <section class="content-section alt-bg">
@@ -57,22 +72,7 @@
   </div>
 </section>
 
-<% if (relatedService) { %>
 <section class="content-section">
-  <div class="container">
-    <h2>Recommended Service</h2>
-    <div class="recommended-service-block">
-      <p>For drivers experiencing <strong><%= symptom.name %></strong>, we recommend our <a href="/services/<%= relatedService.slug %>"><strong><%= relatedService.fullName %></strong></a> service. <%= relatedService.shortDesc %> Our technicians have been diagnosing and fixing this problem for Salt Lake Valley drivers since 1990 — we'll give you a clear, honest assessment and a fair quote before any work begins.</p>
-      <div style="margin-top:1.25rem;display:flex;gap:.75rem;flex-wrap:wrap">
-        <a href="/services/<%= relatedService.slug %>" class="btn btn-primary">Learn About This Service</a>
-        <a href="tel:<%= site.phoneTel %>" class="btn btn-outline">Call for a Free Quote</a>
-      </div>
-    </div>
-  </div>
-</section>
-<% } %>
-
-<section class="content-section alt-bg">
   <div class="container">
     <h2>Other Symptoms We Diagnose</h2>
     <p class="section-subtitle">Not sure if this is your issue? Browse other common problems we fix.</p>
