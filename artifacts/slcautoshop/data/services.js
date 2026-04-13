@@ -8,17 +8,7 @@ const services = [
     heroImage: "/assets/hero-600-DnXM3vMX.webp",
     metaTitle: "Clutch Repair Specialists in South Salt Lake UT",
     metaDesc: "Expert clutch repair and replacement at Scott's Auto & Clutch in South Salt Lake. Manual transmission specialists since 1990. Call (801) 485-4089.",
-    intro: "Scott's Auto & Clutch has been South Salt Lake's trusted clutch repair specialist since 1990. Our mechanics have decades of hands-on experience with manual transmission systems, from basic adjustments to full clutch kit replacements. If your clutch feels spongy, slips under load, or makes grinding noises when shifting, bring it in for a thorough inspection and get back to smooth, confident driving.",
-    coverageList: [
-      "Complete clutch system inspection",
-      "Clutch disc replacement",
-      "Pressure plate replacement",
-      "Throw-out bearing replacement",
-      "Pilot bearing inspection and replacement",
-      "Flywheel inspection and resurfacing",
-      "Clutch hydraulic system service",
-      "Road test verification"
-    ],
+    intro: "Scott's Auto & Clutch has been South Salt Lake's trusted clutch repair specialist since 1990. Our mechanics have decades of hands-on experience with manual transmission systems, from hydraulic adjustments to full clutch replacements. If your clutch feels spongy, slips under load, or makes grinding noises when shifting, bring it in for a thorough inspection.",
     specializedServices: [
       "Clutch Replacement", "Clutch Adjustment", "Clutch Fluid Flush & Bleeding",
       "Flywheel Resurfacing", "Flywheel Replacement", "Clutch Repair",
@@ -26,33 +16,32 @@ const services = [
       "Throw-out Bearing Replacement", "Clutch Slip Diagnostic"
     ],
     whyUs: [
-      { title: "Clutch Specialists", desc: "Clutch repair is our specialty—it's literally in our name. We've been fixing clutches for over 35 years." },
-      { title: "Quality Parts", desc: "We use OEM-quality clutch kits that meet or exceed manufacturer specifications for long-lasting repairs." },
-      { title: "Complete Service", desc: "We replace the entire clutch kit—disc, pressure plate, and throw-out bearing—for a reliable repair." },
-      { title: "Honest Diagnosis", desc: "We'll explain exactly what's wrong and provide an upfront quote before starting any work." }
+      { title: "Clutch Specialists", desc: "Clutch repair is our specialty—it's literally in our name. We've been diagnosing and fixing clutches for over 35 years." },
+      { title: "Honest Diagnosis", desc: "We explain exactly what's wrong and why before recommending any repair. You'll have a clear quote and full understanding before we touch anything." },
+      { title: "Tailored Repairs", desc: "Every vehicle and clutch failure is different. We diagnose what's actually needed—no upselling, no unnecessary work." },
+      { title: "Road-Tested Results", desc: "Every clutch repair is road-tested before the car leaves the shop to verify smooth shifting and proper engagement." }
     ],
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us what you're experiencing—slipping, grinding, hard to shift, or unusual noises." },
-      { step: 2, title: "Diagnosis", desc: "We road test and inspect to identify whether the clutch disc, pressure plate, hydraulics, or other components are failing." },
+      { step: 2, title: "Diagnosis", desc: "We road test and inspect to identify whether the clutch disc, pressure plate, hydraulics, or other components are the issue." },
       { step: 3, title: "Detailed Quote", desc: "You receive a complete estimate before work begins. No surprises." },
-      { step: 4, title: "Clutch Replacement", desc: "We remove the transmission, replace the clutch components, resurface or replace the flywheel, and reassemble." },
+      { step: 4, title: "Repair", desc: "We perform the repair that your vehicle actually needs, verified against our diagnosis." },
       { step: 5, title: "Road Test & Verify", desc: "We road test to ensure smooth shifting and proper clutch engagement before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Clutch Slipping", desc: "Engine revs but the car doesn't accelerate—the clutch disc is worn and needs replacement." },
-      { title: "Hard to Shift", desc: "Difficulty getting into gear often indicates a worn clutch disc or hydraulic system issue." },
-      { title: "Grinding When Shifting", desc: "Grinding into gear suggests clutch isn't fully disengaging—could be hydraulics, cable, or throw-out bearing." },
-      { title: "Clutch Pedal Feels Soft", desc: "A spongy or soft pedal usually means air in the hydraulic system or a failing master/slave cylinder." },
-      { title: "Burning Smell", desc: "A burning smell after driving, especially in traffic or on hills, indicates a slipping clutch overheating." },
+      { title: "Clutch Slipping", desc: "Engine revs but the car doesn't accelerate—the clutch disc can no longer grip the flywheel under load.", symptomSlug: "clutch-slipping-repair-south-salt-lake" },
+      { title: "Hard to Shift", desc: "Difficulty getting into gear often indicates a worn clutch disc or a hydraulic system that isn't fully releasing.", symptomSlug: "hard-to-shift-gears-repair-south-salt-lake" },
+      { title: "Grinding When Shifting", desc: "Grinding into gear means the clutch isn't fully disengaging—could be hydraulics, the cable, or the throw-out bearing.", symptomSlug: "grinding-noise-shifting-repair-south-salt-lake" },
+      { title: "Soft Clutch Pedal", desc: "A spongy or soft pedal usually means air in the hydraulic system or a failing master or slave cylinder.", symptomSlug: "clutch-pedal-feels-soft-repair-south-salt-lake" },
+      { title: "Burning Smell", desc: "A burning smell from the clutch area, especially in traffic or on hills, indicates the clutch disc is slipping and generating excessive heat.", symptomSlug: "burning-smell-clutch-repair-south-salt-lake" },
       { title: "Noise When Pressing Clutch", desc: "Squealing or chirping when pressing the pedal often points to a worn throw-out bearing." }
     ],
     faq: [
-      { q: "How do I know if my clutch needs replacement?", a: "Common signs include slipping (engine revs without acceleration), difficulty shifting, grinding noises, a burning smell, or a soft/spongy clutch pedal." },
-      { q: "How long does a clutch replacement take?", a: "Most clutch replacements take 4-8 hours depending on the vehicle. We aim for same-day service when possible." },
-      { q: "What's included in a clutch replacement?", a: "We replace the clutch disc, pressure plate, and throw-out bearing. We also inspect and resurface or replace the flywheel." },
-      { q: "Can you resurface my flywheel?", a: "Yes, we inspect every flywheel and resurface it if possible. If it's too worn or damaged, we'll recommend replacement." },
+      { q: "How do I know if my clutch needs replacement?", a: "Common signs include slipping (engine revs without acceleration), difficulty shifting, grinding noises, a burning smell, or a soft/spongy clutch pedal. A quick inspection will tell us exactly what's going on." },
+      { q: "How long does a clutch repair take?", a: "It depends on the vehicle and what we find during diagnosis. Many clutch repairs are completed the same day; more complex situations may require additional time. We'll give you a realistic timeframe when we quote the job." },
       { q: "Do you work on trucks and SUVs?", a: "Absolutely. We service clutches on all vehicle types including trucks, SUVs, sports cars, and daily drivers." },
-      { q: "Why does my clutch smell like it's burning?", a: "A burning smell typically indicates a slipping clutch. The friction material overheats when it can't grip properly." }
+      { q: "Why does my clutch smell like it's burning?", a: "A burning smell typically indicates a slipping clutch. The friction material overheats when it can't grip properly. It's a sign the clutch is near the end of its service life." },
+      { q: "Can you just fix the hydraulic system without replacing the clutch?", a: "Yes, if the disc and pressure plate are still serviceable. We diagnose first—if only the hydraulic system is the issue, that's all we'll recommend fixing." }
     ],
     hasGeoPages: true,
     relatedSlugs: ["cv-joint-repair-south-salt-lake-ut", "brake-service-south-salt-lake-ut", "timing-chain-repair-south-salt-lake-ut"]
@@ -66,38 +55,31 @@ const services = [
     heroImage: "/assets/cv-joint-400-DttndxJM.webp",
     metaTitle: "CV Joint & Axle Repair in South Salt Lake UT",
     metaDesc: "Expert CV joint and axle repair at Scott's Auto & Clutch. CV boot replacement, axle service for all makes. Call (801) 485-4089.",
-    intro: "Scott's Auto & Clutch provides expert CV joint and axle repair for all makes and models. If you hear clicking when turning or feel vibration when accelerating, your CV joints may need attention. Our experienced mechanics will diagnose the issue and get you back on the road safely.",
-    coverageList: [
-      "CV joint inspection and diagnosis",
-      "CV axle replacement",
-      "CV boot replacement",
-      "Axle seal replacement",
-      "Road test verification"
-    ],
+    intro: "Scott's Auto & Clutch provides expert CV joint and axle repair for all makes and models. If you hear clicking when turning or feel vibration when accelerating, your CV joints may need attention. Our experienced mechanics will diagnose the issue accurately and get you back on the road safely.",
     specializedServices: ["CV Joint Replacement", "CV Axle Replacement", "CV Boot Replacement", "Axle Seal Replacement", "Drivetrain Inspection"],
     whyUs: [
-      { title: "Expert Diagnosis", desc: "We accurately diagnose CV joint issues to avoid unnecessary replacements." },
-      { title: "Quality Parts", desc: "OEM-quality CV axles and boots for lasting repairs." },
-      { title: "Fair Pricing", desc: "Upfront quotes with no hidden charges." },
-      { title: "Quick Turnaround", desc: "Most CV joint repairs completed same-day." }
+      { title: "Accurate Diagnosis", desc: "We pinpoint the exact source of the clicking or vibration before recommending any repair—avoiding unnecessary axle replacements." },
+      { title: "Quality Parts", desc: "We use OEM-quality CV axles and boots for durable, lasting repairs." },
+      { title: "Fair Pricing", desc: "Upfront quotes with no hidden charges. You know the cost before we start." },
+      { title: "Quick Turnaround", desc: "Most CV joint repairs are completed the same day." }
     ],
     process: [
-      { step: 1, title: "Describe Symptoms", desc: "Tell us about clicking, vibration, or grease leaks you've noticed." },
-      { step: 2, title: "Inspection", desc: "We inspect the CV boots, joints, and axles to find the source of the problem." },
+      { step: 1, title: "Describe Symptoms", desc: "Tell us about clicking when turning, vibration, or grease you've noticed on the inside of your wheel." },
+      { step: 2, title: "Inspection", desc: "We inspect the CV boots, joints, and axles to find the exact source of the problem." },
       { step: 3, title: "Detailed Quote", desc: "Clear estimate before any work begins." },
-      { step: 4, title: "Repair", desc: "We replace the worn CV components with quality parts." },
+      { step: 4, title: "Repair", desc: "We repair or replace the worn CV components based on what the diagnosis shows." },
       { step: 5, title: "Road Test", desc: "We verify the repair with a thorough road test." }
     ],
     commonIssues: [
-      { title: "Clicking When Turning", desc: "A clicking or popping noise during turns is the classic sign of a worn CV joint." },
-      { title: "Vibration When Accelerating", desc: "A damaged CV joint can cause vibration that worsens with speed." },
-      { title: "Grease on Inner Wheel", desc: "A torn CV boot leaks grease, which you may see on the inside of your wheel." },
-      { title: "Clunking Sound", desc: "A clunk when shifting from drive to reverse can indicate worn CV joints." }
+      { title: "Clicking When Turning", desc: "A clicking or popping noise during turns is the classic sign of a worn outer CV joint.", symptomSlug: "clicking-noise-turning-repair-south-salt-lake" },
+      { title: "Vibration When Accelerating", desc: "A damaged CV joint can cause vibration that builds with speed.", symptomSlug: "vibration-when-accelerating-repair-south-salt-lake" },
+      { title: "Grease on Inner Wheel", desc: "A torn CV boot leaks grease, which you may notice as a dark residue on the inside of your wheel or tire." },
+      { title: "Clunking Sound", desc: "A clunk when shifting from drive to reverse can indicate worn CV joints or axle play." }
     ],
     faq: [
-      { q: "What causes CV joint failure?", a: "Most commonly, the CV boot tears and lets grease out and dirt in, causing the joint to wear." },
-      { q: "Can I drive with a bad CV joint?", a: "A worn CV joint can fail completely, leaving you stranded. It's best to get it repaired promptly." },
-      { q: "How long does CV joint repair take?", a: "Most CV axle replacements take 1-3 hours." }
+      { q: "What causes CV joint failure?", a: "Most commonly, the CV boot tears and lets grease out and road grit in, causing the joint to wear out. Regular inspections catch torn boots before the joint is damaged." },
+      { q: "Can I drive with a bad CV joint?", a: "A worn CV joint can fail completely, leaving you stranded. It's best to get it repaired promptly once you notice clicking or vibration." },
+      { q: "How long does CV joint repair take?", a: "Most CV axle repairs are completed in 1–3 hours depending on the vehicle." }
     ],
     hasGeoPages: false,
     relatedSlugs: ["clutch-repair-south-salt-lake-ut", "brake-service-south-salt-lake-ut", "strut-replacement-south-salt-lake-ut"]
@@ -111,31 +93,30 @@ const services = [
     heroImage: "/assets/brake-400-CLKCOOBz.webp",
     metaTitle: "Brake Repair & Service in South Salt Lake UT",
     metaDesc: "Complete brake service at Scott's Auto & Clutch. Pads, rotors, calipers, fluid flush. Call (801) 485-4089.",
-    intro: "Your brakes are your vehicle's most important safety system. Scott's Auto & Clutch provides complete brake service for all makes and models—from pad replacement to full brake system overhauls. If you hear squeaking, grinding, or feel a soft pedal, bring it in for a thorough brake inspection.",
-    coverageList: ["Brake pad replacement", "Rotor inspection and resurfacing", "Brake caliper service", "Brake fluid flush", "Brake line inspection", "Road test verification"],
+    intro: "Your brakes are your vehicle's most important safety system. Scott's Auto & Clutch provides complete brake service for all makes and models. If you hear squeaking, grinding, or feel a soft pedal, bring it in for a thorough inspection—we'll tell you exactly what's needed and why.",
     specializedServices: ["Brake Pad Replacement", "Rotor Resurfacing", "Rotor Replacement", "Brake Caliper Service", "Brake Fluid Flush", "Brake Line Repair", "Emergency Brake Service", "ABS Diagnostics"],
     whyUs: [
-      { title: "Safety First", desc: "We never cut corners on brake repairs—your safety depends on it." },
-      { title: "Quality Parts", desc: "We use ceramic and semi-metallic pads matched to your vehicle and driving style." },
-      { title: "Complete Service", desc: "We inspect the entire brake system, not just what's making noise." },
-      { title: "Fair Pricing", desc: "Honest estimates with no surprise charges." }
+      { title: "Safety First", desc: "We never cut corners on brake repairs. Brakes are too important to guess on—we diagnose thoroughly before recommending anything." },
+      { title: "Complete Inspection", desc: "We inspect the entire brake system, not just what's making noise. Calipers, fluid, lines, and hardware all get checked." },
+      { title: "Honest Assessment", desc: "We measure pad thickness and rotor runout before recommending replacement. If your rotors can be saved, we'll tell you." },
+      { title: "Fair Pricing", desc: "Transparent estimates with no surprise charges. You'll know the full scope before work begins." }
     ],
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about squeaking, grinding, vibration, or soft pedal feel." },
-      { step: 2, title: "Brake Inspection", desc: "We measure pads, rotors, and inspect calipers, lines, and fluid." },
+      { step: 2, title: "Brake Inspection", desc: "We measure pads, rotors, and inspect calipers, lines, and fluid condition." },
       { step: 3, title: "Detailed Quote", desc: "Clear estimate before work begins." },
-      { step: 4, title: "Brake Repair", desc: "We replace worn components with quality parts." },
+      { step: 4, title: "Brake Repair", desc: "We address what the inspection found—nothing more, nothing less." },
       { step: 5, title: "Road Test", desc: "We verify proper braking performance before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Squeaking Brakes", desc: "Squealing when braking usually means pads are worn to the wear indicator." },
-      { title: "Grinding Brakes", desc: "Metal-on-metal grinding means pads are completely worn and rotors are being damaged." },
-      { title: "Soft Brake Pedal", desc: "A soft or spongy pedal may indicate air in the lines or a fluid leak." },
-      { title: "Vibration When Braking", desc: "Pulsation or vibration usually indicates warped rotors." }
+      { title: "Squeaking Brakes", desc: "Squealing when braking usually means pads have worn to the built-in wear indicator—often caught before rotors are damaged.", symptomSlug: "squeaking-brakes-repair-south-salt-lake" },
+      { title: "Grinding Brakes", desc: "Metal-on-metal grinding means pads are completely worn and rotors are being scored with every stop.", symptomSlug: "grinding-brakes-repair-south-salt-lake" },
+      { title: "Soft Brake Pedal", desc: "A soft or spongy pedal indicates air in the hydraulic system, fluid loss, or a failing master cylinder.", symptomSlug: "soft-brake-pedal-repair-south-salt-lake" },
+      { title: "Vibration When Braking", desc: "Pulsation through the pedal or steering wheel usually indicates warped rotors.", symptomSlug: "vibration-when-braking-repair-south-salt-lake" }
     ],
     faq: [
-      { q: "How often should brakes be replaced?", a: "Brake pads typically last 30,000-70,000 miles depending on driving habits and conditions." },
-      { q: "Can you resurface my rotors?", a: "If they're within specification, yes. If they're too thin or warped, we'll recommend replacement." }
+      { q: "How often should brakes be inspected?", a: "We recommend a brake inspection every 15,000–20,000 miles, or any time you notice a change in feel, noise, or stopping distance. Utah's stop-and-go traffic wears brakes faster than highway driving." },
+      { q: "Can you resurface my rotors?", a: "If they're within manufacturer specification, yes. If they're too thin or warped, replacement is the safer option. We measure before making any recommendation." }
     ],
     hasGeoPages: false,
     relatedSlugs: ["clutch-repair-south-salt-lake-ut", "cv-joint-repair-south-salt-lake-ut", "strut-replacement-south-salt-lake-ut"]
@@ -149,27 +130,26 @@ const services = [
     heroImage: "/assets/timing-chain-400-DglkDYua.webp",
     metaTitle: "Timing Chain Replacement in South Salt Lake UT",
     metaDesc: "Expert timing chain replacement at Scott's Auto & Clutch. Prevent costly engine damage. Call (801) 485-4089.",
-    intro: "A failing timing chain can cause catastrophic engine damage if not addressed promptly. Scott's Auto & Clutch provides expert timing chain diagnosis and replacement for all makes and models. If you hear rattling on startup or your check engine light is on, don't wait.",
-    coverageList: ["Timing chain replacement", "Tensioner and guide replacement", "Timing gear inspection", "Oil pump chain service", "Road test verification"],
+    intro: "A failing timing chain can cause catastrophic engine damage if not addressed promptly. Scott's Auto & Clutch provides expert timing chain diagnosis and replacement for all makes and models. If you hear rattling on startup or have timing-related fault codes, don't wait—early diagnosis is far less expensive than the alternative.",
     specializedServices: ["Timing Chain Replacement", "Tensioner Replacement", "Guide Replacement", "Timing Cover Gasket", "Oil Pump Chain Service"],
     whyUs: [
-      { title: "Engine Experts", desc: "Timing chain work requires precision—our mechanics have decades of experience." },
-      { title: "Complete Job", desc: "We replace tensioners, guides, and gaskets along with the chain." },
-      { title: "Prevent Damage", desc: "Early replacement prevents bent valves and costly engine rebuilds." },
-      { title: "Fair Pricing", desc: "Detailed estimates with no hidden charges." }
+      { title: "Engine Experts", desc: "Timing chain work requires precision. Our mechanics have decades of experience on a wide range of engines." },
+      { title: "Thorough Diagnosis", desc: "We assess the entire timing system—chain, tensioner, guides, and VVT components—before recommending what needs to be replaced." },
+      { title: "Prevent Costly Damage", desc: "A jumped or broken timing chain can destroy an engine. Early diagnosis protects your investment." },
+      { title: "Fair Pricing", desc: "Detailed estimates with no hidden charges before we start." }
     ],
     process: [
-      { step: 1, title: "Describe Symptoms", desc: "Tell us about rattling, check engine light, or poor performance." },
-      { step: 2, title: "Diagnosis", desc: "We diagnose timing chain stretch and component wear." },
+      { step: 1, title: "Describe Symptoms", desc: "Tell us about rattling on startup, check engine light, or loss of power." },
+      { step: 2, title: "Diagnosis", desc: "We inspect chain stretch, tensioner condition, and cam/crank correlation to understand the full scope." },
       { step: 3, title: "Detailed Quote", desc: "Complete estimate before work begins." },
-      { step: 4, title: "Replacement", desc: "We replace the chain, tensioners, guides, and related components." },
-      { step: 5, title: "Verification", desc: "Engine timing is verified and road tested." }
+      { step: 4, title: "Repair", desc: "We replace the worn timing components identified during diagnosis." },
+      { step: 5, title: "Verification", desc: "Engine timing is verified and the vehicle is road tested." }
     ],
     commonIssues: [
-      { title: "Rattling on Startup", desc: "A loose timing chain rattles at startup before oil pressure builds." },
-      { title: "Check Engine Light", desc: "Timing-related codes indicate chain stretch or sensor issues." },
-      { title: "Poor Performance", desc: "A stretched chain throws off engine timing, reducing power and fuel economy." },
-      { title: "Engine Misfires", desc: "Severe chain stretch can cause misfires and rough running." }
+      { title: "Rattling on Startup", desc: "A loose timing chain slaps against the guides at startup before oil pressure builds—a clear sign the chain needs attention.", symptomSlug: "engine-rattling-startup-repair-south-salt-lake" },
+      { title: "Check Engine Light", desc: "Timing-related fault codes (P0016, P0017) indicate chain stretch or cam/crank correlation issues.", symptomSlug: "check-engine-timing-repair-south-salt-lake" },
+      { title: "Poor Performance", desc: "A stretched chain throws off engine timing, causing noticeable power loss and reduced fuel economy." },
+      { title: "Engine Misfires", desc: "Severe chain stretch can cause misfires and rough running as valve timing falls out of spec." }
     ],
     faq: [],
     hasGeoPages: false,
@@ -184,26 +164,25 @@ const services = [
     heroImage: "/assets/water-pump-400-D_c-HhIr.webp",
     metaTitle: "Water Pump Replacement in South Salt Lake UT",
     metaDesc: "Water pump replacement and cooling system service at Scott's Auto & Clutch. Prevent overheating. Call (801) 485-4089.",
-    intro: "A failing water pump can lead to engine overheating and serious damage. Scott's Auto & Clutch provides water pump diagnosis and replacement for all makes and models, along with complete cooling system service.",
-    coverageList: ["Water pump replacement", "Coolant flush and refill", "Thermostat inspection", "Cooling system pressure test", "Belt inspection"],
+    intro: "A failing water pump can lead to engine overheating and serious damage in a very short time. Scott's Auto & Clutch provides water pump diagnosis and replacement for all makes and models, along with complete cooling system inspection to make sure the underlying issue is fully resolved.",
     specializedServices: ["Water Pump Replacement", "Coolant Flush", "Thermostat Replacement", "Cooling System Pressure Test", "Radiator Hose Replacement"],
     whyUs: [
-      { title: "Prevent Overheating", desc: "We catch cooling system problems before they cause engine damage." },
-      { title: "Complete Service", desc: "We flush coolant and inspect the entire cooling system during replacement." },
-      { title: "Quality Parts", desc: "OEM-quality water pumps for lasting reliability." },
-      { title: "Fair Pricing", desc: "Honest quotes with no surprises." }
+      { title: "Prevent Overheating", desc: "We catch cooling system problems before they cause engine damage. An overheating engine can cause far more expensive repairs." },
+      { title: "Complete Cooling Inspection", desc: "We inspect the entire cooling system as part of any water pump service—not just the pump in isolation." },
+      { title: "Quality Parts", desc: "We use quality replacement water pumps matched to your vehicle's specifications." },
+      { title: "Honest Estimates", desc: "You'll know the full scope and cost before we start. No surprises." }
     ],
     process: [
-      { step: 1, title: "Describe Symptoms", desc: "Tell us about overheating, coolant leaks, or unusual noises." },
-      { step: 2, title: "Diagnosis", desc: "We pressure test the cooling system and inspect the water pump." },
+      { step: 1, title: "Describe Symptoms", desc: "Tell us about overheating, coolant loss, or unusual noises from the engine area." },
+      { step: 2, title: "Diagnosis", desc: "We pressure-test the cooling system and inspect the water pump and related components." },
       { step: 3, title: "Detailed Quote", desc: "Clear estimate before work begins." },
-      { step: 4, title: "Replacement", desc: "Water pump replacement with fresh coolant." },
-      { step: 5, title: "Verification", desc: "We verify proper operating temperature and no leaks." }
+      { step: 4, title: "Replacement", desc: "Water pump and any other failing cooling components are replaced." },
+      { step: 5, title: "Verification", desc: "We verify proper operating temperature and confirm no leaks before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Engine Overheating", desc: "A failing water pump can't circulate coolant, causing overheating." },
-      { title: "Coolant Leak", desc: "Leaking from the water pump weep hole indicates seal failure." },
-      { title: "Whining Noise", desc: "A failing water pump bearing creates a whining or grinding noise." }
+      { title: "Engine Overheating", desc: "A failing water pump can't circulate coolant properly, causing the engine temperature to climb.", symptomSlug: "engine-overheating-repair-south-salt-lake" },
+      { title: "Coolant Leak", desc: "Leaking from the water pump weep hole is a designed indicator of internal seal failure.", symptomSlug: "coolant-leak-repair-south-salt-lake" },
+      { title: "Whining or Grinding Noise", desc: "A failing water pump bearing creates a whining or grinding sound from the front of the engine." }
     ],
     faq: [],
     hasGeoPages: false,
@@ -218,27 +197,26 @@ const services = [
     heroImage: "/assets/exhaust-400-B277Cfgd.webp",
     metaTitle: "Exhaust System Repair in South Salt Lake UT",
     metaDesc: "Complete exhaust repair at Scott's Auto & Clutch. Mufflers, pipes, leak repair. Call (801) 485-4089.",
-    intro: "From muffler repair to complete exhaust system replacement, Scott's Auto & Clutch handles all exhaust work. If your vehicle is louder than normal, smells like exhaust, or failed an emissions test, we can diagnose and fix the problem.",
-    coverageList: ["Exhaust leak diagnosis", "Muffler repair and replacement", "Exhaust pipe replacement", "Custom exhaust welding", "Emissions system repair"],
+    intro: "From muffler repair to complete exhaust system work, Scott's Auto & Clutch handles all exhaust problems. If your vehicle is louder than normal, smells like exhaust, or failed an emissions test, we'll inspect the full system from manifold to tailpipe and give you an honest assessment of what needs attention.",
     specializedServices: ["Muffler Repair", "Muffler Replacement", "Exhaust Pipe Replacement", "Exhaust Manifold Repair", "Custom Exhaust Welding", "Flex Pipe Replacement"],
     whyUs: [
-      { title: "Expert Welding", desc: "Our in-house welding capabilities mean many repairs can be done without full replacement." },
-      { title: "Emissions Compliance", desc: "We ensure your exhaust system meets Utah emissions requirements." },
-      { title: "Complete Diagnosis", desc: "We inspect the entire exhaust system from manifold to tailpipe." },
-      { title: "Fair Pricing", desc: "Repair when possible, replace when necessary." }
+      { title: "In-House Welding", desc: "Our welding capability means many exhaust leaks and cracks can be repaired without replacing the full section—saving you money." },
+      { title: "Emissions Compliance", desc: "We ensure your exhaust system meets Utah emissions requirements before returning your vehicle." },
+      { title: "Full System Inspection", desc: "We inspect from manifold to tailpipe—finding all issues at once rather than treating symptoms one at a time." },
+      { title: "Repair or Replace", desc: "We repair when possible and replace when necessary. You'll always know which approach we're recommending and why." }
     ],
     process: [
-      { step: 1, title: "Describe Symptoms", desc: "Tell us about loud exhaust, rattling, or exhaust smell." },
-      { step: 2, title: "Inspection", desc: "We inspect the entire exhaust system for leaks and damage." },
+      { step: 1, title: "Describe Symptoms", desc: "Tell us about loud exhaust, rattling, exhaust smell in the cabin, or a failed emissions test." },
+      { step: 2, title: "Inspection", desc: "We put the vehicle on a lift and inspect the entire exhaust system for leaks, damage, and worn hangers." },
       { step: 3, title: "Detailed Quote", desc: "Clear estimate before work begins." },
-      { step: 4, title: "Repair", desc: "Welding, patching, or component replacement as needed." },
-      { step: 5, title: "Verification", desc: "We verify no leaks and proper exhaust flow." }
+      { step: 4, title: "Repair", desc: "Welding, patching, or component replacement as the diagnosis indicates." },
+      { step: 5, title: "Verification", desc: "We verify no leaks and proper exhaust flow before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Loud Exhaust", desc: "A hole or crack in the exhaust system creates excessive noise." },
-      { title: "Exhaust Smell in Cabin", desc: "Exhaust fumes entering the cabin indicate a dangerous leak." },
-      { title: "Failed Emissions", desc: "Exhaust leaks before the O2 sensor can cause emissions test failure." },
-      { title: "Rattling Underneath", desc: "Loose heat shields or broken hangers cause rattling under the vehicle." }
+      { title: "Loud Exhaust", desc: "A hole or crack in the exhaust system creates excessive noise that bypasses the muffler entirely.", symptomSlug: "loud-exhaust-repair-south-salt-lake" },
+      { title: "Exhaust Smell in Cabin", desc: "Exhaust fumes entering the cabin is a safety issue—carbon monoxide is dangerous at low concentrations.", symptomSlug: "exhaust-smell-cabin-repair-south-salt-lake" },
+      { title: "Failed Emissions Test", desc: "Exhaust leaks before the O2 sensor can cause emissions test failures by disrupting the fuel trim readings.", symptomSlug: "failed-emissions-repair-south-salt-lake" },
+      { title: "Rattling Underneath", desc: "Loose heat shields or broken exhaust hangers create a rattling or dragging sound from under the vehicle." }
     ],
     faq: [],
     hasGeoPages: false,
@@ -253,27 +231,26 @@ const services = [
     heroImage: "/assets/catalytic-400-2YczmCtR.webp",
     metaTitle: "Catalytic Converter Service in South Salt Lake UT",
     metaDesc: "Catalytic converter repair and replacement at Scott's Auto & Clutch. Emissions service. Call (801) 485-4089.",
-    intro: "Scott's Auto & Clutch provides catalytic converter diagnosis, replacement, and anti-theft shield installation. Whether your converter has failed emissions, been stolen, or is causing performance issues, we can help.",
-    coverageList: ["Catalytic converter diagnosis", "Converter replacement", "Oxygen sensor inspection", "Anti-theft shield installation", "Emissions compliance"],
+    intro: "Scott's Auto & Clutch provides catalytic converter diagnosis, replacement, and anti-theft shield installation. Whether your converter has failed an emissions test, been stolen, or is causing performance issues, we'll identify the root cause and fix it properly—not just swap the part.",
     specializedServices: ["Catalytic Converter Replacement", "O2 Sensor Replacement", "Anti-Theft Shield Installation", "Emissions Repair", "Exhaust Welding"],
     whyUs: [
-      { title: "Emissions Experts", desc: "We ensure your vehicle passes Utah emissions testing." },
-      { title: "Theft Protection", desc: "We install anti-theft shields to protect your catalytic converter." },
-      { title: "Quality Parts", desc: "CARB-compliant converters for proper emissions compliance." },
-      { title: "Fair Pricing", desc: "Competitive pricing on converter replacement." }
+      { title: "Root Cause Diagnosis", desc: "We find out why the converter is failing before recommending replacement. Installing a new converter on an engine with an underlying issue will fail the new part just as fast." },
+      { title: "Theft Protection", desc: "We install anti-theft shields to protect your catalytic converter—a common target for theft in the Salt Lake Valley." },
+      { title: "Emissions Compliance", desc: "We use converters that meet Utah emissions requirements and verify the vehicle passes before returning it." },
+      { title: "Fair Pricing", desc: "Honest, itemized estimates before any work begins." }
     ],
     process: [
-      { step: 1, title: "Describe Symptoms", desc: "Tell us about check engine light, sulfur smell, or failed emissions." },
-      { step: 2, title: "Diagnosis", desc: "We test converter efficiency and inspect for damage." },
+      { step: 1, title: "Describe Symptoms", desc: "Tell us about a check engine light, sulfur smell, failed emissions test, or stolen converter." },
+      { step: 2, title: "Diagnosis", desc: "We test converter efficiency, inspect oxygen sensors, and check for underlying engine issues that could cause converter failure." },
       { step: 3, title: "Detailed Quote", desc: "Clear estimate before work begins." },
-      { step: 4, title: "Replacement", desc: "We install a quality replacement converter." },
+      { step: 4, title: "Service", desc: "Replacement, repair, or shield installation based on the diagnosis." },
       { step: 5, title: "Verification", desc: "We verify proper operation and emissions compliance." }
     ],
     commonIssues: [
-      { title: "Failed Emissions", desc: "A failing converter can't properly reduce harmful exhaust emissions." },
-      { title: "Sulfur Smell", desc: "A rotten egg smell from the exhaust indicates converter problems." },
-      { title: "Check Engine Light", desc: "P0420/P0430 codes indicate reduced converter efficiency." },
-      { title: "Converter Theft", desc: "Catalytic converters are stolen for their precious metals. We install anti-theft shields." }
+      { title: "Failed Emissions Test", desc: "A degraded converter can't reduce pollutants to Utah's required thresholds—but the root cause matters before replacing it.", symptomSlug: "failed-emissions-repair-south-salt-lake" },
+      { title: "Sulfur Smell from Exhaust", desc: "A rotten egg smell indicates the converter can't process hydrogen sulfide, often from a rich fuel condition or a failing converter.", symptomSlug: "sulfur-smell-exhaust-repair-south-salt-lake" },
+      { title: "Check Engine Light", desc: "P0420 or P0430 codes indicate reduced converter efficiency—diagnosis determines whether it's the converter or an upstream issue.", symptomSlug: "check-engine-light-repair-south-salt-lake" },
+      { title: "Converter Theft", desc: "Catalytic converters are stolen for their precious metals. We install protective shields that make theft significantly more difficult." }
     ],
     faq: [],
     hasGeoPages: false,
@@ -288,27 +265,26 @@ const services = [
     heroImage: "/assets/struts-400-CBnjcX0e.webp",
     metaTitle: "Strut Replacement in South Salt Lake UT",
     metaDesc: "Strut assembly replacement at Scott's Auto & Clutch. Improved handling and ride comfort. Call (801) 485-4089.",
-    intro: "Worn struts compromise your vehicle's handling, braking, and ride comfort. Scott's Auto & Clutch provides strut assembly replacement for all makes and models to restore your vehicle's ride quality and safety.",
-    coverageList: ["Strut assembly replacement", "Strut mount inspection", "Suspension inspection", "Alignment check recommendation"],
+    intro: "Worn struts compromise your vehicle's handling, braking distance, and ride comfort. Scott's Auto & Clutch provides strut diagnosis and replacement for all makes and models. If your car bounces excessively, nose-dives under braking, or the ride has gotten noticeably harsher, bring it in for an inspection.",
     specializedServices: ["Front Strut Replacement", "Rear Strut Replacement", "Strut Mount Replacement", "Complete Strut Assembly", "Suspension Inspection"],
     whyUs: [
-      { title: "Complete Assembly", desc: "We replace complete strut assemblies for a like-new ride." },
-      { title: "All Vehicles", desc: "Cars, trucks, and SUVs—we service them all." },
-      { title: "Safety Focus", desc: "Worn struts increase stopping distance and reduce handling." },
-      { title: "Fair Pricing", desc: "Honest estimates with no surprises." }
+      { title: "Safety Focused", desc: "Worn struts increase stopping distance and reduce handling precision—both safety concerns we take seriously." },
+      { title: "Full Suspension Inspection", desc: "We inspect related suspension components alongside the struts, so you have a complete picture of your vehicle's suspension health." },
+      { title: "Alignment After Replacement", desc: "Strut replacement changes suspension geometry. We always recommend alignment after strut work to protect your tires." },
+      { title: "All Vehicle Types", desc: "Cars, trucks, and SUVs—we service all makes and models." }
     ],
     process: [
-      { step: 1, title: "Describe Symptoms", desc: "Tell us about bouncing, nose-diving, or rough ride." },
-      { step: 2, title: "Inspection", desc: "We inspect struts, mounts, and related suspension components." },
+      { step: 1, title: "Describe Symptoms", desc: "Tell us about bouncing, nose-diving under braking, or a noticeably harsher ride." },
+      { step: 2, title: "Inspection", desc: "We inspect struts, mounts, and related suspension components for wear." },
       { step: 3, title: "Detailed Quote", desc: "Clear estimate before work begins." },
-      { step: 4, title: "Replacement", desc: "Complete strut assembly replacement." },
-      { step: 5, title: "Test Drive", desc: "We verify ride quality and handling." }
+      { step: 4, title: "Replacement", desc: "Strut components are replaced based on what the inspection found." },
+      { step: 5, title: "Test Drive", desc: "We verify ride quality and handling before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Bouncy Ride", desc: "The vehicle bounces excessively over bumps." },
-      { title: "Nose Dive When Braking", desc: "The front end dips dramatically when stopping." },
-      { title: "Uneven Tire Wear", desc: "Worn struts cause irregular tire wear patterns." },
-      { title: "Rough Ride Over Bumps", desc: "Every bump and pothole is felt harshly in the cabin." }
+      { title: "Bouncy Ride", desc: "The vehicle bounces two or three times after a bump instead of settling—a sign struts have lost their damping ability.", symptomSlug: "bouncy-ride-repair-south-salt-lake" },
+      { title: "Nose Dive When Braking", desc: "The front end pitches dramatically forward under braking, reducing control and extending stopping distance.", symptomSlug: "nose-dive-braking-repair-south-salt-lake" },
+      { title: "Uneven Tire Wear", desc: "Worn struts allow tires to bounce and skip, creating cupping or scalloping patterns in the tread.", symptomSlug: "uneven-tire-wear-repair-south-salt-lake" },
+      { title: "Rough Ride Over Bumps", desc: "Every pothole and expansion joint is felt as a sharp jolt rather than a dampened thud.", symptomSlug: "rough-ride-bumps-repair-south-salt-lake" }
     ],
     faq: [],
     hasGeoPages: false,
@@ -323,26 +299,25 @@ const services = [
     heroImage: "/assets/timing-belt-400-DGv-XrDO.webp",
     metaTitle: "Timing Belt Replacement in South Salt Lake UT",
     metaDesc: "Timing belt replacement at Scott's Auto & Clutch. Prevent engine damage with scheduled maintenance. Call (801) 485-4089.",
-    intro: "A broken timing belt can destroy your engine in an instant. Scott's Auto & Clutch provides preventive timing belt replacement at the manufacturer-recommended interval, along with tensioners, idlers, and water pump service.",
-    coverageList: ["Timing belt replacement", "Tensioner and idler replacement", "Water pump (recommended)", "Drive belt inspection"],
+    intro: "A broken timing belt can destroy an interference engine in an instant. Scott's Auto & Clutch provides timing belt replacement at manufacturer-recommended intervals. We'll inspect the full belt system and discuss what makes sense to address at the same time—since the labor overlap makes some components economical to do together.",
     specializedServices: ["Timing Belt Replacement", "Tensioner Replacement", "Idler Pulley Replacement", "Water Pump Service", "Drive Belt Replacement"],
     whyUs: [
-      { title: "Preventive Care", desc: "We replace timing belts before they fail to protect your engine." },
-      { title: "Complete Job", desc: "Tensioners, idlers, and water pump included in our service." },
-      { title: "All Makes", desc: "We service all vehicles with timing belt engines." },
-      { title: "Fair Pricing", desc: "Bundled pricing saves you money on related components." }
+      { title: "Preventive Approach", desc: "We replace timing belts on schedule to protect your engine before a failure happens—not after." },
+      { title: "Informed Recommendations", desc: "We'll explain which related components make sense to do at the same time based on their condition and your vehicle's mileage—no pressure." },
+      { title: "All Makes", desc: "We service all vehicles with timing belt engines, domestic and import." },
+      { title: "Clear Pricing", desc: "You'll know the full estimate and what each item costs before we start any work." }
     ],
     process: [
-      { step: 1, title: "Check Interval", desc: "Tell us your mileage and we'll check if you're due for replacement." },
-      { step: 2, title: "Inspection", desc: "We inspect the belt, tensioners, and related components." },
-      { step: 3, title: "Detailed Quote", desc: "Clear estimate including recommended components." },
-      { step: 4, title: "Replacement", desc: "Belt, tensioners, and water pump replacement." },
-      { step: 5, title: "Verification", desc: "Engine timing verified and road tested." }
+      { step: 1, title: "Check Interval", desc: "Tell us your mileage—we'll check against your vehicle's manufacturer-recommended replacement schedule." },
+      { step: 2, title: "Inspection", desc: "We inspect the belt, tensioners, idlers, and related components for wear or cracking." },
+      { step: 3, title: "Detailed Quote", desc: "Clear estimate with a breakdown of what we recommend and why." },
+      { step: 4, title: "Replacement", desc: "Belt and any other components you've approved are replaced." },
+      { step: 5, title: "Verification", desc: "Engine timing is verified and the vehicle is road tested." }
     ],
     commonIssues: [
-      { title: "High Mileage", desc: "Most timing belts need replacement every 60,000-100,000 miles." },
-      { title: "Ticking Noise", desc: "A worn timing belt can create a ticking noise from the engine." },
-      { title: "Engine Won't Start", desc: "A broken timing belt prevents the engine from running." }
+      { title: "High Mileage — Interval Due", desc: "Most timing belts need replacement every 60,000–100,000 miles depending on the manufacturer. Check your owner's manual or ask us." },
+      { title: "Ticking Noise", desc: "A worn or cracked timing belt can create a ticking noise from the engine area." },
+      { title: "Engine Won't Start", desc: "A broken timing belt prevents the engine from running. If your engine cranks but won't start and has a timing belt, this is a likely cause." }
     ],
     faq: [],
     hasGeoPages: false,
@@ -357,26 +332,25 @@ const services = [
     heroImage: "/assets/welding-400-ClOrwKIX.webp",
     metaTitle: "Automotive Welding Services in South Salt Lake UT",
     metaDesc: "Expert automotive welding at Scott's Auto & Clutch. Exhaust, frame, suspension welding. Call (801) 485-4089.",
-    intro: "Scott's Auto & Clutch offers expert automotive welding services for exhaust systems, frames, and suspension components. Our in-house welding capabilities often allow us to repair components instead of replacing them, saving you money.",
-    coverageList: ["Exhaust system welding", "Frame repair welding", "Suspension component welding", "Custom fabrication"],
+    intro: "Scott's Auto & Clutch offers expert automotive welding services for exhaust systems, frames, and suspension components. Our in-house welding capability often means we can repair a component instead of replacing it entirely—saving you money and time.",
     specializedServices: ["Exhaust Welding", "Frame Welding", "Suspension Welding", "Custom Fabrication", "Bracket Repair"],
     whyUs: [
-      { title: "In-House Welding", desc: "No need to go to a separate welding shop." },
-      { title: "Save Money", desc: "Repair instead of replace when possible." },
-      { title: "Expert Welders", desc: "Decades of automotive welding experience." },
-      { title: "Quick Turnaround", desc: "Most welding repairs completed same-day." }
+      { title: "In-House Capability", desc: "No need to visit a separate welding shop. We handle it here, which means faster turnaround and better communication." },
+      { title: "Repair Over Replace", desc: "We look for weld-repair solutions before recommending full component replacement whenever it's structurally sound to do so." },
+      { title: "Experienced Welders", desc: "Decades of automotive welding experience across exhaust, structural, and fabrication work." },
+      { title: "Quick Turnaround", desc: "Most welding repairs are completed the same day." }
     ],
     process: [
-      { step: 1, title: "Describe the Issue", desc: "Tell us what needs welding—exhaust, frame, brackets, etc." },
-      { step: 2, title: "Inspection", desc: "We assess whether welding repair is viable." },
-      { step: 3, title: "Quote", desc: "Clear estimate for the welding work." },
-      { step: 4, title: "Welding", desc: "Expert welding repair or fabrication." },
-      { step: 5, title: "Verification", desc: "We verify the repair is solid and safe." }
+      { step: 1, title: "Describe the Issue", desc: "Tell us what needs attention—exhaust, frame, a broken bracket, or custom work." },
+      { step: 2, title: "Inspection", desc: "We assess whether welding repair is the right approach and what it will involve." },
+      { step: 3, title: "Quote", desc: "Clear estimate for the welding work before we begin." },
+      { step: 4, title: "Welding", desc: "Expert welding repair or fabrication performed in our shop." },
+      { step: 5, title: "Verification", desc: "We verify the repair is solid and safe before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Exhaust Leaks", desc: "Cracked exhaust pipes and manifolds can often be welded." },
-      { title: "Broken Brackets", desc: "Suspension and exhaust brackets break from road stress." },
-      { title: "Frame Damage", desc: "Minor frame damage can sometimes be repaired with welding." }
+      { title: "Exhaust Leaks & Cracks", desc: "Cracked exhaust pipes and manifold flanges can often be welded rather than replaced." },
+      { title: "Broken Brackets", desc: "Exhaust hangers, suspension brackets, and engine mounts can break from road stress and vibration." },
+      { title: "Frame Damage", desc: "Minor frame damage from impacts or rust can sometimes be repaired with precision welding." }
     ],
     faq: [],
     hasGeoPages: false,
@@ -391,26 +365,25 @@ const services = [
     heroImage: "/assets/shocks-400-5JfGLf4L.webp",
     metaTitle: "Shock Replacement in South Salt Lake UT",
     metaDesc: "Shock absorber replacement at Scott's Auto & Clutch. Trucks, SUVs, cars. Call (801) 485-4089.",
-    intro: "Worn shocks make your vehicle unsafe and uncomfortable. Scott's Auto & Clutch provides shock absorber replacement for all vehicle types, from daily drivers to lifted trucks.",
-    coverageList: ["Shock absorber replacement", "Suspension inspection", "Truck and SUV service", "Lifted vehicle service"],
-    specializedServices: ["Front Shock Replacement", "Rear Shock Replacement", "Truck Shock Upgrade", "Lifted Vehicle Service", "Suspension Inspection"],
+    intro: "Worn shock absorbers make your vehicle less comfortable and less safe. Scott's Auto & Clutch provides shock diagnosis and replacement for all vehicle types—from daily drivers to lifted trucks. A simple bounce test at our shop can tell us a lot about your shock condition.",
+    specializedServices: ["Front Shock Replacement", "Rear Shock Replacement", "Truck Shock Service", "Lifted Vehicle Service", "Suspension Inspection"],
     whyUs: [
-      { title: "All Vehicles", desc: "Cars, trucks, SUVs, and lifted vehicles." },
-      { title: "Quality Shocks", desc: "Name-brand shocks for reliable performance." },
-      { title: "Truck Specialists", desc: "We service lifted trucks and heavy-duty vehicles." },
-      { title: "Fair Pricing", desc: "Honest estimates with no surprises." }
+      { title: "All Vehicle Types", desc: "Cars, trucks, SUVs, and lifted vehicles—we have experience with a wide range of configurations." },
+      { title: "Honest Diagnosis", desc: "We bounce-test and visually inspect before recommending replacement. We don't replace shocks that still have life in them." },
+      { title: "Paired Replacement", desc: "We recommend replacing shocks in pairs per axle to keep handling balanced on both sides." },
+      { title: "Fair Pricing", desc: "Clear estimates with no surprises." }
     ],
     process: [
-      { step: 1, title: "Describe Symptoms", desc: "Tell us about bouncing, swaying, or rough ride." },
-      { step: 2, title: "Inspection", desc: "We inspect shocks and related suspension components." },
+      { step: 1, title: "Describe Symptoms", desc: "Tell us about excessive bouncing, swaying in turns, or a noticeably rough ride." },
+      { step: 2, title: "Inspection", desc: "We inspect shocks for oil leakage and bounce-test all four corners." },
       { step: 3, title: "Quote", desc: "Clear estimate before work begins." },
-      { step: 4, title: "Replacement", desc: "New shock absorbers installed." },
-      { step: 5, title: "Test Drive", desc: "We verify ride quality and handling." }
+      { step: 4, title: "Replacement", desc: "Shocks are replaced based on what the inspection found." },
+      { step: 5, title: "Test Drive", desc: "We verify ride quality and handling before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Bouncy Ride", desc: "Vehicle bounces excessively over bumps and dips." },
-      { title: "Body Roll", desc: "Excessive leaning in turns indicates worn shocks." },
-      { title: "Uneven Tire Wear", desc: "Worn shocks cause cupping and uneven tire wear." }
+      { title: "Bouncy Ride", desc: "The vehicle bounces repeatedly after bumps rather than settling—a classic sign of worn shock absorbers.", symptomSlug: "bouncy-ride-repair-south-salt-lake" },
+      { title: "Body Roll in Turns", desc: "Excessive leaning through corners indicates worn shocks can no longer resist weight transfer." },
+      { title: "Uneven Tire Wear", desc: "Worn shocks let tires bounce and skip, causing cupping and scalloping across the tread.", symptomSlug: "uneven-tire-wear-repair-south-salt-lake" }
     ],
     faq: [],
     hasGeoPages: false,
@@ -425,29 +398,31 @@ const services = [
     heroImage: "/assets/complete-auto-400-DKNHQ0l2.webp",
     metaTitle: "Complete Auto Service in South Salt Lake UT",
     metaDesc: "Full-service auto repair at Scott's Auto & Clutch. Oil changes, diagnostics, A/C, emissions. Call (801) 485-4089.",
-    intro: "Beyond our clutch and drivetrain specialties, Scott's Auto & Clutch provides complete automotive repair and maintenance for all makes and models. From oil changes to engine diagnostics, we keep your vehicle running reliably.",
-    coverageList: ["Oil changes and tune-ups", "Engine diagnostics", "A/C repair", "Utah emissions and safety inspections", "Fluid services", "Belt and hose replacement"],
+    intro: "Beyond our clutch and drivetrain specialties, Scott's Auto & Clutch provides complete automotive repair and maintenance for all makes and models. From oil changes to engine diagnostics, we're your one-stop shop for keeping your vehicle running reliably.",
     specializedServices: ["Oil Change", "Engine Diagnostics", "A/C Repair", "Emissions Inspection", "Safety Inspection", "Fluid Services", "Belt Replacement", "Hose Replacement", "Battery Service", "Tune-Up"],
     whyUs: [
-      { title: "One-Stop Shop", desc: "Everything your vehicle needs under one roof." },
-      { title: "All Makes & Models", desc: "Domestic and import vehicles of all types." },
-      { title: "Experienced Team", desc: "35+ years of complete automotive service." },
-      { title: "Fair Pricing", desc: "Competitive rates on all maintenance and repair services." }
+      { title: "One-Stop Shop", desc: "Everything your vehicle needs under one roof—no need to visit multiple shops for different services." },
+      { title: "All Makes & Models", desc: "We service domestic and import vehicles of all types. If we see it regularly, we know how to fix it." },
+      { title: "35+ Years of Experience", desc: "Our team has been providing complete automotive service to the Salt Lake Valley since 1990." },
+      { title: "Honest Assessments", desc: "We tell you what your vehicle needs—and what it doesn't. No unnecessary upsells." }
     ],
     process: [
-      { step: 1, title: "Schedule Service", desc: "Call or text to schedule your maintenance or repair." },
-      { step: 2, title: "Inspection", desc: "We perform a thorough vehicle inspection." },
-      { step: 3, title: "Quote", desc: "Clear estimate for recommended services." },
-      { step: 4, title: "Service", desc: "Expert service by experienced mechanics." },
-      { step: 5, title: "Verification", desc: "Quality check before returning your vehicle." }
+      { step: 1, title: "Describe Symptoms", desc: "Tell us what your vehicle is doing, or let us know what service is due." },
+      { step: 2, title: "Inspection", desc: "We inspect and diagnose to understand exactly what your vehicle needs." },
+      { step: 3, title: "Detailed Quote", desc: "Complete estimate before any work begins." },
+      { step: 4, title: "Service", desc: "We perform the approved work using quality parts and fluids." },
+      { step: 5, title: "Verification", desc: "We verify the repair and return your vehicle ready to drive." }
     ],
     commonIssues: [
-      { title: "Check Engine Light", desc: "We diagnose and repair check engine light causes." },
-      { title: "Oil Change Due", desc: "Regular oil changes are essential for engine health." },
-      { title: "A/C Not Cooling", desc: "A/C recharge and system repair." },
-      { title: "Failed Emissions", desc: "We diagnose and fix emissions failures." }
+      { title: "Check Engine Light", desc: "We scan fault codes with professional diagnostic equipment and explain what they mean before recommending any repair.", symptomSlug: "check-engine-light-repair-south-salt-lake" },
+      { title: "A/C Not Cooling", desc: "Utah summers demand a working A/C. We diagnose and repair refrigerant leaks, compressor issues, and more." },
+      { title: "Oil Leaks", desc: "Oil leaks from valve covers, gaskets, or seals are common on higher-mileage vehicles. We find the source and fix it." },
+      { title: "Maintenance Overdue", desc: "We help you catch up on deferred maintenance and prioritize what's most important for your vehicle and budget." }
     ],
-    faq: [],
+    faq: [
+      { q: "Do you work on imports?", a: "Yes. We service all makes and models including Honda, Toyota, Subaru, Nissan, VW, BMW, and more alongside domestic brands." },
+      { q: "Can you do an oil change and other repairs at the same visit?", a: "Absolutely. We encourage combining services to save you time. Let us know what you need when you call." }
+    ],
     hasGeoPages: false,
     relatedSlugs: ["clutch-repair-south-salt-lake-ut", "brake-service-south-salt-lake-ut", "exhaust-repair-south-salt-lake-ut"]
   }

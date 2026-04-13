@@ -16,17 +16,10 @@
 
 <section class="content-section">
   <div class="container">
-    <h2>What Our <%= service.name %> Covers</h2>
-    <p class="section-subtitle">Tailored to your vehicle's needs</p>
-    <ul class="checklist">
-      <% service.coverageList.forEach(item => { %>
-      <li><%= item %></li>
-      <% }) %>
-    </ul>
-
+    <h2>Our <%= service.name %> Services</h2>
+    <p class="section-subtitle">Every repair starts with a thorough diagnosis. We identify exactly what your vehicle needs, walk you through our findings, and get your approval before any work begins. Depending on what we find, the types of work we commonly perform include:</p>
     <% if (service.specializedServices && service.specializedServices.length) { %>
-    <h3>Specialized <%= service.name %> Services</h3>
-    <div class="brand-tags">
+    <div class="brand-tags" style="margin-top:1.25rem">
       <% service.specializedServices.forEach(ss => { %>
       <span class="tag"><%= ss %></span>
       <% }) %>
@@ -53,10 +46,10 @@
 <section class="content-section">
   <div class="container">
     <h2>How We Handle Your <%= service.name %></h2>
-    <p class="section-subtitle">From diagnosis to repair, we keep you informed every step of the way.</p>
-    <div class="process-steps">
+    <p class="section-subtitle">From the moment you call to the moment you drive away, we keep you informed every step of the way.</p>
+    <div class="process-steps-compact">
       <% service.process.forEach(p => { %>
-      <div class="process-step">
+      <div class="process-step-compact">
         <span class="step-num"><%= p.step %></span>
         <div>
           <h3><%= p.title %></h3>
@@ -72,12 +65,19 @@
 <section class="content-section alt-bg">
   <div class="container">
     <h2>Common Issues We Fix</h2>
-    <p class="section-subtitle">Our experienced technicians diagnose and repair these common problems every day.</p>
+    <p class="section-subtitle">Our technicians diagnose and repair these problems every day.</p>
     <div class="issues-grid">
       <% service.commonIssues.forEach(issue => { %>
       <div class="issue-card">
+        <% if (issue.symptomSlug) { %>
+        <h3><a href="/symptoms/<%= issue.symptomSlug %>" class="issue-link"><%= issue.title %></a></h3>
+        <% } else { %>
         <h3><%= issue.title %></h3>
+        <% } %>
         <p><%= issue.desc %></p>
+        <% if (issue.symptomSlug) { %>
+        <a href="/symptoms/<%= issue.symptomSlug %>" class="card-link-sm">See symptom details →</a>
+        <% } %>
       </div>
       <% }) %>
     </div>
@@ -88,16 +88,18 @@
 <section class="content-section">
   <div class="container">
     <h2><%= service.name %> Service Areas</h2>
-    <p>We serve drivers throughout the Salt Lake Valley.</p>
-    <div class="locations-grid-compact">
+    <p>Our shop in South Salt Lake is centrally located in the valley — most customers are within 15 minutes. We service drivers from throughout the greater Salt Lake area.</p>
+    <div class="locations-grid-compact" style="margin-top:1rem">
       <% allLocations.forEach(l => { %>
       <a href="/locations/<%= l.slug %>" class="location-tag">
         <strong><%= l.name %>, UT</strong>
-        <span><%= l.isHome ? 'Our Location' : l.distance + ' - ' + service.name %></span>
+        <span><%= l.isHome ? 'Our Location' : l.driveTime + ' away' %></span>
       </a>
       <% }) %>
     </div>
-    <a href="<%= site.directionsUrl %>" class="btn btn-outline" target="_blank" rel="noopener">Get Directions</a>
+    <div style="margin-top:2rem">
+      <a href="<%= site.directionsUrl %>" class="btn btn-outline" target="_blank" rel="noopener">Get Directions</a>
+    </div>
   </div>
 </section>
 
