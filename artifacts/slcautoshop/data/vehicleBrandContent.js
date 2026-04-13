@@ -27,10 +27,10 @@ const brandContent = {
       {t:'CV Axle Boot Tears',d:'Honda front CV boots tear prematurely due to the tight turning radius. Catching a torn boot early means replacing just the boot instead of the entire axle.'}
     ],
     tips: [
-      'Honda\'s 1.5L turbo engine in Civic and CR-V can experience oil dilution from fuel in cold weather. Check oil level and smell monthly during Utah winters.',
-      'Honda brake pads wear faster on the rear than many brands due to the electronic brake distribution calibration. Check rears at every oil change.',
-      'Honda automatic transmissions are sensitive to fluid type. Only use Honda-specific ATF—generic fluid causes shift problems.',
-      'CR-V AWD rear differential fluid should be changed every 30K miles. Skipping this causes shudder during tight turns.'
+      'Honda engines are engineered around specific OEM-spec fluids. Using off-brand substitutes for engine oil, coolant, or transmission fluid—even ones labeled "Honda compatible"—can lead to shift quality problems and accelerated wear. Paying a little more for the right fluid now saves a lot more later.',
+      'Honda\'s brake system tends to distribute more braking force to the rear than many other makes. This means rear brake pads often wear faster than you might expect. A quick rear-pad check at every oil service keeps you from being surprised.',
+      'Utah\'s altitude and temperature swings put real stress on cooling systems. Honda cooling systems are reliable, but low coolant concentration or a worn thermostat shows up fastest during summer canyon driving and cold winter mornings. An annual cooling system check is worth doing.',
+      'Honda drivetrains—whether front-wheel drive or all-wheel drive—rely on clean, properly filled differentials and transfer cases. If you notice any hesitation or vibration during tight turns, that\'s often the first sign that drivetrain fluid is overdue.'
     ],
     faqs: [
       {q:'Why does my Honda Civic clutch vibrate?',a:'Honda uses a dual-mass flywheel on manual Civics that develops judder over time. We typically recommend converting to a single-mass flywheel with a quality clutch kit, which eliminates the vibration and costs less than OEM replacement.'},

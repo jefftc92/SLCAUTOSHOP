@@ -34,7 +34,7 @@
 </section>
 
 <% if (brandContent && brandContent.issues && brandContent.issues.length) { %>
-<section class="content-section">
+<section class="content-section alt-bg">
   <div class="container">
     <h2>Common <%= brand.name %> Issues We Repair</h2>
     <p>These are the most frequent <%= brand.name %>-specific problems we see at our South Salt Lake shop.</p>
@@ -50,7 +50,7 @@
 </section>
 <% } %>
 
-<section class="content-section alt-bg">
+<section class="content-section">
   <div class="container">
     <h2>Expert <%= brand.name %> Mechanics Near You</h2>
     <h3>Common <%= brand.name %> Models We Service</h3>
@@ -59,19 +59,23 @@
       <span class="tag"><%= brand.name %> <%= m %></span>
       <% }) %>
     </div>
-    <p style="margin-top:1rem">Don't see your <%= brand.name %> model listed? No problem! We service all <%= brand.name %> vehicles. Give us a call to discuss your specific vehicle.</p>
+    <p style="margin-top:1.25rem">Don't see your <%= brand.name %> model listed? No problem — we service all <%= brand.name %> vehicles. Give us a call or send a quick text and we'll get you sorted out.</p>
+    <div class="hero-buttons" style="margin-top:1.25rem">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I need service for my ' + brand.name + '.') %>" class="btn btn-secondary">Text Us</a>
+    </div>
   </div>
 </section>
 
 <% if (brandContent && brandContent.tips && brandContent.tips.length) { %>
-<section class="content-section">
+<section class="content-section alt-bg">
   <div class="container">
     <h2><%= brand.name %> Maintenance Tips for Utah Drivers</h2>
-    <div class="process-steps">
-      <% brandContent.tips.forEach((tip, i) => { %>
-      <div class="process-step">
-        <span class="step-num"><%= i + 1 %></span>
-        <div><p><%= tip %></p></div>
+    <p class="section-subtitle">Utah's temperature swings, mountain roads, and high altitude put unique demands on your vehicle. Here's what we've learned from years of servicing <%= brand.name %>s in the Salt Lake Valley.</p>
+    <div class="tips-grid">
+      <% brandContent.tips.forEach(tip => { %>
+      <div class="tip-card">
+        <p><%= tip %></p>
       </div>
       <% }) %>
     </div>
@@ -79,7 +83,7 @@
 </section>
 <% } %>
 
-<section class="content-section alt-bg">
+<section class="content-section">
   <div class="container">
     <h2>Our <%= brand.name %> Repair Capabilities</h2>
     <div class="services-grid small">
@@ -94,12 +98,11 @@
   </div>
 </section>
 
-<% var faqAlt = false; %>
 <%- include('partials/faq') %>
 
 <%- include('partials/testimonials') %>
 
-<section class="content-section alt-bg">
+<section class="content-section">
   <div class="container">
     <h2>Other Vehicle Brands</h2>
     <div class="brand-tags">

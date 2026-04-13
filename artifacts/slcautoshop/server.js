@@ -311,7 +311,8 @@ app.get('/vehicle-brands/:slug', (req, res) => {
     brand,
     brandContent: bc,
     pageFaqs: bc.faqs || [],
-    faqTitle: 'Frequently Asked Questions — ' + brand.name + ' Repair'
+    faqTitle: 'Frequently Asked Questions — ' + brand.name + ' Repair',
+    faqAlt: true
   });
 });
 
