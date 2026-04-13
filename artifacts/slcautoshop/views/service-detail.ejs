@@ -14,7 +14,7 @@
   </div>
 </section>
 
-<section class="content-section">
+<section class="content-section alt-bg">
   <div class="container">
     <h2>Our <%= service.name %> Services</h2>
     <p class="section-subtitle">Every repair starts with a thorough diagnosis. We identify exactly what your vehicle needs, walk you through our findings, and get your approval before any work begins. Depending on what we find, the types of work we commonly perform include:</p>
@@ -28,7 +28,7 @@
   </div>
 </section>
 
-<section class="values-section alt-bg">
+<section class="values-section">
   <div class="container">
     <h2><%= service.name %> Expertise You Can Count On</h2>
     <p class="section-subtitle">Our experienced mechanics take a thorough approach to every repair.</p>
@@ -43,7 +43,7 @@
   </div>
 </section>
 
-<section class="content-section">
+<section class="content-section alt-bg">
   <div class="container">
     <h2>How We Handle Your <%= service.name %></h2>
     <p class="section-subtitle">From the moment you call to the moment you drive away, we keep you informed every step of the way.</p>
@@ -62,7 +62,7 @@
 </section>
 
 <% if (service.commonIssues && service.commonIssues.length) { %>
-<section class="content-section alt-bg">
+<section class="content-section">
   <div class="container">
     <h2>Common Issues We Fix</h2>
     <p class="section-subtitle">Our technicians diagnose and repair these problems every day.</p>
@@ -85,7 +85,7 @@
 </section>
 <% } %>
 
-<section class="content-section">
+<section class="content-section alt-bg">
   <div class="container">
     <h2><%= service.name %> Service Areas</h2>
     <p>Our shop in South Salt Lake is centrally located in the valley — most customers are within 15 minutes. We service drivers from throughout the greater Salt Lake area.</p>
@@ -103,11 +103,11 @@
   </div>
 </section>
 
-<% var faqAlt = true; %>
+<% var faqAlt = false; %>
 <%- include('partials/faq') %>
 
 <% if (relatedServices && relatedServices.length) { %>
-<section class="content-section">
+<section class="content-section alt-bg">
   <div class="container">
     <h2>Related Services</h2>
     <div class="services-grid small">
