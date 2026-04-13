@@ -208,6 +208,18 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
 .step-num{flex-shrink:0;width:40px;height:40px;background:var(--c-primary);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem}
 .process-step h3{font-size:1rem;color:var(--c-dark);margin-bottom:.25rem}
 .process-step p{font-size:.88rem;color:var(--c-text-muted)}
+.process-steps-compact{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem;margin-top:1.75rem}
+.process-step-compact{background:#fff;border:1px solid var(--c-border);border-radius:var(--radius);padding:1rem;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:.5rem}
+.process-step-compact .step-num{width:34px;height:34px;font-size:.9rem}
+.process-step-compact h3{font-size:.88rem;font-weight:700;color:var(--c-dark)}
+.process-step-compact p{font-size:.8rem;color:var(--c-text-muted);line-height:1.5}
+.recommended-service-block{background:var(--c-bg-alt);border-left:4px solid var(--c-primary);border-radius:var(--radius);padding:1.5rem;margin-top:1rem}
+.recommended-service-block p{color:var(--c-text);font-size:.97rem;line-height:1.7}
+.recommended-service-block a:not(.btn){color:var(--c-primary);text-decoration:underline}
+.symptom-other-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.85rem;margin-top:1.5rem}
+.symptom-other-card{display:flex;flex-direction:column;gap:.35rem;padding:1rem 1.1rem;background:#fff;border:1px solid var(--c-border);border-radius:var(--radius);box-shadow:var(--shadow-sm);transition:all var(--transition)}
+.symptom-other-card:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:var(--c-primary)}
+.symptom-other-card strong{font-size:.92rem;color:var(--c-dark)}
 
 /* === Checklist === */
 .checklist{margin:1.5rem 0}
@@ -301,6 +313,11 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
   .values-grid{grid-template-columns:1fr}
   .btn{padding:.6rem 1.2rem;font-size:.88rem}
   .location-map-row{grid-template-columns:1fr}
+  .process-steps-compact{grid-template-columns:repeat(3,1fr)}
+  .symptom-other-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:600px){
+  .process-steps-compact{grid-template-columns:1fr 1fr}
 }
 @media(max-width:480px){
   .hero{min-height:280px;max-height:340px}

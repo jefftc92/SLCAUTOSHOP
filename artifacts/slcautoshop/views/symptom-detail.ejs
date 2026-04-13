@@ -19,15 +19,15 @@
   <div class="container">
     <h2>Our Diagnosis Process</h2>
     <p class="section-subtitle">From diagnosis to repair, we keep you informed every step of the way.</p>
-    <div class="process-steps">
+    <div class="process-steps-compact">
       <% [
-        { step: 1, title: "Describe Symptoms", desc: "Call or text us to describe what you're experiencing with your vehicle." },
-        { step: 2, title: "Free Diagnosis", desc: "Bring your vehicle in and our technicians will perform a thorough inspection." },
-        { step: 3, title: "Detailed Quote", desc: "We explain what we found and provide a clear, upfront quote before any work begins." },
-        { step: 4, title: "Expert Repair", desc: "Our experienced technicians complete the repair using quality parts and proven techniques." },
-        { step: 5, title: "Quality Check", desc: "We test drive and verify the repair is complete before returning your vehicle." }
+        { step: 1, title: "Describe Symptoms", desc: "Call or text us to describe what you're experiencing." },
+        { step: 2, title: "Free Diagnosis", desc: "Bring your vehicle in for a thorough inspection." },
+        { step: 3, title: "Upfront Quote", desc: "We explain what we found and quote before any work begins." },
+        { step: 4, title: "Expert Repair", desc: "Experienced technicians complete the repair with quality parts." },
+        { step: 5, title: "Quality Check", desc: "We test drive and verify the repair before returning your car." }
       ].forEach(p => { %>
-      <div class="process-step">
+      <div class="process-step-compact">
         <span class="step-num"><%= p.step %></span>
         <div>
           <h3><%= p.title %></h3>
@@ -38,6 +38,9 @@
     </div>
   </div>
 </section>
+
+<% var faqAlt = true; %>
+<%- include('partials/faq') %>
 
 <section class="content-section alt-bg">
   <div class="container">
@@ -58,30 +61,34 @@
 <section class="content-section">
   <div class="container">
     <h2>Recommended Service</h2>
-    <a href="/services/<%= relatedService.slug %>" class="service-link-card" style="display:block;max-width:500px">
-      <strong><%= relatedService.fullName %></strong>
-      <span><%= relatedService.shortDesc %></span>
-    </a>
+    <div class="recommended-service-block">
+      <p>For drivers experiencing <strong><%= symptom.name %></strong>, we recommend our <a href="/services/<%= relatedService.slug %>"><strong><%= relatedService.fullName %></strong></a> service. <%= relatedService.shortDesc %> Our technicians have been diagnosing and fixing this problem for Salt Lake Valley drivers since 1990 — we'll give you a clear, honest assessment and a fair quote before any work begins.</p>
+      <div style="margin-top:1.25rem;display:flex;gap:.75rem;flex-wrap:wrap">
+        <a href="/services/<%= relatedService.slug %>" class="btn btn-primary">Learn About This Service</a>
+        <a href="tel:<%= site.phoneTel %>" class="btn btn-outline">Call for a Free Quote</a>
+      </div>
+    </div>
   </div>
 </section>
 <% } %>
 
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>Other Symptoms</h2>
-    <div class="symptom-tags">
-      <% allSymptoms.filter(s => s.slug !== symptom.slug).slice(0, 10).forEach(sy => { %>
-      <a href="/symptoms/<%= sy.slug %>" class="tag"><%= sy.shortName %></a>
+    <h2>Other Symptoms We Diagnose</h2>
+    <p class="section-subtitle">Not sure if this is your issue? Browse other common problems we fix.</p>
+    <div class="symptom-other-grid">
+      <% allSymptoms.filter(s => s.slug !== symptom.slug).slice(0, 9).forEach(sy => { %>
+      <a href="/symptoms/<%= sy.slug %>" class="symptom-other-card cat-<%= sy.category.toLowerCase().replace(' ','') %>">
+        <span class="symptom-cat-chip"><%= sy.category %></span>
+        <strong><%= sy.shortName %></strong>
+      </a>
       <% }) %>
     </div>
     <div class="section-action">
-      <a href="/symptoms" class="btn btn-outline">View All Symptoms</a>
+      <a href="/symptoms" class="btn btn-outline">View All Symptoms Guide</a>
     </div>
   </div>
 </section>
-
-<% var faqAlt = false; %>
-<%- include('partials/faq') %>
 
 <% var ctaTitle = "Experiencing " + symptom.shortName + "?"; var ctaDesc = "Contact Scott's Auto and Clutch today for a free diagnosis. We'll get your vehicle running right."; %>
 <%- include('partials/cta') %>
