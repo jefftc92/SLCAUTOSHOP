@@ -1,6 +1,6 @@
 module.exports = {
   name: "Scott's Auto and Clutch",
-  shortName: "SLC Auto Shop",
+  shortName: "Scott's Auto and Clutch",
   phone: "(801) 485-4089",
   phoneTel: "+18014854089",
   phoneSms: "8014854089",
