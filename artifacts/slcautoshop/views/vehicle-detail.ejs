@@ -111,11 +111,27 @@
 <!-- 6. FAQ — alt-bg (passed from server via faqAlt:true) -->
 <%- include('partials/faq') %>
 
-<!-- 7. Testimonials — always alt-bg -->
-<%- include('partials/testimonials') %>
-
-<!-- 8. Other Brands — white -->
+<!-- 7. Service Areas — white (alternates with grey FAQ above) -->
 <section class="content-section">
+  <div class="container">
+    <h2><%= brand.name %> Repair Service Areas</h2>
+    <p class="section-subtitle">Our shop in South Salt Lake is centrally located in the valley — most customers are within 15 minutes. We service <%= brand.name %> drivers from throughout the greater Salt Lake area.</p>
+    <div class="locations-grid-compact" style="margin-top:1rem">
+      <% allLocations.forEach(l => { %>
+      <a href="/locations/<%= l.slug %>" class="location-tag">
+        <strong><%= l.name %>, UT</strong>
+        <span><%= l.isHome ? 'Our Location' : l.driveTime + ' away' %></span>
+      </a>
+      <% }) %>
+    </div>
+    <div style="margin-top:2rem">
+      <a href="<%= site.directionsUrl %>" class="btn btn-outline" target="_blank" rel="noopener">Get Directions</a>
+    </div>
+  </div>
+</section>
+
+<!-- 8. Other Brands — alt-bg (alternates with white Service Areas above) -->
+<section class="content-section alt-bg">
   <div class="container">
     <h2>Other Vehicle Brands We Service</h2>
     <div class="brand-tags">
