@@ -6,7 +6,7 @@
   <div class="page-hero-bg" style="background-image:url('<%= site.symptomsHeroImage %>')"></div>
   <div class="container">
     <h1>Family-Owned Auto Mechanic in South Salt Lake</h1>
-    <p>For over 36 years, Scott's Auto and Clutch has been the trusted name for auto repair and car mechanic services in South Salt Lake and the surrounding Salt Lake Valley. We're clutch repair specialists who also provide complete car repair—all with honest pricing and quality workmanship from experienced auto mechanics.</p>
+    <p>For over 36 years, Scott's Auto and Clutch has been the trusted name for auto repair in South Salt Lake and the greater Salt Lake Valley. We're clutch repair specialists who also handle complete auto service — all with honest pricing and quality work from experienced mechanics.</p>
     <div class="hero-buttons">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
@@ -14,6 +14,7 @@
   </div>
 </section>
 
+<!-- Stats banner — has own background -->
 <section class="stats-banner">
   <div class="container">
     <div class="stats-grid">
@@ -32,28 +33,30 @@
   </div>
 </section>
 
+<!-- Our Story — white -->
 <section class="content-section">
   <div class="container">
     <h2>Our Story</h2>
-    <p class="section-subtitle">From a small clutch specialty shop to a full-service auto repair and car mechanic center.</p>
+    <p class="section-subtitle">From a small clutch specialty shop to a full-service auto repair center — serving Salt Lake Valley since 1990.</p>
     <div class="prose">
-      <p>Scott's Auto and Clutch was founded in 1990 with a simple mission: provide honest, quality car repair at fair prices. What started as a clutch specialty shop has grown into a full-service auto repair center serving drivers throughout the Salt Lake Valley.</p>
-      <p>Our founder learned early on that the key to a successful auto mechanic business isn't just fixing cars—it's building trust. That means explaining problems clearly, offering options instead of pressure, and standing behind our car repair work. It's an approach that's earned us loyal customers who've been coming back for over two decades.</p>
-      <p>Today, we still specialize in clutch repair—it's in our name, after all—but we've expanded to offer complete car repair and auto mechanic services. From brake repair to timing belt replacement, engine diagnostics to exhaust work, our experienced car mechanics handle it all. We work on all makes and models, domestic and import, and we treat every vehicle like it's our own.</p>
+      <p>Scott's Auto and Clutch was founded in 1990 with a straightforward mission: provide honest, quality auto repair at fair prices. What started as a clutch specialty shop has grown into a complete auto repair center serving drivers throughout the Salt Lake Valley.</p>
+      <p>The shop was built on a simple belief — that the key to a lasting auto repair business isn't just fixing cars, it's building trust. That means explaining what's wrong clearly, offering options instead of applying pressure, and standing behind every repair. It's an approach that's earned us customers who've been coming back for 20 and 30 years.</p>
+      <p>Today we still specialize in clutch repair — it's in our name — but we handle complete auto service for all makes and models, domestic and import. Brakes, timing, exhaust, cooling, CV joints, diagnostics — we take care of it all and treat every vehicle like it's our own.</p>
     </div>
   </div>
 </section>
 
+<!-- Our Values — grey -->
 <section class="values-section alt-bg">
   <div class="container">
-    <h2>Our Values</h2>
-    <p class="section-subtitle">What sets us apart from other car mechanics and auto repair shops in South Salt Lake.</p>
+    <h2>What We Stand For</h2>
+    <p class="section-subtitle">The principles that have kept customers coming back to Scott's Auto and Clutch for over three decades.</p>
     <div class="values-grid">
       <% [
-        { title: "Honest Service", desc: "We explain what's wrong, give you options, and never push unnecessary repairs. You'll always know exactly what you're paying for." },
-        { title: "Fair Pricing", desc: "Competitive rates without hidden fees. We provide detailed estimates before any work begins." },
-        { title: "Quality Parts", desc: "We use OEM and quality aftermarket parts that meet or exceed manufacturer specifications." },
-        { title: "Expert Technicians", desc: "Our experienced mechanics are trained to work on all makes and models, domestic and import." }
+        { title: "Honest Diagnosis", desc: "We tell you what we find, explain it in plain language, and give you the information you need to make a decision — never pressure." },
+        { title: "Fair Pricing", desc: "Detailed estimates before any work begins. No hidden fees, no surprises. You know exactly what you're paying for." },
+        { title: "Quality Parts", desc: "We use OEM and quality aftermarket parts that meet or exceed manufacturer specifications for every repair." },
+        { title: "Experienced Mechanics", desc: "Our technicians have hands-on experience across all makes and models, domestic and import, going back decades." }
       ].forEach(v => { %>
       <div class="value-card">
         <h3><%= v.title %></h3>
@@ -64,10 +67,11 @@
   </div>
 </section>
 
+<!-- Services We Offer — white -->
 <section class="content-section">
   <div class="container">
     <h2>Services We Offer</h2>
-    <p class="section-subtitle">Complete auto repair and maintenance for all makes and models.</p>
+    <p class="section-subtitle">Complete auto repair and maintenance for all makes and models — from clutch specialists to full-service shop.</p>
     <div class="service-links-grid">
       <% services.slice(0, 6).forEach(s => { %>
       <a href="/services/<%= s.slug %>" class="service-link-card">
@@ -82,38 +86,55 @@
   </div>
 </section>
 
-<section class="visit-section alt-bg">
+<!-- Find Us — grey, with embedded map -->
+<section class="content-section alt-bg">
   <div class="container">
-    <h2>Visit Our Shop</h2>
-    <p class="section-subtitle">Conveniently located in South Salt Lake, just off I-15.</p>
-    <div class="visit-grid">
-      <div class="visit-info">
-        <div class="visit-detail"><h3>Address</h3><p><%= site.fullAddress %></p></div>
-        <div class="visit-detail"><h3>Phone</h3><p><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></p></div>
-        <div class="visit-detail"><h3>Hours</h3><p><%= site.hours %><br><%= site.sunHours %></p></div>
-        <div class="cta-buttons">
+    <h2>Find Us</h2>
+    <p class="section-subtitle">Centrally located in South Salt Lake — most of our customers are within 15 minutes.</p>
+    <div class="about-location-grid">
+      <div class="about-location-info">
+        <div class="visit-detail">
+          <h3>Address</h3>
+          <p><a href="<%= site.directionsUrl %>" target="_blank" rel="noopener"><%= site.fullAddress %></a></p>
+        </div>
+        <div class="visit-detail">
+          <h3>Phone</h3>
+          <p><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></p>
+        </div>
+        <div class="visit-detail">
+          <h3>Hours</h3>
+          <p><%= site.hours %><br><%= site.sunHours %></p>
+        </div>
+        <div class="visit-detail">
+          <h3>Areas We Serve</h3>
+          <div class="location-tags-compact" style="margin-top:.5rem">
+            <% allLocations.slice(0, 8).forEach(l => { %>
+            <a href="/locations/<%= l.slug %>" class="tag"><%= l.name %></a>
+            <% }) %>
+          </div>
+        </div>
+        <div class="about-location-actions">
           <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions</a>
           <a href="tel:<%= site.phoneTel %>" class="btn btn-secondary">Call Us</a>
+          <a href="/locations" class="btn btn-outline">View All Service Areas</a>
         </div>
       </div>
-      <div class="visit-areas">
-        <h3>Areas We Serve</h3>
-        <div class="location-tags-compact">
-          <% allLocations.slice(0, 8).forEach(l => { %>
-          <a href="/locations/<%= l.slug %>" class="tag"><%= l.name %></a>
-          <% }) %>
-        </div>
-        <div class="section-action">
-          <a href="/locations" class="btn btn-outline">View Service Areas</a>
-          <a href="/contact" class="btn btn-outline">Contact Us</a>
-        </div>
+      <div class="about-map">
+        <iframe
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
+          width="100%"
+          height="100%"
+          style="border:0;border-radius:10px;min-height:380px"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Scott's Auto and Clutch Location Map">
+        </iframe>
       </div>
     </div>
   </div>
 </section>
 
-<%- include('partials/testimonials') %>
-
-<% var ctaTitle = "Ready to Experience Honest Auto Repair?"; var ctaDesc = "Contact Scott's Auto and Clutch today for a free diagnosis. We'll take care of your vehicle like it's our own."; %>
+<% var ctaTitle = "Ready for Honest Auto Repair?"; var ctaDesc = "Contact Scott's Auto and Clutch today for a free diagnosis. We'll take care of your vehicle like it's our own."; %>
 <%- include('partials/cta') %>
 <%- include('partials/footer') %>
