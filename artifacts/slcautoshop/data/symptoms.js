@@ -1,6 +1,6 @@
 const symptoms = [
   {
-    slug: "clutch-slipping-repair-south-salt-lake",
+    slug: "clutch-slipping",
     name: "Clutch Slipping or High Engagement",
     shortName: "Clutch Slipping",
     priority: "High",
@@ -19,7 +19,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "grinding-noise-shifting-repair-south-salt-lake",
+    slug: "grinding-when-shifting",
     name: "Grinding Noise When Shifting",
     shortName: "Grinding When Shifting",
     priority: "High",
@@ -36,7 +36,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "stiff-clutch-pedal-repair-south-salt-lake",
+    slug: "stiff-clutch-pedal",
     name: "Stiff Clutch Pedal",
     shortName: "Stiff Clutch Pedal",
     priority: "Medium",
@@ -53,7 +53,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "transmission-slipping-repair-south-salt-lake",
+    slug: "transmission-slipping",
     name: "Transmission Slipping",
     shortName: "Transmission Slipping",
     priority: "High",
@@ -70,7 +70,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "hard-to-shift-gears-repair-south-salt-lake",
+    slug: "hard-to-shift-gears",
     name: "Hard to Shift Gears",
     shortName: "Hard to Shift Gears",
     priority: "Medium",
@@ -87,7 +87,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "burning-smell-clutch-repair-south-salt-lake",
+    slug: "burning-smell",
     name: "Burning Smell from Clutch",
     shortName: "Burning Smell",
     priority: "High",
@@ -104,7 +104,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "clutch-pedal-feels-soft-repair-south-salt-lake",
+    slug: "soft-clutch-pedal",
     name: "Clutch Pedal Feels Soft or Spongy",
     shortName: "Soft Clutch Pedal",
     priority: "Medium",
@@ -121,7 +121,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "clicking-noise-turning-repair-south-salt-lake",
+    slug: "clicking-when-turning",
     name: "Clicking Noise When Turning",
     shortName: "Clicking When Turning",
     priority: "Medium",
@@ -137,7 +137,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "vibration-when-accelerating-repair-south-salt-lake",
+    slug: "vibration-when-accelerating",
     name: "Vibration When Accelerating",
     shortName: "Vibration Accelerating",
     priority: "Medium",
@@ -153,7 +153,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "soft-brake-pedal-repair-south-salt-lake",
+    slug: "soft-brake-pedal",
     name: "Soft or Spongy Brake Pedal",
     shortName: "Soft Brake Pedal",
     priority: "High",
@@ -170,7 +170,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "squeaking-brakes-repair-south-salt-lake",
+    slug: "squeaking-brakes",
     name: "Squeaking or Squealing Brakes",
     shortName: "Squeaking Brakes",
     priority: "Medium",
@@ -187,7 +187,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "grinding-brakes-repair-south-salt-lake",
+    slug: "grinding-brakes",
     name: "Grinding Noise When Braking",
     shortName: "Grinding Brakes",
     priority: "High",
@@ -203,7 +203,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "steering-vibration-repair-south-salt-lake",
+    slug: "steering-vibration",
     name: "Steering Wheel Vibration",
     shortName: "Steering Vibration",
     priority: "Medium",
@@ -219,7 +219,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "vibration-when-braking-repair-south-salt-lake",
+    slug: "vibration-when-braking",
     name: "Vibration When Braking",
     shortName: "Vibration When Braking",
     priority: "Medium",
@@ -235,7 +235,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "engine-rattling-startup-repair-south-salt-lake",
+    slug: "engine-rattling",
     name: "Engine Rattling on Startup",
     shortName: "Engine Rattling",
     priority: "High",
@@ -251,7 +251,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "check-engine-timing-repair-south-salt-lake",
+    slug: "check-engine-timing",
     name: "Check Engine Light (Timing Related)",
     shortName: "Check Engine (Timing)",
     priority: "High",
@@ -267,7 +267,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "check-engine-light-repair-south-salt-lake",
+    slug: "check-engine-light",
     name: "Check Engine Light",
     shortName: "Check Engine Light",
     priority: "Medium",
@@ -284,7 +284,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "engine-overheating-repair-south-salt-lake",
+    slug: "engine-overheating",
     name: "Engine Overheating",
     shortName: "Engine Overheating",
     priority: "High",
@@ -301,7 +301,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "coolant-leak-repair-south-salt-lake",
+    slug: "coolant-leak",
     name: "Coolant Leak",
     shortName: "Coolant Leak",
     priority: "High",
@@ -318,7 +318,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "loud-exhaust-repair-south-salt-lake",
+    slug: "loud-exhaust",
     name: "Loud Exhaust Noise",
     shortName: "Loud Exhaust",
     priority: "Medium",
@@ -334,7 +334,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "exhaust-smell-cabin-repair-south-salt-lake",
+    slug: "exhaust-smell-in-cabin",
     name: "Exhaust Smell in Cabin",
     shortName: "Exhaust Smell in Cabin",
     priority: "High",
@@ -350,7 +350,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "failed-emissions-repair-south-salt-lake",
+    slug: "failed-emissions",
     name: "Failed Emissions Test",
     shortName: "Failed Emissions",
     priority: "Medium",
@@ -367,7 +367,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "sulfur-smell-exhaust-repair-south-salt-lake",
+    slug: "sulfur-smell",
     name: "Sulfur Smell from Exhaust",
     shortName: "Sulfur Smell",
     priority: "Medium",
@@ -383,7 +383,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "bouncy-ride-repair-south-salt-lake",
+    slug: "bouncy-ride",
     name: "Bouncy or Rough Ride",
     shortName: "Bouncy Ride",
     priority: "Medium",
@@ -399,7 +399,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "nose-dive-braking-repair-south-salt-lake",
+    slug: "nose-dive-braking",
     name: "Nose Dive When Braking",
     shortName: "Nose Dive Braking",
     priority: "Medium",
@@ -414,7 +414,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "uneven-tire-wear-repair-south-salt-lake",
+    slug: "uneven-tire-wear",
     name: "Uneven Tire Wear",
     shortName: "Uneven Tire Wear",
     priority: "Medium",
@@ -430,7 +430,7 @@ const symptoms = [
     ]
   },
   {
-    slug: "rough-ride-bumps-repair-south-salt-lake",
+    slug: "rough-ride-over-bumps",
     name: "Rough Ride Over Bumps",
     shortName: "Rough Ride Over Bumps",
     priority: "Medium",
