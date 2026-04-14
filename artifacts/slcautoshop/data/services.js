@@ -1,6 +1,6 @@
 const services = [
   {
-    slug: "clutch-repair-south-salt-lake-ut",
+    slug: "clutch-repair-near-south-salt-lake-ut",
     name: "Clutch Repair",
     fullName: "Clutch Repair & Replacement",
     shortDesc: "Expert clutch diagnostics and replacement for all makes and models.",
@@ -44,10 +44,10 @@ const services = [
       { q: "Can you just fix the hydraulic system without replacing the clutch?", a: "Yes, if the disc and pressure plate are still serviceable. We diagnose first—if only the hydraulic system is the issue, that's all we'll recommend fixing." }
     ],
     hasGeoPages: true,
-    relatedSlugs: ["cv-joint-repair-south-salt-lake-ut", "brake-service-south-salt-lake-ut", "timing-chain-repair-south-salt-lake-ut"]
+    relatedSlugs: ["cv-joint-repair-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "timing-chain-repair-near-south-salt-lake-ut"]
   },
   {
-    slug: "cv-joint-repair-south-salt-lake-ut",
+    slug: "cv-joint-repair-near-south-salt-lake-ut",
     name: "CV Joint Repair",
     fullName: "CV Joint & Axle Repair",
     shortDesc: "CV joint replacement, CV axle repair, and CV boot service.",
@@ -82,10 +82,10 @@ const services = [
       { q: "How long does CV joint repair take?", a: "Most CV axle repairs are completed in 1–3 hours depending on the vehicle." }
     ],
     hasGeoPages: false,
-    relatedSlugs: ["clutch-repair-south-salt-lake-ut", "brake-service-south-salt-lake-ut", "strut-replacement-south-salt-lake-ut"]
+    relatedSlugs: ["clutch-repair-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "strut-replacement-near-south-salt-lake-ut"]
   },
   {
-    slug: "brake-service-south-salt-lake-ut",
+    slug: "brake-service-near-south-salt-lake-ut",
     name: "Brake Service",
     fullName: "Brake Repair & Service",
     shortDesc: "Brake pads, rotors, calipers, and complete brake system repair.",
@@ -119,10 +119,10 @@ const services = [
       { q: "Can you resurface my rotors?", a: "If they're within manufacturer specification, yes. If they're too thin or warped, replacement is the safer option. We measure before making any recommendation." }
     ],
     hasGeoPages: false,
-    relatedSlugs: ["clutch-repair-south-salt-lake-ut", "cv-joint-repair-south-salt-lake-ut", "strut-replacement-south-salt-lake-ut"]
+    relatedSlugs: ["clutch-repair-near-south-salt-lake-ut", "cv-joint-repair-near-south-salt-lake-ut", "strut-replacement-near-south-salt-lake-ut"]
   },
   {
-    slug: "timing-chain-repair-south-salt-lake-ut",
+    slug: "timing-chain-repair-near-south-salt-lake-ut",
     name: "Timing Chain",
     fullName: "Timing Chain Replacement",
     shortDesc: "Timing chain repair and replacement to prevent engine damage.",
@@ -153,10 +153,10 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["timing-belt-replacement-south-salt-lake-ut", "water-pump-replacement-south-salt-lake-ut", "clutch-repair-south-salt-lake-ut"]
+    relatedSlugs: ["timing-belt-replacement-near-south-salt-lake-ut", "water-pump-replacement-near-south-salt-lake-ut", "clutch-repair-near-south-salt-lake-ut"]
   },
   {
-    slug: "water-pump-replacement-south-salt-lake-ut",
+    slug: "water-pump-replacement-near-south-salt-lake-ut",
     name: "Water Pump",
     fullName: "Water Pump Replacement",
     shortDesc: "Water pump repair and replacement to prevent overheating.",
@@ -186,10 +186,10 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["timing-chain-repair-south-salt-lake-ut", "timing-belt-replacement-south-salt-lake-ut", "exhaust-repair-south-salt-lake-ut"]
+    relatedSlugs: ["timing-chain-repair-near-south-salt-lake-ut", "timing-belt-replacement-near-south-salt-lake-ut", "exhaust-repair-near-south-salt-lake-ut"]
   },
   {
-    slug: "exhaust-repair-south-salt-lake-ut",
+    slug: "exhaust-repair-near-south-salt-lake-ut",
     name: "Exhaust Repair",
     fullName: "Exhaust System Repair",
     shortDesc: "Muffler repair, exhaust pipe replacement, and leak repair.",
@@ -220,10 +220,10 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["catalytic-converter-service-south-salt-lake-ut", "welding-services-south-salt-lake-ut", "clutch-repair-south-salt-lake-ut"]
+    relatedSlugs: ["catalytic-converter-service-near-south-salt-lake-ut", "welding-services-near-south-salt-lake-ut", "clutch-repair-near-south-salt-lake-ut"]
   },
   {
-    slug: "catalytic-converter-service-south-salt-lake-ut",
+    slug: "catalytic-converter-service-near-south-salt-lake-ut",
     name: "Catalytic Converter",
     fullName: "Catalytic Converter Service",
     shortDesc: "Catalytic converter repair, replacement, and theft protection.",
@@ -254,10 +254,10 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["exhaust-repair-south-salt-lake-ut", "welding-services-south-salt-lake-ut", "brake-service-south-salt-lake-ut"]
+    relatedSlugs: ["exhaust-repair-near-south-salt-lake-ut", "welding-services-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut"]
   },
   {
-    slug: "strut-replacement-south-salt-lake-ut",
+    slug: "strut-replacement-near-south-salt-lake-ut",
     name: "Struts",
     fullName: "Strut Replacement",
     shortDesc: "Front and rear strut replacement for a smoother, safer ride.",
@@ -288,10 +288,10 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["shock-replacement-south-salt-lake-ut", "brake-service-south-salt-lake-ut", "cv-joint-repair-south-salt-lake-ut"]
+    relatedSlugs: ["shock-replacement-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "cv-joint-repair-near-south-salt-lake-ut"]
   },
   {
-    slug: "timing-belt-replacement-south-salt-lake-ut",
+    slug: "timing-belt-replacement-near-south-salt-lake-ut",
     name: "Timing Belt",
     fullName: "Timing Belt Replacement",
     shortDesc: "Preventive timing belt replacement before it fails.",
@@ -321,10 +321,10 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["timing-chain-repair-south-salt-lake-ut", "water-pump-replacement-south-salt-lake-ut", "clutch-repair-south-salt-lake-ut"]
+    relatedSlugs: ["timing-chain-repair-near-south-salt-lake-ut", "water-pump-replacement-near-south-salt-lake-ut", "clutch-repair-near-south-salt-lake-ut"]
   },
   {
-    slug: "welding-services-south-salt-lake-ut",
+    slug: "welding-services-near-south-salt-lake-ut",
     name: "Welding",
     fullName: "Welding Services",
     shortDesc: "Automotive welding for exhaust, frame, and suspension repairs.",
@@ -354,10 +354,10 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["exhaust-repair-south-salt-lake-ut", "catalytic-converter-service-south-salt-lake-ut", "strut-replacement-south-salt-lake-ut"]
+    relatedSlugs: ["exhaust-repair-near-south-salt-lake-ut", "catalytic-converter-service-near-south-salt-lake-ut", "strut-replacement-near-south-salt-lake-ut"]
   },
   {
-    slug: "shock-replacement-south-salt-lake-ut",
+    slug: "shock-replacement-near-south-salt-lake-ut",
     name: "Shocks",
     fullName: "Shock Replacement",
     shortDesc: "Shock absorber replacement for trucks, SUVs, and cars.",
@@ -387,10 +387,10 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["strut-replacement-south-salt-lake-ut", "brake-service-south-salt-lake-ut", "cv-joint-repair-south-salt-lake-ut"]
+    relatedSlugs: ["strut-replacement-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "cv-joint-repair-near-south-salt-lake-ut"]
   },
   {
-    slug: "complete-auto-service-south-salt-lake-ut",
+    slug: "complete-auto-service-near-south-salt-lake-ut",
     name: "Complete Auto Service",
     fullName: "Complete Auto Service",
     shortDesc: "Full-service automotive repair for all makes and models.",
@@ -424,7 +424,7 @@ const services = [
       { q: "Can you do an oil change and other repairs at the same visit?", a: "Absolutely. We encourage combining services to save you time. Let us know what you need when you call." }
     ],
     hasGeoPages: false,
-    relatedSlugs: ["clutch-repair-south-salt-lake-ut", "brake-service-south-salt-lake-ut", "exhaust-repair-south-salt-lake-ut"]
+    relatedSlugs: ["clutch-repair-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "exhaust-repair-near-south-salt-lake-ut"]
   }
 ];
 

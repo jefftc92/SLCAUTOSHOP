@@ -136,7 +136,7 @@ app.get('/services/:slug', (req, res) => {
   if (!service) {
     const geo = geoPages.find(g => g.slug === req.params.slug);
     if (geo) {
-      const clutchService = services.find(s => s.slug === 'clutch-repair-south-salt-lake-ut');
+      const clutchService = services.find(s => s.slug === 'clutch-repair-near-south-salt-lake-ut');
       return res.render('geo-clutch', {
         activePage: 'services',
         metaTitle: geo.metaTitle,
