@@ -29,11 +29,11 @@ const services = [
       { step: 5, title: "Road Test & Verify", desc: "We road test to ensure smooth shifting and proper clutch engagement before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Clutch Slipping", desc: "Engine revs but the car doesn't accelerate—the clutch disc can no longer grip the flywheel under load.", symptomSlug: "clutch-slipping-repair-south-salt-lake" },
-      { title: "Hard to Shift", desc: "Difficulty getting into gear often indicates a worn clutch disc or a hydraulic system that isn't fully releasing.", symptomSlug: "hard-to-shift-gears-repair-south-salt-lake" },
-      { title: "Grinding When Shifting", desc: "Grinding into gear means the clutch isn't fully disengaging—could be hydraulics, the cable, or the throw-out bearing.", symptomSlug: "grinding-noise-shifting-repair-south-salt-lake" },
-      { title: "Soft Clutch Pedal", desc: "A spongy or soft pedal usually means air in the hydraulic system or a failing master or slave cylinder.", symptomSlug: "clutch-pedal-feels-soft-repair-south-salt-lake" },
-      { title: "Burning Smell", desc: "A burning smell from the clutch area, especially in traffic or on hills, indicates the clutch disc is slipping and generating excessive heat.", symptomSlug: "burning-smell-clutch-repair-south-salt-lake" },
+      { title: "Clutch Slipping", desc: "Engine revs but the car doesn't accelerate—the clutch disc can no longer grip the flywheel under load.", symptomSlug: "clutch-slipping" },
+      { title: "Hard to Shift", desc: "Difficulty getting into gear often indicates a worn clutch disc or a hydraulic system that isn't fully releasing.", symptomSlug: "hard-to-shift-gears" },
+      { title: "Grinding When Shifting", desc: "Grinding into gear means the clutch isn't fully disengaging—could be hydraulics, the cable, or the throw-out bearing.", symptomSlug: "grinding-when-shifting" },
+      { title: "Soft Clutch Pedal", desc: "A spongy or soft pedal usually means air in the hydraulic system or a failing master or slave cylinder.", symptomSlug: "soft-clutch-pedal" },
+      { title: "Burning Smell", desc: "A burning smell from the clutch area, especially in traffic or on hills, indicates the clutch disc is slipping and generating excessive heat.", symptomSlug: "burning-smell" },
       { title: "Noise When Pressing Clutch", desc: "Squealing or chirping when pressing the pedal often points to a worn throw-out bearing." }
     ],
     faq: [
@@ -42,6 +42,16 @@ const services = [
       { q: "Do you work on trucks and SUVs?", a: "Absolutely. We service clutches on all vehicle types including trucks, SUVs, sports cars, and daily drivers." },
       { q: "Why does my clutch smell like it's burning?", a: "A burning smell typically indicates a slipping clutch. The friction material overheats when it can't grip properly. It's a sign the clutch is near the end of its service life." },
       { q: "Can you just fix the hydraulic system without replacing the clutch?", a: "Yes, if the disc and pressure plate are still serviceable. We diagnose first—if only the hydraulic system is the issue, that's all we'll recommend fixing." }
+    ],
+    coverageList: [
+      "Clutch disc inspection and replacement",
+      "Pressure plate inspection and replacement",
+      "Flywheel inspection, resurfacing, or replacement",
+      "Throw-out bearing replacement",
+      "Master cylinder and slave cylinder repair",
+      "Clutch hydraulic system bleed and flush",
+      "Clutch cable adjustment and replacement",
+      "Road test and engagement verification"
     ],
     hasGeoPages: true,
     relatedSlugs: ["cv-joint-repair-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "timing-chain-repair-near-south-salt-lake-ut"]
@@ -71,8 +81,8 @@ const services = [
       { step: 5, title: "Road Test", desc: "We verify the repair with a thorough road test." }
     ],
     commonIssues: [
-      { title: "Clicking When Turning", desc: "A clicking or popping noise during turns is the classic sign of a worn outer CV joint.", symptomSlug: "clicking-noise-turning-repair-south-salt-lake" },
-      { title: "Vibration When Accelerating", desc: "A damaged CV joint can cause vibration that builds with speed.", symptomSlug: "vibration-when-accelerating-repair-south-salt-lake" },
+      { title: "Clicking When Turning", desc: "A clicking or popping noise during turns is the classic sign of a worn outer CV joint.", symptomSlug: "clicking-when-turning" },
+      { title: "Vibration When Accelerating", desc: "A damaged CV joint can cause vibration that builds with speed.", symptomSlug: "vibration-when-accelerating" },
       { title: "Grease on Inner Wheel", desc: "A torn CV boot leaks grease, which you may notice as a dark residue on the inside of your wheel or tire." },
       { title: "Clunking Sound", desc: "A clunk when shifting from drive to reverse can indicate worn CV joints or axle play." }
     ],
@@ -109,10 +119,10 @@ const services = [
       { step: 5, title: "Road Test", desc: "We verify proper braking performance before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Squeaking Brakes", desc: "Squealing when braking usually means pads have worn to the built-in wear indicator—often caught before rotors are damaged.", symptomSlug: "squeaking-brakes-repair-south-salt-lake" },
-      { title: "Grinding Brakes", desc: "Metal-on-metal grinding means pads are completely worn and rotors are being scored with every stop.", symptomSlug: "grinding-brakes-repair-south-salt-lake" },
-      { title: "Soft Brake Pedal", desc: "A soft or spongy pedal indicates air in the hydraulic system, fluid loss, or a failing master cylinder.", symptomSlug: "soft-brake-pedal-repair-south-salt-lake" },
-      { title: "Vibration When Braking", desc: "Pulsation through the pedal or steering wheel usually indicates warped rotors.", symptomSlug: "vibration-when-braking-repair-south-salt-lake" }
+      { title: "Squeaking Brakes", desc: "Squealing when braking usually means pads have worn to the built-in wear indicator—often caught before rotors are damaged.", symptomSlug: "squeaking-brakes" },
+      { title: "Grinding Brakes", desc: "Metal-on-metal grinding means pads are completely worn and rotors are being scored with every stop.", symptomSlug: "grinding-brakes" },
+      { title: "Soft Brake Pedal", desc: "A soft or spongy pedal indicates air in the hydraulic system, fluid loss, or a failing master cylinder.", symptomSlug: "soft-brake-pedal" },
+      { title: "Vibration When Braking", desc: "Pulsation through the pedal or steering wheel usually indicates warped rotors.", symptomSlug: "vibration-when-braking" }
     ],
     faq: [
       { q: "How often should brakes be inspected?", a: "We recommend a brake inspection every 15,000–20,000 miles, or any time you notice a change in feel, noise, or stopping distance. Utah's stop-and-go traffic wears brakes faster than highway driving." },
@@ -146,8 +156,8 @@ const services = [
       { step: 5, title: "Verification", desc: "Engine timing is verified and the vehicle is road tested." }
     ],
     commonIssues: [
-      { title: "Rattling on Startup", desc: "A loose timing chain slaps against the guides at startup before oil pressure builds—a clear sign the chain needs attention.", symptomSlug: "engine-rattling-startup-repair-south-salt-lake" },
-      { title: "Check Engine Light", desc: "Timing-related fault codes (P0016, P0017) indicate chain stretch or cam/crank correlation issues.", symptomSlug: "check-engine-timing-repair-south-salt-lake" },
+      { title: "Rattling on Startup", desc: "A loose timing chain slaps against the guides at startup before oil pressure builds—a clear sign the chain needs attention.", symptomSlug: "engine-rattling" },
+      { title: "Check Engine Light", desc: "Timing-related fault codes (P0016, P0017) indicate chain stretch or cam/crank correlation issues.", symptomSlug: "check-engine-timing" },
       { title: "Poor Performance", desc: "A stretched chain throws off engine timing, causing noticeable power loss and reduced fuel economy." },
       { title: "Engine Misfires", desc: "Severe chain stretch can cause misfires and rough running as valve timing falls out of spec." }
     ],
@@ -180,8 +190,8 @@ const services = [
       { step: 5, title: "Verification", desc: "We verify proper operating temperature and confirm no leaks before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Engine Overheating", desc: "A failing water pump can't circulate coolant properly, causing the engine temperature to climb.", symptomSlug: "engine-overheating-repair-south-salt-lake" },
-      { title: "Coolant Leak", desc: "Leaking from the water pump weep hole is a designed indicator of internal seal failure.", symptomSlug: "coolant-leak-repair-south-salt-lake" },
+      { title: "Engine Overheating", desc: "A failing water pump can't circulate coolant properly, causing the engine temperature to climb.", symptomSlug: "engine-overheating" },
+      { title: "Coolant Leak", desc: "Leaking from the water pump weep hole is a designed indicator of internal seal failure.", symptomSlug: "coolant-leak" },
       { title: "Whining or Grinding Noise", desc: "A failing water pump bearing creates a whining or grinding sound from the front of the engine." }
     ],
     faq: [],
@@ -213,9 +223,9 @@ const services = [
       { step: 5, title: "Verification", desc: "We verify no leaks and proper exhaust flow before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Loud Exhaust", desc: "A hole or crack in the exhaust system creates excessive noise that bypasses the muffler entirely.", symptomSlug: "loud-exhaust-repair-south-salt-lake" },
-      { title: "Exhaust Smell in Cabin", desc: "Exhaust fumes entering the cabin is a safety issue—carbon monoxide is dangerous at low concentrations.", symptomSlug: "exhaust-smell-cabin-repair-south-salt-lake" },
-      { title: "Failed Emissions Test", desc: "Exhaust leaks before the O2 sensor can cause emissions test failures by disrupting the fuel trim readings.", symptomSlug: "failed-emissions-repair-south-salt-lake" },
+      { title: "Loud Exhaust", desc: "A hole or crack in the exhaust system creates excessive noise that bypasses the muffler entirely.", symptomSlug: "loud-exhaust" },
+      { title: "Exhaust Smell in Cabin", desc: "Exhaust fumes entering the cabin is a safety issue—carbon monoxide is dangerous at low concentrations.", symptomSlug: "exhaust-smell-in-cabin" },
+      { title: "Failed Emissions Test", desc: "Exhaust leaks before the O2 sensor can cause emissions test failures by disrupting the fuel trim readings.", symptomSlug: "failed-emissions" },
       { title: "Rattling Underneath", desc: "Loose heat shields or broken exhaust hangers create a rattling or dragging sound from under the vehicle." }
     ],
     faq: [],
@@ -247,9 +257,9 @@ const services = [
       { step: 5, title: "Verification", desc: "We verify proper operation and emissions compliance." }
     ],
     commonIssues: [
-      { title: "Failed Emissions Test", desc: "A degraded converter can't reduce pollutants to Utah's required thresholds—but the root cause matters before replacing it.", symptomSlug: "failed-emissions-repair-south-salt-lake" },
-      { title: "Sulfur Smell from Exhaust", desc: "A rotten egg smell indicates the converter can't process hydrogen sulfide, often from a rich fuel condition or a failing converter.", symptomSlug: "sulfur-smell-exhaust-repair-south-salt-lake" },
-      { title: "Check Engine Light", desc: "P0420 or P0430 codes indicate reduced converter efficiency—diagnosis determines whether it's the converter or an upstream issue.", symptomSlug: "check-engine-light-repair-south-salt-lake" },
+      { title: "Failed Emissions Test", desc: "A degraded converter can't reduce pollutants to Utah's required thresholds—but the root cause matters before replacing it.", symptomSlug: "failed-emissions" },
+      { title: "Sulfur Smell from Exhaust", desc: "A rotten egg smell indicates the converter can't process hydrogen sulfide, often from a rich fuel condition or a failing converter.", symptomSlug: "sulfur-smell" },
+      { title: "Check Engine Light", desc: "P0420 or P0430 codes indicate reduced converter efficiency—diagnosis determines whether it's the converter or an upstream issue.", symptomSlug: "check-engine-light" },
       { title: "Converter Theft", desc: "Catalytic converters are stolen for their precious metals. We install protective shields that make theft significantly more difficult." }
     ],
     faq: [],
@@ -281,10 +291,10 @@ const services = [
       { step: 5, title: "Test Drive", desc: "We verify ride quality and handling before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Bouncy Ride", desc: "The vehicle bounces two or three times after a bump instead of settling—a sign struts have lost their damping ability.", symptomSlug: "bouncy-ride-repair-south-salt-lake" },
-      { title: "Nose Dive When Braking", desc: "The front end pitches dramatically forward under braking, reducing control and extending stopping distance.", symptomSlug: "nose-dive-braking-repair-south-salt-lake" },
-      { title: "Uneven Tire Wear", desc: "Worn struts allow tires to bounce and skip, creating cupping or scalloping patterns in the tread.", symptomSlug: "uneven-tire-wear-repair-south-salt-lake" },
-      { title: "Rough Ride Over Bumps", desc: "Every pothole and expansion joint is felt as a sharp jolt rather than a dampened thud.", symptomSlug: "rough-ride-bumps-repair-south-salt-lake" }
+      { title: "Bouncy Ride", desc: "The vehicle bounces two or three times after a bump instead of settling—a sign struts have lost their damping ability.", symptomSlug: "bouncy-ride" },
+      { title: "Nose Dive When Braking", desc: "The front end pitches dramatically forward under braking, reducing control and extending stopping distance.", symptomSlug: "nose-dive-braking" },
+      { title: "Uneven Tire Wear", desc: "Worn struts allow tires to bounce and skip, creating cupping or scalloping patterns in the tread.", symptomSlug: "uneven-tire-wear" },
+      { title: "Rough Ride Over Bumps", desc: "Every pothole and expansion joint is felt as a sharp jolt rather than a dampened thud.", symptomSlug: "rough-ride-over-bumps" }
     ],
     faq: [],
     hasGeoPages: false,
@@ -381,9 +391,9 @@ const services = [
       { step: 5, title: "Test Drive", desc: "We verify ride quality and handling before returning your vehicle." }
     ],
     commonIssues: [
-      { title: "Bouncy Ride", desc: "The vehicle bounces repeatedly after bumps rather than settling—a classic sign of worn shock absorbers.", symptomSlug: "bouncy-ride-repair-south-salt-lake" },
+      { title: "Bouncy Ride", desc: "The vehicle bounces repeatedly after bumps rather than settling—a classic sign of worn shock absorbers.", symptomSlug: "bouncy-ride" },
       { title: "Body Roll in Turns", desc: "Excessive leaning through corners indicates worn shocks can no longer resist weight transfer." },
-      { title: "Uneven Tire Wear", desc: "Worn shocks let tires bounce and skip, causing cupping and scalloping across the tread.", symptomSlug: "uneven-tire-wear-repair-south-salt-lake" }
+      { title: "Uneven Tire Wear", desc: "Worn shocks let tires bounce and skip, causing cupping and scalloping across the tread.", symptomSlug: "uneven-tire-wear" }
     ],
     faq: [],
     hasGeoPages: false,
@@ -414,7 +424,7 @@ const services = [
       { step: 5, title: "Verification", desc: "We verify the repair and return your vehicle ready to drive." }
     ],
     commonIssues: [
-      { title: "Check Engine Light", desc: "We scan fault codes with professional diagnostic equipment and explain what they mean before recommending any repair.", symptomSlug: "check-engine-light-repair-south-salt-lake" },
+      { title: "Check Engine Light", desc: "We scan fault codes with professional diagnostic equipment and explain what they mean before recommending any repair.", symptomSlug: "check-engine-light" },
       { title: "A/C Not Cooling", desc: "Utah summers demand a working A/C. We diagnose and repair refrigerant leaks, compressor issues, and more." },
       { title: "Oil Leaks", desc: "Oil leaks from valve covers, gaskets, or seals are common on higher-mileage vehicles. We find the source and fix it." },
       { title: "Maintenance Overdue", desc: "We help you catch up on deferred maintenance and prioritize what's most important for your vehicle and budget." }
