@@ -2,230 +2,290 @@
 const brandContent = {
   'Toyota': {
     issues: [
-      {t:'Timing Chain Stretch',d:'The 2AR-FE engine in Camry and RAV4 (2007-2017) is known for timing chain stretch causing rattling on cold starts. We replace the chain, guides, and tensioner as a complete kit.'},
-      {t:'Water Pump Failure',d:'Toyota\'s 2GR-FE V6 water pumps commonly fail around 100K miles with coolant weeping from the shaft seal. Early replacement prevents overheating.'},
-      {t:'Clutch Chatter on Tacomas',d:'Manual transmission Tacomas are notorious for clutch chatter and shudder during engagement, especially in 2016+ models. We replace with upgraded clutch kits.'},
-      {t:'Exhaust Manifold Cracks',d:'4Runner and Tacoma 4.0L V6 exhaust manifolds crack between cylinders, causing ticking sounds and failed emissions. We weld or replace depending on severity.'}
+      {t:'Timing Chain Stretch',d:'Toyota timing chains can develop stretch over time, causing a rattling noise on cold starts and check engine codes for camshaft timing. We replace the chain, guides, and tensioner as a complete kit to restore proper timing.'},
+      {t:'Water Pump Failure',d:'Toyota V6 and some 4-cylinder engines are prone to water pump seal failure, showing up as coolant weeping around the pump shaft. Early detection prevents overheating and engine damage.'},
+      {t:'Clutch Chatter and Judder',d:'Toyota manual transmissions can develop clutch chatter and shudder during engagement, particularly in trucks and performance vehicles. We replace with quality clutch kits that eliminate the vibration.'},
+      {t:'Exhaust Manifold Cracks',d:'Toyota V6 engines are prone to cracked exhaust manifolds, causing a ticking sound especially when cold and failed emissions tests. We weld or replace depending on crack severity.'},
+      {t:'Carbon Buildup on Direct Injection',d:'Toyota direct-injection engines accumulate carbon deposits on intake valves over time, reducing power and fuel economy. Walnut blast cleaning restores performance without engine disassembly.'},
+      {t:'Transmission Fluid Degradation',d:'Toyota automatic and CVT transmissions are sensitive to fluid quality. Despite "lifetime" fill claims, fluid degrades and causes shift quality issues on vehicles where it was never serviced.'},
+      {t:'Cooling System Hose and Seal Wear',d:'Toyota cooling systems use rubber hoses, plastic reservoirs, and thermostat housings that deteriorate with age. A pressurized cooling system inspection catches leaks before they cause an overheating event.'}
     ],
     tips: [
-      'Toyota recommends 0W-20 synthetic oil for most modern engines. Using conventional oil voids the extended drain interval.',
-      'Tacoma and 4Runner frames are prone to rust in salt-belt states like Utah. Annual undercarriage rust-proofing extends frame life significantly.',
-      'Prius hybrid battery cooling fans clog with dust. Cleaning the fan vent behind the rear seat every 30K miles prevents premature battery degradation.',
-      'Toyota\'s direct-injection engines (D-4S) build carbon on intake valves. A walnut blast cleaning every 60K miles keeps performance optimal.'
+      'Toyota engines are built around specific oil grades and change intervals. Using the correct synthetic oil spec — and not extending intervals beyond what Toyota recommends — is one of the most effective things you can do for long-term engine health.',
+      'Utah\'s canyon roads and mountain grades put real demands on Toyota drivetrains. Differential and transfer case fluid in AWD and 4WD models should be changed more frequently than the factory interval suggests for flat-highway driving.',
+      'Toyota cooling systems are reliable but not maintenance-free. Coolant degrades over time and loses its corrosion inhibitors. A coolant flush at the manufacturer\'s interval prevents internal rust and thermostat problems.',
+      'Direct-injection Toyota engines build carbon deposits on intake valves over time — a known trade-off of GDI technology. An intake cleaning every 60-80K miles keeps combustion efficient and performance consistent.'
     ],
     faqs: [
-      {q:'How often should I change the oil in my Toyota?',a:'Most modern Toyotas use 0W-20 synthetic and can go 10,000 miles between changes. However, if you drive in heavy stop-and-go traffic on I-15 or tow frequently, we recommend 5,000-7,500 mile intervals.'},
-      {q:'My Toyota Tacoma clutch chatters when I let off the pedal. Is that normal?',a:'Clutch chatter is extremely common on Tacomas, especially 2016 and newer. It\'s a known issue with the dual-mass flywheel design. We can replace with an upgraded solid flywheel and clutch kit to eliminate it.'},
-      {q:'When does my Toyota need a timing chain replacement?',a:'Toyota timing chains typically last 150,000-200,000 miles, but the 2AR-FE 4-cylinder in Camry and RAV4 can stretch earlier. If you hear a rattle on cold starts, have it inspected—a failed chain can destroy the engine.'}
+      {q:'How often should I change my Toyota\'s oil?',a:'Depending on which engine your Toyota has, 7,500-10,000 miles on full synthetic is standard. But if you drive in heavy traffic, tow, or do a lot of mountain driving on Utah roads, we recommend 5,000-7,500 mile intervals. It\'s cheap insurance on an engine built to last 200,000+ miles.'},
+      {q:'How do I know if my Toyota has a timing issue?',a:'The most common sign is a rattling or ticking noise on cold starts that quiets as the engine warms up, sometimes paired with a check engine light for camshaft timing. If you hear it, have it inspected promptly — timing issues progress to engine damage if ignored.'},
+      {q:'When should my Toyota\'s transmission fluid be changed?',a:'Despite "lifetime" fluid claims, Toyota transmissions benefit from changes every 30,000-45,000 miles in real-world use. Utah\'s mountain grades and temperature swings are harder on transmission fluid than flat-highway driving.'},
+      {q:'Why is my Toyota making a clicking or vibrating noise?',a:'Drivetrain noises — clicking during turns, vibration under acceleration — typically point to CV joints, differential fluid levels, or clutch components. We diagnose the actual source before recommending any repair.'},
+      {q:'Is it worth investing in a high-mileage Toyota?',a:'Usually yes. Toyota engines and transmissions are among the most durable made. A well-maintained Toyota at 150,000-200,000 miles is often worth maintaining — repair costs compare favorably to a car payment, and these vehicles routinely go 250,000+ miles.'}
     ]
   },
   'Honda': {
     issues: [
-      {t:'Clutch Judder on Civics',d:'Honda Civic Si and manual Accord models experience clutch judder from the factory dual-mass flywheel. We replace with a single-mass flywheel conversion for smoother engagement.'},
-      {t:'AC Compressor Failure',d:'Honda CR-V and Civic AC compressors commonly fail and send metal debris through the system, requiring a full AC system flush and compressor replacement.'},
-      {t:'Variable Timing Solenoid Leaks',d:'Honda VTEC solenoid gaskets leak oil onto the exhaust, causing burning smells and smoke. It\'s a common and affordable repair we do frequently.'},
-      {t:'CV Axle Boot Tears',d:'Honda front CV boots tear prematurely due to the tight turning radius. Catching a torn boot early means replacing just the boot instead of the entire axle.'}
+      {t:'Manual Transmission Clutch Judder',d:'Honda manual transmissions can develop clutch judder and vibration, often from dual-mass flywheel wear. We convert to a single-mass flywheel setup for smoother, more durable engagement.'},
+      {t:'AC Compressor Failure',d:'Honda AC compressors are prone to failure that sends metal debris through the entire system, requiring a full flush and compressor replacement — not just a component swap.'},
+      {t:'VTEC Solenoid Oil Leaks',d:'Honda VTEC variable timing solenoid gaskets develop oil leaks that drip onto exhaust components, causing burning smells and smoke. It\'s a common and straightforward repair.'},
+      {t:'CV Axle Boot Wear',d:'Honda CV axle boots are prone to cracking and tearing, allowing grease to escape and contaminate the joint. Catching it early means replacing just the boot rather than the entire axle.'},
+      {t:'Transmission Fluid Sensitivity',d:'Honda automatic transmissions are particularly sensitive to incorrect or degraded fluid. Using non-Honda-spec ATF or running fluid too long causes shift quality deterioration and accelerated wear.'},
+      {t:'Power Steering Hose Leaks',d:'Honda hydraulic power steering systems develop high-pressure hose leaks and pump seal failures over time. Low fluid causes whining noise and eventually steering assist loss.'},
+      {t:'Coolant Thermostat Failure',d:'Honda thermostats can fail in either direction — causing overheating or an engine that runs too cool. Both conditions affect performance, fuel economy, and long-term engine health.'}
     ],
     tips: [
-      'Honda engines are engineered around specific OEM-spec fluids. Using off-brand substitutes for engine oil, coolant, or transmission fluid—even ones labeled "Honda compatible"—can lead to shift quality problems and accelerated wear. Paying a little more for the right fluid now saves a lot more later.',
+      'Honda engines are engineered around specific OEM-spec fluids. Using off-brand substitutes for engine oil, coolant, or transmission fluid — even ones labeled "Honda compatible" — can lead to shift quality problems and accelerated wear. Paying a little more for the right fluid now saves a lot more later.',
       'Honda\'s brake system tends to distribute more braking force to the rear than many other makes. This means rear brake pads often wear faster than you might expect. A quick rear-pad check at every oil service keeps you from being surprised.',
       'Utah\'s altitude and temperature swings put real stress on cooling systems. Honda cooling systems are reliable, but low coolant concentration or a worn thermostat shows up fastest during summer canyon driving and cold winter mornings. An annual cooling system check is worth doing.',
-      'Honda drivetrains—whether front-wheel drive or all-wheel drive—rely on clean, properly filled differentials and transfer cases. If you notice any hesitation or vibration during tight turns, that\'s often the first sign that drivetrain fluid is overdue.'
+      'Honda drivetrains — whether front-wheel drive or all-wheel drive — rely on clean, properly filled differentials and transfer cases. If you notice any hesitation or vibration during tight turns, that\'s often the first sign that drivetrain fluid is overdue.'
     ],
     faqs: [
-      {q:'Why does my Honda Civic clutch vibrate?',a:'Honda uses a dual-mass flywheel on manual Civics that develops judder over time. We typically recommend converting to a single-mass flywheel with a quality clutch kit, which eliminates the vibration and costs less than OEM replacement.'},
-      {q:'How often should I change my Honda transmission fluid?',a:'Honda recommends every 30,000-60,000 miles depending on driving conditions. Given Utah\'s mountain driving and temperature extremes, we recommend the shorter interval. Always use Honda-specific ATF.'},
-      {q:'My Honda CR-V shudders when turning. What\'s wrong?',a:'This is almost always the rear differential fluid. The CR-V AWD system requires specific Honda dual-pump fluid changed every 30K miles. We see this issue constantly and it\'s a quick, affordable fix.'}
+      {q:'How often should I change my Honda\'s oil?',a:'Most modern Hondas can go 7,500-10,000 miles on full synthetic under normal conditions. For vehicles that do a lot of short trips, tow, or see mountain driving, we recommend 5,000-7,500 mile intervals. Honda engines are reliable — keeping the oil fresh is one of the most cost-effective things you can do.'},
+      {q:'What transmission fluid does my Honda need?',a:'Honda automatic transmissions require Honda-spec DW-1 ATF. Generic "universal" transmission fluids cause shift quality deterioration and long-term wear. We always use the correct spec — it\'s not worth compromising on.'},
+      {q:'Why does my Honda vibrate or shudder when shifting?',a:'Shuddering during shifts on Honda automatics is often caused by degraded transmission fluid or incorrect fluid type. On manual Hondas, it\'s typically clutch or flywheel related. We diagnose the exact cause before recommending any repair.'},
+      {q:'How long do Honda engines last?',a:'Honda engines are known for longevity — 200,000-300,000 miles is achievable with proper maintenance. The key factors are regular oil changes with the correct spec fluid, timing belt or chain service at the right interval, and addressing leaks before they become serious.'},
+      {q:'Why is my Honda\'s check engine light on?',a:'Common causes we see include VTEC solenoid issues, catalytic converter efficiency codes, purge valve failure, and oxygen sensor wear. We perform a full diagnostic before recommending any part replacement — the code tells us where to look, not necessarily what to replace.'}
     ]
   },
   'Ford': {
     issues: [
-      {t:'EcoBoost Turbo Issues',d:'Ford\'s EcoBoost turbo engines in F-150 and Explorer can develop turbo wastegate rattle and carbon buildup. We diagnose and repair turbo systems without unnecessary replacements.'},
-      {t:'Clutch Shudder on Focus/Fiesta',d:'Ford Focus and Fiesta with the PowerShift dual-clutch transmission are infamous for shuddering and slipping. We replace clutch packs and reprogram the TCM.'},
-      {t:'Exhaust Manifold Leaks',d:'Ford F-150 5.0L Coyote engines develop cracked exhaust manifold studs that cause ticking sounds, especially when cold. We extract broken studs and replace manifolds.'},
-      {t:'Water Pump Coolant Leaks',d:'Ford 3.5L and 3.7L engines have plastic water pump impellers that crack around 80K miles. We replace with updated designs to prevent future failure.'}
+      {t:'EcoBoost Turbo Carbon and Boost Issues',d:'Ford turbocharged engines can develop carbon buildup, wastegate rattle, and boost pressure problems over time. We diagnose turbo systems thoroughly rather than replacing components unnecessarily.'},
+      {t:'PowerShift Dual-Clutch Shudder',d:'Ford\'s dual-clutch transmissions developed a reputation for shuddering and slipping under light acceleration. We service clutch packs and reprogram the transmission control module.'},
+      {t:'Exhaust Manifold Stud Failure',d:'Ford V8 engines frequently develop cracked or broken exhaust manifold studs, causing a ticking sound especially when cold and eventual exhaust leaks. We extract broken studs and restore proper sealing.'},
+      {t:'Cooling System Water Pump Failure',d:'Ford engines use water pumps with plastic impellers that crack and cause coolant loss. We replace with updated designs that address the failure pattern.'},
+      {t:'Spark Plug Seizure on V8 Engines',d:'Ford V8 engines are prone to spark plug seizure due to a two-piece plug design. Removal requires specialized tools and technique to avoid breaking the plug and damaging the cylinder head.'},
+      {t:'Transmission Fluid Neglect',d:'Ford automatic transmissions are often labeled "lifetime fill" but benefit significantly from fluid changes every 30-60K miles under real-world driving conditions, especially in Utah\'s mountains.'},
+      {t:'Clutch Hydraulic System Leaks',d:'Ford manual transmission clutch hydraulic systems develop internal leaks in the slave cylinder, causing a soft or spongy pedal and difficulty engaging gears cleanly.'}
     ],
     tips: [
-      'Ford F-150 EcoBoost engines need the intercooler condensation drain checked annually. Moisture buildup causes misfires under heavy acceleration.',
-      'Ford trucks used for towing in Utah canyons need transmission fluid changes every 30K miles, not the 150K Ford suggests for "normal" conditions.',
-      'Mustang GT Coyote engines benefit from catch can installation to reduce carbon buildup on direct-injection intake valves.',
-      'Ford Escape and Explorer turbo models need spark plugs changed at 60K miles, not 100K—the turbo creates more combustion stress.'
+      'Ford turbocharged engines — whether inline-four or V6 — benefit from shorter oil change intervals than naturally aspirated engines. The turbocharger is oil-cooled and puts more demand on oil quality. We recommend 5,000-7,500 miles on full synthetic.',
+      'Ford trucks used for towing or hauling in Utah\'s mountains see significantly harder drivetrain use than flat-highway driving. Transmission fluid, differential fluid, and transfer case fluid should be changed more frequently than Ford\'s standard intervals suggest.',
+      'Ford V8 engines are excellent powerplants that benefit from proactive exhaust maintenance. Manifold stud integrity and catalytic converter health should be checked periodically — both affect emissions performance and engine efficiency.',
+      'Ford cooling systems are reliable but the plastic components age and crack over time. A pressurized cooling system test every couple of years identifies weak points before they cause a roadside failure.'
     ],
     faqs: [
-      {q:'Is the Ford EcoBoost engine reliable?',a:'EcoBoost engines are generally reliable but require more maintenance than naturally aspirated engines. Turbo components, intercoolers, and carbon buildup need attention. With proper maintenance at our shop, they run well past 200K miles.'},
-      {q:'My Ford F-150 ticks when cold. Is that serious?',a:'Cold ticking on the 5.0L Coyote is usually cracked exhaust manifold studs—a very common issue. It won\'t damage the engine immediately but will worsen and affect emissions. We recommend repairing before it causes catalytic converter damage.'},
-      {q:'How often should I change my Ford truck transmission fluid?',a:'If you tow, haul, or drive mountain roads regularly in Utah, every 30,000 miles. Ford\'s 150,000 mile interval assumes flat highway driving with no towing—that doesn\'t apply to most Utah truck owners.'}
+      {q:'Are Ford EcoBoost engines reliable?',a:'EcoBoost engines are generally reliable but more maintenance-intensive than naturally aspirated engines. Carbon buildup, turbo components, and intercooler health all need periodic attention. With proper maintenance, they run well past 200,000 miles.'},
+      {q:'What causes the ticking sound in my Ford?',a:'Ford V8 engines commonly develop ticking from broken exhaust manifold studs — very common and worsens over time. On turbocharged engines, wastegate rattle can sound similar. We diagnose which system is responsible before recommending any repair.'},
+      {q:'How often should I change my Ford\'s transmission fluid?',a:'If you tow, haul, or drive Utah mountain roads regularly, every 30,000 miles. Ford\'s extended service intervals assume flat-highway driving with no load — conditions that don\'t apply to most Utah truck owners.'},
+      {q:'Why is my Ford losing coolant without visible leaks?',a:'Coolant loss without puddles under the car often means an internal coolant leak — a water pump weep, a small hose seep, or in more serious cases a head gasket issue. We pressure-test the cooling system to locate the source.'},
+      {q:'My Ford\'s clutch pedal feels soft. What does that mean?',a:'A soft or spongy clutch pedal usually indicates a failing hydraulic slave cylinder. It may still engage now, but it will get worse — a complete failure leaves you unable to disengage the clutch. Better to address it before that happens.'}
     ]
   },
   'Chevrolet': {
     issues: [
-      {t:'AFM/DOD Lifter Failure',d:'Chevrolet Silverado and Tahoe 5.3L V8 engines with Active Fuel Management develop collapsed lifters causing misfires and ticking. We replace lifters and can disable AFM.'},
-      {t:'Transmission Shudder',d:'GM 8-speed and 10-speed automatic transmissions develop a torque converter shudder that feels like driving over rumble strips. We flush and replace with updated fluid.'},
-      {t:'Exhaust Manifold Bolt Failure',d:'GM truck exhaust manifold bolts break frequently, causing exhaust leaks and ticking sounds. We extract broken bolts and reseal manifolds.'},
-      {t:'Timing Chain Wear',d:'Chevrolet 3.6L V6 timing chains stretch prematurely, causing check engine lights for camshaft correlation. Complete chain kit replacement prevents engine damage.'}
+      {t:'AFM/DOD Lifter Failure',d:'Chevrolet V8 engines equipped with Active Fuel Management develop collapsed lifters causing misfires, ticking, and oil consumption. We replace all lifters and can permanently disable the AFM system for improved reliability.'},
+      {t:'Torque Converter Shudder',d:'GM 8-speed and 10-speed automatic transmissions develop a torque converter shudder that feels like driving over rumble strips at light throttle. A fluid flush with updated specification fluid typically resolves it.'},
+      {t:'Exhaust Manifold Bolt Failure',d:'Chevrolet truck engines are prone to broken exhaust manifold bolts causing exhaust leaks and ticking. Extraction and repair requires care to avoid thread damage in the cylinder head.'},
+      {t:'Timing Chain Wear on V6',d:'Chevrolet V6 engines develop timing chain stretch, causing camshaft correlation fault codes and potential engine damage if ignored. A complete chain kit replacement restores proper timing.'},
+      {t:'Oil Consumption on V8 Engines',d:'Some Chevrolet V8 engines consume more oil than expected, particularly with AFM active. Monitoring oil level and addressing the root cause — lifter or piston ring wear — prevents engine damage.'},
+      {t:'Cooling System Thermostat Failure',d:'Chevrolet cooling system thermostats fail in either direction, causing overheating or an engine that runs chronically cool. Both conditions affect performance and long-term engine health.'},
+      {t:'Transmission Fluid Degradation',d:'GM automatic transmissions are sensitive to fluid quality. Despite extended drain intervals, transmission fluid degrades and causes shift quality issues that worsen over time if not addressed.'}
     ],
     tips: [
-      'Silverado owners: use Dexos1 approved oil only. Non-approved oils can cause timing chain wear and void warranty coverage.',
-      'GM trucks with AFM should have oil changes every 5,000 miles, not 7,500. The AFM system is harder on oil than GM acknowledges.',
-      'Corvette and Camaro LS/LT engines benefit from upgraded oil pump gears to prevent low oil pressure under hard cornering.',
-      'Equinox and Traverse 3.6L V6 timing chains should be inspected at 80K miles. Replacement at first sign of stretch prevents catastrophic failure.'
+      'Chevrolet V8 engines with Active Fuel Management are more demanding on engine oil than non-AFM engines. Dexos1 Gen2 approved oil is required — non-approved oils increase the risk of timing chain wear and lifter failure. We stock the correct spec.',
+      'Chevrolet trucks used for towing, hauling, or mountain driving in Utah see significantly harder use than highway driving. Transmission, differential, and transfer case fluid intervals should be shortened to match how you actually use your vehicle.',
+      'Chevrolet V6 engines have a known timing chain wear pattern that shows up most often around 80,000-100,000 miles. A cold-start rattle that clears as the engine warms up is worth having inspected — catching it early is far less expensive than dealing with a skipped chain.',
+      'Chevrolet cooling systems are generally reliable but use a mix of rubber, plastic, and aluminum components that age at different rates. A pressurized test every few years identifies weak points before they cause an overheating event.'
     ],
     faqs: [
-      {q:'My Silverado 5.3 is ticking and misfiring. What\'s wrong?',a:'This is almost certainly a collapsed AFM lifter—one of the most common issues we see on 2014+ Silverados and Sierras. We replace all 16 lifters, install an AFM delete kit if desired, and the truck runs perfectly.'},
-      {q:'Why does my Chevy transmission shudder at light throttle?',a:'GM 8-speed and 10-speed transmissions develop torque converter shudder. The fix is a transmission fluid flush with the updated Mobil 1 LV ATF HP fluid. In severe cases, the torque converter needs replacement.'},
-      {q:'Should I delete the AFM on my GM truck?',a:'Many owners choose AFM delete for reliability. We can disable it through a calibration and replace the AFM lifters with standard lifters. This eliminates the most common failure point on these engines.'}
+      {q:'What is AFM and why does it cause problems?',a:'Active Fuel Management deactivates cylinders at light throttle to save fuel, using specialized lifters that can collapse over time causing misfires and ticking. It\'s one of the most common issues we see on Chevrolet V8 engines. We replace the lifters and can permanently disable AFM for improved long-term reliability.'},
+      {q:'Why does my Chevy feel like it\'s shuddering at light throttle?',a:'This is almost always GM\'s torque converter shudder on 8-speed or 10-speed transmissions. The fix is a transmission fluid flush with the updated spec fluid — GM released a revised fluid specifically to address this. In most cases it resolves the problem completely.'},
+      {q:'Should I delete the AFM on my Chevrolet?',a:'If you\'re already experiencing lifter issues, AFM delete is usually the right call. We replace the lifters with standard versions and disable the system — eliminating the most common failure point. If your engine is still healthy, it\'s a preventive choice some owners make for peace of mind.'},
+      {q:'How often should I change my Chevrolet\'s transmission fluid?',a:'Despite "lifetime fill" marketing, we recommend every 45,000 miles for normal use and every 25,000-30,000 miles if you tow or haul regularly. Keeping the fluid fresh prevents shudder and premature wear on these transmissions.'},
+      {q:'Why is my Chevy V6 rattling on cold start?',a:'Cold-start rattle that quiets after the engine warms up is typically timing chain stretch — the tensioners compensate as oil pressure builds. We recommend inspection at this point — full replacement is far less expensive than dealing with a chain that jumps timing.'}
     ]
   },
   'Subaru': {
     issues: [
-      {t:'Head Gasket Leaks',d:'Subaru 2.5L engines (EJ25) are notorious for head gasket failure causing external oil leaks and coolant loss. We replace both head gaskets with updated MLS gaskets.'},
-      {t:'Timing Belt Service',d:'Subaru boxer engines use timing belts that must be replaced every 105K miles. Failure destroys the engine—this is not optional maintenance.'},
-      {t:'Clutch Throw-Out Bearing Noise',d:'Subaru manual transmissions develop throw-out bearing noise (chirping at idle that stops when clutch is pressed). We replace during clutch jobs.'},
-      {t:'CV Axle Vibration',d:'Subaru AWD systems put extra stress on CV axles. Inner CV joints commonly cause vibration during acceleration that\'s often misdiagnosed as transmission issues.'}
+      {t:'Head Gasket Leaks',d:'Subaru boxer engines are prone to head gasket failure, typically presenting as external oil seeping at the gasket line or gradual coolant loss. We replace with updated multi-layer steel gaskets designed to address the known failure pattern.'},
+      {t:'Timing Belt Service',d:'Subaru boxer engines use timing belts that must be replaced at the manufacturer\'s recommended interval without exception. A broken belt destroys the engine — this is non-optional maintenance.'},
+      {t:'Clutch Throw-Out Bearing Noise',d:'Subaru manual transmissions frequently develop a chirping or squeaking noise at idle that disappears when the clutch pedal is pressed. This is the throw-out bearing, and we replace it during clutch service.'},
+      {t:'CV Axle Failure',d:'Subaru\'s AWD system puts continuous load on CV axles. Inner CV joint failure causes vibration and shuddering under acceleration that\'s often mistaken for a transmission or AWD system problem.'},
+      {t:'Wheel Bearing Wear',d:'Subaru AWD systems put additional load on wheel bearings. Rear wheel bearing failure is common and presents as a hum or growl that changes with vehicle speed — we diagnose and replace the affected bearing.'},
+      {t:'Coolant System Corrosion',d:'Subaru boxer engines require specific coolant formulation to prevent head gasket corrosion. Running incorrect coolant accelerates the gasket failure pattern the platform is known for.'},
+      {t:'Power Steering Rack Leaks',d:'Subaru hydraulic power steering racks develop seal leaks over time, causing steering fluid loss and gradual reduction in assist. We rebuild or replace racks depending on the condition and extent of the leak.'}
     ],
     tips: [
-      'Subaru timing belt replacement should include the water pump, tensioner, idler pulleys, and thermostat. These components share the same service interval and access.',
-      'Subaru AWD requires all four tires be within 2/32" tread depth of each other. Mismatched tires damage the center differential.',
-      'Use Subaru-specific coolant (blue) or equivalent. Standard green coolant causes head gasket corrosion on boxer engines.',
-      'Subaru turbo models (WRX/STI) need oil changes every 3,000-5,000 miles with full synthetic. The turbo is oil-cooled and more demanding.'
+      'Subaru timing belt service is the most critical scheduled maintenance on the vehicle. When replacing the belt, also replace the water pump, tensioner pulleys, and thermostat — they share the same service access and doing them together costs far less than revisiting the job later.',
+      'Subaru\'s AWD system requires all four tires to be within 2/32" of tread depth of each other. Running mismatched tires forces the center differential to compensate continuously, accelerating wear and potentially causing premature failure.',
+      'Subaru boxer engines require Subaru-compatible coolant — or an equivalent blue-dye formula — to protect the head gaskets from corrosion. Standard green or orange coolant lacks the additives Subaru\'s aluminum head gaskets need.',
+      'Subaru turbocharged engines are particularly sensitive to oil quality and change intervals. The turbocharger is oil-cooled — degraded oil causes bearing wear that\'s expensive to address. Short intervals with full synthetic are cheap insurance.'
     ],
     faqs: [
-      {q:'Do all Subarus have head gasket problems?',a:'The EJ25 2.5L engine (1996-2012) is the most affected. Newer FB-series engines have improved gaskets. If you have an EJ25, we recommend using Subaru-specific coolant conditioner and monitoring for leaks after 100K miles.'},
-      {q:'When should I replace my Subaru timing belt?',a:'Every 105,000 miles without exception. A broken timing belt on a Subaru destroys the engine—it\'s an interference engine. We recommend replacing the water pump, tensioner, and idler pulleys at the same time since they\'re already exposed.'},
-      {q:'Why does my Subaru chirp at idle?',a:'A chirping sound at idle that stops when you press the clutch pedal is the throw-out bearing. It\'s not an emergency but will eventually fail. We recommend replacing it during your next clutch service to save labor costs.'}
+      {q:'Do all Subaru engines have head gasket problems?',a:'The older EJ-series 2.5L boxer engine has a well-documented head gasket failure pattern. Newer FB-series engines are significantly improved. If you have an EJ-engine Subaru, we recommend monitoring for external oil seeping and using Subaru-spec coolant to help slow the failure pattern.'},
+      {q:'When does my Subaru need a timing belt?',a:'Every 105,000 miles without exception. Subaru boxer engines are interference engines — a broken timing belt destroys the engine. We perform a complete belt service including the water pump, idler pulleys, tensioner, and thermostat since they\'re all accessible at the same time.'},
+      {q:'Why does my Subaru chirp or squeak at idle?',a:'If the sound goes away when you press the clutch pedal, it\'s the throw-out bearing. It will eventually fail completely, so we recommend addressing it during your next clutch service — that way you\'re not paying for the same labor access twice.'},
+      {q:'My Subaru shakes when I accelerate. What\'s causing it?',a:'Acceleration shudder on Subaru AWD vehicles most commonly comes from inner CV joint wear. It\'s frequently misdiagnosed as a transmission or AWD system problem. We properly diagnose the source before recommending any repair.'},
+      {q:'Can I put just one new tire on my Subaru?',a:'No — and it\'s not just a suggestion. Subaru\'s AWD system can be damaged by running tires with significantly different diameters. If one tire is damaged, you need to replace in pairs or all four, matching tread depth of the existing tires as closely as possible.'}
     ]
   },
   'Nissan': {
     issues: [
-      {t:'CVT Transmission Failure',d:'Nissan Altima, Sentra, and Rogue CVTs are prone to overheating and failure. We diagnose CVT issues and can replace the transmission or valve body depending on the failure mode.'},
-      {t:'Timing Chain Guide Wear',d:'Nissan VQ and QR engines develop timing chain guide wear causing rattle. The 2.5L QR25DE in Altima and Sentra is especially prone to this issue.'},
-      {t:'Catalytic Converter Failure',d:'Nissan vehicles, particularly 3.5L V6 models, experience premature catalytic converter failure causing P0420 codes and failed emissions.'},
-      {t:'Clutch Slave Cylinder Leaks',d:'Nissan 370Z and manual Frontier clutch slave cylinders develop internal leaks, causing a soft clutch pedal and difficulty shifting.'}
+      {t:'CVT Transmission Failure',d:'Nissan CVT transmissions are prone to overheating and premature failure, particularly when fluid is neglected. We diagnose CVT issues and handle repairs from fluid service to full replacement depending on the failure mode.'},
+      {t:'Timing Chain Guide Wear',d:'Nissan engines develop timing chain guide wear that causes cold-start rattling. If caught early, guide and tensioner replacement prevents the chain from jumping and causing engine damage.'},
+      {t:'Catalytic Converter Failure',d:'Nissan V6 engines experience premature catalytic converter failure, triggering efficiency codes and failed emissions tests. We diagnose whether it\'s the converter or an upstream oxygen sensor issue before recommending replacement.'},
+      {t:'Clutch Hydraulic System Leaks',d:'Nissan manual transmission vehicles develop leaks in the clutch slave and master cylinder, causing soft pedal feel and difficulty engaging gears. We replace the hydraulic components and bleed to proper feel.'},
+      {t:'Power Steering Hose Leaks',d:'Nissan power steering high-pressure hoses develop leaks at the crimped fittings over time. We replace with quality hoses to restore proper assist and prevent continued fluid loss.'},
+      {t:'Coolant Overflow Tank Cracks',d:'Nissan coolant overflow reservoirs crack and cause gradual coolant loss that can go unnoticed until the engine runs low on coolant and overheats. We inspect and replace as part of cooling system service.'},
+      {t:'Oil Consumption on High-Mileage Engines',d:'Nissan V6 engines can develop increased oil consumption as piston rings and valve seals wear with age. Regular oil level checks catch low-oil situations before they cause engine damage.'}
     ],
     tips: [
-      'Nissan CVT fluid should be changed every 30,000 miles, regardless of the "lifetime" claim. CVT overheating is the #1 cause of failure.',
-      'Nissan uses a unique brake caliper design that requires specific piston retraction tools. Aftermarket shops sometimes damage calipers using generic tools—we have the correct ones.',
-      'Frontier and Xterra radiators can develop an internal crack that mixes coolant with transmission fluid, destroying both. Inspect the radiator annually after 80K miles.',
-      'Nissan VQ 3.5L engines consume oil as they age. Check oil level monthly after 100K miles and switch to a heavier weight if consumption exceeds 1 quart per 3,000 miles.'
+      'Nissan CVT transmission fluid should be changed every 30,000 miles regardless of what Nissan\'s maintenance schedule suggests. The "lifetime" fill claim is the primary reason CVTs fail prematurely — fresh fluid at regular intervals is the single biggest factor in CVT longevity.',
+      'Nissan cooling systems use plastic overflow reservoirs and hoses that age and crack over time. Keeping coolant at the correct concentration and checking the level at every oil service prevents corrosion and unexpected overheating.',
+      'Nissan manual transmission vehicles use a hydraulic clutch system that benefits from periodic fluid inspection. Clutch fluid absorbs moisture over time, lowering its boiling point and leading to a spongier pedal feel under repeated use.',
+      'Nissan V6 engines are known for being strong and durable, but benefit from regular oil changes with the correct viscosity. As mileage accumulates, monitoring oil level between changes becomes more important — don\'t wait for a warning light.'
     ],
     faqs: [
-      {q:'Is the Nissan CVT transmission reliable?',a:'Nissan CVTs have a mixed reliability record. The key to longevity is fluid changes every 30,000 miles—not the "lifetime" interval Nissan suggests. With proper maintenance, many run past 150K miles. We see premature failures mostly in vehicles where fluid was never changed.'},
-      {q:'My Nissan is rattling on cold start. What is it?',a:'Cold start rattle on Nissan engines is usually timing chain guide wear. The QR25DE 4-cylinder is most susceptible. If caught early, replacing the guides, chains, and tensioners prevents engine damage.'},
-      {q:'Why did my Nissan fail emissions?',a:'Nissan 3.5L V6 catalytic converters fail more frequently than average. A P0420 code means the converter isn\'t processing exhaust efficiently. We diagnose whether it\'s the converter or an upstream issue like a bad oxygen sensor before recommending replacement.'}
+      {q:'Is the Nissan CVT transmission reliable?',a:'Nissan CVTs are reliable when properly maintained but sensitive to fluid condition. The key to longevity is changing the CVT fluid every 30,000 miles — not the "lifetime" interval Nissan suggests. Most premature failures we see happen on vehicles where the fluid was never serviced.'},
+      {q:'What does CVT shudder or hesitation mean?',a:'Shuddering, hesitation, or a jerking sensation during acceleration on a Nissan with CVT often indicates fluid degradation or early CVT wear. A fluid change resolves it in many cases if caught early — ignoring it leads to progressively worse and more expensive repairs.'},
+      {q:'My Nissan failed emissions. What\'s typically wrong?',a:'Nissan V6 engines have a higher-than-average rate of catalytic converter failure. A P0420 code indicates the converter isn\'t processing exhaust gases efficiently. We diagnose whether it\'s actually the converter or an upstream issue — like a failed oxygen sensor — before recommending any replacement.'},
+      {q:'Why is my Nissan rattling when it first starts?',a:'Cold-start rattle that quiets as the engine warms up is almost always timing chain guide wear. The guides wear and allow the chain to slap until oil pressure builds. If caught early, guide and tensioner replacement prevents the chain from jumping timing.'},
+      {q:'How long do Nissan engines last?',a:'Nissan V6 engines especially are known for durability — 200,000+ miles is achievable with proper maintenance. The CVT transmission is the more vulnerable component; keeping that fluid fresh is the most impactful thing you can do for long-term reliability.'}
     ]
   },
   'BMW': {
     issues: [
-      {t:'Coolant System Failures',d:'BMW cooling systems use plastic components (expansion tanks, thermostat housings, water pumps) that crack and leak. We replace with upgraded aluminum parts where available.'},
-      {t:'Oil Leaks',d:'BMW valve cover gaskets, oil filter housing gaskets, and oil pan gaskets all fail with age. Oil dripping onto exhaust causes burning smells and fire risk.'},
-      {t:'VANOS System Issues',d:'BMW variable valve timing (VANOS) solenoids and seals fail causing rough idle, power loss, and fault codes. We clean or replace VANOS units.'},
-      {t:'Clutch and Flywheel',d:'BMW manual transmission vehicles use expensive dual-mass flywheels that wear out. We offer OEM replacement or single-mass flywheel conversion options at significant savings.'}
+      {t:'Cooling System Plastic Component Failure',d:'BMW cooling systems use plastic expansion tanks, thermostat housings, and water pump components that crack and leak with age. We replace with upgraded aluminum parts where available for improved longevity.'},
+      {t:'Oil Leaks at Multiple Points',d:'BMW engines develop oil leaks at valve cover gaskets, oil filter housing gaskets, oil pan gaskets, and crankshaft seals. Oil dripping onto hot exhaust components creates burning smells and a fire risk.'},
+      {t:'VANOS Variable Timing Issues',d:'BMW\'s VANOS variable valve timing system develops solenoid and seal wear, causing rough idle, loss of power, and fault codes. We service or replace VANOS components as needed.'},
+      {t:'Dual-Mass Flywheel Wear',d:'BMW manual transmission vehicles use dual-mass flywheels that wear over time, causing clutch judder and vibration. We offer OEM replacement or single-mass flywheel conversion at significant cost savings.'},
+      {t:'Electric Water Pump Failure',d:'BMW uses electrically-driven water pumps that can fail without warning, causing sudden overheating. We replace these proactively — engine overheating on a BMW is expensive and happens quickly with no belt-driven backup.'},
+      {t:'Fuel Injector Deposits',d:'BMW direct-injection engines accumulate deposits on fuel injectors and intake valves over time, affecting combustion efficiency and fuel economy. An intake cleaning service restores proper fueling and performance.'},
+      {t:'Suspension Component Wear',d:'BMW suspension systems use multiple bushings, control arms, and ball joints that wear faster than domestic vehicle equivalents. Worn suspension causes tire wear, handling changes, and clunking noises over bumps.'}
     ],
     tips: [
-      'BMW\'s 10,000-mile oil change interval is too long for Utah conditions. We recommend 7,500 miles maximum with full synthetic LL-01 approved oil.',
-      'BMW cooling system components should be proactively replaced at 80K miles. A roadside overheating event can cost $5,000+ in engine damage.',
-      'BMW brake sensors are single-use. When the brake light comes on, both the pads and the sensor need replacement.',
-      'N54 and N55 turbo engines need charge pipe and boost pipe inspection. Plastic charge pipes crack under boost pressure in hot Utah summers.'
+      'BMW\'s factory oil change interval is too long for Utah\'s conditions. We recommend 7,500 miles maximum with LL-01 approved full synthetic — BMW engines are precision-built and sensitive to oil quality. More frequent changes are trivial insurance against engine wear.',
+      'BMW cooling systems have a well-known weak point: plastic components that fail as the vehicle ages. Proactive cooling system maintenance — replacing the expansion tank, thermostat housing, and water pump together before they fail — costs far less than dealing with an overheating event.',
+      'BMW brake components are vehicle-specific. When the pad warning light comes on, both the pads and the sensor are consumed — both need replacement at the same service. We stock BMW-compatible sensors and pads to handle the complete job.',
+      'BMW turbocharged engines benefit from an oil soak period after hard driving before shutdown. Shutting off a hot turbocharged BMW immediately after highway or canyon driving can accelerate turbo bearing wear over time.'
     ],
     faqs: [
-      {q:'Why are BMW repairs so expensive at the dealership?',a:'BMW dealer labor rates in Salt Lake City are $175-200/hour. Our rate is significantly lower, and we use the same quality parts. On a typical BMW repair, we save owners 30-50% versus dealer pricing without compromising quality.'},
-      {q:'My BMW is leaking coolant. How urgent is this?',a:'Very urgent. BMW engines overheat quickly because the cooling systems use electric water pumps with no belt-driven backup. A small leak can become an overheating event in minutes. Bring it in immediately—we\'ll diagnose and repair the same day.'},
-      {q:'Should I convert my BMW to a single-mass flywheel?',a:'For daily drivers, we often recommend it. Single-mass flywheels are less expensive, more durable, and easier to service. The trade-off is slightly more drivetrain vibration at idle, which most owners find acceptable.'}
+      {q:'Why are BMW repairs expensive, and can you do them for less?',a:'BMW dealer labor rates in Salt Lake City run $175-200/hour. Our rate is significantly lower, and we use quality parts that meet or exceed BMW\'s specifications. On most BMW repairs, we save owners 30-50% compared to dealership pricing without compromising on quality or expertise.'},
+      {q:'My BMW is overheating. How serious is that?',a:'Very serious. BMW engines rely on electric water pumps — when a cooling component fails, heat builds quickly with no belt-driven backup. Overheating a BMW even once can warp cylinder heads or cause internal damage. Bring it in immediately if you see any temperature warning.'},
+      {q:'How do I know if my BMW needs a VANOS service?',a:'Symptoms include rough idle especially when cold, reduced power, hesitation under acceleration, and fault codes for variable valve timing. VANOS issues are common on higher-mileage BMWs — we can diagnose and service the system without a full VANOS replacement in many cases.'},
+      {q:'Should I convert my BMW manual to a single-mass flywheel?',a:'For daily drivers, we often recommend it. Single-mass flywheels are more durable, easier to service, and significantly less expensive than OEM dual-mass units. The trade-off is slightly more vibration at idle, which most owners find acceptable.'},
+      {q:'How often does my BMW actually need an oil change?',a:'More often than BMW suggests. We recommend 7,500 miles maximum with LL-01 approved synthetic. BMW\'s 10,000-mile interval is designed for European driving conditions — Utah\'s temperature extremes and stop-and-go traffic are harder on engine oil.'}
     ]
   },
   'Jeep': {
     issues: [
-      {t:'Death Wobble',d:'Jeep Wrangler and Gladiator develop front-end "death wobble" from worn track bars, ball joints, or steering stabilizers. We diagnose and fix the root cause, not just the symptoms.'},
-      {t:'3.6L Pentastar Oil Leaks',d:'The 3.6L Pentastar V6 develops oil cooler housing leaks and valve cover leaks. Oil can drip onto the starter, causing no-start conditions.'},
-      {t:'Exhaust Manifold Cracks',d:'Jeep 3.6L and older 4.0L exhaust manifolds crack, causing ticking sounds and failed emissions tests.'},
-      {t:'Transfer Case Leaks',d:'Jeep 4WD transfer cases develop output shaft seal leaks, especially on vehicles used for off-roading in Moab or Utah\'s canyon country.'}
+      {t:'Front-End Death Wobble',d:'Jeep Wranglers and similar models can develop violent front-end shaking triggered by a road imperfection at highway speed. It\'s caused by worn front suspension components — track bars, ball joints, tie rod ends, or steering stabilizer. We find and replace the actual worn parts, not just mask the symptom.'},
+      {t:'Engine Oil Leaks',d:'Jeep V6 and older inline-six engines develop oil cooler housing gasket leaks and valve cover leaks. Oil accumulating on the starter motor causes intermittent no-start conditions that can be hard to diagnose without knowing the source.'},
+      {t:'Exhaust Manifold Cracks',d:'Jeep exhaust manifolds crack between cylinders, causing a ticking sound especially when cold and eventual failed emissions tests. We weld or replace depending on crack severity.'},
+      {t:'Transfer Case Seal Leaks',d:'Jeep 4WD transfer cases develop output shaft seal leaks, especially on vehicles that see regular off-road use or water crossings. Fluid loss leads to transfer case damage if not addressed.'},
+      {t:'Differential Fluid Contamination',d:'Jeep axle differentials can take on water during deep crossings or after seal wear, causing bearing and gear damage. We drain, inspect for contamination, and reseal as part of differential service.'},
+      {t:'Suspension Lift Component Fatigue',d:'Lifted Jeeps put additional stress on driveshaft u-joints, CV joints, and ball joints. Improperly adjusted driveshaft angles cause vibration and accelerated wear throughout the drivetrain.'},
+      {t:'Catalytic Converter and Exhaust Codes',d:'Jeep V6 engines develop catalytic converter efficiency codes as converters age. We diagnose whether it\'s the converter or an upstream oxygen sensor issue before recommending any replacement.'}
     ],
     tips: [
-      'Jeep Wrangler owners who drive off-road should change differential fluid every 15,000 miles and inspect breather tubes for clogging.',
-      'After any deep water crossing (common in Utah trails), check the differential breather tubes and transfer case fluid for water contamination.',
-      'Jeep Cherokee and Grand Cherokee 3.6L engines should have the oil cooler housing gasket inspected at every oil change after 60K miles.',
-      'Wrangler lift kits change driveshaft angles. Improperly adjusted angles cause vibration and premature U-joint failure.'
+      'Jeep 4WD systems — whether part-time or full-time — require clean transfer case and differential fluid to operate correctly. Utah\'s off-road terrain, water crossings, and mountain driving are harder on drivetrain fluids than street use. We recommend shorter service intervals for Jeeps that see regular off-road use.',
+      'After any significant water crossing or mudding, differential fluid should be checked for water contamination. Contaminated fluid looks milky and causes rapid gear and bearing wear. It\'s a quick check that prevents expensive drivetrain damage.',
+      'Jeep suspension components — ball joints, tie rod ends, and track bar bushings — wear faster than typical passenger car suspension due to the vehicle\'s weight and suspension travel. Annual inspection catches wear before it becomes a safety concern.',
+      'Jeep cooling systems benefit from annual inspection, especially on vehicles used for towing in Utah\'s canyons. The combination of heat, steep grades, and heavy engine load puts real demands on cooling capacity.'
     ],
     faqs: [
-      {q:'What causes Jeep death wobble?',a:'Death wobble is violent front-end shaking triggered by a bump at highway speed. It\'s caused by worn front-end components—usually the track bar, ball joints, tie rod ends, or steering stabilizer. We inspect all components and replace only what\'s actually worn.'},
-      {q:'How often should I service my Jeep\'s 4WD system?',a:'Transfer case fluid every 30K miles, front and rear differential fluid every 30K miles (15K if you off-road regularly). If you drive through water or mud, check fluids immediately after—water contamination destroys gears quickly.'},
-      {q:'My Jeep is leaking oil near the front of the engine. What is it?',a:'On the 3.6L Pentastar, this is almost always the oil cooler housing gasket or oil filter adapter. It\'s a very common repair we do frequently. If oil reaches the starter motor, it can cause intermittent no-start conditions.'}
+      {q:'What causes death wobble and how do you fix it?',a:'Death wobble is violent front-end shaking triggered by a bump or road imperfection at highway speed. It\'s caused by worn front suspension components — typically the track bar, ball joints, tie rod ends, or steering stabilizer — and usually not a single part. We inspect all front-end components and replace only what\'s actually worn.'},
+      {q:'How often should I service my Jeep\'s 4WD system?',a:'Transfer case fluid every 30,000 miles, front and rear differential fluid every 30,000 miles. If you drive off-road regularly or through water, shorten those intervals to 15,000 miles and check immediately after any significant water crossing or mud driving.'},
+      {q:'Why is my Jeep leaking oil?',a:'The most common oil leak points on Jeep engines are the oil cooler housing gasket and valve cover gaskets. Oil accumulating on the starter motor causes intermittent no-start conditions, so this is worth addressing promptly rather than letting it continue.'},
+      {q:'My Jeep vibrates at highway speed after a lift kit was installed. What\'s wrong?',a:'Lift kit installation changes driveshaft angles, which causes vibration if the driveshafts aren\'t properly adjusted or upgraded. U-joint wear is also accelerated at incorrect angles. We inspect the driveshaft geometry and recommend the correct fix.'},
+      {q:'Is Jeep reliable for daily driving?',a:'Yes — Jeeps are durable vehicles that handle daily driving well when properly maintained. The areas needing the most attention are drivetrain fluid service, front-end suspension components, and cooling. With regular service, they\'re capable and long-lasting.'}
     ]
   },
   'Dodge': {
     issues: [
-      {t:'Hemi Cam and Lifter Failure',d:'Dodge Ram and Charger 5.7L Hemi engines with MDS cylinder deactivation develop collapsed lifters and cam wear. We replace all lifters and can delete MDS.'},
-      {t:'Exhaust Manifold Bolt Breakage',d:'Dodge Hemi engines are notorious for broken exhaust manifold bolts causing ticking and exhaust leaks. Extraction requires skill to avoid head damage.'},
-      {t:'Transmission Cooler Line Leaks',d:'Dodge Ram transmission cooler lines corrode and leak, especially in Utah\'s salty winter conditions. We replace with stainless steel upgraded lines.'},
-      {t:'Tipm Electrical Issues',d:'The Totally Integrated Power Module (TIPM) on Dodge/Chrysler vehicles causes random no-starts, fuel pump failures, and electrical gremlins.'}
+      {t:'Hemi Cam and Lifter Failure',d:'Dodge Hemi engines with MDS cylinder deactivation develop collapsed lifters and cam wear over time, causing misfires and ticking. We replace all lifters and offer MDS disable for improved long-term reliability.'},
+      {t:'Exhaust Manifold Bolt Breakage',d:'Dodge Hemi engines are prone to broken exhaust manifold bolts causing a distinct ticking sound and exhaust leaks. Extraction requires careful technique to avoid damaging threads in the cylinder head.'},
+      {t:'Transmission Cooler Line Corrosion',d:'Dodge transmission cooler lines corrode and develop leaks, particularly in Utah\'s winter road salt conditions. We replace with quality lines that resist the corrosion that damages the OEM steel lines.'},
+      {t:'Electrical System Issues',d:'Dodge vehicles can develop electrical faults in the integrated power module causing random no-starts, fuel pump issues, and intermittent electrical gremlins. We diagnose these systematically before recommending any component replacement.'},
+      {t:'Transfer Case Seal Leaks',d:'Dodge 4WD vehicles develop transfer case output seal leaks that allow fluid loss over time. Catching seal leaks early prevents transfer case bearing damage and gear wear.'},
+      {t:'Brake Rotor Warping',d:'Dodge performance vehicles and trucks put high demands on brake rotors. Hard braking — common on Utah\'s canyon roads — can cause rotor warping that shows up as pulsation and vibration when stopping.'},
+      {t:'Power Steering System Wear',d:'Dodge power steering systems develop high-pressure hose leaks and pump wear over time, causing whining noise and eventual loss of steering assist if the fluid drops low enough.'}
     ],
     tips: [
-      'Hemi engines with MDS should use 5W-20 oil only. Heavier oil causes MDS solenoid sticking and lifter collapse.',
-      'Dodge Ram trucks towing in Utah mountains need transmission fluid changes every 25K miles with ATF+4 fluid.',
-      'Charger and Challenger owners: the 8-speed ZF transmission benefits from a fluid change at 60K miles despite the "lifetime" fill claim.',
-      'Ram 1500 air suspension systems need the air springs inspected annually for cracks. Utah\'s UV exposure degrades the rubber.'
+      'Dodge Hemi engines with MDS require specific oil weight — the MDS system is sensitive to viscosity. Using the wrong grade causes solenoid sticking and accelerates lifter failure. We verify the correct spec before every Dodge oil service.',
+      'Dodge automatic transmissions — whether ZF 8-speed, NAG1 5-speed, or older units — benefit significantly from fluid changes every 45,000-60,000 miles despite "lifetime" fill claims. Towing or mountain driving shortens this to 25,000-30,000 miles.',
+      'Dodge vehicles used in Utah\'s winters see heavy road salt exposure on the undercarriage. Annual undercarriage inspection and corrosion protection keeps transmission cooler lines, brake lines, and exhaust components from deteriorating prematurely.',
+      'Dodge performance vehicles put significant demands on brake systems during Utah canyon driving. Brake pad compound and rotor selection matter for both safety and longevity — we can advise on the best setup for how you use your vehicle.'
     ],
     faqs: [
-      {q:'My Dodge Hemi is ticking. Is it lifters?',a:'Hemi tick is extremely common—it can be either exhaust manifold bolts or collapsed MDS lifters. We diagnose which one before recommending repair. Manifold bolts are the simpler fix; lifters require more extensive work but eliminate the MDS failure point.'},
-      {q:'Should I delete MDS on my Hemi?',a:'If you\'re experiencing lifter issues, MDS delete is a smart choice. We replace all 16 lifters with non-MDS versions and disable the system through calibration. This eliminates the most common failure point on modern Hemis.'},
-      {q:'How long do Dodge transmissions last?',a:'The ZF 8-speed in modern Rams and Chargers is actually very reliable with proper maintenance. Change fluid every 60K miles (30K if towing). The older NAG1 5-speed in Chargers is equally durable. Most issues we see are from neglected fluid changes.'}
+      {q:'My Dodge Hemi is ticking. Is it serious?',a:'Hemi tick has two common causes: broken exhaust manifold bolts (an exhaust leak that worsens over time) or collapsed MDS lifters (an internal engine failure). We diagnose which one before recommending any repair — the diagnosis determines the right fix entirely.'},
+      {q:'Should I delete MDS on my Hemi?',a:'If you\'re experiencing lifter failures, MDS delete is typically the right choice. We replace the lifters with standard non-MDS versions and disable the system through programming — eliminating the most common failure point on these engines. For healthy engines, some owners choose it preventively.'},
+      {q:'How long do Dodge transmissions last?',a:'The ZF 8-speed used in modern Dodge and Ram vehicles is a robust transmission that lasts well with proper maintenance. Change fluid every 45,000-60,000 miles (30,000 if towing). Most transmission issues we see on Dodge vehicles are from neglected fluid service.'},
+      {q:'Why does my Dodge have electrical gremlins?',a:'Random electrical issues on Dodge/Chrysler vehicles — fuel pump cutting out, horn going off, windows behaving strangely — are often traced to the integrated power module. We diagnose systematically to confirm the source before recommending any replacement.'},
+      {q:'Is Dodge reliable for everyday use?',a:'Modern Dodge vehicles are significantly more reliable than earlier generations. The primary maintenance-sensitive areas are Hemi MDS lifters, transmission fluid service, and electrical systems on older platforms. With proactive maintenance, they\'re capable and enjoyable vehicles.'}
     ]
   },
   'Hyundai': {
     issues: [
-      {t:'Engine Bearing Failure (Theta II)',d:'Hyundai Sonata and Tucson 2.0L and 2.4L Theta II engines are subject to a massive recall for connecting rod bearing failure. We diagnose and replace affected engines.'},
-      {t:'Clutch Actuator on DCT',d:'Hyundai Veloster and Elantra GT with the dual-clutch transmission experience clutch actuator failure causing jerky shifting and shuddering.'},
-      {t:'Catalytic Converter Theft',d:'Hyundai Tucson and Santa Fe catalytic converters are high-theft targets due to precious metal content. We install anti-theft shields.'},
-      {t:'Suspension Noise',d:'Hyundai front strut mounts develop clunking noise over bumps, especially common in the Elantra and Sonata.'}
+      {t:'Engine Bearing Failure (Theta II)',d:'Hyundai vehicles with 2.0L and 2.4L Theta II engines are subject to an ongoing recall for connecting rod bearing failure. We diagnose affected engines, check VINs, and help navigate warranty claims where applicable.'},
+      {t:'Dual-Clutch Transmission Shudder',d:'Hyundai vehicles equipped with the dual-clutch transmission can experience clutch actuator failure causing jerky acceleration, shuddering, and shifting hesitation. We service clutch actuators and reprogram the transmission control module.'},
+      {t:'Catalytic Converter Theft Prevention',d:'Hyundai catalytic converters are common theft targets due to their precious metal content. We install anti-theft shields and can advise on parking habits that reduce theft risk.'},
+      {t:'Strut Mount and Suspension Noise',d:'Hyundai front strut mounts develop clunking and popping noises over bumps over time. It\'s a common wear item we replace during strut service or independently.'},
+      {t:'GDI Carbon Buildup',d:'Hyundai direct-injection engines accumulate carbon deposits on intake valves over time, causing rough idle, reduced power, and increased fuel consumption. An intake cleaning service restores proper combustion.'},
+      {t:'AWD Coupling Fluid Neglect',d:'Hyundai AWD systems use an electronically controlled coupling that requires specific fluid changed on schedule. Running degraded or incorrect fluid causes coupling failure and loss of AWD functionality.'},
+      {t:'ABS and Brake System Codes',d:'Hyundai brake systems require specific brake fluid specification. Using incorrect fluid can trigger ABS and stability control faults. We use the correct fluid spec for every Hyundai brake service.'}
     ],
     tips: [
-      'Check if your Hyundai is affected by the Theta II engine recall. Even out-of-warranty vehicles may be covered for engine replacement.',
-      'Hyundai GDI engines build carbon on intake valves. A cleaning service every 50K miles maintains power and fuel economy.',
-      'Tucson and Santa Fe AWD coupling fluid should be changed every 30K miles. Neglect causes AWD system failure.',
-      'Hyundai uses specific brake fluid (DOT 4 LV). Using standard DOT 3 can cause ABS/ESC system malfunctions.'
+      'If your Hyundai has a 2.0L or 2.4L engine, it\'s worth checking whether it\'s covered under the Theta II engine recall — even out-of-warranty vehicles may qualify for engine replacement at no cost. We can check your VIN.',
+      'Hyundai direct-injection engines build carbon on intake valves over time — a known trait of GDI technology. A carbon cleaning service every 50,000 miles maintains power output and fuel economy.',
+      'Hyundai AWD systems use a coupling that requires the manufacturer-specific fluid changed on schedule. Running generic or degraded fluid causes AWD failure — we stock and use the correct spec.',
+      'Hyundai brake systems require specific brake fluid. Using the wrong type can cause ABS and electronic stability control malfunctions. We verify the correct specification before any brake fluid service.'
     ],
     faqs: [
-      {q:'Is my Hyundai affected by the engine recall?',a:'The recall affects 2011-2019 Sonata, 2013-2019 Santa Fe Sport, 2014-2019 Tucson, and other models with the 2.0L or 2.4L Theta II engine. We can check your VIN and, if affected, help you navigate the warranty claim process.'},
-      {q:'My Hyundai DCT transmission jerks when shifting. Can you fix it?',a:'The dual-clutch transmission in Veloster and Elantra GT needs clutch actuator recalibration or replacement. We\'re experienced with these systems and can often resolve the issue without full transmission replacement.'},
-      {q:'Why is my Hyundai check engine light on?',a:'Most common causes we see: catalytic converter efficiency codes, purge valve failure, and ignition coil failure. We diagnose with factory-level scan tools rather than guessing—proper diagnosis saves you from unnecessary parts replacement.'}
+      {q:'Is my Hyundai affected by the engine recall?',a:'Several Hyundai models with 2.0L and 2.4L Theta II engines are covered under an ongoing recall — including vehicles that are out of warranty in some cases. We can check your VIN and, if affected, help you understand your options for warranty repair.'},
+      {q:'My Hyundai\'s dual-clutch transmission jerks when accelerating. Can you fix it?',a:'Dual-clutch transmission shudder and jerky shifts are usually clutch actuator related. We service the actuator and reprogram the transmission control module — often resolving the issue without a full transmission replacement.'},
+      {q:'Why is my Hyundai\'s check engine light on?',a:'Common causes we see include catalytic converter efficiency codes, purge valve failure, and ignition coil issues. We diagnose with proper scan equipment rather than guessing — the fault code tells us where to look, not necessarily what to replace.'},
+      {q:'How often does my Hyundai need an oil change?',a:'Most modern Hyundais can go 7,500 miles on full synthetic. For vehicles with the Theta II engine, we recommend 5,000-mile intervals — these engines are more sensitive to oil condition, and more frequent changes are cheap insurance.'},
+      {q:'What maintenance does my Hyundai AWD system need?',a:'The AWD coupling fluid should be changed every 30,000 miles. It\'s a service many owners skip because it\'s not prominently listed in the manual, but neglecting it is the primary cause of AWD system failure on Hyundai all-wheel drive vehicles.'}
     ]
   },
   'Kia': {
     issues: [
-      {t:'Engine Seizure (Theta II)',d:'Like Hyundai, Kia Optima and Sportage with Theta II engines are subject to recall for bearing failure. We handle diagnosis and warranty coordination.'},
-      {t:'Steering Coupler Noise',d:'Kia Soul and Forte develop a clunking noise when turning the steering wheel, caused by a worn intermediate steering shaft coupler.'},
-      {t:'AC Compressor Failure',d:'Kia Sorento and Sportage AC compressors fail and contaminate the system with metal debris, requiring complete system flush.'},
-      {t:'Timing Chain Rattle',d:'Kia 2.4L GDI engines develop timing chain rattle from stretched chains and worn guides, typically after 80K miles.'}
+      {t:'Engine Bearing Failure (Theta II)',d:'Like Hyundai, Kia vehicles with 2.0L and 2.4L Theta II engines are subject to an ongoing recall for connecting rod bearing failure. We check VINs, diagnose affected engines, and assist with warranty coordination.'},
+      {t:'Steering Coupler Clunking',d:'Kia vehicles develop a clunking or popping noise when turning the steering wheel, caused by a worn intermediate steering shaft coupler. It\'s a safety-relevant issue — steering feel degrades as it worsens.'},
+      {t:'AC Compressor Failure',d:'Kia AC compressors can fail and send metal debris through the entire system, requiring a full system flush and compressor replacement — not just a component swap — to prevent repeat failure.'},
+      {t:'Timing Chain Rattle',d:'Kia GDI engines develop timing chain rattle from stretched chains and worn guides, typically showing up after 80,000 miles. Catching it early means chain and guide replacement rather than engine damage.'},
+      {t:'GDI Carbon Buildup',d:'Kia direct-injection engines accumulate carbon deposits on intake valves that restrict airflow and cause rough idle, hesitation, and reduced fuel economy. An intake cleaning service restores performance.'},
+      {t:'AWD Coupling Fluid Neglect',d:'Kia AWD systems use an electronically controlled coupling requiring specific fluid on a regular change schedule. Generic ATF or neglected fluid causes coupling failure and loss of AWD function.'},
+      {t:'Coolant System Thermostat Wear',d:'Kia thermostats wear over time and can fail in either direction — causing overheating or an engine that runs too cool. Both conditions affect performance and fuel economy and are straightforward to address.'}
     ],
     tips: [
-      'Kia\'s 100,000 mile powertrain warranty only applies to the original owner. Second owners get 60,000 miles. Factor this into used car purchasing decisions.',
-      'Kia GDI engines need carbon cleaning every 50K miles. The direct injection design doesn\'t wash intake valves like port injection.',
-      'Kia Telluride and Sorento AWD systems use an electronically controlled coupling that requires specific fluid. Generic ATF causes coupling failure.',
-      'Soul and Forte timing chain tensioners should be inspected at every oil change after 60K miles for early signs of stretch.'
+      'Kia\'s powertrain warranty is transferable, but coverage varies between original and subsequent owners. If you\'re buying a used Kia, verifying what warranty remains — and whether the vehicle has any open recalls — is worth doing before purchase.',
+      'Kia GDI engines need carbon cleaning every 50,000 miles. The direct-injection design doesn\'t wash intake valves with fuel the way port-injection engines do — carbon builds up over time and affects performance.',
+      'Kia AWD systems use an electronically controlled coupling that requires specific fluid. Generic ATF causes coupling failure. We stock and use the correct specification for every Kia AWD service.',
+      'Kia timing chains should be inspected periodically on higher-mileage vehicles. A cold-start rattle that quiets as the engine warms up is an early sign of chain or guide wear — catching it early is far less expensive than dealing with a skipped chain.'
     ],
     faqs: [
-      {q:'Does my Kia have the recalled engine?',a:'Kia Optima (2011-2019), Sportage (2011-2019), Sorento (2012-2019), and Soul (2012-2019) with 2.0L or 2.4L engines may be affected. We check your VIN for free and help with warranty claims if applicable.'},
-      {q:'Why does my Kia clunk when I turn the wheel?',a:'The intermediate steering shaft coupler wears out on many Kia models, creating a clunking or popping sound when turning, especially at low speed. It\'s a safety concern because steering feel degrades. We replace the coupler as a straightforward repair.'},
-      {q:'How reliable are Kia vehicles?',a:'Modern Kias are significantly more reliable than earlier generations. The main weak points are the Theta II engine (being recalled), GDI carbon buildup, and AC compressors on certain models. With proactive maintenance, they\'re solid vehicles.'}
+      {q:'Does my Kia have the recalled engine?',a:'Multiple Kia models with 2.0L and 2.4L Theta II engines may be covered under the ongoing recall — including some out-of-warranty vehicles. We check your VIN and help you understand what coverage applies to your specific vehicle.'},
+      {q:'Why does my Kia clunk when I turn the wheel?',a:'The intermediate steering shaft coupler wears out on many Kia models, creating a clunking or popping sound when turning — especially at low speed. It\'s a safety concern because steering feel degrades as it worsens. We replace the coupler as a straightforward repair.'},
+      {q:'How reliable are Kia vehicles?',a:'Modern Kias are significantly more reliable than earlier generations. The main areas to watch are the Theta II engine recall on applicable models, GDI carbon buildup, and AWD coupling fluid maintenance. With proactive service, they\'re solid vehicles.'},
+      {q:'How often should my Kia\'s oil be changed?',a:'Most modern Kias can go 7,500 miles on full synthetic. If your vehicle has a Theta II engine or is turbocharged, we recommend 5,000-mile intervals — more frequent changes are cheap insurance on engines that benefit from clean oil.'},
+      {q:'What does my Kia AWD system need for maintenance?',a:'The AWD coupling fluid should be changed every 30,000 miles with the manufacturer-specified fluid. It\'s a service many owners skip, but neglecting it is the most common cause of Kia AWD coupling failure — which is an expensive repair compared to the cost of the fluid service.'}
     ]
   },
   'Volkswagen': {
     issues: [
-      {t:'Timing Chain Tensioner Failure',d:'VW TSI engines (2.0T and 1.8T) have a known tensioner failure that causes the chain to skip, often destroying the engine. Preventive replacement is critical.'},
-      {t:'Carbon Buildup on GDI',d:'VW direct-injection engines suffer severe carbon buildup on intake valves, causing misfires and power loss. We perform walnut blast carbon cleaning.'},
-      {t:'DSG Mechatronic Unit',d:'VW DSG dual-clutch transmissions can develop mechatronic unit failures causing gear selection issues and warning lights.'},
-      {t:'Water Pump / Thermostat Housing',d:'VW EA888 engines use a combined water pump/thermostat housing that cracks and leaks. We replace with updated parts.'}
+      {t:'Timing Chain Tensioner Failure',d:'VW turbocharged engines have a known early-revision timing chain tensioner that can fail without warning, causing the chain to skip and destroying the engine. Preventive tensioner replacement is one of the most important services we perform on VW TSI engines.'},
+      {t:'Carbon Buildup on GDI Engines',d:'VW direct-injection engines suffer from significant carbon buildup on intake valves over time, causing rough idle, misfires, and power loss. We perform walnut blast carbon cleaning to restore combustion efficiency without removing the engine.'},
+      {t:'DSG Dual-Clutch Transmission Issues',d:'VW DSG dual-clutch transmissions can develop mechatronic unit faults causing jerky shifts, gear selection errors, and warning lights. Fluid service every 40,000 miles prevents the most common failures.'},
+      {t:'Water Pump and Thermostat Housing Leaks',d:'VW TSI engines use a combined water pump and thermostat housing that cracks and leaks with age. Coolant loss can go unnoticed until overheating occurs — we replace with updated parts during cooling system service.'},
+      {t:'Fuel Injector and High-Pressure Pump Wear',d:'VW high-pressure fuel injection systems develop injector wear and high-pressure pump issues over time, causing rough running and difficulty starting. Proper diagnosis identifies whether it\'s the pump, injectors, or fuel pressure regulation.'},
+      {t:'Turbo Boost Pressure Loss',d:'VW turbocharged engines develop boost leaks from intercooler connections, diverter valves, and boost pipes over time. Loss of boost causes sluggish acceleration and increased turbo lag.'},
+      {t:'Oil Leaks at Multiple Gaskets',d:'VW engines develop oil leaks at cam cover gaskets, oil cooler seals, and crankshaft seals as they age. Oil on hot exhaust components causes burning smells and should be addressed promptly.'}
     ],
     tips: [
-      'VW timing chain tensioners should be replaced preventively at 80K miles on TSI engines. Failure is catastrophic and costs more than the engine is worth.',
-      'DSG transmission fluid and filter should be changed every 40K miles. VW says "lifetime" but failures from old fluid are extremely common.',
-      'VW-specific oil (VW 502/504/507 spec) is required. Using non-spec oil causes DPF clogging on diesels and timing chain wear on gas engines.',
-      'Carbon cleaning at 50K miles is essentially mandatory on VW GDI engines. Ignoring it causes progressive power loss and rough running.'
+      'VW timing chain tensioners on TSI engines should be replaced preventively well before failure. The cost of the service is a small fraction of what engine damage from a skipped chain costs — we check tensioner revision at every major service on affected VW engines.',
+      'VW DSG dual-clutch transmission fluid and filter must be changed every 40,000 miles. VW labels it "lifetime fill" — but we regularly see DSG failures caused by degraded fluid. The service is inexpensive compared to mechatronic unit replacement.',
+      'VW engines require oil that meets specific VW approval ratings (502, 504, 507, etc. depending on the engine). Using non-approved oil — even quality synthetic — causes increased wear on timing components and can clog the particulate filter on diesel models.',
+      'Carbon cleaning every 50,000 miles is essentially required maintenance on VW direct-injection engines. Skipping it leads to progressive rough idle, hesitation, and reduced power that worsens over time.'
     ],
     faqs: [
-      {q:'Is the VW timing chain tensioner issue serious?',a:'Extremely serious. The early-revision tensioner on 2008-2013 TSI engines can fail without warning, allowing the timing chain to skip. This bends valves and often destroys the engine. If your car hasn\'t had the updated tensioner installed, this should be your top priority.'},
-      {q:'How often should I service my VW DSG transmission?',a:'Every 40,000 miles for fluid and filter, regardless of what VW says about "lifetime" fluid. We see DSG failures regularly in vehicles where fluid was never changed. The service costs a fraction of a mechatronic unit replacement.'},
-      {q:'Why is my VW running rough with low power?',a:'On GDI engines, the most common cause is carbon buildup on intake valves. Direct injection doesn\'t clean the valves like port injection does, so carbon accumulates over time. A walnut blast cleaning restores full performance.'}
+      {q:'Is the VW timing chain tensioner issue serious?',a:'Extremely serious. The early-revision tensioner on TSI engines can fail without warning, allowing the timing chain to jump. This bends valves and typically destroys the engine. If your VW hasn\'t had the updated tensioner installed, this should be a top priority — the preventive repair costs a fraction of what engine damage does.'},
+      {q:'How often should I service my VW DSG transmission?',a:'Every 40,000 miles for fluid and filter, regardless of what VW suggests about "lifetime" fluid. We see DSG failures regularly on vehicles where fluid was never changed. The service cost is far less than mechatronic unit repair or transmission replacement.'},
+      {q:'Why is my VW running rough or losing power?',a:'On GDI engines, carbon buildup on intake valves is the most common culprit — direct injection doesn\'t wash the valves with fuel, so carbon accumulates over time. A walnut blast cleaning restores full performance. We diagnose to confirm the cause before recommending the service.'},
+      {q:'What oil does my VW actually need?',a:'VW engines require oil meeting specific VW approval ratings — 502.00, 504.00, 507.00, or others depending on your engine. These aren\'t just recommendations. Using non-approved oil — even high-quality synthetic — causes timing chain wear and can damage the particulate filter on diesel models.'},
+      {q:'Is it expensive to maintain a Volkswagen?',a:'VW maintenance is more involved than mainstream brands, but doesn\'t need to be dealer-expensive. The key services — timing tensioner, DSG fluid, carbon cleaning — have predictable schedules. We handle all of them at significantly lower rates than VW dealers, using the same quality parts.'}
     ]
   }
 };

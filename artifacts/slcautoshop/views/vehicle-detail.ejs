@@ -14,6 +14,7 @@
   </div>
 </section>
 
+<!-- 1. Why Choose Us — white -->
 <section class="values-section">
   <div class="container">
     <h2>Why <%= brand.name %> Drivers Choose Us</h2>
@@ -33,11 +34,51 @@
   </div>
 </section>
 
+<!-- 2. Models We Service — alt-bg -->
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2><%= brand.name %> Vehicles We Service</h2>
+    <p class="section-subtitle">These are some of the <%= brand.name %> vehicles we work on most often at our South Salt Lake shop. We service all <%= brand.name %> models — if yours isn't listed, that just means we don't see it every day.</p>
+    <div class="brand-tags" style="margin-top:1.25rem">
+      <% brand.models.forEach(m => { %>
+      <span class="tag"><%= brand.name %> <%= m %></span>
+      <% }) %>
+    </div>
+    <p style="margin-top:1.25rem">Have questions about your specific <%= brand.name %>? Give us a call or send a quick text — we're happy to help.</p>
+    <div class="hero-buttons" style="margin-top:1.25rem">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I need service for my ' + brand.name + '.') %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- 3. Repair Capabilities — white -->
+<section class="content-section">
+  <div class="container">
+    <h2>Our <%= brand.name %> Repair Capabilities</h2>
+    <p class="section-subtitle">Below are the main service categories we handle for <%= brand.name %> vehicles — but this is far from everything. If you have a specific repair or question that isn't listed here, just call or text us and we'll let you know if we can help.</p>
+    <div class="services-grid small" style="margin-top:1.5rem">
+      <% services.forEach(s => { %>
+      <a href="/services/<%= s.slug %>" class="service-card">
+        <h3><%= brand.name %> <%= s.name %></h3>
+        <p><%= s.shortDesc %></p>
+        <span class="card-link">View service</span>
+      </a>
+      <% }) %>
+    </div>
+    <div class="hero-buttons" style="margin-top:2rem">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I have a question about my ' + brand.name + '.') %>" class="btn btn-secondary">Text a Question</a>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Common Issues — alt-bg -->
 <% if (brandContent && brandContent.issues && brandContent.issues.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
     <h2>Common <%= brand.name %> Issues We Repair</h2>
-    <p>These are the most frequent <%= brand.name %>-specific problems we see at our South Salt Lake shop.</p>
+    <p class="section-subtitle">These are the most frequent <%= brand.name %> problems we diagnose and repair at our South Salt Lake shop. Every job starts with a thorough diagnosis so you know exactly what's going on before any work begins.</p>
     <div class="issues-grid">
       <% brandContent.issues.forEach(issue => { %>
       <div class="issue-card">
@@ -50,25 +91,9 @@
 </section>
 <% } %>
 
-<section class="content-section">
-  <div class="container">
-    <h2>Expert <%= brand.name %> Mechanics Near You</h2>
-    <h3>Common <%= brand.name %> Models We Service</h3>
-    <div class="brand-tags">
-      <% brand.models.forEach(m => { %>
-      <span class="tag"><%= brand.name %> <%= m %></span>
-      <% }) %>
-    </div>
-    <p style="margin-top:1.25rem">Don't see your <%= brand.name %> model listed? No problem — we service all <%= brand.name %> vehicles. Give us a call or send a quick text and we'll get you sorted out.</p>
-    <div class="hero-buttons" style="margin-top:1.25rem">
-      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
-      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I need service for my ' + brand.name + '.') %>" class="btn btn-secondary">Text Us</a>
-    </div>
-  </div>
-</section>
-
+<!-- 5. Maintenance Tips — white -->
 <% if (brandContent && brandContent.tips && brandContent.tips.length) { %>
-<section class="content-section alt-bg">
+<section class="content-section">
   <div class="container">
     <h2><%= brand.name %> Maintenance Tips for Utah Drivers</h2>
     <p class="section-subtitle">Utah's temperature swings, mountain roads, and high altitude put unique demands on your vehicle. Here's what we've learned from years of servicing <%= brand.name %>s in the Salt Lake Valley.</p>
@@ -83,28 +108,16 @@
 </section>
 <% } %>
 
-<section class="content-section">
-  <div class="container">
-    <h2>Our <%= brand.name %> Repair Capabilities</h2>
-    <div class="services-grid small">
-      <% services.forEach(s => { %>
-      <a href="/services/<%= s.slug %>" class="service-card">
-        <h3><%= brand.name %> <%= s.name %></h3>
-        <p><%= s.shortDesc %></p>
-        <span class="card-link">View service</span>
-      </a>
-      <% }) %>
-    </div>
-  </div>
-</section>
-
+<!-- 6. FAQ — alt-bg (passed from server via faqAlt:true) -->
 <%- include('partials/faq') %>
 
+<!-- 7. Testimonials — always alt-bg -->
 <%- include('partials/testimonials') %>
 
+<!-- 8. Other Brands — white -->
 <section class="content-section">
   <div class="container">
-    <h2>Other Vehicle Brands</h2>
+    <h2>Other Vehicle Brands We Service</h2>
     <div class="brand-tags">
       <% allVehicleBrands.filter(v => v.slug !== brand.slug).slice(0, 15).forEach(v => { %>
       <a href="/vehicle-brands/<%= v.slug %>" class="tag"><%= v.name %></a>
