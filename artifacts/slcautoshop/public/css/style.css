@@ -349,3 +349,14 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
   body{padding-bottom:76px}
   .site-footer{padding-bottom:90px}
 }
+
+/* Repair Capabilities CTA row */
+.capabilities-cta{display:flex;align-items:center;justify-content:space-between;gap:2rem;margin-top:2.5rem;padding:1.75rem 2rem;background:var(--c-bg-alt);border-radius:12px;border:1px solid var(--c-border)}
+.capabilities-cta-text{flex:1}
+.capabilities-cta-text p{margin:0;color:var(--c-text-muted);font-size:.97rem;line-height:1.6}
+.capabilities-cta-actions{display:flex;flex-direction:column;gap:.65rem;flex-shrink:0}
+.capabilities-cta-actions .btn{white-space:nowrap;text-align:center}
+@media(max-width:700px){
+  .capabilities-cta{flex-direction:column;align-items:flex-start;gap:1.25rem;padding:1.25rem}
+  .capabilities-cta-actions{flex-direction:row;flex-wrap:wrap}
+}

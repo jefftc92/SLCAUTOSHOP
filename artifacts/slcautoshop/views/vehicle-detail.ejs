@@ -56,7 +56,7 @@
 <section class="content-section">
   <div class="container">
     <h2>Our <%= brand.name %> Repair Capabilities</h2>
-    <p class="section-subtitle">Below are the main service categories we handle for <%= brand.name %> vehicles — but this is far from everything. If you have a specific repair or question that isn't listed here, just call or text us and we'll let you know if we can help.</p>
+    <p class="section-subtitle">These are the main service categories we handle for <%= brand.name %> vehicles. Click any to learn more.</p>
     <div class="services-grid small" style="margin-top:1.5rem">
       <% services.forEach(s => { %>
       <a href="/services/<%= s.slug %>" class="service-card">
@@ -66,9 +66,14 @@
       </a>
       <% }) %>
     </div>
-    <div class="hero-buttons" style="margin-top:2rem">
-      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
-      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I have a question about my ' + brand.name + '.') %>" class="btn btn-secondary">Text a Question</a>
+    <div class="capabilities-cta">
+      <div class="capabilities-cta-text">
+        <p>We handle much more than what's listed above — these are just our main service categories. If you have a question about a specific repair or aren't sure whether we can help, give us a call or send a quick text. We'll give you a straight answer.</p>
+      </div>
+      <div class="capabilities-cta-actions">
+        <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+        <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I have a question about my ' + brand.name + '.') %>" class="btn btn-secondary">Text a Question</a>
+      </div>
     </div>
   </div>
 </section>
