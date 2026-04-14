@@ -447,4 +447,40 @@ const symptoms = [
   }
 ];
 
+const symptomMeta = {
+  'clutch-slipping':           { metaTitle: "Clutch Slipping? Causes and Next Steps | Scott's Auto", metaDesc: "Engine revs but no acceleration usually means a worn clutch disc. We diagnose the full clutch system in South Salt Lake. Call (801) 485-4089." },
+  'grinding-when-shifting':    { metaTitle: "Grinding Noise When Shifting Gears | Scott's Auto", metaDesc: "Grinding points to clutch hydraulics, worn synchros, or low transmission fluid. Manual and automatic diagnosis in South Salt Lake. (801) 485-4089." },
+  'stiff-clutch-pedal':        { metaTitle: "Stiff Clutch Pedal? What It Means | Scott's Auto", metaDesc: "A hard-to-press clutch pedal usually traces to hydraulic failure or a worn pressure plate. Free diagnosis at our South Salt Lake shop. (801) 485-4089." },
+  'transmission-slipping':     { metaTitle: "Transmission Slipping? Causes and Fixes | Scott's Auto", metaDesc: "RPMs climb without acceleration — could be fluid, solenoid, or internal wear. We diagnose before recommending repair. Call (801) 485-4089." },
+  'hard-to-shift-gears':       { metaTitle: "Hard to Shift Gears? Manual Transmission Help | Scott's Auto", metaDesc: "Won't go into gear cleanly? Clutch, hydraulics, synchros, or linkage — we find the real cause. Manual transmission specialists. (801) 485-4089." },
+  'burning-smell':             { metaTitle: "Burning Smell From Clutch? Don't Ignore It | Scott's Auto", metaDesc: "A burning smell after hills or hard acceleration is a slipping clutch overheating. Get it inspected before damage spreads. Call (801) 485-4089." },
+  'soft-clutch-pedal':         { metaTitle: "Soft or Spongy Clutch Pedal | Scott's Auto & Clutch", metaDesc: "A pedal that sinks or feels mushy means the hydraulic system is failing. Master cylinder, slave, or hose — we diagnose. (801) 485-4089." },
+  'clicking-when-turning':     { metaTitle: "Clicking Noise When Turning | Scott's Auto & Clutch", metaDesc: "A clicking sound during turns almost always means a worn outer CV joint. Catch it before the axle fails completely. (801) 485-4089." },
+  'vibration-when-accelerating': { metaTitle: "Vibration When Accelerating | Scott's Auto & Clutch", metaDesc: "Vibration that grows with speed could be CV joints, motor mounts, or driveline. Honest diagnosis, no guessing. Call (801) 485-4089." },
+  'soft-brake-pedal':          { metaTitle: "Soft or Spongy Brake Pedal | Salt Lake City Brake Repair", metaDesc: "A brake pedal that sinks to the floor is a safety emergency. Fluid, hoses, or master cylinder — don't drive until it's fixed. (801) 485-4089." },
+  'squeaking-brakes':          { metaTitle: "Squeaking Brakes? What It Means | Scott's Auto & Clutch", metaDesc: "That squeal is usually the wear indicator telling you pads are thin. A few thousand miles left before metal-on-metal. Free inspection. (801) 485-4089." },
+  'grinding-brakes':           { metaTitle: "Grinding Brakes — Stop Driving | Scott's Auto & Clutch", metaDesc: "Grinding means metal-on-metal. Every stop damages your rotors and reduces stopping power. Same-day brake service available. (801) 485-4089." },
+  'steering-vibration':        { metaTitle: "Steering Wheel Vibration | Scott's Auto & Clutch", metaDesc: "Shaking at highway speed or only when braking — different causes, different fixes. We diagnose balance, alignment, and suspension. (801) 485-4089." },
+  'vibration-when-braking':    { metaTitle: "Vibration When Braking | Salt Lake City Brake Repair", metaDesc: "Pulsating brake pedal usually means rotor runout or deposit buildup. We measure before recommending resurface or replace. (801) 485-4089." },
+  'engine-rattling':           { metaTitle: "Engine Rattling on Startup | Scott's Auto & Clutch", metaDesc: "A cold-start rattle that fades as oil pressure builds often signals a stretched timing chain. Catch it early, save the engine. (801) 485-4089." },
+  'check-engine-timing':       { metaTitle: "Check Engine Light (Timing Code) | Scott's Auto & Clutch", metaDesc: "P0008, P0016, P0017 and related codes precede engine damage. Early diagnosis costs far less than valve or engine replacement. (801) 485-4089." },
+  'check-engine-light':        { metaTitle: "Check Engine Light On? Honest Diagnosis | Scott's Auto", metaDesc: "We read manufacturer-specific codes with professional scan tools — not just the generic trouble code every parts store gives out. (801) 485-4089." },
+  'engine-overheating':        { metaTitle: "Engine Overheating? Pull Over First | Scott's Auto & Clutch", metaDesc: "One overheating event can warp heads, blow gaskets, or crack the block. Pull over, let it cool, call for tow if needed. (801) 485-4089." },
+  'coolant-leak':              { metaTitle: "Coolant Leak? Find the Source Fast | Scott's Auto & Clutch", metaDesc: "Pink, green, orange, or yellow puddle? Water pump, hose, radiator, or head gasket — pressure testing finds the real source. (801) 485-4089." },
+  'loud-exhaust':              { metaTitle: "Loud Exhaust? Leak, Hole, or Broken Hanger | Scott's Auto", metaDesc: "Sudden volume increase means something broke. In-house welding often means repair instead of replacement. Free inspection. (801) 485-4089." },
+  'exhaust-smell-in-cabin':    { metaTitle: "Exhaust Smell Inside Cabin | Scott's Auto & Clutch", metaDesc: "Exhaust in the cabin is a carbon monoxide risk. Manifold leak, pipe damage, or bad seal — get it checked today. (801) 485-4089." },
+  'failed-emissions':          { metaTitle: "Failed Utah Emissions Test | Scott's Auto & Clutch", metaDesc: "Oxygen sensor, catalytic converter, EVAP, or misfire — each requires a different fix. We diagnose then repair. Pass on re-test. (801) 485-4089." },
+  'sulfur-smell':              { metaTitle: "Rotten Egg Smell From Exhaust | Scott's Auto & Clutch", metaDesc: "That sulfur smell typically means a failing catalytic converter or rich fuel mixture. Both affect emissions — we diagnose both. (801) 485-4089." },
+  'bouncy-ride':               { metaTitle: "Bouncy Ride or Excessive Float | Scott's Auto & Clutch", metaDesc: "If your car bounces more than once after a bump, the shocks or struts are worn. Braking distance and handling both suffer. (801) 485-4089." },
+  'nose-dive-braking':         { metaTitle: "Front End Dives When Braking | Scott's Auto & Clutch", metaDesc: "Front-end dive under braking means worn front struts. Stopping distance increases noticeably — worth fixing before winter. (801) 485-4089." },
+  'uneven-tire-wear':          { metaTitle: "Uneven Tire Wear Patterns | Scott's Auto & Clutch", metaDesc: "Inner edge, outer edge, or cupping — each pattern tells a different story. We read the wear and fix the cause. (801) 485-4089." },
+  'rough-ride-over-bumps':     { metaTitle: "Rough Ride Over Bumps | Scott's Auto & Clutch", metaDesc: "Harsher over bumps than it used to be? Worn bushings, struts, or ball joints are the usual culprits. Suspension inspection. (801) 485-4089." }
+};
+
+symptoms.forEach(s => {
+  const m = symptomMeta[s.slug];
+  s.metaTitle = m ? m.metaTitle : `${s.shortName} Repair South Salt Lake | Scott's Auto & Clutch`;
+  s.metaDesc  = m ? m.metaDesc  : `${s.shortName} diagnosis and repair. Expert service since 1990. Call (801) 485-4089.`;
+});
+
 module.exports = symptoms;

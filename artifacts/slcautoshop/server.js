@@ -49,18 +49,40 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.render('home', {
     activePage: 'home',
-    metaTitle: 'Salt Lake City Auto Repair: SLC Auto Shop - Expert Care',
-    metaDesc: "Expert auto repair in South Salt Lake, UT. Clutch repair, brake service, transmission work since 1990. Call (801) 485-4089.",
+    metaTitle: "Auto Repair Salt Lake City | Scott's Auto & Clutch Since 1990",
+    metaDesc: "Family-owned auto repair shop in South Salt Lake. Brakes, clutch, transmission, engine work, and full service for every make and model. Free estimates. (801) 485-4089.",
     canonical: '/',
     structuredData: {
       "@context": "https://schema.org",
       "@type": "AutoRepair",
+      "@id": site.domain + "/#business",
       "name": site.name,
+      "alternateName": "SLC Auto Shop",
       "image": site.domain + site.heroImage,
+      "logo": site.domain + "/assets/logo.webp",
       "telephone": site.phone,
       "url": site.domain,
       "priceRange": "$$",
-      "description": "Family-owned auto repair shop in South Salt Lake since 1990. Specializing in clutch repair, brake service, CV joint repair, timing chain and belt replacement, and complete auto service for all makes and models.",
+      "foundingDate": "1990",
+      "description": "Family-owned auto repair shop in South Salt Lake since 1990. Brakes, clutch, transmission, engine, exhaust, and full service for all makes and models.",
+      "slogan": "Honest diagnostics since 1990.",
+      "paymentAccepted": ["Cash", "Credit Card", "Debit Card"],
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "Clutch repair and replacement",
+        "Manual transmission service",
+        "Brake repair",
+        "CV joint and axle repair",
+        "Timing chain replacement",
+        "Timing belt replacement",
+        "Water pump replacement",
+        "Exhaust repair",
+        "Catalytic converter service",
+        "Strut and shock replacement",
+        "Automotive welding",
+        "Engine diagnostics",
+        "Emissions testing and repair"
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": site.address,
@@ -85,7 +107,15 @@ app.get('/', (req, res) => {
         { "@type": "City", "name": "Sugar House" },
         { "@type": "City", "name": "West Valley City" },
         { "@type": "City", "name": "Taylorsville" },
-        { "@type": "City", "name": "Sandy" }
+        { "@type": "City", "name": "Sandy" },
+        { "@type": "City", "name": "Draper" },
+        { "@type": "City", "name": "West Jordan" },
+        { "@type": "City", "name": "South Jordan" },
+        { "@type": "City", "name": "Riverton" },
+        { "@type": "City", "name": "Herriman" },
+        { "@type": "City", "name": "Holladay" },
+        { "@type": "City", "name": "Cottonwood Heights" },
+        { "@type": "City", "name": "Midvale" }
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
@@ -102,8 +132,8 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.render('about', {
     activePage: 'about',
-    metaTitle: 'Salt Lake City Mechanics: About SLC Auto Shop - Experts',
-    metaDesc: "Family-owned since 1990. 36+ years of expert auto repair in South Salt Lake. Call (801) 485-4089.",
+    metaTitle: "About Scott's Auto & Clutch | Our Story, Team, and Shop",
+    metaDesc: "Meet the family behind our shop. 36+ years keeping Salt Lake Valley drivers on the road with straight answers, careful work, and no surprises at checkout.",
     canonical: '/about'
   });
 });
@@ -112,8 +142,8 @@ app.get('/about', (req, res) => {
 app.get('/contact', (req, res) => {
   res.render('contact', {
     activePage: 'contact',
-    metaTitle: 'Salt Lake City Auto Repair: Contact SLC Auto Shop',
-    metaDesc: "Contact Scott's Auto and Clutch for a free quote. Clutch repair, brake service, transmission work. Call (801) 485-4089.",
+    metaTitle: "Contact Us | Scott's Auto & Clutch in South Salt Lake",
+    metaDesc: "Call, text, or visit for a free estimate. Located at 144 W Crystal Ave, open Mon–Fri 8 to 5:30. Walk-ins welcome. Reach us at (801) 485-4089.",
     canonical: '/contact'
   });
 });
@@ -122,8 +152,8 @@ app.get('/contact', (req, res) => {
 app.get('/services', (req, res) => {
   res.render('services-index', {
     activePage: 'services',
-    metaTitle: 'Salt Lake City Auto Repair Services: SLC Auto Shop',
-    metaDesc: "Complete auto repair services in South Salt Lake. Clutch, brakes, timing, exhaust, and more. Call (801) 485-4089.",
+    metaTitle: "Auto Repair Services Salt Lake City | Scott's Auto & Clutch",
+    metaDesc: "Full-service mechanic work in South Salt Lake. From oil changes to clutch replacement, drivetrain, exhaust, cooling, and suspension. All makes, one shop.",
     canonical: '/services'
   });
 });
@@ -180,19 +210,8 @@ app.get('/services/:slug', (req, res) => {
       }
     ];
 
-  // Add FAQPage schema if service has FAQs
+  // FAQPage schema is output by the faq.ejs partial — do not duplicate it here
   const allFaqs = (service.faq && service.faq.length > 0) ? service.faq : (serviceFaqs[service.slug] || []);
-  if (allFaqs.length > 0) {
-    schemaList.push({
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": allFaqs.map(f => ({
-        "@type": "Question",
-        "name": f.q,
-        "acceptedAnswer": { "@type": "Answer", "text": f.a }
-      }))
-    });
-  }
 
   res.render('service-detail', {
     activePage: 'services',
@@ -211,8 +230,8 @@ app.get('/services/:slug', (req, res) => {
 app.get('/locations', (req, res) => {
   res.render('locations-index', {
     activePage: 'locations',
-    metaTitle: 'Utah Auto Repair Locations: SLC Auto Shop',
-    metaDesc: "Scott's Auto and Clutch serves the entire Salt Lake Valley. Find your community. Call (801) 485-4089.",
+    metaTitle: "Service Areas | Auto Repair Across the Salt Lake Valley",
+    metaDesc: "Serving 15+ Salt Lake Valley communities from our South Salt Lake shop. Find your neighborhood, get directions, or schedule a drop-off via TRAX.",
     canonical: '/locations'
   });
 });
@@ -253,8 +272,8 @@ app.get('/locations/:slug', (req, res) => {
 app.get('/symptoms', (req, res) => {
   res.render('symptoms-index', {
     activePage: 'symptoms',
-    metaTitle: 'Car Symptom Diagnostic Guide: SLC Auto Shop',
-    metaDesc: "What's wrong with your car? Browse our symptom guide for common vehicle problems. Free diagnosis. Call (801) 485-4089.",
+    metaTitle: "What's Wrong With My Car? | Symptom Guide by Scott's Auto",
+    metaDesc: "Hearing something unusual or seeing a warning light? Our symptom guide helps you understand common car issues before you visit the shop. Free diagnosis available.",
     canonical: '/symptoms'
   });
 });
@@ -269,8 +288,8 @@ app.get('/symptoms/:slug', (req, res) => {
 
   res.render('symptom-detail', {
     activePage: 'symptoms',
-    metaTitle: `South Salt Lake ${symptom.name} Repair: SLC Auto Shop`,
-    metaDesc: `${symptom.name} repair in South Salt Lake. Expert diagnosis and repair since 1990. Call (801) 485-4089.`,
+    metaTitle: symptom.metaTitle || `${symptom.shortName} Repair South Salt Lake | Scott's Auto & Clutch`,
+    metaDesc: symptom.metaDesc || `${symptom.shortName} diagnosis and repair. Expert service since 1990. Call (801) 485-4089.`,
     canonical: '/symptoms/' + symptom.slug,
     symptom,
     relatedService,
@@ -292,8 +311,8 @@ app.get('/symptoms/:slug', (req, res) => {
 app.get('/vehicle-brands', (req, res) => {
   res.render('vehicles-index', {
     activePage: 'vehicles',
-    metaTitle: 'Salt Lake City Car Brand Repair: SLC Auto Shop',
-    metaDesc: "Expert repair for all vehicle brands. Toyota, Honda, Ford, Chevy, Subaru, BMW, and more. Call (801) 485-4089.",
+    metaTitle: "Car Brands We Repair | Domestic, Import, and Luxury",
+    metaDesc: "We service every major vehicle brand — from Toyota and Honda to BMW and Porsche. Same careful work, regardless of badge. Browse brands or call (801) 485-4089.",
     canonical: '/vehicle-brands'
   });
 });
@@ -359,26 +378,26 @@ app.get('/sitemap.xml', (req, res) => {
   res.set('Content-Type', 'application/xml');
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
-  const addUrl = (path, priority = '0.8', freq = 'monthly') => {
-    xml += `  <url><loc>${site.domain}${path}</loc><changefreq>${freq}</changefreq><priority>${priority}</priority></url>\n`;
+  const addUrl = (path, priority = '0.8', freq = 'monthly', lastmod = '2025-01-01') => {
+    xml += `  <url><loc>${site.domain}${path}</loc><lastmod>${lastmod}</lastmod><changefreq>${freq}</changefreq><priority>${priority}</priority></url>\n`;
   };
 
-  addUrl('/', '1.0', 'weekly');
-  addUrl('/about', '0.7', 'monthly');
-  addUrl('/contact', '0.8', 'monthly');
-  addUrl('/services', '0.9', 'weekly');
-  addUrl('/locations', '0.9', 'weekly');
-  addUrl('/symptoms', '0.9', 'weekly');
-  addUrl('/vehicle-brands', '0.9', 'weekly');
+  addUrl('/', '1.0', 'weekly', '2025-04-01');
+  addUrl('/about', '0.7', 'monthly', '2025-01-01');
+  addUrl('/contact', '0.8', 'monthly', '2025-01-01');
+  addUrl('/services', '0.9', 'weekly', '2025-03-01');
+  addUrl('/locations', '0.9', 'weekly', '2025-03-01');
+  addUrl('/symptoms', '0.9', 'weekly', '2025-04-01');
+  addUrl('/vehicle-brands', '0.9', 'weekly', '2025-02-01');
 
-  services.forEach(s => addUrl('/services/' + s.slug));
-  geoPages.forEach(g => addUrl('/services/' + g.slug));
-  locations.forEach(l => addUrl('/locations/' + l.slug, '0.9'));
-  symptoms.forEach(s => addUrl('/symptoms/' + s.slug));
-  vehicleBrands.forEach(v => addUrl('/vehicle-brands/' + v.slug));
+  services.forEach(s => addUrl('/services/' + s.slug, '0.8', 'monthly', '2025-03-01'));
+  geoPages.forEach(g => addUrl('/services/' + g.slug, '0.8', 'monthly', '2025-04-01'));
+  locations.forEach(l => addUrl('/locations/' + l.slug, '0.9', 'monthly', '2025-03-01'));
+  symptoms.forEach(s => addUrl('/symptoms/' + s.slug, '0.8', 'monthly', '2025-04-01'));
+  vehicleBrands.forEach(v => addUrl('/vehicle-brands/' + v.slug, '0.7', 'monthly', '2025-02-01'));
 
-  addUrl('/privacy', '0.3', 'yearly');
-  addUrl('/terms', '0.3', 'yearly');
+  addUrl('/privacy', '0.3', 'yearly', '2025-01-01');
+  addUrl('/terms', '0.3', 'yearly', '2025-01-01');
 
   xml += `</urlset>`;
   res.send(xml);

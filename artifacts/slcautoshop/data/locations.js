@@ -222,13 +222,30 @@ const locations = [
   }
 ];
 
+const locationMetaMap = {
+  'south-salt-lake-ut-auto-repair': { t: "Auto Repair South Salt Lake UT | Scott's Auto & Clutch",       d: "The neighborhood shop at 144 W Crystal Ave since 1990. Full-service repair for everything that rolls into the bay. Walk-ins welcome. (801) 485-4089." },
+  'sugar-house-ut-auto-repair':     { t: "Auto Repair Sugar House UT | Scott's Auto & Clutch",            d: "Three miles south of Sugar House with TRAX-accessible drop-off. Drop your car, catch the train, pick up after work. Honest diagnosis every time. (801) 485-4089." },
+  'millcreek-ut-auto-repair':       { t: "Auto Repair Millcreek UT | Scott's Auto & Clutch",              d: "Millcreek's independent mechanic since 1990. Subaru boxer engines, Honda, Toyota, and everything else this canyon-driving community owns. (801) 485-4089." },
+  'murray-ut-auto-repair':          { t: "Auto Repair Murray UT | Scott's Auto & Clutch",                  d: "Six minutes from Intermountain Medical Center. Drop off before your shift, pick up after. TRAX-accessible, walk-ins welcome. Call (801) 485-4089." },
+  'salt-lake-city-ut-auto-repair':  { t: "Auto Repair Salt Lake City UT | Scott's Auto & Clutch",         d: "From the Avenues and the University area to downtown, SLC drivers trust our shop for brakes, clutch, engine, and full service. (801) 485-4089." },
+  'taylorsville-ut-auto-repair':    { t: "Auto Repair Taylorsville UT | Scott's Auto & Clutch",           d: "Taylorsville families, minivans, SUVs, and daily drivers — five miles east and 35+ years of trusted service to the community. (801) 485-4089." },
+  'west-valley-city-ut-auto-repair':{ t: "Auto Repair West Valley City UT | Scott's Auto & Clutch",       d: "West Valley commercial vehicles, work trucks, and family cars get fast turnaround at our South Salt Lake shop. Seven miles east. Call (801) 485-4089." },
+  'holladay-ut-auto-repair':        { t: "Auto Repair Holladay UT | Scott's Auto & Clutch",               d: "Five miles from Holladay — and 30+ years of experience with luxury, import, and canyon-driving vehicles common to the neighborhood. (801) 485-4089." },
+  'cottonwood-heights-ut-auto-repair':{ t: "Auto Repair Cottonwood Heights UT | Scott's Auto & Clutch",  d: "Ski-canyon commuters to Alta, Snowbird, Brighton, and Solitude trust our shop for winter-wear inspection and year-round service. (801) 485-4089." },
+  'sandy-ut-auto-repair':           { t: "Auto Repair Sandy UT | Scott's Auto & Clutch",                  d: "Eight miles north of Sandy via I-15 with TRAX at Central Pointe station. Morning drop-off, afternoon pick-up is routine here. (801) 485-4089." },
+  'draper-ut-auto-repair':          { t: "Auto Repair Draper UT | Scott's Auto & Clutch",                 d: "Draper drivers make the 12-mile I-15 run for brakes, engine, drivetrain, and luxury service without dealership pricing. Call (801) 485-4089." },
+  'west-jordan-ut-auto-repair':     { t: "Auto Repair West Jordan UT | Scott's Auto & Clutch",            d: "Eight miles east of West Jordan. Family vehicles, minivans, and SUVs serviced by a shop that tells you what's wrong, not what's profitable. (801) 485-4089." },
+  'south-jordan-ut-auto-repair':    { t: "Auto Repair South Jordan UT | Scott's Auto & Clutch",           d: "Ten miles north of Daybreak and South Jordan. Modern diagnostic equipment handles newer crossovers, SUVs, and family sedans. (801) 485-4089." },
+  'riverton-ut-auto-repair':        { t: "Auto Repair Riverton UT | Scott's Auto & Clutch",               d: "Riverton customers drop off via I-15 and take TRAX from Central Pointe to continue their day. Twelve miles north. Call (801) 485-4089." },
+  'herriman-ut-auto-repair':        { t: "Auto Repair Herriman UT | Scott's Auto & Clutch",               d: "Fifteen miles via Bangerter Highway. Herriman's trucks, SUVs, and family vehicles get careful work at fair pricing. (801) 485-4089." },
+  'kearns-ut-auto-repair':          { t: "Auto Repair Kearns UT | Scott's Auto & Clutch",                 d: "Seven miles east via 5400 South. Kearns customers have stuck with us across decades of repeat visits. Free estimates. Call (801) 485-4089." },
+  'midvale-ut-auto-repair':         { t: "Auto Repair Midvale UT | Scott's Auto & Clutch",                d: "Five miles straight up State Street. The closest family-owned auto shop to Midvale for brakes, clutch, engine, and full service. (801) 485-4089." }
+};
+
 locations.forEach(loc => {
-  loc.metaTitle = loc.isHome
-    ? "South Salt Lake Auto Repair: Scott's Auto & Clutch - Since 1990"
-    : loc.name + " Auto Repair: SLC Auto Shop - Certified Service";
-  loc.metaDesc = loc.isHome
-    ? "Expert auto repair in South Salt Lake since 1990. Clutch repair, brake service, transmission work. 144 W Crystal Ave. Call (801) 485-4089."
-    : "Expert auto repair near " + loc.name + ", UT. Clutch repair, brake service, CV joint repair. " + loc.distance + " from our shop. Call (801) 485-4089.";
+  const lm = locationMetaMap[loc.slug];
+  loc.metaTitle = lm ? lm.t : (loc.isHome ? "South Salt Lake Auto Repair | Scott's Auto & Clutch" : loc.name + " Auto Repair | Scott's Auto & Clutch");
+  loc.metaDesc  = lm ? lm.d : (loc.isHome ? "Expert auto repair in South Salt Lake since 1990. Clutch repair, brake service, transmission work. 144 W Crystal Ave. Call (801) 485-4089." : "Expert auto repair near " + loc.name + ", UT. " + loc.distance + " from our shop. Call (801) 485-4089.");
   loc.heading = loc.isHome
     ? "Auto Repair Shop South Salt Lake UT — Brakes, Clutch & More"
     : "Auto Repair Shop " + loc.name + " UT — Brakes, Clutch & More";

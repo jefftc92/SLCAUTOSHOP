@@ -113,9 +113,29 @@ const geoPages = [
   }
 ];
 
+const geoMetaMap = {
+  'clutch-repair-near-sugar-house-ut':        { t: "Clutch Repair Sugar House UT | Scott's Auto & Clutch",        d: "Sugar House drivers have trusted us with manual transmissions for decades. Three miles south of the neighborhood with a 5-minute drive. (801) 485-4089." },
+  'clutch-repair-near-millcreek-ut':          { t: "Clutch Repair Millcreek UT | Scott's Auto & Clutch",          d: "Serving Millcreek clutch work for over 35 years — including the AWD and Subaru drivers who make up a big share of the neighborhood. Call (801) 485-4089." },
+  'clutch-repair-near-murray-ut':             { t: "Clutch Repair Murray UT | Scott's Auto & Clutch",             d: "Murray customers appreciate being 4 miles from a clutch specialist and a 3-minute walk from TRAX when they drop off. Free diagnosis. (801) 485-4089." },
+  'clutch-repair-near-salt-lake-city-ut':     { t: "Clutch Repair Salt Lake City UT | Scott's Auto & Clutch",    d: "From the Avenues to downtown, SLC drivers bring their manual transmissions here. Decades of experience with hill-start and canyon clutch wear. (801) 485-4089." },
+  'clutch-repair-near-taylorsville-ut':       { t: "Clutch Repair Taylorsville UT | Scott's Auto & Clutch",      d: "Taylorsville families, commuters, and work-truck drivers rely on us for clutch diagnosis and replacement. Five miles east via 4700 South. (801) 485-4089." },
+  'clutch-repair-near-west-valley-city-ut':   { t: "Clutch Repair West Valley City UT | Scott's Auto & Clutch",  d: "West Valley commercial vehicles and commuters count on quick turnaround for clutch work. Seven miles east via I-215 or 3500 South. (801) 485-4089." },
+  'clutch-repair-near-holladay-ut':           { t: "Clutch Repair Holladay UT | Scott's Auto & Clutch",           d: "Canyon-driving Holladay residents know what mountain roads do to a clutch. Five miles from the neighborhood. Free diagnosis, honest assessment. (801) 485-4089." },
+  'clutch-repair-near-cottonwood-heights-ut': { t: "Clutch Repair Cottonwood Heights UT | Scott's Auto & Clutch", d: "Cottonwood Heights ski-season commuters put clutches through a lot. Six miles north with experienced diagnosis and straightforward quotes. (801) 485-4089." },
+  'clutch-repair-near-sandy-ut':              { t: "Clutch Repair Sandy UT | Scott's Auto & Clutch",              d: "Sandy I-15 commuters drop off before work and pick up after. TRAX at Central Pointe makes the logistics easy. Eight miles north. Call (801) 485-4089." },
+  'clutch-repair-near-draper-ut':             { t: "Clutch Repair Draper UT | Scott's Auto & Clutch",             d: "Draper customers make the 12-mile I-15 drive for careful clutch work on manual performance cars, daily drivers, and trucks alike. (801) 485-4089." },
+  'clutch-repair-near-west-jordan-ut':        { t: "Clutch Repair West Jordan UT | Scott's Auto & Clutch",        d: "West Jordan families bring their manuals to a shop that explains what it found before the work starts. Eight miles east. Call (801) 485-4089." },
+  'clutch-repair-near-south-jordan-ut':       { t: "Clutch Repair South Jordan UT | Scott's Auto & Clutch",       d: "South Jordan and Daybreak residents trust our clutch work enough to make the 10-mile drive. No upsells, just what the vehicle actually needs. (801) 485-4089." },
+  'clutch-repair-near-riverton-ut':           { t: "Clutch Repair Riverton UT | Scott's Auto & Clutch",           d: "Riverton drivers drop off early and pick up after work — TRAX makes the round trip practical. Twelve miles via I-15. Call (801) 485-4089." },
+  'clutch-repair-near-herriman-ut':           { t: "Clutch Repair Herriman UT | Scott's Auto & Clutch",           d: "Herriman truck owners, SUVs, and daily drivers make the 15-mile drive for clutch specialists who work on what they own. Call (801) 485-4089." },
+  'clutch-repair-near-kearns-ut':             { t: "Clutch Repair Kearns UT | Scott's Auto & Clutch",             d: "Seven miles east via 5400 South. Kearns customers appreciate the straightforward approach to clutch diagnosis and replacement. (801) 485-4089." },
+  'clutch-repair-near-midvale-ut':            { t: "Clutch Repair Midvale UT | Scott's Auto & Clutch",            d: "The closest clutch specialist to Midvale — five miles straight up State Street or I-15. Free diagnosis and same-day service on many jobs. (801) 485-4089." }
+};
+
 geoPages.forEach(g => {
-  g.metaTitle = "Clutch Repair Near " + g.locationName + ", UT - Scott's Auto & Clutch";
-  g.metaDesc = "Expert clutch repair near " + g.locationName + ", UT. " + g.distance + " from our South Salt Lake shop. Clutch specialists since 1990. Call (801) 485-4089.";
+  const gm = geoMetaMap[g.slug];
+  g.metaTitle = gm ? gm.t : "Clutch Repair Near " + g.locationName + ", UT | Scott's Auto & Clutch";
+  g.metaDesc  = gm ? gm.d : "Expert clutch repair near " + g.locationName + ", UT. " + g.distance + " from our South Salt Lake shop. Clutch specialists since 1990. Call (801) 485-4089.";
 });
 
 module.exports = geoPages;
