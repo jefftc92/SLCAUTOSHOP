@@ -14,6 +14,7 @@
   </div>
 </section>
 
+<!-- Why Choose Us + practical info — white -->
 <section class="content-section">
   <div class="container">
     <h2>The Shop <%= location.name %> Drivers Rely On</h2>
@@ -21,23 +22,42 @@
     <% if (locSeo && locSeo.keywordIntro) { %>
     <p style="margin-top:1rem"><%= locSeo.keywordIntro %></p>
     <% } %>
-    <div class="visit-grid" style="margin-top:2rem">
-      <div class="visit-detail"><h3>Distance</h3><p><%= location.distance %><% if (!location.isHome) { %> (<%= location.driveTime %>)<% } %></p></div>
-      <div class="visit-detail"><h3>Hours</h3><p><%= site.hoursShort %><br><%= site.satHours %></p></div>
-      <div class="visit-detail"><h3>Zip Codes We Serve</h3><p><%= location.zipCodes.join(', ') %></p></div>
+    <% if (locSeo && locSeo.routeInfo) { %>
+    <p style="margin-top:1rem"><strong>Getting here:</strong> <%= locSeo.routeInfo %></p>
+    <% } %>
+    <div class="location-facts-row">
+      <% if (!location.isHome) { %>
+      <div class="location-fact">
+        <span class="fact-label">Distance</span>
+        <span class="fact-value"><%= location.distance %> &mdash; <%= location.driveTime %></span>
+      </div>
+      <% } %>
+      <div class="location-fact">
+        <span class="fact-label">Hours</span>
+        <span class="fact-value"><%= site.hoursShort %> &bull; <%= site.satHours %></span>
+      </div>
+      <div class="location-fact">
+        <span class="fact-label">Zip Codes</span>
+        <span class="fact-value"><%= location.zipCodes.join(', ') %></span>
+      </div>
+      <div class="location-fact">
+        <span class="fact-label">Address</span>
+        <span class="fact-value"><a href="<%= site.directionsUrl %>" target="_blank" rel="noopener"><%= site.address %></a></span>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- Services most needed — grey -->
 <% if (locSeo && locSeo.commonNeeds && locSeo.commonNeeds.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
     <h2>Auto Repair Services <%= location.name %> Drivers Need Most</h2>
-    <p>Based on 35+ years of serving <%= location.name %> drivers, these are the services we perform most often for vehicles in this area—and why the local driving conditions create demand for each one.</p>
+    <p>Based on 35+ years of serving <%= location.name %> drivers, these are the repairs we perform most often for vehicles in this area — and why local driving conditions create the demand for each one.</p>
     <div class="issues-grid">
       <% locSeo.commonNeeds.forEach(need => { %>
       <div class="issue-card">
-        <h3><%= need.service %> in <%= location.name %></h3>
+        <h3><%= need.service %></h3>
         <p><%= need.context %></p>
       </div>
       <% }) %>
@@ -46,86 +66,58 @@
 </section>
 <% } %>
 
-<% if (locSeo && locSeo.vehicleContext) { %>
+<!-- Nearby Landmarks — white -->
+<% if (location.landmarks && location.landmarks.length) { %>
 <section class="content-section">
   <div class="container">
-    <h2>Vehicles We Service in <%= location.name %></h2>
-    <p><%= locSeo.vehicleContext %></p>
-  </div>
-</section>
-<% } %>
-
-<% if (locSeo && locSeo.routeInfo) { %>
-<section class="content-section alt-bg">
-  <div class="container">
-    <h2>How to Get to Our Shop from <%= location.name %></h2>
-    <p><%= locSeo.routeInfo %></p>
-  </div>
-</section>
-<% } %>
-
-<% if (location.landmarks && location.landmarks.length) { %>
-<section class="content-section alt-bg">
-  <div class="container">
-    <h2>Directions from <%= location.name %> Landmarks</h2>
-    <p>Find us easily from popular <%= location.name %> locations. Our shop is at 144 W Crystal Ave in South Salt Lake.</p>
-    <div class="issues-grid">
+    <h2>Landmarks Near Our Shop</h2>
+    <p>Scott's Auto & Clutch is at <strong>144 W Crystal Ave in South Salt Lake</strong> — centrally located and easy to reach from across the valley. Here are some well-known area landmarks and how they relate to our location.</p>
+    <div class="landmarks-grid">
       <% location.landmarks.forEach(lm => { %>
-      <div class="issue-card">
-        <h3><%= lm.name %></h3>
-        <p><strong><%= lm.distance %> from our shop</strong></p>
-        <p><%= lm.tip %></p>
+      <div class="landmark-card">
+        <div class="landmark-header">
+          <h3><%= lm.name %></h3>
+          <span class="landmark-distance"><%= lm.distance %></span>
+        </div>
+        <% if (lm.description) { %>
+        <p class="landmark-desc"><%= lm.description %></p>
+        <% } %>
+        <p class="landmark-tip"><%= lm.tip %></p>
       </div>
       <% }) %>
     </div>
     <div style="margin-top:1.5rem">
-      <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions from <%= location.name %></a>
+      <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions to Our Shop</a>
     </div>
   </div>
 </section>
 <% } %>
 
-<% if (location.drivingTips && location.drivingTips.length) { %>
-<section class="content-section">
-  <div class="container">
-    <h2>Driving Tips for <%= location.name %></h2>
-    <div class="process-steps">
-      <% location.drivingTips.forEach((tip, i) => { %>
-      <div class="process-step">
-        <span class="step-num"><%= i + 1 %></span>
-        <div><p><%= tip %></p></div>
-      </div>
-      <% }) %>
-    </div>
-  </div>
-</section>
-<% } %>
-
+<!-- About City + Neighborhoods — grey -->
 <% if (location.aboutCity) { %>
 <section class="content-section alt-bg">
   <div class="container">
     <h2>About <%= location.name %></h2>
     <div class="prose"><p><%= location.aboutCity %></p></div>
+    <% if (location.neighborhoods && location.neighborhoods.length) { %>
+    <div style="margin-top:1.5rem">
+      <h3 style="font-size:1rem;margin-bottom:.75rem;color:var(--c-text-muted)">Neighborhoods We Serve in <%= location.name %></h3>
+      <div class="brand-tags">
+        <% location.neighborhoods.forEach(n => { %>
+        <span class="tag"><%= n %></span>
+        <% }) %>
+      </div>
+    </div>
+    <% } %>
   </div>
 </section>
 <% } %>
 
-<% if (location.neighborhoods && location.neighborhoods.length) { %>
+<!-- Auto Services for this area — white -->
 <section class="content-section">
   <div class="container">
-    <h2>Neighborhoods We Serve in <%= location.name %></h2>
-    <div class="brand-tags">
-      <% location.neighborhoods.forEach(n => { %>
-      <span class="tag"><%= n %></span>
-      <% }) %>
-    </div>
-  </div>
-</section>
-<% } %>
-
-<section class="content-section alt-bg">
-  <div class="container">
-    <h2>Auto Services for <%= location.name %> Drivers</h2>
+    <h2>Complete Auto Services for <%= location.name %> Drivers</h2>
+    <p>We handle everything from clutch repair and brake service to timing chains, CV axles, exhaust, and cooling systems — all makes and models, domestic and import.</p>
     <div class="services-grid small">
       <% services.slice(0, 6).forEach(s => { %>
       <a href="/services/<%= s.slug %>" class="service-card">
@@ -141,22 +133,9 @@
   </div>
 </section>
 
-<section class="content-section">
-  <div class="container">
-    <h2>Other Service Areas</h2>
-    <div class="brand-tags">
-      <% allLocations.filter(l => l.slug !== location.slug).forEach(l => { %>
-      <a href="/locations/<%= l.slug %>" class="tag"><%= l.name %></a>
-      <% }) %>
-    </div>
-  </div>
-</section>
-
-<%- include('partials/testimonials') %>
-
-<% var faqAlt = false; %>
+<!-- FAQ — grey -->
 <%- include('partials/faq') %>
 
-<% var ctaTitle = "Need Auto Repair Near " + location.name + "?"; var ctaDesc = "Contact Scott's Auto and Clutch today." + (!location.isHome ? " We're just " + location.distance + " from " + location.name + "." : ""); %>
+<% var ctaTitle = "Need Auto Repair Near " + location.name + "?"; var ctaDesc = "Contact Scott's Auto and Clutch today for honest diagnostics and fair pricing." + (!location.isHome ? " We're just " + location.distance + " from " + location.name + "." : ""); %>
 <%- include('partials/cta') %>
 <%- include('partials/footer') %>

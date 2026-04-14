@@ -236,6 +236,7 @@ app.get('/locations/:slug', (req, res) => {
     locSeo,
     pageFaqs: allLocFaqs,
     faqTitle: 'Frequently Asked Questions — ' + location.name + ' Auto Repair',
+    faqAlt: true,
     structuredData: {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
