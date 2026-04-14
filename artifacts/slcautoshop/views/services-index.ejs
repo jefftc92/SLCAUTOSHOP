@@ -21,12 +21,13 @@
       <div class="service-detail-text">
         <h2><%= s.name %></h2>
         <p><%= s.shortDesc %></p>
-        <h3>Services:</h3>
-        <ul>
-          <% s.coverageList.slice(0,5).forEach(item => { %>
-          <li><%= item %></li>
+        <% if (s.specializedServices && s.specializedServices.length) { %>
+        <div class="brand-tags" style="margin-bottom:1.25rem">
+          <% s.specializedServices.slice(0,6).forEach(item => { %>
+          <span class="tag"><%= item %></span>
           <% }) %>
-        </ul>
+        </div>
+        <% } %>
         <a href="/services/<%= s.slug %>" class="btn btn-primary">Learn More About <%= s.name %></a>
       </div>
       <div class="service-detail-image">
