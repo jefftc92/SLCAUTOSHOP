@@ -14,28 +14,8 @@
   </div>
 </section>
 
-<!-- 1. About City — white -->
-<% if (location.aboutCity) { %>
+<!-- 1. Shop Info + Map — white -->
 <section class="content-section">
-  <div class="container">
-    <h2>About <%= location.name %></h2>
-    <div class="prose"><p><%= location.aboutCity %></p></div>
-    <% if (location.neighborhoods && location.neighborhoods.length) { %>
-    <div style="margin-top:1.5rem">
-      <h3 style="font-size:1rem;margin-bottom:.75rem;color:var(--c-text-muted)">Neighborhoods We Serve in <%= location.name %></h3>
-      <div class="brand-tags">
-        <% location.neighborhoods.forEach(n => { %>
-        <span class="tag"><%= n %></span>
-        <% }) %>
-      </div>
-    </div>
-    <% } %>
-  </div>
-</section>
-<% } %>
-
-<!-- 2. Shop Info + Map — grey -->
-<section class="content-section alt-bg">
   <div class="container">
     <h2><% if (!location.isHome) { %>Just <%= location.driveTime %> from <%= location.name %><% } else { %>Your South Salt Lake Auto Shop<% } %></h2>
     <div class="loc-shop-grid">
@@ -83,6 +63,26 @@
     </div>
   </div>
 </section>
+
+<!-- 2. About City — grey -->
+<% if (location.aboutCity) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>About <%= location.name %></h2>
+    <div class="prose"><p><%= location.aboutCity %></p></div>
+    <% if (location.neighborhoods && location.neighborhoods.length) { %>
+    <div style="margin-top:1.5rem">
+      <h3 style="font-size:1rem;margin-bottom:.75rem;color:var(--c-text-muted)">Neighborhoods We Serve in <%= location.name %></h3>
+      <div class="brand-tags">
+        <% location.neighborhoods.forEach(n => { %>
+        <span class="tag"><%= n %></span>
+        <% }) %>
+      </div>
+    </div>
+    <% } %>
+  </div>
+</section>
+<% } %>
 
 <!-- 3. Landmarks Near Our Shop — white -->
 <% if (location.landmarks && location.landmarks.length) { %>
