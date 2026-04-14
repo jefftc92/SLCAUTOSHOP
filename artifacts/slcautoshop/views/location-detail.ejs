@@ -14,88 +14,9 @@
   </div>
 </section>
 
-<!-- Why Choose Us + practical info — white -->
-<section class="content-section">
-  <div class="container">
-    <h2>The Shop <%= location.name %> Drivers Rely On</h2>
-    <p><%= location.whyChooseUs %></p>
-    <% if (locSeo && locSeo.keywordIntro) { %>
-    <p style="margin-top:1rem"><%= locSeo.keywordIntro %></p>
-    <% } %>
-    <% if (locSeo && locSeo.routeInfo) { %>
-    <p style="margin-top:1rem"><strong>Getting here:</strong> <%= locSeo.routeInfo %></p>
-    <% } %>
-    <div class="location-facts-row">
-      <% if (!location.isHome) { %>
-      <div class="location-fact">
-        <span class="fact-label">Distance</span>
-        <span class="fact-value"><%= location.distance %> &mdash; <%= location.driveTime %></span>
-      </div>
-      <% } %>
-      <div class="location-fact">
-        <span class="fact-label">Hours</span>
-        <span class="fact-value"><%= site.hoursShort %> &bull; <%= site.satHours %></span>
-      </div>
-      <div class="location-fact">
-        <span class="fact-label">Zip Codes</span>
-        <span class="fact-value"><%= location.zipCodes.join(', ') %></span>
-      </div>
-      <div class="location-fact">
-        <span class="fact-label">Address</span>
-        <span class="fact-value"><a href="<%= site.directionsUrl %>" target="_blank" rel="noopener"><%= site.address %></a></span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Services most needed — grey -->
-<% if (locSeo && locSeo.commonNeeds && locSeo.commonNeeds.length) { %>
-<section class="content-section alt-bg">
-  <div class="container">
-    <h2>Auto Repair Services <%= location.name %> Drivers Need Most</h2>
-    <p>Based on 35+ years of serving <%= location.name %> drivers, these are the repairs we perform most often for vehicles in this area — and why local driving conditions create the demand for each one.</p>
-    <div class="issues-grid">
-      <% locSeo.commonNeeds.forEach(need => { %>
-      <div class="issue-card">
-        <h3><%= need.service %></h3>
-        <p><%= need.context %></p>
-      </div>
-      <% }) %>
-    </div>
-  </div>
-</section>
-<% } %>
-
-<!-- Nearby Landmarks — white -->
-<% if (location.landmarks && location.landmarks.length) { %>
-<section class="content-section">
-  <div class="container">
-    <h2>Landmarks Near Our Shop</h2>
-    <p>Scott's Auto & Clutch is at <strong>144 W Crystal Ave in South Salt Lake</strong> — centrally located and easy to reach from across the valley. Here are some well-known area landmarks and how they relate to our location.</p>
-    <div class="landmarks-grid">
-      <% location.landmarks.forEach(lm => { %>
-      <div class="landmark-card">
-        <div class="landmark-header">
-          <h3><%= lm.name %></h3>
-          <span class="landmark-distance"><%= lm.distance %></span>
-        </div>
-        <% if (lm.description) { %>
-        <p class="landmark-desc"><%= lm.description %></p>
-        <% } %>
-        <p class="landmark-tip"><%= lm.tip %></p>
-      </div>
-      <% }) %>
-    </div>
-    <div style="margin-top:1.5rem">
-      <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions to Our Shop</a>
-    </div>
-  </div>
-</section>
-<% } %>
-
-<!-- About City + Neighborhoods — grey -->
+<!-- 1. About City — white -->
 <% if (location.aboutCity) { %>
-<section class="content-section alt-bg">
+<section class="content-section">
   <div class="container">
     <h2>About <%= location.name %></h2>
     <div class="prose"><p><%= location.aboutCity %></p></div>
@@ -113,12 +34,96 @@
 </section>
 <% } %>
 
-<!-- Auto Services for this area — white -->
+<!-- 2. Shop Info + Map — grey -->
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2><% if (!location.isHome) { %>Just <%= location.driveTime %> from <%= location.name %><% } else { %>Your South Salt Lake Auto Shop<% } %></h2>
+    <div class="loc-shop-grid">
+      <div class="loc-shop-info">
+        <p><%= location.whyChooseUs %></p>
+        <% if (locSeo && locSeo.keywordIntro) { %>
+        <p style="margin-top:1rem"><%= locSeo.keywordIntro %></p>
+        <% } %>
+        <% if (locSeo && locSeo.routeInfo) { %>
+        <p style="margin-top:1rem"><strong>Getting here:</strong> <%= locSeo.routeInfo %></p>
+        <% } %>
+        <div class="loc-shop-details">
+          <div class="loc-detail-item">
+            <span class="loc-detail-label">Address</span>
+            <span class="loc-detail-value"><a href="<%= site.directionsUrl %>" target="_blank" rel="noopener"><%= site.fullAddress %></a></span>
+          </div>
+          <div class="loc-detail-item">
+            <span class="loc-detail-label">Hours</span>
+            <span class="loc-detail-value"><%= site.hours %><br><%= site.sunHours %></span>
+          </div>
+          <% if (!location.isHome) { %>
+          <div class="loc-detail-item">
+            <span class="loc-detail-label">From <%= location.name %></span>
+            <span class="loc-detail-value"><%= location.distance %> &mdash; about <%= location.driveTime %> drive</span>
+          </div>
+          <% } %>
+        </div>
+        <div class="loc-shop-actions">
+          <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions</a>
+          <a href="tel:<%= site.phoneTel %>" class="btn btn-secondary">Call <%= site.phone %></a>
+        </div>
+      </div>
+      <div class="loc-shop-map">
+        <iframe
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
+          width="100%"
+          height="100%"
+          style="border:0;border-radius:10px;min-height:340px"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Scott's Auto and Clutch Location">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. Landmarks Near Our Shop — white -->
+<% if (location.landmarks && location.landmarks.length) { %>
 <section class="content-section">
   <div class="container">
-    <h2>Complete Auto Services for <%= location.name %> Drivers</h2>
+    <h2>Landmarks Near Our Shop</h2>
+    <p>Scott's Auto & Clutch is at <strong>144 W Crystal Ave, South Salt Lake, UT 84115</strong> — centrally located and easy to reach from across the Salt Lake Valley. Here are some well-known <%= location.name %> area landmarks and how they connect to our shop.</p>
+    <div class="landmarks-grid">
+      <% location.landmarks.forEach(lm => { %>
+      <div class="landmark-card">
+        <div class="landmark-header">
+          <h3><%= lm.name %></h3>
+          <span class="landmark-distance"><%= lm.distance %></span>
+        </div>
+        <% if (lm.description) { %>
+        <p class="landmark-desc"><%= lm.description %></p>
+        <% } %>
+        <p class="landmark-tip"><%= lm.tip %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<!-- 4. Combined Services Section — grey -->
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Auto Repair Services for <%= location.name %> Drivers</h2>
     <p>We handle everything from clutch repair and brake service to timing chains, CV axles, exhaust, and cooling systems — all makes and models, domestic and import.</p>
-    <div class="services-grid small">
+    <% if (locSeo && locSeo.commonNeeds && locSeo.commonNeeds.length) { %>
+    <p style="margin-top:.5rem">Based on 35+ years of serving <%= location.name %> drivers, here are the repairs we're called on most often and why local driving conditions create the demand:</p>
+    <div class="loc-common-needs">
+      <% locSeo.commonNeeds.forEach(need => { %>
+      <div class="loc-need-item">
+        <strong><%= need.service %>:</strong> <%= need.context %>
+      </div>
+      <% }) %>
+    </div>
+    <% } %>
+    <div class="services-grid small" style="margin-top:2rem">
       <% services.slice(0, 6).forEach(s => { %>
       <a href="/services/<%= s.slug %>" class="service-card">
         <h3><%= s.name %></h3>
@@ -133,7 +138,7 @@
   </div>
 </section>
 
-<!-- FAQ — grey -->
+<!-- 5. FAQ — white -->
 <%- include('partials/faq') %>
 
 <% var ctaTitle = "Need Auto Repair Near " + location.name + "?"; var ctaDesc = "Contact Scott's Auto and Clutch today for honest diagnostics and fair pricing." + (!location.isHome ? " We're just " + location.distance + " from " + location.name + "." : ""); %>
