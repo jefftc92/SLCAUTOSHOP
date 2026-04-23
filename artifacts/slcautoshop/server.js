@@ -42,6 +42,36 @@ app.use((req, res, next) => {
 });
 
 // ============================
+// Legacy URL Redirects (301 Permanent)
+// Handles old React-site URL patterns that Google may have indexed
+// ============================
+
+app.use((req, res, next) => {
+  const p = req.path;
+
+  // Old symptom pattern: /symptoms/{slug}-repair-south-salt-lake
+  const symptomMatch = p.match(/^\/symptoms\/(.+)-repair-south-salt-lake$/);
+  if (symptomMatch) {
+    return res.redirect(301, '/symptoms/' + symptomMatch[1]);
+  }
+
+  // Old service pattern: /services/{slug}-south-salt-lake-ut (missing -near-)
+  // e.g. /services/clutch-repair-south-salt-lake-ut → /services/clutch-repair-near-south-salt-lake-ut
+  const serviceOldMatch = p.match(/^\/services\/(.+)-south-salt-lake-ut$/) ;
+  if (serviceOldMatch && !p.includes('-near-south-salt-lake-ut')) {
+    return res.redirect(301, '/services/' + serviceOldMatch[1] + '-near-south-salt-lake-ut');
+  }
+
+  // Old location pattern: /locations/{slug}-auto-repair-near-{city} or similar variants
+  const locationNearMatch = p.match(/^\/locations\/(.+)-near-(.+)$/);
+  if (locationNearMatch) {
+    return res.redirect(301, '/locations/' + locationNearMatch[1]);
+  }
+
+  next();
+});
+
+// ============================
 // Routes
 // ============================
 
