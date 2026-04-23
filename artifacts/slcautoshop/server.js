@@ -412,7 +412,7 @@ app.get('/sitemap.xml', (req, res) => {
     xml += `  <url><loc>${site.domain}${path}</loc><lastmod>${lastmod}</lastmod><changefreq>${freq}</changefreq><priority>${priority}</priority></url>\n`;
   };
 
-  addUrl('/', '1.0', 'weekly', '2025-04-01');
+  addUrl('', '1.0', 'weekly', '2025-04-01');
   addUrl('/about', '0.7', 'monthly', '2025-01-01');
   addUrl('/contact', '0.8', 'monthly', '2025-01-01');
   addUrl('/services', '0.9', 'weekly', '2025-03-01');
