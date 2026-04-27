@@ -50,7 +50,10 @@ app.use((req, res, next) => {
   if (req.path.length > 1 && req.path.endsWith('/')) {
     const clean = req.path.slice(0, -1);
     const q = req.url.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
-    return res.redirect(301, clean + q);
+    // Prevent open redirect: reject any path that starts with // (scheme-relative URL)
+    if (!clean.startsWith('//')) {
+      return res.redirect(301, clean + q);
+    }
   }
   next();
 });
