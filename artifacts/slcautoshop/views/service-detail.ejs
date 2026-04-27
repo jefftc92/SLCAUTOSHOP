@@ -5,7 +5,7 @@
 <section class="page-hero">
   <div class="page-hero-bg" style="background-image:url('<%= service.heroImage %>')"></div>
   <div class="container">
-    <h1><%= service.metaTitle %></h1>
+    <h1><%= service.heading || service.metaTitle %></h1>
     <p><%= service.intro %></p>
     <div class="hero-buttons">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
