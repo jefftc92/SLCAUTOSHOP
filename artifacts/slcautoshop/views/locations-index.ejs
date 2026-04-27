@@ -20,7 +20,7 @@
       <% allLocations.forEach(l => { %>
       <a href="/locations/<%= l.slug %>" class="location-card">
         <h2><%= l.name %>, UT</h2>
-        <p><%= l.isHome ? 'Our Location' : l.distance + ' (' + l.driveTime + ' drive)' %></p>
+        <span class="card-p"><%= l.isHome ? 'Our Location' : l.distance + ' (' + l.driveTime + ' drive)' %></span>
         <span class="card-link">View Details</span>
       </a>
       <% }) %>

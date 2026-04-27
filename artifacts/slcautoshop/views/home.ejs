@@ -22,7 +22,7 @@
       <a href="/services/<%= s.slug %>" class="service-card">
         <img src="<%= s.image %>" alt="<%= s.fullName %> service" loading="lazy" width="400" height="267">
         <h3><%= s.fullName %></h3>
-        <p><%= s.shortDesc %></p>
+        <span class="card-p"><%= s.shortDesc %></span>
         <span class="card-link">Learn More</span>
       </a>
       <% }) %>

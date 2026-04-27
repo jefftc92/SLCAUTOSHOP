@@ -114,7 +114,7 @@
       <% relatedServices.forEach(rs => { %>
       <a href="/services/<%= rs.slug %>" class="service-card">
         <h3><%= rs.name %></h3>
-        <p><%= rs.shortDesc %></p>
+        <span class="card-p"><%= rs.shortDesc %></span>
         <span class="card-link">View service</span>
       </a>
       <% }) %>
