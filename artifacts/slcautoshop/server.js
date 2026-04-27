@@ -281,7 +281,16 @@ app.get('/services/:slug', (req, res) => {
         geo,
         clutchService,
         pageFaqs: getGeoFaqs(geo),
-        faqTitle: 'Frequently Asked Questions — Clutch Repair Near ' + geo.locationName
+        faqTitle: 'Frequently Asked Questions — Clutch Repair Near ' + geo.locationName,
+        structuredData: {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+            { "@type": "ListItem", "position": 2, "name": "Services", "item": site.domain + "/services" },
+            { "@type": "ListItem", "position": 3, "name": "Clutch Repair Near " + geo.locationName, "item": site.domain + "/services/" + geo.slug }
+          ]
+        }
       });
     }
     return res.status(404).render('404', { metaTitle: 'Page Not Found' });
@@ -483,7 +492,16 @@ app.get('/vehicle-brands/:slug', (req, res) => {
     brandContent: bc,
     pageFaqs: bc.faqs || [],
     faqTitle: 'Frequently Asked Questions — ' + brand.name + ' Repair',
-    faqAlt: true
+    faqAlt: true,
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Vehicle Brands", "item": site.domain + "/vehicle-brands" },
+        { "@type": "ListItem", "position": 3, "name": brand.name + " Repair", "item": site.domain + "/vehicle-brands/" + brand.slug }
+      ]
+    }
   });
 });
 

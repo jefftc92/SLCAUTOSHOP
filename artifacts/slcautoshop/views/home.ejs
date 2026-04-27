@@ -3,7 +3,7 @@
 <section class="hero">
   <div class="hero-bg" style="background-image:url('<%= site.heroImage %>')"></div>
   <div class="container hero-content">
-    <h1>Auto Mechanic &amp; Car Repair<br><span class="hero-accent">South Salt Lake</span></h1>
+    <h1>Auto Mechanic &amp; Car Repair<span class="hero-accent" style="display:block">South Salt Lake</span></h1>
     <p class="hero-badge">Family-Owned Since 1990</p>
     <p class="hero-desc">Your trusted auto repair shop for clutch replacement, manual transmission repair, brake service, CV axle repair, and complete car repair. Our experienced car mechanics serve South Salt Lake, Millcreek, Sugar House, Murray, and the entire Salt Lake Valley.</p>
     <div class="hero-buttons">
@@ -149,7 +149,7 @@
       <% allVehicleBrands.filter(v => v.popular).slice(0, 12).forEach(v => { %>
       <a href="/vehicle-brands/<%= v.slug %>" class="brand-card">
         <img src="<%= v.logoUrl %>" alt="<%= v.name %> logo" class="brand-logo" loading="lazy" width="80" height="80">
-        <h3><%= v.name %></h3>
+        <h3><%= v.name %> Repair</h3>
       </a>
       <% }) %>
     </div>
