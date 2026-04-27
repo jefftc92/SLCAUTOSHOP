@@ -224,7 +224,7 @@ const locations = [
 
 const locationMetaMap = {
   'south-salt-lake-ut-auto-repair': { t: "Auto Repair South Salt Lake UT | Scott's Auto & Clutch",       d: "The neighborhood shop at 144 W Crystal Ave since 1990. Full-service repair for everything that rolls into the bay. Walk-ins welcome. (801) 485-4089." },
-  'sugar-house-ut-auto-repair':     { t: "Auto Repair Sugar House UT | Scott's Auto & Clutch",            d: "Three miles south of Sugar House with TRAX-accessible drop-off. Drop your car, catch the train, pick up after work. Honest diagnosis every time. (801) 485-4089." },
+  'sugar-house-ut-auto-repair':     { t: "Auto Repair Sugar House UT | Scott's Auto & Clutch",            d: "Three miles south of Sugar House with TRAX-accessible drop-off. Drop your car, catch the train, pick up after work. Honest diagnosis. (801) 485-4089." },
   'millcreek-ut-auto-repair':       { t: "Auto Repair Millcreek UT | Scott's Auto & Clutch",              d: "Millcreek's independent mechanic since 1990. Subaru boxer engines, Honda, Toyota, and everything else this canyon-driving community owns. (801) 485-4089." },
   'murray-ut-auto-repair':          { t: "Auto Repair Murray UT | Scott's Auto & Clutch",                  d: "Six minutes from Intermountain Medical Center. Drop off before your shift, pick up after. TRAX-accessible, walk-ins welcome. Call (801) 485-4089." },
   'salt-lake-city-ut-auto-repair':  { t: "Auto Repair Salt Lake City UT | Scott's Auto & Clutch",         d: "From the Avenues and the University area to downtown, SLC drivers trust our shop for brakes, clutch, engine, and full service. (801) 485-4089." },

@@ -48,7 +48,7 @@ const vehicleBrands = [
 
 const brandMetaMap = {
   'toyota-repair-salt-lake-city-ut':         { t: "Toyota Repair Salt Lake City | Scott's Auto & Clutch",         d: "Camry, Corolla, RAV4, Tacoma, Tundra, 4Runner — every Toyota gets careful work. Full service for models built to last 200K+ miles. (801) 485-4089." },
-  'honda-repair-salt-lake-city-ut':          { t: "Honda Repair Salt Lake City | Scott's Auto & Clutch",          d: "Civic, Accord, CR-V, Pilot, Odyssey and more. Honda-spec fluids, careful diagnostics, and the kind of work that keeps Hondas going past 250K. (801) 485-4089." },
+  'honda-repair-salt-lake-city-ut':          { t: "Honda Repair Salt Lake City | Scott's Auto & Clutch",          d: "Civic, Accord, CR-V, Pilot, Odyssey, and more. Honda-spec fluids, careful diagnostics, and work that keeps Hondas going past 250K. (801) 485-4089." },
   'ford-repair-salt-lake-city-ut':           { t: "Ford Repair Salt Lake City | Scott's Auto & Clutch",           d: "F-150, Super Duty, Explorer, Escape, Mustang, Bronco. Work trucks and family vehicles both get thorough diagnostic work. Call (801) 485-4089." },
   'chevrolet-repair-salt-lake-city-ut':      { t: "Chevrolet Repair Salt Lake City | Scott's Auto & Clutch",      d: "Silverado, Tahoe, Suburban, Equinox, Traverse, Camaro, and more. Decades of GM truck and SUV experience serving the Salt Lake Valley. (801) 485-4089." },
   'nissan-repair-salt-lake-city-ut':         { t: "Nissan Repair Salt Lake City | Scott's Auto & Clutch",         d: "Altima, Rogue, Pathfinder, Titan, Frontier, Sentra. CVT fluid service, timing chain work, and full maintenance. Call (801) 485-4089." },

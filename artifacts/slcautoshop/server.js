@@ -94,7 +94,7 @@ app.get('/', (req, res) => {
   res.render('home', {
     activePage: 'home',
     metaTitle: "Auto Repair Salt Lake City | Scott's Auto & Clutch",
-    metaDesc: "Family-owned auto repair shop in South Salt Lake. Brakes, clutch, transmission, engine work, and full service for every make and model. Free estimates. (801) 485-4089.",
+    metaDesc: "Family-owned auto repair in South Salt Lake. Clutch, brakes, transmission, and full service for any make or model. Free estimates. (801) 485-4089.",
     canonical: '/',
     structuredData: {
       "@context": "https://schema.org",
@@ -317,7 +317,7 @@ app.get('/symptoms', (req, res) => {
   res.render('symptoms-index', {
     activePage: 'symptoms',
     metaTitle: "What's Wrong With My Car? | Symptom Guide by Scott's Auto",
-    metaDesc: "Hearing something unusual or seeing a warning light? Our symptom guide helps you understand common car issues before you visit the shop. Free diagnosis available.",
+    metaDesc: "Hearing something unusual or seeing a warning light? Our symptom guide covers common car problems. Free diagnosis at our South Salt Lake shop.",
     canonical: '/symptoms'
   });
 });
@@ -358,7 +358,7 @@ app.get('/vehicle-brands', (req, res) => {
   res.render('vehicles-index', {
     activePage: 'vehicles',
     metaTitle: "Car Brands We Repair | Domestic, Import, and Luxury",
-    metaDesc: "We service every major vehicle brand — from Toyota and Honda to BMW and Porsche. Same careful work, regardless of badge. Browse brands or call (801) 485-4089.",
+    metaDesc: "We service every major vehicle brand — Toyota, Honda, BMW, Porsche, and more. Same careful work, regardless of the badge. Call (801) 485-4089.",
     canonical: '/vehicle-brands'
   });
 });
