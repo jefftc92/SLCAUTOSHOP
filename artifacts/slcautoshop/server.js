@@ -493,7 +493,7 @@ app.get('/privacy', (req, res) => {
     metaTitle: "Privacy Policy | Scott's Auto & Clutch — Salt Lake City",
     metaDesc: "Scott's Auto & Clutch privacy policy. We don't sell your data — contact info only, never shared with third parties. Questions? Call (801) 485-4089.",
     canonical: '/privacy',
-    pageTitle: 'Privacy Policy',
+    pageTitle: "Privacy Policy — Scott's Auto & Clutch",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -535,7 +535,7 @@ app.get('/terms', (req, res) => {
     metaTitle: "Terms of Service | Scott's Auto & Clutch",
     metaDesc: "Scott's Auto & Clutch service terms — warranty details, shop policies, and your rights as a customer. Questions? Call us at (801) 485-4089.",
     canonical: '/terms',
-    pageTitle: 'Terms of Service',
+    pageTitle: "Terms of Service — Scott's Auto & Clutch",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "WebPage",
