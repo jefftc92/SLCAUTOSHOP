@@ -3,7 +3,7 @@
 
 const locationSeoContent = {
   'south-salt-lake-ut-auto-repair': {
-    keywordIntro: "Looking for an honest auto repair shop in South Salt Lake? Scott's Auto & Clutch has been the trusted South Salt Lake mechanic since 1990. Our shop on Crystal Avenue serves drivers throughout 84115, 84119, and surrounding zip codes with complete automotive repair—clutch replacement, brake service, CV axle repair, timing chain work, exhaust repair, and full vehicle maintenance. If you need a reliable car mechanic in South Salt Lake, you've found your shop.",
+    keywordIntro: "Looking for an honest auto repair shop in South Salt Lake? Scott's Auto & Clutch has been the trusted South Salt Lake mechanic since 1990. Our shop on Crystal Avenue serves drivers throughout 84117, 84119, and surrounding zip codes with complete automotive repair—clutch replacement, brake service, CV axle repair, timing chain work, exhaust repair, and full vehicle maintenance. If you need a reliable car mechanic in South Salt Lake, you've found your shop.",
     commonNeeds: [
       { service: 'Clutch Repair', context: 'South Salt Lake drivers navigating State Street traffic and I-15 onramps put heavy wear on their clutches. We\'re the clutch specialists—it\'s literally our name.' },
       { service: 'Brake Service', context: 'Stop-and-go traffic on State Street and Main Street wears brake pads fast. South Salt Lake vehicles typically need brake service every 25,000-40,000 miles.' },

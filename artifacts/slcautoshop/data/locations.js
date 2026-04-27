@@ -1,6 +1,6 @@
 const locations = [
   {
-    slug: "south-salt-lake-ut-auto-repair", name: "South Salt Lake", state: "UT", distance: "Our Location", driveTime: "0 min", zipCodes: ["84115"], isHome: true,
+    slug: "south-salt-lake-ut-auto-repair", name: "South Salt Lake", state: "UT", distance: "Our Location", driveTime: "0 min", zipCodes: ["84117"], isHome: true,
     intro: "Scott's Auto & Clutch has called South Salt Lake home since 1990. Our shop at 144 W Crystal Ave sits right between I-15 and State Street, making us one of the most accessible auto repair shops in the valley. Whether you're coming from the 3300 South exit or cutting through on West Temple, you're never more than a few minutes away.",
     whyChooseUs: "South Salt Lake's mix of industrial corridors and residential neighborhoods means heavy stop-and-go traffic on State Street and 3300 South. That kind of driving accelerates brake wear and clutch fatigue, especially if you drive a manual. We see it every day—and we fix it every day.",
     landmarks: [

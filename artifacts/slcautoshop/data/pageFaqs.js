@@ -202,7 +202,7 @@ function getLocationFaqs(location) {
 
   if (isHome) {
     return [
-      {q:'Where is Scott\'s Auto & Clutch located?',a:'We\'re at 144 W Crystal Ave in South Salt Lake, UT 84115. We\'re right between I-15 and State Street, just south of 3300 South. The Central Pointe TRAX station is a 3-minute walk from our shop.'},
+      {q:'Where is Scott\'s Auto & Clutch located?',a:'We\'re at 144 W Crystal Ave in South Salt Lake, UT 84117. We\'re right between I-15 and State Street, just south of 3300 South. The Central Pointe TRAX station is a 3-minute walk from our shop.'},
       {q:'What are your hours?',a:'We\'re open Monday through Friday, 8:00 AM to 5:30 PM. Saturday appointments are available by request. Call (801) 485-4089 or text us to schedule.'},
       {q:'Do you offer free estimates?',a:'Yes. We provide free visual inspections and estimates for most services. For complex diagnostics requiring specialized equipment, we charge a diagnostic fee that is applied toward the repair cost if you proceed with us.'}
     ];
