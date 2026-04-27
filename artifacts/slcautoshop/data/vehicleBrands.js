@@ -1,4 +1,5 @@
 const LOGO_BASE = 'https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/';
+const LOCAL_LOGOS = new Set(['kia', 'chevrolet', 'buick', 'general-motors', 'fiat', 'land-rover', 'saturn']);
 
 const vehicleBrands = [
   { slug: "toyota-repair-salt-lake-city-ut", name: "Toyota", logoFile: "toyota", popular: true, models: ["Camry", "Corolla", "RAV4", "Tacoma", "Highlander", "4Runner", "Tundra", "Prius", "Sienna", "Avalon", "Sequoia", "Land Cruiser", "Venza", "C-HR", "Yaris", "86", "Supra", "Matrix", "Celica", "MR2", "FJ Cruiser", "Tercel", "Echo", "Paseo", "Previa"], heroImage: "/images/makes/modern_toyota_sedan_hero.webp", tagline: "Toyota is known for outstanding reliability, and Scott's Auto & Clutch helps you maintain that reputation with expert Toyota service." },
@@ -91,7 +92,9 @@ const brandMetaMap = {
 };
 
 vehicleBrands.forEach(brand => {
-  brand.logoUrl = LOGO_BASE + brand.logoFile + '.png';
+  brand.logoUrl = LOCAL_LOGOS.has(brand.logoFile)
+    ? '/images/logos/' + brand.logoFile + '.webp'
+    : LOGO_BASE + brand.logoFile + '.png';
   const bm = brandMetaMap[brand.slug];
   brand.metaTitle = bm ? bm.t : `${brand.name} Repair Salt Lake City | Scott's Auto & Clutch`;
   brand.metaDesc  = bm ? bm.d : `Expert ${brand.name} repair in Salt Lake City. Full service for all models. Call (801) 485-4089.`;
