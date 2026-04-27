@@ -6,6 +6,17 @@
   <title><%= typeof metaTitle !== 'undefined' ? metaTitle : site.name %></title>
   <meta name="description" content="<%= typeof metaDesc !== 'undefined' ? metaDesc : 'Expert auto repair in South Salt Lake, UT. Clutch repair, brake service, transmission work. Call (801) 485-4089.' %>">
   <link rel="canonical" href="<%= site.domain %><%= typeof canonical !== 'undefined' ? canonical : '' %>">
+  <link rel="icon" href="/assets/scotts-logo.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="<%= site.name %>">
+  <meta property="og:title" content="<%= typeof metaTitle !== 'undefined' ? metaTitle : site.name %>">
+  <meta property="og:description" content="<%= typeof metaDesc !== 'undefined' ? metaDesc : 'Expert auto repair in South Salt Lake, UT. Clutch, brakes, transmission, exhaust. Call (801) 485-4089.' %>">
+  <meta property="og:url" content="<%= site.domain %><%= typeof canonical !== 'undefined' ? canonical : '' %>">
+  <meta property="og:image" content="<%= site.domain %><%= typeof ogImage !== 'undefined' ? ogImage : site.heroImage %>">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<%= typeof metaTitle !== 'undefined' ? metaTitle : site.name %>">
+  <meta name="twitter:description" content="<%= typeof metaDesc !== 'undefined' ? metaDesc : 'Expert auto repair in South Salt Lake, UT. Clutch, brakes, transmission, exhaust. Call (801) 485-4089.' %>">
+  <meta name="twitter:image" content="<%= site.domain %><%= typeof ogImage !== 'undefined' ? ogImage : site.heroImage %>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">

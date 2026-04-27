@@ -41,6 +41,9 @@ app.use((req, res, next) => {
   next();
 });
 
+// Favicon
+app.get('/favicon.ico', (req, res) => res.redirect(301, '/assets/scotts-logo.svg'));
+
 // ============================
 // Trailing Slash Redirect (301 Permanent)
 // Ensures /path/ always redirects to /path to prevent duplicate content
@@ -181,7 +184,28 @@ app.get('/about', (req, res) => {
     activePage: 'about',
     metaTitle: "About Scott's Auto & Clutch | Our Story, Team, and Shop",
     metaDesc: "Meet the family behind our shop. 36+ years keeping Salt Lake Valley drivers on the road with straight answers, careful work, and no surprises at checkout.",
-    canonical: '/about'
+    canonical: '/about',
+    structuredData: [
+      {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About Scott's Auto and Clutch",
+        "url": site.domain + "/about",
+        "description": "Family-owned auto repair shop in South Salt Lake since 1990. Honest diagnosis, fair pricing, quality work for all makes and models.",
+        "mainEntity": {
+          "@type": "AutoRepair",
+          "@id": site.domain + "/#business",
+          "name": site.name,
+          "foundingYear": String(site.founded),
+          "telephone": site.phone,
+          "address": { "@type": "PostalAddress", "streetAddress": site.address, "addressLocality": site.city, "addressRegion": site.state, "postalCode": site.zip, "addressCountry": "US" }
+        }
+      },
+      { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+        { "@type": "ListItem", "position": 2, "name": "About", "item": site.domain + "/about" }
+      ]}
+    ]
   });
 });
 
@@ -191,7 +215,27 @@ app.get('/contact', (req, res) => {
     activePage: 'contact',
     metaTitle: "Contact Us | Scott's Auto & Clutch in South Salt Lake",
     metaDesc: "Call, text, or visit for a free estimate. Located at 144 W Crystal Ave, open Mon–Fri 8 to 5:30. Walk-ins welcome. Reach us at (801) 485-4089.",
-    canonical: '/contact'
+    canonical: '/contact',
+    structuredData: [
+      {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Scott's Auto and Clutch",
+        "url": site.domain + "/contact",
+        "mainEntity": {
+          "@type": "AutoRepair",
+          "@id": site.domain + "/#business",
+          "name": site.name,
+          "telephone": site.phone,
+          "openingHours": "Mo-Fr 08:00-17:30",
+          "address": { "@type": "PostalAddress", "streetAddress": site.address, "addressLocality": site.city, "addressRegion": site.state, "postalCode": site.zip, "addressCountry": "US" }
+        }
+      },
+      { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Contact", "item": site.domain + "/contact" }
+      ]}
+    ]
   });
 });
 
@@ -201,7 +245,22 @@ app.get('/services', (req, res) => {
     activePage: 'services',
     metaTitle: "Auto Repair Services Salt Lake City | Scott's Auto & Clutch",
     metaDesc: "Full-service mechanic work in South Salt Lake. From oil changes to clutch replacement, drivetrain, exhaust, cooling, and suspension. All makes, one shop.",
-    canonical: '/services'
+    canonical: '/services',
+    structuredData: [
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Auto Repair Services at Scott's Auto & Clutch",
+        "url": site.domain + "/services",
+        "itemListElement": services.map((s, i) => ({
+          "@type": "ListItem", "position": i + 1, "name": s.name, "url": site.domain + "/services/" + s.slug
+        }))
+      },
+      { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": site.domain + "/services" }
+      ]}
+    ]
   });
 });
 
@@ -279,7 +338,22 @@ app.get('/locations', (req, res) => {
     activePage: 'locations',
     metaTitle: "Service Areas | Auto Repair Across the Salt Lake Valley",
     metaDesc: "Serving 15+ Salt Lake Valley communities from our South Salt Lake shop. Find your neighborhood, get directions, or schedule a drop-off via TRAX.",
-    canonical: '/locations'
+    canonical: '/locations',
+    structuredData: [
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Service Areas — Scott's Auto & Clutch",
+        "url": site.domain + "/locations",
+        "itemListElement": locations.map((l, i) => ({
+          "@type": "ListItem", "position": i + 1, "name": l.name + ", UT", "url": site.domain + "/locations/" + l.slug
+        }))
+      },
+      { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": site.domain + "/locations" }
+      ]}
+    ]
   });
 });
 
@@ -321,7 +395,21 @@ app.get('/symptoms', (req, res) => {
     activePage: 'symptoms',
     metaTitle: "What's Wrong With My Car? | Symptom Guide by Scott's Auto",
     metaDesc: "Hear something unusual or see a warning light? Our symptom guide covers common car problems. Free diagnosis at our South Salt Lake shop.",
-    canonical: '/symptoms'
+    canonical: '/symptoms',
+    structuredData: [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Car Symptom Guide — What's Wrong With My Car?",
+        "url": site.domain + "/symptoms",
+        "description": "Symptom-based car problem guide. Find your symptom and learn what might be causing it. Free diagnosis at Scott's Auto & Clutch, South Salt Lake.",
+        "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
+      },
+      { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Symptom Guide", "item": site.domain + "/symptoms" }
+      ]}
+    ]
   });
 });
 
@@ -362,7 +450,21 @@ app.get('/vehicle-brands', (req, res) => {
     activePage: 'vehicles',
     metaTitle: "Car Brands We Repair | Domestic, Import, and Luxury",
     metaDesc: "We service every major vehicle brand — Toyota, Honda, BMW, Porsche, and more. Same careful work, regardless of badge. Call (801) 485-4089.",
-    canonical: '/vehicle-brands'
+    canonical: '/vehicle-brands',
+    structuredData: [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Vehicle Brands We Service — Scott's Auto & Clutch",
+        "url": site.domain + "/vehicle-brands",
+        "description": "All makes and models serviced at Scott's Auto & Clutch in South Salt Lake, UT — domestic, import, and luxury.",
+        "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
+      },
+      { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Vehicle Brands", "item": site.domain + "/vehicle-brands" }
+      ]}
+    ]
   });
 });
 
@@ -392,6 +494,13 @@ app.get('/privacy', (req, res) => {
     metaDesc: "Scott's Auto & Clutch privacy policy. We don't sell your data — contact info only, never shared with third parties. Questions? Call (801) 485-4089.",
     canonical: '/privacy',
     pageTitle: 'Privacy Policy',
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Privacy Policy — Scott's Auto and Clutch",
+      "url": site.domain + "/privacy",
+      "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
+    },
     content: `
       <p>Scott's Auto and Clutch ("we," "us," or "our") operates the slcautoshop.com website and provides automotive repair services at ${site.fullAddress}. This privacy policy explains what information we collect, how we use it, and how we protect it.</p>
 
@@ -427,6 +536,13 @@ app.get('/terms', (req, res) => {
     metaDesc: "Scott's Auto & Clutch service terms — warranty details, shop policies, and your rights as a customer. Questions? Call us at (801) 485-4089.",
     canonical: '/terms',
     pageTitle: 'Terms of Service',
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Terms of Service — Scott's Auto and Clutch",
+      "url": site.domain + "/terms",
+      "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
+    },
     content: `
       <p>These terms of service govern your use of the slcautoshop.com website and your relationship with Scott's Auto and Clutch, located at ${site.fullAddress}. By using this website or visiting our shop, you agree to the following terms.</p>
 
