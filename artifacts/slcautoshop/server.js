@@ -383,36 +383,72 @@ app.get('/vehicle-brands/:slug', (req, res) => {
 // Privacy & Terms
 app.get('/privacy', (req, res) => {
   res.render('legal', {
-    metaTitle: 'Privacy Policy — SLC Auto Shop',
-    metaDesc: "Privacy policy for Scott's Auto and Clutch website.",
+    metaTitle: "Privacy Policy | Scott's Auto and Clutch — South Salt Lake, UT",
+    metaDesc: "Privacy policy for Scott's Auto and Clutch. Learn how we collect, use, and protect your information when you contact us for auto repair service.",
     canonical: '/privacy',
     pageTitle: 'Privacy Policy',
     content: `
+      <p>Scott's Auto and Clutch ("we," "us," or "our") operates the slcautoshop.com website and provides automotive repair services at ${site.fullAddress}. This privacy policy explains what information we collect, how we use it, and how we protect it.</p>
+
       <h2>Information We Collect</h2>
-      <p>When you contact us by phone, text, or through our website, we may collect your name, phone number, email address, and vehicle information to provide you with a quote or service.</p>
+      <p>When you contact us by phone, text message, or through our website, we may collect personal information including your name, phone number, email address, and details about your vehicle such as the year, make, model, and mileage. This information is provided voluntarily when you request a quote, schedule a service appointment, or reach out with questions about your vehicle.</p>
+      <p>Our website may also automatically collect standard technical information such as your browser type, referring URL, and general geographic region. This data is used in aggregate form only and is not linked to any individual.</p>
+
       <h2>How We Use Your Information</h2>
-      <p>We use your information solely to provide automotive repair services, communicate with you about your vehicle, and improve our services. We do not sell or share your personal information with third parties.</p>
-      <h2>Contact</h2>
-      <p>If you have questions about this privacy policy, contact us at <a href="tel:+18014854089">(801) 485-4089</a> or visit us at ${site.fullAddress}.</p>
+      <p>We use the information you provide exclusively to deliver automotive repair and maintenance services. Specifically, we use your contact information to respond to service inquiries, schedule appointments, provide repair estimates, communicate updates about your vehicle while it is in our care, and follow up after service is complete.</p>
+      <p>We do not sell, rent, or share your personal information with third parties for marketing purposes. We do not use your information to send unsolicited messages unrelated to your vehicle service.</p>
+
+      <h2>Data Retention</h2>
+      <p>We retain customer information for as long as necessary to provide ongoing service and for legitimate business purposes such as warranty tracking and service history. You may request deletion of your information at any time by contacting us directly.</p>
+
+      <h2>Third-Party Services</h2>
+      <p>Our website may use standard analytics tools to understand how visitors use the site. These services may set cookies or collect anonymized usage data in accordance with their own privacy policies. We do not use advertising tracking or behavioral targeting on this site.</p>
+
+      <h2>Your Rights</h2>
+      <p>You have the right to request access to any personal information we hold about you, to request corrections, or to ask that we delete it. To exercise any of these rights, contact us using the information below.</p>
+
+      <h2>Contact Us</h2>
+      <p>If you have questions or concerns about this privacy policy or how we handle your information, please contact us:</p>
+      <p><strong>Scott's Auto and Clutch</strong><br>
+      ${site.fullAddress}<br>
+      Phone: <a href="tel:+18014854089">(801) 485-4089</a></p>
     `
   });
 });
 
 app.get('/terms', (req, res) => {
   res.render('legal', {
-    metaTitle: 'Terms of Service — SLC Auto Shop',
-    metaDesc: "Terms of service for Scott's Auto and Clutch website.",
+    metaTitle: "Terms of Service | Scott's Auto and Clutch — South Salt Lake, UT",
+    metaDesc: "Terms of service for Scott's Auto and Clutch auto repair shop in South Salt Lake, UT. Read our service policies, warranty information, and website terms.",
     canonical: '/terms',
     pageTitle: 'Terms of Service',
     content: `
-      <h2>Services</h2>
-      <p>Scott's Auto and Clutch provides automotive repair and maintenance services. All estimates are provided before work begins. Final charges may vary if additional issues are discovered during repair, but we will always contact you for approval before proceeding.</p>
-      <h2>Warranty</h2>
-      <p>We stand behind our work. Specific warranty terms vary by service and are provided at the time of repair.</p>
+      <p>These terms of service govern your use of the slcautoshop.com website and your relationship with Scott's Auto and Clutch, located at ${site.fullAddress}. By using this website or visiting our shop, you agree to the following terms.</p>
+
+      <h2>Repair &amp; Maintenance Services</h2>
+      <p>Scott's Auto and Clutch provides automotive repair and maintenance services for passenger vehicles, trucks, and SUVs. We service most domestic and foreign vehicle brands. All repair work begins only after a written or verbal estimate is provided and approved by the vehicle owner.</p>
+      <p>Final charges may occasionally differ from an initial estimate if additional problems are discovered during the course of a repair. In those situations, we will always contact you before proceeding with any additional work. We will not perform unapproved repairs.</p>
+
+      <h2>Appointments &amp; Vehicle Drop-Off</h2>
+      <p>Appointments are preferred and help us plan diagnostic time for your vehicle. Walk-ins are welcome based on availability. When you drop off your vehicle, please ensure you have removed any personal valuables. Scott's Auto and Clutch is not responsible for personal items left in the vehicle during service.</p>
+
+      <h2>Estimates</h2>
+      <p>Estimates are provided based on the described symptoms and a visual inspection of the vehicle. Diagnostic fees may apply for complex or intermittent problems that require extended testing. Any diagnostic fees will be disclosed before diagnostic work begins.</p>
+
+      <h2>Warranty on Work Performed</h2>
+      <p>We stand behind the quality of our repairs. Warranty terms vary by service type and the parts used, and specific warranty information will be provided at the time your vehicle is returned. Warranty coverage applies to defects in workmanship and parts supplied by our shop under normal operating conditions.</p>
+
+      <h2>Website Use</h2>
+      <p>The information on slcautoshop.com is provided for general informational purposes about our business and services. While we make every effort to keep information current and accurate, we make no warranties regarding the completeness or accuracy of content on this site. Information about specific services, pricing, or availability is subject to change.</p>
+
       <h2>Limitation of Liability</h2>
-      <p>This website is provided for informational purposes. While we strive to keep information accurate, we make no warranties about the completeness or accuracy of information on this site.</p>
+      <p>To the extent permitted by law, Scott's Auto and Clutch shall not be liable for any indirect, incidental, or consequential damages arising from the use of this website or any reliance on the information provided herein.</p>
+
       <h2>Contact</h2>
-      <p>Questions about these terms? Contact us at <a href="tel:+18014854089">(801) 485-4089</a>.</p>
+      <p>Questions about these terms or our service policies? We're happy to answer. Reach us at:</p>
+      <p><strong>Scott's Auto and Clutch</strong><br>
+      ${site.fullAddress}<br>
+      Phone: <a href="tel:+18014854089">(801) 485-4089</a></p>
     `
   });
 });

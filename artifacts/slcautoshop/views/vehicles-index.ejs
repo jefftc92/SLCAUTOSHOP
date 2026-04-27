@@ -16,6 +16,8 @@
 
 <section class="content-section">
   <div class="container">
+    <p style="max-width:760px;margin-bottom:2rem;color:var(--c-text-muted)">Scott's Auto and Clutch in South Salt Lake services nearly every major vehicle brand sold in the United States. Whether you drive a domestic truck, a Japanese sedan, a European luxury car, or an older make no longer in production, our technicians have the experience and equipment to diagnose and repair it. Select your vehicle brand below to learn more about the specific makes we work on.</p>
+
     <h2>Popular Brands</h2>
     <div class="brands-grid">
       <% allVehicleBrands.filter(v => v.popular).forEach(v => { %>
@@ -34,6 +36,12 @@
         <h3><%= v.name %></h3>
       </a>
       <% }) %>
+    </div>
+
+    <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--c-border)">
+      <h2>One Shop for Any Brand</h2>
+      <p style="max-width:760px;color:var(--c-text-muted)">Many shops specialize in only one or two brands, which means you end up at a dealership for anything outside that narrow range. Scott's Auto and Clutch is different. We work on clutches, brakes, drivetrain components, exhaust systems, suspension, and general mechanical repairs across all the makes listed above — domestic or import, modern or classic.</p>
+      <p style="max-width:760px;color:var(--c-text-muted)">Our shop is located at 144 W Crystal Ave, South Salt Lake, UT 84115, just minutes from Salt Lake City, Murray, Millcreek, and the surrounding area. Call us at <a href="tel:+18014854089">(801) 485-4089</a> or text us to schedule a time to bring your vehicle in. Not sure if we can help with your specific situation? Give us a call — we're happy to talk through it before you make the trip.</p>
     </div>
   </div>
 </section>
