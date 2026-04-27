@@ -423,7 +423,7 @@ app.get('/privacy', (req, res) => {
 
 app.get('/terms', (req, res) => {
   res.render('legal', {
-    metaTitle: "Terms of Service | Scott's Auto & Clutch — Salt Lake City",
+    metaTitle: "Terms of Service | Scott's Auto & Clutch",
     metaDesc: "Scott's Auto & Clutch service terms — warranty details, shop policies, and your rights as a customer. Questions? Call us at (801) 485-4089.",
     canonical: '/terms',
     pageTitle: 'Terms of Service',
