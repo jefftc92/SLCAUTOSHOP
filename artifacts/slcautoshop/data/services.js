@@ -143,7 +143,7 @@ const services = [
     heroImage: "/assets/timing-chain-400-DglkDYua.webp",
     metaTitle: "Timing Chain Repair Salt Lake City | Scott's Auto",
     heading: "Timing Chain Replacement in South Salt Lake, UT",
-    metaDesc: "A startup rattle is cheap to fix and costly to ignore. Timing chain diagnosis and replacement for domestic, Japanese, and European engines. (801) 485-4089.",
+    metaDesc: "A startup rattle is cheap to fix and costly to ignore. Timing chain diagnosis and replacement for all engine types. (801) 485-4089.",
     intro: "A failing timing chain can cause catastrophic engine damage if not addressed promptly. Scott's Auto & Clutch provides expert timing chain diagnosis and replacement for all makes and models. If you hear rattling on startup or have timing-related fault codes, don't wait—early diagnosis is far less expensive than the alternative.",
     specializedServices: ["Timing Chain Replacement", "Tensioner Replacement", "Guide Replacement", "Timing Cover Gasket", "Oil Pump Chain Service"],
     whyUs: [
@@ -178,7 +178,7 @@ const services = [
     heroImage: "/assets/water-pump-400-D_c-HhIr.webp",
     metaTitle: "Water Pump Replacement Salt Lake City | Scott's Auto",
     heading: "Water Pump Replacement in South Salt Lake, UT",
-    metaDesc: "Coolant puddle or rising temperature gauge? Water pump and full cooling-system inspection to fix the real cause, not just the symptom. (801) 485-4089.",
+    metaDesc: "Coolant puddle or rising temp gauge? Water pump and cooling-system inspection to fix the real cause, not just the symptom. (801) 485-4089.",
     intro: "A failing water pump can lead to engine overheating and serious damage in a very short time. Scott's Auto & Clutch provides water pump diagnosis and replacement for all makes and models, along with complete cooling system inspection to make sure the underlying issue is fully resolved.",
     specializedServices: ["Water Pump Replacement", "Coolant Flush", "Thermostat Replacement", "Cooling System Pressure Test", "Radiator Hose Replacement"],
     whyUs: [
@@ -351,7 +351,7 @@ const services = [
     heroImage: "/assets/welding-400-ClOrwKIX.webp",
     metaTitle: "Automotive Welding Salt Lake City | Scott's Auto",
     heading: "Automotive Welding Services in South Salt Lake, UT",
-    metaDesc: "Exhaust, frame, and suspension welding in-house. Faster turnaround than outsourcing, often cheaper than replacing the whole component. (801) 485-4089.",
+    metaDesc: "Exhaust, frame, and suspension welding in-house. Faster turnaround, often cheaper than replacing the whole component. (801) 485-4089.",
     intro: "Scott's Auto & Clutch offers expert automotive welding services for exhaust systems, frames, and suspension components. Our in-house welding capability often means we can repair a component instead of replacing it entirely—saving you money and time.",
     specializedServices: ["Exhaust Welding", "Frame Welding", "Suspension Welding", "Custom Fabrication", "Bracket Repair"],
     whyUs: [
