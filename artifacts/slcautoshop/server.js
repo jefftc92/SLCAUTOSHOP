@@ -93,7 +93,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.render('home', {
     activePage: 'home',
-    metaTitle: "Auto Repair Salt Lake City | Scott's Auto & Clutch Since 1990",
+    metaTitle: "Auto Repair Salt Lake City | Scott's Auto & Clutch",
     metaDesc: "Family-owned auto repair shop in South Salt Lake. Brakes, clutch, transmission, engine work, and full service for every make and model. Free estimates. (801) 485-4089.",
     canonical: '/',
     structuredData: {
