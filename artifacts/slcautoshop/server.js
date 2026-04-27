@@ -628,72 +628,6 @@ app.get('/robots.txt', (req, res) => {
   res.send(`User-agent: *\nAllow: /\nSitemap: ${site.domain}/sitemap.xml`);
 });
 
-// ── IndexNow ─────────────────────────────────────────────────────────────────
-
-// Serve key verification file at /{key}.txt
-app.get('/:keyfile', (req, res, next) => {
-  const key = process.env.INDEXNOW_KEY;
-  if (key && req.params.keyfile === key + '.txt') {
-    return res.type('text/plain').send(key);
-  }
-  next();
-});
-
-function buildIndexNowUrls() {
-  const base = site.domain;
-  const urls = [
-    base + '/',
-    base + '/about',
-    base + '/contact',
-    base + '/services',
-    base + '/locations',
-    base + '/symptoms',
-    base + '/vehicle-brands',
-    base + '/privacy',
-    base + '/terms',
-  ];
-  services.forEach(s => urls.push(base + '/services/' + s.slug));
-  locations.forEach(l => urls.push(base + '/locations/' + l.slug));
-  symptoms.forEach(s => urls.push(base + '/symptoms/' + s.slug));
-  vehicleBrands.forEach(b => urls.push(base + '/vehicle-brands/' + b.slug));
-  geoPages.forEach(g => urls.push(base + '/services/' + g.slug));
-  return urls;
-}
-
-async function submitIndexNow() {
-  const key = process.env.INDEXNOW_KEY;
-  if (!key) { console.log('[IndexNow] INDEXNOW_KEY not set — skipping'); return null; }
-  const urlList = buildIndexNowUrls();
-  const body = {
-    host: 'slcautoshop.com',
-    key,
-    keyLocation: `https://slcautoshop.com/${key}.txt`,
-    urlList
-  };
-  try {
-    const res = await fetch('https://api.bing.com/v9/indexnow', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json; charset=utf-8' },
-      body: JSON.stringify(body)
-    });
-    console.log(`[IndexNow] Bing responded ${res.status} for ${urlList.length} URLs`);
-    return { status: res.status, urlCount: urlList.length };
-  } catch (err) {
-    console.error('[IndexNow] Submission failed:', err.message);
-    return { error: err.message };
-  }
-}
-
-// Admin trigger: GET /admin/indexnow?key={INDEXNOW_KEY}
-app.get('/admin/indexnow', async (req, res) => {
-  const key = process.env.INDEXNOW_KEY;
-  if (!key || req.query.key !== key) {
-    return res.status(401).json({ error: 'Unauthorized — pass ?key=YOUR_INDEXNOW_KEY' });
-  }
-  const result = await submitIndexNow();
-  res.json(result);
-});
-
 // ── 404 catch-all ────────────────────────────────────────────────────────────
 app.use((req, res) => {
   res.status(404).render('404', { metaTitle: 'Page Not Found' });
@@ -702,6 +636,4 @@ app.use((req, res) => {
 // Start
 app.listen(PORT, () => {
   console.log(`SLC Auto Shop running at http://localhost:${PORT}`);
-  // Submit all URLs to Bing IndexNow on startup
-  submitIndexNow();
 });
