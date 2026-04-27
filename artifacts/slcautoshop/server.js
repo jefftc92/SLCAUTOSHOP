@@ -42,6 +42,20 @@ app.use((req, res, next) => {
 });
 
 // ============================
+// Trailing Slash Redirect (301 Permanent)
+// Ensures /path/ always redirects to /path to prevent duplicate content
+// ============================
+
+app.use((req, res, next) => {
+  if (req.path.length > 1 && req.path.endsWith('/')) {
+    const clean = req.path.slice(0, -1);
+    const q = req.url.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
+    return res.redirect(301, clean + q);
+  }
+  next();
+});
+
+// ============================
 // Legacy URL Redirects (301 Permanent)
 // Handles old React-site URL patterns that Google may have indexed
 // ============================
