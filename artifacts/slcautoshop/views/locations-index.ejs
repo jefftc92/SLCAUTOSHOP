@@ -19,7 +19,7 @@
     <div class="locations-grid">
       <% allLocations.forEach(l => { %>
       <a href="/locations/<%= l.slug %>" class="location-card">
-        <h3><%= l.name %>, UT</h3>
+        <h2><%= l.name %>, UT</h2>
         <p><%= l.isHome ? 'Our Location' : l.distance + ' (' + l.driveTime + ' drive)' %></p>
         <span class="card-link">View Details</span>
       </a>
