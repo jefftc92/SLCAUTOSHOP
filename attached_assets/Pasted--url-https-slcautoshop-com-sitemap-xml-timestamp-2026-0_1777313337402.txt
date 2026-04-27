@@ -1,0 +1,347 @@
+{
+  "url": "https://slcautoshop.com/sitemap.xml",
+  "timestamp": "2026-04-27T18:06:17.214Z",
+  "duration": 11050,
+  "summary": {
+    "errors": 0,
+    "warnings": 5,
+    "info": 17,
+    "passed": 2
+  },
+  "modules": [
+    {
+      "module": "robots",
+      "findings": []
+    },
+    {
+      "module": "redirects",
+      "findings": [
+        {
+          "code": "HTTP_TO_HTTPS_REDIRECT",
+          "severity": "pass",
+          "category": "redirect",
+          "message": "HTTP correctly redirects to HTTPS",
+          "explanation": "HTTP to HTTPS redirects ensure users always reach the secure version of your site.",
+          "suggestion": "No action needed.",
+          "url": "http://slcautoshop.com/sitemap.xml"
+        },
+        {
+          "code": "TRAILING_SLASH_REDIRECT",
+          "severity": "info",
+          "category": "redirect",
+          "message": "Trailing slash addition causes 301 redirect",
+          "explanation": "Inconsistent trailing slash handling can create duplicate content issues for search engines.",
+          "suggestion": "Ensure consistent trailing slash behavior across your site. In Next.js, use the trailingSlash config option.",
+          "details": {
+            "testedUrl": "https://slcautoshop.com/sitemap.xml/",
+            "status": 301
+          },
+          "url": "https://slcautoshop.com/sitemap.xml/"
+        }
+      ]
+    },
+    {
+      "module": "sitemap",
+      "findings": [
+        {
+          "code": "SITEMAP_MISSING",
+          "severity": "pass",
+          "category": "sitemap",
+          "message": "Sitemap found with 123 URLs (10 sampled, all OK)",
+          "explanation": "Your sitemap is valid and URLs are accessible.",
+          "suggestion": "No action needed.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        }
+      ]
+    },
+    {
+      "module": "metadata",
+      "findings": [
+        {
+          "code": "CANONICAL_MISSING",
+          "severity": "warning",
+          "category": "metadata",
+          "message": "No canonical URL found on homepage",
+          "explanation": "Without a canonical tag, search engines may index duplicate versions of your page.",
+          "suggestion": "Add a <link rel=\"canonical\"> tag pointing to the preferred URL of this page.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        },
+        {
+          "code": "CHARSET_MISSING",
+          "severity": "info",
+          "category": "metadata",
+          "message": "No charset declaration found",
+          "explanation": "Without a charset declaration, browsers may misinterpret special characters on your page.",
+          "suggestion": "Add <meta charset=\"utf-8\"> to the <head> of your document.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        },
+        {
+          "code": "VIEWPORT_MISSING",
+          "severity": "warning",
+          "category": "metadata",
+          "message": "No viewport meta tag found",
+          "explanation": "Without a viewport tag, mobile devices may render the page at desktop width, harming mobile SEO.",
+          "suggestion": "Add <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        },
+        {
+          "code": "TITLE_MISSING",
+          "severity": "warning",
+          "category": "metadata",
+          "message": "No <title> tag found",
+          "explanation": "The title tag is one of the most important on-page SEO elements. Missing titles hurt rankings.",
+          "suggestion": "Add a unique, descriptive <title> tag to your page.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        },
+        {
+          "code": "DESCRIPTION_MISSING",
+          "severity": "info",
+          "category": "metadata",
+          "message": "No meta description found",
+          "explanation": "Meta descriptions appear in search results and can improve click-through rates.",
+          "suggestion": "Add a <meta name=\"description\"> tag with a compelling summary of your page.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        },
+        {
+          "code": "OG_TITLE_MISSING",
+          "severity": "info",
+          "category": "metadata",
+          "message": "No og:title meta tag found",
+          "explanation": "Open Graph tags control how your page appears when shared on social media platforms.",
+          "suggestion": "Add <meta property=\"og:title\"> for better social sharing previews.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        },
+        {
+          "code": "OG_DESCRIPTION_MISSING",
+          "severity": "info",
+          "category": "metadata",
+          "message": "No og:description meta tag found",
+          "explanation": "og:description controls the description shown in social media previews.",
+          "suggestion": "Add <meta property=\"og:description\"> for better social sharing.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        },
+        {
+          "code": "OG_IMAGE_MISSING",
+          "severity": "info",
+          "category": "metadata",
+          "message": "No og:image meta tag found",
+          "explanation": "Social media platforms display a default placeholder when no og:image is set.",
+          "suggestion": "Add <meta property=\"og:image\"> with a representative image URL.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        },
+        {
+          "code": "TWITTER_CARD_MISSING",
+          "severity": "info",
+          "category": "metadata",
+          "message": "No twitter:card meta tag found",
+          "explanation": "Without a twitter:card tag, Twitter/X may not display rich previews when your page is shared.",
+          "suggestion": "Add <meta name=\"twitter:card\" content=\"summary_large_image\"> for rich previews.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        },
+        {
+          "code": "TWITTER_IMAGE_MISSING",
+          "severity": "info",
+          "category": "metadata",
+          "message": "No twitter:image meta tag found",
+          "explanation": "Without a twitter:image, Twitter/X falls back to og:image or shows no preview image.",
+          "suggestion": "Add <meta name=\"twitter:image\"> with a URL to your preview image (recommended: 1200x628px).",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        }
+      ]
+    },
+    {
+      "module": "favicon",
+      "findings": [
+        {
+          "code": "FAVICON_MISSING",
+          "severity": "warning",
+          "category": "favicon",
+          "message": "No favicon found",
+          "explanation": "A missing favicon causes 404 errors in server logs and looks unprofessional in browser tabs and bookmarks.",
+          "suggestion": "Add a favicon.ico at the root of your site or declare one via <link rel=\"icon\"> in your HTML.",
+          "url": "https://slcautoshop.com/favicon.ico"
+        }
+      ]
+    },
+    {
+      "module": "nextjs",
+      "findings": []
+    },
+    {
+      "module": "structuredData",
+      "findings": [
+        {
+          "code": "JSONLD_MISSING",
+          "severity": "warning",
+          "category": "structured-data",
+          "message": "No JSON-LD structured data found",
+          "explanation": "Structured data helps search engines understand your content and can enable rich results (FAQ snippets, breadcrumbs, product cards).",
+          "suggestion": "Add a <script type=\"application/ld+json\"> block with schema.org markup relevant to your page content.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        }
+      ]
+    },
+    {
+      "module": "i18n",
+      "findings": [
+        {
+          "code": "HREFLANG_MISSING",
+          "severity": "info",
+          "category": "i18n",
+          "message": "No hreflang tags found",
+          "explanation": "Hreflang tags tell search engines which language/region a page targets. If your site is single-language, this is expected.",
+          "suggestion": "If your site has multiple language versions, add <link rel=\"alternate\" hreflang=\"...\"> tags.",
+          "url": "https://slcautoshop.com/sitemap.xml"
+        }
+      ]
+    },
+    {
+      "module": "images",
+      "findings": []
+    },
+    {
+      "module": "security",
+      "findings": []
+    },
+    {
+      "module": "performance",
+      "findings": []
+    },
+    {
+      "module": "crawl",
+      "findings": [
+        {
+          "code": "CRAWL_PAGE_JSONLD_MISSING",
+          "severity": "info",
+          "category": "crawl",
+          "message": "Page has no structured data: https://slcautoshop.com/about",
+          "explanation": "Structured data helps search engines understand page content and can enable rich results.",
+          "suggestion": "Add JSON-LD structured data relevant to the page content.",
+          "url": "https://slcautoshop.com/about"
+        },
+        {
+          "code": "CRAWL_PAGE_JSONLD_MISSING",
+          "severity": "info",
+          "category": "crawl",
+          "message": "Page has no structured data: https://slcautoshop.com/contact",
+          "explanation": "Structured data helps search engines understand page content and can enable rich results.",
+          "suggestion": "Add JSON-LD structured data relevant to the page content.",
+          "url": "https://slcautoshop.com/contact"
+        },
+        {
+          "code": "CRAWL_PAGE_JSONLD_MISSING",
+          "severity": "info",
+          "category": "crawl",
+          "message": "Page has no structured data: https://slcautoshop.com/services",
+          "explanation": "Structured data helps search engines understand page content and can enable rich results.",
+          "suggestion": "Add JSON-LD structured data relevant to the page content.",
+          "url": "https://slcautoshop.com/services"
+        },
+        {
+          "code": "CRAWL_PAGE_JSONLD_MISSING",
+          "severity": "info",
+          "category": "crawl",
+          "message": "Page has no structured data: https://slcautoshop.com/locations",
+          "explanation": "Structured data helps search engines understand page content and can enable rich results.",
+          "suggestion": "Add JSON-LD structured data relevant to the page content.",
+          "url": "https://slcautoshop.com/locations"
+        },
+        {
+          "code": "CRAWL_PAGE_JSONLD_MISSING",
+          "severity": "info",
+          "category": "crawl",
+          "message": "Page has no structured data: https://slcautoshop.com/symptoms",
+          "explanation": "Structured data helps search engines understand page content and can enable rich results.",
+          "suggestion": "Add JSON-LD structured data relevant to the page content.",
+          "url": "https://slcautoshop.com/symptoms"
+        },
+        {
+          "code": "CRAWL_PAGE_JSONLD_MISSING",
+          "severity": "info",
+          "category": "crawl",
+          "message": "Page has no structured data: https://slcautoshop.com/vehicle-brands",
+          "explanation": "Structured data helps search engines understand page content and can enable rich results.",
+          "suggestion": "Add JSON-LD structured data relevant to the page content.",
+          "url": "https://slcautoshop.com/vehicle-brands"
+        },
+        {
+          "code": "CRAWL_PAGE_JSONLD_MISSING",
+          "severity": "info",
+          "category": "crawl",
+          "message": "Page has no structured data: https://slcautoshop.com/privacy",
+          "explanation": "Structured data helps search engines understand page content and can enable rich results.",
+          "suggestion": "Add JSON-LD structured data relevant to the page content.",
+          "url": "https://slcautoshop.com/privacy"
+        },
+        {
+          "code": "CRAWL_PAGE_JSONLD_MISSING",
+          "severity": "info",
+          "category": "crawl",
+          "message": "Page has no structured data: https://slcautoshop.com/terms",
+          "explanation": "Structured data helps search engines understand page content and can enable rich results.",
+          "suggestion": "Add JSON-LD structured data relevant to the page content.",
+          "url": "https://slcautoshop.com/terms"
+        }
+      ]
+    }
+  ]
+}
+
+[8]
+0s
+!cat package.json
+{
+  "name": "vercel-seo-audit",
+  "version": "2.5.0",
+  "description": "CLI tool that diagnoses SEO and indexing issues for Next.js/Vercel websites",
+  "type": "module",
+  "bin": {
+    "vercel-seo-audit": "./bin/vercel-seo-audit.js"
+  },
+  "main": "./dist/cli.js",
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node bin/vercel-seo-audit.js",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "seo",
+    "audit",
+    "vercel",
+    "nextjs",
+    "cli"
+  ],
+  "author": "JosephDoUrden",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephDoUrden/vercel-seo-audit.git"
+  },
+  "homepage": "https://github.com/JosephDoUrden/vercel-seo-audit#readme",
+  "bugs": {
+    "url": "https://github.com/JosephDoUrden/vercel-seo-audit/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0",
+    "commander": "^14.0.3",
+    "fast-xml-parser": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "@vitest/coverage-v8": "^4.0.18",
+    "typescript": "^5.3.0",
+    "vitest": "^4.0.18"
+  }
+}
