@@ -388,7 +388,7 @@ app.get('/vehicle-brands/:slug', (req, res) => {
 // Privacy & Terms
 app.get('/privacy', (req, res) => {
   res.render('legal', {
-    metaTitle: "Privacy Policy | Scott's Auto and Clutch — South Salt Lake, UT",
+    metaTitle: "Privacy Policy | Scott's Auto & Clutch — Salt Lake City",
     metaDesc: "Scott's Auto & Clutch privacy policy. We don't sell your data — contact info only, never shared with third parties. Questions? Call (801) 485-4089.",
     canonical: '/privacy',
     pageTitle: 'Privacy Policy',
@@ -423,7 +423,7 @@ app.get('/privacy', (req, res) => {
 
 app.get('/terms', (req, res) => {
   res.render('legal', {
-    metaTitle: "Terms of Service | Scott's Auto and Clutch — South Salt Lake, UT",
+    metaTitle: "Terms of Service | Scott's Auto & Clutch — Salt Lake City",
     metaDesc: "Scott's Auto & Clutch service terms — warranty details, shop policies, and your rights as a customer. Questions? Call us at (801) 485-4089.",
     canonical: '/terms',
     pageTitle: 'Terms of Service',
