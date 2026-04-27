@@ -18,7 +18,7 @@
 <% if (relatedService) { %>
 <section class="content-section">
   <div class="container">
-    <h2>Recommended Service</h2>
+    <h2>What's Causing Your <%= symptom.shortName %>?</h2>
     <div class="recommended-service-block">
       <p><%= symptom.serviceBlurb %> <a href="/services/<%= relatedService.slug %>">Learn more about our <%= relatedService.fullName %> service.</a></p>
       <div style="margin-top:1.25rem;display:flex;gap:.75rem;flex-wrap:wrap">
@@ -32,7 +32,7 @@
 
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>Our Diagnosis Process</h2>
+    <h2>How We Diagnose <%= symptom.shortName %></h2>
     <p class="section-subtitle">From diagnosis to repair, we keep you informed every step of the way.</p>
     <div class="process-steps-compact">
       <% [
@@ -74,7 +74,7 @@
 
 <section class="content-section">
   <div class="container">
-    <h2>Other Symptoms We Diagnose</h2>
+    <h2>Other Symptoms We Diagnose — Not Just <%= symptom.shortName %></h2>
     <p class="section-subtitle">Not sure if this is your issue? Browse other common problems we fix.</p>
     <div class="symptom-other-grid">
       <% allSymptoms.filter(s => s.slug !== symptom.slug).slice(0, 9).forEach(sy => { %>
@@ -90,6 +90,5 @@
   </div>
 </section>
 
-<% var ctaTitle = "Experiencing " + symptom.shortName + "?"; var ctaDesc = "Contact Scott's Auto and Clutch today for a free diagnosis. We'll get your vehicle running right."; %>
 <%- include('partials/cta') %>
 <%- include('partials/footer') %>

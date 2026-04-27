@@ -339,6 +339,8 @@ app.get('/symptoms/:slug', (req, res) => {
     relatedService,
     pageFaqs: sFaqs,
     faqTitle: 'Frequently Asked Questions — ' + symptom.name,
+    ctaTitle: 'Experiencing ' + symptom.shortName + '?',
+    ctaDesc: "Contact Scott's Auto and Clutch today for a free diagnosis. We'll get your vehicle running right.",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
