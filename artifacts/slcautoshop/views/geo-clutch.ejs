@@ -39,6 +39,21 @@
 
 <section class="content-section">
   <div class="container">
+    <h2>Getting Here from <%= geo.locationName %></h2>
+    <div class="prose" style="max-width:720px">
+      <p><%= geo.directions %></p>
+      <p>Our address is <strong>144 W Crystal Ave, South Salt Lake, UT 84117</strong>. We open at 8 AM Monday through Friday. Many <%= geo.locationName %> customers drop off in the morning and pick up the same day — call ahead and we'll tell you whether your job qualifies.</p>
+    </div>
+    <div class="visit-grid" style="margin-top:1.5rem">
+      <div class="visit-detail"><h3>Address</h3><p>144 W Crystal Ave<br>South Salt Lake, UT 84117</p></div>
+      <div class="visit-detail"><h3>Phone</h3><p><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></p></div>
+      <div class="visit-detail"><h3>From <%= geo.locationName %></h3><p><%= geo.distance %> · <%= geo.driveTime %> drive</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
     <h2>What Our Clutch Repair Covers</h2>
     <ul class="checklist">
       <% clutchService.coverageList.forEach(item => { %>
@@ -81,10 +96,10 @@
   <div class="container">
     <h2>Related Services</h2>
     <div class="services-grid small">
-      <% services.filter(s => ['cv-joint-repair-south-salt-lake-ut','brake-service-south-salt-lake-ut','timing-chain-repair-south-salt-lake-ut'].includes(s.slug)).forEach(s => { %>
+      <% services.filter(s => ['cv-joint-repair-near-south-salt-lake-ut','brake-service-near-south-salt-lake-ut','timing-chain-repair-near-south-salt-lake-ut'].includes(s.slug)).forEach(s => { %>
       <a href="/services/<%= s.slug %>" class="service-card">
         <h3><%= s.name %></h3>
-        <p><%= s.shortDesc %></p>
+        <span class="card-p"><%= s.shortDesc %></span>
         <span class="card-link">View service</span>
       </a>
       <% }) %>

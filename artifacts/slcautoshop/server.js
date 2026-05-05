@@ -88,6 +88,14 @@ app.use((req, res, next) => {
     return res.redirect(301, '/locations/' + locationNearMatch[1]);
   }
 
+  // Old React site /makes/:make pattern → /vehicle-brands/:make-repair-salt-lake-city-ut
+  const makesMatch = p.match(/^\/makes\/([^/]+)$/);
+  if (makesMatch) {
+    const slug = makesMatch[1].toLowerCase() + '-repair-salt-lake-city-ut';
+    const brand = vehicleBrands.find(b => b.slug === slug);
+    return res.redirect(301, brand ? '/vehicle-brands/' + slug : '/vehicle-brands');
+  }
+
   next();
 });
 
