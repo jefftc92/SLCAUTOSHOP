@@ -662,28 +662,86 @@ app.get('/terms', (req, res) => {
 // Sitemap.xml
 app.get('/sitemap.xml', (req, res) => {
   res.set('Content-Type', 'application/xml');
+
+  // Dynamic date — reflects the current content state to signal freshness to crawlers.
+  const today = new Date().toISOString().split('T')[0];
+
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
-  const addUrl = (path, priority = '0.8', freq = 'monthly', lastmod = '2025-01-01') => {
+  const addUrl = (path, priority = '0.8', freq = 'monthly', lastmod = today) => {
     xml += `  <url><loc>${site.domain}${path}</loc><lastmod>${lastmod}</lastmod><changefreq>${freq}</changefreq><priority>${priority}</priority></url>\n`;
   };
 
-  addUrl('/', '1.0', 'weekly', '2025-04-01');
-  addUrl('/about', '0.7', 'monthly', '2025-01-01');
-  addUrl('/contact', '0.8', 'monthly', '2025-01-01');
-  addUrl('/services', '0.9', 'weekly', '2025-03-01');
-  addUrl('/locations', '0.9', 'weekly', '2025-03-01');
-  addUrl('/symptoms', '0.9', 'weekly', '2025-04-01');
-  addUrl('/vehicle-brands', '0.9', 'weekly', '2025-02-01');
+  // Core pages
+  addUrl('/', '1.0', 'weekly');
+  addUrl('/about', '0.7', 'monthly');
+  addUrl('/contact', '0.8', 'monthly');
+  addUrl('/services', '0.9', 'weekly');
+  addUrl('/locations', '0.9', 'weekly');
+  addUrl('/symptoms', '0.9', 'weekly');
+  addUrl('/vehicle-brands', '0.8', 'weekly');
 
-  services.forEach(s => addUrl('/services/' + s.slug, '0.8', 'monthly', '2025-03-01'));
-  geoPages.forEach(g => addUrl('/services/' + g.slug, '0.8', 'monthly', '2025-04-01'));
-  locations.forEach(l => addUrl('/locations/' + l.slug, '0.9', 'monthly', '2025-03-01'));
-  symptoms.forEach(s => addUrl('/symptoms/' + s.slug, '0.8', 'monthly', '2025-04-01'));
-  vehicleBrands.forEach(v => addUrl('/vehicle-brands/' + v.slug, '0.7', 'monthly', '2025-02-01'));
+  // Main service pages
+  services.forEach(s => addUrl('/services/' + s.slug, '0.8', 'monthly'));
 
-  addUrl('/privacy', '0.3', 'yearly', '2025-01-01');
-  addUrl('/terms', '0.3', 'yearly', '2025-01-01');
+  // Geo clutch pages — unique city content, high local intent
+  geoPages.forEach(g => addUrl('/services/' + g.slug, '0.8', 'monthly'));
+
+  // Location pages — strong local signals, well-differentiated content
+  locations.forEach(l => addUrl('/locations/' + l.slug, '0.9', 'monthly'));
+
+  // Symptom pages
+  symptoms.forEach(s => addUrl('/symptoms/' + s.slug, '0.8', 'monthly'));
+
+  // Vehicle brand pages — exclude defunct/no-US-market brands to protect crawl budget.
+  // These brands have been discontinued or exited the US market and generate no real search demand.
+  const defunctBrands = new Set([
+    'pontiac-repair-salt-lake-city-ut',   // discontinued 2010
+    'saturn-repair-salt-lake-city-ut',    // discontinued 2010
+    'mercury-repair-salt-lake-city-ut',   // discontinued 2011
+    'saab-repair-salt-lake-city-ut',      // bankrupt 2011
+    'hummer-repair-salt-lake-city-ut',    // discontinued 2010
+    'scion-repair-salt-lake-city-ut',     // discontinued 2016
+    'plymouth-repair-salt-lake-city-ut',  // discontinued 2001
+    'suzuki-repair-salt-lake-city-ut',    // exited US market 2012
+    'isuzu-repair-salt-lake-city-ut',     // exited US consumer market 2009
+    'fiat-repair-salt-lake-city-ut',      // effectively exited US market
+    'smart-repair-salt-lake-city-ut',     // exited US market 2019
+    'gm-repair-salt-lake-city-ut',        // manufacturer umbrella, not a consumer brand
+  ]);
+
+  // High-volume active brands at 0.8; lower-volume active brands at 0.6
+  const highVolumeBrands = new Set([
+    'toyota-repair-salt-lake-city-ut',
+    'honda-repair-salt-lake-city-ut',
+    'ford-repair-salt-lake-city-ut',
+    'chevrolet-repair-salt-lake-city-ut',
+    'nissan-repair-salt-lake-city-ut',
+    'subaru-repair-salt-lake-city-ut',
+    'mazda-repair-salt-lake-city-ut',
+    'hyundai-repair-salt-lake-city-ut',
+    'kia-repair-salt-lake-city-ut',
+    'volkswagen-repair-salt-lake-city-ut',
+    'jeep-repair-salt-lake-city-ut',
+    'dodge-repair-salt-lake-city-ut',
+    'ram-repair-salt-lake-city-ut',
+    'gmc-repair-salt-lake-city-ut',
+    'bmw-repair-salt-lake-city-ut',
+    'mercedes-benz-repair-salt-lake-city-ut',
+    'audi-repair-salt-lake-city-ut',
+    'lexus-repair-salt-lake-city-ut',
+    'acura-repair-salt-lake-city-ut',
+    'infiniti-repair-salt-lake-city-ut',
+  ]);
+
+  vehicleBrands.forEach(v => {
+    if (defunctBrands.has(v.slug)) return; // skip — no search demand, wastes crawl budget
+    const priority = highVolumeBrands.has(v.slug) ? '0.8' : '0.6';
+    addUrl('/vehicle-brands/' + v.slug, priority, 'monthly');
+  });
+
+  addUrl('/privacy', '0.3', 'yearly');
+  addUrl('/terms', '0.3', 'yearly');
 
   xml += `</urlset>`;
   res.send(xml);
