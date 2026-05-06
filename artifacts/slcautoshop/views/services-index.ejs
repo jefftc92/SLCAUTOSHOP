@@ -38,6 +38,21 @@
   </div>
 </section>
 
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Clutch Repair Near You</h2>
+    <p class="section-subtitle">We serve all of Salt Lake Valley from our South Salt Lake shop. Pick your city for directions, drive time, and local tips.</p>
+    <div class="locations-grid-compact" style="margin-top:1.25rem">
+      <% allGeoPages.forEach(g => { %>
+      <a href="/services/<%= g.slug %>" class="location-tag">
+        <strong><%= g.locationName %></strong>
+        <span><%= g.distance %> · <%= g.driveTime %> drive</span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
 <section class="values-section alt-bg">
   <div class="container">
     <h2>Why Choose Scott's Auto and Clutch</h2>

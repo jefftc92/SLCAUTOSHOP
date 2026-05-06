@@ -49,6 +49,7 @@ app.use((req, res, next) => {
   res.locals.allLocations = locations;
   res.locals.allSymptoms = symptoms;
   res.locals.allVehicleBrands = vehicleBrands;
+  res.locals.allGeoPages = geoPages;
   next();
 });
 

@@ -89,6 +89,16 @@
   <div class="container">
     <h2><%= service.name %> Service Areas</h2>
     <p>Our shop in South Salt Lake is centrally located in the valley — most customers are within 15 minutes. We service drivers from throughout the greater Salt Lake area.</p>
+    <% if (allGeoPages && allGeoPages.length && service.slug === 'clutch-repair-near-south-salt-lake-ut') { %>
+    <div class="locations-grid-compact" style="margin-top:1rem">
+      <% allGeoPages.forEach(g => { %>
+      <a href="/services/<%= g.slug %>" class="location-tag">
+        <strong><%= g.locationName %></strong>
+        <span><%= g.distance %> · <%= g.driveTime %> drive</span>
+      </a>
+      <% }) %>
+    </div>
+    <% } else { %>
     <div class="locations-grid-compact" style="margin-top:1rem">
       <% allLocations.forEach(l => { %>
       <a href="/locations/<%= l.slug %>" class="location-tag">
@@ -97,6 +107,7 @@
       </a>
       <% }) %>
     </div>
+    <% } %>
     <div style="margin-top:2rem">
       <a href="<%= site.directionsUrl %>" class="btn btn-outline" target="_blank" rel="noopener">Get Directions</a>
     </div>
