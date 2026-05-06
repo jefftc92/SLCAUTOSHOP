@@ -25,6 +25,35 @@ function pickReviews(count) {
   }));
 }
 
+// Shared LocalBusiness entity — referenced on every inner page so Google
+// can tie every URL back to the physical shop without re-crawling the homepage.
+const businessSchema = {
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "@id": site.domain + "/#business",
+  "name": site.name,
+  "url": site.domain,
+  "telephone": site.phone,
+  "priceRange": "$$",
+  "foundingDate": "1990",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": site.address,
+    "addressLocality": site.city,
+    "addressRegion": site.state,
+    "postalCode": site.zip,
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.7183,
+    "longitude": -111.8883
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "17:30" }
+  ]
+};
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 const CSS_VER = Date.now();
@@ -304,15 +333,18 @@ app.get('/services/:slug', (req, res) => {
         pageFaqs: getGeoFaqs(geo),
         faqTitle: 'Frequently Asked Questions — Clutch Repair Near ' + geo.locationName,
         pageTestimonials: pickReviews(1 + Math.floor(Math.random() * 2)),
-        structuredData: {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
-            { "@type": "ListItem", "position": 2, "name": "Services", "item": site.domain + "/services" },
-            { "@type": "ListItem", "position": 3, "name": "Clutch Repair Near " + geo.locationName, "item": site.domain + "/services/" + geo.slug }
-          ]
-        }
+        structuredData: [
+          businessSchema,
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+              { "@type": "ListItem", "position": 2, "name": "Services", "item": site.domain + "/services" },
+              { "@type": "ListItem", "position": 3, "name": "Clutch Repair Near " + geo.locationName, "item": site.domain + "/services/" + geo.slug }
+            ]
+          }
+        ]
       });
     }
     return res.status(404).render('404', { metaTitle: 'Page Not Found' });
@@ -410,15 +442,18 @@ app.get('/locations/:slug', (req, res) => {
     faqTitle: 'Frequently Asked Questions — ' + location.name + ' Auto Repair',
     faqAlt: false,
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3)),
-    structuredData: {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
-        { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": site.domain + "/locations" },
-        { "@type": "ListItem", "position": 3, "name": location.name, "item": site.domain + "/locations/" + location.slug }
-      ]
-    }
+    structuredData: [
+      businessSchema,
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+          { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": site.domain + "/locations" },
+          { "@type": "ListItem", "position": 3, "name": location.name, "item": site.domain + "/locations/" + location.slug }
+        ]
+      }
+    ]
   });
 });
 
@@ -466,15 +501,18 @@ app.get('/symptoms/:slug', (req, res) => {
     ctaTitle: 'Experiencing ' + symptom.shortName + '?',
     ctaDesc: "Contact Scott's Auto and Clutch today for a free diagnosis. We'll get your vehicle running right.",
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3)),
-    structuredData: {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
-        { "@type": "ListItem", "position": 2, "name": "Symptoms Guide", "item": site.domain + "/symptoms" },
-        { "@type": "ListItem", "position": 3, "name": symptom.shortName, "item": site.domain + "/symptoms/" + symptom.slug }
-      ]
-    }
+    structuredData: [
+      businessSchema,
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+          { "@type": "ListItem", "position": 2, "name": "Symptoms Guide", "item": site.domain + "/symptoms" },
+          { "@type": "ListItem", "position": 3, "name": symptom.shortName, "item": site.domain + "/symptoms/" + symptom.slug }
+        ]
+      }
+    ]
   });
 });
 
@@ -519,15 +557,18 @@ app.get('/vehicle-brands/:slug', (req, res) => {
     faqTitle: 'Frequently Asked Questions — ' + brand.name + ' Repair',
     faqAlt: true,
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3)),
-    structuredData: {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
-        { "@type": "ListItem", "position": 2, "name": "Vehicle Brands", "item": site.domain + "/vehicle-brands" },
-        { "@type": "ListItem", "position": 3, "name": brand.name + " Repair", "item": site.domain + "/vehicle-brands/" + brand.slug }
-      ]
-    }
+    structuredData: [
+      businessSchema,
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+          { "@type": "ListItem", "position": 2, "name": "Vehicle Brands", "item": site.domain + "/vehicle-brands" },
+          { "@type": "ListItem", "position": 3, "name": brand.name + " Repair", "item": site.domain + "/vehicle-brands/" + brand.slug }
+        ]
+      }
+    ]
   });
 });
 
