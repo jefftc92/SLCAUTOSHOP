@@ -4,7 +4,7 @@
     <h2><%= typeof testimonialTitle !== 'undefined' ? testimonialTitle : 'What Our Customers Say' %></h2>
     <p class="section-subtitle" style="text-align:center;margin-top:-.5rem;margin-bottom:1.75rem">Real reviews from Google — 5 stars across the board</p>
     <div class="testimonials-grid">
-      <% site.testimonials.forEach(t => { %>
+      <% (typeof pageTestimonials !== 'undefined' && pageTestimonials ? pageTestimonials : site.testimonials).forEach(t => { %>
       <div class="testimonial-card">
         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         <p class="testimonial-quote">&ldquo;<%= t.quote %>&rdquo;</p>

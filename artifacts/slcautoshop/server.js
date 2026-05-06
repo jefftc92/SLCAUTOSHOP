@@ -13,6 +13,17 @@ const { getContent: getBrandContent } = require('./data/vehicleBrandContent');
 const { serviceFaqs, getSymptomFaqs, getLocationFaqs, getGeoFaqs } = require('./data/pageFaqs');
 const { getLocationSeoContent } = require('./data/locationSeoContent');
 const geoPages = require('./data/geoPages');
+const allReviews = require('./data/reviews.json');
+
+// Pick N random reviews and format them for the testimonials partial
+function pickReviews(count) {
+  const shuffled = allReviews.slice().sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, count).map(r => ({
+    name: r.author,
+    initial: r.author.charAt(0).toUpperCase(),
+    quote: r.text
+  }));
+}
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -182,7 +193,8 @@ app.get('/', (req, res) => {
         "ratingCount": "150"
       },
       "sameAs": []
-    }
+    },
+    pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3))
   });
 });
 
@@ -290,6 +302,7 @@ app.get('/services/:slug', (req, res) => {
         clutchService,
         pageFaqs: getGeoFaqs(geo),
         faqTitle: 'Frequently Asked Questions — Clutch Repair Near ' + geo.locationName,
+        pageTestimonials: pickReviews(1 + Math.floor(Math.random() * 2)),
         structuredData: {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
@@ -345,7 +358,8 @@ app.get('/services/:slug', (req, res) => {
     relatedServices,
     structuredData: schemaList,
     pageFaqs: allFaqs,
-    faqTitle: 'Frequently Asked Questions — ' + service.fullName
+    faqTitle: 'Frequently Asked Questions — ' + service.fullName,
+    pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3))
   });
 });
 

@@ -55,11 +55,7 @@
 <section class="content-section">
   <div class="container">
     <h2>What Our Clutch Repair Covers</h2>
-    <ul class="checklist">
-      <% clutchService.coverageList.forEach(item => { %>
-      <li><%= item %></li>
-      <% }) %>
-    </ul>
+    <p>We handle all aspects of clutch and drivetrain service — from single-component fixes to complete system overhauls. Every job is diagnosed before any work begins, so you only pay for what your vehicle actually needs. <a href="/services/clutch-repair-near-south-salt-lake-ut">See our full diagnostic and repair process here.</a></p>
   </div>
 </section>
 
@@ -72,50 +68,6 @@
         <h3><%= w.title %></h3>
         <p><%= w.desc %></p>
       </div>
-      <% }) %>
-    </div>
-  </div>
-</section>
-
-<section class="content-section">
-  <div class="container">
-    <h2>Common Clutch Symptoms</h2>
-    <p>Experiencing any of these? We can help. Click a symptom for more details.</p>
-    <div class="symptoms-grid" style="margin-top:1rem">
-      <% allSymptoms.filter(s => s.category === 'Clutch').slice(0, 4).forEach(sy => { %>
-      <a href="/symptoms/<%= sy.slug %>" class="symptom-card">
-        <h3><%= sy.shortName %></h3>
-        <span class="card-link">Learn more</span>
-      </a>
-      <% }) %>
-    </div>
-  </div>
-</section>
-
-<section class="content-section alt-bg">
-  <div class="container">
-    <h2>Related Services</h2>
-    <div class="services-grid small">
-      <% services.filter(s => ['cv-joint-repair-near-south-salt-lake-ut','brake-service-near-south-salt-lake-ut','timing-chain-repair-near-south-salt-lake-ut'].includes(s.slug)).forEach(s => { %>
-      <a href="/services/<%= s.slug %>" class="service-card">
-        <h3><%= s.name %></h3>
-        <span class="card-p"><%= s.shortDesc %></span>
-        <span class="card-link">View service</span>
-      </a>
-      <% }) %>
-    </div>
-  </div>
-</section>
-
-<section class="content-section">
-  <div class="container">
-    <h2>Clutch Repair for Other Areas</h2>
-    <div class="locations-grid-compact">
-      <% allLocations.filter(l => !l.isHome).forEach(l => { %>
-      <a href="/services/clutch-repair-near-<%= l.slug.replace('-auto-repair','') %>" class="location-tag">
-        <strong><%= l.name %></strong>
-        <span><%= l.distance %></span>
-      </a>
       <% }) %>
     </div>
   </div>

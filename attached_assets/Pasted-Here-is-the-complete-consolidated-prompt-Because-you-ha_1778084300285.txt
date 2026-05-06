@@ -1,0 +1,40 @@
+Here is the complete, consolidated prompt. Because you have the reviews in a Markdown table, the first step is instructing Replit to convert that table into a usable data format (JSON) before it wires up the routing logic.
+
+Copy everything below the line and paste it directly into Replit, pasting your Markdown table at the very bottom where indicated.
+
+📋 Replit Instructions: SSR Template Optimization & Dynamic Reviews
+Context & Objective: We need to optimize our Node.js Server-Side Rendered (SSR) templates to fix a search engine indexing issue caused by a high "boilerplate-to-unique content" ratio on our localized intersection pages (e.g., /services/clutch-repair-near-sugar-house-ut).
+
+Currently, the unique local text on these pages is being outweighed by massive blocks of templated content. We need to implement conditional rendering to strip out heavy boilerplate on the localized intersection pages, while keeping it intact on the main service hub pages (e.g., /services/clutch-repair). We will also implement dynamic review rotation to inject unique text into every page.
+
+Task 1: Convert Review Data
+At the bottom of this prompt is a Markdown table containing over 55 real customer reviews.
+
+Parse this Markdown table and convert it into a clean reviews.json file in our data/config directory. The JSON objects should contain keys for author, rating (default to 5), and text.
+
+Ensure this JSON file is imported/required into the route controllers that handle our service and location pages.
+
+Task 2: Create a Route Flag
+In the route controllers that generate the [service]-near-[location] pages, inject a boolean variable into the template context called isLocalIntersectionPage = true. Ensure this defaults to false on the main /services/ and /locations/ route handlers.
+
+Task 3: Implement Dynamic Review Rotation
+Find the template component responsible for rendering the 5-star customer reviews and update the logic:
+
+if (!isLocalIntersectionPage): Write a helper function to randomly select 4 to 6 reviews from the reviews.json pool and pass them to the template to be rendered.
+
+else (If it is a local intersection page): Randomly select exactly 1 or 2 reviews from the pool to render. This ensures the page gets unique text without bloating the DOM.
+
+Task 4: Conditionally Render the Service Checklist
+In the service page template, find the <ul> block for the service checklist (e.g., "What Our Clutch Repair Covers").
+
+if (!isLocalIntersectionPage): Render the full list of bullet points.
+
+else: Do not render the list. Instead, render a single <p> tag that summarizes the service and includes a hyperlink back to the primary service page slug (e.g., "We handle complete [Service Name], including all major components. <a href='/services/[service-slug]'>See our full diagnostic and repair process here.</a>").
+
+Task 5: Hide the "Related Services" and "Common Symptoms" Grids
+Find the HTML/components for "Related Services" and "Common Symptoms". Wrap both of these entire blocks in an if (!isLocalIntersectionPage) statement so they are completely removed from the DOM on the localized intersection pages.
+
+Task 6: Hide the "Other Areas" Link Farm
+Find the HTML block containing the extensive list of links for "[Service] for Other Areas" (e.g., Sugar House 3 miles, Millcreek 3 miles). Wrap this in an if (!isLocalIntersectionPage) statement so it does not render on the local intersection pages.
+
+Review Data (Markdown Table):
