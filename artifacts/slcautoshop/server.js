@@ -409,6 +409,7 @@ app.get('/locations/:slug', (req, res) => {
     pageFaqs: allLocFaqs,
     faqTitle: 'Frequently Asked Questions — ' + location.name + ' Auto Repair',
     faqAlt: false,
+    pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3)),
     structuredData: {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -464,6 +465,7 @@ app.get('/symptoms/:slug', (req, res) => {
     faqTitle: 'Frequently Asked Questions — ' + symptom.name,
     ctaTitle: 'Experiencing ' + symptom.shortName + '?',
     ctaDesc: "Contact Scott's Auto and Clutch today for a free diagnosis. We'll get your vehicle running right.",
+    pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3)),
     structuredData: {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -516,6 +518,7 @@ app.get('/vehicle-brands/:slug', (req, res) => {
     pageFaqs: bc.faqs || [],
     faqTitle: 'Frequently Asked Questions — ' + brand.name + ' Repair',
     faqAlt: true,
+    pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3)),
     structuredData: {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",

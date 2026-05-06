@@ -32,24 +32,14 @@
 
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>How We Diagnose <%= symptom.shortName %></h2>
-    <p class="section-subtitle">From diagnosis to repair, we keep you informed every step of the way.</p>
-    <div class="process-steps-compact">
-      <% [
-        { step: 1, title: "Describe Symptoms", desc: "Call or text us to describe what you're experiencing." },
-        { step: 2, title: "Free Diagnosis", desc: "Bring your vehicle in for a thorough inspection." },
-        { step: 3, title: "Upfront Quote", desc: "We explain what we found and quote before any work begins." },
-        { step: 4, title: "Expert Repair", desc: "Experienced technicians complete the repair with quality parts." },
-        { step: 5, title: "Quality Check", desc: "We test drive and verify the repair before returning your car." }
-      ].forEach(p => { %>
-      <div class="process-step-compact">
-        <span class="step-num"><%= p.step %></span>
-        <div>
-          <h3><%= p.title %></h3>
-          <p><%= p.desc %></p>
-        </div>
-      </div>
-      <% }) %>
+    <h2>How We Handle <%= symptom.shortName %></h2>
+    <div class="prose" style="max-width:720px">
+      <p>Every repair starts with a free diagnosis — you describe what you're noticing and we inspect the vehicle. We walk you through exactly what we find, give you an upfront quote, and don't start work until you approve it. No surprises at pickup.</p>
+      <% if (relatedService) { %>
+      <p><a href="/services/<%= relatedService.slug %>">See how we approach <%= relatedService.name %> specifically</a>, including what the repair typically involves and how we keep you informed along the way.</p>
+      <% } else { %>
+      <p><a href="/services">View all services we offer</a> — if your symptom points to a specific repair, the service page covers our diagnostic approach in detail.</p>
+      <% } %>
     </div>
   </div>
 </section>
@@ -89,6 +79,8 @@
     </div>
   </div>
 </section>
+
+<%- include('partials/testimonials') %>
 
 <%- include('partials/cta') %>
 <%- include('partials/footer') %>

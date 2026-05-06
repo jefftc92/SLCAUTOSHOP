@@ -56,24 +56,13 @@
 <section class="content-section">
   <div class="container">
     <h2>Our <%= brand.name %> Repair Capabilities</h2>
-    <p class="section-subtitle">These are the main service categories we handle for <%= brand.name %> vehicles. Click any to learn more.</p>
-    <div class="services-grid small" style="margin-top:1.5rem">
-      <% services.forEach(s => { %>
-      <a href="/services/<%= s.slug %>" class="service-card">
-        <h3><%= brand.name %> <%= s.name %></h3>
-        <span class="card-p"><%= s.shortDesc %></span>
-        <span class="card-link">View service</span>
-      </a>
-      <% }) %>
+    <div class="prose" style="max-width:720px">
+      <p>We handle the full range of mechanical repairs for <%= brand.name %> vehicles — clutch and transmission, brakes, CV axles, timing components, exhaust, cooling, and more. Every job starts with a free diagnosis so you know exactly what your vehicle needs before any work begins.</p>
+      <p><a href="/services">View our full list of services</a> — if you have a question about a specific repair or aren't sure whether we can help, give us a call or text and we'll give you a straight answer.</p>
     </div>
-    <div class="capabilities-cta">
-      <div class="capabilities-cta-text">
-        <p>We handle much more than what's listed above — these are just our main service categories. If you have a question about a specific repair or aren't sure whether we can help, give us a call or send a quick text. We'll give you a straight answer.</p>
-      </div>
-      <div class="capabilities-cta-actions">
-        <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
-        <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I have a question about my ' + brand.name + '.') %>" class="btn btn-secondary">Text a Question</a>
-      </div>
+    <div class="hero-buttons" style="margin-top:1.5rem">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I have a question about my ' + brand.name + '.') %>" class="btn btn-secondary">Text a Question</a>
     </div>
   </div>
 </section>
@@ -149,6 +138,8 @@
     </div>
   </div>
 </section>
+
+<%- include('partials/testimonials') %>
 
 <% var ctaTitle = "Need " + brand.name + " Repair?"; var ctaDesc = "Contact Scott's Auto and Clutch today. Expert " + brand.name + " service at honest prices."; %>
 <%- include('partials/cta') %>
