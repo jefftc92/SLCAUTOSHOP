@@ -803,12 +803,12 @@ function getSitemapEntries() {
     entries.push({ path, priority, freq, lastmod });
 
   add('/', '1.0', 'weekly');
-  add('/about', '0.7', 'monthly', LASTMOD_STABLE);
+  add('/about', '0.7', 'monthly', LASTMOD_SPRINT);
   add('/contact', '0.8', 'monthly');
   add('/services', '0.9', 'weekly');
   add('/locations', '0.9', 'weekly');
   add('/symptoms', '0.9', 'weekly');
-  add('/vehicle-brands', '0.8', 'weekly', LASTMOD_STABLE);
+  add('/vehicle-brands', '0.8', 'weekly', LASTMOD_SPRINT);
 
   services.forEach(s => add('/services/' + s.slug, '0.8', 'monthly'));
   geoPages.forEach(g => add('/services/' + g.slug, '0.8', 'monthly'));
@@ -817,7 +817,7 @@ function getSitemapEntries() {
   symptoms.forEach(s => add('/symptoms/' + s.slug, '0.8', 'monthly'));
   vehicleBrands.forEach(v => {
     if (defunctBrands.has(v.slug)) return;
-    add('/vehicle-brands/' + v.slug, highVolumeBrands.has(v.slug) ? '0.8' : '0.6', 'monthly', LASTMOD_STABLE);
+    add('/vehicle-brands/' + v.slug, highVolumeBrands.has(v.slug) ? '0.8' : '0.6', 'monthly', LASTMOD_SPRINT);
   });
 
   add('/privacy', '0.3', 'yearly', LASTMOD_STABLE);
