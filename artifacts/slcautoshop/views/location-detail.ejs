@@ -24,6 +24,9 @@
         <% if (locSeo && locSeo.keywordIntro) { %>
         <p style="margin-top:1rem"><%- linkifyServices(locSeo.keywordIntro) %></p>
         <% } %>
+        <% if (clutchGeo) { %>
+        <p style="margin-top:1rem"><%= location.name %> drivers looking for a clutch specialist nearby can <a href="/services/<%= clutchGeo.slug %>">learn more about our clutch repair service for <%= location.name %> drivers</a>.</p>
+        <% } %>
         <% if (locSeo && locSeo.routeInfo) { %>
         <p style="margin-top:1rem"><strong>Getting here:</strong> <%= locSeo.routeInfo %></p>
         <% } %>
@@ -125,7 +128,8 @@
     <% } %>
     <div class="services-grid small" style="margin-top:2rem">
       <% services.slice(0, 6).forEach(s => { %>
-      <a href="/services/<%= s.slug %>" class="service-card">
+      <% var serviceUrl = (s.slug === 'clutch-repair-near-south-salt-lake-ut' && clutchGeo) ? '/services/' + clutchGeo.slug : '/services/' + s.slug; %>
+      <a href="<%= serviceUrl %>" class="service-card">
         <h3><%= s.name %></h3>
         <p><%= s.shortDesc %></p>
         <span class="card-link">View service</span>
