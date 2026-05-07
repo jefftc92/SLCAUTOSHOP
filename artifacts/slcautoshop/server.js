@@ -173,6 +173,24 @@ app.use((req, res, next) => {
     return res.redirect(301, brand ? '/vehicle-brands/' + slug : '/vehicle-brands');
   }
 
+  // Short location slug (no -ut-auto-repair suffix) → full canonical slug
+  // e.g. /locations/murray → /locations/murray-ut-auto-repair
+  const shortLocMatch = p.match(/^\/locations\/([^/]+)$/);
+  if (shortLocMatch && !shortLocMatch[1].endsWith('-ut-auto-repair')) {
+    const canonical = shortLocMatch[1].toLowerCase() + '-ut-auto-repair';
+    const loc = locations.find(l => l.slug === canonical);
+    if (loc) return res.redirect(301, '/locations/' + canonical);
+  }
+
+  // Short vehicle brand slug (no -repair-salt-lake-city-ut suffix) → full canonical slug
+  // e.g. /vehicle-brands/gmc → /vehicle-brands/gmc-repair-salt-lake-city-ut
+  const shortBrandMatch = p.match(/^\/vehicle-brands\/([^/]+)$/);
+  if (shortBrandMatch && !shortBrandMatch[1].endsWith('-repair-salt-lake-city-ut')) {
+    const canonical = shortBrandMatch[1].toLowerCase() + '-repair-salt-lake-city-ut';
+    const brand = vehicleBrands.find(b => b.slug === canonical);
+    if (brand) return res.redirect(301, '/vehicle-brands/' + canonical);
+  }
+
   next();
 });
 
