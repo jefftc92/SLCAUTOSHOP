@@ -1,0 +1,61 @@
+The Problem
+The Murray location page (/locations/murray-ut-auto-repair) has a services section
+at the bottom. Every service link in that section points to the OLD service URLs:
+"Clutch Repair in Murray" → /services/clutch-repair-south-salt-lake-ut   ❌ WRONG
+"Brake Service in Murray" → /services/brake-service-south-salt-lake-ut   ❌ WRONG
+These should point to the NEAR-CITY versions:
+"Clutch Repair in Murray" → /services/clutch-repair-near-murray-ut       ✅ CORRECT
+"Brake Service in Murray" → /services/brake-service-near-murray-ut       ✅ CORRECT
+This is critical. When Google crawls the Murray location page, it follows the
+links to discover new pages. Right now it follows them to pages it already knows
+about. It never discovers the near-city pages from this path.
+The Fix — Update Every Location Page's Service Links
+For EACH location page, update the service links from:
+/services/[service-name]-south-salt-lake-ut
+To:
+/services/[service-name]-near-[city]-ut
+Murray (/locations/murray-ut-auto-repair)
+Replace these links:
+/services/clutch-repair-south-salt-lake-ut
+→ /services/clutch-repair-near-murray-ut
+
+/services/cv-joint-repair-south-salt-lake-ut
+→ /services/cv-joint-repair-near-murray-ut
+
+/services/brake-service-south-salt-lake-ut
+→ /services/brake-service-near-murray-ut
+
+/services/timing-chain-repair-south-salt-lake-ut
+→ /services/timing-chain-repair-near-murray-ut
+
+/services/water-pump-replacement-south-salt-lake-ut
+→ /services/water-pump-replacement-near-murray-ut
+
+/services/exhaust-repair-south-salt-lake-ut
+→ /services/exhaust-repair-near-murray-ut
+
+/services/catalytic-converter-service-south-salt-lake-ut
+→ /services/catalytic-converter-service-near-murray-ut
+
+/services/strut-replacement-south-salt-lake-ut
+→ /services/strut-replacement-near-murray-ut
+
+/services/timing-belt-replacement-south-salt-lake-ut
+→ /services/timing-belt-replacement-near-murray-ut
+
+/services/welding-services-south-salt-lake-ut
+→ /services/welding-services-near-murray-ut
+
+/services/shock-replacement-south-salt-lake-ut
+→ /services/shock-replacement-near-murray-ut
+
+/services/complete-auto-service-south-salt-lake-ut
+→ /services/complete-auto-service-near-murray-ut
+Apply the same pattern to ALL other location pages:
+Location PageReplace -south-salt-lake-ut with/locations/salt-lake-city-ut-auto-repair-near-salt-lake-city-ut/locations/west-valley-city-ut-auto-repair-near-west-valley-city-ut/locations/millcreek-ut-auto-repair-near-millcreek-ut/locations/holladay-ut-auto-repair-near-holladay-ut/locations/cottonwood-heights-ut-auto-repair-near-cottonwood-heights-ut/locations/midvale-ut-auto-repair-near-midvale-ut/locations/riverton-ut-auto-repair-near-riverton-ut/locations/kearns-ut-auto-repair-near-kearns-ut/locations/draper-ut-auto-repair-near-draper-ut/locations/west-jordan-ut-auto-repair-near-west-jordan-ut/locations/taylorsville-ut-auto-repair-near-taylorsville-ut/locations/sugar-house-ut-auto-repair-near-sugar-house-ut
+ALSO add this sentence in the body text of each location page,
+linking directly to the clutch-repair near-city page with natural anchor text.
+For Murray, find the paragraph about State Street/clutch wear and add:
+"Murray drivers looking for a clutch specialist nearby can learn more about
+our clutch repair service for Murray drivers."
+This gives Google a body-text link (higher value than footer links) to follow.
