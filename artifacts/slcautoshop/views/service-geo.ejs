@@ -11,7 +11,11 @@
   <div class="page-hero-bg" style="background-image:url('/assets/hero-600-DnXM3vMX.webp')"></div>
   <div class="container">
     <h1><%= geo.heading %></h1>
+    <% if (geo.hasLocalContext) { %>
     <p><%= geo.intro %></p>
+    <% } else if (mainService) { %>
+    <p><%= mainService.shortDesc %> Our shop is <%= geo.distance %> from <%= geo.locationName %> — about <%= geo.driveTime %>. We diagnose every issue before recommending any repair.</p>
+    <% } %>
     <div class="hero-buttons">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
@@ -44,7 +48,7 @@
 
 <% } else { %>
 
-<section class="content-section">
+<section class="content-section alt-bg">
   <div class="container">
     <div class="visit-grid">
       <div class="visit-detail"><h3>Distance from <%= geo.locationName %></h3><p><%= geo.distance %> (<%= geo.driveTime %> drive)</p></div>
@@ -57,7 +61,7 @@
 <% } %>
 
 <% if (mainService && mainService.specializedServices && mainService.specializedServices.length) { %>
-<section class="content-section<%= geo.hasLocalContext ? '' : ' alt-bg' %>">
+<section class="content-section">
   <div class="container">
     <h2><%= geo.serviceFullName %> — What We Do</h2>
     <p class="section-subtitle">Every job starts with a diagnosis. <a href="/services/<%= geo.mainServiceSlug %>">See our full <%= geo.serviceName.toLowerCase() %> service page</a> for complete details.</p>
@@ -71,7 +75,7 @@
 <% } %>
 
 <% if (mainService && mainService.process && mainService.process.length) { %>
-<section class="content-section<%= geo.hasLocalContext ? ' alt-bg' : '' %>">
+<section class="content-section alt-bg">
   <div class="container">
     <h2>How <%= geo.serviceFullName %> Works</h2>
     <div class="values-grid" style="margin-top:1.5rem">
@@ -87,7 +91,7 @@
 <% } %>
 
 <% if (mainService && mainService.commonIssues && mainService.commonIssues.length) { %>
-<section class="content-section<%= geo.hasLocalContext ? '' : ' alt-bg' %>">
+<section class="content-section">
   <div class="container">
     <h2>Common <%= geo.serviceFullName %> Issues We Fix</h2>
     <p class="section-subtitle">We diagnose before we recommend. You'll know exactly what's wrong and why before any work begins.</p>
@@ -106,7 +110,7 @@
 </section>
 <% } %>
 
-<section class="content-section<%= geo.hasLocalContext ? ' alt-bg' : '' %>">
+<section class="content-section alt-bg">
   <div class="container">
     <h2>Getting Here from <%= geo.locationName %></h2>
     <div class="prose" style="max-width:720px">
@@ -122,7 +126,7 @@
 </section>
 
 <% if (mainService && mainService.whyUs && mainService.whyUs.length) { %>
-<section class="content-section<%= geo.hasLocalContext ? '' : ' alt-bg' %>">
+<section class="content-section">
   <div class="container">
     <h2>Why Choose Scott's for <%= geo.serviceFullName %></h2>
     <div class="values-grid">
@@ -146,6 +150,6 @@
 <% var faqAlt = true; %>
 <%- include('partials/faq') %>
 
-<% var ctaTitle = "Need " + geo.serviceFullName + " Near " + geo.locationName + "?"; var ctaDesc = "Contact Scott's Auto & Clutch Repair today. We're just " + geo.distance + " from " + geo.locationName + " — and we diagnose before we recommend."; %>
+<% var ctaTitle = "Need " + geo.serviceFullName + " Near " + geo.locationName + "?"; var ctaDesc = "Scott's Auto & Clutch Repair is " + geo.distance + " from " + geo.locationName + " — about " + geo.driveTime + ". We diagnose before we recommend, and you'll have a full quote before any work begins."; %>
 <%- include('partials/cta') %>
 <%- include('partials/footer') %>
