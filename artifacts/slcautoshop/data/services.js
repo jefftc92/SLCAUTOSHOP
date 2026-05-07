@@ -6,9 +6,9 @@ const services = [
     shortDesc: "Expert clutch diagnostics and replacement for all makes and models.",
     image: "/assets/clutch-400-BTrBnRFg.webp",
     heroImage: "/assets/hero-600-DnXM3vMX.webp",
-    metaTitle: "Clutch Repair Salt Lake City | Specialists Since 1990",
+    metaTitle: "Clutch Repair South Salt Lake UT | Specialists Since 1990 | Scott's",
     heading: "Clutch Repair & Replacement in South Salt Lake, UT",
-    metaDesc: "Slipping clutch, soft pedal, grinding shifts? Manual transmission work is what we built our name on. Free diagnosis on every visit. Call (801) 485-4089.",
+    metaDesc: "Clutch slipping, grinding, or hard to shift? We've specialized in clutch replacement for 35+ years. Free diagnosis. Call (801) 485-4089.",
     intro: "Scott's Auto & Clutch has been South Salt Lake's trusted clutch repair specialist since 1990. Our mechanics have decades of hands-on experience with manual transmission systems, from hydraulic adjustments to full clutch replacements. If your clutch feels spongy, slips under load, or makes grinding noises when shifting, bring it in for a thorough inspection.",
     specializedServices: [
       "Clutch Replacement", "Clutch Adjustment", "Clutch Fluid Flush & Bleeding",
@@ -55,7 +55,7 @@ const services = [
       "Road test and engagement verification"
     ],
     hasGeoPages: true,
-    relatedSlugs: ["cv-joint-repair-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "timing-chain-repair-near-south-salt-lake-ut"]
+    relatedSlugs: ["complete-auto-service-near-south-salt-lake-ut", "timing-belt-replacement-near-south-salt-lake-ut", "cv-joint-repair-near-south-salt-lake-ut"]
   },
   {
     slug: "cv-joint-repair-near-south-salt-lake-ut",
@@ -64,9 +64,9 @@ const services = [
     shortDesc: "CV joint replacement, CV axle repair, and CV boot service.",
     image: "/assets/cv-joint-400-DttndxJM.webp",
     heroImage: "/assets/cv-joint-400-DttndxJM.webp",
-    metaTitle: "CV Joint & Axle Repair Salt Lake City | Scott's Auto",
+    metaTitle: "CV Joint Repair South Salt Lake UT | Axle & Boot Service | Scott's",
     heading: "CV Joint & Axle Repair in South Salt Lake, UT",
-    metaDesc: "Clicking during turns or vibration that grows with speed? CV joint and full-axle service for FWD, AWD, and 4WD vehicles. (801) 485-4089.",
+    metaDesc: "Clicking when turning? CV axle worn? We replace CV joints, boots & axles for all makes and models. Free diagnosis. Call (801) 485-4089.",
     intro: "Scott's Auto & Clutch provides expert CV joint and axle repair for all makes and models. If you hear clicking when turning or feel vibration when accelerating, your CV joints may need attention. Our experienced mechanics will diagnose the issue accurately and get you back on the road safely.",
     specializedServices: ["CV Joint Replacement", "CV Axle Replacement", "CV Boot Replacement", "Axle Seal Replacement", "Drivetrain Inspection"],
     whyUs: [
@@ -94,7 +94,7 @@ const services = [
       { q: "How long does CV joint repair take?", a: "Most CV axle repairs are completed in 1–3 hours depending on the vehicle." }
     ],
     hasGeoPages: false,
-    relatedSlugs: ["clutch-repair-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "strut-replacement-near-south-salt-lake-ut"]
+    relatedSlugs: ["clutch-repair-near-south-salt-lake-ut", "strut-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
   {
     slug: "brake-service-near-south-salt-lake-ut",
@@ -103,9 +103,9 @@ const services = [
     shortDesc: "Brake pads, rotors, calipers, and complete brake system repair.",
     image: "/assets/brake-400-CLKCOOBz.webp",
     heroImage: "/assets/brake-400-CLKCOOBz.webp",
-    metaTitle: "Brake Repair Salt Lake City | Pads, Rotors, Calipers",
+    metaTitle: "Brake Service South Salt Lake UT | Pads, Rotors & Calipers | Scott's",
     heading: "Brake Service & Repair in South Salt Lake, UT",
-    metaDesc: "Squeak, grind, pulsation, or soft pedal? Full brake system inspection and honest assessment of what's needed. Free inspection. (801) 485-4089.",
+    metaDesc: "Squeaking or grinding brakes? We replace pads, rotors, and calipers for all makes. Free brake inspection. South Salt Lake, UT. (801) 485-4089.",
     intro: "Your brakes are your vehicle's most important safety system. Scott's Auto & Clutch provides complete brake service for all makes and models. If you hear squeaking, grinding, or feel a soft pedal, bring it in for a thorough inspection—we'll tell you exactly what's needed and why.",
     specializedServices: ["Brake Pad Replacement", "Rotor Resurfacing", "Rotor Replacement", "Brake Caliper Service", "Brake Fluid Flush", "Brake Line Repair", "Emergency Brake Service", "ABS Diagnostics"],
     whyUs: [
@@ -132,7 +132,7 @@ const services = [
       { q: "Can you resurface my rotors?", a: "If they're within manufacturer specification, yes. If they're too thin or warped, replacement is the safer option. We measure before making any recommendation." }
     ],
     hasGeoPages: false,
-    relatedSlugs: ["clutch-repair-near-south-salt-lake-ut", "cv-joint-repair-near-south-salt-lake-ut", "strut-replacement-near-south-salt-lake-ut"]
+    relatedSlugs: ["strut-replacement-near-south-salt-lake-ut", "shock-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
   {
     slug: "timing-chain-repair-near-south-salt-lake-ut",
@@ -141,9 +141,9 @@ const services = [
     shortDesc: "Timing chain repair and replacement to prevent engine damage.",
     image: "/assets/timing-chain-400-DglkDYua.webp",
     heroImage: "/assets/timing-chain-400-DglkDYua.webp",
-    metaTitle: "Timing Chain Repair Salt Lake City | Scott's Auto",
+    metaTitle: "Timing Chain Repair South Salt Lake UT | Engine Rattling? | Scott's",
     heading: "Timing Chain Replacement in South Salt Lake, UT",
-    metaDesc: "A startup rattle is cheap to fix and costly to ignore. Timing chain diagnosis and replacement for all engine types. (801) 485-4089.",
+    metaDesc: "Engine rattling on startup? Don't wait—timing chain failure can destroy your engine. Free diagnosis at Scott's Auto. Call (801) 485-4089.",
     intro: "A failing timing chain can cause catastrophic engine damage if not addressed promptly. Scott's Auto & Clutch provides expert timing chain diagnosis and replacement for all makes and models. If you hear rattling on startup or have timing-related fault codes, don't wait—early diagnosis is far less expensive than the alternative.",
     specializedServices: ["Timing Chain Replacement", "Tensioner Replacement", "Guide Replacement", "Timing Cover Gasket", "Oil Pump Chain Service"],
     whyUs: [
@@ -167,7 +167,7 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["timing-belt-replacement-near-south-salt-lake-ut", "water-pump-replacement-near-south-salt-lake-ut", "clutch-repair-near-south-salt-lake-ut"]
+    relatedSlugs: ["timing-belt-replacement-near-south-salt-lake-ut", "water-pump-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
   {
     slug: "water-pump-replacement-near-south-salt-lake-ut",
@@ -176,9 +176,9 @@ const services = [
     shortDesc: "Water pump repair and replacement to prevent overheating.",
     image: "/assets/water-pump-400-D_c-HhIr.webp",
     heroImage: "/assets/water-pump-400-D_c-HhIr.webp",
-    metaTitle: "Water Pump Replacement Salt Lake City | Scott's Auto",
+    metaTitle: "Water Pump Replacement South Salt Lake UT | Cooling System | Scott's",
     heading: "Water Pump Replacement in South Salt Lake, UT",
-    metaDesc: "Coolant puddle or rising temp gauge? Water pump and cooling-system inspection to fix the real cause, not just the symptom. (801) 485-4089.",
+    metaDesc: "Overheating or coolant leak? Water pump failure is a common cause. We diagnose and replace water pumps for all makes. Call (801) 485-4089.",
     intro: "A failing water pump can lead to engine overheating and serious damage in a very short time. Scott's Auto & Clutch provides water pump diagnosis and replacement for all makes and models, along with complete cooling system inspection to make sure the underlying issue is fully resolved.",
     specializedServices: ["Water Pump Replacement", "Coolant Flush", "Thermostat Replacement", "Cooling System Pressure Test", "Radiator Hose Replacement"],
     whyUs: [
@@ -210,9 +210,9 @@ const services = [
     shortDesc: "Muffler repair, exhaust pipe replacement, and leak repair.",
     image: "/assets/exhaust-400-B277Cfgd.webp",
     heroImage: "/assets/exhaust-400-B277Cfgd.webp",
-    metaTitle: "Exhaust Repair Salt Lake City | Mufflers, Welds, Leaks",
+    metaTitle: "Exhaust Repair South Salt Lake UT | Muffler & Pipe | Scott's Auto",
     heading: "Exhaust System Repair & Muffler Service in South Salt Lake, UT",
-    metaDesc: "Louder than it should be? In-house welding often means we repair the section that other shops replace — a real difference on your invoice. (801) 485-4089.",
+    metaDesc: "Loud exhaust or exhaust smell in the cabin? We weld and replace mufflers, pipes & manifolds. Free exhaust inspection. Call (801) 485-4089.",
     intro: "From muffler repair to complete exhaust system work, Scott's Auto & Clutch handles all exhaust problems. If your vehicle is louder than normal, smells like exhaust, or failed an emissions test, we'll inspect the full system from manifold to tailpipe and give you an honest assessment of what needs attention.",
     specializedServices: ["Muffler Repair", "Muffler Replacement", "Exhaust Pipe Replacement", "Exhaust Manifold Repair", "Custom Exhaust Welding", "Flex Pipe Replacement"],
     whyUs: [
@@ -236,7 +236,7 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["catalytic-converter-service-near-south-salt-lake-ut", "welding-services-near-south-salt-lake-ut", "clutch-repair-near-south-salt-lake-ut"]
+    relatedSlugs: ["catalytic-converter-service-near-south-salt-lake-ut", "welding-services-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
   {
     slug: "catalytic-converter-service-near-south-salt-lake-ut",
@@ -245,9 +245,9 @@ const services = [
     shortDesc: "Catalytic converter repair, replacement, and theft protection.",
     image: "/assets/catalytic-400-2YczmCtR.webp",
     heroImage: "/assets/catalytic-400-2YczmCtR.webp",
-    metaTitle: "Catalytic Converter Repair Salt Lake City | Scott's Auto",
+    metaTitle: "Catalytic Converter Repair South Salt Lake UT | Scott's Auto & Clutch",
     heading: "Catalytic Converter Service & Replacement in South Salt Lake, UT",
-    metaDesc: "Failed emissions, stolen converter, or P0420 code? Diagnosis first, then replacement with anti-theft shield install available. Call (801) 485-4089.",
+    metaDesc: "Failed emissions or check engine light? Catalytic converter issues diagnosed and repaired fast. Anti-theft shields available. (801) 485-4089.",
     intro: "Scott's Auto & Clutch provides catalytic converter diagnosis, replacement, and anti-theft shield installation. Whether your converter has failed an emissions test, been stolen, or is causing performance issues, we'll identify the root cause and fix it properly—not just swap the part.",
     specializedServices: ["Catalytic Converter Replacement", "O2 Sensor Replacement", "Anti-Theft Shield Installation", "Emissions Repair", "Exhaust Welding"],
     whyUs: [
@@ -271,7 +271,7 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["exhaust-repair-near-south-salt-lake-ut", "welding-services-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut"]
+    relatedSlugs: ["exhaust-repair-near-south-salt-lake-ut", "welding-services-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
   {
     slug: "strut-replacement-near-south-salt-lake-ut",
@@ -280,9 +280,9 @@ const services = [
     shortDesc: "Front and rear strut replacement for a smoother, safer ride.",
     image: "/assets/struts-400-CBnjcX0e.webp",
     heroImage: "/assets/struts-400-CBnjcX0e.webp",
-    metaTitle: "Strut Replacement Salt Lake City | Scott's Auto",
+    metaTitle: "Strut Replacement South Salt Lake UT | Smoother Ride | Scott's Auto",
     heading: "Strut & Suspension Replacement in South Salt Lake, UT",
-    metaDesc: "Bouncy ride, nose-dive when braking, or harsher bumps than before? Strut diagnosis and replacement for daily drivers, SUVs, and trucks. (801) 485-4089.",
+    metaDesc: "Bouncy ride, nose dive when braking, or uneven tire wear? We replace struts for all makes and models. Free inspection. Call (801) 485-4089.",
     intro: "Worn struts compromise your vehicle's handling, braking distance, and ride comfort. Scott's Auto & Clutch provides strut diagnosis and replacement for all makes and models. If your car bounces excessively, nose-dives under braking, or the ride has gotten noticeably harsher, bring it in for an inspection.",
     specializedServices: ["Front Strut Replacement", "Rear Strut Replacement", "Strut Mount Replacement", "Complete Strut Assembly", "Suspension Inspection"],
     whyUs: [
@@ -306,7 +306,7 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["shock-replacement-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "cv-joint-repair-near-south-salt-lake-ut"]
+    relatedSlugs: ["shock-replacement-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
   {
     slug: "timing-belt-replacement-near-south-salt-lake-ut",
@@ -315,9 +315,9 @@ const services = [
     shortDesc: "Preventive timing belt replacement before it fails.",
     image: "/assets/timing-belt-400-DGv-XrDO.webp",
     heroImage: "/assets/timing-belt-400-DGv-XrDO.webp",
-    metaTitle: "Timing Belt Replacement Salt Lake City | Scott's Auto",
+    metaTitle: "Timing Belt Replacement South Salt Lake UT | All Makes | Scott's",
     heading: "Timing Belt Replacement Service in South Salt Lake, UT",
-    metaDesc: "Due for your 90K or 105K service? We replace the belt, water pump, and tensioner together so you only pay for the labor access once. (801) 485-4089.",
+    metaDesc: "Timing belt due for replacement? We handle belt, tensioner, idler & water pump as a complete service. Honest pricing. Call (801) 485-4089.",
     intro: "A broken timing belt can destroy an interference engine in an instant. Scott's Auto & Clutch provides timing belt replacement at manufacturer-recommended intervals. We'll inspect the full belt system and discuss what makes sense to address at the same time—since the labor overlap makes some components economical to do together.",
     specializedServices: ["Timing Belt Replacement", "Tensioner Replacement", "Idler Pulley Replacement", "Water Pump Service", "Drive Belt Replacement"],
     whyUs: [
@@ -340,7 +340,7 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["timing-chain-repair-near-south-salt-lake-ut", "water-pump-replacement-near-south-salt-lake-ut", "clutch-repair-near-south-salt-lake-ut"]
+    relatedSlugs: ["timing-chain-repair-near-south-salt-lake-ut", "water-pump-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
   {
     slug: "welding-services-near-south-salt-lake-ut",
@@ -349,9 +349,9 @@ const services = [
     shortDesc: "Automotive welding for exhaust, frame, and suspension repairs.",
     image: "/assets/welding-400-ClOrwKIX.webp",
     heroImage: "/assets/welding-400-ClOrwKIX.webp",
-    metaTitle: "Automotive Welding Salt Lake City | Scott's Auto",
+    metaTitle: "Auto Welding South Salt Lake UT | Exhaust, Frame & Custom | Scott's",
     heading: "Automotive Welding Services in South Salt Lake, UT",
-    metaDesc: "Exhaust, frame, and suspension welding in-house. Faster turnaround, often cheaper than replacing the whole component. (801) 485-4089.",
+    metaDesc: "Exhaust leaks, frame repair, or custom fab? Our shop handles automotive welding for all types of repairs. Call (801) 485-4089.",
     intro: "Scott's Auto & Clutch offers expert automotive welding services for exhaust systems, frames, and suspension components. Our in-house welding capability often means we can repair a component instead of replacing it entirely—saving you money and time.",
     specializedServices: ["Exhaust Welding", "Frame Welding", "Suspension Welding", "Custom Fabrication", "Bracket Repair"],
     whyUs: [
@@ -383,9 +383,9 @@ const services = [
     shortDesc: "Shock absorber replacement for trucks, SUVs, and cars.",
     image: "/assets/shocks-400-5JfGLf4L.webp",
     heroImage: "/assets/shocks-400-5JfGLf4L.webp",
-    metaTitle: "Shock Absorber Replacement Salt Lake City | Scott's Auto",
+    metaTitle: "Shock Replacement South Salt Lake UT | Trucks & SUVs | Scott's Auto",
     heading: "Shock Absorber Replacement in South Salt Lake, UT",
-    metaDesc: "Worn shocks lengthen your stopping distance and wear your tires unevenly. We replace in pairs for balanced handling on any vehicle type. (801) 485-4089.",
+    metaDesc: "Rough ride over bumps? We replace shocks on cars, trucks, SUVs, and lifted vehicles. South Salt Lake, UT. Call (801) 485-4089.",
     intro: "Worn shock absorbers make your vehicle less comfortable and less safe. Scott's Auto & Clutch provides shock diagnosis and replacement for all vehicle types—from daily drivers to lifted trucks. A simple bounce test at our shop can tell us a lot about your shock condition.",
     specializedServices: ["Front Shock Replacement", "Rear Shock Replacement", "Truck Shock Service", "Lifted Vehicle Service", "Suspension Inspection"],
     whyUs: [
@@ -408,7 +408,7 @@ const services = [
     ],
     faq: [],
     hasGeoPages: false,
-    relatedSlugs: ["strut-replacement-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "cv-joint-repair-near-south-salt-lake-ut"]
+    relatedSlugs: ["strut-replacement-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
   {
     slug: "complete-auto-service-near-south-salt-lake-ut",
@@ -417,9 +417,9 @@ const services = [
     shortDesc: "Full-service automotive repair for all makes and models.",
     image: "/assets/complete-auto-400-DKNHQ0l2.webp",
     heroImage: "/assets/complete-auto-400-DKNHQ0l2.webp",
-    metaTitle: "Full-Service Auto Repair Salt Lake City | Scott's Auto",
+    metaTitle: "Complete Auto Service South Salt Lake UT | All Makes | Scott's Auto",
     heading: "Complete Auto Repair & Maintenance in South Salt Lake, UT",
-    metaDesc: "Beyond the drivetrain — oil, A/C, diagnostics, emissions, and tune-ups. One shop for everything your car needs. Walk-ins welcome. (801) 485-4089.",
+    metaDesc: "Oil changes, engine diagnostics, A/C, emissions & safety inspections for all makes and models. Trusted since 1990. Call (801) 485-4089.",
     intro: "Beyond our clutch and drivetrain specialties, Scott's Auto & Clutch provides complete automotive repair and maintenance for all makes and models. From oil changes to engine diagnostics, we're your one-stop shop for keeping your vehicle running reliably.",
     specializedServices: ["Oil Change", "Engine Diagnostics", "A/C Repair", "Emissions Inspection", "Safety Inspection", "Fluid Services", "Belt Replacement", "Hose Replacement", "Battery Service", "Tune-Up"],
     whyUs: [

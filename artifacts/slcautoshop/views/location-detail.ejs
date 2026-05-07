@@ -20,9 +20,9 @@
     <h2><% if (!location.isHome) { %>Just <%= location.driveTime %> from <%= location.name %><% } else { %>Your South Salt Lake Auto Shop<% } %></h2>
     <div class="loc-shop-grid">
       <div class="loc-shop-info">
-        <p><%= location.whyChooseUs %></p>
+        <p><%- linkifyServices(location.whyChooseUs) %></p>
         <% if (locSeo && locSeo.keywordIntro) { %>
-        <p style="margin-top:1rem"><%= locSeo.keywordIntro %></p>
+        <p style="margin-top:1rem"><%- linkifyServices(locSeo.keywordIntro) %></p>
         <% } %>
         <% if (locSeo && locSeo.routeInfo) { %>
         <p style="margin-top:1rem"><strong>Getting here:</strong> <%= locSeo.routeInfo %></p>
@@ -118,7 +118,7 @@
     <div class="loc-common-needs">
       <% locSeo.commonNeeds.forEach(need => { %>
       <div class="loc-need-item">
-        <strong><%= need.service %>:</strong> <%= need.context %>
+        <strong><%- linkifyServices(need.service) %>:</strong> <%- linkifyServices(need.context) %>
       </div>
       <% }) %>
     </div>

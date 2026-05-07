@@ -71,6 +71,22 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 // Shared locals (available in all templates)
+const SERVICE_LINK_TERMS = [
+  ['catalytic converter', '/services/catalytic-converter-service-near-south-salt-lake-ut'],
+  ['clutch replacement',  '/services/clutch-repair-near-south-salt-lake-ut'],
+  ['clutch repair',       '/services/clutch-repair-near-south-salt-lake-ut'],
+  ['brake service',       '/services/brake-service-near-south-salt-lake-ut'],
+  ['brake repair',        '/services/brake-service-near-south-salt-lake-ut'],
+  ['CV joint',            '/services/cv-joint-repair-near-south-salt-lake-ut'],
+  ['CV axle',             '/services/cv-joint-repair-near-south-salt-lake-ut'],
+  ['timing chain',        '/services/timing-chain-repair-near-south-salt-lake-ut'],
+  ['timing belt',         '/services/timing-belt-replacement-near-south-salt-lake-ut'],
+  ['water pump',          '/services/water-pump-replacement-near-south-salt-lake-ut'],
+  ['shock absorber',      '/services/shock-replacement-near-south-salt-lake-ut'],
+  ['strut',               '/services/strut-replacement-near-south-salt-lake-ut'],
+  ['exhaust',             '/services/exhaust-repair-near-south-salt-lake-ut'],
+];
+
 app.use((req, res, next) => {
   res.locals.site = site;
   res.locals.cssVer = CSS_VER;
@@ -79,6 +95,26 @@ app.use((req, res, next) => {
   res.locals.allSymptoms = symptoms;
   res.locals.allVehicleBrands = vehicleBrands;
   res.locals.allGeoPages = geoPages;
+
+  const usedTerms = new Set();
+  res.locals.linkifyServices = (text) => {
+    if (!text) return '';
+    let result = text;
+    for (const [term, url] of SERVICE_LINK_TERMS) {
+      if (usedTerms.has(term)) continue;
+      const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`\\b${escaped}\\b`, 'i');
+      const match = regex.exec(result);
+      if (match) {
+        result = result.slice(0, match.index) +
+          `<a href="${url}">${match[0]}</a>` +
+          result.slice(match.index + match[0].length);
+        usedTerms.add(term);
+      }
+    }
+    return result;
+  };
+
   next();
 });
 
@@ -148,8 +184,8 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.render('home', {
     activePage: 'home',
-    metaTitle: "Auto Repair Salt Lake City | Scott's Auto & Clutch",
-    metaDesc: "Family-owned South Salt Lake shop. Clutch, brakes, transmission, and full service for all makes and models. Free estimates. (801) 485-4089.",
+    metaTitle: "Auto Repair South Salt Lake UT | Since 1990 | Scott's Auto & Clutch",
+    metaDesc: "Family-owned shop serving the Salt Lake Valley since 1990. Clutch repair, brakes, CV axles, transmissions & more. Free estimates. Call (801) 485-4089.",
     canonical: '/',
     structuredData: {
       "@context": "https://schema.org",
@@ -293,8 +329,8 @@ app.get('/contact', (req, res) => {
 app.get('/services', (req, res) => {
   res.render('services-index', {
     activePage: 'services',
-    metaTitle: "Auto Repair Services Salt Lake City | Scott's Auto & Clutch",
-    metaDesc: "Full-service mechanic work in South Salt Lake. From oil changes to clutch replacement, drivetrain, exhaust, cooling, and suspension. All makes, one shop.",
+    metaTitle: "Auto Repair Services South Salt Lake UT | Scott's Auto & Clutch",
+    metaDesc: "Clutch repair, brake service, CV joints, timing chains, exhaust & more. All makes and models. Honest pricing, free diagnosis. Call (801) 485-4089.",
     canonical: '/services',
     structuredData: [
       {
@@ -366,7 +402,7 @@ app.get('/services/:slug', (req, res) => {
           "telephone": site.phone,
           "address": { "@type": "PostalAddress", "streetAddress": site.address, "addressLocality": site.city, "addressRegion": site.state, "postalCode": site.zip, "addressCountry": "US" }
         },
-        "areaServed": { "@type": "State", "name": "Utah" }
+        "areaServed": { "@type": "City", "name": "South Salt Lake, UT" }
       },
       {
         "@context": "https://schema.org",
