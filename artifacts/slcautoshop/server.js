@@ -421,7 +421,7 @@ app.get('/services/:slug', (req, res) => {
         mainService: mainService || null,
         pageFaqs: [],
         faqTitle: serviceGeo.serviceFullName + ' Near ' + serviceGeo.locationName,
-        pageTestimonials: pickReviews(1 + Math.floor(Math.random() * 2)),
+        pageTestimonials: pickReviews(2 + Math.floor(Math.random() * 2)),
         structuredData: [
           businessSchema,
           {

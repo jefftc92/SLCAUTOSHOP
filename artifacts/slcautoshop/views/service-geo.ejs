@@ -19,12 +19,12 @@
   </div>
 </section>
 
+<% if (geo.hasLocalContext) { %>
+
 <section class="content-section">
   <div class="container">
     <h2>Why <%= geo.locationName %> Drivers Trust Us for <%= geo.serviceFullName %></h2>
-    <div class="prose">
-      <p><%= geo.localContent %></p>
-    </div>
+    <div class="prose"><p><%= geo.localContent %></p></div>
     <div class="visit-grid" style="margin-top:2rem">
       <div class="visit-detail"><h3>Distance from <%= geo.locationName %></h3><p><%= geo.distance %> (<%= geo.driveTime %> drive)</p></div>
       <div class="visit-detail"><h3>Hours</h3><p><%= site.hoursShort %></p></div>
@@ -42,12 +42,76 @@
   </div>
 </section>
 
+<% } else { %>
+
 <section class="content-section">
+  <div class="container">
+    <div class="visit-grid">
+      <div class="visit-detail"><h3>Distance from <%= geo.locationName %></h3><p><%= geo.distance %> (<%= geo.driveTime %> drive)</p></div>
+      <div class="visit-detail"><h3>Hours</h3><p><%= site.hoursShort %></p></div>
+      <div class="visit-detail"><h3>Since 1990</h3><p>Serving the Salt Lake Valley for 36+ years</p></div>
+    </div>
+  </div>
+</section>
+
+<% } %>
+
+<% if (mainService && mainService.specializedServices && mainService.specializedServices.length) { %>
+<section class="content-section<%= geo.hasLocalContext ? '' : ' alt-bg' %>">
+  <div class="container">
+    <h2><%= geo.serviceFullName %> — What We Do</h2>
+    <p class="section-subtitle">Every job starts with a diagnosis. <a href="/services/<%= geo.mainServiceSlug %>">See our full <%= geo.serviceName.toLowerCase() %> service page</a> for complete details.</p>
+    <div class="brand-tags" style="margin-top:1.25rem">
+      <% mainService.specializedServices.forEach(s => { %>
+      <span class="tag"><%= s %></span>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<% if (mainService && mainService.process && mainService.process.length) { %>
+<section class="content-section<%= geo.hasLocalContext ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2>How <%= geo.serviceFullName %> Works</h2>
+    <div class="values-grid" style="margin-top:1.5rem">
+      <% mainService.process.forEach(p => { %>
+      <div class="value-card">
+        <h3>Step <%= p.step %>: <%= p.title %></h3>
+        <p><%= p.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<% if (mainService && mainService.commonIssues && mainService.commonIssues.length) { %>
+<section class="content-section<%= geo.hasLocalContext ? '' : ' alt-bg' %>">
+  <div class="container">
+    <h2>Common <%= geo.serviceFullName %> Issues We Fix</h2>
+    <p class="section-subtitle">We diagnose before we recommend. You'll know exactly what's wrong and why before any work begins.</p>
+    <div class="issues-grid">
+      <% mainService.commonIssues.forEach(issue => { %>
+      <div class="issue-card">
+        <h3><%= issue.title %></h3>
+        <p><%= issue.desc %></p>
+        <% if (issue.symptomSlug) { %>
+        <a href="/symptoms/<%= issue.symptomSlug %>" style="font-size:.875rem;margin-top:.5rem;display:inline-block">Learn more →</a>
+        <% } %>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<section class="content-section<%= geo.hasLocalContext ? ' alt-bg' : '' %>">
   <div class="container">
     <h2>Getting Here from <%= geo.locationName %></h2>
     <div class="prose" style="max-width:720px">
       <p><%= geo.directions %></p>
-      <p>Our address is <strong>144 W Crystal Ave, Salt Lake City, UT 84117</strong>. We open at 8 AM Monday through Friday. Many <%= geo.locationName %> customers drop off in the morning and pick up the same day — call ahead and we'll tell you whether your job qualifies.</p>
+      <p>Our address is <strong>144 W Crystal Ave, Salt Lake City, UT 84117</strong>. We open at 8 AM Monday through Friday.</p>
     </div>
     <div class="visit-grid" style="margin-top:1.5rem">
       <div class="visit-detail"><h3>Address</h3><p>144 W Crystal Ave<br>Salt Lake City, UT 84117</p></div>
@@ -57,17 +121,10 @@
   </div>
 </section>
 
-<section class="content-section">
-  <div class="container">
-    <h2>Our <%= geo.serviceFullName %> Approach</h2>
-    <p>Every <%= geo.serviceName.toLowerCase() %> job is diagnosed before any work begins, so you only pay for what your vehicle actually needs. <a href="/services/<%= geo.mainServiceSlug %>">See our full <%= geo.serviceName.toLowerCase() %> diagnostic and repair process here.</a></p>
-  </div>
-</section>
-
 <% if (mainService && mainService.whyUs && mainService.whyUs.length) { %>
-<section class="content-section alt-bg">
+<section class="content-section<%= geo.hasLocalContext ? '' : ' alt-bg' %>">
   <div class="container">
-    <h2>Why <%= geo.locationName %> Drivers Choose Us</h2>
+    <h2>Why Choose Scott's for <%= geo.serviceFullName %></h2>
     <div class="values-grid">
       <% mainService.whyUs.forEach(w => { %>
       <div class="value-card">
@@ -75,6 +132,10 @@
         <p><%= w.desc %></p>
       </div>
       <% }) %>
+    </div>
+    <div class="hero-buttons" style="margin-top:2rem">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
     </div>
   </div>
 </section>

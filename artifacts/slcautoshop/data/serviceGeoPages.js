@@ -80,6 +80,7 @@ const CONTENT = {
     serviceName: 'Brake Service',
     serviceFullName: 'Brake Repair & Service',
     mainSlug: 'brake-service-near-south-salt-lake-ut',
+    hasLocalContext: true,
     cities: {
       'sugar-house': {
         intro: 'Sugar House\'s hilly terrain and tight residential streets put brake systems through daily stress that flat-valley drivers rarely experience. We\'re 3 miles south — about 5 minutes down Highland Drive.',
@@ -1411,6 +1412,7 @@ Object.entries(CONTENT).forEach(([serviceKey, svc]) => {
       mainServiceSlug: svc.mainSlug,
       serviceName: svc.serviceName,
       serviceFullName: svc.serviceFullName,
+      hasLocalContext: !!svc.hasLocalContext,
       locationName: city.name,
       citySlug: city.slug,
       distance: city.distance,

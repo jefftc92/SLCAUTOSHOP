@@ -70,10 +70,10 @@ const services = [
     intro: "Scott's Auto & Clutch Repair provides expert CV joint and axle repair for all makes and models. If you hear clicking when turning or feel vibration when accelerating, your CV joints may need attention. Our experienced mechanics will diagnose the issue accurately and get you back on the road safely.",
     specializedServices: ["CV Joint Replacement", "CV Axle Replacement", "CV Boot Replacement", "Axle Seal Replacement", "Drivetrain Inspection"],
     whyUs: [
-      { title: "Accurate Diagnosis", desc: "We pinpoint the exact source of the clicking or vibration before recommending any repair—avoiding unnecessary axle replacements." },
-      { title: "Quality Parts", desc: "We use OEM-quality CV axles and boots for durable, lasting repairs." },
-      { title: "Fair Pricing", desc: "Upfront quotes with no hidden charges. You know the cost before we start." },
-      { title: "Quick Turnaround", desc: "Most CV joint repairs are completed the same day." }
+      { title: "Pinpoint Diagnosis", desc: "We identify whether it's the inner or outer joint, which side, and whether the boot is still intact before recommending an axle replacement." },
+      { title: "Boot Inspection Included", desc: "A torn boot caught early means a boot-only repair instead of a full axle. We check all boots on every CV inspection." },
+      { title: "OEM-Quality Axles", desc: "We use OEM-specification CV axles and joints — not cheap offshore units that wear out faster and develop grease leaks prematurely." },
+      { title: "Same-Day on Most Vehicles", desc: "Most CV joint and axle repairs are completed the same day you bring the vehicle in." }
     ],
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about clicking when turning, vibration, or grease you've noticed on the inside of your wheel." },
@@ -109,10 +109,10 @@ const services = [
     intro: "Your brakes are your vehicle's most important safety system. Scott's Auto & Clutch Repair provides complete brake service for all makes and models. If you hear squeaking, grinding, or feel a soft pedal, bring it in for a thorough inspection—we'll tell you exactly what's needed and why.",
     specializedServices: ["Brake Pad Replacement", "Rotor Resurfacing", "Rotor Replacement", "Brake Caliper Service", "Brake Fluid Flush", "Brake Line Repair", "Emergency Brake Service", "ABS Diagnostics"],
     whyUs: [
-      { title: "Safety First", desc: "We never cut corners on brake repairs. Brakes are too important to guess on—we diagnose thoroughly before recommending anything." },
-      { title: "Complete Inspection", desc: "We inspect the entire brake system, not just what's making noise. Calipers, fluid, lines, and hardware all get checked." },
-      { title: "Honest Assessment", desc: "We measure pad thickness and rotor runout before recommending replacement. If your rotors can be saved, we'll tell you." },
-      { title: "Fair Pricing", desc: "Transparent estimates with no surprise charges. You'll know the full scope before work begins." }
+      { title: "Measure Before Replacing", desc: "We measure pad thickness and rotor runout before recommending replacement. If rotors are within spec, we say so and save you the cost." },
+      { title: "Full System Inspection", desc: "We inspect pads, rotors, calipers, fluid, and brake lines in one look — not just what's making noise. Problems caught together cost less to fix." },
+      { title: "Pad Compound Matching", desc: "Canyon driving, heavy towing, and daily city use each call for a different pad compound. We match the spec to how you actually drive." },
+      { title: "Hydraulic Check Every Time", desc: "Every brake job includes a fluid condition check. Degraded brake fluid has a lower boiling point — a real risk on hard stops and canyon descents." }
     ],
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about squeaking, grinding, vibration, or soft pedal feel." },
@@ -147,10 +147,10 @@ const services = [
     intro: "A failing timing chain can cause catastrophic engine damage if not addressed promptly. Scott's Auto & Clutch Repair provides expert timing chain diagnosis and replacement for all makes and models. If you hear rattling on startup or have timing-related fault codes, don't wait—early diagnosis is far less expensive than the alternative.",
     specializedServices: ["Timing Chain Replacement", "Tensioner Replacement", "Guide Replacement", "Timing Cover Gasket", "Oil Pump Chain Service"],
     whyUs: [
-      { title: "Engine Experts", desc: "Timing chain work requires precision. Our mechanics have decades of experience on a wide range of engines." },
-      { title: "Thorough Diagnosis", desc: "We assess the entire timing system—chain, tensioner, guides, and VVT components—before recommending what needs to be replaced." },
-      { title: "Prevent Costly Damage", desc: "A jumped or broken timing chain can destroy an engine. Early diagnosis protects your investment." },
-      { title: "Fair Pricing", desc: "Detailed estimates with no hidden charges before we start." }
+      { title: "Engine Specialists", desc: "Timing chain work requires precision. Our mechanics have decades of hands-on experience diagnosing and replacing timing systems across a wide range of engines." },
+      { title: "Full System Assessment", desc: "We assess the chain, tensioner, guides, and VVT components together — replacing only the chain while leaving worn guides leads to repeat failure." },
+      { title: "Prevent Catastrophic Damage", desc: "A jumped or broken timing chain can destroy an engine. Early diagnosis is far less expensive than the alternative." },
+      { title: "Confirm Before Replacing", desc: "We verify chain stretch with measurement and cam/crank fault codes before recommending the job. Valve train noise and oil pressure issues can mimic a failing chain." }
     ],
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about rattling on startup, check engine light, or loss of power." },
@@ -182,10 +182,10 @@ const services = [
     intro: "A failing water pump can lead to engine overheating and serious damage in a very short time. Scott's Auto & Clutch Repair provides water pump diagnosis and replacement for all makes and models, along with complete cooling system inspection to make sure the underlying issue is fully resolved.",
     specializedServices: ["Water Pump Replacement", "Coolant Flush", "Thermostat Replacement", "Cooling System Pressure Test", "Radiator Hose Replacement"],
     whyUs: [
-      { title: "Prevent Overheating", desc: "We catch cooling system problems before they cause engine damage. An overheating engine can cause far more expensive repairs." },
-      { title: "Complete Cooling Inspection", desc: "We inspect the entire cooling system as part of any water pump service—not just the pump in isolation." },
-      { title: "Quality Parts", desc: "We use quality replacement water pumps matched to your vehicle's specifications." },
-      { title: "Honest Estimates", desc: "You'll know the full scope and cost before we start. No surprises." }
+      { title: "Pressure-Test First", desc: "We pressure-test the cooling system before replacing the pump — confirming the pump is the source, not the thermostat, hose, or head gasket." },
+      { title: "Complete Cooling Inspection", desc: "We inspect the entire cooling system as part of any water pump service — not just the pump in isolation." },
+      { title: "Labor Overlap Planning", desc: "Water pump replacement often shares access with the timing belt. If both are near their service intervals, combining them saves significant labor cost." },
+      { title: "Verify Before Return", desc: "After replacement we pressure-test again and confirm operating temperature is stable before the vehicle leaves the shop." }
     ],
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about overheating, coolant loss, or unusual noises from the engine area." },
@@ -252,9 +252,9 @@ const services = [
     specializedServices: ["Catalytic Converter Replacement", "O2 Sensor Replacement", "Anti-Theft Shield Installation", "Emissions Repair", "Exhaust Welding"],
     whyUs: [
       { title: "Root Cause Diagnosis", desc: "We find out why the converter is failing before recommending replacement. Installing a new converter on an engine with an underlying issue will fail the new part just as fast." },
-      { title: "Theft Protection", desc: "We install anti-theft shields to protect your catalytic converter—a common target for theft in the Salt Lake Valley." },
+      { title: "Theft Protection", desc: "We install anti-theft shields to protect your catalytic converter — a common target for theft in the Salt Lake Valley." },
       { title: "Emissions Compliance", desc: "We use converters that meet Utah emissions requirements and verify the vehicle passes before returning it." },
-      { title: "Fair Pricing", desc: "Honest, itemized estimates before any work begins." }
+      { title: "Check Upstream First", desc: "We test oxygen sensors and fuel trim before recommending a converter. An upstream engine issue can contaminate a new converter within months of installation." }
     ],
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about a check engine light, sulfur smell, failed emissions test, or stolen converter." },
@@ -286,10 +286,10 @@ const services = [
     intro: "Worn struts compromise your vehicle's handling, braking distance, and ride comfort. Scott's Auto & Clutch Repair provides strut diagnosis and replacement for all makes and models. If your car bounces excessively, nose-dives under braking, or the ride has gotten noticeably harsher, bring it in for an inspection.",
     specializedServices: ["Front Strut Replacement", "Rear Strut Replacement", "Strut Mount Replacement", "Complete Strut Assembly", "Suspension Inspection"],
     whyUs: [
-      { title: "Safety Focused", desc: "Worn struts increase stopping distance and reduce handling precision—both safety concerns we take seriously." },
-      { title: "Full Suspension Inspection", desc: "We inspect related suspension components alongside the struts, so you have a complete picture of your vehicle's suspension health." },
-      { title: "Alignment After Replacement", desc: "Strut replacement changes suspension geometry. We always recommend alignment after strut work to protect your tires." },
-      { title: "All Vehicle Types", desc: "Cars, trucks, and SUVs—we service all makes and models." }
+      { title: "Braking Distance Impact", desc: "Worn struts increase stopping distance and reduce emergency handling response. We explain the real-world safety difference, not just ride comfort." },
+      { title: "Full Suspension Inspection", desc: "We inspect related suspension components alongside the struts so you have a complete picture of your vehicle's suspension health." },
+      { title: "Alignment After Replacement", desc: "Strut replacement changes suspension geometry. We always recommend alignment after strut work to protect your tires and handling." },
+      { title: "Mount and Spring Assessment", desc: "When struts are out, we assess the mounts and springs at the same time — the labor overlaps, and these components often need attention together." }
     ],
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about bouncing, nose-diving under braking, or a noticeably harsher ride." },
@@ -321,10 +321,10 @@ const services = [
     intro: "A broken timing belt can destroy an interference engine in an instant. Scott's Auto & Clutch Repair provides timing belt replacement at manufacturer-recommended intervals. We'll inspect the full belt system and discuss what makes sense to address at the same time—since the labor overlap makes some components economical to do together.",
     specializedServices: ["Timing Belt Replacement", "Tensioner Replacement", "Idler Pulley Replacement", "Water Pump Service", "Drive Belt Replacement"],
     whyUs: [
-      { title: "Preventive Approach", desc: "We replace timing belts on schedule to protect your engine before a failure happens—not after." },
-      { title: "Informed Recommendations", desc: "We'll explain which related components make sense to do at the same time based on their condition and your vehicle's mileage—no pressure." },
-      { title: "All Makes", desc: "We service all vehicles with timing belt engines, domestic and import." },
-      { title: "Clear Pricing", desc: "You'll know the full estimate and what each item costs before we start any work." }
+      { title: "Preventive Approach", desc: "We replace timing belts on schedule to protect your engine before a failure happens — not after a belt breaks and leaves you stranded." },
+      { title: "Informed Recommendations", desc: "We explain which related components make sense to replace at the same time based on their condition and your vehicle's mileage. No pressure either way." },
+      { title: "Interference Engine Expertise", desc: "Interference engines are the ones where a broken belt destroys valves and pistons. We know which vehicles have them and explain the stakes clearly." },
+      { title: "Component Combination Planning", desc: "The water pump and tensioners share the same access as the timing belt. We tell you what makes sense to combine based on mileage and what we find." }
     ],
     process: [
       { step: 1, title: "Check Interval", desc: "Tell us your mileage—we'll check against your vehicle's manufacturer-recommended replacement schedule." },
@@ -355,10 +355,10 @@ const services = [
     intro: "Scott's Auto & Clutch Repair offers expert automotive welding services for exhaust systems, frames, and suspension components. Our in-house welding capability often means we can repair a component instead of replacing it entirely—saving you money and time.",
     specializedServices: ["Exhaust Welding", "Frame Welding", "Suspension Welding", "Custom Fabrication", "Bracket Repair"],
     whyUs: [
-      { title: "In-House Capability", desc: "No need to visit a separate welding shop. We handle it here, which means faster turnaround and better communication." },
-      { title: "Repair Over Replace", desc: "We look for weld-repair solutions before recommending full component replacement whenever it's structurally sound to do so." },
-      { title: "Experienced Welders", desc: "Decades of automotive welding experience across exhaust, structural, and fabrication work." },
-      { title: "Quick Turnaround", desc: "Most welding repairs are completed the same day." }
+      { title: "In-House Capability", desc: "No need to visit a separate welding shop. We handle it here, which means faster turnaround and better communication throughout the repair." },
+      { title: "Repair Over Replace", desc: "We look for weld-repair solutions before recommending full component replacement — whenever it's structurally sound to do so." },
+      { title: "Experienced Welders", desc: "Decades of automotive welding experience across exhaust systems, structural components, and custom fabrication work." },
+      { title: "Structural Safety Judgment", desc: "We only weld-repair structural components when the base metal is sound enough to hold. If a weld repair would be unsafe, we say so and explain why." }
     ],
     process: [
       { step: 1, title: "Describe the Issue", desc: "Tell us what needs attention—exhaust, frame, a broken bracket, or custom work." },
@@ -389,10 +389,10 @@ const services = [
     intro: "Worn shock absorbers make your vehicle less comfortable and less safe. Scott's Auto & Clutch Repair provides shock diagnosis and replacement for all vehicle types—from daily drivers to lifted trucks. A simple bounce test at our shop can tell us a lot about your shock condition.",
     specializedServices: ["Front Shock Replacement", "Rear Shock Replacement", "Truck Shock Service", "Lifted Vehicle Service", "Suspension Inspection"],
     whyUs: [
-      { title: "All Vehicle Types", desc: "Cars, trucks, SUVs, and lifted vehicles—we have experience with a wide range of configurations." },
-      { title: "Honest Diagnosis", desc: "We bounce-test and visually inspect before recommending replacement. We don't replace shocks that still have life in them." },
-      { title: "Paired Replacement", desc: "We recommend replacing shocks in pairs per axle to keep handling balanced on both sides." },
-      { title: "Fair Pricing", desc: "Clear estimates with no surprises." }
+      { title: "Lifted Vehicle Experience", desc: "Lifted trucks and modified suspensions need shock specs matched to the lift height and load. We've worked on enough lifted vehicles to know where the common failure points are." },
+      { title: "Bounce-Test Diagnosis", desc: "We bounce-test and visually inspect before recommending replacement. We don't replace shocks that still have serviceable life in them." },
+      { title: "Paired Axle Replacement", desc: "We recommend replacing shocks in pairs per axle to keep handling balanced — one worn, one new creates uneven response." },
+      { title: "Handling Verification", desc: "After replacing shocks, we verify handling balance with a test drive — not just a visual check that the parts are correctly installed." }
     ],
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about excessive bouncing, swaying in turns, or a noticeably rough ride." },
