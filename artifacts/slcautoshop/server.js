@@ -100,14 +100,20 @@ app.use((req, res, next) => {
   res.locals.linkifyServices = (text) => {
     if (!text) return '';
     let result = text;
+    // Use the city-specific clutch geo URL when on a location page
+    const clutchOverride = res.locals._clutchGeoSlug;
     for (const [term, url] of SERVICE_LINK_TERMS) {
       if (usedTerms.has(term)) continue;
+      let linkUrl = url;
+      if (clutchOverride && (term === 'clutch repair' || term === 'clutch replacement')) {
+        linkUrl = '/services/' + clutchOverride;
+      }
       const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       const regex = new RegExp(`\\b${escaped}\\b`, 'i');
       const match = regex.exec(result);
       if (match) {
         result = result.slice(0, match.index) +
-          `<a href="${url}">${match[0]}</a>` +
+          `<a href="${linkUrl}">${match[0]}</a>` +
           result.slice(match.index + match[0].length);
         usedTerms.add(term);
       }
@@ -488,6 +494,8 @@ app.get('/locations/:slug', (req, res) => {
   // Find the city-specific clutch geo page (e.g. clutch-repair-near-murray-ut)
   const citySlug = location.slug.replace(/-ut-auto-repair$/, '');
   const clutchGeo = geoPages.find(g => g.slug === 'clutch-repair-near-' + citySlug + '-ut') || null;
+  // Expose to linkifyServices so inline body-text links also use the geo URL
+  res.locals._clutchGeoSlug = clutchGeo ? clutchGeo.slug : null;
 
   res.render('location-detail', {
     activePage: 'locations',

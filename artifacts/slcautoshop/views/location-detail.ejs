@@ -101,9 +101,9 @@
           <span class="landmark-distance"><%= lm.distance %></span>
         </div>
         <% if (lm.description) { %>
-        <p class="landmark-desc"><%= lm.description %></p>
+        <p class="landmark-desc"><%- linkifyServices(lm.description) %></p>
         <% } %>
-        <p class="landmark-tip"><%= lm.tip %></p>
+        <p class="landmark-tip"><%- linkifyServices(lm.tip) %></p>
       </div>
       <% }) %>
     </div>
