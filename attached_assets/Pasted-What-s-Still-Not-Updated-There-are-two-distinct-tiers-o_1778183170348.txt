@@ -1,0 +1,23 @@
+What's Still Not Updated ⚠️
+There are two distinct tiers of pages and they are clearly on different templates — and only one template got updated. Here's the split:
+Pages on the NEW template (updated, clean):
+
+Geo pages (/services/clutch-repair-near-[city]-ut)
+Main service pages (/services/brake-service-near-south-salt-lake-ut)
+Symptom pages
+Location pages
+Mercedes-Benz page
+
+Pages still on the OLD template (not updated):
+
+Toyota page — title is still "Salt Lake City Toyota Repair: SLC Auto Shop - Expert", logo alt text still "Scott's Auto and Clutch logo - Clutch Repair and Auto Service in South Salt Lake, Utah", service links still point to /services/clutch-repair-south-salt-lake-ut (old pattern without -near-)
+Homepage — title tag still "Auto Repair Salt Lake City | Scott's Auto & Clutch Since 1990", logo alt text still "Scott's Auto and Clutch logo"
+About page — title still "Salt Lake City Mechanics: About SLC Auto Shop - Experts", H1 says "SLC Auto Shop," body copy says "SLC Auto Shop" throughout, logo alt text still old
+
+The about page is actually the most concerning — the business is called "SLC Auto Shop" throughout the entire page body, which doesn't match the business name anywhere else on the site. That's a real inconsistency Google will notice.
+
+What to Tell Replit
+Three specific fixes needed:
+1. Vehicle brand template — update the page title pattern from "[City] [Brand] Repair: SLC Auto Shop - Expert" to "[Brand] Repair Salt Lake City UT | Scott's Auto & Clutch Repair". Update logo alt text to "Scott's Auto & Clutch Repair logo". Update service links from /services/[service]-south-salt-lake-ut to /services/[service]-near-south-salt-lake-ut.
+2. Homepage — update the <title> tag from "Auto Repair Salt Lake City | Scott's Auto & Clutch Since 1990" to "Auto Mechanic & Car Repair South Salt Lake | Scott's Auto & Clutch Repair" to match the H1. Update logo alt text.
+3. About page — replace every instance of "SLC Auto Shop" in the title, H1, and body copy with "Scott's Auto & Clutch Repair". Update the page title from "Salt Lake City Mechanics: About SLC Auto Shop - Experts" to "About Scott's Auto & Clutch Repair | South Salt Lake, UT".
