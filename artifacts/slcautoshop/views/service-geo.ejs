@@ -2,9 +2,9 @@
 
 <%- include("partials/breadcrumbs", {breadcrumbs: [
   {label:'Home',url:'/'},
-  {label:'Services',url:'/services'},
-  {label:geo.serviceFullName,url:'/services/'+geo.mainServiceSlug},
-  {label:geo.locationName}
+  {label:'Service Areas',url:'/locations'},
+  {label:geo.locationName,url:'/locations/'+geo.citySlug+'-ut-auto-repair'},
+  {label:geo.serviceFullName+' Near '+geo.locationName}
 ]}) %>
 
 <section class="page-hero">

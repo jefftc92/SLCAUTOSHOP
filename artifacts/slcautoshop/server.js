@@ -429,8 +429,8 @@ app.get('/services/:slug', (req, res) => {
             "@type": "BreadcrumbList",
             "itemListElement": [
               { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
-              { "@type": "ListItem", "position": 2, "name": "Services", "item": site.domain + "/services" },
-              { "@type": "ListItem", "position": 3, "name": serviceGeo.serviceFullName, "item": site.domain + "/services/" + serviceGeo.mainServiceSlug },
+              { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": site.domain + "/locations" },
+              { "@type": "ListItem", "position": 3, "name": serviceGeo.locationName, "item": site.domain + "/locations/" + serviceGeo.citySlug + "-ut-auto-repair" },
               { "@type": "ListItem", "position": 4, "name": serviceGeo.serviceFullName + ' Near ' + serviceGeo.locationName, "item": site.domain + "/services/" + serviceGeo.slug }
             ]
           }
