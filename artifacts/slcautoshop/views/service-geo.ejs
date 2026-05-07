@@ -23,66 +23,81 @@
   </div>
 </section>
 
-<% if (geo.hasLocalContext) { %>
-
+<!-- ── Section 1: Info + Map (white) ─────────────────────────────────────── -->
 <section class="content-section">
   <div class="container">
+    <% if (geo.hasLocalContext) { %>
     <h2>Why <%= geo.locationName %> Drivers Trust Us for <%= geo.serviceFullName %></h2>
-    <div class="prose"><p><%= geo.localContent %></p></div>
-    <div class="visit-grid" style="margin-top:2rem">
-      <div class="visit-detail"><h3>Distance from <%= geo.locationName %></h3><p><%= geo.distance %> (<%= geo.driveTime %> drive)</p></div>
-      <div class="visit-detail"><h3>Hours</h3><p><%= site.hoursShort %></p></div>
-      <div class="visit-detail"><h3>Experience</h3><p>Serving the Salt Lake Valley since 1990</p></div>
+    <div class="prose" style="max-width:700px"><p><%= geo.localContent %></p></div>
+    <% if (geo.localTip) { %>
+    <div class="issue-card" style="max-width:700px;margin-top:1.25rem;border-left:4px solid var(--c-primary)">
+      <p style="font-size:.95rem;line-height:1.75;margin:0"><strong>Local tip:</strong> <%= geo.localTip %></p>
+    </div>
+    <% } %>
+    <% } else { %>
+    <h2><%= geo.serviceFullName %> Near <%= geo.locationName %></h2>
+    <% } %>
+
+    <div class="loc-shop-grid" style="margin-top:1.75rem">
+      <div class="loc-shop-info">
+        <% if (!geo.hasLocalContext) { %>
+        <p><%= geo.directions %></p>
+        <% } else { %>
+        <p><strong>Getting here:</strong> <%= geo.directions %></p>
+        <% } %>
+        <div class="loc-shop-details">
+          <div class="loc-detail-item">
+            <span class="loc-detail-label">Address</span>
+            <span class="loc-detail-value"><a href="<%= site.directionsUrl %>" target="_blank" rel="noopener"><%= site.fullAddress %></a></span>
+          </div>
+          <div class="loc-detail-item">
+            <span class="loc-detail-label">Hours</span>
+            <span class="loc-detail-value"><%= site.hours %></span>
+          </div>
+          <div class="loc-detail-item">
+            <span class="loc-detail-label">From <%= geo.locationName %></span>
+            <span class="loc-detail-value"><%= geo.distance %> &mdash; about <%= geo.driveTime %> drive</span>
+          </div>
+          <div class="loc-detail-item">
+            <span class="loc-detail-label">In Business Since</span>
+            <span class="loc-detail-value">1990 — 36+ years serving the Salt Lake Valley</span>
+          </div>
+        </div>
+        <div class="loc-shop-actions">
+          <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions</a>
+          <a href="tel:<%= site.phoneTel %>" class="btn btn-secondary">Call <%= site.phone %></a>
+        </div>
+      </div>
+      <div class="loc-shop-map">
+        <iframe
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84117&output=embed&hl=en&z=15"
+          width="100%"
+          height="100%"
+          style="border:0;border-radius:10px;min-height:340px"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Scott's Auto & Clutch Repair — <%= geo.locationName %> customers">
+        </iframe>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="content-section alt-bg">
-  <div class="container">
-    <h2>Local Tip for <%= geo.locationName %> Drivers</h2>
-    <div class="issue-card" style="max-width:700px">
-      <p style="font-size:1.05rem;line-height:1.7"><%= geo.localTip %></p>
-    </div>
-  </div>
-</section>
-
-<% } else { %>
-
-<section class="content-section alt-bg">
-  <div class="container">
-    <div class="visit-grid">
-      <div class="visit-detail"><h3>Distance from <%= geo.locationName %></h3><p><%= geo.distance %> (<%= geo.driveTime %> drive)</p></div>
-      <div class="visit-detail"><h3>Hours</h3><p><%= site.hoursShort %></p></div>
-      <div class="visit-detail"><h3>Since 1990</h3><p>Serving the Salt Lake Valley for 36+ years</p></div>
-    </div>
-  </div>
-</section>
-
-<% } %>
-
-<% if (mainService && mainService.specializedServices && mainService.specializedServices.length) { %>
-<section class="content-section">
-  <div class="container">
-    <h2><%= geo.serviceFullName %> — What We Do</h2>
-    <p class="section-subtitle">Every job starts with a diagnosis. <a href="/services/<%= geo.mainServiceSlug %>">See our full <%= geo.serviceName.toLowerCase() %> service page</a> for complete details.</p>
-    <div class="brand-tags" style="margin-top:1.25rem">
-      <% mainService.specializedServices.forEach(s => { %>
-      <span class="tag"><%= s %></span>
-      <% }) %>
-    </div>
-  </div>
-</section>
-<% } %>
-
+<!-- ── Section 2: How It Works (alt-bg) ──────────────────────────────────── -->
 <% if (mainService && mainService.process && mainService.process.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>How <%= geo.serviceFullName %> Works</h2>
-    <div class="values-grid" style="margin-top:1.5rem">
+    <h2>How We Handle Your <%= geo.serviceFullName %></h2>
+    <p class="section-subtitle">From the moment you call to the moment you drive away, we keep you informed every step of the way.</p>
+    <div class="process-steps-compact">
       <% mainService.process.forEach(p => { %>
-      <div class="value-card">
-        <h3>Step <%= p.step %>: <%= p.title %></h3>
-        <p><%= p.desc %></p>
+      <div class="process-step-compact">
+        <span class="step-num"><%= p.step %></span>
+        <div>
+          <h3><%= p.title %></h3>
+          <p><%= p.desc %></p>
+        </div>
       </div>
       <% }) %>
     </div>
@@ -90,6 +105,7 @@
 </section>
 <% } %>
 
+<!-- ── Section 3: Common Issues (white) ──────────────────────────────────── -->
 <% if (mainService && mainService.commonIssues && mainService.commonIssues.length) { %>
 <section class="content-section">
   <div class="container">
@@ -98,10 +114,14 @@
     <div class="issues-grid">
       <% mainService.commonIssues.forEach(issue => { %>
       <div class="issue-card">
+        <% if (issue.symptomSlug) { %>
+        <h3><a href="/symptoms/<%= issue.symptomSlug %>" class="issue-link"><%= issue.title %></a></h3>
+        <% } else { %>
         <h3><%= issue.title %></h3>
+        <% } %>
         <p><%= issue.desc %></p>
         <% if (issue.symptomSlug) { %>
-        <a href="/symptoms/<%= issue.symptomSlug %>" style="font-size:.875rem;margin-top:.5rem;display:inline-block">Learn more →</a>
+        <a href="/symptoms/<%= issue.symptomSlug %>" class="card-link-sm">See symptom details →</a>
         <% } %>
       </div>
       <% }) %>
@@ -110,23 +130,9 @@
 </section>
 <% } %>
 
-<section class="content-section alt-bg">
-  <div class="container">
-    <h2>Getting Here from <%= geo.locationName %></h2>
-    <div class="prose" style="max-width:720px">
-      <p><%= geo.directions %></p>
-      <p>Our address is <strong>144 W Crystal Ave, Salt Lake City, UT 84117</strong>. We open at 8 AM Monday through Friday.</p>
-    </div>
-    <div class="visit-grid" style="margin-top:1.5rem">
-      <div class="visit-detail"><h3>Address</h3><p>144 W Crystal Ave<br>Salt Lake City, UT 84117</p></div>
-      <div class="visit-detail"><h3>Phone</h3><p><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></p></div>
-      <div class="visit-detail"><h3>From <%= geo.locationName %></h3><p><%= geo.distance %> · <%= geo.driveTime %> drive</p></div>
-    </div>
-  </div>
-</section>
-
+<!-- ── Section 4: Why Choose Us (alt-bg) ─────────────────────────────────── -->
 <% if (mainService && mainService.whyUs && mainService.whyUs.length) { %>
-<section class="content-section">
+<section class="content-section alt-bg">
   <div class="container">
     <h2>Why Choose Scott's for <%= geo.serviceFullName %></h2>
     <div class="values-grid">
@@ -140,6 +146,26 @@
     <div class="hero-buttons" style="margin-top:2rem">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<!-- ── Section 5: What We Do — reference (white) ─────────────────────────── -->
+<% if (mainService && mainService.specializedServices && mainService.specializedServices.length) { %>
+<section class="content-section">
+  <div class="container">
+    <h2><%= geo.serviceFullName %> — What We Do</h2>
+    <% if (mainService.intro) { %>
+    <p class="section-subtitle" style="max-width:760px"><%= mainService.intro %></p>
+    <% } %>
+    <div class="brand-tags" style="margin-top:1.25rem">
+      <% mainService.specializedServices.forEach(s => { %>
+      <span class="tag"><%= s %></span>
+      <% }) %>
+    </div>
+    <div style="margin-top:1.5rem">
+      <a href="/services/<%= geo.mainServiceSlug %>" class="btn btn-outline">Full <%= geo.serviceName %> Service Details</a>
     </div>
   </div>
 </section>
