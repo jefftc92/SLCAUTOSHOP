@@ -755,18 +755,23 @@ const highVolumeBrands = new Set([
   'acura-repair-salt-lake-city-ut', 'infiniti-repair-salt-lake-city-ut',
 ]);
 
-// Returns [{path, priority, freq}] for every indexable URL on the site.
+// lastmod dates — updated when content changes, not on every deploy
+const LASTMOD_SPRINT   = '2026-05-07'; // pages touched in current SEO sprint
+const LASTMOD_STABLE   = '2025-01-15'; // vehicle brands, legal pages — not recently changed
+
+// Returns [{path, priority, freq, lastmod}] for every indexable URL on the site.
 function getSitemapEntries() {
   const entries = [];
-  const add = (path, priority = '0.8', freq = 'monthly') => entries.push({ path, priority, freq });
+  const add = (path, priority = '0.8', freq = 'monthly', lastmod = LASTMOD_SPRINT) =>
+    entries.push({ path, priority, freq, lastmod });
 
   add('/', '1.0', 'weekly');
-  add('/about', '0.7', 'monthly');
+  add('/about', '0.7', 'monthly', LASTMOD_STABLE);
   add('/contact', '0.8', 'monthly');
   add('/services', '0.9', 'weekly');
   add('/locations', '0.9', 'weekly');
   add('/symptoms', '0.9', 'weekly');
-  add('/vehicle-brands', '0.8', 'weekly');
+  add('/vehicle-brands', '0.8', 'weekly', LASTMOD_STABLE);
 
   services.forEach(s => add('/services/' + s.slug, '0.8', 'monthly'));
   geoPages.forEach(g => add('/services/' + g.slug, '0.8', 'monthly'));
@@ -774,21 +779,20 @@ function getSitemapEntries() {
   symptoms.forEach(s => add('/symptoms/' + s.slug, '0.8', 'monthly'));
   vehicleBrands.forEach(v => {
     if (defunctBrands.has(v.slug)) return;
-    add('/vehicle-brands/' + v.slug, highVolumeBrands.has(v.slug) ? '0.8' : '0.6', 'monthly');
+    add('/vehicle-brands/' + v.slug, highVolumeBrands.has(v.slug) ? '0.8' : '0.6', 'monthly', LASTMOD_STABLE);
   });
 
-  add('/privacy', '0.3', 'yearly');
-  add('/terms', '0.3', 'yearly');
+  add('/privacy', '0.3', 'yearly', LASTMOD_STABLE);
+  add('/terms', '0.3', 'yearly', LASTMOD_STABLE);
   return entries;
 }
 
 // ── Sitemap.xml ───────────────────────────────────────────────────────────────
 app.get('/sitemap.xml', (req, res) => {
   res.set('Content-Type', 'application/xml');
-  const today = new Date().toISOString().split('T')[0];
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-  getSitemapEntries().forEach(({ path, priority, freq }) => {
-    xml += `  <url><loc>${site.domain}${path}</loc><lastmod>${today}</lastmod><changefreq>${freq}</changefreq><priority>${priority}</priority></url>\n`;
+  getSitemapEntries().forEach(({ path, priority, freq, lastmod }) => {
+    xml += `  <url><loc>${site.domain}${path}</loc><lastmod>${lastmod}</lastmod><changefreq>${freq}</changefreq><priority>${priority}</priority></url>\n`;
   });
   xml += `</urlset>`;
   res.send(xml);
