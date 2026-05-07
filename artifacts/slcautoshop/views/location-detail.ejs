@@ -128,7 +128,7 @@
     <% } %>
     <div class="services-grid small" style="margin-top:2rem">
       <% services.slice(0, 6).forEach(s => { %>
-      <% var serviceUrl = (s.slug === 'clutch-repair-near-south-salt-lake-ut' && clutchGeo) ? '/services/' + clutchGeo.slug : '/services/' + s.slug; %>
+      <% var serviceUrl; if (s.slug === 'clutch-repair-near-south-salt-lake-ut' && clutchGeo) { serviceUrl = '/services/' + clutchGeo.slug; } else if (serviceGeoMap && serviceGeoMap[s.slug]) { serviceUrl = '/services/' + serviceGeoMap[s.slug]; } else { serviceUrl = '/services/' + s.slug; } %>
       <a href="<%= serviceUrl %>" class="service-card">
         <h3><%= s.name %></h3>
         <p><%= s.shortDesc %></p>

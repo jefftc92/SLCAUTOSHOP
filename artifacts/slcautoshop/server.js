@@ -13,6 +13,7 @@ const { getContent: getBrandContent } = require('./data/vehicleBrandContent');
 const { serviceFaqs, getSymptomFaqs, getLocationFaqs, getGeoFaqs } = require('./data/pageFaqs');
 const { getLocationSeoContent } = require('./data/locationSeoContent');
 const geoPages = require('./data/geoPages');
+const serviceGeoPages = require('./data/serviceGeoPages');
 const allReviews = require('./data/reviews.json');
 
 // Pick N random reviews and format them for the testimonials partial
@@ -407,6 +408,35 @@ app.get('/services/:slug', (req, res) => {
         ]
       });
     }
+    // Check service geo pages (11 services × 16 cities)
+    const serviceGeo = serviceGeoPages.find(g => g.slug === req.params.slug);
+    if (serviceGeo) {
+      const mainService = services.find(s => s.slug === serviceGeo.mainServiceSlug);
+      return res.render('service-geo', {
+        activePage: 'services',
+        metaTitle: serviceGeo.metaTitle,
+        metaDesc: serviceGeo.metaDesc,
+        canonical: '/services/' + serviceGeo.slug,
+        geo: serviceGeo,
+        mainService: mainService || null,
+        pageFaqs: [],
+        faqTitle: serviceGeo.serviceFullName + ' Near ' + serviceGeo.locationName,
+        pageTestimonials: pickReviews(1 + Math.floor(Math.random() * 2)),
+        structuredData: [
+          businessSchema,
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+              { "@type": "ListItem", "position": 2, "name": "Services", "item": site.domain + "/services" },
+              { "@type": "ListItem", "position": 3, "name": serviceGeo.serviceFullName, "item": site.domain + "/services/" + serviceGeo.mainServiceSlug },
+              { "@type": "ListItem", "position": 4, "name": serviceGeo.serviceFullName + ' Near ' + serviceGeo.locationName, "item": site.domain + "/services/" + serviceGeo.slug }
+            ]
+          }
+        ]
+      });
+    }
     return res.status(404).render('404', { metaTitle: 'Page Not Found' });
   }
 
@@ -497,6 +527,12 @@ app.get('/locations/:slug', (req, res) => {
   // Expose to linkifyServices so inline body-text links also use the geo URL
   res.locals._clutchGeoSlug = clutchGeo ? clutchGeo.slug : null;
 
+  // Build a map of mainServiceSlug → serviceGeoSlug for this city
+  const serviceGeoMap = {};
+  serviceGeoPages.filter(g => g.citySlug === citySlug).forEach(g => {
+    serviceGeoMap[g.mainServiceSlug] = g.slug;
+  });
+
   res.render('location-detail', {
     activePage: 'locations',
     metaTitle: location.metaTitle,
@@ -505,6 +541,7 @@ app.get('/locations/:slug', (req, res) => {
     location,
     locSeo,
     clutchGeo,
+    serviceGeoMap,
     pageFaqs: allLocFaqs,
     faqTitle: 'Frequently Asked Questions — ' + location.name + ' Auto Repair',
     faqAlt: false,
@@ -775,6 +812,7 @@ function getSitemapEntries() {
 
   services.forEach(s => add('/services/' + s.slug, '0.8', 'monthly'));
   geoPages.forEach(g => add('/services/' + g.slug, '0.8', 'monthly'));
+  serviceGeoPages.forEach(g => add('/services/' + g.slug, '0.7', 'monthly'));
   locations.forEach(l => add('/locations/' + l.slug, '0.9', 'monthly'));
   symptoms.forEach(s => add('/symptoms/' + s.slug, '0.8', 'monthly'));
   vehicleBrands.forEach(v => {

@@ -1,0 +1,90 @@
+<%- include('partials/header') %>
+
+<%- include("partials/breadcrumbs", {breadcrumbs: [
+  {label:'Home',url:'/'},
+  {label:'Services',url:'/services'},
+  {label:geo.serviceFullName,url:'/services/'+geo.mainServiceSlug},
+  {label:geo.locationName}
+]}) %>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('/assets/hero-600-DnXM3vMX.webp')"></div>
+  <div class="container">
+    <h1><%= geo.heading %></h1>
+    <p><%= geo.intro %></p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Why <%= geo.locationName %> Drivers Trust Us for <%= geo.serviceFullName %></h2>
+    <div class="prose">
+      <p><%= geo.localContent %></p>
+    </div>
+    <div class="visit-grid" style="margin-top:2rem">
+      <div class="visit-detail"><h3>Distance from <%= geo.locationName %></h3><p><%= geo.distance %> (<%= geo.driveTime %> drive)</p></div>
+      <div class="visit-detail"><h3>Hours</h3><p><%= site.hoursShort %></p></div>
+      <div class="visit-detail"><h3>Experience</h3><p>Serving the Salt Lake Valley since 1990</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Local Tip for <%= geo.locationName %> Drivers</h2>
+    <div class="issue-card" style="max-width:700px">
+      <p style="font-size:1.05rem;line-height:1.7"><%= geo.localTip %></p>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Getting Here from <%= geo.locationName %></h2>
+    <div class="prose" style="max-width:720px">
+      <p><%= geo.directions %></p>
+      <p>Our address is <strong>144 W Crystal Ave, Salt Lake City, UT 84117</strong>. We open at 8 AM Monday through Friday. Many <%= geo.locationName %> customers drop off in the morning and pick up the same day — call ahead and we'll tell you whether your job qualifies.</p>
+    </div>
+    <div class="visit-grid" style="margin-top:1.5rem">
+      <div class="visit-detail"><h3>Address</h3><p>144 W Crystal Ave<br>Salt Lake City, UT 84117</p></div>
+      <div class="visit-detail"><h3>Phone</h3><p><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></p></div>
+      <div class="visit-detail"><h3>From <%= geo.locationName %></h3><p><%= geo.distance %> · <%= geo.driveTime %> drive</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <h2>Our <%= geo.serviceFullName %> Approach</h2>
+    <p>Every <%= geo.serviceName.toLowerCase() %> job is diagnosed before any work begins, so you only pay for what your vehicle actually needs. <a href="/services/<%= geo.mainServiceSlug %>">See our full <%= geo.serviceName.toLowerCase() %> diagnostic and repair process here.</a></p>
+  </div>
+</section>
+
+<% if (mainService && mainService.whyUs && mainService.whyUs.length) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>Why <%= geo.locationName %> Drivers Choose Us</h2>
+    <div class="values-grid">
+      <% mainService.whyUs.forEach(w => { %>
+      <div class="value-card">
+        <h3><%= w.title %></h3>
+        <p><%= w.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<%- include('partials/testimonials') %>
+
+<% var faqAlt = true; %>
+<%- include('partials/faq') %>
+
+<% var ctaTitle = "Need " + geo.serviceFullName + " Near " + geo.locationName + "?"; var ctaDesc = "Contact Scott's Auto & Clutch Repair today. We're just " + geo.distance + " from " + geo.locationName + " — and we diagnose before we recommend."; %>
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>
