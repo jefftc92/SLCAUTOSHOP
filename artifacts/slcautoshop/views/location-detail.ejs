@@ -60,7 +60,7 @@
           allowfullscreen
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          title="Scott's Auto and Clutch Location">
+          title="Scott's Auto & Clutch Repair Location">
         </iframe>
       </div>
     </div>
@@ -92,7 +92,7 @@
 <section class="content-section">
   <div class="container">
     <h2>Landmarks Near Our Shop</h2>
-    <p>Scott's Auto & Clutch is at <strong>144 W Crystal Ave, South Salt Lake, UT 84117</strong> — centrally located and easy to reach from across the Salt Lake Valley. Here are some well-known <%= location.name %> area landmarks and how they connect to our shop.</p>
+    <p>Scott's Auto & Clutch Repair is at <strong>144 W Crystal Ave, Salt Lake City, UT 84117</strong> — centrally located and easy to reach from across the Salt Lake Valley. Here are some well-known <%= location.name %> area landmarks and how they connect to our shop.</p>
     <div class="landmarks-grid">
       <% location.landmarks.forEach(lm => { %>
       <div class="landmark-card">
@@ -147,6 +147,6 @@
 
 <%- include('partials/testimonials') %>
 
-<% var ctaTitle = "Need Auto Repair Near " + location.name + "?"; var ctaDesc = "Contact Scott's Auto and Clutch today for honest diagnostics and fair pricing." + (!location.isHome ? " We're just " + location.distance + " from " + location.name + "." : ""); %>
+<% var ctaTitle = "Need Auto Repair Near " + location.name + "?"; var ctaDesc = "Contact Scott's Auto & Clutch Repair today for honest diagnostics and fair pricing." + (!location.isHome ? " We're just " + location.distance + " from " + location.name + "." : ""); %>
 <%- include('partials/cta') %>
 <%- include('partials/footer') %>

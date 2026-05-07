@@ -202,14 +202,14 @@ function getLocationFaqs(location) {
 
   if (isHome) {
     return [
-      {q:'Where is Scott\'s Auto & Clutch located?',a:'We\'re at 144 W Crystal Ave in South Salt Lake, UT 84117. We\'re right between I-15 and State Street, just south of 3300 South. The Central Pointe TRAX station is a 3-minute walk from our shop.'},
+      {q:'Where is Scott\'s Auto & Clutch located?',a:'We\'re at 144 W Crystal Ave in Salt Lake City, UT 84117. We\'re right between I-15 and State Street, just south of 3300 South. The Central Pointe TRAX station is a 3-minute walk from our shop.'},
       {q:'What are your hours?',a:'We\'re open Monday through Friday, 8:00 AM to 5:30 PM. Saturday appointments are available by request. Call (801) 485-4089 or text us to schedule.'},
       {q:'Do you offer free estimates?',a:'Yes. We provide free visual inspections and estimates for most services. For complex diagnostics requiring specialized equipment, we charge a diagnostic fee that is applied toward the repair cost if you proceed with us.'}
     ];
   }
 
   return [
-    {q:`How far is Scott's Auto & Clutch from ${name}?`,a:`We're ${dist} from ${name}—a quick drive to 144 W Crystal Ave in South Salt Lake. Many ${name} customers drop off their vehicle and take TRAX to work from our nearby Central Pointe station.`},
+    {q:`How far is Scott's Auto & Clutch Repair from ${name}?`,a:`We're ${dist} from ${name}—a quick drive to 144 W Crystal Ave in South Salt Lake. Many ${name} customers drop off their vehicle and take TRAX to work from our nearby Central Pointe station.`},
     {q:`Do you service vehicles from ${name}?`,a:`Absolutely. ${name} is one of our most common service areas. We've been serving ${name} drivers since 1990 and understand the specific driving conditions and wear patterns that come with the area.`},
     {q:`What's the best route from ${name} to your shop?`,a:`Most ${name} drivers reach us via State Street or I-15 to the 3300 South exit. We're at 144 W Crystal Ave, just west of State Street. Call (801) 485-4089 if you need turn-by-turn directions.`}
   ];

@@ -1,6 +1,6 @@
 # SLC Auto Shop — Node.js/Express Website
 
-Scott's Auto and Clutch website built with **Express.js + EJS** (converted from React/Vite SSR).
+Scott's Auto & Clutch Repair website built with **Express.js + EJS** (converted from React/Vite SSR).
 
 ## Quick Start
 

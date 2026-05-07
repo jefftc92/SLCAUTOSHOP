@@ -208,7 +208,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.render('home', {
     activePage: 'home',
-    metaTitle: "Auto Repair South Salt Lake UT | Since 1990 | Scott's Auto & Clutch",
+    metaTitle: "Auto Repair South Salt Lake UT | Since 1990 | Scott's Auto & Clutch Repair",
     metaDesc: "Family-owned shop serving the Salt Lake Valley since 1990. Clutch repair, brakes, CV axles, transmissions & more. Free estimates. Call (801) 485-4089.",
     canonical: '/',
     structuredData: {
@@ -292,14 +292,14 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.render('about', {
     activePage: 'about',
-    metaTitle: "About Scott's Auto & Clutch | Our Story, Team, and Shop",
+    metaTitle: "About Scott's Auto & Clutch Repair | Our Story, Team, and Shop",
     metaDesc: "Meet the family behind our shop. 36+ years keeping Salt Lake Valley drivers on the road with straight answers, careful work, and no surprises at checkout.",
     canonical: '/about',
     structuredData: [
       {
         "@context": "https://schema.org",
         "@type": "AboutPage",
-        "name": "About Scott's Auto and Clutch",
+        "name": "About Scott's Auto & Clutch Repair",
         "url": site.domain + "/about",
         "description": "Family-owned auto repair shop in South Salt Lake since 1990. Honest diagnosis, fair pricing, quality work for all makes and models.",
         "mainEntity": {
@@ -323,14 +323,14 @@ app.get('/about', (req, res) => {
 app.get('/contact', (req, res) => {
   res.render('contact', {
     activePage: 'contact',
-    metaTitle: "Contact Us | Scott's Auto & Clutch in South Salt Lake",
+    metaTitle: "Contact Us | Scott's Auto & Clutch Repair in South Salt Lake",
     metaDesc: "Call, text, or visit for a free estimate. Located at 144 W Crystal Ave, open Mon–Fri 8 to 5:30. Walk-ins welcome. Reach us at (801) 485-4089.",
     canonical: '/contact',
     structuredData: [
       {
         "@context": "https://schema.org",
         "@type": "ContactPage",
-        "name": "Contact Scott's Auto and Clutch",
+        "name": "Contact Scott's Auto & Clutch Repair",
         "url": site.domain + "/contact",
         "mainEntity": {
           "@type": "AutoRepair",
@@ -353,14 +353,14 @@ app.get('/contact', (req, res) => {
 app.get('/services', (req, res) => {
   res.render('services-index', {
     activePage: 'services',
-    metaTitle: "Auto Repair Services South Salt Lake UT | Scott's Auto & Clutch",
+    metaTitle: "Auto Repair Services South Salt Lake UT | Scott's Auto & Clutch Repair",
     metaDesc: "Clutch repair, brake service, CV joints, timing chains, exhaust & more. All makes and models. Honest pricing, free diagnosis. Call (801) 485-4089.",
     canonical: '/services',
     structuredData: [
       {
         "@context": "https://schema.org",
         "@type": "ItemList",
-        "name": "Auto Repair Services at Scott's Auto & Clutch",
+        "name": "Auto Repair Services at Scott's Auto & Clutch Repair",
         "url": site.domain + "/services",
         "itemListElement": services.map((s, i) => ({
           "@type": "ListItem", "position": i + 1, "name": s.name, "url": site.domain + "/services/" + s.slug
@@ -467,7 +467,7 @@ app.get('/locations', (req, res) => {
       {
         "@context": "https://schema.org",
         "@type": "ItemList",
-        "name": "Service Areas — Scott's Auto & Clutch",
+        "name": "Service Areas — Scott's Auto & Clutch Repair",
         "url": site.domain + "/locations",
         "itemListElement": locations.map((l, i) => ({
           "@type": "ListItem", "position": i + 1, "name": l.name + ", UT", "url": site.domain + "/locations/" + l.slug
@@ -537,7 +537,7 @@ app.get('/symptoms', (req, res) => {
         "@type": "WebPage",
         "name": "Car Symptom Guide — What's Wrong With My Car?",
         "url": site.domain + "/symptoms",
-        "description": "Symptom-based car problem guide. Find your symptom and learn what might be causing it. Free diagnosis at Scott's Auto & Clutch, South Salt Lake.",
+        "description": "Symptom-based car problem guide. Find your symptom and learn what might be causing it. Free diagnosis at Scott's Auto & Clutch Repair, South Salt Lake.",
         "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
       },
       { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -558,7 +558,7 @@ app.get('/symptoms/:slug', (req, res) => {
 
   res.render('symptom-detail', {
     activePage: 'symptoms',
-    metaTitle: symptom.metaTitle || `${symptom.shortName} Repair South Salt Lake | Scott's Auto & Clutch`,
+    metaTitle: symptom.metaTitle || `${symptom.shortName} Repair South Salt Lake | Scott's Auto & Clutch Repair`,
     metaDesc: symptom.metaDesc || `${symptom.shortName} diagnosis and repair. Expert service since 1990. Call (801) 485-4089.`,
     canonical: '/symptoms/' + symptom.slug,
     symptom,
@@ -566,7 +566,7 @@ app.get('/symptoms/:slug', (req, res) => {
     pageFaqs: sFaqs,
     faqTitle: 'Frequently Asked Questions — ' + symptom.name,
     ctaTitle: 'Experiencing ' + symptom.shortName + '?',
-    ctaDesc: "Contact Scott's Auto and Clutch today for a free diagnosis. We'll get your vehicle running right.",
+    ctaDesc: "Contact Scott's Auto & Clutch Repair today for a free diagnosis. We'll get your vehicle running right.",
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3)),
     structuredData: [
       businessSchema,
@@ -594,9 +594,9 @@ app.get('/vehicle-brands', (req, res) => {
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Vehicle Brands We Service — Scott's Auto & Clutch",
+        "name": "Vehicle Brands We Service — Scott's Auto & Clutch Repair",
         "url": site.domain + "/vehicle-brands",
-        "description": "All makes and models serviced at Scott's Auto & Clutch in South Salt Lake, UT — domestic, import, and luxury.",
+        "description": "All makes and models serviced at Scott's Auto & Clutch Repair in South Salt Lake, UT — domestic, import, and luxury.",
         "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
       },
       { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -642,19 +642,19 @@ app.get('/vehicle-brands/:slug', (req, res) => {
 // Privacy & Terms
 app.get('/privacy', (req, res) => {
   res.render('legal', {
-    metaTitle: "Privacy Policy | Scott's Auto & Clutch — Salt Lake City",
-    metaDesc: "Scott's Auto & Clutch privacy policy. We don't sell your data — contact info only, never shared with third parties. Questions? Call (801) 485-4089.",
+    metaTitle: "Privacy Policy | Scott's Auto & Clutch Repair — Salt Lake City",
+    metaDesc: "Scott's Auto & Clutch Repair privacy policy. We don't sell your data — contact info only, never shared with third parties. Questions? Call (801) 485-4089.",
     canonical: '/privacy',
-    pageTitle: "Privacy Policy — Scott's Auto & Clutch",
+    pageTitle: "Privacy Policy — Scott's Auto & Clutch Repair",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Privacy Policy — Scott's Auto and Clutch",
+      "name": "Privacy Policy — Scott's Auto & Clutch Repair",
       "url": site.domain + "/privacy",
       "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
     },
     content: `
-      <p>Scott's Auto and Clutch ("we," "us," or "our") operates the slcautoshop.com website and provides automotive repair services at ${site.fullAddress}. This privacy policy explains what information we collect, how we use it, and how we protect it.</p>
+      <p>Scott's Auto & Clutch Repair ("we," "us," or "our") operates the slcautoshop.com website and provides automotive repair services at ${site.fullAddress}. This privacy policy explains what information we collect, how we use it, and how we protect it.</p>
 
       <h2>Information We Collect</h2>
       <p>When you contact us by phone, text message, or through our website, we may collect personal information including your name, phone number, email address, and details about your vehicle such as the year, make, model, and mileage. This information is provided voluntarily when you request a quote, schedule a service appointment, or reach out with questions about your vehicle.</p>
@@ -675,7 +675,7 @@ app.get('/privacy', (req, res) => {
 
       <h2>Contact Us</h2>
       <p>If you have questions or concerns about this privacy policy or how we handle your information, please contact us:</p>
-      <p><strong>Scott's Auto and Clutch</strong><br>
+      <p><strong>Scott's Auto & Clutch Repair</strong><br>
       ${site.fullAddress}<br>
       Phone: <a href="tel:+18014854089">(801) 485-4089</a></p>
     `
@@ -684,26 +684,26 @@ app.get('/privacy', (req, res) => {
 
 app.get('/terms', (req, res) => {
   res.render('legal', {
-    metaTitle: "Terms of Service | Scott's Auto & Clutch",
-    metaDesc: "Scott's Auto & Clutch service terms — warranty details, shop policies, and your rights as a customer. Questions? Call us at (801) 485-4089.",
+    metaTitle: "Terms of Service | Scott's Auto & Clutch Repair",
+    metaDesc: "Scott's Auto & Clutch Repair service terms — warranty details, shop policies, and your rights as a customer. Questions? Call us at (801) 485-4089.",
     canonical: '/terms',
-    pageTitle: "Terms of Service — Scott's Auto & Clutch",
+    pageTitle: "Terms of Service — Scott's Auto & Clutch Repair",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Terms of Service — Scott's Auto and Clutch",
+      "name": "Terms of Service — Scott's Auto & Clutch Repair",
       "url": site.domain + "/terms",
       "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
     },
     content: `
-      <p>These terms of service govern your use of the slcautoshop.com website and your relationship with Scott's Auto and Clutch, located at ${site.fullAddress}. By using this website or visiting our shop, you agree to the following terms.</p>
+      <p>These terms of service govern your use of the slcautoshop.com website and your relationship with Scott's Auto & Clutch Repair, located at ${site.fullAddress}. By using this website or visiting our shop, you agree to the following terms.</p>
 
       <h2>Repair &amp; Maintenance Services</h2>
-      <p>Scott's Auto and Clutch provides automotive repair and maintenance services for passenger vehicles, trucks, and SUVs. We service most domestic and foreign vehicle brands. All repair work begins only after a written or verbal estimate is provided and approved by the vehicle owner.</p>
+      <p>Scott's Auto & Clutch Repair provides automotive repair and maintenance services for passenger vehicles, trucks, and SUVs. We service most domestic and foreign vehicle brands. All repair work begins only after a written or verbal estimate is provided and approved by the vehicle owner.</p>
       <p>Final charges may occasionally differ from an initial estimate if additional problems are discovered during the course of a repair. In those situations, we will always contact you before proceeding with any additional work. We will not perform unapproved repairs.</p>
 
       <h2>Appointments &amp; Vehicle Drop-Off</h2>
-      <p>Appointments are preferred and help us plan diagnostic time for your vehicle. Walk-ins are welcome based on availability. When you drop off your vehicle, please ensure you have removed any personal valuables. Scott's Auto and Clutch is not responsible for personal items left in the vehicle during service.</p>
+      <p>Appointments are preferred and help us plan diagnostic time for your vehicle. Walk-ins are welcome based on availability. When you drop off your vehicle, please ensure you have removed any personal valuables. Scott's Auto & Clutch Repair is not responsible for personal items left in the vehicle during service.</p>
 
       <h2>Estimates</h2>
       <p>Estimates are provided based on the described symptoms and a visual inspection of the vehicle. Diagnostic fees may apply for complex or intermittent problems that require extended testing. Any diagnostic fees will be disclosed before diagnostic work begins.</p>
@@ -715,11 +715,11 @@ app.get('/terms', (req, res) => {
       <p>The information on slcautoshop.com is provided for general informational purposes about our business and services. While we make every effort to keep information current and accurate, we make no warranties regarding the completeness or accuracy of content on this site. Information about specific services, pricing, or availability is subject to change.</p>
 
       <h2>Limitation of Liability</h2>
-      <p>To the extent permitted by law, Scott's Auto and Clutch shall not be liable for any indirect, incidental, or consequential damages arising from the use of this website or any reliance on the information provided herein.</p>
+      <p>To the extent permitted by law, Scott's Auto & Clutch Repair shall not be liable for any indirect, incidental, or consequential damages arising from the use of this website or any reliance on the information provided herein.</p>
 
       <h2>Contact</h2>
       <p>Questions about these terms or our service policies? We're happy to answer. Reach us at:</p>
-      <p><strong>Scott's Auto and Clutch</strong><br>
+      <p><strong>Scott's Auto & Clutch Repair</strong><br>
       ${site.fullAddress}<br>
       Phone: <a href="tel:+18014854089">(801) 485-4089</a></p>
     `

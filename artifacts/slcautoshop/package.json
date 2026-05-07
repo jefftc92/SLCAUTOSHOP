@@ -1,7 +1,7 @@
 {
   "name": "slcautoshop",
   "version": "1.0.0",
-  "description": "Scott's Auto and Clutch - Express/EJS website",
+  "description": "Scott's Auto & Clutch Repair - Express/EJS website",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

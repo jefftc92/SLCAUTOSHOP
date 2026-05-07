@@ -3,7 +3,7 @@
 
 const locationSeoContent = {
   'south-salt-lake-ut-auto-repair': {
-    keywordIntro: "Looking for an honest auto repair shop in South Salt Lake? Scott's Auto & Clutch has been the trusted South Salt Lake mechanic since 1990. Our shop on Crystal Avenue serves drivers throughout 84117, 84119, and surrounding zip codes with complete automotive repair—clutch replacement, brake service, CV axle repair, timing chain work, exhaust repair, and full vehicle maintenance. If you need a reliable car mechanic in South Salt Lake, you've found your shop.",
+    keywordIntro: "Looking for an honest auto repair shop in South Salt Lake? Scott's Auto & Clutch Repair has been the trusted South Salt Lake mechanic since 1990. Our shop on Crystal Avenue serves drivers throughout 84117, 84119, and surrounding zip codes with complete automotive repair—clutch replacement, brake service, CV axle repair, timing chain work, exhaust repair, and full vehicle maintenance. If you need a reliable car mechanic in South Salt Lake, you've found your shop.",
     commonNeeds: [
       { service: 'Clutch Repair', context: 'South Salt Lake drivers navigating State Street traffic and I-15 onramps put heavy wear on their clutches. We\'re the clutch specialists—it\'s literally our name.' },
       { service: 'Brake Service', context: 'Stop-and-go traffic on State Street and Main Street wears brake pads fast. South Salt Lake vehicles typically need brake service every 25,000-40,000 miles.' },
@@ -18,7 +18,7 @@ const locationSeoContent = {
     ]
   },
   'sugar-house-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is the trusted Sugar House auto repair shop for drivers throughout the 84106 area. Just 3 miles south of Sugar House, we've been serving the neighborhood since 1990. Whether you need clutch repair for your daily commuter, brake service after driving 2100 South, or full auto maintenance for your family vehicle, our experienced mechanics provide honest service at fair prices.",
+    keywordIntro: "Scott's Auto & Clutch Repair is the trusted Sugar House auto repair shop for drivers throughout the 84106 area. Just 3 miles south of Sugar House, we've been serving the neighborhood since 1990. Whether you need clutch repair for your daily commuter, brake service after driving 2100 South, or full auto maintenance for your family vehicle, our experienced mechanics provide honest service at fair prices.",
     commonNeeds: [
       { service: 'Brake Service', context: 'Sugar House\'s hilly terrain and frequent stops around 2100 South business district put brake pads and rotors under heavy stress. We recommend brake inspections every 15,000 miles for Sugar House drivers.' },
       { service: 'Clutch Repair', context: 'The steep hills around Sugar House Park and 1700 East accelerate clutch wear on manual transmission vehicles. Our clutch specialty means expert diagnosis for hill-related wear patterns.' },
@@ -33,7 +33,7 @@ const locationSeoContent = {
     ]
   },
   'millcreek-ut-auto-repair': {
-    keywordIntro: "Searching for reliable auto repair in Millcreek? Scott's Auto & Clutch has been the trusted Millcreek auto mechanic since 1990. Located just 3 miles from Millcreek—about a 7-minute drive—we serve drivers throughout 84106, 84109, and 84117 zip codes with complete automotive repair. From clutch replacement to brake service to timing chain work, our experienced team provides honest diagnostics and quality repairs at fair prices.",
+    keywordIntro: "Searching for reliable auto repair in Millcreek? Scott's Auto & Clutch Repair has been the trusted Millcreek auto mechanic since 1990. Located just 3 miles from Millcreek—about a 7-minute drive—we serve drivers throughout 84106, 84109, and 84117 zip codes with complete automotive repair. From clutch replacement to brake service to timing chain work, our experienced team provides honest diagnostics and quality repairs at fair prices.",
     commonNeeds: [
       { service: 'Brake Service', context: 'Millcreek drivers who venture into Mill Creek Canyon regularly experience accelerated brake wear from sustained downhill braking. We recommend ceramic brake pads for Millcreek canyon commuters.' },
       { service: 'Cooling System Service', context: 'The canyon driving and hot summer temperatures in Millcreek stress cooling systems. Coolant flushes and thermostat inspections are critical maintenance items.' },
@@ -48,7 +48,7 @@ const locationSeoContent = {
     ]
   },
   'murray-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is Murray's trusted auto repair shop, just 4 miles north of Murray—about an 8-minute drive up State Street. We've been serving Murray families, commuters, and healthcare workers since 1990. Whether you need clutch repair, brake service, CV axle work, or routine maintenance, our Murray customers trust us for honest diagnostics and fair pricing. We serve drivers throughout 84107, 84121, and 84123.",
+    keywordIntro: "Scott's Auto & Clutch Repair is Murray's trusted auto repair shop, just 4 miles north of Murray—about an 8-minute drive up State Street. We've been serving Murray families, commuters, and healthcare workers since 1990. Whether you need clutch repair, brake service, CV axle work, or routine maintenance, our Murray customers trust us for honest diagnostics and fair pricing. We serve drivers throughout 84107, 84121, and 84123.",
     commonNeeds: [
       { service: 'Brake Service', context: 'Murray\'s central traffic corridors—State Street, 5300 South, and the I-15/5300 South interchange—create heavy stop-and-go wear on brake pads. Fashion Place Mall traffic alone wears brakes 30% faster than highway driving.' },
       { service: 'Clutch Repair', context: 'Murray commuters stuck in State Street traffic put constant stress on manual transmission clutches. Riding the clutch in stop-and-go is the fastest way to wear it out—we see this pattern regularly from Murray customers.' },
@@ -63,7 +63,7 @@ const locationSeoContent = {
     ]
   },
   'salt-lake-city-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is Salt Lake City's trusted auto repair shop, located just south of downtown in South Salt Lake at 144 W Crystal Ave. For over 35 years, we've served Salt Lake City drivers throughout the Avenues, Capitol Hill, Downtown, 9th & 9th, and surrounding neighborhoods with honest automotive repair. Our specialty is clutch and manual transmission repair, but we handle all makes and models for brakes, CV axles, timing chains, exhaust, and complete auto service.",
+    keywordIntro: "Scott's Auto & Clutch Repair is Salt Lake City's trusted auto repair shop, located just south of downtown in South Salt Lake at 144 W Crystal Ave. For over 35 years, we've served Salt Lake City drivers throughout the Avenues, Capitol Hill, Downtown, 9th & 9th, and surrounding neighborhoods with honest automotive repair. Our specialty is clutch and manual transmission repair, but we handle all makes and models for brakes, CV axles, timing chains, exhaust, and complete auto service.",
     commonNeeds: [
       { service: 'Clutch Repair', context: 'Salt Lake City\'s Avenues and Capitol Hill neighborhoods have some of the steepest residential streets in Utah. Manual transmission drivers in these areas see faster clutch wear from constant hill starts.' },
       { service: 'Brake Service', context: 'Downtown Salt Lake City driving means constant stopping at light-controlled intersections. Salt Lake commuters typically need brake service sooner than suburban drivers.' },
@@ -78,7 +78,7 @@ const locationSeoContent = {
     ]
   },
   'taylorsville-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is Taylorsville's trusted auto repair shop, just 5 miles east of Taylorsville—about a 10-minute drive. We've served Taylorsville drivers since 1990 with honest automotive repair including clutch replacement, brake service, CV axle repair, timing chain work, exhaust repair, and complete vehicle maintenance. Our Taylorsville customers throughout 84118, 84123, and 84129 trust us for fair pricing and quality work.",
+    keywordIntro: "Scott's Auto & Clutch Repair is Taylorsville's trusted auto repair shop, just 5 miles east of Taylorsville—about a 10-minute drive. We've served Taylorsville drivers since 1990 with honest automotive repair including clutch replacement, brake service, CV axle repair, timing chain work, exhaust repair, and complete vehicle maintenance. Our Taylorsville customers throughout 84118, 84123, and 84129 trust us for fair pricing and quality work.",
     commonNeeds: [
       { service: 'Brake Service', context: 'Redwood Road\'s long stretches with sudden stops at major intersections (4700 South, 5400 South, 6200 South) wear brakes quickly on Taylorsville vehicles.' },
       { service: 'Clutch Repair', context: 'Taylorsville commuters navigating heavy Redwood Road traffic experience faster clutch wear from constant shifting. Manual transmission drivers benefit from regular inspections.' },
@@ -93,7 +93,7 @@ const locationSeoContent = {
     ]
   },
   'west-valley-city-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is West Valley City's trusted auto repair shop, located just 7 miles east in South Salt Lake. We've served West Valley City drivers throughout 84119, 84120, and 84128 zip codes since 1990. Whether you need clutch repair, brake service, CV axle work, timing chain replacement, or complete auto maintenance, our experienced West Valley mechanics provide honest service at fair prices. West Valley City residents rely on us for quality auto repair without dealership pricing.",
+    keywordIntro: "Scott's Auto & Clutch Repair is West Valley City's trusted auto repair shop, located just 7 miles east in South Salt Lake. We've served West Valley City drivers throughout 84119, 84120, and 84128 zip codes since 1990. Whether you need clutch repair, brake service, CV axle work, timing chain replacement, or complete auto maintenance, our experienced West Valley mechanics provide honest service at fair prices. West Valley City residents rely on us for quality auto repair without dealership pricing.",
     commonNeeds: [
       { service: 'Brake Service', context: '3500 South is one of the busiest roads in Salt Lake County, with constant stop-and-go from 1300 East to Bangerter Highway. West Valley City vehicles typically need brake pads every 25,000-35,000 miles.' },
       { service: 'Clutch Repair', context: 'West Valley City\'s dense commercial corridors and frequent stops on 3500 South and Redwood Road wear manual transmission clutches faster than highway driving.' },
@@ -108,7 +108,7 @@ const locationSeoContent = {
     ]
   },
   'holladay-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is Holladay's trusted auto repair shop, just 5 miles west of Holladay—about a 9-minute drive. Since 1990, we've served Holladay drivers with complete automotive repair including clutch replacement, brake service, CV axle repair, timing chain work, and more. Our Holladay customers throughout 84117 and 84121 appreciate honest diagnostics, fair pricing, and quality repairs that last. If you're looking for a reliable Holladay auto mechanic, we're just 9 minutes away.",
+    keywordIntro: "Scott's Auto & Clutch Repair is Holladay's trusted auto repair shop, just 5 miles west of Holladay—about a 9-minute drive. Since 1990, we've served Holladay drivers with complete automotive repair including clutch replacement, brake service, CV axle repair, timing chain work, and more. Our Holladay customers throughout 84117 and 84121 appreciate honest diagnostics, fair pricing, and quality repairs that last. If you're looking for a reliable Holladay auto mechanic, we're just 9 minutes away.",
     commonNeeds: [
       { service: 'Brake Service', context: 'Holladay drivers heading into Big Cottonwood Canyon face some of the steepest sustained descents in the valley—8% grades for miles. This generates extreme brake heat that can warp rotors and glaze pads.' },
       { service: 'Clutch Repair', context: 'Manual transmission drivers from Holladay accessing canyons and foothills face accelerated clutch wear from sustained hill work and mountain driving.' },
@@ -123,7 +123,7 @@ const locationSeoContent = {
     ]
   },
   'cottonwood-heights-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is Cottonwood Heights' trusted auto repair shop, 6 miles north in South Salt Lake. Since 1990, we've served Cottonwood Heights drivers—skiers, canyon commuters, and everyday families—with complete auto repair including clutch replacement, brake service, timing chain work, and cooling system service. Our Cottonwood Heights customers throughout 84047, 84093, and 84121 rely on us for honest pricing and canyon-aware expertise.",
+    keywordIntro: "Scott's Auto & Clutch Repair is Cottonwood Heights' trusted auto repair shop, 6 miles north in South Salt Lake. Since 1990, we've served Cottonwood Heights drivers—skiers, canyon commuters, and everyday families—with complete auto repair including clutch replacement, brake service, timing chain work, and cooling system service. Our Cottonwood Heights customers throughout 84047, 84093, and 84121 rely on us for honest pricing and canyon-aware expertise.",
     commonNeeds: [
       { service: 'Brake Service', context: 'Cottonwood Heights drivers on Little Cottonwood Canyon face the steepest sustained grade in the Salt Lake Valley. Winter ski traffic means constant descent braking that overheats pads and warps rotors.' },
       { service: 'Clutch Repair', context: 'The 8% grade up Little Cottonwood and 6-7% grades up Big Cottonwood are clutch killers for manual transmission drivers. Sustained hill starts at canyon pullouts accelerate wear.' },
@@ -138,7 +138,7 @@ const locationSeoContent = {
     ]
   },
   'sandy-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is Sandy's trusted auto repair shop, located 8 miles north in South Salt Lake. Since 1990, we've served Sandy commuters, families, and car enthusiasts with complete auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and full vehicle maintenance. Our Sandy customers throughout 84070, 84092, 84093, and 84094 trust us for honest diagnostics and fair pricing on quality repairs.",
+    keywordIntro: "Scott's Auto & Clutch Repair is Sandy's trusted auto repair shop, located 8 miles north in South Salt Lake. Since 1990, we've served Sandy commuters, families, and car enthusiasts with complete auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and full vehicle maintenance. Our Sandy customers throughout 84070, 84092, 84093, and 84094 trust us for honest diagnostics and fair pricing on quality repairs.",
     commonNeeds: [
       { service: 'Brake Service', context: 'Sandy commuters on I-15 to downtown face the most congested commute in Utah. Stop-and-go I-15 traffic wears brakes 30-40% faster than steady highway driving.' },
       { service: 'Clutch Repair', context: 'Manual transmission drivers commuting from Sandy to downtown via I-15 wear clutches quickly. Rush hour traffic on I-15 means constant clutch work that typical clutch lifespans don\'t account for.' },
@@ -153,7 +153,7 @@ const locationSeoContent = {
     ]
   },
   'draper-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is Draper's trusted auto repair shop, located 12 miles north in South Salt Lake. Since 1990, we've served Draper commuters, families, and performance car enthusiasts with complete auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and full vehicle maintenance. Our Draper customers throughout 84020 rely on us for honest, fair pricing on quality auto repair.",
+    keywordIntro: "Scott's Auto & Clutch Repair is Draper's trusted auto repair shop, located 12 miles north in South Salt Lake. Since 1990, we've served Draper commuters, families, and performance car enthusiasts with complete auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and full vehicle maintenance. Our Draper customers throughout 84020 rely on us for honest, fair pricing on quality auto repair.",
     commonNeeds: [
       { service: 'Clutch Repair', context: 'The I-15 grade at Point of the Mountain is where overloaded clutches reveal themselves. Draper manual transmission drivers face the steepest grade on the Salt Lake commute, accelerating clutch wear significantly.' },
       { service: 'Brake Service', context: 'Draper commuters descending into the Salt Lake Valley face sustained downhill braking on I-15 through Point of the Mountain. Combined with stop-and-go traffic, Draper brakes wear faster than average.' },
@@ -168,7 +168,7 @@ const locationSeoContent = {
     ]
   },
   'west-jordan-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is West Jordan's trusted auto repair shop, located 8 miles east in South Salt Lake. Since 1990, we've served West Jordan drivers with honest, quality auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and complete vehicle maintenance. Our West Jordan customers throughout 84081, 84084, and 84088 trust us for fair pricing and expert repairs on all makes and models.",
+    keywordIntro: "Scott's Auto & Clutch Repair is West Jordan's trusted auto repair shop, located 8 miles east in South Salt Lake. Since 1990, we've served West Jordan drivers with honest, quality auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and complete vehicle maintenance. Our West Jordan customers throughout 84081, 84084, and 84088 trust us for fair pricing and expert repairs on all makes and models.",
     commonNeeds: [
       { service: 'Brake Service', context: 'West Jordan drivers on Mountain View Corridor face fast-moving traffic with abrupt exits. The fast-slow pattern wears brakes harder than sustained highway or city driving.' },
       { service: 'Clutch Repair', context: 'West Jordan commuters face long drives with variable traffic conditions—sometimes freeway speeds, sometimes heavy stop-and-go. This mixed wear pattern is tough on manual transmission clutches.' },
@@ -183,7 +183,7 @@ const locationSeoContent = {
     ]
   },
   'south-jordan-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is South Jordan's trusted auto repair shop, located 10 miles north in South Salt Lake. Since 1990, we've served South Jordan drivers including Daybreak residents, Jordan River Parkway commuters, and families throughout 84009 and 84095 with complete auto repair. From clutch replacement to brake service to timing chain work, our South Jordan customers rely on honest pricing and quality repairs.",
+    keywordIntro: "Scott's Auto & Clutch Repair is South Jordan's trusted auto repair shop, located 10 miles north in South Salt Lake. Since 1990, we've served South Jordan drivers including Daybreak residents, Jordan River Parkway commuters, and families throughout 84009 and 84095 with complete auto repair. From clutch replacement to brake service to timing chain work, our South Jordan customers rely on honest pricing and quality repairs.",
     commonNeeds: [
       { service: 'Brake Service', context: 'Bangerter Highway\'s grade-separated intersections require aggressive deceleration from high speeds, wearing South Jordan brakes faster than sustained highway driving.' },
       { service: 'Clutch Repair', context: 'South Jordan commuters racking up freeway miles on Bangerter and I-15 face typical highway clutch wear, plus stop-and-go at interchanges that accelerates wear.' },
@@ -198,7 +198,7 @@ const locationSeoContent = {
     ]
   },
   'riverton-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is Riverton's trusted auto repair shop, located 12 miles north in South Salt Lake. Since 1990, we've served Riverton commuters and families with complete auto repair including clutch replacement, brake service, CV axle repair, timing chain work, and full vehicle maintenance. Our Riverton customers throughout 84065 appreciate honest diagnostics, fair pricing, and expertise on all vehicle makes and models.",
+    keywordIntro: "Scott's Auto & Clutch Repair is Riverton's trusted auto repair shop, located 12 miles north in South Salt Lake. Since 1990, we've served Riverton commuters and families with complete auto repair including clutch replacement, brake service, CV axle repair, timing chain work, and full vehicle maintenance. Our Riverton customers throughout 84065 appreciate honest diagnostics, fair pricing, and expertise on all vehicle makes and models.",
     commonNeeds: [
       { service: 'Brake Service', context: 'Riverton\'s distance from most workplaces means 25+ mile commutes daily. High annual mileage combined with Bangerter and I-15 commuting wears brakes faster than closer-in suburbs.' },
       { service: 'Clutch Repair', context: 'Riverton commuters put heavy annual miles on manual transmission clutches. Combined with grades and traffic, Riverton clutches may need replacement earlier than average.' },
@@ -213,7 +213,7 @@ const locationSeoContent = {
     ]
   },
   'herriman-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is Herriman's trusted auto repair shop, located 15 miles north in South Salt Lake. Since 1990, we've served Herriman families with complete auto repair including clutch replacement, brake service, suspension work, timing chain repair, and complete vehicle maintenance. Our Herriman customers throughout 84096 rely on us for honest, fair-priced auto repair on all vehicle makes and models.",
+    keywordIntro: "Scott's Auto & Clutch Repair is Herriman's trusted auto repair shop, located 15 miles north in South Salt Lake. Since 1990, we've served Herriman families with complete auto repair including clutch replacement, brake service, suspension work, timing chain repair, and complete vehicle maintenance. Our Herriman customers throughout 84096 rely on us for honest, fair-priced auto repair on all vehicle makes and models.",
     commonNeeds: [
       { service: 'Brake Service', context: 'Herriman\'s hillside developments mean steep streets in and out of subdivisions. Combined with long commutes, Herriman drivers need more frequent brake service than flatland suburbs.' },
       { service: 'Clutch Repair', context: 'Steep hills in Herriman neighborhoods and long commutes to central Salt Lake wear manual transmission clutches. Hill starts in residential areas accelerate wear significantly.' },
@@ -228,7 +228,7 @@ const locationSeoContent = {
     ]
   },
   'kearns-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is Kearns's trusted auto repair shop, located 7 miles east in South Salt Lake. Since 1990, we've served Kearns drivers with honest, quality auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and complete vehicle maintenance. Our Kearns customers throughout 84118 trust us for fair pricing and expert repairs on all makes and models.",
+    keywordIntro: "Scott's Auto & Clutch Repair is Kearns's trusted auto repair shop, located 7 miles east in South Salt Lake. Since 1990, we've served Kearns drivers with honest, quality auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and complete vehicle maintenance. Our Kearns customers throughout 84118 trust us for fair pricing and expert repairs on all makes and models.",
     commonNeeds: [
       { service: 'Brake Service', context: 'Kearns residents commuting via 5400 South, 4700 South, or Bangerter Highway face stop-and-go traffic that wears brakes faster than highway driving.' },
       { service: 'Clutch Repair', context: 'Kearns manual transmission drivers face typical suburban stop-and-go that wears clutches, plus longer commutes to downtown that accelerate wear.' },
@@ -243,7 +243,7 @@ const locationSeoContent = {
     ]
   },
   'midvale-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch is Midvale's trusted auto repair shop, just 5 miles south in South Salt Lake. Since 1990, we've served Midvale drivers with honest, quality auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and complete vehicle maintenance. Our Midvale customers throughout 84047 trust us for fair pricing, expert repairs, and fast turnaround.",
+    keywordIntro: "Scott's Auto & Clutch Repair is Midvale's trusted auto repair shop, just 5 miles south in South Salt Lake. Since 1990, we've served Midvale drivers with honest, quality auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and complete vehicle maintenance. Our Midvale customers throughout 84047 trust us for fair pricing, expert repairs, and fast turnaround.",
     commonNeeds: [
       { service: 'Brake Service', context: 'The I-15/I-215 interchange near Midvale has some of the shortest merge lanes in the valley, meaning Midvale drivers brake hard at freeway speeds. This wears brakes faster than sustained highway driving.' },
       { service: 'Clutch Repair', context: 'Midvale commuters using I-15 to head north face heavy rush-hour traffic that wears manual transmission clutches quickly. Stop-and-go freeway driving is the hardest condition on a clutch.' },
