@@ -433,6 +433,19 @@ app.get('/services/:slug', (req, res) => {
               { "@type": "ListItem", "position": 3, "name": serviceGeo.locationName, "item": site.domain + "/locations/" + serviceGeo.citySlug + "-ut-auto-repair" },
               { "@type": "ListItem", "position": 4, "name": serviceGeo.serviceFullName + ' Near ' + serviceGeo.locationName, "item": site.domain + "/services/" + serviceGeo.slug }
             ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": serviceGeo.serviceFullName,
+            "name": serviceGeo.serviceFullName + " Near " + serviceGeo.locationName + ", UT",
+            "provider": { "@type": "AutoRepair", "@id": site.domain + "/#business" },
+            "areaServed": {
+              "@type": "City",
+              "name": serviceGeo.locationName,
+              "containedInPlace": { "@type": "State", "name": "Utah" }
+            },
+            "url": site.domain + "/services/" + serviceGeo.slug
           }
         ]
       });

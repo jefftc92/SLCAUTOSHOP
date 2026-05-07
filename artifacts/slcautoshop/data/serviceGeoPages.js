@@ -1399,10 +1399,34 @@ const CONTENT = {
 
 };
 
+// ─── Title templates (one per service; all ≤60 chars for every city name) ─────
+// Verified against the longest city: "Cottonwood Heights" (18 chars).
+const TITLE_TEMPLATES = {
+  'brake-service':                "Brake Service Near {{CITY}} UT | Pads & Rotors",
+  'cv-joint-repair':              "CV Joint Repair Near {{CITY}} UT | Scott's Auto",
+  'timing-chain-repair':          "Timing Chain Repair Near {{CITY}} UT | Scott's",
+  'water-pump-replacement':       "Water Pump Replacement Near {{CITY}} UT | Scott's",
+  'exhaust-repair':               "Exhaust Repair Near {{CITY}} UT | Muffler & Pipe",
+  'catalytic-converter-service':  "Catalytic Converter Near {{CITY}} UT | Scott's",
+  'strut-replacement':            "Strut Replacement Near {{CITY}} UT | Scott's Auto",
+  'timing-belt-replacement':      "Timing Belt Replacement Near {{CITY}} UT | Scott's",
+  'welding-services':             "Auto Welding Near {{CITY}} UT | Scott's Auto",
+  'shock-replacement':            "Shock Replacement Near {{CITY}} UT | Scott's Auto",
+  'complete-auto-service':        "Complete Auto Service Near {{CITY}} UT | Scott's",
+};
+
+// Trim descriptions over 160 chars: shorten brand name first, then truncate.
+function normalizeDesc(desc) {
+  if (!desc || desc.length <= 160) return desc;
+  const d = desc.replace("Scott's Auto & Clutch Repair", "Scott's Auto");
+  return d.length <= 160 ? d : d.slice(0, 157) + '\u2026';
+}
+
 // ─── Generator ────────────────────────────────────────────────────────────────
 const serviceGeoPages = [];
 
 Object.entries(CONTENT).forEach(([serviceKey, svc]) => {
+  const tmpl = TITLE_TEMPLATES[serviceKey] || (svc.serviceName + " Near {{CITY}} UT | Scott's Auto");
   CITIES.forEach(city => {
     const c = svc.cities[city.slug];
     if (!c) return; // skip if no content defined
@@ -1422,8 +1446,8 @@ Object.entries(CONTENT).forEach(([serviceKey, svc]) => {
       localContent: c.localContent,
       localTip: c.localTip,
       directions: city.directions,
-      metaTitle: c.metaTitle,
-      metaDesc: c.metaDesc
+      metaTitle: tmpl.replace('{{CITY}}', city.name),
+      metaDesc: normalizeDesc(c.metaDesc)
     });
   });
 });
