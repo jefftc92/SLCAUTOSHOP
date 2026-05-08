@@ -462,14 +462,27 @@ app.get('/services/:slug', (req, res) => {
         "@context": "https://schema.org",
         "@type": "Service",
         "name": service.fullName,
+        "serviceType": service.fullName,
+        "category": "Automotive Repair",
         "description": service.intro,
+        "url": site.domain + "/services/" + service.slug,
         "provider": {
           "@type": "AutoRepair",
           "name": site.name,
           "telephone": site.phone,
+          "url": site.domain,
           "address": { "@type": "PostalAddress", "streetAddress": site.address, "addressLocality": site.city, "addressRegion": site.state, "postalCode": site.zip, "addressCountry": "US" }
         },
-        "areaServed": { "@type": "City", "name": "South Salt Lake, UT" }
+        "areaServed": { "@type": "City", "name": "South Salt Lake, UT" },
+        "hasOfferCatalog": service.specializedServices && service.specializedServices.length ? {
+          "@type": "OfferCatalog",
+          "name": service.fullName + " Services",
+          "itemListElement": service.specializedServices.map((s, i) => ({
+            "@type": "Offer",
+            "position": i + 1,
+            "itemOffered": { "@type": "Service", "name": s }
+          }))
+        } : undefined
       },
       {
         "@context": "https://schema.org",
@@ -628,6 +641,23 @@ app.get('/symptoms/:slug', (req, res) => {
           { "@type": "ListItem", "position": 2, "name": "Symptoms Guide", "item": site.domain + "/symptoms" },
           { "@type": "ListItem", "position": 3, "name": symptom.shortName, "item": site.domain + "/symptoms/" + symptom.slug }
         ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "TechArticle",
+        "headline": symptom.name + " — Causes, Diagnosis & Repair in South Salt Lake, UT",
+        "description": symptom.intro,
+        "url": site.domain + "/symptoms/" + symptom.slug,
+        "author": { "@type": "Organization", "name": site.name, "url": site.domain },
+        "publisher": {
+          "@type": "Organization",
+          "name": site.name,
+          "url": site.domain,
+          "logo": { "@type": "ImageObject", "url": site.domain + site.headerLogo }
+        },
+        "about": { "@type": "Thing", "name": symptom.name },
+        "specialty": "Automotive Repair",
+        "proficiencyLevel": "Expert"
       }
     ]
   });

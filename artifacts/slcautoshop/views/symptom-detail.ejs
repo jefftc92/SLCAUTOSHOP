@@ -7,7 +7,6 @@
   <div class="container">
     <span class="symptom-priority priority-<%= symptom.priority.toLowerCase() %>"><%= symptom.priority %> Priority</span>
     <h1><%= symptom.name %> — Repair in South Salt Lake UT</h1>
-    <p><%= symptom.intro %></p>
     <div class="hero-buttons">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>" class="btn btn-secondary">Text Us</a>
@@ -15,8 +14,16 @@
   </div>
 </section>
 
-<% if (symptom.richContent && symptom.richContent.length) { %>
 <section class="content-section">
+  <div class="container">
+    <div class="prose" style="max-width:760px">
+      <p class="intro-lead"><%= symptom.intro %></p>
+    </div>
+  </div>
+</section>
+
+<% if (symptom.richContent && symptom.richContent.length) { %>
+<section class="content-section alt-bg">
   <div class="container">
     <% symptom.richContent.forEach(function(sec, i) { %>
     <% if (i > 0) { %><hr style="margin:2.5rem 0;border:none;border-top:1px solid #e5e7eb"><% } %>
