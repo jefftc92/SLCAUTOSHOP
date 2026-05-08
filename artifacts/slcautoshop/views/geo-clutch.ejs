@@ -23,7 +23,7 @@
     <div class="visit-grid" style="margin-top:2rem">
       <div class="visit-detail"><h3>Distance from <%= geo.locationName %></h3><p><%= geo.distance %> (<%= geo.driveTime %> drive)</p></div>
       <div class="visit-detail"><h3>Hours</h3><p><%= site.hoursShort %></p></div>
-      <div class="visit-detail"><h3>Specialization</h3><p>Clutch repair since 1990 — 35+ years</p></div>
+      <div class="visit-detail"><h3>Specialization</h3><p>Clutch repair since 1990 — 36+ years</p></div>
     </div>
   </div>
 </section>
@@ -61,7 +61,8 @@
 
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>Why <%= geo.locationName %> Drivers Choose Us</h2>
+    <h2>Why <%= geo.locationName %> Drivers Choose Scott's for Clutch Repair</h2>
+    <p class="section-subtitle" style="max-width:720px"><%= geo.locationName %> drivers travel <%= geo.distance %> to our shop because clutch specialists are rare — and the alternatives are generalist shops that see a clutch job a few times a month. We see them every week.</p>
     <div class="values-grid">
       <% clutchService.whyUs.forEach(w => { %>
       <div class="value-card">

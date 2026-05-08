@@ -8,7 +8,7 @@ const services = [
     heroImage: "/assets/hero-600-DnXM3vMX.webp",
     metaTitle: "Clutch Repair South Salt Lake UT | Specialists Since 1990 | Scott's",
     heading: "Clutch Repair & Replacement in South Salt Lake, UT",
-    metaDesc: "Clutch slipping, grinding, or hard to shift? We've specialized in clutch replacement for 35+ years. Free diagnosis. Call (801) 485-4089.",
+    metaDesc: "Clutch slipping, grinding, or hard to shift? We've specialized in clutch replacement for 36+ years. Free diagnosis. Call (801) 485-4089.",
     intro: "Scott's Auto & Clutch Repair has been South Salt Lake's trusted clutch repair specialist since 1990. Our mechanics have decades of hands-on experience with manual transmission systems, from hydraulic adjustments to full clutch replacements. If your clutch feels spongy, slips under load, or makes grinding noises when shifting, bring it in for a thorough inspection.",
     specializedServices: [
       "Clutch Replacement", "Clutch Adjustment", "Clutch Fluid Flush & Bleeding",
@@ -17,7 +17,7 @@ const services = [
       "Throw-out Bearing Replacement", "Clutch Slip Diagnostic"
     ],
     whyUs: [
-      { title: "Clutch Specialists", desc: "Clutch repair is our specialty—it's literally in our name. We've been diagnosing and fixing clutches for over 35 years." },
+      { title: "Clutch Specialists", desc: "Clutch repair is our specialty—it's literally in our name. We've been diagnosing and fixing clutches for over 36 years." },
       { title: "Honest Diagnosis", desc: "We explain exactly what's wrong and why before recommending any repair. You'll have a clear quote and full understanding before we touch anything." },
       { title: "Tailored Repairs", desc: "Every vehicle and clutch failure is different. We diagnose what's actually needed—no upselling, no unnecessary work." },
       { title: "Road-Tested Results", desc: "Every clutch repair is road-tested before the car leaves the shop to verify smooth shifting and proper engagement." }
@@ -425,7 +425,7 @@ const services = [
     whyUs: [
       { title: "One-Stop Shop", desc: "Everything your vehicle needs under one roof—no need to visit multiple shops for different services." },
       { title: "All Makes & Models", desc: "We service domestic and import vehicles of all types. If we see it regularly, we know how to fix it." },
-      { title: "35+ Years of Experience", desc: "Our team has been providing complete automotive service to the Salt Lake Valley since 1990." },
+      { title: "36+ Years of Experience", desc: "Our team has been providing complete automotive service to the Salt Lake Valley since 1990." },
       { title: "Honest Assessments", desc: "We tell you what your vehicle needs—and what it doesn't. No unnecessary upsells." }
     ],
     process: [
