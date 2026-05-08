@@ -16,6 +16,43 @@ const symptoms = [
       { title: "Worn or Damaged Flywheel", desc: "A glazed, scored, or warped flywheel surface prevents proper friction contact with the clutch disc." },
       { title: "Incorrect Clutch Adjustment", desc: "Improper clutch cable or hydraulic adjustment can prevent full engagement, causing partial slipping during acceleration." },
       { title: "Aggressive Driving Habits", desc: "Frequent hard launches, riding the clutch, or towing heavy loads accelerates clutch wear, especially on Utah's mountain roads." }
+    ],
+    richContent: [
+      {
+        heading: "How the Clutch Transfers Engine Power",
+        paras: [
+          "The clutch uses friction to connect and disconnect your engine from the rest of the drivetrain. The key components are the clutch disc — a plate covered in friction material — the flywheel bolted to the engine crankshaft, and the pressure plate that clamps the disc against the flywheel. When the pedal is released, spring pressure holds the disc firmly against the flywheel; friction between those surfaces is what transfers engine torque to your wheels.",
+          "Pressing the pedal activates a release bearing that pushes the pressure plate back, separating the disc from the flywheel and interrupting power flow. This sequence happens every time you shift or stop. The friction material on the disc wears gradually with each engagement, and the rate of wear accelerates significantly when the clutch is slipping rather than engaging cleanly."
+        ]
+      },
+      {
+        heading: "What Clutch Slipping Actually Means",
+        paras: [
+          "Slipping happens when the clutch disc can no longer grip the flywheel firmly enough to transfer full engine power. Instead of disc and flywheel rotating as a unit, they slide against each other — like a belt that's too loose on a pulley. The engine revs freely while the wheels don't receive the power in proportion, creating the characteristic mismatch between engine RPMs and vehicle speed.",
+          "Early slipping typically appears under high load — accelerating hard, climbing a grade, or towing. As the disc wears further, slipping becomes noticeable in normal driving and eventually in all gears. Each slip event also generates heat that can glaze the flywheel surface, meaning the longer you wait, the more likely the flywheel needs resurfacing or replacement alongside the disc."
+        ]
+      },
+      {
+        heading: "The Third-Gear Test",
+        paras: [
+          "A simple self-check: find a safe area, shift into 3rd gear, and accelerate hard. Watch the tachometer. If the RPMs climb quickly while your speed lags well behind, the clutch is slipping. A healthy clutch in 3rd gear shows RPMs and speed climbing together proportionally. Third gear works for this test because it puts enough drivetrain load to expose a disc that can't hold grip under pressure — mild slipping often goes unnoticed in lower gears.",
+          "If the test confirms slipping, note when it appears in normal driving: only under hard acceleration, or also at moderate throttle? Only in upper gears, or everywhere? The pattern reveals how far the wear has progressed and helps set the urgency of the repair."
+        ]
+      },
+      {
+        heading: "Riding the Clutch: Wear You Don't Notice",
+        paras: [
+          "Resting your foot on the clutch pedal — even lightly — keeps the disc in partial contact with the flywheel, generating heat continuously even when you feel like you're driving normally. In stop-and-go traffic, on grades, or while navigating parking structures, the instinct to keep a foot on the clutch is common. But it shortens clutch life significantly with every mile.",
+          "Utah's canyon roads and steep freeway onramps combine grade with congestion in a way that makes this habit especially damaging. If the burning smell or slipping appears primarily on hills rather than flat roads, driving technique is contributing alongside disc wear. Removing your foot completely from the pedal when not actively shifting is the single most effective habit for extending clutch life."
+        ]
+      },
+      {
+        heading: "Repair Options: Disc Only or Full Kit?",
+        paras: [
+          "The repair scope depends on flywheel condition. If the flywheel surface is smooth and within manufacturer tolerances, replacing the clutch disc and pressure plate as a matched kit — typically with a new throw-out bearing — completes the repair. This is the most common scenario when slipping is caught before extensive heat damage has accumulated.",
+          "If the flywheel has been glazed, scored, or developed heat cracks from extended slipping, it needs resurfacing or replacement before a new disc is installed. Installing a new disc on a damaged flywheel surface leads to premature slipping within months. We always inspect the flywheel while the clutch is out — it takes a few minutes and prevents a repeat repair."
+        ]
+      }
     ]
   },
   {
@@ -33,6 +70,36 @@ const symptoms = [
       { title: "Hydraulic System Issue", desc: "Low clutch fluid or a failing master/slave cylinder prevents the clutch from fully releasing." },
       { title: "Worn Synchronizers", desc: "Transmission synchronizers wear over time, especially on the most frequently used gears like 2nd and 3rd." },
       { title: "Clutch Cable Adjustment", desc: "An improperly adjusted clutch cable can prevent full disengagement of the clutch disc." }
+    ],
+    richContent: [
+      {
+        heading: "What Has to Happen for a Clean Shift",
+        paras: [
+          "Shifting gears in a manual transmission is a precise sequence. When you press the clutch pedal fully, the release bearing disengages the disc from the flywheel — stopping the input shaft from being driven by the engine. The synchronizer inside the transmission then uses a small friction cone to match the target gear's speed to the shaft before the shift completes. When this works correctly, the gear slots in cleanly with no resistance.",
+          "The sequence only works if the clutch fully releases. If the input shaft is still spinning when the synchronizer engages the gear, it faces a speed differential it wasn't designed to handle quickly. The force required increases, and if the speed difference is too large, the gear teeth clash before the synchronizer can resolve it — producing the grinding you hear and feel through the shifter."
+        ]
+      },
+      {
+        heading: "What Each Grind Does to Your Synchronizers",
+        paras: [
+          "Synchronizer rings are precision components with limited friction material — often brass or carbon composite cones. Each grind removes a small amount of that material. Over weeks of repeated grinding, the synchronizer cone wears enough that it can no longer match speeds smoothly, and grinding persists even after a new clutch is installed. At that stage, the transmission itself needs work, and the repair cost is substantially higher than a clutch job alone.",
+          "The gears shifted most frequently — typically 2nd and 3rd — accumulate synchronizer wear fastest. If grinding is concentrated in those specific gears rather than across all shifts, synchronizer condition should be assessed as part of the diagnosis rather than assumed to be fine once the clutch is replaced."
+        ]
+      },
+      {
+        heading: "The Hydraulic Release System",
+        paras: [
+          "Most modern vehicles release the clutch hydraulically: the master cylinder at the pedal pushes fluid through a line to the slave cylinder at the bell housing, which actuates the release bearing. Air in this system — introduced by low fluid or a failing seal — compresses instead of transmitting pressure, preventing the slave cylinder from traveling its full stroke and leaving the clutch partially engaged even with the pedal to the floor.",
+          "A full system bleed — drawing out the air and replacing it with fresh fluid — often resolves grinding that appeared gradually with no other change to the vehicle. If the master or slave cylinder is leaking internally, fluid loss will recur and the cylinder will need replacement. Both conditions are diagnosable without removing the transmission."
+        ]
+      },
+      {
+        heading: "Cold Mornings and When to Act",
+        paras: [
+          "Many drivers notice grinding is worse on cold mornings. Hydraulic fluid is thicker when cold, which slows the slave cylinder's travel slightly. Rubber components in the system are also stiffer. If grinding consistently improves as the car warms up and then returns on the next cold start, the hydraulic release system is the primary suspect rather than the clutch disc itself.",
+          "Grinding when shifting should be diagnosed as soon as it starts — it doesn't improve on its own and synchronizer damage accumulates with every shift. The repair caught early (typically a hydraulic service or clutch replacement) costs significantly less than the same repair done after synchronizer damage has developed alongside it."
+        ]
+      }
     ]
   },
   {
@@ -50,6 +117,36 @@ const symptoms = [
       { title: "Failing Pressure Plate", desc: "A worn pressure plate with weakened springs puts more mechanical load on the pedal." },
       { title: "Hydraulic System Issue", desc: "A failing master or slave cylinder creates increased resistance throughout the pedal stroke." },
       { title: "Pivot/Linkage Wear", desc: "Worn pivot points or linkage components add friction to the pedal mechanism." }
+    ],
+    richContent: [
+      {
+        heading: "Cable vs. Hydraulic: Two Different Failure Modes",
+        paras: [
+          "Clutch systems use either a steel cable running from the pedal to the clutch fork, or a hydraulic circuit similar to a brake system. Cable systems are common on older and smaller vehicles; hydraulic systems are standard on most modern cars and trucks. The distinction matters because the failure modes are completely different. A stiff cable pedal almost always traces to cable friction or a fraying cable. A stiff hydraulic pedal usually points to a cylinder seal, hose restriction, or reduced hydraulic assist.",
+          "Identifying the system type is the starting point for diagnosis. Hydraulic systems have a small fluid reservoir near the firewall — similar to the brake fluid reservoir. Cable systems have a visible steel cable running from the pedal arm toward the transmission. In either case, the stiff pedal is a symptom of a component under stress rather than a normal characteristic of the vehicle."
+        ]
+      },
+      {
+        heading: "How a Clutch Cable Fails",
+        paras: [
+          "A clutch cable is a bundle of steel strands inside a flexible housing. As the cable ages, individual strands fray and catch on the inner housing wall, creating drag that increases with every pedal press. The friction builds gradually — so gradually that most drivers don't notice how much harder the pedal has gotten until they drive another vehicle for comparison. Along with increased effort, a fraying cable often slows the pedal's return stroke.",
+          "The failure mode can be sudden: a cable that has been getting harder for months can snap completely with little additional warning, leaving you unable to disengage the clutch. Unlike hydraulic systems that often give incremental warnings, cable failure can strand you mid-drive. The stiff-pedal stage is the right time to replace the cable — before it reaches a snap."
+        ]
+      },
+      {
+        heading: "Hydraulic Assist and What You Feel When It Fails",
+        paras: [
+          "In a healthy hydraulic system, you're not pressing directly against the full spring force of the pressure plate — the hydraulic circuit multiplies your pedal input. When the slave cylinder starts failing internally, less of that multiplication occurs and more of the pressure plate's spring load transfers to your foot. On a light passenger car this increase is noticeable; on a truck or performance vehicle with a heavy-duty pressure plate, the pedal can become genuinely difficult to depress.",
+          "Pivot points where the pedal arm rotates are worth checking before assuming a hydraulic problem. Dry or corroded bushings add resistance to every stroke and are sometimes the entire cause of a stiff pedal. Lubricating pivot points is a quick first step during inspection and occasionally resolves what appeared to be a more complex issue."
+        ]
+      },
+      {
+        heading: "Why Acting Early Changes the Outcome",
+        paras: [
+          "A stiff pedal that gets progressively harder is a component approaching failure. Cable and hydraulic components often transition from working with effort to not working at all more abruptly than worn clutch discs, which give a longer warning period through slipping. The cost of addressing a stiff pedal at a scheduled appointment is significantly lower than a roadside failure requiring a tow.",
+          "When we diagnose a stiff pedal, we check the cable or hydraulic system, inspect pivot points, and also measure clutch disc wear while we have access. This gives you a complete picture of the clutch system's health rather than just addressing the one symptom — so you're not back in the shop a few months later for the next component."
+        ]
+      }
     ]
   },
   {
@@ -67,6 +164,36 @@ const symptoms = [
       { title: "Low Transmission Fluid", desc: "Low or contaminated fluid directly affects gear engagement in automatic transmissions." },
       { title: "Worn Synchronizers", desc: "Worn synchronizers allow gears to disengage unexpectedly under load." },
       { title: "Detent Spring Wear", desc: "Worn detent springs can no longer hold gears firmly in position." }
+    ],
+    richContent: [
+      {
+        heading: "Manual vs. Automatic: Completely Different Problems",
+        paras: [
+          "Transmission slipping describes different mechanical failures depending on your vehicle type. In a manual transmission, slipping almost always traces to the clutch assembly — the disc can no longer grip the flywheel under load, so the engine disconnects from the drivetrain and RPMs climb while speed doesn't follow. In an automatic, slipping typically involves the hydraulic clutch packs inside the transmission, the torque converter, or the solenoids controlling fluid routing. The diagnosis and repair are entirely different for each.",
+          "Identifying your transmission type is the starting point. A clutch pedal means a manual. If the car shifts on its own, it's an automatic or CVT. The symptom feels similar in both — engine revving without matching vehicle speed — but the components causing it are in completely different parts of the drivetrain, and confusing the two leads to the wrong repair."
+        ]
+      },
+      {
+        heading: "Manual Transmission: Clutch Slip vs. Gear Pop-Out",
+        paras: [
+          "Two distinct manual transmission problems are commonly confused. Clutch slip produces high RPMs with low acceleration — the engine runs away while the car barely moves. Gear pop-out — where the transmission jumps out of gear unexpectedly, typically during deceleration or load reversal — usually means worn detent springs or synchronizer hubs that can no longer hold the gear fully engaged. In gear pop-out, engine speed follows the disengagement down rather than climbing freely.",
+          "The distinction matters because the repairs differ. Clutch slip is a clutch assembly job. Gear pop-out typically requires transmission disassembly to access detent springs or synchronizer hubs. Getting the correct diagnosis first prevents replacing a perfectly good clutch on a transmission that actually needs internal work."
+        ]
+      },
+      {
+        heading: "Automatic Transmission: Fluid Condition and Clutch Pack Wear",
+        paras: [
+          "Inside an automatic transmission, gear changes are controlled by hydraulically-applied clutch packs — sets of friction discs that lock specific components to achieve each gear ratio. When fluid loses viscosity or the clutch pack material wears, hydraulic pressure drops and the packs begin to slip. The engine revs climb during a shift but vehicle speed hesitates to follow, often starting in one gear range (2nd–3rd is common) before progressing.",
+          "Transmission fluid condition is the first and most important check. New fluid is typically red and translucent. Oxidized fluid turns brown or black with a burnt smell. Degraded fluid can't maintain the pressure needed to hold clutch packs engaged. A fluid service done before significant internal damage has occurred can resolve slipping that is early-stage. Waiting until slipping is constant usually means internal damage has accumulated and a rebuild is required."
+        ]
+      },
+      {
+        heading: "Why Early Diagnosis Changes the Cost Significantly",
+        paras: [
+          "Transmission slipping caught early — when it's intermittent and limited to one gear range — is frequently resolved with a targeted service rather than a rebuild. The same slipping ignored for months typically progresses to damage across multiple clutch packs or wear surfaces, where a rebuild or replacement unit is the only option. The cost difference between early and late intervention here is larger than in almost any other automotive repair.",
+          "Any slipping that has been happening for more than a few weeks deserves a diagnostic appointment rather than continued monitoring to see if it gets worse. The monitoring period is when the damage accumulates."
+        ]
+      }
     ]
   },
   {
@@ -84,6 +211,36 @@ const symptoms = [
       { title: "Hydraulic Problems", desc: "Air in the clutch hydraulic system prevents full clutch disengagement." },
       { title: "Shift Linkage Wear", desc: "Worn bushings or cables make shifting vague and imprecise." },
       { title: "Low Transmission Fluid", desc: "Insufficient fluid increases internal resistance during gear changes." }
+    ],
+    richContent: [
+      {
+        heading: "What Synchronizers Do — and Why They Matter",
+        paras: [
+          "Every gear in a manual transmission (except sometimes first and reverse on older designs) has a synchronizer — a friction cone assembly that matches the gear's rotational speed to the input shaft speed before the shift completes. This is what allows modern manuals to shift smoothly without double-clutching. When the clutch fully releases and the input shaft decelerates, the synchronizer makes a final small correction to bring the gear and shaft into alignment, allowing the teeth to mesh cleanly and silently.",
+          "When the clutch doesn't fully release, the synchronizer faces a larger speed differential than it was designed to resolve quickly. The extra force required is what makes the shift feel blocked, notchy, or like something is resisting from inside the gearbox. Forcing shifts through this resistance wears the synchronizer cones and accelerates the path toward a more expensive transmission repair."
+        ]
+      },
+      {
+        heading: "First and Reverse: The Most Diagnostic Gears",
+        paras: [
+          "First gear and reverse are often harder to engage than other gears when the clutch isn't fully releasing, because their synchronizers are simpler — or sometimes absent on older transmissions. A useful field test: with the car stopped and the engine running, press the clutch fully and wait two to three seconds before engaging first or reverse. If the shift becomes noticeably easier after waiting, the clutch is releasing but slowly — and the hydraulic system is the primary suspect. If it remains hard regardless of how long you wait, the issue is more likely the disc, linkage, or synchronizer.",
+          "This pause test costs nothing and takes ten seconds. It's one of the most reliable first steps for distinguishing a hydraulic release problem from mechanical wear in the clutch or transmission."
+        ]
+      },
+      {
+        heading: "Hydraulic Release vs. Shift Linkage: Two Different Problems",
+        paras: [
+          "Hard shifting can originate in one of two places: the clutch release system (hydraulic or cable), or the external shift linkage. A release problem prevents the clutch from fully disengaging — the input shaft keeps spinning and shifts feel blocked or heavy regardless of which gear you're targeting. A linkage problem (worn shift cable bushings, deteriorated mounting points) makes the physical act of moving the shifter imprecise and effortful, even though the clutch itself is releasing properly.",
+          "Distinguishing between the two matters because the repairs are different. Release problems are addressed at the master cylinder, slave cylinder, or cable. Linkage problems require inspection of shift cables and their rubber-insulated mounting bushings, which are often visible under the vehicle without disassembly. We check both during diagnosis since the symptoms can overlap."
+        ]
+      },
+      {
+        heading: "Cold Start Stiffness: Normal vs. Worth Investigating",
+        paras: [
+          "Manual transmissions use gear oil that thickens in cold temperatures. On a cold morning, shifts may be noticeably stiffer for the first few minutes until the oil warms and flows more freely. This is normal behavior — it's not a sign of a developing problem as long as it clears up quickly and hasn't been getting progressively worse over time.",
+          "Shifts that remain hard after the vehicle is fully warmed up, that have been getting more difficult over months, or that appeared suddenly rather than gradually are not normal cold-weather behavior. Those patterns point to a mechanical or hydraulic issue worth diagnosing before the resistance progresses further."
+        ]
+      }
     ]
   },
   {
@@ -101,6 +258,36 @@ const symptoms = [
       { title: "Riding the Clutch", desc: "Resting your foot on the clutch pedal causes partial engagement and constant heat buildup." },
       { title: "Hill Driving", desc: "Utah's mountain roads put extra demands on clutches, especially in stop-and-go traffic on grades." },
       { title: "Heavy Towing", desc: "Towing loads near or beyond your vehicle's rated capacity accelerates clutch wear dramatically." }
+    ],
+    richContent: [
+      {
+        heading: "What's Actually Burning on Your Clutch",
+        paras: [
+          "Clutch disc friction material is a heat-resistant composite — typically a blend of organic, ceramic, or metallic compounds bonded with phenolic resin. When the disc slips against the flywheel, these compounds heat rapidly. The sharp, acrid smell you detect is the resin binder breaking down under extreme heat, releasing volatile compounds with a chemical quality distinct from burning oil (greasy, heavier) or brake dust (metallic, dry). If you can smell it inside the vehicle, temperatures at the clutch disc are already high enough to cause measurable damage.",
+          "The flywheel surface is affected too. Extended or frequent overheating glazes the flywheel — hardening the surface and reducing its grip. A glazed flywheel requires resurfacing before a replacement disc will perform correctly; installing a new disc on a glazed surface leads to slipping within months and a repeat repair."
+        ]
+      },
+      {
+        heading: "How Heat Compounds the Problem",
+        paras: [
+          "A normal clutch engagement lasts less than a second — just long enough for the disc to come up to flywheel speed. Surface temperatures stay within design limits. A slipping clutch under load generates friction for seconds at a time, and temperatures at the disc surface can exceed 500°F. At those temperatures, friction material burns off faster, pressure plate springs weaken from heat cycling, and the flywheel surface begins to glaze.",
+          "Each slip event accelerates the next: a partially worn disc slips more easily, generating more heat, which glazes the flywheel faster, which increases slipping further. This self-reinforcing progression is why a clutch that smells occasionally under hard use can deteriorate rapidly to slipping under normal driving within a relatively short time."
+        ]
+      },
+      {
+        heading: "Canyon Roads and Stop-and-Go: Why Utah Is Hard on Clutches",
+        paras: [
+          "Slow traffic on a grade is one of the most demanding conditions a clutch faces. Many drivers unconsciously hold the clutch at partial engagement to hold position on a hill rather than using the brake, creating continuous slipping that generates heat for as long as traffic is stopped. Utah's canyon roads and steep freeway onramps combine grade with congestion in a way that concentrates this wear.",
+          "If the burning smell appears consistently on hills or in canyon traffic but not on flat roads at steady speed, driving technique is contributing alongside disc wear. Using the brake to hold position on a grade — rather than riding the clutch — is the correct technique for reducing heat buildup and extending clutch life on canyon and city driving."
+        ]
+      },
+      {
+        heading: "When the Smell Is a Warning vs. When to Act Now",
+        paras: [
+          "An occasional burning smell after a single difficult hill or an unusual towing situation is not automatically a sign of imminent failure. The warning sign is when the smell appears consistently during normal driving — on flat roads, at moderate throttle — without a demanding event to explain it. At that point, the disc is generating heat during low-demand operation, which means friction material has worn into the danger zone.",
+          "A burning smell accompanied by slipping (RPMs climbing without matching speed increase) means the disc is losing grip and should be inspected soon rather than monitored. A smell that appears alongside a sudden change in pedal feel — engagement point noticeably higher or lower than yesterday — means something has changed in the system and warrants same-day attention."
+        ]
+      }
     ]
   },
   {
@@ -118,6 +305,36 @@ const symptoms = [
       { title: "Failing Slave Cylinder", desc: "A worn seal in the slave cylinder allows fluid to bypass, reducing pressure." },
       { title: "Failing Master Cylinder", desc: "Internal leaks in the master cylinder reduce pedal pressure and allow the pedal to slowly sink." },
       { title: "Fluid Leak", desc: "A leak anywhere in the hydraulic system reduces available fluid and causes a soft pedal." }
+    ],
+    richContent: [
+      {
+        heading: "How the Hydraulic Clutch Circuit Works",
+        paras: [
+          "The clutch hydraulic system works on the same principle as a brake system. The master cylinder — mounted near the firewall and connected to the clutch pedal — pushes fluid through a rigid line and flexible hose to the slave cylinder at the transmission. The slave cylinder converts that fluid pressure back into mechanical motion, actuating a lever or directly pushing the release bearing to disengage the clutch disc from the flywheel. The system depends on hydraulic fluid being incompressible: pressure applied at the pedal transfers completely and immediately to the slave cylinder.",
+          "The circuit is sealed under normal operation. It doesn't consume fluid or allow air in unless a component fails. When pedal feel changes — sponginess, extra travel, inconsistent engagement — something has entered or changed inside that closed circuit, almost always air from a low fluid event or a seal that is beginning to fail."
+        ]
+      },
+      {
+        heading: "Why Air Makes the Pedal Feel Spongy",
+        paras: [
+          "Unlike hydraulic fluid, air compresses. When air bubbles are present in the clutch line — introduced by low fluid, a seeping seal, or air drawn in during a previous low-fluid event — your pedal effort first compresses the air before any fluid moves. The result is a pedal that travels further than normal before the clutch begins to release, with a soft, mushy feel rather than the firm, progressive resistance of a healthy system.",
+          "In mild cases, the clutch still fully releases if you push the pedal completely to the floor. As more air accumulates, full release becomes impossible regardless of pedal travel, and shifting becomes difficult alongside the spongy feel. A full system bleed — drawing out the air and replacing it with fresh fluid — resolves this completely when air is the only issue and no cylinder seals are actively leaking."
+        ]
+      },
+      {
+        heading: "Master vs. Slave Cylinder: Different Failure Patterns",
+        paras: [
+          "The master cylinder at the pedal and the slave cylinder at the transmission fail in recognizably different ways. A master cylinder with a failing internal seal allows fluid to bypass under sustained pedal pressure — the pedal slowly sinks toward the floor when held down, then rises when you pump it. This sinking-pedal pattern is characteristic of master cylinder internal seal failure and is distinct from air in the line.",
+          "A failing slave cylinder typically causes loss of full clutch release — you have pedal firmness but can't fully disengage the clutch, so shifting becomes difficult alongside the soft feel. Both cylinders contain similar rubber seal materials that age at comparable rates. If one is failing, the other is worth inspecting at the same time to avoid a repeat visit a few months later."
+        ]
+      },
+      {
+        heading: "Low Fluid Is Never a Minor Detail in a Closed System",
+        paras: [
+          "A clutch hydraulic system is a closed circuit that doesn't consume fluid under normal operation. A low reservoir means fluid has escaped somewhere — typically a slow seep at the master cylinder, slave cylinder, or a line fitting. The leak may be too slow to leave an obvious puddle, but each time the fluid level drops below the master cylinder inlet port, air enters the circuit.",
+          "Topping off a low reservoir without finding the leak source only delays the problem. The leak continues, the fluid level drops again, and air keeps entering. Low clutch fluid is a diagnostic signal that the full hydraulic system needs inspection — not just a fluid top-off."
+        ]
+      }
     ]
   },
   {
