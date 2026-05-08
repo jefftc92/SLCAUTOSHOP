@@ -22,7 +22,7 @@
     <% if (i > 0) { %><hr style="margin:2.5rem 0;border:none;border-top:1px solid #e5e7eb"><% } %>
     <div class="prose" style="max-width:760px">
       <h2><%= sec.heading %></h2>
-      <% sec.paras.forEach(function(p) { %><p><%= p %></p><% }); %>
+      <% sec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
       <% if (sec.list && sec.list.length) { %>
       <ul>
         <% sec.list.forEach(function(item) { %><li><%= item %></li><% }); %>
