@@ -88,8 +88,8 @@
 <% if (mainService && mainService.process && mainService.process.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>How We Handle Your <%= geo.serviceFullName %></h2>
-    <p class="section-subtitle">From the moment you call to the moment you drive away, we keep you informed every step of the way.</p>
+    <h2>How We Handle <%= geo.serviceFullName %> for <%= geo.locationName %> Customers</h2>
+    <p class="section-subtitle">The drive from <%= geo.locationName %> is <%= geo.distance %> — about <%= geo.driveTime %>. From the moment you call to the moment you pick up, we keep you informed so you're never stuck waiting without answers.</p>
     <div class="process-steps-compact">
       <% mainService.process.forEach(p => { %>
       <div class="process-step-compact">
@@ -109,8 +109,8 @@
 <% if (mainService && mainService.commonIssues && mainService.commonIssues.length) { %>
 <section class="content-section">
   <div class="container">
-    <h2>Common <%= geo.serviceFullName %> Issues We Fix</h2>
-    <p class="section-subtitle">We diagnose before we recommend. You'll know exactly what's wrong and why before any work begins.</p>
+    <h2>Common <%= geo.serviceFullName %> Problems We See from <%= geo.locationName %></h2>
+    <p class="section-subtitle">We diagnose before we recommend — <%= geo.locationName %> drivers get the same thorough inspection as any customer. You'll know exactly what's wrong and why before any work begins.</p>
     <div class="issues-grid">
       <% mainService.commonIssues.forEach(issue => { %>
       <div class="issue-card">
@@ -134,7 +134,8 @@
 <% if (mainService && mainService.whyUs && mainService.whyUs.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>Why Choose Scott's for <%= geo.serviceFullName %></h2>
+    <h2>Why <%= geo.locationName %> Drivers Choose Scott's for <%= geo.serviceFullName %></h2>
+    <p class="section-subtitle" style="max-width:720px"><%= geo.locationName %> is <%= geo.distance %> from our shop. Drivers come this far because these are the things that matter — and they can't find them closer to home.</p>
     <div class="values-grid">
       <% mainService.whyUs.forEach(w => { %>
       <div class="value-card">
@@ -155,7 +156,7 @@
 <% if (mainService && mainService.specializedServices && mainService.specializedServices.length) { %>
 <section class="content-section">
   <div class="container">
-    <h2><%= geo.serviceFullName %> — What We Do</h2>
+    <h2><%= geo.serviceFullName %> — What <%= geo.locationName %> Customers Get</h2>
     <% if (mainService.intro) { %>
     <p class="section-subtitle" style="max-width:760px"><%= mainService.intro %></p>
     <% } %>
