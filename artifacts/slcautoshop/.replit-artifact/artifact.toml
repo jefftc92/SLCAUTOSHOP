@@ -13,9 +13,4 @@ paths = ["/"]
 run = "node server.js"
 
 [services.production]
-
-[services.production.run]
-args = ["node", "server.js"]
-
-[services.production.run.env]
-NODE_ENV = "production"
+run = "node server.js"
