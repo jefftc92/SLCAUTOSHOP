@@ -10,12 +10,12 @@ name = "SLC Auto Shop"
 paths = ["/"]
 
 [services.development]
-run = "node artifacts/slcautoshop/server.js"
+run = "node server.js"
 
 [services.production]
 
 [services.production.run]
-args = ["node", "artifacts/slcautoshop/server.js"]
+args = ["node", "server.js"]
 
 [services.production.run.env]
 NODE_ENV = "production"
