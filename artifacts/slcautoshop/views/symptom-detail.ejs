@@ -7,6 +7,9 @@
   <div class="container">
     <span class="symptom-priority priority-<%= symptom.priority.toLowerCase() %>"><%= symptom.priority %> Priority</span>
     <h1><%= symptom.name %> — Repair in South Salt Lake UT</h1>
+    <% if (symptom.lastUpdated) { %>
+    <p class="hero-meta">Last updated <%= symptom.lastUpdated %></p>
+    <% } %>
     <div class="hero-buttons">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>" class="btn btn-secondary">Text Us</a>
@@ -22,78 +25,78 @@
   </div>
 </section>
 
-<% if (symptom.richContent && symptom.richContent.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
-    <% symptom.richContent.forEach(function(sec, i) { %>
-    <% if (i > 0) { %><hr style="margin:2.5rem 0;border:none;border-top:1px solid #e5e7eb"><% } %>
-    <div class="prose" style="max-width:760px">
-      <h2><%= sec.heading %></h2>
-      <% sec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
-      <% if (sec.list && sec.list.length) { %>
-      <ul>
-        <% sec.list.forEach(function(item) { %><li><%= item %></li><% }); %>
-      </ul>
-      <% } %>
-    </div>
-    <% }); %>
-  </div>
-</section>
-<% } %>
-
-<% if (relatedService) { %>
-<section class="content-section">
-  <div class="container">
-    <h2>What's Causing Your <%= symptom.shortName %>?</h2>
-    <div class="recommended-service-block">
-      <p><%= symptom.serviceBlurb %> <a href="/services/<%= relatedService.slug %>">Learn more about our <%= relatedService.fullName %> service.</a></p>
-      <div style="margin-top:1.25rem;display:flex;gap:.75rem;flex-wrap:wrap">
-        <a href="/services/<%= relatedService.slug %>" class="btn btn-primary">Learn About This Service</a>
-        <a href="tel:<%= site.phoneTel %>" class="btn btn-outline">Call for a Free Quote</a>
-      </div>
-    </div>
-  </div>
-</section>
-<% } %>
-
-<section class="content-section alt-bg">
-  <div class="container">
-    <h2>How We Handle <%= symptom.shortName %></h2>
-    <div class="prose" style="max-width:720px">
-      <p>Every repair starts with a free diagnosis — you describe what you're noticing and we inspect the vehicle. We walk you through exactly what we find, give you an upfront quote, and don't start work until you approve it. No surprises at pickup.</p>
-      <% if (relatedService) { %>
-      <p><a href="/services/<%= relatedService.slug %>">See how we approach <%= relatedService.name %> specifically</a>, including what the repair typically involves and how we keep you informed along the way.</p>
-      <% } else { %>
-      <p><a href="/services">View all services we offer</a> — if your symptom points to a specific repair, the service page covers our diagnostic approach in detail.</p>
-      <% } %>
-    </div>
-  </div>
-</section>
-
-<% var faqAlt = false; %>
-<%- include('partials/faq') %>
-
-<section class="content-section alt-bg">
-  <div class="container">
-    <h2>Why <%= symptom.name %> Happens</h2>
-    <p class="section-subtitle">These are the most common reasons drivers experience this symptom.</p>
+    <h2>Why <%= symptom.shortName %> Happens — and How to Tell What's Yours</h2>
+    <p class="section-subtitle">These are the most common causes. Each one tends to show a different pattern — use the diagnostic signal to narrow down which is yours before you bring it in.</p>
     <div class="issues-grid">
       <% symptom.causes.forEach(c => { %>
       <div class="issue-card">
         <h3><%= c.title %></h3>
         <p><%= c.desc %></p>
+        <% if (c.diagnosticSignal) { %>
+        <div class="diagnostic-signal">
+          <span class="diagnostic-label">How to tell</span>
+          <p><%= c.diagnosticSignal %></p>
+        </div>
+        <% } %>
       </div>
       <% }) %>
     </div>
   </div>
 </section>
 
-<section class="content-section">
+<% if (symptom.richContent && symptom.richContent.length) { %>
+<% symptom.richContent.forEach(function(sec, i) { %>
+<section class="content-section<%= i % 2 === 0 ? '' : ' alt-bg' %>">
   <div class="container">
-    <h2>Other Symptoms We Diagnose — Not Just <%= symptom.shortName %></h2>
-    <p class="section-subtitle">Not sure if this is your issue? Browse other common problems we fix.</p>
+    <div class="prose" style="max-width:760px">
+      <h2><%= sec.heading %></h2>
+      <% sec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
+      <% if (sec.list && sec.list.length) { %>
+      <ul>
+        <% sec.list.forEach(function(item) { %><li><%- item %></li><% }); %>
+      </ul>
+      <% } %>
+      <% if (sec.costCallout) { %>
+      <aside class="cost-callout">
+        <h3>What will it cost?</h3>
+        <p>Every repair is different — cost depends on what we find during diagnosis. Here's what we commit to: <strong>diagnosis is free</strong>, you get a written estimate before any work begins, and we don't start until you approve. No surprises at pickup.</p>
+      </aside>
+      <% } %>
+      <% if (sec.inlineCta) { %>
+      <p class="inline-cta">Not sure what's causing it? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a> — free diagnosis at our South Salt Lake shop.</p>
+      <% } %>
+    </div>
+  </div>
+</section>
+<% }); %>
+<% } %>
+
+<% var faqAlt = (symptom.richContent && symptom.richContent.length % 2 === 0); %>
+<%- include('partials/faq') %>
+
+<% if (relatedService) { %>
+<section class="content-section<%= faqAlt ? '' : ' alt-bg' %>">
+  <div class="container">
+    <h2>The Service That Fixes This</h2>
+    <div class="recommended-service-block">
+      <p><%= symptom.serviceBlurb %> <a href="/services/<%= relatedService.slug %>">Learn more about our <%= relatedService.fullName %> service.</a></p>
+      <div style="margin-top:1.25rem;display:flex;gap:.75rem;flex-wrap:wrap">
+        <a href="/services/<%= relatedService.slug %>" class="btn btn-primary">View Service Details</a>
+        <a href="tel:<%= site.phoneTel %>" class="btn btn-outline">Call for a Free Diagnosis</a>
+      </div>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<section class="content-section<%= (faqAlt && relatedService) || (!faqAlt && !relatedService) ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2>Not Sure This Is Your Issue?</h2>
+    <p class="section-subtitle">Browse related symptoms — drivers often confuse these for one another.</p>
     <div class="symptom-other-grid">
-      <% allSymptoms.filter(s => s.slug !== symptom.slug).slice(0, 9).forEach(sy => { %>
+      <% relatedSymptoms.forEach(sy => { %>
       <a href="/symptoms/<%= sy.slug %>" class="symptom-other-card cat-<%= sy.category.toLowerCase().replace(' ','') %>">
         <span class="symptom-cat-chip"><%= sy.category %></span>
         <strong><%= sy.shortName %></strong>

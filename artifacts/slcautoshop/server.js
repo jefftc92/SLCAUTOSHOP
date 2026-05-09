@@ -619,6 +619,19 @@ app.get('/symptoms/:slug', (req, res) => {
   const relatedService = services.find(s => s.slug === symptom.relatedService);
   const sFaqs = getSymptomFaqs(symptom);
 
+  // Intentional internal-link routing: 3 same-category + 3 same-service + 1 bridge
+  const others = symptoms.filter(s => s.slug !== symptom.slug);
+  const sameCategory = others.filter(s => s.category === symptom.category).slice(0, 3);
+  const sameService = others.filter(s =>
+    s.relatedService === symptom.relatedService &&
+    !sameCategory.find(x => x.slug === s.slug)
+  ).slice(0, 3);
+  const bridge = others.filter(s =>
+    s.category !== symptom.category &&
+    !sameService.find(x => x.slug === s.slug)
+  ).slice(0, 1);
+  const relatedSymptoms = [...sameCategory, ...sameService, ...bridge].slice(0, 7);
+
   res.render('symptom-detail', {
     activePage: 'symptoms',
     metaTitle: symptom.metaTitle || `${symptom.shortName} Repair South Salt Lake | Scott's Auto & Clutch Repair`,
@@ -626,6 +639,7 @@ app.get('/symptoms/:slug', (req, res) => {
     canonical: '/symptoms/' + symptom.slug,
     symptom,
     relatedService,
+    relatedSymptoms,
     pageFaqs: sFaqs,
     faqTitle: 'Frequently Asked Questions — ' + symptom.name,
     ctaTitle: 'Experiencing ' + symptom.shortName + '?',
@@ -657,7 +671,8 @@ app.get('/symptoms/:slug', (req, res) => {
         },
         "about": { "@type": "Thing", "name": symptom.name },
         "specialty": "Automotive Repair",
-        "proficiencyLevel": "Expert"
+        "proficiencyLevel": "Expert",
+        ...(symptom.lastUpdated ? { "dateModified": symptom.lastUpdated } : {})
       }
     ]
   });
