@@ -13,4 +13,4 @@ paths = ["/"]
 run = "node server.js"
 
 [services.production]
-run = "node server.js"
+run = "node artifacts/slcautoshop/server.js"
