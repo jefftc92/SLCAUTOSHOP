@@ -1,3 +1,4 @@
+const brandContent = require('./vehicleBrandContent');
 const LOGO_BASE = 'https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/';
 const LOCAL_LOGOS = new Set(['kia', 'chevrolet', 'buick', 'general-motors', 'fiat', 'land-rover', 'saturn']);
 
@@ -99,7 +100,8 @@ vehicleBrands.forEach(brand => {
   brand.metaTitle = bm ? bm.t : `${brand.name} Repair Salt Lake City | Scott's Auto & Clutch Repair`;
   brand.metaDesc  = bm ? bm.d : `Expert ${brand.name} repair in Salt Lake City. Full service for all models. Call (801) 485-4089.`;
   brand.heading = `${brand.name} Repair Shop in Salt Lake City UT`;
-  brand.intro = `${brand.tagline} We service all ${brand.name} models—handling everything from routine oil changes and brake service to timing belt replacement, clutch repairs, and engine diagnostics. Trust your ${brand.name} to a shop that understands what makes these vehicles exceptional.`;
+  const bc = brandContent.getContent(brand.name);
+  brand.intro = (bc && bc.intro) ? bc.intro : `${brand.tagline} We service all ${brand.name} models—handling everything from routine oil changes and brake service to timing belt replacement, clutch repairs, and engine diagnostics. Trust your ${brand.name} to a shop that understands what makes these vehicles exceptional.`;
 });
 
 module.exports = vehicleBrands;

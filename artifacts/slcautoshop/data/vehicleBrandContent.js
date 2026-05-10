@@ -325,6 +325,36 @@ const brandContent = {
     ]
   },
   'BMW': {
+    intro: "BMW's engineering is capable and precise — but high-mileage BMWs develop predictable failure patterns that independent specialists see regularly. Cooling system components, VANOS rattle on cold starts, oil leaks from multiple gasket locations, and electric water pump failures are all diagnosable and fixable without dealership pricing. We use professional BMW diagnostic equipment and work on BMWs at every mileage point.",
+    whyUs: [
+      { title: "BMW Diagnostic Equipment", desc: "We use professional-grade BMW diagnostic tools that access the same data as dealer software — fault code history, live sensor data, and adaptation values. Accurate diagnosis before recommending parts." },
+      { title: "Cooling System Expertise", desc: "BMW cooling system failures are predictable — expansion tank, electric water pump, thermostat housing — and preventable. We recommend proactive replacement before a roadside failure occurs." },
+      { title: "VANOS and Oil Leak Experience", desc: "VANOS solenoid service, valve cover gaskets, oil filter housing gaskets — common BMW services we perform regularly at significantly lower cost than the dealer." },
+      { title: "Free Diagnosis", desc: "Every BMW repair starts with a free diagnosis. You know exactly what we found before any work begins." }
+    ],
+    richContent: [
+      {
+        heading: "BMW's Cooling System: The Most Common High-Mileage Failure",
+        paras: [
+          "BMW's cooling system is a known weak point on high-mileage vehicles. The manufacturer used plastic for several critical components — the expansion tank, thermostat housing, water pump housing, and various connector fittings — to reduce weight. These plastic parts degrade with temperature cycling over time and develop cracks. The characteristic failure is sudden coolant loss from a cracked expansion tank or fitting, often with little warning. Because BMW uses an electric water pump rather than a belt-driven one, there's no backup circulation if the system loses pressure.",
+          "The recommended approach is proactive replacement of the plastic cooling system components before they fail, typically around 80,000-100,000 miles. Replacing the expansion tank, thermostat housing, and water pump together as a planned service costs significantly less than an emergency repair after a roadside failure — and BMW engines overheat quickly without circulation."
+        ]
+      },
+      {
+        heading: "VANOS and Oil Leaks: The Other High-Mileage BMW Pattern",
+        paras: [
+          "BMW's VANOS variable valve timing system adjusts cam timing based on engine speed and load. VANOS solenoids and seals wear over time, and the characteristic symptom is a rattle or rough idle when cold that clears as the engine warms, sometimes paired with fault codes for variable valve timing. Solenoid service or seal replacement addresses the issue in most cases — full VANOS unit replacement is not always necessary.",
+          "BMW engines also develop oil leaks at predictable locations — valve cover gaskets, oil filter housing gaskets, crankshaft seals, and oil pan gaskets are the most common. Oil dripping onto hot exhaust components creates burning smells and a fire risk over time. We identify which gaskets are leaking before recommending any repair, since different leak locations have very different labor content."
+        ]
+      },
+      {
+        heading: "Independent BMW Service: What the Difference Is",
+        paras: [
+          "BMW dealer labor rates in the Salt Lake area run $175-200 per hour. Our rate is considerably lower, and we use quality parts — OEM or OEM-equivalent — for every BMW repair. The diagnostic equipment we use accesses the same system data as dealer software, so there's no tradeoff in diagnostic capability.",
+          "Where independent BMW service makes the most sense is in routine and high-mileage maintenance: oil services with the correct LL-01 approved fluid, cooling system replacement before failure, VANOS service, brake pad and rotor replacement with pad sensors, and oil leak repair. These are predictable, well-understood repairs where the labor quality depends on knowing the platform — not on who you bought the car from."
+        ]
+      }
+    ],
     issues: [
       {t:'Cooling System Plastic Component Failure',d:'BMW cooling systems use plastic expansion tanks, thermostat housings, and water pump components that crack and leak with age. We replace with upgraded aluminum parts where available for improved longevity.'},
       {t:'Oil Leaks at Multiple Points',d:'BMW engines develop oil leaks at valve cover gaskets, oil filter housing gaskets, oil pan gaskets, and crankshaft seals. Oil dripping onto hot exhaust components creates burning smells and a fire risk.'},
@@ -349,6 +379,36 @@ const brandContent = {
     ]
   },
   'Jeep': {
+    intro: "If you wheel your Jeep on Utah's trails or rely on it for winter traction and mountain towing, the service needs are different from highway driving. Transfer case fluid, differential service after water crossings, front-end suspension that handles genuine off-road stress, and cooling systems under sustained load on canyon grades — these are what keep Jeeps capable and reliable. We service all Jeep models and understand what hard use does to the drivetrain.",
+    whyUs: [
+      { title: "4WD and Drivetrain Experience", desc: "Transfer case service, differential inspection after water crossings, and 4WD system diagnosis are part of our regular workload. We understand Jeep's different 4WD systems and what each one needs." },
+      { title: "Front-End Death Wobble", desc: "Death wobble requires finding the actual worn components — not just replacing one part and hoping. We inspect all front-end components and replace what's genuinely worn." },
+      { title: "Modified Vehicle Service", desc: "Lifted Jeeps need service that accounts for changed driveshaft angles and suspension geometry. We work on Jeeps in stock and modified configurations." },
+      { title: "Free Diagnosis", desc: "Every Jeep repair starts with a free diagnosis. You know exactly what we found before any work begins." }
+    ],
+    richContent: [
+      {
+        heading: "Jeep's 4WD Systems: What Each One Needs",
+        paras: [
+          "Jeep uses several different four-wheel-drive systems across its lineup, and they're not interchangeable in terms of service requirements. Part-time Command-Trac systems on Wranglers use a manually engaged transfer case with a front axle that disconnects in two-wheel drive. Full-time Quadra-Trac systems on Grand Cherokee run all four wheels continuously through a center differential. Quadra-Drive II adds electronically controlled limited-slip differentials front and rear.",
+          "Transfer case fluid service applies to all Jeep 4WD systems and should be done every 30,000 miles — more frequently on vehicles that see regular water crossings or mud driving. Front and rear axle differential fluid should be serviced on the same schedule. After any significant water crossing where the differentials may have been submerged, fluid should be checked immediately for water contamination. Contaminated fluid causes bearing and gear damage that's expensive to address."
+        ]
+      },
+      {
+        heading: "Jeep's 3.6L Pentastar: The Engine Most Wranglers and Grand Cherokees Use",
+        paras: [
+          "The 3.6L Pentastar V6 has powered most Jeep Wranglers, Grand Cherokees, and Cherokees since 2011. It's a capable engine with reasonable longevity — but early Pentastar engines (2011-2014) developed a tendency to tick from valve train noise, particularly on cold starts. More concerning is the cylinder head bolt design on some early examples, which can develop oil leaks at the head gasket surface.",
+          "The Pentastar also shares access between the valve cover gaskets and some emission system components, which means valve cover leaks are worth addressing before oil migrates to ignition coil connectors — a common secondary failure. We check valve cover condition on every Pentastar that comes in with an oil smell or a check engine light."
+        ]
+      },
+      {
+        heading: "Jeep Service for Utah's Off-Road and Mountain Driving",
+        paras: [
+          "Utah's off-road terrain — from Moab's rock crawling to the Wasatch backcountry — puts Jeeps through conditions that change maintenance priorities. Suspension components see more stress and wear faster than in street-only use. Ball joints, tie rod ends, and track bar bushings on Wranglers should be inspected annually if the vehicle sees regular trail use. Lifted Jeeps have changed driveshaft angles that accelerate U-joint wear and can cause vibration if the angles aren't within spec for the lift height.",
+          "Jeep cooling systems work hard on Utah's canyon grades during summer. The Pentastar V6 running at sustained high load on a long climb generates significant heat, and any cooling system weakness shows up on a grade. We check hose condition, coolant concentration, and thermostat function as part of any service on Jeeps used for canyon or off-road driving."
+        ]
+      }
+    ],
     issues: [
       {t:'Front-End Death Wobble',d:'Jeep Wranglers and similar models can develop violent front-end shaking triggered by a road imperfection at highway speed. It\'s caused by worn front suspension components — track bars, ball joints, tie rod ends, or steering stabilizer. We find and replace the actual worn parts, not just mask the symptom.'},
       {t:'Engine Oil Leaks',d:'Jeep V6 and older inline-six engines develop oil cooler housing gasket leaks and valve cover leaks. Oil accumulating on the starter motor causes intermittent no-start conditions that can be hard to diagnose without knowing the source.'},
@@ -373,6 +433,36 @@ const brandContent = {
     ]
   },
   'Dodge': {
+    intro: "Dodge's lineup includes some of the most performance-oriented domestic vehicles — the HEMI V8 in Charger and Challenger, the Durango's towing capability, and transmissions calibrated for both performance and daily use. HEMI engines with MDS cylinder deactivation have a known lifter failure pattern worth understanding. The modern ZF 8-speed has specific service requirements. We service Dodge across the full lineup and diagnose before we recommend.",
+    whyUs: [
+      { title: "HEMI Lifter and MDS Expertise", desc: "Full MDS lifter replacement and AFM disable is a repair we do regularly. Done correctly, it eliminates the most common HEMI failure pattern and doesn't come back." },
+      { title: "Exhaust Manifold Stud Extraction", desc: "HEMI exhaust manifold stud failure is common and requires careful extraction technique. We handle it without damaging the cylinder head threads." },
+      { title: "Performance Vehicle Experience", desc: "Charger and Challenger owners push their vehicles harder than average. We understand what performance driving does to brakes, transmission, and cooling in Utah's terrain." },
+      { title: "Free Diagnosis", desc: "Every Dodge repair starts with a free diagnosis. You know exactly what we found before any work begins." }
+    ],
+    richContent: [
+      {
+        heading: "The HEMI V8 and MDS: What Owners Should Understand",
+        paras: [
+          "Dodge's 5.7L and 6.4L HEMI engines with Multi-Displacement System deactivate four cylinders at light throttle to improve fuel economy. The system uses specialized lifters that can collapse on command. The failure mode is when lifters collapse at the wrong time — under load — causing misfires, a pronounced ticking sound, and oil consumption. The 5.7L HEMI in Charger, Challenger, Ram, and Durango is the most common application where we see this failure.",
+          "The correct repair is replacing all lifters — not just the collapsed ones — because system-wide lifter wear is the underlying condition. We also disable the MDS system through programming as part of the repair, switching the engine to a standard V8 configuration. This eliminates the failure mode entirely. For vehicles where the engine is still healthy, MDS disable is a preventive choice some owners make; for vehicles that have already experienced lifter failure, it's typically the right call alongside the lifter replacement."
+        ]
+      },
+      {
+        heading: "Dodge Charger and Challenger: Performance Service in Utah's Terrain",
+        paras: [
+          "The Charger and Challenger are genuinely capable performance vehicles — heavy, powerful, and capable of generating significant heat through brakes and drivetrain on canyon roads. Utah's Parleys Canyon, Big Cottonwood, and Little Cottonwood grades are real tests for brake systems on performance driving days. Brake pad compound selection matters on these vehicles; performance-oriented pads handle sustained heat better than standard street pads.",
+          "Transmission fluid in the ZF 8HP unit used in most modern Charger and Challenger applications should be serviced every 45,000-60,000 miles for normal use. Performance driving and canyon use shorten this to 30,000 miles. The ZF 8HP is a robust transmission, but fluid degradation causes shift quality to change subtly before causing any fault codes."
+        ]
+      },
+      {
+        heading: "The Durango: Dodge's Most Versatile Platform",
+        paras: [
+          "The Durango shares its platform with the Jeep Grand Cherokee and uses similar drivetrain components — including the 3.6L Pentastar V6 and available HEMI V8. As a three-row family SUV used for towing in Utah's terrain, transmission fluid service every 30,000 miles for towing applications, differential fluid service at the same interval, and more frequent brake inspection are all warranted.",
+          "Transfer case fluid service applies to AWD Durango models on the same schedule as other Jeep/Ram/Dodge 4WD vehicles. Utah's winters and mountain roads mean the AWD system sees real use — maintenance matters more here than in flat urban environments."
+        ]
+      }
+    ],
     issues: [
       {t:'Hemi Cam and Lifter Failure',d:'Dodge Hemi engines with MDS cylinder deactivation develop collapsed lifters and cam wear over time, causing misfires and ticking. We replace all lifters and offer MDS disable for improved long-term reliability.'},
       {t:'Exhaust Manifold Bolt Breakage',d:'Dodge Hemi engines are prone to broken exhaust manifold bolts causing a distinct ticking sound and exhaust leaks. Extraction requires careful technique to avoid damaging threads in the cylinder head.'},
@@ -397,6 +487,36 @@ const brandContent = {
     ]
   },
   'Hyundai': {
+    intro: "Hyundai's lineup covers a wide range — front-wheel-drive economy cars, AWD crossovers, the three-row Palisade, and the turbocharged Veloster. The Theta II engine recall affects certain models and is worth checking even on out-of-warranty vehicles. Dual-clutch transmission shudder on affected models is often diagnosable and fixable without full transmission replacement. Whatever your Hyundai needs, we find the cause before recommending the repair.",
+    whyUs: [
+      { title: "Theta II Engine Knowledge", desc: "We know which Hyundai models and years are affected by the Theta II recall, how to diagnose bearing issues, and how to help owners understand their coverage options." },
+      { title: "DCT Transmission Service", desc: "Hyundai dual-clutch transmission shudder and jerky shifts are often clutch actuator related — not full transmission failure. We diagnose the actual issue before recommending a repair scope." },
+      { title: "Correct Fluid Specifications", desc: "Hyundai AWD systems and transmissions require specific fluid types. We stock and use the correct spec for every Hyundai service — not generic substitutes." },
+      { title: "Free Diagnosis", desc: "Every Hyundai repair starts with a free diagnosis. You know exactly what we found before any work begins." }
+    ],
+    richContent: [
+      {
+        heading: "The Theta II Engine: What Hyundai Owners Should Know",
+        paras: [
+          "Hyundai's 2.0L and 2.4L Theta II GDI engines — used in Sonata, Santa Fe, and Tucson models from roughly 2011-2019 — were subject to a significant recall for connecting rod bearing failure caused by manufacturing debris left inside the engine during assembly. The bearing failure leads to a knocking sound, oil pressure loss, and eventual engine seizure. The recall has been extended multiple times, and some affected vehicles qualify for engine replacement even outside the original warranty period.",
+          "If you own a Hyundai with a 2.0L or 2.4L engine from those model years, we can check your VIN against the recall database. For engines outside recall coverage that show bearing symptoms, we diagnose the extent of wear before discussing repair options. Engine replacement is sometimes the most cost-effective path depending on the vehicle's value and overall condition."
+        ]
+      },
+      {
+        heading: "Hyundai's Dual-Clutch Transmission: Service vs Replacement",
+        paras: [
+          "Hyundai's 7-speed wet dual-clutch transmission — used in certain Elantra, Sonata, and Tucson models — has a known issue with clutch actuator wear that causes jerky acceleration at low speeds, shuddering, and hesitation when pulling away from a stop. Many owners are told they need a new transmission — in reality, the issue is frequently the clutch actuator assembly and transmission control module calibration, which we can address without full transmission replacement.",
+          "Proper diagnosis is important here because the symptoms can also indicate clutch pack wear in higher-mileage examples. We test the actuator function and check for fault codes specific to the actuator before recommending a repair scope. The difference in cost between an actuator service and a transmission replacement is substantial."
+        ]
+      },
+      {
+        heading: "Hyundai Maintenance in Utah's Climate",
+        paras: [
+          "Hyundai's direct-injection engines — including the Theta II GDI and its successors — accumulate carbon on the intake valves over time. The GDI design doesn't wash the valves with fuel as port-injection engines do. As carbon builds up over 50,000+ miles, idle quality becomes rougher, throttle response softens, and fuel economy decreases gradually. An intake cleaning service restores performance and is particularly relevant for Utah drivers with consistent highway mileage.",
+          "Hyundai AWD models use an electronically controlled coupling that requires the manufacturer-specified fluid changed on schedule. Running degraded or generic fluid causes coupling failure that's expensive to address. We verify AWD fluid condition at every inspection on Hyundai AWD vehicles."
+        ]
+      }
+    ],
     issues: [
       {t:'Engine Bearing Failure (Theta II)',d:'Hyundai vehicles with 2.0L and 2.4L Theta II engines are subject to an ongoing recall for connecting rod bearing failure. We diagnose affected engines, check VINs, and help navigate warranty claims where applicable.'},
       {t:'Dual-Clutch Transmission Shudder',d:'Hyundai vehicles equipped with the dual-clutch transmission can experience clutch actuator failure causing jerky acceleration, shuddering, and shifting hesitation. We service clutch actuators and reprogram the transmission control module.'},
@@ -421,6 +541,36 @@ const brandContent = {
     ]
   },
   'Kia': {
+    intro: "Kia shares platform and engine architecture with Hyundai, which means both the engineering strengths and the known failure patterns are similar. The Theta II engine recall affects certain Kia models — we can check your VIN. The Telluride and Stinger represent very different platforms than the Soul and Forte, and service needs vary accordingly. Whatever your Kia is doing, we diagnose the cause before recommending the repair.",
+    whyUs: [
+      { title: "Theta II Engine Knowledge", desc: "We know which Kia models are affected by the engine recall, how to diagnose bearing symptoms, and how to help owners understand their coverage." },
+      { title: "Full Kia Lineup Coverage", desc: "From the small Rio and Soul to the Stinger's rear-wheel-drive platform and the Telluride's three-row layout — we service the full Kia range." },
+      { title: "Correct Fluid Specifications", desc: "Kia AWD systems and transmissions require specific fluid. We stock and use the correct spec — not generic alternatives." },
+      { title: "Free Diagnosis", desc: "Every Kia repair starts with a free diagnosis. You know exactly what we found before any work begins." }
+    ],
+    richContent: [
+      {
+        heading: "Kia and the Theta II Engine Recall: What Owners Need to Know",
+        paras: [
+          "Kia's 2.0L and 2.4L Theta II GDI engines — used in Optima, Sorento, and Sportage from the early 2010s through mid-decade — share the same manufacturing issue as the Hyundai recall. Metal debris left in the oil passages during engine assembly can cause connecting rod bearing failure, leading to an engine knock, oil pressure loss, and in serious cases, sudden engine failure. The recall has been extended multiple times and some vehicles qualify for engine replacement outside the original warranty period.",
+          "We can check your VIN against the recall database and help you understand what coverage applies to your vehicle. For Kias outside coverage, or where the engine shows symptoms not covered by the recall, we diagnose the extent of bearing wear before discussing repair options."
+        ]
+      },
+      {
+        heading: "Kia's Expanding Lineup: Platform Differences That Matter for Service",
+        paras: [
+          "Kia's lineup spans more engineering ground than most people realize. The Soul and Rio sit on front-wheel-drive compact platforms with straightforward service profiles. The Telluride and Sorento are substantial three-row SUVs with different engine options and AWD systems. The Stinger is rear-wheel-drive — unusual for Kia — with a turbocharged 2.5L or 3.3L V6, and its service needs resemble a performance vehicle more than a crossover.",
+          "Knowing which platform you're working with matters for accurate diagnosis. We identify your specific Kia's engine, transmission, and drivetrain configuration before making any maintenance recommendations. Stinger and Sportage GT-Line turbo engines benefit from shorter oil intervals than their naturally aspirated counterparts."
+        ]
+      },
+      {
+        heading: "Kia Ownership in Utah's Climate",
+        paras: [
+          "Kia's direct-injection engines accumulate carbon on intake valves over time — the same pattern as Hyundai, since they share engine technology. An intake cleaning every 50,000 miles keeps combustion efficient and idle quality consistent. This service is particularly relevant for Utah drivers with higher annual mileage.",
+          "Utah winters add road salt on the undercarriage that accelerates corrosion on brake lines, exhaust hardware, and AWD coupling components. We inspect the undercarriage during winter service visits on Kia models. AWD coupling fluid should be checked and changed on schedule — it's a service that gets overlooked but has a real impact on AWD longevity in mountain driving conditions."
+        ]
+      }
+    ],
     issues: [
       {t:'Engine Bearing Failure (Theta II)',d:'Like Hyundai, Kia vehicles with 2.0L and 2.4L Theta II engines are subject to an ongoing recall for connecting rod bearing failure. We check VINs, diagnose affected engines, and assist with warranty coordination.'},
       {t:'Steering Coupler Clunking',d:'Kia vehicles develop a clunking or popping noise when turning the steering wheel, caused by a worn intermediate steering shaft coupler. It\'s a safety-relevant issue — steering feel degrades as it worsens.'},
@@ -445,6 +595,36 @@ const brandContent = {
     ]
   },
   'Volkswagen': {
+    intro: "VW engineering is precise and specific — DSG dual-clutch transmissions that need periodic clutch pack and fluid service, timing systems that vary between belt and chain by engine generation, and components designed to work with specific VW-approved fluids. Generic service approaches miss these details and can accelerate wear on systems built to tight tolerances. If your VW is shifting oddly, making noise, has a check engine light, or just needs routine maintenance done correctly, we're the right shop.",
+    whyUs: [
+      { title: "DSG Transmission Service", desc: "DSG fluid and filter change every 40,000 miles prevents the mechatronic unit failures we see on cars that skipped service. We know the procedure and use the correct fluid." },
+      { title: "Timing Chain Tensioner Expertise", desc: "The early TSI timing chain tensioner failure is serious and preventable. We identify which revision your VW has and recommend the update before it becomes an engine problem." },
+      { title: "VW-Spec Fluids Only", desc: "VW engines require oil with specific VW approval ratings. We verify the correct spec for your engine — using wrong-spec oil causes timing chain wear and can damage diesel particulate filters." },
+      { title: "Free Diagnosis", desc: "Every VW repair starts with a free diagnosis. You know exactly what we found before any work begins." }
+    ],
+    richContent: [
+      {
+        heading: "VW's TSI Timing Chain: The Most Consequential Service Item You Haven't Heard Of",
+        paras: [
+          "Volkswagen's TSI turbocharged four-cylinder engines — used in Jetta, Passat, Tiguan, Golf, and most other VW models from the mid-2000s through mid-2010s — had an early-revision timing chain tensioner that could fail without warning. The tensioner maintains chain tension through oil pressure; when it fails, the chain can jump or break, and on an interference engine the result is piston-to-valve contact and severe engine damage. VW issued a technical service bulletin and updated the tensioner design.",
+          "If your VW has a TSI engine and hasn't had the updated tensioner installed, this should be a top priority. The preventive repair is straightforward and costs a fraction of what engine repair from a skipped chain would cost. We check timing chain tensioner revision status on every TSI engine that comes through the shop."
+        ]
+      },
+      {
+        heading: "The DSG Dual-Clutch Transmission: Service It or Replace It",
+        paras: [
+          "VW's DSG is a dual-clutch transmission that provides the fuel efficiency of a manual with the convenience of an automatic. It's a robust unit when properly maintained, but the transmission fluid and filter should be changed every 40,000 miles, and the mechatronic unit — the hydraulic control module — is sensitive to fluid quality. VW labels the DSG as 'lifetime fill,' which is one of the reasons we see mechatronic unit failures on cars that never had a fluid service.",
+          "The most common DSG symptom we diagnose is hesitation and jerky shifting at low speed. This is often fluid-related and resolves after a proper fluid and filter service. In more advanced cases, the mechatronic unit itself needs service or replacement — but that's far less common on vehicles that have kept up with fluid changes."
+        ]
+      },
+      {
+        heading: "VW Ownership in Utah: What Changes at Altitude and in Mountain Driving",
+        paras: [
+          "VW's turbocharged engines perform slightly differently at Utah's altitude than at sea level — the turbo compensates for the thinner air, but for performance-oriented owners driving Golfs or Jettas hard in canyon conditions, the turbo is working harder than at lower altitude, making oil quality and change intervals more important.",
+          "Utah winters mean road salt, which affects VW's undercarriage. VW uses steel brake lines and some steel-bodied components that corrode in salt environments. We inspect the undercarriage at fall service visits and address developing corrosion before it becomes structural. VW timing belt-equipped engines — older TDIs and some petrol engines — also need attention if the vehicle has been sitting through multiple Utah winters, since belts age from temperature cycling regardless of mileage."
+        ]
+      }
+    ],
     issues: [
       {t:'Timing Chain Tensioner Failure',d:'VW turbocharged engines have a known early-revision timing chain tensioner that can fail without warning, causing the chain to skip and destroying the engine. Preventive tensioner replacement is one of the most important services we perform on VW TSI engines.'},
       {t:'Carbon Buildup on GDI Engines',d:'VW direct-injection engines suffer from significant carbon buildup on intake valves over time, causing rough idle, misfires, and power loss. We perform walnut blast carbon cleaning to restore combustion efficiency without removing the engine.'},

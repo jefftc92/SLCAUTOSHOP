@@ -52,7 +52,23 @@
   </div>
 </section>
 
-<!-- 3. Repair Capabilities — white -->
+<% if (brandContent && brandContent.richContent && brandContent.richContent.length) { %>
+<% brandContent.richContent.forEach(function(sec, i) { %>
+<section class="content-section<%= i % 2 === 0 ? '' : ' alt-bg' %>">
+  <div class="container">
+    <div class="prose" style="max-width:760px">
+      <h2><%= sec.heading %></h2>
+      <% sec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
+      <% if (sec.list && sec.list.length) { %>
+      <ul>
+        <% sec.list.forEach(function(item) { %><li><%- item %></li><% }); %>
+      </ul>
+      <% } %>
+    </div>
+  </div>
+</section>
+<% }); %>
+<% } else { %>
 <section class="content-section">
   <div class="container">
     <h2>Our <%= brand.name %> Repair Capabilities</h2>
@@ -66,6 +82,7 @@
     </div>
   </div>
 </section>
+<% } %>
 
 <!-- 4. Common Issues — alt-bg -->
 <% if (brandContent && brandContent.issues && brandContent.issues.length) { %>
