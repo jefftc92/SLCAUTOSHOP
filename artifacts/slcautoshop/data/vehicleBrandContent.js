@@ -1,6 +1,36 @@
 // Brand-specific unique content for SEO depth
 const brandContent = {
   'Toyota': {
+    intro: "Toyota has earned its reliability reputation through consistent engineering and precise manufacturing tolerances — but even a well-built vehicle needs a mechanic who understands what's actually inside it. Timing systems, cooling components, and fluid specs vary significantly across Toyota's model range, and a generic service approach misses those details. We've worked on Corollas with 220,000 miles, 4Runners with clutch jobs, and Tacomas that spend weekends on Utah's backcountry roads. If your Toyota needs something, we'll tell you exactly what it is.",
+    whyUs: [
+      { title: "Toyota Timing Expertise", desc: "Toyota's timing systems vary significantly by engine generation — some use belts, some use chains, and the service requirements differ considerably. We know which your vehicle has and what it needs." },
+      { title: "Correct-Spec Fluids Only", desc: "Toyota transmissions and engines are sensitive to fluid specification. We stock Toyota-spec ATF, CVT fluid, and engine oil — not generic alternatives labeled 'compatible.'" },
+      { title: "Diagnosis Before Parts", desc: "We road-test and diagnose before recommending any repair. A check engine code points to a system — it doesn't tell us what to replace." },
+      { title: "Free Diagnosis", desc: "Every Toyota repair starts with a free diagnosis. You know exactly what we found and what the repair involves before we start any work." }
+    ],
+    richContent: [
+      {
+        heading: "Toyota's Timing Systems: What Changes Between Engine Generations",
+        paras: [
+          "Toyota has used both timing belts and timing chains across its engine lineup, and the service requirements are completely different. Belt-equipped engines — including older 4-cylinder and V6 designs used in Camrys, RAV4s, and Tacomas through the mid-2000s — require belt replacement at the manufacturer's interval, typically 90,000 miles. Missing this service on an interference engine destroys it. Chain-equipped engines, which cover most modern Toyotas, don't have a fixed replacement interval but develop stretch over high mileage, showing up as a cold-start rattle and timing-related fault codes.",
+          "Direct injection has become standard on most newer Toyota engines. GDI engines don't wash the intake valves with fuel the way port-injection designs do, which means carbon accumulates on the valves over time and eventually affects combustion. An intake cleaning service every 60,000-80,000 miles keeps power and fuel economy consistent on affected engines. We identify which systems your Toyota has before making any maintenance recommendations."
+        ]
+      },
+      {
+        heading: "Why Toyota Owners Choose Independent Shops",
+        paras: [
+          "Toyota dealers charge $150-175 per hour for service in the Salt Lake area. Our rate is significantly lower, and we use parts that meet or exceed Toyota's specifications for every repair. For most Toyota services — oil changes, brakes, timing components, cooling system, clutch — there's no meaningful difference in the repair itself between a dealer and a shop that knows the platform. The difference is the bill at the end.",
+          "We also diagnose before we recommend. A dealer service department often works from a menu of services tied to mileage intervals. We inspect what your specific vehicle shows and recommend based on what we actually find. If your Toyota doesn't need a service, we tell you. If it does, we explain exactly why before the work starts."
+        ]
+      },
+      {
+        heading: "Toyota Ownership in Utah: What the Mountains Demand",
+        paras: [
+          "Utah's terrain changes what Toyota maintenance looks like in practice. Tacomas and 4Runners that see regular off-road use put additional stress on drivetrain fluids — differential, transfer case, and transmission fluid degrade faster than they would on a highway-only vehicle. We recommend shortened intervals for Toyotas used on dirt roads, in the Wasatch, or for regular towing on canyon grades.",
+          "Toyota cooling systems are reliable but not maintenance-free. The temperature swings between a Utah winter and summer cycle rubber hoses, plastic reservoirs, and thermostat housings more aggressively than mild climates would. Coolant concentration and condition matter year-round here. Annual cooling system checks are worth doing, particularly as mileage accumulates."
+        ]
+      }
+    ],
     issues: [
       {t:'Timing Chain Stretch',d:'Toyota timing chains can develop stretch over time, causing a rattling noise on cold starts and check engine codes for camshaft timing. We replace the chain, guides, and tensioner as a complete kit to restore proper timing.'},
       {t:'Water Pump Failure',d:'Toyota V6 and some 4-cylinder engines are prone to water pump seal failure, showing up as coolant weeping around the pump shaft. Early detection prevents overheating and engine damage.'},
@@ -25,6 +55,36 @@ const brandContent = {
     ]
   },
   'Honda': {
+    intro: "Honda builds its reputation on engineering precision — VTEC timing systems, tightly toleranced transmissions, and factory specs designed to work together. Generic fluids, wrong-spec oil, or deferred maintenance shows up on Hondas faster than on some other makes. If your Honda is shifting rough, making noise, leaking, or has a check engine light, we diagnose first and explain what we found before recommending any repair.",
+    whyUs: [
+      { title: "Honda Transmission Knowledge", desc: "Honda transmissions require Honda-spec fluid — full stop. We stock DW-1 ATF and the correct CVT fluid, and we know the difference between a transmission problem and a fluid problem." },
+      { title: "VTEC and GDI Experience", desc: "VTEC solenoid issues, carbon buildup on direct-injection engines, and intake valve deposits are common Honda repair territory. We know where to look and what the repair involves." },
+      { title: "Manual Transmission Specialists", desc: "Honda manual transmissions are clutch-specific — we're clutch specialists. From throw-out bearing replacement to full clutch jobs, we've done them all on Honda platforms." },
+      { title: "Free Diagnosis", desc: "Every Honda repair starts with a free diagnosis. You know exactly what we found before any work begins." }
+    ],
+    richContent: [
+      {
+        heading: "Honda's VTEC System and Direct Injection: What High-Mileage Owners Need to Know",
+        paras: [
+          "Honda's VTEC variable valve timing system is oil-pressure driven — it switches cam profiles based on engine speed and load, and it requires clean, properly spec'd oil to function correctly. VTEC solenoid gaskets develop oil leaks over time that drip onto exhaust components, and the solenoids themselves can develop electrical faults that trigger check engine codes. These are straightforward repairs, but diagnosing them correctly before replacing parts matters.",
+          "Honda's more recent engines use direct injection, which accumulates carbon on the intake valves over time — GDI engines don't wash the valves with fuel the way older port-injection designs do. As carbon builds up, idle quality, throttle response, and fuel economy all suffer gradually. An intake cleaning service every 50,000-60,000 miles restores performance on affected engines. We check which injection system your Honda uses before making any maintenance recommendations."
+        ]
+      },
+      {
+        heading: "Honda Transmission Fluid: Why the Specification Matters More Than on Most Vehicles",
+        paras: [
+          "Honda's automatic transmissions are more sensitive to fluid type and condition than most other manufacturers' units. Honda-spec DW-1 ATF has a specific friction modifier package that Honda's transmission clutch packs are tuned to work with. Using a 'universal' ATF — even one marketed as Honda-compatible — causes shift quality to change as the fluid interacts differently with the clutch pack material. Over time, incorrect fluid accelerates clutch pack wear.",
+          "The same principle applies to Honda CVT fluid and to the differential fluid in AWD models. We don't use generic alternatives on any Honda service. The fluid cost difference is small; the potential for premature transmission wear is not."
+        ]
+      },
+      {
+        heading: "Servicing Your Honda in Utah",
+        paras: [
+          "Honda's braking system distributes more force to the rear brakes than many vehicles — rear pad wear on Civics, Accords, and CR-Vs tends to be faster than owners expect. We check all four corners at every service visit, not just the fronts, so rear brake wear doesn't catch you off guard.",
+          "Utah's altitude affects combustion slightly on naturally aspirated engines, and the temperature cycling between seasons stresses rubber components — hoses, belts, and boots — more than moderate climates do. For AWD Honda models, the rear differential and transfer fluid should be checked periodically; it's a service that often gets overlooked but is meaningful on vehicles used in mountain terrain or winter conditions."
+        ]
+      }
+    ],
     issues: [
       {t:'Manual Transmission Clutch Judder',d:'Honda manual transmissions can develop clutch judder and vibration, often from dual-mass flywheel wear. We convert to a single-mass flywheel setup for smoother, more durable engagement.'},
       {t:'AC Compressor Failure',d:'Honda AC compressors are prone to failure that sends metal debris through the entire system, requiring a full flush and compressor replacement — not just a component swap.'},
@@ -49,6 +109,36 @@ const brandContent = {
     ]
   },
   'Ford': {
+    intro: "Ford's lineup covers more ground than almost any manufacturer — turbocharged EcoBoost engines that need shorter oil intervals than Ford's schedule suggests, V8s with known spark plug and exhaust manifold issues, dual-clutch transmissions that benefit from specific programming, and trucks that see genuinely hard use on Utah's mountain grades. Whatever your Ford is doing, we diagnose first and tell you what the repair involves before touching anything.",
+    whyUs: [
+      { title: "EcoBoost Experience", desc: "Turbo carbon buildup, wastegate rattle, timing chain cover oil leaks, and intercooler issues — we've seen every EcoBoost failure pattern and know how to diagnose the actual source." },
+      { title: "F-150 and Truck Expertise", desc: "Ford truck service in Utah is different from highway driving. We understand what towing, hauling, and mountain grades do to transmissions and drivetrains — and we service them accordingly." },
+      { title: "V8 Specialists", desc: "Broken exhaust manifold studs, two-piece spark plug extraction, and cam phaser wear are routine for us. We have the tools and technique to handle Ford V8 repairs correctly." },
+      { title: "Free Diagnosis", desc: "Every Ford repair starts with a free diagnosis. You know exactly what we found before any work begins." }
+    ],
+    richContent: [
+      {
+        heading: "EcoBoost Engines: Higher Output With Higher Maintenance Expectations",
+        paras: [
+          "Ford's EcoBoost lineup — 1.5L, 2.0L, 2.3L, and 3.5L — uses turbocharging and direct injection to produce V8-like output from smaller displacement. The trade-off is that turbocharged engines put more demand on engine oil than naturally aspirated engines do. The turbocharger is oil-cooled, and degraded oil accelerates bearing wear inside the turbo before it affects the rest of the engine. For most Utah drivers who use canyon grades regularly, we recommend 5,000-7,500 miles on full synthetic.",
+          "EcoBoost engines also develop carbon buildup on intake valves from direct injection, and timing chain cover oil leaks are a common failure on high-mileage 2.7L and 3.5L engines. These are known patterns — they show up predictably and the repairs are straightforward when diagnosed correctly. Oil consumption, a slight rough idle, or a burning smell are worth investigating rather than waiting to see if they get worse."
+        ]
+      },
+      {
+        heading: "Ford V8 Service: What Experienced Mechanics Know",
+        paras: [
+          "Ford's modular V8 engines — the 5.0L Coyote in F-150s and Mustangs, and earlier 4.6L and 5.4L Triton engines in trucks — have two well-known service issues that require experience to address correctly. The first is broken exhaust manifold studs: these studs crack from thermal cycling and create a distinct ticking sound, especially when cold. Extraction requires careful technique to avoid damaging the cylinder head threads. The second is two-piece spark plug seizure on the 5.4L Triton — these plugs are prone to seizing and breaking during removal, which can damage the head if not handled correctly.",
+          "Coyote 5.0L engines also have a known cam phaser and timing chain wear pattern on early production years. A rattle at cold start that clears as the engine warms up is worth investigating — cam phaser failure on an interference engine leads to valve-to-piston contact if ignored."
+        ]
+      },
+      {
+        heading: "Ford Truck Service in Utah's Mountain Terrain",
+        paras: [
+          "Utah's mountain grades change what Ford truck maintenance looks like. F-150s, Rangers, and Expeditions used for towing on canyon roads see significantly harder drivetrain use than highway driving. Transmission fluid degrades faster under sustained high-load conditions, and Ford's 'lifetime fill' transmission fluid claim doesn't apply to vehicles that actually tow. We recommend 30,000-mile transmission fluid changes for trucks used for hauling or towing, and 45,000 miles for regular highway use.",
+          "Differential and transfer case fluid in four-wheel-drive models should be serviced on similar intervals. In Utah's winters, road salt accelerates corrosion on steel brake lines and transmission cooler lines — annual undercarriage inspection catches deterioration before it becomes a safety or repair cost issue."
+        ]
+      }
+    ],
     issues: [
       {t:'EcoBoost Turbo Carbon and Boost Issues',d:'Ford turbocharged engines can develop carbon buildup, wastegate rattle, and boost pressure problems over time. We diagnose turbo systems thoroughly rather than replacing components unnecessarily.'},
       {t:'PowerShift Dual-Clutch Shudder',d:'Ford\'s dual-clutch transmissions developed a reputation for shuddering and slipping under light acceleration. We service clutch packs and reprogram the transmission control module.'},
@@ -73,6 +163,36 @@ const brandContent = {
     ]
   },
   'Chevrolet': {
+    intro: "Chevrolet trucks and SUVs get used hard in Utah — towing, hauling, and mountain grades that stress drivetrains well beyond what flat-highway driving would. Chevy's V8 engines have a known AFM lifter failure pattern worth understanding before it becomes expensive, and the modern 8-speed and 10-speed transmissions develop a torque converter shudder that has a specific fluid fix. We diagnose the actual source of any problem and explain the repair before starting any work.",
+    whyUs: [
+      { title: "AFM/DOD Lifter Expertise", desc: "We handle full AFM lifter replacement and can disable the system through programming to eliminate the most common failure point on Chevy V8 engines. Done right, this is a lasting repair." },
+      { title: "GM Transmission Knowledge", desc: "Torque converter shudder on 8-speed and 10-speed GM transmissions has a specific fluid fix. We know the correct updated spec and the service procedure — no guesswork." },
+      { title: "Truck and Towing Experience", desc: "Chevy truck service in Utah's mountains is different from flat-highway service. We understand what hard use does to transmissions and drivetrains and service them accordingly." },
+      { title: "Free Diagnosis", desc: "Every Chevrolet repair starts with a free diagnosis. You know exactly what we found before any work begins." }
+    ],
+    richContent: [
+      {
+        heading: "AFM/DOD: Chevrolet's V8 Cylinder Deactivation and Its Consequences",
+        paras: [
+          "General Motors' Active Fuel Management — also called Dynamic Fuel Management on newer engines — deactivates four cylinders at light throttle to reduce fuel consumption. The system uses specialized lifters that can collapse on demand. The problem is that these lifters are more failure-prone than standard lifters, and when they collapse under load rather than command, the result is misfires, engine ticking, and oil consumption. Engine oil condition matters more on AFM engines — the system is sensitive to oil quality, and using non-Dexos1 approved oil increases the failure rate.",
+          "When AFM lifters fail, the correct repair is replacing all lifters — not just the collapsed ones — and in most cases disabling the AFM system through programming. AFM delete prevents recurrence and costs a fraction of what a repeat lifter failure would cost. The 5.3L and 6.2L engines in Silverados, Tahoes, Suburbans, and Colorado trucks are the most common platforms where we perform this work."
+        ]
+      },
+      {
+        heading: "GM's 8-Speed and 10-Speed Transmissions: The Shudder Fix",
+        paras: [
+          "GM's 8L90 and 10L90 automatic transmissions — used widely in Chevrolet trucks and SUVs — developed a torque converter shudder that feels like driving over rumble strips at light throttle and low speed. GM issued a technical service bulletin and released a revised transmission fluid specification to address it. The fix is a complete fluid flush using the updated spec fluid — in most cases this resolves the shudder completely without transmission disassembly.",
+          "The underlying cause is the torque converter clutch's friction material reacting unfavorably with the original fluid formulation. This is not a transmission wear issue in most cases — it's a fluid chemistry issue with a known solution. If your Chevrolet truck or SUV shudders at light throttle between about 25-55 mph, this is almost certainly what you're experiencing."
+        ]
+      },
+      {
+        heading: "Chevrolet Truck Service for Utah's Mountain Use",
+        paras: [
+          "Chevrolet trucks are among the most common vehicles in Utah, and they're used for real work here — towing fifth wheels through Parleys Canyon, hauling loads on I-215, and off-road driving in the Uintas. Each of these use cases puts harder demands on drivetrain fluids than flat-highway driving does. Transmission fluid on trucks that tow regularly should be changed every 30,000 miles, not the extended factory interval.",
+          "Utah's winters add road salt to the equation. Steel transmission cooler lines, brake lines, and exhaust mounting hardware corrode in road salt environments. We inspect the undercarriage for corrosion at every service on Chevrolet trucks that see regular winter use — catching a deteriorating line before it fails is far less expensive than the emergency repair."
+        ]
+      }
+    ],
     issues: [
       {t:'AFM/DOD Lifter Failure',d:'Chevrolet V8 engines equipped with Active Fuel Management develop collapsed lifters causing misfires, ticking, and oil consumption. We replace all lifters and can permanently disable the AFM system for improved reliability.'},
       {t:'Torque Converter Shudder',d:'GM 8-speed and 10-speed automatic transmissions develop a torque converter shudder that feels like driving over rumble strips at light throttle. A fluid flush with updated specification fluid typically resolves it.'},
@@ -97,6 +217,36 @@ const brandContent = {
     ]
   },
   'Subaru': {
+    intro: "Subaru's horizontally-opposed boxer engine and Symmetrical AWD are genuinely different architectures that benefit from mechanics who understand them. Head gasket service on EJ-series engines, timing belt replacement as a complete system, CVT fluid maintenance, and the specific cooling system requirements of the boxer layout are not generic repairs. Utah's winters and mountain roads make Subarus common here, and we service a lot of them.",
+    whyUs: [
+      { title: "Boxer Engine Experience", desc: "Subaru's horizontal engine layout changes how repairs access components. We've worked on enough boxer engines to know the correct procedures and what to check while we're in there." },
+      { title: "Head Gasket Specialists", desc: "EJ-series head gasket replacement is one of our most common Subaru services. We use updated multi-layer steel gaskets and check flywheel and machining needs every time." },
+      { title: "Timing Belt Complete Service", desc: "Subaru timing belt service is a complete job — belt, water pump, tensioners, thermostat, and seals. We do it right the first time so you're not revisiting the same labor access later." },
+      { title: "Free Diagnosis", desc: "Every Subaru repair starts with a free diagnosis. You know exactly what we found before any work begins." }
+    ],
+    richContent: [
+      {
+        heading: "The Boxer Engine: How Subaru's Layout Affects Service",
+        paras: [
+          "Subaru's horizontally-opposed engine places the cylinder banks flat rather than in a V or inline configuration. The practical consequence is that the heads, head gaskets, and timing components face different service challenges than conventional engine layouts. The boxer layout also contributes to Subaru's well-known head gasket susceptibility in EJ-series engines. The flat orientation causes combustion gases and coolant to exert slightly different forces on the gasket surface, and the aluminum head material expands and contracts with temperature differently than the block.",
+          "The EJ25D and EJ251/EJ252/EJ253 engines used in Outbacks, Foresters, and Legacies from the late 1990s through early 2010s are the most affected by head gasket failure. Updated multi-layer steel gaskets have improved the pattern in later production, but older vehicles remain susceptible. When we replace head gaskets on EJ engines, we resurface the heads if needed and verify the cooling system is in good condition — both are important to getting a lasting repair."
+        ]
+      },
+      {
+        heading: "Subaru's Timing Belt: Why This Is Non-Optional Maintenance",
+        paras: [
+          "Most Subaru boxer engines use a timing belt, not a chain. EJ-series engines are interference engines with a 105,000-mile belt replacement interval. When a timing belt breaks on an interference engine, the camshaft stops rotating while the crankshaft continues, and pistons contact open valves. The result is bent valves and a repair that costs many times more than the belt service would have.",
+          "The correct timing belt service on a Subaru is a complete system replacement. The water pump is driven by the timing belt on most EJ engines and shares the same service access. Replacing the belt without the water pump — or the tensioner pulleys and idler pulleys that carry the belt's load — leaves the remaining components to fail under the new belt. We do timing belt service as a complete job, not a minimized one."
+        ]
+      },
+      {
+        heading: "Subaru in Utah: AWD, Mountains, and What They Demand",
+        paras: [
+          "Subaru's popularity in Utah is well-earned — Symmetrical AWD handles winter roads and mountain grades effectively. But AWD use puts additional stress on drivetrain components that front-wheel-drive vehicles don't experience. The center differential and rear differential fluid in AWD models should be changed more frequently than factory intervals suggest, particularly on vehicles used for winter mountain driving.",
+          "Subaru's tire requirement is strict: all four tires must be within 2/32\" of tread depth of each other. The AWD system uses rotational speed differences between axles to manage torque distribution — mismatched tire diameters cause the system to continuously compensate, accelerating center differential and AWD coupling wear. If you need to replace one damaged tire on a Subaru with significant miles on the others, matching tread depth is essential."
+        ]
+      }
+    ],
     issues: [
       {t:'Head Gasket Leaks',d:'Subaru boxer engines are prone to head gasket failure, typically presenting as external oil seeping at the gasket line or gradual coolant loss. We replace with updated multi-layer steel gaskets designed to address the known failure pattern.'},
       {t:'Timing Belt Service',d:'Subaru boxer engines use timing belts that must be replaced at the manufacturer\'s recommended interval without exception. A broken belt destroys the engine — this is non-optional maintenance.'},
@@ -121,6 +271,36 @@ const brandContent = {
     ]
   },
   'Nissan': {
+    intro: "If your Nissan CVT is shuddering, jerking, or making noise during acceleration, that's the most important thing to catch early — Nissan CVTs are durable with proper fluid maintenance but decline quickly when fluid degrades or the wrong type is used. Beyond the CVT, Nissan's timing chain designs vary by engine generation and some have known stretch issues. We diagnose the actual source before recommending any repair.",
+    whyUs: [
+      { title: "Nissan CVT Knowledge", desc: "CVT fluid condition is the biggest factor in Nissan transmission longevity. We use Nissan-spec CVT fluid and know the diagnostic difference between a fluid problem and early CVT wear." },
+      { title: "Timing Chain Diagnosis", desc: "Nissan timing chain guide wear produces a distinct cold-start rattle. We diagnose the extent of wear before recommending guide and tensioner replacement." },
+      { title: "No Unnecessary Work", desc: "We recommend what your Nissan actually needs. If a service isn't due or a part is still serviceable, we tell you." },
+      { title: "Free Diagnosis", desc: "Every Nissan repair starts with a free diagnosis. You know exactly what we found before any work begins." }
+    ],
+    richContent: [
+      {
+        heading: "Nissan's CVT Transmission: What Owners Need to Know",
+        paras: [
+          "Nissan's Jatco continuously variable transmission is used in Altimas, Rogues, Sentras, Muranos, and many other models. CVTs don't have gears in the traditional sense — they use a steel belt and variable-diameter pulleys to provide continuous ratio adjustment. When the fluid degrades or the wrong fluid type is used, they develop a characteristic shudder, jerking on takeoff, and whining noise that progressively worsens.",
+          "The single biggest factor in Nissan CVT longevity is fluid condition. Nissan specifies NS-3 CVT fluid for most applications, and generic 'universal CVT fluid' formulations are not an acceptable substitute. We see premature CVT failures almost exclusively on vehicles where fluid was never serviced or where non-spec fluid was used. Changing the CVT fluid every 30,000 miles is the most effective preventive step you can take."
+        ]
+      },
+      {
+        heading: "Nissan's Timing Chain Issues by Engine Generation",
+        paras: [
+          "Nissan has used timing chains across most of its gasoline engine lineup, but some chain systems have known wear patterns. The QR25DE engine used in Altimas and Sentras can develop timing chain guide wear, producing a rattle on cold starts that clears as the engine warms. The VQ35DE and VQ35HR V6 engines used in Maximas, Muranos, and Pathfinders can develop secondary chain wear on the oil pump drive system.",
+          "In all cases, the rattle-on-cold-start pattern is the key diagnostic signal. Oil pressure takes a moment to build at startup, and a worn guide slaps during that window before the tensioner takes up the slack. Catching timing chain issues at the guide-wear stage — before the chain has stretched significantly or jumped — means guide and tensioner replacement rather than a more involved repair. We check the extent of wear before recommending the scope of repair."
+        ]
+      },
+      {
+        heading: "Nissan Ownership in Utah",
+        paras: [
+          "Nissan's Rogue, Pathfinder, and Murano are common family vehicles in Utah's suburbs and mountain communities. AWD system maintenance matters more here than in flat climates. The rear differential fluid and AWD coupling fluid should be serviced on schedule — these are overlooked services that affect AWD reliability over high mileage.",
+          "Nissan's cooling systems use plastic overflow reservoirs and hose connections that age and crack over time. Utah's temperature swings cycle plastic cooling components aggressively. We check reservoir condition at every service visit and recommend replacement proactively when cracking is visible, before a failure leaves a driver without coolant on a summer canyon drive."
+        ]
+      }
+    ],
     issues: [
       {t:'CVT Transmission Failure',d:'Nissan CVT transmissions are prone to overheating and premature failure, particularly when fluid is neglected. We diagnose CVT issues and handle repairs from fluid service to full replacement depending on the failure mode.'},
       {t:'Timing Chain Guide Wear',d:'Nissan engines develop timing chain guide wear that causes cold-start rattling. If caught early, guide and tensioner replacement prevents the chain from jumping and causing engine damage.'},
