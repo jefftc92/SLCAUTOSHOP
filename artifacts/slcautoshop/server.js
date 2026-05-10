@@ -937,7 +937,12 @@ app.get('/robots.txt', (req, res) => {
 
 // ── 404 catch-all ────────────────────────────────────────────────────────────
 app.use((req, res) => {
-  res.status(404).render('404', { metaTitle: 'Page Not Found' });
+  res.status(404).render('404', {
+    metaTitle: 'Page Not Found | Scott\'s Auto & Clutch Repair',
+    metaDesc: 'The page you requested could not be found. Return to the homepage or browse our services.',
+    canonical: '/404',
+    noindex: true
+  });
 });
 
 // Start
