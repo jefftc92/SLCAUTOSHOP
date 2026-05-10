@@ -37,8 +37,7 @@
 
 <section class="values-section">
   <div class="container">
-    <h2><%= service.name %> Expertise You Can Count On</h2>
-    <p class="section-subtitle">Our experienced mechanics take a thorough approach to every repair.</p>
+    <h2>Why Choose Scott's for <%= service.name %>?</h2>
     <div class="values-grid">
       <% service.whyUs.forEach(w => { %>
       <div class="value-card">
@@ -52,8 +51,7 @@
 
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>How We Handle Your <%= service.name %></h2>
-    <p class="section-subtitle">From the moment you call to the moment you drive away, we keep you informed every step of the way.</p>
+    <h2>How a <%= service.name %> Repair Works</h2>
     <div class="process-steps-compact">
       <% service.process.forEach(p => { %>
       <div class="process-step-compact">
@@ -69,10 +67,9 @@
 </section>
 
 <% if (service.richContent && service.richContent.length) { %>
-<section class="content-section">
+<% service.richContent.forEach(function(sec, i) { %>
+<section class="content-section<%= i % 2 === 0 ? '' : ' alt-bg' %>">
   <div class="container">
-    <% service.richContent.forEach(function(sec, i) { %>
-    <% if (i > 0) { %><hr style="margin:2.5rem 0;border:none;border-top:1px solid #e5e7eb"><% } %>
     <div class="prose" style="max-width:760px">
       <h2><%= sec.heading %></h2>
       <% sec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
@@ -82,16 +79,16 @@
       </ul>
       <% } %>
     </div>
-    <% }); %>
   </div>
 </section>
+<% }); %>
 <% } %>
+<% var richAlt = !(service.richContent && service.richContent.length % 2 === 0); %>
 
 <% if (service.commonIssues && service.commonIssues.length) { %>
-<section class="content-section">
+<section class="content-section<%= richAlt ? ' alt-bg' : '' %>">
   <div class="container">
-    <h2>Common Issues We Fix</h2>
-    <p class="section-subtitle">Our technicians diagnose and repair these problems every day.</p>
+    <h2>Symptoms That Bring Drivers In</h2>
     <div class="issues-grid">
       <% service.commonIssues.forEach(issue => { %>
       <div class="issue-card">
@@ -140,7 +137,7 @@
   </div>
 </section>
 
-<% var faqAlt = false; %>
+<% var faqAlt = (service.commonIssues && service.commonIssues.length) ? !richAlt : richAlt; %>
 <%- include('partials/faq') %>
 
 <% if (relatedServices && relatedServices.length) { %>
