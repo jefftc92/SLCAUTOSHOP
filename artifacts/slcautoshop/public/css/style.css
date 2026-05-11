@@ -208,12 +208,10 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
 .issue-card .diagnostic-signal p{font-size:.85rem;color:var(--c-text);line-height:1.55;margin:0}
 
 /* === Cost callout & inline CTA === */
-.cost-callout{margin:1.75rem 0;padding:1.25rem 1.5rem;background:#fff;border:1px solid var(--c-border);border-left:4px solid var(--c-accent);border-radius:var(--radius);box-shadow:var(--shadow-sm)}
-.cost-callout h3{font-size:.95rem;font-weight:700;color:var(--c-dark);margin-bottom:.5rem}
-.cost-callout p{font-size:.92rem;color:var(--c-text);line-height:1.6;margin:0}
-.alt-bg .cost-callout{background:var(--c-bg)}
-.inline-cta{margin-top:1.5rem;padding:1rem 1.25rem;background:var(--c-primary-light);border-radius:var(--radius-sm);font-size:.95rem;color:var(--c-text);font-weight:500}
-.inline-cta a{font-weight:700}
+.section-cta-block{margin-top:2rem;padding:1.5rem;background:var(--c-primary-light);border-radius:var(--radius);border-left:4px solid var(--c-primary)}
+.section-cta-block p{font-size:.95rem;font-weight:600;color:var(--c-dark);margin:0 0 1rem}
+.section-cta-buttons{display:flex;gap:.75rem;flex-wrap:wrap}
+.alt-bg .section-cta-block{background:#fff}
 .hero-meta{font-size:.78rem;color:rgba(255,255,255,.85);margin:.5rem 0 1rem;letter-spacing:.02em}
 
 /* === Tips Grid === */
@@ -426,4 +424,19 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
 @media(max-width:700px){
   .capabilities-cta{flex-direction:column;align-items:flex-start;gap:1.25rem;padding:1.25rem}
   .capabilities-cta-actions{flex-direction:row;flex-wrap:wrap}
+}
+
+/* Symptom pages — location section */
+.symptom-location-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:2.5rem;align-items:start;margin-top:1.5rem}
+.symptom-location-info{display:flex;flex-direction:column;gap:1.5rem}
+.location-detail h3{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--c-text-dim);margin-bottom:.35rem}
+.location-detail p{color:var(--c-text-muted);font-size:.97rem}
+.symptom-location-actions{display:flex;flex-direction:column;gap:.65rem;margin-top:.5rem}
+.symptom-location-map{border-radius:var(--radius);overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.1);min-height:320px}
+.symptom-location-map iframe{display:block;width:100%;height:100%;min-height:320px}
+@media(max-width:768px){
+  .symptom-location-grid{grid-template-columns:1fr}
+  .symptom-location-map{min-height:260px}
+  .symptom-location-map iframe{min-height:260px}
+  .symptom-location-actions{flex-direction:row;flex-wrap:wrap}
 }

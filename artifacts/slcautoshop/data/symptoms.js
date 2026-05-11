@@ -22,29 +22,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Clutch Slipping Is Getting Worse",
+        heading: "How to Tell if You Have Clutch Slipping",
         paras: [
-          "Usually yes, for now. A slipping clutch is not the kind of failure that strands you suddenly the way a brake or steering problem can. The car still drives, the disc still grips most of the time, and you have miles before it fails completely.",
-          "What you don't have is unlimited time. Every slip event generates heat, that heat wears the disc faster, and the rate of wear accelerates as the disc thins. A clutch that only slips on freeway onramps today can be slipping in second gear within a few thousand miles.",
-          "There are a few signs that mean it's time to stop driving and call. Slipping that appears at moderate throttle on flat roads, not just on hills or hard acceleration. Hills you can no longer climb without your RPMs spiking dramatically. <a href='/symptoms/burning-smell'>A strong burning smell from the clutch area</a>. At that point the disc is at the end of its usable life, and continuing to drive risks damaging the flywheel — which turns a clutch repair into a clutch-plus-flywheel job."
+          "The clearest sign is your RPMs climbing on a hill or freeway onramp while your speed barely increases — the engine is working but the power isn't reaching the wheels. You may also notice the clutch pedal engaging near the very top of its travel instead of mid-stroke.",
+          "A burning smell after driving hard or a pedal that feels different than it used to are late-stage signs. If you're unsure, try a gentle hill: put the car in second and give it throttle — if the engine revs but the car doesn't accelerate, the clutch is slipping."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Clutch Slipping Repair?",
         paras: [
-          "Clutch slip is self-reinforcing. Each slip event generates heat that glazes the disc surface and the flywheel face, which reduces grip further and makes the next slip easier to trigger. What starts as slipping only on freeway onramps gradually becomes slipping at moderate throttle, then in lower gears, then nearly constantly. The progression is not linear — it tends to accelerate as more surface area glazes.",
-          "On Utah's mountain grades and the steep freeway onramps around the Salt Lake valley, the heat builds faster than it would for a flat-city driver. Drivers who commute through Parley's Canyon, Cottonwood, or up onto the benches often see slip progress noticeably worse over a single mountain trip. If you're also experiencing a <a href='/symptoms/burning-smell'>burning smell</a>, the heat phase is well underway and the disc is in its final stage.",
-          "The cost difference between catching slip early and catching it late is often the flywheel. A disc-and-pressure-plate kit is the complete repair when the flywheel is still smooth. Once the flywheel is glazed or heat-cracked from extended slipping, installing a new disc on that damaged surface leads to the new clutch slipping again within months. We see this comeback often when slip was ignored for too long."
+          "Clutch slip is self-reinforcing. Each slip event glazes the disc and flywheel face, which reduces grip and triggers more slipping. What starts on freeway onramps can spread to moderate throttle and lower gears within weeks, especially on Utah's mountain grades through Parley's Canyon and Cottonwood.",
+          "The cost difference is the flywheel. A disc-and-pressure-plate kit is the complete repair when the flywheel is still smooth. Once the flywheel is glazed from extended slipping, the new disc will slip again within months. Catch it early."
         ]
       },
       {
         heading: "Who to Trust for Clutch Slipping Repair in Salt Lake City",
         paras: [
-          "When a clutch is suspected, our diagnosis starts before the transmission ever comes out: a hydraulic system check (master cylinder, slave cylinder, fluid condition), a road test to confirm slip pattern, and an underbody inspection for oil leaks at the rear main seal and transmission input shaft. Contamination from a leaking seal can destroy a new clutch within months, so we'd rather find that leak now than after we've installed your new disc.",
-          "Once the transmission is dropped and the clutch is accessible, we measure flywheel runout and inspect the surface for glazing, scoring, and heat checks. If the flywheel is within spec, a disc-and-pressure-plate kit (plus throw-out bearing) is your complete repair. If the flywheel is damaged, we'll show it to you and walk through your options — resurfacing if possible, replacement if not. You see the parts and the readings before the conversation about cost happens. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch repair service page</a> for what's included.",
-          "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. Clutches are one of the highest-volume jobs we do — we know which platforms have known weak points, which OEM parts hold up versus which aftermarket kits come back, and how to spot the contamination patterns that cause repeat failures. That depth is what keeps our clutch jobs from coming back."
+          "Before we drop the transmission, we check the hydraulic system and inspect for oil leaks at the rear main and input shaft seals — contamination from a leaking seal can destroy a new clutch within months. Once we have access, we measure flywheel runout and inspect the surface for glazing and heat checks. You see the parts before the cost conversation. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch repair service page</a> for what's included.",
+          "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. Clutches are one of our highest-volume jobs — we know which platforms have weak points, which aftermarket kits come back, and how to spot the contamination patterns that cause repeat failures."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -70,29 +66,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Grinding When Shifting Is Getting Worse",
+        heading: "How to Tell if You Have Grinding When Shifting",
         paras: [
-          "Yes, for now. Grinding gears doesn't strand you immediately. The transmission still works and you can still get home. What you're losing each time you grind is synchronizer material that doesn't grow back.",
-          "The car is drivable, but every shift is removing precision from a gearbox that was designed to last the life of the vehicle when treated correctly. The longer you drive on grinding, the more shifts wear into the rings.",
-          "There are a few signs that mean it's time to come in. Grinding that's now constant rather than occasional. First or reverse that no longer engages without forcing the shifter. <a href='/symptoms/hard-to-shift-gears'>Shifting that has become noticeably resistant</a> alongside the grinding. Combined symptoms mean synchronizer wear is significant, and a grinding noise that turns into refusal to engage means the gearbox is past the point where a clutch job alone will fix it."
+          "You'll hear a metallic crunch or grinding sound every time you push the clutch in and move the shifter — it's most obvious going into second or third gear. The noise comes from gears clashing because the clutch isn't fully releasing.",
+          "If the grinding only happens cold and clears up once the car warms up, you likely have a hydraulic issue. If it's constant regardless of temperature, the clutch disc itself is the more likely cause."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Grinding Gear Repair?",
         paras: [
-          "Synchronizer rings are made from brass or carbon composite, chosen for friction characteristics rather than bulk. Each grind permanently removes a thin layer. The gears shifted most often, typically 2nd and 3rd, wear first, which is why grinding often appears selectively in those gears before spreading. The progression goes from occasional grinding under fast shifts, to consistent grinding even with careful shifts, to refusal to engage cleanly at all.",
-          "Temperature matters too. Cold fluid in the clutch hydraulic circuit moves slower, so the slave cylinder takes longer to fully retract the release bearing. The disc stays partially engaged on cold mornings. If grinding only happens cold, you have time and the fix is hydraulic. If grinding has spread to warm operation, the disc itself is no longer fully disengaging and the synchronizer wear is accelerating with every drive.",
-          "The cost progression is real. A hydraulic bleed or master cylinder replacement is a fraction of a clutch replacement, which is in turn a fraction of a transmission rebuild. Catching grinding while it's still hydraulic is the difference between a quick repair and a multi-day job. Driving past the point where the synchronizers are damaged means the new clutch goes in but the grinding stays."
+          "Each grind removes synchronizer material that doesn't grow back. 2nd and 3rd gears wear first, then the grinding spreads. If grinding only happens cold, the fix is hydraulic and relatively quick. If it's constant, the disc itself is the issue and synchronizer wear is accelerating with every drive.",
+          "The cost progression is steep. A hydraulic bleed or cylinder replacement is a fraction of a clutch job, which is a fraction of a transmission rebuild. Catching grinding while it's still hydraulic is the difference between a quick repair and a multi-day job."
         ]
       },
       {
         heading: "Who to Trust for Grinding Gear Repair in Salt Lake City",
         paras: [
-          "Before recommending any repair, we work backward from the symptom. A road test confirms the grinding pattern: which gears, which temperatures, what conditions. Then a hydraulic system inspection covers fluid level, fluid condition, master and slave cylinder pressure response, and a check of the release bearing for binding. We rule out a hydraulic cause first because that's where most grinding originates, and the fix is much simpler than internal transmission work.",
-          "If the hydraulic system is healthy, the next step is measuring clutch disc clearance and inspecting the release fork. If grinding persists with a properly releasing clutch, the synchronizers themselves are involved and the conversation shifts to transmission options. We'll walk you through that honestly so you can decide before any major work starts. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch repair service page</a> for what's included.",
-          "Scott's Auto & Clutch Repair has been doing manual transmission work in South Salt Lake since 1990. The reason we catch hydraulic causes that other shops miss is volume. We see enough grinding complaints to recognize the temperature and gear-specific patterns that distinguish a release problem from actual gearbox wear. That's the difference between a clutch job that fixes the problem and a transmission rebuild that wasn't needed."
+          "We rule out hydraulic causes first: a road test to confirm the grinding pattern, then a system inspection covering fluid condition, master and slave cylinder response, and release bearing check. Most grinding originates in the hydraulic system, and the fix is much simpler than internal transmission work. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch repair service page</a> for what's included.",
+          "Scott's Auto & Clutch Repair has been doing manual transmission work in South Salt Lake since 1990. We see enough grinding complaints to recognize the temperature and gear-specific patterns that distinguish a release problem from actual gearbox wear — that's what keeps customers from paying for transmission rebuilds they didn't need."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -118,29 +110,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Stiff Clutch Pedal Is Getting Worse",
+        heading: "How to Tell if You Have a Stiff Clutch Pedal",
         paras: [
-          "Usually yes, for now. A stiff pedal still works. The clutch still releases, the car still drives. The failure mode is what makes this symptom deceptive.",
-          "Cable systems specifically can go from stiff-but-functional to fully snapped with very little additional warning. A snapped cable means you can't disengage the clutch at all, which strands you immediately. Hydraulic systems usually give more warning, but a master cylinder that's been laboring against thick fluid can fail suddenly too.",
-          "There are signs that mean it's time to come in. The pedal effort has increased noticeably in the last week. The pedal isn't returning fully on its own. You've started having trouble getting into gear alongside the stiffness. A stiff pedal that's now causing <a href='/symptoms/grinding-when-shifting'>grinding when shifting</a> means full release is no longer happening, and you're at the edge of the failure window."
+          "The pedal takes noticeably more force to push down than it used to — you may find yourself straining on every shift or arriving at your destination with a fatigued left leg. It may also return to rest more slowly than normal.",
+          "Stiffness that creaks or groans under the dash points to worn pivot bushings. Stiffness that's worse on cold mornings and improves as the car warms up usually points to a hydraulic issue."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Stiff Clutch Pedal Repair?",
         paras: [
-          "Cable stiffness compounds. The more strands fray inside the housing, the more friction the next press generates, which accelerates further fraying. A cable that has been progressively stiffer for six months can snap on a routine engagement with no special event to explain it. Once snapped, you have no clutch, and on a manual that means you're stranded wherever the cable broke.",
-          "Hydraulic stiffness has a slightly slower failure curve but the same end state. As the master cylinder seal degrades, pedal effort climbs and the system loses the ability to fully retract the slave cylinder. Eventually the clutch can't be fully disengaged regardless of how hard you press, and shifting becomes progressively harder until the gearbox refuses gears entirely.",
-          "The cost progression matters. A cable replacement is a quick repair when caught before failure; a snapped cable that strands you adds a tow and emergency scheduling. A master cylinder replacement is straightforward; one that has fully failed often takes the slave cylinder with it because contaminated fluid damages both. Catch it stiff, fix it cheap."
+          "Cable stiffness compounds — a cable that's been progressively stiffer for months can snap on a routine press with no further warning, leaving you stranded wherever it breaks.",
+          "A cable replacement is a quick repair caught before failure; a snapped cable adds a tow. A master cylinder caught at the stiff stage is straightforward; one that fully fails often takes the slave cylinder with it. Catch it stiff, fix it cheap."
         ]
       },
       {
         heading: "Who to Trust for Stiff Clutch Pedal Repair in Salt Lake City",
         paras: [
-          "Our diagnosis starts by identifying which system you have, cable or hydraulic, because the inspection paths are different. For hydraulic systems, we check fluid level and condition, then pressure-test the master and slave cylinders for internal seal bypass. For cable systems, we inspect the cable run for kinks, the housing for damage, and check pivot points for friction. We also measure pedal free play and engagement point, both of which shift as the system wears.",
-          "While we have the system open, we measure clutch disc wear so you have a complete picture rather than getting surprised later. If the disc is also near its end, you can decide whether to do everything together or stage the work. Most cable and hydraulic repairs are completed the same day. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch service page</a> for what's covered.",
-          "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. Cable and hydraulic clutch repairs are bread-and-butter work for us, which is why we catch failing cylinders before they leak visibly and identify cable fraying before it becomes a roadside breakdown. That depth of experience is what keeps stiff pedals from turning into stranded calls."
+          "We identify which system you have — cable or hydraulic — then pressure-test cylinders or inspect the cable run for fraying, kinks, and pivot friction. We also measure clutch disc wear while we're at it so nothing surprises you later. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch service page</a> for what's covered.",
+          "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. We catch failing cylinders before they leak visibly and cable fraying before it becomes a roadside breakdown."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -166,29 +154,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Transmission Slipping Is Getting Worse",
+        heading: "How to Tell if You Have Transmission Slipping",
         paras: [
-          "Not at freeway speeds, and not on grades. Transmission slipping is one of the few drivetrain symptoms that can leave you without drive to the wheels suddenly, which is genuinely dangerous when merging, climbing, or trying to clear an intersection.",
-          "The car may seem fine on flat roads at moderate speed, then surprise you on the next freeway onramp or canyon climb. The progression tends to be faster than drivers expect. Intermittent slip can become constant within weeks.",
-          "There are signs that mean it's time to stop driving and call. The transmission won't hold gear under any throttle. You smell burnt transmission fluid, which is sweet and hot and distinctly different from a clutch burn. The slip has spread from one gear range to multiple. <a href='/symptoms/clutch-slipping'>Manual clutch slipping</a> and automatic transmission slipping feel similar from the driver's seat but need very different repairs, so confusing them leads to the wrong shop and the wrong parts."
+          "In a manual, the engine revs sharply without a matching increase in speed — most noticeable on hills or freeway onramps. In an automatic, the transmission hesitates or shudders between gears, or the engine surges without acceleration.",
+          "A burnt smell from the transmission area, or a dipstick showing brown or dark fluid instead of clear red, confirms fluid damage in an automatic. On a manual, slipping that started on steep grades and has spread to flat-road driving means the disc is well past due."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Transmission Slipping Repair?",
         paras: [
-          "In a manual, every slip event generates heat that wears the disc faster. The progression accelerates as the friction surface glazes and grip drops further. In an automatic, slipping clutch packs inside the unit shed friction material into the fluid, which then circulates and degrades the rest of the unit. Solenoid passages clog, valve body bores wear, and what started as a fluid issue becomes an internal failure.",
-          "Utah's mountain grades are particularly punishing here. A transmission that slips occasionally on flat freeway will slip dramatically on Parley's, Cottonwood, or any sustained climb, because grade plus speed plus torque demand stack the load. Drivers who commute through the canyons or up onto the benches often see slipping go from intermittent to constant within a few weeks of mountain driving.",
-          "The cost progression is steep. An automatic fluid service caught before significant clutch pack wear is the cheapest path. The same transmission a few months later, after slipping has burnt the fluid, often needs a rebuild. A manual clutch caught early is a clutch job; the same clutch ignored long enough damages the flywheel and pulls a transmission inspection into the conversation."
+          "In a manual, each slip glazes the disc further, lowering grip and causing more slipping. In an automatic, friction material shed from slipping clutch packs circulates through the fluid and degrades the rest of the unit — what started as a fluid service becomes an internal rebuild.",
+          "An automatic fluid service caught early is the cheapest path. The same transmission a few months later — after the fluid has burned — often needs a full rebuild. A manual clutch caught early is a clutch job; ignored long enough, it damages the flywheel too."
         ]
       },
       {
         heading: "Who to Trust for Transmission Slipping Repair in Salt Lake City",
         paras: [
-          "Before recommending any repair, we determine whether you have a manual or automatic. That single distinction shapes the entire diagnostic path. For manuals, we road-test to characterize the slip pattern, then inspect clutch engagement and pedal feel. For automatics, we pull stored fault codes, check fluid level and condition, and capture live data on solenoid response and line pressure. We rule out the simplest causes (fluid, solenoids, external leaks) before any teardown is recommended.",
-          "If a clutch replacement is the right repair on a manual, we also inspect for oil leaks at the rear main and input shaft seals, since contamination is a frequent reason replacement clutches fail prematurely. <a href='/services/clutch-repair-near-south-salt-lake-ut'>Our clutch service page</a> covers what's included in a typical manual transmission slipping repair. For automatics, we'll tell you honestly whether a fluid service is likely to resolve it or whether the unit needs more.",
-          "Scott's Auto & Clutch Repair has been working on manual and automatic transmissions in South Salt Lake since 1990. The reason we catch causes others miss is that we won't recommend an internal teardown without first ruling out the external causes that produce the same symptoms: solenoid failures, fluid issues, clutch hydraulic problems on manuals. That diagnostic discipline is what keeps people from paying for rebuilds they didn't need."
+          "We road-test to characterize the slip pattern, then pull fault codes, check fluid condition, and inspect clutch engagement before recommending any teardown. External causes — solenoids, fluid, hydraulic issues — are ruled out first. <a href='/services/clutch-repair-near-south-salt-lake-ut'>Our clutch service page</a> covers what's included in a typical manual repair.",
+          "Scott's Auto & Clutch Repair has been working on manual and automatic transmissions in South Salt Lake since 1990. We won't recommend a rebuild without first ruling out the simpler fixes that produce identical symptoms."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -214,29 +198,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Hard-to-Shift Gears Are Getting Worse",
+        heading: "How to Tell if You Have Hard-to-Shift Gears",
         paras: [
-          "Yes, for now. Hard shifting still works, and you can still drive the car. The cost of waiting is synchronizer wear that you can't get back.",
-          "Every forced shift removes precision material from the synchronizer rings. The car is operational, but the gearbox is degrading on a clock that runs every time you shift.",
-          "There are signs that mean it's time to come in. Shifting has progressed to <a href='/symptoms/grinding-when-shifting'>audible grinding</a>. The clutch pedal has gone soft or sinks to the floor. You suddenly can't get into first or reverse without the engine off. Those combinations mean the release system has failed enough that the gearbox is bearing the load, and synchronizer damage compounds quickly from there."
+          "The shifter resists going into gear — you have to push harder than normal, or it grinds briefly before dropping in. First and reverse are often the worst, because they have no synchronizers to ease the engagement.",
+          "If shifting is harder cold and eases up once the car warms up, the clutch hydraulics or fluid viscosity is the likely cause. If it's stiff all the time and getting progressively worse, the synchronizers or clutch release are failing."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Hard-to-Shift Gears Repair?",
         paras: [
-          "The pause test is the most useful early diagnostic. With the engine running and clutch fully pressed, wait 2 to 3 seconds before shifting into first or reverse. If shifting becomes noticeably easier after the pause, the clutch is releasing but slowly. Your hydraulic system is the suspect, and a bleed or cylinder replacement typically resolves it. If the shift stays hard regardless of pause time, the disc itself, linkage, or synchronizers are involved.",
-          "The progression from hard-but-functional to non-functional follows a predictable path. Occasional difficulty getting into first becomes consistent difficulty, then grinding on shifts at speed, then refusal to engage gears at all. Cold weather accelerates the progression because thicker fluid slows hydraulic response. Drivers often notice hard shifting first appears in winter mornings before becoming year-round.",
-          "The cost progression matters. A hydraulic bleed and adjustment is the cheapest intervention. Master or slave cylinder replacement is the next step. A clutch disc replacement is more involved but still routine. A synchronizer rebuild, needed if the gearbox has been forced for too long, is the most expensive of the four by a wide margin."
+          "With the engine running and clutch pressed, wait 2–3 seconds before shifting. If it's easier after the pause, the hydraulic system is releasing slowly — a bleed or cylinder replacement typically resolves it. If it stays hard, the disc or synchronizers are involved.",
+          "A hydraulic bleed is the cheapest fix. A cylinder replacement is next. A disc replacement is more involved but routine. A synchronizer rebuild — needed if the gearbox has been forced through hard shifts too long — is the most expensive by a wide margin."
         ]
       },
       {
         heading: "Who to Trust for Hard-to-Shift Gears Repair in Salt Lake City",
         paras: [
-          "We start with a road test to characterize the shift pattern: which gears, what conditions, cold versus warm. Then we run the pause test and inspect the hydraulic system, including fluid level and condition, master and slave cylinder pressure response, and the release fork's range of motion. We rule out hydraulic causes first because they're the easiest to fix and the most common, and because replacing a clutch on a hydraulic problem won't actually fix the shifting.",
-          "If the hydraulic system checks out, we measure clutch disc clearance and inspect the shift linkage for worn bushings, stretched cables, or play at the mounting points. The diagnostic order is intentional: cheapest causes ruled out before expensive ones are recommended. <a href='/services/clutch-repair-near-south-salt-lake-ut'>Our clutch service page</a> covers what's included in a typical hard-shifting repair.",
-          "Scott's Auto & Clutch Repair has been working on manual transmissions in South Salt Lake since 1990. Hard shifting is one of the symptoms where a methodical diagnosis saves customers significant money. We frequently solve hard shifting with a hydraulic repair on cars that other shops had quoted full clutch replacements for. That depth of experience with manual transmissions is what catches the cheaper fix."
+          "We road-test to characterize the shift pattern, run the pause test, then inspect the hydraulic system before looking at the disc or linkage. Hydraulic causes are ruled out first because they're most common and cheapest to fix. <a href='/services/clutch-repair-near-south-salt-lake-ut'>Our clutch service page</a> covers what's included.",
+          "Scott's Auto & Clutch Repair has been working on manual transmissions in South Salt Lake since 1990. We frequently solve hard shifting with a hydraulic repair on cars other shops quoted full clutch replacements for."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -262,29 +242,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Burning Clutch Smell Is Getting Worse",
+        heading: "How to Tell if You Have a Burning Clutch Smell",
         paras: [
-          "Briefly yes, but the smell is telling you the clutch is in its final stage. The acrid odor is phenolic resin, the binder in the friction material, breaking down under extreme heat. If you can smell it inside the cabin, surface temperatures are already high enough to glaze the disc and the flywheel.",
-          "The car still drives, but each smell event is permanently removing friction material that won't come back. The disc gets thinner and the flywheel surface gets harder, which makes the next slip event happen sooner.",
-          "There are signs that mean it's time to stop driving and call. The smell now appears on flat roads at moderate throttle. RPMs rise without speed increase. Pedal feel has changed in the last few days. A burning smell paired with <a href='/symptoms/clutch-slipping'>obvious clutch slipping</a> means the disc is at end-of-life. Continuing to drive past that point glazes the flywheel and turns a clutch repair into a clutch-plus-flywheel job."
+          "You'll notice a sharp, acrid smell — similar to burning paper or a hot electric motor — coming from under the car, especially after a hill climb, heavy traffic, or repeated starts. It may linger for a few minutes after you park.",
+          "If the smell appears every time you drive in hilly terrain but clears up on flat roads, the clutch is being overworked. A smell that appears during normal flat-road driving means the disc is nearly gone."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Burning Clutch Repair?",
         paras: [
-          "A normal clutch engagement lasts under a second. A slipping or burning clutch generates friction for seconds at a time, with disc temperatures exceeding 500°F. At those temperatures, friction material burns off faster, pressure plate springs weaken from heat cycling, and the flywheel surface begins to glaze. The cycle is self-reinforcing. Heat damages the disc, which slips more readily, which generates more heat.",
-          "Utah is particularly hard on clutches in the smell stage. Mountain grades through Parley's, Cottonwood, and Emigration combine sustained grade with stop-and-go traffic at toll booths and trailhead congestion. Drivers who commute through the canyons or up onto the benches often see a clutch that only smelled occasionally on flat roads progress to constant smell within weeks of mountain driving. Towing up Point of the Mountain on I-15 has the same effect, since sustained climb under load is exactly the condition the disc was designed to barely tolerate.",
-          "The cost difference between catching the smell early and ignoring it comes down to the flywheel. A disc-and-pressure-plate kit is the complete repair when the flywheel surface is still smooth. Once it's heat-glazed from extended slipping, the flywheel needs resurfacing or replacement before a new disc will hold properly, otherwise the new clutch slips within months. <a href='/symptoms/clutch-slipping'>Slipping that returns shortly after a clutch job</a> is almost always a flywheel issue that wasn't addressed."
+          "Each smell event burns off friction material and can glaze the flywheel surface. Once glazed, a new disc will slip within months on the same surface — catching the smell before that happens keeps the repair to a disc-and-pressure-plate kit.",
+          "Utah's canyon grades accelerate the damage. A clutch that only smells occasionally on flat roads can progress to constant smell within weeks on Parley's or Cottonwood. Come in while the flywheel surface is still smooth."
         ]
       },
       {
         heading: "Who to Trust for Burning Clutch Repair in Salt Lake City",
         paras: [
-          "Before recommending any repair, we road-test to characterize when the smell appears (under load, on hills, in traffic, or constantly). We measure clutch pedal free play and engagement point, then inspect for oil contamination at the rear main and input shaft seals, since a leaking seal can soak the disc and accelerate heat damage even on a relatively new clutch. Ruling out contamination matters because installing a new disc into an oil-soaked bell housing produces a repeat failure within months.",
-          "Once the transmission is dropped, we measure flywheel runout and inspect the surface for glazing, scoring, and heat checks. If the flywheel is within spec, the clutch kit alone is the complete repair. If it's damaged from heat, we'll show you the surface and walk through your options before any cost conversation happens. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch repair service page</a> for what's covered.",
-          "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. Burning smells are one of the symptoms where shop experience matters most. We know the canyon-driver wear pattern, the towing-driver wear pattern, and the contamination pattern that makes new clutches fail. That pattern recognition is what keeps the repair from coming back six months later."
+          "We road-test to characterize when the smell appears, then inspect for oil contamination at the rear main and input shaft seals — a leaking seal soaking the disc causes repeat failures. Once the transmission is dropped, we measure flywheel runout and inspect for glazing before any repair quote. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch repair service page</a> for what's covered.",
+          "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. We know the canyon-driver and towing-driver wear patterns, and the contamination patterns that make new clutches fail prematurely."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -310,29 +286,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Soft Clutch Pedal Is Getting Worse",
+        heading: "How to Tell if You Have a Soft Clutch Pedal",
         paras: [
-          "Briefly yes, but plan to bring it in this week. A soft pedal usually means air in the line or a seal that's beginning to fail. The clutch still releases enough to drive.",
-          "The failure mode here is sudden. A seeping cylinder seal can fail completely without much additional warning, leaving you unable to disengage the clutch mid-drive. That's a stranded scenario, especially if it happens in traffic.",
-          "There are signs that mean it's time to call same-day. The pedal sinks all the way to the floor. It pumps up but won't stay firm. You see fluid dripping near the firewall or at the bell housing. A soft pedal that's also causing <a href='/symptoms/grinding-when-shifting'>grinding when shifting</a> means the clutch is no longer fully releasing, and the system is at the failure point."
+          "The pedal feels spongy or travels further than it should before you feel resistance — like pressing into a foam pad rather than a firm spring. You may have to push it nearly to the floor before the clutch releases.",
+          "Fluid in the reservoir near the firewall that's low or discolored, or a pedal that doesn't return fully on its own, confirms a hydraulic issue. A soft pedal that gets noticeably worse in a single day means active fluid loss."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Soft Clutch Pedal Repair?",
         paras: [
-          "The clutch hydraulic system is a closed circuit and doesn't consume fluid. A low reservoir means fluid has escaped somewhere, and each time the level drops below the master cylinder inlet port, air enters the circuit and sponginess worsens. Topping off without finding the source delays the problem. The leak continues, the level drops again, and pedal feel keeps degrading.",
-          "Cold mornings make a soft pedal noticeably worse because cold fluid is thicker and slower to respond. Drivers often notice the symptom first appears in winter before becoming year-round. As seal degradation progresses, the master or slave cylinder eventually fails completely, which means no clutch release at all. At that point you can't shift into gear with the engine running, and you're calling for a tow.",
-          "The cost progression matters. A hydraulic bleed alone is the cheapest fix when air is the only issue. A master or slave cylinder replacement is straightforward when caught at the seeping stage. A failure that contaminates fluid throughout the circuit often takes both cylinders together, and possibly damages the release bearing if the slave cylinder failed mid-stroke. Catch it soft, fix it cheap."
+          "The hydraulic system is a closed circuit — a dropping reservoir means fluid has escaped, and topping off without finding the source just delays the failure. Each drop in level draws in more air and worsens pedal feel.",
+          "A hydraulic bleed is the cheapest fix when air is the only issue. A cylinder caught at the seeping stage is a straightforward replacement. One that fails completely often takes the other cylinder with it and may damage the release bearing. Catch it soft, fix it cheap."
         ]
       },
       {
         heading: "Who to Trust for Soft Clutch Pedal Repair in Salt Lake City",
         paras: [
-          "We start by checking fluid level and condition, then characterize the pedal feel: soft from the start (air or weak cylinder), firm at first then sinking under pressure (master cylinder seal bypass), or firm pedal but no clutch release (slave cylinder issue). Each pattern points to a specific component, which is why diagnosis matters before parts are ordered. We also inspect for visible leaks at the master cylinder, slave cylinder, hose fittings, and bell housing.",
-          "If the system needs a bleed and no cylinder is failing, that's the complete repair and the pedal returns to firm immediately. If a cylinder is leaking internally, we'll show you the pressure-test reading and quote the replacement before any work happens. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch service page</a> for what's covered. Most hydraulic clutch repairs are completed the same day.",
-          "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. The reason we catch failing cylinders that other shops miss is volume. We bleed and pressure-test enough hydraulic clutch systems to recognize the early-stage leaks that aren't yet visible as drips. Catching them early means a single cylinder replacement instead of the cylinder-and-fluid-flush job that follows a complete failure."
+          "We check fluid level and condition, then characterize the pedal feel to identify the specific component — soft from the start, sinking under pressure, or firm but no release each point to different causes. We pressure-test before any parts are ordered. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch service page</a> for what's covered.",
+          "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. We catch failing cylinders before they leak visibly — catching them early means a single replacement instead of a full circuit flush after a complete failure."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -357,29 +329,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your CV Joint Clicking Is Getting Worse",
+        heading: "How to Tell if You Have CV Joint Clicking",
         paras: [
-          "Yes, for now. You have a window measured in weeks to months, not years. A clicking CV joint typically gives long warning before failing completely.",
-          "What ends that window is unpredictable. The joint can seize during a sharp turn, separate at the stub shaft, or in some failure modes drop the axle entirely. Any of those leaves you immobile, often in the worst possible location.",
-          "There are signs that mean it's time to come in. Clicking that has now spread to straight-ahead driving. A clunk during acceleration from a stop. A noticeable pull toward one side that wasn't there before. If you also notice <a href='/symptoms/vibration-when-accelerating'>vibration under acceleration</a>, the inner CV joint may be failing alongside the outer, since both joints on the same axle have aged on the same clock."
+          "You'll hear a rhythmic clicking or popping sound that appears when turning — it's most obvious in slow, tight turns like parking lots or U-turns, and usually comes from the front of the car on the side that's turning.",
+          "The click is caused by a worn CV joint that only loads up under the angle and torque of a turn. If the noise disappears when driving straight, the CV joint is almost certainly the source."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for CV Joint Clicking Repair?",
         paras: [
-          "The boot tore first. That's the root cause, and it likely happened thousands of miles before the clicking appeared. Once grease escapes, road grit packs into the joint and abrades the ball bearings against the race surfaces. The clicking emerges once the bearings have worn shallow grooves into the race. From that point, every turn deepens the grooves, and the joint progresses from light clicking to loud snapping to outright binding.",
-          "The other axle is worth checking too. CV boots age at similar rates because they were installed at the same time and exposed to the same conditions. When one boot has torn, the other is typically near the same condition. We inspect the opposite axle on the lift not to upsell but because doing both at once costs less than a return visit a few months later when the second side fails.",
-          "The cost progression here is steep. A boot replacement caught before the grease escapes is the cheapest intervention. A complete CV axle replacement at the clicking stage is straightforward. A joint that fails completely while driving can damage the wheel hub, ABS sensor, or brake components, turning a single-axle replacement into a multi-component repair."
+          "The boot tore first — that happened thousands of miles before the clicking appeared. Once grease escapes, road grit packs into the joint and progressively deepens the bearing races. Each turn moves the joint closer to binding or separation.",
+          "We inspect the opposite axle on the lift because boots age together — doing both at once costs less than a return visit when the second side fails a few months later. A failed joint can also damage the hub, ABS sensor, or brake components, turning a single axle replacement into a multi-component repair."
         ]
       },
       {
         heading: "Who to Trust for CV Joint Repair in Salt Lake City",
         paras: [
-          "Before recommending any repair, we put the vehicle on the lift and inspect both CV boots for tears, grease loss, or splatter on surrounding components. We physically feel both inner and outer joints for play and binding, and we road-test to confirm which side is clicking and at what steering angles. Outer joint clicking comes only during turns; inner joint problems show up as vibration under acceleration, which is a different diagnostic path.",
-          "If the joint is past saving, we replace the complete CV axle (half-shaft) rather than rebuilding the individual joint. Quality remanufactured axles are widely available, and the labor is identical. We also check the wheel hub bearing, brake hardware, and ABS sensor on that side while the axle is out, since those components are exposed and can be damaged by a failing joint. <a href='/services/cv-joint-repair-near-south-salt-lake-ut'>See our CV joint service page</a> for what's included.",
-          "Scott's Auto & Clutch Repair has been doing front-end work in South Salt Lake since 1990. CV joints are one of the symptoms where pattern recognition matters. Clicking that comes only on left turns versus right turns, at parking-lot speed versus highway speed, points to specific axles and specific failure modes. That experience is what keeps us from replacing the wrong axle."
+          "We inspect both CV boots for tears and grease loss, feel both inner and outer joints for play, and road-test to confirm which side is clicking. Outer joint clicking comes only during turns; inner joint problems show up as vibration under acceleration — different failure, different repair. <a href='/services/cv-joint-repair-near-south-salt-lake-ut'>See our CV joint service page</a> for what's included.",
+          "Scott's Auto & Clutch Repair has been doing front-end work in South Salt Lake since 1990. Pattern recognition — which side, which turn angle, which speed — is what keeps us from replacing the wrong axle."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -404,29 +372,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Acceleration Vibration Is Getting Worse",
+        heading: "How to Tell if You Have Vibration When Accelerating",
         paras: [
-          "Yes briefly, but the failure mode determines how much margin you have. A worn inner CV joint or U-joint progressively gets worse, then fails.",
-          "When a CV axle fails completely, you lose drive to that wheel and feel a hard pull toward the working side. That's manageable at low speed but dangerous at freeway speed. A failed U-joint can drop the driveshaft, which in some configurations damages the floor pan or transmission.",
-          "There are signs that mean it's time to come in. Vibration is now constant rather than just under acceleration. You're hearing a clunk on throttle changes. You feel binding through the drivetrain. Vibration that's <a href='/symptoms/clicking-when-turning'>paired with clicking on turns</a> means both joints on the axle are wearing, and the entire half-shaft is at the end of its life."
+          "You feel a shudder or vibration through the floorboard or seat that appears when you press the accelerator — it may start at a specific speed or throttle position and fade when you ease off. Coasting without throttle is usually smooth.",
+          "If the vibration only happens under power and disappears on deceleration, the CV axle or driveshaft is the most likely cause. Vibration that persists whether you're accelerating or not points toward a wheel balance or tire issue instead."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Acceleration Vibration Repair?",
         paras: [
-          "Inner CV joints fail by wearing the ball-bearing tracks under repeated torque load. The joint articulates maximally under acceleration, so the worn paths produce shudder under throttle and disappear when coasting. As wear deepens, the vibration band widens. What started as shudder only on hard acceleration becomes vibration at moderate throttle, then constant vibration regardless of throttle. The joint can also lock up or separate without much additional warning at the late stage.",
-          "U-joints follow a similar but slightly more abrupt curve. The needle bearings inside the U-joint cap dry out as grease fittings clog or seals fail, and the joint develops play. Once play is significant, the U-joint can fail completely under load, sometimes in a single high-torque event like a hard launch or towing acceleration.",
-          "The cost progression matters. A CV axle replacement at the vibration stage is a routine same-day repair. The same axle that fails completely while driving can take the wheel hub, ABS sensor, or brake components with it, and a tow is now part of the bill. U-joint replacement is similarly cheap caught early; a broken U-joint that lets the driveshaft drop is a much bigger repair."
+          "As CV joint wear deepens, the vibration band widens — shudder only on hard acceleration becomes vibration at moderate throttle, then constant vibration regardless of throttle. The joint can also lock up without much additional warning.",
+          "A CV axle replacement at the vibration stage is a routine same-day repair. The same axle that fails completely while driving can take the hub, ABS sensor, or brake components with it, adding a tow to the bill."
         ]
       },
       {
         heading: "Who to Trust for Drivetrain Vibration Repair in Salt Lake City",
         paras: [
-          "Vibration diagnosis starts with a detailed road test, not a visual inspection of stationary components. We drive the vehicle to characterize when the vibration appears (under power, constant speed, or coasting), what speed range it lives in, and whether it changes with steering or throttle. We also check whether shifting weight side-to-side affects it, since wheel bearings produce vibration that responds to lateral load. The pattern shapes which components we focus on.",
-          "Then on the lift, we check CV axle play and boot condition, U-joint play, wheel bearing roughness, motor mount condition, and tire balance. Motor mounts are commonly missed. A collapsed mount allows the engine to torque over under load and creates a vibration that feels exactly like a drivetrain issue. <a href='/services/cv-joint-repair-near-south-salt-lake-ut'>Our CV joint service</a> covers what's included in a typical front-wheel-drive vibration repair.",
-          "Scott's Auto & Clutch Repair has been doing drivetrain work in South Salt Lake since 1990. The reason we catch the right component is that we won't recommend a CV axle replacement when the vibration pattern points to a motor mount, or a U-joint when it's actually a wheel bearing. Pattern recognition saves customers from paying for the wrong repair."
+          "We road-test first — characterizing when the vibration appears (under power, constant speed, or coasting) shapes which components we focus on. On the lift, we check CV axle play, U-joint play, wheel bearing roughness, motor mount condition, and tire balance. Motor mounts are commonly missed and feel exactly like a drivetrain issue. <a href='/services/cv-joint-repair-near-south-salt-lake-ut'>Our CV joint service</a> covers what's included.",
+          "Scott's Auto & Clutch Repair has been doing drivetrain work in South Salt Lake since 1990. We won't recommend a CV axle when the pattern points to a motor mount — pattern recognition is what keeps customers from paying for the wrong repair."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -452,29 +416,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Soft Brake Pedal Is Getting Worse",
+        heading: "How to Tell if You Have a Soft Brake Pedal",
         paras: [
-          "No. This is one of the symptoms where we strongly recommend not driving. A soft brake pedal directly affects stopping distance, which means a vehicle that previously stopped in 100 feet may now need 130 or more. That gap is the difference between a near-miss and a collision.",
-          "Brake systems can also deteriorate suddenly when seals are actively failing. A pedal that's soft today can drop to the floor with no additional warning tomorrow.",
-          "There are signs that mean you need to stop driving and call for a tow. The pedal goes more than halfway to the floor under normal pressure. It sinks while you're holding it down at a stop. You see fluid leaking near any wheel or behind the master cylinder. <a href='/symptoms/grinding-brakes'>Grinding brakes</a> on top of a soft pedal means multiple systems are compromised, and that's a same-day tow situation, not a drive-it-in situation."
+          "The pedal sinks lower than usual before the brakes engage, or feels spongy rather than firm underfoot. You may have to pump it once to build pressure, or press harder than usual to get normal stopping power.",
+          "Fluid dripping near a wheel or under the master cylinder confirms a leak. A pedal that firms up after pumping but softens again under steady pressure points to air in the hydraulic line."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Soft Brake Pedal Repair?",
         paras: [
-          "Brake hydraulic problems compound. Air introduced through a low reservoir doesn't disappear; it sits in the high points of the system and grows with every fluid loss event. A leaking caliper or wheel cylinder seeps fluid until air enters the master cylinder, after which pedal feel degrades quickly. A failing master cylinder seal that bypasses fluid internally will progressively bypass more as the seal degrades.",
-          "Utah's terrain is particularly hard on already-compromised brake hydraulics. A long descent down Parley's, Big Cottonwood, or off the benches generates sustained brake heat that pushes fluid temperature up. If the fluid is moisture-contaminated, that heat converts moisture briefly to steam (vapor lock) and braking pressure disappears for a few seconds in the worst possible spot. A pedal that feels marginal on flat roads can become dangerous on canyon descents.",
-          "Cost progression matters. A bleed and fluid flush is the cheapest fix when no component is leaking. A caliper or wheel cylinder replacement caught early is straightforward. A master cylinder replacement is moderate. A complete brake system overhaul, sometimes needed when contamination has spread through the circuit, is significantly more involved."
+          "A soft brake pedal is a safety issue — do not drive on it. Brake hydraulic problems compound: air in the system grows with every fluid loss event, and a seeping master cylinder seal progressively bypasses more fluid until the pedal drops entirely.",
+          "A bleed and fluid flush is the cheapest fix when no component is leaking. Catching a cylinder at the seeping stage is straightforward. Utah's canyon descents — Parley's, Big Cottonwood — amplify compromised brakes; a pedal that's marginal on flat roads can fail on a sustained grade."
         ]
       },
       {
         heading: "Who to Trust for Brake Hydraulic Repair in Salt Lake City",
         paras: [
-          "Our diagnosis starts with a fluid level and condition check, then characterizing the pedal feel: spongy from the start (air), sinking under sustained pressure (master cylinder), or normal until heated (contaminated fluid). Each pattern points to a specific component. We also pressure-test the system and inspect every wheel for fluid weeping at calipers, wheel cylinders, and brake hose connections. Brake fluid blisters paint, so we look for stained or peeling paint near suspected leaks.",
-          "If the system needs a bleed and no component is leaking, that's the complete repair and the pedal returns to firm immediately. If a component is failing, we'll show you the test reading and quote the replacement before any work happens. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's covered. We don't start until you understand exactly what's wrong.",
-          "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. Brake hydraulic problems are one of the safety symptoms where we won't compromise on the diagnostic process. We test, measure, and verify before recommending parts. That discipline is what catches the failing master cylinder that a pad-only shop would have missed."
+          "We check fluid level and condition, characterize the pedal feel to identify the component, and pressure-test the system before any parts are ordered. We inspect every wheel for weeping at calipers and hose connections. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's covered. We don't start work until you understand exactly what's wrong.",
+          "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. We test and measure before recommending parts — that's what catches the failing master cylinder that a pad-only shop would miss."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -500,29 +460,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Squeaking Brakes Are Getting Worse",
+        heading: "How to Tell if You Have Squeaking Brakes",
         paras: [
-          "Yes, for now. You have a few-thousand-mile window. Brake squeal from the wear indicator is your vehicle's intentional warning that pads are getting thin, typically with 2 to 3mm of friction material remaining.",
-          "Stopping power is still adequate and the brakes still function, but you have a measurable countdown before the metal backing plate contacts the rotor and squealing becomes grinding. Squeaking is the cheapest stage of brake repair to catch.",
-          "There are signs that mean it's time to come in sooner rather than later. The squeal has become a grind. You feel vibration through the pedal. The squeal happens equally on both sides at the same time. A squeal that suddenly becomes <a href='/symptoms/grinding-brakes'>grinding brakes</a> means the pads have worn through and the rotors are being damaged with every stop."
+          "You'll hear a high-pitched squeal or squeak when applying the brakes — it usually starts as a brief chirp and becomes more consistent as pad wear increases. Most brake pads have a metal wear indicator that makes this noise intentionally to signal replacement is due.",
+          "Light squeaking on the first few stops of a cold, damp morning that clears up after a few applications is normal condensation. Squeaking that appears every time you brake, regardless of temperature or conditions, means the pads need inspection."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Squeaking Brake Repair?",
         paras: [
-          "The wear indicator is a small metal tab welded to the pad backing plate at a calculated depth. When it contacts the rotor, you have meaningful pad life left, but not unlimited. Drive a few thousand more miles and the indicator itself wears through, the backing plate begins to contact the rotor, and squealing becomes grinding. From that point, every stop scores the rotor surface, and a pad-only repair becomes a pad-plus-rotor repair.",
-          "There's also a less obvious failure path: caliper slide pins. Most calipers float on two lubricated pins so both pads apply equal pressure. If a pin seizes from corrosion or a torn rubber boot, one pad rides against the rotor continuously, generating heat and noise even on relatively new pads. A pad that should last 40,000 miles can wear through in 15,000 with a stuck slide. That's worth catching during the squeak stage rather than after the rotor is damaged.",
-          "The cost progression matters. A pad replacement caught at the squeal stage is typically the cheapest brake job on the menu. The same vehicle a few thousand miles later, with rotors scored by backing-plate contact, costs significantly more because rotors are now part of the repair. Squealing is the cheapest moment in the brake replacement lifecycle."
+          "Squeaking is the intentional early warning — drive a few thousand miles past it and the indicator wears through, the backing plate contacts the rotor, and a pad-only repair becomes a pad-plus-rotor repair. Catch it at the squeal stage.",
+          "A stuck caliper slide pin is a less obvious cause: one pad rides the rotor continuously and a pad that should last 40,000 miles wears out in 15,000. That's worth catching at the squeak stage rather than after the rotor is damaged."
         ]
       },
       {
         heading: "Who to Trust for Brake Pad Replacement in Salt Lake City",
         paras: [
-          "Before recommending any brake work, we measure pad thickness on all four corners, measure rotor thickness and runout, and inspect caliper slide pin condition. We also look at the friction material itself for glazing, contamination, or uneven wear that points to a stuck slide. Most squeal complaints we see have plenty of rotor life left if caught at the right time. We'll show you the measurements so you understand the basis for the repair.",
-          "If you only need pads, that's the complete repair and we won't try to upsell rotors that don't need replacing. If a slide pin has seized or a caliper is dragging, we address that during the same visit so the new pads don't wear out prematurely. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's included.",
-          "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. The reason we catch slide pin problems that other shops miss is that we inspect them every brake job, not as an upsell line item but as standard practice. A brake job that doesn't address a stuck slide leads to a comeback in 15,000 miles, which is why we won't skip that step."
+          "We measure pad thickness on all four corners, measure rotor thickness and runout, and inspect caliper slide pin condition before recommending anything. If you only need pads, that's the complete repair — we won't upsell rotors that don't need replacing. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's included.",
+          "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. We inspect slide pins on every brake job as standard practice — a stuck slide causes a 15,000-mile comeback, which is why we won't skip that step."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -547,29 +503,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Grinding Brakes Are Getting Worse",
+        heading: "How to Tell if You Have Grinding Brakes",
         paras: [
-          "No. Get this fixed today, not this weekend. Grinding brakes mean either metal-on-metal contact (worn pads cutting grooves into your rotors) or a stuck caliper dragging continuously. Both reduce stopping power, both compromise safety, and both deteriorate with every mile.",
-          "We've seen rotors worn through to a point where they can crack under hard braking, and a cracked rotor at speed is a serious failure. The damage from continued driving is not linear; it accelerates fast.",
-          "There are signs that mean it's time to call for a tow. Grinding has spread to non-braking moments, like a continuous metallic drag while driving. Steering pulls hard to one side under braking. The brake area is so hot you can feel it radiating off the wheel. Grinding paired with a <a href='/symptoms/soft-brake-pedal'>soft brake pedal</a> or with smoke from a wheel means braking is already significantly compromised."
+          "You'll hear a harsh metal-on-metal grinding sound when you apply the brakes — unlike squeaking, this is a low, scraping noise and often comes with vibration felt through the pedal. It means the brake pad material is gone and metal is contacting the rotor.",
+          "If you also feel the car pulling to one side when braking, or the pedal pulsing underfoot, the rotor is already damaged. Grinding that only happens on one wheel is often a stuck caliper rather than simply worn pads."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Grinding Brake Repair?",
         paras: [
-          "The steel backing plate that contacts the rotor when the pads are gone is significantly harder than the rotor's cast iron. Each stop draws the backing plate across the surface like a lathe cutting tool, scoring grooves that reduce rotor thickness, create stress concentration points, and accelerate cracking. A rotor that would have been resurfaceable becomes scrap after a few hundred miles of metal-on-metal driving.",
-          "Utah's mountain descents amplify the problem. A long descent down Parley's, Big Cottonwood, or off the benches generates significant brake heat under normal use. With damaged rotors and reduced pad area, that heat concentrates in the worn zones and brake fade becomes a real risk on extended grades. A driver who can stop adequately on flat freeway can run out of braking on a sustained descent.",
-          "The cost progression is steep. Catching brake wear at the squeal stage is cheapest. Catching it at light grinding contains the damage to pads. Driving through grinding for weeks usually means pads, rotors, and sometimes calipers, plus damage to wheel speed sensors or splash shields if the worn pad has gouged adjacent components. Get it in same-day."
+          "Get it in same-day. The steel backing plate is harder than the cast-iron rotor — each stop scores the surface like a lathe tool. A rotor that would have been resurfaceable becomes scrap after a few hundred miles of metal-on-metal driving.",
+          "Driving through grinding for weeks means pads, rotors, and sometimes calipers, plus possible damage to wheel speed sensors. Utah's canyon descents — Parley's, Big Cottonwood — add heat that accelerates rotor damage further."
         ]
       },
       {
         heading: "Who to Trust for Grinding Brake Repair in Salt Lake City",
         paras: [
-          "Our diagnosis starts with measuring everything: pad thickness (often near-zero on grinders), rotor thickness against minimum spec, runout, and the depth of any scoring. We also inspect caliper slide pin function and piston seal condition, since a stuck caliper produces grinding even on pads with material left. We feel the wheel hub temperature on each side after a road test, since a significant temperature differential between sides points to a dragging caliper.",
-          "If rotors are within minimum thickness spec after the scoring is measured, resurfacing is possible. If the scoring is too deep or rotors are at or below minimum, replacement is required regardless of cost. We'll show you the measurements before the conversation about repair scope happens. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's covered. We road-test every brake job before the vehicle leaves the shop.",
-          "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. Grinding brakes are one of the symptoms where shop honesty matters most. We'll tell you whether the rotors can be saved or not, and we won't push replacement parts that aren't needed. That trust is what brings customers back."
+          "We measure pad thickness, rotor thickness against minimum spec, runout, and the depth of any scoring. We also check caliper slide pin and piston seal condition — a stuck caliper produces grinding even on pads with material left. Hub temperature after a road test tells us which side is dragging. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's covered.",
+          "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. We'll tell you honestly whether the rotors can be saved or need replacement — we won't push parts that aren't necessary."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -594,29 +546,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Steering Vibration Is Getting Worse",
+        heading: "How to Tell if You Have Steering Vibration",
         paras: [
-          "Usually yes briefly, but the right answer depends on the cause. Vibration from warped rotors reduces braking effectiveness and extends stopping distance, which is annoying but not immediately dangerous.",
-          "Vibration from a worn tie rod end or ball joint is more serious. Those components can fail suddenly at speed, and a failed tie rod means a loss of steering control. The pattern matters for urgency.",
-          "There are signs that mean it's time to call same-day. Vibration is present at cruise speed without braking. It appeared suddenly rather than gradually. The steering also feels vague or wanders. Vibration that's <a href='/symptoms/vibration-when-braking'>only present under braking</a> is rotor-related and can be scheduled within the week. Vibration with steering feel changes is suspension-related and warrants urgent attention."
+          "You feel a shimmy or vibration through the steering wheel — it may appear at a specific highway speed (commonly 60–70 mph), when braking, or across the full speed range. The vibration comes and goes rather than being constant.",
+          "Vibration that only appears at a specific speed and disappears above or below it usually points to wheel balance. Vibration that appears specifically when braking points to warped rotors rather than a balance or alignment issue."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Steering Vibration Repair?",
         paras: [
-          "Rotor disc thickness variation (DTV), the technical name for what most people call 'warped rotors,' develops from repeated heat cycling. Microscopic high and low spots form around the rotor's circumference, and as the pads clamp on the thicker areas the pressure variation transmits back up through the hydraulic system as pulsation. Once DTV is established, it typically gets worse with continued use because the pressure variation accelerates further uneven heating.",
-          "Suspension-side vibration progresses differently and more dangerously. A worn tie rod end with light play today develops more play under each driving mile. Eventually the joint can separate completely, leaving the wheel free to turn independently of steering input. That's a loss-of-control failure at speed. Catching tie rod and ball joint wear at the vibration stage is much cheaper than catching it after a roadside breakdown.",
-          "The cost progression matters. Rotor resurfacing or replacement caught early is straightforward. A tie rod end caught at the vibration stage is a quick repair. The same components ignored long enough mean tow charges, possible damage to wheel bearings or knuckles, and an alignment that won't hold because the underlying components are still worn."
+          "Rotor DTV worsens with continued use — the pressure variation accelerates further uneven heating. Suspension-side vibration is more urgent: a worn tie rod end can separate completely, leaving the wheel free to turn independently of steering input.",
+          "Rotor resurfacing caught early is the cheapest fix. A tie rod caught at the vibration stage is a quick repair. Ignored too long, either issue leads to tow charges and possible damage to adjacent components."
         ]
       },
       {
         heading: "Who to Trust for Steering Vibration Repair in Salt Lake City",
         paras: [
-          "Our diagnosis covers both the brake system and the front suspension simultaneously because they share components and often degrade together. We measure rotor runout with a dial indicator, check pad and rotor condition, and pressure-test the brake hydraulic system. We also lift the front and check tie rod end play, ball joint condition, wheel bearing roughness, and tire balance before recommending any repair.",
-          "The reason we inspect both systems is simple. Replacing rotors on a car with worn tie rods leaves the steering shake in place, and the customer comes back unhappy. We'll show you any play we find on the lift so you can see what we're describing rather than taking it on faith. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake and steering service page</a> for what's included.",
-          "Scott's Auto & Clutch Repair has been doing brake and front-end work in South Salt Lake since 1990. The reason we catch the right cause is that we won't recommend rotor replacement when the vibration pattern points to suspension wear, and vice versa. Pattern recognition saves customers from paying for the wrong repair."
+          "We diagnose both the brake system and front suspension simultaneously — rotor runout, caliper condition, tie rod play, ball joint condition, and wheel bearing roughness — before recommending any repair. Replacing rotors on a car with worn tie rods leaves the shake in place. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake and steering service page</a> for what's included.",
+          "Scott's Auto & Clutch Repair has been doing brake and front-end work in South Salt Lake since 1990. We won't recommend rotors when the pattern points to suspension wear — pattern recognition is what keeps customers from paying for the wrong repair."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -641,29 +589,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Brake Vibration Is Getting Worse",
+        heading: "How to Tell if You Have Vibration When Braking",
         paras: [
-          "Yes briefly, but braking effectiveness is reduced and gets worse with continued driving. The vibration you feel is the brake pads riding over a rotor surface that isn't perfectly flat. The same heat cycles that created the unevenness keep distorting the rotor further with every use.",
-          "Stopping distance increases as the contact patch becomes less consistent, which is more dangerous on Utah's mountain descents than on flat freeway.",
-          "There are signs that mean it's time to come in sooner. Vibration has become severe enough that the steering wheel oscillates noticeably under braking. It's now paired with <a href='/symptoms/grinding-brakes'>grinding sounds</a>. You smell hot brakes after even moderate use. Those combinations mean the system is approaching brake fade territory, especially on extended descents."
+          "You feel a pulsing or shuddering through the brake pedal and sometimes the steering wheel when you apply the brakes — it's most noticeable during moderate to hard stops from highway speed. The car may also pull slightly to one side.",
+          "If the vibration only appears when braking and disappears at all other times, the rotors are the most likely cause. Vibration that's present while driving and gets worse when braking suggests a wheel bearing or tire issue."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Brake Vibration Repair?",
         paras: [
-          "Disc thickness variation (DTV), the technical term for what people call warped rotors, develops from uneven heat cycling. Each braking event heats the rotor; each cool-down causes the metal to contract. Over thousands of cycles, microscopic high and low spots form. Once DTV exists, the brake pads contact the high spots more aggressively, which creates more heat in those areas, which deepens the variation. The progression is self-reinforcing.",
-          "Utah's mountain descents accelerate the cycle dramatically. A long descent down Parley's, Big Cottonwood, or off the benches generates sustained brake heat that pushes rotor temperatures into the range where DTV forms quickly. Drivers who tow trailers up I-15 or canyon roads also load the brakes coming back down. A vibration that's just noticeable on flat freeway becomes pronounced after the next mountain trip.",
-          "Cost progression matters. A rotor caught with sufficient material can sometimes be resurfaced, which is the cheapest fix. A rotor that's deteriorated past minimum thickness needs replacement. Letting DTV go long enough that pad material is also worn or contaminated turns this into a complete brake job rather than a rotor service."
+          "DTV (disc thickness variation) is self-reinforcing — the pads contact high spots more aggressively, generating more heat in those areas, deepening the variation. Utah's mountain descents accelerate the cycle: a vibration barely noticeable on flat roads becomes pronounced after Parley's or Big Cottonwood.",
+          "A rotor with sufficient material can sometimes be resurfaced. One past minimum needs replacement. Letting DTV go until pads are also worn turns a rotor service into a complete brake job."
         ]
       },
       {
         heading: "Who to Trust for Brake Rotor Repair in Salt Lake City",
         paras: [
-          "Our diagnosis starts with measuring rotor thickness and runout precisely, not eyeballing them. Every rotor has a minimum thickness specification, and we measure against that spec and tell you the actual numbers. We also inspect caliper slide pin function, since a stuck slide concentrates heat on one rotor area and is a frequent root cause of DTV. Replacing rotors without addressing a stuck slide produces the same DTV on the new rotors within 10,000 to 20,000 miles.",
-          "If your rotors have sufficient material above minimum, resurfacing is possible and saves cost. If they're at or below spec, replacement is the only safe option. We'll show you the measurements before recommending repair scope so you understand the basis for the decision. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's covered. Every brake job includes a road test before the vehicle leaves the shop.",
-          "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. The reason we catch slide pin issues that other shops miss is that we inspect them every brake job. Addressing the root cause keeps the new rotors smooth instead of warping again in a year. That depth of inspection is what makes our brake repairs stick."
+          "We measure rotor thickness and runout precisely and tell you the actual numbers against spec. We also inspect caliper slide pins — a stuck slide concentrates heat on one area and is a frequent root cause of DTV. Replacing rotors without fixing the stuck slide produces the same warping within 20,000 miles. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's covered.",
+          "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. Inspecting slide pins on every brake job is standard practice for us — it's what makes the repair last."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -688,28 +632,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Engine Startup Rattle Is Getting Worse",
+        heading: "How to Tell if You Have Engine Startup Rattling",
         paras: [
-          "The rattle fades because it's oil pressure dependent. On a cold start, the oil pump takes a few seconds to build full system pressure. During that window, the hydraulic timing chain tensioner is operating at low pressure, and the slack chain slaps against the plastic guides. Once oil pressure reaches operating level, the tensioner extends fully, takes up the slack, and the rattle stops.",
-          "This creates a false sense of normalcy. The chain is only quiet when the tensioner is working, and the tensioner is masking how much slack has developed. As the chain stretches further, the tensioner has to extend further to compensate, until it reaches the end of its travel.",
-          "At that point it can no longer take up the slack regardless of oil pressure. The rattle becomes constant, and chain-jump or chain failure is imminent. On an interference engine, that failure means valves and pistons collide and the engine destroys itself. The window between startup rattle and that endpoint is real but limited, which is why catching it at the rattle stage matters."
+          "You hear a metallic rattling or clattering sound for the first few seconds after starting a cold engine — it comes from near the top of the engine and usually goes away within 5–10 seconds once oil pressure builds. The noise may sound like loose marbles or a light chain.",
+          "A rattle that lasts longer than 10 seconds, or appears during normal running rather than only on cold starts, means oil isn't reaching the timing chain fast enough. Low oil level or long intervals between oil changes are the most common causes."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Timing Chain Repair?",
         paras: [
-          "Timing chains don't stretch the way a rubber band does. The roller pins and link plates wear microscopic amounts at each contact point over millions of engine cycles. Across hundreds of links, those tiny wear increments add up to a measurable length increase. A chain that was precisely matched to its sprocket geometry when new is now slightly too long. The extra length has to go somewhere, and it becomes slack that flaps against the guides on each cycle.",
-          "The rate of stretch is directly related to oil change intervals. Fresh oil with intact detergent additives keeps the chain and guide surfaces clean and lubricated. Old, degraded oil deposits carbon varnish on the tensioner passages and allows metal-to-metal contact at the roller pins. Engines with missed oil changes develop timing chain problems significantly earlier than those maintained on schedule."
+          "Don't wait on a startup rattle. The tensioner masking the slack makes the car seem fine, but once the tensioner reaches the end of its travel, the chain can jump a tooth or break — and on an interference engine, that destroys the engine.",
+          "Chain stretch is directly related to oil change intervals. Old, degraded oil deposits varnish on tensioner passages and accelerates wear at the roller pins. Engines with missed oil changes develop chain problems significantly earlier than well-maintained ones."
         ]
       },
       {
         heading: "Who to Trust for Timing Chain Repair in Salt Lake City",
         paras: [
-          "When a startup rattle points to the timing chain, our diagnosis goes deeper than just the chain. We check oil pressure to the tensioner circuit, since low oil pressure prevents the hydraulic tensioner from doing its job. A chain that rattles on every cold start may have been running with inadequate tensioner pressure for years. We also check VVT actuator function if equipped, since phaser-related timing codes often accompany mechanical chain stretch. The goal is to understand the full state of the timing system before recommending a repair scope.",
-          "Timing chain jobs are accessed through the front of the engine. The front cover comes off, which gives us access to the chain, guides, tensioner, and on timing-chain-driven water pump applications, the water pump simultaneously. We inspect the guides and tensioner on the bench, measure chain stretch directly, and discuss what we find before proceeding. <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>Our timing chain service page</a> covers what the repair typically includes and what we verify before returning the vehicle.",
-          "Scott's Auto & Clutch Repair has been doing timing chain work in South Salt Lake since 1990. We see a high volume of chain failures on the platforms most common in Utah (Honda and Acura 4-cylinders, Ford EcoBoost engines, and GM applications) and know their specific failure patterns, which OEM kits hold up versus which aftermarket components come back, and how to verify the tensioner is feeding properly after the repair."
+          "We check oil pressure to the tensioner circuit, inspect VVT actuator function if equipped, measure chain stretch directly, and inspect guides and tensioner on the bench before recommending a repair scope. The front cover gives us access to everything including the water pump on chain-driven applications. <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>Our timing chain service page</a> covers what's included.",
+          "Scott's Auto & Clutch Repair has been doing timing chain work in South Salt Lake since 1990. We see high volume on the platforms most common in Utah — Honda/Acura 4-cylinders, Ford EcoBoost, GM — and know their specific failure patterns and which kits hold up."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -734,27 +675,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Timing System Problem Is Getting Worse",
+        heading: "How to Tell if You Have a Timing System Problem",
         paras: [
-          "Engine timing is a relationship between where the crankshaft is (which determines piston position) and where the camshaft is (which determines valve position). At any given engine speed, both must be in an exact positional relationship for combustion to fire at the right moment, valves to close before pistons arrive, and exhaust gases to clear before the intake opens. This relationship is measured in crankshaft degrees, and modern engines have tolerances in the single-digit degree range.",
-          "When a timing chain stretches and shifts the camshaft position relative to the crankshaft, the engine management system detects the mismatch through cam and crank position sensors. Codes like P0016 and P0017 indicate that the actual cam position doesn't match the expected cam position. The engine doesn't stop running. It compensates and retards timing. But power, fuel economy, and emissions all suffer, and the underlying mechanical problem continues to worsen."
+          "The check engine light is on and the car may run rough, hesitate on acceleration, or feel down on power — these are the typical signs of a timing-related fault code. You might also notice the engine cranking longer than usual before it starts.",
+          "If the car runs normally but the light is on, the fault may be stored from a prior event. If the engine feels off — rough idle, stumbling, or loss of power — the timing system is likely affecting combustion and the issue should be diagnosed promptly."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Timing Code Diagnosis?",
         paras: [
-          "Variable valve timing (VVT) systems adjust cam timing dynamically during operation using oil pressure routed through solenoid-controlled passages in the camshaft and phaser sprocket. This allows the engine to optimize valve timing for different load and speed conditions. When oil is old or sludged, those passages clog, and the phaser can't move freely. The actual cam timing deviates from commanded timing, triggering the same correlation codes that a stretched chain produces.",
-          "This is an important distinction because the repairs are different. A sludge-clogged VVT system may be resolved with an oil flush and solenoid cleaning; a stretched timing chain requires mechanical replacement. Scanning the codes and ordering parts based on the code number alone risks replacing an expensive solenoid or chain on a car that needed an oil service. We use live data to evaluate phaser response and solenoid signal quality before making a mechanical diagnosis."
+          "Timing codes on interference engines (most modern 4-cylinders) are time-sensitive. A stretched chain that's jumped a tooth can cause pistons and valves to collide — that's catastrophic engine damage. Don't put off diagnosis if the light is on and the car is running rough.",
+          "The repairs differ significantly: a sludge-clogged VVT system may resolve with an oil flush; a stretched chain requires mechanical replacement. Ordering parts based on the code number alone risks the wrong repair — live data diagnosis separates the two."
         ]
       },
       {
         heading: "Who to Trust for Timing System Repair in Salt Lake City",
         paras: [
-          "Timing fault diagnosis at our shop starts with live scan data, not assumptions. We capture cam and crank position sensor waveforms, check VVT actuator commanded position versus actual position, read oil pressure data if available, and look at fuel trim and ignition timing corrections the ECM is making to compensate. This live data separates a mechanical timing chain problem from a sensor fault or a VVT system clog, which are different repairs with very different costs.",
-          "If the data points to the timing chain, we proceed with a physical inspection: measuring actual chain stretch and tensioner travel, inspecting guide condition, and checking for oil sludge in the tensioner feed passages. We show you what we find before recommending any repair. <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>Our timing chain service</a> is one of the highest-volume specialized repairs we perform, and we've developed a thorough inspection protocol that consistently identifies the actual failure point rather than replacing the most expensive component first.",
-          "Interference engines make timing diagnosis time-sensitive. If you're seeing timing codes (especially paired with <a href='/symptoms/engine-rattling'>startup rattling</a>) driving long distances before diagnosis risks chain jump. Call us to describe what you're seeing and we'll help you assess urgency before you bring the vehicle in."
+          "Diagnosis starts with live scan data — cam and crank sensor waveforms, VVT actuator commanded vs. actual position, and fuel trim corrections. This separates a mechanical chain problem from a sensor fault or VVT clog, which are very different repairs at very different costs. <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>Our timing chain service</a> is one of our highest-volume specialized repairs.",
+          "Scott's Auto & Clutch Repair has been doing timing system work in South Salt Lake since 1990. If you're seeing timing codes paired with startup rattling, call us — we'll help you assess urgency before you bring the vehicle in."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -780,26 +719,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Check Engine Light Situation Is Getting More Serious",
+        heading: "How to Tell if Your Check Engine Light Needs Immediate Attention",
         paras: [
-          "A diagnostic trouble code identifies which system or sensor is outside its expected range, not what caused it to be out of range. P0420 means the catalytic converter's efficiency has fallen below the federal threshold as measured by downstream oxygen sensor behavior. It does not automatically mean the converter is bad. The converter may be degraded, or it may be reacting correctly to an engine that's running rich (from a leaking injector or failing fuel pressure regulator), which sends excess unburned fuel through the converter faster than it can process. A new converter on that engine will fail within 20,000 to 30,000 miles.",
-          "The same logic applies across most systems. O2 sensor codes often point to an O2 sensor, but also to exhaust leaks upstream of the sensor, rich or lean fuel trim conditions, or wiring issues at the sensor connector. The code is a starting point for diagnosis, not the diagnosis itself."
+          "A steady check engine light means a fault has been stored but the car is still running within acceptable parameters — this can wait a day or two for diagnosis but shouldn't be ignored for weeks. A flashing check engine light means active misfires that can damage the catalytic converter; pull over safely and don't drive hard until it's diagnosed.",
+          "If the light appeared after filling up with gas, a loose gas cap is the most common cause — tighten it and drive a few cycles to see if the light clears. Any light accompanied by rough running, smoke, or an unusual smell needs same-day attention."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Check Engine Light Diagnosis?",
         paras: [
-          "A steady check engine light indicates a stored fault, a condition the ECM has logged because a sensor or system read outside normal parameters. The car typically drives normally or with a minor performance change. This can be scheduled for diagnosis within a few days in most cases.",
-          "A flashing check engine light indicates an active misfire. Combustion events are failing in one or more cylinders right now. Unburned fuel is entering the exhaust on every missed cycle, overloading the catalytic converter with hydrocarbons it can't process quickly enough. Catalytic converters can reach over 2,000°F internally during a sustained misfire and degrade within minutes. Reduce speed, avoid hard acceleration, and get the car to a shop the same day. Driving normally with a flashing light risks a small ignition repair becoming a catalytic converter replacement."
+          "A steady light can wait a few days. A flashing light cannot — active misfires send unburned fuel into the catalytic converter, which can destroy it within minutes. Reduce speed and don't drive hard until it's diagnosed.",
+          "If the car drives normally, diagnosis within the week is appropriate. If there's rough running, smoke, or a smell alongside the light, come in the same day."
         ]
       },
       {
         heading: "Who to Trust for Check Engine Light Diagnosis in Salt Lake City",
         paras: [
-          "Basic code readers report code numbers. Professional diagnostic equipment captures live sensor data at the moment the fault occurred: fuel trim values, oxygen sensor waveforms, misfire counters per cylinder, and intake manifold pressure. That context is what separates a diagnosis that finds the root cause from one that replaces parts in sequence until the light turns off.",
-          "We explain what the code means and what caused it in plain language, and we won't recommend a repair until we've confirmed the root cause. If a code has multiple possible causes, we work through them in order of probability and cost, not in order of part price. <a href='/services/complete-auto-service-near-south-salt-lake-ut'>Our diagnostic service</a> includes a full code pull with live data review and a written explanation of what we found."
+          "We capture live sensor data — fuel trim values, oxygen sensor waveforms, misfire counters, intake pressure — not just code numbers. That context is what finds the root cause instead of replacing parts in sequence. We won't recommend a repair until we've confirmed what actually caused the fault. <a href='/services/complete-auto-service-near-south-salt-lake-ut'>Our diagnostic service</a> includes a full code pull with live data review.",
+          "Scott's Auto & Clutch Repair has been diagnosing check engine lights in South Salt Lake since 1990. We work through multiple possible causes in order of probability, not part price."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -825,28 +763,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Engine Overheating Has Caused Lasting Damage",
+        heading: "How to Tell if Your Engine Is Overheating",
         paras: [
-          "Modern engines use aluminum cylinder heads for weight savings, but aluminum's thermal expansion rate is significantly higher than the cast iron block it bolts to. When engine temperature exceeds about 230 to 240°F, the head begins to expand at a different rate than the block, distorting the precision-machined gasket surface. Even a small distortion of a few thousandths of an inch across the sealing surface allows combustion gases or coolant to breach the head gasket.",
-          "A warped head doesn't always announce itself immediately. Sometimes the overheating event happens and the car appears to run normally afterward.",
-          "Over the following days, white exhaust smoke appears (steam from coolant entering combustion), coolant level drops without a visible puddle (burning in the engine), or oil looks milky on the dipstick (coolant mixing with oil internally). Those are the signs that the overheating event caused head gasket compromise, and at that point, cooling system component replacement alone won't resolve it."
+          "The temperature gauge climbs into the red zone, or a warning light appears on the dash. You may also see steam coming from under the hood, or notice a sweet coolant smell from the vents or outside the car.",
+          "If the gauge climbs and then drops back to normal repeatedly, the cooling fan or thermostat is the likely cause. A gauge that climbs steadily and doesn't recover points to a coolant leak, a failed water pump, or a head gasket issue."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Overheating Diagnosis?",
         paras: [
-          "Water pump failure rarely happens instantly. The shaft seal degrades, coolant seeps from the weep hole (a designed warning drain), bearings roughen, or the impeller corrodes and loses pumping efficiency. Each of these gives warning before total failure: a small puddle under the front of the engine, a slight temperature climb on hot days, or a faint bearing noise from the front of the engine under the belt. The pump can typically be replaced when these warnings appear, before the engine overheats.",
-          "The failure mode that catches drivers off guard is impeller failure without a visible leak. The impeller vanes corrode away or separate on some older designs. The pump turns but doesn't circulate coolant effectively. Temperature climbs gradually on a hot day or during stop-and-go traffic, and the first obvious sign is the gauge entering the red zone. If you're seeing a <a href='/symptoms/coolant-leak'>coolant leak</a> alongside rising temperatures, the cooling system needs immediate inspection. The two symptoms often share a single failing component."
+          "Pull over and call rather than trying to drive to the shop. A few extra minutes of driving while overheating can warp the cylinder head or blow a head gasket — turning a cooling system repair into a major engine job.",
+          "Water pump failure often gives early warnings: a weep-hole drip, a slight temperature rise on hot days, or a faint bearing noise. Catching it at that stage is the cheapest path. A <a href='/symptoms/coolant-leak'>coolant leak</a> alongside rising temperatures usually shares the same component."
         ]
       },
       {
         heading: "Who to Trust for Engine Overheating Repair in Salt Lake City",
         paras: [
-          "On any vehicle brought in for overheating, our first step is checking for head gasket compromise before diagnosing the cooling system itself. If combustion gases are present in the coolant (detected with a chemical block test), or if oil on the dipstick looks milky, the head gasket is the primary repair, and addressing the water pump or thermostat without addressing the gasket leads to a repeat visit. We test first, then diagnose.",
-          "After ruling out head gasket involvement, we pressure-test the cooling system to find leak points, test thermostat operation, check water pump flow including impeller condition if accessible, and inspect the radiator and all hoses. On most cooling system jobs, the failure is identifiable without disassembly: a weeping pump weep hole, a soft hose, or a stuck thermostat that keeps the upper hose cold. We explain exactly what we find and what we recommend before any work begins. <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>Our cooling system service page</a> covers what a full inspection and common repairs involve.",
-          "Scott's has been diagnosing cooling system failures in South Salt Lake since 1990. We work on a wide range of vehicles and see the failure patterns specific to Utah's climate: summer heat loading at the valley's elevation, mountain grade heat buildup, and the freeze-thaw cycles that accelerate hose and radiator degradation. If you've already overheated, call before driving further. We'll help you assess whether it's safe to drive in."
+          "We check for head gasket compromise first — combustion gases in the coolant or milky oil on the dipstick means the gasket is the primary repair, not just the water pump or thermostat. We test before diagnosing so we don't fix the wrong thing. After ruling that out, we pressure-test, check thermostat operation, and inspect water pump flow and all hoses. <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>Our cooling system service page</a> covers what's included.",
+          "Scott's Auto & Clutch Repair has been diagnosing cooling system failures in South Salt Lake since 1990. If you've already overheated, call before driving further — we'll help you assess whether it's safe to bring the car in."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -872,27 +807,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Coolant Leak Is Getting More Serious",
+        heading: "How to Tell if You Have a Coolant Leak",
         paras: [
-          "Coolant comes in several formulations with different additive packages, and manufacturers specify which type is correct for their cooling systems. Green (IAT) is the traditional formula, typically replaced every 2 years or 30,000 miles. Orange, yellow, and pink formulations are OAT or HOAT chemistries with longer service intervals, commonly 5 years or 150,000 miles in sealed systems. Mixing incompatible chemistries degrades both. The additive packages react and the resulting coolant loses its corrosion inhibitors faster.",
-          "Coolant that appears brown or murky has degraded or been contaminated. Brown coolant in a vehicle that uses orange or pink coolant often means green coolant was added at some point, or the corrosion inhibitors have exhausted and the coolant is carrying rust particles from inside the cooling system. In either case, a cooling system flush is overdue. Degraded coolant accelerates corrosion of aluminum components, radiators, and water pump impellers."
+          "The most obvious signs are a puddle of bright green, orange, or pink fluid under the car after it's been parked, or a sweet smell coming from the engine bay. The temperature gauge may also run higher than normal if coolant level is low.",
+          "A leak that only appears when the engine is hot (and disappears once it cools) often points to a pressurized fitting or a hose that seals when cold. White exhaust smoke that doesn't clear after warm-up can mean coolant is entering the combustion chamber."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Coolant Leak Repair?",
         paras: [
-          "The water pump has a small hole in its housing specifically designed to allow coolant to escape as a warning when the internal shaft seal begins to fail. It's called the weep hole, and its presence is intentional. Engineers put it there so drivers would notice coolant dripping from the front of the engine and get the pump replaced before the seal fails completely and the pump dumps its contents at once.",
-          "A small drip from the weep hole means the seal is failing but hasn't failed entirely. The pump is still circulating coolant. This is the best time to replace it, before overheating, before the bearing seizes, and before a larger failure occurs. If the drip has been present for a while and the puddle has grown, the seal may be close to complete failure. We inspect weep hole seepage as part of cooling system diagnosis and note whether it indicates early or advanced seal wear."
+          "A coolant system is sealed and doesn't consume fluid. Any drop in reservoir level means fluid has escaped — don't just top it off without finding the source, or the level drops again and the problem worsens.",
+          "A weep-hole drip from the water pump is an intentional early warning — the seal is failing but hasn't failed completely yet. That's the best time to replace the pump, before it causes an overheating event."
         ]
       },
       {
         heading: "Who to Trust for Coolant Leak Repair in Salt Lake City",
         paras: [
-          "We start with a pressure test of the sealed cooling system. A gauge is attached and the system is pressurized to spec. Leaks show up as pressure drop, and we trace the source using the pressure hold pattern and visual inspection. Most leaks are locatable without disassembly: weeping pump weep holes, hose seam failures, and radiator end-tank cracks are all visible on a lift with the system pressurized.",
-          "On any vehicle with a recent overheating history, we also run a combustion gas test on the coolant before recommending a cooling system repair, because head gasket compromise changes the repair scope entirely. A water pump replacement on an engine with a leaking head gasket resolves the immediate leak but leaves the vehicle vulnerable to another overheating event within weeks. We verify gasket integrity first. <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>See our cooling system service</a> for what's included in a full inspection.",
-          "Scott's has been diagnosing cooling system failures in South Salt Lake since 1990. Utah's climate (summer heat at elevation, mountain grade heat loading, and winter freeze cycles) puts specific stress on cooling systems, and we know the failure patterns that are most common here. We'll tell you honestly what's failing, what's close to failing, and what can wait, so you can make one informed repair decision instead of two."
+          "We pressure-test the sealed cooling system to locate the source precisely — most leaks are locatable without disassembly. On any vehicle with overheating history, we run a combustion gas test first, because a head gasket leak changes the entire repair scope. <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>See our cooling system service</a> for what's included.",
+          "Scott's Auto & Clutch Repair has been diagnosing cooling system failures in South Salt Lake since 1990. Utah's climate — summer heat, mountain grades, winter freeze cycles — puts specific stress on these systems, and we know the failure patterns most common here."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -917,26 +850,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Exhaust Problem Is Getting Worse",
+        heading: "How to Tell if You Have a Loud Exhaust",
         paras: [
-          "The exhaust system runs from the engine's exhaust manifold through the catalytic converter, resonator, muffler, and out the tailpipe, a path of 8 to 15 feet depending on the vehicle. Not all sections are equally vulnerable. The flex pipe (a braided stainless section that absorbs engine movement near the manifold) and collector joints fail from vibration-induced fatigue. The muffler and rear sections fail primarily from corrosion. They're the lowest point of the system, they trap condensation, and they spend the most time in contact with road spray.",
-          "Utah's winters accelerate rear-section corrosion. Salt used on roads, and brought home in wheel wells, sits on the exhaust as it cools after every drive. Steel exhaust components in Salt Lake County typically see more corrosion damage than the same components in drier inland climates, and vehicles over 8 to 10 years old with original exhausts often develop failures in multiple locations within a few months of each other."
+          "The exhaust is noticeably louder than it used to be — you may hear a rumbling, roaring, or hissing sound that increases with RPM. It's most obvious on acceleration and may draw attention from people around you.",
+          "A hissing or ticking sound that's loudest near the engine points to an exhaust manifold leak. A rumble that comes from further back under the car points to a muffler or mid-pipe failure."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Exhaust Repair?",
         paras: [
-          "An exhaust leak upstream of the front oxygen sensor introduces outside air into the exhaust stream at that sensor's location. The O2 sensor reads this as a lean condition (too much oxygen relative to fuel), and the engine management system responds by adding more fuel. The engine runs richer than optimal, fuel economy drops, and the catalytic converter works harder to process excess hydrocarbons. If the condition persists, a <a href='/symptoms/check-engine-light'>check engine light</a> with lean-code or catalyst efficiency codes can appear on a vehicle whose actual engine components are functioning correctly.",
-          "That's why an exhaust leak that seems like just a noise problem can trigger codes pointing to seemingly unrelated systems. A shop that replaces O2 sensors or catalytic converters based on these codes without first checking for exhaust leaks upstream wastes parts and your money. We inspect the full exhaust system as part of any O2 sensor or fuel trim diagnosis."
+          "An exhaust leak upstream of the front O2 sensor introduces outside air at the sensor's location — the ECM reads this as a lean condition and adds more fuel. This can trigger check engine codes that point to the O2 sensor or catalytic converter, when the real cause is an upstream exhaust leak.",
+          "A shop that replaces converters based on those codes without first checking for exhaust leaks wastes your money. We inspect the full exhaust system as part of any O2 sensor or fuel trim diagnosis."
         ]
       },
       {
         heading: "Who to Trust for Exhaust Repair in Salt Lake City",
         paras: [
-          "Exhaust repair doesn't always mean full system replacement. A cracked flex pipe or a small hole in a mid-pipe section can often be cut out and replaced with a new section, welded and clamped in place. This approach costs significantly less than a full exhaust replacement when the rest of the system is in good condition. We do our welding in-house, which gives us repair flexibility that shops without welding capability don't have.",
-          "When the decision is section repair versus full replacement, we look at the overall condition of surrounding sections. A flex pipe repair on a system where the muffler and rear sections are already thinning from corrosion is a short-term fix. We'll tell you honestly what the rest of the system looks like so you can decide whether to do a targeted repair now and budget for more later, or address it comprehensively in one visit. <a href='/services/exhaust-repair-near-south-salt-lake-ut'>See our exhaust service</a> for what a full inspection and repair typically covers."
+          "Exhaust repair doesn't always mean full replacement. A cracked flex pipe or section hole can often be cut out and welded in place — significantly cheaper than a full system if the rest is still sound. We do our welding in-house, which gives us flexibility that shops without that capability can't offer. <a href='/services/exhaust-repair-near-south-salt-lake-ut'>See our exhaust service</a> for what's included.",
+          "Scott's Auto & Clutch Repair has been doing exhaust work in South Salt Lake since 1990. We'll tell you honestly what the rest of the system looks like so you can make one informed decision instead of coming back in a few months."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -961,27 +893,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Exhaust in Your Cabin Is a Carbon Monoxide Risk",
+        heading: "How to Tell if You Have Exhaust Smell in the Cabin",
         paras: [
-          "Most exhaust components that fail produce noise or trigger warning lights. An exhaust leak that routes into the cabin produces carbon monoxide, a colorless, odorless gas that binds to hemoglobin in the blood with much higher affinity than oxygen. The exhaust smell you detect comes from other combustion byproducts; it's a secondary signal that CO is also present.",
-          "At low concentrations, CO causes headaches and fatigue. At higher concentrations in an enclosed vehicle at speed, it causes confusion and loss of consciousness, conditions that can result in a crash before you realize what's happening.",
-          "That's why we treat this symptom with immediate urgency rather than scheduling it like a routine repair. If you're experiencing headaches or unusual fatigue when driving, especially with the windows up and HVAC running on recirculation, exhaust in the cabin is one of the possibilities that should be investigated right away."
+          "You can smell exhaust fumes inside the car — a distinct burnt, sulfurous, or fuel smell that doesn't clear when you roll down the windows. It may be stronger when idling in traffic or when the HVAC pulls outside air.",
+          "Any exhaust smell inside the cabin is a carbon monoxide risk and should be treated as urgent. If the smell appears with the fan on 'fresh air' but goes away on 'recirculate', the leak is external and being drawn into the ventilation system."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Exhaust Cabin Smell Repair?",
         paras: [
-          "The most obvious entry point is a crack or hole in the exhaust system routed under the vehicle floor, with fumes rising through deteriorated floor grommets or body seams. That's what most people expect. Less obvious is the HVAC fresh-air intake path. On most vehicles, the fresh-air intake is located at the base of the windshield, a low-pressure area that draws air in from the front of the vehicle. An exhaust leak directly beneath the firewall or from a cracked exhaust manifold near the front of the engine routes fumes into exactly this intake zone.",
-          "On vehicles with cracked exhaust manifolds, running the HVAC on fresh-air mode actually makes the cabin smell worse than recirculation, because it's actively drawing manifold leak exhaust in through the intake. If your exhaust smell is worse with the fan on fresh air than on recirculate, the manifold or a near-firewall pipe section is a primary suspect."
+          "Don't drive this vehicle with passengers until the source is found. CO affects children more severely, and they sit lower in the car where denser exhaust gases collect.",
+          "If the smell is worse with the HVAC on 'fresh air' than on 'recirculate', the source is near the firewall — likely a cracked exhaust manifold or a leak under the floor pulling into the fresh-air intake at the base of the windshield."
         ]
       },
       {
         heading: "Who to Trust for Exhaust Leak Repair in Salt Lake City",
         paras: [
-          "With the vehicle on a lift, we inspect the full exhaust routing from manifold to tailpipe, paying specific attention to manifold condition near the firewall, flex pipe and collector joints under the floorpan, and any sections routed adjacent to floor grommets or drain holes. We also check the HVAC intake zone visually for exhaust routing nearby.",
-          "Please don't drive this vehicle with passengers, particularly children or anyone with cardiovascular or respiratory conditions, until the source is found and repaired. CO affects people differently, and children in the back seat (further from open windows, lower to the floor where denser gases collect) are at higher risk. <a href='/services/exhaust-repair-near-south-salt-lake-ut'>We treat exhaust cabin intrusion as a same-day priority</a> when vehicles are brought in for this symptom."
+          "We inspect the full exhaust routing on the lift — manifold condition near the firewall, flex pipe and collector joints under the floorpan, and sections adjacent to floor grommets. We also check the HVAC fresh-air intake zone. <a href='/services/exhaust-repair-near-south-salt-lake-ut'>We treat exhaust cabin intrusion as a same-day priority.</a>",
+          "Scott's Auto & Clutch Repair has been doing exhaust work in South Salt Lake since 1990. If you're experiencing headaches or fatigue while driving with windows up, call us before driving further — CO is the concern."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -1007,26 +937,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Emissions Problem Is More Than a Simple Fix",
+        heading: "How to Tell if You Have an Emissions Problem",
         paras: [
-          "Utah uses OBDII-based emissions testing for vehicles 1996 and newer. The test doesn't measure tailpipe emissions directly. It queries your vehicle's own computer for stored fault codes (any active codes cause an automatic failure), readiness monitor status (8 to 11 internal self-tests the ECM runs to verify emissions system function, where unset monitors cause a failure), and in some cases idle CO measurements. The catalytic converter's efficiency is tracked by the ECM through downstream oxygen sensor behavior and stored as the catalyst monitor.",
-          "This means you can fail emissions for reasons that have nothing to do with how much pollution your car actually produces. Unset readiness monitors from a recent battery disconnect or ECM reset are a common cause. The car may run and drive perfectly, but if the catalyst monitor hasn't completed its self-test drive cycle, the test fails. We check monitor status as part of our pre-emission diagnosis so you know whether the issue is a code, a monitor, or an actual component."
+          "You received a failed emissions test result, or the check engine light is on and you know a test is coming up. Some emissions failures have no drivability symptoms at all — the car runs normally but a sensor or catalyst has degraded below the legal threshold.",
+          "If the check engine light came on recently and you have an emissions test scheduled, the car will fail even if the issue seems minor. A failing catalytic converter may also cause reduced power, a sulfur smell, or rattling from under the car."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Failed Emissions Repair?",
         paras: [
-          "P0420 (Catalyst System Efficiency Below Threshold, Bank 1) is the most common emissions-related code. It means the downstream O2 sensor is seeing too much activity, since the converter isn't damping the oscillations from the upstream sensor the way a healthy converter should. The converter is usually the component that failed, but the reason can be an engine running too rich (fuel from a leaking injector or failing fuel trim), an upstream exhaust leak skewing the upstream O2 sensor reading, a failing downstream O2 sensor itself, or an actual deteriorated converter.",
-          "Replacing a converter on an engine with an unresolved rich condition or misfires will fail the new converter within 20,000 to 30,000 miles. We check fuel trims, upstream and downstream O2 sensor response quality, and look for misfires before recommending a converter. A <a href='/symptoms/sulfur-smell'>sulfur smell alongside P0420</a> is additional evidence the converter is the primary issue, but we still verify the engine conditions before authorizing the replacement."
+          "Come in before your retest deadline, not the day before. Diagnosing the root cause takes time — replacing the catalytic converter on an engine that's running rich or misfiring will fail the new converter within 20,000 miles.",
+          "We check fuel trims, O2 sensor response quality, and look for misfires before recommending a converter. We also check monitor status — unset readiness monitors from a recent battery disconnect will fail the test regardless of what else was repaired."
         ]
       },
       {
         heading: "Who to Trust for Emissions Repair in Salt Lake City",
         paras: [
-          "When your vehicle's ECM loses power (battery disconnect, dead battery, or ECM reset) all readiness monitors reset to 'incomplete.' These monitors don't set instantly when the car starts. Each one requires a specific drive cycle: the catalyst monitor needs a warm-up, highway cruise, and deceleration sequence; the EVAP monitor typically runs overnight when the engine is cold. Some vehicles take a week of mixed driving to set all monitors.",
-          "Driving to an emissions test with recently reset monitors will fail the test on monitor status alone regardless of how well the engine runs. If you've had any electrical work or a recent battery replacement before your test date, let us check monitor status first. <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>We run pre-emission checks</a> that tell you which monitors are incomplete and what drive cycle is needed to set them, so you don't make a wasted trip to the testing station."
+          "We check root cause before recommending parts — a P0420 code alone doesn't mean the converter is the problem. We evaluate fuel trims, O2 sensor signal quality, and misfire data. We also check readiness monitor status so you know if a recent battery disconnect will cause a test failure on monitor status alone. <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>We run pre-emission checks</a> so you don't make a wasted trip to the testing station.",
+          "Scott's Auto & Clutch Repair has been doing emissions and exhaust work in South Salt Lake since 1990. Our goal is for you to pass on the first retest attempt, not just get close."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -1051,26 +980,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Sulfur Smell Means a Failing Converter or Worse",
+        heading: "How to Tell if You Have a Sulfur Smell",
         paras: [
-          "Gasoline naturally contains trace amounts of sulfur. During combustion, sulfur compounds oxidize to sulfur dioxide (SO₂), a compound without the rotten-egg character. A functioning catalytic converter processes this SO₂ further. When the converter's efficiency falls below its design threshold, some hydrogen sulfide (H₂S) passes through without being fully oxidized. H₂S has an extremely low odor detection threshold (humans can smell it at concentrations below 1 part per million), which is why even partial converter degradation produces a strong smell.",
-          "The same smell can appear when the engine runs consistently rich. Excess fuel in the exhaust produces reducing conditions that allow sulfur compounds to form H₂S rather than the less-odorous SO₂. In that case, a fully functioning converter can still pass some H₂S because the volume of sulfur compounds overwhelms it temporarily. That's why we check fuel trims before concluding the converter is the culprit."
+          "You smell rotten eggs or sulfur, especially under acceleration or after the car has been running for a few minutes. The smell comes from hydrogen sulfide in the exhaust, which a healthy catalytic converter normally converts to odorless compounds.",
+          "If the smell only appeared recently and the check engine light is on, a failing catalytic converter is the most likely cause. A smell that appears only after hard acceleration and clears up at idle can point to a rich fuel mixture rather than converter failure."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Sulfur Smell Diagnosis?",
         paras: [
-          "A catalytic converter operates within a defined air-fuel ratio window. When the engine runs consistently rich, the excess unburned hydrocarbons entering the converter must be oxidized, generating significant heat. Sustained high heat from months of rich running degrades the precious metal washcoat inside the converter, reducing its active surface area and efficiency. The sulfur smell emerges as efficiency drops.",
-          "Common sources of chronic rich running include a stuck-open fuel injector delivering more fuel than commanded, a failing fuel pressure regulator maintaining excessive pressure, a degraded mass airflow sensor under-reporting intake air, or a coolant temperature sensor stuck in the cold reading. The ECM holds a cold-start rich mixture until the engine appears to warm up, which never happens if the sensor is stuck. Each of these should be diagnosed and resolved before or alongside converter replacement."
+          "A persistent sulfur smell typically means the converter is degrading or the engine is running rich enough to overwhelm it. Either way, the underlying cause needs to be identified before replacing the converter.",
+          "Common rich-running sources include a stuck injector, a failing fuel pressure regulator, or a coolant temperature sensor stuck in cold-start mode. Replacing the converter without fixing those issues destroys the new converter within 20,000–40,000 miles."
         ]
       },
       {
         heading: "Who to Trust for Catalytic Converter and Fuel System Repair in Salt Lake City",
         paras: [
-          "A P0420 or P0430 code means the ECM has determined the converter's efficiency has dropped below the federal threshold that would allow the vehicle to pass an emissions test. It doesn't mean the converter is completely dead. It may still be reducing emissions significantly, just not enough to meet the standard. The code can appear with a converter that's been gradually degrading, or it can appear relatively suddenly after a damaging event like severe misfires or running the engine very low on coolant.",
-          "A replacement converter installed on an engine with unresolved rich conditions or misfires typically fails within 20,000 to 40,000 miles, sometimes faster. We verify fuel system and ignition system health before recommending a converter and will show you the fuel trim data that supports the diagnosis. <a href='/symptoms/failed-emissions'>If you've recently failed an emissions test</a> with P0420, <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>our emissions diagnosis</a> addresses root cause and converter condition in the same inspection."
+          "We verify fuel system and ignition system health before recommending a converter. We'll show you the fuel trim data that supports the diagnosis — a P0420 code doesn't automatically mean the converter is the problem. <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>Our emissions diagnosis</a> addresses root cause and converter condition in the same inspection.",
+          "Scott's Auto & Clutch Repair has been doing exhaust and emissions work in South Salt Lake since 1990. We won't replace a converter on an engine that would fail the new one within a year."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -1095,26 +1023,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Bouncy Ride Means Worn Shocks or Worn Struts",
+        heading: "How to Tell if You Have a Bouncy Ride from Worn Shocks",
         paras: [
-          "Shock absorbers and struts both control suspension damping, but they're structurally different. A shock absorber is a standalone hydraulic damper that works alongside a separate spring. When the shock fails, only the damper is replaced. A strut is a structural suspension component that integrates the damper with the spring perch and acts as the upper pivot point for the wheel. It's part of the vehicle's steering geometry, not just the ride quality system. Replacing struts changes the suspension geometry, which is why an alignment is required after every strut replacement.",
-          "<a href='/symptoms/rough-ride-over-bumps'>Rough ride over bumps</a> and bouncy ride are related but distinct. A bouncy ride (multiple oscillations after a bump) indicates the damper can no longer control the spring's rebound. A harsh ride (sharp impact transmitted directly to the cabin) usually indicates dampers that have completely lost hydraulic resistance. Both indicate worn components; the difference is whether the damper has some resistance remaining or almost none."
+          "The car continues bouncing or rocking after going over a bump — instead of absorbing the impact and settling quickly, it oscillates for several cycles. Body roll in corners feels excessive, and the rear may feel loose over rough pavement.",
+          "The bounce test: press down hard on each corner of the car and release. A healthy shock settles in one rebound. If the car bounces more than once, that corner's damper is worn. Clunking from the suspension over speed bumps points to a broken mount rather than worn fluid."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Suspension Damper Repair?",
         paras: [
-          "The bounce test is exactly what it sounds like: push down firmly on the front or rear corner of the vehicle and release quickly. A vehicle with healthy dampers will rise back up and settle within one additional oscillation. A vehicle with worn shocks or struts will continue to bounce two, three, or more times before coming to rest. The spring is working correctly in both cases. What's missing is the hydraulic resistance that should damp that motion.",
-          "The test is most reliable at the front corners, where the nose of the vehicle is lighter relative to the spring rate and oscillations are most visible. At the rear, the test is less reliable on vehicles with passengers or cargo since extra weight changes how the damping feels. We combine the bounce test with a visual inspection for shock body oil leakage and strut top mount condition. A torn top mount transfers road noise and vibration even when the damper itself still functions."
+          "Worn dampers increase stopping distance — the nose pitches forward more under braking, loading the front tires while unloading the rears. On Utah's rough post-winter pavement, worn shocks also cause tires to bounce briefly airborne during rebound, reducing braking traction at those moments.",
+          "Strut and shock wear is gradual, which is why many drivers don't notice how far the ride has degraded. Once you notice bouncing or body roll, the dampers are well past their optimum — and a wheel alignment is usually needed after replacement because suspension geometry shifts with new components."
         ]
       },
       {
         heading: "Who to Trust for Strut and Shock Replacement in Salt Lake City",
         paras: [
-          "A strut or shock that can't control wheel bounce allows the tire to lift briefly off the road surface during rebound. On normal pavement this means reduced traction. On rough pavement (Utah's surface after winter) the tire is intermittently airborne during the rebound phase, which reduces braking force at those moments. Studies of worn suspension's effect on stopping distance consistently show meaningful increases in wet-road braking distance compared to new dampers.",
-          "This is particularly relevant for <a href='/symptoms/nose-dive-braking'>nose-dive under braking</a>. Worn front struts allow the nose to pitch forward more dramatically under deceleration, loading the front tires more heavily while simultaneously unloading the rear tires. The imbalance reduces total braking efficiency. <a href='/services/strut-replacement-near-south-salt-lake-ut'>Strut and shock replacement</a> is done in axle pairs to maintain even handling, and we include a wheel alignment with every strut job."
+          "We inspect the full strut assembly — damper, top mount, and spring — and do a bounce test combined with visual inspection for oil leakage. Strut and shock replacement is done in axle pairs to maintain even handling, and we include a wheel alignment with every strut job. <a href='/services/strut-replacement-near-south-salt-lake-ut'>See our strut replacement service page</a> for what's included.",
+          "Scott's Auto & Clutch Repair has been doing suspension work in South Salt Lake since 1990. We'll also inspect the opposing pair while we're working so you have a clear picture of their remaining life."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -1138,26 +1065,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Nose Dive Under Braking Is Getting More Pronounced",
+        heading: "How to Tell if You Have Nose Dive When Braking",
         paras: [
-          "When a vehicle decelerates, inertia causes the vehicle's mass to continue moving forward while the tires slow. This transfers weight from the rear tires to the front tires; the front suspension compresses and the rear lifts. In a healthy vehicle with functioning struts, the front springs and dampers resist this transfer, controlling how fast and how far the nose pitches down. The damper force slows the compression rate; the spring rate limits the total travel.",
-          "A worn front strut has lost its damping force. The spring still determines how far the nose can pitch, but the rate is no longer controlled. The front end drops quickly and fully under braking rather than compressing slowly and partially. The rapid weight transfer to the front tires overloads them momentarily and unloads the rear, and the car handles less predictably in a hard stop than a vehicle with functioning struts."
+          "The front of the car dips sharply forward when you apply the brakes — more than you'd expect, and noticeably more than it used to. You may also feel the rear rise slightly, giving the car an unbalanced feel during stops.",
+          "Nose dive that's getting progressively worse over months points to worn front struts. If it appeared suddenly after a hard bump or pothole, a broken strut mount or spring is the more likely cause."
         ]
       },
       {
         heading: "When Should You Bring Your Car In for Front Strut Replacement?",
         paras: [
-          "On MacPherson strut suspension, the most common front suspension design on front-wheel-drive vehicles, the strut assembly is part of the steering knuckle pivot. The strut's upper mount connects the strut to the body and functions as the upper steering pivot. A worn strut top mount with loose or deteriorated bearings introduces play into the steering pivot, which shows up as a clunking noise when turning from a stop, vague steering feel, and over time, inconsistent camber angle as the strut shifts position slightly under load.",
-          "That's why alignment is required after strut replacement. New strut geometry is slightly different from the worn geometry that may have been there for years, and the alignment angles change with the new components. Skipping the alignment after struts saves a small amount upfront and results in uneven <a href='/symptoms/uneven-tire-wear'>tire wear</a> that costs more than the alignment would have. We include an alignment with every strut replacement as standard, not as an add-on."
+          "Exaggerated nose dive increases stopping distance. The front suspension geometry changes as the nose pitches down, altering the tire contact patch at the moment maximum traction is needed. At the same time, the rear lightens and its grip decreases.",
+          "Alignment is required after strut replacement — new components change the suspension geometry. Skipping it results in uneven tire wear that costs more than the alignment would have. We include alignment with every strut job as standard."
         ]
       },
       {
         heading: "Who to Trust for Front Strut Replacement in Salt Lake City",
         paras: [
-          "The practical consequence of exaggerated nose dive is increased stopping distance under hard braking. When the front pitches down quickly, the front suspension geometry changes. Camber and toe angles shift from their design positions, altering the tire contact patch geometry at the moment when maximum traction is most needed. At the same time, the rear suspension lightens as weight transfers forward, reducing rear-tire contact patch pressure.",
-          "For Utah drivers who use canyon roads or encounter sudden highway stops, the safety margin lost to worn front struts is real and measurable. <a href='/services/strut-replacement-near-south-salt-lake-ut'>Our strut assessment</a> takes about 20 minutes. We check damper condition, top mount bearing play, spring condition, and CV boot status on the axle we're working near. Most front strut jobs are completed the same day."
+          "We check damper condition, top mount bearing play, and spring condition as part of every strut assessment. Most front strut jobs are completed the same day, and we include the post-replacement alignment as standard. <a href='/services/strut-replacement-near-south-salt-lake-ut'>See our strut service page</a> for what's included.",
+          "Scott's Auto & Clutch Repair has been doing suspension work in South Salt Lake since 1990. For Utah drivers using canyon roads, the safety margin lost to worn front struts is real and measurable — don't put this one off."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -1182,26 +1108,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Uneven Tire Wear Points to Suspension or Alignment",
+        heading: "How to Tell if You Have Uneven Tire Wear",
         paras: [
-          "Tires record alignment and suspension history in their wear patterns. Inner-edge wear, where the inside shoulder wears faster than the outer, indicates excessive negative camber: the top of the wheel leans inward, loading the inner edge of the tire. Outer-edge wear indicates positive camber or, more commonly, chronic under-inflation (the tire bulges at the shoulders under load). Feathered or sawtooth wear, where the tread blocks wear to a point on one side, indicates toe misalignment: the tire is slightly angled relative to its direction of travel and scrubbing sideways with every rotation.",
-          "Cupping or scalloping (an irregular wavy wear pattern) is different from the others and indicates a suspension problem rather than alignment. The cups are where the tire bounced off the road surface; the high spots are where it was briefly airborne and then impacted. This pattern almost exclusively indicates worn shock absorbers or struts that can no longer control wheel bounce. Alignment adjustment won't fix cupping. The dampers need to be addressed first."
+          "Run your hand across the tire tread — if one edge is significantly more worn than the other, or you feel a scalloped or feathered pattern, the wear is uneven. Visible wear on only the inner or outer shoulder while the center is still deep is the clearest sign.",
+          "Scalloping (cupped wear in a wavy pattern around the tire) almost always means a worn shock absorber. Edge wear with good center tread points to an alignment issue. Both can cause a humming road noise that changes with speed."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Uneven Tire Wear Repair?",
         paras: [
-          "The connection between <a href='/symptoms/bouncy-ride'>worn struts</a> and scalloped tire wear is direct. When a strut has lost its damping force, the spring extends too quickly after a bump. The tire briefly loses road contact, then impacts the surface with the force of the uncontrolled spring return. This repeated impact at one area of the tread creates the characteristic scalloped depression. On rough pavement, which is common in the Salt Lake valley after winter, the cupping can develop within 10,000 to 15,000 miles on a vehicle with completely worn dampers.",
-          "Replacing the tires on a car with worn struts restores tread depth but not wear pattern. The cupping will return on the new tires within a few thousand miles. If you're buying new tires and the current tires show scalloping, strut condition should be assessed before the new tires go on. We inspect strut condition as part of any uneven wear diagnosis and can tell you whether the wear pattern requires struts, alignment, or both."
+          "Don't buy new tires before fixing the underlying cause. If the current tires show scalloping, the new ones will cup within a few thousand miles on the same worn struts. If they show edge wear, the new tires will feather on the same misaligned geometry.",
+          "We inspect strut condition and measure all four alignment angles as part of uneven wear diagnosis. Some wear can be recovered with rotation; severe patterns require addressing the suspension or alignment first."
         ]
       },
       {
         heading: "Who to Trust for Alignment and Suspension Repair in Salt Lake City",
         paras: [
-          "Alignment corrects the static angular relationship between the wheel and the road. When wear is caused by alignment (camber, caster, toe), alignment is the fix. When wear is caused by dynamic suspension behavior (cupping from worn struts, edge wear from a spring that's collapsed slightly), alignment addresses the symptom but not the cause.",
-          "We measure all four alignment angles before and after adjustment and show you the before/after printout. If the alignment is within spec on a vehicle with significant cupping, we'll tell you clearly that the issue is suspension-related rather than alignment-related. Being honest about the root cause saves you a second tire purchase. <a href='/services/strut-replacement-near-south-salt-lake-ut'>Strut and shock replacement</a>, followed by alignment, resolves cupping wear and gives new tires their full service life."
+          "We measure all four alignment angles before and after adjustment and show you the before/after printout. If the alignment is within spec but the tires are still cupping, we'll tell you clearly that the issue is suspension-related — alignment won't fix worn dampers. <a href='/services/strut-replacement-near-south-salt-lake-ut'>Strut and shock replacement</a> followed by alignment resolves cupping wear.",
+          "Scott's Auto & Clutch Repair has been doing alignment and suspension work in South Salt Lake since 1990. Being honest about the root cause saves you a second tire purchase."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
@@ -1226,26 +1151,25 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Rough Ride Means Your Shocks Are Failing",
+        heading: "How to Tell if You Have a Rough Ride Over Bumps",
         paras: [
-          "The suspension spring absorbs the bump by compressing. The shock absorber controls what happens next. It resists the spring's extension on the rebound stroke, dissipating the stored energy as heat inside the hydraulic fluid rather than letting it transfer into the chassis. A healthy shock extends slowly and predictably under the spring's pressure. A worn shock, where the internal hydraulic seals have degraded and fluid bypasses the piston, extends at nearly the same rate as an uncontrolled spring, transferring the rebound energy directly into the vehicle body as a second jolt.",
-          "The result is that the bump hits twice: once on compression (which the spring handles), and once on rebound (which the failed shock can't dampen). On rough pavement with closely spaced bumps, the rebound from one hasn't settled before the next compression begins, and the jolts compound. Utah's freeze-thaw cycle produces exactly this kind of closely spaced surface irregularity, which is why shock wear becomes noticeably symptomatic faster here than in warmer climates with more stable road surfaces."
+          "The car transmits every road imperfection directly to the seat and steering wheel — bumps feel harsher than they should, and washboard or brick roads feel punishing. The ride quality has noticeably degraded compared to when the car was newer.",
+          "A clunking or knocking sound over bumps that you feel through the floorboard points to a broken mount rather than just fluid wear. If the rough ride is paired with increased bounce or body roll, the shock absorbers themselves have failed."
         ]
       },
       {
         heading: "When Should You Bring Your Vehicle In for Shock Absorber Replacement?",
         paras: [
-          "The push-and-release bounce test gives a reliable general read on damper condition. Push down firmly on the corner, release quickly, and watch the rebound. One bounce plus settle is healthy; two or more bounces indicates the damper is significantly worn. The test is most reliable at corners where the spring rate is softer relative to the vehicle weight, typically front corners on rear-wheel-drive vehicles and all corners on lighter front-wheel-drive cars.",
-          "The bounce test can miss an intermediate level of wear: dampers that have lost 30 to 40 percent of their hydraulic resistance but still technically limit bounce to one or two cycles. These dampers feel noticeably harsher and less planted than when the vehicle was new, but pass a quick bounce test. Oil seeping from the shock body is a reliable secondary indicator in this range. A wet or oily shock body means the hydraulic seal is failing internally. We check for body oil seepage alongside the bounce test to catch mid-range wear."
+          "A bounce test (push down firmly on a corner, release quickly) where the car bounces more than once before settling means the damper is significantly worn. One bounce and settle is healthy.",
+          "Oil seeping from the shock body confirms the internal seal is failing even when the bounce test looks marginal. We check both the bounce test and the shock body for seepage so we catch mid-range wear before it becomes a handling problem."
         ]
       },
       {
         heading: "Who to Trust for Shock Absorber Replacement in Salt Lake City",
         paras: [
-          "Shocks and struts don't fail symmetrically. One corner typically wears faster due to road conditions, driving habits, or a specific impact. But a single bad shock affects vehicle behavior at all four corners by upsetting the weight balance during maneuvers. A worn rear shock on one side allows that corner to bounce independently during cornering, reducing rear-axle traction and creating a tendency for the tail to track loosely. A worn front shock on one side causes asymmetric braking behavior; the good side compresses normally while the worn side dives, which can induce a pull under hard braking.",
-          "We recommend replacing shocks in axle pairs (both fronts or both rears) rather than single-corner replacement for this reason. Even if only one is clearly failed, its partner is aging at a similar rate and the handling asymmetry of one new and one old damper is a real drawback. <a href='/services/shock-replacement-near-south-salt-lake-ut'>Shock replacement</a> is typically simpler than strut work, with no spring compression or alignment required, and most jobs are completed the same day."
+          "We replace shocks in axle pairs — even if only one has clearly failed, its partner is aging at the same rate and a mismatched pair creates handling asymmetry. <a href='/services/shock-replacement-near-south-salt-lake-ut'>Shock replacement</a> is simpler than strut work with no spring compression required, and most jobs are completed the same day.",
+          "Scott's Auto & Clutch Repair has been doing suspension work in South Salt Lake since 1990. We bounce-test all four corners and check for body seepage so you know exactly which dampers need attention."
         ],
-        costCallout: true,
         inlineCta: true
       }
     ]
