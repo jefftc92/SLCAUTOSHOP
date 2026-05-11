@@ -208,12 +208,10 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
 .issue-card .diagnostic-signal p{font-size:.85rem;color:var(--c-text);line-height:1.55;margin:0}
 
 /* === Cost callout & inline CTA === */
-.cost-callout{margin:1.75rem 0;padding:1.25rem 1.5rem;background:#fff;border:1px solid var(--c-border);border-left:4px solid var(--c-accent);border-radius:var(--radius);box-shadow:var(--shadow-sm)}
-.cost-callout h3{font-size:.95rem;font-weight:700;color:var(--c-dark);margin-bottom:.5rem}
-.cost-callout p{font-size:.92rem;color:var(--c-text);line-height:1.6;margin:0}
-.alt-bg .cost-callout{background:var(--c-bg)}
-.inline-cta{margin-top:1.5rem;padding:1rem 1.25rem;background:var(--c-primary-light);border-radius:var(--radius-sm);font-size:.95rem;color:var(--c-text);font-weight:500}
-.inline-cta a{font-weight:700}
+.section-cta-block{margin-top:2rem;padding:1.5rem;background:var(--c-primary-light);border-radius:var(--radius);border-left:4px solid var(--c-primary)}
+.section-cta-block p{font-size:.95rem;font-weight:600;color:var(--c-dark);margin:0 0 1rem}
+.section-cta-buttons{display:flex;gap:.75rem;flex-wrap:wrap}
+.alt-bg .section-cta-block{background:#fff}
 .hero-meta{font-size:.78rem;color:rgba(255,255,255,.85);margin:.5rem 0 1rem;letter-spacing:.02em}
 
 /* === Tips Grid === */

@@ -31,7 +31,7 @@
 
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>Why Is My <%= symptom.shortName %> Happening?</h2>
+    <h2>Why Is My <%= symptom.shortName %>?</h2>
     <p class="section-subtitle">These are the most common causes. The "How to tell" note on each card describes what that cause typically feels or sounds like so you can narrow down which one applies to your vehicle.</p>
     <div class="issues-grid">
       <% symptom.causes.forEach(c => { %>
@@ -63,14 +63,14 @@
         <% sec.list.forEach(function(item) { %><li><%- item %></li><% }); %>
       </ul>
       <% } %>
-      <% if (sec.costCallout) { %>
-      <aside class="cost-callout">
-        <h3>What will it cost?</h3>
-        <p>Every repair is different — cost depends on what we find during diagnosis. Here's what we commit to: <strong>diagnosis is free</strong>, you get a written estimate before any work begins, and we don't start until you approve. No surprises at pickup.</p>
-      </aside>
-      <% } %>
       <% if (sec.inlineCta) { %>
-      <p class="inline-cta">Ready to get it diagnosed? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a> — free diagnosis at our South Salt Lake shop.</p>
+      <div class="section-cta-block">
+        <p>Free diagnosis. Written estimate before any work begins. No surprises.</p>
+        <div class="section-cta-buttons">
+          <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+          <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>" class="btn btn-secondary">Text Us</a>
+        </div>
+      </div>
       <% } %>
     </div>
   </div>
