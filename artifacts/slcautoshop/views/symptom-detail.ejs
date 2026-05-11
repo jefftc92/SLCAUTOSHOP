@@ -33,8 +33,11 @@
 <% var howToSec = symptom.richContent[0]; %>
 <section class="content-section alt-bg">
   <div class="container">
-    <div class="prose" style="max-width:760px">
+    <div class="prose<%= howToSec.image ? ' prose-with-image' : '' %>" style="max-width:760px">
       <h2><%= howToSec.heading %></h2>
+      <% if (howToSec.image) { %>
+      <img src="/assets/<%= howToSec.image %>" alt="<%= howToSec.imageAlt %>" class="prose-image" width="760" height="428" loading="lazy">
+      <% } %>
       <% howToSec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
     </div>
   </div>
@@ -67,8 +70,11 @@
 <% symptom.richContent.slice(1).forEach(function(sec, i) { %>
 <section class="content-section<%= i % 2 === 0 ? ' alt-bg' : '' %>">
   <div class="container">
-    <div class="prose" style="max-width:760px">
+    <div class="prose<%= sec.image ? ' prose-with-image' : '' %>" style="max-width:760px">
       <h2><%= sec.heading %></h2>
+      <% if (sec.image) { %>
+      <img src="/assets/<%= sec.image %>" alt="<%= sec.imageAlt %>" class="prose-image" width="760" height="428" loading="lazy">
+      <% } %>
       <% sec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
       <% if (sec.list && sec.list.length) { %>
       <ul>

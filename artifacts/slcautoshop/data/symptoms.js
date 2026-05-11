@@ -23,6 +23,8 @@ const symptoms = [
     richContent: [
       {
         heading: "Is My Clutch Slipping?",
+        image: "clutch-disc-inspection-slc.webp",
+        imageAlt: "Mechanic inspecting a worn clutch disc at Scott's Auto & Clutch Repair, Salt Lake City UT",
         paras: [
           "The main feeling is a disconnect between engine effort and vehicle response — you push the accelerator harder and the engine revs climb, but the car doesn't speed up to match. It's most obvious on hills and freeway onramps where you'd expect both to rise together.",
           "You may also notice the clutch pedal engaging very high in its travel — near the top rather than mid-stroke. A burning smell during or after a steep hill is another sign — that's friction material overheating. If both are happening, the clutch is almost certainly slipping."
@@ -37,6 +39,8 @@ const symptoms = [
       },
       {
         heading: "Who to Trust for Clutch Slipping Repair in Salt Lake City",
+        image: "clutch-repair-mechanic-slc.webp",
+        imageAlt: "Scott's Auto & Clutch Repair mechanic performing clutch replacement in Salt Lake City, UT",
         paras: [
           "Before we drop the transmission, we check the hydraulic system and inspect for oil leaks at the rear main and input shaft seals — contamination from a leaking seal can destroy a new clutch within months. Once we have access, we measure flywheel runout and inspect the surface for glazing and heat checks. You see the parts before the cost conversation. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch repair service page</a> for what's included.",
           "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. Clutches are one of our highest-volume jobs — we know which platforms have weak points, which aftermarket kits come back, and how to spot the contamination patterns that cause repeat failures."
