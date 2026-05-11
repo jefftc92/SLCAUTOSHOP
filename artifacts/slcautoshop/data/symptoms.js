@@ -9,7 +9,7 @@ const symptoms = [
     relatedService: "clutch-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: true, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "Your clutch is slipping when engine RPMs climb but your speed doesn't — the friction disc is worn and can no longer grip the flywheel under load.",
+    intro: "Clutch slipping is when engine RPMs climb but your speed doesn't — the connection between the engine and drivetrain has lost grip, and power isn't reaching the wheels.",
     serviceBlurb: "Clutch slipping almost always means the friction disc is past its service life. We inspect the full clutch assembly and the flywheel condition before recommending a repair, and we also check for oil leaks at the rear main seal and transmission input shaft. Contamination from a leaking seal is a common reason clutches wear out prematurely, and we'd rather find that leak now than after we've installed your new disc. You'll have a complete diagnosis and a written estimate before any work begins.",
     smsBody: "Hi, I'm experiencing clutch slipping or high engagement.",
     causes: [
@@ -319,7 +319,7 @@ const symptoms = [
     relatedService: "cv-joint-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "A sharp clicking or popping sound only during turns — especially tight, slow turns — is a worn outer CV joint: the rubber boot tore, grease escaped, road grit got in, and the ball bearings are now running in worn races.",
+    intro: "A sharp clicking or popping sound that appears only during turns — especially tight, slow turns — means something in the front drivetrain is failing under the stress of the steering angle.",
     serviceBlurb: "We'll diagnose the extent of CV joint wear and give you a clear recommendation on what repair approach makes sense for your vehicle and budget. We also inspect the opposite axle while your vehicle is on the lift—if one boot has torn, the other is often aging close behind, and catching it early prevents a repeat visit.",
     smsBody: "Hi, I hear clicking when turning.",
     causes: [
@@ -579,7 +579,7 @@ const symptoms = [
     relatedService: "brake-service-near-south-salt-lake-ut",
     lastUpdated: "May 2026",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: true, weatherSensitive: false, temperatureSensitive: false, easilyConfused: true },
-    intro: "A rhythmic shudder through the brake pedal that gets stronger with harder braking is warped rotors — disc thickness variation caused by repeated heat cycles, aggressive braking, or uneven caliper pressure from a stuck slide pin.",
+    intro: "A rhythmic pulsing or shudder through the brake pedal that intensifies with harder stops means the braking system isn't making even contact with the rotor — something is causing irregular pressure with each wheel rotation.",
     serviceBlurb: "Brake pulsation is almost always rotor-related, and the right repair depends on how much material remains. We measure rotor thickness and runout precisely before recommending resurfacing or replacement, so you're not paying for new rotors if yours can be saved. We also inspect caliper slide pins for binding—a stuck slide is a common root cause of the uneven heating that warps rotors in the first place.",
     smsBody: "Hi, I feel vibration when braking.",
     causes: [
@@ -622,7 +622,7 @@ const symptoms = [
     relatedService: "timing-chain-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: true, temperatureSensitive: true, easilyConfused: false },
-    intro: "A metallic rattle in the first 2–5 seconds of a cold start that fades as the engine warms up is a stretched timing chain — the slack slaps against its guides before oil pressure builds enough to tension the system.",
+    intro: "A metallic rattle in the first 2–5 seconds of a cold start that fades once the engine is warm means something at the top of the engine isn't building oil pressure fast enough — the noise is components moving under slack or friction until oil fully circulates.",
     serviceBlurb: "Timing chain diagnosis involves physically inspecting chain stretch, tensioner condition, and guide wear. If the chain has already jumped, we use a scan tool to check cam-to-crank correlation before any disassembly so we understand the full extent of the problem. We'll give you a complete picture of the timing system's condition and a clear recommendation before any work is authorized.",
     smsBody: "Hi, my engine rattles on startup.",
     causes: [
