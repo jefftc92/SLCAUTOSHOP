@@ -20,6 +20,7 @@
   </div>
 </section>
 
+<!-- What is X? -->
 <section class="content-section">
   <div class="container">
     <div class="prose" style="max-width:760px">
@@ -29,9 +30,25 @@
   </div>
 </section>
 
+<!-- How to Tell (richContent[0]) -->
+<% if (symptom.richContent && symptom.richContent.length > 0) { var sec0 = symptom.richContent[0]; %>
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>Why Is My <%= symptom.shortName %> Happening?</h2>
+    <div class="prose" style="max-width:760px">
+      <h2><%= sec0.heading %></h2>
+      <% sec0.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
+      <% if (sec0.list && sec0.list.length) { %>
+      <ul><% sec0.list.forEach(function(item) { %><li><%- item %></li><% }); %></ul>
+      <% } %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<!-- Why is my X? (causes grid) -->
+<section class="content-section">
+  <div class="container">
+    <h2>Why Is My <%= symptom.shortName %>?</h2>
     <p class="section-subtitle">These are the most common causes. The "How to tell" note on each card describes what that cause typically feels or sounds like so you can narrow down which one applies to your vehicle.</p>
     <div class="issues-grid">
       <% symptom.causes.forEach(c => { %>
@@ -51,37 +68,44 @@
   </div>
 </section>
 
-<% if (symptom.richContent && symptom.richContent.length) { %>
-<% symptom.richContent.forEach(function(sec, i) { %>
-<section class="content-section<%= i % 2 === 0 ? '' : ' alt-bg' %>">
+<!-- When to Come In (richContent[1]) -->
+<% if (symptom.richContent && symptom.richContent.length > 1) { var sec1 = symptom.richContent[1]; %>
+<section class="content-section alt-bg">
   <div class="container">
     <div class="prose" style="max-width:760px">
-      <h2><%= sec.heading %></h2>
-      <% sec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
-      <% if (sec.list && sec.list.length) { %>
-      <ul>
-        <% sec.list.forEach(function(item) { %><li><%- item %></li><% }); %>
-      </ul>
-      <% } %>
-      <% if (sec.costCallout) { %>
-      <aside class="cost-callout">
-        <h3>What will it cost?</h3>
-        <p>Every repair is different — cost depends on what we find during diagnosis. Here's what we commit to: <strong>diagnosis is free</strong>, you get a written estimate before any work begins, and we don't start until you approve. No surprises at pickup.</p>
-      </aside>
-      <% } %>
-      <% if (sec.inlineCta) { %>
-      <p class="inline-cta">Ready to get it diagnosed? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a> — free diagnosis at our South Salt Lake shop.</p>
+      <h2><%= sec1.heading %></h2>
+      <% sec1.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
+      <% if (sec1.list && sec1.list.length) { %>
+      <ul><% sec1.list.forEach(function(item) { %><li><%- item %></li><% }); %></ul>
       <% } %>
     </div>
   </div>
 </section>
-<% }); %>
 <% } %>
 
-<% var faqAlt = (symptom.richContent && symptom.richContent.length % 2 === 0); %>
+<!-- Who to Trust (richContent[2]) -->
+<% if (symptom.richContent && symptom.richContent.length > 2) { var sec2 = symptom.richContent[2]; %>
+<section class="content-section">
+  <div class="container">
+    <div class="prose" style="max-width:760px">
+      <h2><%= sec2.heading %></h2>
+      <% sec2.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
+      <% if (sec2.list && sec2.list.length) { %>
+      <ul><% sec2.list.forEach(function(item) { %><li><%- item %></li><% }); %></ul>
+      <% } %>
+    </div>
+    <div class="hero-buttons" style="margin-top:1.5rem">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<% var faqAlt = true; %>
 <%- include('partials/faq') %>
 
-<section class="content-section<%= faqAlt ? '' : ' alt-bg' %>">
+<section class="content-section">
   <div class="container">
     <h2>Not Sure This Is Your Issue?</h2>
     <p class="section-subtitle">Browse related symptoms — drivers often confuse these for one another.</p>
