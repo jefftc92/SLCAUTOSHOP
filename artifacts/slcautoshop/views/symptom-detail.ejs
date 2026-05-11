@@ -29,7 +29,19 @@
   </div>
 </section>
 
+<% if (symptom.richContent && symptom.richContent.length) { %>
+<% var howToSec = symptom.richContent[0]; %>
 <section class="content-section alt-bg">
+  <div class="container">
+    <div class="prose" style="max-width:760px">
+      <h2><%= howToSec.heading %></h2>
+      <% howToSec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<section class="content-section">
   <div class="container">
     <h2>Why Is My <%= symptom.shortName %>?</h2>
     <p class="section-subtitle">These are the most common causes. The "How to tell" note on each card describes what that cause typically feels or sounds like so you can narrow down which one applies to your vehicle.</p>
@@ -51,9 +63,9 @@
   </div>
 </section>
 
-<% if (symptom.richContent && symptom.richContent.length) { %>
-<% symptom.richContent.forEach(function(sec, i) { %>
-<section class="content-section<%= i % 2 === 0 ? '' : ' alt-bg' %>">
+<% if (symptom.richContent && symptom.richContent.length > 1) { %>
+<% symptom.richContent.slice(1).forEach(function(sec, i) { %>
+<section class="content-section<%= i % 2 === 0 ? ' alt-bg' : '' %>">
   <div class="container">
     <div class="prose" style="max-width:760px">
       <h2><%= sec.heading %></h2>
@@ -78,7 +90,7 @@
 <% }); %>
 <% } %>
 
-<section class="content-section symptom-location-section">
+<section class="content-section alt-bg symptom-location-section">
   <div class="container">
     <h2>Where to Get Your <%= symptom.shortName %> Fixed</h2>
     <p class="section-subtitle">Scott's Auto &amp; Clutch Repair — serving Salt Lake City drivers since 1990.</p>
@@ -116,7 +128,7 @@
   </div>
 </section>
 
-<% var faqAlt = (symptom.richContent && symptom.richContent.length % 2 === 0); %>
+<% var faqAlt = false; %>
 <%- include('partials/faq') %>
 
 <section class="content-section<%= faqAlt ? '' : ' alt-bg' %>">
