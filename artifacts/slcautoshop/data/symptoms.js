@@ -25,7 +25,7 @@ const symptoms = [
         heading: "How to Tell if You Have Clutch Slipping",
         paras: [
           "The clearest sign is your RPMs climbing on a hill or freeway onramp while your speed barely increases — the engine is working but the power isn't reaching the wheels. You may also notice the clutch pedal engaging near the very top of its travel instead of mid-stroke.",
-          "A burning smell after driving hard or a pedal that feels different than it used to are late-stage signs. If you're unsure, try a gentle hill: put the car in second and give it throttle — if the engine revs but the car doesn't accelerate, the clutch is slipping."
+          "You may also notice a burning smell after hilly driving or heavy traffic — that's overheated friction material. A quick test: on a gentle hill, put the car in second and give it moderate throttle. If the RPMs climb without matching acceleration, your clutch is slipping."
         ]
       },
       {
@@ -157,7 +157,7 @@ const symptoms = [
         heading: "How to Tell if You Have Transmission Slipping",
         paras: [
           "In a manual, the engine revs sharply without a matching increase in speed — most noticeable on hills or freeway onramps. In an automatic, the transmission hesitates or shudders between gears, or the engine surges without acceleration.",
-          "A burnt smell from the transmission area, or a dipstick showing brown or dark fluid instead of clear red, confirms fluid damage in an automatic. On a manual, slipping that started on steep grades and has spread to flat-road driving means the disc is well past due."
+          "A burnt smell from the transmission area, or a dipstick showing brown or dark fluid instead of clear red, confirms fluid damage in an automatic. On a manual, check whether the RPMs climb without a matching increase in speed — that gap between engine speed and road speed is the signature of a slipping disc."
         ]
       },
       {
@@ -201,7 +201,7 @@ const symptoms = [
         heading: "How to Tell if You Have Hard-to-Shift Gears",
         paras: [
           "The shifter resists going into gear — you have to push harder than normal, or it grinds briefly before dropping in. First and reverse are often the worst, because they have no synchronizers to ease the engagement.",
-          "If shifting is harder cold and eases up once the car warms up, the clutch hydraulics or fluid viscosity is the likely cause. If it's stiff all the time and getting progressively worse, the synchronizers or clutch release are failing."
+          "If shifting is harder cold and eases up once the car warms up, the clutch hydraulics or fluid viscosity is the likely cause. If resistance is consistent regardless of temperature and affects the same gears every time, the synchronizers or clutch release are the more likely culprit."
         ]
       },
       {
@@ -245,7 +245,7 @@ const symptoms = [
         heading: "How to Tell if You Have a Burning Clutch Smell",
         paras: [
           "You'll notice a sharp, acrid smell — similar to burning paper or a hot electric motor — coming from under the car, especially after a hill climb, heavy traffic, or repeated starts. It may linger for a few minutes after you park.",
-          "If the smell appears every time you drive in hilly terrain but clears up on flat roads, the clutch is being overworked. A smell that appears during normal flat-road driving means the disc is nearly gone."
+          "A clutch smell appears under high load — hills, towing, repeated starts. A brake smell is more localized to one wheel and may come with pulling to one side or a wheel that's hot to the touch after driving."
         ]
       },
       {
@@ -289,7 +289,7 @@ const symptoms = [
         heading: "How to Tell if You Have a Soft Clutch Pedal",
         paras: [
           "The pedal feels spongy or travels further than it should before you feel resistance — like pressing into a foam pad rather than a firm spring. You may have to push it nearly to the floor before the clutch releases.",
-          "Fluid in the reservoir near the firewall that's low or discolored, or a pedal that doesn't return fully on its own, confirms a hydraulic issue. A soft pedal that gets noticeably worse in a single day means active fluid loss."
+          "Check the clutch fluid reservoir near the firewall — low or discolored fluid points to a hydraulic issue. A pedal that doesn't return fully to rest on its own, or one that needs to be pumped to firm up, also confirms hydraulic problems."
         ]
       },
       {
@@ -1068,7 +1068,7 @@ const symptoms = [
         heading: "How to Tell if You Have Nose Dive When Braking",
         paras: [
           "The front of the car dips sharply forward when you apply the brakes — more than you'd expect, and noticeably more than it used to. You may also feel the rear rise slightly, giving the car an unbalanced feel during stops.",
-          "Nose dive that's getting progressively worse over months points to worn front struts. If it appeared suddenly after a hard bump or pothole, a broken strut mount or spring is the more likely cause."
+          "Gradual nose dive that has developed over time points to worn front struts. If it appeared suddenly after hitting a hard bump or pothole, a broken strut mount or spring is the more likely cause."
         ]
       },
       {
