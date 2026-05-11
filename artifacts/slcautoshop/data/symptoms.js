@@ -989,15 +989,15 @@ const symptoms = [
       {
         heading: "When Should You Bring Your Car In for Sulfur Smell Diagnosis?",
         paras: [
-          "A catalytic converter operates within a defined air-fuel ratio window. When the engine runs consistently rich, the excess unburned hydrocarbons entering the converter must be oxidized, generating significant heat. Sustained high heat from months of rich running degrades the precious metal washcoat inside the converter, reducing its active surface area and efficiency. The sulfur smell emerges as efficiency drops.",
-          "Common sources of chronic rich running include a stuck-open fuel injector delivering more fuel than commanded, a failing fuel pressure regulator maintaining excessive pressure, a degraded mass airflow sensor under-reporting intake air, or a coolant temperature sensor stuck in the cold reading. The ECM holds a cold-start rich mixture until the engine appears to warm up, which never happens if the sensor is stuck. Each of these should be diagnosed and resolved before or alongside converter replacement."
+          "A persistent sulfur smell typically means the converter is degrading or the engine is running rich enough to overwhelm it. Either way, the underlying cause needs to be identified before replacing the converter.",
+          "Common rich-running sources include a stuck injector, a failing fuel pressure regulator, or a coolant temperature sensor stuck in cold-start mode. Replacing the converter without fixing those issues destroys the new converter within 20,000–40,000 miles."
         ]
       },
       {
         heading: "Who to Trust for Catalytic Converter and Fuel System Repair in Salt Lake City",
         paras: [
-          "A P0420 or P0430 code means the ECM has determined the converter's efficiency has dropped below the federal threshold that would allow the vehicle to pass an emissions test. It doesn't mean the converter is completely dead. It may still be reducing emissions significantly, just not enough to meet the standard. The code can appear with a converter that's been gradually degrading, or it can appear relatively suddenly after a damaging event like severe misfires or running the engine very low on coolant.",
-          "A replacement converter installed on an engine with unresolved rich conditions or misfires typically fails within 20,000 to 40,000 miles, sometimes faster. We verify fuel system and ignition system health before recommending a converter and will show you the fuel trim data that supports the diagnosis. <a href='/symptoms/failed-emissions'>If you've recently failed an emissions test</a> with P0420, <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>our emissions diagnosis</a> addresses root cause and converter condition in the same inspection."
+          "We verify fuel system and ignition system health before recommending a converter. We'll show you the fuel trim data that supports the diagnosis — a P0420 code doesn't automatically mean the converter is the problem. <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>Our emissions diagnosis</a> addresses root cause and converter condition in the same inspection.",
+          "Scott's Auto & Clutch Repair has been doing exhaust and emissions work in South Salt Lake since 1990. We won't replace a converter on an engine that would fail the new one within a year."
         ],
         inlineCta: true
       }
@@ -1032,15 +1032,15 @@ const symptoms = [
       {
         heading: "When Should You Bring Your Vehicle In for Suspension Damper Repair?",
         paras: [
-          "The bounce test is exactly what it sounds like: push down firmly on the front or rear corner of the vehicle and release quickly. A vehicle with healthy dampers will rise back up and settle within one additional oscillation. A vehicle with worn shocks or struts will continue to bounce two, three, or more times before coming to rest. The spring is working correctly in both cases. What's missing is the hydraulic resistance that should damp that motion.",
-          "The test is most reliable at the front corners, where the nose of the vehicle is lighter relative to the spring rate and oscillations are most visible. At the rear, the test is less reliable on vehicles with passengers or cargo since extra weight changes how the damping feels. We combine the bounce test with a visual inspection for shock body oil leakage and strut top mount condition. A torn top mount transfers road noise and vibration even when the damper itself still functions."
+          "Worn dampers increase stopping distance — the nose pitches forward more under braking, loading the front tires while unloading the rears. On Utah's rough post-winter pavement, worn shocks also cause tires to bounce briefly airborne during rebound, reducing braking traction at those moments.",
+          "Strut and shock wear is gradual, which is why many drivers don't notice how far the ride has degraded. Once you notice bouncing or body roll, the dampers are well past their optimum — and a wheel alignment is usually needed after replacement because suspension geometry shifts with new components."
         ]
       },
       {
         heading: "Who to Trust for Strut and Shock Replacement in Salt Lake City",
         paras: [
-          "A strut or shock that can't control wheel bounce allows the tire to lift briefly off the road surface during rebound. On normal pavement this means reduced traction. On rough pavement (Utah's surface after winter) the tire is intermittently airborne during the rebound phase, which reduces braking force at those moments. Studies of worn suspension's effect on stopping distance consistently show meaningful increases in wet-road braking distance compared to new dampers.",
-          "This is particularly relevant for <a href='/symptoms/nose-dive-braking'>nose-dive under braking</a>. Worn front struts allow the nose to pitch forward more dramatically under deceleration, loading the front tires more heavily while simultaneously unloading the rear tires. The imbalance reduces total braking efficiency. <a href='/services/strut-replacement-near-south-salt-lake-ut'>Strut and shock replacement</a> is done in axle pairs to maintain even handling, and we include a wheel alignment with every strut job."
+          "We inspect the full strut assembly — damper, top mount, and spring — and do a bounce test combined with visual inspection for oil leakage. Strut and shock replacement is done in axle pairs to maintain even handling, and we include a wheel alignment with every strut job. <a href='/services/strut-replacement-near-south-salt-lake-ut'>See our strut replacement service page</a> for what's included.",
+          "Scott's Auto & Clutch Repair has been doing suspension work in South Salt Lake since 1990. We'll also inspect the opposing pair while we're working so you have a clear picture of their remaining life."
         ],
         inlineCta: true
       }
@@ -1074,15 +1074,15 @@ const symptoms = [
       {
         heading: "When Should You Bring Your Car In for Front Strut Replacement?",
         paras: [
-          "On MacPherson strut suspension, the most common front suspension design on front-wheel-drive vehicles, the strut assembly is part of the steering knuckle pivot. The strut's upper mount connects the strut to the body and functions as the upper steering pivot. A worn strut top mount with loose or deteriorated bearings introduces play into the steering pivot, which shows up as a clunking noise when turning from a stop, vague steering feel, and over time, inconsistent camber angle as the strut shifts position slightly under load.",
-          "That's why alignment is required after strut replacement. New strut geometry is slightly different from the worn geometry that may have been there for years, and the alignment angles change with the new components. Skipping the alignment after struts saves a small amount upfront and results in uneven <a href='/symptoms/uneven-tire-wear'>tire wear</a> that costs more than the alignment would have. We include an alignment with every strut replacement as standard, not as an add-on."
+          "Exaggerated nose dive increases stopping distance. The front suspension geometry changes as the nose pitches down, altering the tire contact patch at the moment maximum traction is needed. At the same time, the rear lightens and its grip decreases.",
+          "Alignment is required after strut replacement — new components change the suspension geometry. Skipping it results in uneven tire wear that costs more than the alignment would have. We include alignment with every strut job as standard."
         ]
       },
       {
         heading: "Who to Trust for Front Strut Replacement in Salt Lake City",
         paras: [
-          "The practical consequence of exaggerated nose dive is increased stopping distance under hard braking. When the front pitches down quickly, the front suspension geometry changes. Camber and toe angles shift from their design positions, altering the tire contact patch geometry at the moment when maximum traction is most needed. At the same time, the rear suspension lightens as weight transfers forward, reducing rear-tire contact patch pressure.",
-          "For Utah drivers who use canyon roads or encounter sudden highway stops, the safety margin lost to worn front struts is real and measurable. <a href='/services/strut-replacement-near-south-salt-lake-ut'>Our strut assessment</a> takes about 20 minutes. We check damper condition, top mount bearing play, spring condition, and CV boot status on the axle we're working near. Most front strut jobs are completed the same day."
+          "We check damper condition, top mount bearing play, and spring condition as part of every strut assessment. Most front strut jobs are completed the same day, and we include the post-replacement alignment as standard. <a href='/services/strut-replacement-near-south-salt-lake-ut'>See our strut service page</a> for what's included.",
+          "Scott's Auto & Clutch Repair has been doing suspension work in South Salt Lake since 1990. For Utah drivers using canyon roads, the safety margin lost to worn front struts is real and measurable — don't put this one off."
         ],
         inlineCta: true
       }
@@ -1117,15 +1117,15 @@ const symptoms = [
       {
         heading: "When Should You Bring Your Vehicle In for Uneven Tire Wear Repair?",
         paras: [
-          "The connection between <a href='/symptoms/bouncy-ride'>worn struts</a> and scalloped tire wear is direct. When a strut has lost its damping force, the spring extends too quickly after a bump. The tire briefly loses road contact, then impacts the surface with the force of the uncontrolled spring return. This repeated impact at one area of the tread creates the characteristic scalloped depression. On rough pavement, which is common in the Salt Lake valley after winter, the cupping can develop within 10,000 to 15,000 miles on a vehicle with completely worn dampers.",
-          "Replacing the tires on a car with worn struts restores tread depth but not wear pattern. The cupping will return on the new tires within a few thousand miles. If you're buying new tires and the current tires show scalloping, strut condition should be assessed before the new tires go on. We inspect strut condition as part of any uneven wear diagnosis and can tell you whether the wear pattern requires struts, alignment, or both."
+          "Don't buy new tires before fixing the underlying cause. If the current tires show scalloping, the new ones will cup within a few thousand miles on the same worn struts. If they show edge wear, the new tires will feather on the same misaligned geometry.",
+          "We inspect strut condition and measure all four alignment angles as part of uneven wear diagnosis. Some wear can be recovered with rotation; severe patterns require addressing the suspension or alignment first."
         ]
       },
       {
         heading: "Who to Trust for Alignment and Suspension Repair in Salt Lake City",
         paras: [
-          "Alignment corrects the static angular relationship between the wheel and the road. When wear is caused by alignment (camber, caster, toe), alignment is the fix. When wear is caused by dynamic suspension behavior (cupping from worn struts, edge wear from a spring that's collapsed slightly), alignment addresses the symptom but not the cause.",
-          "We measure all four alignment angles before and after adjustment and show you the before/after printout. If the alignment is within spec on a vehicle with significant cupping, we'll tell you clearly that the issue is suspension-related rather than alignment-related. Being honest about the root cause saves you a second tire purchase. <a href='/services/strut-replacement-near-south-salt-lake-ut'>Strut and shock replacement</a>, followed by alignment, resolves cupping wear and gives new tires their full service life."
+          "We measure all four alignment angles before and after adjustment and show you the before/after printout. If the alignment is within spec but the tires are still cupping, we'll tell you clearly that the issue is suspension-related — alignment won't fix worn dampers. <a href='/services/strut-replacement-near-south-salt-lake-ut'>Strut and shock replacement</a> followed by alignment resolves cupping wear.",
+          "Scott's Auto & Clutch Repair has been doing alignment and suspension work in South Salt Lake since 1990. Being honest about the root cause saves you a second tire purchase."
         ],
         inlineCta: true
       }
@@ -1160,15 +1160,15 @@ const symptoms = [
       {
         heading: "When Should You Bring Your Vehicle In for Shock Absorber Replacement?",
         paras: [
-          "The push-and-release bounce test gives a reliable general read on damper condition. Push down firmly on the corner, release quickly, and watch the rebound. One bounce plus settle is healthy; two or more bounces indicates the damper is significantly worn. The test is most reliable at corners where the spring rate is softer relative to the vehicle weight, typically front corners on rear-wheel-drive vehicles and all corners on lighter front-wheel-drive cars.",
-          "The bounce test can miss an intermediate level of wear: dampers that have lost 30 to 40 percent of their hydraulic resistance but still technically limit bounce to one or two cycles. These dampers feel noticeably harsher and less planted than when the vehicle was new, but pass a quick bounce test. Oil seeping from the shock body is a reliable secondary indicator in this range. A wet or oily shock body means the hydraulic seal is failing internally. We check for body oil seepage alongside the bounce test to catch mid-range wear."
+          "A bounce test (push down firmly on a corner, release quickly) where the car bounces more than once before settling means the damper is significantly worn. One bounce and settle is healthy.",
+          "Oil seeping from the shock body confirms the internal seal is failing even when the bounce test looks marginal. We check both the bounce test and the shock body for seepage so we catch mid-range wear before it becomes a handling problem."
         ]
       },
       {
         heading: "Who to Trust for Shock Absorber Replacement in Salt Lake City",
         paras: [
-          "Shocks and struts don't fail symmetrically. One corner typically wears faster due to road conditions, driving habits, or a specific impact. But a single bad shock affects vehicle behavior at all four corners by upsetting the weight balance during maneuvers. A worn rear shock on one side allows that corner to bounce independently during cornering, reducing rear-axle traction and creating a tendency for the tail to track loosely. A worn front shock on one side causes asymmetric braking behavior; the good side compresses normally while the worn side dives, which can induce a pull under hard braking.",
-          "We recommend replacing shocks in axle pairs (both fronts or both rears) rather than single-corner replacement for this reason. Even if only one is clearly failed, its partner is aging at a similar rate and the handling asymmetry of one new and one old damper is a real drawback. <a href='/services/shock-replacement-near-south-salt-lake-ut'>Shock replacement</a> is typically simpler than strut work, with no spring compression or alignment required, and most jobs are completed the same day."
+          "We replace shocks in axle pairs — even if only one has clearly failed, its partner is aging at the same rate and a mismatched pair creates handling asymmetry. <a href='/services/shock-replacement-near-south-salt-lake-ut'>Shock replacement</a> is simpler than strut work with no spring compression required, and most jobs are completed the same day.",
+          "Scott's Auto & Clutch Repair has been doing suspension work in South Salt Lake since 1990. We bounce-test all four corners and check for body seepage so you know exactly which dampers need attention."
         ],
         inlineCta: true
       }

@@ -6,7 +6,7 @@
   <div class="page-hero-bg" style="background-image:url('/assets/hero-600-DnXM3vMX.webp')"></div>
   <div class="container">
     <span class="symptom-priority priority-<%= symptom.priority.toLowerCase() %>"><%= symptom.priority %> Priority</span>
-    <h1><%= symptom.name %> — Repair in South Salt Lake UT</h1>
+    <h1><%= symptom.name %> — Repair in Salt Lake City, UT</h1>
     <% if (symptom.heroIntro) { %>
     <p class="hero-intro"><%= symptom.heroIntro %></p>
     <% } %>
@@ -47,7 +47,7 @@
       </div>
       <% }) %>
     </div>
-    <p class="inline-cta" style="margin-top:1.5rem">Not sure which applies to you? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a> — free diagnosis at our South Salt Lake shop.</p>
+    <p class="inline-cta" style="margin-top:1.5rem">Not sure which applies to you? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a> — free diagnosis at our Salt Lake City shop.</p>
   </div>
 </section>
 
@@ -77,6 +77,44 @@
 </section>
 <% }); %>
 <% } %>
+
+<section class="content-section symptom-location-section">
+  <div class="container">
+    <h2>Where to Get Your <%= symptom.shortName %> Fixed</h2>
+    <p class="section-subtitle">Scott's Auto &amp; Clutch Repair — serving Salt Lake City drivers since 1990.</p>
+    <div class="symptom-location-grid">
+      <div class="symptom-location-info">
+        <div class="location-detail">
+          <h3>Address</h3>
+          <p><a href="<%= site.directionsUrl %>" target="_blank" rel="noopener"><%= site.fullAddress %></a></p>
+        </div>
+        <div class="location-detail">
+          <h3>Hours</h3>
+          <p><%= site.hours %></p>
+        </div>
+        <div class="location-detail">
+          <h3>Phone</h3>
+          <p><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></p>
+        </div>
+        <div class="symptom-location-actions">
+          <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions</a>
+          <a href="tel:<%= site.phoneTel %>" class="btn btn-secondary">Call Us</a>
+          <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>" class="btn btn-outline">Text Us</a>
+        </div>
+      </div>
+      <div class="symptom-location-map">
+        <iframe
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84117&output=embed&hl=en&z=15"
+          width="100%" height="100%"
+          style="border:0;border-radius:var(--radius);min-height:320px"
+          allowfullscreen loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Scott's Auto & Clutch Repair Location Map">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
 
 <% var faqAlt = (symptom.richContent && symptom.richContent.length % 2 === 0); %>
 <%- include('partials/faq') %>
