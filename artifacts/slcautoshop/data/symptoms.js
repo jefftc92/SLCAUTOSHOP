@@ -22,10 +22,10 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Clutch Slipping",
+        heading: "Is My Clutch Slipping?",
         paras: [
-          "The clearest sign is your RPMs climbing on a hill or freeway onramp while your speed barely increases — the engine is working but the power isn't reaching the wheels. You may also notice the clutch pedal engaging near the very top of its travel instead of mid-stroke.",
-          "You may also notice a burning smell after hilly driving or heavy traffic — that's overheated friction material. A quick test: on a gentle hill, put the car in second and give it moderate throttle. If the RPMs climb without matching acceleration, your clutch is slipping."
+          "The main feeling is a disconnect between engine effort and vehicle response — you push the accelerator harder and the engine revs climb, but the car doesn't speed up to match. It's most obvious on hills and freeway onramps where you'd expect both to rise together.",
+          "You may also notice the clutch pedal engaging very high in its travel — near the top rather than mid-stroke. A burning smell during or after a steep hill is another sign — that's friction material overheating. If both are happening, the clutch is almost certainly slipping."
         ]
       },
       {
@@ -66,7 +66,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Grinding When Shifting",
+        heading: "Is My Car Grinding When I Shift?",
         paras: [
           "You'll hear a metallic crunch or grinding sound every time you push the clutch in and move the shifter — it's most obvious going into second or third gear. The noise comes from gears clashing because the clutch isn't fully releasing.",
           "If the grinding only happens cold and clears up once the car warms up, you likely have a hydraulic issue. If it's constant regardless of temperature, the clutch disc itself is the more likely cause."
@@ -110,7 +110,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have a Stiff Clutch Pedal",
+        heading: "Is My Clutch Pedal Too Stiff?",
         paras: [
           "The pedal takes noticeably more force to push down than it used to — you may find yourself straining on every shift or arriving at your destination with a fatigued left leg. It may also return to rest more slowly than normal.",
           "Stiffness that creaks or groans under the dash points to worn pivot bushings. Stiffness that's worse on cold mornings and improves as the car warms up usually points to a hydraulic issue."
@@ -154,7 +154,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Transmission Slipping",
+        heading: "Is My Transmission Slipping?",
         paras: [
           "In a manual, the engine revs sharply without a matching increase in speed — most noticeable on hills or freeway onramps. In an automatic, the transmission hesitates or shudders between gears, or the engine surges without acceleration.",
           "A burnt smell from the transmission area, or a dipstick showing brown or dark fluid instead of clear red, confirms fluid damage in an automatic. On a manual, check whether the RPMs climb without a matching increase in speed — that gap between engine speed and road speed is the signature of a slipping disc."
@@ -198,7 +198,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Hard-to-Shift Gears",
+        heading: "Are My Gears Hard to Shift?",
         paras: [
           "The shifter resists going into gear — you have to push harder than normal, or it grinds briefly before dropping in. First and reverse are often the worst, because they have no synchronizers to ease the engagement.",
           "If shifting is harder cold and eases up once the car warms up, the clutch hydraulics or fluid viscosity is the likely cause. If resistance is consistent regardless of temperature and affects the same gears every time, the synchronizers or clutch release are the more likely culprit."
@@ -242,7 +242,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have a Burning Clutch Smell",
+        heading: "Is That a Burning Clutch Smell?",
         paras: [
           "You'll notice a sharp, acrid smell — similar to burning paper or a hot electric motor — coming from under the car, especially after a hill climb, heavy traffic, or repeated starts. It may linger for a few minutes after you park.",
           "A clutch smell appears under high load — hills, towing, repeated starts. A brake smell is more localized to one wheel and may come with pulling to one side or a wheel that's hot to the touch after driving."
@@ -286,7 +286,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have a Soft Clutch Pedal",
+        heading: "Is My Clutch Pedal Too Soft?",
         paras: [
           "The pedal feels spongy or travels further than it should before you feel resistance — like pressing into a foam pad rather than a firm spring. You may have to push it nearly to the floor before the clutch releases.",
           "Check the clutch fluid reservoir near the firewall — low or discolored fluid points to a hydraulic issue. A pedal that doesn't return fully to rest on its own, or one that needs to be pumped to firm up, also confirms hydraulic problems."
@@ -329,7 +329,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have CV Joint Clicking",
+        heading: "Is That Clicking My CV Joint?",
         paras: [
           "You'll hear a rhythmic clicking or popping sound that appears when turning — it's most obvious in slow, tight turns like parking lots or U-turns, and usually comes from the front of the car on the side that's turning.",
           "The click is caused by a worn CV joint that only loads up under the angle and torque of a turn. If the noise disappears when driving straight, the CV joint is almost certainly the source."
@@ -372,7 +372,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Vibration When Accelerating",
+        heading: "Is My Car Vibrating When I Accelerate?",
         paras: [
           "You feel a shudder or vibration through the floorboard or seat that appears when you press the accelerator — it may start at a specific speed or throttle position and fade when you ease off. Coasting without throttle is usually smooth.",
           "If the vibration only happens under power and disappears on deceleration, the CV axle or driveshaft is the most likely cause. Vibration that persists whether you're accelerating or not points toward a wheel balance or tire issue instead."
@@ -416,7 +416,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have a Soft Brake Pedal",
+        heading: "Is My Brake Pedal Too Soft?",
         paras: [
           "The pedal sinks lower than usual before the brakes engage, or feels spongy rather than firm underfoot. You may have to pump it once to build pressure, or press harder than usual to get normal stopping power.",
           "Fluid dripping near a wheel or under the master cylinder confirms a leak. A pedal that firms up after pumping but softens again under steady pressure points to air in the hydraulic line."
@@ -460,7 +460,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Squeaking Brakes",
+        heading: "Are My Brakes Squeaking?",
         paras: [
           "You'll hear a high-pitched squeal or squeak when applying the brakes — it usually starts as a brief chirp and becomes more consistent as pad wear increases. Most brake pads have a metal wear indicator that makes this noise intentionally to signal replacement is due.",
           "Light squeaking on the first few stops of a cold, damp morning that clears up after a few applications is normal condensation. Squeaking that appears every time you brake, regardless of temperature or conditions, means the pads need inspection."
@@ -503,7 +503,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Grinding Brakes",
+        heading: "Are My Brakes Grinding?",
         paras: [
           "You'll hear a harsh metal-on-metal grinding sound when you apply the brakes — unlike squeaking, this is a low, scraping noise and often comes with vibration felt through the pedal. It means the brake pad material is gone and metal is contacting the rotor.",
           "If you also feel the car pulling to one side when braking, or the pedal pulsing underfoot, the rotor is already damaged. Grinding that only happens on one wheel is often a stuck caliper rather than simply worn pads."
@@ -546,7 +546,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Steering Vibration",
+        heading: "Is My Steering Wheel Vibrating?",
         paras: [
           "You feel a shimmy or vibration through the steering wheel — it may appear at a specific highway speed (commonly 60–70 mph), when braking, or across the full speed range. The vibration comes and goes rather than being constant.",
           "Vibration that only appears at a specific speed and disappears above or below it usually points to wheel balance. Vibration that appears specifically when braking points to warped rotors rather than a balance or alignment issue."
@@ -589,7 +589,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Vibration When Braking",
+        heading: "Is My Car Vibrating When I Brake?",
         paras: [
           "You feel a pulsing or shuddering through the brake pedal and sometimes the steering wheel when you apply the brakes — it's most noticeable during moderate to hard stops from highway speed. The car may also pull slightly to one side.",
           "If the vibration only appears when braking and disappears at all other times, the rotors are the most likely cause. Vibration that's present while driving and gets worse when braking suggests a wheel bearing or tire issue."
@@ -632,7 +632,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Engine Startup Rattling",
+        heading: "Is That Rattle Coming from My Engine?",
         paras: [
           "You hear a metallic rattling or clattering sound for the first few seconds after starting a cold engine — it comes from near the top of the engine and usually goes away within 5–10 seconds once oil pressure builds. The noise may sound like loose marbles or a light chain.",
           "A rattle that lasts longer than 10 seconds, or appears during normal running rather than only on cold starts, means oil isn't reaching the timing chain fast enough. Low oil level or long intervals between oil changes are the most common causes."
@@ -675,7 +675,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have a Timing System Problem",
+        heading: "Is My Check Engine Light a Timing Problem?",
         paras: [
           "The check engine light is on and the car may run rough, hesitate on acceleration, or feel down on power — these are the typical signs of a timing-related fault code. You might also notice the engine cranking longer than usual before it starts.",
           "If the car runs normally but the light is on, the fault may be stored from a prior event. If the engine feels off — rough idle, stumbling, or loss of power — the timing system is likely affecting combustion and the issue should be diagnosed promptly."
@@ -719,7 +719,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Check Engine Light Needs Immediate Attention",
+        heading: "Is My Check Engine Light Serious?",
         paras: [
           "A steady check engine light means a fault has been stored but the car is still running within acceptable parameters — this can wait a day or two for diagnosis but shouldn't be ignored for weeks. A flashing check engine light means active misfires that can damage the catalytic converter; pull over safely and don't drive hard until it's diagnosed.",
           "If the light appeared after filling up with gas, a loose gas cap is the most common cause — tighten it and drive a few cycles to see if the light clears. Any light accompanied by rough running, smoke, or an unusual smell needs same-day attention."
@@ -763,7 +763,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if Your Engine Is Overheating",
+        heading: "Is My Engine Overheating?",
         paras: [
           "The temperature gauge climbs into the red zone, or a warning light appears on the dash. You may also see steam coming from under the hood, or notice a sweet coolant smell from the vents or outside the car.",
           "If the gauge climbs and then drops back to normal repeatedly, the cooling fan or thermostat is the likely cause. A gauge that climbs steadily and doesn't recover points to a coolant leak, a failed water pump, or a head gasket issue."
@@ -807,7 +807,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have a Coolant Leak",
+        heading: "Do I Have a Coolant Leak?",
         paras: [
           "The most obvious signs are a puddle of bright green, orange, or pink fluid under the car after it's been parked, or a sweet smell coming from the engine bay. The temperature gauge may also run higher than normal if coolant level is low.",
           "A leak that only appears when the engine is hot (and disappears once it cools) often points to a pressurized fitting or a hose that seals when cold. White exhaust smoke that doesn't clear after warm-up can mean coolant is entering the combustion chamber."
@@ -850,7 +850,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have a Loud Exhaust",
+        heading: "Is My Exhaust Too Loud?",
         paras: [
           "The exhaust is noticeably louder than it used to be — you may hear a rumbling, roaring, or hissing sound that increases with RPM. It's most obvious on acceleration and may draw attention from people around you.",
           "A hissing or ticking sound that's loudest near the engine points to an exhaust manifold leak. A rumble that comes from further back under the car points to a muffler or mid-pipe failure."
@@ -893,7 +893,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Exhaust Smell in the Cabin",
+        heading: "Am I Smelling Exhaust Inside My Car?",
         paras: [
           "You can smell exhaust fumes inside the car — a distinct burnt, sulfurous, or fuel smell that doesn't clear when you roll down the windows. It may be stronger when idling in traffic or when the HVAC pulls outside air.",
           "Any exhaust smell inside the cabin is a carbon monoxide risk and should be treated as urgent. If the smell appears with the fan on 'fresh air' but goes away on 'recirculate', the leak is external and being drawn into the ventilation system."
@@ -937,7 +937,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have an Emissions Problem",
+        heading: "Did My Car Fail an Emissions Test?",
         paras: [
           "You received a failed emissions test result, or the check engine light is on and you know a test is coming up. Some emissions failures have no drivability symptoms at all — the car runs normally but a sensor or catalyst has degraded below the legal threshold.",
           "If the check engine light came on recently and you have an emissions test scheduled, the car will fail even if the issue seems minor. A failing catalytic converter may also cause reduced power, a sulfur smell, or rattling from under the car."
@@ -980,7 +980,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have a Sulfur Smell",
+        heading: "Is That Sulfur Smell Coming from My Car?",
         paras: [
           "You smell rotten eggs or sulfur, especially under acceleration or after the car has been running for a few minutes. The smell comes from hydrogen sulfide in the exhaust, which a healthy catalytic converter normally converts to odorless compounds.",
           "If the smell only appeared recently and the check engine light is on, a failing catalytic converter is the most likely cause. A smell that appears only after hard acceleration and clears up at idle can point to a rich fuel mixture rather than converter failure."
@@ -1023,7 +1023,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have a Bouncy Ride from Worn Shocks",
+        heading: "Is My Ride Too Bouncy?",
         paras: [
           "The car continues bouncing or rocking after going over a bump — instead of absorbing the impact and settling quickly, it oscillates for several cycles. Body roll in corners feels excessive, and the rear may feel loose over rough pavement.",
           "The bounce test: press down hard on each corner of the car and release. A healthy shock settles in one rebound. If the car bounces more than once, that corner's damper is worn. Clunking from the suspension over speed bumps points to a broken mount rather than worn fluid."
@@ -1065,7 +1065,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Nose Dive When Braking",
+        heading: "Is My Car Nose-Diving When I Brake?",
         paras: [
           "The front of the car dips sharply forward when you apply the brakes — more than you'd expect, and noticeably more than it used to. You may also feel the rear rise slightly, giving the car an unbalanced feel during stops.",
           "Gradual nose dive that has developed over time points to worn front struts. If it appeared suddenly after hitting a hard bump or pothole, a broken strut mount or spring is the more likely cause."
@@ -1108,7 +1108,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have Uneven Tire Wear",
+        heading: "Do I Have Uneven Tire Wear?",
         paras: [
           "Run your hand across the tire tread — if one edge is significantly more worn than the other, or you feel a scalloped or feathered pattern, the wear is uneven. Visible wear on only the inner or outer shoulder while the center is still deep is the clearest sign.",
           "Scalloping (cupped wear in a wavy pattern around the tire) almost always means a worn shock absorber. Edge wear with good center tread points to an alignment issue. Both can cause a humming road noise that changes with speed."
@@ -1151,7 +1151,7 @@ const symptoms = [
     ],
     richContent: [
       {
-        heading: "How to Tell if You Have a Rough Ride Over Bumps",
+        heading: "Is My Ride Rough Over Bumps?",
         paras: [
           "The car transmits every road imperfection directly to the seat and steering wheel — bumps feel harsher than they should, and washboard or brick roads feel punishing. The ride quality has noticeably degraded compared to when the car was newer.",
           "A clunking or knocking sound over bumps that you feel through the floorboard points to a broken mount rather than just fluid wear. If the rough ride is paired with increased bounce or body roll, the shock absorbers themselves have failed."
