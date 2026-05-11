@@ -7,6 +7,9 @@
   <div class="container">
     <span class="symptom-priority priority-<%= symptom.priority.toLowerCase() %>"><%= symptom.priority %> Priority</span>
     <h1><%= symptom.name %> — Repair in South Salt Lake UT</h1>
+    <% if (symptom.heroIntro) { %>
+    <p class="hero-intro"><%= symptom.heroIntro %></p>
+    <% } %>
     <% if (symptom.lastUpdated) { %>
     <p class="hero-meta">Last updated <%= symptom.lastUpdated %></p>
     <% } %>
@@ -20,6 +23,7 @@
 <section class="content-section">
   <div class="container">
     <div class="prose" style="max-width:760px">
+      <h2>What Is <%= symptom.shortName %>?</h2>
       <p class="intro-lead"><%= symptom.intro %></p>
     </div>
   </div>
@@ -27,8 +31,8 @@
 
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>What Causes <%= symptom.shortName %>?</h2>
-    <p class="section-subtitle">These are the most common causes. The "How to tell" note on each card describes what that cause typically feels or sounds like, so you can narrow down which one is yours.</p>
+    <h2>Why Is My <%= symptom.shortName %> Happening?</h2>
+    <p class="section-subtitle">These are the most common causes. The "How to tell" note on each card describes what that cause typically feels or sounds like so you can narrow down which one applies to your vehicle.</p>
     <div class="issues-grid">
       <% symptom.causes.forEach(c => { %>
       <div class="issue-card">
@@ -43,6 +47,7 @@
       </div>
       <% }) %>
     </div>
+    <p class="inline-cta" style="margin-top:1.5rem">Not sure which applies to you? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a> — free diagnosis at our South Salt Lake shop.</p>
   </div>
 </section>
 
@@ -65,7 +70,7 @@
       </aside>
       <% } %>
       <% if (sec.inlineCta) { %>
-      <p class="inline-cta">Not sure what's causing it? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a> — free diagnosis at our South Salt Lake shop.</p>
+      <p class="inline-cta">Ready to get it diagnosed? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a> — free diagnosis at our South Salt Lake shop.</p>
       <% } %>
     </div>
   </div>
@@ -76,22 +81,7 @@
 <% var faqAlt = (symptom.richContent && symptom.richContent.length % 2 === 0); %>
 <%- include('partials/faq') %>
 
-<% if (relatedService) { %>
 <section class="content-section<%= faqAlt ? '' : ' alt-bg' %>">
-  <div class="container">
-    <h2>The Service That Fixes This</h2>
-    <div class="recommended-service-block">
-      <p><%= symptom.serviceBlurb %> <a href="/services/<%= relatedService.slug %>">Learn more about our <%= relatedService.fullName %> service.</a></p>
-      <div style="margin-top:1.25rem;display:flex;gap:.75rem;flex-wrap:wrap">
-        <a href="/services/<%= relatedService.slug %>" class="btn btn-primary">View Service Details</a>
-        <a href="tel:<%= site.phoneTel %>" class="btn btn-outline">Call for a Free Diagnosis</a>
-      </div>
-    </div>
-  </div>
-</section>
-<% } %>
-
-<section class="content-section<%= (faqAlt && relatedService) || (!faqAlt && !relatedService) ? ' alt-bg' : '' %>">
   <div class="container">
     <h2>Not Sure This Is Your Issue?</h2>
     <p class="section-subtitle">Browse related symptoms — drivers often confuse these for one another.</p>
