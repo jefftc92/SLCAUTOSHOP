@@ -404,6 +404,20 @@ app.get('/services/:slug', (req, res) => {
               { "@type": "ListItem", "position": 2, "name": "Services", "item": site.domain + "/services" },
               { "@type": "ListItem", "position": 3, "name": "Clutch Repair Near " + geo.locationName, "item": site.domain + "/services/" + geo.slug }
             ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Clutch Repair & Replacement",
+            "name": "Clutch Repair Near " + geo.locationName + ", UT",
+            "description": geo.intro,
+            "provider": { "@type": "AutoRepair", "@id": site.domain + "/#business" },
+            "areaServed": {
+              "@type": "City",
+              "name": geo.locationName,
+              "containedInPlace": { "@type": "State", "name": "Utah" }
+            },
+            "url": site.domain + "/services/" + geo.slug
           }
         ]
       });
@@ -412,6 +426,10 @@ app.get('/services/:slug', (req, res) => {
     const serviceGeo = serviceGeoPages.find(g => g.slug === req.params.slug);
     if (serviceGeo) {
       const mainService = services.find(s => s.slug === serviceGeo.mainServiceSlug);
+      // Pull FAQs from the main service so FAQPage schema fires on geo pages too
+      const geoPageFaqs = (mainService && mainService.faq && mainService.faq.length > 0)
+        ? mainService.faq
+        : (serviceFaqs[serviceGeo.mainServiceSlug] || []);
       return res.render('service-geo', {
         activePage: 'services',
         metaTitle: serviceGeo.metaTitle,
@@ -419,8 +437,8 @@ app.get('/services/:slug', (req, res) => {
         canonical: '/services/' + serviceGeo.slug,
         geo: serviceGeo,
         mainService: mainService || null,
-        pageFaqs: [],
-        faqTitle: serviceGeo.serviceFullName + ' Near ' + serviceGeo.locationName,
+        pageFaqs: geoPageFaqs,
+        faqTitle: 'Frequently Asked Questions — ' + serviceGeo.serviceFullName + ' Near ' + serviceGeo.locationName,
         pageTestimonials: pickReviews(2 + Math.floor(Math.random() * 2)),
         structuredData: [
           businessSchema,
@@ -582,6 +600,20 @@ app.get('/locations/:slug', (req, res) => {
           { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": site.domain + "/locations" },
           { "@type": "ListItem", "position": 3, "name": location.name, "item": site.domain + "/locations/" + location.slug }
         ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Auto Repair & Maintenance",
+        "name": "Auto Repair Near " + location.name + ", UT",
+        "description": location.whyChooseUs,
+        "provider": { "@type": "AutoRepair", "@id": site.domain + "/#business" },
+        "areaServed": {
+          "@type": "City",
+          "name": location.name,
+          "containedInPlace": { "@type": "State", "name": "Utah" }
+        },
+        "url": site.domain + "/locations/" + location.slug
       }
     ]
   });
@@ -729,6 +761,16 @@ app.get('/vehicle-brands/:slug', (req, res) => {
           { "@type": "ListItem", "position": 2, "name": "Vehicle Brands", "item": site.domain + "/vehicle-brands" },
           { "@type": "ListItem", "position": 3, "name": brand.name + " Repair", "item": site.domain + "/vehicle-brands/" + brand.slug }
         ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": brand.name + " Repair & Maintenance",
+        "name": brand.name + " Repair in South Salt Lake, UT",
+        "description": brand.tagline,
+        "provider": { "@type": "AutoRepair", "@id": site.domain + "/#business" },
+        "areaServed": { "@type": "City", "name": "South Salt Lake", "containedInPlace": { "@type": "State", "name": "Utah" } },
+        "url": site.domain + "/vehicle-brands/" + brand.slug
       }
     ]
   });
@@ -937,7 +979,12 @@ app.get('/robots.txt', (req, res) => {
 
 // ── 404 catch-all ────────────────────────────────────────────────────────────
 app.use((req, res) => {
-  res.status(404).render('404', { metaTitle: 'Page Not Found' });
+  res.status(404).render('404', {
+    metaTitle: 'Page Not Found | Scott\'s Auto & Clutch Repair',
+    metaDesc: 'The page you requested could not be found. Return to the homepage or browse our services.',
+    canonical: '/404',
+    noindex: true
+  });
 });
 
 // Start
