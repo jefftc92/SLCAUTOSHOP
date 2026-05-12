@@ -11,6 +11,13 @@ const services = [
     metaDesc: "Clutch slipping, grinding, or hard to shift? We've specialized in clutch replacement for 36+ years. Free diagnosis. Call (801) 485-4089.",
     heroIntro: "Scott's has specialized in clutch repair since 1990 — it's literally in the name. Free diagnosis. Written estimate. No surprises.",
     intro: "",
+    hideServicesSection: true,
+    specializedServices: [
+      "Clutch Replacement", "Clutch Adjustment", "Clutch Fluid Flush & Bleeding",
+      "Flywheel Resurfacing", "Flywheel Replacement", "Clutch Repair",
+      "Slave Cylinder Repair", "Master Cylinder Repair",
+      "Throw-out Bearing Replacement", "Clutch Slip Diagnostic"
+    ],
     whyUs: [
       { title: "Clutch Specialists Since 1990", desc: "Clutch work is all we've done since 1990. We're not a general shop that also does clutches — clutch and manual transmission repair is the specialty this business was built on." },
       { title: "Honest Diagnosis", desc: "We diagnose before we recommend. If it's the hydraulic system and the disc is fine, we tell you that — and we only fix the hydraulic system. We've turned away unnecessary disc replacements more times than we can count." },
@@ -55,7 +62,8 @@ const services = [
           "Clutch hydraulic system bleed and flush",
           "Clutch cable adjustment and replacement",
           "Road test and engagement verification"
-        ]
+        ],
+        listStyle: "tags"
       },
       {
         heading: "When Should You Come In?",
@@ -74,7 +82,7 @@ const services = [
       { q: "Can you fix just the hydraulic system without replacing the clutch?", a: "Yes, if the disc and pressure plate are still serviceable. We diagnose first — if it's a cylinder issue and the clutch assembly is fine, that's all we recommend fixing." }
     ],
     whoContent: {
-      heading: "36 Years of Clutch Specialization in South Salt Lake",
+      heading: "Who to Trust for Clutch Repair in South Salt Lake",
       paras: [
         "Scott's Auto & Clutch Repair has been the clutch shop in South Salt Lake since 1990 — it's literally in the name. Clutch and manual transmission work is what we built the business around, and it still accounts for a significant share of everything we do.",
         "When you bring a clutch problem here, you're not explaining it to a generalist service writer and hoping the right tech gets assigned. You're talking to people who have diagnosed and repaired clutches on every make and model for over three decades — on everything from daily drivers to sports cars to commercial trucks."

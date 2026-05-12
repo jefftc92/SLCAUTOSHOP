@@ -28,7 +28,7 @@
 </section>
 <% } %>
 
-<% if (service.specializedServices && service.specializedServices.length) { %>
+<% if (service.specializedServices && service.specializedServices.length && !service.hideServicesSection) { %>
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
     <h2>Our <%= service.name %> Services</h2>
@@ -50,9 +50,15 @@
       <h2><%= sec.heading %></h2>
       <% sec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
       <% if (sec.list && sec.list.length) { %>
+      <% if (sec.listStyle === 'tags') { %>
+      <div class="brand-tags" style="margin-top:1rem">
+        <% sec.list.forEach(function(item) { %><span class="tag"><%- item %></span><% }); %>
+      </div>
+      <% } else { %>
       <ul>
         <% sec.list.forEach(function(item) { %><li><%- item %></li><% }); %>
       </ul>
+      <% } %>
       <% } %>
     </div>
   </div>
@@ -83,14 +89,21 @@
 <% if (service.whoContent) { %>
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
-    <div class="prose" style="max-width:760px">
-      <h2><%= service.whoContent.heading %></h2>
+    <h2><%= service.whoContent.heading %></h2>
+    <div class="prose" style="max-width:760px;margin-bottom:2rem">
       <% service.whoContent.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
+    </div>
+    <div class="values-grid">
+      <% service.whyUs.forEach(w => { %>
+      <div class="value-card">
+        <h3><%= w.title %></h3>
+        <p><%= w.desc %></p>
+      </div>
+      <% }) %>
     </div>
   </div>
 </section>
-<% } %>
-
+<% } else { %>
 <section class="values-section">
   <div class="container">
     <h2>Why Choose Scott's for <%= service.name %>?</h2>
@@ -104,6 +117,7 @@
     </div>
   </div>
 </section>
+<% } %>
 
 <section class="content-section alt-bg">
   <div class="container">
