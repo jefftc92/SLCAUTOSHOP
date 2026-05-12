@@ -9,7 +9,7 @@ const services = [
     metaTitle: "Clutch Repair South Salt Lake UT | Specialists Since 1990 | Scott's",
     heading: "Clutch Repair & Replacement in South Salt Lake, UT",
     metaDesc: "Clutch slipping, grinding, or hard to shift? We've specialized in clutch replacement for 36+ years. Free diagnosis. Call (801) 485-4089.",
-    intro: "Scott's has been the clutch shop in South Salt Lake since 1990 — it's literally in the name. Clutch and manual transmission work is what we built around, and it still accounts for a big share of what we do. If your clutch is slipping, grinding when you shift, making noise when you press the pedal, or the pedal feel has changed, we'll diagnose exactly what's happening and explain the repair before any work starts.",
+    intro: "Scott's Auto & Clutch Repair has been the clutch shop in South Salt Lake since 1990 — it's literally in the name. Clutch and manual transmission work is what we built the business around, and it still accounts for a significant share of everything we do. When you bring a clutch problem here, you're not explaining it to a generalist service writer and hoping the right tech gets assigned. You're talking to people who have diagnosed and repaired clutches on every make and model for over three decades. Free diagnosis. Written estimate. No surprises.",
     specializedServices: [
       "Clutch Replacement", "Clutch Adjustment", "Clutch Fluid Flush & Bleeding",
       "Flywheel Resurfacing", "Flywheel Replacement", "Clutch Repair",
@@ -17,17 +17,17 @@ const services = [
       "Throw-out Bearing Replacement", "Clutch Slip Diagnostic"
     ],
     whyUs: [
-      { title: "Clutch Specialists", desc: "Clutch repair is our specialty—it's literally in our name. We've been diagnosing and fixing clutches for over 36 years." },
-      { title: "Honest Diagnosis", desc: "We explain exactly what's wrong and why before recommending any repair. You'll have a clear quote and full understanding before we touch anything." },
-      { title: "Tailored Repairs", desc: "Every vehicle and clutch failure is different. We diagnose what's actually needed—no upselling, no unnecessary work." },
-      { title: "Road-Tested Results", desc: "Every clutch repair is road-tested before the car leaves the shop to verify smooth shifting and proper engagement." }
+      { title: "Clutch Specialists Since 1990", desc: "Clutch work is all we've done since 1990. We're not a general shop that also does clutches — clutch and manual transmission repair is the specialty this business was built on." },
+      { title: "Honest Diagnosis", desc: "We diagnose before we recommend. If it's the hydraulic system and the disc is fine, we tell you that — and we only fix the hydraulic system. We've turned away unnecessary disc replacements more times than we can count." },
+      { title: "Tailored Repairs", desc: "Every clutch failure has a root cause. We find it before we quote anything. That's how we catch contamination from a leaking seal, or a flywheel that'll destroy a new disc in 12,000 miles if it isn't resurfaced first." },
+      { title: "Road-Tested Results", desc: "Every clutch repair ends with a road test — not a parking lot idle. We verify smooth engagement through multiple gears, uphill, and under load before the vehicle goes back to you." }
     ],
     process: [
-      { step: 1, title: "Describe Symptoms", desc: "Tell us what you're experiencing—slipping, grinding, hard to shift, or unusual noises." },
-      { step: 2, title: "Diagnosis", desc: "We road test and inspect to identify whether the clutch disc, pressure plate, hydraulics, or other components are the issue." },
-      { step: 3, title: "Detailed Quote", desc: "You receive a complete estimate before work begins. No surprises." },
-      { step: 4, title: "Repair", desc: "We perform the repair that your vehicle actually needs, verified against our diagnosis." },
-      { step: 5, title: "Road Test & Verify", desc: "We road test to ensure smooth shifting and proper clutch engagement before returning your vehicle." }
+      { step: 1, title: "You Describe What You're Feeling", desc: "Slipping, grinding, a noise, a pedal that changed. The more detail the better, but even 'something feels off' is enough to start." },
+      { step: 2, title: "We Diagnose — Hydraulics First", desc: "We road test and inspect the full clutch system, starting with the hydraulic system — because a cylinder problem looks identical to a disc problem until you test it." },
+      { step: 3, title: "We Walk You Through What We Found", desc: "You get a clear explanation of what's worn or failing, why, and what the repair involves. Written estimate before anything is touched." },
+      { step: 4, title: "We Do the Repair Your Vehicle Needs", desc: "Disc, pressure plate, flywheel resurfacing, throw-out bearing, hydraulic components — only what the diagnosis shows is needed. We inspect adjacent components while we're in there." },
+      { step: 5, title: "Road Test Under Load", desc: "We verify smooth engagement through the gears, uphill, and under acceleration before the car goes back to you." }
     ],
     commonIssues: [
       { title: "Clutch Slipping", desc: "Engine revs but the car doesn't accelerate—the clutch disc can no longer grip the flywheel under load.", symptomSlug: "clutch-slipping" },
@@ -39,33 +39,30 @@ const services = [
     ],
     richContent: [
       {
-        heading: "Flywheel Inspection: The Step That Separates a Lasting Repair from a Repeat Job",
+        heading: "What Does a Clutch Replacement Actually Involve?",
         paras: [
-          "A clutch replacement that installs a new friction disc against a damaged flywheel surface is a repair that will fail prematurely. The flywheel is the mating surface the disc grips — if it's glazed, scored, or heat-cracked from extended slipping, installing new friction material against it produces the same slipping condition within months. Flywheel inspection is not optional when the clutch is accessible; it's the step that determines whether the new disc will outlive the original.",
-          "We measure flywheel runout and inspect the surface condition as part of every clutch job. If the flywheel needs resurfacing, we do it on a brake lathe before the new components go in. If it's cracked or heat-damaged beyond resurfacing spec, we'll tell you that and quote the replacement. This adds time and cost in some cases — but it's the difference between a clutch that lasts 80,000 miles and one that returns in 12,000."
+          "<strong>Clutch disc</strong> — the friction plate that clamps between the flywheel and pressure plate. This is the part that wears with normal use. When the friction material wears thin or becomes glazed, the disc can no longer grip under load — the classic clutch slip condition.",
+          "<strong>Pressure plate</strong> — the spring-loaded clamp that holds the disc against the flywheel. Pressure plates can lose clamping force, crack, or develop hot spots from extended slipping. We inspect the pressure plate condition any time the clutch is accessible.",
+          "<strong>Flywheel</strong> — the heavy rotating disc bolted to the engine crankshaft that the clutch disc grips against. A glazed, scored, or heat-cracked flywheel surface causes a new disc to slip prematurely. We measure flywheel runout and inspect surface condition on every clutch job.",
+          "<strong>Throw-out bearing</strong> — the bearing that contacts the pressure plate fingers when you press the clutch pedal. A worn throw-out bearing squeals or chirps when the pedal is depressed. Since it's accessible during any clutch job, we replace it as part of every complete clutch service.",
+          "<strong>Hydraulic system</strong> — on hydraulically-actuated clutches, the master cylinder at the pedal and the slave cylinder at the transmission convert pedal pressure into clutch release force. A failing cylinder or air in the line produces symptoms identical to a worn disc. We diagnose the hydraulic system before recommending any disc replacement."
         ]
       },
       {
-        heading: "Contamination Is the Failure Mode Nobody Accounts For",
+        heading: "When Should You Come In?",
         paras: [
-          "Oil contamination is one of the most common reasons clutch discs fail significantly before their friction material wears out. A leaking rear main seal or transmission input shaft seal allows engine or gear oil to reach the clutch disc — and a contaminated disc glazes and slips regardless of remaining thickness. Installing a new disc without finding and fixing the leak source produces the same contamination failure in the replacement within a similar mileage window.",
-          "We inspect for oil leaks at both seals whenever the transmission is out. If a seal is seeping, we quote it alongside the clutch job — the labor is already there, and addressing it adds a small fraction of the total cost compared to returning for a separate seal replacement after the new clutch fails. This is the most common clutch-job oversight at shops that don't specialize in clutch work."
-        ]
-      },
-      {
-        heading: "Hydraulic vs. Mechanical: Diagnosing Where the Problem Actually Is",
-        paras: [
-          "Not every clutch problem is a worn disc. A hydraulic release system that's lost pressure — air in the line, a failing slave cylinder, a seeping master cylinder — can produce symptoms that look identical to a worn clutch: difficulty shifting, <a href='/symptoms/grinding-when-shifting'>grinding when shifting</a>, even apparent slipping if the clutch can't fully release. Replacing the disc assembly on a car that actually has a hydraulic problem is an expensive non-fix.",
-          "Our diagnosis starts with the hydraulic system — bleed, pressure test, cylinder condition — before making any recommendation about disc and pressure plate. In many cases the clutch assembly itself is serviceable and only the hydraulic component needs replacement. We've been specializing in clutch systems since 1990 and this diagnostic step is where that experience shows."
+          "Any change in how your clutch feels or behaves is worth having looked at. A slipping disc generates heat that damages the flywheel — what starts as a disc-only job can turn into a flywheel job if it's left too long. A soft pedal that gets ignored usually means a hydraulic cylinder on its way out entirely. Most clutch problems are progressive: catching them early keeps a straightforward repair from becoming a more expensive one.",
+          "The most common reasons drivers bring their vehicle in are slipping under load, grinding or crunching when shifting, difficulty getting into first or reverse, a soft or spongy pedal, a burning smell in stop-and-go traffic or on hills, squealing when the pedal is pressed, or a pedal that just feels different than it used to. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
         ]
       }
     ],
     faq: [
-      { q: "How do I know if my clutch needs replacement?", a: "Common signs include slipping (engine revs without acceleration), difficulty shifting, grinding noises, a burning smell, or a soft/spongy clutch pedal. A quick inspection will tell us exactly what's going on." },
-      { q: "How long does a clutch repair take?", a: "It depends on the vehicle and what we find during diagnosis. Many clutch repairs are completed the same day; more complex situations may require additional time. We'll give you a realistic timeframe when we quote the job." },
-      { q: "Do you work on trucks and SUVs?", a: "Absolutely. We service clutches on all vehicle types including trucks, SUVs, sports cars, and daily drivers." },
-      { q: "Why does my clutch smell like it's burning?", a: "A burning smell typically indicates a slipping clutch. The friction material overheats when it can't grip properly. It's a sign the clutch is near the end of its service life." },
-      { q: "Can you just fix the hydraulic system without replacing the clutch?", a: "Yes, if the disc and pressure plate are still serviceable. We diagnose first—if only the hydraulic system is the issue, that's all we'll recommend fixing." }
+      { q: "Do you resurface the flywheel as part of a clutch job?", a: "We inspect it on every clutch job. If it's glazed, scored, or heat-damaged, we resurface it on our brake lathe before the new disc goes in. Skipping that step is the most common reason a new clutch slips prematurely — the disc has plenty of friction material but nothing good to grip against. If the flywheel is cracked or beyond resurfacing spec, we'll tell you and quote a replacement." },
+      { q: "What causes a clutch to fail before the friction material wears out?", a: "Oil contamination. A leaking rear main seal or transmission input shaft seal lets oil reach the clutch disc — a contaminated disc glazes and slips regardless of remaining thickness. We inspect both seals whenever the transmission is out. If one is seeping, we quote it alongside the clutch job — the labor is already there, and fixing it costs a fraction of returning for a separate repair after the new clutch fails for the same reason." },
+      { q: "How do you tell if it's the clutch disc or the hydraulic system?", a: "A hydraulic problem — air in the line, a failing master or slave cylinder — produces symptoms identical to a worn disc: hard shifting, grinding, apparent slipping. We diagnose the hydraulic system first before making any recommendation about the disc assembly. In many cases the clutch itself is fine and only the hydraulic component needs repair. That diagnostic step is where 36 years of specialization shows." },
+      { q: "How long does a clutch repair take?", a: "Most clutch replacements are completed the same day. More involved jobs — flywheel replacement, hydraulic system work alongside the disc — may require an additional day. We give you a realistic timeframe when we quote the job." },
+      { q: "Do you work on trucks and SUVs?", a: "Yes — we service clutches on all vehicle types: daily drivers, trucks, SUVs, sports cars, and imports." },
+      { q: "Can you fix just the hydraulic system without replacing the clutch?", a: "Yes, if the disc and pressure plate are still serviceable. We diagnose first — if it's a cylinder issue and the clutch assembly is fine, that's all we recommend fixing." }
     ],
     coverageList: [
       "Clutch disc inspection and replacement",
