@@ -9,7 +9,10 @@ const symptoms = [
     relatedService: "clutch-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: true, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "Clutch slipping is when engine RPMs climb but your speed doesn't — the connection between the engine and drivetrain has lost grip, and power isn't reaching the wheels.",
+    intro: "Clutch slipping is when your engine revs climb but your speed doesn't — power isn't reaching the wheels. One of the most common reasons is a worn clutch disc. You can see in the image below that the disc on the left is worn down and can no longer grip, compared to the disc on the right which is brand new. There are several other reasons a clutch can slip, which we cover in the Why Is My Clutch Slipping section below.",
+    introImage: "clutch-disc-inspection-slc.webp",
+    introImageAlt: "Worn clutch disc vs new clutch disc — Scott's Auto & Clutch Repair, Salt Lake City UT",
+    introImageCaption: "Left: worn clutch disc with glazed, heat-discolored friction surface. Right: new replacement disc. When the friction material looks like the left, the clutch can no longer grip the flywheel under load.",
     serviceBlurb: "Clutch slipping almost always means the friction disc is past its service life. We inspect the full clutch assembly and the flywheel condition before recommending a repair, and we also check for oil leaks at the rear main seal and transmission input shaft. Contamination from a leaking seal is a common reason clutches wear out prematurely, and we'd rather find that leak now than after we've installed your new disc. You'll have a complete diagnosis and a written estimate before any work begins.",
     smsBody: "Hi, I'm experiencing clutch slipping or high engagement.",
     causes: [
@@ -23,8 +26,6 @@ const symptoms = [
     richContent: [
       {
         heading: "Is My Clutch Slipping?",
-        image: "clutch-disc-inspection-slc.webp",
-        imageAlt: "Mechanic inspecting a worn clutch disc at Scott's Auto & Clutch Repair, Salt Lake City UT",
         paras: [
           "The main feeling is a disconnect between engine effort and vehicle response — you push the accelerator harder and the engine revs climb, but the car doesn't speed up to match. It's most obvious on hills and freeway onramps where you'd expect both to rise together.",
           "You may also notice the clutch pedal engaging very high in its travel — near the top rather than mid-stroke. A burning smell during or after a steep hill is another sign — that's friction material overheating. If both are happening, the clutch is almost certainly slipping."
