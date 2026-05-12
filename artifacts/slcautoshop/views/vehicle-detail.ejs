@@ -84,12 +84,12 @@
 </section>
 <% } %>
 
-<!-- 4. Common Issues — alt-bg -->
+<!-- 4. Services & Issues — alt-bg -->
 <% if (brandContent && brandContent.issues && brandContent.issues.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>Common <%= brand.name %> Issues We Repair</h2>
-    <p class="section-subtitle">These are the most frequent <%= brand.name %> problems we diagnose and repair at our South Salt Lake shop. Every job starts with a thorough diagnosis so you know exactly what's going on before any work begins.</p>
+    <h2><%= (brandContent.issuesHeading) || ('Common ' + brand.name + ' Issues We Repair') %></h2>
+    <p class="section-subtitle"><%= (brandContent.issuesSubtitle) || ('These are the most frequent ' + brand.name + ' problems we diagnose and repair at our South Salt Lake shop. Every job starts with a thorough diagnosis so you know exactly what\'s going on before any work begins.') %></p>
     <div class="issues-grid">
       <% brandContent.issues.forEach(issue => { %>
       <div class="issue-card">
