@@ -10,7 +10,7 @@ const symptoms = [
     lastUpdated: "May 2026",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: true, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
     intro: "Clutch slipping is when your engine revs climb but your speed doesn't — power isn't reaching the wheels. One of the most common reasons is a worn clutch disc. You can see in the image below that the disc on the left is worn down and can no longer grip, compared to the disc on the right which is brand new. There are several other reasons a clutch can slip, which we cover in the Why Is My Clutch Slipping section below.",
-    introImage: "clutch-disc-inspection-slc.webp",
+    introImage: "clutch-disc-worn-vs-new.png",
     introImageAlt: "Worn clutch disc vs new clutch disc — Scott's Auto & Clutch Repair, Salt Lake City UT",
     introImageCaption: "Left: worn clutch disc with glazed, heat-discolored friction surface. Right: new replacement disc. When the friction material looks like the left, the clutch can no longer grip the flywheel under load.",
     serviceBlurb: "Clutch slipping almost always means the friction disc is past its service life. We inspect the full clutch assembly and the flywheel condition before recommending a repair, and we also check for oil leaks at the rear main seal and transmission input shaft. Contamination from a leaking seal is a common reason clutches wear out prematurely, and we'd rather find that leak now than after we've installed your new disc. You'll have a complete diagnosis and a written estimate before any work begins.",
