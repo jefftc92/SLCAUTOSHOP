@@ -6,6 +6,9 @@
   <div class="page-hero-bg" style="background-image:url('<%= service.heroImage %>')"></div>
   <div class="container">
     <h1><%= service.heading || service.metaTitle %></h1>
+    <% if (service.heroIntro) { %>
+    <p class="hero-intro"><%= service.heroIntro %></p>
+    <% } %>
     <div class="hero-buttons">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
@@ -13,27 +16,80 @@
   </div>
 </section>
 
-<section class="content-section">
+<% var _sec = 0; %>
+
+<% if (service.intro) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
     <div class="prose" style="max-width:760px">
       <p class="intro-lead"><%= service.intro %></p>
     </div>
   </div>
 </section>
+<% } %>
 
-<section class="content-section alt-bg">
+<% if (service.specializedServices && service.specializedServices.length) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
     <h2>Our <%= service.name %> Services</h2>
     <p class="section-subtitle">Every repair starts with a thorough diagnosis. We identify exactly what your vehicle needs, walk you through our findings, and get your approval before any work begins. Depending on what we find, the types of work we commonly perform include:</p>
-    <% if (service.specializedServices && service.specializedServices.length) { %>
     <div class="brand-tags" style="margin-top:1.25rem">
       <% service.specializedServices.forEach(ss => { %>
       <span class="tag"><%= ss %></span>
       <% }) %>
     </div>
-    <% } %>
   </div>
 </section>
+<% } %>
+
+<% if (service.richContent && service.richContent.length) { %>
+<% service.richContent.forEach(function(sec) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <div class="prose" style="max-width:760px">
+      <h2><%= sec.heading %></h2>
+      <% sec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
+      <% if (sec.list && sec.list.length) { %>
+      <ul>
+        <% sec.list.forEach(function(item) { %><li><%- item %></li><% }); %>
+      </ul>
+      <% } %>
+    </div>
+  </div>
+</section>
+<% }); %>
+<% } %>
+
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2><%= service.processHeading || 'How a ' + service.name + ' Repair Works' %></h2>
+    <% if (service.processIntro) { %>
+    <p class="section-subtitle"><%= service.processIntro %></p>
+    <% } %>
+    <div class="process-steps-compact">
+      <% service.process.forEach(p => { %>
+      <div class="process-step-compact">
+        <span class="step-num"><%= p.step %></span>
+        <div>
+          <h3><%= p.title %></h3>
+          <p><%= p.desc %></p>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<% if (service.whoContent) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <div class="prose" style="max-width:760px">
+      <h2><%= service.whoContent.heading %></h2>
+      <% service.whoContent.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
+    </div>
+  </div>
+</section>
+<% } %>
 
 <section class="values-section">
   <div class="container">
@@ -51,67 +107,8 @@
 
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>How a <%= service.name %> Repair Works</h2>
-    <div class="process-steps-compact">
-      <% service.process.forEach(p => { %>
-      <div class="process-step-compact">
-        <span class="step-num"><%= p.step %></span>
-        <div>
-          <h3><%= p.title %></h3>
-          <p><%= p.desc %></p>
-        </div>
-      </div>
-      <% }) %>
-    </div>
-  </div>
-</section>
-
-<% if (service.richContent && service.richContent.length) { %>
-<% service.richContent.forEach(function(sec, i) { %>
-<section class="content-section<%= i % 2 === 0 ? '' : ' alt-bg' %>">
-  <div class="container">
-    <div class="prose" style="max-width:760px">
-      <h2><%= sec.heading %></h2>
-      <% sec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
-      <% if (sec.list && sec.list.length) { %>
-      <ul>
-        <% sec.list.forEach(function(item) { %><li><%= item %></li><% }); %>
-      </ul>
-      <% } %>
-    </div>
-  </div>
-</section>
-<% }); %>
-<% } %>
-<% var richAlt = !(service.richContent && service.richContent.length % 2 === 0); %>
-
-<% if (service.commonIssues && service.commonIssues.length) { %>
-<section class="content-section<%= richAlt ? ' alt-bg' : '' %>">
-  <div class="container">
-    <h2>Symptoms That Bring Drivers In</h2>
-    <div class="issues-grid">
-      <% service.commonIssues.forEach(issue => { %>
-      <div class="issue-card">
-        <% if (issue.symptomSlug) { %>
-        <h3><a href="/symptoms/<%= issue.symptomSlug %>" class="issue-link"><%= issue.title %></a></h3>
-        <% } else { %>
-        <h3><%= issue.title %></h3>
-        <% } %>
-        <p><%= issue.desc %></p>
-        <% if (issue.symptomSlug) { %>
-        <a href="/symptoms/<%= issue.symptomSlug %>" class="card-link-sm">See symptom details →</a>
-        <% } %>
-      </div>
-      <% }) %>
-    </div>
-  </div>
-</section>
-<% } %>
-
-<section class="content-section alt-bg">
-  <div class="container">
     <h2>Where to Find Us</h2>
-    <p>Scott's Auto &amp; Clutch Repair is located at 144 W Crystal Ave in South Salt Lake — centrally positioned in the valley, within 15 minutes of most Salt Lake City zip codes. We're easy to reach from I-15 and serve drivers from Millcreek, Murray, Draper, Sandy, West Jordan, Taylorsville, and across the greater Salt Lake area.</p>
+    <p>Scott's Auto &amp; Clutch Repair is located at 144 W Crystal Ave in South Salt Lake — centrally positioned in the valley, within 15 minutes of most Salt Lake City zip codes. Easy to reach from I-15, serving drivers from Millcreek, Murray, Draper, Sandy, West Jordan, Taylorsville, and across the greater Salt Lake area.</p>
     <div class="symptom-location-grid" style="margin-top:1.5rem">
       <div class="symptom-location-info">
         <div class="location-detail">
@@ -164,7 +161,30 @@
   </div>
 </section>
 
-<% var faqAlt = (service.commonIssues && service.commonIssues.length) ? !richAlt : richAlt; %>
+<% if (service.commonIssues && service.commonIssues.length) { %>
+<section class="content-section">
+  <div class="container">
+    <h2>Symptoms That Bring Drivers In</h2>
+    <div class="issues-grid">
+      <% service.commonIssues.forEach(issue => { %>
+      <div class="issue-card">
+        <% if (issue.symptomSlug) { %>
+        <h3><a href="/symptoms/<%= issue.symptomSlug %>" class="issue-link"><%= issue.title %></a></h3>
+        <% } else { %>
+        <h3><%= issue.title %></h3>
+        <% } %>
+        <p><%= issue.desc %></p>
+        <% if (issue.symptomSlug) { %>
+        <a href="/symptoms/<%= issue.symptomSlug %>" class="card-link-sm">See symptom details →</a>
+        <% } %>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<% var faqAlt = !!(service.commonIssues && service.commonIssues.length); %>
 <%- include('partials/faq') %>
 
 <% if (relatedServices && relatedServices.length) { %>
