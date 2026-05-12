@@ -39,8 +39,6 @@ const symptoms = [
       },
       {
         heading: "Who to Trust for Clutch Slipping Repair in Salt Lake City",
-        image: "clutch-repair-mechanic-slc.webp",
-        imageAlt: "Scott's Auto & Clutch Repair mechanic performing clutch replacement in Salt Lake City, UT",
         paras: [
           "Before we drop the transmission, we check the hydraulic system and inspect for oil leaks at the rear main and input shaft seals — contamination from a leaking seal can destroy a new clutch within months. Once we have access, we measure flywheel runout and inspect the surface for glazing and heat checks. You see the parts before the cost conversation. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch repair service page</a> for what's included.",
           "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. Clutches are one of our highest-volume jobs — we know which platforms have weak points, which aftermarket kits come back, and how to spot the contamination patterns that cause repeat failures."
