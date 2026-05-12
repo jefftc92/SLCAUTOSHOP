@@ -208,7 +208,9 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
 .issue-card .diagnostic-signal p{font-size:.85rem;color:var(--c-text);line-height:1.55;margin:0}
 
 /* === Prose section images === */
-.prose-image{width:100%;height:auto;border-radius:var(--radius);margin:1.25rem 0 1.5rem;box-shadow:var(--shadow)}
+.prose-image{width:100%;height:auto;border-radius:var(--radius);margin:1.25rem 0 0;box-shadow:var(--shadow)}
+.prose-figure{margin:1.25rem 0 1.5rem}
+.prose-figcaption{font-size:.8rem;color:var(--c-text-dim);margin-top:.5rem;line-height:1.5;font-style:italic}
 @media(max-width:600px){.prose-image{border-radius:var(--radius-sm)}}
 
 /* === Cost callout & inline CTA === */

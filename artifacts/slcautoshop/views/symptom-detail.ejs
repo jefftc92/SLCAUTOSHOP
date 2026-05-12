@@ -25,6 +25,14 @@
     <div class="prose" style="max-width:760px">
       <h2>What Is <%= symptom.shortName %>?</h2>
       <p class="intro-lead"><%= symptom.intro %></p>
+      <% if (symptom.introImage) { %>
+      <figure class="prose-figure">
+        <img src="/assets/<%= symptom.introImage %>" alt="<%= symptom.introImageAlt %>" class="prose-image" width="760" height="428" loading="lazy">
+        <% if (symptom.introImageCaption) { %>
+        <figcaption class="prose-figcaption"><%= symptom.introImageCaption %></figcaption>
+        <% } %>
+      </figure>
+      <% } %>
     </div>
   </div>
 </section>
