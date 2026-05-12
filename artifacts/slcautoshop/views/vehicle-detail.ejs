@@ -23,7 +23,7 @@
 <%# 1. WHAT — Vehicles We Service %>
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
-    <h2><%= brand.name %> Vehicles We Service</h2>
+    <h2><%= brandContent.whatHeading || (brand.name + ' Vehicles We Service') %></h2>
     <% if (brandContent.whatIntro) { %>
     <div class="prose" style="max-width:760px;margin-bottom:1.5rem">
       <p><%- brandContent.whatIntro %></p>
@@ -203,8 +203,11 @@
   </div>
 </section>
 
-<%# 11. Other Brands %>
-<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+<%# 11. Testimonials %>
+<%- include('partials/testimonials') %>
+
+<%# 12. Other Brands — always white to contrast testimonials' fixed alt-bg %>
+<section class="content-section">
   <div class="container">
     <h2>Other Vehicle Brands We Service</h2>
     <div class="brand-tags">
@@ -217,9 +220,6 @@
     </div>
   </div>
 </section>
-
-<%# 12. Testimonials %>
-<%- include('partials/testimonials') %>
 
 <% } else { %>
 <%# ============================================================
