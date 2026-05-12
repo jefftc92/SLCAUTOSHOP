@@ -111,7 +111,9 @@ const services = [
     metaTitle: "CV Joint Repair South Salt Lake UT | Axle & Boot Service | Scott's",
     heading: "CV Joint & Axle Repair in South Salt Lake, UT",
     metaDesc: "Clicking when turning? CV axle worn? We replace CV joints, boots & axles for all makes and models. Free diagnosis. Call (801) 485-4089.",
+    heroIntro: "Clicking when you turn or vibration when you accelerate? That's almost always the CV axle. Free diagnosis. Written estimate. No surprises.",
     intro: "If you hear clicking when turning or feel vibration building as you accelerate, the CV axle is usually the source. The outer joint clicks because it can no longer track through tight steering angles without snapping against its worn race. The inner joint produces a shudder when torque loads it while it's worn. We find which joint on which axle is the problem, inspect both boots for tears, and repair only what the inspection shows is needed. Sometimes that's a boot kit, sometimes a full axle.",
+    hideServicesSection: true,
     specializedServices: ["CV Joint Replacement", "CV Axle Replacement", "CV Boot Replacement", "Axle Seal Replacement", "Drivetrain Inspection"],
     whyUs: [
       { title: "Pinpoint Diagnosis", desc: "We identify whether it's the inner or outer joint, which side, and whether the boot is still intact before recommending an axle replacement." },
@@ -119,6 +121,8 @@ const services = [
       { title: "OEM-Quality Axles", desc: "We use OEM-specification CV axles and joints, not cheap offshore units that wear out faster and develop grease leaks prematurely." },
       { title: "Same-Day on Most Vehicles", desc: "Most CV joint and axle repairs are completed the same day you bring the vehicle in." }
     ],
+    processHeading: "How We Diagnose and Repair Your CV Axle",
+    processIntro: "Every CV repair starts with finding the exact joint and axle that's causing the problem. We inspect both boots, both joints on the affected axle, and the opposite axle while the vehicle is up. You get a clear explanation of what we found and a written estimate before we do anything.",
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about clicking when turning, vibration, or grease you've noticed on the inside of your wheel." },
       { step: 2, title: "Inspection", desc: "We inspect the CV boots, joints, and axles to find the exact source of the problem." },
@@ -134,32 +138,47 @@ const services = [
     ],
     richContent: [
       {
-        heading: "Rebuilt Axle vs. CV Joint Kit: What the Repair Involves",
+        heading: "What Does CV Joint Repair Actually Involve?",
         paras: [
-          "CV axle repair takes one of two forms depending on the extent of the damage. A boot replacement (where the joint itself is still serviceable and only the rubber boot and grease need to be restored) is the lower-cost option when caught before the joint has worn. A full axle replacement installs a remanufactured or new axle assembly when the joint has worn past the point where boot replacement would restore it to reliable condition.",
-          "Remanufactured axles are the standard solution on most passenger vehicles. They're built to OEM specification from cores that have been fully disassembled, cleaned, and rebuilt with new joint components. The quality of the remanufactured unit matters significantly. Cheap offshore axles develop grease leaks, vibration, and premature wear. We use OEM-specification axles and warranty the repair."
-        ]
+          "A CV axle is the shaft that transfers engine power from your transmission to your wheels. Each axle has two constant-velocity joints that allow the shaft to flex with suspension movement and steering without binding.",
+          "<strong>Outer CV joint</strong> — connects the axle to the wheel hub and handles the sharp angles of steering. This joint takes the most stress during tight turns and is the one that produces the classic clicking sound when it wears.",
+          "<strong>Inner CV joint</strong> — connects the axle to the transmission and handles the up-and-down plunge movement of the suspension. Wear here typically shows up as a shudder or vibration under acceleration.",
+          "<strong>CV boots</strong> — rubber covers that seal grease inside the joints and keep road debris out. A torn boot is the most common cause of joint failure. If caught early, a boot replacement can save the joint. If ignored, grit gets in and destroys the joint.",
+          "<strong>Axle seals</strong> — where the axle meets the transmission, a seal keeps transmission fluid from migrating into the boot. A seeping seal contaminates the CV grease and shortens the axle's life.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "CV Joint Replacement",
+          "CV Axle Replacement",
+          "CV Boot Replacement",
+          "Axle Seal Replacement",
+          "Drivetrain Inspection"
+        ],
+        listStyle: "tags"
       },
       {
-        heading: "Inner vs. Outer: How the Diagnosis Shapes the Repair",
+        heading: "When Should You Come In?",
         paras: [
-          "Each CV axle has two joints: an outer joint at the wheel hub and an inner joint at the transmission. They fail differently and produce different symptoms. The <a href='/symptoms/clicking-when-turning'>clicking when turning</a> symptom is specifically an outer joint signature: the joint articulates at its maximum angle in a tight turn and snaps against its worn race. <a href='/symptoms/vibration-when-accelerating'>Vibration under acceleration</a> is typically an inner joint problem: the inner joint handles the axle plunge motion and produces a shudder when torque loads it while it's worn.",
-          "This distinction matters because it determines which end of the axle needs attention. In some cases both joints on the same axle have worn; a full axle replacement addresses both. In others, only the outer or inner is worn, and the diagnosis tells us which repair is needed. We inspect both joints during any CV diagnosis."
-        ]
-      },
-      {
-        heading: "Axle Seals and What's Nearby on the Lift",
-        paras: [
-          "When a CV axle is removed from the transmission, the inner axle seal is accessible. If this seal is seeping (allowing transmission fluid to migrate toward the boot), it should be replaced at the same time. A leaking axle seal contaminates the CV grease and shortens the new axle's life. We check seal condition whenever an axle is out and quote it alongside the axle if replacement is needed.",
-          "We also check the opposite axle while the vehicle is on the lift. Both axles are the same age, they've seen the same road conditions, and their boots age at similar rates. If one boot is torn or one joint is worn, the other is worth inspecting closely. Catching a developing problem on the opposite side prevents a second repair visit a few months later."
+          "A clicking CV joint that's ignored will eventually fail completely, and it usually happens without warning. What started as a boot-only repair becomes a full axle job once grit has worked into the joint. A worn inner joint under load can cause loss of drive on hard acceleration. Getting it looked at early keeps a straightforward repair from becoming a more expensive one.",
+          "The most common reasons drivers come in are clicking or popping when turning, vibration that builds during acceleration, a dark grease residue on the inside of a wheel or tire, a clunking sound when shifting between drive and reverse, or a boot they've noticed is torn during a tire rotation. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
         ]
       }
     ],
     faq: [
       { q: "What causes CV joint failure?", a: "Most commonly, the CV boot tears and lets grease out and road grit in, causing the joint to wear out. Regular inspections catch torn boots before the joint is damaged." },
       { q: "Can I drive with a bad CV joint?", a: "A worn CV joint can fail completely, leaving you stranded. It's best to get it repaired promptly once you notice clicking or vibration." },
-      { q: "How long does CV joint repair take?", a: "Most CV axle repairs are completed in 1–3 hours depending on the vehicle." }
+      { q: "How long does CV joint repair take?", a: "Most CV axle repairs are completed in 1–3 hours depending on the vehicle." },
+      { q: "Should I get a rebuilt axle or a CV joint kit?", a: "It depends on how far the damage has progressed. If the boot is torn but the joint is still serviceable, a boot kit works. If the joint has worn from running without grease, a full axle replacement is the reliable option. We inspect and tell you which applies before recommending anything." },
+      { q: "Do you check the opposite axle at the same time?", a: "Yes. Both axles are the same age and see the same road conditions. If one boot is torn or one joint is worn, we inspect the other side closely. Catching a developing problem on the opposite axle prevents a second repair visit a few months later." },
+      { q: "What about the axle seal at the transmission?", a: "We check it whenever an axle is out. A seeping axle seal lets transmission fluid contaminate the CV grease and shorten the new axle's life. If it needs replacement, we quote it alongside the axle job since the labor is already there." }
     ],
+    whoContent: {
+      heading: "Who to Trust for CV Joint Repair in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been working on drivetrains in South Salt Lake since 1990. CV axle and joint work is a regular part of what we do, and we approach it the same way we approach everything: diagnose first, quote before touching anything, and only recommend what the inspection actually shows is needed.",
+        "When you bring your vehicle in, you're working with people who've seen every variation of CV joint failure on every make and model. We check the full axle, both joints, both boots, and the opposite side before making any recommendation. You'll know exactly what we found and why we're recommending what we are."
+      ]
+    },
     hasGeoPages: false,
     relatedSlugs: ["clutch-repair-near-south-salt-lake-ut", "strut-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -173,7 +192,9 @@ const services = [
     metaTitle: "Brake Service South Salt Lake UT | Pads, Rotors & Calipers | Scott's",
     heading: "Brake Service & Repair in South Salt Lake, UT",
     metaDesc: "Squeaking or grinding brakes? We replace pads, rotors, and calipers for all makes. Free brake inspection. South Salt Lake, UT. (801) 485-4089.",
+    heroIntro: "Squeaking or grinding brakes? We measure before we recommend anything. Free inspection. Written estimate. No surprises.",
     intro: "If your brakes are squeaking, grinding, or the pedal feels softer than it used to, bring it in. We measure pad thickness, check rotor runout, inspect the calipers, and assess the hydraulic system before recommending anything. Utah's canyon grades and stop-and-go traffic wear brakes faster than flat-highway driving, and we account for how you actually drive when selecting pad compounds and making replacement calls.",
+    hideServicesSection: true,
     specializedServices: ["Brake Pad Replacement", "Rotor Resurfacing", "Rotor Replacement", "Brake Caliper Service", "Brake Fluid Flush", "Brake Line Repair", "Emergency Brake Service", "ABS Diagnostics"],
     whyUs: [
       { title: "Measure Before Replacing", desc: "We measure pad thickness and rotor runout before recommending replacement. If rotors are within spec, we say so." },
@@ -181,6 +202,8 @@ const services = [
       { title: "Pad Compound Matching", desc: "Canyon driving, heavy towing, and daily city use each call for a different pad compound. We match the spec to how you actually drive." },
       { title: "Hydraulic Check Every Time", desc: "Every brake job includes a fluid condition check. Degraded brake fluid has a lower boiling point, which is a real risk on hard stops and canyon descents." }
     ],
+    processHeading: "How We Inspect and Repair Your Brakes",
+    processIntro: "Every brake service starts with a full system inspection. We measure pad thickness, check rotor condition, inspect calipers and slide pins, and assess the hydraulic system before recommending anything. You get a written estimate before we touch a single part.",
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about squeaking, grinding, vibration, or soft pedal feel." },
       { step: 2, title: "Brake Inspection", desc: "We measure pads, rotors, and inspect calipers, lines, and fluid condition." },
@@ -196,24 +219,33 @@ const services = [
     ],
     richContent: [
       {
-        heading: "Brake Pad Compound Selection: Why One Spec Doesn't Fit Every Driver",
+        heading: "What Does Brake Service Actually Involve?",
         paras: [
-          "Brake pads come in several friction compound categories (organic, semi-metallic, and ceramic), and the right choice depends on how and where the vehicle is driven. Organic pads are quiet and gentle on rotors but fade earlier under sustained heat, making them a poor choice for drivers in Holladay or Cottonwood Heights who regularly descend canyon grades. Semi-metallic pads handle heat better but generate more dust and noise. Ceramic pads offer good heat tolerance, minimal dust, and rotor-friendly friction characteristics, making them the right spec for most Utah drivers who use canyon roads regularly.",
-          "The OEM pad specification for a vehicle is designed for the vehicle's weight, rotor size, and typical use case, not necessarily for Utah's stop-and-go hills and mountain grades. When pad compound selection is part of the conversation, we discuss your actual driving pattern before making a recommendation."
-        ]
+          "Your brake system has several components that work together to slow the vehicle. When any one of them wears or fails, it affects the rest. Here's what we inspect on every brake job.",
+          "<strong>Brake pads</strong> — the friction material that clamps against the rotor to slow the wheel. Pads wear gradually and have a built-in wear indicator that starts squealing when they're getting thin. Once they're gone, rotors take the damage.",
+          "<strong>Rotors</strong> — the discs that rotate with the wheel. We measure thickness and runout before deciding whether to resurface or replace. Warped rotors cause the pulsation you feel through the pedal or steering wheel when braking.",
+          "<strong>Calipers and slide pins</strong> — the calipers squeeze the pads against the rotor using hydraulic pressure. They float on slide pins that must move freely. A seized slide pin causes one pad to drag constantly, wearing unevenly and building heat.",
+          "<strong>Brake fluid</strong> — the hydraulic fluid that transfers pedal force to the calipers. Fluid absorbs moisture over time, which lowers its boiling point. On canyon descents or repeated hard stops, degraded fluid can briefly vaporize and cause a soft pedal.",
+          "<strong>Brake lines and hoses</strong> — carry fluid from the master cylinder to the calipers. Rubber hoses can swell internally and trap pressure, causing a dragging caliper even after you release the pedal.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "Brake Pad Replacement",
+          "Rotor Resurfacing",
+          "Rotor Replacement",
+          "Brake Caliper Service",
+          "Brake Fluid Flush",
+          "Brake Line Repair",
+          "Emergency Brake Service",
+          "ABS Diagnostics"
+        ],
+        listStyle: "tags"
       },
       {
-        heading: "Caliper Slide Pins: The Component Behind Premature Pad Wear",
+        heading: "When Should You Come In?",
         paras: [
-          "Brake calipers float on two lubricated steel slide pins that allow the caliper to center itself against both brake pad faces. When a slide pin corrodes or its rubber boot tears, the caliper can no longer float. One pad stays pressed against the rotor continuously, wearing several times faster than the other. The resulting uneven wear pattern produces squealing before the inner pad wears out, and the overloaded pad and rotor develop hot spots that eventually cause <a href='/symptoms/vibration-when-braking'>pulsation under braking</a>.",
-          "Slide pin inspection and re-lubrication is part of every brake service we perform. It's a simple step that costs nothing additional, but it's also the step that many shops skip and then miss the root cause of premature wear. If a pin has seized beyond lubrication, replacement is inexpensive and straightforward."
-        ]
-      },
-      {
-        heading: "The Hydraulic System Check That Every Brake Job Should Include",
-        paras: [
-          "Brake fluid degrades over time by absorbing atmospheric moisture through rubber hoses and reservoir seals. As moisture content increases, the fluid's boiling point drops. Under normal daily use, this isn't noticeable. Under sustained heavy use (a canyon descent, repeated emergency stops, towing on a grade), degraded fluid can reach its boiling point and briefly vaporize, creating gas in the hydraulic circuit that compresses rather than transmitting pressure. The result is a suddenly <a href='/symptoms/soft-brake-pedal'>soft brake pedal</a> at the moment maximum braking force is needed.",
-          "We check fluid condition as part of every brake service. If the fluid is due for replacement based on moisture content or the vehicle's service history, we'll note it and explain why it matters. Utah's mountain terrain makes brake fluid condition more consequential here than for drivers in flat geography."
+          "Brakes that are ignored past the squealing stage start grinding, and grinding brakes score the rotors with every stop. What was a pad-only job becomes a pad-plus-rotors job. A soft pedal that keeps getting softer usually means a hydraulic component is on its way out entirely. Utah's canyon grades and stop-and-go traffic make brake wear faster than flat-highway driving, so waiting to see how long you can stretch it tends to cost more in the end.",
+          "The most common reasons drivers come in are squealing or grinding when braking, a pedal that feels lower or softer than usual, vibration or pulsation through the pedal or steering wheel, pulling to one side under braking, or a brake warning light. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
         ]
       }
     ],
@@ -221,8 +253,18 @@ const services = [
       { q: "How often should brakes be inspected?", a: "We recommend a brake inspection every 15,000–20,000 miles, or any time you notice a change in feel, noise, or stopping distance. Utah's stop-and-go traffic wears brakes faster than highway driving." },
       { q: "Can you resurface my rotors?", a: "If they're within manufacturer specification, yes. If they're too thin or warped, replacement is the safer option. We measure before making any recommendation." },
       { q: "How long does a brake job take?", a: "A straightforward pad replacement with no rotor issues is typically 1–2 hours. If rotors need resurfacing or replacement, add 30–60 minutes. We'll give you a realistic timeframe when we quote the job." },
-      { q: "Do I need to replace all four brakes at once?", a: "Not necessarily. Brakes are typically serviced by axle (front or rear) based on where the wear is. We measure all four corners and recommend only what the inspection shows is needed." }
+      { q: "Do I need to replace all four brakes at once?", a: "Not necessarily. Brakes are typically serviced by axle (front or rear) based on where the wear is. We measure all four corners and recommend only what the inspection shows is needed." },
+      { q: "Does pad compound selection matter for Utah driving?", a: "It does. Organic pads fade faster under sustained heat, which matters on canyon descents. Ceramic pads handle heat better and are easier on rotors. We match the compound to how you actually drive, not just the OEM spec." },
+      { q: "What do seized caliper slide pins actually do to my brakes?", a: "A seized slide pin means one brake pad is always pressing against the rotor, even when you're not braking. That pad wears out much faster than the other, and the constant friction builds heat that warps the rotor. We inspect and lubricate slide pins on every brake job." },
+      { q: "Why does degraded brake fluid matter?", a: "Brake fluid absorbs moisture over time, which drops its boiling point. Under hard or sustained braking, degraded fluid can vaporize and briefly compress instead of transmitting pressure, causing a soft pedal at the worst possible moment. Utah's mountain terrain makes this more relevant here than in flat geography." }
     ],
+    whoContent: {
+      heading: "Who to Trust for Brake Service in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been servicing brakes in South Salt Lake since 1990. We take the same approach here that we take with everything: inspect and measure before recommending, quote before touching, and only address what the inspection actually shows is needed. Utah drivers who use canyon roads regularly wear brakes faster, and we account for that when we're making pad compound and replacement calls.",
+        "When you bring your vehicle in, you get a complete brake inspection across all four corners, including pads, rotors, calipers, slide pins, and fluid condition. You'll know exactly what we found, what we recommend, and why before any work starts. No pressure to do more than your vehicle actually needs."
+      ]
+    },
     hasGeoPages: false,
     relatedSlugs: ["strut-replacement-near-south-salt-lake-ut", "shock-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -236,7 +278,9 @@ const services = [
     metaTitle: "Timing Chain Repair South Salt Lake UT | Engine Rattling? | Scott's",
     heading: "Timing Chain Replacement in South Salt Lake, UT",
     metaDesc: "Engine rattling on startup? Don't wait—timing chain failure can destroy your engine. Free diagnosis at Scott's Auto. Call (801) 485-4089.",
+    heroIntro: "Engine rattling at startup? That's a worn timing chain, and it gets worse the longer you wait. Free diagnosis. Written estimate. No surprises.",
     intro: "That metallic rattling in the first few seconds after a cold start is the most common sign of a worn timing chain. The chain has stretched, and it slaps against the guides before oil pressure builds enough to tension it. It quiets down as the engine warms, which makes it easy to dismiss, but a chain that's already slapping has weakened the plastic guides, and a jumped or broken chain on an interference engine damages the valvetrain without further warning. Timing-related codes alongside startup rattling are a combination worth diagnosing soon.",
+    hideServicesSection: true,
     specializedServices: ["Timing Chain Replacement", "Tensioner Replacement", "Guide Replacement", "Timing Cover Gasket", "Oil Pump Chain Service"],
     whyUs: [
       { title: "Engine Specialists", desc: "Timing chain work requires precision. Our mechanics have decades of hands-on experience diagnosing and replacing timing systems across a wide range of engines." },
@@ -244,6 +288,8 @@ const services = [
       { title: "Prevent Catastrophic Damage", desc: "A jumped or broken timing chain can destroy an engine. Early diagnosis is far less expensive than the alternative." },
       { title: "Confirm Before Replacing", desc: "We verify chain stretch with measurement and cam/crank fault codes before recommending the job. Valve train noise and oil pressure issues can mimic a failing chain." }
     ],
+    processHeading: "How We Diagnose and Replace Your Timing Chain",
+    processIntro: "We verify chain stretch with measurement and cam/crank fault codes before recommending the job. Valve train noise and oil pressure issues can mimic a failing chain, so we confirm the cause first, walk you through what we found, and get your written approval before work begins.",
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about rattling on startup, check engine light, or loss of power." },
       { step: 2, title: "Diagnosis", desc: "We inspect chain stretch, tensioner condition, and cam/crank correlation to understand the full scope." },
@@ -259,32 +305,47 @@ const services = [
     ],
     richContent: [
       {
-        heading: "Chain, Guides, and Tensioner: Why All Three Are Addressed at the Same Time",
+        heading: "What Does Timing Chain Replacement Actually Involve?",
         paras: [
-          "The timing chain system has three interdependent components. The chain is the load-bearing element and stretches over time. The plastic guides are the sliding contact surfaces the chain runs against, wearing gradually as the chain contacts them through millions of cycles. The hydraulic tensioner uses oil pressure to push a slipper against the chain, maintaining tension as the chain stretches. When one component is worn, the others are typically close behind.",
-          "Replacing only the chain on a system with worn guides leaves the new chain running against abraded plastic that no longer provides a consistent contact surface. Replacing the chain and guides on a system with a tensioner that's lost its hydraulic efficiency produces rattling as oil pressure cycles. We replace the complete kit (chain, guides, and tensioner) and inspect the tensioner oil feed passages for sludge blockage that would starve the tensioner after the job."
-        ]
+          "The timing chain keeps your engine's crankshaft and camshaft synchronized. When it stretches or fails, the entire valve timing sequence falls out of spec and the engine can be seriously damaged.",
+          "<strong>Timing chain</strong> — the load-bearing link between the crank and cam sprockets. Chains stretch gradually over time, especially on engines with irregular oil changes. A stretched chain slaps against the guides at startup before oil pressure builds enough to tension it.",
+          "<strong>Chain guides</strong> — plastic rails the chain runs against. They wear as the chain contacts them through millions of cycles. A chain replacement without guide replacement leaves the new chain running against worn plastic.",
+          "<strong>Hydraulic tensioner</strong> — uses oil pressure to push a slipper against the chain and maintain tension as the chain stretches. If tensioner oil passages are sludged, the tensioner can't do its job even after a new chain is installed.",
+          "<strong>VVT components</strong> — many modern engines use variable valve timing solenoids and phasers that work in conjunction with the chain. Timing-related fault codes (P0016, P0017) often involve these components alongside chain stretch.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "Timing Chain Replacement",
+          "Tensioner Replacement",
+          "Guide Replacement",
+          "Timing Cover Gasket",
+          "Oil Pump Chain Service"
+        ],
+        listStyle: "tags"
       },
       {
-        heading: "Why Oil Change History Is Part of the Timing Chain Conversation",
+        heading: "When Should You Come In?",
         paras: [
-          "Timing chain stretch is directly related to oil condition over the engine's life. Clean oil with intact additives keeps chain roller pins lubricated and reduces wear at each contact point. Degraded oil deposits carbon varnish on tensioner oil passages, starving the tensioner of the pressure it needs to maintain chain tension. Engines with consistent oil changes at proper intervals develop timing chain problems at significantly higher mileage than engines with extended or missed changes.",
-          "When we diagnose a timing chain issue, we also look at oil condition and ask about service history. If the tensioner passages are sludged, an oil system flush is part of the service. This restores proper oil flow to the tensioner before the new chain goes in, and it prevents the new tensioner from developing the same problem as the old one. It's not a standard recommendation at most shops, but it matters."
-        ]
-      },
-      {
-        heading: "Interference Engines and Why Timing Chain Codes Are Urgent",
-        paras: [
-          "On a non-interference engine, a jumped or broken timing chain stops the engine but typically doesn't damage internal components. On an interference engine (which covers most modern 4-cylinders and many V6s), the pistons and valves share overlapping zones of travel and are kept from colliding only by precise camshaft timing. A chain that has already jumped a tooth means cam timing is offset, and continued driving risks valve-to-piston contact.",
-          "A <a href='/symptoms/check-engine-timing'>timing-related check engine code</a> alongside a <a href='/symptoms/engine-rattling'>startup rattle</a> on an interference engine is a combination that warrants prompt diagnosis. We check whether the chain has already jumped before disassembly. A cam-to-crank correlation check tells us the extent of the timing offset so we understand what we're dealing with before the job begins."
+          "A startup rattle that you dismiss because it quiets down as the engine warms is still doing damage every time you start the car. The chain is slapping against the guides before oil pressure builds, and each episode wears the plastic guides further. On interference engines, a chain that's stretched far enough to jump a tooth can cause piston-to-valve contact without any additional warning. Catching it at the rattle stage is far less expensive than catching it after.",
+          "The most common reasons drivers come in are a metallic rattling sound in the first few seconds after a cold start, timing-related check engine codes (P0016, P0017), noticeable power loss, rough running or misfires, or a vehicle that simply won't start. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
         ]
       }
     ],
     faq: [
       { q: "How do I know if my timing chain needs replacement?", a: "The most common signs are a metallic rattle on cold startup that quiets as the engine warms, timing-related check engine codes (P0016, P0017), or noticeable power loss. Some vehicles have no warning before the chain jumps or breaks. At 150,000+ miles, a proactive inspection is worth doing." },
       { q: "Can a timing chain last the life of the engine?", a: "Some do, but many don't. It depends heavily on oil change history and the specific engine design. Engines with known tensioner weaknesses or that have seen irregular oil changes often develop chain wear well before 200,000 miles." },
-      { q: "What happens if I don't replace a worn timing chain?", a: "On a non-interference engine, the chain eventually breaks and the engine stops. On an interference engine (which includes most modern 4-cylinders), the chain can jump or break, causing piston-to-valve contact and catastrophic engine damage. Early diagnosis is far less expensive than the alternative." }
+      { q: "What happens if I don't replace a worn timing chain?", a: "On a non-interference engine, the chain eventually breaks and the engine stops. On an interference engine (which includes most modern 4-cylinders), the chain can jump or break, causing piston-to-valve contact and catastrophic engine damage. Early diagnosis is far less expensive than the alternative." },
+      { q: "Do you replace the guides and tensioner along with the chain?", a: "Yes. The chain, guides, and tensioner are interdependent. Replacing only the chain on a system with worn guides leaves the new chain running against abraded plastic. We replace the complete kit and inspect the tensioner oil feed passages for sludge that would starve the tensioner after the job." },
+      { q: "Does oil change history really affect timing chain wear?", a: "Significantly. Clean oil keeps the chain roller pins lubricated and the tensioner passages clear. Degraded oil deposits carbon varnish that clogs the tensioner oil passages and accelerates chain stretch. If we find sludge, an oil system flush is part of the service before the new chain goes in." },
+      { q: "How urgent is a timing chain code on an interference engine?", a: "Very urgent. On an interference engine, the pistons and valves share overlapping travel zones and are only kept apart by precise cam timing. A chain that has already jumped a tooth means valve timing is offset, and continued driving risks valve-to-piston contact. We check cam-to-crank correlation before disassembly to understand the extent of the timing offset." }
     ],
+    whoContent: {
+      heading: "Who to Trust for Timing Chain Repair in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been diagnosing and repairing engines in South Salt Lake since 1990. Timing chain work requires precision and a thorough understanding of the full system. We verify chain stretch with measurement and cam/crank data before recommending the job, not just on the basis of a startup rattle that could have other causes.",
+        "When you bring your vehicle in, you get a diagnosis that covers the chain, guides, tensioner, VVT components, and oil system condition before we quote anything. We explain what we found and why it matters, and we get your written approval before work begins. No replacing parts until we know exactly what the engine needs."
+      ]
+    },
     hasGeoPages: false,
     relatedSlugs: ["timing-belt-replacement-near-south-salt-lake-ut", "water-pump-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -298,7 +359,9 @@ const services = [
     metaTitle: "Water Pump Replacement South Salt Lake UT | Cooling System | Scott's",
     heading: "Water Pump Replacement in South Salt Lake, UT",
     metaDesc: "Overheating or coolant leak? Water pump failure is a common cause. We diagnose and replace water pumps for all makes. Call (801) 485-4089.",
+    heroIntro: "Overheating or coolant leaking near the front of the engine? The water pump is a common cause. Free diagnosis. Written estimate. No surprises.",
     intro: "A failing water pump usually gives you a warning before it fails completely: a seep from the weep hole near the front of the engine, a temperature gauge that climbs higher than normal in traffic, or a grinding noise from the bearing. We pressure-test the cooling system to confirm the pump is the source, then check what else is accessible during the same labor. The thermostat, hoses, and often the timing belt share the same access and are worth addressing together if they're near their service interval.",
+    hideServicesSection: true,
     specializedServices: ["Water Pump Replacement", "Coolant Flush", "Thermostat Replacement", "Cooling System Pressure Test", "Radiator Hose Replacement"],
     whyUs: [
       { title: "Pressure-Test First", desc: "We pressure-test the cooling system before replacing the pump, confirming the pump is the source and not the thermostat, hose, or head gasket." },
@@ -306,6 +369,8 @@ const services = [
       { title: "Labor Overlap Planning", desc: "Water pump replacement often shares access with the timing belt. If both are near their service intervals, combining them saves significant labor cost." },
       { title: "Verify Before Return", desc: "After replacement we pressure-test again and confirm operating temperature is stable before the vehicle leaves the shop." }
     ],
+    processHeading: "How We Diagnose and Replace Your Water Pump",
+    processIntro: "We pressure-test the cooling system before recommending a pump replacement, confirming the pump is the actual source. Then we check what else is accessible during the same labor so you can make an informed decision about what to combine.",
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about overheating, coolant loss, or unusual noises from the engine area." },
       { step: 2, title: "Diagnosis", desc: "We pressure-test the cooling system and inspect the water pump and related components." },
@@ -320,32 +385,47 @@ const services = [
     ],
     richContent: [
       {
-        heading: "Labor Overlap: Combining Water Pump with Timing Belt or Chain Service",
+        heading: "What Does Water Pump Replacement Actually Involve?",
         paras: [
-          "On many engines, accessing the water pump requires removing the timing belt cover or timing chain cover, the same labor required for timing component service. When both the water pump and timing belt are at or near their service intervals, combining them in one visit saves several hours of labor compared to doing them as separate jobs. We discuss this combination upfront when both components are due.",
-          "The water pump drives directly off the timing belt on many 4-cylinder engines, which means a failed water pump can damage the timing belt it's driving, and a broken timing belt will stop the water pump. On these engines, replacing them together is standard practice rather than optional."
-        ]
+          "The water pump is what keeps coolant moving through your engine. When it fails, the engine overheats. Most water pumps give some warning before they fail completely, which is the time to act.",
+          "<strong>Water pump body and shaft seal</strong> — the pump turns a vane wheel inside the engine, driven by the timing belt, timing chain, or a separate drive belt. When the shaft seal fails, coolant leaks out through the weep hole near the front of the engine. That drip is a designed warning signal built into the pump.",
+          "<strong>Impeller</strong> — the internal vane wheel that actually moves the coolant. On some pumps, the impeller can corrode away or separate from the shaft without any external leak. The pump turns but circulates almost no coolant, causing the engine to run hot with no visible puddle to explain it.",
+          "<strong>Thermostat</strong> — a valve that controls how much coolant flows to the radiator based on temperature. Its labor overlaps with the water pump on most engines. We recommend replacing it at the same time rather than leaving an aging thermostat in against a new pump.",
+          "<strong>Coolant hoses</strong> — we inspect all hoses while the system is open. A softened or blistered hose should be addressed before it fails on a recently repaired cooling system.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "Water Pump Replacement",
+          "Coolant Flush",
+          "Thermostat Replacement",
+          "Cooling System Pressure Test",
+          "Radiator Hose Replacement"
+        ],
+        listStyle: "tags"
       },
       {
-        heading: "Impeller Failure: The Water Pump Problem That Doesn't Leave Puddles",
+        heading: "When Should You Come In?",
         paras: [
-          "Water pumps fail in two distinct ways. Shaft seal failure leaks coolant externally: you'll see it at the weep hole or as a puddle under the front of the engine. Impeller failure is less obvious. The pump's internal vane wheel corrodes away or separates from the shaft, so the pump turns but circulates little coolant. Engine temperature climbs gradually, especially in stop-and-go or under load, without a visible leak to explain it.",
-          "Impeller failure is more common on pumps with composite or pressed-on impellers rather than cast iron, and on engines where coolant was not maintained at the correct pH and corrosion inhibitor concentration. We inspect impeller condition when diagnosing <a href='/symptoms/engine-overheating'>overheating</a> and <a href='/symptoms/coolant-leak'>coolant loss</a> that doesn't have an obvious external source."
-        ]
-      },
-      {
-        heading: "Thermostat and Hoses: What We Check at the Same Time",
-        paras: [
-          "The thermostat is a mechanical valve that opens and closes based on coolant temperature, controlling coolant flow through the radiator. Its most common failure mode is sticking closed, which blocks coolant circulation and causes rapid overheating. It can also stick open, preventing the engine from reaching operating temperature and degrading fuel economy and heater output.",
-          "Thermostats are inexpensive components, and their replacement labor largely overlaps with water pump access on most engines. We recommend replacing the thermostat alongside the water pump rather than leaving an aging thermostat in place against a new pump. Similarly, we inspect all coolant hoses while the system is open. A hose that's softened or blistered should be addressed before it fails after a recent cooling system repair."
+          "A slow seep from the water pump weep hole gives you some warning, but ignoring it risks a sudden complete seal failure that dumps coolant fast. Even a few minutes of driving with critically low coolant can warp an aluminum cylinder head. An overheating engine that you manage by adding coolant regularly is telling you the pump may already be failing. Catching it before a full breakdown keeps the repair straightforward.",
+          "The most common reasons drivers come in are a rising temperature gauge in stop-and-go or under load, coolant dripping near the front of the engine, a whining or grinding sound from the front of the engine, coolant that keeps disappearing with no visible puddle, or the engine running hot after a recent repair to another cooling system component. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
         ]
       }
     ],
     faq: [
       { q: "How do I know if my water pump is failing?", a: "Signs include coolant dripping from near the front of the engine (from the weep hole), rising temperature gauge in stop-and-go or under load, or a whining/grinding sound from the front of the engine. Any of these warrants a cooling system inspection before an overheating event occurs." },
       { q: "Can the water pump be replaced without replacing the timing belt?", a: "Yes, on engines where they're not directly connected. On engines where the timing belt drives the water pump, we recommend doing both. It's more economical than two separate jobs." },
-      { q: "What happens if I keep driving with a leaking water pump?", a: "A slow seep from the weep hole gives you some time, but ignoring it risks a complete seal failure that dumps coolant rapidly. Even a few minutes of driving with critically low coolant can warp an aluminum cylinder head." }
+      { q: "What happens if I keep driving with a leaking water pump?", a: "A slow seep from the weep hole gives you some time, but ignoring it risks a complete seal failure that dumps coolant rapidly. Even a few minutes of driving with critically low coolant can warp an aluminum cylinder head." },
+      { q: "Should I combine water pump and timing belt service?", a: "On most engines, yes. They share the same access, and combining them saves several hours of labor compared to doing them separately. On engines where the timing belt drives the water pump directly, doing them together is standard practice rather than optional." },
+      { q: "What is impeller failure and how do you diagnose it?", a: "Impeller failure is when the pump's internal vane wheel corrodes or separates from the shaft. The pump turns but moves almost no coolant. The engine runs hot without an obvious external leak. We inspect impeller condition when we see overheating that doesn't have a visible source." },
+      { q: "Why replace the thermostat alongside the water pump?", a: "The labor largely overlaps on most engines, so combining them costs very little extra. Leaving an aging thermostat in place against a new pump is the kind of decision that often results in a return visit a few months later when the thermostat sticks." }
     ],
+    whoContent: {
+      heading: "Who to Trust for Water Pump Replacement in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been diagnosing and repairing cooling systems in South Salt Lake since 1990. We pressure-test before recommending a pump replacement, which means we're confirming the pump is actually the problem rather than assuming. We also check what else is accessible at the same time so you can decide whether to combine services and save on labor.",
+        "When you bring your vehicle in, you get a complete cooling system assessment. We explain what we found, what we recommend, and why before any work starts. If combining services makes sense for your vehicle's mileage and service history, we'll tell you. If it doesn't, we'll tell you that too."
+      ]
+    },
     hasGeoPages: false,
     relatedSlugs: ["timing-chain-repair-near-south-salt-lake-ut", "timing-belt-replacement-near-south-salt-lake-ut", "exhaust-repair-near-south-salt-lake-ut"]
   },
@@ -359,7 +439,9 @@ const services = [
     metaTitle: "Exhaust Repair South Salt Lake UT | Muffler & Pipe | Scott's Auto",
     heading: "Exhaust System Repair & Muffler Service in South Salt Lake, UT",
     metaDesc: "Loud exhaust or exhaust smell in the cabin? We weld and replace mufflers, pipes & manifolds. Free exhaust inspection. Call (801) 485-4089.",
+    heroIntro: "Exhaust louder than it should be, or smelling fumes in the cabin? We find the source and fix it. Free inspection. Written estimate. No surprises.",
     intro: "If your exhaust is louder than it used to be, has a cold-start ticking at idle, or you can smell exhaust inside the cabin, there's a leak somewhere between the manifold and the tailpipe. We put the vehicle on a lift, inspect the full system, and find everything rather than just the problem you noticed. Our in-house welding means we can often repair rather than replace, which matters on older vehicles and imports where exact-fit replacement sections aren't stocked locally.",
+    hideServicesSection: true,
     specializedServices: ["Muffler Repair", "Muffler Replacement", "Exhaust Pipe Replacement", "Exhaust Manifold Repair", "Custom Exhaust Welding", "Flex Pipe Replacement"],
     whyUs: [
       { title: "In-House Welding", desc: "Our welding capability means many exhaust leaks and cracks can be repaired without replacing the full section—saving you money." },
@@ -367,6 +449,8 @@ const services = [
       { title: "Full System Inspection", desc: "We inspect from manifold to tailpipe—finding all issues at once rather than treating symptoms one at a time." },
       { title: "Repair or Replace", desc: "We repair when possible and replace when necessary. You'll always know which approach we're recommending and why." }
     ],
+    processHeading: "How We Inspect and Repair Your Exhaust System",
+    processIntro: "We put the vehicle on a lift and inspect the full system from manifold to tailpipe, not just the spot that's making noise. Our in-house welding means we can often repair rather than replace, and we explain which approach makes more sense before quoting either one.",
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about loud exhaust, rattling, exhaust smell in the cabin, or a failed emissions test." },
       { step: 2, title: "Inspection", desc: "We put the vehicle on a lift and inspect the entire exhaust system for leaks, damage, and worn hangers." },
@@ -382,32 +466,49 @@ const services = [
     ],
     richContent: [
       {
-        heading: "In-House Welding: What It Changes About Exhaust Repair Options",
+        heading: "What Does Exhaust Repair Actually Involve?",
         paras: [
-          "Most independent shops don't have welding capability, so they replace sections they can't bolt together. Our in-house welding means we can cut out a failed section and weld in a new piece, repair a cracked manifold flange, or fabricate a custom section when an exact replacement isn't available or costs more than a fabricated solution. This repair flexibility is particularly relevant for older vehicles and import models where replacement sections aren't stocked locally.",
-          "For many exhaust repairs, the cost difference between a weld repair and a full section or system replacement is significant. We assess what's structurally sound and what isn't before making a recommendation. We don't push toward replacement when a well-executed weld repair is the better value."
-        ]
+          "Your exhaust system runs from the engine's exhaust manifold all the way to the tailpipe, treating and routing combustion gases out of the vehicle. A leak anywhere in that path can cause noise, fumes in the cabin, or a failed emissions test.",
+          "<strong>Exhaust manifold</strong> — bolted directly to the engine, it collects exhaust gases from each cylinder. Manifolds crack from heat cycling and produce a cold-start ticking that quiets as the metal expands. A cracked manifold near the firewall can push fumes into the cabin.",
+          "<strong>Flex pipe</strong> — a flexible section that absorbs engine movement and vibration. Flex pipes crack and separate with age, especially on vehicles with broken hangers that let the exhaust sag and stress the flex section.",
+          "<strong>Catalytic converter</strong> — reduces harmful emissions. We include it in every exhaust inspection even when it's not the presenting symptom.",
+          "<strong>Muffler</strong> — reduces exhaust noise. A rusted or damaged muffler produces a noticeably louder exhaust note.",
+          "<strong>Exhaust hangers</strong> — rubber-isolated mounting points that let the exhaust flex with road vibration. A broken hanger causes the exhaust to sag and stress the nearest rigid joint until it cracks. They're an inexpensive repair on their own.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "Muffler Repair",
+          "Muffler Replacement",
+          "Exhaust Pipe Replacement",
+          "Exhaust Manifold Repair",
+          "Custom Exhaust Welding",
+          "Flex Pipe Replacement"
+        ],
+        listStyle: "tags"
       },
       {
-        heading: "Exhaust Manifold Cracks: A Different Category From Downstream Failures",
+        heading: "When Should You Come In?",
         paras: [
-          "Exhaust manifold cracks sit close to the firewall, exhaust fumes from a manifold crack can enter the engine bay near the HVAC fresh-air intake, and the symptom is often an <a href='/symptoms/exhaust-smell-in-cabin'>exhaust smell in the cabin</a> rather than increased exhaust volume. Manifold cracks also produce a characteristic cold-start ticking that quiets as the metal expands from heat.",
-          "Manifold repairs vary: some manifold cracks can be welded when the crack is in the casting body and enough material remains for a solid repair. Cracked manifold flanges (where the manifold meets the engine or the downpipe) often require flange replacement or a new manifold section. On some engines, broken manifold studs are a separate common failure that accompanies cracking. We assess manifold condition as part of any exhaust system inspection."
-        ]
-      },
-      {
-        heading: "Exhaust Hangers and Hardware: How Small Parts Cause Progressive Damage",
-        paras: [
-          "Exhaust hangers are rubber-isolated mounting points that allow the exhaust to flex with road vibration and thermal expansion without transferring stress to the exhaust joints. When a hanger breaks or deteriorates, that section of exhaust sags and swings freely with road vibration. The unsupported movement concentrates stress at the nearest rigid joint (typically a flex pipe or flange) and fatigues it until it cracks or separates.",
-          "A broken hanger is an inexpensive repair on its own. A broken hanger that's been ignored until it cracks the flex pipe has become a more involved repair. We check hanger condition and heat shield integrity across the full exhaust run whenever a vehicle comes in for an exhaust issue, because a repair that doesn't address contributing hardware leaves the repaired section vulnerable to the same failure pattern."
+          "An exhaust smell in the cabin is a safety issue, not a comfort issue. Carbon monoxide is odorless, but the exhaust smell that comes with it is not. If you're smelling exhaust inside the vehicle, treat it as urgent. A loud exhaust that you're managing by turning up the radio is getting worse, and a broken hanger that's been ignored will eventually crack the flex pipe and turn a cheap hanger replacement into a more involved repair.",
+          "The most common reasons drivers come in are a louder exhaust note than usual, a ticking sound from the engine area especially when cold, exhaust smell inside the cabin, a rattling or dragging sound from underneath, a failed emissions test, or a check engine light with O2 sensor or lean codes. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
         ]
       }
     ],
     faq: [
       { q: "How do I know if I have an exhaust leak?", a: "The most common signs are a louder exhaust note than usual, a ticking sound from under the hood (especially when cold), or a check engine light with lean-code or O2 sensor codes. A sudden increase in volume after a bump usually means a joint separated or a hanger broke." },
       { q: "Is an exhaust leak dangerous?", a: "An exhaust leak under the vehicle can allow carbon monoxide to enter the cabin, especially with the windows up and HVAC running. If you smell exhaust inside the car, treat it as urgent and get it inspected the same day." },
-      { q: "Can exhaust leaks cause a failed emissions test?", a: "Yes. A leak upstream of the front oxygen sensor introduces outside air that skews the fuel mixture readings, causing incorrect fuel trim and potentially failing the emissions test even when the engine and catalytic converter are functioning correctly." }
+      { q: "Can exhaust leaks cause a failed emissions test?", a: "Yes. A leak upstream of the front oxygen sensor introduces outside air that skews the fuel mixture readings, causing incorrect fuel trim and potentially failing the emissions test even when the engine and catalytic converter are functioning correctly." },
+      { q: "When does welding make more sense than replacing a section?", a: "When the surrounding pipe metal is still sound and only a specific area has failed, a clean weld repair costs significantly less than a full section replacement. We assess what's structurally sound before recommending either approach, and we don't push toward replacement when a weld repair gives you the better value." },
+      { q: "Can you repair a cracked exhaust manifold?", a: "Sometimes. If the crack is in the casting body and enough material remains, a weld repair is viable. Cracked flanges often need replacement. On some engines, broken manifold studs are a separate issue we address at the same time. We assess the manifold as part of any exhaust inspection." },
+      { q: "What do broken exhaust hangers do to the rest of the system?", a: "A broken hanger lets the exhaust sag and swing freely with road vibration. That movement concentrates stress at the nearest rigid joint until it cracks. A hanger is an inexpensive repair on its own. A hanger ignored until it cracks the flex pipe is a more involved one." }
     ],
+    whoContent: {
+      heading: "Who to Trust for Exhaust Repair in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been handling exhaust repairs in South Salt Lake since 1990. Our in-house welding sets us apart from most independent shops, which means we can repair sections that other shops would replace entirely. That matters on older vehicles and imports where stocked replacement sections aren't always available or are more expensive than a fabricated solution.",
+        "When you bring your vehicle in, we inspect the full exhaust system, not just the spot that's making noise. You get a clear explanation of what we found, whether welding or replacement makes more sense, and a written estimate before we start. We repair when it's the right call and replace when it isn't."
+      ]
+    },
     hasGeoPages: false,
     relatedSlugs: ["catalytic-converter-service-near-south-salt-lake-ut", "welding-services-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -421,7 +522,9 @@ const services = [
     metaTitle: "Catalytic Converter Repair South Salt Lake UT | Scott's Auto & Clutch Repair",
     heading: "Catalytic Converter Service & Replacement in South Salt Lake, UT",
     metaDesc: "Failed emissions or check engine light? Catalytic converter issues diagnosed and repaired fast. Anti-theft shields available. (801) 485-4089.",
+    heroIntro: "Failed emissions test or P0420 code? We find the root cause before recommending a replacement. Free diagnosis. Written estimate. No surprises.",
     intro: "If your vehicle failed a Utah emissions test, has a P0420 code, or smells like sulfur from the exhaust, we find the root cause before recommending a converter replacement. A converter doesn't fail on its own. Misfires, rich fuel conditions, and oil consumption destroy new converters just as fast if the underlying problem isn't fixed first. We also install anti-theft shields for vehicles commonly targeted in the Salt Lake Valley.",
+    hideServicesSection: true,
     specializedServices: ["Catalytic Converter Replacement", "O2 Sensor Replacement", "Anti-Theft Shield Installation", "Emissions Repair", "Exhaust Welding"],
     whyUs: [
       { title: "Root Cause Diagnosis", desc: "We find out why the converter is failing before recommending replacement. Installing a new converter on an engine with an underlying issue will fail the new part just as fast." },
@@ -429,6 +532,8 @@ const services = [
       { title: "Emissions Compliance", desc: "We use converters that meet Utah emissions requirements and verify the vehicle passes before returning it." },
       { title: "Check Upstream First", desc: "We test oxygen sensors and fuel trim before recommending a converter. An upstream engine issue can contaminate a new converter within months of installation." }
     ],
+    processHeading: "How We Diagnose and Service Your Catalytic Converter",
+    processIntro: "We check fuel trims, O2 sensor data, and freeze-frame misfire history before recommending a converter replacement. A converter doesn't fail on its own, and we find the root cause before quoting anything. You get a written estimate and our approval process before any work begins.",
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about a check engine light, sulfur smell, failed emissions test, or stolen converter." },
       { step: 2, title: "Diagnosis", desc: "We test converter efficiency, inspect oxygen sensors, and check for underlying engine issues that could cause converter failure." },
@@ -444,32 +549,47 @@ const services = [
     ],
     richContent: [
       {
-        heading: "How the Three-Way Catalyst Works, and What Defeats It",
+        heading: "What Does Catalytic Converter Service Actually Involve?",
         paras: [
-          "A catalytic converter contains a ceramic or metallic substrate coated with precious metals (platinum, palladium, and rhodium) that act as catalysts for three simultaneous chemical reactions: oxidizing carbon monoxide (CO) to CO₂, oxidizing unburned hydrocarbons (HC) to CO₂ and water, and reducing nitrogen oxides (NOx) to nitrogen and oxygen. The converter only functions efficiently within a narrow air-fuel ratio window, maintained by the oxygen sensors and fuel management system.",
-          "What defeats the catalytic washcoat is heat overload and chemical contamination. Engine misfires send unburned fuel into the converter, which burns inside it at temperatures far exceeding the substrate's design limit. The ceramic can melt and obstruct flow. Rich fuel conditions from fuel system problems overload the oxidation reactions. Oil or coolant intrusion from a failing head gasket coats the washcoat and deactivates it. Each of these underlying conditions must be addressed before a new converter is installed."
-        ]
+          "The catalytic converter treats exhaust gases before they exit the tailpipe, converting harmful compounds into less harmful ones. It works within a narrow operating window, and several conditions can damage it or make it appear to fail when it hasn't.",
+          "<strong>Catalytic substrate</strong> — a ceramic honeycomb coated with precious metals (platinum, palladium, rhodium) that catalyze chemical reactions in the exhaust stream. Heat overload from misfires or rich running can melt the ceramic and block exhaust flow.",
+          "<strong>Oxygen sensors</strong> — upstream and downstream sensors monitor the exhaust stream and help the ECU maintain the correct air-fuel ratio. A lazy or failing O2 sensor can trigger a P0420 code on a converter that's actually fine.",
+          "<strong>Fuel trim and misfire history</strong> — we check these before recommending a converter. A converter that's failing because of an unresolved engine condition will destroy a new one just as fast.",
+          "<strong>Anti-theft shields</strong> — heavy steel covers that bolt around the converter and require specialized tools to remove. Converter theft is a real problem in the Salt Lake Valley, and shields make most thieves move on to an easier target.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "Catalytic Converter Replacement",
+          "O2 Sensor Replacement",
+          "Anti-Theft Shield Installation",
+          "Emissions Repair",
+          "Exhaust Welding"
+        ],
+        listStyle: "tags"
       },
       {
-        heading: "P0420 Root Cause Protocol: What We Check Before Recommending Replacement",
+        heading: "When Should You Come In?",
         paras: [
-          "A P0420 code means converter efficiency is below threshold, but it doesn't tell you why. We check fuel trims first: short-term and long-term fuel trim values outside the normal range indicate the engine is running rich or lean, which can contaminate a converter or produce false efficiency readings. We test upstream and downstream O2 sensor response quality separately. A lazy upstream sensor or a failing downstream sensor can generate a P0420 on a converter that's actually functioning.",
-          "We also look for misfires in the freeze-frame data captured when the code set, and check for exhaust leaks upstream that could introduce air near the sensor. Only after ruling out these conditions do we recommend converter replacement. This process protects you from installing a new $400–1,200 converter on an engine condition that will fail the new part within 20,000 miles."
-        ]
-      },
-      {
-        heading: "Anti-Theft Shields: How the Protection Works",
-        paras: [
-          "Catalytic converter theft is a significant problem in the Salt Lake Valley. The precious metals inside (platinum, palladium, rhodium) make converters a high-value target. A battery-powered angle grinder can cut the mounting pipes in under two minutes on an unprotected vehicle. The Toyota Prius, Honda Element, and several truck models are among the most frequently targeted because their converters are easily accessible and contain higher precious metal concentrations.",
-          "The anti-theft shields we install are heavy steel covers that bolt around the converter and require specialized removal tools. They make converter theft significantly more difficult and time-consuming, and most thieves will move on to an unprotected vehicle rather than spend the extra time. Shield installation is available as a standalone service or alongside any exhaust repair. <a href='/symptoms/sulfur-smell'>Sulfur smell</a> or a <a href='/symptoms/failed-emissions'>failed emissions test</a> after a theft are the most common post-theft symptoms we see when a partial cut was made."
+          "A P0420 code or failed emissions test is the obvious trigger, but waiting until you fail inspection costs you the test fee and the time. A sulfur smell from the exhaust is worth having checked before the problem progresses. If your converter was stolen, the exhaust is loud and the vehicle needs service before it can pass emissions. Driving with a damaged or missing converter sends unfiltered exhaust out the tailpipe and, on some vehicles, can allow exhaust gases into the cabin.",
+          "The most common reasons drivers come in are a check engine light with P0420 or P0430, a rotten egg smell from the exhaust, a failed Utah emissions test, a loud exhaust after a suspected theft, or an exhaust smell in the cabin. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
         ]
       }
     ],
     faq: [
       { q: "Does P0420 always mean a new catalytic converter?", a: "No. P0420 means converter efficiency is below threshold, which can result from the converter itself or from upstream conditions: rich fuel trim, misfires, a failing O2 sensor, or an exhaust leak. We verify the root cause before recommending a replacement. Installing a new converter on an unresolved engine condition will fail the new part." },
       { q: "How long does a catalytic converter last?", a: "Most OEM converters last 100,000–150,000 miles under normal conditions. Premature failure is almost always caused by an underlying engine condition (misfires, rich running, oil consumption) rather than the converter simply wearing out." },
-      { q: "Is it worth installing an anti-theft shield?", a: "For vehicles that are common theft targets (Toyota Prius, Honda Element, older Toyota trucks), absolutely. The shield cost is a fraction of what converter replacement costs. We can tell you whether your specific vehicle is a frequent target in this area." }
+      { q: "Is it worth installing an anti-theft shield?", a: "For vehicles that are common theft targets (Toyota Prius, Honda Element, older Toyota trucks), absolutely. The shield cost is a fraction of what converter replacement costs. We can tell you whether your specific vehicle is a frequent target in this area." },
+      { q: "How does a catalytic converter actually work, and what damages it?", a: "The converter uses precious metals on a ceramic substrate to convert carbon monoxide, unburned hydrocarbons, and nitrogen oxides into less harmful compounds. Misfires send unburned fuel into the converter that burns at temperatures far beyond its design limit, melting the ceramic. Rich running and oil or coolant intrusion coat the substrate and deactivate it. Any of those underlying conditions must be fixed before a new converter is installed." },
+      { q: "What do you check before recommending a converter replacement?", a: "We check fuel trims, O2 sensor response quality (upstream and downstream separately), freeze-frame misfire data from when the code set, and for exhaust leaks upstream that could introduce air near the sensor. Only after ruling out those conditions do we recommend the converter. This prevents replacing a $400 to $1,200 part on an engine that will fail it again." },
+      { q: "How do anti-theft shields work?", a: "They're heavy steel covers that bolt around the converter and require specialized removal tools. A thief with an angle grinder can cut an unprotected converter in under two minutes. Most will skip a shielded vehicle and move to an easier target. We install them as a standalone service or alongside any exhaust repair." }
     ],
+    whoContent: {
+      heading: "Who to Trust for Catalytic Converter Service in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been diagnosing emissions and exhaust issues in South Salt Lake since 1990. We don't treat a P0420 code as an automatic converter replacement. We check the full picture first: fuel trims, O2 sensor data, misfire history, and exhaust leaks. That diagnostic step is what keeps customers from replacing converters that don't need replacing, or replacing them only to have the new one fail because an upstream problem wasn't addressed.",
+        "When you bring your vehicle in, you get a real diagnosis before any recommendation, a written estimate before any work starts, and a converter that meets Utah emissions requirements. We also install anti-theft shields if your vehicle is a common target in this area."
+      ]
+    },
     hasGeoPages: false,
     relatedSlugs: ["exhaust-repair-near-south-salt-lake-ut", "welding-services-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -483,7 +603,9 @@ const services = [
     metaTitle: "Strut Replacement South Salt Lake UT | Smoother Ride | Scott's Auto",
     heading: "Strut & Suspension Replacement in South Salt Lake, UT",
     metaDesc: "Bouncy ride, nose dive when braking, or uneven tire wear? We replace struts for all makes and models. Free inspection. Call (801) 485-4089.",
+    heroIntro: "Bouncy ride or nose-diving under braking? Your struts have worn out gradually enough that you may not have noticed how much handling has changed. Free inspection. Written estimate. No surprises.",
     intro: "Struts do two jobs: damping suspension movement and serving as a structural part of the suspension. When they wear out, the symptoms show up as a bouncy ride that doesn't settle quickly, a front end that pitches forward under braking, and vague steering on uneven pavement. The wear happens gradually, and most drivers adapt without realizing how much the handling has changed. On most front-wheel-drive cars, strut replacement also requires an alignment afterward. We recommend doing both in a single visit.",
+    hideServicesSection: true,
     specializedServices: ["Front Strut Replacement", "Rear Strut Replacement", "Strut Mount Replacement", "Complete Strut Assembly", "Suspension Inspection"],
     whyUs: [
       { title: "Braking Distance Impact", desc: "Worn struts increase stopping distance and reduce emergency handling response. We explain the real-world safety difference, not just ride comfort." },
@@ -491,6 +613,8 @@ const services = [
       { title: "Alignment After Replacement", desc: "Strut replacement changes suspension geometry. We always recommend alignment after strut work to protect your tires and handling." },
       { title: "Mount and Spring Assessment", desc: "When struts are out, we assess the mounts and springs at the same time. The labor overlaps, and these components often need attention together." }
     ],
+    processHeading: "How We Inspect and Replace Your Struts",
+    processIntro: "We inspect struts, top mounts, springs, and related suspension components before recommending anything. Worn struts degrade gradually, and we explain what we found and how it affects your vehicle before writing an estimate. Alignment is included in our recommendation whenever strut replacement is involved.",
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about bouncing, nose-diving under braking, or a noticeably harsher ride." },
       { step: 2, title: "Inspection", desc: "We inspect struts, mounts, and related suspension components for wear." },
@@ -506,32 +630,47 @@ const services = [
     ],
     richContent: [
       {
-        heading: "Complete Strut Assembly vs. Cartridge Replacement: What the Job Involves",
+        heading: "What Does Strut Replacement Actually Involve?",
         paras: [
-          "Strut replacement takes one of two forms depending on the vehicle. On most modern front-wheel-drive cars, the strut is replaced as a complete quick-strut assembly. The new unit comes pre-assembled with the spring, top mount bearing, and damper, and installs as a single piece. On vehicles where separate service is more practical, the strut cartridge can be replaced inside the existing strut housing, which requires a spring compressor to safely remove and reinstall the coil spring.",
-          "Complete assembly replacement is typically faster and more reliable. All wear components are new simultaneously, and there's no risk of spring compressor error during assembly. Cartridge replacement can be appropriate when the spring and top mount are in good condition and the cartridge is the specific failure. We assess which approach is correct for your vehicle before starting."
-        ]
+          "Struts serve two functions at once: they're the main suspension damper and a structural load-bearing part of the suspension. Replacing them involves more than just swapping a shock absorber.",
+          "<strong>Strut damper</strong> — the hydraulic component inside the strut that controls suspension movement. When it wears, the vehicle bounces repeatedly after bumps and pitches forward under braking instead of staying planted.",
+          "<strong>Coil spring</strong> — on most vehicles the spring is part of the strut assembly. Complete quick-strut assemblies come pre-assembled with a new spring and install as a single unit. On vehicles where the cartridge is replaced separately, a spring compressor is required to safely disassemble the strut.",
+          "<strong>Top mount and bearing</strong> — the mount connects the strut to the vehicle body, and the bearing inside allows the strut to rotate with the steering wheel. A worn mount bearing causes clunking when turning from a stop and vague steering feel. It's accessible whenever a strut is removed.",
+          "<strong>Alignment</strong> — new struts change the camber and caster angles because the new assembly has slightly different dimensions than the worn unit. Alignment after strut replacement is required, not optional. Skipping it causes accelerated inner-edge tire wear within a few thousand miles.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "Front Strut Replacement",
+          "Rear Strut Replacement",
+          "Strut Mount Replacement",
+          "Complete Strut Assembly",
+          "Suspension Inspection"
+        ],
+        listStyle: "tags"
       },
       {
-        heading: "Top Mount Bearings and Strut Mounts: What We See When the Strut Is Out",
+        heading: "When Should You Come In?",
         paras: [
-          "The strut top mount connects the strut assembly to the vehicle body and contains a bearing that allows the strut to rotate with the wheel during steering. When the mount bearing wears, the strut can no longer rotate smoothly. You feel it as a clunking or grinding sensation when turning from a stop, or as a vague steering feel. A worn top mount also allows the strut to shift slightly under load, producing handling unpredictability.",
-          "When a strut is removed, the top mount and spring condition are directly accessible at minimal additional labor cost. We inspect both and quote any needed components before proceeding. Installing new dampers on a vehicle with failed top mounts leaves the steering problem in place and means returning for a second strut removal."
-        ]
-      },
-      {
-        heading: "Why Alignment After Strut Work Is Required, Not Optional",
-        paras: [
-          "Strut replacement changes the suspension geometry (camber and caster angles specifically) because the new strut assembly has slightly different dimensions and positioning compared to the worn unit it replaced. Even if the alignment was recently set, it won't be correct after new struts go in. Driving on misaligned suspension after strut work will produce <a href='/symptoms/uneven-tire-wear'>uneven tire wear</a> within a few thousand miles, typically inner-edge wear from the camber change.",
-          "We always recommend an alignment after strut replacement and can perform it the same day. The combined cost of struts plus alignment is the complete repair; struts without alignment is an incomplete one that will cost more in tire wear than the alignment would have."
+          "Strut wear happens gradually enough that most drivers adapt to it and stop noticing the change. By the time the ride feels obviously bad, stopping distance has already increased and wet-road traction has declined. Cupped tire wear from worn struts costs you tires faster than a strut replacement would have. The longer worn struts stay on the vehicle, the more they affect adjacent components through the extra movement and stress.",
+          "The most common reasons drivers come in are a bouncy ride that doesn't settle quickly after bumps, a front end that dives forward under braking, cupped or scalloped tire wear, a clunking sound when turning from a stop, vague or imprecise steering on uneven pavement, or a vehicle that feels like it's wallowing in corners. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
         ]
       }
     ],
     faq: [
       { q: "How do I know if my struts are worn?", a: "The most reliable test: push down firmly on the front corner of the vehicle and release quickly. If it bounces more than once before settling, the struts are worn. Other signs include nose-diving under braking, vehicle body roll in corners, and cupped or scalloped tire wear." },
       { q: "Do struts and shocks need to be replaced together?", a: "Struts are replaced in axle pairs (both fronts or both rears) to maintain even handling. The front and rear axles can be addressed at different times depending on wear." },
-      { q: "Do I need an alignment after strut replacement?", a: "Yes, always. New struts change the suspension geometry, and the alignment will be off even if it was recently done. Skipping alignment after strut work results in accelerated tire wear." }
+      { q: "Do I need an alignment after strut replacement?", a: "Yes, always. New struts change the suspension geometry, and the alignment will be off even if it was recently done. Skipping alignment after strut work results in accelerated tire wear." },
+      { q: "Complete strut assembly or cartridge replacement: which is right for my vehicle?", a: "On most modern front-wheel-drive vehicles, a complete quick-strut assembly is the faster and more reliable option. All wear components are new at once. Cartridge replacement is appropriate when the spring and top mount are in good condition and the cartridge is the specific failure. We assess which is correct before starting." },
+      { q: "Does the top mount bearing need replacing too?", a: "When a strut is out, we inspect the top mount and spring at minimal additional labor cost. A worn top mount bearing causes clunking when turning and vague steering feel. Installing new dampers on a vehicle with failed top mounts leaves the steering problem in place and means a second strut removal later." },
+      { q: "Why does alignment matter so much after strut replacement?", a: "New struts have slightly different dimensions than the worn units they replaced, which shifts the camber and caster angles. Even a recently done alignment won't be correct after new struts go in. Driving without alignment after strut work typically produces inner-edge tire wear within a few thousand miles." }
     ],
+    whoContent: {
+      heading: "Who to Trust for Strut Replacement in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been servicing suspension systems in South Salt Lake since 1990. Strut work is something we handle regularly across every make and model. We inspect the full strut assembly, top mounts, and springs before making any recommendation, so you know exactly what the vehicle needs and what you're approving.",
+        "We always recommend alignment after strut replacement and can do it the same day. That's the complete repair. Struts without alignment is an incomplete job that costs more in tire wear than the alignment would have."
+      ]
+    },
     hasGeoPages: false,
     relatedSlugs: ["shock-replacement-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -545,7 +684,9 @@ const services = [
     metaTitle: "Timing Belt Replacement South Salt Lake UT | All Makes | Scott's",
     heading: "Timing Belt Replacement Service in South Salt Lake, UT",
     metaDesc: "Timing belt due for replacement? We handle belt, tensioner, idler & water pump as a complete service. Honest pricing. Call (801) 485-4089.",
+    heroIntro: "Timing belt due or overdue? A broken belt on an interference engine destroys the engine. We do the full service right. Written estimate. No surprises.",
     intro: "Timing belts don't give much warning before they break. Unlike a timing chain that rattles and throws codes as it stretches, a belt typically looks serviceable right up until it fails. On an interference engine (which covers most vehicles that still use timing belts), a broken belt causes pistons to hit open valves and destroys the engine. The replacement interval exists because belts age and weaken from heat cycling even when they look fine. We inspect the full belt system, explain what's accessible at the same time, and let you decide what makes sense to combine.",
+    hideServicesSection: true,
     specializedServices: ["Timing Belt Replacement", "Tensioner Replacement", "Idler Pulley Replacement", "Water Pump Service", "Drive Belt Replacement"],
     whyUs: [
       { title: "Preventive Approach", desc: "We replace timing belts on schedule to protect your engine before a failure happens, not after a belt breaks and leaves you stranded." },
@@ -553,6 +694,8 @@ const services = [
       { title: "Interference Engine Expertise", desc: "Interference engines are the ones where a broken belt destroys valves and pistons. We know which vehicles have them and explain the stakes clearly." },
       { title: "Component Combination Planning", desc: "The water pump and tensioners share the same access as the timing belt. We tell you what makes sense to combine based on mileage and what we find." }
     ],
+    processHeading: "How We Handle Your Timing Belt Service",
+    processIntro: "We check the belt, tensioners, idlers, and water pump condition against your vehicle's mileage and age. We explain what makes sense to combine given the shared labor access, and let you decide. You get a written estimate before any work starts.",
     process: [
       { step: 1, title: "Check Interval", desc: "Tell us your mileage—we'll check against your vehicle's manufacturer-recommended replacement schedule." },
       { step: 2, title: "Inspection", desc: "We inspect the belt, tensioners, idlers, and related components for wear or cracking." },
@@ -567,32 +710,47 @@ const services = [
     ],
     richContent: [
       {
-        heading: "Which Vehicles Have Timing Belts, and What's the Actual Service Interval",
+        heading: "What Does Timing Belt Replacement Actually Involve?",
         paras: [
-          "Timing belts were standard on most passenger vehicles through the 1990s and into the 2000s. Most automakers have shifted to timing chains on newer platforms, but many vehicles still in daily use have belts: Toyota 4-cylinder engines, Honda CR-V and Accord 4-cylinders, Subaru 4-cylinder EJs, Mitsubishi, and most European makes through certain model years. The owner's manual specifies whether the engine uses a belt or chain. If you're not sure which yours has, we can tell you quickly.",
-          "Timing belt replacement intervals are 60,000–105,000 miles depending on the manufacturer, and most specify both a mileage and a time interval, typically 7–10 years regardless of mileage. A belt driven infrequently still ages from temperature cycling and ozone exposure. A low-mileage vehicle that's 12 years old may have a belt that's at or past its service life by age."
-        ]
+          "The timing belt keeps your engine's crankshaft and camshaft synchronized. It's a preventive replacement, not a repair. You replace it on schedule so it never gets the chance to fail.",
+          "<strong>Timing belt</strong> — a reinforced rubber belt that drives the camshaft from the crankshaft. Belts age from heat cycling and ozone exposure even when they look intact. Most manufacturers specify both a mileage interval (60,000 to 105,000 miles depending on the engine) and a time interval, typically 7 to 10 years.",
+          "<strong>Tensioner and idler pulleys</strong> — keep the belt at the correct tension and guide it around its path. These are accessible whenever the belt is out. Replacing them alongside the belt is far less expensive than a second timing cover removal to replace a tensioner that fails on a new belt.",
+          "<strong>Water pump</strong> — on many 4-cylinder engines the water pump is driven directly off the timing belt and is accessible during the same service. Combining water pump and timing belt replacement saves several hours of labor.",
+          "<strong>Drive belts</strong> — the serpentine and other accessory drive belts are often accessible during timing belt service and worth inspecting at the same time.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "Timing Belt Replacement",
+          "Tensioner Replacement",
+          "Idler Pulley Replacement",
+          "Water Pump Service",
+          "Drive Belt Replacement"
+        ],
+        listStyle: "tags"
       },
       {
-        heading: "What to Replace Alongside the Timing Belt",
+        heading: "When Should You Come In?",
         paras: [
-          "The timing belt service is one of the most labor-intensive scheduled maintenance items, because accessing the belt requires removing the front timing cover and associated components. The tensioner, idler pulleys, and on many engines the water pump are all accessible at the same time, and replacing them alongside the belt costs a fraction of what they would cost to replace separately because the labor is already invested.",
-          "We explain which components are at or near their service interval based on the engine design and vehicle mileage, and let you decide what to include. On a vehicle at 90,000 miles with a 7-year-old water pump, replacing the pump with the belt is almost always the right call. On a vehicle at 60,000 miles with a 2-year-old pump, it may not be. We give you the information to make the decision, not a blanket recommendation to replace everything."
-        ]
-      },
-      {
-        heading: "Interference Engine Risk: Why This Interval Is Non-Negotiable",
-        paras: [
-          "Most modern engines with timing belts are interference engines. Pistons and valves occupy overlapping travel zones and are kept from contact only by the belt maintaining precise cam-to-crank timing. When a timing belt breaks on an interference engine, the camshaft stops but the crankshaft continues rotating. Pistons hit open valves. The result is bent valves, damaged pistons, and in severe cases, a destroyed cylinder head, typically a $3,000–6,000 repair on a job that could have been prevented with a $400–700 belt service.",
-          "The belt doesn't give much warning before it breaks. Unlike a timing chain that rattles and generates codes as it wears, a timing belt typically looks serviceable until it fails. The replacement interval exists because belts age and weaken even when they appear visually intact. Overdue belt replacement is one of the most consequential deferrals in vehicle maintenance."
+          "The timing belt does not give you warning before it breaks. On an interference engine, a broken belt bends valves and destroys the engine without any further sign. The repair cost is typically 5 to 10 times the cost of a belt service. A belt that looks fine might be 12 years old and past its time interval. A low-mileage vehicle that's been driven infrequently still has a belt that has aged. Interval-based replacement exists because the belt weakens from heat cycling and age even when it appears intact.",
+          "The most common reasons drivers come in are a mileage or age interval that's due or overdue, a ticking noise from the engine, an engine that cranks but won't start on a vehicle with a timing belt, or a water pump or tensioner service that was flagged at a recent inspection. Any of those is worth a free consultation. We'll tell you exactly where your vehicle stands before recommending anything."
         ]
       }
     ],
     faq: [
       { q: "How do I know if my vehicle has a timing belt or timing chain?", a: "Check your owner's manual, or ask us. We can tell you in about 30 seconds. Generally, if your engine requires a scheduled timing belt replacement (typically listed in the 60K–100K mile maintenance), it has a belt." },
       { q: "What happens if my timing belt breaks?", a: "On a non-interference engine, the engine stops and the vehicle is towed for a belt replacement. On an interference engine (which covers most modern vehicles), the pistons hit the open valves and catastrophic engine damage occurs. The repair cost is typically 5–10x the cost of the belt service." },
-      { q: "Should I replace the water pump with the timing belt?", a: "On most engines, yes. They're accessible at the same time and the water pump is near or at its service interval by the time the belt is due. We check pump condition and recommend based on what we find, not a blanket policy." }
+      { q: "Should I replace the water pump with the timing belt?", a: "On most engines, yes. They're accessible at the same time and the water pump is near or at its service interval by the time the belt is due. We check pump condition and recommend based on what we find, not a blanket policy." },
+      { q: "Which vehicles still have timing belts?", a: "Many vehicles from the 1990s through mid-2000s have belts, including Toyota 4-cylinder engines, Honda CR-V and Accord 4-cylinders, Subaru 4-cylinder EJs, Mitsubishi, and most European makes through certain model years. If you're not sure whether yours has a belt or a chain, ask us. We can tell you quickly." },
+      { q: "Do I need to replace the tensioner and idlers along with the belt?", a: "Yes, in almost all cases. The tensioner and idler pulleys are accessible during the same service, and their replacement costs a fraction of what a second timing cover removal would cost if one of them fails on a new belt. We recommend the complete kit." },
+      { q: "What is the interference engine risk with a broken timing belt?", a: "On an interference engine, pistons and valves share overlapping travel zones and are kept apart only by the belt maintaining precise cam timing. When the belt breaks, the camshaft stops but the crankshaft keeps turning. Pistons hit open valves, causing bent valves, damaged pistons, and in severe cases a destroyed cylinder head. The cost is typically a $3,000 to $6,000 repair for a service that costs $400 to $700." }
     ],
+    whoContent: {
+      heading: "Who to Trust for Timing Belt Replacement in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been handling timing belt services in South Salt Lake since 1990. We've replaced timing belts on every make and model that uses them, and we know which components make sense to combine based on the engine design and the vehicle's mileage. We explain the options, give you the information to decide, and don't push a blanket recommendation to replace everything accessible.",
+        "When you bring your vehicle in, you get a complete assessment of the belt system and related components, a written estimate before any work starts, and timing verified after the job is done. The goal is a service done right the first time, with no return visit for a tensioner or water pump that should have been included."
+      ]
+    },
     hasGeoPages: false,
     relatedSlugs: ["timing-chain-repair-near-south-salt-lake-ut", "water-pump-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -606,7 +764,9 @@ const services = [
     metaTitle: "Auto Welding South Salt Lake UT | Exhaust, Frame & Custom | Scott's",
     heading: "Automotive Welding Services in South Salt Lake, UT",
     metaDesc: "Exhaust leaks, frame repair, or custom fab? Our shop handles automotive welding for all types of repairs. Call (801) 485-4089.",
+    heroIntro: "Most shops don't weld. We do. That means we can repair sections that other shops would replace, and fabricate what isn't available off the shelf. Free assessment. Written estimate. No surprises.",
     intro: "Most independent shops don't have welding capability, so cracked sections get replaced entirely even when a weld repair would be structurally sound and less expensive. Our in-house welding changes what's possible on exhaust repairs, broken brackets, and custom fabrication. We assess whether welding is the right approach, explain the reasoning, and only recommend full replacement when the base metal isn't sound enough to hold a repair.",
+    hideServicesSection: true,
     specializedServices: ["Exhaust Welding", "Frame Welding", "Suspension Welding", "Custom Fabrication", "Bracket Repair"],
     whyUs: [
       { title: "In-House, No Waiting", desc: "No farming the work out to a separate shop. We handle welding repairs here, which means faster turnaround and no miscommunication about what was found." },
@@ -614,6 +774,8 @@ const services = [
       { title: "Automotive Welding Specialists", desc: "Automotive exhaust, frame, and structural welding is different from general fabrication. We know what load tolerances and heat exposure the repairs need to hold up to." },
       { title: "Honest About What Welding Can't Fix", desc: "We only weld structural components when the base metal is sound enough to hold the repair. If it isn't, we'll tell you clearly and explain the alternative." }
     ],
+    processHeading: "How We Assess and Perform Welding Repairs",
+    processIntro: "We look at the base metal condition and the nature of the failure before recommending a weld repair or replacement. If welding is the right approach, we explain why and quote it. If it isn't, we tell you that clearly instead of doing work that won't hold.",
     process: [
       { step: 1, title: "Describe the Issue", desc: "Tell us what needs attention—exhaust, frame, a broken bracket, or custom work." },
       { step: 2, title: "Inspection", desc: "We assess whether welding repair is the right approach and what it will involve." },
@@ -628,32 +790,47 @@ const services = [
     ],
     richContent: [
       {
-        heading: "Exhaust Welding: When Repair Is the Better Choice",
+        heading: "What Does Automotive Welding Service Actually Involve?",
         paras: [
-          "Replacement exhaust sections are readily available for common domestic and popular import vehicles. For older vehicles, off-road vehicles with custom exhaust routing, and some European models, finding an exact-fit replacement section means either waiting for a special order part or paying for a custom-bent section. Our welding capability means we can fabricate a replacement from stock pipe material at the time of the repair, matching the original routing and diameter without a wait for parts.",
-          "Even on vehicles with available replacements, a weld repair is often the right choice. A clean cut-and-patch on a good section of pipe (removing only the failed area and welding in a patch or short section) costs significantly less than a full pipe replacement when the surrounding metal is sound. We assess which approach gives you the better value and explain the reasoning before quoting."
-        ]
+          "Our in-house welding capability means we can repair sections that most shops would replace, and fabricate parts that aren't available off the shelf. The work falls into a few main categories.",
+          "We handle exhaust welding for cracked pipes, manifold flanges, flex pipe replacement, and custom sections on vehicles where factory replacement parts aren't stocked or cost more than a fabricated solution.",
+          "We handle bracket and hanger repairs for exhaust hangers, suspension brackets, and mounting points that have broken from road stress or vibration. This work is typically fast and inexpensive when done in-house.",
+          "We handle minor structural welding for frame sections where localized damage or corrosion can be addressed with a precision weld, provided the base metal is still structurally sound. We assess before recommending and won't weld a structural component we can't repair safely.",
+          "We also handle custom fabrication for non-standard situations: heat shields, adapters, reinforcements, and mounting solutions that require building rather than bolt-on replacement.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "Exhaust Welding",
+          "Frame Welding",
+          "Suspension Welding",
+          "Custom Fabrication",
+          "Bracket Repair"
+        ],
+        listStyle: "tags"
       },
       {
-        heading: "Structural Welding: When It's Sound and When It Isn't",
+        heading: "When Should You Come In?",
         paras: [
-          "Minor frame damage from low-speed impacts or localized surface corrosion can sometimes be addressed with precision welding, reinforcing weakened sections or restoring crushed geometry when the base metal is still structurally sound. Not all frame damage is a candidate for weld repair: a section that's corroded through the wall thickness, or impact damage that has compromised the structural integrity of the section, may be unsafe to weld and require professional frame straightening or section replacement.",
-          "We won't weld a structural component we can't repair safely. When a weld repair isn't the right approach, we'll tell you clearly and explain why, rather than doing work that leaves the vehicle in an unsafe condition. That judgment is part of the service."
-        ]
-      },
-      {
-        heading: "Custom Fabrication and Bracket Work",
-        paras: [
-          "Welding capability also means we can fabricate mounting solutions for non-standard situations: replacing a deteriorated or missing exhaust hanger bracket, fabricating a heat shield that's been lost or damaged, building an adapter for a non-standard exhaust component, or reinforcing a cracked bracket at a mounting point. This work is typically fast and inexpensive when it's done in-house.",
-          "If you have an exhaust system, suspension, or structural component that needs fabrication work rather than a direct replacement, bring the vehicle in and let us assess what's involved. We'll tell you whether it's a job we can do and what it will take."
+          "If another shop has told you a section needs full replacement because they can't weld it, it's worth getting a second opinion. On many exhaust and bracket repairs, a weld repair costs significantly less than full section replacement when the surrounding metal is sound. Waiting on a broken exhaust hanger will eventually crack the flex pipe it's letting stress. A cracked manifold flange getting worse makes the surrounding repair more difficult over time.",
+          "The most common situations we see are a louder exhaust where another shop quoted full system replacement, a broken bracket or hanger, a cracked exhaust manifold, frame damage from a minor impact or localized rust, a custom exhaust component that isn't available as an off-the-shelf part, and heat shields or mounting hardware that's missing or damaged. Bring it in and we'll assess whether welding is the right approach and what it will involve. We'll tell you before quoting."
         ]
       }
     ],
     faq: [
       { q: "What types of automotive welding do you do?", a: "We weld exhaust systems (pipes, manifold flanges, custom sections), broken brackets and hangers, minor frame repairs where structurally appropriate, and custom fabrication for non-standard situations." },
       { q: "Is welded exhaust as good as a replacement section?", a: "A clean weld repair with proper penetration and a sound surrounding section is structurally equivalent to a new section. The weld itself is typically stronger than the surrounding base metal when done correctly." },
-      { q: "Can you weld a cracked exhaust manifold?", a: "Sometimes, depending on where the crack is and the condition of the surrounding material. Some manifold cracks are good weld candidates; others are better addressed with a replacement manifold. We assess before recommending." }
+      { q: "Can you weld a cracked exhaust manifold?", a: "Sometimes, depending on where the crack is and the condition of the surrounding material. Some manifold cracks are good weld candidates; others are better addressed with a replacement manifold. We assess before recommending." },
+      { q: "When does exhaust welding make more sense than replacement?", a: "When only a specific section has failed and the surrounding pipe is still structurally sound, a weld repair costs significantly less than full section replacement. For older vehicles and imports where replacement sections aren't stocked locally, welding is often the faster and more practical option too." },
+      { q: "What frame damage can you weld, and what can't you fix?", a: "Minor frame damage from low-speed impacts or localized corrosion can sometimes be addressed with precision welding when the base metal is still sound. A section corroded through its wall thickness or with compromised structural integrity is not a weld candidate. We won't weld a structural component we can't repair safely, and we'll tell you clearly when that's the case." },
+      { q: "Can you fabricate custom exhaust or bracket parts?", a: "Yes. We can fabricate replacement exhaust sections from stock pipe material, build custom hanger brackets, fabricate heat shields, and create mounting solutions for non-standard situations. This is typically fast and less expensive than waiting for a special-order part." }
     ],
+    whoContent: {
+      heading: "Who to Trust for Automotive Welding in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has had in-house welding capability since the early days of the shop. Most independent shops don't weld, which means they default to replacement for anything they can't bolt together. We assess the base metal first and choose the approach that gives you the better outcome, whether that's a weld repair or a replacement.",
+        "When you bring your vehicle in, we look at the actual condition of the metal before quoting. If welding is the right call, we explain why and do it in-house with no wait. If it isn't, we tell you that too. Welding is a capability we use to give you more options, not to do work that isn't the right solution."
+      ]
+    },
     hasGeoPages: false,
     relatedSlugs: ["exhaust-repair-near-south-salt-lake-ut", "catalytic-converter-service-near-south-salt-lake-ut", "strut-replacement-near-south-salt-lake-ut"]
   },
@@ -667,7 +844,9 @@ const services = [
     metaTitle: "Shock Replacement South Salt Lake UT | Trucks & SUVs | Scott's Auto",
     heading: "Shock Absorber Replacement in South Salt Lake, UT",
     metaDesc: "Rough ride over bumps? We replace shocks on cars, trucks, SUVs, and lifted vehicles. South Salt Lake, UT. Call (801) 485-4089.",
+    heroIntro: "Bouncy ride or rough over every bump? Shocks wear out slowly enough that most drivers don't notice until handling has really fallen off. Free inspection. Written estimate. No surprises.",
     intro: "Shock absorbers degrade slowly enough that most drivers adjust to the change without noticing how much the handling has fallen off. By the time a vehicle is bouncing two or three times after every bump, stopping distance has increased and wet-road traction has declined noticeably. A bounce test at our shop takes about 30 seconds and gives a reliable read on shock condition. We work on daily drivers and lifted trucks. Lifted vehicles need extended-travel shocks matched to the actual lift height, not stock-spec replacements.",
+    hideServicesSection: true,
     specializedServices: ["Front Shock Replacement", "Rear Shock Replacement", "Truck Shock Service", "Lifted Vehicle Service", "Suspension Inspection"],
     whyUs: [
       { title: "Lifted Vehicle Experience", desc: "Lifted trucks and modified suspensions need shock specs matched to the lift height and load. We've worked on enough lifted vehicles to know where the common failure points are." },
@@ -675,6 +854,8 @@ const services = [
       { title: "Paired Axle Replacement", desc: "We recommend replacing shocks in pairs per axle to keep handling balanced. One worn and one new creates uneven response." },
       { title: "Handling Verification", desc: "After replacing shocks, we verify handling balance with a test drive, not just a visual check that the parts are correctly installed." }
     ],
+    processHeading: "How We Inspect and Replace Your Shocks",
+    processIntro: "We bounce-test all four corners and visually inspect for oil seeping from the shock body before recommending replacement. For lifted vehicles, we match the shock specs to the actual lift height, not the stock spec. You get a written estimate before any work starts.",
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us about excessive bouncing, swaying in turns, or a noticeably rough ride." },
       { step: 2, title: "Inspection", desc: "We inspect shocks for oil leakage and bounce-test all four corners." },
@@ -689,32 +870,47 @@ const services = [
     ],
     richContent: [
       {
-        heading: "Shocks vs. Struts: Same Symptom, Different Repair",
+        heading: "What Does Shock Replacement Actually Involve?",
         paras: [
-          "Shock absorbers are standalone hydraulic dampers on vehicles where the spring is a separate component, common on the rear of many trucks, vans, and older cars, and on some front suspension designs. Struts integrate the damper with the spring perch and act as a structural suspension component. The ride symptoms of worn shocks and worn struts are similar (bouncing, rough ride, reduced handling stability), but the repair is different. Shock replacement is simpler: remove and install the damper, no spring compressor, no alignment required afterward.",
-          "Whether your vehicle uses shocks, struts, or both depends on the model and the specific corner. Many front-wheel-drive vehicles have struts in front and shocks in the rear. Trucks often have shocks all around. We identify which applies to your vehicle during inspection."
-        ]
+          "Shock absorbers are standalone hydraulic dampers that control suspension movement. Unlike struts, they don't carry the spring or serve as a structural part of the suspension, which makes replacement simpler. No spring compressor needed, and no alignment required afterward.",
+          "<strong>Shock absorber body</strong> — a sealed hydraulic cylinder that converts suspension movement into heat through fluid resistance. When the seals wear, the shock loses damping force and allows the suspension to move unchecked. Oil seeping down the shock body is a clear sign the seals have failed.",
+          "<strong>Shock mounts and bushings</strong> — rubber bushings at the upper and lower mounting points that isolate the shock from the chassis. Deteriorated bushings let the shock move in its mount, adding a clunking impact at the top or bottom of travel that new shocks can't fix.",
+          "<strong>Lift height matching for trucks</strong> — on lifted vehicles, OEM-length shocks top out or bottom out at travel limits the unlifted vehicle never reached. Extended-travel shocks rated for the actual lift height are required.",
+          "<strong>Axle pairing</strong> — we replace shocks in pairs per axle to maintain balanced handling. One worn and one new creates asymmetric damping.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "Front Shock Replacement",
+          "Rear Shock Replacement",
+          "Truck Shock Service",
+          "Lifted Vehicle Service",
+          "Suspension Inspection"
+        ],
+        listStyle: "tags"
       },
       {
-        heading: "Lifted Trucks: Why Standard Shock Specs Don't Apply",
+        heading: "When Should You Come In?",
         paras: [
-          "A vehicle that's been lifted 2–4 inches has different suspension geometry than the factory-spec vehicle the OEM shock was designed for. Lifted trucks operate at steeper shock angles, with extended travel ranges that exceed what a standard-length shock can accommodate at both ends of the suspension travel. Using OEM-length shocks on a lifted vehicle results in the shock topping out or bottoming out at limits the unlifted vehicle never reaches, causing harsh impacts and reduced damping control.",
-          "Lifted vehicles need extended-travel shocks rated for the lift height, and often benefit from reservoir or remote-reservoir designs that handle the increased heat generated by off-road use. We match shock specifications to the vehicle's actual suspension configuration, not just its stock spec."
-        ]
-      },
-      {
-        heading: "Bushing and Mount Condition: What We Inspect While Shocks Are Out",
-        paras: [
-          "When a shock absorber is removed, the mounting points (upper and lower shock mounts and their rubber bushings) are directly accessible for inspection. Deteriorated shock bushings allow the shock to move in its mount, adding a secondary harsh impact at the top or bottom of the travel that the new shock can't prevent. Replacing shocks without checking bushing condition leaves an unpredictable ride quality problem in place.",
-          "We inspect bushing condition whenever shocks are being replaced and quote any needed bushings before starting the job. This is especially relevant on high-mileage trucks and vehicles driven on rough terrain, where bushing wear accelerates alongside shock wear."
+          "Shock wear is slow enough that most drivers adjust to it without realizing how much handling has changed. By the time the bounce is obvious, stopping distance has increased and wet-road traction has declined. Worn shocks cause cupped tire wear that costs you tires faster than a shock replacement would have. The longer you drive on them, the more stress goes to other suspension components.",
+          "The most common reasons drivers come in are a bouncy ride that takes multiple oscillations to settle, a vehicle that leans heavily through corners, cupped or scalloped tire wear, a harsh ride over every small bump, oil seeping from the shock body, or a truck that was recently lifted and has started topping out or bottoming out. Any of those is worth a free inspection. We'll tell you exactly what's going on before recommending anything."
         ]
       }
     ],
     faq: [
       { q: "How do I know if my shocks are worn?", a: "The bounce test is the quickest check: push down firmly on one corner of the vehicle and release. If it bounces more than once before settling, the shock is worn. Worn shocks also show up as oil seeping from the shock body, and as cupped or scalloped tire wear patterns." },
       { q: "Do shocks need to be replaced in pairs?", a: "We recommend replacing per axle (both fronts or both rears) to maintain even handling. Replacing only one shock on an axle creates asymmetric damping that affects both straight-line and cornering stability." },
-      { q: "Do I need an alignment after shock replacement?", a: "On most vehicles, shock replacement doesn't change the suspension geometry in a way that requires alignment. This is one of the differences from strut replacement, which does require alignment afterward." }
+      { q: "Do I need an alignment after shock replacement?", a: "On most vehicles, shock replacement doesn't change the suspension geometry in a way that requires alignment. This is one of the differences from strut replacement, which does require alignment afterward." },
+      { q: "What's the difference between shocks and struts?", a: "Shocks are standalone hydraulic dampers on vehicles where the spring is a separate component. Struts integrate the damper with the spring perch and serve as a structural suspension component. The symptoms of worn shocks and struts are similar, but shock replacement is simpler: no spring compressor needed and no alignment required. Many front-wheel-drive vehicles have struts in front and shocks in the rear." },
+      { q: "Why can't you use stock shocks on a lifted truck?", a: "A lifted vehicle operates at steeper shock angles with extended travel that exceeds what a standard-length shock can handle at both ends of the suspension travel. OEM shocks top out or bottom out at limits the unlifted vehicle never reached, causing harsh impacts and reduced damping. Lifted vehicles need extended-travel shocks matched to the actual lift height." },
+      { q: "What do worn shock bushings do to ride quality?", a: "Deteriorated bushings let the shock move in its mount, adding a secondary clunking impact at the top or bottom of travel that new shocks can't prevent. We inspect bushing condition whenever shocks are being replaced and quote any needed replacements before starting the job." }
     ],
+    whoContent: {
+      heading: "Who to Trust for Shock Replacement in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been replacing shocks and servicing suspensions in South Salt Lake since 1990. We work on daily drivers, trucks, SUVs, and lifted vehicles. For lifted trucks, we match shock specs to the actual lift height and suspension configuration, not just the stock spec. A lot of shops don't think through that part of the job.",
+        "When you bring your vehicle in, we bounce-test before recommending replacement, inspect mounts and bushings while shocks are out, and verify handling on a test drive after the job is done. Written estimate before we start. No work until you've approved it."
+      ]
+    },
     hasGeoPages: false,
     relatedSlugs: ["strut-replacement-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -728,7 +924,9 @@ const services = [
     metaTitle: "Complete Auto Service South Salt Lake UT | All Makes | Scott's Auto",
     heading: "Complete Auto Repair & Maintenance in South Salt Lake, UT",
     metaDesc: "Oil changes, engine diagnostics, A/C, emissions & safety inspections for all makes and models. Trusted since 1990. Call (801) 485-4089.",
+    heroIntro: "Scott's has been a full-service shop since 1990. We diagnose before we recommend anything. Free inspection. Written estimate. No surprises.",
     intro: "Scott's started as a clutch specialist in 1990, and that work is still a big part of what we do. But we're also a full-service shop: oil changes, engine diagnostics, A/C repair, emissions, brakes, cooling system, and anything else your vehicle needs. Every service gets the same approach: diagnose first, quote before touching anything, and don't recommend what your vehicle doesn't need.",
+    hideServicesSection: true,
     specializedServices: ["Oil Change", "Engine Diagnostics", "A/C Repair", "Emissions Inspection", "Safety Inspection", "Fluid Services", "Belt Replacement", "Hose Replacement", "Battery Service", "Tune-Up"],
     whyUs: [
       { title: "Diagnosis First, Always", desc: "We identify the actual problem before recommending parts. A code number or a symptom is a starting point, not a repair prescription." },
@@ -736,6 +934,8 @@ const services = [
       { title: "Here Since 1990", desc: "We've been serving the Salt Lake Valley for over 35 years. Our customer relationships outlast any individual repair." },
       { title: "Honest Prioritization", desc: "When multiple things are due, we tell you what's safety-critical now versus what can wait. No pressure to do everything at once." }
     ],
+    processHeading: "How We Approach Every Service at Scott's",
+    processIntro: "Every service starts with a real diagnosis, not a code-number lookup or an assumption based on the most common repair. We find what's actually causing the problem, explain it clearly, and get your written approval before any work starts.",
     process: [
       { step: 1, title: "Describe Symptoms", desc: "Tell us what your vehicle is doing, or let us know what service is due." },
       { step: 2, title: "Inspection", desc: "We inspect and diagnose to understand exactly what your vehicle needs." },
@@ -751,24 +951,34 @@ const services = [
     ],
     richContent: [
       {
-        heading: "Diagnostic Protocol: Why We Verify Before Recommending",
+        heading: "What Does Complete Auto Service Actually Include?",
         paras: [
-          "A fault code tells you which system is outside its expected parameters, not what caused it to be out of range. P0171 (system lean, bank 1) points to any of a dozen possible causes: vacuum leak, mass airflow sensor, fuel trim issue, O2 sensor, exhaust leak upstream of the sensor. A shop that replaces the O2 sensor because P0171 is present and the sensor is the most common cause is gambling, not diagnosing. When the sensor gets replaced on a car that actually has a vacuum leak, the code returns.",
-          "We use professional diagnostic equipment that captures live sensor data (fuel trim values, O2 sensor waveforms, misfire counters, intake pressure readings) and interpret what the data shows before recommending parts. This takes longer than a code-number lookup, but it's the approach that finds the actual problem the first time."
-        ]
+          "Scott's has been a full-service shop since 1990. We started as clutch specialists, and clutch and manual transmission work is still a significant part of what we do. But we handle everything your vehicle needs, with the same diagnostic-first approach on every job.",
+          "We handle routine maintenance including oil changes, fluid services, belt and hose replacement, battery service, and tune-ups. We check the vehicle during routine service and tell you what we find, prioritized by urgency.",
+          "We handle engine diagnostics and repairs. A fault code is a starting point, not a repair prescription. We capture live sensor data and find the actual cause before recommending parts.",
+          "We handle brake service, suspension and steering repairs, cooling system work, A/C diagnosis and repair, and exhaust repairs including in-house welding.",
+          "We handle Utah emissions inspections and repairs. If your vehicle failed emissions, we find the root cause before recommending a fix.",
+          "Depending on what your vehicle needs, the services we commonly perform include:"
+        ],
+        list: [
+          "Oil Change",
+          "Engine Diagnostics",
+          "A/C Repair",
+          "Emissions Inspection",
+          "Safety Inspection",
+          "Fluid Services",
+          "Belt Replacement",
+          "Hose Replacement",
+          "Battery Service",
+          "Tune-Up"
+        ],
+        listStyle: "tags"
       },
       {
-        heading: "Utah Driving Conditions and Factory Interval Assumptions",
+        heading: "When Should You Come In?",
         paras: [
-          "Vehicle manufacturer service intervals are calculated for a defined set of typical driving conditions, usually a mix of highway and city driving, in temperate climate, at moderate altitude. Utah drivers routinely operate outside those assumptions. Mountain grades stress transmissions and brakes. High altitude affects combustion and turbocharger loading. Temperature swings from -5°F in winter to 105°F in summer stress every rubber component in the vehicle. Road salt accelerates undercarriage corrosion.",
-          "For Utah drivers, we generally recommend brake inspections every 15,000 miles rather than 20,000–25,000, transmission and differential fluid changes more frequently than factory intervals suggest for flat-highway driving, and coolant system checks annually given the temperature cycling demands. We don't apply these as a blanket policy. We look at your actual driving conditions and what the vehicle shows during inspection."
-        ]
-      },
-      {
-        heading: "Deferred Maintenance: How to Prioritize When Multiple Things Are Due",
-        paras: [
-          "When a vehicle comes in with several things overdue, the right framework is to prioritize by safety first (brakes, steering, tires) and then by failure consequence. A worn timing belt on an interference engine is a higher priority than worn shocks, even if the shocks are failing more noticeably. Oil leaks that are actively contaminating safety components (brake fluid contamination from a leaking master cylinder, coolant mixing with oil) escalate ahead of cosmetic or performance-only issues.",
-          "We give you a written prioritization of everything we find, with our assessment of urgency for each item. We don't pressure you to authorize everything at once. We tell you what we'd address now versus what can wait, and we make that distinction based on safety and component failure risk rather than what generates the most revenue in a single visit. This is how we've built the relationships with Salt Lake Valley drivers that have kept the shop running since 1990."
+          "Any time something is off with your vehicle, or any time scheduled maintenance is due. Deferred maintenance tends to compound. A timing belt that stays overdue becomes an interference engine failure. An oil leak that gets ignored eventually contaminates brake components or causes bearing damage. Utah driving conditions push vehicles harder than factory service intervals were designed for, and catching things early keeps routine maintenance from becoming expensive repairs.",
+          "The most common reasons drivers come in are a check engine light, a noise or feeling that's new or getting worse, a service interval that's due or overdue, a failed emissions test, something a previous shop flagged but didn't explain clearly, or a vehicle that was recently purchased and hasn't been inspected. Any of those is worth bringing in. We'll tell you exactly what we find before recommending anything."
         ]
       }
     ],
@@ -776,8 +986,18 @@ const services = [
       { q: "Do you work on imports?", a: "Yes. We service all makes and models including Honda, Toyota, Subaru, Nissan, VW, BMW, and more alongside domestic brands." },
       { q: "Can you do an oil change and other repairs at the same visit?", a: "Absolutely. We encourage combining services to save you time. Let us know what you need when you call." },
       { q: "How do you prioritize if my car needs multiple repairs?", a: "We prioritize by safety first (brakes, steering, tires), then by what's most likely to leave you stranded or cause expensive secondary damage if deferred. We give you a written assessment of urgency for each item and let you decide what to address." },
-      { q: "Do you provide written estimates?", a: "Yes. We provide a complete written estimate before any work begins. We don't start repairs until you've reviewed and approved the quote. No surprises." }
+      { q: "Do you provide written estimates?", a: "Yes. We provide a complete written estimate before any work begins. We don't start repairs until you've reviewed and approved the quote. No surprises." },
+      { q: "Why do you diagnose before recommending parts?", a: "A fault code tells you which system is out of range, not what caused it. P0171 can come from a vacuum leak, a failing MAF sensor, a fuel trim issue, an O2 sensor, or an exhaust leak. A shop that replaces the most common part for a given code without checking is guessing. We capture live sensor data and find the actual cause first. That's what fixes the problem on the first visit." },
+      { q: "How do Utah driving conditions affect service intervals?", a: "Factory intervals are based on typical mixed driving in temperate climates at moderate altitude. Utah drivers deal with mountain grades, high altitude, temperature swings from below zero to over 100 degrees, and road salt. We generally recommend more frequent brake inspections, fluid changes, and cooling system checks than factory intervals suggest for flat-highway driving. We look at your actual conditions and driving pattern rather than applying a blanket policy." },
+      { q: "How do you handle deferred maintenance when multiple things are due?", a: "Safety-critical items come first: brakes, steering, tires. Then we prioritize by failure consequence. A worn timing belt on an interference engine ranks ahead of worn shocks even if the shocks are what you're noticing more. Oil leaks contaminating other components escalate. We give you a written prioritization and let you decide what to approve, without pressure to do everything at once." }
     ],
+    whoContent: {
+      heading: "Who to Trust for Complete Auto Service in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been a full-service shop in South Salt Lake since 1990. We started as clutch specialists and still do a significant amount of clutch and manual transmission work, but we handle everything: engine diagnostics, brakes, suspension, cooling, exhaust, A/C, emissions, and routine maintenance. Every service gets the same approach regardless of how big or small the job is.",
+        "When you bring your vehicle in, you get a real diagnosis before any recommendation, a written estimate before any work starts, and honest prioritization when multiple things need attention. We've been doing this long enough to know what Utah driving conditions do to vehicles, and we give you that context when it matters."
+      ]
+    },
     hasGeoPages: false,
     relatedSlugs: ["clutch-repair-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "exhaust-repair-near-south-salt-lake-ut"]
   }
