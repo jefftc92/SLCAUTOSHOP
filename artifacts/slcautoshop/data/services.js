@@ -112,7 +112,7 @@ const services = [
     heading: "CV Joint & Axle Repair in South Salt Lake, UT",
     metaDesc: "Clicking when turning? CV axle worn? We replace CV joints, boots & axles for all makes and models. Free diagnosis. Call (801) 485-4089.",
     heroIntro: "Clicking when you turn or vibration when you accelerate? That's almost always the CV axle. Free diagnosis. Written estimate. No surprises.",
-    intro: "If you hear clicking when turning or feel vibration building as you accelerate, the CV axle is usually the source. The outer joint clicks because it can no longer track through tight steering angles without snapping against its worn race. The inner joint produces a shudder when torque loads it while it's worn. We find which joint on which axle is the problem, inspect both boots for tears, and repair only what the inspection shows is needed. Sometimes that's a boot kit, sometimes a full axle.",
+    intro: "",
     hideServicesSection: true,
     specializedServices: ["CV Joint Replacement", "CV Axle Replacement", "CV Boot Replacement", "Axle Seal Replacement", "Drivetrain Inspection"],
     whyUs: [
@@ -193,7 +193,7 @@ const services = [
     heading: "Brake Service & Repair in South Salt Lake, UT",
     metaDesc: "Squeaking or grinding brakes? We replace pads, rotors, and calipers for all makes. Free brake inspection. South Salt Lake, UT. (801) 485-4089.",
     heroIntro: "Squeaking or grinding brakes? We measure before we recommend anything. Free inspection. Written estimate. No surprises.",
-    intro: "If your brakes are squeaking, grinding, or the pedal feels softer than it used to, bring it in. We measure pad thickness, check rotor runout, inspect the calipers, and assess the hydraulic system before recommending anything. Utah's canyon grades and stop-and-go traffic wear brakes faster than flat-highway driving, and we account for how you actually drive when selecting pad compounds and making replacement calls.",
+    intro: "",
     hideServicesSection: true,
     specializedServices: ["Brake Pad Replacement", "Rotor Resurfacing", "Rotor Replacement", "Brake Caliper Service", "Brake Fluid Flush", "Brake Line Repair", "Emergency Brake Service", "ABS Diagnostics"],
     whyUs: [
@@ -279,7 +279,7 @@ const services = [
     heading: "Timing Chain Replacement in South Salt Lake, UT",
     metaDesc: "Engine rattling on startup? Don't wait—timing chain failure can destroy your engine. Free diagnosis at Scott's Auto. Call (801) 485-4089.",
     heroIntro: "Engine rattling at startup? That's a worn timing chain, and it gets worse the longer you wait. Free diagnosis. Written estimate. No surprises.",
-    intro: "That metallic rattling in the first few seconds after a cold start is the most common sign of a worn timing chain. The chain has stretched, and it slaps against the guides before oil pressure builds enough to tension it. It quiets down as the engine warms, which makes it easy to dismiss, but a chain that's already slapping has weakened the plastic guides, and a jumped or broken chain on an interference engine damages the valvetrain without further warning. Timing-related codes alongside startup rattling are a combination worth diagnosing soon.",
+    intro: "",
     hideServicesSection: true,
     specializedServices: ["Timing Chain Replacement", "Tensioner Replacement", "Guide Replacement", "Timing Cover Gasket", "Oil Pump Chain Service"],
     whyUs: [
@@ -360,7 +360,7 @@ const services = [
     heading: "Water Pump Replacement in South Salt Lake, UT",
     metaDesc: "Overheating or coolant leak? Water pump failure is a common cause. We diagnose and replace water pumps for all makes. Call (801) 485-4089.",
     heroIntro: "Overheating or coolant leaking near the front of the engine? The water pump is a common cause. Free diagnosis. Written estimate. No surprises.",
-    intro: "A failing water pump usually gives you a warning before it fails completely: a seep from the weep hole near the front of the engine, a temperature gauge that climbs higher than normal in traffic, or a grinding noise from the bearing. We pressure-test the cooling system to confirm the pump is the source, then check what else is accessible during the same labor. The thermostat, hoses, and often the timing belt share the same access and are worth addressing together if they're near their service interval.",
+    intro: "",
     hideServicesSection: true,
     specializedServices: ["Water Pump Replacement", "Coolant Flush", "Thermostat Replacement", "Cooling System Pressure Test", "Radiator Hose Replacement"],
     whyUs: [
@@ -440,7 +440,7 @@ const services = [
     heading: "Exhaust System Repair & Muffler Service in South Salt Lake, UT",
     metaDesc: "Loud exhaust or exhaust smell in the cabin? We weld and replace mufflers, pipes & manifolds. Free exhaust inspection. Call (801) 485-4089.",
     heroIntro: "Exhaust louder than it should be, or smelling fumes in the cabin? We find the source and fix it. Free inspection. Written estimate. No surprises.",
-    intro: "If your exhaust is louder than it used to be, has a cold-start ticking at idle, or you can smell exhaust inside the cabin, there's a leak somewhere between the manifold and the tailpipe. We put the vehicle on a lift, inspect the full system, and find everything rather than just the problem you noticed. Our in-house welding means we can often repair rather than replace, which matters on older vehicles and imports where exact-fit replacement sections aren't stocked locally.",
+    intro: "",
     hideServicesSection: true,
     specializedServices: ["Muffler Repair", "Muffler Replacement", "Exhaust Pipe Replacement", "Exhaust Manifold Repair", "Custom Exhaust Welding", "Flex Pipe Replacement"],
     whyUs: [
@@ -523,7 +523,7 @@ const services = [
     heading: "Catalytic Converter Service & Replacement in South Salt Lake, UT",
     metaDesc: "Failed emissions or check engine light? Catalytic converter issues diagnosed and repaired fast. Anti-theft shields available. (801) 485-4089.",
     heroIntro: "Failed emissions test or P0420 code? We find the root cause before recommending a replacement. Free diagnosis. Written estimate. No surprises.",
-    intro: "If your vehicle failed a Utah emissions test, has a P0420 code, or smells like sulfur from the exhaust, we find the root cause before recommending a converter replacement. A converter doesn't fail on its own. Misfires, rich fuel conditions, and oil consumption destroy new converters just as fast if the underlying problem isn't fixed first. We also install anti-theft shields for vehicles commonly targeted in the Salt Lake Valley.",
+    intro: "",
     hideServicesSection: true,
     specializedServices: ["Catalytic Converter Replacement", "O2 Sensor Replacement", "Anti-Theft Shield Installation", "Emissions Repair", "Exhaust Welding"],
     whyUs: [
@@ -604,7 +604,7 @@ const services = [
     heading: "Strut & Suspension Replacement in South Salt Lake, UT",
     metaDesc: "Bouncy ride, nose dive when braking, or uneven tire wear? We replace struts for all makes and models. Free inspection. Call (801) 485-4089.",
     heroIntro: "Bouncy ride or nose-diving under braking? Your struts have worn out gradually enough that you may not have noticed how much handling has changed. Free inspection. Written estimate. No surprises.",
-    intro: "Struts do two jobs: damping suspension movement and serving as a structural part of the suspension. When they wear out, the symptoms show up as a bouncy ride that doesn't settle quickly, a front end that pitches forward under braking, and vague steering on uneven pavement. The wear happens gradually, and most drivers adapt without realizing how much the handling has changed. On most front-wheel-drive cars, strut replacement also requires an alignment afterward. We recommend doing both in a single visit.",
+    intro: "",
     hideServicesSection: true,
     specializedServices: ["Front Strut Replacement", "Rear Strut Replacement", "Strut Mount Replacement", "Complete Strut Assembly", "Suspension Inspection"],
     whyUs: [
@@ -685,7 +685,7 @@ const services = [
     heading: "Timing Belt Replacement Service in South Salt Lake, UT",
     metaDesc: "Timing belt due for replacement? We handle belt, tensioner, idler & water pump as a complete service. Honest pricing. Call (801) 485-4089.",
     heroIntro: "Timing belt due or overdue? A broken belt on an interference engine destroys the engine. We do the full service right. Written estimate. No surprises.",
-    intro: "Timing belts don't give much warning before they break. Unlike a timing chain that rattles and throws codes as it stretches, a belt typically looks serviceable right up until it fails. On an interference engine (which covers most vehicles that still use timing belts), a broken belt causes pistons to hit open valves and destroys the engine. The replacement interval exists because belts age and weaken from heat cycling even when they look fine. We inspect the full belt system, explain what's accessible at the same time, and let you decide what makes sense to combine.",
+    intro: "",
     hideServicesSection: true,
     specializedServices: ["Timing Belt Replacement", "Tensioner Replacement", "Idler Pulley Replacement", "Water Pump Service", "Drive Belt Replacement"],
     whyUs: [
@@ -765,7 +765,7 @@ const services = [
     heading: "Automotive Welding Services in South Salt Lake, UT",
     metaDesc: "Exhaust leaks, frame repair, or custom fab? Our shop handles automotive welding for all types of repairs. Call (801) 485-4089.",
     heroIntro: "Most shops don't weld. We do. That means we can repair sections that other shops would replace, and fabricate what isn't available off the shelf. Free assessment. Written estimate. No surprises.",
-    intro: "Most independent shops don't have welding capability, so cracked sections get replaced entirely even when a weld repair would be structurally sound and less expensive. Our in-house welding changes what's possible on exhaust repairs, broken brackets, and custom fabrication. We assess whether welding is the right approach, explain the reasoning, and only recommend full replacement when the base metal isn't sound enough to hold a repair.",
+    intro: "",
     hideServicesSection: true,
     specializedServices: ["Exhaust Welding", "Frame Welding", "Suspension Welding", "Custom Fabrication", "Bracket Repair"],
     whyUs: [
@@ -845,7 +845,7 @@ const services = [
     heading: "Shock Absorber Replacement in South Salt Lake, UT",
     metaDesc: "Rough ride over bumps? We replace shocks on cars, trucks, SUVs, and lifted vehicles. South Salt Lake, UT. Call (801) 485-4089.",
     heroIntro: "Bouncy ride or rough over every bump? Shocks wear out slowly enough that most drivers don't notice until handling has really fallen off. Free inspection. Written estimate. No surprises.",
-    intro: "Shock absorbers degrade slowly enough that most drivers adjust to the change without noticing how much the handling has fallen off. By the time a vehicle is bouncing two or three times after every bump, stopping distance has increased and wet-road traction has declined noticeably. A bounce test at our shop takes about 30 seconds and gives a reliable read on shock condition. We work on daily drivers and lifted trucks. Lifted vehicles need extended-travel shocks matched to the actual lift height, not stock-spec replacements.",
+    intro: "",
     hideServicesSection: true,
     specializedServices: ["Front Shock Replacement", "Rear Shock Replacement", "Truck Shock Service", "Lifted Vehicle Service", "Suspension Inspection"],
     whyUs: [
@@ -925,7 +925,7 @@ const services = [
     heading: "Complete Auto Repair & Maintenance in South Salt Lake, UT",
     metaDesc: "Oil changes, engine diagnostics, A/C, emissions & safety inspections for all makes and models. Trusted since 1990. Call (801) 485-4089.",
     heroIntro: "Scott's has been a full-service shop since 1990. We diagnose before we recommend anything. Free inspection. Written estimate. No surprises.",
-    intro: "Scott's started as a clutch specialist in 1990, and that work is still a big part of what we do. But we're also a full-service shop: oil changes, engine diagnostics, A/C repair, emissions, brakes, cooling system, and anything else your vehicle needs. Every service gets the same approach: diagnose first, quote before touching anything, and don't recommend what your vehicle doesn't need.",
+    intro: "",
     hideServicesSection: true,
     specializedServices: ["Oil Change", "Engine Diagnostics", "A/C Repair", "Emissions Inspection", "Safety Inspection", "Fluid Services", "Belt Replacement", "Hose Replacement", "Battery Service", "Tune-Up"],
     whyUs: [
