@@ -14,6 +14,218 @@
   </div>
 </section>
 
+<% if (brandContent && brandContent.whoContent) { %>
+<%# ============================================================
+     v2 LAYOUT — WHAT / WHY / WHEN / WHO / HOW / WHERE / FAQ / ...
+     ============================================================ %>
+<% var _sec = 0; %>
+
+<%# 1. WHAT — Vehicles We Service %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2><%= brand.name %> Vehicles We Service</h2>
+    <% if (brandContent.whatIntro) { %>
+    <div class="prose" style="max-width:760px;margin-bottom:1.5rem">
+      <p><%- brandContent.whatIntro %></p>
+    </div>
+    <% } %>
+    <div class="brand-tags" style="margin-top:1.25rem">
+      <% brand.models.forEach(m => { %>
+      <span class="tag"><%= brand.name %> <%= m %></span>
+      <% }) %>
+    </div>
+    <p style="margin-top:1.25rem">Have questions about your specific <%= brand.name %>? Give us a call or send a quick text — we're happy to help.</p>
+    <div class="hero-buttons" style="margin-top:1.25rem">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I need service for my ' + brand.name + '.') %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<%# 2. WHY — Why Drivers Choose Us %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2>Why <%= brand.name %> Drivers Choose Scott's</h2>
+    <% if (brandContent.whyIntro) { %>
+    <div class="prose" style="max-width:760px;margin-bottom:2rem">
+      <p><%- brandContent.whyIntro %></p>
+    </div>
+    <% } %>
+    <div class="values-grid">
+      <% brandContent.whyUs.forEach(v => { %>
+      <div class="value-card">
+        <h3><%= v.title %></h3>
+        <p><%= v.desc %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<%# 3. WHEN — When to Come In %>
+<% if (brandContent.whenContent && brandContent.whenContent.length) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2>When to Bring Your <%= brand.name %> In</h2>
+    <div class="prose" style="max-width:760px">
+      <% brandContent.whenContent.forEach(function(p) { %><p><%- p %></p><% }); %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<%# 4. WHO — Who to Trust %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2><%= brandContent.whoContent.heading %></h2>
+    <div class="prose" style="max-width:760px">
+      <% brandContent.whoContent.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
+    </div>
+  </div>
+</section>
+
+<%# 5. HOW — How We Work With You %>
+<% if (brandContent.process && brandContent.process.length) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2>How We Work With <%= brand.name %> Drivers</h2>
+    <% if (brandContent.processIntro) { %>
+    <p class="section-subtitle"><%- brandContent.processIntro %></p>
+    <% } %>
+    <div class="process-steps-compact">
+      <% brandContent.process.forEach(p => { %>
+      <div class="process-step-compact">
+        <span class="step-num"><%= p.step %></span>
+        <div>
+          <h3><%= p.title %></h3>
+          <p><%= p.desc %></p>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<%# 6. WHERE — Map & Address %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2>Where to Find Us</h2>
+    <p>Scott's Auto &amp; Clutch Repair is located at 144 W Crystal Ave in South Salt Lake — centrally positioned in the valley, within 15 minutes of most Salt Lake City zip codes. Easy to reach from I-15, serving <%= brand.name %> drivers from Millcreek, Murray, Draper, Sandy, West Jordan, Taylorsville, and across the greater Salt Lake area.</p>
+    <div class="symptom-location-grid" style="margin-top:1.5rem">
+      <div class="symptom-location-info">
+        <div class="location-detail">
+          <h3>Address</h3>
+          <p><a href="<%= site.directionsUrl %>" target="_blank" rel="noopener"><%= site.fullAddress %></a></p>
+        </div>
+        <div class="location-detail">
+          <h3>Hours</h3>
+          <p><%= site.hours %></p>
+        </div>
+        <div class="location-detail">
+          <h3>Phone</h3>
+          <p><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></p>
+        </div>
+        <div class="symptom-location-actions">
+          <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions</a>
+          <a href="tel:<%= site.phoneTel %>" class="btn btn-secondary">Call Us</a>
+        </div>
+      </div>
+      <div class="symptom-location-map">
+        <iframe
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84117&output=embed&hl=en&z=15"
+          width="100%" height="100%"
+          style="border:0;border-radius:var(--radius);min-height:320px"
+          allowfullscreen loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Scott's Auto & Clutch Repair Location Map">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%# 7. FAQ %>
+<% var faqAlt = !!(_sec++ % 2); %>
+<%- include('partials/faq') %>
+
+<%# 8. Common Repairs (linked services) %>
+<% if (brandContent.commonRepairs && brandContent.commonRepairs.length) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2>Common <%= brand.name %> Repairs</h2>
+    <% if (brandContent.commonRepairsIntro) { %>
+    <p class="section-subtitle"><%- brandContent.commonRepairsIntro %></p>
+    <% } %>
+    <div class="services-grid small">
+      <% brandContent.commonRepairs.forEach(r => { %>
+      <a href="/services/<%= r.slug %>" class="service-card">
+        <h3><%= r.name %></h3>
+        <span class="card-p"><%= r.desc %></span>
+        <span class="card-link">View service</span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<%# 9. Maintenance Tips %>
+<% if (brandContent.tips && brandContent.tips.length) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2><%= brand.name %> Maintenance Tips for Utah Drivers</h2>
+    <p class="section-subtitle">Utah's temperature swings, mountain roads, and high altitude put unique demands on your vehicle. Here's what we've learned from years of servicing <%= brand.name %>s in the Salt Lake Valley.</p>
+    <div class="tips-grid">
+      <% brandContent.tips.forEach(tip => { %>
+      <div class="tip-card">
+        <p><%= tip %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<%# 10. Service Areas %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2><%= brand.name %> Repair Service Areas</h2>
+    <p class="section-subtitle">Our shop in South Salt Lake is centrally located in the valley — most customers are within 15 minutes. We service <%= brand.name %> drivers from throughout the greater Salt Lake area.</p>
+    <div class="locations-grid-compact" style="margin-top:1rem">
+      <% allLocations.forEach(l => { %>
+      <a href="/locations/<%= l.slug %>" class="location-tag">
+        <strong><%= l.name %>, UT</strong>
+        <span><%= l.isHome ? 'Our Location' : l.driveTime + ' away' %></span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<%# 11. Other Brands %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2>Other Vehicle Brands We Service</h2>
+    <div class="brand-tags">
+      <% allVehicleBrands.filter(v => v.slug !== brand.slug).slice(0, 15).forEach(v => { %>
+      <a href="/vehicle-brands/<%= v.slug %>" class="tag"><%= v.name %></a>
+      <% }) %>
+    </div>
+    <div class="section-action">
+      <a href="/vehicle-brands" class="btn btn-outline">View All Brands</a>
+    </div>
+  </div>
+</section>
+
+<%# 12. Testimonials %>
+<%- include('partials/testimonials') %>
+
+<% } else { %>
+<%# ============================================================
+     LEGACY LAYOUT — preserved for brands not yet migrated to v2
+     ============================================================ %>
+
 <!-- 1. Why Choose Us — white -->
 <section class="values-section">
   <div class="container">
@@ -157,6 +369,8 @@
 </section>
 
 <%- include('partials/testimonials') %>
+
+<% } %>
 
 <% var ctaTitle = "Need " + brand.name + " Repair?"; var ctaDesc = "Contact Scott's Auto & Clutch Repair today. Expert " + brand.name + " service at honest prices."; %>
 <%- include('partials/cta') %>
