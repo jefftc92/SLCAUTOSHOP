@@ -9,7 +9,7 @@ const symptoms = [
     relatedService: "clutch-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: true, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "Clutch slipping is when engine RPMs climb but your speed doesn't — the connection between the engine and drivetrain has lost grip, and power isn't reaching the wheels. The image below shows a worn clutch disc (left) next to a new one — the glazed, heat-discolored surface on the worn disc is why it can no longer grip.",
+    intro: "Clutch slipping is when your engine revs climb but your speed doesn't — power isn't reaching the wheels. One of the most common reasons is a worn clutch disc. You can see in the image below that the disc on the left is worn down and can no longer grip, compared to the disc on the right which is brand new.",
     introImage: "clutch-disc-inspection-slc.webp",
     introImageAlt: "Worn clutch disc vs new clutch disc — Scott's Auto & Clutch Repair, Salt Lake City UT",
     introImageCaption: "Left: worn clutch disc with glazed, heat-discolored friction surface. Right: new replacement disc. When the friction material looks like the left, the clutch can no longer grip the flywheel under load.",
