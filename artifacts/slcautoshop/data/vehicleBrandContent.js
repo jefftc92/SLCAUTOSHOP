@@ -1,57 +1,93 @@
 // Brand-specific unique content for SEO depth
 const brandContent = {
   'Toyota': {
-    intro: "Toyota has earned its reliability reputation through consistent engineering and precise manufacturing tolerances — but even a well-built vehicle needs a mechanic who understands what's actually inside it. Timing systems, cooling components, and fluid specs vary significantly across Toyota's model range, and a generic service approach misses those details. We've worked on Corollas with 220,000 miles, 4Runners with clutch jobs, and Tacomas that spend weekends on Utah's backcountry roads. If your Toyota needs something, we'll tell you exactly what it is.",
+    intro: "Scott's has serviced Toyotas since 1990 — Corollas, Camrys, Tacomas, 4Runners, Prius, RAV4s, and everything in between. Free diagnosis. Written estimate. We'll tell you exactly what your Toyota needs before any work starts.",
     whyUs: [
-      { title: "Toyota Timing Expertise", desc: "Toyota's timing systems vary significantly by engine generation — some use belts, some use chains, and the service requirements differ considerably. We know which your vehicle has and what it needs." },
-      { title: "Correct-Spec Fluids Only", desc: "Toyota transmissions and engines are sensitive to fluid specification. We stock Toyota-spec ATF, CVT fluid, and engine oil — not generic alternatives labeled 'compatible.'" },
-      { title: "Diagnosis Before Parts", desc: "We road-test and diagnose before recommending any repair. A check engine code points to a system — it doesn't tell us what to replace." },
-      { title: "Free Diagnosis", desc: "Every Toyota repair starts with a free diagnosis. You know exactly what we found and what the repair involves before we start any work." }
+      { title: "Clutch & Manual Transmission Specialists", desc: "Clutch repair is what this shop was built on. Tacoma owners, 4Runner stick drivers, GR86 and Supra owners — we know Toyota manual drivetrains and have done clutch jobs on these platforms for over three decades." },
+      { title: "Toyota-Spec Fluids Only", desc: "Toyota ATF, CVT fluid, and coolant specs are not interchangeable with generic alternatives. We stock the correct fluid for every Toyota transmission and don't use 'compatible' substitutes that cause long-term wear." },
+      { title: "Diagnosis Before Recommendations", desc: "We road test and inspect before recommending any repair. A Toyota check engine code tells us which system to look at — not what part to replace. That diagnostic step is free and prevents unnecessary work." },
+      { title: "Dealer Alternative Pricing", desc: "Toyota dealers in the Salt Lake area charge $150–175/hr for service. Our rate is meaningfully lower, and we use parts that meet or exceed Toyota's specifications for every repair." }
     ],
     richContent: [
       {
-        heading: "Toyota's Timing Systems: What Changes Between Engine Generations",
+        heading: "What We Service on Toyota Vehicles",
         paras: [
-          "Toyota has used both timing belts and timing chains across its engine lineup, and the service requirements are completely different. Belt-equipped engines — including older 4-cylinder and V6 designs used in Camrys, RAV4s, and Tacomas through the mid-2000s — require belt replacement at the manufacturer's interval, typically 90,000 miles. Missing this service on an interference engine destroys it. Chain-equipped engines, which cover most modern Toyotas, don't have a fixed replacement interval but develop stretch over high mileage, showing up as a cold-start rattle and timing-related fault codes.",
-          "Direct injection has become standard on most newer Toyota engines. GDI engines don't wash the intake valves with fuel the way port-injection designs do, which means carbon accumulates on the valves over time and eventually affects combustion. An intake cleaning service every 60,000-80,000 miles keeps power and fuel economy consistent on affected engines. We identify which systems your Toyota has before making any maintenance recommendations."
+          "Toyota's lineup spans compact sedans, hybrid powertrains, body-on-frame trucks, three-row SUVs, and performance vehicles — and the maintenance requirements differ across those platforms. Here's what we handle across the Toyota range.",
+          "<strong>Engine and timing service</strong> — Toyota uses both timing belts (older Camry, RAV4, Tacoma V6, and Highlander engines through the mid-2000s) and timing chains (most post-2005 engines). Belt engines require replacement at the manufacturer's interval. Skipping it on an interference engine is catastrophic. Chain engines don't have a fixed replacement interval but develop stretch over high mileage, producing a cold-start rattle and timing fault codes.",
+          "<strong>Clutch and manual transmission</strong> — Tacoma, 4Runner, GR86, Supra, and older Corolla and Camry owners with manual gearboxes. Clutch disc, pressure plate, flywheel resurfacing, throw-out bearing, and hydraulic system — the same thorough work we've done on Toyota platforms since 1990.",
+          "<strong>Automatic and CVT transmission service</strong> — Toyota automatics and CVTs are sensitive to fluid condition. Despite 'lifetime' fill claims, fluid degrades and causes shift quality deterioration on vehicles where it was never changed. We stock Toyota-spec ATF and CVT fluid.",
+          "<strong>Hybrid systems</strong> — Toyota Prius (all generations), RAV4 Hybrid, Camry Hybrid, Highlander Hybrid, and Sienna Hybrid. Hybrid battery testing and replacement, inverter system checks, and regenerative braking service require specific knowledge. We test the battery pack and individual cells before recommending replacement.",
+          "<strong>Brakes, suspension, and steering</strong> — brake pad and rotor service, CV axle replacement, strut and shock replacement, wheel bearing service, and alignment.",
+          "<strong>Cooling system</strong> — water pump, thermostat, hoses, and coolant flush. Toyota cooling systems are reliable but not maintenance-free, particularly as mileage climbs past 100,000.",
+          "<strong>Exhaust and emissions</strong> — exhaust manifold repair (Toyota V6 manifolds are prone to cracking), catalytic converter service, and oxygen sensor replacement.",
+          "Depending on what your vehicle needs, common work we perform includes:"
+        ],
+        list: [
+          "Timing belt and timing chain service",
+          "Clutch replacement and repair",
+          "Transmission fluid service (automatic, CVT, manual)",
+          "Hybrid battery testing and replacement",
+          "Brake pad, rotor, and caliper service",
+          "CV axle and joint replacement",
+          "Strut, shock, and suspension service",
+          "Water pump and cooling system service",
+          "Exhaust manifold repair and replacement",
+          "Check engine light diagnosis"
+        ],
+        listStyle: "tags"
+      },
+      {
+        heading: "Toyota Timing Systems: Why Belt vs. Chain Matters",
+        paras: [
+          "Whether your Toyota has a timing belt or a timing chain determines the maintenance it needs — and they require completely different approaches. Belt-equipped engines (older 4-cylinder and V6 designs found in Camrys, RAV4s, Tacomas, and Highlanders through the mid-2000s) require belt replacement at Toyota's recommended interval, typically 90,000 miles. These are interference engines: if the belt fails while running, the valves and pistons collide. There's no warning. The repair bill is in the thousands. The belt replacement is in the hundreds.",
+          "Most post-2005 Toyotas use timing chains, which don't have a fixed replacement interval but develop stretch over time. The first sign is usually a rattle or ticking on cold starts that quiets as the engine warms up, sometimes with a check engine light for camshaft timing. A stretched chain, worn guides, or a failing tensioner won't resolve itself.",
+          "Direct injection is now standard on most current Toyota engines. GDI engines don't wash intake valves with fuel the way older port-injection designs do, which means carbon accumulates on the valves over time — gradually affecting idle quality, throttle response, and fuel economy. An intake cleaning service every 60,000–80,000 miles keeps combustion efficient on affected engines. We identify which systems your specific Toyota has before making any recommendations."
         ]
       },
       {
-        heading: "Why Toyota Owners Choose Independent Shops",
+        heading: "Why Toyota Owners Choose Scott's Over the Dealer",
         paras: [
-          "Toyota dealers charge $150-175 per hour for service in the Salt Lake area. Our rate is significantly lower, and we use parts that meet or exceed Toyota's specifications for every repair. For most Toyota services — oil changes, brakes, timing components, cooling system, clutch — there's no meaningful difference in the repair itself between a dealer and a shop that knows the platform. The difference is the bill at the end.",
-          "We also diagnose before we recommend. A dealer service department often works from a menu of services tied to mileage intervals. We inspect what your specific vehicle shows and recommend based on what we actually find. If your Toyota doesn't need a service, we tell you. If it does, we explain exactly why before the work starts."
+          "Toyota dealers in the Salt Lake area charge $150–175 per hour for labor. For most Toyota services — oil changes, brakes, timing components, cooling system, clutch, transmission fluid — there's no meaningful difference in the repair itself between a dealership and a shop that specializes in the work. The difference shows up on the invoice.",
+          "The other reason is how we diagnose. Dealer service departments often work from a menu tied to mileage milestones. We inspect what your specific vehicle shows and recommend based on what we actually find. If your Toyota's transmission fluid looks clean at 45,000 miles, we tell you it can wait. If your 4Runner's differential fluid looks dark from regular off-road use, we explain why it should be changed regardless of mileage. We don't recommend from a checklist.",
+          "For Toyota hybrid owners: hybrid battery replacement is one of the more expensive services a Toyota owner faces. We test the battery pack and individual cell health before recommending replacement, and we'll tell you honestly whether reconditioning is a realistic option or whether replacement is the right call. We diagnose before we recommend — the same approach we apply to every repair."
         ]
       },
       {
-        heading: "Toyota Ownership in Utah: What the Mountains Demand",
+        heading: "When to Bring Your Toyota In",
         paras: [
-          "Utah's terrain changes what Toyota maintenance looks like in practice. Tacomas and 4Runners that see regular off-road use put additional stress on drivetrain fluids — differential, transfer case, and transmission fluid degrade faster than they would on a highway-only vehicle. We recommend shortened intervals for Toyotas used on dirt roads, in the Wasatch, or for regular towing on canyon grades.",
-          "Toyota cooling systems are reliable but not maintenance-free. The temperature swings between a Utah winter and summer cycle rubber hoses, plastic reservoirs, and thermostat housings more aggressively than mild climates would. Coolant concentration and condition matter year-round here. Annual cooling system checks are worth doing, particularly as mileage accumulates."
+          "Toyotas are genuinely reliable, and that reliability can work against owners — a developing problem gets deferred because the car still drives, and by the time it's hard to ignore, the repair is larger than it needed to be. A few situations where prompt attention matters:",
+          "<strong>Cold-start engine noise</strong> — a rattle, tick, or knock at startup that quiets within a minute usually means timing chain stretch, a failing VVT system, or low oil pressure at startup. All are manageable when caught early and more expensive when they progress.",
+          "<strong>Any check engine light</strong> — Toyota's OBD system catches problems early. A steady light means a stored fault code that should be read and diagnosed. A flashing check engine light means a misfire severe enough to damage the catalytic converter — that needs attention the same day.",
+          "<strong>Transmission behavior changes</strong> — delayed engagement from Park, slipping between gears, or a shudder during light-throttle acceleration on a CVT-equipped Toyota. Both fluid condition and internal wear respond better to early attention.",
+          "<strong>Scheduled maintenance on belt-equipped engines</strong> — if you're not sure whether your Toyota has a timing belt or chain, we can look it up in one minute by VIN. If it's a belt engine and you're past 85,000 miles without a replacement, schedule it.",
+          "<strong>Clutch changes on manual Toyotas</strong> — slipping under load, grinding when shifting, a pedal that feels lower or softer than it used to. Any of these is worth a free diagnosis before the problem progresses to flywheel damage."
         ]
       }
     ],
     issues: [
-      {t:'Timing Chain Stretch',d:'Toyota timing chains can develop stretch over time, causing a rattling noise on cold starts and check engine codes for camshaft timing. We replace the chain, guides, and tensioner as a complete kit to restore proper timing.'},
-      {t:'Water Pump Failure',d:'Toyota V6 and some 4-cylinder engines are prone to water pump seal failure, showing up as coolant weeping around the pump shaft. Early detection prevents overheating and engine damage.'},
-      {t:'Clutch Chatter and Judder',d:'Toyota manual transmissions can develop clutch chatter and shudder during engagement, particularly in trucks and performance vehicles. We replace with quality clutch kits that eliminate the vibration.'},
-      {t:'Exhaust Manifold Cracks',d:'Toyota V6 engines are prone to cracked exhaust manifolds, causing a ticking sound especially when cold and failed emissions tests. We weld or replace depending on crack severity.'},
-      {t:'Carbon Buildup on Direct Injection',d:'Toyota direct-injection engines accumulate carbon deposits on intake valves over time, reducing power and fuel economy. Walnut blast cleaning restores performance without engine disassembly.'},
-      {t:'Transmission Fluid Degradation',d:'Toyota automatic and CVT transmissions are sensitive to fluid quality. Despite "lifetime" fill claims, fluid degrades and causes shift quality issues on vehicles where it was never serviced.'},
-      {t:'Cooling System Hose and Seal Wear',d:'Toyota cooling systems use rubber hoses, plastic reservoirs, and thermostat housings that deteriorate with age. A pressurized cooling system inspection catches leaks before they cause an overheating event.'}
+      {t: 'Timing Chain Stretch', d: 'Toyota timing chains develop stretch over high mileage, causing a cold-start rattle and check engine codes for camshaft timing. We replace the chain, guides, and tensioner as a complete kit to restore correct timing.'},
+      {t: 'Timing Belt Wear (Older Engines)', d: 'Belt-equipped Toyota engines — many pre-2006 Camry, RAV4, Tacoma V6, and Highlander models — require belt replacement at 90,000 miles. These are interference engines: a belt failure while running destroys the engine.'},
+      {t: 'Water Pump Failure', d: 'Toyota V6 and some 4-cylinder engines are prone to water pump seal failure, showing up as coolant seeping around the pump shaft. Caught early it\'s a straightforward repair. Ignored, it leads to overheating and head gasket damage.'},
+      {t: 'Exhaust Manifold Cracks', d: 'Toyota V6 engines are prone to cracked exhaust manifolds, producing a ticking sound when cold and causing failed emissions tests. We weld or replace depending on crack severity and location.'},
+      {t: 'Transmission Fluid Degradation', d: 'Toyota automatic and CVT transmissions are sensitive to fluid quality. Despite "lifetime" fill claims, fluid degrades with heat and causes shift quality deterioration on vehicles where it was never serviced. We use only Toyota-spec fluid.'},
+      {t: 'Hybrid Battery Capacity Loss', d: 'Toyota hybrid batteries (Prius, RAV4 Hybrid, Camry Hybrid) lose capacity over time, reducing fuel economy and triggering hybrid system warnings. We test battery capacity and individual cell health before recommending replacement or reconditioning.'},
+      {t: 'Carbon Buildup on Direct-Injection Engines', d: 'Toyota\'s newer direct-injection engines accumulate carbon on intake valves over time. Symptoms include rough idle, reduced power, and declining fuel economy. Walnut blast cleaning restores performance without engine disassembly.'},
+      {t: 'Clutch Wear on Manual Transmissions', d: 'Tacoma, 4Runner, GR86, and Supra owners with manual transmissions see clutch disc and flywheel wear over time. We diagnose the full system — disc, pressure plate, flywheel, throw-out bearing, and hydraulics — before recommending any replacement.'}
     ],
     tips: [
-      'Toyota engines are built around specific oil grades and change intervals. Using the correct synthetic oil spec — and not extending intervals beyond what Toyota recommends — is one of the most effective things you can do for long-term engine health.',
-      'Utah\'s canyon roads and mountain grades put real demands on Toyota drivetrains. Differential and transfer case fluid in AWD and 4WD models should be changed more frequently than the factory interval suggests for flat-highway driving.',
-      'Toyota cooling systems are reliable but not maintenance-free. Coolant degrades over time and loses its corrosion inhibitors. A coolant flush at the manufacturer\'s interval prevents internal rust and thermostat problems.',
-      'Direct-injection Toyota engines build carbon deposits on intake valves over time — a known trade-off of GDI technology. An intake cleaning every 60-80K miles keeps combustion efficient and performance consistent.'
+      'Toyota engines are built around specific oil grades and change intervals. Full synthetic at the correct viscosity, changed at Toyota\'s recommended interval (typically 7,500–10,000 miles), is one of the most effective investments in long-term engine life. If you do a lot of mountain driving, towing, or stop-and-go in Salt Lake traffic, shorter intervals are worth it.',
+      'Toyota AWD and 4WD models — 4Runner, Tacoma, RAV4 AWD, Highlander AWD — have differential and transfer case fluid that degrades faster than engine oil. Factory intervals assume mostly highway driving. If your Toyota sees regular off-road use, winter conditions, or towing on canyon grades, shorten those fluid change intervals.',
+      'Toyota cooling systems are reliable, but coolant degrades over time and loses its corrosion inhibitors. Internal rust and thermostat housing failure follow from running degraded coolant too long. A coolant flush at the manufacturer\'s interval — or every 30,000 miles if you\'re not sure when it was last done — prevents those problems.',
+      'Hybrid Toyota owners: noticeable fuel economy decline is often the first sign of a battery pack losing capacity. If your Prius, RAV4 Hybrid, or Camry Hybrid isn\'t getting the economy it used to, it\'s worth having the hybrid battery tested before the problem progresses to a full system warning light.'
     ],
     faqs: [
-      {q:'How often should I change my Toyota\'s oil?',a:'Depending on which engine your Toyota has, 7,500-10,000 miles on full synthetic is standard. But if you drive in heavy traffic, tow, or do a lot of mountain driving on Utah roads, we recommend 5,000-7,500 mile intervals. It\'s cheap insurance on an engine built to last 200,000+ miles.'},
-      {q:'How do I know if my Toyota has a timing issue?',a:'The most common sign is a rattling or ticking noise on cold starts that quiets as the engine warms up, sometimes paired with a check engine light for camshaft timing. If you hear it, have it inspected promptly — timing issues progress to engine damage if ignored.'},
-      {q:'When should my Toyota\'s transmission fluid be changed?',a:'Despite "lifetime" fluid claims, Toyota transmissions benefit from changes every 30,000-45,000 miles in real-world use. Utah\'s mountain grades and temperature swings are harder on transmission fluid than flat-highway driving.'},
-      {q:'Why is my Toyota making a clicking or vibrating noise?',a:'Drivetrain noises — clicking during turns, vibration under acceleration — typically point to CV joints, differential fluid levels, or clutch components. We diagnose the actual source before recommending any repair.'},
-      {q:'Is it worth investing in a high-mileage Toyota?',a:'Usually yes. Toyota engines and transmissions are among the most durable made. A well-maintained Toyota at 150,000-200,000 miles is often worth maintaining — repair costs compare favorably to a car payment, and these vehicles routinely go 250,000+ miles.'}
+      {q: 'Does my Toyota have a timing belt or a timing chain?', a: 'It depends on the engine. Generally, Camry, RAV4, Tacoma, and Highlander models with 4-cylinder engines before 2006 and V6 engines before 2005 have timing belts. Most Toyotas produced after 2006 use timing chains. If you\'re not sure, we can look it up by VIN in one minute. If it\'s a belt engine and you\'re past 85,000 miles without a replacement, schedule it now.'},
+      {q: 'How often should I change the oil in my Toyota?', a: 'For modern Toyotas with full synthetic, 7,500–10,000 miles is the manufacturer\'s guidance. If you do a lot of stop-and-go in Salt Lake traffic, regularly tow, or spend weekends on canyon grades, we recommend 5,000–7,500 mile intervals. It\'s cheap insurance on an engine built to last 200,000+ miles.'},
+      {q: 'My Toyota Prius or RAV4 Hybrid warning light is on — what does that mean?', a: 'The triangle with an exclamation mark typically indicates a hybrid system fault. The most common cause is a declining battery pack, but inverter and cooling system issues can also trigger it. We test the battery pack and individual cell health before recommending anything. A flashing red triangle indicates a more urgent system failure — don\'t ignore it.'},
+      {q: 'When does a Toyota CVT transmission need service?', a: 'Toyota says "lifetime fluid" on many CVT-equipped models, but real-world experience doesn\'t support that. We recommend a CVT fluid change every 30,000–45,000 miles for normal use, sooner for vehicles that do a lot of mountain driving or towing. Degraded CVT fluid causes a shudder during light-load acceleration that gets worse over time.'},
+      {q: 'Is it worth repairing a high-mileage Toyota?', a: 'Usually yes. Toyota engines and transmissions are among the most durable made. A well-maintained Camry, Corolla, or Tacoma at 150,000–200,000 miles is often worth maintaining. Repair costs typically compare favorably to a car payment, and these vehicles routinely go 250,000+ miles with proper maintenance. If a repair costs more than the vehicle\'s market value, we\'ll tell you honestly.'},
+      {q: 'Do you work on older Toyota models?', a: 'Yes. We service Toyotas from all eras — 1990s Camrys and Corollas, older 4Runners and Tacomas, early Prius models. Older Toyotas can have parts availability challenges, but for most mechanical work we can source what\'s needed. Call us if you have questions about a specific year and model.'},
+      {q: 'Why is my Toyota making a clicking or grinding noise?', a: 'Clicking during turns typically points to CV axles — a common Toyota wear item. Grinding when braking usually means brake pads worn to metal contact. A cold-start knock or rattle that quiets as the engine warms up points to timing chain or VVT system issues. We diagnose the actual source before recommending any repair.'}
     ]
   },
   'Honda': {
