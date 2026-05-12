@@ -1,56 +1,80 @@
 #!/bin/bash
-# Geotag symptom page images with Scott's Auto & Clutch Repair shop metadata.
-# Run after dropping generated images into public/assets/.
+# Apply full realistic EXIF/XMP metadata to symptom page images.
+# Mimics a photo taken on an iPhone 15 Pro at Scott's Auto & Clutch
+# Repair in May 2026. Run after dropping images into public/assets/.
 #
 # Usage: bash geotag-images.sh
 
 ASSETS="$(dirname "$0")/public/assets"
+IMG="$ASSETS/clutch-disc-inspection-slc.webp"
 
-# Shop metadata
-LAT="40.7183"
-LON="-111.8883"
-CITY="Salt Lake City"
-STATE="UT"
-ZIP="84117"
-ADDRESS="144 W Crystal Ave, Salt Lake City, UT 84117"
-DATE="2026:05:11 10:00:00"
+if [ ! -f "$IMG" ]; then
+  echo "Image not found: $IMG"
+  echo "Save the image there first, then re-run."
+  exit 1
+fi
 
-geotag() {
-  local file="$ASSETS/$1"
-  local desc="$2"
-  local keywords="$3"
+echo "Applying metadata to $(basename $IMG)..."
 
-  if [ ! -f "$file" ]; then
-    echo "SKIP (not found): $1"
-    return
-  fi
+exiftool -overwrite_original \
+  -all= \
+  "$IMG"
 
-  exiftool -overwrite_original \
-    -GPSLatitude="$LAT" \
-    -GPSLatitudeRef=N \
-    -GPSLongitude="${LON#-}" \
-    -GPSLongitudeRef=W \
-    -DateTimeOriginal="$DATE" \
-    -CreateDate="$DATE" \
-    -ImageDescription="$desc" \
-    -XMP:Description="$desc" \
-    -XMP:Subject="$keywords" \
-    -XMP:City="$CITY" \
-    -XMP:State="$STATE" \
-    -XMP:CountryCode="US" \
-    -XMP:Location="$ADDRESS" \
-    -Copyright="Scott's Auto & Clutch Repair, $ADDRESS" \
-    "$file" && echo "Tagged: $1"
-}
+exiftool -overwrite_original \
+  -Make="Apple" \
+  -Model="iPhone 15 Pro" \
+  -Software="17.4.1" \
+  -LensModel="iPhone 15 Pro back triple camera 6.765mm f/2.8" \
+  -FocalLength="6.8 mm" \
+  -FocalLengthIn35mmFormat="77" \
+  -Aperture="2.8" \
+  -FNumber="2.8" \
+  -ExposureTime="1/60" \
+  -ShutterSpeedValue="1/60" \
+  -ISO="800" \
+  -ExposureProgram="Normal program" \
+  -MeteringMode="Multi-segment" \
+  -Flash="No Flash" \
+  -WhiteBalance="Auto" \
+  -DigitalZoomRatio="1" \
+  -SceneCaptureType="Standard" \
+  -ColorSpace="sRGB" \
+  -Orientation="Horizontal (normal)" \
+  -XResolution="72" \
+  -YResolution="72" \
+  -ResolutionUnit="inches" \
+  -DateTimeOriginal="2026:05:07 14:23:11" \
+  -CreateDate="2026:05:07 14:23:11" \
+  -ModifyDate="2026:05:07 14:23:11" \
+  -GPSLatitude="40.7183" \
+  -GPSLatitudeRef="N" \
+  -GPSLongitude="111.8883" \
+  -GPSLongitudeRef="W" \
+  -GPSAltitude="1288" \
+  -GPSAltitudeRef="Above Sea Level" \
+  -GPSSpeed="0" \
+  -GPSSpeedRef="K" \
+  -GPSImgDirection="214" \
+  -GPSImgDirectionRef="T" \
+  -GPSTimeStamp="14:23:11" \
+  -GPSDateStamp="2026:05:07" \
+  -ImageDescription="Worn vs new clutch disc comparison — Scott's Auto & Clutch Repair, 144 W Crystal Ave, Salt Lake City UT 84117" \
+  -XMP:Title="Clutch Disc Inspection — Scott's Auto & Clutch Repair" \
+  -XMP:Description="Side-by-side comparison of a heat-glazed worn clutch disc and a new replacement disc. Clutch slipping diagnosis at Scott's Auto & Clutch Repair, Salt Lake City UT." \
+  -XMP:Subject="clutch repair, clutch slipping, worn clutch disc, Salt Lake City auto repair, Scott's Auto" \
+  -XMP:Creator="Scott's Auto & Clutch Repair" \
+  -XMP:Rights="Copyright 2026 Scott's Auto & Clutch Repair. All rights reserved." \
+  -XMP:City="Salt Lake City" \
+  -XMP:State="Utah" \
+  -XMP:Country="United States" \
+  -XMP:CountryCode="US" \
+  -XMP:Location="144 W Crystal Ave, Salt Lake City, UT 84117" \
+  -Copyright="Copyright 2026 Scott's Auto & Clutch Repair" \
+  -Artist="Scott's Auto & Clutch Repair" \
+  "$IMG"
 
-geotag \
-  "clutch-disc-inspection-slc.webp" \
-  "Worn clutch disc inspection at Scott's Auto & Clutch Repair, 144 W Crystal Ave, Salt Lake City UT 84117" \
-  "clutch repair, clutch slipping, clutch disc, Salt Lake City auto repair, Scott's Auto"
-
-geotag \
-  "clutch-repair-mechanic-slc.webp" \
-  "Clutch replacement in progress at Scott's Auto & Clutch Repair, Salt Lake City UT — specialists since 1990" \
-  "clutch replacement, auto mechanic, Salt Lake City, Scott's Auto & Clutch Repair"
-
+echo ""
+echo "Verifying metadata:"
+exiftool -Make -Model -DateTimeOriginal -GPSLatitude -GPSLongitude -ImageDescription "$IMG"
+echo ""
 echo "Done."
