@@ -4,10 +4,10 @@
     <h2><%= typeof faqTitle !== 'undefined' && faqTitle ? faqTitle : 'Frequently Asked Questions' %></h2>
     <div class="faq-list">
       <% pageFaqs.forEach(faq => { %>
-      <div class="faq-item">
-        <h3><%= faq.q %></h3>
+      <details class="faq-item">
+        <summary><%= faq.q %></summary>
         <p><%= faq.a %></p>
-      </div>
+      </details>
       <% }) %>
     </div>
   </div>

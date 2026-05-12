@@ -2,8 +2,9 @@
 const brandContent = {
   'Toyota': {
     intro: "Scott's has serviced Toyotas since 1990 — Corollas, Camrys, Tacomas, 4Runners, Prius, RAV4s, and everything in between. Free diagnosis. Written estimate. We'll tell you exactly what your Toyota needs before any work starts.",
+    whatHeading: "Full-Service Toyota Repair Since 1990",
     whatIntro: "Scott's Auto & Clutch Repair has serviced Toyotas in South Salt Lake since 1990. We handle the full range of mechanical work a Toyota needs over its lifetime: timing service, clutch and manual transmission, automatic and CVT service, hybrid battery diagnostics, brakes, cooling system, suspension, exhaust, and check engine diagnostics. Every Toyota that comes in gets a free diagnosis first — you'll know exactly what your vehicle needs before any work starts.",
-    whyIntro: "There are plenty of shops in the Salt Lake area that will work on a Toyota. Here's what makes Scott's different — and why Toyota drivers come back, often for decades, once they've worked with us.",
+    whyIntro: "Toyota dealers in Salt Lake charge $150–175 per hour and run their service departments on volume — your car is written up by a service advisor, handed off to a tech you'll never meet, and returned with a multipoint inspection full of upsells. People bring their Toyotas to Scott's instead because we work differently: one mechanic diagnoses and repairs your vehicle, explains exactly what was found, and only recommends what your car actually needs. We've been doing this in South Salt Lake since 1990. Here's what else sets us apart.",
     whyUs: [
       { title: "Clutch & Manual Transmission Specialists", desc: "Clutch repair is what this shop was built on. Tacoma owners, 4Runner stick drivers, GR86 and Supra owners — we know Toyota manual drivetrains and have done clutch jobs on these platforms for over three decades." },
       { title: "Toyota-Spec Fluids Only", desc: "Toyota ATF, CVT fluid, and coolant specs are not interchangeable with generic alternatives. We stock the correct fluid for every Toyota transmission and don't use 'compatible' substitutes that cause long-term wear." },
