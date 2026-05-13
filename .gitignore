@@ -50,3 +50,8 @@ Thumbs.db
 
 # Temporary content draft files
 v2_content_batch*.js
+v2_rewrites_group*.js
+apply_v2_rewrites.js
+apply_v2_content.js
+apply_v2_extended.js
+apply_v2_batch4.js

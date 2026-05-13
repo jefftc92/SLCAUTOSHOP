@@ -1,7 +1,7 @@
 // Brand-specific unique content for SEO depth
 const brandContent = {
   'Toyota': {
-    intro: "Scott's has serviced Toyotas since 1990 — Corollas, Camrys, Tacomas, 4Runners, Prius, RAV4s, and everything in between. Free diagnosis. Written estimate. We'll tell you exactly what your Toyota needs before any work starts.",
+    intro: "Trusted Toyota repair in South Salt Lake since 1990. We service Corollas, Camrys, Tacomas, 4Runners, Prius, and RAV4s — free diagnosis, written estimate, and transparent pricing well below dealer rates.",
     whatHeading: "Full-Service Toyota Repair Since 1990",
     whatIntro: "Scott's Auto & Clutch Repair has serviced Toyotas in South Salt Lake since 1990. We handle the full range of mechanical work a Toyota needs over its lifetime: timing service, clutch and manual transmission, automatic and CVT service, hybrid battery diagnostics, brakes, cooling system, suspension, exhaust, and check engine diagnostics. Every Toyota that comes in gets a free diagnosis first — you'll know exactly what your vehicle needs before any work starts.",
     whyIntro: "Most Toyota dealers in Salt Lake are billing $150–175 per hour. Your car gets written up by a service advisor, handed off to a tech you'll never meet, and comes back with a multipoint inspection full of items to approve or decline. At Scott's, it works differently. The mechanic who diagnoses your Toyota is the one who repairs it — same person, start to finish. They explain what they found in plain language and only recommend what your vehicle actually needs. We've been doing it that way in South Salt Lake since 1990.",
@@ -59,7 +59,7 @@ const brandContent = {
   },
   'Honda': {
     whatHeading: "Full-Service Honda Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has worked on Hondas in South Salt Lake since 1990 — Civics, Accords, CR-Vs, Pilots, Odysseys, and manual-transmission models from every era. Honda's engineering is tightly toleranced, and the platform rewards mechanics who understand it: VTEC timing systems that are oil-pressure dependent, transmissions that require Honda-spec fluid rather than generic alternatives, direct-injection engines that accumulate carbon on intake valves over time, and rear brake systems that wear faster than most owners expect. Every Honda we take in gets a free diagnosis first. You'll know exactly what we found before any work starts.",
+    whatIntro: "Scott's Auto & Clutch Repair has worked on Hondas in South Salt Lake since 1990 — Civics, Accords, CR-Vs, Pilots, Odysseys, and manual-transmission models from every era. We handle VTEC timing systems, Honda-spec ATF and CVT fluid service, direct-injection carbon cleaning, clutch and manual transmission work, and everything else a Honda needs over its lifetime. Every Honda we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
     whyIntro: "Honda dealers in the Salt Lake Valley are billing in the range of $150–170 per hour, and the service experience follows the standard chain-dealer model: a service advisor writes up the job, hands it to a technician you don't interact with, and returns a multipoint inspection with a column of items for you to approve. At Scott's, one mechanic diagnoses your Honda and does the repair. Same person throughout. They explain what they found in plain language and recommend only what the car actually needs — not a list of services based on mileage thresholds. Honda manual transmissions and clutch work have been core to what we do since 1990. We've also handled enough Honda AC compressor failures to know the correct way to service the system when one fails — complete flush and replacement, because metal debris travels through the entire AC circuit. We bring that depth of platform knowledge to every Honda we touch.",
     whoContent: {
       heading: "Who to Trust for Honda Repair in South Salt Lake",
@@ -89,7 +89,7 @@ const brandContent = {
       { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Honda exhaust manifold cracks and flange leaks — common on high-mileage V6 Accords and Pilots." },
       { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full mechanical service across all Honda models — diagnosis, repair, and fluid service." }
     ],
-    intro: "Honda builds its reputation on engineering precision — VTEC timing systems, tightly toleranced transmissions, and factory specs designed to work together. Generic fluids, wrong-spec oil, or deferred maintenance shows up on Hondas faster than on some other makes. If your Honda is shifting rough, making noise, leaking, or has a check engine light, we diagnose first and explain what we found before recommending any repair.",
+    intro: "Honest Honda repair in South Salt Lake since 1990. We diagnose your Civic, Accord, CR-V, Pilot, or Odyssey first, explain exactly what we found, and give you a written estimate before any work begins — at prices well below dealer rates. One mechanic, transparent process, no upsells.",
     whyUs: [
       { title: "Honda Transmission Knowledge", desc: "Honda transmissions require Honda-spec fluid — full stop. We stock DW-1 ATF and the correct CVT fluid, and we know the difference between a transmission problem and a fluid problem." },
       { title: "VTEC and GDI Experience", desc: "VTEC solenoid issues, carbon buildup on direct-injection engines, and intake valve deposits are common Honda repair territory. We know where to look and what the repair involves." },
@@ -144,7 +144,7 @@ const brandContent = {
   },
   'Ford': {
     whatHeading: "Full-Service Ford Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has serviced Fords in South Salt Lake since 1990 — F-150s, Mustangs, Explorers, Rangers, Edges, and everything in between. Ford's lineup spans more ground than most manufacturers: EcoBoost turbocharged engines that demand shorter oil intervals than the factory schedule suggests, modular V8s with known spark plug and exhaust manifold failure patterns, PowerShift dual-clutch transmissions with specific service needs, and trucks that see real use on Utah's canyon grades. We diagnose first and give you a written estimate before any work starts. No guessing, no parts-swapping — just a clear picture of what your Ford actually needs.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Fords in South Salt Lake since 1990 — F-150s, Mustangs, Explorers, and the full range of Ford trucks and SUVs. We handle EcoBoost turbocharged engine service, timing and ignition work, clutch and manual transmission repair, PowerShift and automatic transmission fluid service, and the drivetrain maintenance that Utah canyon grades demand on a shorter schedule than the factory suggests. Every Ford we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
     whyIntro: "Ford dealers in Salt Lake are running at $150–175 per hour, and F-150 service at a dealer often involves a service advisor upsell list that reads like a menu rather than a diagnosis. We do it differently. One mechanic looks at your Ford, finds the actual problem, explains it in plain language, and does the repair. Utah's driving conditions change what Ford truck maintenance looks like — sustained high-load climbing on Parleys Canyon or Big Cottonwood degrades transmission fluid faster than flat-highway driving, and Ford's extended service intervals assume the latter. EcoBoost turbo systems and Ford V8 exhaust manifold stud extraction require hands-on experience; we've dealt with enough seized 5.4L spark plugs and cracked Coyote cam phasers to handle them correctly without making the job bigger than it has to be.",
     whoContent: {
       heading: "Who to Trust for Ford Repair in South Salt Lake",
@@ -154,8 +154,8 @@ const brandContent = {
       ]
     },
     whenContent: [
-      "Bring your EcoBoost Ford in if you notice any burning smell at highway speed or after a hard pull up a canyon grade — EcoBoost turbos are oil-cooled, and a slow oil leak onto a hot turbo housing creates a smell before it creates a problem you can see. Also pay attention to any ticking from the exhaust when the engine is cold: on F-150s and Mustangs with modular V8s, that's often a broken exhaust manifold stud, and it gets worse over time. The longer it runs, the more the other studs are loading unevenly. Utah's winters accelerate corrosion on the exposed steel hardware, which makes extraction harder when you finally address it.",
-      "If your F-150, Expedition, or Explorer has a light-throttle shudder that feels like rumble strips between about 30–55 mph, bring it in. That's the classic Ford PowerShift dual-clutch shudder or, on later models with 10-speed automatics, torque converter behavior. On manual-transmission Fords, a spongy clutch pedal that's getting worse usually means the hydraulic slave cylinder is failing internally — it won't recover on its own, and a complete failure leaves you unable to disengage the clutch while driving."
+      "Bring your Ford in if you notice a burning smell at highway speed or after a hard pull up a canyon grade — turbocharged engines are oil-cooled, and a slow leak onto a hot turbo housing creates a smell before it creates a visible problem. Also pay attention to any ticking from the exhaust when the engine is cold: on turbocharged and V8 Ford models, that's often an exhaust manifold issue that loads the surrounding hardware unevenly over time. Utah winters accelerate corrosion on exposed steel, which makes the repair harder the longer it runs.",
+      "If your Ford has a light-throttle shudder that feels like rumble strips at moderate highway speeds, bring it in — that's a transmission or torque converter behavior pattern that's worth diagnosing early rather than after it worsens. On manual-transmission Fords, a clutch pedal that's getting spongy or slowly dropping to the floor usually means the hydraulic slave cylinder is failing internally. It won't recover on its own, and a complete failure means you can't disengage the clutch while driving. Catching it at the spongy stage keeps the repair straightforward."
     ],
     process: [
       { step: 1, title: "Describe What Your Ford Is Doing", desc: "A noise, a feel, a warning light, a clutch or shift behavior that's changed. F-150 owners: tell us about towing load and how often you're on canyon grades — it affects how we read the drivetrain." },
@@ -174,7 +174,7 @@ const brandContent = {
       { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Joint Repair", desc: "Ford AWD and 4WD CV axle wear — clicking on turns or shuddering under load." },
       { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full diagnostic and repair across all Ford models and drivetrains." }
     ],
-    intro: "Ford's lineup covers more ground than almost any manufacturer — turbocharged EcoBoost engines that need shorter oil intervals than Ford's schedule suggests, V8s with known spark plug and exhaust manifold issues, dual-clutch transmissions that benefit from specific programming, and trucks that see genuinely hard use on Utah's mountain grades. Whatever your Ford is doing, we diagnose first and tell you what the repair involves before touching anything.",
+    intro: "Independent Ford repair in South Salt Lake since 1990. We service F-150s, Mustangs, Explorers, and the full Ford lineup — free diagnosis before any work starts, written estimate, and pricing well below dealer rates.",
     whyUs: [
       { title: "EcoBoost Experience", desc: "Turbo carbon buildup, wastegate rattle, timing chain cover oil leaks, and intercooler issues — we've seen every EcoBoost failure pattern and know how to diagnose the actual source." },
       { title: "F-150 and Truck Expertise", desc: "Ford truck service in Utah is different from highway driving. We understand what towing, hauling, and mountain grades do to transmissions and drivetrains — and we service them accordingly." },
@@ -229,7 +229,7 @@ const brandContent = {
   },
   'Chevrolet': {
     whatHeading: "Full-Service Chevrolet Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has worked on Chevrolets in South Salt Lake since 1990 — Silverados, Tahoes, Suburbans, Colorados, Equinoxes, Traverses, Camaros, and the full GM truck lineup. Chevy V8 engines with Active Fuel Management have a well-documented lifter failure pattern that we handle regularly, including full AFM delete and reprogramming. The 8-speed and 10-speed GM automatics develop a torque converter shudder with a specific fluid fix. And Chevy trucks used for towing on Utah's canyon grades need drivetrain fluid service on a shorter schedule than GM's factory intervals account for. Every Chevrolet starts with a free diagnosis — you know what we found before any work begins.",
+    whatIntro: "Scott's Auto & Clutch Repair has worked on Chevrolets in South Salt Lake since 1990 — Silverados, Tahoes, Suburbans, Colorados, Camaros, and the full GM truck and SUV lineup. We handle Chevy V8 engine service including Active Fuel Management lifter repairs and AFM delete, automatic transmission fluid service, clutch and manual transmission work, and the drivetrain maintenance that Utah towing and canyon driving demand. Every Chevrolet starts with a free diagnosis — you know exactly what we found, what it costs, and why it's needed before any work begins.",
     whyIntro: "Chevrolet dealers in the Salt Lake area are billing $150–170 per hour, and Silverado service at a dealer often comes with a multipoint inspection list that recommends services based on mileage rather than the condition of your specific truck. At Scott's, one mechanic diagnoses your Chevy and performs the repair — no service advisor layer, no quota for services sold. AFM lifter failure on 5.3L and 6.2L engines is one of the most common major repairs we do, and we approach it correctly: all lifters replaced, AFM system disabled through programming, and the root cause addressed rather than just the symptomatic one. Utah's mountain driving puts harder demands on Chevy truck drivetrains than flat-highway use — transmission fluid, differential fluid, and undercarriage corrosion from road salt all need attention on a schedule that matches how Utah trucks actually get used.",
     whoContent: {
       heading: "Who to Trust for Chevrolet Repair in South Salt Lake",
@@ -239,8 +239,8 @@ const brandContent = {
       ]
     },
     whenContent: [
-      "Bring your Chevy V8 in if you hear a tick or knock at startup, especially if it comes with a misfire or the check engine light — that's the AFM lifter pattern, and it doesn't improve on its own. The longer collapsed lifters run, the more camshaft lobe wear follows. An early diagnosis keeps the repair to lifters and programming; an ignored one can take the camshaft with it. Also watch your oil consumption: AFM engines that are developing lifter problems often burn oil at a higher rate, and the low oil warning can come up between changes on trucks that used to go the full interval without topping off.",
-      "If your Silverado, Tahoe, or Suburban has a light-throttle shudder that feels like driving over a rumble strip between 25 and 55 mph, that's almost certainly the GM torque converter shudder on the 8L90 or 10L90 transmission — and the fix is a fluid flush with the updated GM specification fluid. It's not a transmission wear problem in most cases; it's a fluid chemistry issue with a known solution. Also bring it in after any winter where the truck was regularly driven on salted roads — undercarriage inspection catches deteriorating brake lines and transmission cooler lines before they become a safety issue."
+      "Bring your Chevy V8 in if you hear a tick or knock at startup, especially alongside a misfire or check engine light — that's the Active Fuel Management lifter failure pattern, and it doesn't improve on its own. The longer collapsed lifters run, the more camshaft wear follows. An early diagnosis keeps the repair focused; an ignored one can take significantly more components with it. Also watch your oil consumption: engines developing this problem often burn oil at a higher rate, and the low-oil warning can appear between changes on trucks that previously went the full interval without topping off.",
+      "If your Chevrolet has a light-throttle shudder that feels like driving over a rumble strip between 25 and 55 mph, bring it in. That's a known torque converter behavior on GM's late-model automatic transmissions, and it typically has a fluid-based solution rather than a mechanical repair — catching it early keeps it that way. Also bring it in after any winter of regular driving on salted Utah roads. Undercarriage inspection catches deteriorating brake lines and transmission cooler lines before they become a safety issue, and it's far cheaper to address them before they fail than after."
     ],
     process: [
       { step: 1, title: "Tell Us What Your Chevy Is Doing", desc: "A tick, a shudder, a check engine light, a fluid leak, or a service overdue. For trucks that tow: tell us what load and how often — it changes the drivetrain picture." },
@@ -259,7 +259,7 @@ const brandContent = {
       { slug: "welding-services-near-south-salt-lake-ut", name: "Undercarriage Welding", desc: "Road salt corrosion repair on Chevy truck frames, exhaust hangers, and brake line brackets." },
       { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full diagnostic and repair work across all Chevrolet models and engine families." }
     ],
-    intro: "Chevrolet trucks and SUVs get used hard in Utah — towing, hauling, and mountain grades that stress drivetrains well beyond what flat-highway driving would. Chevy's V8 engines have a known AFM lifter failure pattern worth understanding before it becomes expensive, and the modern 8-speed and 10-speed transmissions develop a torque converter shudder that has a specific fluid fix. We diagnose the actual source of any problem and explain the repair before starting any work.",
+    intro: "Trusted Chevrolet repair in South Salt Lake since 1990. We service Silverados, Tahoes, Colorados, Equinoxes, and the full Chevy lineup — free diagnosis, written estimate, and honest pricing without the upsell list.",
     whyUs: [
       { title: "AFM/DOD Lifter Expertise", desc: "We handle full AFM lifter replacement and can disable the system through programming to eliminate the most common failure point on Chevy V8 engines. Done right, this is a lasting repair." },
       { title: "GM Transmission Knowledge", desc: "Torque converter shudder on 8-speed and 10-speed GM transmissions has a specific fluid fix. We know the correct updated spec and the service procedure — no guesswork." },
@@ -314,7 +314,7 @@ const brandContent = {
   },
   'Subaru': {
     whatHeading: "Full-Service Subaru Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has serviced Subarus in South Salt Lake since 1990 — Outbacks, Foresters, Imprezas, Legacies, Crosstreks, and the full WRX and STI lineup. Subaru's horizontally-opposed boxer engine and Symmetrical AWD are genuinely different platforms that benefit from mechanics who understand them. EJ-series head gasket service, complete timing belt system replacement, boxer-specific cooling system requirements, and the AWD tire matching rule that determines whether the drivetrain wears normally or not — these are not generic repairs. Every Subaru we take in starts with a free diagnosis. You know exactly what we found before any work begins.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Subarus in South Salt Lake since 1990 — Outbacks, Foresters, Imprezas, Crosstreks, and the WRX and STI lineup across every generation. We handle Subaru's boxer engine timing belt and water pump service, head gasket repair, AWD drivetrain fluid service, clutch and manual transmission work, and the cooling system maintenance Utah's temperature extremes demand. Every Subaru we take in starts with a free diagnosis — you know exactly what we found and what it costs before any work begins.",
     whyIntro: "Subaru dealers in the Salt Lake Valley bill in the range of $150–170 per hour, and the service department model means you're often talking to an advisor who relays information between you and a technician you never meet. At Scott's, it's simpler: the mechanic who diagnoses your Subaru does the repair and explains it at pickup. Subarus are common in Utah because they're genuinely suited to the terrain — Symmetrical AWD handles Wasatch mountain roads and winter salt effectively — but that use accelerates wear on drivetrain fluids that factory intervals don't account for. We've replaced enough EJ head gaskets to do it correctly, with resurfaced heads and updated multi-layer steel gaskets, rather than the shortcut version that comes back in three years. Timing belt service on boxer engines is a complete job here: belt, water pump, idler and tensioner pulleys, and thermostat — because reopening that access later to fix what was skipped costs more in labor than doing it right the first time.",
     whoContent: {
       heading: "Who to Trust for Subaru Repair in South Salt Lake",
@@ -324,8 +324,8 @@ const brandContent = {
       ]
     },
     whenContent: [
-      "Bring your EJ-engine Subaru in if you notice any oily residue along the side of the engine block near the cylinder heads, or if coolant level is dropping without a visible puddle under the car — those are the two classic early-stage head gasket leak presentations. External seeping at the gasket line is repairable before it progresses to coolant in oil or combustion gas in the coolant, but the window isn't unlimited. Utah's temperature swings between winter cold and summer canyon driving cycle the aluminum heads aggressively, and a gasket that's weeping externally in spring can deteriorate significantly over a summer of mountain driving.",
-      "If your Subaru has crossed 90,000–100,000 miles and the timing belt hasn't been replaced, bring it in before you drive it further. EJ boxer engines are interference engines — a broken timing belt contacts open valves immediately, and there's no warning before it happens. The water pump on most EJ engines is belt-driven, which means it shares the same service access; skipping it to save money on a timing belt job means potentially paying for that labor access twice within 20,000 miles. We do the complete belt service every time."
+      "Bring your Subaru in if you notice any oily residue along the side of the engine block near the cylinder heads, or if coolant level is dropping without a visible puddle under the car — those are the two classic early-stage head gasket leak presentations. External seeping is repairable before it progresses to coolant mixing with oil, but the window isn't unlimited. Utah's temperature swings between winter cold and summer canyon driving cycle the aluminum heads hard, and a gasket that's weeping in spring can deteriorate significantly over a summer of mountain driving.",
+      "If your Subaru has crossed 90,000–100,000 miles and the timing belt hasn't been replaced, bring it in before driving it further. Subaru's boxer engines are interference engines — a broken timing belt contacts open valves immediately, with no warning before it happens. The water pump on most of these engines is belt-driven, which means it shares the same labor access as the timing belt. Skipping the water pump to save money on a timing belt job means potentially paying for that access twice within 20,000 miles. We do the complete service every time."
     ],
     process: [
       { step: 1, title: "Tell Us What's Going On", desc: "An oil seep at the head, a coolant level that keeps dropping, a chirp at idle that goes away when you press the clutch, or a timing belt interval due. The more specific, the faster we find it." },
@@ -344,7 +344,7 @@ const brandContent = {
       { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Subaru boxer engine exhaust manifold and header cracks — common on WRX and high-mileage Outbacks." },
       { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full diagnostic and repair work across all Subaru models and drivetrain configurations." }
     ],
-    intro: "Subaru's horizontally-opposed boxer engine and Symmetrical AWD are genuinely different architectures that benefit from mechanics who understand them. Head gasket service on EJ-series engines, timing belt replacement as a complete system, CVT fluid maintenance, and the specific cooling system requirements of the boxer layout are not generic repairs. Utah's winters and mountain roads make Subarus common here, and we service a lot of them.",
+    intro: "Trusted Subaru repair in South Salt Lake since 1990. We service Outbacks, Foresters, Imprezas, Crosstreks, and WRXs — free diagnosis, written estimate, and transparent pricing well below dealer rates.",
     whyUs: [
       { title: "Boxer Engine Experience", desc: "Subaru's horizontal engine layout changes how repairs access components. We've worked on enough boxer engines to know the correct procedures and what to check while we're in there." },
       { title: "Head Gasket Specialists", desc: "EJ-series head gasket replacement is one of our most common Subaru services. We use updated multi-layer steel gaskets and check flywheel and machining needs every time." },
@@ -399,7 +399,7 @@ const brandContent = {
   },
   'Nissan': {
     whatHeading: "Full-Service Nissan Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has serviced Nissans in South Salt Lake since 1990 — Altimas, Rogues, Pathfinders, Muranos, Sentras, Frontiers, and Maximas across every era. Nissan's CVT transmission is the most important maintenance item on most of the lineup: NS-3 fluid condition is the single biggest factor in whether a Jatco CVT reaches 150,000 miles or fails at 100,000. Beyond the CVT, Nissan timing chain guide wear on QR25DE and VQ35 engines produces a recognizable cold-start rattle that's fixable at the guide stage but serious if ignored. The coolant overflow tanks on older Nissan models crack and cause gradual coolant loss that's easy to miss until the engine runs low. Every Nissan gets a free diagnosis before any work starts.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Nissans in South Salt Lake since 1990 — Altimas, Rogues, Frontiers, Pathfinders, Maximas, and the full Nissan car and truck lineup. We handle Nissan CVT fluid service and diagnosis, timing chain service, cooling system repair, clutch and manual transmission work, and the drivetrain maintenance Utah's driving conditions demand. CVT fluid condition is the single most important maintenance item on most of the Nissan lineup, and we take it seriously. Every Nissan gets a free diagnosis before any work starts.",
     whyIntro: "Nissan dealers in Salt Lake are billing $150–165 per hour, and the CVT service conversation at a dealer often amounts to being told the fluid is 'lifetime fill' and doesn't need service. That recommendation has caused more premature Nissan CVT failures than any other single factor we've seen. NS-3 fluid degrades, and generic 'universal CVT fluid' substitutes are not acceptable replacements — the friction modifier package matters for how the belt and pulleys interact at operating temperature. At Scott's, we do CVT fluid service on a 30,000-mile schedule and use the correct spec fluid every time. We've diagnosed enough cold-start timing chain rattles on QR25DE Altimas and VQ35 Pathfinders to know what a guide-wear sound sounds like versus something more serious. One mechanic diagnoses your Nissan and repairs it — no service advisor, no upsell list.",
     whoContent: {
       heading: "Who to Trust for Nissan Repair in South Salt Lake",
@@ -409,8 +409,8 @@ const brandContent = {
       ]
     },
     whenContent: [
-      "Bring your Nissan CVT-equipped vehicle in if you feel any hesitation, jerking, or shuddering during light-throttle acceleration — that's the earliest sign that CVT fluid has degraded or that early CVT wear is developing. It does not self-correct. A fluid change addresses it in many cases if caught at the subtle stage; the same symptom that's ignored for another 20,000 miles can mean a CVT that's worn beyond what fluid service will fix. Nissan's service schedule is not aggressive enough about this — we see premature CVT failures almost exclusively on vehicles where fluid was deferred past 60,000 miles or where non-spec fluid was used.",
-      "Bring it in for any cold-start rattle that quiets within 10–20 seconds of the engine running — that's the timing chain guide pattern on QR25DE and VQ35 engines. Oil pressure takes a moment to build at startup, and a worn guide allows chain slap during that window before the tensioner takes up the slack. Catching it at the guide-wear stage is a meaningful repair; ignoring it until the chain has stretched or skipped is a much more involved one. Also check your coolant overflow reservoir periodically — Nissan plastic tanks crack and cause gradual coolant loss that can go unnoticed through several oil changes before an overheat event on a summer canyon road makes it obvious."
+      "Bring your Nissan in if you feel any hesitation, jerking, or shuddering during light-throttle acceleration — that's the earliest sign that CVT fluid has degraded or that early CVT wear is developing. It does not self-correct. A fluid service addresses it in many cases when caught at the subtle stage; the same symptom ignored for another 20,000 miles can mean wear that's beyond what fluid service will fix. Nissan's factory service schedule is not aggressive enough about this interval, and deferred CVT fluid is the most common thread we see in premature transmission failures.",
+      "Bring your Nissan in for any cold-start rattle that quiets within 10–20 seconds of the engine running — that's a timing chain guide wear pattern, and oil pressure takes a moment to build at startup while a worn guide allows chain slap during that window. Catching it at the guide stage is a manageable repair; letting it run until the chain stretches or skips is a much more involved one. Also check your coolant overflow reservoir periodically — Nissan plastic tanks can crack and cause gradual coolant loss that goes unnoticed for months before a summer canyon road makes it obvious."
     ],
     process: [
       { step: 1, title: "Tell Us What Your Nissan Is Doing", desc: "A shudder or hesitation, a cold-start rattle, a low coolant light, or a CVT service that's overdue. CVT behavior descriptions are especially helpful — how it shudders, when it happens, at what speed." },
@@ -429,7 +429,7 @@ const brandContent = {
       { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Nissan V6 exhaust manifold cracks and flange leaks — Frontier and Pathfinder are the most common." },
       { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full diagnostic and repair across all Nissan models and drivetrain configurations." }
     ],
-    intro: "If your Nissan CVT is shuddering, jerking, or making noise during acceleration, that's the most important thing to catch early — Nissan CVTs are durable with proper fluid maintenance but decline quickly when fluid degrades or the wrong type is used. Beyond the CVT, Nissan's timing chain designs vary by engine generation and some have known stretch issues. We diagnose the actual source before recommending any repair.",
+    intro: "Independent Nissan repair in South Salt Lake since 1990. We service Altimas, Rogues, Pathfinders, Frontiers, and the full Nissan lineup — free diagnosis before any work starts, written estimate, and transparent pricing.",
     whyUs: [
       { title: "Nissan CVT Knowledge", desc: "CVT fluid condition is the biggest factor in Nissan transmission longevity. We use Nissan-spec CVT fluid and know the diagnostic difference between a fluid problem and early CVT wear." },
       { title: "Timing Chain Diagnosis", desc: "Nissan timing chain guide wear produces a distinct cold-start rattle. We diagnose the extent of wear before recommending guide and tensioner replacement." },
@@ -484,7 +484,7 @@ const brandContent = {
   },
   'BMW': {
     whatHeading: "Full-Service BMW Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has worked on BMWs in South Salt Lake since 1990 — 3 Series, 5 Series, X3, X5, and M vehicles across every generation. BMW's engineering is precise and capable, but high-mileage BMWs develop predictable failure patterns that independent specialists see every week: cooling system plastic components that crack and fail, VANOS variable timing rattle on cold starts, oil leaks from valve cover gaskets, oil filter housing gaskets, and oil pan gaskets, and electric water pumps that fail without a belt-driven backup. We use professional BMW diagnostic equipment that accesses the same system data as dealer software. Every BMW starts with a free diagnosis before any work begins.",
+    whatIntro: "Scott's Auto & Clutch Repair has worked on BMWs in South Salt Lake since 1990 — 3 Series, 5 Series, X3, X5, and M models across every generation. We handle BMW cooling system service, oil leak repair at valve cover and oil filter housing gaskets, variable valve timing service, electric water pump replacement, clutch and manual transmission work, and full diagnostics using professional equipment that reads the same system data as dealer software. Every BMW starts with a free diagnosis before any work begins — you'll know exactly what we found and what it costs.",
     whyIntro: "BMW dealers in the Salt Lake area bill $175–200 per hour — among the highest rates in the Valley. That rate, combined with the dealer service department model where a service advisor manages your job and a technician you never meet performs it, makes independent BMW service a significant financial difference on the predictable high-mileage repairs these vehicles need. Cooling system component replacement — expansion tank, thermostat housing, electric water pump — is one of the most common BMW services we perform, and doing it proactively at 80,000–100,000 miles costs a fraction of what a roadside overheating event costs to recover from. BMW engines overheat quickly when cooling system integrity is lost, and there's no belt-driven water pump backup when the electric unit fails. We use LL-01 approved full synthetic on every BMW oil service and know the specific service procedures for VANOS solenoid service, dual-mass flywheel conversion, and the oil leak points these engines develop predictably with age.",
     whoContent: {
       heading: "Who to Trust for BMW Repair in South Salt Lake",
@@ -494,8 +494,8 @@ const brandContent = {
       ]
     },
     whenContent: [
-      "Bring your BMW in if you see any coolant warning light, any steam from the hood, or any unexplained coolant loss — BMW engines overheat quickly when cooling system pressure is lost, and the electric water pump provides no backup circulation when a cracked expansion tank or failed pump leaves the system dry. Utah's summers put these cooling systems under real stress: a BMW climbing Big Cottonwood Canyon in 100°F ambient heat with a marginal expansion tank is a roadside event waiting to happen. If your BMW is past 80,000 miles and the cooling system hasn't been proactively serviced, bring it in before summer — not during.",
-      "Bring it in for a cold-start rattle that clears within 30 seconds of the engine running — that's typically VANOS or oil pressure-related valve train noise, and it's worth diagnosing before it progresses. Also pay attention to any burning oil smell from the engine bay: BMW oil leaks at valve cover gaskets and oil filter housing gaskets drip onto exhaust components below, and what starts as a smell becomes a more urgent situation if ignored. On manual BMW models, a clutch that vibrates during engagement or a shudder at low-speed takeoff usually means dual-mass flywheel wear — we can convert to a single-mass setup at significantly lower cost than an OEM dual-mass replacement."
+      "Bring your BMW in if you see any coolant warning light, steam from the hood, or unexplained coolant loss — BMW engines overheat quickly when cooling system pressure is lost, and once the system runs dry the electric water pump provides no backup circulation. Utah summers put these systems under real load: a BMW climbing Big or Little Cottonwood Canyon in triple-digit heat with a marginal cooling system component is a roadside event waiting to happen. If your BMW is past 80,000 miles and the cooling system hasn't been proactively serviced, bring it in before summer — not during.",
+      "Bring your BMW in for a cold-start rattle that clears within 30 seconds of the engine running — that's typically variable valve timing or oil pressure-related valve train noise, and it's worth diagnosing before it progresses. Also pay attention to any burning oil smell from the engine bay: BMW oil leaks at common gasket locations drip onto exhaust components below, and what starts as a smell becomes a more urgent situation if ignored through multiple oil changes. On manual BMW models, a clutch that shudders at low-speed takeoff usually indicates dual-mass flywheel wear — we can convert to a single-mass setup at significantly lower cost than an OEM replacement."
     ],
     process: [
       { step: 1, title: "Describe What Your BMW Is Doing", desc: "A warning light, a cold-start rattle, an oil smell, a coolant level that's dropping, or a clutch that's changed. BMW symptoms are often predictable by mileage — tell us where yours is." },
@@ -514,7 +514,7 @@ const brandContent = {
       { slug: "welding-services-near-south-salt-lake-ut", name: "Exhaust Welding", desc: "BMW exhaust section welding and repair — mid-pipe and cat-back repairs on aging exhaust systems." },
       { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full diagnostic and repair work across all BMW models — 3 Series, 5 Series, X3, X5, and M vehicles." }
     ],
-    intro: "BMW's engineering is capable and precise — but high-mileage BMWs develop predictable failure patterns that independent specialists see regularly. Cooling system components, VANOS rattle on cold starts, oil leaks from multiple gasket locations, and electric water pump failures are all diagnosable and fixable without dealership pricing. We use professional BMW diagnostic equipment and work on BMWs at every mileage point.",
+    intro: "Independent BMW repair in South Salt Lake since 1990. We service 3 Series, 5 Series, X3, X5, and the full BMW lineup — free diagnosis, written estimate, at pricing significantly below dealer rates.",
     whyUs: [
       { title: "BMW Diagnostic Equipment", desc: "We use professional-grade BMW diagnostic tools that access the same data as dealer software — fault code history, live sensor data, and adaptation values. Accurate diagnosis before recommending parts." },
       { title: "Cooling System Expertise", desc: "BMW cooling system failures are predictable — expansion tank, electric water pump, thermostat housing — and preventable. We recommend proactive replacement before a roadside failure occurs." },
@@ -569,7 +569,7 @@ const brandContent = {
   },
   'Jeep': {
     whatHeading: "Full-Service Jeep Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has been working on Jeeps in South Salt Lake since 1990 — from daily-driven Cherokees to Wranglers that see regular use on Moab slickrock and the trails off Big and Little Cottonwood Canyons. We handle everything Jeep owners run into over the life of a rig: 4WD system service and diagnosis, transfer case and differential fluid, death wobble from worn front-end components, Pentastar valve train, axle and CV service, brakes, suspension, cooling, exhaust, and check engine diagnostics. Every Jeep gets a free diagnosis before any work starts — we check what your specific vehicle is telling us, not a checklist built for something else.",
+    whatIntro: "Scott's Auto & Clutch Repair has worked on Jeeps in South Salt Lake since 1990 — Cherokees, Wranglers, Grand Cherokees, and Gladiators across every generation. We handle 4WD system diagnosis and service, transfer case and differential fluid, front-end steering and suspension repair, axle and CV service, cooling, brakes, and check engine diagnostics. Whether your Jeep is a daily driver or sees regular use on Moab slickrock and the canyons above Salt Lake, we handle the full range of what it needs over its lifetime. Every Jeep gets a free diagnosis before any work starts — you'll know exactly what we found, what the repair costs, and why it's needed.",
     whyIntro: "Jeep dealers in the Salt Lake area are billing $150–175 per hour, and most of them are handling Wranglers and Gladiators the same way they handle Pacificas — through a service department structure where your rig gets written up by one person, worked on by another, and handed back with a printed inspection and a list of items to approve or decline. At Scott's, you're dealing with one mechanic throughout. The person who crawls under your Jeep and diagnoses the death wobble is the person who rebuilds the front end and hands you the keys. We've been working on lifted rigs, modified Jeeps, and bone-stock daily drivers in South Salt Lake since 1990, and we understand the difference between a Jeep that needs a repair and a Jeep that needs an honest assessment.",
     whoContent: {
       heading: "Who to Trust for Jeep Repair in South Salt Lake",
@@ -579,8 +579,8 @@ const brandContent = {
       ]
     },
     whenContent: [
-      "Death wobble is the Jeep symptom that gets deferred more than almost any other — a shimmy at highway speeds that comes and goes, often worse after hitting a bump or expansion joint on I-15. It's tempting to slow down and work around it, but death wobble is always a worn-component problem: track bar, ball joints, tie rod ends, or wheel bearings are the usual suspects, and the list of candidates grows if the Jeep has been lifted. The longer it goes unaddressed, the more wear propagates to adjacent steering components. Bring it in before a manageable front-end rebuild becomes a much larger job.",
-      "Jeep 4WD systems — Command-Trac, Quadra-Trac, Quadra-Drive — need to be serviced at regular intervals, not just when something breaks. Transfer case fluid, front and rear differential fluid, and axle seals that get submerged during a water crossing are all on the list. Differential contamination after a trail run is a common cause of gear damage that announces itself much later, after the Jeep is already back in daily-driver rotation. If your Jeep has been through standing water recently — or if you can't remember when the 4WD fluids were last changed — that's a good reason to bring it in."
+      "Death wobble is the Jeep symptom that gets deferred longer than almost any other — a shimmy at highway speeds that comes and goes, often triggered by a bump or expansion joint. It's tempting to slow down and work around it, but death wobble is always a worn-component problem: track bar, ball joints, tie rod ends, or wheel bearings are the usual suspects, and the list grows if your Jeep has been lifted. The longer it goes unaddressed, the more wear spreads to adjacent steering components. Bring it in before a manageable front-end repair becomes a much larger job.",
+      "Jeep 4WD systems need to be serviced at regular intervals — not just when something breaks. Transfer case fluid, front and rear differential fluid, and axle seals that get submerged during a water crossing are all on the list. Differential contamination after a trail run is a common cause of gear damage that announces itself much later, after your Jeep is back in daily-driver rotation. If your Jeep has been through standing water recently — or if you can't remember when the 4WD fluids were last changed — that's a good reason to bring it in before Utah's winter season starts."
     ],
     process: [
       { step: 1, title: "Tell Us How You Use It", desc: "Daily driver, weekend off-road, lifted or stock, Moab trips or just canyon roads. How a Jeep is used changes what we look at first. The more context you give us, the more useful the diagnosis." },
@@ -599,7 +599,7 @@ const brandContent = {
       { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "Timing Chain and Valve Train", desc: "Pentastar 3.6L valve train tick diagnosis, timing chain inspection, and VVT system service on high-mileage Jeep engines." },
       { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Jeep Service", desc: "Full diagnostic, 4WD system service, fluid changes, and mechanical repair across all Jeep systems and model lines." }
     ],
-    intro: "If you wheel your Jeep on Utah's trails or rely on it for winter traction and mountain towing, the service needs are different from highway driving. Transfer case fluid, differential service after water crossings, front-end suspension that handles genuine off-road stress, and cooling systems under sustained load on canyon grades — these are what keep Jeeps capable and reliable. We service all Jeep models and understand what hard use does to the drivetrain.",
+    intro: "Trusted Jeep repair in South Salt Lake since 1990. We service Wranglers, Cherokees, Grand Cherokees, Gladiators, and the full Jeep lineup — free diagnosis, written estimate, and honest pricing whether your Jeep sees trails or just the daily commute.",
     whyUs: [
       { title: "4WD and Drivetrain Experience", desc: "Transfer case service, differential inspection after water crossings, and 4WD system diagnosis are part of our regular workload. We understand Jeep's different 4WD systems and what each one needs." },
       { title: "Front-End Death Wobble", desc: "Death wobble requires finding the actual worn components — not just replacing one part and hoping. We inspect all front-end components and replace what's genuinely worn." },
@@ -654,7 +654,7 @@ const brandContent = {
   },
   'Dodge': {
     whatHeading: "Full-Service Dodge and Ram Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has been servicing Dodge and Ram vehicles in South Salt Lake since 1990. These are trucks and performance cars with real mechanical personalities — HEMI V8s with the cylinder deactivation system that collapses lifters on high-mileage engines, ZF 8-speed transmissions, Charger and Challenger brakes that take serious heat on Parleys Canyon grades, Durango drivetrains doing real towing on Utah mountain passes, and TIPM electrical systems that develop faults over time. We handle all of it. Free diagnosis on every vehicle before any work starts — no estimate without knowing what we're actually dealing with.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Dodge and Ram vehicles in South Salt Lake since 1990 — trucks, muscle cars, and SUVs across the full lineup. We handle V8 engine service including cylinder deactivation system diagnosis and repair, automatic transmission fluid service, brake work for vehicles that take real load on Utah's canyon grades, cooling and electrical diagnostics, and clutch work on manual-equipped models. Every Dodge or Ram we take in starts with a free diagnosis — you'll know exactly what we found, what the repair costs, and why it's needed before any work begins.",
     whyIntro: "Dodge and Ram dealers in Salt Lake are billing at $150–175 per hour for service work on vehicles that their service departments process in volume. Your HEMI gets written up by a service advisor who may or may not understand what MDS lifter collapse sounds like, handed to a tech on a flat-rate clock, and returned with a multipoint inspection. At Scott's, the mechanic who pulls the diagnostic codes on your Charger or Ram is the same one who drops the pan, checks the lifters, and explains what was found. We're not running a quota system. We're an independent shop that's been doing this work in South Salt Lake since 1990, and we've worked through enough HEMI lifter failures and TIPM electrical gremlins to know how to diagnose them correctly before recommending a repair.",
     whoContent: {
       heading: "Who to Trust for Dodge and Ram Repair in South Salt Lake",
@@ -664,8 +664,8 @@ const brandContent = {
       ]
     },
     whenContent: [
-      "The HEMI tick is the symptom that Dodge and Ram owners argue about longest before bringing it in. A cold-start knock that's present at idle and then fades — or doesn't — is often an MDS lifter beginning to collapse, not just normal engine noise. On high-mileage HEMI engines (typically past 80,000 miles), the multi-displacement system's lifters are a known failure point. The longer a collapsed lifter runs, the more camshaft lobe damage follows. If your HEMI has been ticking for more than a few weeks, the diagnosis conversation is worth having sooner rather than after you're looking at a much larger repair.",
-      "Dodge Charger and Challenger owners doing regular canyon runs between Salt Lake and Park City should be checking their brake pads more often than most street cars. These are heavy performance vehicles — a Charger R/T runs around 4,000 pounds — and Parleys Canyon puts significant thermal load on the braking system. Glazed rotors and heat-fatigued brake fluid are both common results of canyon driving without regular brake inspection. Bring it in at the first sign of fade, longer pedal travel, or any grinding — not after the next canyon run."
+      "The tick that Dodge and Ram V8 owners argue about longest before bringing it in is usually worth diagnosing sooner rather than later. A cold-start knock that's present at idle and then fades — or doesn't — is often a cylinder deactivation lifter beginning to fail, not just normal engine noise. On high-mileage V8 engines, the multi-displacement system's lifters are a known wear point. The longer a collapsed lifter runs, the more camshaft lobe damage follows. If your Dodge or Ram has been ticking for more than a few weeks, the diagnosis conversation is worth having before you're looking at a significantly larger repair.",
+      "If your Dodge does regular canyon runs between Salt Lake and Park City, check your brakes more often than you would on flat-road driving. These are heavy vehicles, and Parleys Canyon puts real thermal load on the braking system — glazed rotors and heat-fatigued brake fluid are both common results of canyon driving without regular inspection. Bring it in at the first sign of fade, longer pedal travel, or any grinding. Also watch for transmission shudder during light-throttle highway cruising: Utah's mountain grades are hard on transmission fluid, and degraded fluid shows up as shift hesitation before it becomes a more serious problem."
     ],
     process: [
       { step: 1, title: "Describe What You're Hearing or Feeling", desc: "A tick, a shift that hesitates, an electrical fault that comes and goes. Dodge and Ram symptoms often have specific patterns — the more detail you give us, the faster we can narrow it down." },
@@ -684,7 +684,7 @@ const brandContent = {
       { slug: "catalytic-converter-service-near-south-salt-lake-ut", name: "Catalytic Converter Service", desc: "Converter diagnosis and replacement for HEMI and V6 Dodge engines. Stainless exhaust welding where applicable." },
       { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Dodge and Ram Service", desc: "Full mechanical service across all Dodge and Ram platforms — trucks, performance cars, and SUVs." }
     ],
-    intro: "Dodge's lineup includes some of the most performance-oriented domestic vehicles — the HEMI V8 in Charger and Challenger, the Durango's towing capability, and transmissions calibrated for both performance and daily use. HEMI engines with MDS cylinder deactivation have a known lifter failure pattern worth understanding. The modern ZF 8-speed has specific service requirements. We service Dodge across the full lineup and diagnose before we recommend.",
+    intro: "Independent Dodge repair in South Salt Lake since 1990. We service Chargers, Challengers, Durangos, and the full Dodge lineup — free diagnosis, written estimate, and pricing well below dealer rates.",
     whyUs: [
       { title: "HEMI Lifter and MDS Expertise", desc: "Full MDS lifter replacement and AFM disable is a repair we do regularly. Done correctly, it eliminates the most common HEMI failure pattern and doesn't come back." },
       { title: "Exhaust Manifold Stud Extraction", desc: "HEMI exhaust manifold stud failure is common and requires careful extraction technique. We handle it without damaging the cylinder head threads." },
@@ -739,7 +739,7 @@ const brandContent = {
   },
   'Hyundai': {
     whatHeading: "Full-Service Hyundai Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has serviced Hyundais in South Salt Lake across the full range of what these vehicles need: GDI carbon cleaning on Theta II engines, dual-clutch transmission actuator diagnosis and service, AWD rear coupling fluid, cooling and brake system work, suspension and CV axle service, and check engine diagnostics including Theta II engine codes that owners often first encounter as unexpected warning lights. Every Hyundai that comes in gets a free diagnosis before any work is recommended — we look at what your specific vehicle is showing before suggesting a repair or a fluid service.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Hyundais in South Salt Lake since 1990 — Sonatas, Santa Fes, Tucsons, Elantras, and the full Hyundai car and SUV lineup. We handle engine inspection and repair, direct-injection carbon cleaning, dual-clutch transmission diagnosis and service, AWD drivetrain fluid service, cooling, brakes, and suspension work. Every Hyundai we take in gets a free diagnosis before any work is recommended — you'll know exactly what we found, what the repair costs, and why it's needed before anything is touched.",
     whyIntro: "Hyundai dealers in Salt Lake charge in the same tier as Toyota and Honda dealers — $150–165 per hour — and the service department process is similar: a service advisor writes it up, a tech runs the job on a flat-rate ticket, and the car comes back with a printed multipoint inspection. For Hyundai owners dealing with a Theta II recall situation, a DCT that's jerky at low speeds, or a check engine light with a cylinder misfire code, that service model can be expensive and slow. At Scott's, the mechanic who reads your Hyundai's codes and identifies the DCT actuator fault is the same one who does the service — and explains it to you in plain language before any work begins. We don't replace components that a proper diagnosis shows don't need replacing.",
     whoContent: {
       heading: "Who to Trust for Hyundai Repair in South Salt Lake",
@@ -749,8 +749,8 @@ const brandContent = {
       ]
     },
     whenContent: [
-      "The Theta II engine recall has created an unusual situation for Hyundai owners: connecting rod bearing failure can occur without much warning, and the early signals are easy to dismiss. A knocking sound under load, unexpected oil consumption between changes, a check engine light with a rod knock code — these are the precursors. If your Sonata, Santa Fe, Tucson, or Elantra GT has a Theta II 2.0L or 2.4L and is past 60,000 miles, it's worth having the engine inspected even if you haven't noticed anything yet. The cost of catching it early is a diagnostic visit. The cost of catching it late is an engine.",
-      "Hyundai's 7-speed dual-clutch transmission — used in the Elantra, Tucson, and Sonata — develops a jerky, hesitant feel at low speeds and during parking-lot maneuvering as the DCT actuator wears. Many owners assume this is a transmission replacement situation; in most cases it's a DCT actuator service that restores normal shift behavior. If your Hyundai has started to lurch or hesitate at low speeds, bring it in for diagnosis before the repair assumption turns into an unnecessary bill. We'll identify whether it's the actuator, the clutch pack, or something else entirely."
+      "Some Hyundai engines have a documented history of connecting rod bearing failure that can progress quickly from an early knock to serious damage. The warning signs are worth knowing: a knocking sound under load, unexpected oil consumption between changes, or a check engine light with a related code. If your Hyundai is past 60,000 miles and you haven't been able to confirm that any applicable recall service has been completed, it's worth having the engine inspected even if you haven't noticed anything yet. Catching it at the diagnostic stage costs a visit. Catching it late costs an engine.",
+      "Hyundai's dual-clutch transmission develops a jerky, hesitant feel at low speeds and during parking-lot maneuvering as the system wears. Many owners assume this is a transmission replacement situation; in most cases it's an actuator service that restores normal shift behavior. If your Hyundai has started to lurch or hesitate at low speeds — especially in stop-and-go traffic on Utah's congested corridors — bring it in for diagnosis before the assumption turns into an unnecessary bill. We'll identify whether it's the actuator, the clutch pack, or something else entirely before recommending any repair."
     ],
     process: [
       { step: 1, title: "Tell Us What You've Noticed", desc: "A knock under load, a jerky shift at low speed, an oil consumption concern, or a check engine code. Hyundai symptoms often have specific causes — your description helps us start in the right place." },
@@ -769,7 +769,7 @@ const brandContent = {
       { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Exhaust manifold, downpipe, and muffler repair and replacement across all Hyundai models." },
       { slug: "shock-replacement-near-south-salt-lake-ut", name: "Shock Replacement", desc: "Rear shock replacement for Hyundai SUVs and sedans. Often due together with struts on higher-mileage vehicles." }
     ],
-    intro: "Hyundai's lineup covers a wide range — front-wheel-drive economy cars, AWD crossovers, the three-row Palisade, and the turbocharged Veloster. The Theta II engine recall affects certain models and is worth checking even on out-of-warranty vehicles. Dual-clutch transmission shudder on affected models is often diagnosable and fixable without full transmission replacement. Whatever your Hyundai needs, we find the cause before recommending the repair.",
+    intro: "Trusted Hyundai repair in South Salt Lake since 1990. We service Elantras, Tucsons, Santa Fes, Sonatas, Palisades, and the full Hyundai lineup — free diagnosis, written estimate, and honest pricing without upsell pressure.",
     whyUs: [
       { title: "Theta II Engine Knowledge", desc: "We know which Hyundai models and years are affected by the Theta II recall, how to diagnose bearing issues, and how to help owners understand their coverage options." },
       { title: "DCT Transmission Service", desc: "Hyundai dual-clutch transmission shudder and jerky shifts are often clutch actuator related — not full transmission failure. We diagnose the actual issue before recommending a repair scope." },
@@ -824,7 +824,7 @@ const brandContent = {
   },
   'Kia': {
     whatHeading: "Full-Service Kia Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has been servicing Kia vehicles in South Salt Lake across the full range of what the lineup needs: Theta II engine diagnosis and inspection on Optima, Sorento, and Sportage, GDI carbon cleaning, steering coupler service, AWD rear differential coupling fluid, brake and suspension work, and Stinger drivetrain service for Utah's performance-oriented buyers. Kia's Utah presence has grown significantly — the Telluride and Sorento are all over the Salt Lake Valley — and we service all of them. Free diagnosis before any work is recommended.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Kias in South Salt Lake since 1990 — Sportages, Sorentos, Tellurides, Souls, and the full Kia car and SUV lineup. We handle engine inspection and repair, direct-injection carbon cleaning, AWD drivetrain fluid service, steering and suspension work, brake service, and check engine diagnostics. Kia's presence in the Salt Lake Valley has grown significantly, and we service all of them. Every Kia gets a free diagnosis before any work is recommended — you'll know exactly what we found, what the repair costs, and why it's needed.",
     whyIntro: "Kia dealers in Salt Lake are billing $150–165 per hour, and the service model is the same one you'll find at any volume dealer: a service advisor writes up your car, a tech runs the job to a flat-rate clock, and the estimate arrives before anyone has actually looked at your specific vehicle's condition. For Kia owners navigating the Theta II engine recall, a steering coupler clunk that comes and goes, or a GDI engine that's starting to hesitate at idle, that system produces a lot of unnecessary repair recommendations. At Scott's, you're working directly with the mechanic who looks at your car. If the Telluride's rear differential coupling just needs a fluid change rather than a replacement, that's what we tell you — and that's all we charge for.",
     whoContent: {
       heading: "Who to Trust for Kia Repair in South Salt Lake",
@@ -834,8 +834,8 @@ const brandContent = {
       ]
     },
     whenContent: [
-      "If your Kia Optima, Sorento, or Sportage has a Theta II 2.0L or 2.4L engine and is past 60,000 miles — especially if you can't confirm the recall service has been completed — it's worth having the engine inspected. Connecting rod bearing failure on these engines can progress quickly from a light knock under acceleration to catastrophic failure. The early warning sounds like a faint tap when the engine is under load that's different from normal engine noise. Don't wait for a check engine light; rod knock codes often appear after the damage is already underway.",
-      "The steering coupler clunk on Kia vehicles — a thud or knock felt through the steering wheel when turning at low speed, most obvious in parking lots or during U-turns — is often misdiagnosed as a suspension issue. The steering coupler is a small intermediate shaft joint between the steering column and rack that develops play over time. It's an inexpensive repair relative to what a suspension inspection costs, but it requires knowing what you're looking for. Bring it in when the clunk first appears rather than after the play in the steering wheel has had time to transfer load to the rack."
+      "Some Kia engines have a documented history of connecting rod bearing failure that can progress quickly once it starts. The early warning is a faint knock under acceleration that's different from normal engine noise — it may not be loud at first, and a check engine light often appears after the damage is already underway. If your Kia is past 60,000 miles and you can't confirm that any applicable recall service has been completed, it's worth having the engine inspected proactively. The cost of catching it early is a diagnostic visit. The cost of catching it late is an engine replacement.",
+      "A clunk or thud felt through the steering wheel during low-speed turns — most obvious in parking lots or during U-turns — is a common Kia symptom that gets misdiagnosed as a suspension problem. The actual cause is usually the steering coupler, a small intermediate shaft joint that develops play over time. It's an inexpensive repair relative to a full suspension inspection, but it requires knowing what to look for. Bring it in when the clunk first appears rather than after the play has had time to transfer load further into the steering system. Utah's winter potholes accelerate wear on these components."
     ],
     process: [
       { step: 1, title: "Tell Us What You're Noticing", desc: "A knock under acceleration, a clunk in the steering, a DCT hesitation, or a scheduled service. The more specific, the better — but 'it doesn't feel right' is a completely fine place to start." },
@@ -854,7 +854,7 @@ const brandContent = {
       { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump and Cooling System", desc: "Cooling system service and water pump replacement for Kia 4-cylinder and V6 engines including Stinger turbocharged platforms." },
       { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Exhaust system repair and replacement for Kia models. Stinger downpipe and turbo exhaust inspection for performance-driven vehicles." }
     ],
-    intro: "Kia shares platform and engine architecture with Hyundai, which means both the engineering strengths and the known failure patterns are similar. The Theta II engine recall affects certain Kia models — we can check your VIN. The Telluride and Stinger represent very different platforms than the Soul and Forte, and service needs vary accordingly. Whatever your Kia is doing, we diagnose the cause before recommending the repair.",
+    intro: "Trusted Kia repair in South Salt Lake since 1990. We service Tellurides, Sorentos, Sportages, Fortes, and the full Kia lineup — free diagnosis before any work starts, written estimate, and honest pricing well below dealer rates.",
     whyUs: [
       { title: "Theta II Engine Knowledge", desc: "We know which Kia models are affected by the engine recall, how to diagnose bearing symptoms, and how to help owners understand their coverage." },
       { title: "Full Kia Lineup Coverage", desc: "From the small Rio and Soul to the Stinger's rear-wheel-drive platform and the Telluride's three-row layout — we service the full Kia range." },
@@ -909,7 +909,7 @@ const brandContent = {
   },
   'Volkswagen': {
     whatHeading: "Full-Service Volkswagen Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has been servicing Volkswagens in South Salt Lake since 1990 — Jettas, Golfs, GTIs, Tiguans, Passats, and the rest of the VW lineup. These are German-engineered vehicles with specific requirements: VW-approved oil ratings (502, 504, 507) that aren't interchangeable with generic full synthetic, TSI timing chain tensioners that have a documented failure history when the early revision parts are still in service, DSG dual-clutch transmissions that need fluid and filter service every 40,000 miles regardless of what the owner's manual says, and GDI engines that accumulate carbon on intake valves the way all direct-injection engines do. We handle all of it, free diagnosis first.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Volkswagens in South Salt Lake since 1990 — Jettas, Golfs, GTIs, Tiguans, Passats, and the rest of the VW lineup. We handle VW-spec oil and fluid service, turbocharged engine timing and carbon cleaning, dual-clutch transmission fluid and filter service, clutch and manual transmission repair, and check engine diagnostics. Every Volkswagen we take in starts with a free diagnosis — you'll know exactly what we found, what the repair costs, and why it's needed before any work begins.",
     whyIntro: "VW dealers in Salt Lake are billing $160–185 per hour — comparable to BMW and Audi — for vehicles that are, in many cases, Jetta and Tiguan owners running practical family transportation. The dealer service model applies the same volume-processing approach to a Golf GTI as it does to a Touareg: service advisor, flat-rate tech, multipoint inspection list to approve or decline. At Scott's, you're dealing with a mechanic who understands what a TSI tensioner failure looks like in progress, what the correct VW 507 oil is actually for, and why the 'lifetime' DSG fluid recommendation is one of the more expensive service myths VW has perpetuated. We use VW-spec fluids, we know the platform's specific failure patterns, and we explain what we find before any work begins. Independently owned in South Salt Lake since 1990.",
     whoContent: {
       heading: "Who to Trust for Volkswagen Repair in South Salt Lake",
@@ -919,8 +919,8 @@ const brandContent = {
       ]
     },
     whenContent: [
-      "The TSI timing chain tensioner is the VW repair that can't be deferred once it shows up. Early-revision tensioners in the 1.8T and 2.0T TSI engines — used widely in Jetta, Golf, Tiguan, and Passat — can fail catastrophically when the tensioner loses oil pressure hold and the chain skips. The warning signs are rattling on cold starts (especially in cold Utah mornings), a check engine code for cam timing, or rough running after startup that improves as the engine warms. If your TSI-equipped VW is rattling on cold starts, bring it in immediately. A failed tensioner can destroy the engine before it fully warms up — there is no recovery from a chain jump on these engines.",
-      "DSG fluid is the service that VW officially called 'lifetime fill' in the owner's manual, and real-world results have corrected that position. The dual-clutch transmission in Jetta, Golf, and Tiguan develops hesitant, jerky shifts — especially at low speeds and during stop-and-go — when the fluid degrades. At 40,000-mile intervals, a DSG fluid and filter service restores shift quality and prevents accelerated clutch pack wear. If your VW's DSG has never been serviced and has more than 40,000 miles on it, that's the first thing to address before blaming the transmission itself for shift behavior."
+      "The timing chain tensioner is the VW repair that can't be deferred once it shows up. Early-revision tensioners in some turbocharged VW engines can fail when the tensioner loses oil pressure hold, allowing the chain to skip — and on these engines, a chain jump causes immediate valve damage with no recovery. The warning signs are a rattle on cold starts, especially on cold Utah mornings, a check engine code for cam timing, or rough running after startup that improves as the engine warms. If your VW is rattling at cold start, bring it in immediately. There is no second chance once the chain slips.",
+      "DSG fluid is the service that VW officially called 'lifetime fill,' and real-world results have corrected that position. The dual-clutch transmission develops hesitant, jerky shifts — especially at low speeds and in stop-and-go — when the fluid degrades. Regular fluid and filter service restores shift quality and prevents accelerated clutch pack wear. If your VW's DSG has never been serviced and has significant miles on it, that's the first thing to address before attributing shift behavior to the transmission itself. Utah's altitude and temperature swings are harder on transmission fluid than VW's original service intervals accounted for."
     ],
     process: [
       { step: 1, title: "Tell Us What the VW Is Doing", desc: "A cold-start rattle, a DSG hesitation, a carbon buildup symptom like rough idle, or a scheduled service. VW symptoms often point to specific known issues — your description is the fastest path to the right diagnosis." },
@@ -940,7 +940,7 @@ const brandContent = {
       { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust and Downpipe Repair", desc: "Exhaust system repair for TSI and TDI VW engines. Downpipe inspection on turbo models." },
       { slug: "catalytic-converter-service-near-south-salt-lake-ut", name: "Catalytic Converter Service", desc: "Converter inspection, diagnosis, and replacement for VW TSI and TDI engines. DPF-related service on diesel models." }
     ],
-    intro: "VW engineering is precise and specific — DSG dual-clutch transmissions that need periodic clutch pack and fluid service, timing systems that vary between belt and chain by engine generation, and components designed to work with specific VW-approved fluids. Generic service approaches miss these details and can accelerate wear on systems built to tight tolerances. If your VW is shifting oddly, making noise, has a check engine light, or just needs routine maintenance done correctly, we're the right shop.",
+    intro: "Independent Volkswagen repair in South Salt Lake since 1990. We service Jettas, Golfs, GTIs, Tiguans, and the full VW lineup — free diagnosis, written estimate, and transparent pricing well below dealer rates.",
     whyUs: [
       { title: "DSG Transmission Service", desc: "DSG fluid and filter change every 40,000 miles prevents the mechatronic unit failures we see on cars that skipped service. We know the procedure and use the correct fluid." },
       { title: "Timing Chain Tensioner Expertise", desc: "The early TSI timing chain tensioner failure is serious and preventable. We identify which revision your VW has and recommend the update before it becomes an engine problem." },
@@ -1018,7 +1018,7 @@ const defaultContent = (name) => ({
 const extendedBrandContent = {
   'Mazda': {
     whatHeading: "Full-Service Mazda Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has been servicing Mazdas in South Salt Lake since 1990 — from older generations through the current SkyActiv lineup of Mazda3, CX-5, CX-9, and MX-5 Miata. SkyActiv direct-injection engines are among the most reliable platforms built in the last decade, but they do accumulate carbon on intake valves by 50,000 miles in ways that affect idle quality and throttle response. Miata owners with dual-mass flywheel clutch chatter have a better option than they're often told. AWD CX-5 and CX-9 rear differential coupling fluid is a 30,000-mile service that most owners miss. We handle all of it — free diagnosis first, every time.",
+    whatIntro: "Scott's Auto & Clutch Repair has worked on Mazdas in South Salt Lake since 1990 — Mazda3s, CX-5s, CX-9s, MX-5 Miatas, and everything in between. We handle SkyActiv direct-injection carbon cleaning, AWD rear differential fluid service, clutch and manual transmission repair, automatic and CVT fluid service, and the full range of mechanical work a Mazda needs over its lifetime. Every Mazda we take in starts with a free diagnosis — you'll know exactly what we found, what the repair costs, and why it's needed before any work begins.",
     whyIntro: "Mazda dealers in Salt Lake are billing $145–165 per hour for vehicles that are typically owned by people who care about their cars more than average and want the repair done correctly, not just quickly. The Mazda ownership culture — especially among Miata and Mazda3 manual drivers — tends to attract people who notice when a repair is done right and when it isn't. At Scott's, you're working with a mechanic who understands the MX-5's dual-mass flywheel situation well enough to have the honest conversation about whether a solid flywheel conversion makes sense for your specific use. We've been working on Mazdas in South Salt Lake since 1990, and we have a genuine appreciation for what the platform does right — and a clear picture of what the known wear points are.",
     whoContent: {
       heading: "Who to Trust for Mazda Repair in South Salt Lake",
@@ -1028,8 +1028,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "MX-5 Miata clutch chatter is a distinctive symptom: a shuddering vibration when releasing the clutch from a stop, especially noticeable in first gear, that tends to come and go or get worse over time. The dual-mass flywheel that came factory in NC and ND Miatas is designed to smooth out drivetrain vibration, but as the flywheel's internal damper wears, it begins to transmit torque inconsistently through the engagement zone. The stock repair is a like-for-like flywheel replacement, which solves the problem temporarily. A solid flywheel conversion is another option — it eliminates the dual-mass design entirely at the cost of a slightly harsher engagement feel, and it's the right choice for Miatas used at track days or driven enthusiastically on mountain roads. Bring it in when the chatter starts, before the worn flywheel begins to affect clutch disc wear as well.",
-      "CX-5 and CX-9 AWD rear differential coupling fluid is a service that Mazda's official maintenance schedule treats inconsistently — it's easy to miss, and most owners have no idea it exists until the AWD system starts to feel hesitant or the coupling overheats under sustained use on mountain grades. The fluid degrades over 30,000 miles and loses its thermal stability. For Utah CX-5 and CX-9 owners who use the AWD system regularly — ski season on the Wasatch Front, summer trips up Big Cottonwood or American Fork Canyon — this is a service that should be on the calendar. A SkyActiv intake carbon cleaning belongs on the same schedule, as carbon accumulation past 50,000 miles affects idle, cold-start quality, and fuel economy in ways that get worse gradually enough to go unnoticed until the cleaning reveals what was lost."
+      "Clutch chatter — a shuddering vibration when releasing the clutch from a stop, most noticeable in first gear — is a symptom that tends to come and go at first, then get worse over time. Some Mazda manual transmission models use a dual-mass flywheel design that smooths out drivetrain vibration when new, but as the internal damper wears, it begins to transmit torque inconsistently through the engagement zone. Like-for-like replacement solves the problem; a solid flywheel conversion is another option, particularly for drivers who use Utah's canyon roads enthusiastically or take their car to the track. Bring it in when the chatter starts — worn flywheels put added stress on the clutch disc as well.",
+      "Some Mazda AWD models use a rear differential coupling that requires fluid service on a regular schedule — it's easy to miss and most owners have no idea it exists until the AWD system feels hesitant or the coupling runs hot under sustained use on mountain grades. For Utah drivers who use the AWD system regularly through ski season on the Wasatch Front or summer canyon runs, this is a service that belongs on the calendar. Direct-injection carbon cleaning is worth scheduling around the same mileage interval — carbon accumulation on intake valves affects idle quality and throttle response in ways gradual enough to go unnoticed until a cleaning reveals what was lost."
     ],
     process: [
       { step: 1, title: "Tell Us About Your Mazda and How You Drive It", desc: "A Miata used at High Plains Raceway has different service priorities than a CX-5 doing ski canyon runs all winter. The more context you give us, the better the diagnosis." },
@@ -1067,7 +1067,7 @@ const extendedBrandContent = {
   },
   'Mercedes-Benz': {
     whatHeading: "Full-Service Mercedes-Benz Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair has serviced Mercedes-Benz vehicles across every generation — from the W124 diesel sedans to current AMG-tuned turbos. We handle MB-approved 229.5 and 229.51 oil specifications, Airmatic air suspension repairs, 722.9 7-speed transmission fluid and filter service, balance shaft gear replacement on M272 and M273 engines, and the full range of oil leaks common to German V6 and V8 motors — valve covers, oil coolers, and cam adjuster seals. South Salt Lake's temperature swings and winter road salt make preventive maintenance especially critical on these precision machines.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Mercedes-Benz vehicles in South Salt Lake since 1990 — sedans, SUVs, wagons, and AMG-tuned models across multiple generations. We handle air suspension repair, automatic transmission fluid and filter service, timing and balance shaft repairs, oil leaks common to German V6 and V8 engines, and all Mercedes-spec fluid and maintenance services. Every Mercedes we take in gets a free diagnosis before any work is recommended — you'll know exactly what we found, what the repair costs, and why it's needed.",
     whyIntro: "Mercedes-Benz dealers in the Salt Lake area bill at $200–$250 per hour, and service advisors rotate frequently, so you rarely speak with the same person twice. At Scott's, the same experienced mechanic who diagnosed your car is the one turning the wrenches. We use the correct MB-spec fluids — not generic substitutes — and we'll tell you plainly which repairs are urgent and which can wait. For the M272/M273 balance shaft gear job alone, owners routinely save $1,500–$2,500 compared to dealer quotes. One shop, one mechanic, honest pricing.",
     whoContent: {
       heading: "Who to Trust for Mercedes-Benz Repair in South Salt Lake",
@@ -1077,8 +1077,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "The M272 V6 and M273 V8 engines found in 2005–2011 Mercedes models develop balance shaft gear wear that causes a rattling noise at startup and rough idle. This failure accelerates in Utah's cold winters when oil takes longer to circulate. If your E350 or ML350 ticks on cold starts, don't wait — the repair window closes when the gear teeth strip completely and secondary damage follows.",
-      "Airmatic suspension compressors work overtime in Utah's temperature extremes, cycling more frequently as air springs develop slow leaks. The 722.9 7-speed transmission is labeled 'lifetime fill' from the factory, but the fluid degrades — especially with mountain driving on I-15 and canyon roads. Fluid and filter service every 40,000 miles prevents the harsh shifts and torque converter shudder that precede a costly rebuild."
+      "Some Mercedes-Benz V6 and V8 engines develop balance shaft gear wear at higher mileages — the first sign is a rattling noise at startup that quiets once the engine reaches operating temperature, often accompanied by a rough idle. Utah's cold winters make this harder on the engine: oil takes longer to circulate during cold starts, and the wear accelerates when the affected components run dry for those first seconds. If your Mercedes is ticking on cold starts, have it diagnosed before the gear teeth wear to the point of secondary damage — the repair window does close.",
+      "Air suspension compressors on Mercedes-Benz models work harder in Utah's temperature extremes, cycling more frequently as air springs develop slow leaks over time. The symptom is a vehicle that sits lower overnight or takes longer to level on startup. Automatic transmissions on these vehicles are labeled 'lifetime fill' from the factory, but real-world experience — especially with mountain driving and canyon grades — shows that fluid degrades over time. Fluid and filter service at regular intervals prevents the harsh shifts and torque converter shudder that signal a transmission in distress. South Salt Lake's winter road salt makes brake and suspension inspection equally important."
     ],
     process: [
       {
@@ -1162,7 +1162,7 @@ const extendedBrandContent = {
   },
   'Audi': {
     whatHeading: "Full-Service Audi Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services Audi's full lineup — A3, A4, A5, A6, Q5, Q7, TT, and beyond. We handle the EA888 2.0T timing chain tensioner replacement that plagues 2008–2013 A4, A5, and Q5 owners, TFSI intake valve carbon buildup cleaning, S-Tronic and DSG dual-clutch fluid service, Quattro AWD Haldex coupling fluid changes, and the oil leaks that develop on high-mileage Audi engines. Our familiarity with the shared Volkswagen Group platform means we understand Audi's engineering inside and out, from the B8 chassis to current B9 models.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Audis in South Salt Lake since 1990 — A4s, A6s, Q5s, Q7s, and the full Audi lineup. We handle turbocharged engine carbon cleaning, timing chain service, Quattro AWD Haldex coupling fluid changes, dual-clutch transmission fluid and filter service, oil leaks common to high-mileage Audi engines, and everything else an Audi needs over its lifetime. Every Audi gets a free diagnosis before we recommend any work — you'll know exactly what we found, what the repair costs, and why it's needed.",
     whyIntro: "Audi dealers in Salt Lake charge premium rates comparable to Mercedes and BMW — often $180–$220 per hour — and the complex Audi service menu can inflate routine maintenance bills quickly. Scott's offers a direct alternative: one skilled mechanic who knows the VW Group platform thoroughly, using correct fluids (including Haldex coupling fluid and S-Tronic ATF) and diagnostic equipment that reads Audi-specific fault codes. We're honest about which services are genuinely necessary. Owners regularly save $800–$1,500 on timing chain jobs and carbon cleaning compared to dealer quotes.",
     whoContent: {
       heading: "Who to Trust for Audi Repair in South Salt Lake",
@@ -1172,8 +1172,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "The EA888 2.0T engine in 2008–2013 A4, A5, and Q5 models has a well-documented timing chain tensioner failure. The warning sign is a rattling or slapping noise on cold startup that quiets after a minute. At altitude in Utah, cold starts are harder on the tensioner. Don't ignore the sound — a jumped timing chain on an interference engine means bent valves and a rebuild bill that dwarfs a tensioner job.",
-      "TFSI direct-injection engines accumulate carbon deposits on intake valves because fuel doesn't wash over them as in port-injected engines. By 60,000–80,000 miles, buildup is severe enough to cause rough idle, misfires, and lost power — especially noticeable at I-15 highway on-ramps. Walnut shell blasting clears the deposits. S-Tronic and DSG dual-clutch units also need fluid every 40,000 miles to prevent shudder and engagement hesitation."
+      "Some Audi turbocharged engines have a documented timing chain tensioner issue — the warning sign is a rattle or slapping noise on cold startup that quiets after a minute or two as oil pressure builds. At Utah's altitude, cold starts are harder on the tensioner, and our winter mornings amplify the problem. This is not a symptom to defer: on an interference engine, a jumped timing chain causes immediate valve damage. If your Audi is rattling at cold start, bring it in before driving another few thousand miles.",
+      "Direct-injection engines accumulate carbon deposits on intake valves because fuel doesn't pass over them during combustion the way it does in port-injected engines. By significant mileage, the buildup is heavy enough to cause rough idle, misfires, and lost power — often most noticeable under hard acceleration at highway on-ramps. Walnut shell blasting clears the deposits effectively and restores normal performance. Dual-clutch transmissions also need fluid service on a regular schedule to prevent shudder and shift hesitation — if your Audi's shifts have become jerky at low speeds, fluid condition is the first thing to check."
     ],
     process: [
       {
@@ -1257,7 +1257,7 @@ const extendedBrandContent = {
   },
   'Lexus': {
     whatHeading: "Full-Service Lexus Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services Lexus vehicles across all model lines — ES, IS, GS, LS, GX, LX, RX, NX, and hybrid variants. Lexus is engineered on Toyota's premium platform, which means the same rigorous maintenance standards apply with added complexity in suspension and drivetrain systems. We perform timing belt and water pump replacement on GX470 and LX470 V8 engines, rear differential fluid service on IS-F and RC-F models, hybrid battery cooling fan cleaning, and all routine maintenance with Toyota-approved fluids and specifications.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Lexus vehicles in South Salt Lake since 1990 — RX, GX, LX, ES, IS, and hybrid models across multiple generations. We handle timing belt and water pump replacement, rear differential fluid service, hybrid battery system maintenance, automatic transmission fluid service with Toyota-approved specifications, and the full range of mechanical work Lexus vehicles need over their lifetimes. Every Lexus gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
     whyIntro: "Lexus dealers charge Toyota-tier premium rates — typically $160–$200 per hour in Salt Lake — despite the mechanical similarity to Toyota's mainstream lineup. The GX470 and LX470 share the same 4.7L V8 found in the Land Cruiser, yet Lexus dealer estimates for timing belt and water pump service routinely run $800–$1,200 above independent shops. At Scott's, you receive the same quality work at a price that reflects honest labor, not badge premium. We know the Lexus/Toyota platform thoroughly and stock the correct Toyota-spec fluids and OEM-equivalent parts.",
     whoContent: {
       heading: "Who to Trust for Lexus Repair in South Salt Lake",
@@ -1267,8 +1267,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "The GX470 and LX470 use Toyota's 4.7L 2UZ-FE V8 — an interference engine with a timing belt that drives the water pump. Toyota recommends replacement at 90,000 miles, but Utah's 4,300-foot altitude and canyon driving add thermal stress. A broken belt on this engine bends valves immediately. We strongly recommend combining timing belt and water pump replacement into one service — the water pump is accessible once the belt is off, and replacing it separately costs nearly as much in labor.",
-      "Lexus RX and ES models with automatic transmissions are sensitive to fluid condition. Toyota WS ATF degrades with heat, and the transmission in high-mileage RX330 and RX350 models develops shudder and delayed engagement when fluid is neglected. Hybrid models — RX400h, HS250h — need battery cooling fan cleaning every 30,000 miles in Utah's dusty environment. A clogged hybrid battery fan leads to premature battery pack degradation."
+      "Some Lexus V8 models use a timing belt that also drives the water pump — a design where replacing only the belt and skipping the pump is a false economy, since the pump is fully accessible once the belt is off and replacing it separately later costs nearly the same in labor. Utah's altitude and canyon driving add thermal stress to both components beyond what flat-road driving produces. These are interference engines, meaning a broken belt causes immediate valve damage with no warning. If your Lexus is approaching the recommended replacement interval or has an unknown service history, don't wait for a symptom that won't come.",
+      "Lexus automatic transmissions are sensitive to fluid condition — heat and age degrade the fluid, and high-mileage models can develop shift hesitation, shudder, or delayed engagement when fluid has been neglected. Regular fluid service with the correct Toyota-specification ATF is straightforward preventive maintenance. Hybrid models need battery cooling fan cleaning on a regular schedule: Utah's dusty environment clogs these fans faster than manufacturers anticipated, and a restricted fan leads to battery pack heat buildup and premature degradation. If your Lexus hybrid has accumulated significant miles without this service, it's worth scheduling before summer temperatures arrive."
     ],
     process: [
       {
@@ -1352,7 +1352,7 @@ const extendedBrandContent = {
   },
   'Acura': {
     whatHeading: "Full-Service Acura Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services the complete Acura lineup — TL, TLX, MDX, RDX, ILX, NSX, and legacy models. Acura is Honda's premium division, which means Honda-level reliability backed by more sophisticated AWD and engine technology. We handle SH-AWD rear differential fluid service (required every 30,000 miles), VTEC solenoid leak repairs, Honda DW-1 ATF transmission fluid service, and the 5,000-mile oil change intervals required on turbocharged TLX and MDX engines. Our familiarity with Honda's engineering means we service Acuras as thoroughly as any dealer.",
+    whatIntro: "Scott's Auto & Clutch Repair has worked on Acuras in South Salt Lake since 1990 — MDXs, TLs, RDXs, and the full Acura lineup. We handle SH-AWD rear differential fluid service, VTEC system maintenance and repair, Honda-spec ATF and CVT fluid service, turbocharged engine oil intervals, and everything else an Acura needs to stay reliable over its lifetime. Every Acura we take in gets a free diagnosis before any work is recommended — you'll know exactly what we found, what the repair costs, and why it's needed.",
     whyIntro: "Acura dealers bill at $150–$180 per hour in Salt Lake, and their B-service packages bundle items you may not need. At Scott's, you pay for what your car actually requires. The SH-AWD rear differential shudder during tight parking lot turns is almost always caused by neglected fluid — a $150 fluid change at Scott's versus a dealer diagnosis that starts at $300 before any work begins. We use genuine Honda/Acura-specified fluids including Acura-brand differential fluid, because the SH-AWD clutch pack tolerances demand it. One mechanic, honest assessment, no bundle pressure.",
     whoContent: {
       heading: "Who to Trust for Acura Repair in South Salt Lake",
@@ -1362,8 +1362,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "SH-AWD rear differential shudder is the most common complaint we hear from Acura MDX and TL owners. The symptom is a vibration or growl during slow-speed turns in parking lots — it's the rear clutch pack fighting contaminated or degraded fluid. Acura specifies fluid replacement every 30,000 miles, but many owners go 60,000 or more before addressing it. Utah's winter driving, with frequent AWD engagement, accelerates fluid breakdown. Catching it early is a $150 fluid service; ignoring it risks a $2,000+ differential replacement.",
-      "Turbocharged TLX and MDX engines introduced after 2015 require 5,000-mile oil change intervals — not the 7,500-mile interval some owners assume from the Maintenance Minder. At Utah's altitude, turbos spool harder and run hotter. Sludging from extended intervals is the primary cause of VTEC solenoid failure and oil control valve clogging. We also see VTEC solenoid gasket leaks on high-mileage V6 models — the leak drips onto the exhaust manifold and creates a burning oil smell."
+      "A vibration or growl during slow-speed turns — most noticeable in parking lots and tight corners — is the most common AWD-related symptom we see on Acura SUVs and sedans. The rear differential clutch pack is fighting contaminated or degraded fluid, and the longer it continues the more wear accumulates. Utah's winter driving means frequent AWD engagement, which accelerates fluid breakdown faster than moderate climates. Catching it early is an inexpensive fluid service; catching it after the differential is damaged is a significantly larger repair. If your Acura has never had rear differential service, that's the place to start.",
+      "Turbocharged Acura engines require more frequent oil changes than some owners assume — the Maintenance Minder may show more miles remaining than is actually safe. At Utah's altitude, turbos work harder and run hotter, and extended oil intervals lead to sludge buildup that clogs oil control passages and causes VTEC system problems. If your Acura has a burning oil smell — especially when the engine is warm — a VTEC solenoid gasket leak is a common cause on higher-mileage V6 models. It's an inexpensive fix caught early and a messier one left to drip onto hot exhaust components."
     ],
     process: [
       {
@@ -1447,7 +1447,7 @@ const extendedBrandContent = {
   },
   'Infiniti': {
     whatHeading: "Full-Service Infiniti Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair handles Infiniti's full model range — G35, G37, Q50, Q60, Q70, QX60, QX80, and EX/FX series. Infiniti uses Nissan's premium engineering with the legendary VQ35 and VQ37 V6 engines at the heart of most models. We service oil consumption issues on high-mileage VQ engines, catalytic converter failures that trigger P0420 and P0430 codes, gallery gasket leaks on G37 and Q50 engines around 80,000 miles, and CVT fluid service on QX60 and JX35 models using Nissan NS-3 specification fluid.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Infiniti vehicles in South Salt Lake since 1990 — G-series sedans and coupes, Q50s, QX60s, QX80s, and the rest of the Infiniti lineup. We handle oil consumption diagnosis, catalytic converter and exhaust diagnostics, CVT fluid service, oil and gasket leak repair, and the full range of maintenance Infiniti vehicles need over their lifetimes. Every Infiniti gets a free diagnosis before we recommend any work — you'll know exactly what we found, what the repair costs, and why it's needed.",
     whyIntro: "Infiniti dealers in Salt Lake bill at $160–$190 per hour, and their diagnostics can run $150–$200 before any repair is approved. The P0420 catalytic converter fault is one of the most common Infiniti complaints — dealers quote $1,800–$2,500 to replace both cats on a G37. Scott's diagnoses the failure accurately first to confirm the cats are the true cause, not an oxygen sensor, and completes the repair at a meaningful savings. We know the VQ engine platform thoroughly, including the gallery gasket leak pattern that develops at 80,000 miles and causes external oil seepage near the rear of the engine.",
     whoContent: {
       heading: "Who to Trust for Infiniti Repair in South Salt Lake",
@@ -1457,8 +1457,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "VQ35 and VQ37 engines in G35, G37, Q50, and EX35 models begin showing increased oil consumption after 100,000 miles — sometimes burning a quart every 1,500 miles. In Utah's thin air at 4,300 feet, engines work slightly harder, which compounds ring and valve seal wear. Monitoring oil level between changes becomes essential. The gallery gasket leak on G37 and Q50 engines typically surfaces around 80,000 miles as an external oil seep at the rear of the engine block near the firewall.",
-      "QX60 and JX35 models use Nissan's JATCO CVT, which requires NS-3 CVT fluid every 30,000 miles — not the 'lifetime' interval some owners assume. In Utah's mountain driving conditions, the CVT runs hotter climbing I-15 grades and canyon roads. Degraded fluid causes shudder, hesitation, and eventually transmission failure. Early fluid service is inexpensive; CVT replacement is $4,000–$5,500. We also frequently see P0420/P0430 catalytic converter codes on high-mileage VQ models — a diagnosis-first approach prevents replacing parts unnecessarily."
+      "Some Infiniti V6 engines develop increased oil consumption as mileage climbs — burning more oil between changes than they did when new, with no visible leaks and no warning light until levels get low. At Utah's 4,300-foot elevation, engines work slightly harder, which compounds ring and valve seal wear over time. The practical response is checking the oil level between changes and monitoring the rate of consumption. An oil seep appearing at the rear of the engine block near the firewall is a separate issue — a gasket that tends to surface at higher mileages and is easier to address before it becomes a significant leak.",
+      "Some Infiniti models use a continuously variable transmission that requires fluid service on a regular schedule — not the extended interval some owners assume from the original documentation. In Utah's mountain driving conditions, the CVT runs hotter climbing highway grades and canyon roads, and degraded fluid accelerates wear. The early symptoms are shudder at light throttle and hesitation before the transmission finds its ratio; late-stage failure is far more expensive. Catalytic converter codes are also common on higher-mileage Infiniti V6 models — we always diagnose before replacing parts, since the code doesn't always mean the converter itself has failed."
     ],
     process: [
       {
@@ -1542,7 +1542,7 @@ const extendedBrandContent = {
   },
   'Ram': {
     whatHeading: "Full-Service Ram Truck Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services Ram 1500, 2500, 3500, and ProMaster vans — from the Hemi 5.7L to the EcoDiesel 3.0L and heavy-duty Cummins. We handle the Hemi MDS lifter failure that has affected thousands of Ram 1500 owners, ZF 8-speed transmission fluid service with ATF+4 every 25,000 miles for towing applications, EcoDiesel EGR cooler replacement, and rear axle seal leaks common to Ram trucks used for towing and hauling. South Salt Lake puts us squarely in Ram country — I-15 canyon grades and US-6 mountain passes are where these trucks earn their keep, and where deferred maintenance shows up.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Ram trucks in South Salt Lake since 1990 — 1500s, 2500s, 3500s, and ProMaster vans across gas and diesel powertrains. We handle cylinder deactivation system diagnosis and repair, transmission fluid service for towing applications, diesel EGR and emissions system repair, rear axle seals and differential service, and the full range of maintenance Ram trucks need when they're working hard. Every Ram gets a free diagnosis before we recommend any work — you'll know exactly what we found, what the repair costs, and why it's needed.",
     whyIntro: "Ram dealers in Salt Lake Valley have high service department overhead, and truck owners towing fifth wheels or work trailers often face sticker shock on transmission and drivetrain service. The ZF 8-speed in Ram 1500 is a capable unit but the factory 'lifetime' fluid recommendation doesn't account for Utah mountain towing. At Scott's, we service it every 25,000 miles for trucks that tow regularly, saving you a $3,500+ transmission rebuild down the road. The Hemi lifter collapse is a serious issue — we diagnose it correctly before recommending an engine teardown, and we're honest when a lifter job can be deferred safely.",
     whoContent: {
       heading: "Who to Trust for Ram Truck Repair in South Salt Lake",
@@ -1552,8 +1552,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "The 5.7L Hemi's Multi-Displacement System uses cylinder deactivation to save fuel — but the MDS lifters are a known failure point. The symptom is a persistent tick or clatter that doesn't clear with warm-up, sometimes accompanied by a P0300 random misfire code. Utah's cold winters make lifter failures worse: oil takes longer to circulate at startup and cold-soaked lifters are more vulnerable. If your Ram 1500 Hemi ticks on startup, have it diagnosed before driving another 10,000 miles.",
-      "Ram 2500 and 3500 owners towing fifth wheels on I-15's steep Salt Lake to Provo grades stress rear axle seals and ZF transmission fluid. Axle seal failure lets gear oil contaminate the brake shoes on drum-equipped rear axles — a safety issue, not just a maintenance item. EcoDiesel 3.0L owners should watch for EGR cooler failure symptoms: white smoke at startup, coolant loss without visible leak, or rough idle. We handle all of these at rates that won't make you wince like a dealer estimate."
+      "A persistent tick or clatter from the top of a Ram V8 that doesn't clear after the engine fully warms up is worth diagnosing sooner rather than later. The cylinder deactivation system uses lifters that are a known wear point, and Utah's cold winters make the problem worse — cold oil takes time to circulate, and repeated cold starts without the engine reaching full operating temperature puts extra stress on these components. If your Ram has been ticking for more than a few weeks, a diagnostic visit now is much less expensive than the camshaft damage that follows a collapsed lifter.",
+      "Ram 2500 and 3500 owners running I-15 grades with a fifth wheel or gooseneck put real stress on rear axle seals and transmission fluid. Axle seal failure lets gear oil contaminate the braking surfaces on the rear axle — it's a safety concern, not just a maintenance item, and the leak usually starts slow enough that owners miss it until braking performance changes. Diesel owners should watch for white exhaust smoke at startup, slow coolant loss without a visible external leak, or rough idle at operating temperature — these are the early signs of an EGR cooler starting to fail, and addressing it early costs significantly less than waiting for a full failure."
     ],
     process: [
       {
@@ -1637,7 +1637,7 @@ const extendedBrandContent = {
   },
   'GMC': {
     whatHeading: "Full-Service GMC Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair handles the full GMC lineup — Sierra 1500, Sierra HD, Canyon, Terrain, Yukon, Yukon XL, and Acadia. We service the AFM (Active Fuel Management) lifter failure on Sierra 5.3L and 6.2L V8 engines, the 2.4L Ecotec timing chain stretch in Terrain models, Yukon and Sierra Denali air ride suspension compressor replacement, Duramax diesel fuel filter and DEF system maintenance, and all Dexos1-specification oil services. GMC trucks and SUVs are the backbone of Salt Lake Valley work fleets and family haulers — we keep them running.",
+    whatIntro: "Scott's Auto & Clutch Repair has worked on GMC trucks and SUVs in South Salt Lake since 1990 — Sierras, Yukons, Canyons, Terrains, and Acadias across every generation. We handle cylinder deactivation system diagnosis and repair, timing chain service, air ride suspension repair, Duramax diesel maintenance, Dexos-specification oil service, and everything else a GMC needs to stay reliable under load. Every GMC we take in gets a free diagnosis before any work starts — you'll know exactly what we found, what the repair costs, and why it's needed.",
     whyIntro: "GMC dealers charge full dealership rates for work that's essentially the same as Chevrolet service — because GMC and Chevy share virtually all their major components. The AFM lifter failure on the 5.3L V8 is a well-documented issue that dealers have charged $4,000–$7,000 to repair under the correct repair procedure. At Scott's, we diagnose AFM failures accurately, perform the repair with the proper process, and charge honestly for the work. Terrain owners with timing chain issues save $600–$1,000 compared to dealer quotes. We've been doing GM platform work since 1990.",
     whoContent: {
       heading: "Who to Trust for GMC Repair in South Salt Lake",
@@ -1647,8 +1647,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "The AFM system on 5.3L and 6.2L V8 engines in Sierra, Yukon, and Suburban models deactivates four cylinders at highway speed — but the AFM lifters are prone to collapsing, especially in engines that have experienced any oil maintenance delays. Utah's cold winters make early morning lifter ticks worse as cold oil slowly reaches the lifter galleries. A persistent tick that doesn't clear after full warm-up, paired with a misfire code, is a strong indicator. Catching it before multiple lifters collapse limits repair scope significantly.",
-      "The 2.4L Ecotec engine in Terrain models typically develops timing chain stretch between 80,000 and 100,000 miles, often accompanied by a check engine light and rattle at startup. In Utah's cold winters, the stretch worsens as the chain loosens further during cold starts. Terrain owners should also watch the engine oil level closely on high-mileage Ecotecs — oil consumption accelerates as rings wear. Yukon and Sierra Denali air ride compressors fail when air springs develop slow leaks, forcing the compressor to cycle constantly."
+      "A tick on cold startup in a GMC V8 that persists after the engine warms up — sometimes paired with a misfire code — is the early warning sign of a cylinder deactivation lifter beginning to fail. Utah's cold winters are hard on these components: cold oil takes extra time to fill the lifter galleries on a below-zero morning, and engines that get short warm-up cycles accumulate wear faster. Catching it when one lifter is affected keeps the repair manageable. Waiting until multiple lifters have collapsed and camshaft lobe damage has followed turns a significant repair into a much larger one.",
+      "Some GMC four-cylinder engines develop timing chain stretch at higher mileages — the first signs are a startup rattle that goes away as the engine warms, and sometimes a check engine light with a camshaft position code. Oil consumption also increases as these engines wear, so checking the level between changes is good practice on any high-mileage four-cylinder GMC. Air ride suspension compressors on Yukon and Sierra models with the air ride option fail when air springs develop slow leaks — the compressor runs more frequently than it was designed to until it burns out. If your GMC sits lower on one corner overnight, that's the time to address it."
     ],
     process: [
       {
@@ -1732,7 +1732,7 @@ const extendedBrandContent = {
   },
   'Buick': {
     whatHeading: "Full-Service Buick Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services the complete Buick lineup — Enclave, Encore, Encore GX, Envision, LaCrosse, Regal, Verano, and legacy models. Buick shares its major platforms with Chevrolet and GMC, which means we apply the same expertise to the 3.6L timing chain failures in Enclave and Envision, the 1.4L Encore turbo wastegate and charge pipe issues, LaCrosse and Regal power steering rack leaks, and the full range of GM platform maintenance. Parts availability is excellent across all Buick models because of the GM platform commonality.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Buicks in South Salt Lake since 1990 — Enclaves, Encore GXs, Envisions, LaCrosses, Regals, and the full Buick lineup. We handle timing chain service on V6 models, turbocharged engine diagnosis and repair, power steering system service, AWD drivetrain fluid changes, and the full range of GM platform maintenance. Every Buick gets a free diagnosis before any work is recommended — you'll know exactly what we found, what the repair costs, and why it's needed before anything is touched.",
     whyIntro: "Buick dealers market themselves as luxury service centers, but the mechanical content is largely shared with Chevrolet and GMC — and priced accordingly higher. Enclave timing chain service quotes from Buick dealers run $1,800–$2,800; Scott's performs the same repair with the same parts at significantly less. The Encore 1.4T turbo's charge pipe and wastegate issues are common in Utah's thin air, where turbos work harder at altitude. We diagnose these accurately and repair them without the dealer overhead. Buick owners appreciate that honest pricing doesn't mean compromised quality.",
     whoContent: {
       heading: "Who to Trust for Buick Repair in South Salt Lake",
@@ -1742,8 +1742,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "The 3.6L V6 engine in Enclave, LaCrosse, and Regal models develops timing chain stretch between 80,000 and 120,000 miles — the same failure seen in Chevrolet Traverse and GMC Acadia. Warning signs include a rattle or slap on cold startup that diminishes as the engine warms, and sometimes a check engine light with camshaft position codes. Utah's temperature swings — from below-zero winter mornings to 100°F summer afternoons — cycle the timing chain harder than moderate climates. Early service, around the 80,000-mile mark, is far less expensive than waiting for secondary damage.",
-      "The Encore's 1.4L turbocharged Ecotec develops boost leaks through aging charge pipes and intercooler hose connections. At 4,300 feet elevation, the turbo compensates for thin air by running higher boost pressure, which stresses hose clamps and pipe connections. The wastegate actuator can also stick open or closed, causing hesitation or overboost. These are relatively inexpensive repairs when caught early. Power steering rack leaks on LaCrosse and Regal models are another common issue — a slow seep becomes a fast leak if ignored through a Utah winter."
+      "Some Buick V6 engines develop timing chain stretch at higher mileages — the warning signs are a rattle or slap on cold startup that diminishes as the engine warms, and sometimes a check engine light with camshaft position codes. Utah's temperature swings, from well below freezing in winter to triple digits in summer, cycle the timing components harder than moderate climates do. Early service is far less expensive than waiting for secondary damage to develop — if your Buick is rattling at cold start, that's the time to have it inspected, not after the light comes on for the second time.",
+      "Buick models with small turbocharged engines can develop boost leaks through aging charge pipe connections and intercooler hose fittings over time. At Utah's elevation, the turbo compensates for thinner air by running higher boost, which stresses these connections more than sea-level driving does. The symptom is hesitation or a flat spot under acceleration. The wastegate can also stick, causing either a lack of power or an overboost condition — both are relatively inexpensive repairs when caught early. Power steering rack seeps are another pattern we see on higher-mileage Buick sedans — a slow leak becomes a faster one through a Utah winter, so address it before it progresses."
     ],
     process: [
       {
@@ -1822,7 +1822,7 @@ const extendedBrandContent = {
   },
   'Cadillac': {
     whatHeading: "Full-Service Cadillac Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services the complete Cadillac lineup — Escalade, ATS, CTS, CT4, CT5, XT4, XT5, SRX, and performance CTS-V and ATS-V models. We handle the AFM lifter failure pattern on Escalade 5.3L and 6.2L V8 engines, the 3.6L timing chain stretch common to ATS, CTS, and SRX, MagneRide adaptive shock absorber replacement, and performance oil interval requirements for CTS-V and ATS-V supercharged engines. Cadillac represents GM engineering at its most ambitious — and we service it with the depth of knowledge that ambition requires.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Cadillacs in South Salt Lake since 1990 — Escalades, ATS and CTS models, XT4s, XT5s, SRX models, and performance variants. We handle cylinder deactivation system diagnosis and repair, V6 timing chain service, MagneRide adaptive suspension repair, performance engine oil intervals, and the full range of maintenance Cadillac vehicles need. Every Cadillac gets a free diagnosis before we recommend any work — you'll know exactly what we found, what the repair costs, and why it's needed.",
     whyIntro: "Cadillac dealers charge luxury-brand rates — often $175–$225 per hour in Salt Lake — for work performed on GM platform components shared with Chevrolet and GMC. Escalade AFM lifter repairs that dealers quote at $5,000–$8,000 come in significantly lower at Scott's, using the same correct repair procedure. MagneRide shock absorbers for CTS and ATS models cost 40–50% less through independent channels versus dealer parts. The CUE touchscreen infotainment system that plagues early CTS and ATS owners is a software issue, not a mechanical one — we won't try to sell you unrelated repairs when the problem isn't under the hood.",
     whoContent: {
       heading: "Who to Trust for Cadillac Repair in South Salt Lake",
@@ -1832,8 +1832,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "The Escalade's 5.3L and 6.2L V8 engines use the same Active Fuel Management system that has caused widespread lifter failures across the GM truck lineup. The first symptoms are a tick or tap that persists after warm-up, combined with a misfire code on the deactivated cylinders. Utah's cold winters are especially hard on AFM lifters — cold oil takes time to fill the lifter galleries, and repeated cold starts without the vehicle fully warming up accelerates wear. ATS and CTS 3.6L V6 engines develop timing chain stretch between 80,000 and 120,000 miles, with startup rattle as the primary symptom.",
-      "CTS-V and ATS-V owners running the supercharged LT4 or turbocharged 2.0T need to treat these as performance engines — 5,000-mile oil change intervals with full synthetic, and timing chain inspection at 80,000 miles. Mountain driving in Utah adds thermal load that consumer engines in moderate climates don't see. MagneRide adaptive shocks on CTS and ATS models fail gradually — the ride becomes harsh and flat over bumps. These shocks are expensive from the dealer but significantly cheaper through quality independent suppliers, making Scott's the smart choice for Cadillac suspension work."
+      "A tick or tap from a Cadillac V8 that persists after the engine fully warms up — sometimes with a misfire code on one of the deactivated cylinders — is the early sign of cylinder deactivation lifter wear. Utah's cold winters are especially hard on these systems: cold oil takes time to fill the lifter galleries, and vehicles that don't get sufficient warm-up time accumulate wear faster than the same engine in a milder climate. Some Cadillac V6 models also develop timing chain stretch at higher mileages, with startup rattle as the primary early symptom. Both are worth addressing at the first sign rather than waiting for the damage to compound.",
+      "Performance Cadillac models need to be treated as performance engines — shorter oil change intervals with full synthetic, and attention to timing components before high mileage. Canyon driving in Utah puts thermal load on these engines that consumer driving in moderate climates doesn't, and maintenance that slides on a mild-climate schedule catches up faster here. MagneRide adaptive shocks on CTS and ATS models fail gradually — the ride quality becomes harsher over bumps and the handling feels flat through corners. These shocks are a significant expense through the dealer; independent shops with access to quality aftermarket suppliers can handle the same repair at a more reasonable cost."
     ],
     process: [
       {
@@ -1912,7 +1912,7 @@ const extendedBrandContent = {
   },
   'Chrysler': {
     whatHeading: "Full-Service Chrysler Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services Chrysler's passenger cars and minivans — 300, Pacifica, Town & Country, Sebring, and 200. We handle the common 3.6L Pentastar oil filter housing gasket leak that drips onto the starter, TIPM (Totally Integrated Power Module) electrical diagnosis, ZF 9-speed transmission fluid service, and the sliding door mechanism lubrication and repair that Pacifica and Town & Country owners frequently need. The Pentastar V6 is Chrysler's most capable modern engine — reliable when maintained properly, expensive when neglected.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Chrysler vehicles in South Salt Lake since 1990 — 300s, Pacificas, and the minivans that Utah families have relied on for decades. We handle oil leak repairs, electrical diagnosis, automatic transmission fluid service, and the sliding door mechanism work that high-mileage minivan owners eventually need. Every Chrysler we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
     whyIntro: "Chrysler dealers have consolidated across Salt Lake Valley, leaving some owners driving further for service than they'd like. Scott's fills that gap with Stellantis platform expertise and pricing that doesn't reflect dealer overhead. The Pentastar oil filter housing gasket repair — where the leak drips directly onto the starter and eventually causes a no-start — is a $300–$500 fix at Scott's versus $600–$900 at a dealer. ZF 9-speed fluid service is often skipped at dealer maintenance intervals despite causing harsh shifting after 60,000 miles. We catch these things early.",
     whoContent: {
       heading: "Who to Trust for Chrysler Repair in South Salt Lake",
@@ -1922,8 +1922,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "The 3.6L Pentastar V6 oil filter housing gasket begins seeping around 60,000–80,000 miles on most 300 and Pacifica models. The drip lands directly on the starter motor, causing slow cranks and eventually a no-start condition — often misdiagnosed as a battery or starter failure. In Utah's cold winters, contaminated starters fail more suddenly. If your Pentastar V6 has an oil smell or you see fresh oil near the front of the engine, get the housing gasket inspected before a starter replacement becomes part of the bill.",
-      "The ZF 9-speed automatic transmission used in later 300 and Pacifica models shifts harshly and hesitates when the fluid is degraded. The factory maintenance schedule often omits fluid changes, but 60,000-mile service is the practical limit for Utah driving that includes mountain grades. TIPM failures — the electrical distribution module — can cause mysterious symptoms like fuel pump dropout, horn sounding randomly, or accessories failing in sequence. This is a diagnosis-and-replace item, not a repair Scott's avoids; we just diagnose it correctly before condemning the module."
+      "If your Chrysler is past 60,000 miles and you notice an oil smell under the hood, fresh oil near the front of the engine, or slow cranking on cold Utah mornings, an oil leak may be working its way toward other components. What starts as a minor seep can contaminate nearby parts and turn a straightforward seal repair into a larger job. Getting it inspected early keeps the repair simple and the bill predictable.",
+      "Some Chrysler models develop harsh or hesitant automatic transmission shifts when fluid service has been deferred — Utah's mountain grades and temperature swings accelerate fluid breakdown faster than the factory schedule anticipates. If your Chrysler also shows mysterious electrical symptoms like accessories failing in sequence, intermittent no-starts, or the horn sounding on its own, the vehicle's power distribution module may need diagnosis. These are diagnosable problems when you have the right tools and take the time to test before replacing parts."
     ],
     process: [
       {
@@ -2002,7 +2002,7 @@ const extendedBrandContent = {
   },
   'Lincoln': {
     whatHeading: "Full-Service Lincoln Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services Lincoln's full lineup — Navigator, Aviator, Corsair, Nautilus, Continental, MKZ, MKX, and Town Car. Lincoln shares its engineering with Ford — the Navigator uses the Ford Expedition platform, the Corsair is based on the Escape — which means we apply deep Ford platform knowledge to every Lincoln repair. We handle EcoBoost turbo oil service intervals, Navigator and Aviator air suspension repairs, and the specific Motorcraft oil filter requirements on the 3.0L twin-turbo found in Nautilus and Continental.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Lincoln vehicles in South Salt Lake since 1990 — Navigators, Aviators, Continentals, and the sedans and crossovers Lincoln has built over the decades. We handle air suspension diagnosis and repair, turbocharged engine oil service, intake valve cleaning, and the full range of maintenance these well-appointed vehicles need over their lifetimes. Every Lincoln we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
     whyIntro: "Lincoln dealers charge a premium over Ford dealers for the same platform work. Navigator air suspension repairs that dealers quote at $1,800–$3,000 for air spring replacement come in $600–$1,000 less at Scott's using quality OEM-equivalent components. EcoBoost engines need oil changes every 5,000 miles and spark plugs at 60,000 miles — not 100,000 as some owners assume from the maintenance schedule. We enforce these intervals to prevent the turbo oil coking and premature spark plug failure that cause expensive repairs. The Motorcraft FL-500-S filter on the 3.0L twin-turbo isn't optional — it's specified for a reason, and we use it.",
     whoContent: {
       heading: "Who to Trust for Lincoln Repair in South Salt Lake",
@@ -2012,8 +2012,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "Navigator air suspension failures follow a predictable pattern: an air spring develops a slow leak, the compressor runs constantly to compensate, and eventually the compressor burns out. By the time the vehicle sits low on one corner, both the spring and compressor may need replacement. In Utah's temperature swings — hot summers and freezing winters — air spring rubber degrades faster than in moderate climates. Replacing the faulty spring promptly, before the compressor is overworked, limits repair cost significantly.",
-      "Lincoln EcoBoost engines — the 2.3L in Corsair and MKC, and the 3.0L twin-turbo in Nautilus and Continental — require 5,000-mile oil changes with full synthetic and spark plug replacement at 60,000 miles. At Utah's altitude, turbos spool up more aggressively to compensate for thin air, adding heat to the oil. Coking in the turbo oil feed lines follows extended oil intervals. We also see carbon buildup on intake valves for the same reason as Audi TFSI engines — direct injection without port spray. Catching these issues at the correct intervals prevents much larger expenses."
+      "If your Lincoln sits lower on one corner after an overnight park, or you hear the air suspension compressor running more than usual, an air spring is likely developing a slow leak. Left unaddressed, the compressor works overtime to compensate and eventually burns out. Utah's temperature swings — freezing nights and hot summers — degrade air spring rubber faster than moderate climates. Catching a failing spring before the compressor is overworked keeps the repair to one component instead of two or three.",
+      "Some Lincoln models use turbocharged engines that require more attentive oil service intervals than naturally aspirated engines — extended oil changes lead to turbo oil coking and carbon buildup on intake valves, both of which become expensive if ignored. At Utah's altitude, turbos work harder to compensate for thinner air, adding heat to the oil on every drive. If your Lincoln has high mileage and you notice rough idling, sluggish acceleration, or oil consumption, an inspection of the induction and turbo systems is the right starting point."
     ],
     process: [
       {
@@ -2097,7 +2097,7 @@ const extendedBrandContent = {
   },
   'Volvo': {
     whatHeading: "Full-Service Volvo Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services the full Volvo lineup — S60, S90, V60, XC40, XC60, XC90, C70, and legacy 240 through 900 series. We handle PCV system failures that cause boost leaks and oil consumption on T5 and T6 turbocharged engines, Haldex AWD coupling fluid changes every 40,000 miles, Geartronic transmission fluid service, T8 plug-in hybrid battery cooling maintenance, and the VCC RBS0-2AE specification oil service required on modern Volvo engines. Swedish engineering demands precision maintenance — and we deliver it.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Volvo vehicles in South Salt Lake since 1990 — XC60s, XC90s, S60s, V60s, and the older Swedish models that earned Volvo its reputation. We handle turbocharged engine maintenance, AWD system fluid service, automatic transmission service, and the cooling and electrical work these vehicles need across their lifetimes. Every Volvo we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
     whyIntro: "Volvo dealers in Salt Lake Valley charge $150–$190 per hour, and the brand's specific fluid requirements — VCC RBS0-2AE spec oil, Haldex coupling fluid — are often overlooked at independent shops that don't specialize in European vehicles. At Scott's, we use the correct specifications because Volvo's AWD and turbocharged drivetrain components don't tolerate substitutions. PCV system failures that dealers diagnose as turbo problems are a common misdiagnosis; we identify the PCV first and save owners $800–$2,000 on unnecessary turbo replacements. Honest diagnosis, European expertise, independent pricing.",
     whoContent: {
       heading: "Who to Trust for Volvo Repair in South Salt Lake",
@@ -2107,8 +2107,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "The PCV (Positive Crankcase Ventilation) system on T5 and T6 turbocharged Volvos is a common failure point that manifests as oil consumption, blue smoke, boost hesitation, or false turbo diagnoses. The PCV system uses an oil trap that becomes clogged or the diaphragm fails, routing crankcase pressure into the intake. At Utah's altitude, turbochargers compensate harder for thin air, and compromised PCV systems become apparent sooner. Before condemning a turbo on your XC60 or S60, the PCV system should be evaluated — it's a fraction of the cost.",
-      "Haldex AWD coupling fluid in XC60, XC90, and V60 models should be replaced every 40,000 miles. The Haldex unit is an electronically controlled coupling that engages the rear axle on demand — degraded fluid causes delayed engagement, shudder, and eventually clutch pack damage. On Utah's snowy canyon roads, AWD function is safety-critical. T8 plug-in hybrid models have an additional battery cooling system that needs inspection every 30,000 miles. Geartronic automatic transmissions also develop harsh shifts when fluid is neglected beyond 60,000 miles."
+      "If your Volvo is turbocharged and you're noticing oil consumption, blue smoke on startup, or a hesitation under boost, the crankcase ventilation system is worth inspecting before assuming the turbo itself is the problem. A failed crankcase ventilation component routes pressure into the intake and mimics turbo failure — and at Utah's altitude, where turbos work harder to compensate for thin air, this wear pattern shows up sooner. Diagnosing it correctly saves the cost of an unnecessary turbo replacement.",
+      "Some Volvo AWD models use an electronically controlled rear coupling that depends on clean fluid to engage smoothly and quickly. When that fluid degrades, the first signs are a slight delay in AWD engagement, a shudder when cornering, and eventually drivetrain clunk. On Utah's snowy canyon roads, AWD response is a safety issue, not just a comfort one. Automatic transmission fluid service is also time-sensitive on these vehicles — harsh shifts and hesitation between gears are early signs that fluid is overdue."
     ],
     process: [
       {
@@ -2192,7 +2192,7 @@ const extendedBrandContent = {
   },
   'Land Rover': {
     whatHeading: "Full-Service Land Rover Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services Land Rover's full lineup — Range Rover, Range Rover Sport, Discovery, LR4, LR3, Freelander, and Defender. We handle air suspension diagnosis and repair (compressor, valve block, and air springs evaluated individually), plastic cooling system component replacement before catastrophic failure, transfer case and differential fluid service every 30,000 miles, and the full range of drivetrain repairs on these capable but maintenance-intensive British SUVs. Land Rover's shared Jaguar platform also means our expertise crosses directly to Jaguar owners.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Land Rover vehicles in South Salt Lake since 1990 — Range Rovers, Discoveries, Defenders, and the LR-series SUVs that Utah owners put to real use. We handle air suspension diagnosis and repair, cooling system service, transfer case and differential fluid changes, and the full range of drivetrain and mechanical work these capable but maintenance-intensive vehicles require. Every Land Rover we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
     whyIntro: "Land Rover dealers in Salt Lake Valley charge rates comparable to Mercedes and BMW — $180–$230 per hour — and diagnostic fees alone can reach $300 before any repair is approved. The plastic cooling system components in Range Rover V8 models are a well-known failure — the expansion tank and coolant hoses crack without warning, causing sudden overheating. Dealers quote $1,500–$2,500 to proactively replace these components. Scott's performs the same replacement at a meaningful savings, and we strongly recommend doing it before the roadside tow happens. One breakdown with an overheated Land Rover costs more than any preventive service.",
     whoContent: {
       heading: "Who to Trust for Land Rover Repair in South Salt Lake",
@@ -2202,8 +2202,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "Range Rover and Discovery air suspension failures follow a chain: one air spring leaks, the compressor overworks, and eventually fails. Utah's temperature extremes — freezing nights and summer heat — accelerate air spring rubber deterioration faster than temperate climates. When your Land Rover sits lower on one corner after an overnight park, the air spring is already failing. Catching it before the compressor burns out limits the repair to one component instead of two or three. We diagnose each air suspension component individually rather than recommending a full system replacement that may not be warranted.",
-      "Plastic cooling system components on Range Rover V8 models — the expansion tank, plastic coolant pipe sections, and upper hose connections — are a known failure risk from 80,000 miles onward. They can crack suddenly with no warning, and an overheated Land Rover V8 is an expensive engine repair or replacement. We proactively replace these components with upgraded alternatives when bringing Land Rovers in for other service. Transfer case and both differentials also require fluid every 30,000 miles on vehicles used for any off-road driving — terrain response cycling accelerates fluid degradation."
+      "If your Land Rover sits lower on one corner after sitting overnight, or the suspension warning light is on and you hear the compressor cycling frequently, the air suspension system needs attention soon. The failure pattern is predictable: one air spring leaks, the compressor overworks to compensate, and eventually the compressor fails too. Utah's temperature extremes — freezing nights and summer heat — accelerate air spring rubber deterioration faster than temperate climates. We diagnose each component individually rather than recommending a full system replacement that may not be warranted.",
+      "Some Land Rover V8 models use plastic cooling system components that become brittle with age and heat cycles — a sudden failure can overheat the engine with very little warning, and an overheated V8 is an expensive repair. We proactively replace these components with more durable alternatives when bringing Land Rovers in for other service. Transfer case and differential fluids on any Land Rover used for off-road driving also need more frequent attention than the factory schedule suggests — terrain response cycling and Utah mountain grades accelerate fluid breakdown."
     ],
     process: [
       {
@@ -2287,7 +2287,7 @@ const extendedBrandContent = {
   },
   'Porsche': {
     whatHeading: "Full-Service Porsche Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services Porsche's full lineup — 911, Boxster, Cayman, Cayenne, Macan, and Panamera. We handle IMS bearing replacement on 996 and 997 generation flat-six engines (ideally combined with clutch service), Cayenne plastic coolant pipe replacement with aluminum upgrades on V8 models, PDK dual-clutch transmission fluid service, and the full range of maintenance on Porsche's VW Group-shared platforms. The Cayenne's mechanical relationship with the VW Touareg and Audi Q7 means we bring layered platform expertise to every Cayenne repair.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Porsche vehicles in South Salt Lake since 1990 — 911s, Boxsters, Caymans, Cayennes, and Macans across multiple generations. We handle flat-six engine maintenance, dual-clutch transmission fluid service, cooling system work, and the clutch and drivetrain repairs that come with cars driven the way Porsches are meant to be driven. Every Porsche we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
     whyIntro: "Porsche dealers in Salt Lake bill at $200–$250 per hour — rates that make even routine maintenance expensive. The IMS bearing replacement on a 996 or 997 911 is best performed when the engine is already out for clutch service — doing it separately means paying twice for the teardown labor. Scott's combines IMS and clutch work in a single visit, saving $1,500–$2,500 in redundant labor. Cayenne owners save $1,000+ on plastic coolant pipe replacement compared to dealer quotes. We use the correct PDK fluid and Porsche-specified engine oil because cutting corners on these cars isn't an option.",
     whoContent: {
       heading: "Who to Trust for Porsche Repair in South Salt Lake",
@@ -2297,8 +2297,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "The IMS (Intermediate Shaft) bearing on 1999–2008 Porsche 911 flat-six engines, as well as the Boxster and Cayman of that era, is a known failure risk that can destroy the engine when the bearing collapses. The safest window to replace it is during clutch service, when the transmission is already removed — sharing the teardown labor makes the combined job significantly more affordable. Utah's altitude and canyon driving put thermal load on these engines that moderate-climate Porsches don't see. If you own a 996 or 997 and haven't addressed the IMS bearing, this is a high-priority conversation.",
-      "Cayenne V8 models use plastic coolant pipes that crack catastrophically — often without warning — on engines past 70,000 miles. The Cayenne V8 shares this plastic plumbing with the VW Touareg and Audi Q7, and the upgrade to aluminum replacement pipes is a known solution. In Utah's summer heat with mountain grades on I-15, a cracked coolant pipe leads to immediate overheating. PDK dual-clutch fluid service is required every 30,000–40,000 miles to maintain proper clutch pack engagement and shift quality — a service that dealers often delay and charge heavily for."
+      "If you own an older air-cooled or early water-cooled Porsche 911, Boxster, or Cayman and haven't addressed the intermediate shaft bearing, this is worth a direct conversation. The bearing is a known failure risk on engines from the late 1990s through mid-2000s, and the most cost-effective time to replace it is during clutch service when the transmission is already out — combining the jobs significantly reduces labor cost. Utah's canyon driving and altitude put thermal load on these engines that flat-land Porsches don't experience. If the car is due for a clutch, this is the time.",
+      "Some Porsche SUV models have plastic cooling system plumbing that degrades with age and heat cycles, often failing suddenly rather than gradually. In Utah's summer heat on mountain grades, a coolant failure leads to rapid overheating. If your Porsche SUV is past 70,000 miles and hasn't had a cooling system inspection, it's worth doing proactively. Dual-clutch transmission fluid also has a real service interval — neglecting it causes shift quality to deteriorate and eventually damages the clutch packs inside the transmission."
     ],
     process: [
       {
@@ -2382,7 +2382,7 @@ const extendedBrandContent = {
   },
   'MINI': {
     whatHeading: "Full-Service MINI Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services the full MINI lineup — Cooper, Cooper S, Countryman, Clubman, Paceman, and Convertible across all generations. We handle timing chain tensioner failure on N14 and N18 turbocharged engines in 2007–2016 Cooper S models, electric water pump and thermostat replacement, dual-mass flywheel clutch issues with solid flywheel conversion options, BMW LL-01 specification oil service, and supercharger oil top-off on R53 Cooper S models (2002–2006). MINI's BMW parentage means precision engineering requirements — and we meet them.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced MINI vehicles in South Salt Lake since 1990 — Coopers, Cooper Ss, Countrymans, and Clubmans across all generations. We handle timing chain service, water pump and thermostat replacement, clutch work on manual models, and the turbocharged engine maintenance these small cars need to stay reliable. Every MINI we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
     whyIntro: "MINI service at BMW dealers in Salt Lake runs $160–$200 per hour — premium pricing for a car that's often a second vehicle or commuter. The N14 timing chain tensioner failure in 2007–2015 Cooper S models is a well-documented issue that dealers have quoted $2,000–$3,500 to repair. Scott's completes it for significantly less because we don't carry BMW dealership overhead. The dual-mass flywheel clutch chatter on manual MINI models is a common complaint — we offer solid flywheel conversion that eliminates the problem permanently for owners who prefer a firmer pedal feel. BMW-approved LL-01 oil specification is always used.",
     whoContent: {
       heading: "Who to Trust for MINI Repair in South Salt Lake",
@@ -2392,8 +2392,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "The N14 turbocharged engine in 2007–2015 Cooper S models has a timing chain tensioner that uses oil pressure to maintain chain tension. When the tensioner weakens, the chain rattles on cold startup — a metallic slapping sound that clears after the engine warms. At Utah's altitude, cold starts are harder on the tensioner because oil takes longer to circulate. The N18 engine in later models improved on this but still shows chain wear patterns at high mileage. If your Cooper S rattles on cold start, don't dismiss it as 'normal' — a jumped timing chain on this interference engine bends valves.",
-      "R53 Cooper S models (2002–2006) with the Roots-type supercharger require supercharger oil top-off as part of regular maintenance — this is often overlooked by shops unfamiliar with the platform. The electric water pump and thermostat on all turbocharged MINI engines fail without warning, typically between 50,000 and 80,000 miles. In Utah's summer heat, a failed water pump causes rapid overheating. Dual-mass flywheel chatter on manual models becomes especially pronounced in cold Utah mornings when the flywheel springs are stiff — solid flywheel conversion eliminates the issue."
+      "If your turbocharged MINI rattles or ticks on cold startup — a metallic sound that fades after the engine warms — the timing chain and tensioner system needs inspection sooner rather than later. At Utah's altitude, cold starts are harder on these components because oil takes longer to circulate and build pressure. On an interference engine, a jumped timing chain bends valves, so dismissing an early rattle as normal is a costly mistake. Catching the tensioner before the chain jumps is the difference between a manageable repair and an engine job.",
+      "The electric water pump and thermostat on turbocharged MINI engines fail without warning — typically at moderate mileages — and in Utah's summer heat a failed water pump causes rapid overheating. If your MINI hasn't had these components inspected or replaced at higher mileage, it's worth adding to the next service visit. Manual MINI models with dual-mass flywheels can develop clutch chatter that's especially noticeable on cold Utah mornings when the flywheel springs are stiff — a solid flywheel conversion is an option that eliminates the issue permanently."
     ],
     process: [
       {
@@ -2477,7 +2477,7 @@ const extendedBrandContent = {
   },
   'Mitsubishi': {
     whatHeading: "Full-Service Mitsubishi Repair Since 1990",
-    whatIntro: "Scott's Auto & Clutch Repair services the full Mitsubishi lineup — Outlander, Outlander Sport, Eclipse Cross, Galant, Lancer, Lancer Evolution, Montero, and Eclipse. We handle JATCO CVT fluid service every 30,000 miles on Outlander and Eclipse Cross models, timing belt replacement on older interference engines at 60,000 miles, S-AWC and AWD coupling fluid service, and the specialized AYC differential fluid requirement on Lancer Evolution models. Mitsubishi builds reliable vehicles when maintained properly — and that maintenance starts with the right fluids at the right intervals.",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Mitsubishi vehicles in South Salt Lake since 1990 — Outlanders, Lancers, Eclipses, Monteros, and the AWD models Utah drivers have long favored for winter capability. We handle CVT fluid service, timing belt replacement on older models, AWD system maintenance, and clutch work on the manual-transmission models Mitsubishi has offered over the years. Every Mitsubishi we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
     whyIntro: "Mitsubishi dealers are less common in Salt Lake Valley than the major brands, making an independent specialist even more valuable. CVT fluid service on Outlander models is often skipped because the JATCO unit is labeled 'sealed' — but the fluid degrades and the 30,000-mile change interval is the practical limit for Utah mountain driving. At Scott's, we service Mitsubishi CVTs with the correct NS-3 equivalent fluid and correct procedure. Lancer Evolution owners who track their cars at Utah Motorsports Campus need the 15,000-mile AYC differential fluid that most shops have never heard of. We know these requirements.",
     whoContent: {
       heading: "Who to Trust for Mitsubishi Repair in South Salt Lake",
@@ -2487,8 +2487,8 @@ const extendedBrandContent = {
       ]
     },
     whenContent: [
-      "Mitsubishi Outlander and Eclipse Cross JATCO CVT transmission fluid degrades with the mountain driving that's unavoidable in Utah. Climbing I-15 grades and Wasatch canyon roads generates heat that breaks down CVT fluid faster than flat-land commuting. The shudder, hesitation, and hunting that develop from neglected CVT fluid are often misinterpreted as transmission failure — the first repair step should always be a fresh NS-3 equivalent fluid change. On older Mitsubishi models with timing belts, the 60,000-mile service interval is firm on interference engines — a broken belt means bent valves and a repair bill that dwarfs preventive service.",
-      "Lancer Evolution owners pushing hard at Utah Motorsports Campus or on canyon roads need AYC (Active Yaw Control) differential fluid every 15,000 miles under track conditions — more frequently than street use. The S-AWC AWD coupling fluid on all Outlander models should be changed every 30,000 miles. These are not suggestions — they're the difference between an Evo that handles precisely and one that develops understeer and diff clunk. Older Mitsubishi engines including the 3.8L V6 in the Eclipse also have specific timing belt intervals that we track carefully."
+      "If your Mitsubishi CVT is shuddering at low speeds, hesitating under acceleration, or the engine revs climb without a matching increase in speed, the transmission fluid is the first thing to address before assuming the transmission itself is failing. Utah's mountain grades — I-15 climbs and Wasatch canyon roads — generate heat that breaks down CVT fluid faster than flat-land commuting, and the symptoms of degraded fluid closely mimic transmission failure. A fluid service is the correct first step. On older Mitsubishi models with timing belts, the replacement interval is firm — a broken belt on an interference engine means bent valves.",
+      "Some Mitsubishi AWD models use a rear coupling that needs periodic fluid service to engage smoothly and protect the clutch pack inside. When fluid is overdue, the first signs are a slight delay in AWD response, a shudder when cornering, and eventually drivetrain noise. Utah snow driving depends on that AWD system working correctly when you need it. Performance-oriented Mitsubishi models with active AWD differentials have even tighter fluid service requirements under demanding driving conditions — these aren't suggestions, they're the difference between a system that handles precisely and one that develops clunk and understeer."
     ],
     process: [
       {
@@ -2571,6 +2571,79 @@ const extendedBrandContent = {
     ]
   },
   'Fiat': {
+    whatHeading: "Full-Service Fiat Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Fiat vehicles in South Salt Lake since 1990 — 500s, 500Xs, 500Ls, and the Abarth performance variant. These small-displacement turbocharged cars have specific maintenance requirements that matter: timing belt service, clutch replacement on manual models, and electrical diagnosis that requires the right tools for Italian systems. Every Fiat we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "Fiat dealers in Utah are limited, and the ones that exist service primarily Chrysler and Dodge alongside a handful of Fiats — which means the mechanic working on your 500 may not have deep familiarity with the MultiAir engine or Italian electrical quirks. At Scott's, we've worked on European small cars for decades. We're straightforward about what these cars need and what they don't. Independent shops are where most Fiat 500 owners land after the warranty expires, and Scott's offers the kind of honest, experienced service that keeps these fun little cars on the road.",
+    whoContent: {
+      heading: "Who to Trust for Fiat Repair in South Salt Lake",
+      paras: [
+        "Scott's has been the independent European and import alternative in South Salt Lake since 1990. Fiat 500 owners — whether they drive a base model, the turbocharged 500T, or the performance-tuned Abarth — bring their cars here because we understand the platform and won't charge dealer overhead for routine work. We know the MultiAir timing belt interval and the electrical gremlins that crop up on these cars.",
+        "Our location near I-15 in South Salt Lake makes us easy to reach from anywhere in the valley. Whether you're chasing a persistent check engine light on your 500X or need a clutch replaced on a 500 Abarth with a lot of spirited driving in its history, you'll talk directly to the mechanic handling your car — not a service advisor reading from a screen."
+      ]
+    },
+    whenContent: [
+      "Some Fiat models use a timing belt rather than a timing chain, and the replacement interval is not optional — it's a firm mileage and age limit. Utah's heat cycles accelerate belt degradation, and on an interference engine a broken belt causes immediate valve damage. If your Fiat is approaching that service interval or you've acquired one with an unclear service history, scheduling the belt inspection or replacement before accumulating more miles is the right call. This is one of the few services where acting early costs far less than acting late.",
+      "Fiat Abarth clutches wear faster than standard models due to the added torque and the way these cars tend to be driven — slip under acceleration, a high engagement point, or shudder at low speeds are the signs it's time. Electrical issues across the 500 range — warning lights that appear and disappear, intermittent sensor faults, HVAC behavior that doesn't match inputs — are also common and benefit from a thorough diagnostic scan with European-capable tools rather than a parts-swapping approach."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "European Diagnostic Scan",
+        desc: "We use professional scan tools with full Fiat/FCA coverage to read Marelli and Bosch ECU fault codes — the kind of detail generic OBD-II readers miss on Italian-built vehicles."
+      },
+      {
+        step: 2,
+        title: "Timing Belt Interval Check",
+        desc: "On MultiAir-equipped models, we verify the timing belt replacement history. If records are missing or the car is approaching 60,000 miles, we walk you through the replacement process and cost."
+      },
+      {
+        step: 3,
+        title: "Clutch and Drivetrain Inspection",
+        desc: "Manual Fiat models — especially the Abarth — get a clutch wear assessment including release bearing and pressure plate condition. We check CV boots and axles at the same time."
+      },
+      {
+        step: 4,
+        title: "Honest Written Estimate",
+        desc: "We provide a clear estimate using the correct Italian-spec parts and fluids. No surprise add-ons, and we'll tell you which items are urgent versus which can wait until your next visit."
+      },
+      {
+        step: 5,
+        title: "Road Test and Verification",
+        desc: "Every Fiat leaves with a post-repair road test and a final diagnostic scan to confirm fault codes are resolved and the car is driving cleanly."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "timing-belt-replacement-near-south-salt-lake-ut",
+        name: "Timing Belt Replacement",
+        desc: "The MultiAir 1.4T timing belt is a critical service on Fiat 500T, 500L, and 500X. We replace belt, tensioner, and water pump as a complete kit at the 60,000-mile interval."
+      },
+      {
+        slug: "clutch-repair-near-south-salt-lake-ut",
+        name: "Clutch Repair",
+        desc: "Scott's clutch specialty applies directly to the manual Fiat 500 Abarth and 500 Sport. We replace clutch assemblies, flywheels, and release bearings with the correct parts."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump Replacement",
+        desc: "Water pump replacement is typically performed alongside the timing belt on MultiAir engines since the pump is driven by the belt. We always recommend doing both together."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "Fiat 500 brake pads and rotors wear at typical intervals. We stock correct-spec hardware for all 500 variants including the larger Brembo brakes on Abarth trim levels."
+      },
+      {
+        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        name: "CV Joint & Axle Repair",
+        desc: "The 500X and 500L AWD models stress CV joints on Utah's varied terrain. We inspect boots and replace axle assemblies when wear or damage is found."
+      },
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "Electrical Diagnosis & Full Service",
+        desc: "Fiat's Italian electrical systems generate unusual fault codes that require European scan tools to read properly. We diagnose sensor faults, HVAC issues, and warning light conditions accurately."
+      }
+    ],
     issues: [
       {t:'Fiat 500 MultiAir System Issues',d:'The Fiat 500\'s MultiAir intake system uses oil-hydraulic valve control that can develop actuator failures causing rough running and power loss.'},
       {t:'Fiat Abarth Turbo Oil Feed Line Coking',d:'Fiat 500 Abarth turbo engines develop oil feed line coking from heat cycling. This restricts oil flow to the turbo bearing, eventually causing turbo failure.'},
@@ -2588,6 +2661,79 @@ const extendedBrandContent = {
     ]
   },
   'Jaguar': {
+    whatHeading: "Full-Service Jaguar Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Jaguar vehicles in South Salt Lake since 1990 — XFs, XJs, F-Types, F-Paces, and the sedans and SUVs Jaguar has produced over the decades. We handle oil leak repairs, air suspension service, timing chain work, automatic transmission fluid service, and the brake and chassis maintenance these vehicles accumulate with Utah miles. Every Jaguar we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "Jaguar dealers in Salt Lake operate at very high hourly rates — $200 or more — and service advisors often package recommendations that inflate the bill well beyond what the car actually needs. At Scott's, you talk directly to the mechanic. We know the Jaguar/Land Rover platform and its specific failure points, and we give you a straight answer about what's needed and what isn't. Owners of high-mileage XF and XJ sedans in particular find that independent service at Scott's saves them substantial money compared to keeping the car at the dealer.",
+    whoContent: {
+      heading: "Who to Trust for Jaguar Repair in South Salt Lake",
+      paras: [
+        "Scott's has provided independent European luxury car service to Salt Lake Valley drivers since 1990. Jaguar owners — particularly those with higher-mileage XF, XJ, and F-Pace models out of warranty — bring their cars here because dealer rates on these vehicles are steep and the repairs don't get better just because they cost more. We stock the correct Jaguar-specified fluids and use professional diagnostic tools that communicate with JLR modules.",
+        "Our South Salt Lake location near I-15 is convenient for Jaguar owners from Murray, Millcreek, and across the valley. Whether your XF is leaking oil from the cam cover or your F-Pace air suspension is sagging on one corner, we diagnose it accurately and repair it correctly without the dealership markup."
+      ]
+    },
+    whenContent: [
+      "If your Jaguar sits lower on one corner after parking overnight, or you notice the suspension compressor running continuously, the air suspension system needs attention before the compressor fails from overwork. Cold Utah mornings are often when this shows up most clearly — the system works harder in cold temperatures to maintain ride height. Diagnosing which component is failing early keeps the repair focused and prevents a single air spring from becoming a compressor-and-spring job.",
+      "Some Jaguar engines develop timing chain stretch and variable valve timing wear at higher mileages, particularly when oil change intervals have been inconsistent. A startup rattle or tick that fades after warm-up, a rough idle, or a check engine light pointing to valve timing faults are the early warnings. Utah canyon driving and cold winters both add stress to these systems. Addressing timing chain wear at the first signs is significantly less expensive than waiting for the chain to skip a tooth — at that point the repair becomes an engine job."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "JLR-Compatible Diagnostic Scan",
+        desc: "We use professional diagnostic equipment with Jaguar Land Rover module coverage — reading fault codes across engine, transmission, air suspension, ABS, and body systems that generic scanners can't access."
+      },
+      {
+        step: 2,
+        title: "Air Suspension System Check",
+        desc: "We test compressor output, inspect air springs for slow leaks, and check valve block operation. XJ and XF air suspension faults are diagnosed accurately before any parts are ordered."
+      },
+      {
+        step: 3,
+        title: "Engine Oil Leak Assessment",
+        desc: "We inspect for the cam cover and front cover oil leaks common to AJ-V6 and V8 engines, along with coolant system condition and timing chain wear indicators."
+      },
+      {
+        step: 4,
+        title: "Transparent Repair Estimate",
+        desc: "We provide a written estimate with Jaguar-spec fluids and quality parts clearly listed. You'll know the full cost before any work begins, with no packaged upsells."
+      },
+      {
+        step: 5,
+        title: "Road Test and Final Scan",
+        desc: "After repairs, we road test the vehicle and perform a full re-scan to confirm all fault codes are cleared and suspension, drivetrain, and engine systems are operating correctly."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "strut-replacement-near-south-salt-lake-ut",
+        name: "Air Suspension Repair",
+        desc: "Jaguar XJ and XF air suspension compressors and air springs fail with age and mileage. We diagnose and replace the correct components to restore proper ride height and quality."
+      },
+      {
+        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        name: "Timing Chain Service",
+        desc: "AJ-V6 and AJ-V8 timing chain and cam phaser wear causes startup rattles and VVT fault codes. Early repair prevents the much larger damage of a jumped chain on an interference engine."
+      },
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "Engine Oil Leak Repair",
+        desc: "Cam cover and front cover oil leaks are common on high-mileage Jaguar V6 and V8 engines. We reseal these correctly using the proper gaskets and sealants."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "Jaguar brake service requires electronic parking brake calibration on many models. We handle all Jaguar brake work including F-Type and sport-spec brake systems."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump & Cooling System",
+        desc: "Jaguar V6 and V8 cooling systems need proper maintenance to prevent overheating. We replace water pumps, thermostats, and service coolant with the correct specification fluid."
+      },
+      {
+        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        name: "CV Joint & Axle Repair",
+        desc: "F-Pace and all-wheel-drive Jaguar models put stress on CV joints. We inspect and replace axle components on both front and rear axles as needed."
+      }
+    ],
     issues: [
       {t:'Jaguar Supercharged Engine Coolant Leaks',d:'Jaguar supercharged V6 and V8 engines develop coolant crossover pipe leaks and thermostat housing cracks. The supercharger adds heat that accelerates plastic component failure.'},
       {t:'Jaguar Air Suspension Failures',d:'Jaguar XJ and F-Pace air suspension systems develop air spring leaks and compressor failures similar to Land Rover (shared platform). We diagnose and replace failed components.'},
@@ -2605,6 +2751,79 @@ const extendedBrandContent = {
     ]
   },
   'Suzuki': {
+    whatHeading: "Full-Service Suzuki Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Suzuki vehicles in South Salt Lake since 1990 — Grand Vitaras, Sidekicks, SX4s, Kizashis, and the other practical AWD models Suzuki built before leaving the US market. Many are still on Salt Lake Valley roads with well over 100,000 miles and years of life remaining. We handle timing belt replacement, AWD and transfer case service, clutch work on manual models, and all the maintenance these reliable vehicles need. Every Suzuki we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "Suzuki stopped selling vehicles in the US in 2012, which means the dealer network is completely gone. If you own a Grand Vitara, SX4, or Kizashi, an independent shop is your only real option for professional mechanical service. Scott's has the diagnostic tools and knowledge to work on these cars properly. We're familiar with their common failure points — timing belts, wheel bearings, and AWD components — and we source the correct parts. These are reliable vehicles that deserve continued maintenance rather than being sidelined because dealers no longer exist.",
+    whoContent: {
+      heading: "Who to Trust for Suzuki Repair in South Salt Lake",
+      paras: [
+        "Scott's has been servicing Suzuki vehicles in South Salt Lake since before Suzuki exited the US market. With dealers gone, independent shops like ours are the primary mechanical resource for Grand Vitara, SX4, Sidekick, and Kizashi owners across Salt Lake Valley. We know these vehicles well and can source parts from the global Suzuki supply chain.",
+        "Utah is a good state for Suzukis — the AWD capability suits winter roads, and the dry climate keeps rust at bay. Our shop near I-15 in South Salt Lake makes it easy for Suzuki owners from across the valley to get proper service without driving to a specialty import shop far from home. We're practical, experienced, and straightforward about what your Suzuki needs."
+      ]
+    },
+    whenContent: [
+      "Some Suzuki models use timing belts with a strict replacement schedule based on mileage and age — not just mileage. On an interference engine, a belt that breaks destroys the engine without warning. If you've acquired a used Suzuki and don't have service records confirming when the belt was last replaced, having it inspected or replaced before adding more miles is the most important thing you can do for the engine. Utah temperature swings accelerate belt aging, so erring on the side of early replacement is always the right call.",
+      "The AWD systems on Suzuki trucks and crossovers use transfer case and differential fluids that degrade with mileage and heat cycles — Utah mountain driving accelerates that breakdown compared to flat-land use. Wheel bearings on these vehicles also have a finite service life and will develop noise and play if neglected. On manual-transmission models, clutch wear is worth monitoring at higher mileages — these are straightforward repairs when caught before complete failure, and significantly more involved when the job is delayed."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "Diagnostic Scan and Visual Inspection",
+        desc: "We use import-capable scan tools to read Suzuki ECU fault codes and perform a thorough visual inspection covering belts, fluids, suspension, and brake components."
+      },
+      {
+        step: 2,
+        title: "Timing Belt History Check",
+        desc: "On Grand Vitara, Vitara, and other belt-driven Suzuki models, we verify service history and belt condition. We'll recommend replacement if records are missing or the interval is approaching."
+      },
+      {
+        step: 3,
+        title: "AWD System Fluid Inspection",
+        desc: "Transfer case, front differential, and rear differential fluids are checked and serviced according to Suzuki's specifications. Neglected drivetrain fluids are a common maintenance gap on older Suzukis."
+      },
+      {
+        step: 4,
+        title: "Parts and Fluid Sourcing",
+        desc: "With the US dealer network gone, we source parts through reliable import supply channels. Quality is maintained — no generic substitutes on critical components."
+      },
+      {
+        step: 5,
+        title: "Repair Completion and Test Drive",
+        desc: "Every Suzuki leaves with a post-repair road test confirming AWD engagement, brake function, and engine performance. We make sure the car is right before it leaves."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "timing-belt-replacement-near-south-salt-lake-ut",
+        name: "Timing Belt Replacement",
+        desc: "Timing belt service is critical on Grand Vitara and Vitara interference engines. We replace belt, tensioner, and water pump as a complete service at the correct interval."
+      },
+      {
+        slug: "clutch-repair-near-south-salt-lake-ut",
+        name: "Clutch Repair",
+        desc: "Manual SX4, Kizashi, and Swift models need clutch replacement as mileage adds up. Scott's clutch specialty covers full clutch assembly and flywheel service on all Suzuki manual transmissions."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump Replacement",
+        desc: "Water pump replacement is done concurrently with timing belt service on most Suzuki interference engines. We always replace both to avoid revisiting the job."
+      },
+      {
+        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        name: "CV Joint & Axle Service",
+        desc: "SX4 and Grand Vitara AWD models rely on healthy CV joints. Utah winter driving cracks boots and accelerates wear. We inspect and replace as needed."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "Suzuki brake systems are straightforward and serviceable. We stock correct pads, rotors, and hardware for Grand Vitara, SX4, Kizashi, and other models."
+      },
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "Full Mechanical Service",
+        desc: "With no Suzuki dealers remaining, Scott's serves as the go-to full-service shop for Suzuki owners in Salt Lake Valley — from oil changes to drivetrain and engine repairs."
+      }
+    ],
     issues: [
       {t:'Suzuki Grand Vitara Head Gasket Failure',d:'Suzuki Grand Vitara 2.7L V6 engines develop head gasket failures causing coolant loss and overheating. We replace head gaskets and resurface cylinder heads.'},
       {t:'Suzuki Timing Chain Stretch',d:'Suzuki 2.0L and 2.4L 4-cylinder engines develop timing chain stretch causing rattling and check engine lights. Chain kit replacement prevents engine damage.'},
@@ -2622,6 +2841,79 @@ const extendedBrandContent = {
     ]
   },
   'Isuzu': {
+    whatHeading: "Full-Service Isuzu Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Isuzu vehicles in South Salt Lake since 1990 — Troopers, Rodeos, Amigos, VehiCROSSes, and Ascenders. These body-on-frame 4WD trucks were built to last, and many are still working hard on Utah roads. We handle timing belt replacement, transfer case and locking differential service, clutch replacement on manual models, front axle and CV work, and the exhaust and suspension repairs that come with high-mileage trucks in a mountain state. Every Isuzu we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "Isuzu stopped selling passenger vehicles in the US in 2009, and the dealer network has been gone for years. For Trooper and Rodeo owners, that means an independent shop is the only serious option for mechanical work. Scott's has been servicing Isuzu vehicles since the brand was still active — we know the timing belt intervals on the DOHC engines, the transfer case quirks on the Trooper, and the common points where these trucks develop problems with age. Utah's off-road culture means a lot of high-mileage Isuzus are still in regular use, and we keep them running.",
+    whoContent: {
+      heading: "Who to Trust for Isuzu Repair in South Salt Lake",
+      paras: [
+        "Scott's has serviced Isuzu trucks and SUVs in South Salt Lake since before the brand exited the US market. Trooper and Rodeo owners — many of whom have high-mileage vehicles they plan to keep running for years — come to us because we understand these drivetrains and take them seriously. We're not guessing at repair procedures on vehicles we've never seen before.",
+        "Our shop is centrally located near I-15, convenient for Isuzu owners across Salt Lake Valley. Whether you have a well-maintained Trooper with 200,000 miles that just needs a timing belt, or a Rodeo with a developing clutch issue, we'll diagnose it accurately and give you a straight price without the runaround."
+      ]
+    },
+    whenContent: [
+      "Some Isuzu V6 engines use timing belts that require replacement every 60,000 miles — these are interference engines, meaning a broken belt ends the engine immediately. Utah's temperature swings and the demanding conditions Isuzus typically work in accelerate belt aging beyond what the mileage alone suggests. If you're running a Trooper, Rodeo, or Ascender and haven't confirmed the timing belt history, this is not something to defer. The cost of replacement is a fraction of the cost of the engine damage that follows a belt failure.",
+      "Manual-transmission Isuzus develop clutch wear in proportion to use — and in Utah, where these trucks see more off-road and mountain driving than average, that wear comes faster than the odometer implies. Transfer case and front differential fluids are frequently overdue on high-mileage trucks, and degraded fluid accelerates gear and bearing wear. If 4WD engagement feels rough, slow, or noisy, the drivetrain fluids and shift mechanism are the right place to start before assuming a more serious failure."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "Diagnostic Scan and Drivetrain Assessment",
+        desc: "We scan Isuzu-specific ECU codes and perform a hands-on assessment of the 4WD system, transfer case, and front axle — the components that take the most abuse on these trucks."
+      },
+      {
+        step: 2,
+        title: "Timing Belt Service Verification",
+        desc: "On all DOHC Isuzu V6 engines, we verify belt replacement history. If records are unavailable or the mileage interval is near, we'll walk you through the replacement and water pump service."
+      },
+      {
+        step: 3,
+        title: "Fluid Service Review",
+        desc: "Transfer case, front and rear differential, and transmission fluids are inspected for condition and service history. Drivetrain fluid maintenance is often the most neglected area on high-mileage trucks."
+      },
+      {
+        step: 4,
+        title: "Parts Sourcing and Estimate",
+        desc: "Isuzu parts are still available through OEM and quality aftermarket channels. We source correctly and provide a written estimate before starting any repair."
+      },
+      {
+        step: 5,
+        title: "Test Drive Covering 4WD Function",
+        desc: "After service, we road test with 4WD engagement verification — high and low range — to confirm all drivetrain systems are operating correctly."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "timing-belt-replacement-near-south-salt-lake-ut",
+        name: "Timing Belt Replacement",
+        desc: "The 3.2L and 3.5L DOHC V6 timing belt is critical maintenance on Trooper, Rodeo, and Axiom. We replace belt, tensioner, and water pump together at the 60,000-mile interval."
+      },
+      {
+        slug: "clutch-repair-near-south-salt-lake-ut",
+        name: "Clutch Repair",
+        desc: "Manual Trooper and Rodeo clutches take a beating in Utah's conditions. Scott's specialty in clutch repair means fast, correct replacement of clutch assembly and flywheel."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump Replacement",
+        desc: "Isuzu V6 water pumps are replaced as part of timing belt service. We include the pump in every belt job to avoid revisiting the engine at a later date."
+      },
+      {
+        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        name: "CV Joint & Front Axle Repair",
+        desc: "4WD Isuzu front axles and CV joints wear with off-road use and age. We inspect and replace boots and axle assemblies to keep 4WD engagement reliable."
+      },
+      {
+        slug: "exhaust-repair-near-south-salt-lake-ut",
+        name: "Exhaust Repair",
+        desc: "High-mileage Isuzu trucks develop exhaust leaks at manifold gaskets and mid-pipe connections. We repair and replace exhaust components correctly with welding services when needed."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "Trooper and Rodeo brake systems are robust but wear with age and use. We replace pads, rotors, calipers, and hardware and bleed brake lines completely."
+      }
+    ],
     issues: [
       {t:'Isuzu Rodeo/Trooper Timing Belt Service',d:'Isuzu Rodeo and Trooper V6 engines use timing belts requiring replacement every 60,000 miles. These are interference engines—belt failure is catastrophic.'},
       {t:'Isuzu 4WD Transfer Case Issues',d:'Isuzu Rodeo and Trooper 4WD transfer cases develop shifting difficulties and seal leaks. We service and repair Isuzu 4WD systems.'},
@@ -2639,6 +2931,79 @@ const extendedBrandContent = {
     ]
   },
   'Saab': {
+    whatHeading: "Full-Service Saab Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Saab vehicles in South Salt Lake since 1990 — 9-3s and 9-5s from the final generation before the brand closed. These are turbocharged Swedish cars with genuinely distinctive engineering, and they reward proper maintenance. We handle turbo system diagnosis and repair, ignition system service, oil leak repairs, timing chain work, and all the clutch and brake service these well-built cars need. Every Saab we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "Saab dealers closed when the company went bankrupt in 2011, and GM's involvement with the brand ended well before that. If you own a 9-3 or 9-5 today, you're relying entirely on independent shops for mechanical service. That's been the reality for Saab owners for over a decade. Scott's has the experience and diagnostic tools to handle these vehicles correctly — we understand the GM/Saab platform, know the turbo failure modes specific to these engines, and treat these well-engineered cars with the seriousness they deserve. Saab owners tend to be loyal to their cars and want a shop that shares that commitment.",
+    whoContent: {
+      heading: "Who to Trust for Saab Repair in South Salt Lake",
+      paras: [
+        "With Saab dealers long gone, Scott's serves as the dedicated independent resource for 9-3 and 9-5 owners across Salt Lake Valley. We've worked on GM-platform Saabs throughout their production run and understand their specific quirks — the center console ignition, the turbo boost architecture, and the DI cassette ignition system that fails differently than a conventional distributor. You're not getting a blank stare when you pull in with a Saab.",
+        "Our South Salt Lake location near I-15 makes us accessible to Saab owners from across the valley. Many of these owners have had their cars for a long time and want to keep them running — we respect that. We give honest assessments about which repairs make sense at a given mileage and which ones would cost more than the car warrants."
+      ]
+    },
+    whenContent: [
+      "If your Saab is losing power under acceleration, hesitating at boost, or showing a check engine light related to boost pressure, the turbo bypass valve is a common culprit — it wears and begins leaking boost before fully failing. Turbocharger oil feed lines also develop leaks on higher-mileage engines, and a turbo running low on oil fails quickly. The combined ignition coil unit is another frequent failure point that causes misfires and rough running. All of these are diagnosable with the right scan tools and hands-on inspection rather than a parts-swapping approach.",
+      "Some Saab four-cylinder engines develop timing chain tensioner wear and chain stretch at higher mileages, particularly when oil changes have been delayed. A startup rattle that clears after the engine warms is the early warning sign — catching it at that stage keeps the repair manageable. The 9-5 has its own set of accessory drive and serpentine belt service needs as mileage climbs. Both models benefit from using the correct synthetic oil specification, which matters more on turbocharged engines than it does on naturally aspirated ones."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "GM/Saab Diagnostic Scan",
+        desc: "We use professional scan tools with full Saab module coverage — reading Tech II-compatible fault codes across engine, transmission, ABS, and SID modules that standard OBD readers can't access."
+      },
+      {
+        step: 2,
+        title: "Turbo System Inspection",
+        desc: "We inspect the diverter valve, boost pipes, turbocharger oil feed and return lines, and intercooler connections — the entire boost circuit — for leaks, cracks, and wear."
+      },
+      {
+        step: 3,
+        title: "DI Cassette and Ignition Check",
+        desc: "DI cassette condition and spark plug state are verified. Misfires on Saab engines often trace back to the cassette or individual coil failure, and we diagnose these accurately."
+      },
+      {
+        step: 4,
+        title: "Transparent Estimate with Correct Parts",
+        desc: "We source quality Saab-compatible parts and provide a written estimate. For a car without a dealer network, parts availability matters — we have reliable channels for 9-3 and 9-5 components."
+      },
+      {
+        step: 5,
+        title: "Road Test with Boost Verification",
+        desc: "After turbo-related repairs, we road test under load to confirm boost pressure, throttle response, and smooth acceleration before returning the car."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "Turbo & Boost System Service",
+        desc: "Saab diverter valves, turbocharger oil lines, and intercooler hoses are the most common failure points. We inspect and repair the complete boost circuit for proper performance restoration."
+      },
+      {
+        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        name: "Timing Chain & Tensioner Service",
+        desc: "B207 timing chain tensioner wear causes startup rattle and eventual chain stretch. We service the chain system early to prevent damage on these interference engines."
+      },
+      {
+        slug: "clutch-repair-near-south-salt-lake-ut",
+        name: "Clutch Repair",
+        desc: "Manual 9-3 and 9-5 models need clutch replacement at moderate mileages when driven spiritedly. Scott's handles full clutch assembly, flywheel, and release bearing replacement."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "Saab 9-3 and 9-5 brake systems are conventional but require correct-spec pads and rotors. We stock the appropriate hardware and bleed systems completely on all Saab brake work."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump & Cooling System",
+        desc: "Saab turbocharged engines need proper cooling system maintenance. We replace water pumps and thermostats and use the correct coolant specification for these engines."
+      },
+      {
+        slug: "exhaust-repair-near-south-salt-lake-ut",
+        name: "Exhaust Repair",
+        desc: "Saab turbo downpipes and exhaust manifold gaskets develop leaks that affect both performance and cabin smell. We diagnose and repair exhaust leaks on 9-3 and 9-5 models."
+      }
+    ],
     issues: [
       {t:'Saab Turbo Oil Sludging',d:'Saab turbo engines are prone to oil sludge buildup from infrequent oil changes or using non-synthetic oil. Sludge blocks oil passages and causes turbo and engine bearing failure.'},
       {t:'Saab Direct Ignition Cassette Failure',d:'Saab 9-3 and 9-5 use a direct ignition cassette (DIC) instead of individual coil packs. These fail frequently, causing misfires. Quality replacement units are available.'},
@@ -2656,6 +3021,79 @@ const extendedBrandContent = {
     ]
   },
   'Saturn': {
+    whatHeading: "Full-Service Saturn Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Saturn vehicles in South Salt Lake since 1990 — Ions, Vues, Auras, Outlooks, and the Sky Redline. These GM-platform vehicles are practical and repairable, and many are still running well with high mileage. We handle CVT and automatic transmission service, timing chain work, clutch replacement on manual models, wheel bearing replacement, and all the maintenance these cars need. Every Saturn we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "Saturn dealers closed when GM discontinued the brand in 2010, but these vehicles are common enough on Salt Lake roads that parts are readily available and independent shops like Scott's handle them regularly. You don't need a dealer for a Saturn — these are GM-platform cars sharing components with Chevrolet and Pontiac models, and any experienced independent mechanic can work on them competently. At Scott's, you get honest service without the overhead, and we'll tell you straightforwardly when a repair makes sense for the value of the car versus when it doesn't.",
+    whoContent: {
+      heading: "Who to Trust for Saturn Repair in South Salt Lake",
+      paras: [
+        "Saturn owners across Salt Lake Valley bring their vehicles to Scott's because the brand's dealer network closed years ago and we've been servicing GM-platform vehicles since 1990. Whether you drive a high-mileage Vue that needs CVT attention or an Ion with a failing wheel bearing, we diagnose accurately and repair at fair prices — the same work you'd get at a dealer without the markup.",
+        "Our shop is near I-15 in South Salt Lake, making it a straightforward stop for Saturn owners from Murray to Millcreek. We're direct about what your Saturn needs and what it can go without. These are practical, economical vehicles, and the service you get at Scott's reflects that."
+      ]
+    },
+    whenContent: [
+      "If your Saturn Vue hesitates under acceleration, shudders at low speeds, or the engine revs without a matching increase in vehicle speed, the CVT transmission needs attention. These transmissions develop problems when fluid service is neglected — and the maintenance interval wasn't prominently communicated when these vehicles were sold. Early fluid service can extend these transmissions considerably. Waiting until the symptoms are severe usually means the damage is already done.",
+      "Some Saturn four-cylinder engines develop timing chain tensioner wear that announces itself as a cold-start rattle clearing after a minute or two. Catching it at the rattle stage is far less expensive than addressing it after the chain has jumped. On the turbocharged Sky Redline, the manual transmission clutch wears proportionally to how the car is driven — a car this enjoyable tends to get driven enthusiastically. Wheel bearings on some Saturn models also have a shorter service life than other GM products and are worth inspecting at higher mileages."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "GM Diagnostic Scan",
+        desc: "We use GM-compatible scan tools to read all module fault codes across Saturn platforms — engine, transmission, ABS, and EBCM — providing accurate starting points for diagnosis."
+      },
+      {
+        step: 2,
+        title: "CVT Fluid Inspection (Vue Models)",
+        desc: "Vue CVT fluid condition and level are checked. If the fluid is dark or degraded, we recommend service before the transmission develops irreversible damage."
+      },
+      {
+        step: 3,
+        title: "Ecotec Timing Chain Assessment",
+        desc: "On Ion, Aura, Vue, and Aura, we listen for timing chain rattle and check for fault codes related to cam timing. Early tensioner service is much less expensive than a jumped chain."
+      },
+      {
+        step: 4,
+        title: "Written Estimate with Fair Pricing",
+        desc: "Saturn repairs use widely available GM-compatible parts. We provide a written estimate with no hidden costs — these are practical vehicles and they deserve practical pricing."
+      },
+      {
+        step: 5,
+        title: "Road Test and System Verification",
+        desc: "We road test every Saturn after service to confirm transmission engagement, engine performance, and brake function before the vehicle leaves."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        name: "Timing Chain Service",
+        desc: "Ecotec engine timing chain tensioner wear is common across Saturn Ion, Vue, and Aura models. We replace tensioners and chains before cold-start rattle progresses to engine damage."
+      },
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "CVT Transmission Service",
+        desc: "Saturn Vue CVT fluid service and early repairs can extend transmission life significantly. We service and diagnose CVT issues before they become full replacement scenarios."
+      },
+      {
+        slug: "clutch-repair-near-south-salt-lake-ut",
+        name: "Clutch Repair",
+        desc: "Manual Saturn Ion and Sky Redline clutches wear with use. Scott's handles full clutch assembly and flywheel replacement — particularly rewarding on the turbo Sky."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "Saturn brake service is straightforward with widely available GM-spec parts. We replace pads, rotors, and hardware and bleed systems on all Saturn models."
+      },
+      {
+        slug: "shock-replacement-near-south-salt-lake-ut",
+        name: "Shock & Suspension Service",
+        desc: "Saturn Outlook and Vue suspension components wear at higher mileages. We replace shocks, struts, and related hardware to restore handling and ride quality."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump & Cooling System",
+        desc: "Ecotec water pump and thermostat replacement is standard maintenance on high-mileage Saturn engines. We service the complete cooling system with correct GM-spec coolant."
+      }
+    ],
     issues: [
       {t:'Saturn Vue/Outlook Timing Chain Stretch',d:'Saturn Vue and Outlook with the GM 3.6L V6 share the timing chain stretch issue. Chain, guides, and tensioners need replacement as a set.'},
       {t:'Saturn Ion/Astra Ignition Switch Recall',d:'Saturn Ion models were part of the GM ignition switch recall. If your vehicle hasn\'t been updated, we can check recall status and help coordinate the repair.'},
@@ -2673,6 +3111,79 @@ const extendedBrandContent = {
     ]
   },
   'Pontiac': {
+    whatHeading: "Full-Service Pontiac Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Pontiac vehicles in South Salt Lake since 1990 — Firebirds, Grand Prixs, Grand Ams, G6s, and Solstices. GM discontinued Pontiac in 2010, but many of these cars are still being driven daily and they're well worth maintaining. We handle intake manifold gasket repairs, timing chain service on four-cylinder models, clutch replacement on manual cars, front suspension and steering work, and all the brake and exhaust service Utah roads demand. Every Pontiac we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "Pontiac dealers are gone, having closed when GM ended the brand in 2010. But Pontiacs are common on Salt Lake roads — especially Firebirds, Trans Ams, Grand Prixs, and the later G6 — and parts availability through the GM supply chain is still good. Independent shops handle the vast majority of Pontiac service today. At Scott's, we've been working on GM-platform vehicles since 1990 and we know the failure patterns that are specific to each Pontiac model. You get real experience, honest diagnosis, and fair pricing without paying for a dealership's overhead.",
+    whoContent: {
+      heading: "Who to Trust for Pontiac Repair in South Salt Lake",
+      paras: [
+        "Scott's has been working on Pontiac vehicles since the brand was still in production. From Firebird T/A owners maintaining their performance cars to Grand Prix drivers dealing with cooling system leaks, we've seen these vehicles in every condition and know what they need. GM-compatible diagnostic tools and years of hands-on experience with these specific models mean accurate diagnosis — not guesswork.",
+        "Located in South Salt Lake near I-15, we're a practical stop for Pontiac owners across the valley. Whether you have a first-gen GTO clone or a 2008 G6 with 130,000 miles, we give you a straight assessment and a fair estimate. No drama, no upsells."
+      ]
+    },
+    whenContent: [
+      "Some Pontiac V6 engines have a well-documented intake manifold gasket failure — the gasket uses a plastic sealing element that degrades and allows coolant to seep externally or internally. If your Pontiac is losing coolant without visible puddles under the car, or the oil has a milky or foamy appearance, the intake gasket is the first thing to investigate. This is a repair we complete regularly and correctly, and catching it before coolant contaminates the oil is far better than the alternative.",
+      "Older Pontiac performance models with manual transmissions need clutch attention proportional to how hard they've been driven — a lot of these cars have years of enthusiastic daily driving behind them. The Solstice shares its drivetrain with the Saturn Sky and has the same timing chain considerations as other Ecotec four-cylinder engines: a cold-start rattle is the early warning. On front-wheel-drive Pontiacs, front wheel bearings and lower control arm bushings are the most common suspension wear items as mileage climbs."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "GM Diagnostic Scan",
+        desc: "We use GM-compatible diagnostic tools covering all Pontiac models from early OBD-II through final-year production — reading engine, transmission, and chassis module fault codes accurately."
+      },
+      {
+        step: 2,
+        title: "Cooling System and Intake Inspection",
+        desc: "On 3800 V6 models, we specifically inspect intake manifold gasket condition, coolant level, and any signs of oil-coolant mixing — the most critical failure point on these engines."
+      },
+      {
+        step: 3,
+        title: "Clutch and Manual Drivetrain Assessment",
+        desc: "For Firebird, Trans Am, and Solstice manual transmission models, we assess clutch wear, flywheel condition, and rear differential fluid state."
+      },
+      {
+        step: 4,
+        title: "Honest Written Estimate",
+        desc: "Pontiac parts are widely available through the GM supply chain at reasonable prices. We provide clear estimates without inflating costs just because there's no longer a Pontiac dealer to compete with."
+      },
+      {
+        step: 5,
+        title: "Road Test and System Check",
+        desc: "After repairs, we test drive with attention to the specific system serviced — boost pressure on turbocharged models, shifting quality, brake feel — and re-scan before delivery."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "Intake Manifold Gasket Replacement",
+        desc: "The 3800 V6 intake gasket failure is one of the most common Pontiac Grand Prix and Grand Am repairs. We replace with updated gaskets that resolve the original design deficiency."
+      },
+      {
+        slug: "clutch-repair-near-south-salt-lake-ut",
+        name: "Clutch Repair",
+        desc: "Manual Firebird, Trans Am, and Solstice clutches are a Scott's specialty. We replace full clutch assemblies and resurface or replace flywheels on all Pontiac manual transmissions."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump & Cooling System",
+        desc: "3800 and LS1 water pump and thermostat replacement is standard high-mileage maintenance. We service the complete cooling system and use the correct GM-spec coolant."
+      },
+      {
+        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        name: "Timing Chain Service",
+        desc: "Ecotec-powered Solstice and G6 models develop timing chain tensioner wear. We replace chains and tensioners before cold-start rattle leads to a jumped chain and bent valves."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "Grand Prix, Grand Am, and G6 brake service uses widely available GM-spec components. We replace pads, rotors, calipers, and hardware with correct parts."
+      },
+      {
+        slug: "exhaust-repair-near-south-salt-lake-ut",
+        name: "Exhaust Repair",
+        desc: "High-mileage Pontiac exhaust manifolds and mid-pipes develop leaks and rust through — common on Utah vehicles. We repair and replace exhaust components with welding services when needed."
+      }
+    ],
     issues: [
       {t:'Pontiac G6 3.5L V6 Intake Manifold Gasket',d:'Pontiac G6 and Grand Prix with GM 3.5L and 3.8L V6 engines develop intake manifold gasket failures causing coolant leaks and overheating. This is one of the most common GM repairs we perform.'},
       {t:'Pontiac GTO/G8 LS Engine Service',d:'Pontiac GTO and G8 use GM LS-series V8 engines that are powerful and reliable but need proper maintenance. We service LS engines including clutch replacement on manual GTO/G8 models.'},
@@ -2690,6 +3201,79 @@ const extendedBrandContent = {
     ]
   },
   'Mercury': {
+    whatHeading: "Full-Service Mercury Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Mercury vehicles in South Salt Lake since 1990 — Grand Marquis, Mountaineers, Mariners, and Villagers. Mercury shared its engineering directly with Ford and Lincoln, which means we apply deep Ford platform knowledge to every Mercury repair. We handle tune-ups and timing service on high-mileage V8s, AWD system fluid service, cooling system repairs, and the brake and suspension work that adds up on older American trucks and SUVs. Every Mercury we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "Ford discontinued Mercury in 2011, so the dealer network is gone — but these vehicles are built on the same platform as Fords that are still in production, which means parts availability is excellent. Mercury Grand Marquis in particular are well-loved, long-lasting vehicles that people want to keep running. At Scott's, we work on Ford-platform vehicles every day. The same knowledge and tools that service a Ford F-150 or Explorer apply directly to Mercury trucks and SUVs. You get experienced, practical service without paying for a brand name that no longer exists.",
+    whoContent: {
+      heading: "Who to Trust for Mercury Repair in South Salt Lake",
+      paras: [
+        "Scott's has been working on Ford-platform vehicles since 1990, which means Mercury service is entirely in our wheelhouse. Grand Marquis owners who've accumulated 150,000-200,000 miles on their cars come to Scott's because these vehicles are worth maintaining and we treat them that way. Mountaineer and Mariner owners get the same AWD expertise we apply to Explorer and Escape service.",
+        "Our South Salt Lake location near I-15 makes us convenient for Mercury owners across the valley. Parts for Ford-platform Mercury vehicles are widely available and reasonably priced, which keeps repair costs fair. We're direct about what your Grand Marquis or Mountaineer needs and what it doesn't."
+      ]
+    },
+    whenContent: [
+      "The Grand Marquis V8 is one of the most reliable engines Ford ever built, and these cars regularly reach very high mileages with proper maintenance. Past 150,000 miles, the cooling system deserves a full inspection — thermostat, hoses, and coolant condition — and spark plugs on some model years require careful extraction to avoid breaking in the head. If your Grand Marquis hasn't had a thorough cooling system service in recent memory, now is the right time. These engines will keep going a long time if the cooling system is kept healthy.",
+      "Mercury Mountaineer and Mariner AWD systems share their service requirements with the Ford Explorer and Escape — transfer case and rear differential fluid service is critical and frequently neglected on high-mileage examples. Some Mountaineer V6 and V8 models develop intake and exhaust manifold gasket wear as mileage climbs. Mariner hybrid models have additional service considerations around the hybrid battery cooling system. Whatever Mercury you drive, the underlying Ford platform means parts are available and repairs are straightforward."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "Ford-Compatible Diagnostic Scan",
+        desc: "We use professional Ford/Lincoln/Mercury scan tools to read all module fault codes — PCM, TCM, ABS, and 4WD system data — across the full Mercury lineup."
+      },
+      {
+        step: 2,
+        title: "Cooling System Inspection",
+        desc: "Grand Marquis and Mountaineer cooling systems are thoroughly inspected — thermostat, hoses, radiator, and coolant condition. Degraded coolant causes more long-term damage than most owners realize."
+      },
+      {
+        step: 3,
+        title: "AWD/4WD Drivetrain Service",
+        desc: "Mountaineer and Mariner AWD transfer case and differential fluids are checked and serviced. We also inspect front axle and CV components on Mariner AWD models."
+      },
+      {
+        step: 4,
+        title: "Honest Estimate with Ford-Spec Parts",
+        desc: "Mercury parts are interchangeable with Ford equivalents, which keeps costs reasonable. We provide a written estimate using quality components matched to Ford's specifications."
+      },
+      {
+        step: 5,
+        title: "Road Test and Delivery",
+        desc: "Every Mercury is road tested after service — we pay particular attention to transmission engagement and AWD function on Mountaineer and Mariner models before delivery."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "4.6L V8 Tune-Up & Engine Service",
+        desc: "Grand Marquis 4.6L spark plug service, including careful extraction of late-model 2-piece plugs, along with ignition wire and coil replacement for smooth high-mileage performance."
+      },
+      {
+        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        name: "Timing Chain Service",
+        desc: "High-mileage Mountaineer and Grand Marquis 4.6L engines develop timing chain tensioner wear. We service chains and guides before slack causes rattling and eventual jump."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump & Cooling Service",
+        desc: "Mercury V6 and V8 water pumps and thermostats are replaced with quality Ford-spec components. Complete cooling system service extends engine life on these high-mileage platforms."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "Grand Marquis, Mountaineer, and Mariner brake systems use Ford-compatible components with excellent parts availability. We replace pads, rotors, and hardware correctly."
+      },
+      {
+        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        name: "CV Joint & Axle Service",
+        desc: "Mariner and Mountaineer AWD front axles and CV joints wear with use and Utah winter driving. We inspect and replace boots and full axle assemblies as needed."
+      },
+      {
+        slug: "exhaust-repair-near-south-salt-lake-ut",
+        name: "Exhaust Repair",
+        desc: "Panther-platform Grand Marquis exhaust manifold cracking and mid-pipe rust are common high-mileage repairs. We repair and replace with welding services available for cost-effective fixes."
+      }
+    ],
     issues: [
       {t:'Mercury Grand Marquis Intake Manifold Cracking',d:'Mercury Grand Marquis and Mountaineer with the Ford 4.6L V8 develop cracked plastic intake manifolds that cause coolant leaks. We replace with updated manifold designs.'},
       {t:'Mercury Mariner/Escape Hybrid Battery',d:'Mercury Mariner Hybrid shares Ford Escape Hybrid components including the high-voltage battery that degrades after 8-10 years. We diagnose hybrid battery issues.'},
@@ -2707,6 +3291,79 @@ const extendedBrandContent = {
     ]
   },
   'Plymouth': {
+    whatHeading: "Full-Service Plymouth Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has worked on Plymouth vehicles in South Salt Lake since 1990 — Voyagers, Neons, Breezes, Acclaims, and Sundances. Chrysler discontinued Plymouth in 2001, but these practical vehicles are still on Utah roads and well worth maintaining. We handle timing belt replacement on four-cylinder models, minivan transmission and cooling repairs, clutch replacement on manual cars, and the exhaust and suspension work these older vehicles accumulate over time. Every Plymouth we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "Plymouth was discontinued by Chrysler in 2001, which means these vehicles are now 25 years or older at minimum. There are no Plymouth dealers — and haven't been for decades. The good news is that Plymouth vehicles share all their mechanical components with contemporary Dodge and Chrysler models, so parts availability through the Chrysler supply chain remains solid. Scott's has been working on Chrysler-platform vehicles since 1990. If you're maintaining a well-kept Plymouth Voyager or Neon, we're the right shop — we know these platforms well and we won't make you feel like your older vehicle isn't worth our time.",
+    whoContent: {
+      heading: "Who to Trust for Plymouth Repair in South Salt Lake",
+      paras: [
+        "Scott's has serviced Chrysler-platform vehicles for over three decades, which means Plymouth is entirely familiar territory. Voyager and Grand Voyager minivans — some of which are still carrying families in Salt Lake Valley — come to us for transmission service, cooling repairs, and timing belt work. Neon owners maintaining these fun, practical small cars find that Scott's treats them seriously regardless of the vehicle's age.",
+        "Our location near I-15 in South Salt Lake is straightforward to reach for Plymouth owners from across the valley. We're honest about repair economics on older vehicles — we'll tell you when a repair makes sense and when it approaches the car's value. No shop should push you into spending more than a vehicle is worth."
+      ]
+    },
+    whenContent: [
+      "Plymouth four-cylinder cars use timing belts with a strict replacement schedule — these are interference engines, meaning a broken belt bends valves immediately with no warning. On a Neon or Breeze with an unclear service history, confirming or replacing the timing belt is the first order of business. The minivan V6 engines use timing chains rather than belts, but their cooling systems have a reputation for developing problems: leaking intake gaskets and thermostat failures that can allow overheating if not caught in time.",
+      "Plymouth Voyager and Grand Voyager automatic transmissions are reliable when fluid service is kept up, but Utah's summer heat accelerates fluid breakdown — dark or burned-smelling transmission fluid means friction material is already degraded. Manual Neons need clutch replacement at moderate mileages, and these are relatively inexpensive repairs that keep a practical daily driver running. Exhaust systems on these older vehicles also benefit from inspection, as age combined with Utah road salt accelerates corrosion on pipes and hangers."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "Chrysler Platform Diagnostic Scan",
+        desc: "We use Chrysler/Mopar-compatible scan tools to read PCM and TCM fault codes across Plymouth Neon, Breeze, and Voyager platforms — properly reading the proprietary codes these systems generate."
+      },
+      {
+        step: 2,
+        title: "Timing Belt Inspection (4-Cylinder Models)",
+        desc: "On Plymouth Neon and Breeze, we verify timing belt condition and service history. For vehicles with unknown history, we recommend replacement given the interference-engine risk."
+      },
+      {
+        step: 3,
+        title: "Cooling System Assessment",
+        desc: "We inspect radiator condition, hoses, thermostat function, and coolant quality on all Plymouth models — particularly the Voyager 3.3L V6 known for intake gasket and cooling issues."
+      },
+      {
+        step: 4,
+        title: "Honest Repair Estimate",
+        desc: "Plymouth parts are Chrysler/Dodge compatible and widely available at reasonable cost. We provide written estimates that reflect the actual value of keeping these reliable older vehicles running."
+      },
+      {
+        step: 5,
+        title: "Road Test and Fluid Check",
+        desc: "After service, we road test and verify transmission engagement, brake feel, and engine temperature — the key systems that most commonly need attention on high-mileage Plymouth vehicles."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "timing-belt-replacement-near-south-salt-lake-ut",
+        name: "Timing Belt Replacement",
+        desc: "Plymouth Neon and Breeze timing belt replacement is critical every 60,000 miles. We replace belt, tensioner, and water pump together on these interference-engine four-cylinders."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump & Cooling System",
+        desc: "Plymouth Voyager 3.3L and 3.8L V6 cooling systems need regular maintenance. We replace thermostats, water pumps, and hoses and properly flush degraded coolant."
+      },
+      {
+        slug: "clutch-repair-near-south-salt-lake-ut",
+        name: "Clutch Repair",
+        desc: "Manual Plymouth Neon clutch replacement is an affordable repair that keeps these practical small cars running. Scott's handles full clutch assembly and flywheel service."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "Chrysler-platform Plymouth brake components are widely available and economically priced. We replace pads, rotors, and hardware on all Voyager, Neon, and Breeze models."
+      },
+      {
+        slug: "exhaust-repair-near-south-salt-lake-ut",
+        name: "Exhaust Repair",
+        desc: "Age and Utah road conditions corrode Plymouth exhaust systems. We repair and replace exhaust pipes, manifold gaskets, and hangers with welding services for cost-effective fixes."
+      },
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "Full Mechanical Service",
+        desc: "With no Plymouth dealers and parts well into their classic-car supply chain, Scott's provides complete mechanical service — keeping these Chrysler-platform vehicles on the road."
+      }
+    ],
     issues: [
       {t:'Plymouth Neon Head Gasket Failure',d:'The Plymouth Neon 2.0L engine is known for head gasket failures causing overheating and coolant loss. We replace head gaskets and inspect for warped cylinder heads.'},
       {t:'Plymouth Voyager Transmission Service',d:'Plymouth Voyager/Grand Voyager minivans used Chrysler transmissions that benefit from regular fluid changes. Neglected fluid causes the most common transmission failures.'},
@@ -2724,6 +3381,79 @@ const extendedBrandContent = {
     ]
   },
   'Hummer': {
+    whatHeading: "Full-Service Hummer Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Hummer vehicles in South Salt Lake since 1990 — H1s, H2s, and H3s. These are heavy, capable trucks with specific maintenance demands that reflect their size and use. We handle timing chain service on H3 engines, cooling and exhaust work on H2 models, 4WD transfer case and differential service, brake work on vehicles heavier than anything else on the road, and the exhaust repairs common to high-mileage Utah trucks. Every Hummer we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "GM discontinued Hummer after the 2010 model year. No new Hummers have been sold since, and the dealer support that existed was already folded into GM's larger dealer network rather than dedicated Hummer shops. Today, Hummer owners rely on independent shops with solid GM truck experience. Scott's has been working on GM trucks and SUVs since 1990 — the H2 and H3 are extensions of the same platform knowledge we've built over decades. We take these trucks seriously: they're built to last and worth maintaining correctly.",
+    whoContent: {
+      heading: "Who to Trust for Hummer Repair in South Salt Lake",
+      paras: [
+        "Salt Lake Valley has more Hummers than most metro areas — Utah's off-road culture and the H3's capability in mountain terrain made them popular here. Scott's has been the reliable independent option for H2 and H3 owners since these trucks aged out of warranty. We know the Atlas inline-5's timing chain tendencies, the H2 Vortec's cooling demands, and the 4WD systems that need regular fluid maintenance to stay functional.",
+        "Our South Salt Lake location near I-15 makes us accessible for Hummer owners from across the valley. These are large, heavy vehicles that need a shop confident working with them. We have the lifts, the tools, and the GM truck experience to handle whatever your H2 or H3 needs — from routine fluid service to significant drivetrain and engine repairs."
+      ]
+    },
+    whenContent: [
+      "If your H3 ticks or rattles at cold startup — a sound that may fade after warm-up — the timing chain and tensioner system needs inspection. Utah's cold winters make startup rattles more pronounced, and the longer oil takes to circulate in freezing temperatures, the harder the start is on the tensioner. Catching the issue at the rattle stage is the difference between a manageable repair and a much larger one if the chain skips. Check engine lights pointing to cam timing faults mean the window for the simpler repair may already be closing.",
+      "H2 and H3 4WD systems need transfer case and differential fluid service more frequently than the factory schedule suggests — especially for trucks used for towing or off-road driving, both common in Utah. Neglected drivetrain fluids accelerate gear and bearing wear. H2 cooling systems also work hard given the engine displacement and vehicle weight; degraded coolant leads to water pump and thermostat failures that can leave you stranded. Both trucks also develop exhaust manifold bolt failures over time — a ticking leak worth addressing before it worsens."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "GM Truck Diagnostic Scan",
+        desc: "We use GM-compatible diagnostic tools to read all module fault codes on H2 and H3 platforms — including 4WD transfer case, ABS, and engine management systems."
+      },
+      {
+        step: 2,
+        title: "Atlas Timing Chain Inspection (H3)",
+        desc: "H3 models get a specific cold-start rattle assessment and scan for cam timing fault codes. Chain stretch on the Atlas inline-5 is the most common significant repair on these trucks."
+      },
+      {
+        step: 3,
+        title: "4WD Drivetrain Fluid Service",
+        desc: "Transfer case, front differential, and rear differential fluids are checked for condition and service interval. We service all three with the correct GM-specified fluids for off-road capable trucks."
+      },
+      {
+        step: 4,
+        title: "Cooling and Exhaust Inspection",
+        desc: "H2 cooling systems are inspected for thermostat function, coolant condition, and water pump health. Exhaust manifold condition is checked on both H2 and H3 for bolt failure and gasket leaks."
+      },
+      {
+        step: 5,
+        title: "Heavy-Duty Road Test",
+        desc: "After service, Hummers are road tested under conditions that verify 4WD function, engine temperature stability, and brake performance — the critical systems on these heavy vehicles."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        name: "Timing Chain Service (H3)",
+        desc: "The Atlas inline-5 timing chain and tensioner replacement is the most critical H3 repair. We address cold-start rattle early before chain stretch causes a jump and major engine damage."
+      },
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "4WD Transfer Case & Differential Service",
+        desc: "Hummer transfer case and axle differential fluid service keeps 4WD systems reliable for Utah's mountain and off-road conditions. We service all drivetrain fluids with correct GM specifications."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump & Cooling System",
+        desc: "H2 and H3 cooling systems work hard under load. We replace water pumps, thermostats, and service coolant to prevent overheating on these high-curb-weight trucks."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "Hummer H2 and H3 brake systems handle enormous vehicle weight. We replace pads, rotors, calipers, and brake lines with components matched to the braking demands of these heavy trucks."
+      },
+      {
+        slug: "exhaust-repair-near-south-salt-lake-ut",
+        name: "Exhaust Manifold & Exhaust Repair",
+        desc: "H2 and H3 exhaust manifold bolt failures and gasket leaks are common. We repair manifold leaks, replace broken studs, and address mid-pipe and catalytic converter issues."
+      },
+      {
+        slug: "shock-replacement-near-south-salt-lake-ut",
+        name: "Suspension & Shock Replacement",
+        desc: "Hummer suspension components — especially shocks and torsion bar components on the H3 — wear with mileage and off-road use. We restore proper ride height and handling stability."
+      }
+    ],
     issues: [
       {t:'Hummer H2 Exhaust Manifold Bolt Failure',d:'The Hummer H2 uses the GM 6.0L/6.2L V8 that shares the exhaust manifold bolt breakage issue with Silverado and Sierra. Extraction requires skill to avoid head damage.'},
       {t:'Hummer H3 Cylinder Head Crack',d:'The Hummer H3 3.5L and 3.7L inline-5 engines develop cylinder head cracks causing coolant loss and overheating. We replace heads with updated castings.'},
@@ -2741,6 +3471,79 @@ const extendedBrandContent = {
     ]
   },
   'Scion': {
+    whatHeading: "Full-Service Scion Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Scion vehicles in South Salt Lake since 1990 — tCs, xBs, xDs, iQs, and the FR-S. Scion was Toyota's youth-focused brand from 2003 to 2016, and these vehicles use Toyota and Subaru-based drivetrains we know thoroughly. The FR-S in particular is popular with enthusiasts and hard on clutches when driven as intended. We handle clutch replacement across the manual-heavy Scion lineup, timing chain work, and all the routine and corrective maintenance these sporty, practical cars need. Every Scion we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "Toyota discontinued the Scion brand in 2016, folding the remaining models back into Toyota's lineup. As a result, there are no Scion dealers — but Toyota dealers can service these vehicles, and so can Scott's, often at lower cost. More importantly, the FR-S and tC attract manual-transmission enthusiasts who drive their cars with purpose, and Scott's clutch specialty is exactly what these cars need when the stock clutch wears out. We've replaced clutches on more FR-S and tC coupes than we can count, and we understand what these cars need when they're driven hard.",
+    whoContent: {
+      heading: "Who to Trust for Scion Repair in South Salt Lake",
+      paras: [
+        "Scion owners in Salt Lake Valley — particularly FR-S and tC enthusiasts — have found Scott's to be the right shop for their cars. The FR-S clutch replacement is a natural fit for a shop that has specialized in manual transmission work since 1990. We understand the FA20 engine, the Aisin manual transmission in the FR-S and tC, and the Toyota four-cylinders in the xB and xD. These are fun cars worth maintaining correctly.",
+        "We're located in South Salt Lake near I-15 — easy to reach from anywhere in the valley. Whether you've worn through a clutch on your FR-S at Utah Motorsports Campus or your xB just needs routine maintenance, Scott's handles it with the same care. We're direct about cost and honest about what your Scion needs."
+      ]
+    },
+    whenContent: [
+      "The Scion FR-S is a naturally aspirated sports car that makes its power at high RPM and rewards enthusiastic driving — which means clutch wear is a real consideration, not a hypothetical one. If the car sees track days at Utah Motorsports Campus, spirited canyon runs, or aggressive street driving, the stock clutch wears noticeably faster than it would in relaxed commuting. An engagement point that keeps climbing higher, a faint burning smell after hard driving, or slip under full throttle in a high gear are the signs. Replacing the clutch with a properly matched unit is the right move on a car built to be driven.",
+      "Some Scion four-cylinder engines develop timing chain tensioner wear that shows up as a cold-start rattle — particularly if oil changes have been stretched. The rattle stage is the time to act, not after the chain has jumped. The xB and xD are particularly low-maintenance cars, but higher-mileage examples need water pump and serpentine belt inspection. The iQ has a tightly packaged engine compartment that makes some service items more involved than the car's size suggests. Toyota-compatible parts availability means keeping any Scion on the road is straightforward."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "Toyota-Compatible Diagnostic Scan",
+        desc: "We use professional Toyota/Scion diagnostic tools to read all ECU fault codes across FR-S, tC, xB, xD, and iQ platforms — the same coverage level as a Toyota dealer scan."
+      },
+      {
+        step: 2,
+        title: "Clutch Wear Assessment",
+        desc: "For FR-S, tC, and other manual Scion models, we assess clutch engagement point, slip threshold, and release bearing condition. We discuss performance clutch options for enthusiast applications."
+      },
+      {
+        step: 3,
+        title: "Timing Chain Inspection",
+        desc: "On tC and xB models with higher mileage, we listen for timing chain rattle and scan for cam timing fault codes. Early tensioner service prevents the more expensive chain replacement."
+      },
+      {
+        step: 4,
+        title: "Honest Estimate Using Toyota-Spec Parts",
+        desc: "Scion components are Toyota-compatible, which means excellent parts availability at reasonable prices. We provide a clear written estimate before starting any work."
+      },
+      {
+        step: 5,
+        title: "Road Test and Performance Verification",
+        desc: "After clutch or engine work, we road test under real conditions — including WOT acceleration where appropriate — to confirm the repair is right before the car leaves."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "clutch-repair-near-south-salt-lake-ut",
+        name: "Clutch Repair",
+        desc: "The Scion FR-S and tC are manual-transmission cars that attract enthusiastic drivers. Scott's clutch specialty means correct replacement with options for both OEM and performance-spec clutch kits."
+      },
+      {
+        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        name: "Timing Chain Service",
+        desc: "Scion tC timing chain tensioner wear causes startup rattle on higher-mileage examples. We service chains and tensioners before the rattling progresses to a jumped chain."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "FR-S and tC brake systems — including Brembo brakes on performance variants — get regular use on enthusiast cars. We replace pads, rotors, and hardware with quality Toyota-spec components."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump & Cooling System",
+        desc: "Toyota four-cylinder water pump and thermostat replacement is straightforward preventive maintenance on higher-mileage xB, xD, and tC models. We use Toyota-spec coolant."
+      },
+      {
+        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        name: "CV Joint & Axle Service",
+        desc: "Front-wheel-drive Scion models depend on healthy CV joints for smooth power delivery. We inspect and replace boots and axle assemblies on tC, xB, and xD models."
+      },
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "Full Mechanical Service",
+        desc: "With no Scion dealers, Toyota shops and independents like Scott's handle all Scion service. We provide complete mechanical maintenance using Toyota-compatible parts and fluids."
+      }
+    ],
     issues: [
       {t:'Scion tC Clutch and Flywheel Wear',d:'Scion tC manual transmission models develop clutch chatter from the dual-mass flywheel, similar to other Toyota platforms. We offer solid flywheel conversion for longer clutch life.'},
       {t:'Scion FR-S/BRZ Valve Spring Recall',d:'The Scion FR-S (now Toyota 86) had a valve spring recall on early models. If your vehicle hasn\'t been updated, we can check and coordinate the repair.'},
@@ -2758,6 +3561,79 @@ const extendedBrandContent = {
     ]
   },
   'Smart': {
+    whatHeading: "Full-Service Smart Car Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has serviced Smart ForTwo vehicles in South Salt Lake since the model arrived in the US market. These are genuinely unusual cars: rear-mounted turbocharged three-cylinder engines, an automated manual transmission that operates like an automatic but contains a real mechanical clutch, and a design unlike anything else on the road. We handle clutch replacement on the automated transmission, transmission actuator service, engine maintenance, and the cooling and exhaust work these small turbocharged engines need. Every Smart we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "Smart dealers in the US are scarce, and many that did exist were folded into Mercedes-Benz dealerships where the hourly rate is high and ForTwo expertise varies. At Scott's, we're familiar with the Smart's unconventional drivetrain — the automated manual transmission with its electro-hydraulic clutch actuator, the rear engine layout, and the turbocharger on the small three-cylinder. We give Smart owners a straightforward, affordable service option that doesn't charge Mercedes rates for a vehicle that costs a fraction of a Mercedes. These little cars deserve practical, competent service.",
+    whoContent: {
+      heading: "Who to Trust for Smart Car Repair in South Salt Lake",
+      paras: [
+        "Smart ForTwo owners in Salt Lake Valley find Scott's to be one of the few independent shops that takes the AMT transmission seriously rather than treating the car as a curiosity. The automated manual clutch is the most common significant repair on these cars — it's wear-dependent, just like a conventional clutch — and Scott's clutch specialty translates directly to Smart ForTwo service.",
+        "We're near I-15 in South Salt Lake, which is easy to reach from anywhere in the valley. Smart cars are practical city vehicles and deserve practical service pricing. We don't charge European luxury rates just because the car has a Mercedes-Benz corporate parent. If your Smart is hesitating between gear changes or the transmission is jerky, bring it in and we'll diagnose it accurately."
+      ]
+    },
+    whenContent: [
+      "The Smart ForTwo's automated manual transmission uses a conventional mechanical clutch operated by an electro-hydraulic actuator — no clutch pedal, but a real clutch that wears just like any other. Hesitation during gear changes, jerky low-speed engagement, or lurching when pulling into traffic are the signs of a worn clutch. If the transmission seems to be hunting for gears or shifts have become rough and unpredictable, the clutch and actuator system both need inspection. Driving around a worn AMT clutch accelerates wear on the actuator, so addressing it promptly is worth it.",
+      "The Smart's small turbocharged engine is tightly packaged in the rear of the car, which makes some service items more involved than you'd expect from a vehicle this size. The engine runs hot in stop-and-go traffic — a condition Salt Lake Valley summer driving amplifies — and the cooling system needs to be in good condition to handle it. Exhaust components on the rear-mounted engine are exposed to heat cycles and road debris, and turbocharger boost hoses are a wear item on higher-mileage examples. These are all serviceable repairs that keep the car reliable for years."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "Mercedes/Smart Diagnostic Scan",
+        desc: "We use Mercedes-compatible diagnostic tools that read Smart ForTwo ECU and transmission control module fault codes — including AMT actuator position codes that generic OBD readers miss."
+      },
+      {
+        step: 2,
+        title: "AMT Clutch and Actuator Assessment",
+        desc: "We assess clutch wear by testing engagement behavior, shift quality, and actuator response. Worn clutch material and actuator hydraulic issues produce different symptoms we can distinguish accurately."
+      },
+      {
+        step: 3,
+        title: "Three-Cylinder Engine Inspection",
+        desc: "The rear-mounted turbo three-cylinder is inspected for boost hose condition, cooling system integrity, and oil leaks — the main areas these engines develop issues with age and mileage."
+      },
+      {
+        step: 4,
+        title: "Transparent Estimate",
+        desc: "Smart parts are sourced through Mercedes-compatible supply channels. We provide a written estimate at independent shop rates — not what a Mercedes dealer would charge for a ForTwo."
+      },
+      {
+        step: 5,
+        title: "Test Drive with Shift Quality Verification",
+        desc: "After AMT clutch or transmission work, we test drive specifically for shift quality — smooth engagement at low speeds, clean gear changes under acceleration — before the car is returned."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "clutch-repair-near-south-salt-lake-ut",
+        name: "AMT Clutch Replacement",
+        desc: "The Smart ForTwo automated manual clutch wears over time and causes rough, jerky gear changes. Scott's clutch specialty directly covers Smart AMT clutch and actuator service."
+      },
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "AMT Transmission Actuator Service",
+        desc: "The electro-hydraulic actuator that operates the Smart's AMT clutch can develop issues separate from the clutch itself. We diagnose actuator faults accurately before recommending replacements."
+      },
+      {
+        slug: "exhaust-repair-near-south-salt-lake-ut",
+        name: "Exhaust Repair",
+        desc: "Smart ForTwo rear-mounted exhaust components experience significant heat cycling. We repair exhaust leaks and replace deteriorated components on the turbo three-cylinder exhaust system."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Cooling System Service",
+        desc: "Smart three-cylinder cooling system maintenance prevents overheating in stop-and-go conditions. We replace thermostats, inspect hoses, and service coolant at correct intervals."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "Smart ForTwo brakes are compact and require correct-spec components. We replace pads and rotors with appropriate hardware for the ForTwo's lightweight braking system."
+      },
+      {
+        slug: "catalytic-converter-service-near-south-salt-lake-ut",
+        name: "Catalytic Converter Service",
+        desc: "Smart turbo three-cylinder catalytic converters are close-coupled to the engine and experience high heat. We diagnose P0420 codes and replace converters when efficiency has genuinely degraded."
+      }
+    ],
     issues: [
       {t:'Smart ForTwo Transmission Actuator Failure',d:'The Smart ForTwo uses an automated manual transmission with an electro-hydraulic actuator that fails, causing jerky shifts or no-shift conditions.'},
       {t:'Smart ForTwo Turbo Wastegate Failure',d:'Smart ForTwo turbocharged models develop wastegate actuator failure causing boost control problems, overboosting, or no boost.'},
@@ -2775,6 +3651,79 @@ const extendedBrandContent = {
     ]
   },
   'GM': {
+    whatHeading: "Full-Service GM Vehicle Repair Since 1990",
+    whatIntro: "Scott's Auto & Clutch Repair has been working on General Motors vehicles since 1990 — from older carbureted V8s to current trucks and vans. We service the full GM spectrum: older Chevrolet and GMC trucks, commercial Express and Savana vans, Buick and Oldsmobile sedans, classic GM muscle cars, and fleet vehicles that need regular professional service. If it came from General Motors, we can service it. Every vehicle we take in gets a free diagnosis first — you'll know exactly what we found, what the repair costs, and why it's needed before any work starts.",
+    whyIntro: "General Motors operates the largest dealer network of any automaker — but dealer labor rates have climbed steeply, and commercial and fleet operators in Salt Lake Valley have long preferred independent shops for routine and corrective maintenance. For older GM vehicles, commercial operators, and owners of discontinued GM brands, Scott's offers the combination of genuine GM experience and fair pricing that keeps fleets running and classic vehicles on the road. We've been working on GM's engines and drivetrains for over 30 years. The platform knowledge that covers a current Silverado also covers your 1995 Suburban or 2002 Express van.",
+    whoContent: {
+      heading: "Who to Trust for GM Vehicle Repair in South Salt Lake",
+      paras: [
+        "Scott's has been the independent GM alternative in South Salt Lake since 1990. Small businesses operating older GM work vans, owners of high-mileage GM trucks, and classic car enthusiasts maintaining older Chevrolet and Buick models all find Scott's to be the right shop. We use GM-compatible diagnostic tools and understand the engineering across multiple GM generations — from the TBI 350 to the Vortec 5300.",
+        "Our location near I-15 in South Salt Lake makes us a practical service stop for businesses and individuals across Salt Lake Valley. Fleet operators appreciate that we're straightforward about maintenance schedules and repair priorities. Classic GM owners appreciate that we take their vehicles seriously and do the work correctly. One shop, experienced across the full GM lineage."
+      ]
+    },
+    whenContent: [
+      "Older GM V8 engines are among the most reliable engines ever built, but high-mileage examples develop predictable issues: intake manifold gasket leaks on Vortec V8s are particularly common, causing coolant consumption and occasional white exhaust smoke. Older carbureted and throttle-body-injected engines need carburetor, choke, and distributor maintenance that many shops no longer perform regularly. If you're running an older GM truck or van for commercial use, preventive attention to cooling, fuel, and ignition systems is the most cost-effective approach to keeping it working.",
+      "GM's commercial full-size vans are workhorses that accumulate high mileage quickly in fleet service. The large V8 engines in these vans are durable, but some later engines with active fuel management systems develop lifter failures — a ticking noise on any fleet van should be diagnosed promptly before the damage spreads. If you operate multiple GM commercial vehicles and are seeing repeat lifter issues, there are modifications that address the root cause. Scott's has serviced fleet accounts since 1990 and understands the economics of keeping working vehicles on the road."
+    ],
+    process: [
+      {
+        step: 1,
+        title: "GM-Wide Diagnostic Capability",
+        desc: "We use professional GM-compatible scan tools covering the full model range — from early OBD-I systems on 1990s trucks to current CAN-bus architectures on late-model Silverados and Express vans."
+      },
+      {
+        step: 2,
+        title: "Fleet and Commercial Vehicle Assessment",
+        desc: "For fleet operators, we develop service schedules based on actual mileage and use patterns. Commercial GM vehicles often need more frequent fluid and filter service than the factory schedule assumes."
+      },
+      {
+        step: 3,
+        title: "Classic and Older GM Service",
+        desc: "Older GM vehicles with carbureted engines, HEI distributors, and early EFI systems require specific expertise. We understand these systems and stock or source the correct parts."
+      },
+      {
+        step: 4,
+        title: "Honest, Written Estimate",
+        desc: "GM parts are widely available at all price points. We provide clear written estimates using quality components — we'll tell you when OEM is necessary and when a quality aftermarket part is the smarter choice."
+      },
+      {
+        step: 5,
+        title: "Road Test and Return to Service",
+        desc: "Every GM vehicle leaves Scott's road tested and verified — particularly important for commercial vehicles that need to be back in service quickly and reliably."
+      }
+    ],
+    commonRepairs: [
+      {
+        slug: "complete-auto-service-near-south-salt-lake-ut",
+        name: "Full GM Mechanical Service",
+        desc: "From older carbureted 350s to current Vortec and EcoTec3 engines, Scott's handles comprehensive GM mechanical service for private owners, fleet operators, and classic vehicle owners."
+      },
+      {
+        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        name: "Timing Chain & AFM Lifter Service",
+        desc: "GM Vortec V8 timing chains and AFM lifter failures are significant repairs in older fleet vans and trucks. We diagnose and replace components correctly before secondary damage develops."
+      },
+      {
+        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        name: "Water Pump & Cooling System",
+        desc: "GM V8 water pump and thermostat replacement is standard high-mileage service. We replace cooling components using correct GM-spec parts and properly flush and refill with current coolant specifications."
+      },
+      {
+        slug: "clutch-repair-near-south-salt-lake-ut",
+        name: "Clutch Repair",
+        desc: "Older GM manual transmission vehicles — trucks, vans, and classic cars — get complete clutch assembly and flywheel service at Scott's, which has specialized in manual transmissions since 1990."
+      },
+      {
+        slug: "brake-service-near-south-salt-lake-ut",
+        name: "Brake Service",
+        desc: "GM truck and van brake systems handle heavy loads and need regular service. We replace pads, drums, rotors, calipers, and wheel cylinders with quality components on all GM platforms."
+      },
+      {
+        slug: "exhaust-repair-near-south-salt-lake-ut",
+        name: "Exhaust Repair & Welding",
+        desc: "High-mileage GM trucks and vans develop exhaust manifold leaks and mid-pipe failures. Our welding services allow cost-effective exhaust repairs that don't require full system replacement."
+      }
+    ],
     issues: [
       {t:'GM AFM/DFM Lifter Failure',d:'GM Active Fuel Management and Dynamic Fuel Management systems in 5.3L and 6.2L V8 engines develop collapsed lifters causing misfires and engine damage. This is the #1 GM repair we perform.'},
       {t:'GM 3.6L V6 Timing Chain Stretch',d:'The GM 3.6L V6 (used in Acadia, Traverse, Enclave, CTS, Equinox) develops timing chain stretch causing rough running and check engine lights. Complete chain kit replacement required.'},
