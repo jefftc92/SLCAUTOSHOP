@@ -18,6 +18,26 @@
 
 <% var _sec = 0; %>
 
+<% if (service.statsTable && service.statsTable.length) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2><%= service.name %> — At a Glance</h2>
+    <div class="stats-table-wrap" style="max-width:660px;margin-top:1.25rem">
+      <table class="stats-table">
+        <tbody>
+          <% service.statsTable.forEach(function(row) { %>
+          <tr>
+            <th scope="row"><%= row.label %></th>
+            <td><%= row.value %></td>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<% } %>
+
 <% if (service.intro) { %>
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">

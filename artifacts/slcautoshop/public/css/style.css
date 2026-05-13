@@ -446,3 +446,17 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
   .symptom-location-map iframe{min-height:260px}
   .symptom-location-actions{flex-direction:row;flex-wrap:wrap}
 }
+
+/* At-a-Glance stats table (service pages & about page) */
+.stats-table{width:100%;border-collapse:collapse;font-size:.95rem}
+.stats-table th,.stats-table td{padding:.65rem .85rem;text-align:left;border-bottom:1px solid var(--c-border);vertical-align:top}
+.stats-table th{font-weight:600;color:var(--c-text);white-space:nowrap;width:40%;background:var(--c-bg-alt)}
+.stats-table td{color:var(--c-text-muted)}
+.stats-table tr:last-child th,.stats-table tr:last-child td{border-bottom:none}
+.stats-table-wrap{border:1px solid var(--c-border);border-radius:var(--radius);overflow:hidden}
+
+/* About page — story + stats side-by-side */
+.about-story-grid{display:grid;grid-template-columns:1fr 380px;gap:2.5rem;align-items:start;margin-top:1rem}
+@media(max-width:900px){
+  .about-story-grid{grid-template-columns:1fr}
+}
