@@ -52,6 +52,9 @@ const businessSchema = {
   },
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "17:30" }
+  ],
+  "sameAs": [
+    "https://g.page/r/CYDFwHsY4XoBEBM/review"
   ]
 };
 
@@ -281,9 +284,11 @@ app.get('/', (req, res) => {
         "@type": "AggregateRating",
         "ratingValue": "5",
         "bestRating": "5",
-        "ratingCount": "150"
+        "ratingCount": String(allReviews.length)
       },
-      "sameAs": []
+      "sameAs": [
+        "https://g.page/r/CYDFwHsY4XoBEBM/review"
+      ]
     },
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3))
   });
