@@ -12,7 +12,7 @@
     </div>
   </div>
 </section>
-<script type="application/ld+json"><%- JSON.stringify({
+<script type="application/ld+json" nonce="<%= cspNonce %>"><%- JSON.stringify({
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": pageFaqs.map(faq => ({

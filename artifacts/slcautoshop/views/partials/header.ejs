@@ -23,16 +23,17 @@
   <% if (typeof preloadImage !== 'undefined' && preloadImage) { %><link rel="preload" href="<%= preloadImage %>" as="image" type="image/webp"><% } %>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" as="style" id="gf-preload">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"></noscript>
+  <script nonce="<%= cspNonce %>">(function(){var l=document.getElementById('gf-preload');if(l)l.onload=function(){this.onload=null;this.rel='stylesheet';};})();</script>
   <link rel="stylesheet" href="/css/style.css?v=<%= cssVer %>">
   <% if (typeof structuredData !== 'undefined') { %>
   <% if (Array.isArray(structuredData)) { %>
   <% structuredData.forEach(sd => { %>
-  <script type="application/ld+json"><%- JSON.stringify(sd) %></script>
+  <script type="application/ld+json" nonce="<%= cspNonce %>"><%- JSON.stringify(sd) %></script>
   <% }) %>
   <% } else { %>
-  <script type="application/ld+json"><%- JSON.stringify(structuredData) %></script>
+  <script type="application/ld+json" nonce="<%= cspNonce %>"><%- JSON.stringify(structuredData) %></script>
   <% } %>
   <% } %>
 </head>

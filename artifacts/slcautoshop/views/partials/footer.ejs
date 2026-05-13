@@ -74,10 +74,9 @@
     <a href="sms:<%= site.phoneSms %>" class="mobile-cta-text" aria-label="Text <%= site.name %>">💬 Text Us</a>
   </div>
 
-  <script>
-    // Mobile nav close on link click
-    document.querySelectorAll('.main-nav .nav-link').forEach(link => {
-      link.addEventListener('click', () => document.body.classList.remove('nav-open'));
+  <script nonce="<%= cspNonce %>">
+    document.querySelectorAll('.main-nav .nav-link').forEach(function(link){
+      link.addEventListener('click', function(){ document.body.classList.remove('nav-open'); });
     });
   </script>
 </body>

@@ -1,3 +1,4 @@
+const crypto = require('crypto');
 const express = require('express');
 const compression = require('compression');
 const helmet = require('helmet');
@@ -64,10 +65,33 @@ const CSS_VER = process.env.CSS_VER || require('child_process').execSync('git re
 
 // Middleware
 app.use(compression());
+// Generate a fresh nonce for every request — must run before Helmet so the
+// CSP directive functions can read res.locals.cspNonce when headers are written.
+app.use((_req, res, next) => {
+  res.locals.cspNonce = crypto.randomBytes(16).toString('base64');
+  next();
+});
 app.use(helmet({
-  contentSecurityPolicy: false, // Allow Google Fonts etc.
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc:     ["'self'"],
+      scriptSrc:      ["'self'", (_req, res) => `'nonce-${res.locals.cspNonce}'`],
+      styleSrc:       ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
+      fontSrc:        ["'self'", "https://fonts.gstatic.com"],
+      imgSrc:         ["'self'", "data:", "https://raw.githubusercontent.com"],
+      connectSrc:     ["'self'"],
+      frameSrc:       ["'self'", "https://www.google.com"],  // Maps embed
+      frameAncestors: ["'none'"],
+    },
+  },
   crossOriginEmbedderPolicy: false,
+  referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
 }));
+// Permissions-Policy — not in Helmet defaults
+app.use((_req, res, next) => {
+  res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=(), payment=()');
+  next();
+});
 app.use(express.static(path.join(__dirname, 'public'), { maxAge: '7d' }));
 
 // View engine
