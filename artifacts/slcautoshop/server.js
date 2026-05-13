@@ -52,12 +52,15 @@ const businessSchema = {
   },
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "17:30" }
+  ],
+  "sameAs": [
+    "https://g.page/r/CYDFwHsY4XoBEBM/review"
   ]
 };
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const CSS_VER = Date.now();
+const CSS_VER = process.env.CSS_VER || require('child_process').execSync('git rev-parse --short HEAD').toString().trim();
 
 // Middleware
 app.use(compression());
@@ -209,10 +212,12 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.render('home', {
     activePage: 'home',
+    preloadImage: site.heroImage,
     metaTitle: "Auto Repair South Salt Lake UT | Since 1990 | Scott's Auto & Clutch Repair",
     metaDesc: "Family-owned shop serving the Salt Lake Valley since 1990. Clutch repair, brakes, CV axles, transmissions & more. Free estimates. Call (801) 485-4089.",
     canonical: '/',
-    structuredData: {
+    structuredData: [
+    {
       "@context": "https://schema.org",
       "@type": "AutoRepair",
       "@id": site.domain + "/#business",
@@ -281,10 +286,24 @@ app.get('/', (req, res) => {
         "@type": "AggregateRating",
         "ratingValue": "5",
         "bestRating": "5",
-        "ratingCount": "150"
+        "ratingCount": String(allReviews.length)
       },
-      "sameAs": []
+      "sameAs": [
+        "https://g.page/r/CYDFwHsY4XoBEBM/review"
+      ]
     },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": site.domain,
+      "name": site.name,
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": site.domain + "/symptoms?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    ],
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3))
   });
 });
@@ -518,6 +537,7 @@ app.get('/services/:slug', (req, res) => {
 
   res.render('service-detail', {
     activePage: 'services',
+    preloadImage: service.heroImage || null,
     metaTitle: service.metaTitle,
     metaDesc: service.metaDesc,
     canonical: '/services/' + service.slug,
@@ -704,6 +724,7 @@ app.get('/symptoms/:slug', (req, res) => {
         "about": { "@type": "Thing", "name": symptom.name },
         "specialty": "Automotive Repair",
         "proficiencyLevel": "Expert",
+        "datePublished": symptom.datePublished || symptom.lastUpdated || "2024-01-01",
         ...(symptom.lastUpdated ? { "dateModified": symptom.lastUpdated } : {})
       }
     ]
