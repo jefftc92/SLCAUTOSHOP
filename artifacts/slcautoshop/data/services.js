@@ -371,6 +371,14 @@ const services = [
         "When you bring your vehicle in, you get a diagnosis that covers the chain, guides, tensioner, VVT components, and oil system condition before we quote anything. We explain what we found and why it matters, and we get your written approval before work begins. No replacing parts until we know exactly what the engine needs."
       ]
     },
+    statsTable: [
+      { label: "Typical Turnaround", value: "1–3 days depending on engine accessibility and parts availability" },
+      { label: "Free Diagnosis", value: "Yes — we verify chain stretch with measurement before recommending replacement" },
+      { label: "Includes", value: "Chain, tensioner, and guide inspection; VVT system check; oil system assessment; written estimate" },
+      { label: "Risk If Delayed", value: "A jumped or broken timing chain can cause piston-to-valve contact on interference engines" },
+      { label: "Most Common Trigger", value: "Rattling on cold startup that quiets as oil pressure builds; cam/crank fault codes" },
+      { label: "Vehicles Served", value: "All makes and models — domestic, import, trucks, SUVs" },
+    ],
     hasGeoPages: false,
     relatedSlugs: ["timing-belt-replacement-near-south-salt-lake-ut", "water-pump-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -451,6 +459,14 @@ const services = [
         "When you bring your vehicle in, you get a complete cooling system assessment. We explain what we found, what we recommend, and why before any work starts. If combining services makes sense for your vehicle's mileage and service history, we'll tell you. If it doesn't, we'll tell you that too."
       ]
     },
+    statsTable: [
+      { label: "Typical Turnaround", value: "Same day to 1 day; faster when combined with timing belt at same access point" },
+      { label: "Free Diagnosis", value: "Yes — cooling system pressure test confirms the pump is the source before work begins" },
+      { label: "Includes", value: "Pump replacement, coolant flush, thermostat inspection, cooling system pressure test" },
+      { label: "Common Savings", value: "Combining water pump and timing belt replacement saves significant labor when both are due" },
+      { label: "Most Common Cause", value: "Coolant leak from weep hole, shaft bearing noise, or impeller wear reducing flow" },
+      { label: "Vehicles Served", value: "All makes and models — domestic, import, trucks, SUVs" },
+    ],
     hasGeoPages: false,
     relatedSlugs: ["timing-chain-repair-near-south-salt-lake-ut", "timing-belt-replacement-near-south-salt-lake-ut", "exhaust-repair-near-south-salt-lake-ut"]
   },
@@ -534,6 +550,14 @@ const services = [
         "When you bring your vehicle in, we inspect the full exhaust system, not just the spot that's making noise. You get a clear explanation of what we found, whether welding or replacement makes more sense, and a written estimate before we start. We repair when it's the right call and replace when it isn't."
       ]
     },
+    statsTable: [
+      { label: "Typical Turnaround", value: "Same day for most exhaust repairs; same day for welded patches and hangers" },
+      { label: "Free Diagnosis", value: "Yes — we identify the leak source before quoting any work" },
+      { label: "In-House Welding", value: "Yes — one of the few independent shops in Salt Lake with welding capability for exhaust work" },
+      { label: "Includes", value: "Full exhaust inspection from manifold to tailpipe; leak location; written estimate" },
+      { label: "Most Common Repair", value: "Broken hangers, rusted flex pipes, exhaust manifold cracks, muffler replacement" },
+      { label: "Vehicles Served", value: "All makes and models — domestic, import, trucks, SUVs" },
+    ],
     hasGeoPages: false,
     relatedSlugs: ["catalytic-converter-service-near-south-salt-lake-ut", "welding-services-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -615,6 +639,14 @@ const services = [
         "When you bring your vehicle in, you get a real diagnosis before any recommendation, a written estimate before any work starts, and a converter that meets Utah emissions requirements. We also install anti-theft shields if your vehicle is a common target in this area."
       ]
     },
+    statsTable: [
+      { label: "Typical Turnaround", value: "Same day in most cases" },
+      { label: "Free Diagnosis", value: "Yes — we read and interpret all O2 sensor and catalyst efficiency codes before recommending replacement" },
+      { label: "Includes", value: "Code scan, O2 sensor check, catalyst efficiency test, exhaust visual inspection, written estimate" },
+      { label: "Emissions Repair", value: "Yes — we repair failures tied to catalytic converter efficiency for Utah emissions testing" },
+      { label: "Most Common Issue", value: "P0420/P0430 catalyst efficiency codes; clogged substrate from oil consumption or misfires" },
+      { label: "Vehicles Served", value: "All makes and models — domestic, import, trucks, SUVs" },
+    ],
     hasGeoPages: false,
     relatedSlugs: ["exhaust-repair-near-south-salt-lake-ut", "welding-services-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -696,6 +728,14 @@ const services = [
         "We always recommend alignment after strut replacement and can do it the same day. That's the complete repair. Struts without alignment is an incomplete job that costs more in tire wear than the alignment would have."
       ]
     },
+    statsTable: [
+      { label: "Typical Turnaround", value: "Same day for most vehicles" },
+      { label: "Free Diagnosis", value: "Yes — road test and visual inspection confirms strut condition before recommending replacement" },
+      { label: "Includes", value: "Strut inspection, mount and spring check, alignment check recommendation, written estimate" },
+      { label: "Replace in Pairs", value: "Yes — we replace in axle pairs to maintain even handling and prevent steering pull" },
+      { label: "Most Common Trigger", value: "Nose-dive under braking, bouncy ride after bumps, clunking over rough pavement" },
+      { label: "Vehicles Served", value: "All makes and models — domestic, import, trucks, SUVs" },
+    ],
     hasGeoPages: false,
     relatedSlugs: ["shock-replacement-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -776,6 +816,14 @@ const services = [
         "When you bring your vehicle in, you get a complete assessment of the belt system and related components, a written estimate before any work starts, and timing verified after the job is done. The goal is a service done right the first time, with no return visit for a tensioner or water pump that should have been included."
       ]
     },
+    statsTable: [
+      { label: "Typical Turnaround", value: "Same day to 1 day" },
+      { label: "Free Diagnosis", value: "Yes — we confirm belt condition and interval before scheduling replacement" },
+      { label: "Includes", value: "Belt, tensioner, and idler replacement; water pump inspection (often replaced at same time)" },
+      { label: "Risk If Missed", value: "Timing belt failure on an interference engine causes engine damage — this is a prevention-only repair" },
+      { label: "Service Interval", value: "Typically 60,000–100,000 miles depending on make and model — check your owner's manual" },
+      { label: "Vehicles Served", value: "All makes and models with timing belt engines — domestic, import, trucks, SUVs" },
+    ],
     hasGeoPages: false,
     relatedSlugs: ["timing-chain-repair-near-south-salt-lake-ut", "water-pump-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -856,6 +904,14 @@ const services = [
         "When you bring your vehicle in, we look at the actual condition of the metal before quoting. If welding is the right call, we explain why and do it in-house with no wait. If it isn't, we tell you that too. Welding is a capability we use to give you more options, not to do work that isn't the right solution."
       ]
     },
+    statsTable: [
+      { label: "Typical Turnaround", value: "Same day for most welding repairs" },
+      { label: "In-House Capability", value: "Yes — one of the few independent shops in Salt Lake with on-site automotive welding" },
+      { label: "Free Estimate", value: "Yes — visual inspection before any work begins" },
+      { label: "Common Applications", value: "Exhaust pipe and manifold repair, frame and bracket welding, structural repairs, custom fabrication" },
+      { label: "Vehicles Served", value: "All makes and models — domestic, import, trucks, SUVs" },
+      { label: "What Sets Us Apart", value: "In-house welding avoids outsourcing to a specialty shop — one stop for the full repair" },
+    ],
     hasGeoPages: false,
     relatedSlugs: ["exhaust-repair-near-south-salt-lake-ut", "catalytic-converter-service-near-south-salt-lake-ut", "strut-replacement-near-south-salt-lake-ut"]
   },
@@ -936,6 +992,14 @@ const services = [
         "When you bring your vehicle in, we bounce-test before recommending replacement, inspect mounts and bushings while shocks are out, and verify handling on a test drive after the job is done. Written estimate before we start. No work until you've approved it."
       ]
     },
+    statsTable: [
+      { label: "Typical Turnaround", value: "Same day for most vehicles" },
+      { label: "Free Diagnosis", value: "Yes — road test and bounce test confirm shock condition before recommending replacement" },
+      { label: "Includes", value: "Shock inspection, mount and bushing check, alignment check recommendation, written estimate" },
+      { label: "Replace in Pairs", value: "Yes — replaced in axle pairs to maintain balanced ride and handling" },
+      { label: "Most Common Trigger", value: "Excessive bounce after road irregularities, fluid leaking from shock body, worn bushings" },
+      { label: "Vehicles Served", value: "Trucks, SUVs, and any vehicle with separate shock absorber configuration" },
+    ],
     hasGeoPages: false,
     relatedSlugs: ["strut-replacement-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -1023,6 +1087,14 @@ const services = [
         "When you bring your vehicle in, you get a real diagnosis before any recommendation, a written estimate before any work starts, and honest prioritization when multiple things need attention. We've been doing this long enough to know what Utah driving conditions do to vehicles, and we give you that context when it matters."
       ]
     },
+    statsTable: [
+      { label: "Typical Turnaround", value: "Same day for most service and maintenance work; 1–2 days for complex repairs" },
+      { label: "Free Diagnosis", value: "Yes — code scan and vehicle inspection before recommending any repair" },
+      { label: "Services Covered", value: "Brakes, clutch, transmission, exhaust, CV joints, timing, suspension, cooling, diagnostics, and more" },
+      { label: "All Makes & Models", value: "Domestic, import, and luxury — cars, trucks, SUVs" },
+      { label: "Specialization", value: "Clutch & manual transmission specialists who also handle complete auto service" },
+      { label: "Since", value: "Serving South Salt Lake and the Salt Lake Valley since 1990" },
+    ],
     hasGeoPages: false,
     relatedSlugs: ["clutch-repair-near-south-salt-lake-ut", "brake-service-near-south-salt-lake-ut", "exhaust-repair-near-south-salt-lake-ut"]
   }

@@ -54,8 +54,21 @@ const businessSchema = {
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "17:30" }
   ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "51",
+    "reviewCount": "51"
+  },
   "sameAs": [
-    "https://g.page/r/CYDFwHsY4XoBEBM/review"
+    "https://g.page/r/CYDFwHsY4XoBEBM/review",
+    "https://www.yelp.com/biz/scotts-auto-clutch-and-towing-salt-lake-city",
+    "https://www.bbb.org/us/ut/salt-lake-city/profile/auto-repair/scotts-auto-and-clutch-repair-inc-1166-13000150",
+    "https://www.mapquest.com/us/utah/scotts-auto-clutch-towing-541917678",
+    "https://local.yahoo.com/info-19929074-scott-s-auto-clutch-towing-south-salt-lake/",
+    "https://www.waze.com/live-map/directions/us/ut/salt-lake-city/scotts-auto-and-clutch-repair?to=place.ChIJ22zJn92KUocRgMXAexjhegE"
   ]
 };
 
@@ -308,24 +321,26 @@ app.get('/', (req, res) => {
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "5",
+        "ratingValue": (allReviews.reduce((s, r) => s + r.rating, 0) / allReviews.length).toFixed(1),
         "bestRating": "5",
-        "ratingCount": String(allReviews.length)
+        "worstRating": "1",
+        "ratingCount": String(allReviews.length),
+        "reviewCount": String(allReviews.length)
       },
       "sameAs": [
-        "https://g.page/r/CYDFwHsY4XoBEBM/review"
+        "https://g.page/r/CYDFwHsY4XoBEBM/review",
+        "https://www.yelp.com/biz/scotts-auto-clutch-and-towing-salt-lake-city",
+        "https://www.bbb.org/us/ut/salt-lake-city/profile/auto-repair/scotts-auto-and-clutch-repair-inc-1166-13000150",
+        "https://www.mapquest.com/us/utah/scotts-auto-clutch-towing-541917678",
+        "https://local.yahoo.com/info-19929074-scott-s-auto-clutch-towing-south-salt-lake/",
+        "https://www.waze.com/live-map/directions/us/ut/salt-lake-city/scotts-auto-and-clutch-repair?to=place.ChIJ22zJn92KUocRgMXAexjhegE"
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "url": site.domain,
-      "name": site.name,
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": site.domain + "/symptoms?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "name": site.name
     }
     ],
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3))
@@ -358,7 +373,22 @@ app.get('/about', (req, res) => {
       { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
         { "@type": "ListItem", "position": 2, "name": "About", "item": site.domain + "/about" }
-      ]}
+      ]},
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Scott Bierman",
+        "url": site.domain + "/about",
+        "jobTitle": "Owner & Master Mechanic",
+        "worksFor": { "@type": "AutoRepair", "@id": site.domain + "/#business" },
+        "knowsAbout": [
+          "Clutch repair and replacement",
+          "Manual transmission service",
+          "Automotive diagnostics",
+          "Brake system repair",
+          "Exhaust system repair"
+        ]
+      }
     ]
   });
 });
@@ -527,13 +557,7 @@ app.get('/services/:slug', (req, res) => {
         "category": "Automotive Repair",
         "description": service.intro,
         "url": site.domain + "/services/" + service.slug,
-        "provider": {
-          "@type": "AutoRepair",
-          "name": site.name,
-          "telephone": site.phone,
-          "url": site.domain,
-          "address": { "@type": "PostalAddress", "streetAddress": site.address, "addressLocality": site.city, "addressRegion": site.state, "postalCode": site.zip, "addressCountry": "US" }
-        },
+        "provider": { "@type": "AutoRepair", "@id": site.domain + "/#business" },
         "areaServed": { "@type": "City", "name": "South Salt Lake, UT" },
         "hasOfferCatalog": service.specializedServices && service.specializedServices.length ? {
           "@type": "OfferCatalog",
@@ -737,6 +761,9 @@ app.get('/symptoms/:slug', (req, res) => {
         "@type": "TechArticle",
         "headline": symptom.name + " — Causes, Diagnosis & Repair in South Salt Lake, UT",
         "description": symptom.intro,
+        "image": symptom.introImage
+          ? { "@type": "ImageObject", "url": site.domain + "/assets/" + symptom.introImage, "width": 760, "height": 428 }
+          : { "@type": "ImageObject", "url": site.domain + "/assets/hero-600-DnXM3vMX.webp", "width": 600, "height": 400 },
         "url": site.domain + "/symptoms/" + symptom.slug,
         "author": { "@type": "Person", "name": "Scott Bierman", "url": site.domain + "/about" },
         "publisher": {
@@ -748,8 +775,8 @@ app.get('/symptoms/:slug', (req, res) => {
         "about": { "@type": "Thing", "name": symptom.name },
         "specialty": "Automotive Repair",
         "proficiencyLevel": "Expert",
-        "datePublished": symptom.datePublished || symptom.lastUpdated || "2024-01-01",
-        ...(symptom.lastUpdated ? { "dateModified": symptom.lastUpdated } : {})
+        "datePublished": symptom.datePublished || "2024-01-01",
+        "dateModified": symptom.dateModified || "2026-05-01"
       }
     ]
   });
@@ -787,6 +814,7 @@ app.get('/vehicle-brands/:slug', (req, res) => {
   const bc = getBrandContent(brand.name);
   res.render('vehicle-detail', {
     activePage: 'vehicles',
+    noindex: defunctBrands.has(brand.slug) || undefined,
     metaTitle: brand.metaTitle,
     metaDesc: brand.metaDesc,
     canonical: '/vehicle-brands/' + brand.slug,
@@ -1042,6 +1070,14 @@ User-agent: PerplexityBot
 Allow: /
 
 User-agent: GoogleOther
+Allow: /
+
+# Apple Intelligence search crawler
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI search crawler
+User-agent: meta-externalagent
 Allow: /
 
 # AI training-only crawlers — no search referral value, blocked
