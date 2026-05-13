@@ -1,3 +1,4 @@
+const crypto = require('crypto');
 const express = require('express');
 const compression = require('compression');
 const helmet = require('helmet');
@@ -64,11 +65,17 @@ const CSS_VER = process.env.CSS_VER || require('child_process').execSync('git re
 
 // Middleware
 app.use(compression());
+// Generate a fresh nonce for every request — must run before Helmet so the
+// CSP directive functions can read res.locals.cspNonce when headers are written.
+app.use((_req, res, next) => {
+  res.locals.cspNonce = crypto.randomBytes(16).toString('base64');
+  next();
+});
 app.use(helmet({
   contentSecurityPolicy: {
     directives: {
       defaultSrc:     ["'self'"],
-      scriptSrc:      ["'self'", "'unsafe-inline'"],   // EJS inline scripts
+      scriptSrc:      ["'self'", (_req, res) => `'nonce-${res.locals.cspNonce}'`],
       styleSrc:       ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
       fontSrc:        ["'self'", "https://fonts.gstatic.com"],
       imgSrc:         ["'self'", "data:", "https://raw.githubusercontent.com"],
