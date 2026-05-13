@@ -65,9 +65,26 @@ const CSS_VER = process.env.CSS_VER || require('child_process').execSync('git re
 // Middleware
 app.use(compression());
 app.use(helmet({
-  contentSecurityPolicy: false, // Allow Google Fonts etc.
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc:     ["'self'"],
+      scriptSrc:      ["'self'", "'unsafe-inline'"],   // EJS inline scripts
+      styleSrc:       ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
+      fontSrc:        ["'self'", "https://fonts.gstatic.com"],
+      imgSrc:         ["'self'", "data:", "https://raw.githubusercontent.com"],
+      connectSrc:     ["'self'"],
+      frameSrc:       ["'self'", "https://www.google.com"],  // Maps embed
+      frameAncestors: ["'none'"],
+    },
+  },
   crossOriginEmbedderPolicy: false,
+  referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
 }));
+// Permissions-Policy — not in Helmet defaults
+app.use((_req, res, next) => {
+  res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=(), payment=()');
+  next();
+});
 app.use(express.static(path.join(__dirname, 'public'), { maxAge: '7d' }));
 
 // View engine
