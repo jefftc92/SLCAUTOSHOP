@@ -43,8 +43,9 @@ const services = [
     ],
     richContent: [
       {
-        heading: "What Does a Clutch Replacement Actually Involve?",
+        heading: "Your Clutch Is Slipping. Is It Actually the Disc?",
         paras: [
+          "Not necessarily. A clutch slipping under load is the classic symptom of a worn disc — but a failing hydraulic system produces the exact same feeling. Before we recommend anything, we run through three checks: hydraulic pressure and cylinder condition, oil leaks at the rear main seal and transmission input shaft, and the flywheel surface. In a meaningful share of clutch slipping cases, the disc itself is fine and only the hydraulic system needs work. Replacing a disc on a car that has a cylinder problem doesn't fix the symptom — it just adds cost.",
           "A clutch isn't a single part. It's a system of components that work together to connect and disconnect your engine from your transmission. When one part wears or fails, others are often affected. Here's what's in the system and what we inspect on every clutch job.",
           "<strong>Clutch disc</strong> — the friction plate that clamps between the flywheel and pressure plate. This is the part that wears with normal use. When the friction material wears thin or becomes glazed, the disc can no longer grip under load — the classic clutch slip condition.",
           "<strong>Pressure plate</strong> — the spring-loaded clamp that holds the disc against the flywheel. Pressure plates can lose clamping force, crack, or develop hot spots from extended slipping. We inspect the pressure plate condition any time the clutch is accessible.",
@@ -66,10 +67,10 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "How Long Can You Drive on a Slipping Clutch?",
         paras: [
-          "Any change in how your clutch feels or behaves is worth having looked at. A slipping disc generates heat that damages the flywheel. What starts as a disc-only job can turn into a flywheel job if it's left too long. A soft pedal that gets ignored usually means a hydraulic cylinder on its way out entirely. Most clutch problems get worse over time, and catching them early keeps a straightforward repair from becoming a more expensive one.",
-          "The most common reasons drivers bring their vehicle in are slipping under load, grinding or crunching when shifting, difficulty getting into first or reverse, a soft or spongy pedal, a burning smell in stop-and-go traffic or on hills, squealing when the pedal is pressed, or a pedal that just feels different than it used to. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
+          "Not long — and the longer you wait, the more expensive it gets. A slipping disc generates heat with every engagement. That heat glazes the flywheel surface, and a glazed flywheel destroys a new disc within months. What starts as a disc-only job becomes a disc-and-flywheel job, sometimes a disc-flywheel-and-seal job. The cost compounds quickly.",
+          "Any change in how your clutch feels or behaves is worth a free diagnosis: slipping under load, grinding when shifting, difficulty into first or reverse, a soft or spongy pedal, a burning smell in stop-and-go or on hills, squealing when the pedal is pressed, or a pedal that just feels different than it used to. We'll tell you exactly what's going on before recommending anything."
         ]
       }
     ],
@@ -165,9 +166,9 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "Can You Drive with a Bad CV Joint?",
         paras: [
-          "A clicking CV joint that's ignored will eventually fail completely, and it usually happens without warning. What started as a boot-only repair becomes a full axle job once grit has worked into the joint. A worn inner joint under load can cause loss of drive on hard acceleration. Getting it looked at early keeps a straightforward repair from becoming a more expensive one.",
+          "You can — for a while — but a clicking CV joint that's ignored will eventually fail completely, and it usually happens without warning. What started as a boot-only repair becomes a full axle job once grit has worked into the joint. A worn inner joint under load can cause loss of drive on hard acceleration. Getting it looked at early keeps a straightforward repair from becoming a more expensive one.",
           "The most common reasons drivers come in are clicking or popping when turning, vibration that builds during acceleration, a dark grease residue on the inside of a wheel or tire, a clunking sound when shifting between drive and reverse, or a boot they've noticed is torn during a tire rotation. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
         ]
       }
@@ -258,10 +259,10 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "How Long Can You Drive on Worn Brakes?",
         paras: [
-          "Brakes that are ignored past the squealing stage start grinding, and grinding brakes score the rotors with every stop. What was a pad-only job becomes a pad-plus-rotors job. A soft pedal that keeps getting softer usually means a hydraulic component is on its way out entirely. Utah's canyon grades and stop-and-go traffic make brake wear faster than flat-highway driving, so waiting to see how long you can stretch it tends to cost more in the end.",
-          "The most common reasons drivers come in are squealing or grinding when braking, a pedal that feels lower or softer than usual, vibration or pulsation through the pedal or steering wheel, pulling to one side under braking, or a brake warning light. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
+          "Not far past the squealing stage. Brakes that are ignored start grinding, and grinding brakes score the rotors with every stop — what was a pad-only job becomes a pad-plus-rotors job. A soft pedal that keeps getting softer usually means a hydraulic component is on its way out entirely. Utah's canyon grades and stop-and-go traffic wear brakes faster than flat-highway driving, so waiting tends to cost more in the end.",
+          "The most common reasons drivers come in are squealing or grinding when braking, a pedal that feels lower or softer than usual, vibration or pulsation through the pedal or steering wheel, pulling to one side under braking, or a brake warning light. Any of those is worth a free brake inspection. We'll tell you exactly what's going on before recommending anything."
         ]
       }
     ],
@@ -348,7 +349,7 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "Your Engine Rattles on Cold Start. How Bad Is It?",
         paras: [
           "A startup rattle that you dismiss because it quiets down as the engine warms is still doing damage every time you start the car. The chain is slapping against the guides before oil pressure builds, and each episode wears the plastic guides further. On interference engines, a chain that's stretched far enough to jump a tooth can cause piston-to-valve contact without any additional warning. Catching it at the rattle stage is far less expensive than catching it after.",
           "The most common reasons drivers come in are a metallic rattling sound in the first few seconds after a cold start, timing-related check engine codes (P0016, P0017), noticeable power loss, rough running or misfires, or a vehicle that simply won't start. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
@@ -428,7 +429,7 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "How Long Can You Drive with an Overheating Engine?",
         paras: [
           "A slow seep from the water pump weep hole gives you some warning, but ignoring it risks a sudden complete seal failure that dumps coolant fast. Even a few minutes of driving with critically low coolant can warp an aluminum cylinder head. An overheating engine that you manage by adding coolant regularly is telling you the pump may already be failing. Catching it before a full breakdown keeps the repair straightforward.",
           "The most common reasons drivers come in are a rising temperature gauge in stop-and-go or under load, coolant dripping near the front of the engine, a whining or grinding sound from the front of the engine, coolant that keeps disappearing with no visible puddle, or the engine running hot after a recent repair to another cooling system component. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
@@ -511,7 +512,7 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "Is Exhaust Smell Inside the Cabin an Emergency?",
         paras: [
           "An exhaust smell in the cabin is a safety issue, not a comfort issue. Carbon monoxide is odorless, but the exhaust smell that comes with it is not. If you're smelling exhaust inside the vehicle, treat it as urgent. A loud exhaust that you're managing by turning up the radio is getting worse, and a broken hanger that's been ignored will eventually crack the flex pipe and turn a cheap hanger replacement into a more involved repair.",
           "The most common reasons drivers come in are a louder exhaust note than usual, a ticking sound from the engine area especially when cold, exhaust smell inside the cabin, a rattling or dragging sound from underneath, a failed emissions test, or a check engine light with O2 sensor or lean codes. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
@@ -592,7 +593,7 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "What Happens If You Keep Driving with a Bad Catalytic Converter?",
         paras: [
           "A P0420 code or failed emissions test is the obvious trigger, but waiting until you fail inspection costs you the test fee and the time. A sulfur smell from the exhaust is worth having checked before the problem progresses. If your converter was stolen, the exhaust is loud and the vehicle needs service before it can pass emissions. Driving with a damaged or missing converter sends unfiltered exhaust out the tailpipe and, on some vehicles, can allow exhaust gases into the cabin.",
           "The most common reasons drivers come in are a check engine light with P0420 or P0430, a rotten egg smell from the exhaust, a failed Utah emissions test, a loud exhaust after a suspected theft, or an exhaust smell in the cabin. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
@@ -673,7 +674,7 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "Do Worn Struts Affect Stopping Distance?",
         paras: [
           "Strut wear happens gradually enough that most drivers adapt to it and stop noticing the change. By the time the ride feels obviously bad, stopping distance has already increased and wet-road traction has declined. Cupped tire wear from worn struts costs you tires faster than a strut replacement would have. The longer worn struts stay on the vehicle, the more they affect adjacent components through the extra movement and stress.",
           "The most common reasons drivers come in are a bouncy ride that doesn't settle quickly after bumps, a front end that dives forward under braking, cupped or scalloped tire wear, a clunking sound when turning from a stop, vague or imprecise steering on uneven pavement, or a vehicle that feels like it's wallowing in corners. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
@@ -753,7 +754,7 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "How Do You Know When a Timing Belt Needs Replacing?",
         paras: [
           "The timing belt does not give you warning before it breaks. On an interference engine, a broken belt bends valves and destroys the engine without any further sign. The repair cost is typically 5 to 10 times the cost of a belt service. A belt that looks fine might be 12 years old and past its time interval. A low-mileage vehicle that's been driven infrequently still has a belt that has aged. Interval-based replacement exists because the belt weakens from heat cycling and age even when it appears intact.",
           "The most common reasons drivers come in are a mileage or age interval that's due or overdue, a ticking noise from the engine, an engine that cranks but won't start on a vehicle with a timing belt, or a water pump or tensioner service that was flagged at a recent inspection. Any of those is worth a free consultation. We'll tell you exactly where your vehicle stands before recommending anything."
@@ -833,7 +834,7 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "Can a Cracked Exhaust or Bracket Be Welded Instead of Replaced?",
         paras: [
           "If another shop has told you a section needs full replacement because they can't weld it, it's worth getting a second opinion. On many exhaust and bracket repairs, a weld repair costs significantly less than full section replacement when the surrounding metal is sound. Waiting on a broken exhaust hanger will eventually crack the flex pipe it's letting stress. A cracked manifold flange getting worse makes the surrounding repair more difficult over time.",
           "The most common situations we see are a louder exhaust where another shop quoted full system replacement, a broken bracket or hanger, a cracked exhaust manifold, frame damage from a minor impact or localized rust, a custom exhaust component that isn't available as an off-the-shelf part, and heat shields or mounting hardware that's missing or damaged. Bring it in and we'll assess whether welding is the right approach and what it will involve. We'll tell you before quoting."
@@ -913,7 +914,7 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "Do Worn Shocks Affect Tire Wear?",
         paras: [
           "Shock wear is slow enough that most drivers adjust to it without realizing how much handling has changed. By the time the bounce is obvious, stopping distance has increased and wet-road traction has declined. Worn shocks cause cupped tire wear that costs you tires faster than a shock replacement would have. The longer you drive on them, the more stress goes to other suspension components.",
           "The most common reasons drivers come in are a bouncy ride that takes multiple oscillations to settle, a vehicle that leans heavily through corners, cupped or scalloped tire wear, a harsh ride over every small bump, oil seeping from the shock body, or a truck that was recently lifted and has started topping out or bottoming out. Any of those is worth a free inspection. We'll tell you exactly what's going on before recommending anything."
@@ -999,7 +1000,7 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "When Should You Come In?",
+        heading: "When Should You Bring Your Car In for a Diagnosis?",
         paras: [
           "Any time something is off with your vehicle, or any time scheduled maintenance is due. Deferred maintenance tends to compound. A timing belt that stays overdue becomes an interference engine failure. An oil leak that gets ignored eventually contaminates brake components or causes bearing damage. Utah driving conditions push vehicles harder than factory service intervals were designed for, and catching things early keeps routine maintenance from becoming expensive repairs.",
           "The most common reasons drivers come in are a check engine light, a noise or feeling that's new or getting worse, a service interval that's due or overdue, a failed emissions test, something a previous shop flagged but didn't explain clearly, or a vehicle that was recently purchased and hasn't been inspected. Any of those is worth bringing in. We'll tell you exactly what we find before recommending anything."
