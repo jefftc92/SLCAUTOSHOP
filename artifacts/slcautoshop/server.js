@@ -738,7 +738,7 @@ app.get('/symptoms/:slug', (req, res) => {
         "headline": symptom.name + " — Causes, Diagnosis & Repair in South Salt Lake, UT",
         "description": symptom.intro,
         "url": site.domain + "/symptoms/" + symptom.slug,
-        "author": { "@type": "Organization", "name": site.name, "url": site.domain },
+        "author": { "@type": "Person", "name": "Scott Bierman", "url": site.domain + "/about" },
         "publisher": {
           "@type": "Organization",
           "name": site.name,
