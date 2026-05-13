@@ -3,7 +3,8 @@
 <%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'About Us'}]}) %>
 
 <section class="page-hero">
-  <div class="page-hero-bg" style="background-image:url('<%= site.symptomsHeroImage %>')"></div>
+  <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('<%= site.symptomsHeroImage %>')}</style>
+  <div class="page-hero-bg"></div>
   <div class="container">
     <h1>Family-Owned Auto Mechanic in South Salt Lake</h1>
     <p>For over 36 years, Scott's Auto & Clutch Repair has been the trusted name for auto repair in South Salt Lake and the greater Salt Lake Valley. We're clutch repair specialists who also handle complete auto service — all with honest pricing and quality work from experienced mechanics.</p>

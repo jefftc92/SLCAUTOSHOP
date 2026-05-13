@@ -3,7 +3,8 @@
 <%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Service Areas',url:'/locations'},{label:location.name}]}) %>
 
 <section class="page-hero">
-  <div class="page-hero-bg" style="background-image:url('<%= site.symptomsHeroImage %>')"></div>
+  <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('<%= site.symptomsHeroImage %>')}</style>
+  <div class="page-hero-bg"></div>
   <div class="container">
     <h1><%= location.heading %></h1>
     <p><%= location.intro %></p>
