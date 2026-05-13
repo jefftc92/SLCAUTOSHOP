@@ -63,7 +63,12 @@ const businessSchema = {
     "reviewCount": "51"
   },
   "sameAs": [
-    "https://g.page/r/CYDFwHsY4XoBEBM/review"
+    "https://g.page/r/CYDFwHsY4XoBEBM/review",
+    "https://www.yelp.com/biz/scotts-auto-clutch-and-towing-salt-lake-city",
+    "https://www.bbb.org/us/ut/salt-lake-city/profile/auto-repair/scotts-auto-and-clutch-repair-inc-1166-13000150",
+    "https://www.mapquest.com/us/utah/scotts-auto-clutch-towing-541917678",
+    "https://local.yahoo.com/info-19929074-scott-s-auto-clutch-towing-south-salt-lake/",
+    "https://www.waze.com/live-map/directions/us/ut/salt-lake-city/scotts-auto-and-clutch-repair?to=place.ChIJ22zJn92KUocRgMXAexjhegE"
   ]
 };
 
@@ -323,7 +328,12 @@ app.get('/', (req, res) => {
         "reviewCount": String(allReviews.length)
       },
       "sameAs": [
-        "https://g.page/r/CYDFwHsY4XoBEBM/review"
+        "https://g.page/r/CYDFwHsY4XoBEBM/review",
+        "https://www.yelp.com/biz/scotts-auto-clutch-and-towing-salt-lake-city",
+        "https://www.bbb.org/us/ut/salt-lake-city/profile/auto-repair/scotts-auto-and-clutch-repair-inc-1166-13000150",
+        "https://www.mapquest.com/us/utah/scotts-auto-clutch-towing-541917678",
+        "https://local.yahoo.com/info-19929074-scott-s-auto-clutch-towing-south-salt-lake/",
+        "https://www.waze.com/live-map/directions/us/ut/salt-lake-city/scotts-auto-and-clutch-repair?to=place.ChIJ22zJn92KUocRgMXAexjhegE"
       ]
     },
     {

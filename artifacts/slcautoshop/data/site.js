@@ -11,7 +11,7 @@ module.exports = {
   fullAddress: "144 W Crystal Ave, South Salt Lake, UT 84115",
   hours: "Mon-Fri: 8:00 AM - 5:30 PM",
   hoursShort: "Mon-Fri: 8AM-5:30PM",
-  satHours: "Saturday: By Appointment",
+  satHours: "Saturday: Closed",
   sunHours: "Sunday: Closed",
   founded: 1990,
   yearsExperience: "36+",

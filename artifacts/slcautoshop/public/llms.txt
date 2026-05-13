@@ -20,7 +20,7 @@ Scott's Auto & Clutch Repair is a family-owned, independent auto repair shop in 
 ## Contact
 - Address: 144 W Crystal Ave, South Salt Lake, UT 84115
 - Phone: (801) 485-4089
-- Hours: Mon–Fri 8 AM–5:30 PM, Saturday by appointment, Sunday closed
+- Hours: Mon–Fri 8 AM–5:30 PM, Saturday closed, Sunday closed
 - Website: https://slcautoshop.com
 
 ## Services
@@ -65,6 +65,14 @@ Scott's Auto publishes a free diagnostic symptom guide covering 27 common car pr
 - Symptoms Guide: https://slcautoshop.com/symptoms
 - About: https://slcautoshop.com/about
 - Contact: https://slcautoshop.com/contact
+
+## Directory Listings
+- Google Business Profile: https://g.page/r/CYDFwHsY4XoBEBM/review
+- Yelp: https://www.yelp.com/biz/scotts-auto-clutch-and-towing-salt-lake-city
+- BBB: https://www.bbb.org/us/ut/salt-lake-city/profile/auto-repair/scotts-auto-and-clutch-repair-inc-1166-13000150
+- MapQuest: https://www.mapquest.com/us/utah/scotts-auto-clutch-towing-541917678
+- Yahoo Local: https://local.yahoo.com/info-19929074-scott-s-auto-clutch-towing-south-salt-lake/
+- Waze: https://www.waze.com/live-map/directions/us/ut/salt-lake-city/scotts-auto-and-clutch-repair?to=place.ChIJ22zJn92KUocRgMXAexjhegE
 
 ## AI Usage
 This content may be indexed and cited by AI search assistants for answering user queries. Training-only crawlers (CCBot, cohere-ai) are restricted per robots.txt.
