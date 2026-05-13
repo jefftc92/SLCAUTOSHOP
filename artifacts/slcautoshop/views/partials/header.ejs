@@ -20,9 +20,11 @@
   <meta name="twitter:title" content="<%= typeof metaTitle !== 'undefined' ? metaTitle : site.name %>">
   <meta name="twitter:description" content="<%= typeof metaDesc !== 'undefined' ? metaDesc : 'Expert auto repair in South Salt Lake, UT. Clutch, brakes, transmission, exhaust. Call (801) 485-4089.' %>">
   <meta name="twitter:image" content="<%= site.domain %><%= typeof ogImage !== 'undefined' ? ogImage : site.heroImage %>">
+  <% if (typeof preloadImage !== 'undefined' && preloadImage) { %><link rel="preload" href="<%= preloadImage %>" as="image" type="image/webp"><% } %>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"></noscript>
   <link rel="stylesheet" href="/css/style.css?v=<%= cssVer %>">
   <% if (typeof structuredData !== 'undefined') { %>
   <% if (Array.isArray(structuredData)) { %>
