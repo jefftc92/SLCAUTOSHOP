@@ -98,6 +98,14 @@ const services = [
       "Clutch cable adjustment and replacement",
       "Road test and engagement verification"
     ],
+    statsTable: [
+      { label: "Typical Turnaround", value: "Same day for most vehicles; 1–2 days for complex jobs" },
+      { label: "Free Diagnosis", value: "Yes — no charge to inspect the full clutch system" },
+      { label: "Includes", value: "Hydraulic system check, disc & flywheel inspection, written estimate, road test" },
+      { label: "Specialization", value: "Clutch & manual transmission since 1990" },
+      { label: "Most Common Repair", value: "Clutch disc, pressure plate & throw-out bearing replacement" },
+      { label: "Vehicles Served", value: "All makes and models — domestic, import, trucks, SUVs" },
+    ],
     hasGeoPages: true,
     relatedSlugs: ["complete-auto-service-near-south-salt-lake-ut", "timing-belt-replacement-near-south-salt-lake-ut", "cv-joint-repair-near-south-salt-lake-ut"]
   },
@@ -179,6 +187,14 @@ const services = [
         "When you bring your vehicle in, you're working with people who've seen every variation of CV joint failure on every make and model. We check the full axle, both joints, both boots, and the opposite side before making any recommendation. You'll know exactly what we found and why we're recommending what we are."
       ]
     },
+    statsTable: [
+      { label: "Typical Turnaround", value: "1–3 hours; same day for most vehicles" },
+      { label: "Free Diagnosis", value: "Yes — free inspection to identify the exact joint or axle" },
+      { label: "Includes", value: "Both joints on affected axle, all boots, opposite-side inspection" },
+      { label: "Most Common Cause", value: "Torn CV boot lets grit in — clicking during turns is the first sign" },
+      { label: "Services Covered", value: "CV joint, CV axle, CV boot & axle seal replacement" },
+      { label: "Vehicles Served", value: "All makes and models — domestic, import, trucks, SUVs" },
+    ],
     hasGeoPages: false,
     relatedSlugs: ["clutch-repair-near-south-salt-lake-ut", "strut-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },
@@ -265,6 +281,14 @@ const services = [
         "When you bring your vehicle in, you get a complete brake inspection across all four corners, including pads, rotors, calipers, slide pins, and fluid condition. You'll know exactly what we found, what we recommend, and why before any work starts. No pressure to do more than your vehicle actually needs."
       ]
     },
+    statsTable: [
+      { label: "Typical Turnaround", value: "1–2 hours for pad replacement; same day for most jobs" },
+      { label: "Free Inspection", value: "Yes — free brake inspection before any work is recommended" },
+      { label: "Includes", value: "Pad thickness, rotor runout, caliper condition & brake fluid check" },
+      { label: "Services Covered", value: "Pads, rotors, calipers, brake fluid flush & brake line repair" },
+      { label: "Most Common Issue", value: "Worn pads — squealing is the early warning; grinding means metal-on-metal" },
+      { label: "Vehicles Served", value: "All makes and models — domestic, import, trucks, SUVs" },
+    ],
     hasGeoPages: false,
     relatedSlugs: ["strut-replacement-near-south-salt-lake-ut", "shock-replacement-near-south-salt-lake-ut", "complete-auto-service-near-south-salt-lake-ut"]
   },

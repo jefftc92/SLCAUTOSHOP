@@ -1019,7 +1019,39 @@ async function submitIndexNow() {
 // Robots.txt
 app.get('/robots.txt', (req, res) => {
   res.type('text/plain');
-  res.send(`User-agent: *\nAllow: /\nSitemap: ${site.domain}/sitemap.xml`);
+  res.send(`# ${site.name}
+# Standard crawlers
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# AI search crawlers — explicitly allowed for search visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# AI training-only crawlers — no search referral value, blocked
+User-agent: CCBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+Sitemap: ${site.domain}/sitemap.xml`);
 });
 
 // ── 404 catch-all ────────────────────────────────────────────────────────────
