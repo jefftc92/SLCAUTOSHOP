@@ -61,7 +61,7 @@ const businessSchema = {
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const CSS_VER = process.env.CSS_VER || require('child_process').execSync('git rev-parse --short HEAD').toString().trim();
+const CSS_VER = process.env.CSS_VER || (() => { try { return require('child_process').execSync('git rev-parse --short HEAD').toString().trim(); } catch (e) { return 'prod'; } })();
 
 // Middleware
 app.use(compression());
