@@ -135,7 +135,7 @@
     <h2>Auto Repair Services for <%= location.name %> Drivers</h2>
     <p>Complete auto repair for all makes and models — domestic and import. Every job starts with a free diagnosis before any work begins.</p>
     <div class="services-grid small mt-8">
-      <% services.slice(0, 6).forEach(s => { %>
+      <% services.forEach(s => { %>
       <% var serviceUrl; if (s.slug === 'clutch-repair-near-south-salt-lake-ut' && clutchGeo) { serviceUrl = '/services/' + clutchGeo.slug; } else if (serviceGeoMap && serviceGeoMap[s.slug]) { serviceUrl = '/services/' + serviceGeoMap[s.slug]; } else { serviceUrl = '/services/' + s.slug; } %>
       <a href="<%= serviceUrl %>" class="service-card">
         <h3><%= s.name %></h3>
