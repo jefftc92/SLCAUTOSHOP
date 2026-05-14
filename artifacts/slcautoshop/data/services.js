@@ -28,11 +28,11 @@ const services = [
     processHeading: "How We Diagnose and Repair Your Clutch",
     processIntro: "Every clutch repair starts with diagnosis. We find the root cause before recommending anything, walk you through exactly what we found, and get your written approval before work begins.",
     process: [
-      { step: 1, title: "You Describe What You're Feeling", desc: "Slipping, grinding, a noise, a pedal that changed. The more detail the better, but even 'something feels off' is enough to start." },
-      { step: 2, title: "We Diagnose: Hydraulics First", desc: "We road test and inspect the full clutch system, starting with the hydraulic system. A cylinder problem looks identical to a disc problem until you test it." },
-      { step: 3, title: "We Walk You Through What We Found", desc: "You get a clear explanation of what's worn or failing, why, and what the repair involves. Written estimate before anything is touched." },
-      { step: 4, title: "We Do the Repair Your Vehicle Needs", desc: "Disc, pressure plate, flywheel resurfacing, throw-out bearing, hydraulic components. Only what the diagnosis shows is needed. We also inspect adjacent components while we're in there." },
-      { step: 5, title: "Road Test Under Load", desc: "We verify smooth engagement through the gears, uphill, and under acceleration before the car goes back to you." }
+      { step: 1, title: "Tell Us What's Going On", desc: "Slipping, grinding, a strange noise, a pedal that feels different than it used to — whatever you're noticing, describe it. Even 'something just feels off' is enough to get started." },
+      { step: 2, title: "We Find the Real Cause", desc: "We check the whole system before recommending anything. A lot of clutch problems that look like a worn disc turn out to be something smaller — and diagnosing it correctly first saves you money." },
+      { step: 3, title: "We Explain What We Found", desc: "Before we write an estimate, we walk you through what we found and why. No jargon. You'll know exactly what needs to happen and what it'll cost before any work begins." },
+      { step: 4, title: "We Fix What Your Car Needs", desc: "We do the work the diagnosis calls for — not more. We also check nearby parts while we're in there, so nothing gets missed that would cause a problem later." },
+      { step: 5, title: "You Get It Back Road-Tested", desc: "Every clutch repair ends with a real road test — through the gears, uphill, under load. We don't hand the keys back until it drives right." }
     ],
     commonIssues: [
       { title: "Clutch Slipping", desc: "Engine revs but the car doesn't accelerate—the clutch disc can no longer grip the flywheel under load.", symptomSlug: "clutch-slipping" },
