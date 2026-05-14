@@ -89,7 +89,7 @@ app.use(helmet({
     directives: {
       defaultSrc:     ["'self'"],
       scriptSrc:      ["'self'", (_req, res) => `'nonce-${res.locals.cspNonce}'`],
-      styleSrc:       ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
+      styleSrc:       ["'self'", (_req, res) => `'nonce-${res.locals.cspNonce}'`, "https://fonts.googleapis.com"],
       fontSrc:        ["'self'", "https://fonts.gstatic.com"],
       imgSrc:         ["'self'", "data:", "https://raw.githubusercontent.com"],
       connectSrc:     ["'self'"],
@@ -98,6 +98,7 @@ app.use(helmet({
     },
   },
   crossOriginEmbedderPolicy: false,
+  hsts: { maxAge: 31536000, includeSubDomains: true, preload: true },
   referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
 }));
 // Permissions-Policy — not in Helmet defaults

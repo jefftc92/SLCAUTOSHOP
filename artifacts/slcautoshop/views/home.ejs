@@ -1,9 +1,10 @@
 <%- include('partials/header') %>
 
 <section class="hero">
-  <div class="hero-bg" style="background-image:url('<%= site.heroImage %>')"></div>
+  <style nonce="<%= cspNonce %>">.hero-bg{background-image:url('<%= site.heroImage %>')}</style>
+  <div class="hero-bg"></div>
   <div class="container hero-content">
-    <h1>Auto Mechanic &amp; Car Repair<span class="hero-accent" style="display:block">South Salt Lake</span></h1>
+    <h1>Auto Repair<span class="hero-accent">South Salt Lake</span></h1>
     <p class="hero-badge">Family-Owned Since 1990</p>
     <p class="hero-desc">Your trusted auto repair shop for clutch replacement, manual transmission repair, brake service, CV axle repair, and complete car repair. Our experienced car mechanics serve South Salt Lake, Millcreek, Sugar House, Murray, and the entire Salt Lake Valley.</p>
     <div class="hero-buttons">
@@ -130,7 +131,7 @@
           src="https://maps.google.com/maps?q=144+W+Crystal+Ave+South+Salt+Lake+UT+84115&t=&z=15&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="260"
-          style="border:0;border-radius:var(--radius);display:block"
+          class="map-embed d-block"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
