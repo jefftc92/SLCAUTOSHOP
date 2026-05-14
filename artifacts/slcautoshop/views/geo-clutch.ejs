@@ -15,52 +15,126 @@
   </div>
 </section>
 
+<!-- ── Section 1: Local Context + Map ─────────────────────────────────────── -->
 <section class="content-section">
   <div class="container">
     <h2>Why <%= geo.locationName %> Drivers Need Clutch Specialists</h2>
-    <div class="prose">
+    <div class="prose mw-700">
       <p><%= geo.localContent %></p>
     </div>
-    <div class="visit-grid mt-8">
-      <div class="visit-detail"><h3>Distance from <%= geo.locationName %></h3><p><%= geo.distance %> (<%= geo.driveTime %> drive)</p></div>
-      <div class="visit-detail"><h3>Hours</h3><p><%= site.hoursShort %></p></div>
-      <div class="visit-detail"><h3>Specialization</h3><p>Clutch repair since 1990 — 36+ years</p></div>
+    <% if (geo.localTip) { %>
+    <div class="issue-card issue-card--accent mw-700 mt-5">
+      <p class="tip-text"><strong>Local tip:</strong> <%= geo.localTip %></p>
+    </div>
+    <% } %>
+
+    <div class="loc-shop-grid mt-7">
+      <div class="loc-shop-info">
+        <p><strong>Getting here:</strong> <%= geo.directions %></p>
+        <div class="loc-shop-details">
+          <div class="loc-detail-item">
+            <span class="loc-detail-label">Address</span>
+            <span class="loc-detail-value"><a href="<%= site.directionsUrl %>" target="_blank" rel="noopener"><%= site.fullAddress %></a></span>
+          </div>
+          <div class="loc-detail-item">
+            <span class="loc-detail-label">Hours</span>
+            <span class="loc-detail-value"><%= site.hours %></span>
+          </div>
+          <div class="loc-detail-item">
+            <span class="loc-detail-label">From <%= geo.locationName %></span>
+            <span class="loc-detail-value"><%= geo.distance %> &mdash; about <%= geo.driveTime %> drive</span>
+          </div>
+          <div class="loc-detail-item">
+            <span class="loc-detail-label">Specializing in Clutch Since</span>
+            <span class="loc-detail-value">1990 — 36+ years serving the Salt Lake Valley</span>
+          </div>
+        </div>
+        <div class="loc-shop-actions">
+          <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions</a>
+          <a href="tel:<%= site.phoneTel %>" class="btn btn-secondary">Call <%= site.phone %></a>
+        </div>
+      </div>
+      <div class="loc-shop-map">
+        <iframe
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
+          width="100%"
+          height="100%"
+          class="map-embed map-embed--md"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Scott's Auto & Clutch Repair — <%= geo.locationName %> customers">
+        </iframe>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- ── Section 2: What Is Clutch Repair (alt-bg) ─────────────────────────── -->
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>Local Clutch Tip for <%= geo.locationName %> Drivers</h2>
-    <div class="issue-card mw-700">
-      <p class="tip-text-lg"><%= geo.localTip %></p>
+    <h2>What Is Clutch Repair?</h2>
+    <div class="prose mw-700">
+      <p><%= clutchService.shortDefinition %></p>
+    </div>
+    <div class="mt-6">
+      <a href="/services/clutch-repair-near-south-salt-lake-ut" class="btn btn-outline">Full Clutch Repair Service Details &rarr;</a>
     </div>
   </div>
 </section>
 
+<!-- ── Section 3: Getting Here from [City] (white) ───────────────────────── -->
+<% if (geo.logisticsNote) { %>
 <section class="content-section">
   <div class="container">
     <h2>Getting Here from <%= geo.locationName %></h2>
     <div class="prose mw-720">
-      <p><%= geo.directions %></p>
-      <p>Our address is <strong>144 W Crystal Ave, South Salt Lake, UT 84115</strong>. We open at 8 AM Monday through Friday. Many <%= geo.locationName %> customers drop off in the morning and pick up the same day — call ahead and we'll tell you whether your job qualifies.</p>
+      <p><%= geo.logisticsNote %></p>
     </div>
-    <div class="visit-grid mt-6">
-      <div class="visit-detail"><h3>Address</h3><p>144 W Crystal Ave<br>South Salt Lake, UT 84115</p></div>
-      <div class="visit-detail"><h3>Phone</h3><p><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></p></div>
-      <div class="visit-detail"><h3>From <%= geo.locationName %></h3><p><%= geo.distance %> · <%= geo.driveTime %> drive</p></div>
+    <% if (geo.landmarks && geo.landmarks.length) { %>
+    <div class="landmarks-grid mt-7">
+      <% geo.landmarks.forEach(lm => { %>
+      <div class="landmark-card">
+        <div class="landmark-header">
+          <h3><%= lm.name %></h3>
+          <span class="landmark-distance"><%= lm.distance %></span>
+        </div>
+        <p class="landmark-tip"><%= lm.tip %></p>
+      </div>
+      <% }) %>
     </div>
+    <% } %>
   </div>
 </section>
+<% } %>
 
-<section class="content-section">
-  <div class="container">
-    <h2>What Our Clutch Repair Covers</h2>
-    <p>We handle all aspects of clutch and drivetrain service — from single-component fixes to complete system overhauls. Every job is diagnosed before any work begins, so you only pay for what your vehicle actually needs. <a href="/services/clutch-repair-near-south-salt-lake-ut">See our full diagnostic and repair process here.</a></p>
-  </div>
-</section>
-
+<!-- ── Section 4: Common Issues (alt-bg) ─────────────────────────────────── -->
+<% if (clutchService && clutchService.commonIssues && clutchService.commonIssues.length) { %>
 <section class="content-section alt-bg">
+  <div class="container">
+    <h2>Common Clutch Problems We See from <%= geo.locationName %></h2>
+    <p class="section-subtitle">We diagnose before we recommend — <%= geo.locationName %> drivers get the same thorough inspection as any customer. You'll know exactly what's wrong and why before any work begins.</p>
+    <div class="issues-grid">
+      <% clutchService.commonIssues.forEach(issue => { %>
+      <div class="issue-card">
+        <% if (issue.symptomSlug) { %>
+        <h3><a href="/symptoms/<%= issue.symptomSlug %>" class="issue-link"><%= issue.title %></a></h3>
+        <% } else { %>
+        <h3><%= issue.title %></h3>
+        <% } %>
+        <p><%= issue.desc %></p>
+        <% if (issue.symptomSlug) { %>
+        <a href="/symptoms/<%= issue.symptomSlug %>" class="card-link-sm">See symptom details &rarr;</a>
+        <% } %>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<!-- ── Section 5: Why Choose Us (white) ──────────────────────────────────── -->
+<section class="content-section">
   <div class="container">
     <h2>Why <%= geo.locationName %> Drivers Choose Scott's for Clutch Repair</h2>
     <p class="section-subtitle mw-720"><%= geo.locationName %> drivers travel <%= geo.distance %> to our shop because clutch specialists are rare — and the alternatives are generalist shops that see a clutch job a few times a month. We see them every week.</p>
@@ -72,6 +146,10 @@
       </div>
       <% }) %>
     </div>
+    <div class="hero-buttons mt-8">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
+    </div>
   </div>
 </section>
 
@@ -80,6 +158,6 @@
 <% var faqAlt = true; %>
 <%- include('partials/faq') %>
 
-<% var ctaTitle = "Need Clutch Repair Near " + geo.locationName + "?"; var ctaDesc = "Contact Scott's Auto & Clutch Repair today. We're just " + geo.distance + " from " + geo.locationName + "."; %>
+<% var ctaTitle = "Need Clutch Repair Near " + geo.locationName + "?"; var ctaDesc = "Scott's Auto & Clutch Repair is " + geo.distance + " from " + geo.locationName + " — about " + geo.driveTime + ". We diagnose before we recommend, and you'll have a full quote before any work begins."; %>
 <%- include('partials/cta') %>
 <%- include('partials/footer') %>
