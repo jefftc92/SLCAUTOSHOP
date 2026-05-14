@@ -34,6 +34,12 @@ const geoPages = [
       { name: "Wheeler Historic Farm — 6351 S 900 E", distance: "2 min east of route", tip: "A recognizable Millcreek landmark near the 3300 South corridor. From here, head west on 3300 South, then turn right on Highland Drive and follow it north — Crystal Ave is about 2 miles up on your left." },
       { name: "3300 South & Highland Drive (1300 East)", distance: "3 min from shop", tip: "The main turn heading north toward our shop from Millcreek. Turn right on Highland Drive and stay straight — Crystal Ave is the first left after the Sugar House area. We're halfway down the block on the right." },
       { name: "3300 South & State Street", distance: "0.5 miles east of shop", tip: "If you come west on 3300 South past State Street, you've gone slightly too far. Turn right on State Street, then right again on Crystal Ave — our shop is at 144 W Crystal Ave on the right side." }
+    ],
+    whyChooseUs: [
+      { title: "7 Minutes from Millcreek", desc: "3300 South west to Highland Drive — no freeway, one turn, and you're at our door. Drop off in the morning and most Millcreek jobs are done same day." },
+      { title: "We Know Canyon-Driving Wear", desc: "Millcreek Canyon and the routes up Big Cottonwood are hard on clutches — slow climbing, heat on the descent, constant shifting. We see this wear pattern from Millcreek customers regularly and know where to look first." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before pointing to any specific part. Canyon-related wear can show up in multiple places, and replacing the wrong component is expensive. We find the actual cause before we write the estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "Clutch repair is what we do — it's in the name. Millcreek drivers come here when a general shop hasn't been able to solve the problem. We've been doing this since 1990 and fix it right the first time." }
     ]
   },
   {
@@ -50,6 +56,12 @@ const geoPages = [
       { name: "Murray Central TRAX Station", distance: "4 miles south", tip: "The most practical transit option for Murray customers. Board the Red Line here and ride one stop north to Central Pointe — a 3-minute walk from our shop. Drop your car, ride TRAX to your day, pick up when we call." },
       { name: "Fashion Place Mall — 6191 S State Street", distance: "4 miles south on State St", tip: "A clear landmark on the State Street route to our shop. From Fashion Place heading north on State Street, it's a straight 3.5-mile drive to Crystal Ave — no turns until you reach our street." },
       { name: "2700 South & State Street", distance: "0.2 miles from shop", tip: "When you see the 2700 South intersection on State Street, Crystal Ave is 2 blocks north on the left. We're at 144 W Crystal Ave, about half a mile west of State Street on the right side." }
+    ],
+    whyChooseUs: [
+      { title: "8 Minutes from Murray + TRAX Option", desc: "State Street north to Crystal Ave — or drop off and take TRAX one stop from Murray Central. Most Murray clutch jobs are done same day, so the commute works both ways." },
+      { title: "We Know State Street Stop-and-Go", desc: "Driving Murray's State Street in a manual means working the clutch through a lot of signals every day. We see that wear pattern regularly and diagnose it faster because we know what to check first." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before recommending any part. Stop-and-go wear can look like a disc problem but turn out to be something smaller. We find the real cause before we write the estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "Murray drivers come here when a general shop hasn't fixed the problem. We've been doing clutch work since 1990 — it's all we do, and we get it right the first time." }
     ]
   },
   {
@@ -66,6 +78,12 @@ const geoPages = [
       { name: "Central Pointe TRAX Station — 900 W / 2100 S", distance: "0.3 miles from shop", tip: "The closest TRAX stop to our shop. Both the Red and Blue Lines stop here. Walk 3 minutes east on 2100 South, then right on Crystal Ave — we're halfway down the block on the left at 144 W Crystal Ave." },
       { name: "I-80 Overpass on State Street", distance: "1 mile north of shop", tip: "A clear route marker on State Street heading south from downtown. Once you cross under I-80, you're 1 mile from our turn. Stay on State Street and turn right on Crystal Ave — we're on the left side." },
       { name: "Liberty Park — 1300 S / 700 E", distance: "2 miles north of shop", tip: "A well-known SLC landmark for Avenues and east-side drivers. Heading south from Liberty Park on State Street or Highland Drive connects directly to the route to our shop. Crystal Ave is about 2 miles south of the park." }
+    ],
+    whyChooseUs: [
+      { title: "Easy TRAX Drop-Off", desc: "Take the Red or Blue Line to Central Pointe — 3 minutes east on foot and you're at our door. Drop off your car, ride TRAX back to downtown or the Avenues, and pick up the same day." },
+      { title: "We Know Avenues Hill Starts and Downtown Grid", desc: "Steep hill starts every morning wear a clutch faster than flat driving. We see SLC drivers regularly — from the Avenues, Capitol Hill, and the U of U — and know exactly what that terrain does to a clutch over time." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "Before we suggest any repair, we check the hydraulic system too. Hill-start slipping is often a cylinder issue, not a worn disc. We tell you what we actually found before any work begins." },
+      { title: "Clutch Specialists Since 1990", desc: "SLC drivers with manual transmissions come here because general shops send them back with the same problem. We've been specializing in clutch since 1990 and fix it right the first time." }
     ]
   },
   {
@@ -78,9 +96,15 @@ const geoPages = [
     directions: "Take 4700 South east from Taylorsville to State Street, then turn left (north) on State Street and continue about 2 miles into South Salt Lake. Turn right on Crystal Ave — our shop is on the right side. Alternatively, take I-15 north and exit at 2700 South, then head east about a mile to Crystal Ave and turn left. Either route puts you at our door in 10 minutes outside of peak commute hours.",
     processNote: "Most Taylorsville customers drop off at 8 AM and pick up same day — the 4700 South route takes about 10 minutes each way.",
     landmarks: [
-      { name: "Valley Fair Mall — 3601 S 2700 W", distance: "2 miles north of central Taylorsville", tip: "A well-known Taylorsville landmark near the 4700 South corridor. Heading east from the mall area on 4700 South puts you on the right route — continue east to State Street, turn left, and Crystal Ave is 2 miles north." },
+      { name: "4700 South & Redwood Road — Taylorsville", distance: "5 min west of State Street", tip: "The main intersection on the route east from central Taylorsville. Head east on 4700 South from Redwood Road and continue to State Street — turn left (north) and our shop is about 2 miles ahead. About 10 minutes from central Taylorsville." },
       { name: "4700 South & State Street", distance: "3 min from shop", tip: "The main turn coming from Taylorsville. After turning north on State Street from 4700 South, our shop is about 2 miles straight ahead. Crystal Ave will be on your right — we're at 144 W Crystal Ave." },
       { name: "2700 South & State Street", distance: "2 blocks from shop", tip: "When you see the 2700 South light on State Street heading north, Crystal Ave is just 2 blocks ahead on the right. If you take I-15, exit at 2700 South and head east — Crystal Ave is the first major right." }
+    ],
+    whyChooseUs: [
+      { title: "10 Minutes on 4700 South", desc: "4700 South east to State Street, then north — one turn and 10 minutes from most of Taylorsville. Drop off at 8 AM and most jobs are done before the end of the day." },
+      { title: "We Know I-215 On-Ramp Wear", desc: "Taylorsville's short on-ramps mean fast first-gear launches every morning. We see this wear pattern from Taylorsville customers regularly and know exactly what it does to a clutch over time." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before recommending any specific part. On-ramp wear can show up in different places, and we find the real cause before we write an estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "Taylorsville drivers come here when a closer shop hasn't been able to solve the problem. We've been doing clutch work since 1990 — it's literally in our name, and we get it right the first time." }
     ]
   },
   {
@@ -96,6 +120,12 @@ const geoPages = [
       { name: "USANA Amphitheatre — 5150 Upper 5 Mile Creek Rd", distance: "3 miles west of route", tip: "A major West Valley City landmark near the 3500 South corridor. From the amphitheatre area, head east on 3500 South past Redwood Road and continue to State Street — our shop is about 10 minutes from here." },
       { name: "3500 South & State Street", distance: "2 min from shop", tip: "The main junction coming east from West Valley City. Turn north on State Street from 3500 South, then turn left on Crystal Ave almost immediately — we're halfway down the block at 144 W Crystal Ave." },
       { name: "2700 South & State Street", distance: "0.2 miles from shop", tip: "An alternative landmark if you take I-15 from West Valley. Exit at 2700 South, head east to State Street, then continue south 2 blocks to Crystal Ave and turn right — our shop is on the right side." }
+    ],
+    whyChooseUs: [
+      { title: "12 Minutes on 3500 South", desc: "3500 South east to State Street — no freeway required. Drop off in the morning and most West Valley City clutch jobs are done the same day. Uber and Lyft are available from our lot for the ride back." },
+      { title: "We Know Event-Night and Arterial Wear", desc: "3500 South gets heavy slow traffic on event nights, and sitting in stop-and-go heat is rough on a clutch. We see this wear pattern from West Valley customers regularly and know what to check first." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before recommending any specific part. Heat-related wear can show up in more than one place, and pointing to the wrong thing first costs you money. We find the real cause before we write the estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "West Valley drivers come to us when a closer shop hasn't solved the problem. We've been doing clutch work since 1990 — it's in our name — and we fix it right the first time." }
     ]
   },
   {
@@ -111,6 +141,12 @@ const geoPages = [
       { name: "4500 South & Highland Drive", distance: "4 min from shop", tip: "The main Holladay arterial on the Highland Drive route north. Stay straight on Highland Drive from here — it continues through Murray, into Sugar House, and becomes 1300 East heading toward our shop. Crystal Ave is the left turn just before 2100 South." },
       { name: "Holladay–Murray border on Highland Drive", distance: "3 min from shop", tip: "As you cross from Holladay into Murray on Highland Drive, you're about halfway to our shop. Keep heading north — the road becomes more commercial as you approach Sugar House, and Crystal Ave is about 3 minutes ahead on your left." },
       { name: "2100 South & Highland Drive (Sugar House area)", distance: "1 min from shop", tip: "The well-known Sugar House intersection. From here, turn left on Crystal Ave — we're less than a minute ahead on the right at 144 W Crystal Ave. Most Holladay drivers use this as their final landmark." }
+    ],
+    whyChooseUs: [
+      { title: "9 Minutes on Highland Drive", desc: "Highland Drive north all the way from Holladay — one turn at Crystal Ave and you're at our door. No freeway. Most Holladay clutch jobs are done same day." },
+      { title: "We Know Canyon and Valley Wear", desc: "Holladay drivers put their clutches through both mountain grades and valley stop-and-go. That combination wears things out faster than either type of driving alone. We see this pattern regularly and know what to look for first." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before pointing to any specific part. Canyon-related wear can come from different components depending on how you drive, and we find the real cause before we write an estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "Holladay drivers come here when a general shop hasn't diagnosed the problem correctly. We've been doing clutch work since 1990 — it's all we do, and we get it right the first time." }
     ]
   },
   {
@@ -126,6 +162,12 @@ const geoPages = [
       { name: "Big Cottonwood Canyon Rd & Wasatch Blvd", distance: "5 min southeast of route", tip: "The canyon entrance for Cottonwood Heights drivers heading to Brighton or Solitude. Head west on Big Cottonwood Canyon Rd to Highland Drive — from here it's a straight shot north through Holladay to our shop." },
       { name: "Fort Union Blvd & Highland Drive", distance: "4 min from shop", tip: "The main turn heading north toward our shop. Take Highland Drive north from Fort Union through Holladay and Sugar House — Crystal Ave is about 4 miles ahead on the left. One turn, no freeway." },
       { name: "3300 South & Highland Drive", distance: "2 min from shop", tip: "A midpoint landmark heading north on Highland Drive. From here, our shop is about 2 more minutes — continue north to Crystal Ave and turn left. We're halfway down the block on the right at 144 W Crystal Ave." }
+    ],
+    whyChooseUs: [
+      { title: "Drop Off Before the Canyon, Pick Up After", desc: "10 minutes on Highland Drive from Cottonwood Heights — practical to drop off on your way to Big or Little Cottonwood and pick up on the way back. Most jobs are done same day." },
+      { title: "We Know What Canyon Roads Do to Clutches", desc: "Little Cottonwood is steep, and slow traction-restriction traffic makes it worse. We see Cottonwood Heights clutch jobs regularly and know exactly what the canyon wear pattern looks like." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "Before we write an estimate, we check every component in the system. Canyon heat and slope load can damage parts in different ways — we find what actually needs fixing before recommending anything." },
+      { title: "Clutch Specialists Since 1990", desc: "Canyon-driving customers come here because general shops don't always diagnose mountain-road clutch wear correctly. We've been specializing since 1990 and fix it right the first time." }
     ]
   },
   {
@@ -141,6 +183,12 @@ const geoPages = [
       { name: "Sandy Civic Center TRAX Station — 8680 S State Street", distance: "8 miles south", tip: "The most convenient Blue Line station for Sandy customers using transit. Board here heading north and ride to Central Pointe Station — a 3-minute walk from our shop at 144 W Crystal Ave. Drop your car, ride TRAX, pick up when we call." },
       { name: "10600 South & I-15 interchange", distance: "6 miles south of shop", tip: "The main freeway entry for most Sandy drivers. Head north on I-15 from here — it's a straight 6-mile run to the 2700 South exit. From the exit, head east about a mile and turn right on Crystal Ave." },
       { name: "Central Pointe TRAX Station — 900 W / 2100 S", distance: "0.3 miles from shop", tip: "The arrival station for Sandy TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we're halfway down the block at 144 W Crystal Ave. Both the Red and Blue Lines stop here." }
+    ],
+    whyChooseUs: [
+      { title: "TRAX Blue Line to Our Door", desc: "Board at Sandy Civic Center or Sandy Expo and ride north to Central Pointe — a 3-minute walk from our shop. Drop off the car in the morning, ride TRAX to work, and pick up the same afternoon." },
+      { title: "We Know I-15 Commute and Foothill Wear", desc: "Sandy puts a clutch through both steep residential streets near Bell Canyon and freeway on-ramp acceleration every day. We see this dual wear pattern from Sandy customers regularly and know what to check first." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before recommending any specific part. Long-commute wear can come from different components, and we find the real cause before we write an estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "Sandy drivers make the trip here because general shops don't always get the diagnosis right on commuter and hill-driving wear. We've been doing this since 1990 and fix it the first time." }
     ]
   },
   {
@@ -156,6 +204,12 @@ const geoPages = [
       { name: "Draper Town Center TRAX Station — 11400 S Bangeter Hwy", distance: "12 miles south", tip: "The most convenient Blue Line station for Draper customers using transit. Board here and ride north to Central Pointe — a 3-minute walk from our shop. Drop your car, ride TRAX, pick up when we call." },
       { name: "Point of the Mountain — I-15 grade at the SL/Utah County line", distance: "9 miles south of shop", tip: "The steep I-15 grade between Salt Lake and Utah counties. This hill is one of the most common clutch-stressor routes for Draper drivers — especially towing. Once you crest the summit heading north, our exit is about 9 miles ahead." },
       { name: "2700 South exit off I-15 — South Salt Lake", distance: "1 mile from shop", tip: "The turn-off for our shop. Exit at 2700 South heading east, and Crystal Ave is about a mile from the freeway on the right. We're at 144 W Crystal Ave, on the left side of the block." }
+    ],
+    whyChooseUs: [
+      { title: "Worth the 15-Minute Drive", desc: "Draper drivers make the I-15 trip because the closer options haven't solved the problem. Drop off at 8 AM and most clutch jobs are done by afternoon. TRAX Blue Line to Central Pointe is also an option." },
+      { title: "We Know Point of the Mountain Stress", desc: "Climbing the Point of the Mountain grade — especially towing — is one of the most demanding things you can put a clutch through. We see Draper customers with this wear pattern regularly." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before recommending any specific repair. High-load wear from the Point of the Mountain can affect more than just the disc, and we find the real cause before writing an estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "Draper customers drive here because they've already tried closer shops and got the wrong answer. We've been doing clutch work since 1990 and diagnose it correctly the first time." }
     ]
   },
   {
@@ -171,6 +225,12 @@ const geoPages = [
       { name: "7800 South commercial area — Redwood Road corridor", distance: "5 miles south of shop", tip: "The main West Jordan commercial area. Head north on Redwood Road from here to the UT-201 connector, then east to I-15 — it's a quick merge onto the freeway heading north to our 2700 South exit." },
       { name: "5400 South & State Street", distance: "3 miles south of shop", tip: "An alternate route from West Jordan. Turn north on State Street from 5400 South and stay straight for about 2.5 miles — Crystal Ave will be on your left just past the 2700 South light. We're halfway down the block." },
       { name: "2700 South exit off I-15 — South Salt Lake", distance: "1 mile from shop", tip: "The freeway exit if you take the Redwood Road / UT-201 route. Head east from the exit and turn right on Crystal Ave — our shop is at 144 W Crystal Ave on the left side of the block." }
+    ],
+    whyChooseUs: [
+      { title: "12 Minutes Northeast", desc: "Redwood Road to the 201 to I-15 — or 5400 South east to State Street. Either route puts you at our door in about 12 minutes. Most West Jordan clutch jobs are done same day." },
+      { title: "We Know Mountain View Corridor Wear", desc: "Mountain View Corridor runs fast but the exits require quick slowdowns in a manual. Add in 7800 South stop-and-go and you've got a clutch that works hard every day. We see West Jordan wear patterns regularly." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before recommending any specific part. Freeway deceleration wear can show up in different components, and we find the real cause before we write an estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "West Jordan drivers come here when the closer general shop didn't find the problem. We've been doing clutch work since 1990 — it's what we specialize in, and we fix it right the first time." }
     ]
   },
   {
@@ -186,6 +246,12 @@ const geoPages = [
       { name: "Daybreak Parkway TRAX Station", distance: "10 miles south", tip: "The Blue Line station for Daybreak customers using transit. Board here and ride north to Central Pointe — a 3-minute walk from our shop at 144 W Crystal Ave. Drop your car in the morning and pick it up after work." },
       { name: "Bangerter Highway & I-15 interchange", distance: "8 miles south of shop", tip: "The main freeway junction for most South Jordan drivers. Head north on I-15 from here — it's about 8 miles to the 2700 South exit for our shop. The drive is mostly open freeway and takes about 10 minutes." },
       { name: "Central Pointe TRAX Station — 900 W / 2100 S", distance: "0.3 miles from shop", tip: "The arrival station for South Jordan TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we're halfway down the block at 144 W Crystal Ave. Both Red and Blue Lines stop here." }
+    ],
+    whyChooseUs: [
+      { title: "Daybreak TRAX to Our Door", desc: "Board at Daybreak Parkway on the Blue Line and ride north to Central Pointe — 3 minutes from our shop on foot. Drop off the car, take TRAX to work, and pick up the same day." },
+      { title: "We Know Roundabout and Long-Commute Wear", desc: "Daybreak's roundabouts mean constant low-speed gear shifts all day. Add a long commute and your clutch gets a lot of use. We see South Jordan customers with this pattern regularly and know what to check first." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before recommending any specific part. Commute and low-speed wear can come from different places, and we find the real cause before we write the estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "South Jordan drivers make the trip because they want a diagnosis they can trust. We've been doing clutch work since 1990 — it's all we do — and we get it right the first time." }
     ]
   },
   {
@@ -201,6 +267,12 @@ const geoPages = [
       { name: "Riverton Town Center area — 12200 S Redwood Rd", distance: "12 miles south of shop", tip: "The main commercial area near central Riverton. Head east toward Bangerter Highway, then north to I-15 — from here the freeway run to our 2700 South exit takes about 10 minutes in light traffic." },
       { name: "Bangerter Highway & Mountain View Corridor junction", distance: "10 miles south of shop", tip: "The key starting point for the freeway leg north. Head east on Bangerter to I-15, then north on I-15 for about 8 miles to the 2700 South exit. Most Riverton customers use this route." },
       { name: "2700 South exit off I-15 — South Salt Lake", distance: "1 mile from shop", tip: "The turn-off for our shop coming from Riverton. Head east from the exit and turn right on Crystal Ave — our shop is at 144 W Crystal Ave on the left side of the block." }
+    ],
+    whyChooseUs: [
+      { title: "Worth the 16-Minute Drive", desc: "Riverton doesn't have a clutch specialist nearby — that's why drivers make the freeway trip. Drop off at 8 AM on the way out and pick up the same day. Call ahead to confirm timing." },
+      { title: "We Know Long-Commute Wear", desc: "Riverton commuters put serious daily miles on a clutch — Bangerter transitions, I-15 merges, and distance add up fast. We see long-commute wear from Riverton customers regularly and know what to check first." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before recommending any specific part. High-mileage commute wear can look like different problems depending on the vehicle, and we find the real cause before writing an estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "Riverton drivers make the trip because the general shops nearby haven't been able to get the diagnosis right. We've been doing this since 1990 and fix clutches correctly the first time." }
     ]
   },
   {
@@ -216,6 +288,12 @@ const geoPages = [
       { name: "Mountain View Corridor north entrance — Herriman area", distance: "15 miles south of shop", tip: "The main route heading north from Herriman. Take Mountain View Corridor north until it connects with I-15 — from the freeway junction it's about 10 miles to our 2700 South exit in South Salt Lake." },
       { name: "5400 South interchange off I-15", distance: "5 miles south of shop", tip: "A useful midpoint landmark on the I-15 run north from Herriman. From here, our exit is just 3 more miles — continue to 2700 South, then head east about a mile to Crystal Ave and turn right." },
       { name: "2700 South exit off I-15 — South Salt Lake", distance: "1 mile from shop", tip: "The turn-off for our shop. Exit here and head east — Crystal Ave is about a mile from the freeway on the right. We're at 144 W Crystal Ave on the left side of the block." }
+    ],
+    whyChooseUs: [
+      { title: "No Closer Clutch Specialist", desc: "Herriman doesn't have a dedicated clutch specialist — the 20-minute drive to Scott's is the closest real option. Drop off at 8 AM and most jobs are done the same day." },
+      { title: "We Know Hillside Street and Long-Commute Wear", desc: "Herriman's steep residential streets mean daily hill starts on top of one of the longer commutes in the valley. That combination wears a clutch faster than most driving, and we see it from Herriman customers regularly." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before recommending any specific repair. Hill-start wear combined with long-commute miles can affect more than just the disc, and we find the real cause before writing an estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "Herriman drivers make the 20-minute drive because the closer general shops haven't gotten the diagnosis right. We've been specializing in clutch since 1990 and fix it correctly the first time." }
     ]
   },
   {
@@ -231,6 +309,12 @@ const geoPages = [
       { name: "Utah Olympic Oval — 5662 Cougar Lane", distance: "2 miles east of central Kearns", tip: "A well-known Kearns landmark near the 5400 South route east. From the Oval, continue east on 5400 South to State Street — our shop is 1.5 miles north on State Street, then left on Crystal Ave." },
       { name: "5400 South & State Street", distance: "3 min from shop", tip: "The main junction coming east from Kearns. Turn north on State Street from 5400 South and continue 1.5 miles — Crystal Ave is on the left. We're halfway down the block at 144 W Crystal Ave." },
       { name: "2700 South & State Street", distance: "2 blocks from shop", tip: "If you take the freeway route (4700 South east to I-15 north), exit at 2700 South and head east to State Street — Crystal Ave is 2 blocks south on State Street, then turn right. We're at 144 W Crystal Ave." }
+    ],
+    whyChooseUs: [
+      { title: "12 Minutes on 5400 South", desc: "5400 South east to State Street — straightforward drive with no freeway required. Drop off in the morning and most Kearns clutch jobs are done the same day." },
+      { title: "We Know On-Ramp and Daily-Driver Wear", desc: "The 4500 South I-15 on-ramp is short, which means hard first-gear launches every morning. We see this wear pattern from Kearns customers regularly and know exactly where it shows up first." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before recommending any specific part. On-ramp wear can look like different things depending on the vehicle, and we find the real cause before we write the estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "Kearns drivers come here when they want the diagnosis done right and the repair to stick. We've been doing clutch work since 1990 — it's what we specialize in, and we fix it the first time." }
     ]
   },
   {
@@ -246,6 +330,12 @@ const geoPages = [
       { name: "Midvale Center TRAX Station — 7200 S State Street", distance: "5 miles south of shop", tip: "The most convenient Blue Line stop for Midvale transit customers. Board here heading north and ride to Central Pointe Station — a 3-minute walk from our shop at 144 W Crystal Ave. Drop your car, ride TRAX, pick up same day." },
       { name: "7200 South & State Street", distance: "4 miles south of shop", tip: "The main Midvale commercial intersection on State Street. From here, head straight north on State Street for 4 miles with no turns — Crystal Ave is on your left just past the 2700 South light. We're halfway down the block." },
       { name: "Central Pointe TRAX Station — 900 W / 2100 S", distance: "0.3 miles from shop", tip: "The arrival station for Midvale TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we're at 144 W Crystal Ave on the right. Midvale is the closest community to this station via State Street." }
+    ],
+    whyChooseUs: [
+      { title: "8 Minutes or One TRAX Stop", desc: "State Street north — or board the Blue Line at Midvale Center and ride to Central Pointe, a 3-minute walk from our door. The closest clutch specialist to any TRAX station in the valley." },
+      { title: "We Know I-15 Interchange Merge Wear", desc: "The I-15/I-215 interchange is one of the busier merge points in the valley — accelerating from near-stops every day adds wear faster than steady highway driving. We see this from Midvale customers regularly." },
+      { title: "Diagnosis Before We Recommend Anything", desc: "We check the whole system before recommending any specific part. Merge and stop-and-go wear can come from more than one place, and we find the real cause before we write the estimate." },
+      { title: "Clutch Specialists Since 1990", desc: "Midvale drivers come here because we're close and because we get the diagnosis right. We've been doing clutch work since 1990 — it's all we do — and we fix it the first time." }
     ]
   }
 ];
