@@ -15,22 +15,16 @@
   </div>
 </section>
 
-<!-- ── Section 1: Local Context + Map ─────────────────────────────────────── -->
+<!-- ── Section 1: Shop Info + Map (white) ────────────────────────────────── -->
 <section class="content-section">
   <div class="container">
-    <h2>Why <%= geo.locationName %> Drivers Need Clutch Specialists</h2>
-    <div class="prose mw-700">
-      <p><%= geo.localContent %></p>
-    </div>
-    <% if (geo.localTip) { %>
-    <div class="issue-card issue-card--accent mw-700 mt-5">
-      <p class="tip-text"><strong>Local tip:</strong> <%= geo.localTip %></p>
-    </div>
-    <% } %>
-
-    <div class="loc-shop-grid mt-7">
+    <h2>Clutch Repair Near <%= geo.locationName %>, Utah</h2>
+    <div class="loc-shop-grid">
       <div class="loc-shop-info">
         <p><strong>Getting here:</strong> <%= geo.directions %></p>
+        <% if (geo.logisticsNote) { %>
+        <p class="mt-4"><%= geo.logisticsNote %></p>
+        <% } %>
         <div class="loc-shop-details">
           <div class="loc-detail-item">
             <span class="loc-detail-label">Address</span>
@@ -46,7 +40,7 @@
           </div>
           <div class="loc-detail-item">
             <span class="loc-detail-label">Specializing in Clutch Since</span>
-            <span class="loc-detail-value">1990 — 36+ years serving the Salt Lake Valley</span>
+            <span class="loc-detail-value">1990 — 36+ years</span>
           </div>
         </div>
         <div class="loc-shop-actions">
@@ -67,6 +61,19 @@
         </iframe>
       </div>
     </div>
+    <% if (geo.landmarks && geo.landmarks.length) { %>
+    <div class="landmarks-grid mt-7">
+      <% geo.landmarks.forEach(lm => { %>
+      <div class="landmark-card">
+        <div class="landmark-header">
+          <h3><%= lm.name %></h3>
+          <span class="landmark-distance"><%= lm.distance %></span>
+        </div>
+        <p class="landmark-tip"><%= lm.tip %></p>
+      </div>
+      <% }) %>
+    </div>
+    <% } %>
   </div>
 </section>
 
@@ -83,37 +90,49 @@
   </div>
 </section>
 
-<!-- ── Section 3: Getting Here from [City] (white) ───────────────────────── -->
-<% if (geo.logisticsNote) { %>
+<!-- ── Section 3: Why [City] Drivers Need Specialists (white) ─────────────── -->
 <section class="content-section">
   <div class="container">
-    <h2>Getting Here from <%= geo.locationName %></h2>
-    <div class="prose mw-720">
-      <p><%= geo.logisticsNote %></p>
+    <h2>Why <%= geo.locationName %> Drivers Need Clutch Specialists</h2>
+    <div class="prose mw-700">
+      <p><%= geo.localContent %></p>
     </div>
-    <% if (geo.landmarks && geo.landmarks.length) { %>
-    <div class="landmarks-grid mt-7">
-      <% geo.landmarks.forEach(lm => { %>
-      <div class="landmark-card">
-        <div class="landmark-header">
-          <h3><%= lm.name %></h3>
-          <span class="landmark-distance"><%= lm.distance %></span>
-        </div>
-        <p class="landmark-tip"><%= lm.tip %></p>
-      </div>
-      <% }) %>
+    <% if (geo.localTip) { %>
+    <div class="issue-card issue-card--accent mw-700 mt-5">
+      <p class="tip-text"><strong>Local tip:</strong> <%= geo.localTip %></p>
     </div>
     <% } %>
   </div>
 </section>
-<% } %>
 
-<!-- ── Section 4: Common Issues (alt-bg) ─────────────────────────────────── -->
-<% if (clutchService && clutchService.commonIssues && clutchService.commonIssues.length) { %>
+<!-- ── Section 4: How We Handle It — Process Steps (alt-bg) ──────────────── -->
+<% var processSteps = (geo.process && geo.process.length) ? geo.process : (clutchService.process || []); %>
+<% if (processSteps.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
+    <h2>How We Handle Clutch Repair for <%= geo.locationName %> Customers</h2>
+    <p class="section-subtitle">From the moment you call to the moment you pick up — here's exactly what happens.</p>
+    <div class="process-steps-compact">
+      <% processSteps.forEach(p => { %>
+      <div class="process-step-compact">
+        <span class="step-num"><%= p.step %></span>
+        <div>
+          <h3><%= p.title %></h3>
+          <p><%= p.desc %></p>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<!-- ── Section 5: Common Problems (white) ────────────────────────────────── -->
+<% if (clutchService && clutchService.commonIssues && clutchService.commonIssues.length) { %>
+<section class="content-section">
+  <div class="container">
     <h2>Common Clutch Problems We See from <%= geo.locationName %></h2>
-    <p class="section-subtitle">We diagnose before we recommend — <%= geo.locationName %> drivers get the same thorough inspection as any customer. You'll know exactly what's wrong and why before any work begins.</p>
+    <p class="section-subtitle">We diagnose before we recommend — you'll know exactly what's wrong and why before any work begins.</p>
     <div class="issues-grid">
       <% clutchService.commonIssues.forEach(issue => { %>
       <div class="issue-card">
@@ -133,13 +152,13 @@
 </section>
 <% } %>
 
-<!-- ── Section 5: Why Choose Us (white) ──────────────────────────────────── -->
-<section class="content-section">
+<!-- ── Section 6: Why Choose Scott's (alt-bg) ────────────────────────────── -->
+<% var whyCards = (geo.whyChooseUs && geo.whyChooseUs.length) ? geo.whyChooseUs : clutchService.whyUs; %>
+<section class="content-section alt-bg">
   <div class="container">
     <h2>Why <%= geo.locationName %> Drivers Choose Scott's for Clutch Repair</h2>
-    <p class="section-subtitle mw-720"><%= geo.locationName %> drivers travel <%= geo.distance %> to our shop because clutch specialists are rare — and the alternatives are generalist shops that see a clutch job a few times a month. We see them every week.</p>
     <div class="values-grid">
-      <% clutchService.whyUs.forEach(w => { %>
+      <% whyCards.forEach(w => { %>
       <div class="value-card">
         <h3><%= w.title %></h3>
         <p><%= w.desc %></p>
