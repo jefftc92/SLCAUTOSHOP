@@ -85,30 +85,45 @@
   </div>
 </section>
 
-<!-- ── Section 2: How It Works (alt-bg) ──────────────────────────────────── -->
-<% if (mainService && mainService.process && mainService.process.length) { %>
+<!-- ── Section 2: What Is [Service] (alt-bg) ─────────────────────────────── -->
+<% if (mainService && mainService.shortDefinition) { %>
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>How We Handle <%= geo.serviceFullName %> for <%= geo.locationName %> Customers</h2>
-    <p class="section-subtitle">The drive from <%= geo.locationName %> is <%= geo.distance %> — about <%= geo.driveTime %>. From the moment you call to the moment you pick up, we keep you informed so you're never stuck waiting without answers.</p>
-    <div class="process-steps-compact">
-      <% mainService.process.forEach(p => { %>
-      <div class="process-step-compact">
-        <span class="step-num"><%= p.step %></span>
-        <div>
-          <h3><%= p.title %></h3>
-          <p><%= p.desc %></p>
-        </div>
-      </div>
-      <% }) %>
+    <h2>What Is <%= geo.serviceFullName %>?</h2>
+    <div class="prose mw-700"><p><%= mainService.shortDefinition %></p></div>
+    <div class="mt-6">
+      <a href="/services/<%= geo.mainServiceSlug %>" class="btn btn-outline">Full <%= geo.serviceName %> Service Details &rarr;</a>
     </div>
   </div>
 </section>
 <% } %>
 
-<!-- ── Section 3: Common Issues (white) ──────────────────────────────────── -->
-<% if (mainService && mainService.commonIssues && mainService.commonIssues.length) { %>
+<!-- ── Section 3: Getting Here + Landmarks (white) ───────────────────────── -->
+<% if (geo.logisticsNote) { %>
 <section class="content-section">
+  <div class="container">
+    <h2>Getting Here from <%= geo.locationName %></h2>
+    <div class="prose mw-720"><p><%= geo.logisticsNote %></p></div>
+    <% if (geo.landmarks && geo.landmarks.length) { %>
+    <div class="landmarks-grid mt-7">
+      <% geo.landmarks.forEach(lm => { %>
+      <div class="landmark-card">
+        <div class="landmark-header">
+          <h3><%= lm.name %></h3>
+          <span class="landmark-distance"><%= lm.distance %></span>
+        </div>
+        <p class="landmark-tip"><%= lm.tip %></p>
+      </div>
+      <% }) %>
+    </div>
+    <% } %>
+  </div>
+</section>
+<% } %>
+
+<!-- ── Section 4: Common Issues (alt-bg) ─────────────────────────────────── -->
+<% if (mainService && mainService.commonIssues && mainService.commonIssues.length) { %>
+<section class="content-section alt-bg">
   <div class="container">
     <h2>Common <%= geo.serviceFullName %> Problems We See from <%= geo.locationName %></h2>
     <p class="section-subtitle">We diagnose before we recommend — <%= geo.locationName %> drivers get the same thorough inspection as any customer. You'll know exactly what's wrong and why before any work begins.</p>
@@ -122,7 +137,7 @@
         <% } %>
         <p><%= issue.desc %></p>
         <% if (issue.symptomSlug) { %>
-        <a href="/symptoms/<%= issue.symptomSlug %>" class="card-link-sm">See symptom details →</a>
+        <a href="/symptoms/<%= issue.symptomSlug %>" class="card-link-sm">See symptom details &rarr;</a>
         <% } %>
       </div>
       <% }) %>
@@ -131,9 +146,9 @@
 </section>
 <% } %>
 
-<!-- ── Section 4: Why Choose Us (alt-bg) ─────────────────────────────────── -->
+<!-- ── Section 5: Why Choose Us (white) ──────────────────────────────────── -->
 <% if (mainService && mainService.whyUs && mainService.whyUs.length) { %>
-<section class="content-section alt-bg">
+<section class="content-section">
   <div class="container">
     <h2>Why <%= geo.locationName %> Drivers Choose Scott's for <%= geo.serviceFullName %></h2>
     <p class="section-subtitle mw-720"><%= geo.locationName %> is <%= geo.distance %> from our shop. Drivers come this far because these are the things that matter — and they can't find them closer to home.</p>
@@ -148,26 +163,6 @@
     <div class="hero-buttons mt-8">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
-    </div>
-  </div>
-</section>
-<% } %>
-
-<!-- ── Section 5: What We Do — reference (white) ─────────────────────────── -->
-<% if (mainService && mainService.specializedServices && mainService.specializedServices.length) { %>
-<section class="content-section">
-  <div class="container">
-    <h2><%= geo.serviceFullName %> — What <%= geo.locationName %> Customers Get</h2>
-    <% if (mainService.intro) { %>
-    <p class="section-subtitle mw-760"><%= mainService.intro %></p>
-    <% } %>
-    <div class="brand-tags mt-5">
-      <% mainService.specializedServices.forEach(s => { %>
-      <span class="tag"><%= s %></span>
-      <% }) %>
-    </div>
-    <div class="mt-6">
-      <a href="/services/<%= geo.mainServiceSlug %>" class="btn btn-outline">Full <%= geo.serviceName %> Service Details</a>
     </div>
   </div>
 </section>

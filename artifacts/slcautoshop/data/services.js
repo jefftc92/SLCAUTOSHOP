@@ -10,6 +10,7 @@ const services = [
     heading: "Clutch Repair & Replacement in Salt Lake City, UT",
     metaDesc: "Clutch slipping, grinding, or hard to shift? We've specialized in clutch replacement for 36+ years. Free diagnosis. Call (801) 485-4089.",
     heroIntro: "Scott's has specialized in clutch repair since 1990. It's literally in the name. Free diagnosis. Written estimate. No surprises.",
+    shortDefinition: "A clutch is the mechanical system that connects and disconnects your engine from your transmission — it's what makes gear changes possible on a manual vehicle. The system includes the clutch disc (the friction surface that wears with use), the pressure plate (which clamps the disc), the flywheel (which the disc grips against), and on most modern vehicles, a hydraulic cylinder system that converts pedal pressure into clutch release. When components wear or fail, symptoms range from slipping under acceleration to grinding when shifting to a pedal that simply feels different than it used to. Clutch repair may involve the disc, pressure plate, flywheel, hydraulics, or any combination — which is why diagnosis always comes before any recommendation.",
     intro: "",
     hideServicesSection: true,
     specializedServices: [

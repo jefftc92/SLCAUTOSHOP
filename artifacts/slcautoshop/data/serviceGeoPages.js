@@ -5,7 +5,8 @@
 const CITIES = [
   {
     slug: 'sugar-house', name: 'Sugar House', distance: '3 miles', driveTime: '5 min',
-    directions: 'Head south on Highland Drive (1300 East) from Sugar House into South Salt Lake. Turn right on Crystal Ave — our shop is on the right side of the street. About 5 minutes in normal daytime traffic.'
+    directions: 'Head south on Highland Drive (1300 East) from Sugar House into South Salt Lake. Turn right on Crystal Ave — our shop is on the right side of the street. About 5 minutes in normal daytime traffic.',
+    logisticsNote: 'Most Sugar House customers drop the car in the morning and pick it up the same day. We open at 8 AM, and diagnoses are typically done within a couple of hours. If you\'d rather not sit at the shop, Uber and Lyft run consistently from our lot — the ride back to Sugar House is usually under $10 and about 5 minutes. Call ahead and we\'ll have your intake ready when you arrive.'
   },
   {
     slug: 'millcreek', name: 'Millcreek', distance: '3 miles', driveTime: '7 min',
@@ -13,11 +14,13 @@ const CITIES = [
   },
   {
     slug: 'murray', name: 'Murray', distance: '4 miles', driveTime: '8 min',
-    directions: 'Head north on State Street from Murray into South Salt Lake. Turn left on Crystal Ave — we\'re about half a mile west of State Street on the right. About 8 minutes. TRAX Blue Line riders can board at Murray Central and ride to Central Pointe station, then walk 3 minutes east to our shop.'
+    directions: 'Head north on State Street from Murray into South Salt Lake. Turn left on Crystal Ave — we\'re about half a mile west of State Street on the right. About 8 minutes. TRAX Blue Line riders can board at Murray Central and ride to Central Pointe station, then walk 3 minutes east to our shop.',
+    logisticsNote: 'Murray Central TRAX Station makes the drop-off easy. Board the Red Line at Murray Central, ride north to Central Pointe Station, and walk 3 minutes east to our shop. Drop your car before work, take TRAX to your day, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day — the return ride to Murray Central is about 8 minutes.'
   },
   {
     slug: 'salt-lake-city', name: 'Salt Lake City', distance: '4 miles', driveTime: '10 min',
-    directions: 'Take Highland Drive south from Salt Lake City into South Salt Lake. Turn left on Crystal Ave — we\'re on the right side of the street. About 10 minutes depending on your starting point. Central Pointe TRAX station is a 3-minute walk from our shop.'
+    directions: 'Take Highland Drive south from Salt Lake City into South Salt Lake. Turn left on Crystal Ave — we\'re on the right side of the street. About 10 minutes depending on your starting point. Central Pointe TRAX station is a 3-minute walk from our shop.',
+    logisticsNote: 'TRAX makes this the easiest commute for Salt Lake City customers. Take the Red or Blue Line to Central Pointe Station and walk 3 minutes east to 144 W Crystal Ave — no rideshare needed. Drop your car at 8 AM, ride TRAX back to downtown or the Avenues, and we\'ll call when the diagnosis is ready. Driving from the Avenues or Capitol Hill? Take State Street south, cross under I-80, and Crystal Ave is the second major left — about 1 mile past the freeway. Uber and Lyft are available from our location throughout business hours.'
   },
   {
     slug: 'taylorsville', name: 'Taylorsville', distance: '5 miles', driveTime: '10 min',
@@ -1446,6 +1449,8 @@ Object.entries(CONTENT).forEach(([serviceKey, svc]) => {
       localContent: c.localContent,
       localTip: c.localTip,
       directions: city.directions,
+      logisticsNote: city.logisticsNote || null,
+      landmarks: c.landmarks || null,
       metaTitle: tmpl.replace('{{CITY}}', city.name),
       metaDesc: normalizeDesc(c.metaDesc)
     });
