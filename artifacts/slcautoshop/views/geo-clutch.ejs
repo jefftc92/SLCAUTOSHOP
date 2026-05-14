@@ -106,12 +106,12 @@
 </section>
 
 <!-- ── Section 4: How We Handle It — Process Steps (alt-bg) ──────────────── -->
-<% var processSteps = (geo.process && geo.process.length) ? geo.process : (clutchService.process || []); %>
+<% var processSteps = clutchService.process || []; %>
 <% if (processSteps.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
     <h2>How We Handle Clutch Repair for <%= geo.locationName %> Customers</h2>
-    <p class="section-subtitle">From the moment you call to the moment you pick up — here's exactly what happens.</p>
+    <p class="section-subtitle"><%= geo.processNote || 'From the moment you call to the moment you pick up — here\'s exactly what happens.' %></p>
     <div class="process-steps-compact">
       <% processSteps.forEach(p => { %>
       <div class="process-step-compact">
@@ -171,6 +171,24 @@
     </div>
   </div>
 </section>
+
+<!-- ── Section 7: What [City] Customers Get (white) ───────────────────────── -->
+<% if (clutchService && clutchService.specializedServices && clutchService.specializedServices.length) { %>
+<section class="content-section">
+  <div class="container">
+    <h2>Clutch Repair — What <%= geo.locationName %> Customers Get</h2>
+    <p class="section-subtitle mw-760">Every clutch job starts with diagnosis. We find the root cause before recommending anything — and only do the work your vehicle actually needs.</p>
+    <div class="brand-tags mt-5">
+      <% clutchService.specializedServices.forEach(s => { %>
+      <span class="tag"><%= s %></span>
+      <% }) %>
+    </div>
+    <div class="mt-6">
+      <a href="/services/clutch-repair-near-south-salt-lake-ut" class="btn btn-outline">Full Clutch Repair Service Details</a>
+    </div>
+  </div>
+</section>
+<% } %>
 
 <%- include('partials/testimonials') %>
 
