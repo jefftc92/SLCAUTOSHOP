@@ -21,7 +21,7 @@
     <div class="prose">
       <p><%= geo.localContent %></p>
     </div>
-    <div class="visit-grid" style="margin-top:2rem">
+    <div class="visit-grid mt-8">
       <div class="visit-detail"><h3>Distance from <%= geo.locationName %></h3><p><%= geo.distance %> (<%= geo.driveTime %> drive)</p></div>
       <div class="visit-detail"><h3>Hours</h3><p><%= site.hoursShort %></p></div>
       <div class="visit-detail"><h3>Specialization</h3><p>Clutch repair since 1990 — 36+ years</p></div>
@@ -32,8 +32,8 @@
 <section class="content-section alt-bg">
   <div class="container">
     <h2>Local Clutch Tip for <%= geo.locationName %> Drivers</h2>
-    <div class="issue-card" style="max-width:700px">
-      <p style="font-size:1.05rem;line-height:1.7"><%= geo.localTip %></p>
+    <div class="issue-card mw-700">
+      <p class="tip-text-lg"><%= geo.localTip %></p>
     </div>
   </div>
 </section>
@@ -41,11 +41,11 @@
 <section class="content-section">
   <div class="container">
     <h2>Getting Here from <%= geo.locationName %></h2>
-    <div class="prose" style="max-width:720px">
+    <div class="prose mw-720">
       <p><%= geo.directions %></p>
       <p>Our address is <strong>144 W Crystal Ave, South Salt Lake, UT 84115</strong>. We open at 8 AM Monday through Friday. Many <%= geo.locationName %> customers drop off in the morning and pick up the same day — call ahead and we'll tell you whether your job qualifies.</p>
     </div>
-    <div class="visit-grid" style="margin-top:1.5rem">
+    <div class="visit-grid mt-6">
       <div class="visit-detail"><h3>Address</h3><p>144 W Crystal Ave<br>South Salt Lake, UT 84115</p></div>
       <div class="visit-detail"><h3>Phone</h3><p><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></p></div>
       <div class="visit-detail"><h3>From <%= geo.locationName %></h3><p><%= geo.distance %> · <%= geo.driveTime %> drive</p></div>
@@ -63,7 +63,7 @@
 <section class="content-section alt-bg">
   <div class="container">
     <h2>Why <%= geo.locationName %> Drivers Choose Scott's for Clutch Repair</h2>
-    <p class="section-subtitle" style="max-width:720px"><%= geo.locationName %> drivers travel <%= geo.distance %> to our shop because clutch specialists are rare — and the alternatives are generalist shops that see a clutch job a few times a month. We see them every week.</p>
+    <p class="section-subtitle mw-720"><%= geo.locationName %> drivers travel <%= geo.distance %> to our shop because clutch specialists are rare — and the alternatives are generalist shops that see a clutch job a few times a month. We see them every week.</p>
     <div class="values-grid">
       <% clutchService.whyUs.forEach(w => { %>
       <div class="value-card">
