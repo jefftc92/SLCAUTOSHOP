@@ -6,8 +6,8 @@ const services = [
     shortDesc: "Expert clutch diagnostics and replacement for all makes and models.",
     image: "/assets/clutch-400-BTrBnRFg.webp",
     heroImage: "/assets/hero-600-DnXM3vMX.webp",
-    metaTitle: "Clutch Repair South Salt Lake UT | Specialists Since 1990",
-    heading: "Clutch Repair & Replacement in South Salt Lake, UT",
+    metaTitle: "Clutch Repair Salt Lake City UT | Specialists Since 1990",
+    heading: "Clutch Repair & Replacement in Salt Lake City, UT",
     metaDesc: "Clutch slipping, grinding, or hard to shift? We've specialized in clutch replacement for 36+ years. Free diagnosis. Call (801) 485-4089.",
     heroIntro: "Scott's has specialized in clutch repair since 1990. It's literally in the name. Free diagnosis. Written estimate. No surprises.",
     intro: "",
@@ -83,7 +83,7 @@ const services = [
       { q: "Can you fix just the hydraulic system without replacing the clutch?", a: "Yes, if the disc and pressure plate are still serviceable. We diagnose first. If it's a cylinder issue and the clutch assembly is fine, that's all we recommend fixing." }
     ],
     whoContent: {
-      heading: "Who to Trust for Clutch Repair in South Salt Lake",
+      heading: "Who to Trust for Clutch Repair in Salt Lake City",
       paras: [
         "Scott's Auto & Clutch Repair has been the clutch shop in South Salt Lake since 1990. It's literally in the name. Clutch and manual transmission work is what we built the business around, and it still accounts for a significant share of everything we do.",
         "When you bring your car in, you're working with people who specialize in clutch repair, not a general shop where clutch work gets passed off to whoever's available. We've diagnosed and repaired clutches on every make and model for over three decades, from daily drivers to sports cars to commercial trucks."
@@ -117,8 +117,8 @@ const services = [
     shortDesc: "CV joint replacement, CV axle repair, and CV boot service.",
     image: "/assets/cv-joint-400-DttndxJM.webp",
     heroImage: "/assets/cv-joint-400-DttndxJM.webp",
-    metaTitle: "CV Joint Repair South Salt Lake UT | Axle & Boot Service",
-    heading: "CV Joint & Axle Repair in South Salt Lake, UT",
+    metaTitle: "CV Joint Repair Salt Lake City UT | Axle & Boot Service",
+    heading: "CV Joint & Axle Repair in Salt Lake City, UT",
     metaDesc: "Clicking when turning? CV axle worn? We replace CV joints, boots & axles for all makes and models. Free diagnosis. Call (801) 485-4089.",
     heroIntro: "Clicking when you turn or vibration when you accelerate? That's almost always the CV axle. Free diagnosis. Written estimate. No surprises.",
     intro: "",
@@ -182,7 +182,7 @@ const services = [
       { q: "What about the axle seal at the transmission?", a: "We check it whenever an axle is out. A seeping axle seal lets transmission fluid contaminate the CV grease and shorten the new axle's life. If it needs replacement, we quote it alongside the axle job since the labor is already there." }
     ],
     whoContent: {
-      heading: "Who to Trust for CV Joint Repair in South Salt Lake",
+      heading: "Who to Trust for CV Joint Repair in Salt Lake City",
       paras: [
         "Scott's Auto & Clutch Repair has been working on drivetrains in South Salt Lake since 1990. CV axle and joint work is a regular part of what we do, and we approach it the same way we approach everything: diagnose first, quote before touching anything, and only recommend what the inspection actually shows is needed.",
         "When you bring your vehicle in, you're working with people who've seen every variation of CV joint failure on every make and model. We check the full axle, both joints, both boots, and the opposite side before making any recommendation. You'll know exactly what we found and why we're recommending what we are."
@@ -300,8 +300,8 @@ const services = [
     shortDesc: "Timing chain repair and replacement to prevent engine damage.",
     image: "/assets/timing-chain-400-DglkDYua.webp",
     heroImage: "/assets/timing-chain-400-DglkDYua.webp",
-    metaTitle: "Timing Chain Repair South Salt Lake UT | Engine Rattling?",
-    heading: "Timing Chain Replacement in South Salt Lake, UT",
+    metaTitle: "Timing Chain Repair Salt Lake City UT | Engine Rattling?",
+    heading: "Timing Chain Replacement in Salt Lake City, UT",
     metaDesc: "Engine rattling on startup? Don't wait—timing chain failure can destroy your engine. Free diagnosis at Scott's Auto. Call (801) 485-4089.",
     heroIntro: "Engine rattling at startup? That's a worn timing chain, and it gets worse the longer you wait. Free diagnosis. Written estimate. No surprises.",
     intro: "",
@@ -365,7 +365,7 @@ const services = [
       { q: "How urgent is a timing chain code on an interference engine?", a: "Very urgent. On an interference engine, the pistons and valves share overlapping travel zones and are only kept apart by precise cam timing. A chain that has already jumped a tooth means valve timing is offset, and continued driving risks valve-to-piston contact. We check cam-to-crank correlation before disassembly to understand the extent of the timing offset." }
     ],
     whoContent: {
-      heading: "Who to Trust for Timing Chain Repair in South Salt Lake",
+      heading: "Who to Trust for Timing Chain Repair in Salt Lake City",
       paras: [
         "Scott's Auto & Clutch Repair has been diagnosing and repairing engines in South Salt Lake since 1990. Timing chain work requires precision and a thorough understanding of the full system. We verify chain stretch with measurement and cam/crank data before recommending the job, not just on the basis of a startup rattle that could have other causes.",
         "When you bring your vehicle in, you get a diagnosis that covers the chain, guides, tensioner, VVT components, and oil system condition before we quote anything. We explain what we found and why it matters, and we get your written approval before work begins. No replacing parts until we know exactly what the engine needs."
@@ -746,8 +746,8 @@ const services = [
     shortDesc: "Preventive timing belt replacement before it fails.",
     image: "/assets/timing-belt-400-DGv-XrDO.webp",
     heroImage: "/assets/timing-belt-400-DGv-XrDO.webp",
-    metaTitle: "Timing Belt Replacement South Salt Lake UT | All Makes",
-    heading: "Timing Belt Replacement Service in South Salt Lake, UT",
+    metaTitle: "Timing Belt Replacement Salt Lake City UT | All Makes",
+    heading: "Timing Belt Replacement Service in Salt Lake City, UT",
     metaDesc: "Timing belt due for replacement? We handle belt, tensioner, idler & water pump as a complete service. Honest pricing. Call (801) 485-4089.",
     heroIntro: "Timing belt due or overdue? A broken belt on an interference engine destroys the engine. We do the full service right. Written estimate. No surprises.",
     intro: "",
@@ -810,7 +810,7 @@ const services = [
       { q: "What is the interference engine risk with a broken timing belt?", a: "On an interference engine, pistons and valves share overlapping travel zones and are kept apart only by the belt maintaining precise cam timing. When the belt breaks, the camshaft stops but the crankshaft keeps turning. Pistons hit open valves, causing bent valves, damaged pistons, and in severe cases a destroyed cylinder head. The cost is typically a $3,000 to $6,000 repair for a service that costs $400 to $700." }
     ],
     whoContent: {
-      heading: "Who to Trust for Timing Belt Replacement in South Salt Lake",
+      heading: "Who to Trust for Timing Belt Replacement in Salt Lake City",
       paras: [
         "Scott's Auto & Clutch Repair has been handling timing belt services in South Salt Lake since 1990. We've replaced timing belts on every make and model that uses them, and we know which components make sense to combine based on the engine design and the vehicle's mileage. We explain the options, give you the information to decide, and don't push a blanket recommendation to replace everything accessible.",
         "When you bring your vehicle in, you get a complete assessment of the belt system and related components, a written estimate before any work starts, and timing verified after the job is done. The goal is a service done right the first time, with no return visit for a tensioner or water pump that should have been included."
