@@ -306,8 +306,15 @@
     <div class="issues-grid">
       <% brandContent.issues.forEach(issue => { %>
       <div class="issue-card">
+        <% if (issue.href) { %>
+        <h3><a href="<%= issue.href %>" class="issue-link"><%= issue.t %></a></h3>
+        <% } else { %>
         <h3><%= issue.t %></h3>
+        <% } %>
         <p><%= issue.d %></p>
+        <% if (issue.href) { %>
+        <a href="<%= issue.href %>" class="card-link-sm">Learn more →</a>
+        <% } %>
       </div>
       <% }) %>
     </div>
