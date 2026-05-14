@@ -219,6 +219,51 @@
 </section>
 <% } %>
 
+<!-- ── Other services for this city ───────────────────────────────────────── -->
+<% var otherCityServices = allServiceGeoPages.filter(function(p){ return p.citySlug === geo.citySlug && p.serviceKey !== geo.serviceKey; }); %>
+<% var clutchCityGeo = allGeoPages.find(function(p){ return p.citySlug === geo.citySlug; }); %>
+<% if (otherCityServices.length || clutchCityGeo) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>More Auto Repair Services Near <%= geo.locationName %></h2>
+    <p>We handle the full range of mechanical repairs for <%= geo.locationName %> drivers — same shop, same mechanic, same honest diagnosis.</p>
+    <div class="locations-grid-compact mt-6">
+      <% if (clutchCityGeo) { %>
+      <a href="/services/<%= clutchCityGeo.slug %>" class="location-tag">
+        <strong>Clutch Repair</strong>
+        <span>Near <%= geo.locationName %></span>
+      </a>
+      <% } %>
+      <% otherCityServices.forEach(function(p){ %>
+      <a href="/services/<%= p.slug %>" class="location-tag">
+        <strong><%= p.serviceName %></strong>
+        <span>Near <%= geo.locationName %></span>
+      </a>
+      <% }); %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<!-- ── Same service near other cities ────────────────────────────────────── -->
+<% var otherCities = allServiceGeoPages.filter(function(p){ return p.serviceKey === geo.serviceKey && p.citySlug !== geo.citySlug; }); %>
+<% if (otherCities.length) { %>
+<section class="content-section">
+  <div class="container">
+    <h2><%= geo.serviceFullName %> Near Other Salt Lake Valley Cities</h2>
+    <p>We serve all of the Salt Lake Valley from our South Salt Lake shop — one location, every city.</p>
+    <div class="locations-grid-compact mt-6">
+      <% otherCities.forEach(function(p){ %>
+      <a href="/services/<%= p.slug %>" class="location-tag">
+        <strong><%= p.locationName %>, UT</strong>
+        <span><%= p.distance %> · <%= p.driveTime %></span>
+      </a>
+      <% }); %>
+    </div>
+  </div>
+</section>
+<% } %>
+
 <%- include('partials/testimonials') %>
 
 <% var faqAlt = true; %>

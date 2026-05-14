@@ -186,12 +186,12 @@
     <% } else { %>
     <div class="locations-grid-compact mt-8">
       <% var _serviceBase = service.slug.replace(/-near-south-salt-lake-ut$/, ''); %>
-      <% allLocations.forEach(l => { %>
+      <% allLocations.filter(l => !l.isHome).forEach(l => { %>
       <% var _citySlug = l.slug.replace(/-ut-auto-repair$/, ''); %>
       <% var _geoHref = '/services/' + _serviceBase + '-near-' + _citySlug + '-ut'; %>
       <a href="<%= _geoHref %>" class="location-tag">
         <strong><%= l.name %>, UT</strong>
-        <span><%= l.isHome ? 'Our Location' : l.driveTime + ' away' %></span>
+        <span><%= l.driveTime %> away</span>
       </a>
       <% }) %>
     </div>

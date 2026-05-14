@@ -137,6 +137,7 @@ app.use((req, res, next) => {
   res.locals.allSymptoms = symptoms;
   res.locals.allVehicleBrands = vehicleBrands;
   res.locals.allGeoPages = geoPages;
+  res.locals.allServiceGeoPages = serviceGeoPages;
 
   const usedTerms = new Set();
   res.locals.linkifyServices = (text) => {
