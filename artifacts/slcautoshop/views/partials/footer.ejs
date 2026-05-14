@@ -56,6 +56,9 @@
       </div>
 
       <div class="footer-bottom">
+        <div class="footer-perks">
+          <% site.perks.forEach(function(p){ %><span>&#10003; <%= p %></span><% }); %>
+        </div>
         <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call Now: <%= site.phone %></a>
         <div class="footer-links">
           <a href="/about">About Us</a> |

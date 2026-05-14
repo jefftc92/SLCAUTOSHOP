@@ -2,6 +2,9 @@
   <div class="container">
     <h2><%= typeof ctaTitle !== 'undefined' ? ctaTitle : 'Ready for Quality Auto Repair?' %></h2>
     <p><%= typeof ctaDesc !== 'undefined' ? ctaDesc : "Contact Scott's Auto & Clutch Repair today for honest service and expert repairs." %></p>
+    <ul class="cta-perks">
+      <% site.perks.forEach(function(p){ %><li><%= p %></li><% }); %>
+    </ul>
     <div class="cta-buttons">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>

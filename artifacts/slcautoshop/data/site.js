@@ -21,6 +21,13 @@ module.exports = {
   footerLogo: "/assets/scotts-logo.svg",
   heroImage: "/images/hero.webp",
   symptomsHeroImage: "/images/symptoms-hero.webp",
+  perks: [
+    "Free Estimates",
+    "Competitive Pricing",
+    "Same or Next Day Service",
+    "2-Year Parts & Labor Warranty",
+    "Free Towing on Repairs Over $1,000"
+  ],
   testimonials: [
     {
       quote: "Scott is a very straightforward, no nonsense guy. We had to get the calipers fixed on our car, and Scott offered the best rates in the area. The service was also pretty quick.",
