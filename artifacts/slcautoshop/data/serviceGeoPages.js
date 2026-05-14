@@ -6,69 +6,178 @@ const CITIES = [
   {
     slug: 'sugar-house', name: 'Sugar House', distance: '3 miles', driveTime: '5 min',
     directions: 'Head south on Highland Drive (1300 East) from Sugar House into South Salt Lake. Turn right on Crystal Ave — our shop is on the right side of the street. About 5 minutes in normal daytime traffic.',
-    logisticsNote: 'Most Sugar House customers drop the car in the morning and pick it up the same day. We open at 8 AM, and diagnoses are typically done within a couple of hours. If you\'d rather not sit at the shop, Uber and Lyft run consistently from our lot — the ride back to Sugar House is usually under $10 and about 5 minutes. Call ahead and we\'ll have your intake ready when you arrive.'
+    landmarks: [
+      { name: '2100 South & Highland Drive', distance: '2 min north', tip: 'The intersection where the I-80 on-ramp meets Highland Drive — head south from here and our shop is 3 minutes ahead on the right at Crystal Ave.' },
+      { name: 'Sprouts Farmers Market — 2750 S Highland Drive', distance: '0.5 miles from shop', tip: 'A recognizable stop on the drive south from Sugar House. When you see Sprouts on your right heading toward South Salt Lake, Crystal Ave is the next left. We\'re halfway down the block on the right.' },
+      { name: 'State Street & Crystal Ave', distance: '0.1 miles east', tip: 'The intersection at the east end of our block. If you overshoot Crystal Ave heading south on Highland Drive, you can also come west on 3300 South to State Street, then turn right on Crystal Ave — we\'re half a block west.' }
+    ],
+    logisticsNote: 'Most Sugar House customers drop the car in the morning and pick it up the same day. We open at 8 AM, and diagnoses are typically done within a couple of hours. If you\'d rather not sit at the shop, Uber and Lyft run consistently from our lot — the ride back to Sugar House is usually under $10 and about 5 minutes. Call ahead and we\'ll have your intake ready when you arrive.',
+    processNote: 'For Sugar House customers, most jobs are completed the same day — drop off at 8 AM and pick up before close.'
   },
   {
     slug: 'millcreek', name: 'Millcreek', distance: '3 miles', driveTime: '7 min',
-    directions: 'Take 3300 South west to Highland Drive, then head south briefly and turn left on Crystal Ave. We\'re on the right side of Crystal Ave. About 7 minutes from central Millcreek in light traffic.'
+    directions: 'Take 3300 South west to Highland Drive, then head south briefly and turn left on Crystal Ave. We\'re on the right side of Crystal Ave. About 7 minutes from central Millcreek in light traffic.',
+    landmarks: [
+      { name: 'Wheeler Historic Farm — 6351 S 900 E', distance: '2 min east of route', tip: 'A recognizable Millcreek landmark near the 3300 South corridor. From here, head west on 3300 South, then turn right on Highland Drive and follow it north — Crystal Ave is about 2 miles up on your left.' },
+      { name: '3300 South & Highland Drive (1300 East)', distance: '3 min from shop', tip: 'The main turn heading north toward our shop from Millcreek. Turn right on Highland Drive and stay straight — Crystal Ave is the first left after the Sugar House area. We\'re halfway down the block on the right.' },
+      { name: '3300 South & State Street', distance: '0.5 miles east of shop', tip: 'If you come west on 3300 South past State Street, you\'ve gone slightly too far. Turn right on State Street, then right again on Crystal Ave — our shop is at 144 W Crystal Ave on the right side.' }
+    ],
+    logisticsNote: 'Millcreek customers are about 7 minutes from the shop on 3300 South. Drop your car in the morning and Uber or Lyft back to Millcreek — the return ride is typically under $10 and about 10 minutes. TRAX isn\'t on this direct route, but rideshare is readily available from our lot. Call ahead and we\'ll have the paperwork ready when you arrive.',
+    processNote: 'For Millcreek customers, most jobs are done same-day — we\'ll give you an honest timeline when you call.'
   },
   {
     slug: 'murray', name: 'Murray', distance: '4 miles', driveTime: '8 min',
     directions: 'Head north on State Street from Murray into South Salt Lake. Turn left on Crystal Ave — we\'re about half a mile west of State Street on the right. About 8 minutes. TRAX Blue Line riders can board at Murray Central and ride to Central Pointe station, then walk 3 minutes east to our shop.',
-    logisticsNote: 'Murray Central TRAX Station makes the drop-off easy. Board the Red Line at Murray Central, ride north to Central Pointe Station, and walk 3 minutes east to our shop. Drop your car before work, take TRAX to your day, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day — the return ride to Murray Central is about 8 minutes.'
+    landmarks: [
+      { name: 'Murray Central TRAX Station', distance: '4 miles south', tip: 'The most practical transit option for Murray customers. Board the Red Line here and ride one stop north to Central Pointe — a 3-minute walk from our shop. Drop your car, ride TRAX to your day, pick up when we call.' },
+      { name: 'Fashion Place Mall — 6191 S State Street', distance: '4 miles south on State St', tip: 'A clear landmark on the State Street route to our shop. From Fashion Place heading north on State Street, it\'s a straight 3.5-mile drive to Crystal Ave — no turns until you reach our street.' },
+      { name: '2700 South & State Street', distance: '0.2 miles from shop', tip: 'When you see the 2700 South intersection on State Street, Crystal Ave is 2 blocks north on the left. We\'re at 144 W Crystal Ave, about half a mile west of State Street on the right side.' }
+    ],
+    logisticsNote: 'Murray Central TRAX Station makes the drop-off easy. Board the Red Line at Murray Central, ride north to Central Pointe Station, and walk 3 minutes east to our shop. Drop your car before work, take TRAX to your day, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day — the return ride to Murray Central is about 8 minutes.',
+    processNote: 'Most Murray customers drop off in the morning and pick up the same day — call ahead and we\'ll confirm timing for your specific job.'
   },
   {
     slug: 'salt-lake-city', name: 'Salt Lake City', distance: '4 miles', driveTime: '10 min',
     directions: 'Take Highland Drive south from Salt Lake City into South Salt Lake. Turn left on Crystal Ave — we\'re on the right side of the street. About 10 minutes depending on your starting point. Central Pointe TRAX station is a 3-minute walk from our shop.',
-    logisticsNote: 'TRAX makes this the easiest commute for Salt Lake City customers. Take the Red or Blue Line to Central Pointe Station and walk 3 minutes east to 144 W Crystal Ave — no rideshare needed. Drop your car at 8 AM, ride TRAX back to downtown or the Avenues, and we\'ll call when the diagnosis is ready. Driving from the Avenues or Capitol Hill? Take State Street south, cross under I-80, and Crystal Ave is the second major left — about 1 mile past the freeway. Uber and Lyft are available from our location throughout business hours.'
+    landmarks: [
+      { name: 'Central Pointe TRAX Station — 900 W / 2100 S', distance: '0.3 miles from shop', tip: 'The closest TRAX stop to our shop. Both the Red and Blue Lines stop here. Walk 3 minutes east on 2100 South, then right on Crystal Ave — we\'re halfway down the block on the left at 144 W Crystal Ave.' },
+      { name: 'I-80 Overpass on State Street', distance: '1 mile north of shop', tip: 'A clear route marker on State Street heading south from downtown. Once you cross under I-80, you\'re 1 mile from our turn. Stay on State Street and turn right on Crystal Ave — we\'re on the left side.' },
+      { name: 'Liberty Park — 1300 S / 700 E', distance: '2 miles north of shop', tip: 'A well-known SLC landmark for Avenues and east-side drivers. Heading south from Liberty Park on State Street or Highland Drive connects directly to the route to our shop. Crystal Ave is about 2 miles south of the park.' }
+    ],
+    logisticsNote: 'TRAX makes this the easiest commute for Salt Lake City customers. Take the Red or Blue Line to Central Pointe Station and walk 3 minutes east to 144 W Crystal Ave — no rideshare needed. Drop your car at 8 AM, ride TRAX back to downtown or the Avenues, and we\'ll call when the diagnosis is ready. Driving from the Avenues or Capitol Hill? Take State Street south, cross under I-80, and Crystal Ave is the second major left — about 1 mile past the freeway. Uber and Lyft are available from our location throughout business hours.',
+    processNote: 'Salt Lake City customers can drop off early and take TRAX or a rideshare back — most jobs are done same-day. Call ahead so we can let you know about your specific vehicle.'
   },
   {
     slug: 'taylorsville', name: 'Taylorsville', distance: '5 miles', driveTime: '10 min',
-    directions: 'Take 4700 South east to Highland Drive, then head north on Highland Drive to Crystal Ave and turn right. Alternatively, take I-215 east to I-15 north, exit at 2700 South, and head east to Crystal Ave. About 10 minutes from central Taylorsville.'
+    directions: 'Take 4700 South east to Highland Drive, then head north on Highland Drive to Crystal Ave and turn right. Alternatively, take I-215 east to I-15 north, exit at 2700 South, and head east to Crystal Ave. About 10 minutes from central Taylorsville.',
+    landmarks: [
+      { name: '4700 South & Redwood Road — Taylorsville', distance: '5 min west of State Street', tip: 'The main intersection on the route east from central Taylorsville. Head east on 4700 South from Redwood Road and continue to State Street — turn left (north) and our shop is about 2 miles ahead. About 10 minutes from central Taylorsville.' },
+      { name: '4700 South & State Street', distance: '3 min from shop', tip: 'The main turn coming from Taylorsville. After turning north on State Street from 4700 South, our shop is about 2 miles straight ahead. Crystal Ave will be on your right — we\'re at 144 W Crystal Ave.' },
+      { name: '2700 South & State Street', distance: '2 blocks from shop', tip: 'When you see the 2700 South light on State Street heading north, Crystal Ave is just 2 blocks ahead on the right. If you take I-15, exit at 2700 South and head east — Crystal Ave is the first major right.' }
+    ],
+    logisticsNote: 'Taylorsville customers are about 10 minutes from the shop via 4700 South or I-215. Drop your car in the morning and Uber or Lyft back — the return ride to central Taylorsville is typically under 15 minutes. TRAX isn\'t directly on this route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
+    processNote: 'Most Taylorsville customers drop off at 8 AM and pick up same day — the 4700 South route takes about 10 minutes each way.'
   },
   {
     slug: 'west-valley-city', name: 'West Valley City', distance: '7 miles', driveTime: '12 min',
-    directions: 'Take 3500 South east to I-215 east, then I-15 north. Exit at 2700 South in South Salt Lake and head east. Crystal Ave is about a mile east of the freeway. About 12 minutes in moderate traffic.'
+    directions: 'Take 3500 South east to I-215 east, then I-15 north. Exit at 2700 South in South Salt Lake and head east. Crystal Ave is about a mile east of the freeway. About 12 minutes in moderate traffic.',
+    landmarks: [
+      { name: 'USANA Amphitheatre — 5150 Upper 5 Mile Creek Rd', distance: '3 miles west of route', tip: 'A major West Valley City landmark near the 3500 South corridor. From the amphitheatre area, head east on 3500 South past Redwood Road and continue to State Street — our shop is about 10 minutes from here.' },
+      { name: '3500 South & State Street', distance: '2 min from shop', tip: 'The main junction coming east from West Valley City. Turn north on State Street from 3500 South, then turn left on Crystal Ave almost immediately — we\'re halfway down the block at 144 W Crystal Ave.' },
+      { name: '2700 South & State Street', distance: '0.2 miles from shop', tip: 'An alternative landmark if you take I-15 from West Valley. Exit at 2700 South, head east to State Street, then continue south 2 blocks to Crystal Ave and turn right — our shop is on the right side.' }
+    ],
+    logisticsNote: 'West Valley City customers are about 12 minutes away via 3500 South or I-215. Drop your car in the morning and Uber or Lyft back — the return ride to West Valley is typically under 15 minutes. TRAX isn\'t directly on this route, but rideshare is readily available from our lot. Call ahead and we\'ll have the paperwork ready when you arrive.',
+    processNote: 'Most West Valley City customers drop off in the morning and pick up same day. The 3500 South route to our shop takes about 12 minutes.'
   },
   {
     slug: 'holladay', name: 'Holladay', distance: '5 miles', driveTime: '9 min',
-    directions: 'Take Highland Drive north from Holladay through Sugar House into South Salt Lake. Turn right on Crystal Ave — we\'re on the right side of the street. About 9 minutes in normal daytime traffic.'
+    directions: 'Take Highland Drive north from Holladay through Sugar House into South Salt Lake. Turn right on Crystal Ave — we\'re on the right side of the street. About 9 minutes in normal daytime traffic.',
+    landmarks: [
+      { name: '4500 South & Highland Drive', distance: '4 min from shop', tip: 'The main Holladay arterial on the Highland Drive route north. Stay straight on Highland Drive from here — it continues through Murray, into Sugar House, and becomes 1300 East heading toward our shop. Crystal Ave is the left turn just before 2100 South.' },
+      { name: 'Holladay–Murray border on Highland Drive', distance: '3 min from shop', tip: 'As you cross from Holladay into Murray on Highland Drive, you\'re about halfway to our shop. Keep heading north — the road becomes more commercial as you approach Sugar House, and Crystal Ave is about 3 minutes ahead on your left.' },
+      { name: '2100 South & Highland Drive (Sugar House area)', distance: '1 min from shop', tip: 'The well-known Sugar House intersection. From here, turn left on Crystal Ave — we\'re less than a minute ahead on the right at 144 W Crystal Ave. Most Holladay drivers use this as their final landmark.' }
+    ],
+    logisticsNote: 'Holladay customers are about 9 minutes from the shop on Highland Drive. Drop your car in the morning and Uber or Lyft back — the return ride to Holladay is typically under 15 minutes. TRAX isn\'t on this direct route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
+    processNote: 'Holladay customers are about 9 minutes away — most jobs are finished same day. Call ahead so we can confirm timing for your vehicle.'
   },
   {
     slug: 'cottonwood-heights', name: 'Cottonwood Heights', distance: '6 miles', driveTime: '10 min',
-    directions: 'Take Fort Union Blvd west to Highland Drive, then head north on Highland Drive through Holladay and Sugar House into South Salt Lake. Turn left on Crystal Ave — we\'re on the right. About 10 minutes on all surface roads.'
+    directions: 'Take Fort Union Blvd west to Highland Drive, then head north on Highland Drive through Holladay and Sugar House into South Salt Lake. Turn left on Crystal Ave — we\'re on the right. About 10 minutes on all surface roads.',
+    landmarks: [
+      { name: 'Big Cottonwood Canyon Rd & Wasatch Blvd', distance: '5 min southeast of route', tip: 'The canyon entrance for Cottonwood Heights drivers heading to Brighton or Solitude. Head west on Big Cottonwood Canyon Rd to Highland Drive — from here it\'s a straight shot north through Holladay to our shop.' },
+      { name: 'Fort Union Blvd & Highland Drive', distance: '4 min from shop', tip: 'The main turn heading north toward our shop. Take Highland Drive north from Fort Union through Holladay and Sugar House — Crystal Ave is about 4 miles ahead on the left. One turn, no freeway.' },
+      { name: '3300 South & Highland Drive', distance: '2 min from shop', tip: 'A midpoint landmark heading north on Highland Drive. From here, our shop is about 2 more minutes — continue north to Crystal Ave and turn left. We\'re halfway down the block on the right at 144 W Crystal Ave.' }
+    ],
+    logisticsNote: 'Cottonwood Heights customers are about 10 minutes from the shop on Highland Drive. Drop your car in the morning and Uber or Lyft back — the return ride to Cottonwood Heights is typically under 15 minutes. TRAX isn\'t on this route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll confirm timing before you arrive.',
+    processNote: 'Cottonwood Heights customers heading up for a canyon trip can drop off on the way out and pick up on the return — most jobs are done same-day.'
   },
   {
     slug: 'sandy', name: 'Sandy', distance: '8 miles', driveTime: '12 min',
-    directions: 'Take I-15 north from Sandy approximately 8 miles and exit at 2700 South in South Salt Lake. Head east to Crystal Ave and turn right — we\'re on the left side of the street. About 12 minutes outside peak hours. TRAX Blue Line riders can board at Sandy Civic Center and ride to Central Pointe station.'
+    directions: 'Take I-15 north from Sandy approximately 8 miles and exit at 2700 South in South Salt Lake. Head east to Crystal Ave and turn right — we\'re on the left side of the street. About 12 minutes outside peak hours. TRAX Blue Line riders can board at Sandy Civic Center and ride to Central Pointe station.',
+    landmarks: [
+      { name: 'Sandy Civic Center TRAX Station — 8680 S State Street', distance: '8 miles south', tip: 'The most convenient Blue Line station for Sandy customers using transit. Board here heading north and ride to Central Pointe Station — a 3-minute walk from our shop at 144 W Crystal Ave. Drop your car, ride TRAX, pick up when we call.' },
+      { name: '10600 South & I-15 interchange', distance: '6 miles south of shop', tip: 'The main freeway entry for most Sandy drivers. Head north on I-15 from here — it\'s a straight 6-mile run to the 2700 South exit. From the exit, head east about a mile and turn right on Crystal Ave.' },
+      { name: 'Central Pointe TRAX Station — 900 W / 2100 S', distance: '0.3 miles from shop', tip: 'The arrival station for Sandy TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we\'re halfway down the block at 144 W Crystal Ave. Both the Red and Blue Lines stop here.' }
+    ],
+    logisticsNote: 'Sandy customers can take the TRAX Blue Line to make drop-off and pickup easy. Board at Sandy Civic Center or Sandy Expo, ride north to Central Pointe Station, and walk 3 minutes to our shop at 144 W Crystal Ave. Drop your car in the morning, ride TRAX to work or wherever you need to be, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day for the return trip to Sandy.',
+    processNote: 'Sandy customers on TRAX can drop off, ride to work, and pick up the same afternoon — call ahead so we can confirm your job timing.'
   },
   {
     slug: 'draper', name: 'Draper', distance: '12 miles', driveTime: '15 min',
-    directions: 'Take I-15 north from Draper approximately 12 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave — we\'re on the left side. About 15 minutes outside rush hour. TRAX Blue Line riders can board at Draper Town Center and ride north to Central Pointe station.'
+    directions: 'Take I-15 north from Draper approximately 12 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave — we\'re on the left side. About 15 minutes outside rush hour. TRAX Blue Line riders can board at Draper Town Center and ride north to Central Pointe station.',
+    landmarks: [
+      { name: 'Draper Town Center TRAX Station — 11400 S Bangeter Hwy', distance: '12 miles south', tip: 'The most convenient Blue Line station for Draper customers using transit. Board here and ride north to Central Pointe — a 3-minute walk from our shop. Drop your car, ride TRAX, pick up when we call.' },
+      { name: 'Point of the Mountain — I-15 grade at the SL/Utah County line', distance: '9 miles south of shop', tip: 'The steep I-15 grade between Salt Lake and Utah counties. Once you crest the summit heading north, our exit is about 9 miles ahead.' },
+      { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop. Exit at 2700 South heading east, and Crystal Ave is about a mile from the freeway on the right. We\'re at 144 W Crystal Ave, on the left side of the block.' }
+    ],
+    logisticsNote: 'Draper customers can take the TRAX Blue Line to simplify drop-off. Board at Draper Town Center or Kimball Lane, ride north to Central Pointe Station, and walk 3 minutes east to our shop at 144 W Crystal Ave. Drop your car in the morning, take TRAX back to Draper or wherever you need to be, and we\'ll call when the job is ready. Uber and Lyft are also available from our lot throughout the day.',
+    processNote: 'Draper customers making the 15-minute drive can drop off at 8 AM — most jobs are done by afternoon. Call ahead so we can give you an accurate time estimate.'
   },
   {
     slug: 'west-jordan', name: 'West Jordan', distance: '8 miles', driveTime: '12 min',
-    directions: 'Take Redwood Road north to 5400 South east, then head to State Street north. Turn left on Crystal Ave — we\'re about half a mile west of State Street on the right. About 12 minutes from central West Jordan in light traffic.'
+    directions: 'Take Redwood Road north to 5400 South east, then head to State Street north. Turn left on Crystal Ave — we\'re about half a mile west of State Street on the right. About 12 minutes from central West Jordan in light traffic.',
+    landmarks: [
+      { name: '7800 South commercial area — Redwood Road corridor', distance: '5 miles south of shop', tip: 'The main West Jordan commercial area. Head north on Redwood Road from here to the UT-201 connector, then east to I-15 — it\'s a quick merge onto the freeway heading north to our 2700 South exit.' },
+      { name: '5400 South & State Street', distance: '3 miles south of shop', tip: 'An alternate route from West Jordan. Turn north on State Street from 5400 South and stay straight for about 2.5 miles — Crystal Ave will be on your left just past the 2700 South light. We\'re halfway down the block.' },
+      { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The freeway exit if you take the Redwood Road / UT-201 route. Head east from the exit and turn right on Crystal Ave — our shop is at 144 W Crystal Ave on the left side of the block.' }
+    ],
+    logisticsNote: 'West Jordan customers are about 12 minutes from the shop via Redwood Road or I-15. Drop your car in the morning and Uber or Lyft back — the return ride to West Jordan is typically under 15 minutes. TRAX isn\'t directly on this route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
+    processNote: 'Most West Jordan customers drop off in the morning and pick up the same day — a 12-minute freeway trip each way.'
   },
   {
     slug: 'south-jordan', name: 'South Jordan', distance: '10 miles', driveTime: '14 min',
-    directions: 'Take I-15 north from South Jordan approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave — we\'re on the left side. About 14 minutes by freeway. Daybreak TRAX riders can board at Daybreak Parkway and ride north to Central Pointe station.'
+    directions: 'Take I-15 north from South Jordan approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave — we\'re on the left side. About 14 minutes by freeway. Daybreak TRAX riders can board at Daybreak Parkway and ride north to Central Pointe station.',
+    landmarks: [
+      { name: 'Daybreak Parkway TRAX Station', distance: '10 miles south', tip: 'The Blue Line station for Daybreak customers using transit. Board here and ride north to Central Pointe — a 3-minute walk from our shop at 144 W Crystal Ave. Drop your car in the morning and pick it up after work.' },
+      { name: 'Bangerter Highway & I-15 interchange', distance: '8 miles south of shop', tip: 'The main freeway junction for most South Jordan drivers. Head north on I-15 from here — it\'s about 8 miles to the 2700 South exit for our shop. The drive is mostly open freeway and takes about 10 minutes.' },
+      { name: 'Central Pointe TRAX Station — 900 W / 2100 S', distance: '0.3 miles from shop', tip: 'The arrival station for South Jordan TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we\'re halfway down the block at 144 W Crystal Ave. Both Red and Blue Lines stop here.' }
+    ],
+    logisticsNote: 'South Jordan and Daybreak customers can take the TRAX Blue Line to simplify drop-off. Board at Daybreak Parkway station, ride north to Central Pointe Station, and walk 3 minutes east to our shop at 144 W Crystal Ave. Drop your car in the morning, ride TRAX to work, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day for the return trip to South Jordan.',
+    processNote: 'South Jordan customers can drop off and ride TRAX to work from Daybreak — most jobs are done same day. Call ahead to confirm.'
   },
   {
     slug: 'riverton', name: 'Riverton', distance: '12 miles', driveTime: '16 min',
-    directions: 'Take Bangerter Highway east from Riverton to I-15 north. Head north approximately 8 miles and exit at 2700 South in South Salt Lake. Turn east and find Crystal Ave on the right — our shop is on the left side. About 16 minutes, mostly freeway.'
+    directions: 'Take Bangerter Highway east from Riverton to I-15 north. Head north approximately 8 miles and exit at 2700 South in South Salt Lake. Turn east and find Crystal Ave on the right — our shop is on the left side. About 16 minutes, mostly freeway.',
+    landmarks: [
+      { name: 'Riverton Town Center area — 12200 S Redwood Rd', distance: '12 miles south of shop', tip: 'The main commercial area near central Riverton. Head east toward Bangerter Highway, then north to I-15 — from here the freeway run to our 2700 South exit takes about 10 minutes in light traffic.' },
+      { name: 'Bangerter Highway & Mountain View Corridor junction', distance: '10 miles south of shop', tip: 'The key starting point for the freeway leg north. Head east on Bangerter to I-15, then north on I-15 for about 8 miles to the 2700 South exit. Most Riverton customers use this route.' },
+      { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop coming from Riverton. Head east from the exit and turn right on Crystal Ave — our shop is at 144 W Crystal Ave on the left side of the block.' }
+    ],
+    logisticsNote: 'Riverton customers are about 16 minutes from the shop, mostly on I-15. Drop your car in the morning and Uber or Lyft back — the return ride to Riverton is typically under 20 minutes. TRAX isn\'t directly convenient from Riverton, but rideshare is available from our lot throughout the day. Many Riverton customers drop off early and arrange a same-day pickup — call ahead to confirm timing.',
+    processNote: 'Riverton customers making the 16-minute drive can drop off at 8 AM and pick up same day on most jobs — call ahead to confirm timing.'
   },
   {
     slug: 'herriman', name: 'Herriman', distance: '15 miles', driveTime: '20 min',
-    directions: 'Take Mountain View Corridor north from Herriman to I-15, then north approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave. About 20 minutes, mostly freeway. We open at 8 AM — many Herriman customers drop off early and arrange same-day pickup.'
+    directions: 'Take Mountain View Corridor north from Herriman to I-15, then north approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave. About 20 minutes, mostly freeway. We open at 8 AM — many Herriman customers drop off early and arrange same-day pickup.',
+    landmarks: [
+      { name: 'Mountain View Corridor north entrance — Herriman area', distance: '15 miles south of shop', tip: 'The main route heading north from Herriman. Take Mountain View Corridor north until it connects with I-15 — from the freeway junction it\'s about 10 miles to our 2700 South exit in South Salt Lake.' },
+      { name: '5400 South interchange off I-15', distance: '5 miles south of shop', tip: 'A useful midpoint landmark on the I-15 run north from Herriman. From here, our exit is just 3 more miles — continue to 2700 South, then head east about a mile to Crystal Ave and turn right.' },
+      { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop. Exit here and head east — Crystal Ave is about a mile from the freeway on the right. We\'re at 144 W Crystal Ave on the left side of the block.' }
+    ],
+    logisticsNote: 'Herriman customers are about 20 minutes from the shop on Mountain View Corridor and I-15. Drop your car in the morning and Uber or Lyft back — the return ride to Herriman is typically under 25 minutes. TRAX isn\'t convenient from Herriman, but rideshare is available from our lot throughout the day. Call ahead so we can confirm timing and have the intake ready when you arrive.',
+    processNote: 'Herriman customers making the 20-minute drive can drop off at 8 AM and pick up same day on most jobs — call ahead to confirm timing.'
   },
   {
     slug: 'kearns', name: 'Kearns', distance: '7 miles', driveTime: '12 min',
-    directions: 'Take 5400 South east from Kearns to State Street. Turn left (north) on State Street and head about 1.5 miles into South Salt Lake. Turn left on Crystal Ave — we\'re half a mile west of State Street on the right side. About 12 minutes from central Kearns.'
+    directions: 'Take 5400 South east from Kearns to State Street. Turn left (north) on State Street and head about 1.5 miles into South Salt Lake. Turn left on Crystal Ave — we\'re half a mile west of State Street on the right side. About 12 minutes from central Kearns.',
+    landmarks: [
+      { name: 'Utah Olympic Oval — 5662 Cougar Lane', distance: '2 miles east of central Kearns', tip: 'A well-known Kearns landmark near the 5400 South route east. From the Oval, continue east on 5400 South to State Street — our shop is 1.5 miles north on State Street, then left on Crystal Ave.' },
+      { name: '5400 South & State Street', distance: '3 min from shop', tip: 'The main junction coming east from Kearns. Turn north on State Street from 5400 South and continue 1.5 miles — Crystal Ave is on the left. We\'re halfway down the block at 144 W Crystal Ave.' },
+      { name: '2700 South & State Street', distance: '2 blocks from shop', tip: 'If you take the freeway route (4700 South east to I-15 north), exit at 2700 South and head east to State Street — Crystal Ave is 2 blocks south on State Street, then turn right. We\'re at 144 W Crystal Ave.' }
+    ],
+    logisticsNote: 'Kearns customers are about 12 minutes from the shop via 5400 South. Drop your car in the morning and Uber or Lyft back — the return ride to Kearns is typically under 15 minutes. TRAX isn\'t on this direct route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
+    processNote: 'Kearns customers are about 12 minutes away — drop off in the morning and most jobs are done by afternoon.'
   },
   {
     slug: 'midvale', name: 'Midvale', distance: '5 miles', driveTime: '8 min',
-    directions: 'Head north on State Street from Midvale — it\'s a straight 5-mile shot into South Salt Lake with no turns required until you reach Crystal Ave on your left. Turn left and our shop is on the right. About 8 minutes in light traffic. TRAX Blue Line riders can board at Midvale Center and ride to Central Pointe station — a 3-minute walk to our door.'
+    directions: 'Head north on State Street from Midvale — it\'s a straight 5-mile shot into South Salt Lake with no turns required until you reach Crystal Ave on your left. Turn left and our shop is on the right. About 8 minutes in light traffic. TRAX Blue Line riders can board at Midvale Center and ride to Central Pointe station — a 3-minute walk to our door.',
+    landmarks: [
+      { name: 'Midvale Center TRAX Station — 7200 S State Street', distance: '5 miles south of shop', tip: 'The most convenient Blue Line stop for Midvale transit customers. Board here heading north and ride to Central Pointe Station — a 3-minute walk from our shop at 144 W Crystal Ave. Drop your car, ride TRAX, pick up same day.' },
+      { name: '7200 South & State Street', distance: '4 miles south of shop', tip: 'The main Midvale commercial intersection on State Street. From here, head straight north on State Street for 4 miles with no turns — Crystal Ave is on your left just past the 2700 South light. We\'re halfway down the block.' },
+      { name: 'Central Pointe TRAX Station — 900 W / 2100 S', distance: '0.3 miles from shop', tip: 'The arrival station for Midvale TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we\'re at 144 W Crystal Ave on the right. Midvale is the closest community to this station via State Street.' }
+    ],
+    logisticsNote: 'Midvale customers can take the TRAX Blue Line — board at Midvale Center and ride north to Central Pointe Station, then walk 3 minutes east to our shop at 144 W Crystal Ave. Drop your car in the morning, ride TRAX to work or wherever you need to be, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day for the return trip to Midvale.',
+    processNote: 'Midvale customers are 8 minutes away — the closest TRAX-accessible shop in the valley. Most jobs are done same day.'
   }
 ];
 
@@ -1450,7 +1559,8 @@ Object.entries(CONTENT).forEach(([serviceKey, svc]) => {
       localTip: c.localTip,
       directions: city.directions,
       logisticsNote: city.logisticsNote || null,
-      landmarks: c.landmarks || null,
+      landmarks: city.landmarks || null,
+      processNote: city.processNote || null,
       metaTitle: tmpl.replace('{{CITY}}', city.name),
       metaDesc: normalizeDesc(c.metaDesc)
     });
