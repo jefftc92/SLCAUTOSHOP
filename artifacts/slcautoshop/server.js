@@ -93,7 +93,7 @@ app.use(helmet({
       fontSrc:        ["'self'", "https://fonts.gstatic.com"],
       imgSrc:         ["'self'", "data:", "https://raw.githubusercontent.com"],
       connectSrc:     ["'self'"],
-      frameSrc:       ["'self'", "https://www.google.com"],  // Maps embed
+      frameSrc:       ["'self'", "https://www.google.com", "https://maps.google.com"],  // Maps embed
       frameAncestors: ["'none'"],
     },
   },
