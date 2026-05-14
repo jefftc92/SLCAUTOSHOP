@@ -834,8 +834,8 @@ const services = [
     shortDesc: "Automotive welding for exhaust, frame, and suspension repairs.",
     image: "/assets/welding-400-ClOrwKIX.webp",
     heroImage: "/assets/welding-400-ClOrwKIX.webp",
-    metaTitle: "Auto Welding South Salt Lake UT | Exhaust, Frame & Custom",
-    heading: "Automotive Welding Services in South Salt Lake, UT",
+    metaTitle: "Auto Welding Salt Lake City UT | Exhaust, Frame & Custom",
+    heading: "Automotive Welding Services in Salt Lake City, UT",
     metaDesc: "Exhaust leaks, frame repair, or custom fab? Our shop handles automotive welding for all types of repairs. Call (801) 485-4089.",
     heroIntro: "Most shops don't weld. We do. That means we can repair sections that other shops would replace, and fabricate what isn't available off the shelf. Free assessment. Written estimate. No surprises.",
     intro: "",
@@ -898,7 +898,7 @@ const services = [
       { q: "Can you fabricate custom exhaust or bracket parts?", a: "Yes. We can fabricate replacement exhaust sections from stock pipe material, build custom hanger brackets, fabricate heat shields, and create mounting solutions for non-standard situations. This is typically fast and less expensive than waiting for a special-order part." }
     ],
     whoContent: {
-      heading: "Who to Trust for Automotive Welding in South Salt Lake",
+      heading: "Who to Trust for Automotive Welding in Salt Lake City",
       paras: [
         "Scott's Auto & Clutch Repair has had in-house welding capability since the early days of the shop. Most independent shops don't weld, which means they default to replacement for anything they can't bolt together. We assess the base metal first and choose the approach that gives you the better outcome, whether that's a weld repair or a replacement.",
         "When you bring your vehicle in, we look at the actual condition of the metal before quoting. If welding is the right call, we explain why and do it in-house with no wait. If it isn't, we tell you that too. Welding is a capability we use to give you more options, not to do work that isn't the right solution."
