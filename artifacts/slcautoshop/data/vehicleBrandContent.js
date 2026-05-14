@@ -12,14 +12,14 @@ const brandContent = {
       { title: "Dealer Pricing Without the Dealer", desc: "Toyota dealers in the Salt Lake area charge $150–175/hr. Our rate is meaningfully lower. Same quality parts, same level of care — without the service department markup." }
     ],
     whenContent: [
-      "Bring your Toyota in any time something feels off — a new noise, a check engine light, a softer pedal, a shift that doesn't happen the way it used to. Toyotas are reliable enough that small problems often get deferred, and by the time the issue is hard to ignore, the repair is bigger than it needed to be. Free diagnosis means there's no cost to finding out whether something needs attention now or can safely wait.",
-      "Also bring it in for routine service — oil changes, fluid checks, brake inspections, and any manufacturer-recommended interval work. For belt-equipped Toyota engines, the timing belt replacement at 90,000 miles is the one service that can't be deferred: these are interference engines, and a snapped belt destroys them with no warning."
+      "Bring your Toyota in any time something feels or sounds different — a new noise, a warning light, a brake pedal that's softer than usual, or a shift that hesitates. Toyotas are reliable enough that problems often get ignored until they're hard to miss. Catching something early almost always costs less than waiting. There's no charge to find out what's going on before any decision is made.",
+      "Routine service matters just as much. Oil changes, brake checks, and scheduled fluid services are what keep a Camry, Corolla, or Tacoma going to high mileage. If you're not sure what's due or where things stand, bring it in and we'll give you a clear picture at no cost to look."
     ],
     whoContent: {
       heading: "Who to Trust for Toyota Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. We're not a chain. We don't have quotas. The mechanic who diagnoses your Toyota is the same one who works on it, and the same one who explains the repair to you when you pick it up.",
-        "Toyota service has been part of what we do for over three decades — every model in the lineup, every era, from 1990s Camrys and Corollas to current Prius and RAV4 Hybrid. When you bring your Toyota here, you're working with people who know the platform and who'll give you a straight answer about what your vehicle actually needs."
+        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. We're not a chain. The mechanic who diagnoses your Toyota is the same one who works on it and explains the repair when you pick it up — same person, start to finish.",
+        "Toyota service has been part of what we do for over 35 years. When you bring your Toyota here, you get a straight answer about what your vehicle actually needs — not a list of services based on mileage thresholds, and not a quote from someone who hasn't looked at your specific car."
       ]
     },
     process: [
@@ -64,13 +64,13 @@ const brandContent = {
     whoContent: {
       heading: "Who to Trust for Honda Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated at the same South Salt Lake location since 1990. We're not affiliated with a chain or a franchise. The mechanic who looks at your Honda is the one who repairs it and explains it to you at pickup — there's no service advisor layer between you and the person doing the work.",
-        "Honda has been a significant part of our workload for over three decades — from late-1990s Civics with B-series engines to current CR-Vs with direct injection and turbocharged four-cylinders. Manual transmission clutch jobs, VTEC system service, and Honda-spec fluid work are things we do regularly. When you bring your Honda here, you're working with people who know the platform and give you a straight answer about what it actually needs."
+        "Scott's Auto & Clutch Repair has been independently owned and operated at the same South Salt Lake location since 1990. The mechanic who looks at your Honda is the one who repairs it and explains it to you at pickup — there's no service advisor between you and the person doing the work.",
+        "Honda has been a consistent part of our workload for over 35 years — Civics, Accords, CR-Vs, Pilots, and everything in between. When you bring your Honda here, you get a straight answer about what your car actually needs."
       ]
     },
     whenContent: [
-      "Bring your Honda in if you notice a shudder or hesitation under light throttle — on automatics, that's often degraded DW-1 ATF or, on CVT models, fluid that's been in too long. Honda transmissions are more sensitive to fluid condition than most makes, and what starts as a subtle shift quality change gets worse if the fluid isn't addressed. On manual Hondas, a vibration through the pedal or a clutch that grabs differently than it used to usually points to flywheel or clutch pack wear. These are not problems that self-correct, and catching them at the early stage costs less to fix.",
-      "Also bring it in if you smell something burning from the engine bay — on VTEC-equipped Hondas, the variable timing solenoid gaskets develop oil leaks that drip onto exhaust components. It's a common and straightforward repair, but the burning smell can become a fire risk if ignored. For Hondas with direct injection, a gradual decline in throttle response, idle smoothness, or fuel economy over 50,000–60,000 miles often means carbon buildup on the intake valves — that's a service Honda dealers rarely mention proactively, but it's the reason the car doesn't feel as crisp as it used to."
+      "Bring your Honda in if something feels or sounds off — a shudder when accelerating, a pedal or shifter that's changed, a burning smell from the engine bay, or a warning light. Honda issues often start subtle and get gradually worse. There's no charge to find out what's causing it — we diagnose before we recommend anything.",
+      "Routine service is what keeps Hondas running reliably well past 200,000 miles. If you're not sure what's due or where your vehicle stands, bring it in and we'll walk you through the current condition honestly."
     ],
     process: [
       { step: 1, title: "Tell Us What You're Experiencing", desc: "A sound, a feel, a warning light, a smell — or just a service that's due. Honda issues often present subtly at first. The more you can describe, the faster we find it." },
@@ -149,13 +149,13 @@ const brandContent = {
     whoContent: {
       heading: "Who to Trust for Ford Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated at the same South Salt Lake location since 1990. We're not a franchise. There's no service advisor between you and the mechanic — the person who diagnoses your Ford is the one who repairs it and explains the job at pickup. That's how it's worked here for over three decades.",
-        "Ford service has been a consistent part of our workload since the shop opened. We work on the full lineup — EcoBoost four-cylinder and V6 engines, the 5.0L Coyote and older 5.4L Triton V8s, PowerShift dual-clutch transmissions, and 4WD drivetrain service on F-150s and Super Dutys used for real work in Utah terrain. When your Ford comes in, you're working with people who have seen the failure patterns and know how to fix them right."
+        "Scott's Auto & Clutch Repair has been independently owned and operated at the same South Salt Lake location since 1990. There's no service advisor between you and the mechanic — the person who diagnoses your Ford is the one who repairs it and walks you through the job at pickup.",
+        "Ford has been a big part of our workload since the shop opened — trucks, Mustangs, SUVs, and the full lineup. We give you a straight answer about what your vehicle actually needs and what can safely wait."
       ]
     },
     whenContent: [
-      "Bring your Ford in if you notice a burning smell at highway speed or after a hard pull up a canyon grade — turbocharged engines are oil-cooled, and a slow leak onto a hot turbo housing creates a smell before it creates a visible problem. Also pay attention to any ticking from the exhaust when the engine is cold: on turbocharged and V8 Ford models, that's often an exhaust manifold issue that loads the surrounding hardware unevenly over time. Utah winters accelerate corrosion on exposed steel, which makes the repair harder the longer it runs.",
-      "If your Ford has a light-throttle shudder that feels like rumble strips at moderate highway speeds, bring it in — that's a transmission or torque converter behavior pattern that's worth diagnosing early rather than after it worsens. On manual-transmission Fords, a clutch pedal that's getting spongy or slowly dropping to the floor usually means the hydraulic slave cylinder is failing internally. It won't recover on its own, and a complete failure means you can't disengage the clutch while driving. Catching it at the spongy stage keeps the repair straightforward."
+      "Bring your Ford in if you notice a burning smell, a new tick or knock from the engine, a shift that doesn't feel right, or a clutch pedal that's getting soft. Utah's canyon driving puts real demands on Ford trucks and SUVs — these symptoms are worth diagnosing early rather than watching get worse. Free diagnosis before any recommendation.",
+      "If you tow or haul regularly on Utah's mountain grades, your truck works harder than most factory service schedules assume. Bring it in and we'll give you an honest picture of where things stand — at no cost to look."
     ],
     process: [
       { step: 1, title: "Describe What Your Ford Is Doing", desc: "A noise, a feel, a warning light, a clutch or shift behavior that's changed. F-150 owners: tell us about towing load and how often you're on canyon grades — it affects how we read the drivetrain." },
@@ -234,13 +234,13 @@ const brandContent = {
     whoContent: {
       heading: "Who to Trust for Chevrolet Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. We're not a chain and we don't have service quotas. The mechanic who diagnoses your Chevrolet is the one who repairs it — same person from inspection through pickup. You'll talk directly to the person who touched your vehicle.",
-        "Chevrolet trucks and SUVs have been a big part of our workload for over three decades — including the AFM lifter pattern on 5.3L and 6.2L V8s, torque converter shudder on GM's modern multi-speed automatics, and the service demands of trucks that see real use on Utah's I-15 corridor, Parleys Canyon, and the Wasatch Front. We know the platform and we give you a straight answer about what your Chevy actually needs."
+        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. The mechanic who diagnoses your Chevrolet is the one who repairs it — same person from inspection through pickup. You'll talk directly to the person who touched your vehicle.",
+        "Chevrolet trucks and SUVs have been a big part of our workload for over 35 years. We know the failure patterns on these platforms and give you a straight answer about what your vehicle actually needs — no mileage-based upsell list."
       ]
     },
     whenContent: [
-      "Bring your Chevy V8 in if you hear a tick or knock at startup, especially alongside a misfire or check engine light — that's the Active Fuel Management lifter failure pattern, and it doesn't improve on its own. The longer collapsed lifters run, the more camshaft wear follows. An early diagnosis keeps the repair focused; an ignored one can take significantly more components with it. Also watch your oil consumption: engines developing this problem often burn oil at a higher rate, and the low-oil warning can appear between changes on trucks that previously went the full interval without topping off.",
-      "If your Chevrolet has a light-throttle shudder that feels like driving over a rumble strip between 25 and 55 mph, bring it in. That's a known torque converter behavior on GM's late-model automatic transmissions, and it typically has a fluid-based solution rather than a mechanical repair — catching it early keeps it that way. Also bring it in after any winter of regular driving on salted Utah roads. Undercarriage inspection catches deteriorating brake lines and transmission cooler lines before they become a safety issue, and it's far cheaper to address them before they fail than after."
+      "Bring your Chevy in if you hear a tick or knock at startup, notice you're adding more oil between changes than you used to, or feel a shudder at highway speed during light-throttle cruising. These are patterns worth diagnosing early — the longer they run, the more they can spread. Free diagnosis before any work is recommended.",
+      "Chevy truck owners: if you tow or haul regularly on Utah's mountain grades, your drivetrain works harder than factory service intervals account for. Bring it in and we'll give you an honest picture of where things actually stand."
     ],
     process: [
       { step: 1, title: "Tell Us What Your Chevy Is Doing", desc: "A tick, a shudder, a check engine light, a fluid leak, or a service overdue. For trucks that tow: tell us what load and how often — it changes the drivetrain picture." },
@@ -319,13 +319,13 @@ const brandContent = {
     whoContent: {
       heading: "Who to Trust for Subaru Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. We're not a chain. The mechanic who works on your Subaru is the same person who diagnoses it and explains it when you pick it up. No service advisor layer, no quota for sold services.",
-        "Subaru has been a regular part of our workload for decades — the EJ head gasket failure pattern, complete timing belt system service, boxer engine cooling requirements, WRX and STI clutch jobs, and the AWD drivetrain service that Utah's mountain driving demands. If you're driving an Outback from Big Cottonwood Canyon to work on I-15 every day, your drivetrain fluid intervals should reflect that use — and we'll tell you what that actually means for your specific vehicle."
+        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. The mechanic who works on your Subaru is the same person who diagnoses it and explains it when you pick it up. No service advisor, no upsell quotas.",
+        "Subaru has been a regular part of our workload for decades — Outbacks, Foresters, Imprezas, Crosstreks, and WRX models. We know the platform and give you a straight answer about what your car actually needs."
       ]
     },
     whenContent: [
-      "Bring your Subaru in if you notice any oily residue along the side of the engine block near the cylinder heads, or if coolant level is dropping without a visible puddle under the car — those are the two classic early-stage head gasket leak presentations. External seeping is repairable before it progresses to coolant mixing with oil, but the window isn't unlimited. Utah's temperature swings between winter cold and summer canyon driving cycle the aluminum heads hard, and a gasket that's weeping in spring can deteriorate significantly over a summer of mountain driving.",
-      "If your Subaru has crossed 90,000–100,000 miles and the timing belt hasn't been replaced, bring it in before driving it further. Subaru's boxer engines are interference engines — a broken timing belt contacts open valves immediately, with no warning before it happens. The water pump on most of these engines is belt-driven, which means it shares the same labor access as the timing belt. Skipping the water pump to save money on a timing belt job means potentially paying for that access twice within 20,000 miles. We do the complete service every time."
+      "Bring your Subaru in if you notice coolant level dropping without a puddle under the car, any oily residue along the side of the engine, a chirp or squeak at idle, or a shudder when accelerating. These are early signs of problems that cost less to fix when caught early. There's no charge to find out what's going on.",
+      "If your Subaru is approaching 100,000 miles and timing belt service hasn't been done yet, bring it in before driving it further. A broken belt on these engines causes serious engine damage with no warning beforehand — we'll tell you exactly where you stand."
     ],
     process: [
       { step: 1, title: "Tell Us What's Going On", desc: "An oil seep at the head, a coolant level that keeps dropping, a chirp at idle that goes away when you press the clutch, or a timing belt interval due. The more specific, the faster we find it." },
@@ -404,13 +404,13 @@ const brandContent = {
     whoContent: {
       heading: "Who to Trust for Nissan Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. The mechanic who diagnoses your Nissan is the one who repairs it and explains the job at pickup. We're not a franchise and we don't have service quotas — if your CVT fluid is still good, we tell you it's still good.",
-        "Nissan has been a consistent part of our workload for over three decades — Rogues and Pathfinders are among the most common Utah family vehicles, and Altimas are everywhere on the I-15 corridor. CVT fluid service, timing chain guide replacement on QR25 and VQ35 engines, and cooling system maintenance on vehicles that see Utah's temperature swings are services we do regularly. When your Nissan comes in, you get a straight answer about what it actually needs."
+        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. The mechanic who diagnoses your Nissan is the one who repairs it and explains the job at pickup. We're not a franchise and we don't have service quotas.",
+        "Nissan has been a consistent part of our workload for over 35 years — Rogues, Altimas, Pathfinders, Frontiers, and the full lineup. When your Nissan comes in, you get a straight answer about what it actually needs."
       ]
     },
     whenContent: [
-      "Bring your Nissan in if you feel any hesitation, jerking, or shuddering during light-throttle acceleration — that's the earliest sign that CVT fluid has degraded or that early CVT wear is developing. It does not self-correct. A fluid service addresses it in many cases when caught at the subtle stage; the same symptom ignored for another 20,000 miles can mean wear that's beyond what fluid service will fix. Nissan's factory service schedule is not aggressive enough about this interval, and deferred CVT fluid is the most common thread we see in premature transmission failures.",
-      "Bring your Nissan in for any cold-start rattle that quiets within 10–20 seconds of the engine running — that's a timing chain guide wear pattern, and oil pressure takes a moment to build at startup while a worn guide allows chain slap during that window. Catching it at the guide stage is a manageable repair; letting it run until the chain stretches or skips is a much more involved one. Also check your coolant overflow reservoir periodically — Nissan plastic tanks can crack and cause gradual coolant loss that goes unnoticed for months before a summer canyon road makes it obvious."
+      "Bring your Nissan in if you feel hesitation, jerking, or a shudder during light-throttle acceleration — these are early signs that something needs attention. They don't get better on their own, and catching them early keeps the repair smaller. Free diagnosis before any recommendation.",
+      "A rattle when you first start the engine that goes away after 10–20 seconds is also worth diagnosing sooner rather than later. Don't wait on it — bring it in and find out exactly what you're dealing with at no cost to look."
     ],
     process: [
       { step: 1, title: "Tell Us What Your Nissan Is Doing", desc: "A shudder or hesitation, a cold-start rattle, a low coolant light, or a CVT service that's overdue. CVT behavior descriptions are especially helpful — how it shudders, when it happens, at what speed." },
@@ -489,13 +489,13 @@ const brandContent = {
     whoContent: {
       heading: "Who to Trust for BMW Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated at the same South Salt Lake location since 1990. We're not a chain. The mechanic who diagnoses your BMW is the one who repairs it and explains the job at pickup — no service advisor layer, no markup on top of a markup. We use professional-grade BMW diagnostic tools that access fault code history, live sensor data, and adaptation values — the same information the dealer sees.",
-        "BMW has been a regular part of our workload for decades. The cooling system failure pattern, VANOS rattle, oil leak locations, and dual-mass flywheel wear are services we perform regularly on 3 Series, 5 Series, and X-model vehicles. If your BMW has crossed 80,000 miles and cooling system components haven't been proactively replaced, that's the conversation we'll have — because the cost difference between a planned service and an emergency overheating repair on a Utah canyon road in July is significant."
+        "Scott's Auto & Clutch Repair has been independently owned and operated at the same South Salt Lake location since 1990. The mechanic who diagnoses your BMW is the one who repairs it — no service advisor layer, no markup on top of a markup. We use professional diagnostic tools that access the same data as dealer software.",
+        "BMW has been a regular part of our workload for decades. We know the common failure patterns and give you a straight answer about what needs attention now, what can be monitored, and what's still in good shape."
       ]
     },
     whenContent: [
-      "Bring your BMW in if you see any coolant warning light, steam from the hood, or unexplained coolant loss — BMW engines overheat quickly when cooling system pressure is lost, and once the system runs dry the electric water pump provides no backup circulation. Utah summers put these systems under real load: a BMW climbing Big or Little Cottonwood Canyon in triple-digit heat with a marginal cooling system component is a roadside event waiting to happen. If your BMW is past 80,000 miles and the cooling system hasn't been proactively serviced, bring it in before summer — not during.",
-      "Bring your BMW in for a cold-start rattle that clears within 30 seconds of the engine running — that's typically variable valve timing or oil pressure-related valve train noise, and it's worth diagnosing before it progresses. Also pay attention to any burning oil smell from the engine bay: BMW oil leaks at common gasket locations drip onto exhaust components below, and what starts as a smell becomes a more urgent situation if ignored through multiple oil changes. On manual BMW models, a clutch that shudders at low-speed takeoff usually indicates dual-mass flywheel wear — we can convert to a single-mass setup at significantly lower cost than an OEM replacement."
+      "Bring your BMW in if you see any coolant warning light, notice coolant level dropping, smell burning oil from the engine bay, or hear a rattle at cold start that clears up after the engine warms. BMW engines are precision-built — when something is off, catching it early avoids the kind of repair bill that comes with ignoring it. Free diagnosis, written estimate, no work starts without your approval.",
+      "If your BMW is past 80,000 miles and hasn't had a cooling system inspection, it's worth scheduling before summer. We'll tell you honestly what's still good and what's worth replacing before it becomes a problem on the road."
     ],
     process: [
       { step: 1, title: "Describe What Your BMW Is Doing", desc: "A warning light, a cold-start rattle, an oil smell, a coolant level that's dropping, or a clutch that's changed. BMW symptoms are often predictable by mileage — tell us where yours is." },
@@ -574,13 +574,13 @@ const brandContent = {
     whoContent: {
       heading: "Who to Trust for Jeep Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. We're not a franchise, and we don't have a service advisor filtering what gets communicated to the mechanic. If you bring your Wrangler, Cherokee, Gladiator, or Grand Cherokee to us, the mechanic who diagnoses it is the one who repairs it — and the one who explains what was found when you pick it up.",
-        "Jeeps have their own personality: 4WD systems that need to be exercised and serviced, front ends that develop play after years of flex and trail abuse, differentials that pick up water in a stream crossing and need to be inspected before the contamination causes damage. We've been working with Jeep owners across the Salt Lake Valley for over three decades — people who drive these vehicles hard and want a straight answer about what they actually need."
+        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. If you bring your Jeep to us, the mechanic who diagnoses it is the one who repairs it — and the one who explains what was found when you pick it up. No service advisor, no filtered communication.",
+        "We've been working with Jeep owners across the Salt Lake Valley for over 35 years — daily drivers and trail rigs, lifted and stock. We give you a straight answer about what your Jeep actually needs."
       ]
     },
     whenContent: [
-      "Death wobble is the Jeep symptom that gets deferred longer than almost any other — a shimmy at highway speeds that comes and goes, often triggered by a bump or expansion joint. It's tempting to slow down and work around it, but death wobble is always a worn-component problem: track bar, ball joints, tie rod ends, or wheel bearings are the usual suspects, and the list grows if your Jeep has been lifted. The longer it goes unaddressed, the more wear spreads to adjacent steering components. Bring it in before a manageable front-end repair becomes a much larger job.",
-      "Jeep 4WD systems need to be serviced at regular intervals — not just when something breaks. Transfer case fluid, front and rear differential fluid, and axle seals that get submerged during a water crossing are all on the list. Differential contamination after a trail run is a common cause of gear damage that announces itself much later, after your Jeep is back in daily-driver rotation. If your Jeep has been through standing water recently — or if you can't remember when the 4WD fluids were last changed — that's a good reason to bring it in before Utah's winter season starts."
+      "Bring your Jeep in if you feel a shimmy or vibration at highway speed — it usually starts mild and gets worse with time. This is a worn-component problem in the front end that doesn't go away on its own, and the longer it runs, the more surrounding parts it affects. Free diagnosis before any recommendation.",
+      "Jeep 4WD systems also need regular fluid service — transfer case, differentials, and axle seals. If you can't remember when that was last done, or your Jeep has been through standing water recently, bring it in and let us take a look. Better to know before Utah's winter season starts."
     ],
     process: [
       { step: 1, title: "Tell Us How You Use It", desc: "Daily driver, weekend off-road, lifted or stock, Moab trips or just canyon roads. How a Jeep is used changes what we look at first. The more context you give us, the more useful the diagnosis." },
@@ -659,13 +659,13 @@ const brandContent = {
     whoContent: {
       heading: "Who to Trust for Dodge and Ram Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. We work on Dodge Chargers, Challengers, Durangos, and Ram 1500 through 2500 trucks — everything from daily-driver Rams doing I-15 commutes to performance Chargers that see canyon road use and Durangos that tow regularly on mountain grades. One mechanic handles your vehicle from diagnosis through repair.",
-        "Dodge and Ram vehicles have specific failure patterns worth knowing: the HEMI's MDS system creates collapsed lifter failures at high mileage that require either individual lifter replacement or a full MDS delete, the ZF 8-speed needs fluid service that most owners skip, and TIPM electrical faults present as intermittent no-start, fan runaway, or fuel pump issues that take real diagnostic work to trace. We know these platforms and can explain what your vehicle actually needs."
+        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. One mechanic handles your vehicle from diagnosis through repair — no service advisor layer, no upsell quota.",
+        "We work on the full Dodge and Ram lineup — Chargers, Challengers, Durangos, and Ram 1500 through 2500 trucks. We give you a straight answer about what your vehicle actually needs and what can safely wait."
       ]
     },
     whenContent: [
-      "The tick that Dodge and Ram V8 owners argue about longest before bringing it in is usually worth diagnosing sooner rather than later. A cold-start knock that's present at idle and then fades — or doesn't — is often a cylinder deactivation lifter beginning to fail, not just normal engine noise. On high-mileage V8 engines, the multi-displacement system's lifters are a known wear point. The longer a collapsed lifter runs, the more camshaft lobe damage follows. If your Dodge or Ram has been ticking for more than a few weeks, the diagnosis conversation is worth having before you're looking at a significantly larger repair.",
-      "If your Dodge does regular canyon runs between Salt Lake and Park City, check your brakes more often than you would on flat-road driving. These are heavy vehicles, and Parleys Canyon puts real thermal load on the braking system — glazed rotors and heat-fatigued brake fluid are both common results of canyon driving without regular inspection. Bring it in at the first sign of fade, longer pedal travel, or any grinding. Also watch for transmission shudder during light-throttle highway cruising: Utah's mountain grades are hard on transmission fluid, and degraded fluid shows up as shift hesitation before it becomes a more serious problem."
+      "Bring your Dodge or Ram in if you hear a tick or knock at startup that you didn't notice before, feel a shudder or hesitation on the highway, or notice your brakes are taking more pedal to stop — especially if you do regular canyon drives. These aren't sounds and feelings to wait out. Free diagnosis before any recommendation.",
+      "If your Dodge or Ram is a truck you actually use for towing or hauling, Utah's mountain grades are harder on your vehicle than most factory service schedules assume. Bring it in and we'll give you an honest picture of where things stand."
     ],
     process: [
       { step: 1, title: "Describe What You're Hearing or Feeling", desc: "A tick, a shift that hesitates, an electrical fault that comes and goes. Dodge and Ram symptoms often have specific patterns — the more detail you give us, the faster we can narrow it down." },
@@ -744,13 +744,13 @@ const brandContent = {
     whoContent: {
       heading: "Who to Trust for Hyundai Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. We're not a franchise and we don't process vehicles through a service advisor. The mechanic who diagnoses your Sonata, Tucson, Palisade, or Santa Fe is the person who repairs it and hands you the keys — same person, complete accountability.",
-        "Hyundai's Theta II 2.0L and 2.4L engines have a well-documented recall history involving connecting rod bearing failure, and many Hyundai owners across the Salt Lake Valley are in various stages of that situation — extended warranties, oil consumption tests, waiting on parts. We know the recall background and the failure pattern, and we can give you a straight answer about where your specific vehicle stands and what your options are."
+        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. The mechanic who diagnoses your Hyundai is the person who repairs it and hands you the keys — same person, complete accountability.",
+        "We know the Hyundai lineup and the failure patterns across different model years. When you bring your Hyundai here, you get a straight answer about where your specific vehicle stands — not a generic service list based on mileage."
       ]
     },
     whenContent: [
-      "Some Hyundai engines have a documented history of connecting rod bearing failure that can progress quickly from an early knock to serious damage. The warning signs are worth knowing: a knocking sound under load, unexpected oil consumption between changes, or a check engine light with a related code. If your Hyundai is past 60,000 miles and you haven't been able to confirm that any applicable recall service has been completed, it's worth having the engine inspected even if you haven't noticed anything yet. Catching it at the diagnostic stage costs a visit. Catching it late costs an engine.",
-      "Hyundai's dual-clutch transmission develops a jerky, hesitant feel at low speeds and during parking-lot maneuvering as the system wears. Many owners assume this is a transmission replacement situation; in most cases it's an actuator service that restores normal shift behavior. If your Hyundai has started to lurch or hesitate at low speeds — especially in stop-and-go traffic on Utah's congested corridors — bring it in for diagnosis before the assumption turns into an unnecessary bill. We'll identify whether it's the actuator, the clutch pack, or something else entirely before recommending any repair."
+      "Bring your Hyundai in if you hear a knock or unusual noise under acceleration, notice you're adding oil between changes, or if shifts feel jerky and hesitant at low speeds — especially in stop-and-go traffic. These are worth diagnosing early. There's no charge to find out what's going on before any decision is made.",
+      "If your Hyundai is past 60,000 miles and you haven't confirmed whether any applicable recall service was completed, it's worth a visit to check — even if nothing feels wrong yet. We'd rather tell you everything looks fine than have you find out the hard way."
     ],
     process: [
       { step: 1, title: "Tell Us What You've Noticed", desc: "A knock under load, a jerky shift at low speed, an oil consumption concern, or a check engine code. Hyundai symptoms often have specific causes — your description helps us start in the right place." },
@@ -829,13 +829,13 @@ const brandContent = {
     whoContent: {
       heading: "Who to Trust for Kia Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. We work on the full Kia lineup — Telluride, Sorento, Sportage, Optima, Stinger, and everything else in the range. The mechanic who diagnoses your Kia is the one who repairs it. No service advisors between you and the person doing the work.",
-        "The Kia Stinger deserves a separate mention: it's a rear-wheel-drive performance sedan with a turbocharged 2.0L or 3.3L twin-turbo V6, and it attracts a different kind of driver than most Kias. It's also a vehicle that benefits from a shop comfortable with performance platforms, manual and dual-clutch transmission behavior, and turbocharged engine service. We work on Stingers the same way we work on everything else — thorough diagnosis first, repairs only for what's actually needed."
+        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. We work on the full Kia lineup — Telluride, Sorento, Sportage, Stinger, and everything else. The mechanic who diagnoses your Kia is the one who repairs it. No service advisors between you and the person doing the work.",
+        "We know the Kia platform and the failure patterns across different models and years. You get a straight answer about what your vehicle actually needs — nothing more, nothing less."
       ]
     },
     whenContent: [
-      "Some Kia engines have a documented history of connecting rod bearing failure that can progress quickly once it starts. The early warning is a faint knock under acceleration that's different from normal engine noise — it may not be loud at first, and a check engine light often appears after the damage is already underway. If your Kia is past 60,000 miles and you can't confirm that any applicable recall service has been completed, it's worth having the engine inspected proactively. The cost of catching it early is a diagnostic visit. The cost of catching it late is an engine replacement.",
-      "A clunk or thud felt through the steering wheel during low-speed turns — most obvious in parking lots or during U-turns — is a common Kia symptom that gets misdiagnosed as a suspension problem. The actual cause is usually the steering coupler, a small intermediate shaft joint that develops play over time. It's an inexpensive repair relative to a full suspension inspection, but it requires knowing what to look for. Bring it in when the clunk first appears rather than after the play has had time to transfer load further into the steering system. Utah's winter potholes accelerate wear on these components."
+      "Bring your Kia in if you hear a faint knock under acceleration that's different from normal engine noise, or if you feel a clunk or thud through the steering wheel during low-speed turns. Both are worth diagnosing early rather than waiting to see if they get worse. Free diagnosis before any recommendation.",
+      "If your Kia is past 60,000 miles and you can't confirm any applicable recall work was completed, a diagnostic visit is worth it even if nothing feels obviously wrong. Better to know."
     ],
     process: [
       { step: 1, title: "Tell Us What You're Noticing", desc: "A knock under acceleration, a clunk in the steering, a DCT hesitation, or a scheduled service. The more specific, the better — but 'it doesn't feel right' is a completely fine place to start." },
@@ -914,13 +914,13 @@ const brandContent = {
     whoContent: {
       heading: "Who to Trust for Volkswagen Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. VW owners in Salt Lake tend to be methodical about their vehicles — Jetta and GTI owners who know the difference between VW 504 and 507 oil, Tiguan owners who've read enough forums to know about the DSG fluid situation. We work on those vehicles with the same attention to spec that the platform demands, without dealer overhead.",
-        "SLC's VW community is real — GTI and Golf R drivers who know Parleys and Big Cottonwood Canyon, Jetta owners who want their manual transmission clutch done right, Tiguan owners doing the Wasatch Front ski commute all winter. We've been here since 1990 and we know what the platform needs in Utah conditions: road salt winters, altitude-loaded engines on canyon grades, and the kind of stop-and-go that wears a DSG clutch pack faster than highway miles."
+        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. VW owners in Salt Lake tend to care about their vehicles — they deserve a mechanic who takes those cars seriously. The person who diagnoses your VW is the same one who repairs it. No service advisor layer.",
+        "We know the VW platform, the known failure patterns, and which services actually matter versus which ones can wait. You get a straight answer about what your car needs and honest pricing to match."
       ]
     },
     whenContent: [
-      "The timing chain tensioner is the VW repair that can't be deferred once it shows up. Early-revision tensioners in some turbocharged VW engines can fail when the tensioner loses oil pressure hold, allowing the chain to skip — and on these engines, a chain jump causes immediate valve damage with no recovery. The warning signs are a rattle on cold starts, especially on cold Utah mornings, a check engine code for cam timing, or rough running after startup that improves as the engine warms. If your VW is rattling at cold start, bring it in immediately. There is no second chance once the chain slips.",
-      "DSG fluid is the service that VW officially called 'lifetime fill,' and real-world results have corrected that position. The dual-clutch transmission develops hesitant, jerky shifts — especially at low speeds and in stop-and-go — when the fluid degrades. Regular fluid and filter service restores shift quality and prevents accelerated clutch pack wear. If your VW's DSG has never been serviced and has significant miles on it, that's the first thing to address before attributing shift behavior to the transmission itself. Utah's altitude and temperature swings are harder on transmission fluid than VW's original service intervals accounted for."
+      "Bring your VW in right away if you hear a rattle or slapping noise at cold start that quiets after the engine warms. This is not a symptom to monitor or wait on — bring it in before driving another few thousand miles. Getting a diagnosis now costs a fraction of what ignoring it could.",
+      "If your VW's shifts have become jerky or hesitant at low speeds — especially in stop-and-go traffic — that's worth a diagnosis too. It's often a fluid issue rather than a mechanical problem, and catching it as a fluid problem is a very different repair than catching it later."
     ],
     process: [
       { step: 1, title: "Tell Us What the VW Is Doing", desc: "A cold-start rattle, a DSG hesitation, a carbon buildup symptom like rough idle, or a scheduled service. VW symptoms often point to specific known issues — your description is the fastest path to the right diagnosis." },
@@ -1023,13 +1023,13 @@ const extendedBrandContent = {
     whoContent: {
       heading: "Who to Trust for Mazda Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. We're a clutch shop at our core — it's in the name, and it's been the heart of the business for over three decades. That matters for Mazda owners because the MX-5 Miata clutch is a platform we know well: the dual-mass flywheel chatters as it wears, and the right repair involves understanding whether a like-for-like replacement or a solid flywheel conversion fits how the car is actually used.",
-        "For the rest of the Mazda lineup — CX-5, CX-9, Mazda3, Mazda6, CX-30 — we handle the full range of service and repair. SkyActiv engines are legitimately durable at 200,000 miles and beyond with proper maintenance, and the biggest maintenance items most owners miss are the intake carbon cleaning at 50,000 miles and the AWD coupling fluid at 30,000. We check both on any SkyActiv-equipped Mazda that comes through the shop."
+        "Scott's Auto & Clutch Repair has been independently owned and operated in South Salt Lake since 1990. We're a clutch shop at our core — it's in the name — and that matters especially for Mazda drivers with manual transmissions. The mechanic who diagnoses your Mazda is the one who repairs it.",
+        "We've worked on Mazdas for over 35 years — Miatas, Mazda3s, CX-5s, CX-9s, and everything in between. We know the platform and give you a straight answer about what your car actually needs."
       ]
     },
     whenContent: [
-      "Clutch chatter — a shuddering vibration when releasing the clutch from a stop, most noticeable in first gear — is a symptom that tends to come and go at first, then get worse over time. Some Mazda manual transmission models use a dual-mass flywheel design that smooths out drivetrain vibration when new, but as the internal damper wears, it begins to transmit torque inconsistently through the engagement zone. Like-for-like replacement solves the problem; a solid flywheel conversion is another option, particularly for drivers who use Utah's canyon roads enthusiastically or take their car to the track. Bring it in when the chatter starts — worn flywheels put added stress on the clutch disc as well.",
-      "Some Mazda AWD models use a rear differential coupling that requires fluid service on a regular schedule — it's easy to miss and most owners have no idea it exists until the AWD system feels hesitant or the coupling runs hot under sustained use on mountain grades. For Utah drivers who use the AWD system regularly through ski season on the Wasatch Front or summer canyon runs, this is a service that belongs on the calendar. Direct-injection carbon cleaning is worth scheduling around the same mileage interval — carbon accumulation on intake valves affects idle quality and throttle response in ways gradual enough to go unnoticed until a cleaning reveals what was lost."
+      "Bring your Mazda in if you notice a shuddering vibration when releasing the clutch from a stop, if your AWD feels hesitant during mountain driving or ski season, or if your car doesn't run as smoothly as it used to. These symptoms usually start subtle and get worse over time. There's no charge to find out what's causing it.",
+      "Mazda's engines are genuinely durable when maintained properly. If you're not sure what's due or where your vehicle stands, bring it in and we'll give you an honest picture — at no cost to look."
     ],
     process: [
       { step: 1, title: "Tell Us About Your Mazda and How You Drive It", desc: "A Miata used at High Plains Raceway has different service priorities than a CX-5 doing ski canyon runs all winter. The more context you give us, the better the diagnosis." },
@@ -1072,13 +1072,13 @@ const extendedBrandContent = {
     whoContent: {
       heading: "Who to Trust for Mercedes-Benz Repair in South Salt Lake",
       paras: [
-        "Scott's has been the independent Mercedes-Benz alternative in South Salt Lake since 1990. Owners of C-Class, E-Class, S-Class, GLE, and Sprinter vans bring their vehicles here because they've learned that dealer pricing doesn't mean better workmanship. We know the failure patterns specific to each Mercedes generation and stock the right fluids and filters.",
-        "We're centrally located near I-15, making it easy for drivers across the Salt Lake Valley — from Murray to Millcreek — to drop off before work. Whether you own a daily-driver C300 or a high-mileage GL550 with 150,000 miles, Scott's treats your repair with the same attention to detail."
+        "Scott's has been the independent Mercedes-Benz alternative in South Salt Lake since 1990. The same mechanic who diagnoses your car is the one who works on it — no hand-offs, no service advisor markup. We use the correct MB-spec fluids and professional diagnostic equipment.",
+        "C-Class, E-Class, S-Class, GLE, Sprinter — we work on all of them. We'll tell you plainly which repairs are urgent and which can wait, and we'll give you fair pricing on both."
       ]
     },
     whenContent: [
-      "Some Mercedes-Benz V6 and V8 engines develop balance shaft gear wear at higher mileages — the first sign is a rattling noise at startup that quiets once the engine reaches operating temperature, often accompanied by a rough idle. Utah's cold winters make this harder on the engine: oil takes longer to circulate during cold starts, and the wear accelerates when the affected components run dry for those first seconds. If your Mercedes is ticking on cold starts, have it diagnosed before the gear teeth wear to the point of secondary damage — the repair window does close.",
-      "Air suspension compressors on Mercedes-Benz models work harder in Utah's temperature extremes, cycling more frequently as air springs develop slow leaks over time. The symptom is a vehicle that sits lower overnight or takes longer to level on startup. Automatic transmissions on these vehicles are labeled 'lifetime fill' from the factory, but real-world experience — especially with mountain driving and canyon grades — shows that fluid degrades over time. Fluid and filter service at regular intervals prevents the harsh shifts and torque converter shudder that signal a transmission in distress. South Salt Lake's winter road salt makes brake and suspension inspection equally important."
+      "Bring your Mercedes in if you notice a ticking or rattling at cold start that quiets once the engine warms, any burning oil smell from the engine bay, or if your vehicle is sitting lower than usual in the morning. These are patterns worth addressing before they turn into more expensive problems. Free diagnosis before any work is recommended.",
+      "If your Mercedes is past 80,000 miles, a proactive inspection is worth scheduling — especially before summer canyon driving. We'll tell you honestly what's still in good shape and what's worth replacing before it becomes a problem on the road."
     ],
     process: [
       {
@@ -1167,13 +1167,13 @@ const extendedBrandContent = {
     whoContent: {
       heading: "Who to Trust for Audi Repair in South Salt Lake",
       paras: [
-        "Scott's has served Audi owners across Salt Lake Valley since 1990. The Quattro AWD system is well-suited to Utah's winter roads, but it requires maintenance that dealers charge heavily for — especially Haldex fluid and differential service. We provide that work at fair prices with the same attention to detail as any authorized shop.",
-        "Our central South Salt Lake location puts us minutes from Murray, Millcreek, and downtown Salt Lake. Audi owners from Sandy to Bountiful make the drive because the savings are real and the service is personal. You talk directly to the mechanic, not a service advisor who relays messages."
+        "Scott's has served Audi owners across the Salt Lake Valley since 1990. You talk directly to the mechanic — not a service advisor who relays messages. The person who diagnoses your Audi is the person who works on it.",
+        "The Quattro AWD system is well-suited to Utah's winters, but it needs proper maintenance that dealers charge heavily for. We service the full Audi lineup and give you honest answers about what your car actually needs — and what it doesn't."
       ]
     },
     whenContent: [
-      "Some Audi turbocharged engines have a documented timing chain tensioner issue — the warning sign is a rattle or slapping noise on cold startup that quiets after a minute or two as oil pressure builds. At Utah's altitude, cold starts are harder on the tensioner, and our winter mornings amplify the problem. This is not a symptom to defer: on an interference engine, a jumped timing chain causes immediate valve damage. If your Audi is rattling at cold start, bring it in before driving another few thousand miles.",
-      "Direct-injection engines accumulate carbon deposits on intake valves because fuel doesn't pass over them during combustion the way it does in port-injected engines. By significant mileage, the buildup is heavy enough to cause rough idle, misfires, and lost power — often most noticeable under hard acceleration at highway on-ramps. Walnut shell blasting clears the deposits effectively and restores normal performance. Dual-clutch transmissions also need fluid service on a regular schedule to prevent shudder and shift hesitation — if your Audi's shifts have become jerky at low speeds, fluid condition is the first thing to check."
+      "Bring your Audi in if you hear a rattle or slapping sound at cold startup that quiets after the engine warms. This is not a symptom to monitor — bring it in promptly. Getting a diagnosis now costs a fraction of what ignoring it could lead to.",
+      "If your Audi's shifts have become jerky or hesitant at low speeds, or if it doesn't pull as hard as it used to under acceleration, bring it in for a diagnosis. These are often straightforward fixes when caught early — and more involved ones if they're not."
     ],
     process: [
       {
@@ -1262,13 +1262,13 @@ const extendedBrandContent = {
     whoContent: {
       heading: "Who to Trust for Lexus Repair in South Salt Lake",
       paras: [
-        "Lexus owners in Salt Lake Valley have relied on Scott's as their independent alternative since 1990. Whether you drive a high-mileage GX470 on mountain trails or a well-maintained ES350 as a daily driver, we understand the maintenance requirements and failure patterns of each model. You won't pay for dealer overhead when you bring your Lexus to us.",
-        "Located in South Salt Lake near I-15, Scott's is convenient for Lexus owners from the entire valley. The same mechanic diagnoses and repairs your vehicle — no hand-offs, no service advisor markup. We're straightforward about what your Lexus needs and what it can wait on."
+        "Lexus owners in the Salt Lake Valley have relied on Scott's as their independent alternative since 1990. The same mechanic diagnoses and repairs your vehicle — no hand-offs, no service advisor markup. You'll know exactly what was done and why before you pay for anything.",
+        "Located in South Salt Lake near I-15, Scott's is convenient for Lexus owners from across the valley. We're straightforward about what your Lexus needs and what it can wait on — and our pricing reflects honest labor, not badge premium."
       ]
     },
     whenContent: [
-      "Some Lexus V8 models use a timing belt that also drives the water pump — a design where replacing only the belt and skipping the pump is a false economy, since the pump is fully accessible once the belt is off and replacing it separately later costs nearly the same in labor. Utah's altitude and canyon driving add thermal stress to both components beyond what flat-road driving produces. These are interference engines, meaning a broken belt causes immediate valve damage with no warning. If your Lexus is approaching the recommended replacement interval or has an unknown service history, don't wait for a symptom that won't come.",
-      "Lexus automatic transmissions are sensitive to fluid condition — heat and age degrade the fluid, and high-mileage models can develop shift hesitation, shudder, or delayed engagement when fluid has been neglected. Regular fluid service with the correct Toyota-specification ATF is straightforward preventive maintenance. Hybrid models need battery cooling fan cleaning on a regular schedule: Utah's dusty environment clogs these fans faster than manufacturers anticipated, and a restricted fan leads to battery pack heat buildup and premature degradation. If your Lexus hybrid has accumulated significant miles without this service, it's worth scheduling before summer temperatures arrive."
+      "Bring your Lexus in if you're approaching a service interval and aren't sure whether it's been done, if something feels or sounds different than usual, or if a warning light has come on. Lexus vehicles are built to last — but they still have service intervals that matter, and catching something early costs less than catching it late. There's no charge to find out where things stand.",
+      "If you drive a Lexus SUV and use Utah's canyon roads and mountain terrain regularly, maintenance matters more than it would with flat-road driving. Bring it in and we'll give you an honest picture of what's due and what's still in good shape."
     ],
     process: [
       {
@@ -1357,13 +1357,13 @@ const extendedBrandContent = {
     whoContent: {
       heading: "Who to Trust for Acura Repair in South Salt Lake",
       paras: [
-        "Scott's has serviced Acura vehicles for Salt Lake Valley owners since 1990, back when the Legend and Integra were the models to beat. The brand has evolved significantly, but the Honda engineering foundation remains — and so does our familiarity with it. We know when a shudder is a differential fluid issue versus something more serious, and we won't oversell you.",
-        "Our South Salt Lake shop is easy to reach from Murray, West Jordan, and Sandy. Acura owners who've switched from the dealer consistently tell us the same thing: the work is the same quality, the cost is noticeably less, and they actually understand what was done to their car when they pick it up."
+        "Scott's has serviced Acura vehicles for Salt Lake Valley owners since 1990. The mechanic who diagnoses your Acura is the one who repairs it. You won't pay for dealer overhead or service advisor markup.",
+        "Our South Salt Lake shop is easy to reach from Murray, West Jordan, and Sandy. When you bring your Acura here, we tell you honestly what it needs and what it can wait on — and we give you a fair price either way."
       ]
     },
     whenContent: [
-      "A vibration or growl during slow-speed turns — most noticeable in parking lots and tight corners — is the most common AWD-related symptom we see on Acura SUVs and sedans. The rear differential clutch pack is fighting contaminated or degraded fluid, and the longer it continues the more wear accumulates. Utah's winter driving means frequent AWD engagement, which accelerates fluid breakdown faster than moderate climates. Catching it early is an inexpensive fluid service; catching it after the differential is damaged is a significantly larger repair. If your Acura has never had rear differential service, that's the place to start.",
-      "Turbocharged Acura engines require more frequent oil changes than some owners assume — the Maintenance Minder may show more miles remaining than is actually safe. At Utah's altitude, turbos work harder and run hotter, and extended oil intervals lead to sludge buildup that clogs oil control passages and causes VTEC system problems. If your Acura has a burning oil smell — especially when the engine is warm — a VTEC solenoid gasket leak is a common cause on higher-mileage V6 models. It's an inexpensive fix caught early and a messier one left to drip onto hot exhaust components."
+      "Bring your Acura in if you feel a vibration or shudder during slow-speed turns — most noticeable in parking lots or tight corners. This is a common early sign that fluid service is overdue, and it's worth addressing before it becomes a larger problem. Free diagnosis before any recommendation.",
+      "A burning smell from the engine bay, especially when the engine is warm, is also worth having looked at. It's often a minor seal or gasket issue that's inexpensive to fix early — and more involved if left for months."
     ],
     process: [
       {
