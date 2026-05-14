@@ -12,7 +12,13 @@ const CITIES = [
       { name: 'State Street & Crystal Ave', distance: '0.1 miles east', tip: 'The intersection at the east end of our block. If you overshoot Crystal Ave heading south on Highland Drive, you can also come west on 3300 South to State Street, then turn right on Crystal Ave — we\'re half a block west.' }
     ],
     logisticsNote: 'Most Sugar House customers drop the car in the morning and pick it up the same day. We open at 8 AM, and diagnoses are typically done within a couple of hours. If you\'d rather not sit at the shop, Uber and Lyft run consistently from our lot — the ride back to Sugar House is usually under $10 and about 5 minutes. Call ahead and we\'ll have your intake ready when you arrive.',
-    processNote: 'For Sugar House customers, most jobs are completed the same day — drop off at 8 AM and pick up before close.'
+    processNote: 'For Sugar House customers, most jobs are completed the same day — drop off at 8 AM and pick up before close.',
+    whyChooseUs: [
+      { title: '5 Minutes from Sugar House', desc: 'Highland Drive to Crystal Ave — one turn, no freeway. Drop off at 8 AM, Lyft back to the neighborhood, and pick up the same day.' },
+      { title: 'We Know Sugar House Terrain', desc: 'The I-80 on-ramp grade on 1300 East, the Harrison Avenue hill starts, the stop-and-go on 2100 South — we see these driving patterns from Sugar House vehicles regularly and know what each one does to a car over time.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Sugar House drivers come here because general shops send them back with the same problem. We\'ve been diagnosing and fixing cars in this valley since 1990 — and we get it right the first time.' }
+    ]
   },
   {
     slug: 'millcreek', name: 'Millcreek', distance: '3 miles', driveTime: '7 min',
@@ -23,7 +29,13 @@ const CITIES = [
       { name: '3300 South & State Street', distance: '0.5 miles east of shop', tip: 'If you come west on 3300 South past State Street, you\'ve gone slightly too far. Turn right on State Street, then right again on Crystal Ave — our shop is at 144 W Crystal Ave on the right side.' }
     ],
     logisticsNote: 'Millcreek customers are about 7 minutes from the shop on 3300 South. Drop your car in the morning and Uber or Lyft back to Millcreek — the return ride is typically under $10 and about 10 minutes. TRAX isn\'t on this direct route, but rideshare is readily available from our lot. Call ahead and we\'ll have the paperwork ready when you arrive.',
-    processNote: 'For Millcreek customers, most jobs are done same-day — we\'ll give you an honest timeline when you call.'
+    processNote: 'For Millcreek customers, most jobs are done same-day — we\'ll give you an honest timeline when you call.',
+    whyChooseUs: [
+      { title: '7 Minutes from Millcreek', desc: '3300 South west to Highland Drive — no freeway, one turn. Drop off in the morning and most jobs are done same day.' },
+      { title: 'We Know Canyon and Valley Driving', desc: 'Millcreek drivers put their cars through both canyon grades and valley stop-and-go. We see this combination regularly and know what it does to different systems over time.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Millcreek drivers come here when a general shop hasn\'t gotten to the root of the problem. We\'ve been doing this since 1990 and fix it right the first time.' }
+    ]
   },
   {
     slug: 'murray', name: 'Murray', distance: '4 miles', driveTime: '8 min',
@@ -34,7 +46,13 @@ const CITIES = [
       { name: '2700 South & State Street', distance: '0.2 miles from shop', tip: 'When you see the 2700 South intersection on State Street, Crystal Ave is 2 blocks north on the left. We\'re at 144 W Crystal Ave, about half a mile west of State Street on the right side.' }
     ],
     logisticsNote: 'Murray Central TRAX Station makes the drop-off easy. Board the Red Line at Murray Central, ride north to Central Pointe Station, and walk 3 minutes east to our shop. Drop your car before work, take TRAX to your day, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day — the return ride to Murray Central is about 8 minutes.',
-    processNote: 'Most Murray customers drop off in the morning and pick up the same day — call ahead and we\'ll confirm timing for your specific job.'
+    processNote: 'Most Murray customers drop off in the morning and pick up the same day — call ahead and we\'ll confirm timing for your specific job.',
+    whyChooseUs: [
+      { title: '8 Minutes from Murray + TRAX', desc: 'State Street north to Crystal Ave — or drop off and take TRAX one stop from Murray Central. Most jobs are done same day.' },
+      { title: 'We Know State Street Driving', desc: 'Murray\'s State Street is one of the most signal-dense corridors in the valley. We see the wear patterns that come from daily stop-and-go commuting and know exactly what to check first.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Murray drivers come here when a closer shop hasn\'t fixed the problem. We\'ve been doing this since 1990 and get it right the first time.' }
+    ]
   },
   {
     slug: 'salt-lake-city', name: 'Salt Lake City', distance: '4 miles', driveTime: '10 min',
@@ -45,7 +63,13 @@ const CITIES = [
       { name: 'Liberty Park — 1300 S / 700 E', distance: '2 miles north of shop', tip: 'A well-known SLC landmark for Avenues and east-side drivers. Heading south from Liberty Park on State Street or Highland Drive connects directly to the route to our shop. Crystal Ave is about 2 miles south of the park.' }
     ],
     logisticsNote: 'TRAX makes this the easiest commute for Salt Lake City customers. Take the Red or Blue Line to Central Pointe Station and walk 3 minutes east to 144 W Crystal Ave — no rideshare needed. Drop your car at 8 AM, ride TRAX back to downtown or the Avenues, and we\'ll call when the diagnosis is ready. Driving from the Avenues or Capitol Hill? Take State Street south, cross under I-80, and Crystal Ave is the second major left — about 1 mile past the freeway. Uber and Lyft are available from our location throughout business hours.',
-    processNote: 'Salt Lake City customers can drop off early and take TRAX or a rideshare back — most jobs are done same-day. Call ahead so we can let you know about your specific vehicle.'
+    processNote: 'Salt Lake City customers can drop off early and take TRAX or a rideshare back — most jobs are done same-day. Call ahead so we can let you know about your specific vehicle.',
+    whyChooseUs: [
+      { title: 'TRAX Drop-Off, Same-Day Pickup', desc: 'Take the Red or Blue Line to Central Pointe — 3 minutes east on foot. Drop off your car, ride TRAX back to downtown or the Avenues, and pick up the same day.' },
+      { title: 'We Know SLC Terrain and Traffic', desc: 'Avenues hill starts, downtown grid stop-and-go, University of Utah campus congestion — we see these driving patterns from SLC vehicles regularly and know what each one does to a car.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'SLC drivers come here when a general shop sends them back with the same problem. We\'ve been diagnosing and fixing cars here since 1990 and get it right the first time.' }
+    ]
   },
   {
     slug: 'taylorsville', name: 'Taylorsville', distance: '5 miles', driveTime: '10 min',
@@ -56,7 +80,13 @@ const CITIES = [
       { name: '2700 South & State Street', distance: '2 blocks from shop', tip: 'When you see the 2700 South light on State Street heading north, Crystal Ave is just 2 blocks ahead on the right. If you take I-15, exit at 2700 South and head east — Crystal Ave is the first major right.' }
     ],
     logisticsNote: 'Taylorsville customers are about 10 minutes from the shop via 4700 South or I-215. Drop your car in the morning and Uber or Lyft back — the return ride to central Taylorsville is typically under 15 minutes. TRAX isn\'t directly on this route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
-    processNote: 'Most Taylorsville customers drop off at 8 AM and pick up same day — the 4700 South route takes about 10 minutes each way.'
+    processNote: 'Most Taylorsville customers drop off at 8 AM and pick up same day — the 4700 South route takes about 10 minutes each way.',
+    whyChooseUs: [
+      { title: '10 Minutes on 4700 South', desc: '4700 South east to State Street, north to Crystal Ave — one turn and 10 minutes. Drop off at 8 AM and most jobs are done before the end of the day.' },
+      { title: 'We Know Arterial and Freeway Driving', desc: 'Taylorsville\'s wide arterials and I-215 on-ramps create specific wear patterns from high-speed driving and abrupt stops. We see these regularly and know what to look for first.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Taylorsville drivers come here when a closer shop hasn\'t found the problem. We\'ve been doing this since 1990 and fix it right the first time.' }
+    ]
   },
   {
     slug: 'west-valley-city', name: 'West Valley City', distance: '7 miles', driveTime: '12 min',
@@ -67,7 +97,13 @@ const CITIES = [
       { name: '2700 South & State Street', distance: '0.2 miles from shop', tip: 'An alternative landmark if you take I-15 from West Valley. Exit at 2700 South, head east to State Street, then continue south 2 blocks to Crystal Ave and turn right — our shop is on the right side.' }
     ],
     logisticsNote: 'West Valley City customers are about 12 minutes away via 3500 South or I-215. Drop your car in the morning and Uber or Lyft back — the return ride to West Valley is typically under 15 minutes. TRAX isn\'t directly on this route, but rideshare is readily available from our lot. Call ahead and we\'ll have the paperwork ready when you arrive.',
-    processNote: 'Most West Valley City customers drop off in the morning and pick up same day. The 3500 South route to our shop takes about 12 minutes.'
+    processNote: 'Most West Valley City customers drop off in the morning and pick up same day. The 3500 South route to our shop takes about 12 minutes.',
+    whyChooseUs: [
+      { title: '12 Minutes on 3500 South', desc: '3500 South east to State Street — no freeway required. Drop off in the morning and most jobs are done the same day.' },
+      { title: 'We Know Commercial Corridor Driving', desc: 'West Valley\'s 3500 South commercial traffic, trucks, and event-night congestion create wear patterns we see regularly. We know what heavy-use driving does to different systems.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'West Valley drivers come here when a closer shop hasn\'t solved the problem. We\'ve been diagnosing and fixing cars since 1990 and get it right the first time.' }
+    ]
   },
   {
     slug: 'holladay', name: 'Holladay', distance: '5 miles', driveTime: '9 min',
@@ -78,7 +114,13 @@ const CITIES = [
       { name: '2100 South & Highland Drive (Sugar House area)', distance: '1 min from shop', tip: 'The well-known Sugar House intersection. From here, turn left on Crystal Ave — we\'re less than a minute ahead on the right at 144 W Crystal Ave. Most Holladay drivers use this as their final landmark.' }
     ],
     logisticsNote: 'Holladay customers are about 9 minutes from the shop on Highland Drive. Drop your car in the morning and Uber or Lyft back — the return ride to Holladay is typically under 15 minutes. TRAX isn\'t on this direct route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
-    processNote: 'Holladay customers are about 9 minutes away — most jobs are finished same day. Call ahead so we can confirm timing for your vehicle.'
+    processNote: 'Holladay customers are about 9 minutes away — most jobs are finished same day. Call ahead so we can confirm timing for your vehicle.',
+    whyChooseUs: [
+      { title: '9 Minutes on Highland Drive', desc: 'Highland Drive north all the way from Holladay — one turn at Crystal Ave. No freeway. Most jobs are done same day.' },
+      { title: 'We Know Canyon and Valley Driving', desc: 'Holladay drivers put their cars through both Big Cottonwood Canyon grades and valley stop-and-go. We see this combination from Holladay vehicles regularly and know what it does over time.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Holladay drivers come here when a general shop hasn\'t diagnosed the problem correctly. We\'ve been doing this since 1990 and fix it right the first time.' }
+    ]
   },
   {
     slug: 'cottonwood-heights', name: 'Cottonwood Heights', distance: '6 miles', driveTime: '10 min',
@@ -89,7 +131,13 @@ const CITIES = [
       { name: '3300 South & Highland Drive', distance: '2 min from shop', tip: 'A midpoint landmark heading north on Highland Drive. From here, our shop is about 2 more minutes — continue north to Crystal Ave and turn left. We\'re halfway down the block on the right at 144 W Crystal Ave.' }
     ],
     logisticsNote: 'Cottonwood Heights customers are about 10 minutes from the shop on Highland Drive. Drop your car in the morning and Uber or Lyft back — the return ride to Cottonwood Heights is typically under 15 minutes. TRAX isn\'t on this route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll confirm timing before you arrive.',
-    processNote: 'Cottonwood Heights customers heading up for a canyon trip can drop off on the way out and pick up on the return — most jobs are done same-day.'
+    processNote: 'Cottonwood Heights customers heading up for a canyon trip can drop off on the way out and pick up on the return — most jobs are done same-day.',
+    whyChooseUs: [
+      { title: 'Drop Off Before the Canyon, Pick Up After', desc: '10 minutes on Highland Drive — drop off on your way to Big or Little Cottonwood and pick up on the return. Most jobs are done same day.' },
+      { title: 'We Know Canyon Grade Driving', desc: 'Cottonwood Heights drivers use two steep canyon roads regularly. We see the wear patterns from canyon driving — on brakes, drivetrain, and engine components — and know what to inspect first.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Canyon-driving customers come here because general shops don\'t always recognize mountain-road wear patterns. We\'ve been diagnosing this since 1990 and fix it right the first time.' }
+    ]
   },
   {
     slug: 'sandy', name: 'Sandy', distance: '8 miles', driveTime: '12 min',
@@ -100,7 +148,13 @@ const CITIES = [
       { name: 'Central Pointe TRAX Station — 900 W / 2100 S', distance: '0.3 miles from shop', tip: 'The arrival station for Sandy TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we\'re halfway down the block at 144 W Crystal Ave. Both the Red and Blue Lines stop here.' }
     ],
     logisticsNote: 'Sandy customers can take the TRAX Blue Line to make drop-off and pickup easy. Board at Sandy Civic Center or Sandy Expo, ride north to Central Pointe Station, and walk 3 minutes to our shop at 144 W Crystal Ave. Drop your car in the morning, ride TRAX to work or wherever you need to be, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day for the return trip to Sandy.',
-    processNote: 'Sandy customers on TRAX can drop off, ride to work, and pick up the same afternoon — call ahead so we can confirm your job timing.'
+    processNote: 'Sandy customers on TRAX can drop off, ride to work, and pick up the same afternoon — call ahead so we can confirm your job timing.',
+    whyChooseUs: [
+      { title: 'TRAX Blue Line to Our Door', desc: 'Board at Sandy Civic Center and ride north to Central Pointe — 3 minutes from our shop. Drop off the car, ride TRAX to work, and pick up the same afternoon.' },
+      { title: 'We Know Freeway and Foothill Driving', desc: 'Sandy\'s I-15 ramps and eastern foothill streets create wear patterns from both high-speed driving and steep residential grades. We see these from Sandy vehicles regularly.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Sandy drivers make the trip because general shops don\'t always diagnose commuter and hill-driving wear correctly. We\'ve been doing this since 1990 and fix it the first time.' }
+    ]
   },
   {
     slug: 'draper', name: 'Draper', distance: '12 miles', driveTime: '15 min',
@@ -111,7 +165,13 @@ const CITIES = [
       { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop. Exit at 2700 South heading east, and Crystal Ave is about a mile from the freeway on the right. We\'re at 144 W Crystal Ave, on the left side of the block.' }
     ],
     logisticsNote: 'Draper customers can take the TRAX Blue Line to simplify drop-off. Board at Draper Town Center or Kimball Lane, ride north to Central Pointe Station, and walk 3 minutes east to our shop at 144 W Crystal Ave. Drop your car in the morning, take TRAX back to Draper or wherever you need to be, and we\'ll call when the job is ready. Uber and Lyft are also available from our lot throughout the day.',
-    processNote: 'Draper customers making the 15-minute drive can drop off at 8 AM — most jobs are done by afternoon. Call ahead so we can give you an accurate time estimate.'
+    processNote: 'Draper customers making the 15-minute drive can drop off at 8 AM — most jobs are done by afternoon. Call ahead so we can give you an accurate time estimate.',
+    whyChooseUs: [
+      { title: 'Worth the 15-Minute Drive', desc: 'Draper drivers make the I-15 trip because the closer options haven\'t found the problem. Drop off at 8 AM and most jobs are done by afternoon.' },
+      { title: 'We Know Point of the Mountain Driving', desc: 'The I-15 grade at Point of the Mountain is one of the most demanding drives in the valley — especially towing. We see Draper vehicles with this wear pattern regularly and know what to check.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Draper customers drive here because they\'ve tried closer shops and got the wrong answer. We\'ve been doing this since 1990 and diagnose it correctly the first time.' }
+    ]
   },
   {
     slug: 'west-jordan', name: 'West Jordan', distance: '8 miles', driveTime: '12 min',
@@ -122,7 +182,13 @@ const CITIES = [
       { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The freeway exit if you take the Redwood Road / UT-201 route. Head east from the exit and turn right on Crystal Ave — our shop is at 144 W Crystal Ave on the left side of the block.' }
     ],
     logisticsNote: 'West Jordan customers are about 12 minutes from the shop via Redwood Road or I-15. Drop your car in the morning and Uber or Lyft back — the return ride to West Jordan is typically under 15 minutes. TRAX isn\'t directly on this route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
-    processNote: 'Most West Jordan customers drop off in the morning and pick up the same day — a 12-minute freeway trip each way.'
+    processNote: 'Most West Jordan customers drop off in the morning and pick up the same day — a 12-minute freeway trip each way.',
+    whyChooseUs: [
+      { title: '12 Minutes Northeast', desc: 'Redwood Road to the 201 to I-15 — or 5400 South east to State Street. Either route puts you at our door in about 12 minutes. Most jobs are done same day.' },
+      { title: 'We Know Mountain View Corridor Driving', desc: 'Mountain View Corridor\'s high speeds and quick exits create specific wear patterns. Add West Jordan\'s subdivision stop-and-go and you\'ve got a car that works hard every day. We see this regularly.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'West Jordan drivers come here when the closer general shop didn\'t find the problem. We\'ve been doing this since 1990 and fix it right the first time.' }
+    ]
   },
   {
     slug: 'south-jordan', name: 'South Jordan', distance: '10 miles', driveTime: '14 min',
@@ -133,7 +199,13 @@ const CITIES = [
       { name: 'Central Pointe TRAX Station — 900 W / 2100 S', distance: '0.3 miles from shop', tip: 'The arrival station for South Jordan TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we\'re halfway down the block at 144 W Crystal Ave. Both Red and Blue Lines stop here.' }
     ],
     logisticsNote: 'South Jordan and Daybreak customers can take the TRAX Blue Line to simplify drop-off. Board at Daybreak Parkway station, ride north to Central Pointe Station, and walk 3 minutes east to our shop at 144 W Crystal Ave. Drop your car in the morning, ride TRAX to work, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day for the return trip to South Jordan.',
-    processNote: 'South Jordan customers can drop off and ride TRAX to work from Daybreak — most jobs are done same day. Call ahead to confirm.'
+    processNote: 'South Jordan customers can drop off and ride TRAX to work from Daybreak — most jobs are done same day. Call ahead to confirm.',
+    whyChooseUs: [
+      { title: 'Daybreak TRAX to Our Door', desc: 'Board at Daybreak Parkway on the Blue Line and ride north to Central Pointe — 3 minutes from our shop. Drop off the car, take TRAX to work, and pick up the same day.' },
+      { title: 'We Know Daybreak and Bangerter Driving', desc: 'Daybreak\'s roundabouts and Bangerter Highway\'s abrupt transitions create their own wear patterns. We see these from South Jordan vehicles regularly and know what to look for.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'South Jordan drivers make the trip because they want a diagnosis they can trust. We\'ve been doing this since 1990 and get it right the first time.' }
+    ]
   },
   {
     slug: 'riverton', name: 'Riverton', distance: '12 miles', driveTime: '16 min',
@@ -144,7 +216,13 @@ const CITIES = [
       { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop coming from Riverton. Head east from the exit and turn right on Crystal Ave — our shop is at 144 W Crystal Ave on the left side of the block.' }
     ],
     logisticsNote: 'Riverton customers are about 16 minutes from the shop, mostly on I-15. Drop your car in the morning and Uber or Lyft back — the return ride to Riverton is typically under 20 minutes. TRAX isn\'t directly convenient from Riverton, but rideshare is available from our lot throughout the day. Many Riverton customers drop off early and arrange a same-day pickup — call ahead to confirm timing.',
-    processNote: 'Riverton customers making the 16-minute drive can drop off at 8 AM and pick up same day on most jobs — call ahead to confirm timing.'
+    processNote: 'Riverton customers making the 16-minute drive can drop off at 8 AM and pick up same day on most jobs — call ahead to confirm timing.',
+    whyChooseUs: [
+      { title: 'Worth the 16-Minute Drive', desc: 'Riverton doesn\'t have many specialists nearby. Drop off at 8 AM and pick up same day on most jobs — call ahead to confirm timing.' },
+      { title: 'We Know Long-Commute Driving', desc: 'Riverton commuters put serious daily miles on their cars — Bangerter transitions, I-15 merges, and long-distance accumulation all create wear we see regularly from Riverton vehicles.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Riverton drivers make the trip because the closer shops haven\'t gotten the diagnosis right. We\'ve been doing this since 1990 and fix it correctly the first time.' }
+    ]
   },
   {
     slug: 'herriman', name: 'Herriman', distance: '15 miles', driveTime: '20 min',
@@ -155,7 +233,13 @@ const CITIES = [
       { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop. Exit here and head east — Crystal Ave is about a mile from the freeway on the right. We\'re at 144 W Crystal Ave on the left side of the block.' }
     ],
     logisticsNote: 'Herriman customers are about 20 minutes from the shop on Mountain View Corridor and I-15. Drop your car in the morning and Uber or Lyft back — the return ride to Herriman is typically under 25 minutes. TRAX isn\'t convenient from Herriman, but rideshare is available from our lot throughout the day. Call ahead so we can confirm timing and have the intake ready when you arrive.',
-    processNote: 'Herriman customers making the 20-minute drive can drop off at 8 AM and pick up same day on most jobs — call ahead to confirm timing.'
+    processNote: 'Herriman customers making the 20-minute drive can drop off at 8 AM and pick up same day on most jobs — call ahead to confirm timing.',
+    whyChooseUs: [
+      { title: 'No Closer Specialist', desc: 'Herriman doesn\'t have a dedicated specialist nearby — the 20-minute drive is worth it. Drop off at 8 AM and most jobs are done same day.' },
+      { title: 'We Know Hillside and Long-Commute Driving', desc: 'Herriman\'s steep residential streets and long valley commutes create wear patterns that compound over time. We see these from Herriman vehicles regularly and know what to check first.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Herriman drivers make the 20-minute drive because the closer shops haven\'t gotten it right. We\'ve been diagnosing and fixing since 1990 and do it correctly the first time.' }
+    ]
   },
   {
     slug: 'kearns', name: 'Kearns', distance: '7 miles', driveTime: '12 min',
@@ -166,7 +250,13 @@ const CITIES = [
       { name: '2700 South & State Street', distance: '2 blocks from shop', tip: 'If you take the freeway route (4700 South east to I-15 north), exit at 2700 South and head east to State Street — Crystal Ave is 2 blocks south on State Street, then turn right. We\'re at 144 W Crystal Ave.' }
     ],
     logisticsNote: 'Kearns customers are about 12 minutes from the shop via 5400 South. Drop your car in the morning and Uber or Lyft back — the return ride to Kearns is typically under 15 minutes. TRAX isn\'t on this direct route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
-    processNote: 'Kearns customers are about 12 minutes away — drop off in the morning and most jobs are done by afternoon.'
+    processNote: 'Kearns customers are about 12 minutes away — drop off in the morning and most jobs are done by afternoon.',
+    whyChooseUs: [
+      { title: '12 Minutes on 5400 South', desc: '5400 South east to State Street — straightforward drive with no freeway required. Drop off in the morning and most jobs are done the same day.' },
+      { title: 'We Know Daily-Driver Wear', desc: 'Kearns drivers use their cars hard every day — short ramps, residential stop-and-go, and work commutes all add up. We see this kind of daily-use wear from Kearns vehicles regularly.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Kearns drivers come here when they want the diagnosis done right and the repair to stick. We\'ve been doing this since 1990 and fix it the first time.' }
+    ]
   },
   {
     slug: 'midvale', name: 'Midvale', distance: '5 miles', driveTime: '8 min',
@@ -177,7 +267,13 @@ const CITIES = [
       { name: 'Central Pointe TRAX Station — 900 W / 2100 S', distance: '0.3 miles from shop', tip: 'The arrival station for Midvale TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we\'re at 144 W Crystal Ave on the right. Midvale is the closest community to this station via State Street.' }
     ],
     logisticsNote: 'Midvale customers can take the TRAX Blue Line — board at Midvale Center and ride north to Central Pointe Station, then walk 3 minutes east to our shop at 144 W Crystal Ave. Drop your car in the morning, ride TRAX to work or wherever you need to be, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day for the return trip to Midvale.',
-    processNote: 'Midvale customers are 8 minutes away — the closest TRAX-accessible shop in the valley. Most jobs are done same day.'
+    processNote: 'Midvale customers are 8 minutes away — the closest TRAX-accessible shop in the valley. Most jobs are done same day.',
+    whyChooseUs: [
+      { title: '8 Minutes or One TRAX Stop', desc: 'State Street north — or board the Blue Line at Midvale Center and ride to Central Pointe, a 3-minute walk from our door.' },
+      { title: 'We Know I-15 Interchange Driving', desc: 'Midvale\'s I-15/I-215 interchange is one of the tightest in the valley — hard accelerations and abrupt stops create wear patterns we see from Midvale vehicles regularly.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Midvale drivers come here because we\'re close and because we get the diagnosis right. We\'ve been doing this since 1990 and fix it the first time.' }
+    ]
   }
 ];
 
@@ -1561,6 +1657,7 @@ Object.entries(CONTENT).forEach(([serviceKey, svc]) => {
       logisticsNote: city.logisticsNote || null,
       landmarks: city.landmarks || null,
       processNote: city.processNote || null,
+      whyChooseUs: city.whyChooseUs || null,
       metaTitle: tmpl.replace('{{CITY}}', city.name),
       metaDesc: normalizeDesc(c.metaDesc)
     });
