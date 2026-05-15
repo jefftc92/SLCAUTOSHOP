@@ -1064,7 +1064,7 @@ sitemapRoute('/sitemap-services.xml', () => {
   return entries;
 });
 
-// Service × area: the 176 service-geo combo pages
+// Service × area: the 240 service-geo combo pages (15 services × 16 cities)
 sitemapRoute('/sitemap-service-areas.xml', () =>
   serviceGeoPages.map(g => ({ path: '/services/' + g.slug, priority: '0.7', freq: 'monthly', lastmod: LASTMOD_SPRINT }))
 );
