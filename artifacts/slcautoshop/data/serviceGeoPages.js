@@ -1609,7 +1609,6 @@ const CONTENT = {
     serviceName: 'Head Gasket Repair',
     serviceFullName: 'Head Gasket Repair & Replacement',
     mainSlug: 'head-gasket-repair-near-south-salt-lake-ut',
-    hasLocalContext: true,
     cities: {
       'sugar-house': {
         intro: 'Sugar House\'s hilly terrain and stop-and-go on 1300 East put consistent thermal load on cooling systems. We\'re 3 miles south — about 5 minutes down Highland Drive.',
@@ -1730,7 +1729,6 @@ const CONTENT = {
     serviceName: 'Lift & Leveling Kits',
     serviceFullName: 'Lift & Leveling Kit Installation',
     mainSlug: 'lift-leveling-kit-installation-near-south-salt-lake-ut',
-    hasLocalContext: true,
     cities: {
       'sugar-house': {
         intro: 'Sugar House truck owners looking to level or lift are 3 miles north — about 5 minutes down Highland Drive.',
@@ -1851,7 +1849,6 @@ const CONTENT = {
     serviceName: 'Check Engine Light & Engine Repair',
     serviceFullName: 'Check Engine Light Diagnosis & Engine Repair',
     mainSlug: 'check-engine-light-engine-repair-near-south-salt-lake-ut',
-    hasLocalContext: true,
     cities: {
       'sugar-house': {
         intro: 'Sugar House commuters on 1300 East and the I-80 ramp corridor accumulate enough annual miles that a check engine light often masks a condition that\'s been building for months. We\'re 3 miles south — about 5 minutes down Highland Drive.',
@@ -1972,7 +1969,6 @@ const CONTENT = {
     serviceName: 'Transmission Repair',
     serviceFullName: 'Transmission Repair & Service',
     mainSlug: 'transmission-repair-near-south-salt-lake-ut',
-    hasLocalContext: true,
     cities: {
       'sugar-house': {
         intro: 'Sugar House\'s hilly streets and the daily 1300 East grade put automatic transmissions under more load than flat-valley driving. We\'re 3 miles south — about 5 minutes down Highland Drive.',
