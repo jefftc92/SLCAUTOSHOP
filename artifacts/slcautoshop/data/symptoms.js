@@ -1176,6 +1176,111 @@ const symptoms = [
         inlineCta: true
       }
     ]
+  },
+  {
+    slug: "white-exhaust-smoke",
+    heroIntro: "White smoke from the exhaust is one of the most serious symptoms we see — it almost always means coolant is entering the combustion chamber and burning.",
+    name: "White Smoke from Exhaust",
+    shortName: "White Exhaust Smoke",
+    priority: "Critical",
+    category: "Engine",
+    relatedService: "head-gasket-repair-near-south-salt-lake-ut",
+    lastUpdated: "May 2026", datePublished: "2026-05-01", dateModified: "2026-05-01",
+    tags: { safetyTier: "critical", progressive: true, terrainSensitive: false, weatherSensitive: true, temperatureSensitive: true, easilyConfused: true },
+    intro: "White exhaust smoke that persists after the engine is fully warm — especially with a sweet smell — almost always means coolant is burning in the combustion chamber. This is different from the thin white vapor that appears briefly on cold mornings, which is just normal condensation burning off and disappears within a minute or two of driving.",
+    serviceBlurb: "We run a combustion gas block test to confirm whether combustion gases are entering the cooling system, and pressure-test the cooling system to find where the breach is. We also check the oil for coolant contamination before recommending any repair — because the diagnosis determines whether the head gasket, cylinder head, or another component is the source.",
+    smsBody: "Hi, I'm seeing white smoke from my exhaust.",
+    causes: [
+      {
+        title: "Blown Head Gasket",
+        desc: "The most common cause of persistent white exhaust smoke. The head gasket seals the cylinder head to the engine block, separating coolant passages from combustion chambers. When it fails at a coolant-to-combustion junction, coolant enters the cylinder and burns, producing thick white smoke. The failure is often accompanied by a sweet smell from the exhaust and coolant loss with no visible external leak.",
+        diagnosticSignal: "Thick white smoke that continues after the engine reaches full operating temperature. Sweet smell at the exhaust. Coolant reservoir drops over days without a visible puddle. Combustion gas block test confirms gases in the coolant."
+      },
+      {
+        title: "Cracked Cylinder Head",
+        desc: "A crack in the cylinder head — usually caused by severe overheating — can allow coolant to pass directly into a combustion chamber. This produces the same white smoke symptom as a failed head gasket and requires cylinder head removal to diagnose definitively. A cracked head typically requires replacement rather than resurfacing.",
+        diagnosticSignal: "White smoke after overheating event, often with rapid coolant loss. Block test positive for combustion gases. Visible crack found on head inspection after removal. More common on aluminum heads after sustained overheating."
+      },
+      {
+        title: "Cracked Engine Block",
+        desc: "A cracked engine block is a less common but more severe cause of coolant entering the combustion chamber. Block cracks typically result from severe freeze damage or extreme overheating. The symptom is identical to head gasket failure from the outside but requires a deeper inspection to diagnose.",
+        diagnosticSignal: "White smoke and coolant loss that continues after head gasket replacement. Block pressure test or dye test reveals crack location. More common in vehicles that have experienced freeze damage or extreme overheating without engine shutdown."
+      },
+      {
+        title: "Normal Cold-Start Condensation",
+        desc: "Thin, light white vapor from the exhaust on cold mornings is normal — it's condensation from the exhaust pipe burning off as the engine warms. This is not smoke and is not a problem. It disappears completely within 1–2 minutes of normal driving once the engine reaches operating temperature.",
+        diagnosticSignal: "Vapor is thin and dissipates quickly. Disappears entirely once the engine is warm. No sweet smell. Coolant level is stable. Happens only on cold mornings, not every trip. This is normal behavior and does not require repair."
+      }
+    ],
+    richContent: [
+      {
+        heading: "White Smoke vs. Normal Exhaust Condensation",
+        paras: [
+          "The key distinction is persistence and smell. Normal cold-morning condensation is thin, disappears within a minute of driving, and has no odor. White smoke from burning coolant is thick and billowing, persists after the engine is fully warm, and has a distinctly sweet smell — from the ethylene glycol in the coolant burning.",
+          "Temperature matters too. If you only see vapor on cold mornings and it clears up by the time you reach the end of the street, that's condensation. If you see it on a warm day, after the engine has been running for 20 minutes, or at any point when the engine is up to temperature — that's coolant burning, and it needs immediate diagnosis.",
+          "The faster you act, the less expensive the repair. Continued driving with coolant burning in the cylinders accelerates head gasket failure, can warp or crack the cylinder head from the resulting heat irregularity, and — if coolant is also mixing with oil — damages bearings and cylinder walls that oil can no longer protect properly."
+        ]
+      },
+      {
+        heading: "When to Bring Your Car In — and When to Stop Driving",
+        paras: [
+          "If you see thick white smoke and the engine is fully warm: stop driving. Pull over safely, shut off the engine, and let it cool before opening anything. A hot, pressurized cooling system can cause burns if opened while hot. Do not continue to your destination if the temperature gauge is climbing.",
+          "Call us before driving further if you're seeing persistent white smoke. Depending on what you describe, we may advise towing rather than driving. Repairs over $1,000 include free towing — so getting the vehicle here safely won't cost extra. We'd rather have you call us than drive a vehicle that's overheating to get it to the shop.",
+          "<a href='/services/head-gasket-repair-near-south-salt-lake-ut'>See our full head gasket repair service page</a> for what the diagnosis and repair process involves."
+        ],
+        inlineCta: true
+      }
+    ]
+  },
+  {
+    slug: "milky-oil",
+    heroIntro: "Milky, frothy, or tan-colored oil on the dipstick means coolant has mixed into your engine oil — a critical sign that requires immediate diagnosis and stop-driving.",
+    name: "Milky or Frothy Engine Oil",
+    shortName: "Milky Oil",
+    priority: "Critical",
+    category: "Engine",
+    relatedService: "head-gasket-repair-near-south-salt-lake-ut",
+    lastUpdated: "May 2026", datePublished: "2026-05-01", dateModified: "2026-05-01",
+    tags: { safetyTier: "critical", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
+    intro: "Engine oil that looks milky, frothy, grayish, or tan — especially visible on the dipstick or the underside of the oil filler cap — means coolant has mixed with the oil. Oil cannot lubricate properly when contaminated with coolant. Continued driving in this condition causes rapid bearing wear, cylinder wall scoring, and potentially catastrophic engine failure.",
+    serviceBlurb: "We diagnose the source of coolant contamination with a combustion gas block test, cooling system pressure test, and cylinder head inspection. The repair depends on what's failing — head gasket, cracked head, or in some engines, an intake manifold gasket — and we tell you exactly what we found before recommending anything.",
+    smsBody: "Hi, my engine oil looks milky or frothy.",
+    causes: [
+      {
+        title: "Failed Head Gasket",
+        desc: "The most common cause of coolant in the oil. When the head gasket fails at a passage between an oil gallery and a coolant passage, coolant migrates into the oil system under cooling system pressure. The contamination turns oil a milky or frothy grayish-tan color. Oil thins and loses its viscosity, which means it can no longer maintain the oil film that protects bearings and cylinder walls from metal-to-metal contact.",
+        diagnosticSignal: "Milky or gray-tan oil on dipstick. Frothy residue on underside of oil filler cap. Coolant level drops without visible external leak. May or may not have white exhaust smoke depending on which gasket passages are affected. Combustion gas block test often positive."
+      },
+      {
+        title: "Cracked Cylinder Head",
+        desc: "A crack in the cylinder head — typically caused by overheating — can create a direct path between a coolant passage and an oil passage or the combustion chamber. The symptoms are identical to a failed head gasket from the outside. A cracked head is confirmed during cylinder head removal and inspection. Unlike a gasket, a cracked head typically requires replacement.",
+        diagnosticSignal: "Milky oil after a known overheating event. Block test positive. Crack found visually or by pressure testing the removed cylinder head. More common in aluminum cylinder heads that have been subjected to sustained overheating."
+      },
+      {
+        title: "Intake Manifold Gasket Failure",
+        desc: "On certain older General Motors V6 engines — particularly the 3.1L and 3.4L found in many 1990s–2000s GM cars and SUVs — the intake manifold gaskets are made of a plastic-and-rubber composite that deteriorates over time and allows coolant from the intake manifold cooling passages to enter the engine oil. This produces the same milky oil symptom but is a less expensive repair than a head gasket job, since the intake manifold doesn't require engine disassembly to the same depth.",
+        diagnosticSignal: "Milky oil on GM vehicle with 3.1L or 3.4L V6. Coolant loss without external leak. External coolant staining at the intake manifold gasket area. Combustion gas block test may be negative if only oil passages are affected. Common at 80,000–120,000 miles on affected GM models."
+      }
+    ],
+    richContent: [
+      {
+        heading: "How to Check if Your Oil Is Contaminated",
+        paras: [
+          "Pull the dipstick and look at the oil on a white cloth or paper towel. Healthy oil is amber to dark brown. Coolant-contaminated oil looks milky, frothy, or grayish-tan — sometimes described as a coffee-with-cream color. The contamination is usually unmistakable once you've seen it.",
+          "Also check the underside of the oil filler cap — the round cap on top of the engine you remove to add oil. A light grayish or creamy residue on the inside of this cap is a reliable early indicator of coolant in the oil, often visible before the dipstick shows obvious contamination.",
+          "A small amount of light condensation can sometimes appear on the oil filler cap of vehicles used exclusively for short trips — water vapor from combustion that never fully burns off. This is white rather than gray-tan, minimal in quantity, and disappears with longer drives. Full coolant contamination is much more pronounced and doesn't clear up with driving."
+        ]
+      },
+      {
+        heading: "Stop Driving — This Is a Time-Sensitive Problem",
+        paras: [
+          "Coolant-contaminated oil cannot lubricate engine internals properly. The coolant dilutes the oil's viscosity and destroys the oil film that prevents metal-to-metal contact at bearing surfaces and cylinder walls. Every mile driven on contaminated oil accelerates bearing wear and cylinder wall scoring that won't be visible until the engine is disassembled — and may not be repairable without a full engine rebuild or replacement.",
+          "If you find milky oil, don't top off the oil and keep driving. The problem will get worse, not better. Call us and we'll talk through the symptoms and help you determine whether the vehicle can be safely driven to the shop or needs to be towed. Repairs over $1,000 include free towing.",
+          "<a href='/services/head-gasket-repair-near-south-salt-lake-ut'>See our head gasket repair page</a> for how we diagnose and repair coolant contamination problems."
+        ],
+        inlineCta: true
+      }
+    ]
   }
 ];
 
@@ -1206,7 +1311,9 @@ const symptomMeta = {
   'bouncy-ride':               { metaTitle: "Bouncy Ride Repair South Salt Lake UT | Struts & Shocks", metaDesc: "Bouncing after every bump? Worn struts or shocks are the likely cause. Free suspension inspection. South Salt Lake. (801) 485-4089." },
   'nose-dive-braking':         { metaTitle: "Front End Dives When Braking | Scott's Auto South Salt Lake, UT", metaDesc: "Front-end dive under braking means worn front struts. Stopping distance increases noticeably — worth fixing before winter. (801) 485-4089." },
   'uneven-tire-wear':          { metaTitle: "Uneven Tire Wear Patterns | Scott's Auto South Salt Lake, UT", metaDesc: "Inner edge, outer edge, or cupping — each pattern tells a different story. We read the wear and fix the cause. (801) 485-4089." },
-  'rough-ride-over-bumps':     { metaTitle: "Rough Ride Over Bumps | Scott's Auto South Salt Lake, UT", metaDesc: "Harsher over bumps than it used to be? Worn bushings, struts, or ball joints are the usual culprits. Suspension inspection. (801) 485-4089." }
+  'rough-ride-over-bumps':     { metaTitle: "Rough Ride Over Bumps | Scott's Auto South Salt Lake, UT", metaDesc: "Harsher over bumps than it used to be? Worn bushings, struts, or ball joints are the usual culprits. Suspension inspection. (801) 485-4089." },
+  'white-exhaust-smoke':       { metaTitle: "White Smoke from Exhaust | Head Gasket? | Scott's Auto", metaDesc: "Thick white smoke after warm-up almost always means coolant is burning. We diagnose with a block test before recommending anything. (801) 485-4089." },
+  'milky-oil':                 { metaTitle: "Milky Engine Oil? Stop Driving | Scott's Auto South Salt Lake", metaDesc: "Frothy or gray-tan oil means coolant has mixed in. Oil can't protect the engine in this condition — get it diagnosed immediately. (801) 485-4089." }
 };
 
 symptoms.forEach(s => {

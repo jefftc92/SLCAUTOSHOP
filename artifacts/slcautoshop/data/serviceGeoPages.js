@@ -1,5 +1,5 @@
 'use strict';
-// 176 near-city service geo pages (11 services × 16 cities)
+// 192 near-city service geo pages (12 services × 16 cities)
 // SEO rule: never state what a repair "includes" — every job varies by vehicle
 
 const CITIES = [
@@ -1603,6 +1603,127 @@ const CONTENT = {
         metaDesc: 'Complete auto repair for Midvale drivers. Closest major auto shop to Midvale, 5 miles on State Street. TRAX Blue Line drop-off and pickup. Scott\'s Auto. (801) 485-4089.'
       }
     }
+  },
+
+  'head-gasket-repair': {
+    serviceName: 'Head Gasket Repair',
+    serviceFullName: 'Head Gasket Repair & Replacement',
+    mainSlug: 'head-gasket-repair-near-south-salt-lake-ut',
+    hasLocalContext: true,
+    cities: {
+      'sugar-house': {
+        intro: 'Sugar House\'s hilly terrain and stop-and-go on 1300 East put consistent thermal load on cooling systems. We\'re 3 miles south — about 5 minutes down Highland Drive.',
+        localContent: 'Sugar House\'s 1300 East corridor drops steeply from Westminster University toward the valley floor, and the dense stop-and-go on 2100 South means cooling systems cycle through heat-up and cool-down patterns that stress older hoses, thermostats, and gasket sealing surfaces. Many Sugar House vehicles — particularly older FWD sedans and compact SUVs — run cooling systems near capacity in summer without drivers noticing until a temperature gauge climbs or coolant begins disappearing without an obvious puddle.',
+        localTip: 'If your temperature gauge climbs and then settles during stop-and-go on 1300 East, have the cooling system pressure-tested. A slow head gasket leak often shows up as intermittent overheating months before it becomes constant — and catching it early means less secondary damage to the cylinder head.',
+        metaTitle: 'Head Gasket Repair Near Sugar House UT | Scott\'s Auto',
+        metaDesc: 'Head gasket diagnosis and repair for Sugar House drivers. 3 miles south on Highland Drive. Free combustion gas test before any recommendation. Scott\'s Auto. (801) 485-4089.'
+      },
+      'millcreek': {
+        intro: 'Millcreek\'s canyon access routes put cooling systems under sustained thermal stress that flat-valley driving never generates. We\'re 3 miles from Millcreek — about 7 minutes on 3300 South.',
+        localContent: 'Millcreek residents who regularly access Big Cottonwood Canyon subject their cooling systems to sustained high-load conditions — climbing 1,000+ vertical feet over several miles at throttle positions that raise coolant temperature steadily. A cooling system that holds up on flat terrain often shows its weaknesses on canyon grades. Sustained climbing with A/C on in summer is one of the most common head gasket stress patterns we see from Millcreek vehicles, and it typically shows up first as a temperature gauge that runs slightly higher than it used to.',
+        localTip: 'If your vehicle runs fine in Millcreek but the temperature gauge rises when climbing toward Big Cottonwood Canyon, that\'s a cooling system problem worth diagnosing before the gasket fails completely. Canyon grades reveal marginal cooling capacity that flat driving masks.',
+        metaTitle: 'Head Gasket Repair Near Millcreek UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Millcreek drivers. Canyon access grades stress cooling systems hard. 3 miles from Millcreek. Free diagnosis before any work. Scott\'s Auto. (801) 485-4089.'
+      },
+      'murray': {
+        intro: 'Murray\'s State Street commuting accumulates miles quickly — and high-mileage engines are where head gasket failures are most common. We\'re 4 miles north — about 8 minutes on State Street.',
+        localContent: 'Murray commuters on State Street accumulate high annual mileage, and head gasket failures are far more common after 100,000 miles than before. Many Murray head gasket jobs we see started as a different symptom — slow coolant loss or an occasional temperature spike — that was deferred until it became a bigger problem. If you\'ve been adding coolant without finding a puddle, or your heater has started blowing lukewarm, those are the early signs worth diagnosing before white smoke appears.',
+        localTip: 'Murray drivers: if you\'re topping off the coolant reservoir every few months without finding a visible leak, bring it in for a pressure test. A slow internal head gasket leak often shows up as unexplained coolant loss well before the oil turns milky or the exhaust smokes.',
+        metaTitle: 'Head Gasket Repair Near Murray UT | Scott\'s Auto',
+        metaDesc: 'Head gasket diagnosis and repair for Murray drivers. High-mileage State Street commuters see more gasket failures. 4 miles north. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'salt-lake-city': {
+        intro: 'The Avenues\' steep grades and summer heat create cooling demands that stress aging gaskets faster than flat-valley driving. We\'re 4 miles south — about 10 minutes on Highland Drive.',
+        localContent: 'Salt Lake City\'s Avenues neighborhood has some of the steepest residential grades in the valley. Residents who climb to Capitol Hill or the University area in summer — with A/C running at full load — put sustained thermal stress on cooling systems that flat-valley mechanics often don\'t anticipate. The combination of steep grades, stop-and-go at intersections, and high ambient temperatures creates a head gasket stress environment that Avenues vehicles see more of than their mileage would suggest.',
+        localTip: 'Avenues drivers: if the temperature gauge climbs on the uphill sections of Virginia Street or 11th Avenue and settles on flat ground, have the cooling system inspected before summer. Grade climbing with A/C load in high heat is when marginal head gaskets reveal themselves.',
+        metaTitle: 'Head Gasket Repair Near Salt Lake City UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Salt Lake City drivers. Avenues grades and summer heat stress cooling systems. 4 miles south. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'taylorsville': {
+        intro: 'Taylorsville\'s I-215 and freeway commuting builds miles fast — and mileage is the most reliable predictor of head gasket failure. We\'re 5 miles east — about 10 minutes on 4700 South.',
+        localContent: 'Taylorsville\'s wide arterials and I-215 access create high-mileage commuting patterns that wear cooling system components steadily over time. Head gasket failures on high-mileage Taylorsville vehicles often present first as slow coolant consumption — owners add a bottle every few months without seeing a puddle — before progressing to visible symptoms. We run a combustion gas block test and pressure test before recommending head gasket work. Sometimes it\'s the thermostat or a hose, which is a much quicker repair.',
+        localTip: 'Taylorsville freeway commuters who\'ve logged 120,000+ miles should have coolant and oil checked for cross-contamination at every oil change. A slow head gasket leak often shows as unexplained coolant loss months before oil turns milky.',
+        metaTitle: 'Head Gasket Repair Near Taylorsville UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Taylorsville drivers. High-mileage freeway commuters see more cooling system failures. 5 miles east. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'west-valley-city': {
+        intro: 'West Valley City\'s commercial vehicle fleet and high-mileage work trucks make cooling system failures a common reason drivers call for towing. We\'re 7 miles east — about 12 minutes via I-215.',
+        localContent: 'West Valley City\'s vehicle mix includes a higher proportion of high-mileage work vehicles and commercial trucks than most valley communities. These vehicles — often driven hard and maintained on extended intervals — see cooling system wear that accelerates head gasket stress. We emphasize this to West Valley drivers: a single full overheat can warp the cylinder head, turning a straightforward gasket job into a repair that also requires head resurfacing. Getting here before that happens costs significantly less.',
+        localTip: 'Commercial vehicles and work trucks in West Valley should have cooling system inspections every 30,000 miles regardless of whether symptoms exist. A thermostat or hose that fails on the road leads to overheating — and one overheating event can turn a cheap repair into an expensive one.',
+        metaTitle: 'Head Gasket Repair Near West Valley City UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for West Valley City drivers. High-mileage work vehicles need proactive cooling care. 7 miles east via I-215. Scott\'s Auto. (801) 485-4089.'
+      },
+      'holladay': {
+        intro: 'Holladay\'s Highland Drive grades and Big Cottonwood Canyon access put cooling systems under the highest sustained thermal load in the valley. We\'re 5 miles north — about 9 minutes on Highland Drive.',
+        localContent: 'Holladay vehicles that regularly access Big Cottonwood Canyon experience among the most demanding cooling conditions in the Salt Lake Valley. Long canyon climbs at sustained throttle raise coolant temperature steadily, and the descent afterward means the cooling system cycles through heat stress repeatedly in a single trip. Holladay vehicles used for canyon recreation often develop coolant issues — slow leaks, overflow tank pressure, intermittent temperature spikes — that point to a cooling system approaching failure. We see this pattern regularly from this area.',
+        localTip: 'After a ski day or summer canyon drive, let your engine idle for a minute or two before shutting it off. Abrupt shutdown when coolant is hot can create localized hot spots that stress head gasket sealing surfaces over time — especially on aluminum-head engines.',
+        metaTitle: 'Head Gasket Repair Near Holladay UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Holladay drivers near Big Cottonwood Canyon. Canyon grades and heat stress cooling systems. 5 miles north. Scott\'s Auto. (801) 485-4089.'
+      },
+      'cottonwood-heights': {
+        intro: 'Little Cottonwood Canyon\'s grades make Cottonwood Heights vehicles among the most cooling-system-stressed in the valley — ski season adds cold-to-high-load thermal cycling on top of grade demands. We\'re 6 miles north — about 10 minutes on Highland Drive.',
+        localContent: 'Cottonwood Heights residents who ski Snowbird or Alta subject their vehicles to a demanding thermal cycle: cold engine start in sub-zero canyon temperatures, immediate sustained grade climbing with full passenger and gear load, followed by idling in lift-line and canyon traffic. This cold-to-high-load cycling stresses head gasket sealing surfaces differently than city driving, and we see a pattern of cooling system failures on ski vehicles that correlates strongly with winter canyon mileage. Canyon traction restrictions mean vehicles often idle in stop-and-go traffic longer, adding to the thermal load.',
+        localTip: 'Cold-start canyon climbing is harder on head gaskets than warm-engine driving. If you\'re heading to Little Cottonwood on a below-zero morning, let the engine fully reach operating temperature before sustained grade climbing. The gasket seals more consistently when coolant is fully up to temp.',
+        metaTitle: 'Head Gasket Repair Near Cottonwood Heights UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Cottonwood Heights ski-canyon drivers. Cold-start canyon grades stress gaskets. 6 miles north. Scott\'s Auto. (801) 485-4089.'
+      },
+      'sandy': {
+        intro: 'Sandy\'s summer heat, I-15 commuting, and foothill neighborhood grades combine to create above-average cooling system stress. We\'re 8 miles north — about 12 minutes on I-15.',
+        localContent: 'Sandy\'s eastern neighborhoods sit at the base of the Wasatch foothills, and many residents climb Bell Canyon access roads or steep foothill streets daily. Summer temperatures in Sandy regularly hit the upper 90s while residents run A/C at full capacity — the combination of ambient heat, grade climbing, and A/C compressor load pushes cooling systems to their limits. We see Sandy vehicles most commonly when a temperature gauge that\'s been running slightly high finally crossed a threshold the owner couldn\'t ignore.',
+        localTip: 'Sandy drivers: if your temperature gauge runs noticeably higher than it used to under the same conditions — A/C on in summer, freeway speed, or foothill grade — have the thermostat and cooling system pressure-tested. A sluggish thermostat often shows up as \'running warmer\' months before a full failure.',
+        metaTitle: 'Head Gasket Repair Near Sandy UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Sandy drivers. Foothill grades and summer heat stress cooling systems. 8 miles north on I-15. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'draper': {
+        intro: 'Draper\'s SunCrest elevation and Point of the Mountain I-15 grade create the most altitude-plus-grade cooling challenge in the south valley. We\'re 12 miles north — about 15 minutes on I-15.',
+        localContent: 'SunCrest residents in Draper live at 5,200+ feet elevation, which slightly lowers coolant boiling points and compresses the thermal margin between normal operating temperature and overheating. The daily grade descent from SunCrest also means cooling systems that run warm on the climb have to manage coolant temperature through the descent as well. Draper\'s outdoor recreation vehicle population — towing boats and ATVs over the Point of the Mountain — adds towing-load cooling stress that accelerates wear on water pumps, hoses, and gasket sealing surfaces.',
+        localTip: 'SunCrest residents should confirm their coolant mixture is rated to at least -34°F freeze protection — proper mixture also raises the boiling point. At elevation, maintaining correct coolant concentration is more important than at the valley floor because the thermal margin is already compressed.',
+        metaTitle: 'Head Gasket Repair Near Draper UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Draper drivers. SunCrest elevation and I-15 grades stress cooling systems. 12 miles north. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'west-jordan': {
+        intro: 'West Jordan\'s suburban driving and Mountain View Corridor commutes make this one of our most common head gasket service areas south of the freeway. We\'re 8 miles northeast — about 12 minutes.',
+        localContent: 'West Jordan\'s suburban driving pattern — long arterial commutes, school runs, and weekend recreational towing — creates consistent cooling system load without dramatic heat events. Head gasket failures here are almost always mileage-driven: the 100,000–150,000 mile range on vehicles driven for a decade or more. Many West Jordan residents keep the same vehicle for years, and the combination of age, accumulated mileage, and Utah\'s temperature extremes eventually takes a toll on cooling system integrity.',
+        localTip: 'West Jordan vehicles in the 100,000–150,000 mile range should have coolant changed and the system pressure-tested as preventive maintenance. Aging coolant becomes acidic and attacks gasket sealing surfaces. A coolant service is far less expensive than the problem it prevents.',
+        metaTitle: 'Head Gasket Repair Near West Jordan UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for West Jordan drivers. High-mileage suburban vehicles see more gasket failures. 8 miles northeast. Scott\'s Auto. (801) 485-4089.'
+      },
+      'south-jordan': {
+        intro: 'South Jordan\'s Bangerter Highway commutes and family vehicles accumulate high mileage — and head gasket failure risk rises significantly past 100,000 miles. We\'re 10 miles north — about 14 minutes on I-15.',
+        localContent: 'South Jordan drivers on Bangerter Highway cover significant annual mileage at sustained highway speeds, and vehicles here are often kept in service well past 100,000 miles. We diagnose with a combustion gas block test and pressure test before recommending head gasket work — because sometimes what looks like a head gasket problem is a thermostat, water pump, or radiator cap, each of which is a much quicker and less expensive repair. If the gasket is the cause, we tell you clearly and explain exactly what the repair involves before proceeding.',
+        localTip: 'South Jordan drivers: if your heater suddenly starts blowing lukewarm instead of hot, have the coolant system inspected. Low coolant from a slow internal head gasket leak is a common first sign — it shows up in heater performance before the temperature gauge climbs.',
+        metaTitle: 'Head Gasket Repair Near South Jordan UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for South Jordan drivers. Bangerter commuters build miles fast — gasket risk rises past 100K. 10 miles north. Scott\'s Auto. (801) 485-4089.'
+      },
+      'riverton': {
+        intro: 'Riverton\'s long commutes and recreational towing put sustained load on cooling systems that short urban trips never generate. We\'re 12 miles northeast — about 16 minutes.',
+        localContent: 'Riverton\'s longer-distance commuters and outdoor recreation households put above-average annual mileage on their vehicles. Towing trailers and boats through summer heat on Bangerter Highway generates sustained high-load cooling demands that stress water pumps, hoses, and gasket surfaces. Riverton vehicles with 120,000+ miles that have never had a coolant service are among the most at-risk we see — aging coolant loses its additive package and allows corrosion inside the cooling passages, which attacks gasket sealing surfaces on aluminum-head engines over time.',
+        localTip: 'Riverton residents who tow regularly: check your coolant at every oil change. Towing in summer heat degrades coolant faster than normal driving, and degraded coolant accelerates the corrosion that leads to gasket failures on aluminum-head engines.',
+        metaTitle: 'Head Gasket Repair Near Riverton UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Riverton drivers. Long commutes and towing accelerate cooling system wear. 12 miles northeast. Scott\'s Auto. (801) 485-4089.'
+      },
+      'herriman': {
+        intro: 'Herriman\'s hillside streets and Oquirrh Mountain terrain create grade-climbing cooling demands all year — particularly severe in summer when temperatures at the base of the foothills regularly exceed 100°F. We\'re 15 miles northeast — about 20 minutes.',
+        localContent: 'Herriman\'s hillside residential streets can exceed 10% grade, and many residents climb from valley floor to their neighborhoods daily. Summer temperatures combined with sustained uphill driving put cooling systems under the kind of load that reveals marginal thermostats, aging hoses, and weakened gasket sealing surfaces. Herriman is also the fastest-growing city in Utah, which means many residents are driving older vehicles while managing new home expenses — and those higher-mileage vehicles are most likely candidates for head gasket issues.',
+        localTip: 'Herriman residents with vehicles over 80,000 miles: if the temperature gauge climbs heading up the hill to your neighborhood in summer, don\'t wait to see if it settles. An intermittent overheat is easier and cheaper to address before it becomes a constant one — and a single full overheat can warp the cylinder head.',
+        metaTitle: 'Head Gasket Repair Near Herriman UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Herriman drivers. Oquirrh Mountain grades and summer heat stress cooling systems. 15 miles northeast. Scott\'s Auto. (801) 485-4089.'
+      },
+      'kearns': {
+        intro: 'Kearns vehicles tend to run high annual mileage on flat terrain — and mileage is the primary driver of head gasket failure regardless of driving style. We\'re 7 miles east — about 12 minutes on 5400 South.',
+        localContent: 'Kearns drivers accumulate miles on flat residential and commercial streets rather than canyon grades, which means head gasket failures here are almost always mileage-driven and chemistry-driven rather than heat-event-driven. Vehicles in the 120,000–180,000 mile range where coolant hasn\'t been changed on schedule develop acidic coolant chemistry that slowly attacks gasket sealing surfaces and corrodes the inside of aluminum cylinder heads. We see this pattern regularly from Kearns and diagnose it systematically before recommending anything.',
+        localTip: 'Kearns drivers: coolant should be changed every 5 years or 60,000 miles regardless of color or how the vehicle is running. Coolant color doesn\'t indicate acidity. A $15 test strip from any auto parts store can tell you whether your coolant is still protecting the engine or slowly attacking it.',
+        metaTitle: 'Head Gasket Repair Near Kearns UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Kearns drivers. High-mileage vehicles fail from aging coolant chemistry. 7 miles east on 5400 South. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'midvale': {
+        intro: 'Midvale is 5 miles from our shop — and Central Pointe TRAX makes the drop-off simple if your vehicle can\'t safely be driven. About 8 minutes on State Street.',
+        localContent: 'Midvale\'s vehicle population — a mix of high-mileage daily drivers and older import vehicles — sees head gasket failures at a predictable rate as vehicles age past 100,000 miles. TRAX access from Midvale makes our shop practical even when a vehicle can\'t safely be driven: board the Blue Line at Midvale stop, ride one stop to Central Pointe Station, and walk 3 minutes east. Drop off the car before work and we\'ll call you with what we found.',
+        localTip: 'Midvale TRAX riders: if your car is overheating or showing white smoke, don\'t drive it to the shop — driving an overheating engine risks serious damage. Call us first. Repairs over $1,000 include free towing, so getting your vehicle here safely won\'t cost you extra.',
+        metaTitle: 'Head Gasket Repair Near Midvale UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Midvale drivers. 5 miles north on State Street — TRAX Blue Line drop-off. Free diagnosis before any work. Scott\'s Auto. (801) 485-4089.'
+      }
+    }
   }
 
 };
@@ -1621,6 +1742,7 @@ const TITLE_TEMPLATES = {
   'welding-services':             "Auto Welding Near {{CITY}} UT | Scott's Auto",
   'shock-replacement':            "Shock Replacement Near {{CITY}} UT | Scott's Auto",
   'complete-auto-service':        "Complete Auto Service Near {{CITY}} UT | Scott's",
+  'head-gasket-repair':           "Head Gasket Repair Near {{CITY}} UT | Scott's Auto",
 };
 
 // Trim descriptions over 160 chars: shorten brand name first, then truncate.
