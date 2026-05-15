@@ -1724,6 +1724,127 @@ const CONTENT = {
         metaDesc: 'Head gasket repair for Midvale drivers. 5 miles north on State Street — TRAX Blue Line drop-off. Free diagnosis before any work. Scott\'s Auto. (801) 485-4089.'
       }
     }
+  },
+
+  'lift-leveling-kit-installation': {
+    serviceName: 'Lift & Leveling Kits',
+    serviceFullName: 'Lift & Leveling Kit Installation',
+    mainSlug: 'lift-leveling-kit-installation-near-south-salt-lake-ut',
+    hasLocalContext: true,
+    cities: {
+      'sugar-house': {
+        intro: 'Sugar House truck owners looking to level or lift are 3 miles north — about 5 minutes down Highland Drive.',
+        localContent: 'Sugar House sits right at the mouth of Parleys Canyon, making it a natural launch point for runs up I-80 into the Wasatch. Trucks headed to Park City, Emigration Canyon, or the Bonneville Shoreline Trail benefit from a proper lift that clears larger all-terrain tires. The neighborhood\'s mix of canyon access and urban driving makes a leveling kit a practical everyday upgrade.',
+        localTip: 'If you\'re running Parleys Canyon regularly, a 2-inch leveling kit paired with 285/70R17s gives clearance without sacrificing highway stability — confirm alignment specs after install.',
+        metaTitle: 'Lift & Leveling Kit Near Sugar House UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for Sugar House trucks — 3 miles, 5 min. Parleys Canyon ready. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'millcreek': {
+        intro: 'Millcreek drivers are just 3 miles and about 7 minutes from our shop on Crystal Ave.',
+        localContent: 'With Millcreek Canyon Road in the neighborhood, lifted trucks here earn their keep year-round on snow-packed switchbacks and rocky summer trails. The canyon\'s corridor opens up to Wasatch backcountry that rewards rigs with proper ground clearance. Millcreek\'s truck culture leans toward capable, trail-ready builds rather than purely cosmetic lifts.',
+        localTip: 'Millcreek Canyon\'s tight switchbacks favor a 3- to 4-inch lift over a taller setup — you keep the clearance you need without adding excessive body roll on those narrow canyon curves.',
+        metaTitle: 'Lift & Leveling Kit Near Millcreek UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for Millcreek trucks — 3 miles, 7 min. Millcreek Canyon ready. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'murray': {
+        intro: 'Murray truck owners are 4 miles north of our shop — a straight shot up State Street in about 8 minutes.',
+        localContent: 'Murray sits between the Jordan River corridor and quick I-215 access to the Cottonwood Canyons, making it a hub for trucks that pull double duty on commutes and weekend trail runs. Drivers heading south toward Sandy or Draper trailheads benefit from the added clearance on rougher canyon approach roads. A leveling kit is among the most common same-day jobs we do for Murray truck owners.',
+        localTip: 'Murray\'s easy freeway access means many owners opt for a leveling kit plus mild all-terrain tires — a balanced setup that handles I-215 on-ramps and canyon roads without a harsh daily ride.',
+        metaTitle: 'Lift & Leveling Kit Near Murray UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for Murray trucks — 4 miles, 8 min. Cottonwood Canyon access. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'salt-lake-city': {
+        intro: 'Salt Lake City trucks heading to our shop are just 4 miles south on State Street — roughly 10 minutes from most neighborhoods.',
+        localContent: 'Salt Lake City is the gateway to some of Utah\'s most-used off-road corridors, including the Bonneville Shoreline Trail along the base of the Wasatch and I-80 access to the Uintas. City trucks that double as weekend rigs — hauling gear up Emigration Canyon or heading into the backcountry — benefit from a lift that doesn\'t compromise daily driving. Central Pointe TRAX is a 3-minute walk from our shop if you\'d rather drop the truck and take transit.',
+        localTip: 'For SLC trucks that see Bonneville Shoreline\'s rocky approaches, a front leveling kit with a quality shock upgrade handles the pavement-to-dirt transition better than a basic spacer alone.',
+        metaTitle: 'Lift & Leveling Kit Near Salt Lake City UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for SLC trucks — 4 miles, 10 min. Bonneville Trail & canyon access. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'taylorsville': {
+        intro: 'Taylorsville drivers are 5 miles and about 10 minutes from our shop via Redwood Road or Bangerter Highway.',
+        localContent: 'Taylorsville trucks have quick access to both the Oquirrh Mountain foothills to the west and the Cottonwood Canyons corridor to the east — a range of terrain that rewards a capable lift setup. The area\'s truck culture prioritizes functional builds: leveling kits, quality all-terrain tires, and alignment specs that hold up under load. Weekend runs toward Ophir Canyon or the Tooele Valley trails are common among Taylorsville owners.',
+        localTip: 'If you\'re towing or hauling regularly out of Taylorsville, consider a leveling kit matched with upgraded front struts — it corrects nose-dive under load and keeps headlights properly aimed.',
+        metaTitle: 'Lift & Leveling Kit Near Taylorsville UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for Taylorsville trucks — 5 miles, 10 min. Oquirrh access. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'west-valley-city': {
+        intro: 'West Valley City is 7 miles from our shop — about 12 minutes up Redwood Road or via I-215.',
+        localContent: 'West Valley City trucks have a straight shot toward the Oquirrh Mountains, where OHV trails near Bacchus Highway and the western valley foothills offer year-round riding. The city\'s large truck-owning population includes contractors and tradespeople who want the function of a leveled truck for both work sites and weekend use. Proximity to the Tooele County trail network makes a proper lift kit a practical investment rather than just a cosmetic one.',
+        localTip: 'West Valley contractors running heavy payloads should pair a leveling kit with a rear add-a-leaf or helper spring — keeps the truck level under load and protects the suspension long-term.',
+        metaTitle: 'Lift & Leveling Kit Near West Valley UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for West Valley trucks — 7 miles, 12 min. Oquirrh Mountain access. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'holladay': {
+        intro: 'Holladay truck owners are 5 miles from our shop — about 9 minutes down Highland Drive.',
+        localContent: 'Holladay sits at the base of the Wasatch with direct access to Big Cottonwood Canyon just minutes away, making it one of the valley\'s best-positioned neighborhoods for year-round trail driving. Trucks here regularly run the canyon road up to Solitude and Brighton in winter, where clearance and all-terrain tires matter on packed snow and ice. The neighborhood supports builds ranging from cosmetic leveling kits to full 4- to 6-inch suspension lifts.',
+        localTip: 'Holladay trucks headed up Big Cottonwood Canyon should confirm towing specs after a lift install — tongue weight changes with suspension geometry and affects canyon braking performance when towing.',
+        metaTitle: 'Lift & Leveling Kit Near Holladay UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for Holladay trucks — 5 miles, 9 min. Big Cottonwood Canyon ready. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'cottonwood-heights': {
+        intro: 'Cottonwood Heights is 6 miles from our shop — about 10 minutes via Fort Union Boulevard.',
+        localContent: 'Cottonwood Heights is the gateway to both Big and Little Cottonwood Canyons, two of Utah\'s most-traveled mountain corridors for skiing, hiking, and Wasatch backcountry access. Trucks here face steep canyon grades, winter traction demands, and occasional rough forest service roads — all conditions where a proper lift and all-terrain tires pay dividends. The city\'s outdoor-oriented population skews toward capable, trail-ready builds.',
+        localTip: 'After a lift install for Cottonwood Heights canyon driving, get a four-wheel alignment — canyon switchbacks and off-camber roads accelerate tire wear fast if your angles are even slightly off.',
+        metaTitle: 'Lift & Leveling Kit Near Cottonwood Heights UT | Scott\'s',
+        metaDesc: 'Lift & leveling kit installation near Cottonwood Heights — 6 miles, 10 min. Big & Little Cottonwood access. Scott\'s Auto. (801) 485-4089.'
+      },
+      'sandy': {
+        intro: 'Sandy truck owners are 8 miles from our shop — about 12 minutes north on I-15 or State Street.',
+        localContent: 'Sandy anchors the south end of the Salt Lake Valley with direct access to Little Cottonwood Canyon and quick connections to the Corner Canyon trail system in Draper. The area\'s active outdoor community keeps demand high for trucks that handle rocky Wasatch approach roads and carry gear for backcountry trips. Sandy is also a popular starting point for Uinta-bound rigs hauling ATVs or boats — setups that benefit from a leveled stance and proper rear suspension support.',
+        localTip: 'Sandy rigs headed to Little Cottonwood should confirm rim backspacing before purchasing tires for a new lift — the wrong offset causes rubbing on canyon approaches where the suspension is at full travel.',
+        metaTitle: 'Lift & Leveling Kit Near Sandy UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for Sandy trucks — 8 miles, 12 min. Little Cottonwood Canyon access. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'draper': {
+        intro: 'Draper drivers are 12 miles from our shop — about 15 minutes north on I-15.',
+        localContent: 'Draper sits at the foot of the Wasatch with the Corner Canyon trail system — a world-class OHV and mountain biking network — practically in the backyard. SunCrest residents and Point of the Mountain commuters regularly deal with steep winding roads that reward trucks with solid ground clearance. Draper\'s outdoor-focused population means lifted trucks and leveled SUVs are among the most common rigs on local roads.',
+        localTip: 'Corner Canyon\'s rocky doubletrack is tough on stock suspension — if you\'re running it regularly, invest in a quality lift kit with upgraded shocks rather than a budget spacer kit that transfers all the impact directly to factory struts.',
+        metaTitle: 'Lift & Leveling Kit Near Draper UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for Draper trucks — 12 miles, 15 min. Corner Canyon & SunCrest ready. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'west-jordan': {
+        intro: 'West Jordan truck owners are 8 miles from our shop — about 12 minutes via Bangerter Highway.',
+        localContent: 'West Jordan gives truck owners easy access to Oquirrh Mountain OHV trails and the expansive terrain stretching toward Tooele County. The city has a strong working-truck culture, with landscaping, construction, and trades rigs that benefit from leveling kits to support payload and improve approach angles on job sites. Weekend trail runners head west toward Ophir Canyon and the Tooele Valley network where a proper lift makes a real difference.',
+        localTip: 'West Jordan contractors: a 2-inch leveling kit corrects the factory rake and lets you run a full-size spare under the bed without dragging — a practical win for both work and trail use.',
+        metaTitle: 'Lift & Leveling Kit Near West Jordan UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for West Jordan trucks — 8 miles, 12 min. Oquirrh Mountain access. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'south-jordan': {
+        intro: 'South Jordan is 10 miles from our shop — about 14 minutes north via Bangerter or Redwood Road.',
+        localContent: 'South Jordan\'s neighborhoods push right up against the Oquirrh foothills, with quick access to the Jordan River Parkway and western valley OHV areas. The city\'s outdoors-oriented demographic supports strong demand for full suspension lift kits — rigs here are often loaded with overlanding gear and tow trailers to Uinta trailheads. Nearby access to SR-111 and Bacchus Highway opens up Tooele County\'s extensive off-road network.',
+        localTip: 'South Jordan overland builds heading toward the Uintas often run heavy — confirm your lift kit\'s load rating matches your payload and tongue weight before the install, especially on three-quarter-ton trucks.',
+        metaTitle: 'Lift & Leveling Kit Near South Jordan UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for South Jordan trucks — 10 miles, 14 min. Oquirrh & Uinta access. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'riverton': {
+        intro: 'Riverton truck owners are 12 miles from our shop — about 16 minutes north on Bangerter Highway.',
+        localContent: 'Riverton sits at the southwest corner of the Salt Lake Valley with broad access to Oquirrh Mountain trails, the Bingham Canyon area, and the southern Jordan River corridor. The city\'s outdoor recreation culture means pickups here often pull horse trailers or haul ATVs, making proper suspension leveling both a functional and safety upgrade. Drivers also have easy access to SR-68 corridors heading into backcountry areas near the Tooele County line.',
+        localTip: 'Riverton truck owners towing horse trailers: get a post-lift alignment and consider whether your hitch height changed — a leveling kit can affect hitch angle and trailer sway on highway runs.',
+        metaTitle: 'Lift & Leveling Kit Near Riverton UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for Riverton trucks — 12 miles, 16 min. Oquirrh trail access. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'herriman': {
+        intro: 'Herriman is 15 miles from our shop — about 20 minutes north via Bangerter Highway.',
+        localContent: 'Herriman sits in the shadow of the Oquirrh Mountains with some of the most direct residential access to off-road terrain in the Salt Lake Valley — the foothills start practically at the edge of several neighborhoods. The city\'s newer developments attract families with trucks and SUVs geared toward active outdoor lifestyles, and the nearby Oquirrh Mountain OHV trails see heavy use from Herriman residents. SR-111 provides a natural corridor toward Tooele County\'s expansive backcountry riding areas.',
+        localTip: 'Herriman\'s Oquirrh foothills involve loose shale and steep grades — a full suspension lift with a quality shock package handles that terrain far better than a leveling kit alone on rough descents.',
+        metaTitle: 'Lift & Leveling Kit Near Herriman UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for Herriman trucks — 15 miles, 20 min. Oquirrh Mountain trails. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'kearns': {
+        intro: 'Kearns drivers are 7 miles from our shop — about 12 minutes via 4700 South or Redwood Road.',
+        localContent: 'Kearns sits in the heart of the west valley with quick access to Bangerter Highway and the Oquirrh Mountain foothills to the west. The neighborhood has a strong working-class truck culture, and many owners use their rigs for daily commuting and weekend recreation in the Tooele Valley and Oquirrh Mountain OHV areas. The nearby inland port and industrial west side also means a high concentration of contractor trucks that benefit from leveling kits for improved payload stance.',
+        localTip: 'Kearns trucks running west toward Tooele on SR-201 deal with highway debris regularly — a leveling kit that allows a taller all-terrain tire adds both clearance and puncture resistance on those rough corridors.',
+        metaTitle: 'Lift & Leveling Kit Near Kearns UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for Kearns trucks — 7 miles, 12 min. Oquirrh & Tooele access. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      },
+      'midvale': {
+        intro: 'Midvale truck owners are just 5 miles from our shop — about 8 minutes up State Street or I-15.',
+        localContent: 'Midvale sits between the Jordan River corridor and the I-215 interchange that feeds directly into the Cottonwood Canyons, giving truck owners fast access to both urban trails and serious Wasatch backcountry. The city\'s central location in the south valley makes it a natural gathering point for off-road groups that run routes east into the canyons and west toward the Oquirrh OHV areas. Midvale\'s mix of working trucks and newer capable pickups keeps demand steady for both basic leveling kits and full suspension lifts.',
+        localTip: 'Midvale\'s easy Cottonwood Canyon access means your new lift will see real canyon miles quickly — schedule an alignment check within the first 500 miles after install to catch any settling before it affects tire wear.',
+        metaTitle: 'Lift & Leveling Kit Near Midvale UT | Scott\'s Auto',
+        metaDesc: 'Lift & leveling kit installation for Midvale trucks — 5 miles, 8 min. Cottonwood Canyon access. Written estimate. Scott\'s Auto. (801) 485-4089.'
+      }
+    }
   }
 
 };
@@ -1743,6 +1864,7 @@ const TITLE_TEMPLATES = {
   'shock-replacement':            "Shock Replacement Near {{CITY}} UT | Scott's Auto",
   'complete-auto-service':        "Complete Auto Service Near {{CITY}} UT | Scott's",
   'head-gasket-repair':           "Head Gasket Repair Near {{CITY}} UT | Scott's Auto",
+  'lift-leveling-kit-installation': "Lift & Leveling Kit Near {{CITY}} UT | Scott's Auto",
 };
 
 // Trim descriptions over 160 chars: shorten brand name first, then truncate.

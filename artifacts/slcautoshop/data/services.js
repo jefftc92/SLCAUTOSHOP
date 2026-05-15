@@ -2628,6 +2628,207 @@ const services = [
       "water-pump-replacement-near-south-salt-lake-ut",
       "timing-belt-replacement-near-south-salt-lake-ut"
     ]
+  },
+  {
+    slug: "lift-leveling-kit-installation-near-south-salt-lake-ut",
+    name: "Lift & Leveling Kits",
+    fullName: "Lift & Leveling Kit Installation",
+    shortDesc: "Leveling kit and suspension lift installation for trucks and SUVs, with alignment included.",
+    image: "/assets/lift-kit-400.jpg",
+    heroImage: "/assets/lift-kit-400.jpg",
+    metaTitle: "Lift & Leveling Kit Installation South Salt Lake | Scott's Auto",
+    heading: "Lift & Leveling Kit Installation in South Salt Lake, UT",
+    metaDesc: "Leveling kit or full lift? We install both on trucks and SUVs — and we do the alignment after. Written estimate before we start. Scott's Auto. (801) 485-4089.",
+    heroIntro: "Leveling kit to even out that factory rake, or a full lift for real clearance? We install both on trucks and SUVs — and we do the alignment after so it actually drives right. Written estimate. No surprises.",
+    shortDefinition: "A leveling kit corrects the factory front-to-rear height difference on trucks and SUVs using spacers or strut extensions — raising the front to match the rear without significantly changing ride quality. A suspension lift raises the entire vehicle by replacing or augmenting springs, shocks, and sometimes control arms, adding clearance for larger tires and off-road use. Both require a wheel alignment after installation to maintain proper handling, tire wear, and steering geometry.",
+    intro: "",
+    hideServicesSection: true,
+    specializedServices: [
+      "Leveling Kit Installation",
+      "Suspension Lift Kit Installation",
+      "Body Lift Kit Installation",
+      "Spacer & Strut Topper Installation",
+      "Add-A-Leaf & Helper Spring Installation",
+      "Torsion Bar Adjustment",
+      "Coilover Installation",
+      "Wheel Alignment After Every Install",
+      "Pre-Install Suspension Inspection",
+      "Post-Install Road Test & Verification"
+    ],
+    whyUs: [
+      {
+        title: "Alignment Included in Every Install",
+        desc: "A lift that hasn't been aligned drives poorly and eats tires. We do the alignment as part of every installation — not as an add-on."
+      },
+      {
+        title: "We Inspect the Suspension First",
+        desc: "Installing a kit on worn ball joints or tie rod ends creates problems. We check the existing suspension before any kit goes on and tell you what we find."
+      },
+      {
+        title: "Written Estimate Before Any Work",
+        desc: "You'll know exactly what the installation covers and what it costs before we start. No surprises when you pick it up."
+      },
+      {
+        title: "In Business Since 1990",
+        desc: "We've installed hundreds of leveling kits and lifts on Utah trucks and SUVs. We know the fitment issues that come up on common platforms and how to handle them."
+      }
+    ],
+    processHeading: "How We Handle a Lift or Leveling Kit Installation",
+    processIntro: "A lift is only as good as the installation and the alignment that follows. We assess the existing suspension first, install to spec, and verify alignment before the truck leaves.",
+    process: [
+      {
+        step: 1,
+        title: "Tell Us What You're After",
+        desc: "Let us know your vehicle, lift height or leveling goal, whether you're running new tires, and how you use the truck — off-road, daily driver, or towing."
+      },
+      {
+        step: 2,
+        title: "Suspension Assessment",
+        desc: "We inspect ball joints, tie rod ends, CV boots, and shocks before installing anything. Putting a new kit on worn components creates handling problems."
+      },
+      {
+        step: 3,
+        title: "Parts & Fitment Confirmation",
+        desc: "We verify the kit fits your exact year and configuration before starting. Some trucks have mid-year changes that affect fitment."
+      },
+      {
+        step: 4,
+        title: "Installation",
+        desc: "The kit goes in correctly — torqued to spec, hardware inspected, no shortcuts. Most leveling kits take 2–3 hours; suspension lifts take 4–8 hours depending on complexity."
+      },
+      {
+        step: 5,
+        title: "Alignment & Road Test",
+        desc: "Every lift gets an alignment. We verify steering, handling, and ride feel before the truck goes home."
+      }
+    ],
+    commonIssues: [
+      {
+        title: "Uneven Stance (Factory Rake)",
+        desc: "Most trucks leave the factory nose-down to account for payload sag. A leveling kit brings the front up to match the rear for a level stance and cleaner appearance."
+      },
+      {
+        title: "Insufficient Tire Clearance",
+        desc: "Running larger off-road tires requires additional lift to prevent rubbing on body panels and suspension components during full travel."
+      },
+      {
+        title: "Limited Off-Road Ground Clearance",
+        desc: "Factory ride height limits approach, departure, and breakover angles. A suspension lift adds the clearance needed for trails, rocky terrain, and off-pavement driving."
+      },
+      {
+        title: "Post-Lift Alignment Problems",
+        desc: "Many trucks installed elsewhere come in with uneven tire wear, pulling, or steering wander from lifts that were never properly aligned after installation."
+      }
+    ],
+    richContent: [
+      {
+        heading: "What Does a Lift or Leveling Kit Installation Actually Involve?",
+        paras: [
+          "Leveling kits and lift kits are different things that get grouped together. Knowing which one fits your goal makes the job straightforward.",
+          "<strong>Leveling kit</strong> — raises the front of the truck to match the rear, correcting the factory nose-down rake. Most use a strut spacer or extended strut topper. Minimal impact on ride quality. Installation takes 2–3 hours. Always requires an alignment after.",
+          "<strong>Suspension lift kit</strong> — raises the entire vehicle by replacing or modifying springs, shocks, and sometimes upper control arms. Adds ground clearance and allows larger tire fitment. More involved installation — 4–8 hours depending on kit complexity. Requires alignment after.",
+          "<strong>Body lift kit</strong> — raises the body relative to the frame using blocks or spacers, without changing suspension geometry. Creates space for larger tires without affecting ride quality, but does not increase ground clearance under the axles.",
+          "<strong>Alignment</strong> — mandatory after any lift. Raising the truck changes caster, camber, and toe angles. Driving on a misaligned lift causes rapid uneven tire wear, steering wander, and unpredictable handling. We include alignment with every installation.",
+          "Before installing any kit, we inspect ball joints, tie rod ends, CV axle boots, and shock condition. Installing a lift over worn components leads to handling issues and premature wear of the new parts. If we find something worth knowing about, we tell you before we start.",
+          "Depending on your vehicle and goals, the work we commonly perform includes:"
+        ],
+        list: [
+          "Leveling Kit Installation (spacers or strut toppers)",
+          "Suspension Lift Kit Installation (2\", 3\", 4\", 6\" kits)",
+          "Body Lift Kit Installation",
+          "Coilover Installation",
+          "Add-A-Leaf / Helper Spring Installation",
+          "Torsion Bar Adjustment (on applicable platforms)",
+          "Full Wheel Alignment After Every Install",
+          "Pre-Install Suspension Inspection"
+        ],
+        listStyle: "tags"
+      },
+      {
+        heading: "When Should You Come In?",
+        paras: [
+          "Come in when you want to level out the factory rake, add clearance for larger tires, prepare your truck for off-road use, or improve the stance and appearance of your vehicle. Also come in if you had a lift installed elsewhere and it was never aligned — or if you're experiencing uneven tire wear, pulling, or steering wander after a previous install.",
+          "If you're planning new tires at the same time as a kit, let us know before you buy them. Tire size affects what lift height makes sense, and it's easier to confirm fitment before tires are purchased than after."
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Do I need an alignment after a leveling kit?",
+        a: "Yes, always. Even a small spacer leveling kit changes the front caster and camber angles. Driving without an alignment after installation causes uneven tire wear and affects steering feel. We include alignment with every lift and leveling kit installation."
+      },
+      {
+        q: "What's the difference between a leveling kit and a lift kit?",
+        a: "A leveling kit raises only the front of the truck to match the rear — correcting the factory nose-down rake. It typically adds 1–2.5 inches using strut spacers or extended strut toppers. A lift kit raises the entire vehicle by modifying or replacing suspension components, adding 2–6+ inches of total height for ground clearance and larger tire fitment."
+      },
+      {
+        q: "Will a leveling kit affect my ride quality?",
+        a: "A quality spacer leveling kit on a truck in good suspension condition typically causes minimal change. Some stiffer spacers make the ride slightly firmer. If your shocks are already worn, adding a leveling kit makes that more noticeable — which is why we inspect the suspension before installing."
+      },
+      {
+        q: "How big of a lift do I need for a specific tire size?",
+        a: "It depends on the truck and tire size. As a general guide, most half-ton trucks need at least a 2\" leveling kit to fit 33\" tires without rubbing, and a 3–4\" suspension lift for 35\" tires. We confirm fitment for your specific vehicle and tire combination before starting any work."
+      },
+      {
+        q: "Can I supply my own kit, or do you source them?",
+        a: "Either works. If you've already purchased a kit, bring it and we'll install it. If you'd like us to source parts, tell us your vehicle and lift goals and we'll quote options."
+      },
+      {
+        q: "How long does installation take?",
+        a: "A leveling kit installation typically takes 2–3 hours. A suspension lift kit takes 4–8 hours depending on kit complexity and your truck's configuration. We give you a realistic timeline when we quote the work."
+      },
+      {
+        q: "Is there a warranty on the repair?",
+        a: "Yes. Every repair we perform is backed by a 2-year parts and labor warranty. If something we installed gives you trouble within two years, bring it back and we make it right at no charge."
+      },
+      {
+        q: "How does your pricing compare to dealers and chain shops?",
+        a: "Our labor rates are consistently below dealer rates — typically 20–40% less for the same installation. We use quality hardware and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+      }
+    ],
+    whoContent: {
+      heading: "Who to Trust for Lift & Leveling Kit Installation in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been working on trucks and SUVs in South Salt Lake since 1990. A lift kit is only as good as the installation and the alignment that follows it — and alignment is something many lift-only shops don't have the equipment to do in-house. We do.",
+        "When you bring your truck in, we inspect the existing suspension first, install the kit to spec, align it properly, and road test it before you pick it up. If something about your suspension is worth knowing before we start, we'll tell you. No work gets done without your approval."
+      ]
+    },
+    statsTable: [
+      {
+        label: "Typical Turnaround",
+        value: "Same day for most installs — leveling kits 2–3 hours, suspension lifts 4–8 hours"
+      },
+      {
+        label: "Free Estimate",
+        value: "Yes — we quote installation before any work begins"
+      },
+      {
+        label: "Alignment Included",
+        value: "Yes — every lift and leveling kit installation includes a full wheel alignment"
+      },
+      {
+        label: "Common Applications",
+        value: "Half-ton and three-quarter-ton trucks, SUVs, 4x4 vehicles — all makes and models"
+      },
+      {
+        label: "Pre-Install Inspection",
+        value: "We inspect ball joints, tie rod ends, and shocks before installing any kit"
+      },
+      {
+        label: "Warranty",
+        value: "2-year parts & labor on every repair"
+      },
+      {
+        label: "Vehicles Served",
+        value: "All makes and models — domestic and import trucks and SUVs"
+      }
+    ],
+    hasGeoPages: true,
+    relatedSlugs: [
+      "strut-replacement-near-south-salt-lake-ut",
+      "shock-replacement-near-south-salt-lake-ut",
+      "complete-auto-service-near-south-salt-lake-ut"
+    ]
   }
 ];
 
