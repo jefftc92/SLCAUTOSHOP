@@ -973,7 +973,7 @@ const highVolumeBrands = new Set([
 ]);
 
 // lastmod dates — updated when content changes, not on every deploy
-const LASTMOD_SPRINT   = '2026-05-07'; // pages touched in current SEO sprint
+const LASTMOD_SPRINT   = '2026-05-15'; // pages touched in current SEO sprint
 const LASTMOD_STABLE   = '2025-01-15'; // vehicle brands, legal pages — not recently changed
 
 // Returns [{path, priority, freq, lastmod}] for every indexable URL on the site.
