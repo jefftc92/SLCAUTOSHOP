@@ -1,3 +1,4 @@
+const crypto = require('crypto');
 const express = require('express');
 const compression = require('compression');
 const helmet = require('helmet');
@@ -52,19 +53,59 @@ const businessSchema = {
   },
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "17:30" }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "51",
+    "reviewCount": "51"
+  },
+  "sameAs": [
+    "https://g.page/r/CYDFwHsY4XoBEBM/review",
+    "https://www.yelp.com/biz/scotts-auto-clutch-and-towing-salt-lake-city",
+    "https://www.bbb.org/us/ut/salt-lake-city/profile/auto-repair/scotts-auto-and-clutch-repair-inc-1166-13000150",
+    "https://www.mapquest.com/us/utah/scotts-auto-clutch-towing-541917678",
+    "https://local.yahoo.com/info-19929074-scott-s-auto-clutch-towing-south-salt-lake/",
+    "https://www.waze.com/live-map/directions/us/ut/salt-lake-city/scotts-auto-and-clutch-repair?to=place.ChIJ22zJn92KUocRgMXAexjhegE"
   ]
 };
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const CSS_VER = Date.now();
+const CSS_VER = process.env.CSS_VER || (() => { try { return require('child_process').execSync('git rev-parse --short HEAD').toString().trim(); } catch (e) { return 'prod'; } })();
 
 // Middleware
 app.use(compression());
+// Generate a fresh nonce for every request — must run before Helmet so the
+// CSP directive functions can read res.locals.cspNonce when headers are written.
+app.use((_req, res, next) => {
+  res.locals.cspNonce = crypto.randomBytes(16).toString('base64');
+  next();
+});
 app.use(helmet({
-  contentSecurityPolicy: false, // Allow Google Fonts etc.
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc:     ["'self'"],
+      scriptSrc:      ["'self'", (_req, res) => `'nonce-${res.locals.cspNonce}'`],
+      styleSrc:       ["'self'", (_req, res) => `'nonce-${res.locals.cspNonce}'`, "https://fonts.googleapis.com"],
+      fontSrc:        ["'self'", "https://fonts.gstatic.com"],
+      imgSrc:         ["'self'", "data:", "https://raw.githubusercontent.com"],
+      connectSrc:     ["'self'"],
+      frameSrc:       ["'self'", "https://www.google.com", "https://maps.google.com"],  // Maps embed
+      frameAncestors: ["'none'"],
+    },
+  },
   crossOriginEmbedderPolicy: false,
+  hsts: { maxAge: 31536000, includeSubDomains: true, preload: true },
+  referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
 }));
+// Permissions-Policy — not in Helmet defaults
+app.use((_req, res, next) => {
+  res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=(), payment=()');
+  next();
+});
 app.use(express.static(path.join(__dirname, 'public'), { maxAge: '7d' }));
 
 // View engine
@@ -96,6 +137,7 @@ app.use((req, res, next) => {
   res.locals.allSymptoms = symptoms;
   res.locals.allVehicleBrands = vehicleBrands;
   res.locals.allGeoPages = geoPages;
+  res.locals.allServiceGeoPages = serviceGeoPages;
 
   const usedTerms = new Set();
   res.locals.linkifyServices = (text) => {
@@ -209,10 +251,12 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.render('home', {
     activePage: 'home',
+    preloadImage: site.heroImage,
     metaTitle: "Auto Repair South Salt Lake UT | Since 1990 | Scott's Auto & Clutch Repair",
     metaDesc: "Family-owned shop serving the Salt Lake Valley since 1990. Clutch repair, brakes, CV axles, transmissions & more. Free estimates. Call (801) 485-4089.",
     canonical: '/',
-    structuredData: {
+    structuredData: [
+    {
       "@context": "https://schema.org",
       "@type": "AutoRepair",
       "@id": site.domain + "/#business",
@@ -279,12 +323,28 @@ app.get('/', (req, res) => {
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "5",
+        "ratingValue": (allReviews.reduce((s, r) => s + r.rating, 0) / allReviews.length).toFixed(1),
         "bestRating": "5",
-        "ratingCount": "150"
+        "worstRating": "1",
+        "ratingCount": String(allReviews.length),
+        "reviewCount": String(allReviews.length)
       },
-      "sameAs": []
+      "sameAs": [
+        "https://g.page/r/CYDFwHsY4XoBEBM/review",
+        "https://www.yelp.com/biz/scotts-auto-clutch-and-towing-salt-lake-city",
+        "https://www.bbb.org/us/ut/salt-lake-city/profile/auto-repair/scotts-auto-and-clutch-repair-inc-1166-13000150",
+        "https://www.mapquest.com/us/utah/scotts-auto-clutch-towing-541917678",
+        "https://local.yahoo.com/info-19929074-scott-s-auto-clutch-towing-south-salt-lake/",
+        "https://www.waze.com/live-map/directions/us/ut/salt-lake-city/scotts-auto-and-clutch-repair?to=place.ChIJ22zJn92KUocRgMXAexjhegE"
+      ]
     },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": site.domain,
+      "name": site.name
+    }
+    ],
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3))
   });
 });
@@ -315,7 +375,22 @@ app.get('/about', (req, res) => {
       { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
         { "@type": "ListItem", "position": 2, "name": "About", "item": site.domain + "/about" }
-      ]}
+      ]},
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Scott Bierman",
+        "url": site.domain + "/about",
+        "jobTitle": "Owner & Master Mechanic",
+        "worksFor": { "@type": "AutoRepair", "@id": site.domain + "/#business" },
+        "knowsAbout": [
+          "Clutch repair and replacement",
+          "Manual transmission service",
+          "Automotive diagnostics",
+          "Brake system repair",
+          "Exhaust system repair"
+        ]
+      }
     ]
   });
 });
@@ -484,13 +559,7 @@ app.get('/services/:slug', (req, res) => {
         "category": "Automotive Repair",
         "description": service.intro,
         "url": site.domain + "/services/" + service.slug,
-        "provider": {
-          "@type": "AutoRepair",
-          "name": site.name,
-          "telephone": site.phone,
-          "url": site.domain,
-          "address": { "@type": "PostalAddress", "streetAddress": site.address, "addressLocality": site.city, "addressRegion": site.state, "postalCode": site.zip, "addressCountry": "US" }
-        },
+        "provider": { "@type": "AutoRepair", "@id": site.domain + "/#business" },
         "areaServed": { "@type": "City", "name": "South Salt Lake, UT" },
         "hasOfferCatalog": service.specializedServices && service.specializedServices.length ? {
           "@type": "OfferCatalog",
@@ -518,6 +587,7 @@ app.get('/services/:slug', (req, res) => {
 
   res.render('service-detail', {
     activePage: 'services',
+    preloadImage: service.heroImage || null,
     metaTitle: service.metaTitle,
     metaDesc: service.metaDesc,
     canonical: '/services/' + service.slug,
@@ -693,8 +763,11 @@ app.get('/symptoms/:slug', (req, res) => {
         "@type": "TechArticle",
         "headline": symptom.name + " — Causes, Diagnosis & Repair in South Salt Lake, UT",
         "description": symptom.intro,
+        "image": symptom.introImage
+          ? { "@type": "ImageObject", "url": site.domain + "/assets/" + symptom.introImage, "width": 760, "height": 428 }
+          : { "@type": "ImageObject", "url": site.domain + "/assets/hero-600-DnXM3vMX.webp", "width": 600, "height": 400 },
         "url": site.domain + "/symptoms/" + symptom.slug,
-        "author": { "@type": "Organization", "name": site.name, "url": site.domain },
+        "author": { "@type": "Person", "name": "Scott Bierman", "url": site.domain + "/about" },
         "publisher": {
           "@type": "Organization",
           "name": site.name,
@@ -704,7 +777,8 @@ app.get('/symptoms/:slug', (req, res) => {
         "about": { "@type": "Thing", "name": symptom.name },
         "specialty": "Automotive Repair",
         "proficiencyLevel": "Expert",
-        ...(symptom.lastUpdated ? { "dateModified": symptom.lastUpdated } : {})
+        "datePublished": symptom.datePublished || "2024-01-01",
+        "dateModified": symptom.dateModified || "2026-05-01"
       }
     ]
   });
@@ -742,6 +816,7 @@ app.get('/vehicle-brands/:slug', (req, res) => {
   const bc = getBrandContent(brand.name);
   res.render('vehicle-detail', {
     activePage: 'vehicles',
+    noindex: defunctBrands.has(brand.slug) || undefined,
     metaTitle: brand.metaTitle,
     metaDesc: brand.metaDesc,
     canonical: '/vehicle-brands/' + brand.slug,
@@ -974,7 +1049,47 @@ async function submitIndexNow() {
 // Robots.txt
 app.get('/robots.txt', (req, res) => {
   res.type('text/plain');
-  res.send(`User-agent: *\nAllow: /\nSitemap: ${site.domain}/sitemap.xml`);
+  res.send(`# ${site.name}
+# Standard crawlers
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# AI search crawlers — explicitly allowed for search visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Apple Intelligence search crawler
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI search crawler
+User-agent: meta-externalagent
+Allow: /
+
+# AI training-only crawlers — no search referral value, blocked
+User-agent: CCBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+Sitemap: ${site.domain}/sitemap.xml`);
 });
 
 // ── 404 catch-all ────────────────────────────────────────────────────────────

@@ -3,7 +3,8 @@
 <%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'About Us'}]}) %>
 
 <section class="page-hero">
-  <div class="page-hero-bg" style="background-image:url('<%= site.symptomsHeroImage %>')"></div>
+  <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('<%= site.symptomsHeroImage %>')}</style>
+  <div class="page-hero-bg"></div>
   <div class="container">
     <h1>Family-Owned Auto Mechanic in South Salt Lake</h1>
     <p>For over 36 years, Scott's Auto & Clutch Repair has been the trusted name for auto repair in South Salt Lake and the greater Salt Lake Valley. We're clutch repair specialists who also handle complete auto service — all with honest pricing and quality work from experienced mechanics.</p>
@@ -38,10 +39,25 @@
   <div class="container">
     <h2>Our Story</h2>
     <p class="section-subtitle">From a small clutch specialty shop to a full-service auto repair center — serving Salt Lake Valley since 1990.</p>
-    <div class="prose">
-      <p>Scott's Auto & Clutch Repair was founded in 1990 with a straightforward mission: provide honest, quality auto repair at fair prices. What started as a clutch specialty shop has grown into a complete auto repair center serving drivers throughout the Salt Lake Valley.</p>
-      <p>The shop was built on a simple belief — that the key to a lasting auto repair business isn't just fixing cars, it's building trust. That means explaining what's wrong clearly, offering options instead of applying pressure, and standing behind every repair. It's an approach that's earned us customers who've been coming back for 20 and 30 years.</p>
-      <p>Today we still specialize in clutch repair — it's in our name — but we handle complete auto service for all makes and models, domestic and import. Brakes, timing, exhaust, cooling, CV joints, diagnostics — we take care of it all and treat every vehicle like it's our own.</p>
+    <div class="about-story-grid">
+      <div class="prose">
+        <p>Scott Bierman opened the shop in 1990 with a straightforward mission: provide honest, quality auto repair at fair prices. The clutch specialty in the name isn't marketing — it's what Scott built the business around, and it's still what sets the shop apart from general repair chains.</p>
+        <p>What started as a clutch specialty shop has grown into a complete auto repair center serving drivers throughout the Salt Lake Valley. The shop was built on a simple belief — that the key to a lasting auto repair business isn't just fixing cars, it's building trust. That means explaining what's wrong clearly, offering options instead of applying pressure, and standing behind every repair. It's an approach that's earned customers who've been coming back for 20 and 30 years.</p>
+        <p>Today Scott's still specializes in clutch and manual transmission repair — it's one of the few independent shops in Salt Lake City with that focus — but the shop handles complete auto service for all makes and models, domestic and import. Brakes, timing, exhaust, cooling, CV joints, diagnostics — treated with the same careful approach Scott established in 1990.</p>
+      </div>
+      <div class="stats-table-wrap">
+        <table class="stats-table">
+          <tbody>
+            <tr><th scope="row">Founded</th><td>1990, South Salt Lake, UT</td></tr>
+            <tr><th scope="row">Years in Business</th><td><%= site.yearsExperience %> years serving the Salt Lake Valley</td></tr>
+            <tr><th scope="row">Customers Served</th><td>5,000+ vehicles repaired</td></tr>
+            <tr><th scope="row">Specialty</th><td>Clutch & manual transmission — one of the few specialists in SLC</td></tr>
+            <tr><th scope="row">Service Area</th><td>South Salt Lake, Murray, Millcreek, Holladay, Cottonwood Heights, Sandy, Draper &amp; beyond</td></tr>
+            <tr><th scope="row">Google Rating</th><td>4.8 stars (51 reviews)</td></tr>
+            <tr><th scope="row">Phone</th><td><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </section>
@@ -103,11 +119,11 @@
         </div>
         <div class="visit-detail">
           <h3>Hours</h3>
-          <p><%= site.hours %><br><%= site.sunHours %></p>
+          <p><%= site.hours %><br><%= site.satHours %><br><%= site.sunHours %></p>
         </div>
         <div class="visit-detail">
           <h3>Areas We Serve</h3>
-          <div class="location-tags-compact" style="margin-top:.5rem">
+          <div class="location-tags-compact loc-tags-mt">
             <% allLocations.slice(0, 8).forEach(l => { %>
             <a href="/locations/<%= l.slug %>" class="tag"><%= l.name %></a>
             <% }) %>
@@ -121,10 +137,10 @@
       </div>
       <div class="about-map">
         <iframe
-          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84117&output=embed&hl=en&z=15"
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
           width="100%"
           height="100%"
-          style="border:0;border-radius:10px;min-height:380px"
+          class="map-embed map-embed--lg"
           allowfullscreen
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"

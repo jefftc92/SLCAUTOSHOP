@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="<%= site.footerLogo %>" alt="Scott's Auto & Clutch Repair logo" class="footer-logo" style="height:90px;width:auto;border-radius:6px;background:#fff;padding:6px 10px" loading="lazy">
+          <img src="<%= site.footerLogo %>" alt="Scott's Auto & Clutch Repair logo" class="footer-logo" width="160" height="90" loading="lazy">
           <p>Your trusted auto mechanic since 1990. Serving the Salt Lake Valley for over 35 years.</p>
           <address>
             <%= site.address %><br>
@@ -56,6 +56,9 @@
       </div>
 
       <div class="footer-bottom">
+        <div class="footer-perks">
+          <% site.perks.forEach(function(p){ %><span>&#10003; <%= p %></span><% }); %>
+        </div>
         <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call Now: <%= site.phone %></a>
         <div class="footer-links">
           <a href="/about">About Us</a> |
@@ -74,10 +77,9 @@
     <a href="sms:<%= site.phoneSms %>" class="mobile-cta-text" aria-label="Text <%= site.name %>">💬 Text Us</a>
   </div>
 
-  <script>
-    // Mobile nav close on link click
-    document.querySelectorAll('.main-nav .nav-link').forEach(link => {
-      link.addEventListener('click', () => document.body.classList.remove('nav-open'));
+  <script nonce="<%= cspNonce %>">
+    document.querySelectorAll('.main-nav .nav-link').forEach(function(link){
+      link.addEventListener('click', function(){ document.body.classList.remove('nav-open'); });
     });
   </script>
 </body>

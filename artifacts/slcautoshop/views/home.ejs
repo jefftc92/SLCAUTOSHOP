@@ -1,9 +1,10 @@
 <%- include('partials/header') %>
 
 <section class="hero">
-  <div class="hero-bg" style="background-image:url('<%= site.heroImage %>')"></div>
+  <style nonce="<%= cspNonce %>">.hero-bg{background-image:url('<%= site.heroImage %>')}</style>
+  <div class="hero-bg"></div>
   <div class="container hero-content">
-    <h1>Auto Mechanic &amp; Car Repair<span class="hero-accent" style="display:block">South Salt Lake</span></h1>
+    <h1>Auto Repair<span class="hero-accent">Salt Lake City</span></h1>
     <p class="hero-badge">Family-Owned Since 1990</p>
     <p class="hero-desc">Your trusted auto repair shop for clutch replacement, manual transmission repair, brake service, CV axle repair, and complete car repair. Our experienced car mechanics serve South Salt Lake, Millcreek, Sugar House, Murray, and the entire Salt Lake Valley.</p>
     <div class="hero-buttons">
@@ -42,9 +43,9 @@
         { title: "Diagnose First, Always", desc: "We never recommend a repair without a diagnosis. You get a clear explanation of what's wrong and why before we touch anything—no pressure, no guessing." },
         { title: "Clutch Specialists Since 1990", desc: "It's literally in our name. When your clutch slips or grinds, you want the shop that has spent 36 years on manual transmissions—not one that sees clutches twice a year." },
         { title: "Flat Quotes, No Surprises", desc: "The number we give you before the job is the number on your invoice. We call before doing anything beyond the agreed scope—always." },
-        { title: "Canyon & Valley Expertise", desc: "We know what Utah driving does to brakes, clutches, and cooling systems. Descending Big Cottonwood Canyon or stop-and-go on State Street—we've seen that wear pattern every day for decades." },
-        { title: "Same-Day on Most Repairs", desc: "Most clutch, brake, CV joint, and exhaust repairs are finished the day you bring the car in. Drop off in the morning, pick up after work." },
-        { title: "Customers Who Come Back for Decades", desc: "We have customers who've been bringing their vehicles here since the 1990s—some now bring their kids' cars too. That kind of trust isn't earned by upselling." }
+        { title: "Same or Next Day Service", desc: "Most clutch, brake, CV joint, and exhaust repairs are finished the same day you bring the car in. Drop off in the morning, pick up after work. If it needs more time, we'll tell you upfront." },
+        { title: "2-Year Parts & Labor Warranty", desc: "Every repair we do is backed by a 2-year parts and labor warranty. We stand behind our work — if something we fixed gives you trouble, we make it right." },
+        { title: "Free Towing on Major Repairs", desc: "If your repair totals over $1,000, we cover the tow. You shouldn't have to pay to get your car to the shop on top of dealing with the breakdown." }
       ].forEach(v => { %>
       <div class="value-card">
         <h3><%= v.title %></h3>
@@ -118,7 +119,7 @@
     <div class="location-map-row">
       <div class="location-info-box">
         <p><strong><%= site.fullAddress %></strong></p>
-        <p>Mon-Fri: 8:00 AM - 5:30 PM &nbsp;|&nbsp; Sat: By Appointment</p>
+        <p><%= site.hours %> &nbsp;|&nbsp; <%= site.satHours %></p>
         <p>Call or text anytime</p>
         <div class="cta-buttons">
           <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call Now For Service</a>
@@ -127,10 +128,10 @@
       </div>
       <div class="location-map">
         <iframe
-          src="https://maps.google.com/maps?q=144+W+Crystal+Ave+South+Salt+Lake+UT+84117&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave+South+Salt+Lake+UT+84115&t=&z=15&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="260"
-          style="border:0;border-radius:var(--radius);display:block"
+          class="map-embed d-block"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"

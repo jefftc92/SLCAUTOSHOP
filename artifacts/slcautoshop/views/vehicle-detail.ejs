@@ -3,7 +3,8 @@
 <%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Vehicle Brands',url:'/vehicle-brands'},{label:brand.name}]}) %>
 
 <section class="page-hero">
-  <div class="page-hero-bg" style="background-image:url('<%= brand.heroImage || site.heroImage %>')"></div>
+  <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('<%= brand.heroImage || site.heroImage %>')}</style>
+  <div class="page-hero-bg"></div>
   <div class="container">
     <h1><%= brand.heading %></h1>
     <p><%= brand.intro %></p>
@@ -25,17 +26,17 @@
   <div class="container">
     <h2><%= brandContent.whatHeading || (brand.name + ' Vehicles We Service') %></h2>
     <% if (brandContent.whatIntro) { %>
-    <div class="prose" style="max-width:760px;margin-bottom:1.5rem">
+    <div class="prose mw-760 mb-6">
       <p><%- brandContent.whatIntro %></p>
     </div>
     <% } %>
-    <div class="brand-tags" style="margin-top:1.25rem">
+    <div class="brand-tags mt-5">
       <% brand.models.forEach(m => { %>
       <span class="tag"><%= brand.name %> <%= m %></span>
       <% }) %>
     </div>
-    <p style="margin-top:1.25rem">Have questions about your specific <%= brand.name %>? Give us a call or send a quick text — we're happy to help.</p>
-    <div class="hero-buttons" style="margin-top:1.25rem">
+    <p class="mt-5">Have questions about your specific <%= brand.name %>? Give us a call or send a quick text — we're happy to help.</p>
+    <div class="hero-buttons mt-5">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I need service for my ' + brand.name + '.') %>" class="btn btn-secondary">Text Us</a>
     </div>
@@ -47,7 +48,7 @@
   <div class="container">
     <h2>Why <%= brand.name %> Drivers Choose Scott's</h2>
     <% if (brandContent.whyIntro) { %>
-    <div class="prose" style="max-width:760px;margin-bottom:2rem">
+    <div class="prose mw-760 mb-8">
       <p><%- brandContent.whyIntro %></p>
     </div>
     <% } %>
@@ -67,7 +68,7 @@
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
     <h2>When to Bring Your <%= brand.name %> In</h2>
-    <div class="prose" style="max-width:760px">
+    <div class="prose mw-760">
       <% brandContent.whenContent.forEach(function(p) { %><p><%- p %></p><% }); %>
     </div>
   </div>
@@ -78,7 +79,7 @@
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
     <h2><%= brandContent.whoContent.heading %></h2>
-    <div class="prose" style="max-width:760px">
+    <div class="prose mw-760">
       <% brandContent.whoContent.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
     </div>
   </div>
@@ -112,7 +113,7 @@
   <div class="container">
     <h2>Where to Find Us</h2>
     <p>Scott's Auto &amp; Clutch Repair is located at 144 W Crystal Ave in South Salt Lake — centrally positioned in the valley, within 15 minutes of most Salt Lake City zip codes. Easy to reach from I-15, serving <%= brand.name %> drivers from Millcreek, Murray, Draper, Sandy, West Jordan, Taylorsville, and across the greater Salt Lake area.</p>
-    <div class="symptom-location-grid" style="margin-top:1.5rem">
+    <div class="symptom-location-grid mt-6">
       <div class="symptom-location-info">
         <div class="location-detail">
           <h3>Address</h3>
@@ -133,9 +134,9 @@
       </div>
       <div class="symptom-location-map">
         <iframe
-          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84117&output=embed&hl=en&z=15"
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
           width="100%" height="100%"
-          style="border:0;border-radius:var(--radius);min-height:320px"
+          class="map-embed map-embed--sm"
           allowfullscreen loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           title="Scott's Auto & Clutch Repair Location Map">
@@ -192,7 +193,7 @@
   <div class="container">
     <h2><%= brand.name %> Repair Service Areas</h2>
     <p class="section-subtitle">Our shop in South Salt Lake is centrally located in the valley — most customers are within 15 minutes. We service <%= brand.name %> drivers from throughout the greater Salt Lake area.</p>
-    <div class="locations-grid-compact" style="margin-top:1rem">
+    <div class="locations-grid-compact mt-4">
       <% allLocations.forEach(l => { %>
       <a href="/locations/<%= l.slug %>" class="location-tag">
         <strong><%= l.name %>, UT</strong>
@@ -251,13 +252,13 @@
   <div class="container">
     <h2><%= brand.name %> Vehicles We Service</h2>
     <p class="section-subtitle">These are some of the <%= brand.name %> vehicles we work on most often at our South Salt Lake shop. We service all <%= brand.name %> models — if yours isn't listed, that just means we don't see it every day.</p>
-    <div class="brand-tags" style="margin-top:1.25rem">
+    <div class="brand-tags mt-5">
       <% brand.models.forEach(m => { %>
       <span class="tag"><%= brand.name %> <%= m %></span>
       <% }) %>
     </div>
-    <p style="margin-top:1.25rem">Have questions about your specific <%= brand.name %>? Give us a call or send a quick text — we're happy to help.</p>
-    <div class="hero-buttons" style="margin-top:1.25rem">
+    <p class="mt-5">Have questions about your specific <%= brand.name %>? Give us a call or send a quick text — we're happy to help.</p>
+    <div class="hero-buttons mt-5">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I need service for my ' + brand.name + '.') %>" class="btn btn-secondary">Text Us</a>
     </div>
@@ -268,7 +269,7 @@
 <% brandContent.richContent.forEach(function(sec, i) { %>
 <section class="content-section<%= i % 2 === 0 ? '' : ' alt-bg' %>">
   <div class="container">
-    <div class="prose" style="max-width:760px">
+    <div class="prose mw-760">
       <h2><%= sec.heading %></h2>
       <% sec.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
       <% if (sec.list && sec.list.length) { %>
@@ -284,11 +285,11 @@
 <section class="content-section">
   <div class="container">
     <h2>Our <%= brand.name %> Repair Capabilities</h2>
-    <div class="prose" style="max-width:720px">
+    <div class="prose mw-720">
       <p>We handle the full range of mechanical repairs for <%= brand.name %> vehicles — clutch and transmission, brakes, CV axles, timing components, exhaust, cooling, and more. Every job starts with a free diagnosis so you know exactly what your vehicle needs before any work begins.</p>
       <p><a href="/services">View our full list of services</a> — if you have a question about a specific repair or aren't sure whether we can help, give us a call or text and we'll give you a straight answer.</p>
     </div>
-    <div class="hero-buttons" style="margin-top:1.5rem">
+    <div class="hero-buttons mt-6">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I have a question about my ' + brand.name + '.') %>" class="btn btn-secondary">Text a Question</a>
     </div>
@@ -305,8 +306,15 @@
     <div class="issues-grid">
       <% brandContent.issues.forEach(issue => { %>
       <div class="issue-card">
+        <% if (issue.href) { %>
+        <h3><a href="<%= issue.href %>" class="issue-link"><%= issue.t %></a></h3>
+        <% } else { %>
         <h3><%= issue.t %></h3>
+        <% } %>
         <p><%= issue.d %></p>
+        <% if (issue.href) { %>
+        <a href="<%= issue.href %>" class="card-link-sm">Learn more →</a>
+        <% } %>
       </div>
       <% }) %>
     </div>
@@ -339,7 +347,7 @@
   <div class="container">
     <h2><%= brand.name %> Repair Service Areas</h2>
     <p class="section-subtitle">Our shop in South Salt Lake is centrally located in the valley — most customers are within 15 minutes. We service <%= brand.name %> drivers from throughout the greater Salt Lake area.</p>
-    <div class="locations-grid-compact" style="margin-top:1rem">
+    <div class="locations-grid-compact mt-4">
       <% allLocations.forEach(l => { %>
       <a href="/locations/<%= l.slug %>" class="location-tag">
         <strong><%= l.name %>, UT</strong>
@@ -347,7 +355,7 @@
       </a>
       <% }) %>
     </div>
-    <div style="margin-top:2rem">
+    <div class="mt-8">
       <a href="<%= site.directionsUrl %>" class="btn btn-outline" target="_blank" rel="noopener">Get Directions</a>
     </div>
   </div>

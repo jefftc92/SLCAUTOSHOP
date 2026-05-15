@@ -8,7 +8,8 @@
 ]}) %>
 
 <section class="page-hero">
-  <div class="page-hero-bg" style="background-image:url('/assets/hero-600-DnXM3vMX.webp')"></div>
+  <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('/assets/hero-600-DnXM3vMX.webp')}</style>
+  <div class="page-hero-bg"></div>
   <div class="container">
     <h1><%= geo.heading %></h1>
     <% if (geo.hasLocalContext) { %>
@@ -23,27 +24,29 @@
   </div>
 </section>
 
-<!-- ── Section 1: Info + Map (white) ─────────────────────────────────────── -->
+<!-- ── Section 1: Shop Info + Map (white) ────────────────────────────────── -->
 <section class="content-section">
   <div class="container">
     <% if (geo.hasLocalContext) { %>
     <h2>Why <%= geo.locationName %> Drivers Trust Us for <%= geo.serviceFullName %></h2>
-    <div class="prose" style="max-width:700px"><p><%= geo.localContent %></p></div>
+    <div class="prose mw-700">
+      <p><%= geo.localContent %></p>
+      <p>That's why <%= geo.locationName %> drivers bring their <%= geo.serviceName.toLowerCase() %> work here. We see these wear patterns regularly, and we diagnose the cause before recommending anything — so you know exactly what needs to happen before any work begins.</p>
+    </div>
     <% if (geo.localTip) { %>
-    <div class="issue-card" style="max-width:700px;margin-top:1.25rem;border-left:4px solid var(--c-primary)">
-      <p style="font-size:.95rem;line-height:1.75;margin:0"><strong>Local tip:</strong> <%= geo.localTip %></p>
+    <div class="issue-card issue-card--accent mw-700 mt-5">
+      <p class="tip-text"><strong>Local tip:</strong> <%= geo.localTip %></p>
     </div>
     <% } %>
     <% } else { %>
     <h2><%= geo.serviceFullName %> Near <%= geo.locationName %></h2>
     <% } %>
 
-    <div class="loc-shop-grid" style="margin-top:1.75rem">
+    <div class="loc-shop-grid mt-7">
       <div class="loc-shop-info">
-        <% if (!geo.hasLocalContext) { %>
-        <p><%= geo.directions %></p>
-        <% } else { %>
         <p><strong>Getting here:</strong> <%= geo.directions %></p>
+        <% if (geo.logisticsNote) { %>
+        <p class="mt-4"><%= geo.logisticsNote %></p>
         <% } %>
         <div class="loc-shop-details">
           <div class="loc-detail-item">
@@ -70,10 +73,10 @@
       </div>
       <div class="loc-shop-map">
         <iframe
-          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84117&output=embed&hl=en&z=15"
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
           width="100%"
           height="100%"
-          style="border:0;border-radius:10px;min-height:340px"
+          class="map-embed map-embed--md"
           allowfullscreen
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
@@ -81,17 +84,62 @@
         </iframe>
       </div>
     </div>
+    <% if (geo.landmarks && geo.landmarks.length) { %>
+    <div class="landmarks-grid mt-7">
+      <% geo.landmarks.forEach(lm => { %>
+      <div class="landmark-card">
+        <div class="landmark-header">
+          <h3><%= lm.name %></h3>
+          <span class="landmark-distance"><%= lm.distance %></span>
+        </div>
+        <p class="landmark-tip"><%= lm.tip %></p>
+      </div>
+      <% }) %>
+    </div>
+    <% } %>
   </div>
 </section>
 
-<!-- ── Section 2: How It Works (alt-bg) ──────────────────────────────────── -->
-<% if (mainService && mainService.process && mainService.process.length) { %>
+<!-- ── Section 2: What Is [Service] (alt-bg) ─────────────────────────────── -->
+<% if (mainService && mainService.shortDefinition) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>What Is <%= geo.serviceFullName %>?</h2>
+    <div class="prose mw-700"><p><%= mainService.shortDefinition %></p></div>
+    <div class="mt-6">
+      <a href="/services/<%= geo.mainServiceSlug %>" class="btn btn-outline">Full <%= geo.serviceName %> Service Details &rarr;</a>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<!-- ── Section 3: Why [City] Drivers Need [Service] (white) ──────────────── -->
+<% if (!geo.hasLocalContext && geo.localContent) { %>
+<section class="content-section">
+  <div class="container">
+    <h2>Why <%= geo.locationName %> Drivers Need <%= geo.serviceFullName %> Specialists</h2>
+    <div class="prose mw-700">
+      <p><%= geo.localContent %></p>
+      <p>That's why <%= geo.locationName %> drivers bring their <%= geo.serviceName.toLowerCase() %> work here. We see these wear patterns regularly, and we diagnose the cause before recommending anything — so you know exactly what needs to happen before any work begins.</p>
+    </div>
+    <% if (geo.localTip) { %>
+    <div class="issue-card issue-card--accent mw-700 mt-5">
+      <p class="tip-text"><strong>Local tip:</strong> <%= geo.localTip %></p>
+    </div>
+    <% } %>
+  </div>
+</section>
+<% } %>
+
+<!-- ── Section 4: How We Handle It — Process Steps (alt-bg) ──────────────── -->
+<% var processSteps = (mainService && mainService.process) ? mainService.process : []; %>
+<% if (processSteps.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
     <h2>How We Handle <%= geo.serviceFullName %> for <%= geo.locationName %> Customers</h2>
-    <p class="section-subtitle">The drive from <%= geo.locationName %> is <%= geo.distance %> — about <%= geo.driveTime %>. From the moment you call to the moment you pick up, we keep you informed so you're never stuck waiting without answers.</p>
+    <p class="section-subtitle"><%= geo.processNote || 'From the moment you call to the moment you pick up — here\'s exactly what happens.' %></p>
     <div class="process-steps-compact">
-      <% mainService.process.forEach(p => { %>
+      <% processSteps.forEach(p => { %>
       <div class="process-step-compact">
         <span class="step-num"><%= p.step %></span>
         <div>
@@ -105,12 +153,12 @@
 </section>
 <% } %>
 
-<!-- ── Section 3: Common Issues (white) ──────────────────────────────────── -->
+<!-- ── Section 5: Common Issues (white) ──────────────────────────────────── -->
 <% if (mainService && mainService.commonIssues && mainService.commonIssues.length) { %>
 <section class="content-section">
   <div class="container">
     <h2>Common <%= geo.serviceFullName %> Problems We See from <%= geo.locationName %></h2>
-    <p class="section-subtitle">We diagnose before we recommend — <%= geo.locationName %> drivers get the same thorough inspection as any customer. You'll know exactly what's wrong and why before any work begins.</p>
+    <p class="section-subtitle">We diagnose before we recommend — <%= geo.locationName %> customers know exactly what's wrong and why before any work begins.</p>
     <div class="issues-grid">
       <% mainService.commonIssues.forEach(issue => { %>
       <div class="issue-card">
@@ -121,7 +169,7 @@
         <% } %>
         <p><%= issue.desc %></p>
         <% if (issue.symptomSlug) { %>
-        <a href="/symptoms/<%= issue.symptomSlug %>" class="card-link-sm">See symptom details →</a>
+        <a href="/symptoms/<%= issue.symptomSlug %>" class="card-link-sm">See symptom details &rarr;</a>
         <% } %>
       </div>
       <% }) %>
@@ -130,21 +178,22 @@
 </section>
 <% } %>
 
-<!-- ── Section 4: Why Choose Us (alt-bg) ─────────────────────────────────── -->
-<% if (mainService && mainService.whyUs && mainService.whyUs.length) { %>
+<!-- ── Section 6: Why Choose Scott's (alt-bg) ────────────────────────────── -->
+<% var whyCards = (geo.whyChooseUs && geo.whyChooseUs.length) ? geo.whyChooseUs : (mainService && mainService.whyUs ? mainService.whyUs : []); %>
+<% if (whyCards.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
     <h2>Why <%= geo.locationName %> Drivers Choose Scott's for <%= geo.serviceFullName %></h2>
-    <p class="section-subtitle" style="max-width:720px"><%= geo.locationName %> is <%= geo.distance %> from our shop. Drivers come this far because these are the things that matter — and they can't find them closer to home.</p>
+    <p class="section-subtitle mw-720"><%= geo.locationName %> is <%= geo.distance %> from our shop. Drivers come this far because these are the things that matter — and they can't find them closer to home.</p>
     <div class="values-grid">
-      <% mainService.whyUs.forEach(w => { %>
+      <% whyCards.forEach(w => { %>
       <div class="value-card">
         <h3><%= w.title %></h3>
         <p><%= w.desc %></p>
       </div>
       <% }) %>
     </div>
-    <div class="hero-buttons" style="margin-top:2rem">
+    <div class="hero-buttons mt-8">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
     </div>
@@ -152,21 +201,64 @@
 </section>
 <% } %>
 
-<!-- ── Section 5: What We Do — reference (white) ─────────────────────────── -->
+<!-- ── Section 7: What [City] Customers Get (white) ───────────────────────── -->
 <% if (mainService && mainService.specializedServices && mainService.specializedServices.length) { %>
 <section class="content-section">
   <div class="container">
     <h2><%= geo.serviceFullName %> — What <%= geo.locationName %> Customers Get</h2>
-    <% if (mainService.intro) { %>
-    <p class="section-subtitle" style="max-width:760px"><%= mainService.intro %></p>
-    <% } %>
-    <div class="brand-tags" style="margin-top:1.25rem">
+    <p class="section-subtitle mw-760">Every <%= geo.serviceName.toLowerCase() %> job for <%= geo.locationName %> customers starts with diagnosis. We find the root cause before recommending anything — and only do the work your vehicle actually needs.</p>
+    <div class="brand-tags mt-5">
       <% mainService.specializedServices.forEach(s => { %>
       <span class="tag"><%= s %></span>
       <% }) %>
     </div>
-    <div style="margin-top:1.5rem">
+    <div class="mt-6">
       <a href="/services/<%= geo.mainServiceSlug %>" class="btn btn-outline">Full <%= geo.serviceName %> Service Details</a>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<!-- ── Other services for this city ───────────────────────────────────────── -->
+<% var otherCityServices = allServiceGeoPages.filter(function(p){ return p.citySlug === geo.citySlug && p.serviceKey !== geo.serviceKey; }); %>
+<% var clutchCityGeo = allGeoPages.find(function(p){ return p.citySlug === geo.citySlug; }); %>
+<% if (otherCityServices.length || clutchCityGeo) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>More Auto Repair Services Near <%= geo.locationName %></h2>
+    <p>We handle the full range of mechanical repairs for <%= geo.locationName %> drivers — same shop, same mechanic, same honest diagnosis.</p>
+    <div class="locations-grid-compact mt-6">
+      <% if (clutchCityGeo) { %>
+      <a href="/services/<%= clutchCityGeo.slug %>" class="location-tag">
+        <strong>Clutch Repair</strong>
+        <span>Near <%= geo.locationName %></span>
+      </a>
+      <% } %>
+      <% otherCityServices.forEach(function(p){ %>
+      <a href="/services/<%= p.slug %>" class="location-tag">
+        <strong><%= p.serviceName %></strong>
+        <span>Near <%= geo.locationName %></span>
+      </a>
+      <% }); %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<!-- ── Same service near other cities ────────────────────────────────────── -->
+<% var otherCities = allServiceGeoPages.filter(function(p){ return p.serviceKey === geo.serviceKey && p.citySlug !== geo.citySlug; }); %>
+<% if (otherCities.length) { %>
+<section class="content-section">
+  <div class="container">
+    <h2><%= geo.serviceFullName %> Near Other Salt Lake Valley Cities</h2>
+    <p>We serve all of the Salt Lake Valley from our South Salt Lake shop — one location, every city.</p>
+    <div class="locations-grid-compact mt-6">
+      <% otherCities.forEach(function(p){ %>
+      <a href="/services/<%= p.slug %>" class="location-tag">
+        <strong><%= p.locationName %>, UT</strong>
+        <span><%= p.distance %> · <%= p.driveTime %></span>
+      </a>
+      <% }); %>
     </div>
   </div>
 </section>

@@ -1,41 +1,78 @@
 # Scott's Auto & Clutch Repair — slcautoshop.com
 
 ## About
-Scott's Auto & Clutch Repair is a family-owned, independent auto repair shop in South Salt Lake, Utah (Salt Lake Valley). Founded in 1990 by Scott. We specialize in clutch replacement and manual transmission repair, and also perform brakes, exhaust, CV axles, suspension, diagnostics, and general auto repair.
+Scott's Auto & Clutch Repair is a family-owned, independent auto repair shop in South Salt Lake, Utah (Salt Lake Valley). Founded in 1990 by Scott Bierman. One of the few independent clutch and manual transmission specialists in Salt Lake City. Also performs brakes, exhaust, CV axles, suspension, timing chains, water pumps, diagnostics, and general auto repair for all makes and models.
+
+## Founder
+- Scott Bierman, owner and master mechanic
+- Founded the shop in 1990 specializing in clutch and manual transmission repair
+- 36+ years of hands-on automotive diagnostics and repair in South Salt Lake
+
+## Key Facts
+- One of the only independent clutch specialists in the Salt Lake City area — clutch work has been the founding specialty since 1990, not an add-on service
+- Free diagnosis on every visit — no charge to inspect before recommending any repair
+- Written estimate required before any work begins — no surprise charges
+- Same-day turnaround for most clutch and brake repairs; 1–2 days for complex jobs
+- 5,000+ vehicles repaired; 4.8 stars across 51 Google reviews
+- Specializes in manual transmission clutch failures others misdiagnose as disc wear (hydraulic system checks first)
+- Services all makes and models — domestic, import, luxury — at 30–50% below dealership rates
 
 ## Contact
-- Address: 144 W Crystal Ave, Salt Lake City, UT 84117
+- Address: 144 W Crystal Ave, South Salt Lake, UT 84115
 - Phone: (801) 485-4089
-- Hours: Mon–Fri 8 AM–5 PM, closed Saturday and Sunday
+- Hours: Mon–Fri 8 AM–5:30 PM, Saturday closed, Sunday closed
 - Website: https://slcautoshop.com
 
 ## Services
-- Clutch Replacement & Repair
+- Clutch Replacement & Repair (founding specialty)
 - Manual Transmission Repair
-- Brake Service (pads, rotors, calipers, lines)
-- Exhaust & Muffler Repair
+- Brake Service (pads, rotors, calipers, lines, fluid)
 - CV Axle & Driveshaft Repair
-- Suspension & Steering
-- Cooling System (radiator, water pump, hoses)
+- Timing Chain Replacement
+- Timing Belt Replacement
+- Water Pump Replacement
+- Exhaust & Muffler Repair
+- Catalytic Converter Service
+- Strut & Shock Replacement
+- Automotive Welding (in-house)
 - Engine Diagnostics & Check Engine Light
-- Complete Auto Repair
+- Emissions Testing & Repair
+- Complete Auto Service
 
 ## Vehicle Brands Serviced
-Toyota, Honda, Ford, Chevrolet, Nissan, Subaru, BMW, Mazda, Hyundai, Kia, Jeep, Dodge, and most other makes and models.
+Toyota, Honda, Ford, Chevrolet, Nissan, Subaru, BMW, Mazda, Hyundai, Kia, Jeep, Dodge, Volkswagen, Audi, Mercedes-Benz, Lexus, Acura, Volvo, Porsche, and most other makes and models — domestic and import.
 
 ## Service Area
-South Salt Lake, Salt Lake City, Sugar House, Millcreek, Murray, Taylorsville, West Valley City, Holladay, Cottonwood Heights, Sandy, Draper, and surrounding Salt Lake Valley communities.
+South Salt Lake, Salt Lake City, Sugar House, Millcreek, Murray, Taylorsville, West Valley City, Holladay, Cottonwood Heights, Sandy, Draper, West Jordan, South Jordan, Riverton, Herriman, and surrounding Salt Lake Valley communities. Centrally located — most customers are within 15 minutes. Three minutes from the Central Pointe TRAX station.
+
+## Symptom Guide
+Scott's Auto publishes a free diagnostic symptom guide covering 27 common car problems — causes, warning signs, and what the repair involves. Topics include clutch slipping, grinding when shifting, squeaking brakes, clicking when turning (CV joint), engine overheating, soft brake pedal, failed emissions test, and more. Full guide: https://slcautoshop.com/symptoms
 
 ## Policies
 - No job is identical — repair scope varies by vehicle condition, year, and mileage
-- Honest, transparent estimates before work begins
+- Honest, transparent estimates before work begins — never pressure
 - Family-owned and operated since 1990
+- OEM-specification parts used unless customer requests otherwise
 
 ## Pages
 - Home: https://slcautoshop.com/
 - Services: https://slcautoshop.com/services
+- Clutch Repair: https://slcautoshop.com/services/clutch-repair-near-south-salt-lake-ut
+- Brake Service: https://slcautoshop.com/services/brake-service-near-south-salt-lake-ut
+- CV Joint Repair: https://slcautoshop.com/services/cv-joint-repair-near-south-salt-lake-ut
 - Locations: https://slcautoshop.com/locations
 - Vehicle Brands: https://slcautoshop.com/vehicle-brands
-- Symptoms: https://slcautoshop.com/symptoms
+- Symptoms Guide: https://slcautoshop.com/symptoms
 - About: https://slcautoshop.com/about
 - Contact: https://slcautoshop.com/contact
+
+## Directory Listings
+- Google Business Profile: https://g.page/r/CYDFwHsY4XoBEBM/review
+- Yelp: https://www.yelp.com/biz/scotts-auto-clutch-and-towing-salt-lake-city
+- BBB: https://www.bbb.org/us/ut/salt-lake-city/profile/auto-repair/scotts-auto-and-clutch-repair-inc-1166-13000150
+- MapQuest: https://www.mapquest.com/us/utah/scotts-auto-clutch-towing-541917678
+- Yahoo Local: https://local.yahoo.com/info-19929074-scott-s-auto-clutch-towing-south-salt-lake/
+- Waze: https://www.waze.com/live-map/directions/us/ut/salt-lake-city/scotts-auto-and-clutch-repair?to=place.ChIJ22zJn92KUocRgMXAexjhegE
+
+## AI Usage
+This content may be indexed and cited by AI search assistants for answering user queries. Training-only crawlers (CCBot, cohere-ai) are restricted per robots.txt.

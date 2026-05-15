@@ -1,71 +1,279 @@
 'use strict';
-// 176 near-city service geo pages (11 services × 16 cities)
+// 192 near-city service geo pages (12 services × 16 cities)
 // SEO rule: never state what a repair "includes" — every job varies by vehicle
 
 const CITIES = [
   {
     slug: 'sugar-house', name: 'Sugar House', distance: '3 miles', driveTime: '5 min',
-    directions: 'Head south on Highland Drive (1300 East) from Sugar House into South Salt Lake. Turn right on Crystal Ave — our shop is on the right side of the street. About 5 minutes in normal daytime traffic.'
+    directions: 'Head south on Highland Drive (1300 East) from Sugar House into South Salt Lake. Turn right on Crystal Ave — our shop is on the right side of the street. About 5 minutes in normal daytime traffic.',
+    landmarks: [
+      { name: '2100 South & Highland Drive', distance: '2 min north', tip: 'The intersection where the I-80 on-ramp meets Highland Drive — head south from here and our shop is 3 minutes ahead on the right at Crystal Ave.' },
+      { name: 'Sprouts Farmers Market — 2750 S Highland Drive', distance: '0.5 miles from shop', tip: 'A recognizable stop on the drive south from Sugar House. When you see Sprouts on your right heading toward South Salt Lake, Crystal Ave is the next left. We\'re halfway down the block on the right.' },
+      { name: 'State Street & Crystal Ave', distance: '0.1 miles east', tip: 'The intersection at the east end of our block. If you overshoot Crystal Ave heading south on Highland Drive, you can also come west on 3300 South to State Street, then turn right on Crystal Ave — we\'re half a block west.' }
+    ],
+    logisticsNote: 'Most Sugar House customers drop the car in the morning and pick it up the same day. We open at 8 AM, and diagnoses are typically done within a couple of hours. If you\'d rather not sit at the shop, Uber and Lyft run consistently from our lot — the ride back to Sugar House is usually under $10 and about 5 minutes. Call ahead and we\'ll have your intake ready when you arrive.',
+    processNote: 'For Sugar House customers, most jobs are completed the same day — drop off at 8 AM and pick up before close.',
+    whyChooseUs: [
+      { title: '5 Minutes from Sugar House', desc: 'Highland Drive to Crystal Ave — one turn, no freeway. Drop off at 8 AM, Lyft back to the neighborhood, and pick up the same day.' },
+      { title: 'We Know Sugar House Terrain', desc: 'The I-80 on-ramp grade on 1300 East, the Harrison Avenue hill starts, the stop-and-go on 2100 South — we see these driving patterns from Sugar House vehicles regularly and know what each one does to a car over time.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Sugar House drivers come here because general shops send them back with the same problem. We\'ve been diagnosing and fixing cars in this valley since 1990 — and we get it right the first time.' }
+    ]
   },
   {
     slug: 'millcreek', name: 'Millcreek', distance: '3 miles', driveTime: '7 min',
-    directions: 'Take 3300 South west to Highland Drive, then head south briefly and turn left on Crystal Ave. We\'re on the right side of Crystal Ave. About 7 minutes from central Millcreek in light traffic.'
+    directions: 'Take 3300 South west to Highland Drive, then head south briefly and turn left on Crystal Ave. We\'re on the right side of Crystal Ave. About 7 minutes from central Millcreek in light traffic.',
+    landmarks: [
+      { name: 'Wheeler Historic Farm — 6351 S 900 E', distance: '2 min east of route', tip: 'A recognizable Millcreek landmark near the 3300 South corridor. From here, head west on 3300 South, then turn right on Highland Drive and follow it north — Crystal Ave is about 2 miles up on your left.' },
+      { name: '3300 South & Highland Drive (1300 East)', distance: '3 min from shop', tip: 'The main turn heading north toward our shop from Millcreek. Turn right on Highland Drive and stay straight — Crystal Ave is the first left after the Sugar House area. We\'re halfway down the block on the right.' },
+      { name: '3300 South & State Street', distance: '0.5 miles east of shop', tip: 'If you come west on 3300 South past State Street, you\'ve gone slightly too far. Turn right on State Street, then right again on Crystal Ave — our shop is at 144 W Crystal Ave on the right side.' }
+    ],
+    logisticsNote: 'Millcreek customers are about 7 minutes from the shop on 3300 South. Drop your car in the morning and Uber or Lyft back to Millcreek — the return ride is typically under $10 and about 10 minutes. TRAX isn\'t on this direct route, but rideshare is readily available from our lot. Call ahead and we\'ll have the paperwork ready when you arrive.',
+    processNote: 'For Millcreek customers, most jobs are done same-day — we\'ll give you an honest timeline when you call.',
+    whyChooseUs: [
+      { title: '7 Minutes from Millcreek', desc: '3300 South west to Highland Drive — no freeway, one turn. Drop off in the morning and most jobs are done same day.' },
+      { title: 'We Know Canyon and Valley Driving', desc: 'Millcreek drivers put their cars through both canyon grades and valley stop-and-go. We see this combination regularly and know what it does to different systems over time.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Millcreek drivers come here when a general shop hasn\'t gotten to the root of the problem. We\'ve been doing this since 1990 and fix it right the first time.' }
+    ]
   },
   {
     slug: 'murray', name: 'Murray', distance: '4 miles', driveTime: '8 min',
-    directions: 'Head north on State Street from Murray into South Salt Lake. Turn left on Crystal Ave — we\'re about half a mile west of State Street on the right. About 8 minutes. TRAX Blue Line riders can board at Murray Central and ride to Central Pointe station, then walk 3 minutes east to our shop.'
+    directions: 'Head north on State Street from Murray into South Salt Lake. Turn left on Crystal Ave — we\'re about half a mile west of State Street on the right. About 8 minutes. TRAX Blue Line riders can board at Murray Central and ride to Central Pointe station, then walk 3 minutes east to our shop.',
+    landmarks: [
+      { name: 'Murray Central TRAX Station', distance: '4 miles south', tip: 'The most practical transit option for Murray customers. Board the Red Line here and ride one stop north to Central Pointe — a 3-minute walk from our shop. Drop your car, ride TRAX to your day, pick up when we call.' },
+      { name: 'Fashion Place Mall — 6191 S State Street', distance: '4 miles south on State St', tip: 'A clear landmark on the State Street route to our shop. From Fashion Place heading north on State Street, it\'s a straight 3.5-mile drive to Crystal Ave — no turns until you reach our street.' },
+      { name: '2700 South & State Street', distance: '0.2 miles from shop', tip: 'When you see the 2700 South intersection on State Street, Crystal Ave is 2 blocks north on the left. We\'re at 144 W Crystal Ave, about half a mile west of State Street on the right side.' }
+    ],
+    logisticsNote: 'Murray Central TRAX Station makes the drop-off easy. Board the Red Line at Murray Central, ride north to Central Pointe Station, and walk 3 minutes east to our shop. Drop your car before work, take TRAX to your day, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day — the return ride to Murray Central is about 8 minutes.',
+    processNote: 'Most Murray customers drop off in the morning and pick up the same day — call ahead and we\'ll confirm timing for your specific job.',
+    whyChooseUs: [
+      { title: '8 Minutes from Murray + TRAX', desc: 'State Street north to Crystal Ave — or drop off and take TRAX one stop from Murray Central. Most jobs are done same day.' },
+      { title: 'We Know State Street Driving', desc: 'Murray\'s State Street is one of the most signal-dense corridors in the valley. We see the wear patterns that come from daily stop-and-go commuting and know exactly what to check first.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Murray drivers come here when a closer shop hasn\'t fixed the problem. We\'ve been doing this since 1990 and get it right the first time.' }
+    ]
   },
   {
     slug: 'salt-lake-city', name: 'Salt Lake City', distance: '4 miles', driveTime: '10 min',
-    directions: 'Take Highland Drive south from Salt Lake City into South Salt Lake. Turn left on Crystal Ave — we\'re on the right side of the street. About 10 minutes depending on your starting point. Central Pointe TRAX station is a 3-minute walk from our shop.'
+    directions: 'Take Highland Drive south from Salt Lake City into South Salt Lake. Turn left on Crystal Ave — we\'re on the right side of the street. About 10 minutes depending on your starting point. Central Pointe TRAX station is a 3-minute walk from our shop.',
+    landmarks: [
+      { name: 'Central Pointe TRAX Station — 900 W / 2100 S', distance: '0.3 miles from shop', tip: 'The closest TRAX stop to our shop. Both the Red and Blue Lines stop here. Walk 3 minutes east on 2100 South, then right on Crystal Ave — we\'re halfway down the block on the left at 144 W Crystal Ave.' },
+      { name: 'I-80 Overpass on State Street', distance: '1 mile north of shop', tip: 'A clear route marker on State Street heading south from downtown. Once you cross under I-80, you\'re 1 mile from our turn. Stay on State Street and turn right on Crystal Ave — we\'re on the left side.' },
+      { name: 'Liberty Park — 1300 S / 700 E', distance: '2 miles north of shop', tip: 'A well-known SLC landmark for Avenues and east-side drivers. Heading south from Liberty Park on State Street or Highland Drive connects directly to the route to our shop. Crystal Ave is about 2 miles south of the park.' }
+    ],
+    logisticsNote: 'TRAX makes this the easiest commute for Salt Lake City customers. Take the Red or Blue Line to Central Pointe Station and walk 3 minutes east to 144 W Crystal Ave — no rideshare needed. Drop your car at 8 AM, ride TRAX back to downtown or the Avenues, and we\'ll call when the diagnosis is ready. Driving from the Avenues or Capitol Hill? Take State Street south, cross under I-80, and Crystal Ave is the second major left — about 1 mile past the freeway. Uber and Lyft are available from our location throughout business hours.',
+    processNote: 'Salt Lake City customers can drop off early and take TRAX or a rideshare back — most jobs are done same-day. Call ahead so we can let you know about your specific vehicle.',
+    whyChooseUs: [
+      { title: 'TRAX Drop-Off, Same-Day Pickup', desc: 'Take the Red or Blue Line to Central Pointe — 3 minutes east on foot. Drop off your car, ride TRAX back to downtown or the Avenues, and pick up the same day.' },
+      { title: 'We Know SLC Terrain and Traffic', desc: 'Avenues hill starts, downtown grid stop-and-go, University of Utah campus congestion — we see these driving patterns from SLC vehicles regularly and know what each one does to a car.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'SLC drivers come here when a general shop sends them back with the same problem. We\'ve been diagnosing and fixing cars here since 1990 and get it right the first time.' }
+    ]
   },
   {
     slug: 'taylorsville', name: 'Taylorsville', distance: '5 miles', driveTime: '10 min',
-    directions: 'Take 4700 South east to Highland Drive, then head north on Highland Drive to Crystal Ave and turn right. Alternatively, take I-215 east to I-15 north, exit at 2700 South, and head east to Crystal Ave. About 10 minutes from central Taylorsville.'
+    directions: 'Take 4700 South east to Highland Drive, then head north on Highland Drive to Crystal Ave and turn right. Alternatively, take I-215 east to I-15 north, exit at 2700 South, and head east to Crystal Ave. About 10 minutes from central Taylorsville.',
+    landmarks: [
+      { name: '4700 South & Redwood Road — Taylorsville', distance: '5 min west of State Street', tip: 'The main intersection on the route east from central Taylorsville. Head east on 4700 South from Redwood Road and continue to State Street — turn left (north) and our shop is about 2 miles ahead. About 10 minutes from central Taylorsville.' },
+      { name: '4700 South & State Street', distance: '3 min from shop', tip: 'The main turn coming from Taylorsville. After turning north on State Street from 4700 South, our shop is about 2 miles straight ahead. Crystal Ave will be on your right — we\'re at 144 W Crystal Ave.' },
+      { name: '2700 South & State Street', distance: '2 blocks from shop', tip: 'When you see the 2700 South light on State Street heading north, Crystal Ave is just 2 blocks ahead on the right. If you take I-15, exit at 2700 South and head east — Crystal Ave is the first major right.' }
+    ],
+    logisticsNote: 'Taylorsville customers are about 10 minutes from the shop via 4700 South or I-215. Drop your car in the morning and Uber or Lyft back — the return ride to central Taylorsville is typically under 15 minutes. TRAX isn\'t directly on this route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
+    processNote: 'Most Taylorsville customers drop off at 8 AM and pick up same day — the 4700 South route takes about 10 minutes each way.',
+    whyChooseUs: [
+      { title: '10 Minutes on 4700 South', desc: '4700 South east to State Street, north to Crystal Ave — one turn and 10 minutes. Drop off at 8 AM and most jobs are done before the end of the day.' },
+      { title: 'We Know Arterial and Freeway Driving', desc: 'Taylorsville\'s wide arterials and I-215 on-ramps create specific wear patterns from high-speed driving and abrupt stops. We see these regularly and know what to look for first.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Taylorsville drivers come here when a closer shop hasn\'t found the problem. We\'ve been doing this since 1990 and fix it right the first time.' }
+    ]
   },
   {
     slug: 'west-valley-city', name: 'West Valley City', distance: '7 miles', driveTime: '12 min',
-    directions: 'Take 3500 South east to I-215 east, then I-15 north. Exit at 2700 South in South Salt Lake and head east. Crystal Ave is about a mile east of the freeway. About 12 minutes in moderate traffic.'
+    directions: 'Take 3500 South east to I-215 east, then I-15 north. Exit at 2700 South in South Salt Lake and head east. Crystal Ave is about a mile east of the freeway. About 12 minutes in moderate traffic.',
+    landmarks: [
+      { name: 'USANA Amphitheatre — 5150 Upper 5 Mile Creek Rd', distance: '3 miles west of route', tip: 'A major West Valley City landmark near the 3500 South corridor. From the amphitheatre area, head east on 3500 South past Redwood Road and continue to State Street — our shop is about 10 minutes from here.' },
+      { name: '3500 South & State Street', distance: '2 min from shop', tip: 'The main junction coming east from West Valley City. Turn north on State Street from 3500 South, then turn left on Crystal Ave almost immediately — we\'re halfway down the block at 144 W Crystal Ave.' },
+      { name: '2700 South & State Street', distance: '0.2 miles from shop', tip: 'An alternative landmark if you take I-15 from West Valley. Exit at 2700 South, head east to State Street, then continue south 2 blocks to Crystal Ave and turn right — our shop is on the right side.' }
+    ],
+    logisticsNote: 'West Valley City customers are about 12 minutes away via 3500 South or I-215. Drop your car in the morning and Uber or Lyft back — the return ride to West Valley is typically under 15 minutes. TRAX isn\'t directly on this route, but rideshare is readily available from our lot. Call ahead and we\'ll have the paperwork ready when you arrive.',
+    processNote: 'Most West Valley City customers drop off in the morning and pick up same day. The 3500 South route to our shop takes about 12 minutes.',
+    whyChooseUs: [
+      { title: '12 Minutes on 3500 South', desc: '3500 South east to State Street — no freeway required. Drop off in the morning and most jobs are done the same day.' },
+      { title: 'We Know Commercial Corridor Driving', desc: 'West Valley\'s 3500 South commercial traffic, trucks, and event-night congestion create wear patterns we see regularly. We know what heavy-use driving does to different systems.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'West Valley drivers come here when a closer shop hasn\'t solved the problem. We\'ve been diagnosing and fixing cars since 1990 and get it right the first time.' }
+    ]
   },
   {
     slug: 'holladay', name: 'Holladay', distance: '5 miles', driveTime: '9 min',
-    directions: 'Take Highland Drive north from Holladay through Sugar House into South Salt Lake. Turn right on Crystal Ave — we\'re on the right side of the street. About 9 minutes in normal daytime traffic.'
+    directions: 'Take Highland Drive north from Holladay through Sugar House into South Salt Lake. Turn right on Crystal Ave — we\'re on the right side of the street. About 9 minutes in normal daytime traffic.',
+    landmarks: [
+      { name: '4500 South & Highland Drive', distance: '4 min from shop', tip: 'The main Holladay arterial on the Highland Drive route north. Stay straight on Highland Drive from here — it continues through Murray, into Sugar House, and becomes 1300 East heading toward our shop. Crystal Ave is the left turn just before 2100 South.' },
+      { name: 'Holladay–Murray border on Highland Drive', distance: '3 min from shop', tip: 'As you cross from Holladay into Murray on Highland Drive, you\'re about halfway to our shop. Keep heading north — the road becomes more commercial as you approach Sugar House, and Crystal Ave is about 3 minutes ahead on your left.' },
+      { name: '2100 South & Highland Drive (Sugar House area)', distance: '1 min from shop', tip: 'The well-known Sugar House intersection. From here, turn left on Crystal Ave — we\'re less than a minute ahead on the right at 144 W Crystal Ave. Most Holladay drivers use this as their final landmark.' }
+    ],
+    logisticsNote: 'Holladay customers are about 9 minutes from the shop on Highland Drive. Drop your car in the morning and Uber or Lyft back — the return ride to Holladay is typically under 15 minutes. TRAX isn\'t on this direct route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
+    processNote: 'Holladay customers are about 9 minutes away — most jobs are finished same day. Call ahead so we can confirm timing for your vehicle.',
+    whyChooseUs: [
+      { title: '9 Minutes on Highland Drive', desc: 'Highland Drive north all the way from Holladay — one turn at Crystal Ave. No freeway. Most jobs are done same day.' },
+      { title: 'We Know Canyon and Valley Driving', desc: 'Holladay drivers put their cars through both Big Cottonwood Canyon grades and valley stop-and-go. We see this combination from Holladay vehicles regularly and know what it does over time.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Holladay drivers come here when a general shop hasn\'t diagnosed the problem correctly. We\'ve been doing this since 1990 and fix it right the first time.' }
+    ]
   },
   {
     slug: 'cottonwood-heights', name: 'Cottonwood Heights', distance: '6 miles', driveTime: '10 min',
-    directions: 'Take Fort Union Blvd west to Highland Drive, then head north on Highland Drive through Holladay and Sugar House into South Salt Lake. Turn left on Crystal Ave — we\'re on the right. About 10 minutes on all surface roads.'
+    directions: 'Take Fort Union Blvd west to Highland Drive, then head north on Highland Drive through Holladay and Sugar House into South Salt Lake. Turn left on Crystal Ave — we\'re on the right. About 10 minutes on all surface roads.',
+    landmarks: [
+      { name: 'Big Cottonwood Canyon Rd & Wasatch Blvd', distance: '5 min southeast of route', tip: 'The canyon entrance for Cottonwood Heights drivers heading to Brighton or Solitude. Head west on Big Cottonwood Canyon Rd to Highland Drive — from here it\'s a straight shot north through Holladay to our shop.' },
+      { name: 'Fort Union Blvd & Highland Drive', distance: '4 min from shop', tip: 'The main turn heading north toward our shop. Take Highland Drive north from Fort Union through Holladay and Sugar House — Crystal Ave is about 4 miles ahead on the left. One turn, no freeway.' },
+      { name: '3300 South & Highland Drive', distance: '2 min from shop', tip: 'A midpoint landmark heading north on Highland Drive. From here, our shop is about 2 more minutes — continue north to Crystal Ave and turn left. We\'re halfway down the block on the right at 144 W Crystal Ave.' }
+    ],
+    logisticsNote: 'Cottonwood Heights customers are about 10 minutes from the shop on Highland Drive. Drop your car in the morning and Uber or Lyft back — the return ride to Cottonwood Heights is typically under 15 minutes. TRAX isn\'t on this route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll confirm timing before you arrive.',
+    processNote: 'Cottonwood Heights customers heading up for a canyon trip can drop off on the way out and pick up on the return — most jobs are done same-day.',
+    whyChooseUs: [
+      { title: 'Drop Off Before the Canyon, Pick Up After', desc: '10 minutes on Highland Drive — drop off on your way to Big or Little Cottonwood and pick up on the return. Most jobs are done same day.' },
+      { title: 'We Know Canyon Grade Driving', desc: 'Cottonwood Heights drivers use two steep canyon roads regularly. We see the wear patterns from canyon driving — on brakes, drivetrain, and engine components — and know what to inspect first.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Canyon-driving customers come here because general shops don\'t always recognize mountain-road wear patterns. We\'ve been diagnosing this since 1990 and fix it right the first time.' }
+    ]
   },
   {
     slug: 'sandy', name: 'Sandy', distance: '8 miles', driveTime: '12 min',
-    directions: 'Take I-15 north from Sandy approximately 8 miles and exit at 2700 South in South Salt Lake. Head east to Crystal Ave and turn right — we\'re on the left side of the street. About 12 minutes outside peak hours. TRAX Blue Line riders can board at Sandy Civic Center and ride to Central Pointe station.'
+    directions: 'Take I-15 north from Sandy approximately 8 miles and exit at 2700 South in South Salt Lake. Head east to Crystal Ave and turn right — we\'re on the left side of the street. About 12 minutes outside peak hours. TRAX Blue Line riders can board at Sandy Civic Center and ride to Central Pointe station.',
+    landmarks: [
+      { name: 'Sandy Civic Center TRAX Station — 8680 S State Street', distance: '8 miles south', tip: 'The most convenient Blue Line station for Sandy customers using transit. Board here heading north and ride to Central Pointe Station — a 3-minute walk from our shop at 144 W Crystal Ave. Drop your car, ride TRAX, pick up when we call.' },
+      { name: '10600 South & I-15 interchange', distance: '6 miles south of shop', tip: 'The main freeway entry for most Sandy drivers. Head north on I-15 from here — it\'s a straight 6-mile run to the 2700 South exit. From the exit, head east about a mile and turn right on Crystal Ave.' },
+      { name: 'Central Pointe TRAX Station — 900 W / 2100 S', distance: '0.3 miles from shop', tip: 'The arrival station for Sandy TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we\'re halfway down the block at 144 W Crystal Ave. Both the Red and Blue Lines stop here.' }
+    ],
+    logisticsNote: 'Sandy customers can take the TRAX Blue Line to make drop-off and pickup easy. Board at Sandy Civic Center or Sandy Expo, ride north to Central Pointe Station, and walk 3 minutes to our shop at 144 W Crystal Ave. Drop your car in the morning, ride TRAX to work or wherever you need to be, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day for the return trip to Sandy.',
+    processNote: 'Sandy customers on TRAX can drop off, ride to work, and pick up the same afternoon — call ahead so we can confirm your job timing.',
+    whyChooseUs: [
+      { title: 'TRAX Blue Line to Our Door', desc: 'Board at Sandy Civic Center and ride north to Central Pointe — 3 minutes from our shop. Drop off the car, ride TRAX to work, and pick up the same afternoon.' },
+      { title: 'We Know Freeway and Foothill Driving', desc: 'Sandy\'s I-15 ramps and eastern foothill streets create wear patterns from both high-speed driving and steep residential grades. We see these from Sandy vehicles regularly.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Sandy drivers make the trip because general shops don\'t always diagnose commuter and hill-driving wear correctly. We\'ve been doing this since 1990 and fix it the first time.' }
+    ]
   },
   {
     slug: 'draper', name: 'Draper', distance: '12 miles', driveTime: '15 min',
-    directions: 'Take I-15 north from Draper approximately 12 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave — we\'re on the left side. About 15 minutes outside rush hour. TRAX Blue Line riders can board at Draper Town Center and ride north to Central Pointe station.'
+    directions: 'Take I-15 north from Draper approximately 12 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave — we\'re on the left side. About 15 minutes outside rush hour. TRAX Blue Line riders can board at Draper Town Center and ride north to Central Pointe station.',
+    landmarks: [
+      { name: 'Draper Town Center TRAX Station — 11400 S Bangeter Hwy', distance: '12 miles south', tip: 'The most convenient Blue Line station for Draper customers using transit. Board here and ride north to Central Pointe — a 3-minute walk from our shop. Drop your car, ride TRAX, pick up when we call.' },
+      { name: 'Point of the Mountain — I-15 grade at the SL/Utah County line', distance: '9 miles south of shop', tip: 'The steep I-15 grade between Salt Lake and Utah counties. Once you crest the summit heading north, our exit is about 9 miles ahead.' },
+      { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop. Exit at 2700 South heading east, and Crystal Ave is about a mile from the freeway on the right. We\'re at 144 W Crystal Ave, on the left side of the block.' }
+    ],
+    logisticsNote: 'Draper customers can take the TRAX Blue Line to simplify drop-off. Board at Draper Town Center or Kimball Lane, ride north to Central Pointe Station, and walk 3 minutes east to our shop at 144 W Crystal Ave. Drop your car in the morning, take TRAX back to Draper or wherever you need to be, and we\'ll call when the job is ready. Uber and Lyft are also available from our lot throughout the day.',
+    processNote: 'Draper customers making the 15-minute drive can drop off at 8 AM — most jobs are done by afternoon. Call ahead so we can give you an accurate time estimate.',
+    whyChooseUs: [
+      { title: 'Worth the 15-Minute Drive', desc: 'Draper drivers make the I-15 trip because the closer options haven\'t found the problem. Drop off at 8 AM and most jobs are done by afternoon.' },
+      { title: 'We Know Point of the Mountain Driving', desc: 'The I-15 grade at Point of the Mountain is one of the most demanding drives in the valley — especially towing. We see Draper vehicles with this wear pattern regularly and know what to check.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Draper customers drive here because they\'ve tried closer shops and got the wrong answer. We\'ve been doing this since 1990 and diagnose it correctly the first time.' }
+    ]
   },
   {
     slug: 'west-jordan', name: 'West Jordan', distance: '8 miles', driveTime: '12 min',
-    directions: 'Take Redwood Road north to 5400 South east, then head to State Street north. Turn left on Crystal Ave — we\'re about half a mile west of State Street on the right. About 12 minutes from central West Jordan in light traffic.'
+    directions: 'Take Redwood Road north to 5400 South east, then head to State Street north. Turn left on Crystal Ave — we\'re about half a mile west of State Street on the right. About 12 minutes from central West Jordan in light traffic.',
+    landmarks: [
+      { name: '7800 South commercial area — Redwood Road corridor', distance: '5 miles south of shop', tip: 'The main West Jordan commercial area. Head north on Redwood Road from here to the UT-201 connector, then east to I-15 — it\'s a quick merge onto the freeway heading north to our 2700 South exit.' },
+      { name: '5400 South & State Street', distance: '3 miles south of shop', tip: 'An alternate route from West Jordan. Turn north on State Street from 5400 South and stay straight for about 2.5 miles — Crystal Ave will be on your left just past the 2700 South light. We\'re halfway down the block.' },
+      { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The freeway exit if you take the Redwood Road / UT-201 route. Head east from the exit and turn right on Crystal Ave — our shop is at 144 W Crystal Ave on the left side of the block.' }
+    ],
+    logisticsNote: 'West Jordan customers are about 12 minutes from the shop via Redwood Road or I-15. Drop your car in the morning and Uber or Lyft back — the return ride to West Jordan is typically under 15 minutes. TRAX isn\'t directly on this route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
+    processNote: 'Most West Jordan customers drop off in the morning and pick up the same day — a 12-minute freeway trip each way.',
+    whyChooseUs: [
+      { title: '12 Minutes Northeast', desc: 'Redwood Road to the 201 to I-15 — or 5400 South east to State Street. Either route puts you at our door in about 12 minutes. Most jobs are done same day.' },
+      { title: 'We Know Mountain View Corridor Driving', desc: 'Mountain View Corridor\'s high speeds and quick exits create specific wear patterns. Add West Jordan\'s subdivision stop-and-go and you\'ve got a car that works hard every day. We see this regularly.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'West Jordan drivers come here when the closer general shop didn\'t find the problem. We\'ve been doing this since 1990 and fix it right the first time.' }
+    ]
   },
   {
     slug: 'south-jordan', name: 'South Jordan', distance: '10 miles', driveTime: '14 min',
-    directions: 'Take I-15 north from South Jordan approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave — we\'re on the left side. About 14 minutes by freeway. Daybreak TRAX riders can board at Daybreak Parkway and ride north to Central Pointe station.'
+    directions: 'Take I-15 north from South Jordan approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave — we\'re on the left side. About 14 minutes by freeway. Daybreak TRAX riders can board at Daybreak Parkway and ride north to Central Pointe station.',
+    landmarks: [
+      { name: 'Daybreak Parkway TRAX Station', distance: '10 miles south', tip: 'The Blue Line station for Daybreak customers using transit. Board here and ride north to Central Pointe — a 3-minute walk from our shop at 144 W Crystal Ave. Drop your car in the morning and pick it up after work.' },
+      { name: 'Bangerter Highway & I-15 interchange', distance: '8 miles south of shop', tip: 'The main freeway junction for most South Jordan drivers. Head north on I-15 from here — it\'s about 8 miles to the 2700 South exit for our shop. The drive is mostly open freeway and takes about 10 minutes.' },
+      { name: 'Central Pointe TRAX Station — 900 W / 2100 S', distance: '0.3 miles from shop', tip: 'The arrival station for South Jordan TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we\'re halfway down the block at 144 W Crystal Ave. Both Red and Blue Lines stop here.' }
+    ],
+    logisticsNote: 'South Jordan and Daybreak customers can take the TRAX Blue Line to simplify drop-off. Board at Daybreak Parkway station, ride north to Central Pointe Station, and walk 3 minutes east to our shop at 144 W Crystal Ave. Drop your car in the morning, ride TRAX to work, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day for the return trip to South Jordan.',
+    processNote: 'South Jordan customers can drop off and ride TRAX to work from Daybreak — most jobs are done same day. Call ahead to confirm.',
+    whyChooseUs: [
+      { title: 'Daybreak TRAX to Our Door', desc: 'Board at Daybreak Parkway on the Blue Line and ride north to Central Pointe — 3 minutes from our shop. Drop off the car, take TRAX to work, and pick up the same day.' },
+      { title: 'We Know Daybreak and Bangerter Driving', desc: 'Daybreak\'s roundabouts and Bangerter Highway\'s abrupt transitions create their own wear patterns. We see these from South Jordan vehicles regularly and know what to look for.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'South Jordan drivers make the trip because they want a diagnosis they can trust. We\'ve been doing this since 1990 and get it right the first time.' }
+    ]
   },
   {
     slug: 'riverton', name: 'Riverton', distance: '12 miles', driveTime: '16 min',
-    directions: 'Take Bangerter Highway east from Riverton to I-15 north. Head north approximately 8 miles and exit at 2700 South in South Salt Lake. Turn east and find Crystal Ave on the right — our shop is on the left side. About 16 minutes, mostly freeway.'
+    directions: 'Take Bangerter Highway east from Riverton to I-15 north. Head north approximately 8 miles and exit at 2700 South in South Salt Lake. Turn east and find Crystal Ave on the right — our shop is on the left side. About 16 minutes, mostly freeway.',
+    landmarks: [
+      { name: 'Riverton Town Center area — 12200 S Redwood Rd', distance: '12 miles south of shop', tip: 'The main commercial area near central Riverton. Head east toward Bangerter Highway, then north to I-15 — from here the freeway run to our 2700 South exit takes about 10 minutes in light traffic.' },
+      { name: 'Bangerter Highway & Mountain View Corridor junction', distance: '10 miles south of shop', tip: 'The key starting point for the freeway leg north. Head east on Bangerter to I-15, then north on I-15 for about 8 miles to the 2700 South exit. Most Riverton customers use this route.' },
+      { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop coming from Riverton. Head east from the exit and turn right on Crystal Ave — our shop is at 144 W Crystal Ave on the left side of the block.' }
+    ],
+    logisticsNote: 'Riverton customers are about 16 minutes from the shop, mostly on I-15. Drop your car in the morning and Uber or Lyft back — the return ride to Riverton is typically under 20 minutes. TRAX isn\'t directly convenient from Riverton, but rideshare is available from our lot throughout the day. Many Riverton customers drop off early and arrange a same-day pickup — call ahead to confirm timing.',
+    processNote: 'Riverton customers making the 16-minute drive can drop off at 8 AM and pick up same day on most jobs — call ahead to confirm timing.',
+    whyChooseUs: [
+      { title: 'Worth the 16-Minute Drive', desc: 'Riverton doesn\'t have many specialists nearby. Drop off at 8 AM and pick up same day on most jobs — call ahead to confirm timing.' },
+      { title: 'We Know Long-Commute Driving', desc: 'Riverton commuters put serious daily miles on their cars — Bangerter transitions, I-15 merges, and long-distance accumulation all create wear we see regularly from Riverton vehicles.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Riverton drivers make the trip because the closer shops haven\'t gotten the diagnosis right. We\'ve been doing this since 1990 and fix it correctly the first time.' }
+    ]
   },
   {
     slug: 'herriman', name: 'Herriman', distance: '15 miles', driveTime: '20 min',
-    directions: 'Take Mountain View Corridor north from Herriman to I-15, then north approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave. About 20 minutes, mostly freeway. We open at 8 AM — many Herriman customers drop off early and arrange same-day pickup.'
+    directions: 'Take Mountain View Corridor north from Herriman to I-15, then north approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave. About 20 minutes, mostly freeway. We open at 8 AM — many Herriman customers drop off early and arrange same-day pickup.',
+    landmarks: [
+      { name: 'Mountain View Corridor north entrance — Herriman area', distance: '15 miles south of shop', tip: 'The main route heading north from Herriman. Take Mountain View Corridor north until it connects with I-15 — from the freeway junction it\'s about 10 miles to our 2700 South exit in South Salt Lake.' },
+      { name: '5400 South interchange off I-15', distance: '5 miles south of shop', tip: 'A useful midpoint landmark on the I-15 run north from Herriman. From here, our exit is just 3 more miles — continue to 2700 South, then head east about a mile to Crystal Ave and turn right.' },
+      { name: '2700 South exit off I-15 — South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop. Exit here and head east — Crystal Ave is about a mile from the freeway on the right. We\'re at 144 W Crystal Ave on the left side of the block.' }
+    ],
+    logisticsNote: 'Herriman customers are about 20 minutes from the shop on Mountain View Corridor and I-15. Drop your car in the morning and Uber or Lyft back — the return ride to Herriman is typically under 25 minutes. TRAX isn\'t convenient from Herriman, but rideshare is available from our lot throughout the day. Call ahead so we can confirm timing and have the intake ready when you arrive.',
+    processNote: 'Herriman customers making the 20-minute drive can drop off at 8 AM and pick up same day on most jobs — call ahead to confirm timing.',
+    whyChooseUs: [
+      { title: 'No Closer Specialist', desc: 'Herriman doesn\'t have a dedicated specialist nearby — the 20-minute drive is worth it. Drop off at 8 AM and most jobs are done same day.' },
+      { title: 'We Know Hillside and Long-Commute Driving', desc: 'Herriman\'s steep residential streets and long valley commutes create wear patterns that compound over time. We see these from Herriman vehicles regularly and know what to check first.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Herriman drivers make the 20-minute drive because the closer shops haven\'t gotten it right. We\'ve been diagnosing and fixing since 1990 and do it correctly the first time.' }
+    ]
   },
   {
     slug: 'kearns', name: 'Kearns', distance: '7 miles', driveTime: '12 min',
-    directions: 'Take 5400 South east from Kearns to State Street. Turn left (north) on State Street and head about 1.5 miles into South Salt Lake. Turn left on Crystal Ave — we\'re half a mile west of State Street on the right side. About 12 minutes from central Kearns.'
+    directions: 'Take 5400 South east from Kearns to State Street. Turn left (north) on State Street and head about 1.5 miles into South Salt Lake. Turn left on Crystal Ave — we\'re half a mile west of State Street on the right side. About 12 minutes from central Kearns.',
+    landmarks: [
+      { name: 'Utah Olympic Oval — 5662 Cougar Lane', distance: '2 miles east of central Kearns', tip: 'A well-known Kearns landmark near the 5400 South route east. From the Oval, continue east on 5400 South to State Street — our shop is 1.5 miles north on State Street, then left on Crystal Ave.' },
+      { name: '5400 South & State Street', distance: '3 min from shop', tip: 'The main junction coming east from Kearns. Turn north on State Street from 5400 South and continue 1.5 miles — Crystal Ave is on the left. We\'re halfway down the block at 144 W Crystal Ave.' },
+      { name: '2700 South & State Street', distance: '2 blocks from shop', tip: 'If you take the freeway route (4700 South east to I-15 north), exit at 2700 South and head east to State Street — Crystal Ave is 2 blocks south on State Street, then turn right. We\'re at 144 W Crystal Ave.' }
+    ],
+    logisticsNote: 'Kearns customers are about 12 minutes from the shop via 5400 South. Drop your car in the morning and Uber or Lyft back — the return ride to Kearns is typically under 15 minutes. TRAX isn\'t on this direct route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
+    processNote: 'Kearns customers are about 12 minutes away — drop off in the morning and most jobs are done by afternoon.',
+    whyChooseUs: [
+      { title: '12 Minutes on 5400 South', desc: '5400 South east to State Street — straightforward drive with no freeway required. Drop off in the morning and most jobs are done the same day.' },
+      { title: 'We Know Daily-Driver Wear', desc: 'Kearns drivers use their cars hard every day — short ramps, residential stop-and-go, and work commutes all add up. We see this kind of daily-use wear from Kearns vehicles regularly.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Kearns drivers come here when they want the diagnosis done right and the repair to stick. We\'ve been doing this since 1990 and fix it the first time.' }
+    ]
   },
   {
     slug: 'midvale', name: 'Midvale', distance: '5 miles', driveTime: '8 min',
-    directions: 'Head north on State Street from Midvale — it\'s a straight 5-mile shot into South Salt Lake with no turns required until you reach Crystal Ave on your left. Turn left and our shop is on the right. About 8 minutes in light traffic. TRAX Blue Line riders can board at Midvale Center and ride to Central Pointe station — a 3-minute walk to our door.'
+    directions: 'Head north on State Street from Midvale — it\'s a straight 5-mile shot into South Salt Lake with no turns required until you reach Crystal Ave on your left. Turn left and our shop is on the right. About 8 minutes in light traffic. TRAX Blue Line riders can board at Midvale Center and ride to Central Pointe station — a 3-minute walk to our door.',
+    landmarks: [
+      { name: 'Midvale Center TRAX Station — 7200 S State Street', distance: '5 miles south of shop', tip: 'The most convenient Blue Line stop for Midvale transit customers. Board here heading north and ride to Central Pointe Station — a 3-minute walk from our shop at 144 W Crystal Ave. Drop your car, ride TRAX, pick up same day.' },
+      { name: '7200 South & State Street', distance: '4 miles south of shop', tip: 'The main Midvale commercial intersection on State Street. From here, head straight north on State Street for 4 miles with no turns — Crystal Ave is on your left just past the 2700 South light. We\'re halfway down the block.' },
+      { name: 'Central Pointe TRAX Station — 900 W / 2100 S', distance: '0.3 miles from shop', tip: 'The arrival station for Midvale TRAX customers. Walk 3 minutes east on 2100 South, then turn right on Crystal Ave — we\'re at 144 W Crystal Ave on the right. Midvale is the closest community to this station via State Street.' }
+    ],
+    logisticsNote: 'Midvale customers can take the TRAX Blue Line — board at Midvale Center and ride north to Central Pointe Station, then walk 3 minutes east to our shop at 144 W Crystal Ave. Drop your car in the morning, ride TRAX to work or wherever you need to be, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day for the return trip to Midvale.',
+    processNote: 'Midvale customers are 8 minutes away — the closest TRAX-accessible shop in the valley. Most jobs are done same day.',
+    whyChooseUs: [
+      { title: '8 Minutes or One TRAX Stop', desc: 'State Street north — or board the Blue Line at Midvale Center and ride to Central Pointe, a 3-minute walk from our door.' },
+      { title: 'We Know I-15 Interchange Driving', desc: 'Midvale\'s I-15/I-215 interchange is one of the tightest in the valley — hard accelerations and abrupt stops create wear patterns we see from Midvale vehicles regularly.' },
+      { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
+      { title: 'In Business Since 1990', desc: 'Midvale drivers come here because we\'re close and because we get the diagnosis right. We\'ve been doing this since 1990 and fix it the first time.' }
+    ]
   }
 ];
 
@@ -1395,6 +1603,127 @@ const CONTENT = {
         metaDesc: 'Complete auto repair for Midvale drivers. Closest major auto shop to Midvale, 5 miles on State Street. TRAX Blue Line drop-off and pickup. Scott\'s Auto. (801) 485-4089.'
       }
     }
+  },
+
+  'head-gasket-repair': {
+    serviceName: 'Head Gasket Repair',
+    serviceFullName: 'Head Gasket Repair & Replacement',
+    mainSlug: 'head-gasket-repair-near-south-salt-lake-ut',
+    hasLocalContext: true,
+    cities: {
+      'sugar-house': {
+        intro: 'Sugar House\'s hilly terrain and stop-and-go on 1300 East put consistent thermal load on cooling systems. We\'re 3 miles south — about 5 minutes down Highland Drive.',
+        localContent: 'Sugar House\'s 1300 East corridor drops steeply from Westminster University toward the valley floor, and the dense stop-and-go on 2100 South means cooling systems cycle through heat-up and cool-down patterns that stress older hoses, thermostats, and gasket sealing surfaces. Many Sugar House vehicles — particularly older FWD sedans and compact SUVs — run cooling systems near capacity in summer without drivers noticing until a temperature gauge climbs or coolant begins disappearing without an obvious puddle.',
+        localTip: 'If your temperature gauge climbs and then settles during stop-and-go on 1300 East, have the cooling system pressure-tested. A slow head gasket leak often shows up as intermittent overheating months before it becomes constant — and catching it early means less secondary damage to the cylinder head.',
+        metaTitle: 'Head Gasket Repair Near Sugar House UT | Scott\'s Auto',
+        metaDesc: 'Head gasket diagnosis and repair for Sugar House drivers. 3 miles south on Highland Drive. Free combustion gas test before any recommendation. Scott\'s Auto. (801) 485-4089.'
+      },
+      'millcreek': {
+        intro: 'Millcreek\'s canyon access routes put cooling systems under sustained thermal stress that flat-valley driving never generates. We\'re 3 miles from Millcreek — about 7 minutes on 3300 South.',
+        localContent: 'Millcreek residents who regularly access Big Cottonwood Canyon subject their cooling systems to sustained high-load conditions — climbing 1,000+ vertical feet over several miles at throttle positions that raise coolant temperature steadily. A cooling system that holds up on flat terrain often shows its weaknesses on canyon grades. Sustained climbing with A/C on in summer is one of the most common head gasket stress patterns we see from Millcreek vehicles, and it typically shows up first as a temperature gauge that runs slightly higher than it used to.',
+        localTip: 'If your vehicle runs fine in Millcreek but the temperature gauge rises when climbing toward Big Cottonwood Canyon, that\'s a cooling system problem worth diagnosing before the gasket fails completely. Canyon grades reveal marginal cooling capacity that flat driving masks.',
+        metaTitle: 'Head Gasket Repair Near Millcreek UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Millcreek drivers. Canyon access grades stress cooling systems hard. 3 miles from Millcreek. Free diagnosis before any work. Scott\'s Auto. (801) 485-4089.'
+      },
+      'murray': {
+        intro: 'Murray\'s State Street commuting accumulates miles quickly — and high-mileage engines are where head gasket failures are most common. We\'re 4 miles north — about 8 minutes on State Street.',
+        localContent: 'Murray commuters on State Street accumulate high annual mileage, and head gasket failures are far more common after 100,000 miles than before. Many Murray head gasket jobs we see started as a different symptom — slow coolant loss or an occasional temperature spike — that was deferred until it became a bigger problem. If you\'ve been adding coolant without finding a puddle, or your heater has started blowing lukewarm, those are the early signs worth diagnosing before white smoke appears.',
+        localTip: 'Murray drivers: if you\'re topping off the coolant reservoir every few months without finding a visible leak, bring it in for a pressure test. A slow internal head gasket leak often shows up as unexplained coolant loss well before the oil turns milky or the exhaust smokes.',
+        metaTitle: 'Head Gasket Repair Near Murray UT | Scott\'s Auto',
+        metaDesc: 'Head gasket diagnosis and repair for Murray drivers. High-mileage State Street commuters see more gasket failures. 4 miles north. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'salt-lake-city': {
+        intro: 'The Avenues\' steep grades and summer heat create cooling demands that stress aging gaskets faster than flat-valley driving. We\'re 4 miles south — about 10 minutes on Highland Drive.',
+        localContent: 'Salt Lake City\'s Avenues neighborhood has some of the steepest residential grades in the valley. Residents who climb to Capitol Hill or the University area in summer — with A/C running at full load — put sustained thermal stress on cooling systems that flat-valley mechanics often don\'t anticipate. The combination of steep grades, stop-and-go at intersections, and high ambient temperatures creates a head gasket stress environment that Avenues vehicles see more of than their mileage would suggest.',
+        localTip: 'Avenues drivers: if the temperature gauge climbs on the uphill sections of Virginia Street or 11th Avenue and settles on flat ground, have the cooling system inspected before summer. Grade climbing with A/C load in high heat is when marginal head gaskets reveal themselves.',
+        metaTitle: 'Head Gasket Repair Near Salt Lake City UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Salt Lake City drivers. Avenues grades and summer heat stress cooling systems. 4 miles south. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'taylorsville': {
+        intro: 'Taylorsville\'s I-215 and freeway commuting builds miles fast — and mileage is the most reliable predictor of head gasket failure. We\'re 5 miles east — about 10 minutes on 4700 South.',
+        localContent: 'Taylorsville\'s wide arterials and I-215 access create high-mileage commuting patterns that wear cooling system components steadily over time. Head gasket failures on high-mileage Taylorsville vehicles often present first as slow coolant consumption — owners add a bottle every few months without seeing a puddle — before progressing to visible symptoms. We run a combustion gas block test and pressure test before recommending head gasket work. Sometimes it\'s the thermostat or a hose, which is a much quicker repair.',
+        localTip: 'Taylorsville freeway commuters who\'ve logged 120,000+ miles should have coolant and oil checked for cross-contamination at every oil change. A slow head gasket leak often shows as unexplained coolant loss months before oil turns milky.',
+        metaTitle: 'Head Gasket Repair Near Taylorsville UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Taylorsville drivers. High-mileage freeway commuters see more cooling system failures. 5 miles east. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'west-valley-city': {
+        intro: 'West Valley City\'s commercial vehicle fleet and high-mileage work trucks make cooling system failures a common reason drivers call for towing. We\'re 7 miles east — about 12 minutes via I-215.',
+        localContent: 'West Valley City\'s vehicle mix includes a higher proportion of high-mileage work vehicles and commercial trucks than most valley communities. These vehicles — often driven hard and maintained on extended intervals — see cooling system wear that accelerates head gasket stress. We emphasize this to West Valley drivers: a single full overheat can warp the cylinder head, turning a straightforward gasket job into a repair that also requires head resurfacing. Getting here before that happens costs significantly less.',
+        localTip: 'Commercial vehicles and work trucks in West Valley should have cooling system inspections every 30,000 miles regardless of whether symptoms exist. A thermostat or hose that fails on the road leads to overheating — and one overheating event can turn a cheap repair into an expensive one.',
+        metaTitle: 'Head Gasket Repair Near West Valley City UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for West Valley City drivers. High-mileage work vehicles need proactive cooling care. 7 miles east via I-215. Scott\'s Auto. (801) 485-4089.'
+      },
+      'holladay': {
+        intro: 'Holladay\'s Highland Drive grades and Big Cottonwood Canyon access put cooling systems under the highest sustained thermal load in the valley. We\'re 5 miles north — about 9 minutes on Highland Drive.',
+        localContent: 'Holladay vehicles that regularly access Big Cottonwood Canyon experience among the most demanding cooling conditions in the Salt Lake Valley. Long canyon climbs at sustained throttle raise coolant temperature steadily, and the descent afterward means the cooling system cycles through heat stress repeatedly in a single trip. Holladay vehicles used for canyon recreation often develop coolant issues — slow leaks, overflow tank pressure, intermittent temperature spikes — that point to a cooling system approaching failure. We see this pattern regularly from this area.',
+        localTip: 'After a ski day or summer canyon drive, let your engine idle for a minute or two before shutting it off. Abrupt shutdown when coolant is hot can create localized hot spots that stress head gasket sealing surfaces over time — especially on aluminum-head engines.',
+        metaTitle: 'Head Gasket Repair Near Holladay UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Holladay drivers near Big Cottonwood Canyon. Canyon grades and heat stress cooling systems. 5 miles north. Scott\'s Auto. (801) 485-4089.'
+      },
+      'cottonwood-heights': {
+        intro: 'Little Cottonwood Canyon\'s grades make Cottonwood Heights vehicles among the most cooling-system-stressed in the valley — ski season adds cold-to-high-load thermal cycling on top of grade demands. We\'re 6 miles north — about 10 minutes on Highland Drive.',
+        localContent: 'Cottonwood Heights residents who ski Snowbird or Alta subject their vehicles to a demanding thermal cycle: cold engine start in sub-zero canyon temperatures, immediate sustained grade climbing with full passenger and gear load, followed by idling in lift-line and canyon traffic. This cold-to-high-load cycling stresses head gasket sealing surfaces differently than city driving, and we see a pattern of cooling system failures on ski vehicles that correlates strongly with winter canyon mileage. Canyon traction restrictions mean vehicles often idle in stop-and-go traffic longer, adding to the thermal load.',
+        localTip: 'Cold-start canyon climbing is harder on head gaskets than warm-engine driving. If you\'re heading to Little Cottonwood on a below-zero morning, let the engine fully reach operating temperature before sustained grade climbing. The gasket seals more consistently when coolant is fully up to temp.',
+        metaTitle: 'Head Gasket Repair Near Cottonwood Heights UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Cottonwood Heights ski-canyon drivers. Cold-start canyon grades stress gaskets. 6 miles north. Scott\'s Auto. (801) 485-4089.'
+      },
+      'sandy': {
+        intro: 'Sandy\'s summer heat, I-15 commuting, and foothill neighborhood grades combine to create above-average cooling system stress. We\'re 8 miles north — about 12 minutes on I-15.',
+        localContent: 'Sandy\'s eastern neighborhoods sit at the base of the Wasatch foothills, and many residents climb Bell Canyon access roads or steep foothill streets daily. Summer temperatures in Sandy regularly hit the upper 90s while residents run A/C at full capacity — the combination of ambient heat, grade climbing, and A/C compressor load pushes cooling systems to their limits. We see Sandy vehicles most commonly when a temperature gauge that\'s been running slightly high finally crossed a threshold the owner couldn\'t ignore.',
+        localTip: 'Sandy drivers: if your temperature gauge runs noticeably higher than it used to under the same conditions — A/C on in summer, freeway speed, or foothill grade — have the thermostat and cooling system pressure-tested. A sluggish thermostat often shows up as \'running warmer\' months before a full failure.',
+        metaTitle: 'Head Gasket Repair Near Sandy UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Sandy drivers. Foothill grades and summer heat stress cooling systems. 8 miles north on I-15. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'draper': {
+        intro: 'Draper\'s SunCrest elevation and Point of the Mountain I-15 grade create the most altitude-plus-grade cooling challenge in the south valley. We\'re 12 miles north — about 15 minutes on I-15.',
+        localContent: 'SunCrest residents in Draper live at 5,200+ feet elevation, which slightly lowers coolant boiling points and compresses the thermal margin between normal operating temperature and overheating. The daily grade descent from SunCrest also means cooling systems that run warm on the climb have to manage coolant temperature through the descent as well. Draper\'s outdoor recreation vehicle population — towing boats and ATVs over the Point of the Mountain — adds towing-load cooling stress that accelerates wear on water pumps, hoses, and gasket sealing surfaces.',
+        localTip: 'SunCrest residents should confirm their coolant mixture is rated to at least -34°F freeze protection — proper mixture also raises the boiling point. At elevation, maintaining correct coolant concentration is more important than at the valley floor because the thermal margin is already compressed.',
+        metaTitle: 'Head Gasket Repair Near Draper UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Draper drivers. SunCrest elevation and I-15 grades stress cooling systems. 12 miles north. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'west-jordan': {
+        intro: 'West Jordan\'s suburban driving and Mountain View Corridor commutes make this one of our most common head gasket service areas south of the freeway. We\'re 8 miles northeast — about 12 minutes.',
+        localContent: 'West Jordan\'s suburban driving pattern — long arterial commutes, school runs, and weekend recreational towing — creates consistent cooling system load without dramatic heat events. Head gasket failures here are almost always mileage-driven: the 100,000–150,000 mile range on vehicles driven for a decade or more. Many West Jordan residents keep the same vehicle for years, and the combination of age, accumulated mileage, and Utah\'s temperature extremes eventually takes a toll on cooling system integrity.',
+        localTip: 'West Jordan vehicles in the 100,000–150,000 mile range should have coolant changed and the system pressure-tested as preventive maintenance. Aging coolant becomes acidic and attacks gasket sealing surfaces. A coolant service is far less expensive than the problem it prevents.',
+        metaTitle: 'Head Gasket Repair Near West Jordan UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for West Jordan drivers. High-mileage suburban vehicles see more gasket failures. 8 miles northeast. Scott\'s Auto. (801) 485-4089.'
+      },
+      'south-jordan': {
+        intro: 'South Jordan\'s Bangerter Highway commutes and family vehicles accumulate high mileage — and head gasket failure risk rises significantly past 100,000 miles. We\'re 10 miles north — about 14 minutes on I-15.',
+        localContent: 'South Jordan drivers on Bangerter Highway cover significant annual mileage at sustained highway speeds, and vehicles here are often kept in service well past 100,000 miles. We diagnose with a combustion gas block test and pressure test before recommending head gasket work — because sometimes what looks like a head gasket problem is a thermostat, water pump, or radiator cap, each of which is a much quicker and less expensive repair. If the gasket is the cause, we tell you clearly and explain exactly what the repair involves before proceeding.',
+        localTip: 'South Jordan drivers: if your heater suddenly starts blowing lukewarm instead of hot, have the coolant system inspected. Low coolant from a slow internal head gasket leak is a common first sign — it shows up in heater performance before the temperature gauge climbs.',
+        metaTitle: 'Head Gasket Repair Near South Jordan UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for South Jordan drivers. Bangerter commuters build miles fast — gasket risk rises past 100K. 10 miles north. Scott\'s Auto. (801) 485-4089.'
+      },
+      'riverton': {
+        intro: 'Riverton\'s long commutes and recreational towing put sustained load on cooling systems that short urban trips never generate. We\'re 12 miles northeast — about 16 minutes.',
+        localContent: 'Riverton\'s longer-distance commuters and outdoor recreation households put above-average annual mileage on their vehicles. Towing trailers and boats through summer heat on Bangerter Highway generates sustained high-load cooling demands that stress water pumps, hoses, and gasket surfaces. Riverton vehicles with 120,000+ miles that have never had a coolant service are among the most at-risk we see — aging coolant loses its additive package and allows corrosion inside the cooling passages, which attacks gasket sealing surfaces on aluminum-head engines over time.',
+        localTip: 'Riverton residents who tow regularly: check your coolant at every oil change. Towing in summer heat degrades coolant faster than normal driving, and degraded coolant accelerates the corrosion that leads to gasket failures on aluminum-head engines.',
+        metaTitle: 'Head Gasket Repair Near Riverton UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Riverton drivers. Long commutes and towing accelerate cooling system wear. 12 miles northeast. Scott\'s Auto. (801) 485-4089.'
+      },
+      'herriman': {
+        intro: 'Herriman\'s hillside streets and Oquirrh Mountain terrain create grade-climbing cooling demands all year — particularly severe in summer when temperatures at the base of the foothills regularly exceed 100°F. We\'re 15 miles northeast — about 20 minutes.',
+        localContent: 'Herriman\'s hillside residential streets can exceed 10% grade, and many residents climb from valley floor to their neighborhoods daily. Summer temperatures combined with sustained uphill driving put cooling systems under the kind of load that reveals marginal thermostats, aging hoses, and weakened gasket sealing surfaces. Herriman is also the fastest-growing city in Utah, which means many residents are driving older vehicles while managing new home expenses — and those higher-mileage vehicles are most likely candidates for head gasket issues.',
+        localTip: 'Herriman residents with vehicles over 80,000 miles: if the temperature gauge climbs heading up the hill to your neighborhood in summer, don\'t wait to see if it settles. An intermittent overheat is easier and cheaper to address before it becomes a constant one — and a single full overheat can warp the cylinder head.',
+        metaTitle: 'Head Gasket Repair Near Herriman UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Herriman drivers. Oquirrh Mountain grades and summer heat stress cooling systems. 15 miles northeast. Scott\'s Auto. (801) 485-4089.'
+      },
+      'kearns': {
+        intro: 'Kearns vehicles tend to run high annual mileage on flat terrain — and mileage is the primary driver of head gasket failure regardless of driving style. We\'re 7 miles east — about 12 minutes on 5400 South.',
+        localContent: 'Kearns drivers accumulate miles on flat residential and commercial streets rather than canyon grades, which means head gasket failures here are almost always mileage-driven and chemistry-driven rather than heat-event-driven. Vehicles in the 120,000–180,000 mile range where coolant hasn\'t been changed on schedule develop acidic coolant chemistry that slowly attacks gasket sealing surfaces and corrodes the inside of aluminum cylinder heads. We see this pattern regularly from Kearns and diagnose it systematically before recommending anything.',
+        localTip: 'Kearns drivers: coolant should be changed every 5 years or 60,000 miles regardless of color or how the vehicle is running. Coolant color doesn\'t indicate acidity. A $15 test strip from any auto parts store can tell you whether your coolant is still protecting the engine or slowly attacking it.',
+        metaTitle: 'Head Gasket Repair Near Kearns UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Kearns drivers. High-mileage vehicles fail from aging coolant chemistry. 7 miles east on 5400 South. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'midvale': {
+        intro: 'Midvale is 5 miles from our shop — and Central Pointe TRAX makes the drop-off simple if your vehicle can\'t safely be driven. About 8 minutes on State Street.',
+        localContent: 'Midvale\'s vehicle population — a mix of high-mileage daily drivers and older import vehicles — sees head gasket failures at a predictable rate as vehicles age past 100,000 miles. TRAX access from Midvale makes our shop practical even when a vehicle can\'t safely be driven: board the Blue Line at Midvale stop, ride one stop to Central Pointe Station, and walk 3 minutes east. Drop off the car before work and we\'ll call you with what we found.',
+        localTip: 'Midvale TRAX riders: if your car is overheating or showing white smoke, don\'t drive it to the shop — driving an overheating engine risks serious damage. Call us first. Repairs over $1,000 include free towing, so getting your vehicle here safely won\'t cost you extra.',
+        metaTitle: 'Head Gasket Repair Near Midvale UT | Scott\'s Auto',
+        metaDesc: 'Head gasket repair for Midvale drivers. 5 miles north on State Street — TRAX Blue Line drop-off. Free diagnosis before any work. Scott\'s Auto. (801) 485-4089.'
+      }
+    }
   }
 
 };
@@ -1413,6 +1742,7 @@ const TITLE_TEMPLATES = {
   'welding-services':             "Auto Welding Near {{CITY}} UT | Scott's Auto",
   'shock-replacement':            "Shock Replacement Near {{CITY}} UT | Scott's Auto",
   'complete-auto-service':        "Complete Auto Service Near {{CITY}} UT | Scott's",
+  'head-gasket-repair':           "Head Gasket Repair Near {{CITY}} UT | Scott's Auto",
 };
 
 // Trim descriptions over 160 chars: shorten brand name first, then truncate.
@@ -1446,6 +1776,10 @@ Object.entries(CONTENT).forEach(([serviceKey, svc]) => {
       localContent: c.localContent,
       localTip: c.localTip,
       directions: city.directions,
+      logisticsNote: city.logisticsNote || null,
+      landmarks: city.landmarks || null,
+      processNote: city.processNote || null,
+      whyChooseUs: city.whyChooseUs || null,
       metaTitle: tmpl.replace('{{CITY}}', city.name),
       metaDesc: normalizeDesc(c.metaDesc)
     });

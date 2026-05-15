@@ -3,7 +3,8 @@
 <%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Service Areas',url:'/locations'},{label:location.name}]}) %>
 
 <section class="page-hero">
-  <div class="page-hero-bg" style="background-image:url('<%= site.symptomsHeroImage %>')"></div>
+  <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('<%= site.symptomsHeroImage %>')}</style>
+  <div class="page-hero-bg"></div>
   <div class="container">
     <h1><%= location.heading %></h1>
     <p><%= location.intro %></p>
@@ -22,13 +23,13 @@
       <div class="loc-shop-info">
         <p><%- linkifyServices(location.whyChooseUs) %></p>
         <% if (locSeo && locSeo.keywordIntro) { %>
-        <p style="margin-top:1rem"><%- linkifyServices(locSeo.keywordIntro) %></p>
+        <p class="mt-4"><%- linkifyServices(locSeo.keywordIntro) %></p>
         <% } %>
         <% if (clutchGeo) { %>
-        <p style="margin-top:1rem"><%= location.name %> drivers looking for a clutch specialist nearby can <a href="/services/<%= clutchGeo.slug %>">learn more about our clutch repair service for <%= location.name %> drivers</a>.</p>
+        <p class="mt-4"><%= location.name %> drivers looking for a clutch specialist nearby can <a href="/services/<%= clutchGeo.slug %>">learn more about our clutch repair service for <%= location.name %> drivers</a>.</p>
         <% } %>
         <% if (locSeo && locSeo.routeInfo) { %>
-        <p style="margin-top:1rem"><strong>Getting here:</strong> <%= locSeo.routeInfo %></p>
+        <p class="mt-4"><strong>Getting here:</strong> <%= locSeo.routeInfo %></p>
         <% } %>
         <div class="loc-shop-details">
           <div class="loc-detail-item">
@@ -53,10 +54,10 @@
       </div>
       <div class="loc-shop-map">
         <iframe
-          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84117&output=embed&hl=en&z=15"
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
           width="100%"
           height="100%"
-          style="border:0;border-radius:10px;min-height:340px"
+          class="map-embed map-embed--md"
           allowfullscreen
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
@@ -74,8 +75,8 @@
     <h2>About <%= location.name %></h2>
     <div class="prose"><p><%= location.aboutCity %></p></div>
     <% if (location.neighborhoods && location.neighborhoods.length) { %>
-    <div style="margin-top:1.5rem">
-      <h3 style="font-size:1rem;margin-bottom:.75rem;color:var(--c-text-muted)">Neighborhoods We Serve in <%= location.name %></h3>
+    <div class="brand-tags-mt">
+      <h3 class="neighborhood-heading">Neighborhoods We Serve in <%= location.name %></h3>
       <div class="brand-tags">
         <% location.neighborhoods.forEach(n => { %>
         <span class="tag"><%= n %></span>
@@ -92,7 +93,7 @@
 <section class="content-section">
   <div class="container">
     <h2>Landmarks Near Our Shop</h2>
-    <p>Scott's Auto & Clutch Repair is at <strong>144 W Crystal Ave, Salt Lake City, UT 84117</strong> — centrally located and easy to reach from across the Salt Lake Valley. Here are some well-known <%= location.name %> area landmarks and how they connect to our shop.</p>
+    <p>Scott's Auto & Clutch Repair is at <strong><%= site.fullAddress %></strong> — centrally located and easy to reach from across the Salt Lake Valley. Here are some well-known <%= location.name %> area landmarks and how they connect to our shop.</p>
     <div class="landmarks-grid">
       <% location.landmarks.forEach(lm => { %>
       <div class="landmark-card">
@@ -111,13 +112,12 @@
 </section>
 <% } %>
 
-<!-- 4. Combined Services Section — grey -->
+<!-- 4. What This City's Drivers Need — grey (only if commonNeeds exist) -->
+<% if (locSeo && locSeo.commonNeeds && locSeo.commonNeeds.length) { %>
 <section class="content-section alt-bg">
   <div class="container">
-    <h2>Auto Repair Services for <%= location.name %> Drivers</h2>
-    <p>We handle everything from clutch repair and brake service to timing chains, CV axles, exhaust, and cooling systems — all makes and models, domestic and import.</p>
-    <% if (locSeo && locSeo.commonNeeds && locSeo.commonNeeds.length) { %>
-    <p style="margin-top:.5rem">Based on 35+ years of serving <%= location.name %> drivers, here are the repairs we're called on most often and why local driving conditions create the demand:</p>
+    <h2>What <%= location.name %> Drivers Need Most</h2>
+    <p class="section-subtitle">Based on 35+ years serving <%= location.name %> drivers — the repairs local roads and terrain create the most demand for.</p>
     <div class="loc-common-needs">
       <% locSeo.commonNeeds.forEach(need => { %>
       <div class="loc-need-item">
@@ -125,9 +125,17 @@
       </div>
       <% }) %>
     </div>
-    <% } %>
-    <div class="services-grid small" style="margin-top:2rem">
-      <% services.slice(0, 6).forEach(s => { %>
+  </div>
+</section>
+<% } %>
+
+<!-- 5. All Services — white -->
+<section class="content-section">
+  <div class="container">
+    <h2>Auto Repair Services for <%= location.name %> Drivers</h2>
+    <p>Complete auto repair for all makes and models — domestic and import. Every job starts with a free diagnosis before any work begins.</p>
+    <div class="services-grid small mt-8">
+      <% services.forEach(s => { %>
       <% var serviceUrl; if (s.slug === 'clutch-repair-near-south-salt-lake-ut' && clutchGeo) { serviceUrl = '/services/' + clutchGeo.slug; } else if (serviceGeoMap && serviceGeoMap[s.slug]) { serviceUrl = '/services/' + serviceGeoMap[s.slug]; } else { serviceUrl = '/services/' + s.slug; } %>
       <a href="<%= serviceUrl %>" class="service-card">
         <h3><%= s.name %></h3>

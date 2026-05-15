@@ -3,7 +3,8 @@
 <%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Symptoms Guide',url:'/symptoms'},{label:symptom.shortName}]}) %>
 
 <section class="page-hero">
-  <div class="page-hero-bg" style="background-image:url('/assets/hero-600-DnXM3vMX.webp')"></div>
+  <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('/assets/hero-600-DnXM3vMX.webp')}</style>
+  <div class="page-hero-bg"></div>
   <div class="container">
     <span class="symptom-priority priority-<%= symptom.priority.toLowerCase() %>"><%= symptom.priority %> Priority</span>
     <h1><%= symptom.name %> — Repair in Salt Lake City, UT</h1>
@@ -22,7 +23,7 @@
 
 <section class="content-section">
   <div class="container">
-    <div class="prose" style="max-width:760px">
+    <div class="prose mw-760">
       <h2>What Is <%= symptom.shortName %>?</h2>
       <p class="intro-lead"><%= symptom.intro %></p>
       <% if (symptom.introImage) { %>
@@ -41,7 +42,7 @@
 <% var howToSec = symptom.richContent[0]; %>
 <section class="content-section alt-bg">
   <div class="container">
-    <div class="prose<%= howToSec.image ? ' prose-with-image' : '' %>" style="max-width:760px">
+    <div class="prose mw-760<%= howToSec.image ? ' prose-with-image' : '' %>">
       <h2><%= howToSec.heading %></h2>
       <% if (howToSec.image) { %>
       <img src="/assets/<%= howToSec.image %>" alt="<%= howToSec.imageAlt %>" class="prose-image" width="760" height="428" loading="lazy">
@@ -70,7 +71,7 @@
       </div>
       <% }) %>
     </div>
-    <p class="inline-cta" style="margin-top:1.5rem">Not sure which applies to you? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a> — free diagnosis at our Salt Lake City shop.</p>
+    <p class="inline-cta mt-6">Not sure which applies to you? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a> — free diagnosis at our Salt Lake City shop.</p>
   </div>
 </section>
 
@@ -78,7 +79,7 @@
 <% symptom.richContent.slice(1).forEach(function(sec, i) { %>
 <section class="content-section<%= i % 2 === 0 ? ' alt-bg' : '' %>">
   <div class="container">
-    <div class="prose<%= sec.image ? ' prose-with-image' : '' %>" style="max-width:760px">
+    <div class="prose mw-760<%= sec.image ? ' prose-with-image' : '' %>">
       <h2><%= sec.heading %></h2>
       <% if (sec.image) { %>
       <img src="/assets/<%= sec.image %>" alt="<%= sec.imageAlt %>" class="prose-image" width="760" height="428" loading="lazy">
@@ -130,9 +131,9 @@
       </div>
       <div class="symptom-location-map">
         <iframe
-          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84117&output=embed&hl=en&z=15"
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
           width="100%" height="100%"
-          style="border:0;border-radius:var(--radius);min-height:320px"
+          class="map-embed map-embed--sm"
           allowfullscreen loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           title="Scott's Auto & Clutch Repair Location Map">
