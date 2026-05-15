@@ -2634,8 +2634,8 @@ const services = [
     name: "Lift & Leveling Kits",
     fullName: "Lift & Leveling Kit Installation",
     shortDesc: "Leveling kit and suspension lift installation for trucks and SUVs, with alignment included.",
-    image: "/assets/lift-kit-400.jpg",
-    heroImage: "/assets/lift-kit-400.jpg",
+    image: "/assets/Lift-kit-400.jpg",
+    heroImage: "/assets/Lift-kit-400.jpg",
     metaTitle: "Lift & Leveling Kit Installation South Salt Lake | Scott's Auto",
     heading: "Lift & Leveling Kit Installation in South Salt Lake, UT",
     metaDesc: "Leveling kit or full lift? We install both on trucks and SUVs — and we do the alignment after. Written estimate before we start. Scott's Auto. (801) 485-4089.",
@@ -2828,6 +2828,220 @@ const services = [
       "strut-replacement-near-south-salt-lake-ut",
       "shock-replacement-near-south-salt-lake-ut",
       "complete-auto-service-near-south-salt-lake-ut"
+    ]
+  },
+  {
+    slug: "check-engine-light-engine-repair-near-south-salt-lake-ut",
+    name: "Check Engine Light & Engine Repair",
+    fullName: "Check Engine Light Diagnosis & Engine Repair",
+    shortDesc: "Check engine light diagnosis and engine repair for all makes and models. We find the actual cause, not just the code.",
+    image: "/assets/check-engine-400.jpg",
+    heroImage: "/assets/check-engine-400.jpg",
+    metaTitle: "Check Engine Light South Salt Lake UT | Scott's Auto",
+    heading: "Check Engine Light Diagnosis & Engine Repair in South Salt Lake, UT",
+    metaDesc: "Check engine light on? We read the code and diagnose the actual cause — not just tell you the code number. Free diagnosis. South Salt Lake. (801) 485-4089.",
+    heroIntro: "Check engine light on? We read the code and find the actual cause — not just hand you a slip with a code number on it. Free diagnosis. Written estimate before any repair. No surprises.",
+    shortDefinition: "The check engine light means the engine management system detected a fault in one of its monitored systems and logged a diagnostic trouble code (DTC). Reading that code tells you which system triggered — it doesn't tell you why. We connect a scan tool, pull the live sensor data, and identify the root cause before recommending any repair. A misfire code could be a spark plug, a coil pack, a fuel injector, or low compression — the code is the starting point, not the answer.",
+    intro: "",
+    hideServicesSection: true,
+    specializedServices: [
+      "OBD-II Scan & Fault Code Reading",
+      "Live Sensor Data Analysis",
+      "Oxygen Sensor Diagnosis & Replacement",
+      "Catalytic Converter Diagnosis & Replacement",
+      "EVAP System Leak Diagnosis & Repair",
+      "Ignition System Diagnosis (Spark Plugs, Coil Packs)",
+      "Fuel Injector Diagnosis & Service",
+      "EGR System Cleaning & Repair",
+      "Intake Valve Carbon Cleaning (GDI Engines)",
+      "Engine Compression & Leak-Down Testing",
+      "Timing Component Inspection",
+      "Emissions Readiness Check"
+    ],
+    whyUs: [
+      {
+        title: "Diagnosis, Not Just Code Reading",
+        desc: "Any parts store will read your code for free. We use that code as the starting point, then pull live sensor data and inspect the relevant system to find the actual cause."
+      },
+      {
+        title: "Free OBD-II Scan Included",
+        desc: "The diagnosis is free. You know what triggered the light and why before we recommend anything or ask you to spend money."
+      },
+      {
+        title: "Written Estimate Before Any Work",
+        desc: "Once we know what caused the light, you get a complete written estimate before any repair begins. You decide what happens next."
+      },
+      {
+        title: "In Business Since 1990",
+        desc: "We've diagnosed check engine lights on every platform for 35 years. We know the patterns — which codes on which platforms are straightforward and which ones need deeper investigation."
+      }
+    ],
+    processHeading: "How We Diagnose a Check Engine Light",
+    processIntro: "Pulling a code takes 60 seconds. Diagnosing what actually caused it takes longer — and it's what determines whether the repair actually fixes the problem or just clears the light temporarily.",
+    process: [
+      {
+        step: 1,
+        title: "Describe What You've Noticed",
+        desc: "Tell us when the light came on, whether it's steady or flashing, and any drivability changes — rough idle, hesitation, reduced power, fuel smell."
+      },
+      {
+        step: 2,
+        title: "OBD-II Scan & Live Data",
+        desc: "We read all stored fault codes and pull live sensor data — fuel trims, O2 sensor waveforms, misfire counts per cylinder — to see what the engine is actually doing."
+      },
+      {
+        step: 3,
+        title: "System Inspection",
+        desc: "We inspect the system that triggered the code: O2 sensor wiring, catalytic converter condition, EVAP hoses, spark plugs, injector pulse, intake valve deposits."
+      },
+      {
+        step: 4,
+        title: "Root Cause Identified",
+        desc: "We confirm the actual cause before recommending a repair. If a P0420 code is from a misfiring cylinder fouling the catalyst rather than a dead converter, we tell you that."
+      },
+      {
+        step: 5,
+        title: "Written Estimate & Repair",
+        desc: "You get a complete written estimate covering the repair and why it addresses the root cause. Work begins only with your approval."
+      }
+    ],
+    commonIssues: [
+      {
+        title: "Oxygen Sensor Failure",
+        desc: "O2 sensors are the most common check engine light trigger. They wear out over mileage and Utah's high altitude affects fuel trim readings, sometimes causing false or early failures.",
+        symptomSlug: ""
+      },
+      {
+        title: "Catalytic Converter (Failure or Theft)",
+        desc: "A P0420 or P0430 code means the catalyst efficiency has dropped below threshold — either from normal wear, a misfiring cylinder damaging it, or post-theft replacement of a stolen unit.",
+        symptomSlug: ""
+      },
+      {
+        title: "EVAP System Leaks",
+        desc: "Utah's dry climate and temperature swings crack EVAP hoses, degrade purge valves, and dry out fuel cap gaskets — all common causes of evaporative emission codes.",
+        symptomSlug: ""
+      },
+      {
+        title: "Engine Misfires",
+        desc: "P0300-series misfire codes come from worn spark plugs, failed coil packs, dirty fuel injectors, or low compression. We identify which cylinder and why before replacing parts.",
+        symptomSlug: ""
+      },
+      {
+        title: "EGR & Intake Carbon Buildup",
+        desc: "Direct-injection engines don't wash their intake valves with fuel. Carbon accumulates over mileage, causing rough idle, misfires, and EGR-related codes.",
+        symptomSlug: ""
+      }
+    ],
+    richContent: [
+      {
+        heading: "What Does Check Engine Light Diagnosis Actually Involve?",
+        paras: [
+          "The check engine light — technically the malfunction indicator lamp (MIL) — activates when the engine control module detects a reading outside its acceptable range for one of its monitored systems. It stores a diagnostic trouble code (DTC) and turns on the light.",
+          "Reading that code is not diagnosing the problem. A P0420 catalyst efficiency code could mean a worn-out catalytic converter, a failed downstream O2 sensor giving false readings, an upstream exhaust leak contaminating the sample, or an engine misfire that damaged the catalyst. The code tells you what triggered — diagnosis tells you why.",
+          "We connect a professional scan tool, read all stored codes, and pull the live data stream the engine control module was seeing when the fault occurred. That data — fuel trims, O2 sensor waveforms, misfire counts, MAF readings — shows us what the engine was actually doing, which points us to the real cause.",
+          "<strong>Diagnostic trouble codes</strong> — alphanumeric identifiers (P0xxx for powertrain, P1xxx for manufacturer-specific) that describe the system that failed its self-test. Reading the code is the starting point.",
+          "<strong>Freeze frame data</strong> — a snapshot of engine operating conditions at the moment the fault was triggered. We use this alongside live data to confirm what was happening.",
+          "<strong>Readiness monitors</strong> — self-tests the ECM runs to verify each emission system is functioning. Monitors that haven't completed after a clear indicate a system still under investigation.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "OBD-II Scan & Full Fault Code Reading",
+          "Live Sensor Data & Freeze Frame Analysis",
+          "Oxygen Sensor Diagnosis & Replacement",
+          "Catalytic Converter Diagnosis & Replacement",
+          "EVAP System Diagnosis (purge valve, vent valve, hoses, gas cap)",
+          "Ignition System Service (spark plugs, coil packs, wires)",
+          "Fuel Injector Cleaning & Replacement",
+          "EGR System Cleaning & Repair",
+          "Intake Valve Carbon Cleaning (GDI engines)",
+          "Engine Compression & Cylinder Leak-Down Testing"
+        ],
+        listStyle: "tags"
+      },
+      {
+        heading: "When Should You Come In?",
+        paras: [
+          "Come in any time the check engine light is on — but come in immediately if the light is flashing. A steady check engine light means a fault has been detected; the vehicle is usually safe to drive short-term but the issue needs diagnosis. A flashing or blinking check engine light means an active misfire severe enough to damage the catalytic converter. Driving with a flashing light risks turning a spark plug replacement into a catalytic converter replacement.",
+          "Also come in if the light came back after being cleared elsewhere, or if you've replaced a part based on a code and the light returned. Code-based parts swaps without confirming root cause are one of the most common reasons check engine lights come back — we find what the code actually points to before recommending any repair."
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Can I just have the code cleared and see if it comes back?",
+        a: "Clearing the code without repairing the cause resets the light temporarily — it will return, often within one drive cycle. It also clears the readiness monitors, which can cause you to fail an emissions test even if the light is off. We diagnose the cause so the repair actually solves the problem."
+      },
+      {
+        q: "Is it safe to drive with the check engine light on?",
+        a: "A steady check engine light usually means you can drive short-term, but you should get it diagnosed soon. Defer repairs and the cause often gets worse. A flashing check engine light means stop driving as soon as safely possible — an active misfire is occurring that can destroy the catalytic converter in minutes."
+      },
+      {
+        q: "What does a flashing check engine light mean?",
+        a: "A flashing or blinking check engine light indicates an active, severe misfire. Unburned fuel is passing into the exhaust and overheating the catalytic converter. Continued driving can destroy the converter — turning a spark plug or coil pack repair into a significantly more expensive job. Pull over safely and call us."
+      },
+      {
+        q: "Do you just read the code or actually find the problem?",
+        a: "We find the problem. Any auto parts store will read your code for free, but a code only identifies the triggered system — not the cause. We use the code as the starting point, then pull live sensor data and inspect the relevant system to confirm what's actually wrong before recommending a repair."
+      },
+      {
+        q: "Why did the check engine light come back after it was repaired elsewhere?",
+        a: "Usually because the repair addressed the code rather than the root cause. A P0420 catalyst code replaced with a new O2 sensor will return if the converter itself is the actual problem — and vice versa. We confirm root cause before recommending any repair, which is why our fixes hold."
+      },
+      {
+        q: "How much does check engine light diagnosis cost?",
+        a: "The diagnosis is free. We scan the codes, pull the live data, and identify the cause at no charge. You get a written estimate for the repair before any work begins — and you decide whether to proceed."
+      },
+      {
+        q: "Is there a warranty on the repair?",
+        a: "Yes. Every repair we perform is backed by a 2-year parts and labor warranty. If something we fixed gives you trouble within two years, bring it back and we make it right at no charge."
+      },
+      {
+        q: "How does your pricing compare to dealers and chain shops?",
+        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+      }
+    ],
+    whoContent: {
+      heading: "Who to Trust for Check Engine Light Diagnosis in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been diagnosing check engine lights in South Salt Lake since 1990. We've seen every code on every platform — and we know that the same code on two different vehicles can have completely different causes. Our process starts with the code and ends with root cause confirmation before we recommend anything.",
+        "The diagnosis is free. You come in knowing what triggered the light and why. The repair estimate is in writing before any work starts, and you decide what happens next. If the cheapest fix turns out to be the actual answer, that's what we'll tell you."
+      ]
+    },
+    statsTable: [
+      {
+        label: "Typical Turnaround",
+        value: "Diagnosis same day; most repairs completed same day or next day"
+      },
+      {
+        label: "Free Diagnosis",
+        value: "Yes — OBD-II scan, live data review, and root cause identification at no charge"
+      },
+      {
+        label: "Includes",
+        value: "Full fault code scan, freeze frame review, live sensor data, visual system inspection"
+      },
+      {
+        label: "Most Common Causes",
+        value: "O2 sensors, catalytic converter, EVAP leaks, misfires (plugs/coils), EGR/intake carbon"
+      },
+      {
+        label: "Flashing Light",
+        value: "Stop driving — active misfire is occurring. Call us before continuing to drive."
+      },
+      {
+        label: "Warranty",
+        value: "2-year parts & labor on every repair"
+      },
+      {
+        label: "Vehicles Served",
+        value: "All makes and models — domestic, import, trucks, SUVs, hybrids"
+      }
+    ],
+    hasGeoPages: true,
+    relatedSlugs: [
+      "catalytic-converter-service-near-south-salt-lake-ut",
+      "complete-auto-service-near-south-salt-lake-ut",
+      "timing-chain-repair-near-south-salt-lake-ut"
     ]
   }
 ];
