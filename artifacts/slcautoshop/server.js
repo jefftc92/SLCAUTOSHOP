@@ -127,6 +127,9 @@ const SERVICE_LINK_TERMS = [
   ['shock absorber',      '/services/shock-replacement-near-south-salt-lake-ut'],
   ['strut',               '/services/strut-replacement-near-south-salt-lake-ut'],
   ['exhaust',             '/services/exhaust-repair-near-south-salt-lake-ut'],
+  ['check engine light',  '/services/check-engine-light-engine-repair-near-south-salt-lake-ut'],
+  ['leveling kit',        '/services/lift-leveling-kit-installation-near-south-salt-lake-ut'],
+  ['lift kit',            '/services/lift-leveling-kit-installation-near-south-salt-lake-ut'],
 ];
 
 app.use((req, res, next) => {

@@ -1423,8 +1423,8 @@ const services = [
     ],
     hasGeoPages: false,
     relatedSlugs: [
+      "check-engine-light-engine-repair-near-south-salt-lake-ut",
       "exhaust-repair-near-south-salt-lake-ut",
-      "welding-services-near-south-salt-lake-ut",
       "complete-auto-service-near-south-salt-lake-ut"
     ]
   },
@@ -2939,9 +2939,6 @@ const services = [
           "The check engine light — technically the malfunction indicator lamp (MIL) — activates when the engine control module detects a reading outside its acceptable range for one of its monitored systems. It stores a diagnostic trouble code (DTC) and turns on the light.",
           "Reading that code is not diagnosing the problem. A P0420 catalyst efficiency code could mean a worn-out catalytic converter, a failed downstream O2 sensor giving false readings, an upstream exhaust leak contaminating the sample, or an engine misfire that damaged the catalyst. The code tells you what triggered — diagnosis tells you why.",
           "We connect a professional scan tool, read all stored codes, and pull the live data stream the engine control module was seeing when the fault occurred. That data — fuel trims, O2 sensor waveforms, misfire counts, MAF readings — shows us what the engine was actually doing, which points us to the real cause.",
-          "<strong>Diagnostic trouble codes</strong> — alphanumeric identifiers (P0xxx for powertrain, P1xxx for manufacturer-specific) that describe the system that failed its self-test. Reading the code is the starting point.",
-          "<strong>Freeze frame data</strong> — a snapshot of engine operating conditions at the moment the fault was triggered. We use this alongside live data to confirm what was happening.",
-          "<strong>Readiness monitors</strong> — self-tests the ECM runs to verify each emission system is functioning. Monitors that haven't completed after a clear indicate a system still under investigation.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [

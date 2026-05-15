@@ -192,7 +192,7 @@ const CITIES = [
   },
   {
     slug: 'south-jordan', name: 'South Jordan', distance: '10 miles', driveTime: '14 min',
-    directions: 'Take I-15 north from South Jordan approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave — we\'re on the left side. About 14 minutes by freeway. Daybreak TRAX riders can board at Daybreak Parkway and ride north to Central Pointe station.',
+    directions: 'Take I-15 north from South Jordan approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave — we\'re on the left side. About 14 minutes by freeway.',
     landmarks: [
       { name: 'Daybreak Parkway TRAX Station', distance: '10 miles south', tip: 'The Blue Line station for Daybreak customers using transit. Board here and ride north to Central Pointe — a 3-minute walk from our shop at 144 W Crystal Ave. Drop your car in the morning and pick it up after work.' },
       { name: 'Bangerter Highway & I-15 interchange', distance: '8 miles south of shop', tip: 'The main freeway junction for most South Jordan drivers. Head north on I-15 from here — it\'s about 8 miles to the 2700 South exit for our shop. The drive is mostly open freeway and takes about 10 minutes.' },
@@ -201,7 +201,7 @@ const CITIES = [
     logisticsNote: 'South Jordan and Daybreak customers can take the TRAX Blue Line to simplify drop-off. Board at Daybreak Parkway station, ride north to Central Pointe Station, and walk 3 minutes east to our shop at 144 W Crystal Ave. Drop your car in the morning, ride TRAX to work, and we\'ll call when the job is done. Uber and Lyft are also available from our lot throughout the day for the return trip to South Jordan.',
     processNote: 'South Jordan customers can drop off and ride TRAX to work from Daybreak — most jobs are done same day. Call ahead to confirm.',
     whyChooseUs: [
-      { title: 'Daybreak TRAX to Our Door', desc: 'Board at Daybreak Parkway on the Blue Line and ride north to Central Pointe — 3 minutes from our shop. Drop off the car, take TRAX to work, and pick up the same day.' },
+      { title: '14 Minutes via I-15 + TRAX Option', desc: 'Straight shot up I-15 from South Jordan — exit at 2700 South. Daybreak Parkway Blue Line riders can also board TRAX and walk 3 minutes from Central Pointe Station. Most jobs are done same day.' },
       { title: 'We Know Daybreak and Bangerter Driving', desc: 'Daybreak\'s roundabouts and Bangerter Highway\'s abrupt transitions create their own wear patterns. We see these from South Jordan vehicles regularly and know what to look for.' },
       { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
       { title: 'In Business Since 1990', desc: 'South Jordan drivers make the trip because they want a diagnosis they can trust. We\'ve been doing this since 1990 and get it right the first time.' }
