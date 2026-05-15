@@ -1005,16 +1005,91 @@ function getSitemapEntries() {
   return entries;
 }
 
-// ── Sitemap.xml ───────────────────────────────────────────────────────────────
-app.get('/sitemap.xml', (req, res) => {
-  res.set('Content-Type', 'application/xml');
+// ── Sitemap helpers ───────────────────────────────────────────────────────────
+function urlsetXml(entries) {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-  getSitemapEntries().forEach(({ path, priority, freq, lastmod }) => {
+  entries.forEach(({ path, priority, freq, lastmod }) => {
     xml += `  <url>\n    <loc>${site.domain}${path}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${freq}</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
   });
-  xml += `</urlset>`;
+  return xml + `</urlset>`;
+}
+
+function sitemapRoute(path, entriesFn) {
+  app.get(path, (req, res) => {
+    res.set('Content-Type', 'application/xml');
+    res.send(urlsetXml(entriesFn()));
+  });
+}
+
+// ── Sitemap index ─────────────────────────────────────────────────────────────
+const SUB_SITEMAPS = [
+  { slug: 'sitemap-core.xml',          label: 'Core pages' },
+  { slug: 'sitemap-services.xml',      label: 'Service & geo pages' },
+  { slug: 'sitemap-service-areas.xml', label: 'Service × area pages' },
+  { slug: 'sitemap-locations.xml',     label: 'Location pages' },
+  { slug: 'sitemap-symptoms.xml',      label: 'Symptom pages' },
+  { slug: 'sitemap-vehicles.xml',      label: 'Vehicle brand pages' },
+];
+
+app.get('/sitemap.xml', (req, res) => {
+  res.set('Content-Type', 'application/xml');
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+  SUB_SITEMAPS.forEach(({ slug }) => {
+    xml += `  <sitemap>\n    <loc>${site.domain}/${slug}</loc>\n    <lastmod>${LASTMOD_SPRINT}</lastmod>\n  </sitemap>\n`;
+  });
+  xml += `</sitemapindex>`;
   res.send(xml);
 });
+
+// ── Sub-sitemaps ──────────────────────────────────────────────────────────────
+
+// Core: homepage, section indexes, legal
+sitemapRoute('/sitemap-core.xml', () => [
+  { path: '/',              priority: '1.0', freq: 'weekly',  lastmod: LASTMOD_SPRINT },
+  { path: '/services',      priority: '0.9', freq: 'weekly',  lastmod: LASTMOD_SPRINT },
+  { path: '/locations',     priority: '0.9', freq: 'weekly',  lastmod: LASTMOD_SPRINT },
+  { path: '/symptoms',      priority: '0.9', freq: 'weekly',  lastmod: LASTMOD_SPRINT },
+  { path: '/vehicle-brands',priority: '0.8', freq: 'weekly',  lastmod: LASTMOD_SPRINT },
+  { path: '/contact',       priority: '0.8', freq: 'monthly', lastmod: LASTMOD_SPRINT },
+  { path: '/about',         priority: '0.7', freq: 'monthly', lastmod: LASTMOD_SPRINT },
+  { path: '/privacy',       priority: '0.3', freq: 'yearly',  lastmod: LASTMOD_STABLE },
+  { path: '/terms',         priority: '0.3', freq: 'yearly',  lastmod: LASTMOD_STABLE },
+]);
+
+// Services: individual service detail pages + clutch geo pages
+sitemapRoute('/sitemap-services.xml', () => {
+  const entries = [];
+  services.forEach(s => entries.push({ path: '/services/' + s.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD_SPRINT }));
+  geoPages.forEach(g => entries.push({ path: '/services/' + g.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD_SPRINT }));
+  return entries;
+});
+
+// Service × area: the 176 service-geo combo pages
+sitemapRoute('/sitemap-service-areas.xml', () =>
+  serviceGeoPages.map(g => ({ path: '/services/' + g.slug, priority: '0.7', freq: 'monthly', lastmod: LASTMOD_SPRINT }))
+);
+
+// Locations: individual location detail pages
+sitemapRoute('/sitemap-locations.xml', () =>
+  locations.map(l => ({ path: '/locations/' + l.slug, priority: '0.9', freq: 'monthly', lastmod: LASTMOD_SPRINT }))
+);
+
+// Symptoms: symptom detail pages
+sitemapRoute('/sitemap-symptoms.xml', () =>
+  symptoms.map(s => ({ path: '/symptoms/' + s.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD_SPRINT }))
+);
+
+// Vehicles: active brand pages only
+sitemapRoute('/sitemap-vehicles.xml', () =>
+  vehicleBrands
+    .filter(v => !defunctBrands.has(v.slug))
+    .map(v => ({
+      path: '/vehicle-brands/' + v.slug,
+      priority: highVolumeBrands.has(v.slug) ? '0.8' : '0.6',
+      freq: 'monthly',
+      lastmod: LASTMOD_STABLE,
+    }))
+);
 
 // ── IndexNow — active crawl submission ───────────────────────────────────────
 // IndexNow lets us push URLs directly to search engines instead of waiting for
