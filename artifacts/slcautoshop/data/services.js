@@ -1120,7 +1120,7 @@ const services = [
     metaTitle: "Head Gasket Repair South Salt Lake UT | Scott's Auto",
     heading: "Head Gasket Repair in South Salt Lake, UT",
     metaDesc: "Overheating, white exhaust smoke, or milky oil? We diagnose head gasket failures before recommending any repair. Free diagnosis. South Salt Lake. (801) 485-4089.",
-    heroIntro: "White smoke, milky oil, or an overheating engine all point to the cooling system — and not always the head gasket. We find the real cause before recommending anything.",
+    heroIntro: "White smoke from the exhaust, coolant disappearing, or an engine that keeps overheating? Head gasket failure is one of the more serious repairs a vehicle can need. Free diagnosis. Written estimate. No surprises.",
     shortDefinition: "The head gasket seals the cylinder head to the engine block, keeping combustion gases, engine oil, and coolant separated in their own passages. When it fails, those fluids mix — coolant burns in the cylinders (white smoke), oil turns milky from coolant contamination, or the engine loses coolant with no visible external leak. We pressure-test the cooling system, run a block test for combustion gases, and measure the head for warping before recommending any repair.",
     intro: "",
     hideServicesSection: true,
@@ -1130,19 +1130,19 @@ const services = [
       "Thermostat Replacement", "Water Pump Inspection", "Cylinder Head Bolt Torque Service"
     ],
     whyUs: [
-      { title: "Diagnose Before We Recommend", desc: "Many symptoms that look like a blown head gasket — overheating, slow coolant loss — turn out to be a bad thermostat, failed water pump, or a cracked hose. We run a combustion gas block test and pressure test first. If it's not the gasket, we tell you what it actually is." },
-      { title: "Head Warpage Inspection Included", desc: "A single overheating event can warp the cylinder head. We measure for warping with a precision straightedge before the gasket goes back in. Installing a new gasket on a warped head just means doing the job again in a few months." },
-      { title: "Honest Prioritization", desc: "A head gasket job is a major repair. We tell you exactly what we found, what the repair costs, what the alternatives are, and what happens if you defer. You make the decision with complete information — no pressure either way." },
-      { title: "Cooling System Serviced as Part of the Job", desc: "Every head gasket repair includes a fresh coolant flush and fill with the correct coolant specification for your vehicle. Putting the engine back together with old coolant defeats the purpose of the repair." }
+      { title: "Confirm Before We Recommend", desc: "Many cooling system symptoms — overheating, slow coolant loss — aren't the head gasket. We run a combustion gas block test and pressure test first. If it's not the gasket, we tell you what it is." },
+      { title: "Cylinder Head Inspection Included", desc: "We measure the head for warping after removal before the new gasket goes in. A warped head on a new gasket is a job that will need to be done again." },
+      { title: "Written Estimate Before Any Work", desc: "Head gasket repair is a significant repair. You'll have a complete written estimate covering all the work before we start anything." },
+      { title: "Cooling System Serviced as Part of the Job", desc: "Every head gasket repair includes a coolant flush and fill. Putting the engine back together with old coolant defeats the purpose of the repair." }
     ],
     processHeading: "How We Diagnose and Repair a Head Gasket",
     processIntro: "Overheating and white smoke are symptoms, not diagnoses. We work through the cooling system systematically before recommending head gasket work — because the cheaper fix is worth ruling out first.",
     process: [
-      { step: 1, title: "Describe What You've Noticed", desc: "Overheating, white exhaust smoke, milky oil on the dipstick, coolant loss without a visible puddle, or a heater that stopped blowing hot — any of these gets us started in the right direction." },
-      { step: 2, title: "Block Test and Pressure Test", desc: "We test the coolant for combustion gases (a definitive head gasket test) and pressure-test the cooling system to find leaks. This tells us whether the gasket is the source or whether something else is causing your symptoms." },
-      { step: 3, title: "Cylinder Head Inspection", desc: "If the gasket has failed, we remove the cylinder head and measure it for warping with a precision straightedge. A warped head needs resurfacing — or sometimes replacement — before a new gasket will seal." },
-      { step: 4, title: "Clear Estimate Before Any Work", desc: "You get a written estimate covering gasket, head resurfacing if needed, and all associated hardware before we proceed. No surprises when you pick the vehicle up." },
-      { step: 5, title: "Reassembly, Flush, and Road Test", desc: "The engine goes back together with a fresh coolant fill, new head bolts torqued to spec, and a road test to verify temperature stays in the normal range under load." }
+      { step: 1, title: "Describe Symptoms", desc: "Tell us about overheating, white exhaust smoke, coolant loss, or oil that looks milky." },
+      { step: 2, title: "Diagnosis", desc: "We run a combustion gas block test and pressure-test the cooling system to confirm whether the head gasket is the actual source." },
+      { step: 3, title: "Head Inspection", desc: "Once disassembled, we measure the cylinder head for warping. A warped head needs resurfacing before the new gasket will seal correctly." },
+      { step: 4, title: "Detailed Quote", desc: "Complete written estimate covering gasket, head work if needed, and cooling system service before any work begins." },
+      { step: 5, title: "Reassembly and Verification", desc: "We reassemble with a new gasket torqued to spec, flush the cooling system, and verify operating temperature holds before return." }
     ],
     commonIssues: [
       { title: "Engine Overheating", desc: "A failed head gasket can allow combustion gases into the cooling system, pressurizing it and causing coolant to overflow — leading to overheating even with the reservoir full.", symptomSlug: "engine-overheating" },
@@ -1153,14 +1153,14 @@ const services = [
     ],
     richContent: [
       {
-        heading: "Is It Really the Head Gasket?",
+        heading: "What Does Head Gasket Repair Actually Involve?",
         paras: [
-          "Not always — and the cheaper answers are worth ruling out first. Overheating can come from a stuck thermostat, a failed water pump, a cracked radiator hose, or a faulty radiator cap. Each of those is a fraction of the cost of a head gasket job, and they can produce identical symptoms. We run a systematic check before pointing at the gasket.",
-          "The definitive test is a combustion gas block test: a chemical that changes color if combustion gases are present in the coolant. If gases are there, the gasket is failing. If the test comes back clean but you're still losing coolant, we keep looking — pressure testing the system to find where it's going.",
-          "<strong>Head gasket</strong> — seals the cylinder head to the engine block, separating combustion, oil, and coolant passages. When it fails, those passages connect and fluids mix or combustion gases enter the cooling system.",
-          "<strong>Cylinder head</strong> — the aluminum or iron casting bolted on top of the engine block that houses the intake and exhaust valves. Aluminum heads are particularly vulnerable to warping from a single overheating event — the material expands unevenly under extreme heat.",
-          "<strong>Head bolts</strong> — torqued in a specific sequence to compress the gasket evenly. Many engines require new head bolts on reassembly because the bolts are designed to stretch once and lose their clamping ability if reused.",
-          "<strong>Combustion gas block test</strong> — the most reliable non-disassembly test for head gasket failure. A chemically treated fluid is exposed to cooling system gases; if combustion gases are present, the color changes. We use this test before recommending any disassembly.",
+          "The head gasket seals the cylinder head to the engine block, keeping combustion gases, engine oil, and coolant in their own passages. When it fails, those fluids mix — coolant burns in the cylinders (white smoke), oil turns milky, or the engine loses coolant with no visible external puddle.",
+          "Before we recommend head gasket work, we confirm the failure. Overheating and coolant loss have cheaper causes — a stuck thermostat, a failing water pump, a cracked hose. We rule those out first with a combustion gas block test and a cooling system pressure test.",
+          "<strong>Head gasket</strong> — the sealing layer between the cylinder head and engine block. When it fails, combustion gases, oil, and coolant can mix through the failed section.",
+          "<strong>Cylinder head</strong> — the aluminum casting bolted to the top of the block. Aluminum heads warp from overheating — even a single event — and a warped head won't seal against a new gasket. We measure for warping with a precision straightedge after removal.",
+          "<strong>Head bolts</strong> — torqued in sequence to compress the gasket evenly. Many engines require new bolts on reassembly because the bolts are stretch-to-yield and lose clamping force if reused.",
+          "<strong>Combustion gas block test</strong> — a chemically treated fluid that changes color if combustion gases are present in the coolant. The most reliable non-disassembly confirmation of gasket failure.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -1176,11 +1176,10 @@ const services = [
         listStyle: "tags"
       },
       {
-        heading: "Can You Keep Driving with a Blown Head Gasket?",
+        heading: "When Should You Come In?",
         paras: [
-          "No — and the consequences of doing so escalate quickly. A small internal gasket leak can become a full failure in days to weeks of continued driving. Once coolant mixes with oil in significant quantity, the oil's ability to lubricate bearings and cylinder walls is compromised. Bearing damage, scoring of cylinder walls, and eventual engine seizure can result from extended driving on a contaminated oil system.",
-          "The single biggest cost driver in head gasket repair is a warped cylinder head — which results from overheating. A head gasket job where the head is still flat costs significantly less than one where the head needs resurfacing or replacement. Stopping as soon as the temperature gauge climbs is the most effective cost-control measure available.",
-          "If your temperature gauge is climbing, pull over, shut the engine off, and let it cool before opening the hood. Never open a pressurized radiator cap on a hot engine. Call us and we'll talk through whether the vehicle can be safely driven or needs to be towed. Free towing is included on repairs over $1,000."
+          "Come in as soon as you notice white smoke from the exhaust that doesn't clear after warm-up, coolant that keeps disappearing without a visible puddle, an engine that overheats despite adequate coolant, or oil that looks milky on the dipstick. These symptoms escalate — an engine running on a failing head gasket can warp the cylinder head, turning a repairable situation into a significantly more expensive one.",
+          "If your vehicle has recently overheated — even once — it's worth having the cooling system and head gasket integrity checked before continuing to drive it. Catching a slow leak at the diagnosis stage costs far less than catching it after the oil turns milky or the head has warped. We'll tell you exactly what we find before recommending anything."
         ]
       }
     ],
@@ -1195,8 +1194,8 @@ const services = [
     whoContent: {
       heading: "Who to Trust for Head Gasket Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been working on engines in South Salt Lake since 1990. Head gasket repair is a significant job, and we approach it the way we approach everything: diagnose what's actually wrong before recommending the repair. Sometimes it's not the gasket — and we'd rather tell you that upfront than take on a job that wasn't necessary.",
-        "When you bring your vehicle in, the mechanic who diagnoses it is the one who repairs it. You get a straight answer about what we found, what the repair involves, and what it costs. No service advisor, no upsell, no pressure. If the repair makes sense for the vehicle, we do it right. If it doesn't, we tell you that too."
+        "Scott's Auto & Clutch Repair has been diagnosing and repairing engines in South Salt Lake since 1990. Head gasket repair is one of the more significant jobs a vehicle can need, and we approach it the same way we approach everything — confirm the diagnosis before recommending the repair, inspect the cylinder head before reassembly, and address the cooling system as part of the job rather than as an afterthought.",
+        "When you bring your vehicle in, you get a complete diagnosis, a written estimate before any work starts, and an honest explanation of what the repair involves and why. If the cheaper answer turns out to be the actual problem — a thermostat, a hose, a water pump — we'll tell you that."
       ]
     },
     statsTable: [
