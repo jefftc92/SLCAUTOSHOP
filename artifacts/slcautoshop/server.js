@@ -130,6 +130,8 @@ const SERVICE_LINK_TERMS = [
   ['check engine light',  '/services/check-engine-light-engine-repair-near-south-salt-lake-ut'],
   ['leveling kit',        '/services/lift-leveling-kit-installation-near-south-salt-lake-ut'],
   ['lift kit',            '/services/lift-leveling-kit-installation-near-south-salt-lake-ut'],
+  ['transfer case',       '/services/transmission-repair-near-south-salt-lake-ut'],
+  ['transmission',        '/services/transmission-repair-near-south-salt-lake-ut'],
 ];
 
 app.use((req, res, next) => {

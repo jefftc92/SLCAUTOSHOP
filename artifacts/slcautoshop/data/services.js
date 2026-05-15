@@ -3040,6 +3040,223 @@ const services = [
       "complete-auto-service-near-south-salt-lake-ut",
       "timing-chain-repair-near-south-salt-lake-ut"
     ]
+  },
+  {
+    slug: "transmission-repair-near-south-salt-lake-ut",
+    name: "Transmission Repair & Service",
+    fullName: "Transmission Repair & Service",
+    shortDesc: "Automatic transmission service, repair, and rebuilds — plus transfer case service for 4WD and AWD vehicles.",
+    image: "/assets/transmission-400.jpg",
+    heroImage: "/assets/transmission-400.jpg",
+    metaTitle: "Transmission Repair South Salt Lake UT | Scott's Auto",
+    heading: "Transmission Repair & Service in South Salt Lake, UT",
+    metaDesc: "Slipping, shuddering, or delayed engagement? We diagnose automatic transmissions and service transfer cases for all makes and models. Free diagnosis. (801) 485-4089.",
+    heroIntro: "Automatic transmission slipping, shuddering, or taking too long to engage? We start with a road test and fluid check — not a rebuild quote. Transfer case service included. Free diagnosis. Written estimate. No surprises.",
+    shortDefinition: "The automatic transmission uses hydraulic pressure to shift gears through a series of clutch packs, bands, and solenoids controlled by the transmission control module. When it slips, shudders, or shifts erratically, the cause is usually fluid condition, a solenoid, or worn friction material — not always an internal rebuild. The transfer case (on 4WD and AWD vehicles) routes power to the front axle and is serviced separately but diagnosed at the same time.",
+    intro: "",
+    hideServicesSection: true,
+    specializedServices: [
+      "Automatic Transmission Fluid Service",
+      "Transmission Filter Replacement",
+      "Transmission Diagnostic Scan & Road Test",
+      "Shift Solenoid Diagnosis & Replacement",
+      "Torque Converter Diagnosis",
+      "Valve Body Service",
+      "Transmission Rebuild & Overhaul",
+      "Transfer Case Fluid Service",
+      "Transfer Case Actuator / Encoder Motor Replacement",
+      "4WD Engagement Diagnosis",
+      "Manual Transmission Internal Repair (Synchronizers, Bearings)",
+      "Transmission Mount Replacement"
+    ],
+    whyUs: [
+      {
+        title: "Fluid Service Before Rebuild",
+        desc: "Slipping and shuddering are often fluid issues — degraded ATF that's lost its friction modifiers. We check the fluid first. A $150 service beats a $3,000 rebuild when the fluid is the actual cause."
+      },
+      {
+        title: "Transfer Cases Diagnosed Here",
+        desc: "4WD not engaging or stuck in 4WD both point to the transfer case. We diagnose actuator motors, vacuum systems, and internal chain wear and service transfer case fluid — no separate shop required."
+      },
+      {
+        title: "Written Estimate Before Any Work",
+        desc: "Transmission repairs can range from a fluid service to a full rebuild. You'll know exactly what we found and what it costs before any work starts."
+      },
+      {
+        title: "In Business Since 1990",
+        desc: "We've diagnosed transmissions on every platform for 35 years. We know the patterns — which symptoms are fluid issues and which ones require teardown — and we tell you honestly which it is."
+      }
+    ],
+    processHeading: "How We Diagnose a Transmission Problem",
+    processIntro: "We road test first, read fault codes, and inspect fluid before recommending anything. Most transmission problems have a cheaper cause worth ruling out before any internal work is considered.",
+    process: [
+      {
+        step: 1,
+        title: "Describe the Symptoms",
+        desc: "Tell us when it slips, shudders, or hesitates — which gear, at what speed, under load or at light throttle. That pattern narrows the cause significantly before we start."
+      },
+      {
+        step: 2,
+        title: "Road Test & Fault Code Scan",
+        desc: "We drive the vehicle to confirm the symptom and pull all stored transmission fault codes and live data — solenoid duty cycles, line pressure data, torque converter slip speed."
+      },
+      {
+        step: 3,
+        title: "Fluid Inspection",
+        desc: "We check the ATF level, color, and smell. Dark or burnt fluid points to thermal damage. Metal particles in the fluid indicate internal wear. Fluid condition tells us a lot before we open anything."
+      },
+      {
+        step: 4,
+        title: "Root Cause Confirmation",
+        desc: "We confirm whether the issue is external (fluid, solenoid, sensor) or internal (clutch packs, valve body, torque converter) before recommending a repair path."
+      },
+      {
+        step: 5,
+        title: "Written Estimate & Repair",
+        desc: "You get a complete written estimate before any work begins. We start with the least invasive repair that addresses the confirmed cause."
+      }
+    ],
+    commonIssues: [
+      {
+        title: "Transmission Slipping",
+        desc: "Engine revs without matching acceleration, especially during upshifts or under load. Usually low or burnt ATF, worn clutch packs, or a failing solenoid.",
+        symptomSlug: "transmission-slipping"
+      },
+      {
+        title: "Delayed Engagement",
+        desc: "Long pause after shifting into Drive or Reverse before the car starts moving. Often points to low fluid pressure, a sticky solenoid, or worn clutch pack friction material.",
+        symptomSlug: "delayed-engagement"
+      },
+      {
+        title: "Transmission Shudder",
+        desc: "Shaking or vibration during acceleration — most often at 30–50 mph. Usually a torque converter clutch issue triggered by degraded ATF that's lost its friction modifiers.",
+        symptomSlug: "transmission-shudder"
+      },
+      {
+        title: "4WD Not Engaging or Stuck in 4WD",
+        desc: "Transfer case isn't locking the front axle into drive, or won't release. Usually the actuator motor, encoder motor, vacuum lines, or low transfer case fluid.",
+        symptomSlug: "four-wheel-drive-not-engaging"
+      },
+      {
+        title: "Grinding When Shifting (Manual Transmission)",
+        desc: "Grinding between gears in a manual transmission indicates worn synchronizers or a clutch hydraulic issue preventing full release.",
+        symptomSlug: "grinding-when-shifting"
+      }
+    ],
+    richContent: [
+      {
+        heading: "What Does Transmission Repair Actually Involve?",
+        paras: [
+          "Not every transmission problem is a rebuild. That's the most important thing to establish before any work begins — and it's why we always start with a road test and fluid inspection rather than a teardown quote.",
+          "<strong>Automatic transmission fluid (ATF)</strong> is the medium that transmits hydraulic pressure to apply clutch packs and bands. Old ATF loses its friction modifiers and its ability to build and hold pressure — slipping, shuddering, and delayed engagement are the results. A fluid service with the correct factory-spec fluid resolves many complaints without any internal work.",
+          "<strong>Solenoids</strong> are electrically controlled valves that route ATF pressure to the right clutch pack at the right moment. A failing solenoid can cause hard shifts, slipping in a specific gear, or delayed engagement — and a solenoid replacement is far less expensive than a rebuild.",
+          "<strong>Torque converter</strong> — the fluid coupling between engine and transmission. The torque converter clutch (TCC) locks up at highway speed for efficiency. When the TCC wears out or ATF degrades, it chatters instead of locking cleanly, producing the 30–50 mph shudder many drivers notice.",
+          "<strong>Transfer case</strong> — on 4WD and AWD vehicles, routes power between front and rear axles. Requires its own fluid service (separate from ATF) and has its own actuators and sensors. We diagnose 4WD engagement problems and service transfer cases alongside transmission work.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "ATF Fluid Service & Filter Replacement",
+          "Shift Solenoid Diagnosis & Replacement",
+          "Torque Converter Clutch Diagnosis",
+          "Valve Body Service",
+          "Transmission Rebuild & Overhaul",
+          "Transfer Case Fluid Service",
+          "Transfer Case Actuator / Encoder Motor Replacement",
+          "4WD Engagement System Diagnosis",
+          "Manual Transmission Synchronizer & Bearing Repair",
+          "Transmission Mount Replacement"
+        ],
+        listStyle: "tags"
+      },
+      {
+        heading: "When Should You Come In?",
+        paras: [
+          "Come in as soon as you notice slipping, shuddering, delayed engagement, or erratic shifting — these symptoms almost always worsen over time. An automatic transmission that slips and isn't serviced sheds friction material from the clutch packs into the fluid, which then accelerates wear throughout the unit. What starts as a $150 ATF service becomes a $2,500 rebuild if left long enough.",
+          "For 4WD vehicles, come in before winter if your 4WD hasn't been used in months — stuck actuators and degraded transfer case fluid are far easier to address before you need 4WD on a snowy canyon road. Transfer case fluid should be changed every 30,000–60,000 miles depending on the manufacturer and how often 4WD is engaged."
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "What's the difference between a transmission flush and a fluid drain-and-fill?",
+        a: "A drain-and-fill removes and replaces about 40–50% of the ATF through the pan drain plug. A flush forces new fluid through the entire system, including the torque converter. For transmissions with regular service history, a drain-and-fill is the safer choice — a flush can dislodge sediment in a neglected transmission and cause shifting issues. We assess fluid condition and history before recommending which approach is right for your vehicle."
+      },
+      {
+        q: "My transmission is slipping — does it need a rebuild?",
+        a: "Not necessarily. Slipping is often caused by low or degraded ATF that can't maintain hydraulic pressure — a fluid service resolves many cases. If the fluid looks and smells normal and slipping persists, we look at solenoids and the valve body next. We only recommend an internal rebuild when external causes have been ruled out."
+      },
+      {
+        q: "What does shuddering between 30 and 50 mph mean?",
+        a: "That specific speed range is where the torque converter clutch (TCC) locks up for highway efficiency. When it shudders there, the TCC is engaging roughly instead of smoothly — usually because the ATF has lost its friction modifier additives. Many shudder cases resolve completely with a fluid service using the correct factory-spec ATF."
+      },
+      {
+        q: "How often should I service my automatic transmission?",
+        a: "Most manufacturers recommend ATF service every 30,000–60,000 miles under normal use — but towing, mountain driving, and stop-and-go commuting shorten that interval. Utah's canyon grades and temperature extremes are harder on ATF than flat-highway driving. We check fluid condition at every visit and let you know where you stand."
+      },
+      {
+        q: "Do you service transfer cases?",
+        a: "Yes. Transfer case fluid should be changed every 30,000–60,000 miles depending on the vehicle and how often 4WD is used. We also diagnose 4WD engagement problems — actuator motors, encoder motors, vacuum systems, and internal chain wear — and service or replace the components we find."
+      },
+      {
+        q: "Can I drive with a slipping transmission?",
+        a: "Short distances to get to the shop, yes. Extended driving with a slipping automatic accelerates internal wear — each slip sheds friction material from the clutch packs into the fluid, compounding the damage. If the transmission is slipping badly enough that the vehicle is underpowered or surging, don't drive it."
+      },
+      {
+        q: "Is there a warranty on the repair?",
+        a: "Yes. Every repair we perform is backed by a 2-year parts and labor warranty. If something we fixed gives you trouble within two years, bring it back and we make it right at no charge."
+      },
+      {
+        q: "How does your pricing compare to dealers and chain shops?",
+        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+      },
+      {
+        q: "Do you offer towing if my vehicle can't be driven?",
+        a: "Yes. If your repair totals over $1,000, we cover the tow to our shop. A transmission that won't move the car shouldn't cost you extra to get here. Call us and we'll arrange it."
+      }
+    ],
+    whoContent: {
+      heading: "Who to Trust for Transmission Repair in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been working on transmissions in South Salt Lake since 1990. We approach every transmission job the same way — road test first, fluid inspection second, fault codes third. We rule out the cheaper fixes before recommending anything more involved, and we explain exactly what we found before asking you to approve any work.",
+        "Transmission repairs range from a fluid service to a full rebuild, and we'll tell you honestly which your vehicle needs and why. If it's a fluid service, that's what you'll get. If it genuinely needs an internal rebuild, we'll explain what failed and why, and give you a written estimate before anything is disassembled."
+      ]
+    },
+    statsTable: [
+      {
+        label: "Typical Turnaround",
+        value: "ATF service same day; solenoid/sensor repairs 1–2 days; rebuilds 3–5 days"
+      },
+      {
+        label: "Free Diagnosis",
+        value: "Yes — road test, fault code scan, and fluid inspection before any recommendation"
+      },
+      {
+        label: "Transfer Case Service",
+        value: "Yes — fluid service, actuator diagnosis, 4WD engagement repair for all 4WD/AWD vehicles"
+      },
+      {
+        label: "Most Common Causes",
+        value: "Degraded ATF, worn solenoids, torque converter clutch failure, worn clutch packs"
+      },
+      {
+        label: "Vehicles Served",
+        value: "All makes and models — domestic, import, trucks, SUVs, 4WD/AWD"
+      },
+      {
+        label: "Warranty",
+        value: "2-year parts & labor on every repair"
+      },
+      {
+        label: "Free Towing",
+        value: "Included on repairs over $1,000 — we cover the tow to our shop"
+      }
+    ],
+    hasGeoPages: true,
+    relatedSlugs: [
+      "clutch-repair-near-south-salt-lake-ut",
+      "complete-auto-service-near-south-salt-lake-ut",
+      "cv-joint-repair-near-south-salt-lake-ut"
+    ]
   }
 ];
 
