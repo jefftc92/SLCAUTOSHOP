@@ -1845,6 +1845,127 @@ const CONTENT = {
         metaDesc: 'Lift & leveling kit installation for Midvale trucks — 5 miles, 8 min. Cottonwood Canyon access. Written estimate. Scott\'s Auto. (801) 485-4089.'
       }
     }
+  },
+
+  'check-engine-light-engine-repair': {
+    serviceName: 'Check Engine Light & Engine Repair',
+    serviceFullName: 'Check Engine Light Diagnosis & Engine Repair',
+    mainSlug: 'check-engine-light-engine-repair-near-south-salt-lake-ut',
+    hasLocalContext: true,
+    cities: {
+      'sugar-house': {
+        intro: 'Sugar House commuters on 1300 East and the I-80 ramp corridor accumulate enough annual miles that a check engine light often masks a condition that\'s been building for months. We\'re 3 miles south — about 5 minutes down Highland Drive.',
+        localContent: 'Sugar House\'s stop-and-go on 2100 South and the I-80 on-ramp grade at 1300 East both stress fuel and emissions systems. Repeated short trips from the neighborhood prevent the engine from fully warming up, accelerating carbon buildup on intake valves and leading to misfires and EGR issues that trigger check engine lights. Utah\'s 4,200-foot valley elevation also affects O2 sensor feedback and fuel trim targets, which can produce false-lean codes on otherwise healthy engines.',
+        localTip: 'If your check engine light came on after a winter of short Sugar House trips, bring it in before clearing the code yourself — the stored freeze-frame data shows exactly what conditions triggered it, and that context is often the key to a correct diagnosis.',
+        metaTitle: 'Check Engine Light Near Sugar House UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Sugar House drivers. We read the code and find the real cause. 3 miles south, 5 min. Scott\'s Auto & Clutch Repair. (801) 485-4089.'
+      },
+      'millcreek': {
+        intro: 'Millcreek drivers running canyon routes and valley commutes cover enough mixed-terrain miles that EVAP and O2 sensor codes are a regular occurrence. We\'re 3 miles west — about 7 minutes on 3300 South.',
+        localContent: 'Millcreek\'s proximity to Big Cottonwood Canyon means many residents run their engines through wide temperature swings daily — cold canyon mornings followed by warm valley afternoons stress EVAP system components and cause fuel cap seal failures that trigger EVAP leak codes. The 3300 South and 3900 South stop-and-go also creates the sustained low-speed, high-load conditions that accelerate catalytic converter degradation. Utah\'s dry climate and altitude amplify EVAP and fuel trim issues year-round.',
+        localTip: 'If your check engine light is on but the car drives normally, don\'t assume it\'s minor — an EVAP leak code on a Millcreek vehicle often points to a cracked charcoal canister or purge valve that won\'t clear itself. Bring it in for a free diagnosis before your next emissions test.',
+        metaTitle: 'Check Engine Light Near Millcreek UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Millcreek drivers. EVAP leaks, O2 sensors, misfires — we find the real cause. 3 miles, 7 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'murray': {
+        intro: 'Murray\'s State Street commuters cover enough annual miles that a check engine light is rarely the first sign of trouble. We\'re 4 miles north — about 8 minutes on State Street.',
+        localContent: 'State Street through Murray is one of the most signal-dense corridors in the valley, and the constant deceleration-acceleration cycle puts catalytic converters under sustained thermal stress. Murray\'s high-mileage commuter culture also means O2 sensor degradation is among the most common check engine causes we see from this zip code — a failing upstream O2 sensor triggers a P0141 or P0135 code and causes the engine to run rich, which shortens catalytic converter life. The Intermountain Medical Center area generates dense stop-and-go that compounds these issues.',
+        localTip: 'If your check engine light returned after a Murray quick-lube shop cleared the code, the underlying cause is still there — clearing a code without repairing the cause brings the light back within one to three drive cycles. We diagnose the actual cause, not just the code.',
+        metaTitle: 'Check Engine Light Near Murray UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Murray drivers. We find the real cause, not just the code. 4 miles north on State Street, 8 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'salt-lake-city': {
+        intro: 'Salt Lake City drivers navigating Avenues grades and downtown stop-and-go see check engine lights spanning altitude-affected fuel trim codes to catalytic converter theft aftermath. We\'re 4 miles south — about 10 minutes on Highland Drive or State Street.',
+        localContent: 'Downtown SLC\'s grid and the University of Utah campus create prolonged idle conditions that prevent catalytic converters from reaching full operating temperature, accelerating their degradation over time. The Avenues\' steep grades stress engine mounts and intake components in ways flat-terrain driving doesn\'t, and altitude-related lean conditions at 4,400 feet can push fuel trim values close to the threshold for a P0171 system-lean code even on well-maintained engines. Catalytic converter theft is also a documented problem in urban SLC — if your check engine light appeared overnight, check underneath first.',
+        localTip: 'If you park on the street in Capitol Hill or the Avenues and a check engine light appeared overnight with a sudden exhaust noise, catalytic converter theft is a real possibility — call us before driving further, as running without a cat can damage O2 sensors downstream.',
+        metaTitle: 'Check Engine Light Near Salt Lake City UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for SLC drivers. Altitude codes, cat theft, O2 sensors. 4 miles, 10 min. Scott\'s Auto & Clutch Repair. (801) 485-4089.'
+      },
+      'taylorsville': {
+        intro: 'Taylorsville\'s arterial-heavy driving puts O2 sensors and catalytic converters through heat-and-cold cycles that surface as check engine codes over time. We\'re 5 miles east — about 10 minutes on 4700 South.',
+        localContent: 'Taylorsville\'s mix of wide arterials and I-215 freeway access means most residents alternate between sustained highway driving and abrupt full stops — a thermal cycle that stresses catalytic converter substrates and causes early cracking. The 4700 South and Redwood Road corridors also attract catalytic converter theft targeting higher-clearance trucks and SUVs. Utah\'s altitude at 4,200–4,400 feet affects fuel trim baselines, and vehicles past 30,000 miles on their last air filter or spark plug service often produce misfire codes (P0300–P0304) on higher-elevation drives.',
+        localTip: 'If your check engine light came on after a cold snap in Taylorsville, an EVAP small-leak code is common — temperature swings cause fuel vapor pressure changes that trip the EVAP monitor. A free diagnosis confirms whether it\'s a sensor, purge valve, or seal.',
+        metaTitle: 'Check Engine Light Near Taylorsville UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Taylorsville drivers. O2 sensors, cat converters, EVAP leaks. 5 miles east, 10 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'west-valley-city': {
+        intro: 'West Valley City\'s high-volume commercial corridors and freeway access create the kind of mixed driving that accelerates catalytic converter wear and surfaces fuel system codes. We\'re 7 miles east — about 12 minutes via I-215 or 3500 South.',
+        localContent: 'West Valley City\'s 3500 South commercial traffic generates sustained low-speed engine loads that prevent catalytic converters from fully regenerating between trips. Catalytic converter theft is an active problem in West Valley\'s busier parking areas, and the USANA Amphitheatre event lots have seen targeted theft on trucks and SUVs with high ground clearance. At 4,300 feet elevation, West Valley vehicles frequently produce O2 sensor or fuel trim codes that an altitude-unaware shop might not immediately recognize as elevation-influenced.',
+        localTip: 'If your check engine light came on after parking in a West Valley City commercial lot overnight, check for exhaust noise before starting — catalytic converter theft often leaves no visible sign from the driver\'s seat until the engine is running.',
+        metaTitle: 'Check Engine Light Near West Valley City UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for West Valley City drivers. Cat theft, O2 sensors, EVAP leaks. 7 miles east, 12 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'holladay': {
+        intro: 'Holladay drivers running daily canyon routes and valley commutes encounter check engine codes tied directly to temperature swings and high-altitude fuel trim behavior. We\'re 5 miles north — about 9 minutes straight up Highland Drive.',
+        localContent: 'Holladay sits at 4,500–4,800 feet and many residents descend several hundred feet into the valley daily — the engine management system constantly adjusts fuel trim and EGR rates across this elevation change, and sensors operating at the edge of their range produce intermittent codes that are hard to catch without live data. The Fort Union Boulevard corridor adds sustained deceleration loads on catalytic converters. EVAP small-leak codes are particularly common in Holladay due to the altitude-driven pressure differentials that stress fuel cap seals and canister lines.',
+        localTip: 'If your check engine light in Holladay is intermittent — on for a few days, then off — don\'t wait for it to return. Intermittent codes carry stored freeze-frame data that disappears after several drive cycles, and that data is often critical to an accurate diagnosis.',
+        metaTitle: 'Check Engine Light Near Holladay UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Holladay drivers. Altitude fuel trim, EVAP leaks, O2 sensors. 5 miles north, 9 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'cottonwood-heights': {
+        intro: 'Cottonwood Heights drivers navigating canyon grades and cold-start conditions at 4,800 feet see check engine codes that altitude and temperature produce reliably. We\'re 6 miles north — about 10 minutes on Highland Drive.',
+        localContent: 'Cottonwood Heights sits at some of the highest residential elevations in the valley, and vehicles driven daily to Big Cottonwood or Little Cottonwood Canyon regularly experience cold-start misfires and O2 sensor response delays that trigger codes at altitude. The sustained engine loads on canyon climbs accelerate EGR valve carbon buildup, a common source of P0401 insufficient EGR flow codes we see from canyon-adjacent zip codes. EVAP system leak codes are also common at these elevations, where fuel vapor pressure changes more dramatically with temperature than it does at the valley floor.',
+        localTip: 'If your check engine light comes on during or right after a canyon run, note whether there was hesitation, rough idle, or power loss — that context helps distinguish between an O2 sensor, an EGR issue, or a misfire before we even pull the code.',
+        metaTitle: 'Check Engine Light Near Cottonwood Heights UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Cottonwood Heights drivers. Canyon codes, EGR, O2 issues. 6 miles north, 10 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'sandy': {
+        intro: 'Sandy commuters running I-15 north daily accumulate the mileage where O2 sensors, catalytic converters, and EVAP components start producing codes in a predictable sequence. We\'re 8 miles north — about 12 minutes on I-15.',
+        localContent: 'Sandy\'s freeway commuter culture means high annual mileage on engines that spend most of their time at sustained highway load — the exact condition where aging O2 sensors begin to respond slowly and trigger P0136 or P0141 codes. Sandy\'s eastern foothill neighborhoods near Bell Canyon operate at elevations where EVAP pressure differentials routinely trip small-leak codes, particularly in spring and fall. Catalytic converter theft is also documented in Sandy\'s commercial parking areas along State Street and 10600 South.',
+        localTip: 'If your Sandy commute has you on I-15 daily and your check engine light just came on past 90,000 miles, an upstream O2 sensor is one of the most common causes at that mileage — ignoring it long-term causes the engine to run rich and shortens the catalytic converter\'s life.',
+        metaTitle: 'Check Engine Light Near Sandy UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Sandy drivers. O2 sensors, catalytic converters, EVAP leaks. 8 miles north on I-15, 12 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'draper': {
+        intro: 'Draper\'s long I-15 commute and Point of the Mountain elevation changes create check engine conditions that accumulate steadily on high-mileage vehicles. We\'re 12 miles north — about 15 minutes on I-15.',
+        localContent: 'Draper commuters crossing the Point of the Mountain daily subject their engines to a sustained grade that increases fuel demand and stresses O2 sensor feedback loops — over time, a direct contributor to upstream O2 sensor wear that triggers lean or rich mixture codes. SunCrest\'s hillside neighborhoods above 5,000 feet operate at the upper edge of the valley\'s altitude range, where factory fuel trim calibrations can push a P0171 lean code even on a well-maintained engine. EVAP monitors also cycle differently at SunCrest elevations, producing leak codes that are altitude-specific rather than actual component failures.',
+        localTip: 'Draper check engine lights that appear after the Point of the Mountain descent and clear on their own are often altitude-related fuel trim events — but an identical code can also indicate a real O2 sensor or purge valve failure that won\'t self-resolve. A free diagnosis tells you which it is.',
+        metaTitle: 'Check Engine Light Near Draper UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Draper drivers. Point of the Mountain altitude codes, O2, EVAP. 12 miles north, 15 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'west-jordan': {
+        intro: 'West Jordan drivers covering Mountain View Corridor and subdivision miles see check engine codes spanning catalytic converter theft to altitude-driven EVAP flags. We\'re 8 miles northeast — about 12 minutes via Redwood Road or I-15.',
+        localContent: 'Mountain View Corridor\'s high-speed stop-and-go pattern is hard on catalytic converters — sustained highway loads followed by full stops prevent the converter from maintaining the 800–900°F operating temperature where it self-cleans most efficiently. Catalytic converter theft is an active issue on West Jordan\'s higher-clearance trucks and SUVs, particularly in commercial and park-and-ride areas. West Jordan\'s ongoing development also means more vehicles in short-trip patterns on unpaved-to-paved transitions, leading to intake contamination and misfire codes we see frequently from this area.',
+        localTip: 'If your West Jordan check engine light is paired with a rattling sound from underneath — especially on cold start — a failing or stolen catalytic converter is the likely cause. Don\'t drive extended distances until it\'s diagnosed.',
+        metaTitle: 'Check Engine Light Near West Jordan UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for West Jordan drivers. Cat theft, O2 sensors, misfires. 8 miles northeast, 12 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'south-jordan': {
+        intro: 'South Jordan drivers covering Bangerter Highway and long I-15 commutes build mileage fast enough that O2 sensor and catalytic converter codes arrive sooner than many expect. We\'re 10 miles north — about 14 minutes on I-15.',
+        localContent: 'Bangerter Highway\'s grade-separated exits put catalytic converters through repeated heat-up and rapid cool-down cycles as drivers exit and stop — a pattern that accelerates substrate cracking over time. South Jordan\'s Daybreak area uses a roundabout-heavy layout that keeps engines in constant low-speed load, contributing to carbon buildup on intake valves and EGR passages that surfaces as hesitation and misfire codes. At 4,400 feet, South Jordan vehicles also produce EVAP small-leak codes tied to Utah\'s dry climate and diurnal temperature swings.',
+        localTip: 'If your check engine light appeared in South Jordan alongside hesitation during Bangerter Highway acceleration, a misfire or EGR flow issue is the likely cause — both worsen under load and need a full diagnosis, not just a code read, to resolve correctly.',
+        metaTitle: 'Check Engine Light Near South Jordan UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for South Jordan drivers. EGR, O2 sensors, EVAP, misfires. 10 miles north, 14 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'riverton': {
+        intro: 'Riverton commuters putting 15,000+ miles a year on Bangerter and I-15 runs see check engine codes that compound over high mileage in predictable ways. We\'re 12 miles northeast — about 16 minutes, mostly freeway.',
+        localContent: 'Riverton\'s position at the valley\'s southwest edge means long daily commutes that accumulate mileage fast — and with mileage come the O2 sensor degradation, catalytic converter wear, and EVAP system failures that produce codes at 80,000–120,000 miles. Bangerter Highway\'s sustained high-speed driving keeps exhaust temperatures elevated for extended periods, shortening catalytic converter life on vehicles that run rich from a failing upstream O2 sensor. Utah\'s dry climate and Riverton\'s location near the Jordan River flood plain also create seasonal humidity swings that stress EVAP charcoal canisters and purge valves.',
+        localTip: 'If your Riverton vehicle has over 100,000 miles and this is the first check engine light, get it diagnosed promptly — high-mileage codes often point to O2 sensor or EGR issues that, if deferred, lead to catalytic converter damage and a significantly higher repair bill.',
+        metaTitle: 'Check Engine Light Near Riverton UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Riverton drivers. High-mileage O2, cat, and EVAP codes. 12 miles northeast, 16 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'herriman': {
+        intro: 'Herriman\'s hillside terrain and long valley commutes create check engine conditions driven by altitude, high mileage, and sustained engine loads on the Oquirrh Mountain grade. We\'re 15 miles northeast — about 20 minutes on Mountain View Corridor and I-15.',
+        localContent: 'Herriman sits at 4,800 to 5,200 feet in its hillside neighborhoods — where O2 sensor feedback and fuel trim operate near the edge of their calibrated range. The daily descent to the valley floor and back creates wide temperature and elevation swings that stress EVAP system seals and trigger small-leak codes easily mistaken for simple gas cap issues. Mountain View Corridor\'s sustained high-speed running also subjects catalytic converters to the same heat-cycle stress seen on Bangerter Highway vehicles, accelerating substrate degradation on high-mileage engines.',
+        localTip: 'Herriman drivers at the higher hillside elevations should note that emissions test stations in the valley are at lower altitude — a check engine light that\'s intermittent at home may be steady at the testing station, because the engine\'s fuel management behaves differently at lower elevation.',
+        metaTitle: 'Check Engine Light Near Herriman UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Herriman drivers. High-altitude O2 codes, EVAP leaks, cat wear. 15 miles northeast, 20 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'kearns': {
+        intro: 'Kearns drivers running 5400 South daily and short residential trips accumulate check engine conditions through stop-and-go carbon buildup and high-volume mileage. We\'re 7 miles east — about 12 minutes on 5400 South.',
+        localContent: 'Kearns\' dense residential layout produces a high number of short trips — many drivers cover 5 miles or less per trip, meaning the engine never fully reaches operating temperature and the catalytic converter never completes a full warm-up cycle. This short-trip pattern is the primary driver of intake valve carbon buildup, EGR passage fouling, and misfires (P0300–P0304) in Kearns vehicles. The 5400 South commercial corridor adds stop-and-go that compounds the issue, and Utah\'s altitude at 4,200 feet means the engine\'s fuel trim is already working harder than at sea level.',
+        localTip: 'If you make mostly short trips in Kearns, a sustained 20-minute highway run once a week — 5400 South east to I-15 and back — allows the catalytic converter to reach full operating temperature and self-clean, which can reduce the frequency of misfire and EGR codes over time.',
+        metaTitle: 'Check Engine Light Near Kearns UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Kearns drivers. Short-trip carbon buildup, misfires, EGR codes. 7 miles east, 12 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'midvale': {
+        intro: 'Midvale\'s State Street corridor and I-15/I-215 interchange traffic create the sustained stop-and-go that surfaces check engine codes on catalytic converters, O2 sensors, and EVAP systems. We\'re 5 miles north — about 8 minutes straight up State Street.',
+        localContent: 'Midvale\'s 7200 South commercial strip is one of the heaviest stop-and-go corridors in the south valley, and the sustained low-speed loads it creates are among the most damaging driving patterns for catalytic converters. The I-15/I-215 interchange near Midvale exposes vehicles to high-speed merge events followed by abrupt stops — thermal cycling that accelerates O2 sensor degradation over time. Catalytic converter theft is documented in Midvale\'s busier commercial and transit-adjacent lots, and at 4,300 feet, EVAP and fuel trim codes are common throughout the area.',
+        localTip: 'If a parts store told you your Midvale vehicle needs a catalytic converter based on a P0420 code, get a full diagnosis first — a failing upstream O2 sensor can produce a converter-efficiency code even when the converter itself is fine, and replacing the cat without fixing the O2 sensor brings the light back within weeks.',
+        metaTitle: 'Check Engine Light Near Midvale UT | Scott\'s Auto',
+        metaDesc: 'Free check engine diagnosis for Midvale drivers. Cat codes, O2 sensors, EVAP leaks. 5 miles north on State Street, 8 min. Scott\'s Auto. (801) 485-4089.'
+      }
+    }
   }
 
 };
@@ -1865,6 +1986,7 @@ const TITLE_TEMPLATES = {
   'complete-auto-service':        "Complete Auto Service Near {{CITY}} UT | Scott's",
   'head-gasket-repair':           "Head Gasket Repair Near {{CITY}} UT | Scott's Auto",
   'lift-leveling-kit-installation': "Lift & Leveling Kit Near {{CITY}} UT | Scott's Auto",
+  'check-engine-light-engine-repair': "Check Engine Light Near {{CITY}} UT | Scott's Auto",
 };
 
 // Trim descriptions over 160 chars: shorten brand name first, then truncate.
