@@ -1966,6 +1966,111 @@ const CONTENT = {
         metaDesc: 'Free check engine diagnosis for Midvale drivers. Cat codes, O2 sensors, EVAP leaks. 5 miles north on State Street, 8 min. Scott\'s Auto. (801) 485-4089.'
       }
     }
+  },
+
+  'transmission-repair': {
+    serviceName: 'Transmission Repair',
+    serviceFullName: 'Transmission Repair & Service',
+    mainSlug: 'transmission-repair-near-south-salt-lake-ut',
+    hasLocalContext: true,
+    cities: {
+      'sugar-house': {
+        intro: 'Sugar House\'s hilly streets and the daily 1300 East grade put automatic transmissions under more load than flat-valley driving. We\'re 3 miles south — about 5 minutes down Highland Drive.',
+        localContent: 'The 1300 East corridor drops steeply from the Sugar House business district toward South Salt Lake, and repeated downhill engine-braking and hill-start acceleration cycles cause ATF to break down faster than flat-valley driving. Vehicles that tow trailers to the Wasatch mountains via the I-80 corridor — common for Sugar House residents with canyon cabins or ski gear — add torque-converter strain that shows up as shudder and delayed engagement over time.',
+        localTip: 'If your transmission hesitates before engaging in the morning on Sugar House\'s cold-start hill starts, that brief delay before drive engages is worth having checked — it often indicates low or degraded ATF before anything internal wears.',
+        metaDesc: 'Transmission repair for Sugar House drivers. Slipping, shudder, delayed engagement. 3 miles south on Highland Drive. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'millcreek': {
+        intro: 'Millcreek\'s canyon proximity and steep residential grades put extra load on automatic transmissions and transfer cases year-round. We\'re 3 miles away — about 7 minutes on 3300 South.',
+        localContent: 'Millcreek residents who ski Big or Little Cottonwood regularly use their 4WD and AWD systems in real conditions — not just parking-lot tests. Transfer case actuators and differential fluids that go unserviced through multiple ski seasons degrade at a pace that surprises drivers when the system finally stops engaging. The 3300 South stop-and-go combined with canyon grades creates the kind of high-torque, high-heat cycling that accelerates torque converter wear.',
+        localTip: 'If your 4WD hasn\'t been tested since last winter, run it through a full engage/disengage cycle before snow season. Actuator motors that sit unused through summer often stick — catching it early is a minor service, not a major repair.',
+        metaDesc: 'Transmission & transfer case repair for Millcreek drivers near Big Cottonwood Canyon. Free diagnosis. 3 miles away, 7 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'murray': {
+        intro: 'Murray\'s State Street stop-and-go is one of the hardest daily driving patterns on automatic transmissions in the valley. We\'re 4 miles north — about 8 minutes straight up State Street.',
+        localContent: 'Frequent full-stop cycles on State Street keep automatic transmissions cycling between park, drive, and low at higher temperatures than freeway or light residential driving. Transmission fluid that\'s never been serviced on a high-mileage Murray commuter vehicle is often the root cause of delayed engagement, shudder, and early solenoid failure. Murray drivers who tow trailers to Utah Lake or haul equipment through the commercial corridor add additional torque demands on top of an already-stressed fluid condition.',
+        localTip: 'If your Murray vehicle has over 80,000 miles and the transmission fluid has never been changed, a drain-and-fill service is low cost relative to the damage that degraded ATF causes to solenoids and clutch pack friction material.',
+        metaDesc: 'Transmission repair for Murray drivers on State Street. Slipping, shudder, delayed engagement. 4 miles north, 8 min. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'salt-lake-city': {
+        intro: 'The Avenues\' steep grades and downtown\'s dense stop-and-go create specific transmission demands that flat-valley driving doesn\'t. We\'re 4 miles south — about 10 minutes on Highland Drive or State Street.',
+        localContent: 'Salt Lake City\'s Avenues put hill-start torque demands on automatic transmissions every morning and evening. Vehicles parked on Virginia Street or 11th Avenue grades cycle the transmission between park and drive repeatedly through the day, wearing transmission range sensor contacts and valve body components over time. University of Utah campus stop-and-go and downtown grid driving keep ATF temperature elevated, accelerating fluid oxidation in vehicles that haven\'t had a fluid service.',
+        localTip: 'If your SLC vehicle struggles to hold position on an Avenues grade before engaging drive — a brief rollback before the transmission catches — have the transmission range sensor and low-speed clutch pack inspected. It\'s a common early symptom on high-mileage vehicles.',
+        metaDesc: 'Transmission repair for Salt Lake City drivers. Avenues hill starts, downtown stop-and-go. Free diagnosis. 4 miles south, 10 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'taylorsville': {
+        intro: 'Taylorsville\'s I-215 on-ramps and 4700 South corridor create the high-speed, high-load shifts that stress torque converters and transmission solenoids over time. We\'re 5 miles east — about 10 minutes.',
+        localContent: 'I-215 entrance ramps require full-throttle upshifts from second through fifth gear in quick succession — a demanding load sequence that causes torque converter lockup clutches to wear faster than stop-and-go driving. Taylorsville drivers who tow boats to Utah Lake or haul trailers through the 4700 South commercial corridor add additional heat cycles to ATF that is already stressed by freeway driving. Delayed engagement on a cold morning after a weekend tow trip is often the first sign.',
+        localTip: 'After any towing trip, check your transmission fluid level and color. Fluid that smells burnt or looks dark after towing means it was pushed past its thermal limit — a drain-and-fill at that point can prevent solenoid and clutch pack damage.',
+        metaDesc: 'Transmission repair for Taylorsville drivers near I-215. Torque converter, solenoid, ATF service. 5 miles east, 10 min. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'west-valley-city': {
+        intro: 'West Valley City\'s heavy commercial traffic and event congestion create stop-and-go heat cycles that wear out transmission fluid faster than most drivers expect. We\'re 7 miles east — about 12 minutes via I-215.',
+        localContent: 'West Valley\'s 3500 South commercial corridor generates sustained low-speed loads on automatic transmissions throughout the day. USANA Amphitheatre event traffic creates sudden high-density congestion that forces repeated downshift-upshift sequences at elevated temperatures. West Valley also has a high proportion of trucks and commercial vehicles doing daily hauling, and towing or payload demands compound ATF degradation in vehicles that are already due for a fluid service.',
+        localTip: 'If your West Valley truck or SUV shudders lightly when accelerating from a stop — almost like a brief hesitation — check ATF condition first. Degraded fluid and a contaminated torque converter can both produce this symptom, and a fluid service rules one cause out before any internal inspection.',
+        metaDesc: 'Transmission repair for West Valley City drivers. Slipping, shudder, ATF service. 7 miles east via I-215, 12 min. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'holladay': {
+        intro: 'Holladay\'s Big Cottonwood Canyon access and daily Highland Drive grade put consistent high-torque demands on automatic transmissions and AWD systems. We\'re 5 miles north — about 9 minutes.',
+        localContent: 'Holladay residents who ski Brighton or Solitude regularly engage their 4WD and AWD systems on the canyon approach. Transfer case fluid that goes unserviced through multiple ski seasons degrades and loses its protective film, accelerating chain and gear wear. Highland Drive\'s long downhill grade into Holladay keeps torque converter lockup clutches active for sustained periods, and the thermal load compounds if ATF is already past its service life.',
+        localTip: 'Before ski season, have your 4WD or AWD system road-tested and the transfer case fluid checked. A stuck actuator or low transfer case fluid caught in October is a minor service — the same problem caught after you get stuck in 4WD in January is a much more involved repair.',
+        metaDesc: 'Transmission & transfer case repair for Holladay drivers near Big Cottonwood Canyon. Free diagnosis. 5 miles north, 9 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'cottonwood-heights': {
+        intro: 'Cottonwood Heights is 4WD and AWD country — Little Cottonwood Canyon\'s grade puts more demand on transfer cases and drivetrain components than almost any other commute in the valley. We\'re 6 miles north — about 10 minutes.',
+        localContent: 'Cottonwood Heights residents deal with canyon traction restrictions regularly, meaning 4WD systems that are supposed to work on demand must actually deliver. Transfer case actuators and encoder motors that haven\'t been serviced fail exactly when they\'re needed — at the canyon entrance in January. The Little Cottonwood grade combined with loaded ski vehicles creates sustained high-torque demands that also stress torque converter lockup clutches and transmission solenoids.',
+        localTip: 'Traction restrictions at the Little Cottonwood Canyon entrance require a functional 4WD or AWD system to pass — not just a 4WD badge. Have your system tested before December so you\'re not stuck at the gate.',
+        metaDesc: 'Transmission & 4WD transfer case repair near Cottonwood Heights. Canyon traction prep, ATF service. Free diagnosis. 6 miles north, 10 min. Scott\'s Auto. (801) 485-4089.'
+      },
+      'sandy': {
+        intro: 'Sandy\'s I-15 freeway commutes and proximity to the canyon entrances mean transmission and transfer case systems work harder year-round than flat-valley driving alone. We\'re 8 miles north — about 12 minutes on I-15.',
+        localContent: 'Sandy is the staging point for much of the south valley\'s canyon traffic — residents frequently load up vehicles with ski gear, bikes, or camping equipment and head into the Wasatch. Towing a trailer or carrying heavy loads up canyon grades puts sustained high-torque demand on the torque converter and transmission solenoids. The I-15 ramp accelerations from Sandy into the valley add shift-cycle stress on top of weekend load demands.',
+        localTip: 'If your Sandy vehicle is used for weekend canyon trips or towing and the transmission hasn\'t been serviced in over 50,000 miles, a drain-and-fill before the next season is inexpensive insurance against solenoid and clutch pack damage.',
+        metaDesc: 'Transmission repair for Sandy drivers. Towing, canyon driving, ATF service, 4WD repair. 8 miles north on I-15, 12 min. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'draper': {
+        intro: 'Draper\'s Point of the Mountain grade is one of the steepest sustained climbs on I-15 — a real test for transmission cooling and torque converter durability. We\'re 12 miles north — about 15 minutes.',
+        localContent: 'The Point of the Mountain grade generates more heat per transmission cycle than almost any other regular commute in the valley. Draper commuters who drive it daily with a loaded vehicle or who tow trailers up and over the summit put significant thermal stress on ATF and torque converter lockup clutches. The descent is equally demanding on transmission braking — repeated engine braking cycles on a hot transmission accelerate valve body and solenoid wear. Draper is also a high-4WD-ownership area, and transfer case fluid services are commonly delayed beyond their service interval.',
+        localTip: 'If you tow over the Point of the Mountain regularly, consider shortening your ATF change interval. The heat generated on that grade is far above what flat-valley driving produces, and fluid that looks fine on the dipstick may be chemically degraded from thermal cycling.',
+        metaDesc: 'Transmission repair for Draper drivers. Point of the Mountain towing, ATF service, 4WD repair. 12 miles north, 15 min. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'west-jordan': {
+        intro: 'West Jordan\'s Mountain View Corridor and daily hauling traffic create the kind of high-torque demand that wears transmission fluid and solenoids faster than standard commuting. We\'re 8 miles northeast — about 12 minutes.',
+        localContent: 'Mountain View Corridor\'s high posted speeds require aggressive upshifts and hard downshifts that cycle the transmission more intensively than residential driving. West Jordan has a high proportion of trucks and SUVs used for hauling and weekend towing — to Utah Lake, to the mountains, or to job sites. Vehicles doing regular towing without ATF services build up sludge in the valve body that eventually causes delayed engagement, erratic shifts, and solenoid failure.',
+        localTip: 'If your West Jordan truck tows a boat, trailer, or equipment regularly, check ATF condition after every towing season. Fluid that smells slightly burnt or has darkened significantly should be drained and filled before it damages solenoids.',
+        metaDesc: 'Transmission repair for West Jordan drivers. Towing, solenoid repair, ATF service, 4WD. 8 miles northeast, 12 min. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'south-jordan': {
+        intro: 'South Jordan\'s I-15 commute and Daybreak\'s roundabout-heavy layout create specific transmission wear patterns from high-cycle daily driving. We\'re 10 miles north — about 14 minutes.',
+        localContent: 'Daybreak\'s roundabout grid means South Jordan residents go through more low-speed acceleration and deceleration cycles per commute than drivers in grid-street neighborhoods. Each acceleration from a roundabout exit puts a brief torque demand on the transmission, and these add up over thousands of commutes. I-15 merge accelerations from South Jordan into the valley require full-throttle upshifts that compound the low-speed roundabout cycle. Vehicles used for Bangerter Highway towing or weekend Wasatch trips add another layer of thermal demand.',
+        localTip: 'If your South Jordan vehicle has a slight shudder during light acceleration from roundabouts — not noticeable at higher speeds — have the torque converter clutch and ATF condition checked. This exact symptom often traces to degraded fluid or a TCC solenoid, both of which are addressed before any internal work.',
+        metaDesc: 'Transmission repair for South Jordan & Daybreak drivers. Shudder, slipping, ATF service. 10 miles north, 14 min. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'riverton': {
+        intro: 'Riverton\'s long I-15 commute and high proportion of trucks and SUVs means transmission and transfer case maintenance is more important here than in flat-valley communities. We\'re 12 miles north — about 16 minutes.',
+        localContent: 'Riverton drivers log significant daily freeway miles, and the long merge-and-cruise pattern on I-15 keeps the torque converter lockup clutch engaged for extended periods at highway temperature. Combined with weekend towing — to Jordanelle, to Strawberry, or to the Wasatch resorts — Riverton vehicles are among the harder-worked transmissions we see. Transfer case fluid services are commonly overdue on the trucks we see from Riverton, and a neglected transfer case is far more expensive to repair than to service.',
+        localTip: 'If your Riverton truck or SUV has been used for towing and is past 60,000 miles without an ATF service, schedule one before the next towing season. The cumulative thermal exposure from long tow trips shortens fluid life faster than the odometer suggests.',
+        metaDesc: 'Transmission repair for Riverton drivers. Towing, ATF service, transfer case, 4WD repair. 12 miles north, 16 min. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'herriman': {
+        intro: 'Herriman\'s steep hillside streets and long Wasatch-area commute mean transmissions and transfer cases work harder here than in flatter south valley communities. We\'re 15 miles north — about 20 minutes.',
+        localContent: 'Herriman\'s residential streets include some of the steepest grades in the south valley — daily hill starts put repeated high-torque demands on the transmission at low vehicle speed, which is the most thermally stressful shift condition for an automatic. Mountain View Corridor\'s high-speed commute adds sustained freeway loads on top of the hill-start cycles. Herriman also has a high truck and SUV ownership rate, and transfer case fluid is frequently past its service interval on the vehicles we see from this area.',
+        localTip: 'On Herriman\'s steepest grades, if you notice the transmission hunting between gears on the ascent — shifting down then back up repeatedly — have the transmission solenoids and ATF condition checked. This shift-hunting pattern often indicates a valve body or fluid issue rather than internal mechanical failure.',
+        metaDesc: 'Transmission repair for Herriman drivers. Hill starts, ATF service, transfer case, 4WD. 15 miles north, 20 min. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'kearns': {
+        intro: 'Kearns\' daily-driver culture and long State Street corridor commutes make routine transmission service more important than many drivers realize. We\'re 7 miles east — about 12 minutes.',
+        localContent: 'Kearns vehicles cover high daily mileage on a mix of surface streets and freeway — a combination that keeps ATF cycling between low-speed heat and sustained highway temperatures. Vehicles that do occasional towing or hauling on top of the daily commute push fluid past its thermal limit faster than the odometer alone suggests. Kearns has a high proportion of older, high-mileage vehicles, and delayed transmission maintenance on a 150,000-mile commuter car often leads to solenoid failure and valve body wear that could have been avoided.',
+        localTip: 'On high-mileage commuter vehicles, a drain-and-fill at 60,000–80,000 miles is far less expensive than the solenoid replacement or valve body work that follows years of degraded fluid. If yours is overdue, a fluid service is a low-cost way to extend transmission life significantly.',
+        metaDesc: 'Transmission repair for Kearns drivers. ATF service, solenoid repair, high-mileage diagnosis. 7 miles east, 12 min. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      },
+      'midvale': {
+        intro: 'Midvale\'s I-15/I-215 interchange and State Street stop-and-go create the kind of thermal cycling that degrades transmission fluid faster than freeway-only driving. We\'re 5 miles north — about 8 minutes straight up State Street.',
+        localContent: 'Midvale\'s interchange position means local drivers constantly mix freeway merges with stop-and-go — alternating between high-speed lockup-clutch engagement and low-speed shift cycling within the same commute. This combination is more demanding on ATF than either driving pattern alone. The I-15/I-215 junction is also one of the busiest in the south valley, and heavy congestion during peak hours keeps transmissions in repeated downshift-upshift sequences at elevated temperature.',
+        localTip: 'If your Midvale vehicle has over 60,000 miles and you primarily drive the I-15/I-215 corridor daily, consider a ATF drain-and-fill even if you haven\'t seen any symptoms yet. The interchange driving pattern accelerates fluid degradation, and solenoid failure on a symptom-free vehicle is always more expensive than a preventive fluid service.',
+        metaDesc: 'Transmission repair for Midvale drivers near I-15/I-215. ATF service, solenoid repair, shudder diagnosis. 5 miles north, 8 min. Free diagnosis. Scott\'s Auto. (801) 485-4089.'
+      }
+    }
   }
 
 };
@@ -1987,6 +2092,7 @@ const TITLE_TEMPLATES = {
   'head-gasket-repair':           "Head Gasket Repair Near {{CITY}} UT | Scott's Auto",
   'lift-leveling-kit-installation': "Lift & Leveling Kit Near {{CITY}} UT | Scott's Auto",
   'check-engine-light-engine-repair': "Check Engine Light Near {{CITY}} UT | Scott's Auto",
+  'transmission-repair':             "Transmission Repair Near {{CITY}} UT | Scott's Auto",
 };
 
 // Trim descriptions over 160 chars: shorten brand name first, then truncate.

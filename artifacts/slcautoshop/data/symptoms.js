@@ -1282,6 +1282,187 @@ const symptoms = [
       }
     ]
   }
+  ,
+  {
+    slug: 'delayed-engagement',
+    name: 'Transmission Delayed Engagement',
+    shortName: 'Delayed Engagement',
+    priority: 'High',
+    category: 'Transmission',
+    relatedService: 'transmission-repair-near-south-salt-lake-ut',
+    lastUpdated: 'May 2026', datePublished: '2024-01-01', dateModified: '2026-05-01',
+    tags: { safetyTier: 'important', progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: true, easilyConfused: true },
+    heroIntro: 'Scott\'s Auto & Clutch Repair has diagnosed delayed transmission engagement — that pause before the car moves after shifting into Drive or Reverse — in South Salt Lake since 1990.',
+    intro: 'Delayed engagement means the car sits for a second or more after you shift from Park into Drive or Reverse before it actually starts moving. A healthy automatic transmission should engage almost immediately. The delay usually means low fluid pressure, degraded ATF that can\'t build pressure quickly, worn clutch pack friction material, or a lazy shift solenoid — and caught early, it\'s often resolved without internal teardown.',
+    smsBody: 'Hi, my transmission has a delay when I shift into Drive.',
+    introImage: '', introImageAlt: '', introImageCaption: '',
+    causes: [
+      {
+        title: 'Low or Degraded Transmission Fluid',
+        desc: 'An automatic transmission relies on hydraulic pressure to clamp clutch packs into gear. Low fluid means inadequate pressure at startup, so the clutch packs take longer to apply. Degraded ATF that has lost its viscosity characteristics can\'t build pressure quickly even at the correct level — the result is the same hesitation.',
+        diagnosticSignal: 'Delay is consistent every shift into Drive or Reverse, not just when cold. Fluid on the dipstick is dark brown or smells burnt rather than translucent red. Common above 60,000 miles without a fluid service.'
+      },
+      {
+        title: 'Worn Clutch Pack Friction Material',
+        desc: 'The clutch packs inside the transmission apply hydraulic pressure to engage each gear. As the friction material wears thin, there\'s less surface area for the pressure to act on — the pack needs more pressure, or more time at lower pressure, before it can hold the load of moving the vehicle.',
+        diagnosticSignal: 'Delay worsens gradually over months. More noticeable when warm or after the transmission has been heat-soaked. Often accompanied by a soft engagement feel — the car doesn\'t jolt into gear, it sort of eases in slowly.'
+      },
+      {
+        title: 'Faulty Shift Solenoid',
+        desc: 'Shift solenoids are electrically controlled valves that direct ATF to the correct clutch pack on command from the transmission control module. A lazy or sticking solenoid delays the hydraulic signal to the apply clutch — the module commands engagement, but the clutch pack doesn\'t receive pressure immediately.',
+        diagnosticSignal: 'May trigger a transmission fault code (P0750–P0760 range). Delay may be intermittent rather than consistent every shift. Often more pronounced when the fluid is cold, then improves as the transmission warms up.'
+      },
+      {
+        title: 'Worn Valve Body',
+        desc: 'The valve body is the hydraulic control center of the automatic transmission — a maze of passages, check balls, and spring-loaded valves that route ATF pressure. Wear in the valve body allows fluid to bypass passages meant to hold pressure, so the system takes longer to build the pressure needed to engage the clutch pack.',
+        diagnosticSignal: 'Usually appears on higher-mileage vehicles (100,000+ miles). Delay is present across multiple gear ranges, not just Park-to-Drive. Often accompanied by soft shifts at other points in the gear range.'
+      }
+    ],
+    richContent: [
+      {
+        heading: 'Is My Transmission Delayed Engaging?',
+        paras: [
+          'Put the car in Drive and let off the brake without pressing the accelerator. If it hesitates, rolls forward slowly without pulling, or sits still for more than a half second before engaging, that\'s delayed engagement.',
+          'A small cold-start delay of a fraction of a second is normal on many vehicles in very cold weather — ATF thickens below freezing and takes a moment to circulate. A delay that persists after the engine has warmed up, or a delay that lasts multiple seconds, is not normal and needs diagnosis.'
+        ]
+      },
+      {
+        heading: 'When Should You Come In?',
+        paras: [
+          'Come in before the delay gets worse. Delayed engagement almost always deteriorates — what starts as a one-second hesitation becomes two seconds, then three, then the car eventually slams into gear as the transmission overcompensates with pressure. That slam is hard on every component the clutch pack engages.',
+          'If the fluid is the cause, a service resolves it and costs very little. If clutch packs are worn, catching it before the friction material is completely gone prevents secondary damage to the apply piston and drum. Either way, diagnosing early is cheaper than letting it progress.'
+        ]
+      },
+      {
+        heading: 'Who to Trust for Delayed Engagement Diagnosis in Salt Lake City',
+        paras: [
+          'We road test first to confirm the symptom and its pattern, then check ATF level and condition, pull fault codes, and review live transmission data before recommending any repair. Most delayed engagement cases start with a fluid inspection — if the fluid is the issue, that\'s the repair. If it\'s a solenoid or clutch pack, we tell you what we found before anything is disassembled.',
+          'Scott\'s Auto & Clutch Repair has been working on automatic transmissions in South Salt Lake since 1990. We don\'t recommend a rebuild without ruling out the cheaper causes first.'
+        ],
+        inlineCta: true
+      }
+    ]
+  },
+  {
+    slug: 'transmission-shudder',
+    name: 'Transmission Shudder',
+    shortName: 'Transmission Shudder',
+    priority: 'High',
+    category: 'Transmission',
+    relatedService: 'transmission-repair-near-south-salt-lake-ut',
+    lastUpdated: 'May 2026', datePublished: '2024-01-01', dateModified: '2026-05-01',
+    tags: { safetyTier: 'important', progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: true, easilyConfused: true },
+    heroIntro: 'Scott\'s Auto & Clutch Repair has diagnosed transmission shudder — that shaking, vibrating feeling during acceleration — in South Salt Lake since 1990.',
+    intro: 'Transmission shudder is a vibration or shaking sensation during acceleration, most commonly between 30 and 50 mph. It often feels like driving over rumble strips or like a mild tire imbalance, but it\'s coming from the transmission. The most common cause is the torque converter clutch (TCC) failing to lock up smoothly — and the most common trigger for TCC failure is ATF that has lost its friction modifier additives. Many shudder cases resolve completely with a fluid service using the correct factory-spec ATF.',
+    smsBody: 'Hi, my transmission is shuddering when I accelerate.',
+    introImage: '', introImageAlt: '', introImageCaption: '',
+    causes: [
+      {
+        title: 'Torque Converter Clutch (TCC) Failure',
+        desc: 'The torque converter clutch locks the transmission input shaft directly to the engine at highway speed for fuel efficiency. When the TCC friction material wears or the solenoid controlling it becomes erratic, the clutch chatters — applying and releasing rapidly instead of locking cleanly. The result is the rhythmic vibration most drivers describe as shudder.',
+        diagnosticSignal: 'Shudder occurs at a consistent speed (usually 30–50 mph) during light acceleration, then smooths out at higher speed or under heavier throttle. May trigger a P0741 or P0742 torque converter clutch code. More pronounced when the transmission is warm.'
+      },
+      {
+        title: 'Degraded or Wrong-Specification ATF',
+        desc: 'Automatic transmission fluid contains friction modifiers specifically formulated to make the TCC engage smoothly. As those additives deplete with age and heat, the TCC can no longer slide smoothly through its engagement range — it grabs and releases instead of applying gradually, producing shudder. Using the wrong ATF specification (common at quick-lube chains) can cause immediate shudder even with fresh fluid.',
+        diagnosticSignal: 'Shudder began gradually and has worsened over months. Fluid on the dipstick is darker than translucent red. Shudder may have started after a fluid service at a shop that used a generic ATF rather than the manufacturer specification.'
+      },
+      {
+        title: 'Contaminated Transmission Fluid',
+        desc: 'Water intrusion from a failed transmission cooler in the radiator introduces coolant into the ATF — the resulting emulsion completely destroys friction characteristics and causes severe shudder and slipping. Metal particles from internal wear also contaminate the fluid and accelerate TCC and clutch pack damage.',
+        diagnosticSignal: 'Fluid appears milky or foamy on the dipstick (coolant contamination) or has a metallic sheen (internal wear). Shudder is severe and may be accompanied by slipping or erratic shifting.'
+      },
+      {
+        title: 'Worn Clutch Packs',
+        desc: 'Internal clutch pack wear creates rough engagement at the shift point, producing a shudder that occurs specifically during upshifts rather than at a constant speed. This is distinct from TCC shudder but can feel similar to drivers.',
+        diagnosticSignal: 'Shudder occurs specifically during gear changes (1-2, 2-3 shifts) rather than at a constant speed range. May be accompanied by a slight delay in the shift or a firmer-than-normal engagement feel.'
+      }
+    ],
+    richContent: [
+      {
+        heading: 'Is My Transmission Shuddering?',
+        paras: [
+          'The classic transmission shudder pattern: smooth acceleration, then a rhythmic vibration starting around 30–40 mph, then the shudder stops as you reach 55–60 mph or if you press the accelerator firmly past the light-throttle range. That speed and throttle pattern is the signature of TCC engagement — it only activates under light load at speed.',
+          'Engine misfire also causes vibration during acceleration and is easily confused with transmission shudder. The distinction: misfire vibration is present at lower RPMs and often produces a check engine light. Transmission shudder is smooth below 30 mph, appears only in that 30–50 mph range at light throttle, and typically doesn\'t trigger a check engine light until the TCC solenoid fails completely.'
+        ]
+      },
+      {
+        heading: 'When Should You Come In?',
+        paras: [
+          'Come in before the shudder worsens or the TCC solenoid fails entirely. Many shudder cases — especially when caught early — are resolved with a fluid service using the correct manufacturer-spec ATF. That\'s a fraction of what a torque converter replacement or rebuild costs.',
+          'If shudder is accompanied by slipping, delayed engagement, or a check engine light, those are signs of more advanced wear and the repair scope may be larger. Don\'t wait for those symptoms to compound.'
+        ]
+      },
+      {
+        heading: 'Who to Trust for Transmission Shudder Repair in Salt Lake City',
+        paras: [
+          'We start with a road test to confirm the speed and throttle pattern, then pull fault codes and inspect fluid condition. If the fluid is the issue — wrong spec or depleted additives — we service it with the correct factory-spec ATF and road test again before recommending further work. Many shudder cases end there.',
+          'Scott\'s Auto & Clutch Repair has been working on automatic transmissions in South Salt Lake since 1990. We know the difference between TCC shudder that\'s a fluid issue and TCC shudder that points to a failing converter — and we tell you which it is.'
+        ],
+        inlineCta: true
+      }
+    ]
+  },
+  {
+    slug: 'four-wheel-drive-not-engaging',
+    name: '4WD Not Engaging or Stuck in 4WD',
+    shortName: '4WD Not Engaging',
+    priority: 'High',
+    category: 'Drivetrain',
+    relatedService: 'transmission-repair-near-south-salt-lake-ut',
+    lastUpdated: 'May 2026', datePublished: '2024-01-01', dateModified: '2026-05-01',
+    tags: { safetyTier: 'important', progressive: true, terrainSensitive: true, weatherSensitive: true, temperatureSensitive: false, easilyConfused: false },
+    heroIntro: 'Scott\'s Auto & Clutch Repair has diagnosed 4WD engagement problems — and trucks stuck in 4WD — in South Salt Lake since 1990.',
+    intro: '4WD not engaging means the transfer case isn\'t locking the front axle into drive, so the truck stays in two-wheel drive even when you\'ve selected 4H or 4L. The opposite problem — 4WD that won\'t disengage — is also common and causes binding, scrubbing, and drivetrain stress on dry pavement. Both conditions almost always point to the transfer case: the actuator motor, encoder motor, shift motor, vacuum system (on older trucks), or the case\'s internal chain and gears.',
+    smsBody: 'Hi, my 4WD isn\'t engaging properly.',
+    introImage: '', introImageAlt: '', introImageCaption: '',
+    causes: [
+      {
+        title: 'Transfer Case Actuator / Encoder Motor Failure',
+        desc: 'Modern 4WD systems use an electric actuator or encoder motor to physically shift the transfer case between 2WD, 4H, and 4L. When that motor wears out or its position sensor fails, the transfer case can\'t complete the shift — the selector light may flash, the system may make clicking sounds, or the shift simply won\'t happen. This is the most common cause of 4WD engagement failure on trucks made after 2000.',
+        diagnosticSignal: 'The 4WD indicator light flashes or doesn\'t illuminate when 4WD is selected. You may hear a clicking or grinding from under the vehicle as the motor tries to shift. A scan tool can read the transfer case position sensor data and confirm the motor\'s failure.'
+      },
+      {
+        title: 'Vacuum Line Failure (Older Trucks)',
+        desc: 'Many trucks from the 1990s and early 2000s use vacuum actuation to engage the front axle disconnect — a separate system from the transfer case shift itself. Cracked or disconnected vacuum hoses prevent the front axle from locking in, so the transfer case shifts but the front wheels don\'t receive power. Common on Ford Super Duty and older GM trucks.',
+        diagnosticSignal: '4WD selects normally (lights, sound) but the front wheels don\'t pull. Front axle disconnect makes no sound when 4WD is selected — a healthy system produces a distinct click or clunk. Look for cracked vacuum hoses around the front differential.'
+      },
+      {
+        title: 'Low or Degraded Transfer Case Fluid',
+        desc: 'The transfer case has its own fluid — separate from engine oil and transmission fluid — that lubricates the internal chain, gears, and clutch packs (in AWD systems with limited-slip transfer cases). Low fluid causes overheating that warps clutch plates and sticks them in engagement. Degraded fluid that has lost its lubricating and friction properties accelerates wear on the chain and sprocket assembly.',
+        diagnosticSignal: 'Engagement feels rough or grinding when 4WD is selected. May be stuck in 4WD after being engaged. Transfer case makes a whirring or growling noise in 4WD that isn\'t present in 2WD. Fluid service interval is typically 30,000–60,000 miles.'
+      },
+      {
+        title: 'Worn Transfer Case Chain or Internal Gears',
+        desc: 'The chain inside the transfer case stretches over mileage — typically 150,000+ miles — and can skip under load or fail to seat properly in 4L. In part-time 4WD systems, worn engagement teeth on the shift collar can prevent or delay engagement. This is a mechanical failure that requires internal transfer case service or rebuild.',
+        diagnosticSignal: 'Intermittent engagement — 4WD works sometimes but not others. Clunking or snapping sound when 4WD is first engaged. High mileage (150,000+) without any transfer case fluid service. The chain sound is most noticeable during slow-speed turns in 4H on dry pavement.'
+      }
+    ],
+    richContent: [
+      {
+        heading: 'Is My 4WD System Working Correctly?',
+        paras: [
+          'A properly functioning 4WD system engages with a distinct clunk or firm engagement feel, and the indicator light comes on solid. Disengagement should be equally clean — shift to 2WD, the light goes off, and the front wheels stop pulling. If the light flashes, if engagement takes multiple attempts, or if the truck feels like it\'s fighting itself on dry pavement after 4WD was used, the system isn\'t working correctly.',
+          'Stuck-in-4WD is often caused by forgetting to disengage on dry pavement — tight turns on dry pavement bind the drivetrain and make the transfer case difficult to shift back to 2WD. Stop, put the truck in reverse briefly to release the binding, then try 2WD again. If that doesn\'t work, the actuator or shift mechanism needs service.'
+        ]
+      },
+      {
+        heading: 'When Should You Come In?',
+        paras: [
+          'Come in before winter if your 4WD hasn\'t been tested in months — stuck actuators and degraded transfer case fluid are far easier and less expensive to address before you need 4WD on a canyon road or in a snowstorm. A 4WD system that hasn\'t been used all summer may have a stuck actuator that will work fine if serviced, but will fail when you actually need it.',
+          'Come in immediately if the truck is stuck in 4WD and driving on dry pavement — the binding stress from running 4WD on dry pavement damages the transfer case chain, front driveshaft joints, and front axle components. The longer it runs in 4WD on dry pavement, the more secondary damage accumulates.'
+        ]
+      },
+      {
+        heading: 'Who to Trust for 4WD and Transfer Case Repair in Salt Lake City',
+        paras: [
+          'We diagnose 4WD engagement problems with a scan tool to read transfer case position sensor data, visual inspection of the actuator and vacuum system, and a road test to confirm the symptom. We service transfer case fluid and replace actuator motors, encoder motors, and vacuum components before recommending any internal transfer case teardown.',
+          'Scott\'s Auto & Clutch Repair has been working on 4WD trucks and SUVs in South Salt Lake since 1990. Utah\'s four seasons and canyon access mean 4WD systems get used here, and we know the failure patterns on the common platforms we see regularly.'
+        ],
+        inlineCta: true
+      }
+    ]
+  }
 ];
 
 const symptomMeta = {
@@ -1313,7 +1494,10 @@ const symptomMeta = {
   'uneven-tire-wear':          { metaTitle: "Uneven Tire Wear Patterns | Scott's Auto South Salt Lake, UT", metaDesc: "Inner edge, outer edge, or cupping — each pattern tells a different story. We read the wear and fix the cause. (801) 485-4089." },
   'rough-ride-over-bumps':     { metaTitle: "Rough Ride Over Bumps | Scott's Auto South Salt Lake, UT", metaDesc: "Harsher over bumps than it used to be? Worn bushings, struts, or ball joints are the usual culprits. Suspension inspection. (801) 485-4089." },
   'white-exhaust-smoke':       { metaTitle: "White Smoke from Exhaust | Head Gasket? | Scott's Auto", metaDesc: "Thick white smoke after warm-up almost always means coolant is burning. We diagnose with a block test before recommending anything. (801) 485-4089." },
-  'milky-oil':                 { metaTitle: "Milky Engine Oil? Stop Driving | Scott's Auto South Salt Lake", metaDesc: "Frothy or gray-tan oil means coolant has mixed in. Oil can't protect the engine in this condition — get it diagnosed immediately. (801) 485-4089." }
+  'milky-oil':                 { metaTitle: "Milky Engine Oil? Stop Driving | Scott's Auto South Salt Lake", metaDesc: "Frothy or gray-tan oil means coolant has mixed in. Oil can't protect the engine in this condition — get it diagnosed immediately. (801) 485-4089." },
+  'delayed-engagement':        { metaTitle: "Transmission Delayed Engagement | Scott's Auto South Salt Lake", metaDesc: "Delayed shift into drive or reverse? Could be low ATF, a worn solenoid, or clutch packs. We diagnose before recommending repair. (801) 485-4089." },
+  'transmission-shudder':      { metaTitle: "Transmission Shudder? Causes & Fixes | Scott's Auto Salt Lake City", metaDesc: "Shudder during light acceleration? Torque converter clutch or degraded ATF is usually the cause. Free diagnosis. Scott's Auto. (801) 485-4089." },
+  'four-wheel-drive-not-engaging': { metaTitle: "4WD Not Engaging? Transfer Case Repair | Scott's Auto South Salt Lake", metaDesc: "Stuck in 2WD or locked in 4WD? Actuator, encoder motor, or transfer case fluid — we diagnose 4WD systems. Call (801) 485-4089." }
 };
 
 symptoms.forEach(s => {
