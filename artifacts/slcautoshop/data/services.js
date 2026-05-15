@@ -2628,6 +2628,421 @@ const services = [
       "water-pump-replacement-near-south-salt-lake-ut",
       "timing-belt-replacement-near-south-salt-lake-ut"
     ]
+  },
+  {
+    slug: "lift-leveling-kit-installation-near-south-salt-lake-ut",
+    name: "Lift & Leveling Kits",
+    fullName: "Lift & Leveling Kit Installation",
+    shortDesc: "Leveling kit and suspension lift installation for trucks and SUVs, with alignment included.",
+    image: "/assets/Lift-kit-400.jpg",
+    heroImage: "/assets/Lift-kit-400.jpg",
+    metaTitle: "Lift & Leveling Kit Installation South Salt Lake | Scott's Auto",
+    heading: "Lift & Leveling Kit Installation in South Salt Lake, UT",
+    metaDesc: "Leveling kit or full lift? We install both on trucks and SUVs — and we do the alignment after. Written estimate before we start. Scott's Auto. (801) 485-4089.",
+    heroIntro: "Leveling kit to even out that factory rake, or a full lift for real clearance? We install both on trucks and SUVs — and we do the alignment after so it actually drives right. Written estimate. No surprises.",
+    shortDefinition: "A leveling kit corrects the factory front-to-rear height difference on trucks and SUVs using spacers or strut extensions — raising the front to match the rear without significantly changing ride quality. A suspension lift raises the entire vehicle by replacing or augmenting springs, shocks, and sometimes control arms, adding clearance for larger tires and off-road use. Both require a wheel alignment after installation to maintain proper handling, tire wear, and steering geometry.",
+    intro: "",
+    hideServicesSection: true,
+    specializedServices: [
+      "Leveling Kit Installation",
+      "Suspension Lift Kit Installation",
+      "Body Lift Kit Installation",
+      "Spacer & Strut Topper Installation",
+      "Add-A-Leaf & Helper Spring Installation",
+      "Torsion Bar Adjustment",
+      "Coilover Installation",
+      "Wheel Alignment After Every Install",
+      "Pre-Install Suspension Inspection",
+      "Post-Install Road Test & Verification"
+    ],
+    whyUs: [
+      {
+        title: "Alignment Included in Every Install",
+        desc: "A lift that hasn't been aligned drives poorly and eats tires. We do the alignment as part of every installation — not as an add-on."
+      },
+      {
+        title: "We Inspect the Suspension First",
+        desc: "Installing a kit on worn ball joints or tie rod ends creates problems. We check the existing suspension before any kit goes on and tell you what we find."
+      },
+      {
+        title: "Written Estimate Before Any Work",
+        desc: "You'll know exactly what the installation covers and what it costs before we start. No surprises when you pick it up."
+      },
+      {
+        title: "In Business Since 1990",
+        desc: "We've installed hundreds of leveling kits and lifts on Utah trucks and SUVs. We know the fitment issues that come up on common platforms and how to handle them."
+      }
+    ],
+    processHeading: "How We Handle a Lift or Leveling Kit Installation",
+    processIntro: "A lift is only as good as the installation and the alignment that follows. We assess the existing suspension first, install to spec, and verify alignment before the truck leaves.",
+    process: [
+      {
+        step: 1,
+        title: "Tell Us What You're After",
+        desc: "Let us know your vehicle, lift height or leveling goal, whether you're running new tires, and how you use the truck — off-road, daily driver, or towing."
+      },
+      {
+        step: 2,
+        title: "Suspension Assessment",
+        desc: "We inspect ball joints, tie rod ends, CV boots, and shocks before installing anything. Putting a new kit on worn components creates handling problems."
+      },
+      {
+        step: 3,
+        title: "Parts & Fitment Confirmation",
+        desc: "We verify the kit fits your exact year and configuration before starting. Some trucks have mid-year changes that affect fitment."
+      },
+      {
+        step: 4,
+        title: "Installation",
+        desc: "The kit goes in correctly — torqued to spec, hardware inspected, no shortcuts. Most leveling kits take 2–3 hours; suspension lifts take 4–8 hours depending on complexity."
+      },
+      {
+        step: 5,
+        title: "Alignment & Road Test",
+        desc: "Every lift gets an alignment. We verify steering, handling, and ride feel before the truck goes home."
+      }
+    ],
+    commonIssues: [
+      {
+        title: "Uneven Stance (Factory Rake)",
+        desc: "Most trucks leave the factory nose-down to account for payload sag. A leveling kit brings the front up to match the rear for a level stance and cleaner appearance."
+      },
+      {
+        title: "Insufficient Tire Clearance",
+        desc: "Running larger off-road tires requires additional lift to prevent rubbing on body panels and suspension components during full travel."
+      },
+      {
+        title: "Limited Off-Road Ground Clearance",
+        desc: "Factory ride height limits approach, departure, and breakover angles. A suspension lift adds the clearance needed for trails, rocky terrain, and off-pavement driving."
+      },
+      {
+        title: "Post-Lift Alignment Problems",
+        desc: "Many trucks installed elsewhere come in with uneven tire wear, pulling, or steering wander from lifts that were never properly aligned after installation."
+      }
+    ],
+    richContent: [
+      {
+        heading: "What Does a Lift or Leveling Kit Installation Actually Involve?",
+        paras: [
+          "Leveling kits and lift kits are different things that get grouped together. Knowing which one fits your goal makes the job straightforward.",
+          "<strong>Leveling kit</strong> — raises the front of the truck to match the rear, correcting the factory nose-down rake. Most use a strut spacer or extended strut topper. Minimal impact on ride quality. Installation takes 2–3 hours. Always requires an alignment after.",
+          "<strong>Suspension lift kit</strong> — raises the entire vehicle by replacing or modifying springs, shocks, and sometimes upper control arms. Adds ground clearance and allows larger tire fitment. More involved installation — 4–8 hours depending on kit complexity. Requires alignment after.",
+          "<strong>Body lift kit</strong> — raises the body relative to the frame using blocks or spacers, without changing suspension geometry. Creates space for larger tires without affecting ride quality, but does not increase ground clearance under the axles.",
+          "<strong>Alignment</strong> — mandatory after any lift. Raising the truck changes caster, camber, and toe angles. Driving on a misaligned lift causes rapid uneven tire wear, steering wander, and unpredictable handling. We include alignment with every installation.",
+          "Before installing any kit, we inspect ball joints, tie rod ends, CV axle boots, and shock condition. Installing a lift over worn components leads to handling issues and premature wear of the new parts. If we find something worth knowing about, we tell you before we start.",
+          "Depending on your vehicle and goals, the work we commonly perform includes:"
+        ],
+        list: [
+          "Leveling Kit Installation (spacers or strut toppers)",
+          "Suspension Lift Kit Installation (2\", 3\", 4\", 6\" kits)",
+          "Body Lift Kit Installation",
+          "Coilover Installation",
+          "Add-A-Leaf / Helper Spring Installation",
+          "Torsion Bar Adjustment (on applicable platforms)",
+          "Full Wheel Alignment After Every Install",
+          "Pre-Install Suspension Inspection"
+        ],
+        listStyle: "tags"
+      },
+      {
+        heading: "When Should You Come In?",
+        paras: [
+          "Come in when you want to level out the factory rake, add clearance for larger tires, prepare your truck for off-road use, or improve the stance and appearance of your vehicle. Also come in if you had a lift installed elsewhere and it was never aligned — or if you're experiencing uneven tire wear, pulling, or steering wander after a previous install.",
+          "If you're planning new tires at the same time as a kit, let us know before you buy them. Tire size affects what lift height makes sense, and it's easier to confirm fitment before tires are purchased than after."
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Do I need an alignment after a leveling kit?",
+        a: "Yes, always. Even a small spacer leveling kit changes the front caster and camber angles. Driving without an alignment after installation causes uneven tire wear and affects steering feel. We include alignment with every lift and leveling kit installation."
+      },
+      {
+        q: "What's the difference between a leveling kit and a lift kit?",
+        a: "A leveling kit raises only the front of the truck to match the rear — correcting the factory nose-down rake. It typically adds 1–2.5 inches using strut spacers or extended strut toppers. A lift kit raises the entire vehicle by modifying or replacing suspension components, adding 2–6+ inches of total height for ground clearance and larger tire fitment."
+      },
+      {
+        q: "Will a leveling kit affect my ride quality?",
+        a: "A quality spacer leveling kit on a truck in good suspension condition typically causes minimal change. Some stiffer spacers make the ride slightly firmer. If your shocks are already worn, adding a leveling kit makes that more noticeable — which is why we inspect the suspension before installing."
+      },
+      {
+        q: "How big of a lift do I need for a specific tire size?",
+        a: "It depends on the truck and tire size. As a general guide, most half-ton trucks need at least a 2\" leveling kit to fit 33\" tires without rubbing, and a 3–4\" suspension lift for 35\" tires. We confirm fitment for your specific vehicle and tire combination before starting any work."
+      },
+      {
+        q: "Can I supply my own kit, or do you source them?",
+        a: "Either works. If you've already purchased a kit, bring it and we'll install it. If you'd like us to source parts, tell us your vehicle and lift goals and we'll quote options."
+      },
+      {
+        q: "How long does installation take?",
+        a: "A leveling kit installation typically takes 2–3 hours. A suspension lift kit takes 4–8 hours depending on kit complexity and your truck's configuration. We give you a realistic timeline when we quote the work."
+      },
+      {
+        q: "Is there a warranty on the repair?",
+        a: "Yes. Every repair we perform is backed by a 2-year parts and labor warranty. If something we installed gives you trouble within two years, bring it back and we make it right at no charge."
+      },
+      {
+        q: "How does your pricing compare to dealers and chain shops?",
+        a: "Our labor rates are consistently below dealer rates — typically 20–40% less for the same installation. We use quality hardware and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+      }
+    ],
+    whoContent: {
+      heading: "Who to Trust for Lift & Leveling Kit Installation in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been working on trucks and SUVs in South Salt Lake since 1990. A lift kit is only as good as the installation and the alignment that follows it — and alignment is something many lift-only shops don't have the equipment to do in-house. We do.",
+        "When you bring your truck in, we inspect the existing suspension first, install the kit to spec, align it properly, and road test it before you pick it up. If something about your suspension is worth knowing before we start, we'll tell you. No work gets done without your approval."
+      ]
+    },
+    statsTable: [
+      {
+        label: "Typical Turnaround",
+        value: "Same day for most installs — leveling kits 2–3 hours, suspension lifts 4–8 hours"
+      },
+      {
+        label: "Free Estimate",
+        value: "Yes — we quote installation before any work begins"
+      },
+      {
+        label: "Alignment Included",
+        value: "Yes — every lift and leveling kit installation includes a full wheel alignment"
+      },
+      {
+        label: "Common Applications",
+        value: "Half-ton and three-quarter-ton trucks, SUVs, 4x4 vehicles — all makes and models"
+      },
+      {
+        label: "Pre-Install Inspection",
+        value: "We inspect ball joints, tie rod ends, and shocks before installing any kit"
+      },
+      {
+        label: "Warranty",
+        value: "2-year parts & labor on every repair"
+      },
+      {
+        label: "Vehicles Served",
+        value: "All makes and models — domestic and import trucks and SUVs"
+      }
+    ],
+    hasGeoPages: true,
+    relatedSlugs: [
+      "strut-replacement-near-south-salt-lake-ut",
+      "shock-replacement-near-south-salt-lake-ut",
+      "complete-auto-service-near-south-salt-lake-ut"
+    ]
+  },
+  {
+    slug: "check-engine-light-engine-repair-near-south-salt-lake-ut",
+    name: "Check Engine Light & Engine Repair",
+    fullName: "Check Engine Light Diagnosis & Engine Repair",
+    shortDesc: "Check engine light diagnosis and engine repair for all makes and models. We find the actual cause, not just the code.",
+    image: "/assets/check-engine-400.jpg",
+    heroImage: "/assets/check-engine-400.jpg",
+    metaTitle: "Check Engine Light South Salt Lake UT | Scott's Auto",
+    heading: "Check Engine Light Diagnosis & Engine Repair in South Salt Lake, UT",
+    metaDesc: "Check engine light on? We read the code and diagnose the actual cause — not just tell you the code number. Free diagnosis. South Salt Lake. (801) 485-4089.",
+    heroIntro: "Check engine light on? We read the code and find the actual cause — not just hand you a slip with a code number on it. Free diagnosis. Written estimate before any repair. No surprises.",
+    shortDefinition: "The check engine light means the engine management system detected a fault in one of its monitored systems and logged a diagnostic trouble code (DTC). Reading that code tells you which system triggered — it doesn't tell you why. We connect a scan tool, pull the live sensor data, and identify the root cause before recommending any repair. A misfire code could be a spark plug, a coil pack, a fuel injector, or low compression — the code is the starting point, not the answer.",
+    intro: "",
+    hideServicesSection: true,
+    specializedServices: [
+      "OBD-II Scan & Fault Code Reading",
+      "Live Sensor Data Analysis",
+      "Oxygen Sensor Diagnosis & Replacement",
+      "Catalytic Converter Diagnosis & Replacement",
+      "EVAP System Leak Diagnosis & Repair",
+      "Ignition System Diagnosis (Spark Plugs, Coil Packs)",
+      "Fuel Injector Diagnosis & Service",
+      "EGR System Cleaning & Repair",
+      "Intake Valve Carbon Cleaning (GDI Engines)",
+      "Engine Compression & Leak-Down Testing",
+      "Timing Component Inspection",
+      "Emissions Readiness Check"
+    ],
+    whyUs: [
+      {
+        title: "Diagnosis, Not Just Code Reading",
+        desc: "Any parts store will read your code for free. We use that code as the starting point, then pull live sensor data and inspect the relevant system to find the actual cause."
+      },
+      {
+        title: "Free OBD-II Scan Included",
+        desc: "The diagnosis is free. You know what triggered the light and why before we recommend anything or ask you to spend money."
+      },
+      {
+        title: "Written Estimate Before Any Work",
+        desc: "Once we know what caused the light, you get a complete written estimate before any repair begins. You decide what happens next."
+      },
+      {
+        title: "In Business Since 1990",
+        desc: "We've diagnosed check engine lights on every platform for 35 years. We know the patterns — which codes on which platforms are straightforward and which ones need deeper investigation."
+      }
+    ],
+    processHeading: "How We Diagnose a Check Engine Light",
+    processIntro: "Pulling a code takes 60 seconds. Diagnosing what actually caused it takes longer — and it's what determines whether the repair actually fixes the problem or just clears the light temporarily.",
+    process: [
+      {
+        step: 1,
+        title: "Describe What You've Noticed",
+        desc: "Tell us when the light came on, whether it's steady or flashing, and any drivability changes — rough idle, hesitation, reduced power, fuel smell."
+      },
+      {
+        step: 2,
+        title: "OBD-II Scan & Live Data",
+        desc: "We read all stored fault codes and pull live sensor data — fuel trims, O2 sensor waveforms, misfire counts per cylinder — to see what the engine is actually doing."
+      },
+      {
+        step: 3,
+        title: "System Inspection",
+        desc: "We inspect the system that triggered the code: O2 sensor wiring, catalytic converter condition, EVAP hoses, spark plugs, injector pulse, intake valve deposits."
+      },
+      {
+        step: 4,
+        title: "Root Cause Identified",
+        desc: "We confirm the actual cause before recommending a repair. If a P0420 code is from a misfiring cylinder fouling the catalyst rather than a dead converter, we tell you that."
+      },
+      {
+        step: 5,
+        title: "Written Estimate & Repair",
+        desc: "You get a complete written estimate covering the repair and why it addresses the root cause. Work begins only with your approval."
+      }
+    ],
+    commonIssues: [
+      {
+        title: "Oxygen Sensor Failure",
+        desc: "O2 sensors are the most common check engine light trigger. They wear out over mileage and Utah's high altitude affects fuel trim readings, sometimes causing false or early failures.",
+        symptomSlug: ""
+      },
+      {
+        title: "Catalytic Converter (Failure or Theft)",
+        desc: "A P0420 or P0430 code means the catalyst efficiency has dropped below threshold — either from normal wear, a misfiring cylinder damaging it, or post-theft replacement of a stolen unit.",
+        symptomSlug: ""
+      },
+      {
+        title: "EVAP System Leaks",
+        desc: "Utah's dry climate and temperature swings crack EVAP hoses, degrade purge valves, and dry out fuel cap gaskets — all common causes of evaporative emission codes.",
+        symptomSlug: ""
+      },
+      {
+        title: "Engine Misfires",
+        desc: "P0300-series misfire codes come from worn spark plugs, failed coil packs, dirty fuel injectors, or low compression. We identify which cylinder and why before replacing parts.",
+        symptomSlug: ""
+      },
+      {
+        title: "EGR & Intake Carbon Buildup",
+        desc: "Direct-injection engines don't wash their intake valves with fuel. Carbon accumulates over mileage, causing rough idle, misfires, and EGR-related codes.",
+        symptomSlug: ""
+      }
+    ],
+    richContent: [
+      {
+        heading: "What Does Check Engine Light Diagnosis Actually Involve?",
+        paras: [
+          "The check engine light — technically the malfunction indicator lamp (MIL) — activates when the engine control module detects a reading outside its acceptable range for one of its monitored systems. It stores a diagnostic trouble code (DTC) and turns on the light.",
+          "Reading that code is not diagnosing the problem. A P0420 catalyst efficiency code could mean a worn-out catalytic converter, a failed downstream O2 sensor giving false readings, an upstream exhaust leak contaminating the sample, or an engine misfire that damaged the catalyst. The code tells you what triggered — diagnosis tells you why.",
+          "We connect a professional scan tool, read all stored codes, and pull the live data stream the engine control module was seeing when the fault occurred. That data — fuel trims, O2 sensor waveforms, misfire counts, MAF readings — shows us what the engine was actually doing, which points us to the real cause.",
+          "<strong>Diagnostic trouble codes</strong> — alphanumeric identifiers (P0xxx for powertrain, P1xxx for manufacturer-specific) that describe the system that failed its self-test. Reading the code is the starting point.",
+          "<strong>Freeze frame data</strong> — a snapshot of engine operating conditions at the moment the fault was triggered. We use this alongside live data to confirm what was happening.",
+          "<strong>Readiness monitors</strong> — self-tests the ECM runs to verify each emission system is functioning. Monitors that haven't completed after a clear indicate a system still under investigation.",
+          "Depending on what we find, the work we commonly perform includes:"
+        ],
+        list: [
+          "OBD-II Scan & Full Fault Code Reading",
+          "Live Sensor Data & Freeze Frame Analysis",
+          "Oxygen Sensor Diagnosis & Replacement",
+          "Catalytic Converter Diagnosis & Replacement",
+          "EVAP System Diagnosis (purge valve, vent valve, hoses, gas cap)",
+          "Ignition System Service (spark plugs, coil packs, wires)",
+          "Fuel Injector Cleaning & Replacement",
+          "EGR System Cleaning & Repair",
+          "Intake Valve Carbon Cleaning (GDI engines)",
+          "Engine Compression & Cylinder Leak-Down Testing"
+        ],
+        listStyle: "tags"
+      },
+      {
+        heading: "When Should You Come In?",
+        paras: [
+          "Come in any time the check engine light is on — but come in immediately if the light is flashing. A steady check engine light means a fault has been detected; the vehicle is usually safe to drive short-term but the issue needs diagnosis. A flashing or blinking check engine light means an active misfire severe enough to damage the catalytic converter. Driving with a flashing light risks turning a spark plug replacement into a catalytic converter replacement.",
+          "Also come in if the light came back after being cleared elsewhere, or if you've replaced a part based on a code and the light returned. Code-based parts swaps without confirming root cause are one of the most common reasons check engine lights come back — we find what the code actually points to before recommending any repair."
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Can I just have the code cleared and see if it comes back?",
+        a: "Clearing the code without repairing the cause resets the light temporarily — it will return, often within one drive cycle. It also clears the readiness monitors, which can cause you to fail an emissions test even if the light is off. We diagnose the cause so the repair actually solves the problem."
+      },
+      {
+        q: "Is it safe to drive with the check engine light on?",
+        a: "A steady check engine light usually means you can drive short-term, but you should get it diagnosed soon. Defer repairs and the cause often gets worse. A flashing check engine light means stop driving as soon as safely possible — an active misfire is occurring that can destroy the catalytic converter in minutes."
+      },
+      {
+        q: "What does a flashing check engine light mean?",
+        a: "A flashing or blinking check engine light indicates an active, severe misfire. Unburned fuel is passing into the exhaust and overheating the catalytic converter. Continued driving can destroy the converter — turning a spark plug or coil pack repair into a significantly more expensive job. Pull over safely and call us."
+      },
+      {
+        q: "Do you just read the code or actually find the problem?",
+        a: "We find the problem. Any auto parts store will read your code for free, but a code only identifies the triggered system — not the cause. We use the code as the starting point, then pull live sensor data and inspect the relevant system to confirm what's actually wrong before recommending a repair."
+      },
+      {
+        q: "Why did the check engine light come back after it was repaired elsewhere?",
+        a: "Usually because the repair addressed the code rather than the root cause. A P0420 catalyst code replaced with a new O2 sensor will return if the converter itself is the actual problem — and vice versa. We confirm root cause before recommending any repair, which is why our fixes hold."
+      },
+      {
+        q: "How much does check engine light diagnosis cost?",
+        a: "The diagnosis is free. We scan the codes, pull the live data, and identify the cause at no charge. You get a written estimate for the repair before any work begins — and you decide whether to proceed."
+      },
+      {
+        q: "Is there a warranty on the repair?",
+        a: "Yes. Every repair we perform is backed by a 2-year parts and labor warranty. If something we fixed gives you trouble within two years, bring it back and we make it right at no charge."
+      },
+      {
+        q: "How does your pricing compare to dealers and chain shops?",
+        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+      }
+    ],
+    whoContent: {
+      heading: "Who to Trust for Check Engine Light Diagnosis in South Salt Lake",
+      paras: [
+        "Scott's Auto & Clutch Repair has been diagnosing check engine lights in South Salt Lake since 1990. We've seen every code on every platform — and we know that the same code on two different vehicles can have completely different causes. Our process starts with the code and ends with root cause confirmation before we recommend anything.",
+        "The diagnosis is free. You come in knowing what triggered the light and why. The repair estimate is in writing before any work starts, and you decide what happens next. If the cheapest fix turns out to be the actual answer, that's what we'll tell you."
+      ]
+    },
+    statsTable: [
+      {
+        label: "Typical Turnaround",
+        value: "Diagnosis same day; most repairs completed same day or next day"
+      },
+      {
+        label: "Free Diagnosis",
+        value: "Yes — OBD-II scan, live data review, and root cause identification at no charge"
+      },
+      {
+        label: "Includes",
+        value: "Full fault code scan, freeze frame review, live sensor data, visual system inspection"
+      },
+      {
+        label: "Most Common Causes",
+        value: "O2 sensors, catalytic converter, EVAP leaks, misfires (plugs/coils), EGR/intake carbon"
+      },
+      {
+        label: "Flashing Light",
+        value: "Stop driving — active misfire is occurring. Call us before continuing to drive."
+      },
+      {
+        label: "Warranty",
+        value: "2-year parts & labor on every repair"
+      },
+      {
+        label: "Vehicles Served",
+        value: "All makes and models — domestic, import, trucks, SUVs, hybrids"
+      }
+    ],
+    hasGeoPages: true,
+    relatedSlugs: [
+      "catalytic-converter-service-near-south-salt-lake-ut",
+      "complete-auto-service-near-south-salt-lake-ut",
+      "timing-chain-repair-near-south-salt-lake-ut"
+    ]
   }
 ];
 
