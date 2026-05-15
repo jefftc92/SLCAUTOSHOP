@@ -973,7 +973,7 @@ const highVolumeBrands = new Set([
 ]);
 
 // lastmod dates — updated when content changes, not on every deploy
-const LASTMOD_SPRINT   = '2026-05-07'; // pages touched in current SEO sprint
+const LASTMOD_SPRINT   = '2026-05-15'; // pages touched in current SEO sprint
 const LASTMOD_STABLE   = '2025-01-15'; // vehicle brands, legal pages — not recently changed
 
 // Returns [{path, priority, freq, lastmod}] for every indexable URL on the site.
@@ -1010,7 +1010,7 @@ app.get('/sitemap.xml', (req, res) => {
   res.set('Content-Type', 'application/xml');
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
   getSitemapEntries().forEach(({ path, priority, freq, lastmod }) => {
-    xml += `  <url><loc>${site.domain}${path}</loc><lastmod>${lastmod}</lastmod><changefreq>${freq}</changefreq><priority>${priority}</priority></url>\n`;
+    xml += `  <url>\n    <loc>${site.domain}${path}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${freq}</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
   });
   xml += `</urlset>`;
   res.send(xml);
