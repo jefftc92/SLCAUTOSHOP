@@ -257,6 +257,14 @@ module.exports = {
           {
             q: 'Do you service high-mileage Accords?',
             a: 'Yes — Accords regularly reach 200,000–250,000 miles with proper maintenance. We see them regularly at high mileage and know exactly which components need attention at various intervals.'
+          },
+          {
+            q: 'Can you tow my Accord to the shop if it will not start or is not safe to drive?',
+            a: 'Yes. We work with local tow providers and can coordinate a tow to our South Salt Lake shop. Call or text us and we will help arrange it — you do not have to figure out towing on your own.'
+          },
+          {
+            q: 'How long will my Accord be at the shop?',
+            a: 'Most Accord repairs are finished same-day or next-day. Diagnostics typically take 1–2 hours. We call you with a clear estimate before starting any work, so there are no surprises on timing or cost.'
           }
         ]
       },
@@ -321,6 +329,14 @@ module.exports = {
           {
             q: 'Does the CR-V have a timing belt or chain?',
             a: 'All CR-Vs from 2002 onward use a timing chain, not a belt. There is no scheduled replacement interval — chains are designed to last the life of the engine with regular oil changes. However, on very high-mileage examples with inconsistent oil change history, we may find chain or tensioner wear worth addressing.'
+          },
+          {
+            q: 'Do you tow? My CR-V is not drivable.',
+            a: 'Yes — we coordinate with local tow providers to bring vehicles to our South Salt Lake shop. Give us a call or text and we will help get your CR-V here without the hassle of figuring out towing yourself.'
+          },
+          {
+            q: 'How long does a typical CR-V repair take?',
+            a: 'Diagnostics run 1–2 hours, and most repairs wrap up same-day or next-day. We phone you with a full estimate before we begin any work so you know exactly what to expect on both timeline and cost.'
           }
         ]
       },
@@ -385,6 +401,14 @@ module.exports = {
           {
             q: 'Does the AWD Pilot need rear differential service?',
             a: 'Yes — the AWD rear differential requires fluid changes every 30,000 miles. This is separate from the engine oil change and is skipped by many shops. We handle it as part of comprehensive maintenance visits.'
+          },
+          {
+            q: 'Can you tow my Pilot to your shop?',
+            a: 'Absolutely. We work with local towing companies in the South Salt Lake area and can help coordinate getting your Pilot to us. Just call or text — we will take it from there.'
+          },
+          {
+            q: 'How long will my Pilot be in the shop?',
+            a: 'We aim to turn Pilots around same-day or next-day for most repairs. Diagnostic work takes roughly 1–2 hours. Before we start anything, we call you with an estimate so you know the timeline and cost upfront.'
           }
         ]
       },
@@ -444,6 +468,14 @@ module.exports = {
           {
             q: 'How reliable is the HR-V overall?',
             a: 'Very reliable. It is one of the simpler, more straightforward Hondas to maintain. The main areas to stay on top of are CVT fluid changes, rear diff fluid on AWD models, and rear brakes. With those covered, HR-Vs regularly exceed 150,000–200,000 miles without major issues.'
+          },
+          {
+            q: 'If my HR-V is not drivable, can you arrange a tow?',
+            a: 'Yes. We partner with local tow services and can help coordinate bringing your HR-V to our South Salt Lake shop. Call or text us and we will get it sorted out.'
+          },
+          {
+            q: 'What is the typical turnaround time for an HR-V repair?',
+            a: 'Most jobs are completed same-day or next-day. We spend 1–2 hours on diagnostics and always call with a written estimate before lifting a wrench. No surprises on cost or time.'
           }
         ]
       },
@@ -508,6 +540,14 @@ module.exports = {
           {
             q: 'My Odyssey ticks when it first starts up but the noise fades after a few minutes. Should I be concerned?',
             a: 'A cold-start tick that fades is worth investigating. On the Odyssey it can mean exhaust manifold cracks (very common), a VTEC solenoid screen clog, or early timing chain wear. We diagnose the source — a cracked manifold is the most likely answer.'
+          },
+          {
+            q: 'Can you tow my Odyssey to the shop if it breaks down?',
+            a: 'Yes. We work with local tow providers and can coordinate getting your Odyssey to our South Salt Lake location. Call or text us — we will help make the arrangements so you are not left scrambling.'
+          },
+          {
+            q: 'How long does an Odyssey repair typically take?',
+            a: 'Most Odyssey repairs are same-day or next-day. We run diagnostics in 1–2 hours and contact you with a clear estimate before any work begins. That way you can plan your schedule without uncertainty.'
           }
         ]
       },
@@ -563,6 +603,14 @@ module.exports = {
           {
             q: 'Are Ridgeline parts difficult to find?',
             a: 'Less common than Pilot or Odyssey, but the Ridgeline shares enough powertrain components with those vehicles that most parts are readily available through Honda dealer channels and quality aftermarket suppliers. Occasionally specialty body parts take a few extra days to source, but mechanical parts are generally on hand or next-day delivery.'
+          },
+          {
+            q: 'Can you tow my Ridgeline in if it is not running?',
+            a: 'Yes — we work with local tow companies and can help coordinate a tow to our South Salt Lake shop. Give us a call or text and we will handle the logistics from our end.'
+          },
+          {
+            q: 'How long will my Ridgeline be at the shop for repairs?',
+            a: 'We complete most Ridgeline repairs same-day or next-day. Diagnostics take 1–2 hours, and we always reach out with an estimate before starting. You will know what the repair costs and how long it will take before we begin.'
           }
         ]
       },
@@ -618,6 +666,14 @@ module.exports = {
           {
             q: 'My Fit AC stopped working. Is it expensive to fix?',
             a: 'AC compressor replacement on a Fit is a moderate repair. The compressor is accessible, and the system is relatively simple compared to larger vehicles. We recharge the system with the correct refrigerant amount and test for leaks after the repair.'
+          },
+          {
+            q: 'Do you tow? My Fit is stuck and cannot be driven.',
+            a: 'Yes. We coordinate with local tow providers and can help get your Fit to our South Salt Lake shop. Call or text us and we will take care of arranging the tow.'
+          },
+          {
+            q: 'How quickly can you turn around a Fit repair?',
+            a: 'Most Fit repairs are done same-day or next-day. We diagnose in 1–2 hours and always call with an estimate before touching anything. Same-day parts availability makes quick turnarounds realistic for most jobs.'
           }
         ]
       },
@@ -673,6 +729,14 @@ module.exports = {
           {
             q: 'Is the 3rd gen Insight reliable?',
             a: 'The 2019–2022 Insight is a well-engineered parallel hybrid with a good reliability record. The main maintenance items are brake rotor maintenance (rotors can surface rust from light brake use), tire rotation, and following Honda\'s Maintenance Minder system. The hybrid battery is designed to last the vehicle\'s life.'
+          },
+          {
+            q: 'Can you tow my Insight to the shop if it is not drivable?',
+            a: 'Yes. We work with local tow companies and can coordinate getting your Insight to our South Salt Lake shop. Just call or text us and we will help get it here safely.'
+          },
+          {
+            q: 'How long will my Insight take to diagnose and repair?',
+            a: 'Diagnostics typically take 1–2 hours. Most repairs are completed same-day or next-day. We always call you with a full estimate before beginning any work, so there are no surprises on the bill or the timeline.'
           }
         ]
       },
@@ -728,6 +792,14 @@ module.exports = {
           {
             q: 'Are parts still available for the Element?',
             a: 'Yes. Despite being discontinued in 2011, the Element shares its engine, transmission, and most suspension components with the CR-V and Accord of the same era. Parts availability is excellent through Honda dealers and aftermarket suppliers. Unique body parts like the clamshell doors can be harder to find, but mechanical parts are not an issue.'
+          },
+          {
+            q: 'If my Element is not drivable, can you arrange a tow?',
+            a: 'Yes — we coordinate with local tow providers and can help get your Element to our South Salt Lake shop. Call or text us and we will work out the logistics so you are not stuck figuring it out alone.'
+          },
+          {
+            q: 'How long does an Element repair take?',
+            a: 'Most repairs are completed same-day or next-day. We will diagnose your Element in about 1–2 hours and call you with a clear estimate before starting any work. No guessing on time or cost.'
           }
         ]
       },
