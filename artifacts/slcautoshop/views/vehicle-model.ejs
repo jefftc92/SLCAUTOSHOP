@@ -37,16 +37,6 @@
       <span class="tag"><%= gen.label %> (<%= gen.years %>)</span>
       <% }) %>
     </div>
-    <% if (model.generations.some(function(g) { return g.notes; })) { %>
-    <div class="issues-grid mt-6">
-      <% model.generations.filter(function(g) { return g.notes; }).forEach(function(gen) { %>
-      <div class="issue-card">
-        <h3><%= gen.label %> &mdash; <%= gen.years %></h3>
-        <p><%= gen.notes %></p>
-      </div>
-      <% }) %>
-    </div>
-    <% } %>
     <% } else if (model.yearRange) { %>
     <div class="prose mw-760 mt-5">
       <p>We service all <%= model.fullName %> vehicles, covering production years <%= model.yearRange %>. Whatever generation you drive, our technicians have seen it — and know its quirks.</p>
