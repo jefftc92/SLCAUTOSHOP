@@ -31,8 +31,16 @@
     </div>
     <% } %>
     <div class="brand-tags mt-5">
-      <% brand.models.forEach(m => { %>
-      <span class="tag"><%= brand.name %> <%= m %></span>
+      <% brand.models.forEach(m => {
+        const makeModels = typeof vehicleModels !== 'undefined' && brand.makeKey && vehicleModels[brand.makeKey];
+        const modelData = makeModels && makeModels.models.find(md => md.name === m);
+        const modelSlug = modelData ? '/vehicle-brands/' + brand.makeKey + '/' + modelData.slug + '-repair-salt-lake-city-ut' : null;
+      %>
+        <% if (modelSlug) { %>
+          <a href="<%= modelSlug %>" class="tag tag-link"><%= brand.name %> <%= m %></a>
+        <% } else { %>
+          <span class="tag"><%= brand.name %> <%= m %></span>
+        <% } %>
       <% }) %>
     </div>
     <p class="mt-5">Have questions about your specific <%= brand.name %>? Give us a call or send a quick text — we're happy to help.</p>
@@ -253,8 +261,16 @@
     <h2><%= brand.name %> Vehicles We Service</h2>
     <p class="section-subtitle">These are some of the <%= brand.name %> vehicles we work on most often at our South Salt Lake shop. We service all <%= brand.name %> models — if yours isn't listed, that just means we don't see it every day.</p>
     <div class="brand-tags mt-5">
-      <% brand.models.forEach(m => { %>
-      <span class="tag"><%= brand.name %> <%= m %></span>
+      <% brand.models.forEach(m => {
+        const makeModels = typeof vehicleModels !== 'undefined' && brand.makeKey && vehicleModels[brand.makeKey];
+        const modelData = makeModels && makeModels.models.find(md => md.name === m);
+        const modelSlug = modelData ? '/vehicle-brands/' + brand.makeKey + '/' + modelData.slug + '-repair-salt-lake-city-ut' : null;
+      %>
+        <% if (modelSlug) { %>
+          <a href="<%= modelSlug %>" class="tag tag-link"><%= brand.name %> <%= m %></a>
+        <% } else { %>
+          <span class="tag"><%= brand.name %> <%= m %></span>
+        <% } %>
       <% }) %>
     </div>
     <p class="mt-5">Have questions about your specific <%= brand.name %>? Give us a call or send a quick text — we're happy to help.</p>

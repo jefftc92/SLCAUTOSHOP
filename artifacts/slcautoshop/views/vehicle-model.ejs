@@ -1,0 +1,92 @@
+<%- include('partials/header') %>
+
+<%- include('partials/breadcrumbs', {breadcrumbs: breadcrumbs}) %>
+
+<section class="page-hero">
+  <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('<%= brand.heroImage || site.heroImage %>')}</style>
+  <div class="page-hero-bg"></div>
+  <div class="container">
+    <h1><%= model.heading %></h1>
+    <p><%= model.intro %></p>
+    <div class="hero-buttons">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I need service for my ' + model.fullName + '.') %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- Common Issues -->
+<section class="content-section">
+  <div class="container">
+    <h2>Common <%= model.fullName %> Repairs &amp; Issues</h2>
+    <p class="section-subtitle">These are the <%= model.fullName %> problems we see most often at our South Salt Lake shop. Every job starts with a thorough diagnosis so you know exactly what is going on before any work begins.</p>
+    <div class="issues-grid">
+      <% model.commonIssues.forEach(issue => { %>
+      <div class="issue-card">
+        <% if (issue.serviceSlug) { %>
+        <h3><a href="<%= issue.serviceSlug %>" class="issue-link"><%= issue.title %></a></h3>
+        <% } else { %>
+        <h3><%= issue.title %></h3>
+        <% } %>
+        <p><%= issue.desc %></p>
+        <% if (issue.serviceSlug) { %>
+        <a href="<%= issue.serviceSlug %>" class="card-link-sm">Learn more →</a>
+        <% } %>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<!-- About the Model -->
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>About the <%= model.fullName %></h2>
+    <p class="section-subtitle">Production years: <%= model.yearRange %></p>
+    <div class="prose mw-760">
+      <% model.overview.forEach(function(para) { %>
+      <p><%= para %></p>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<% var pageFaqs = model.faqs.map(function(f) { return { q: f.q, a: f.a }; }); %>
+<% var faqTitle = 'Frequently Asked Questions — ' + model.fullName + ' Repair'; %>
+<% var faqAlt = false; %>
+<%- include('partials/faq') %>
+
+<!-- CTA back to Brand Page -->
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>All Honda Models We Service</h2>
+    <p>We service the full Honda lineup — not just the <%= model.name %>. Visit our Honda brand page to see every model we work on, read about Honda-specific service procedures, and learn what makes our shop the right choice for Honda owners in Salt Lake City.</p>
+    <div class="hero-buttons">
+      <a href="/vehicle-brands/<%= makeData.brandSlug %>" class="btn btn-outline">View All Honda Services</a>
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+    </div>
+  </div>
+</section>
+
+<!-- Service Areas -->
+<section class="content-section">
+  <div class="container">
+    <h2><%= model.fullName %> Repair — Service Areas</h2>
+    <p class="section-subtitle">Our shop in South Salt Lake is centrally located — most Salt Lake Valley customers are within 15 minutes.</p>
+    <div class="locations-grid-compact mt-4">
+      <% allLocations.forEach(l => { %>
+      <a href="/locations/<%= l.slug %>" class="location-tag">
+        <strong><%= l.name %>, UT</strong>
+        <span><%= l.isHome ? 'Our Location' : l.driveTime + ' away' %></span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/testimonials') %>
+
+<% var ctaTitle = "Need " + model.fullName + " Repair?"; var ctaDesc = "Contact Scott's Auto & Clutch Repair today. Expert " + model.fullName + " service at honest prices in Salt Lake City."; %>
+<%- include('partials/cta') %>
+<%- include('partials/footer') %>
