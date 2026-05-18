@@ -240,6 +240,8 @@ module.exports = {
         "heading": "Honda Accord Repair in Salt Lake City, UT",
         "metaTitle": "Honda Accord Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda Accord repair in Salt Lake City — timing belt, CVT service, ATF fluid, clutch, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
+        "intro": "The Honda Accord is one of the most common vehicles at our South Salt Lake shop — family sedans, V6 coupes, and turbocharged models come through regularly. We know the Accord's generation-specific failure points well and keep the right fluids and parts on hand.",
+        "whatHeading": "Full-Service Honda Accord Repair — All Generations, All Models",
         "whatIntro": "We service all Honda Accord generations at our South Salt Lake shop — from carbureted first-gen coupes to the modern CVT-equipped 11th generation. Every visit starts with a free diagnosis so you know exactly what your Accord needs before we touch it.",
         "generations": [
           {
@@ -451,6 +453,8 @@ module.exports = {
         "heading": "Honda CR-V Repair in Salt Lake City, UT",
         "metaTitle": "Honda CR-V Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda CR-V repair in Salt Lake City — 1.5T oil dilution, AWD rear diff service, AC compressor, timing chain, and full maintenance. (801) 485-4089.",
+        "intro": "The Honda CR-V is one of the most popular compact SUVs we service. Utah drivers trust it for AWD capability and reliability — and we know its generation-specific issues well, including the significant 1.5T oil dilution problem affecting 2017–2019 models.",
+        "whatHeading": "Full-Service Honda CR-V Repair — All Generations, All Trims",
         "whatIntro": "We service all Honda CR-V generations at our South Salt Lake shop — including the notorious 1.5T oil dilution issue and the AWD rear differential service that dealers routinely overlook. Every visit starts with a free diagnosis so you know exactly what your CR-V needs before we touch it.",
         "generations": [
           {
@@ -642,6 +646,8 @@ module.exports = {
         "heading": "Honda Pilot Repair in Salt Lake City, UT",
         "metaTitle": "Honda Pilot Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda Pilot repair in Salt Lake City — timing belt (2003–2008), VCM oil consumption, ATF service, and AWD maintenance. Scott's Auto. (801) 485-4089.",
+        "intro": "The Honda Pilot is a popular three-row family SUV and a regular at our South Salt Lake shop. First generation models have a critically important timing belt that many owners miss. Newer Pilots have known issues centered on the Variable Cylinder Management system.",
+        "whatHeading": "Full-Service Honda Pilot Repair — All Generations, All Trims",
         "whatIntro": "We service all Honda Pilot generations at our South Salt Lake shop — including the J35 timing belt jobs on 1st-gen models and VCM oil consumption monitoring on 2nd and 3rd gen V6s. Every visit starts with a free diagnosis so you know exactly what your Pilot needs before we touch it.",
         "generations": [
           {
@@ -825,6 +831,8 @@ module.exports = {
         "heading": "Honda HR-V Repair in Salt Lake City, UT",
         "metaTitle": "Honda HR-V Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda HR-V repair in Salt Lake City — CVT service, timing chain, brake maintenance, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
+        "intro": "The Honda HR-V is a subcompact crossover known for practical interior space and fuel economy. It is one of Honda's more straightforward platforms to maintain — but the CVT transmission requires proper fluid service that is frequently overlooked.",
+        "whatHeading": "Full-Service Honda HR-V Repair — All Generations, All Trims",
         "whatIntro": "We service all Honda HR-V generations at our South Salt Lake shop — including CVT fluid changes that many shops skip and timing chain inspections on high-mileage Earth Dreams engines. Every visit starts with a free diagnosis so you know exactly what your HR-V needs before we touch it.",
         "generations": [
           {
@@ -994,6 +1002,8 @@ module.exports = {
         "heading": "Honda Odyssey Repair in Salt Lake City, UT",
         "metaTitle": "Honda Odyssey Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda Odyssey repair in Salt Lake City — VCM oil consumption, ATF shudder, sliding door cables, exhaust manifold, and full service. (801) 485-4089.",
+        "intro": "The Honda Odyssey is a perennial favorite for Utah families and a regular visitor to our shop. Odysseys are well-built minivans, but the V6 VCM system and automatic transmission require careful attention to stay in top condition.",
+        "whatHeading": "Full-Service Honda Odyssey Repair — All Generations, All Trims",
         "whatIntro": "We service all Honda Odyssey generations at our South Salt Lake shop — from the original RA1 minivan through today's fifth-gen with VCM and eight-speed transmission. Every visit starts with a free diagnosis so you know exactly what your Odyssey needs before we touch it.",
         "generations": [
           {
@@ -1181,6 +1191,8 @@ module.exports = {
         "heading": "Honda Ridgeline Repair in Salt Lake City, UT",
         "metaTitle": "Honda Ridgeline Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda Ridgeline repair in Salt Lake City — VCM, AWD diff service, ATF, and full maintenance for America's unibody pickup. (801) 485-4089.",
+        "intro": "The Honda Ridgeline is America's only unibody pickup and shares its J35 V6 powertrain with the Pilot and Odyssey. That means it carries the same platform strengths — and the same known issues around VCM and transmission service.",
+        "whatHeading": "Full-Service Honda Ridgeline Repair — All Generations",
         "whatIntro": "We service all Honda Ridgeline generations at our South Salt Lake shop — including the original YK1 unibody and the redesigned YK2 with its dual-action tailgate and AWD system. Every visit starts with a free diagnosis so you know exactly what your Ridgeline needs before we touch it.",
         "generations": [
           {
@@ -1352,6 +1364,8 @@ module.exports = {
         "heading": "Honda Fit Repair in Salt Lake City, UT",
         "metaTitle": "Honda Fit Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda Fit repair in Salt Lake City — CVT fluid service, AC compressor, timing chain, and full maintenance. Small car, big reliability. (801) 485-4089.",
+        "intro": "The Honda Fit is a small car with outsized reliability. Its efficient 1.5-liter engine and flexible Magic Seat interior make it popular with commuters. The most common issue we see is skipped CVT fluid service — easy to fix before it becomes expensive.",
+        "whatHeading": "Full-Service Honda Fit Repair — All Generations, All Trims",
         "whatIntro": "We service all Honda Fit generations at our South Salt Lake shop — from the original GD through the final GK, including manual and CVT-equipped models. Every visit starts with a free diagnosis so you know exactly what your Fit needs before we touch it.",
         "generations": [
           {
@@ -1527,6 +1541,8 @@ module.exports = {
         "heading": "Honda Insight Repair in Salt Lake City, UT",
         "metaTitle": "Honda Insight Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda Insight repair in Salt Lake City — IMA hybrid battery service, 1st gen manual transmission, 3rd gen hybrid system, and full diagnostics. (801) 485-4089.",
+        "intro": "The Honda Insight spanned three distinct generations over more than two decades — from a tiny two-seat hybrid to a conventional compact hybrid sedan. The IMA battery pack on first and second generation models is the primary repair concern on older examples.",
+        "whatHeading": "Full-Service Honda Insight Repair — All Generations",
         "whatIntro": "We service all Honda Insight generations at our South Salt Lake shop — from the original two-seat ZE1 with its 5-speed manual and IMA system through the 3rd gen ZE4's conventional hybrid drivetrain. Every visit starts with a free diagnosis so you know exactly what your Insight needs before we touch it.",
         "generations": [
           {
@@ -1702,6 +1718,8 @@ module.exports = {
         "heading": "Honda Element Repair in Salt Lake City, UT",
         "metaTitle": "Honda Element Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda Element repair in Salt Lake City — K24 timing chain, VTEC solenoid, CV axles, AWD service. Cult-favorite Honda maintained right. (801) 485-4089.",
+        "intro": "The Honda Element has a devoted following, and we enjoy working on them. The K24 engine is one of Honda's best — proven, durable, and well-supported. Elements are built on the CR-V platform, so service procedures are familiar and parts are easy to source.",
+        "whatHeading": "Full-Service Honda Element Repair — All Model Years",
         "whatIntro": "We service all Honda Element generations at our South Salt Lake shop — from the boxy first-series SC to the final 2011 models, including AWD and 2WD configurations. Every visit starts with a free diagnosis so you know exactly what your Element needs before we touch it.",
         "generations": [
           {
@@ -1867,6 +1885,8 @@ module.exports = {
         "heading": "Honda S2000 Repair in Salt Lake City, UT",
         "metaTitle": "Honda S2000 Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda S2000 repair in Salt Lake City — clutch, VTEC solenoid, high-RPM engine maintenance, and soft top service. Enthusiast car serviced right. (801) 485-4089.",
+        "intro": "The Honda S2000 is a driver's car in the truest sense — a naturally aspirated roadster that revs to 9,000 rpm and rewards precise inputs. We treat every S2000 with the care an enthusiast machine deserves. Clutch wear, high-RPM oil management, and VTEC maintenance are the primary service items.",
+        "whatHeading": "Full-Service Honda S2000 Repair — AP1 and AP2",
         "whatIntro": "We service all Honda S2000 generations at our South Salt Lake shop — AP1 F20C and AP2 F22C engines treated with the precision they demand. Every visit starts with a free diagnosis so you know exactly what your S2000 needs before we touch it.",
         "generations": [
           {
@@ -2036,6 +2056,8 @@ module.exports = {
         "heading": "Honda Prelude Repair in Salt Lake City, UT",
         "metaTitle": "Honda Prelude Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda Prelude repair in Salt Lake City — H22A VTEC service, clutch, ATTS diagnostics, and maintenance for all Prelude generations. (801) 485-4089.",
+        "intro": "The Honda Prelude ran for five generations from 1978 to 2001, and the 5th gen with the H22A VTEC engine remains a favorite among Honda enthusiasts. We service all Prelude generations, with most of our work centered on the last two.",
+        "whatHeading": "Full-Service Honda Prelude Repair — All Generations",
         "whatIntro": "We service all Honda Prelude generations at our South Salt Lake shop — from first-gen carbureted models through the H22A VTEC fifth-generation cars, including the rare ATTS-equipped fourth-gen. Every visit starts with a free diagnosis so you know exactly what your Prelude needs before we touch it.",
         "generations": [
           {
@@ -2213,6 +2235,8 @@ module.exports = {
         "heading": "Honda Del Sol Repair in Salt Lake City, UT",
         "metaTitle": "Honda Del Sol Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda Del Sol repair in Salt Lake City — B16A VTEC service, clutch, aged rubber inspection, and retractable targa top maintenance. (801) 485-4089.",
+        "intro": "The Honda Del Sol — technically the Honda Civic Del Sol — was Honda's sporty two-seater from 1992 to 1997. With its retractable targa-style hardtop and B16A VTEC engine on VTEC models, it remains a well-loved enthusiast platform. At 25+ years old, it requires careful attention to aging components.",
+        "whatHeading": "Full-Service Honda Del Sol Repair — All Trims",
         "whatIntro": "We service all Honda Del Sol generations at our South Salt Lake shop — from base S models to the B16A VTEC trim, all on the EG chassis — with a thorough eye for the aging components these cars need addressed after 27-plus years. Every visit starts with a free diagnosis so you know exactly what your Del Sol needs before we touch it.",
         "generations": [
           {
@@ -2382,6 +2406,8 @@ module.exports = {
         "heading": "Honda CRX Repair in Salt Lake City, UT",
         "metaTitle": "Honda CRX Repair Salt Lake City | Scott's Auto & Clutch Repair",
         "metaDesc": "Honda CRX repair in Salt Lake City — preventive maintenance, B16A/ZC engine service, clutch, and aging component inspection for all CRX generations. (801) 485-4089.",
+        "intro": "The Honda CRX is a legendary lightweight compact — the HF achieved remarkable fuel economy and the Si was a genuine driver's car in miniature form. At 33–42 years old, CRX maintenance is primarily about proactive care of aging systems rather than chasing common defects.",
+        "whatHeading": "Full-Service Honda CRX Repair — All Generations",
         "whatIntro": "We service all Honda CRX generations at our South Salt Lake shop — first-gen AF carbureted models through the second-gen EF platform, including Si and HF trim — with the comprehensive attention that 33-to-42-year-old cars demand. Every visit starts with a free diagnosis so you know exactly what your CRX needs before we touch it.",
         "generations": [
           {
