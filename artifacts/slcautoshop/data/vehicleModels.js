@@ -420,28 +420,28 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "Does my Accord have a timing belt or timing chain?",
-            "answer": "It depends on the year and engine. The 6th-generation V6 (1998–2002) uses a timing belt in an interference engine — this is a critical replacement at 90,000 miles. Most 4-cylinder Accords from the K-series era (2003+) use a timing chain that does not have a scheduled replacement interval but can wear on high-mileage engines with infrequent oil changes. When you call or bring the car in, we'll confirm which your Accord has and what the current service status is."
+            "q": "Does my Accord have a timing belt or timing chain?",
+            "a": "It depends on the year and engine. The 6th-generation V6 (1998–2002) uses a timing belt in an interference engine — this is a critical replacement at 90,000 miles. Most 4-cylinder Accords from the K-series era (2003+) use a timing chain that does not have a scheduled replacement interval but can wear on high-mileage engines with infrequent oil changes. When you call or bring the car in, we'll confirm which your Accord has and what the current service status is."
           },
           {
-            "question": "My 2019 Accord CVT shudders when I accelerate slowly — what is causing it?",
-            "answer": "Low-speed shudder on the 10th-generation Accord CVT is almost always caused by degraded continuously variable transmission fluid. Honda issued a service bulletin on this. We drain the old CVTF, refill with Honda-specification fluid, and road-test to confirm the shudder is gone. In most cases this resolves the problem without any mechanical repairs."
+            "q": "My 2019 Accord CVT shudders when I accelerate slowly — what is causing it?",
+            "a": "Low-speed shudder on the 10th-generation Accord CVT is almost always caused by degraded continuously variable transmission fluid. Honda issued a service bulletin on this. We drain the old CVTF, refill with Honda-specification fluid, and road-test to confirm the shudder is gone. In most cases this resolves the problem without any mechanical repairs."
           },
           {
-            "question": "What ATF does my Accord automatic transmission require?",
-            "answer": "All Honda Accord automatic transmissions require Honda DW-1 ATF. Using a generic Dexron or \"compatible\" fluid — even one labeled as a Honda substitute — can cause shudder, delayed shifts, and premature transmission wear. We stock DW-1 and use it exclusively for Accord ATF services."
+            "q": "What ATF does my Accord automatic transmission require?",
+            "a": "All Honda Accord automatic transmissions require Honda DW-1 ATF. Using a generic Dexron or \"compatible\" fluid — even one labeled as a Honda substitute — can cause shudder, delayed shifts, and premature transmission wear. We stock DW-1 and use it exclusively for Accord ATF services."
           },
           {
-            "question": "Do you service high-mileage Accords?",
-            "answer": "Absolutely. Many of our customers drive Accords well past 200,000 miles. High-mileage Accords often need timing chain tensioner attention, valve cover gaskets, and transmission fluid changes — we assess the overall condition of the car and help you prioritize what's worth fixing versus what the car's value doesn't justify."
+            "q": "Do you service high-mileage Accords?",
+            "a": "Absolutely. Many of our customers drive Accords well past 200,000 miles. High-mileage Accords often need timing chain tensioner attention, valve cover gaskets, and transmission fluid changes — we assess the overall condition of the car and help you prioritize what's worth fixing versus what the car's value doesn't justify."
           },
           {
-            "question": "Can you tow my Accord to the shop if it will not start or is not drivable?",
-            "answer": "Yes. Call us at (801) 485-4089 and we can help coordinate towing to our South Salt Lake shop. Once the car arrives we'll diagnose it and call you with findings before doing any work."
+            "q": "Can you tow my Accord to the shop if it will not start or is not drivable?",
+            "a": "Yes. Call us at (801) 485-4089 and we can help coordinate towing to our South Salt Lake shop. Once the car arrives we'll diagnose it and call you with findings before doing any work."
           },
           {
-            "question": "How long will my Accord be at the shop?",
-            "answer": "Most Accord repairs — including clutch replacements, timing belt jobs, and ATF services — are completed same-day or within one business day. Complex engine or transmission repairs may take longer. We give you a time estimate when we provide the written quote and call you if anything changes."
+            "q": "How long will my Accord be at the shop?",
+            "a": "Most Accord repairs — including clutch replacements, timing belt jobs, and ATF services — are completed same-day or within one business day. Complex engine or transmission repairs may take longer. We give you a time estimate when we provide the written quote and call you if anything changes."
           }
         ]
       },
@@ -613,28 +613,28 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "My 2018 CR-V oil smells like gasoline — what is going on?",
-            "answer": "That's the 1.5T oil dilution issue. On 2017–2019 CR-Vs with the 1.5-liter turbocharged engine, short cold-weather trips can cause unburned fuel to wash past the piston rings into the engine oil. The oil level rises and smells of gasoline. Bring it in — we'll confirm the condition, perform an early oil change if needed, and advise on driving habits that reduce the problem. In severe cases we document everything for potential warranty or goodwill claims."
+            "q": "My 2018 CR-V oil smells like gasoline — what is going on?",
+            "a": "That's the 1.5T oil dilution issue. On 2017–2019 CR-Vs with the 1.5-liter turbocharged engine, short cold-weather trips can cause unburned fuel to wash past the piston rings into the engine oil. The oil level rises and smells of gasoline. Bring it in — we'll confirm the condition, perform an early oil change if needed, and advise on driving habits that reduce the problem. In severe cases we document everything for potential warranty or goodwill claims."
           },
           {
-            "question": "Does the CR-V AWD system need special service?",
-            "answer": "Yes. AWD CR-Vs have a rear differential that uses its own fluid — separate from engine oil and transmission fluid. Honda recommends changing it every 30,000 miles, but many shops skip it because it's not on a standard service menu. We include it on every AWD CR-V inspection and service it on the correct interval with Honda dual-pump fluid."
+            "q": "Does the CR-V AWD system need special service?",
+            "a": "Yes. AWD CR-Vs have a rear differential that uses its own fluid — separate from engine oil and transmission fluid. Honda recommends changing it every 30,000 miles, but many shops skip it because it's not on a standard service menu. We include it on every AWD CR-V inspection and service it on the correct interval with Honda dual-pump fluid."
           },
           {
-            "question": "My 2013 CR-V AC stopped working and makes a grinding noise — what happened?",
-            "answer": "This is the known AC compressor failure on 4th-gen CR-Vs (2012–2016). The compressor seizes and often sends metal debris through the refrigerant system. Replacing only the compressor without flushing the condenser and lines leads to repeat failure. We replace the compressor, flush the system, and replace the receiver-drier for a complete, lasting repair."
+            "q": "My 2013 CR-V AC stopped working and makes a grinding noise — what happened?",
+            "a": "This is the known AC compressor failure on 4th-gen CR-Vs (2012–2016). The compressor seizes and often sends metal debris through the refrigerant system. Replacing only the compressor without flushing the condenser and lines leads to repeat failure. We replace the compressor, flush the system, and replace the receiver-drier for a complete, lasting repair."
           },
           {
-            "question": "Does the CR-V have a timing belt or timing chain?",
-            "answer": "All CR-V generations use a timing chain — there is no timing belt and no scheduled replacement interval. However, chains on high-mileage CR-Vs with inconsistent oil change history can stretch and develop cold-start rattle. If you hear a rattling noise at startup that goes away after a few seconds, bring it in for a timing chain inspection."
+            "q": "Does the CR-V have a timing belt or timing chain?",
+            "a": "All CR-V generations use a timing chain — there is no timing belt and no scheduled replacement interval. However, chains on high-mileage CR-Vs with inconsistent oil change history can stretch and develop cold-start rattle. If you hear a rattling noise at startup that goes away after a few seconds, bring it in for a timing chain inspection."
           },
           {
-            "question": "Do you tow? My CR-V is not drivable.",
-            "answer": "Yes — call us at (801) 485-4089 and we'll help you coordinate a tow to our South Salt Lake shop. We'll diagnose the vehicle when it arrives and contact you with findings and a written estimate before any repairs begin."
+            "q": "Do you tow? My CR-V is not drivable.",
+            "a": "Yes — call us at (801) 485-4089 and we'll help you coordinate a tow to our South Salt Lake shop. We'll diagnose the vehicle when it arrives and contact you with findings and a written estimate before any repairs begin."
           },
           {
-            "question": "How long does a typical CR-V repair take?",
-            "answer": "Most maintenance services and common repairs — brake service, CVT fluid, differential service, AC recharge — are completed same-day. Timing chain work and AC compressor replacement typically take one to two business days. We give you a time estimate when we provide the written quote and call you with updates if anything changes."
+            "q": "How long does a typical CR-V repair take?",
+            "a": "Most maintenance services and common repairs — brake service, CVT fluid, differential service, AC recharge — are completed same-day. Timing chain work and AC compressor replacement typically take one to two business days. We give you a time estimate when we provide the written quote and call you with updates if anything changes."
           }
         ]
       },
@@ -798,28 +798,28 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "Does my 2006 Pilot have a timing belt or timing chain?",
-            "answer": "The 2003–2008 Honda Pilot uses a timing belt on the J35A V6 — it is an interference engine with a 90,000-mile replacement interval. If the belt breaks the engine sustains severe internal damage. Starting with the 2nd generation (2009+) Honda switched to a timing chain with no scheduled replacement interval."
+            "q": "Does my 2006 Pilot have a timing belt or timing chain?",
+            "a": "The 2003–2008 Honda Pilot uses a timing belt on the J35A V6 — it is an interference engine with a 90,000-mile replacement interval. If the belt breaks the engine sustains severe internal damage. Starting with the 2nd generation (2009+) Honda switched to a timing chain with no scheduled replacement interval."
           },
           {
-            "question": "My Pilot uses oil between changes. Is that normal?",
-            "answer": "On 2nd and 3rd gen Pilots (2009–2022) with Honda's VCM system, some oil consumption is common — Honda considers up to one quart per 1,000 miles within specification, though many owners find that frustrating. The key is monitoring it so you never run low. If consumption is worse than that, bring it in — we can check piston ring condition and valve seals to determine whether anything mechanical is contributing."
+            "q": "My Pilot uses oil between changes. Is that normal?",
+            "a": "On 2nd and 3rd gen Pilots (2009–2022) with Honda's VCM system, some oil consumption is common — Honda considers up to one quart per 1,000 miles within specification, though many owners find that frustrating. The key is monitoring it so you never run low. If consumption is worse than that, bring it in — we can check piston ring condition and valve seals to determine whether anything mechanical is contributing."
           },
           {
-            "question": "What is involved in a Pilot timing belt job?",
-            "answer": "A complete Pilot timing belt service includes the timing belt, tensioner, idler pulley, and water pump — all replaced as a kit. We also inspect and often replace the accessory belts at the same time since the front of the engine is already apart. On a 2003–2008 Pilot this is a significant job, but it's the most important preventive maintenance item on these trucks."
+            "q": "What is involved in a Pilot timing belt job?",
+            "a": "A complete Pilot timing belt service includes the timing belt, tensioner, idler pulley, and water pump — all replaced as a kit. We also inspect and often replace the accessory belts at the same time since the front of the engine is already apart. On a 2003–2008 Pilot this is a significant job, but it's the most important preventive maintenance item on these trucks."
           },
           {
-            "question": "Does the AWD Pilot need rear differential service?",
-            "answer": "Yes. AWD Pilots have a rear differential that requires its own fluid change — Honda recommends every 30,000 miles. The front differential fluid (integral to the transmission) also needs periodic service. Both are commonly skipped, which accelerates wear on the AWD coupling and differential bearings. We service both on every AWD Pilot we see."
+            "q": "Does the AWD Pilot need rear differential service?",
+            "a": "Yes. AWD Pilots have a rear differential that requires its own fluid change — Honda recommends every 30,000 miles. The front differential fluid (integral to the transmission) also needs periodic service. Both are commonly skipped, which accelerates wear on the AWD coupling and differential bearings. We service both on every AWD Pilot we see."
           },
           {
-            "question": "Can you tow my Pilot to your shop?",
-            "answer": "Yes. Call us at (801) 485-4089 and we'll help coordinate towing to our South Salt Lake location. We'll inspect the Pilot when it arrives and call you with a written estimate before any repairs are started."
+            "q": "Can you tow my Pilot to your shop?",
+            "a": "Yes. Call us at (801) 485-4089 and we'll help coordinate towing to our South Salt Lake location. We'll inspect the Pilot when it arrives and call you with a written estimate before any repairs are started."
           },
           {
-            "question": "How long will my Pilot be in the shop?",
-            "answer": "Routine services like brake jobs, differential fluid, and ATF are usually same-day. A timing belt kit job on a 1st-gen Pilot typically takes one full day. More involved repairs such as transmission work may take two to three days. We give you a realistic time estimate upfront and keep you informed if anything changes."
+            "q": "How long will my Pilot be in the shop?",
+            "a": "Routine services like brake jobs, differential fluid, and ATF are usually same-day. A timing belt kit job on a 1st-gen Pilot typically takes one full day. More involved repairs such as transmission work may take two to three days. We give you a realistic time estimate upfront and keep you informed if anything changes."
           }
         ]
       },
@@ -969,28 +969,28 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "Does the HR-V CVT need service, or is it sealed for life?",
-            "answer": "The HR-V CVT is not a true lifetime unit — Honda recommends CVTF changes on a schedule, and most technicians advise every 30,000–45,000 miles for normal driving or sooner if you drive in stop-and-go traffic or tow. Degraded CVTF causes low-speed shudder and long-term belt and pulley wear. We perform a proper drain-and-refill with Honda-specification CVTF and road-test to confirm the CVT behavior is correct."
+            "q": "Does the HR-V CVT need service, or is it sealed for life?",
+            "a": "The HR-V CVT is not a true lifetime unit — Honda recommends CVTF changes on a schedule, and most technicians advise every 30,000–45,000 miles for normal driving or sooner if you drive in stop-and-go traffic or tow. Degraded CVTF causes low-speed shudder and long-term belt and pulley wear. We perform a proper drain-and-refill with Honda-specification CVTF and road-test to confirm the CVT behavior is correct."
           },
           {
-            "question": "My HR-V rear brakes are worn out but the fronts are fine. Is that normal?",
-            "answer": "Yes — the HR-V has a rear-biased brake distribution that causes rear pads to wear faster than fronts. This is a known characteristic of the platform. It surprises owners who expect front brakes to go first. We always measure all four corners so you have accurate wear data for all brakes, not just the ones that look worn."
+            "q": "My HR-V rear brakes are worn out but the fronts are fine. Is that normal?",
+            "a": "Yes — the HR-V has a rear-biased brake distribution that causes rear pads to wear faster than fronts. This is a known characteristic of the platform. It surprises owners who expect front brakes to go first. We always measure all four corners so you have accurate wear data for all brakes, not just the ones that look worn."
           },
           {
-            "question": "Does the HR-V have a timing belt that needs replacement?",
-            "answer": "No — both the 1st-gen 1.8L and 2nd-gen 2.0L HR-V use a timing chain, not a belt. There is no scheduled replacement interval. However, timing chains can wear on high-mileage engines with infrequent oil changes. If you hear a rattling noise at cold startup that fades as the engine warms, have the timing chain tensioner inspected."
+            "q": "Does the HR-V have a timing belt that needs replacement?",
+            "a": "No — both the 1st-gen 1.8L and 2nd-gen 2.0L HR-V use a timing chain, not a belt. There is no scheduled replacement interval. However, timing chains can wear on high-mileage engines with infrequent oil changes. If you hear a rattling noise at cold startup that fades as the engine warms, have the timing chain tensioner inspected."
           },
           {
-            "question": "How reliable is the HR-V overall?",
-            "answer": "The HR-V is genuinely reliable when properly maintained. The most common issues we see are deferred CVT fluid, worn rear brakes, and dusty air filters — all preventable. Owners who stay on top of fluid changes and don't ignore the rear brakes typically get well over 150,000 miles without major mechanical issues."
+            "q": "How reliable is the HR-V overall?",
+            "a": "The HR-V is genuinely reliable when properly maintained. The most common issues we see are deferred CVT fluid, worn rear brakes, and dusty air filters — all preventable. Owners who stay on top of fluid changes and don't ignore the rear brakes typically get well over 150,000 miles without major mechanical issues."
           },
           {
-            "question": "If my HR-V is not drivable, can you arrange a tow?",
-            "answer": "Yes. Call us at (801) 485-4089 and we'll help you arrange a tow to our South Salt Lake shop. Once your HR-V is here we'll diagnose it and call you with a written estimate before any repairs are started."
+            "q": "If my HR-V is not drivable, can you arrange a tow?",
+            "a": "Yes. Call us at (801) 485-4089 and we'll help you arrange a tow to our South Salt Lake shop. Once your HR-V is here we'll diagnose it and call you with a written estimate before any repairs are started."
           },
           {
-            "question": "What is the typical turnaround time for an HR-V repair?",
-            "answer": "Most HR-V services — CVT fluid, brake service, air filters, differential fluid — are completed same-day. Timing chain work typically takes one to two business days. We give you an upfront time estimate with every written quote and call you with updates if anything changes."
+            "q": "What is the typical turnaround time for an HR-V repair?",
+            "a": "Most HR-V services — CVT fluid, brake service, air filters, differential fluid — are completed same-day. Timing chain work typically takes one to two business days. We give you an upfront time estimate with every written quote and call you with updates if anything changes."
           }
         ]
       },
@@ -1088,7 +1088,7 @@ module.exports = {
         "whoContent": {
           "heading": "Who to Trust for Honda Odyssey Repair in South Salt Lake",
           "paras": [
-            "Scott's Auto & Clutch Repair has been the go-to independent shop for Honda owners in South Salt Lake and the greater Salt Lake City area for decades. Our technicians have hands-on experience with every Odyssey generation — from the original RA1 through the current eighth-seat RL6 — and we invest in Honda-specific diagnostic software so we're never guessing at fault codes. We're not a chain shop that treats your van as just another ticket; we're neighbors who care whether your family makes it safely to the next soccer game.",
+            "Scott's Auto & Clutch Repair has been the go-to independent shop for Honda owners in South Salt Lake and the greater Salt Lake City area for decades. Our technicians have hands-on experience with every Odyssey generation — from the original RA1 through the current eighth-seat RL6 — and we read fault codes carefully and verify the root cause so we're never guessing. We're not a chain shop that treats your van as just another ticket; we're neighbors who care whether your family makes it safely to the next soccer game.",
             "We keep common Odyssey wear parts — ATF, VTEC solenoids, manifold gaskets, sliding door cables — on the shelf so we can often complete repairs the same day you bring the van in. Our shop is easy to reach from Murray, Millcreek, Sugar House, and West Valley, and we offer a shuttle for customers who need to get to work while we work on their Odyssey. Every repair is backed by our workmanship guarantee, and we'll walk you through exactly what we did before you pay."
           ]
         },
@@ -1158,28 +1158,28 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "My Odyssey uses a quart of oil every 3,000 miles. Is that normal?",
-            "answer": "Honda considers up to one quart per 3,000 miles \"acceptable\" for VCM-equipped J35 engines, but we don't think you should just live with it. We can perform a consumption test and inspect piston rings and VTEC hardware to determine whether the rate is likely to increase and what your options are."
+            "q": "My Odyssey uses a quart of oil every 3,000 miles. Is that normal?",
+            "a": "Honda considers up to one quart per 3,000 miles \"acceptable\" for VCM-equipped J35 engines, but we don't think you should just live with it. We can perform a consumption test and inspect piston rings and VTEC hardware to determine whether the rate is likely to increase and what your options are."
           },
           {
-            "question": "My Odyssey shudders slightly when I accelerate from a stop. What causes that?",
-            "answer": "On 4th and 5th gen Odysseys (2011–present) the most common cause is degraded Honda DW-1 ATF causing torque converter shudder. A transmission fluid flush with fresh DW-1 resolves it in most cases. We diagnose before recommending to confirm it's not a motor mount or driveshaft issue."
+            "q": "My Odyssey shudders slightly when I accelerate from a stop. What causes that?",
+            "a": "On 4th and 5th gen Odysseys (2011–present) the most common cause is degraded Honda DW-1 ATF causing torque converter shudder. A transmission fluid flush with fresh DW-1 resolves it in most cases. We diagnose before recommending to confirm it's not a motor mount or driveshaft issue."
           },
           {
-            "question": "The sliding door on my Odyssey moves slowly and sometimes stops mid-track. Can you fix that?",
-            "answer": "Yes. The most common culprits are frayed or stretched power sliding door cables and worn rollers on the upper and lower tracks. We replace the cables, inspect all rollers, clean the tracks, and re-calibrate the door travel limits so both doors open and close reliably."
+            "q": "The sliding door on my Odyssey moves slowly and sometimes stops mid-track. Can you fix that?",
+            "a": "Yes. The most common culprits are frayed or stretched power sliding door cables and worn rollers on the upper and lower tracks. We replace the cables, inspect all rollers, clean the tracks, and re-calibrate the door travel limits so both doors open and close reliably."
           },
           {
-            "question": "My Odyssey ticks when it first starts up but the noise fades after a few minutes. What is that?",
-            "answer": "A cold-start tick that disappears after warm-up on a J35 Odyssey usually points to a cracked exhaust manifold. The crack seals as the metal expands. If left unaddressed, it can worsen into a full exhaust leak. We inspect the manifold flanges and gaskets and recommend repair before the crack grows."
+            "q": "My Odyssey ticks when it first starts up but the noise fades after a few minutes. What is that?",
+            "a": "A cold-start tick that disappears after warm-up on a J35 Odyssey usually points to a cracked exhaust manifold. The crack seals as the metal expands. If left unaddressed, it can worsen into a full exhaust leak. We inspect the manifold flanges and gaskets and recommend repair before the crack grows."
           },
           {
-            "question": "Can you tow my Odyssey to the shop if it breaks down?",
-            "answer": "Absolutely. We work with local tow services and can coordinate pickup for your Odyssey. Call us at (801) 485-4089 and we'll get you taken care of."
+            "q": "Can you tow my Odyssey to the shop if it breaks down?",
+            "a": "Absolutely. We work with local tow services and can coordinate pickup for your Odyssey. Call us at (801) 485-4089 and we'll get you taken care of."
           },
           {
-            "question": "How long does an Odyssey repair typically take?",
-            "answer": "Most routine Odyssey services — ATF flush, spark plugs, brake pads — are completed the same day. More involved repairs like exhaust manifold replacement or timing chain service typically take one to two days. We'll give you a time estimate upfront so you can plan accordingly."
+            "q": "How long does an Odyssey repair typically take?",
+            "a": "Most routine Odyssey services — ATF flush, spark plugs, brake pads — are completed the same day. More involved repairs like exhaust manifold replacement or timing chain service typically take one to two days. We'll give you a time estimate upfront so you can plan accordingly."
           }
         ]
       },
@@ -1265,7 +1265,7 @@ module.exports = {
         "whoContent": {
           "heading": "Who to Trust for Honda Ridgeline Repair in South Salt Lake",
           "paras": [
-            "Scott's Auto & Clutch Repair is South Salt Lake's trusted independent shop for Honda truck owners. We've worked on Ridgelines since the first YK1 rolled out in 2006, and we followed the platform through its 2017 redesign. Our technicians are Honda-trained and use factory-spec fluids and diagnostic software — not generic substitutes that can damage the VTM-4 AWD system or the 9-speed transmission on newer models.",
+            "Scott's Auto & Clutch Repair is South Salt Lake's trusted independent shop for Honda truck owners. We've worked on Ridgelines since the first YK1 rolled out in 2006, and we followed the platform through its 2017 redesign. We use manufacturer-spec fluids — not generic substitutes that can damage the VTM-4 AWD system or the 9-speed transmission on newer models.",
             "Located minutes from I-15 and the Murray/South Salt Lake border, we're easy to reach whether you're coming from Sandy, Taylorsville, or West Valley. We treat Ridgeline owners like the capable, no-nonsense drivers they are — clear diagnosis, fair pricing, and repairs done right the first time. Call us at (801) 485-4089 or drop in to schedule your next service."
           ]
         },
@@ -1335,24 +1335,24 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "Is the Ridgeline V6 the same engine as in the Pilot?",
-            "answer": "Yes — both the Ridgeline and the Pilot use variants of Honda's J35 V6. The 1st gen Ridgeline uses the J35A9 and the 2nd gen uses the J35Y. Because of this, many of the same maintenance items and known issues apply across both platforms, and our technicians are equally comfortable servicing either vehicle."
+            "q": "Is the Ridgeline V6 the same engine as in the Pilot?",
+            "a": "Yes — both the Ridgeline and the Pilot use variants of Honda's J35 V6. The 1st gen Ridgeline uses the J35A9 and the 2nd gen uses the J35Y. Because of this, many of the same maintenance items and known issues apply across both platforms, and our technicians are equally comfortable servicing either vehicle."
           },
           {
-            "question": "Can the Ridgeline handle towing? Does towing affect service intervals?",
-            "answer": "The Ridgeline is rated for up to 5,000 lbs towing. Regular towing does accelerate wear on the ATF and rear differential fluid — we recommend shortening those service intervals to every 15,000–20,000 miles if you tow frequently. Brake pads and rear shocks also wear faster under towing loads, and we inspect those at every visit."
+            "q": "Can the Ridgeline handle towing? Does towing affect service intervals?",
+            "a": "The Ridgeline is rated for up to 5,000 lbs towing. Regular towing does accelerate wear on the ATF and rear differential fluid — we recommend shortening those service intervals to every 15,000–20,000 miles if you tow frequently. Brake pads and rear shocks also wear faster under towing loads, and we inspect those at every visit."
           },
           {
-            "question": "Are Ridgeline parts difficult to find?",
-            "answer": "No — the Ridgeline shares most mechanical components with the Pilot and Odyssey, so parts are widely available and reasonably priced. Specialty items like the in-bed trunk lid struts or tailgate hardware can take a day to source, but we'll let you know upfront if that's the case."
+            "q": "Are Ridgeline parts difficult to find?",
+            "a": "No — the Ridgeline shares most mechanical components with the Pilot and Odyssey, so parts are widely available and reasonably priced. Specialty items like the in-bed trunk lid struts or tailgate hardware can take a day to source, but we'll let you know upfront if that's the case."
           },
           {
-            "question": "Can you tow my Ridgeline in if it is not running?",
-            "answer": "Yes. We work with local tow companies and can coordinate a flatbed pickup for your Ridgeline. Call us at (801) 485-4089 and we'll get it scheduled."
+            "q": "Can you tow my Ridgeline in if it is not running?",
+            "a": "Yes. We work with local tow companies and can coordinate a flatbed pickup for your Ridgeline. Call us at (801) 485-4089 and we'll get it scheduled."
           },
           {
-            "question": "How long will my Ridgeline be at the shop for repairs?",
-            "answer": "Most standard Ridgeline services — ATF service, brake job, exhaust manifold — are completed within one business day. More involved work like a cooling system repair or suspension overhaul may take two days. We'll give you a realistic time estimate before we start."
+            "q": "How long will my Ridgeline be at the shop for repairs?",
+            "a": "Most standard Ridgeline services — ATF service, brake job, exhaust manifold — are completed within one business day. More involved work like a cooling system repair or suspension overhaul may take two days. We'll give you a realistic time estimate before we start."
           }
         ]
       },
@@ -1512,24 +1512,24 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "Does my Honda Fit CVT need service?",
-            "answer": "Yes — Honda recommends changing the CVT fluid (HMMF) every 30,000 to 40,000 miles under normal conditions. Many Fits arrive at our shop with original fluid at 80,000 miles or more. Fresh fluid restores smooth operation and can extend CVT life significantly. We perform a drain-and-fill or full flush depending on the fluid condition."
+            "q": "Does my Honda Fit CVT need service?",
+            "a": "Yes — Honda recommends changing the CVT fluid (HMMF) every 30,000 to 40,000 miles under normal conditions. Many Fits arrive at our shop with original fluid at 80,000 miles or more. Fresh fluid restores smooth operation and can extend CVT life significantly. We perform a drain-and-fill or full flush depending on the fluid condition."
           },
           {
-            "question": "Is the Honda Fit reliable at high mileage?",
-            "answer": "The Fit is one of the most reliable small cars ever made when properly maintained. We regularly service Fits with 150,000–200,000 miles that run like new. The key is staying current on CVT fluid, timing chain inspection, and coolant changes — things that are easy to defer but expensive to ignore."
+            "q": "Is the Honda Fit reliable at high mileage?",
+            "a": "The Fit is one of the most reliable small cars ever made when properly maintained. We regularly service Fits with 150,000–200,000 miles that run like new. The key is staying current on CVT fluid, timing chain inspection, and coolant changes — things that are easy to defer but expensive to ignore."
           },
           {
-            "question": "My Fit AC stopped working. Is it expensive to fix?",
-            "answer": "It depends on the cause. A refrigerant recharge is inexpensive if there's no leak. A failed compressor or expansion valve costs more, but the Fit's AC system is straightforward to service and parts are reasonably priced. We diagnose the AC system first so you know exactly what you're looking at before we quote any repair."
+            "q": "My Fit AC stopped working. Is it expensive to fix?",
+            "a": "It depends on the cause. A refrigerant recharge is inexpensive if there's no leak. A failed compressor or expansion valve costs more, but the Fit's AC system is straightforward to service and parts are reasonably priced. We diagnose the AC system first so you know exactly what you're looking at before we quote any repair."
           },
           {
-            "question": "Do you tow? My Fit is stuck and cannot be driven.",
-            "answer": "Yes — we can coordinate a tow for your Fit to our South Salt Lake shop. Call us at (801) 485-4089 and we'll set it up."
+            "q": "Do you tow? My Fit is stuck and cannot be driven.",
+            "a": "Yes — we can coordinate a tow for your Fit to our South Salt Lake shop. Call us at (801) 485-4089 and we'll set it up."
           },
           {
-            "question": "How quickly can you turn around a Fit repair?",
-            "answer": "Most Fit repairs are completed the same day. The L15 engine and CVT are well-documented, parts are readily available, and our technicians know the platform well. We'll give you a realistic time estimate when you drop it off."
+            "q": "How quickly can you turn around a Fit repair?",
+            "a": "Most Fit repairs are completed the same day. The L15 engine and CVT are well-documented, parts are readily available, and our technicians know the platform well. We'll give you a realistic time estimate when you drop it off."
           }
         ]
       },
@@ -1599,7 +1599,7 @@ module.exports = {
           },
           {
             "title": "IMA System Codes and Diagnostics (1st/2nd Gen)",
-            "desc": "IMA warning lights can indicate a battery module failure, a motor controller fault, or a temperature sensor issue. We use Honda-specific scan tools to read sub-codes and pinpoint the exact component before quoting any repair.",
+            "desc": "IMA warning lights can indicate a battery module failure, a motor controller fault, or a temperature sensor issue. We read the sub-codes and pinpoint the exact component before quoting any repair.",
             "serviceSlug": null,
             "symptomSlug": "/symptoms/check-engine-light"
           },
@@ -1689,24 +1689,24 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "Can I still get IMA batteries for a 1st gen Honda Insight?",
-            "answer": "Yes — refurbished and remanufactured NiMH IMA battery packs for the ZE1 Insight are still available from specialty suppliers. We source from reputable rebuilders and can also evaluate whether individual module replacement (rather than a full pack) is a more cost-effective option for your specific battery condition. Call us to discuss what we find in the diagnosis."
+            "q": "Can I still get IMA batteries for a 1st gen Honda Insight?",
+            "a": "Yes — refurbished and remanufactured NiMH IMA battery packs for the ZE1 Insight are still available from specialty suppliers. We source from reputable rebuilders and can also evaluate whether individual module replacement (rather than a full pack) is a more cost-effective option for your specific battery condition. Call us to discuss what we find in the diagnosis."
           },
           {
-            "question": "The IMA light is on in my 2012 Insight. What does that mean?",
-            "answer": "The IMA warning light on a ZE2 Insight can indicate a battery module failure, a motor controller fault, a temperature sensor issue, or a simple communication error. It does not automatically mean you need a $1,000+ battery replacement. We use Honda-specific diagnostic software to read the sub-codes and identify the exact cause before recommending any repair."
+            "q": "The IMA light is on in my 2012 Insight. What does that mean?",
+            "a": "The IMA warning light on a ZE2 Insight can indicate a battery module failure, a motor controller fault, a temperature sensor issue, or a simple communication error. It does not automatically mean you need a $1,000+ battery replacement. We read the sub-codes and identify the exact cause before recommending any repair."
           },
           {
-            "question": "Is the 3rd gen Insight reliable?",
-            "answer": "Yes — the ZE4 Insight is based on the Civic platform and uses a well-developed two-motor hybrid system that Honda refined over many years. Common maintenance items are conventional: oil changes, brake service, 12V battery, and cabin air filters. The hybrid system itself is generally very reliable when maintained correctly."
+            "q": "Is the 3rd gen Insight reliable?",
+            "a": "Yes — the ZE4 Insight is based on the Civic platform and uses a well-developed two-motor hybrid system that Honda refined over many years. Common maintenance items are conventional: oil changes, brake service, 12V battery, and cabin air filters. The hybrid system itself is generally very reliable when maintained correctly."
           },
           {
-            "question": "Can you tow my Insight to the shop if it is not drivable?",
-            "answer": "Yes. We can arrange a flatbed tow for your Insight — important for hybrid vehicles that should not be towed on a wheel lift. Call us at (801) 485-4089 and we'll coordinate pickup."
+            "q": "Can you tow my Insight to the shop if it is not drivable?",
+            "a": "Yes. We can arrange a flatbed tow for your Insight — important for hybrid vehicles that should not be towed on a wheel lift. Call us at (801) 485-4089 and we'll coordinate pickup."
           },
           {
-            "question": "How long will my Insight take to diagnose and repair?",
-            "answer": "IMA system diagnostics typically take one to two hours once the car is in the bay — we need time to run the battery test cycle and read module-level data. Simple repairs like a 12V battery or brake service are usually same-day. More involved IMA battery work depends on part availability and may take two to three days."
+            "q": "How long will my Insight take to diagnose and repair?",
+            "a": "IMA system diagnostics typically take one to two hours once the car is in the bay — we need time to run the battery test cycle and read module-level data. Simple repairs like a 12V battery or brake service are usually same-day. More involved IMA battery work depends on part availability and may take two to three days."
           }
         ]
       },
@@ -1856,24 +1856,24 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "Is the Honda Element expensive to maintain?",
-            "answer": "The Element is actually one of the more affordable Hondas to maintain. The K24 engine is robust and parts are still widely available. Staying current on oil changes, differential fluid, and the timing chain inspection schedule keeps costs low."
+            "q": "Is the Honda Element expensive to maintain?",
+            "a": "The Element is actually one of the more affordable Hondas to maintain. The K24 engine is robust and parts are still widely available. Staying current on oil changes, differential fluid, and the timing chain inspection schedule keeps costs low."
           },
           {
-            "question": "My Element hesitates during acceleration, especially at highway speeds. What could cause that?",
-            "answer": "Highway hesitation on an Element is commonly caused by a clogged VTEC solenoid screen — deposits from old oil restrict oil flow to the solenoid. A check-engine code P2646 or P2647 confirms it. We can clean or replace the solenoid and get your VTEC engaging cleanly again."
+            "q": "My Element hesitates during acceleration, especially at highway speeds. What could cause that?",
+            "a": "Highway hesitation on an Element is commonly caused by a clogged VTEC solenoid screen — deposits from old oil restrict oil flow to the solenoid. A check-engine code P2646 or P2647 confirms it. We can clean or replace the solenoid and get your VTEC engaging cleanly again."
           },
           {
-            "question": "Are parts still available for the Element?",
-            "answer": "Yes. The Element shares its K24 engine and many drivetrain components with the CR-V and Accord, so parts supply is excellent. Model-specific body and trim pieces are less common but still obtainable through Honda dealers and the active Element enthusiast community."
+            "q": "Are parts still available for the Element?",
+            "a": "Yes. The Element shares its K24 engine and many drivetrain components with the CR-V and Accord, so parts supply is excellent. Model-specific body and trim pieces are less common but still obtainable through Honda dealers and the active Element enthusiast community."
           },
           {
-            "question": "If my Element is not drivable, can you arrange a tow?",
-            "answer": "Absolutely. Call us at (801) 485-4089 and we'll connect you with a trusted tow service that can bring your Element to our South Salt Lake shop."
+            "q": "If my Element is not drivable, can you arrange a tow?",
+            "a": "Absolutely. Call us at (801) 485-4089 and we'll connect you with a trusted tow service that can bring your Element to our South Salt Lake shop."
           },
           {
-            "question": "How long does an Element repair take?",
-            "answer": "Most maintenance services — oil change, differential flush, VTEC solenoid service — are completed same-day. CV axle replacement and timing chain work typically take one to two days. We'll give you a timeline with your written estimate."
+            "q": "How long does an Element repair take?",
+            "a": "Most maintenance services — oil change, differential flush, VTEC solenoid service — are completed same-day. CV axle replacement and timing chain work typically take one to two days. We'll give you a timeline with your written estimate."
           }
         ]
       },
@@ -2023,28 +2023,28 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "What oil should I use in my S2000?",
-            "answer": "Honda specifies 5W-20 for most S2000 models, though many enthusiasts use 5W-30 in high-mileage engines or for track use. The critical factor is using a full-synthetic oil and changing it frequently — every 3,000 to 5,000 miles — given the F-series engine's high-RPM nature."
+            "q": "What oil should I use in my S2000?",
+            "a": "Honda specifies 5W-20 for most S2000 models, though many enthusiasts use 5W-30 in high-mileage engines or for track use. The critical factor is using a full-synthetic oil and changing it frequently — every 3,000 to 5,000 miles — given the F-series engine's high-RPM nature."
           },
           {
-            "question": "My S2000 hesitates around 5,500 rpm. What causes that?",
-            "answer": "This is the classic VTEC solenoid symptom on the S2000. Old oil deposits clog the solenoid screen, restricting oil pressure to the VTEC mechanism at the crossover point. A scan will often show P2646 or a related code. We clean the solenoid screen and verify oil pressure to restore clean VTEC engagement."
+            "q": "My S2000 hesitates around 5,500 rpm. What causes that?",
+            "a": "This is the classic VTEC solenoid symptom on the S2000. Old oil deposits clog the solenoid screen, restricting oil pressure to the VTEC mechanism at the crossover point. A scan will often show P2646 or a related code. We clean the solenoid screen and verify oil pressure to restore clean VTEC engagement."
           },
           {
-            "question": "How long do S2000 clutches last?",
-            "answer": "A street-driven S2000 can get 60,000–100,000 miles from a stock clutch. Cars that see track days or aggressive street driving may need replacement at 30,000–50,000 miles. Signs include slipping under hard acceleration, a high engagement point, or a burning smell after spirited driving."
+            "q": "How long do S2000 clutches last?",
+            "a": "A street-driven S2000 can get 60,000–100,000 miles from a stock clutch. Cars that see track days or aggressive street driving may need replacement at 30,000–50,000 miles. Signs include slipping under hard acceleration, a high engagement point, or a burning smell after spirited driving."
           },
           {
-            "question": "My S2000 ticks when cold. Should I be concerned?",
-            "answer": "A brief cold tick on startup is common in high-mileage F-series engines and usually indicates the VTC actuator or valve train taking a moment to pressurize with oil. If the tick disappears quickly after warmup it's typically not urgent, but we recommend an oil pressure check and VTC inspection to confirm it's benign."
+            "q": "My S2000 ticks when cold. Should I be concerned?",
+            "a": "A brief cold tick on startup is common in high-mileage F-series engines and usually indicates the VTC actuator or valve train taking a moment to pressurize with oil. If the tick disappears quickly after warmup it's typically not urgent, but we recommend an oil pressure check and VTC inspection to confirm it's benign."
           },
           {
-            "question": "My S2000 is not drivable — do you tow?",
-            "answer": "Yes. Call us at (801) 485-4089 and we'll coordinate a tow to our South Salt Lake shop. The S2000 sits low — make sure your tow driver uses a flatbed."
+            "q": "My S2000 is not drivable — do you tow?",
+            "a": "Yes. Call us at (801) 485-4089 and we'll coordinate a tow to our South Salt Lake shop. The S2000 sits low — make sure your tow driver uses a flatbed."
           },
           {
-            "question": "How long will my S2000 take to service?",
-            "answer": "Oil changes and solenoid cleaning are typically same-day. Clutch replacement usually takes one to two days depending on flywheel condition. We'll give you a firm timeline with your written estimate."
+            "q": "How long will my S2000 take to service?",
+            "a": "Oil changes and solenoid cleaning are typically same-day. Clutch replacement usually takes one to two days depending on flywheel condition. We'll give you a firm timeline with your written estimate."
           }
         ]
       },
@@ -2206,24 +2206,24 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "Does the H22A Prelude have a timing belt?",
-            "answer": "Yes. The H22A is a timing-belt engine — and an interference engine, meaning a belt failure causes immediate, expensive valve damage. Honda recommends replacement every 90,000 miles, but at the age of these cars we recommend a time-based interval of seven years regardless of mileage. We replace the belt as a complete kit with water pump, tensioner, and idler."
+            "q": "Does the H22A Prelude have a timing belt?",
+            "a": "Yes. The H22A is a timing-belt engine — and an interference engine, meaning a belt failure causes immediate, expensive valve damage. Honda recommends replacement every 90,000 miles, but at the age of these cars we recommend a time-based interval of seven years regardless of mileage. We replace the belt as a complete kit with water pump, tensioner, and idler."
           },
           {
-            "question": "Can you diagnose ATTS problems on a 4th gen Prelude?",
-            "answer": "Yes. The ATTS system is complex but not a mystery to us. We diagnose solenoid faults, hydraulic leaks, and pump wear. We'll give you an honest assessment of the repair cost versus the car's value and discuss all options, including ATTS disable if the repair cost doesn't make sense."
+            "q": "Can you diagnose ATTS problems on a 4th gen Prelude?",
+            "a": "Yes. The ATTS system is complex but not a mystery to us. We diagnose solenoid faults, hydraulic leaks, and pump wear. We'll give you an honest assessment of the repair cost versus the car's value and discuss all options, including ATTS disable if the repair cost doesn't make sense."
           },
           {
-            "question": "Are parts still available for the Prelude?",
-            "answer": "For 5th-gen H22A cars, parts availability is quite good — the H22A was used in several Honda and Acura models and has a strong aftermarket. Earlier generations are harder, but most mechanical components are still obtainable. We'll let you know upfront if we expect any sourcing challenges."
+            "q": "Are parts still available for the Prelude?",
+            "a": "For 5th-gen H22A cars, parts availability is quite good — the H22A was used in several Honda and Acura models and has a strong aftermarket. Earlier generations are harder, but most mechanical components are still obtainable. We'll let you know upfront if we expect any sourcing challenges."
           },
           {
-            "question": "Do you tow? My Prelude will not start.",
-            "answer": "Yes. Call us at (801) 485-4089 and we'll help coordinate a tow to our South Salt Lake shop. We'll diagnose the no-start condition as part of your complimentary diagnostic visit."
+            "q": "Do you tow? My Prelude will not start.",
+            "a": "Yes. Call us at (801) 485-4089 and we'll help coordinate a tow to our South Salt Lake shop. We'll diagnose the no-start condition as part of your complimentary diagnostic visit."
           },
           {
-            "question": "How long will my Prelude take at the shop?",
-            "answer": "Simple services like oil changes and solenoid cleaning are usually same-day. Timing belt jobs typically take one day. Clutch replacement is one to two days. ATTS diagnosis and repair time varies by the complexity of the fault — we'll give you a timeline with the estimate."
+            "q": "How long will my Prelude take at the shop?",
+            "a": "Simple services like oil changes and solenoid cleaning are usually same-day. Timing belt jobs typically take one day. Clutch replacement is one to two days. ATTS diagnosis and repair time varies by the complexity of the fault — we'll give you a timeline with the estimate."
           }
         ]
       },
@@ -2377,24 +2377,24 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "Are parts still available for the Honda Del Sol?",
-            "answer": "For mechanical components — clutch kits, timing chain parts, gaskets, brake hardware — availability is generally good because the Del Sol shares its EG chassis and B/D-series engines with the Civic. Body-specific parts like the retractable top mechanism and trim pieces are rarer, but the active Del Sol community has kept the supply chain alive."
+            "q": "Are parts still available for the Honda Del Sol?",
+            "a": "For mechanical components — clutch kits, timing chain parts, gaskets, brake hardware — availability is generally good because the Del Sol shares its EG chassis and B/D-series engines with the Civic. Body-specific parts like the retractable top mechanism and trim pieces are rarer, but the active Del Sol community has kept the supply chain alive."
           },
           {
-            "question": "Does the Del Sol have a timing belt or chain?",
-            "answer": "It depends on the trim. The VTEC model's B16A2 uses a timing chain — a durable, low-maintenance setup. The S and Si models with D15 and D16 engines use a timing belt, which should be replaced on a mileage or time-based schedule. We'll confirm which system your Del Sol has and advise accordingly."
+            "q": "Does the Del Sol have a timing belt or chain?",
+            "a": "It depends on the trim. The VTEC model's B16A2 uses a timing chain — a durable, low-maintenance setup. The S and Si models with D15 and D16 engines use a timing belt, which should be replaced on a mileage or time-based schedule. We'll confirm which system your Del Sol has and advise accordingly."
           },
           {
-            "question": "What should I inspect on a used Del Sol before buying?",
-            "answer": "Key pre-purchase inspection points: the retractable top mechanism and body seals for leaks and corrosion; all rubber hoses and CV boots for cracking; VTEC engagement smoothness on B16A cars; clutch slip under load; any signs of rust at the lower door sills and floor pan. We offer pre-purchase inspections — bring it in before you commit."
+            "q": "What should I inspect on a used Del Sol before buying?",
+            "a": "Key pre-purchase inspection points: the retractable top mechanism and body seals for leaks and corrosion; all rubber hoses and CV boots for cracking; VTEC engagement smoothness on B16A cars; clutch slip under load; any signs of rust at the lower door sills and floor pan. We offer pre-purchase inspections — bring it in before you commit."
           },
           {
-            "question": "Can you tow my Del Sol in if it is not running?",
-            "answer": "Yes. Call (801) 485-4089 and we'll help you coordinate a flatbed tow to our South Salt Lake shop. We'll diagnose the no-start or drivability issue as part of your complimentary diagnostic visit."
+            "q": "Can you tow my Del Sol in if it is not running?",
+            "a": "Yes. Call (801) 485-4089 and we'll help you coordinate a flatbed tow to our South Salt Lake shop. We'll diagnose the no-start or drivability issue as part of your complimentary diagnostic visit."
           },
           {
-            "question": "How long does a Del Sol repair or inspection take?",
-            "answer": "A pre-purchase inspection or basic diagnostic is typically completed the same day. Oil leak repairs, clutch replacement, and VTEC solenoid service usually take one to two days. We'll give you a firm timeline with your written estimate."
+            "q": "How long does a Del Sol repair or inspection take?",
+            "a": "A pre-purchase inspection or basic diagnostic is typically completed the same day. Oil leak repairs, clutch replacement, and VTEC solenoid service usually take one to two days. We'll give you a firm timeline with your written estimate."
           }
         ]
       },
@@ -2550,28 +2550,28 @@ module.exports = {
         ],
         "faqs": [
           {
-            "question": "Can you still get parts for a 1988–1991 CRX?",
-            "answer": "Yes, better than you might expect. The EF-chassis CRX shares most mechanical components with the fourth-generation Civic, which means engine parts, clutch kits, brake hardware, and suspension components are still widely available. First-gen AF parts are harder to source but still obtainable through Honda specialists and the active CRX community."
+            "q": "Can you still get parts for a 1988–1991 CRX?",
+            "a": "Yes, better than you might expect. The EF-chassis CRX shares most mechanical components with the fourth-generation Civic, which means engine parts, clutch kits, brake hardware, and suspension components are still widely available. First-gen AF parts are harder to source but still obtainable through Honda specialists and the active CRX community."
           },
           {
-            "question": "My 1990 CRX Si runs rough and has poor fuel economy. What should I check first?",
-            "answer": "On a fuel-injected EF CRX Si, start with a scan for OBD1 codes — a faulty O2 sensor, coolant temp sensor, or MAP sensor is a common culprit for rough running and poor economy. After codes, inspect the distributor cap and rotor, spark plugs, and fuel filter. We can run through the full diagnostic quickly and identify the root cause."
+            "q": "My 1990 CRX Si runs rough and has poor fuel economy. What should I check first?",
+            "a": "On a fuel-injected EF CRX Si, start with a scan for OBD1 codes — a faulty O2 sensor, coolant temp sensor, or MAP sensor is a common culprit for rough running and poor economy. After codes, inspect the distributor cap and rotor, spark plugs, and fuel filter. We can run through the full diagnostic quickly and identify the root cause."
           },
           {
-            "question": "Is a CRX worth restoring mechanically?",
-            "answer": "For many owners, absolutely yes. A well-maintained CRX is genuinely fun to drive, lightweight, and mechanically simple enough that most repairs are cost-effective. The question is the car's rust and body condition — mechanical restoration on a solid, rust-free CRX is almost always worthwhile. We're happy to do a full assessment and give you an honest picture of what you're working with."
+            "q": "Is a CRX worth restoring mechanically?",
+            "a": "For many owners, absolutely yes. A well-maintained CRX is genuinely fun to drive, lightweight, and mechanically simple enough that most repairs are cost-effective. The question is the car's rust and body condition — mechanical restoration on a solid, rust-free CRX is almost always worthwhile. We're happy to do a full assessment and give you an honest picture of what you're working with."
           },
           {
-            "question": "Does the CRX Si have a timing belt or chain?",
-            "answer": "The EF CRX Si uses a D16A6 (US market) SOHC engine with a timing belt — it is not a chain engine. At the age of these cars, we recommend replacement based on time (every seven years) regardless of mileage. If the service history is unknown, replace it now. A broken belt on a D-series can cause valve damage depending on the specific engine variant."
+            "q": "Does the CRX Si have a timing belt or chain?",
+            "a": "The EF CRX Si uses a D16A6 (US market) SOHC engine with a timing belt — it is not a chain engine. At the age of these cars, we recommend replacement based on time (every seven years) regardless of mileage. If the service history is unknown, replace it now. A broken belt on a D-series can cause valve damage depending on the specific engine variant."
           },
           {
-            "question": "My CRX is not drivable — can you tow it to the shop?",
-            "answer": "Yes. Call us at (801) 485-4089 and we'll help coordinate a tow. Make sure your tow service uses a flatbed — the CRX sits very low and should not be towed on a hook."
+            "q": "My CRX is not drivable — can you tow it to the shop?",
+            "a": "Yes. Call us at (801) 485-4089 and we'll help coordinate a tow. Make sure your tow service uses a flatbed — the CRX sits very low and should not be towed on a hook."
           },
           {
-            "question": "How long will my CRX take to repair?",
-            "answer": "Diagnostic visits and basic services are typically completed same-day. Timing belt replacement and clutch jobs take one to two days. Full cooling system refreshes or brake system rebuilds are usually one to two days as well. If your car needs multiple services, we'll sequence them efficiently and give you a firm timeline with the estimate."
+            "q": "How long will my CRX take to repair?",
+            "a": "Diagnostic visits and basic services are typically completed same-day. Timing belt replacement and clutch jobs take one to two days. Full cooling system refreshes or brake system rebuilds are usually one to two days as well. If your car needs multiple services, we'll sequence them efficiently and give you a firm timeline with the estimate."
           }
         ]
       }
