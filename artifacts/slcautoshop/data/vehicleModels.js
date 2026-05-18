@@ -16,7 +16,7 @@ module.exports = {
 
         // WHAT
         whatHeading: 'Full-Service Honda Civic Repair — All Generations, All Models',
-        whatIntro: 'We service every Honda Civic generation at our South Salt Lake shop — from the original 1972 CVCC economy car through the current 11th-gen. Si trims, Type R, hybrid variants, hatchbacks, coupes, sedans — if Honda built it under the Civic nameplate, we\'ve worked on it. Every visit starts with a free diagnosis so you know exactly what your Civic needs before we touch it.',
+        whatIntro: 'We service all Honda Civic generations at our South Salt Lake shop — every trim, every engine, every year. Every visit starts with a free diagnosis so you know exactly what your Civic needs before we touch it.',
         generations: [
           { label: '1st Gen', years: '1972–1979', notes: 'Carbureted economy cars with Honda\'s CVCC emissions technology — an early clean-air engineering achievement. Simple mechanicals, straightforward repairs.' },
           { label: '2nd Gen', years: '1980–1983', notes: 'Hatchback and sedan body styles, transition to front-wheel drive. Reliable and basic — parts are still findable through specialty suppliers.' },
