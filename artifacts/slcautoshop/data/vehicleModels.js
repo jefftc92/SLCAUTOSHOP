@@ -193,6 +193,14 @@ module.exports = {
           {
             q: 'Is it worth repairing a high-mileage Honda Civic?',
             a: "Almost always, yes. Civics routinely reach 200,000 miles and beyond when they've been maintained — the platform is that reliable. In most cases, the cost of a repair is a fraction of what a car payment would run you for 12 months. We'll give you an honest assessment: if the math genuinely doesn't work out in your favor, we'll tell you that too."
+          },
+          {
+            q: 'Can you tow my Civic to the shop?',
+            a: 'Yes. We work with local tow providers and can coordinate getting your Civic to our South Salt Lake shop. Call or text us and we will help arrange it — you do not have to sort out towing on your own.'
+          },
+          {
+            q: 'How long will my Civic be at the shop?',
+            a: 'Most Civic repairs are completed same-day or next-day. Diagnostics take 1–2 hours. We call you with a written estimate before starting any work, so there are no surprises on timing or cost.'
           }
         ]
       },
@@ -859,6 +867,14 @@ module.exports = {
           {
             q: 'My S2000 ticks when cold. Should I be concerned?',
             a: 'A cold tick that fades within a minute or two is common on high-mileage S2000s. Most often it is the VTEC solenoid or a minor timing chain issue. We recommend a diagnostic inspection — these engines are special and worth keeping in top condition.'
+          },
+          {
+            q: 'My S2000 is not drivable — do you tow?',
+            a: 'Yes. We partner with local tow companies and can coordinate bringing your S2000 to our South Salt Lake shop safely. Call or text us and we will handle the arrangements.'
+          },
+          {
+            q: 'How long will my S2000 take to service?',
+            a: 'Diagnostics run 1–2 hours, and most repairs turn around same-day or next-day. We always contact you with a full estimate before we begin — no surprises on timeline or cost.'
           }
         ]
       },
@@ -914,6 +930,14 @@ module.exports = {
           {
             q: 'Are parts still available for the Prelude?',
             a: 'For the 5th gen H22A Prelude, parts availability is reasonable — the H22 engine is popular enough in the Honda community that aftermarket suppliers maintain stock. 4th gen parts are more difficult. OEM parts are diminishing but the community and aftermarket fill significant gaps.'
+          },
+          {
+            q: 'Do you tow? My Prelude will not start.',
+            a: 'Yes — we work with local tow providers and can coordinate a tow to our South Salt Lake shop. Give us a call or text and we will get your Prelude here without you having to figure out logistics on your own.'
+          },
+          {
+            q: 'How long will my Prelude take at the shop?',
+            a: 'Most repairs are same-day or next-day. We spend 1–2 hours on diagnostics and call you with a clear written estimate before starting anything. You will know the timeline and cost before we lift a wrench.'
           }
         ]
       },
@@ -969,6 +993,14 @@ module.exports = {
           {
             q: 'What should I inspect on a used Del Sol before buying?',
             a: 'At this age: look for rust under the car (Utah salt roads are tough on older Hondas), check all rubber boots and hoses, verify the retractable top mechanism works smoothly, inspect the CV axles, and check for oil leaks at the valve cover and cam seals. A pre-purchase inspection at our shop covers all of these.'
+          },
+          {
+            q: 'Can you tow my Del Sol in if it is not running?',
+            a: 'Yes. We coordinate with local tow providers and can help get your Del Sol to our South Salt Lake shop. Call or text us and we will take care of arranging the tow so you are not left stranded.'
+          },
+          {
+            q: 'How long does a Del Sol repair or inspection take?',
+            a: 'Diagnostics take around 1–2 hours. Most repairs are wrapped up same-day or next-day. We reach out with a written estimate before starting any work — no surprises on timing or price.'
           }
         ]
       },
@@ -1033,6 +1065,14 @@ module.exports = {
           {
             q: 'Does the CRX Si have a timing belt or chain?',
             a: 'The D-series engines (DX, HF, and most US Si models) use a timing belt. Some CRX Si models were fitted with the ZC engine (also a timing belt). At the age of these cars, the belt should be replaced on a time basis — even at low mileage, a 30-year-old rubber belt is at risk of cracking.'
+          },
+          {
+            q: 'My CRX is not drivable — can you tow it to the shop?',
+            a: 'Yes. We work with local tow companies in the South Salt Lake area and can coordinate getting your CRX to us. Just call or text and we will handle the arrangements from our end.'
+          },
+          {
+            q: 'How long will my CRX take to repair?',
+            a: 'Most jobs are completed same-day or next-day. We run a diagnostic inspection first — about 1–2 hours — then call you with a full estimate before any work begins. You will know the cost and expected timeline upfront.'
           }
         ]
       }
