@@ -34,7 +34,7 @@
     <% if (model.generations && model.generations.length) { %>
     <div class="brand-tags mt-5">
       <% model.generations.forEach(function(gen) { %>
-      <span class="tag"><%= gen.label %> (<%= gen.years %>)</span>
+      <span class="tag"><%= model.fullName %> <%= gen.label %> (<%= gen.years %>)</span>
       <% }) %>
     </div>
     <% } else if (model.yearRange) { %>
