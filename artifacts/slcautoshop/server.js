@@ -10,6 +10,7 @@ const services = require('./data/services');
 const locations = require('./data/locations');
 const symptoms = require('./data/symptoms');
 const vehicleBrands = require('./data/vehicleBrands');
+const vehicleModels = require('./data/vehicleModels');
 const { getContent: getBrandContent } = require('./data/vehicleBrandContent');
 const { serviceFaqs, getSymptomFaqs, getLocationFaqs, getGeoFaqs } = require('./data/pageFaqs');
 const { getLocationSeoContent } = require('./data/locationSeoContent');
@@ -136,6 +137,7 @@ app.use((req, res, next) => {
   res.locals.allLocations = locations;
   res.locals.allSymptoms = symptoms;
   res.locals.allVehicleBrands = vehicleBrands;
+  res.locals.vehicleModels = vehicleModels;
   res.locals.allGeoPages = geoPages;
   res.locals.allServiceGeoPages = serviceGeoPages;
 
@@ -808,6 +810,57 @@ app.get('/vehicle-brands', (req, res) => {
   });
 });
 
+// Vehicle Model Detail (e.g. /vehicle-brands/honda/civic-repair-salt-lake-city-ut)
+app.get('/vehicle-brands/:makeKey/:modelSlug', (req, res, next) => {
+  const makeData = vehicleModels[req.params.makeKey];
+  if (!makeData) return next();
+  const model = makeData.models.find(m => m.slug + '-repair-salt-lake-city-ut' === req.params.modelSlug);
+  if (!model) return next();
+  const brand = vehicleBrands.find(b => b.slug === makeData.brandSlug);
+  res.render('vehicle-model', {
+    activePage: 'vehicles',
+    model,
+    brand,
+    makeData,
+    site,
+    cspNonce: res.locals.cspNonce,
+    canonical: '/vehicle-brands/' + req.params.makeKey + '/' + req.params.modelSlug,
+    pageTitle: model.metaTitle,
+    metaTitle: model.metaTitle,
+    metaDesc: model.metaDesc,
+    breadcrumbs: [
+      { label: 'Home', url: '/' },
+      { label: 'Vehicle Brands', url: '/vehicle-brands' },
+      { label: makeData.brandName, url: '/vehicle-brands/' + makeData.brandSlug },
+      { label: model.name }
+    ],
+    pageTestimonials: pickReviews(3 + Math.floor(Math.random() * 2)),
+    structuredData: [
+      businessSchema,
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
+          { "@type": "ListItem", "position": 2, "name": "Vehicle Brands", "item": site.domain + "/vehicle-brands" },
+          { "@type": "ListItem", "position": 3, "name": makeData.brandName + " Repair", "item": site.domain + "/vehicle-brands/" + makeData.brandSlug },
+          { "@type": "ListItem", "position": 4, "name": model.fullName + " Repair", "item": site.domain + "/vehicle-brands/" + req.params.makeKey + "/" + req.params.modelSlug }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": model.fullName + " Repair & Maintenance",
+        "name": model.heading,
+        "description": model.metaDesc,
+        "provider": { "@type": "AutoRepair", "@id": site.domain + "/#business" },
+        "areaServed": { "@type": "City", "name": "South Salt Lake", "containedInPlace": { "@type": "State", "name": "Utah" } },
+        "url": site.domain + "/vehicle-brands/" + req.params.makeKey + "/" + req.params.modelSlug
+      }
+    ]
+  });
+});
+
 // Vehicle Brand Detail
 app.get('/vehicle-brands/:slug', (req, res) => {
   const brand = vehicleBrands.find(v => v.slug === req.params.slug);
@@ -993,6 +1046,12 @@ function getSitemapEntries() {
   vehicleBrands.forEach(v => {
     if (defunctBrands.has(v.slug)) return;
     add('/vehicle-brands/' + v.slug, highVolumeBrands.has(v.slug) ? '0.8' : '0.6', 'monthly', LASTMOD_SPRINT);
+  });
+  // Honda model pages
+  Object.values(vehicleModels).forEach(makeData => {
+    makeData.models.forEach(model => {
+      add('/vehicle-brands/' + makeData.makeKey + '/' + model.slug + '-repair-salt-lake-city-ut', '0.7', 'monthly', LASTMOD_SPRINT);
+    });
   });
 
   add('/privacy', '0.3', 'yearly', LASTMOD_STABLE);
