@@ -16,7 +16,7 @@ module.exports = {
 
         // WHAT
         whatHeading: 'Full-Service Honda Civic Repair — All Generations, All Models',
-        whatIntro: 'We service every Honda Civic generation from the original 1972 CVCC economy car through the current 11th-gen — including Si models, Type R, hybrid trims, and every standard variant in between. Every visit starts with a free diagnosis so you know exactly what your Civic needs before we touch it.',
+        whatIntro: 'We service every Honda Civic generation at our South Salt Lake shop — from the original 1972 CVCC economy car through the current 11th-gen Honda Civic FL chassis. That means the Honda Civic EG (1992–1995) and Honda Civic EK (1996–2000) sport compacts that defined the \'90s import scene, Honda Civic EP and Honda Civic ES (2001–2005) coupes and sedans, Honda Civic FD (2006–2011) eighth-gen models, Honda Civic FB and Honda Civic FG (2012–2015) ninth-gen variants, the turbocharged Honda Civic FC and Honda Civic FK (2016–2021) tenth-gen — including the Honda Civic FK8 Type R — and the current Honda Civic FL and Honda Civic FL5 Type R (2022–present). Si trims, hybrid variants, hatchbacks, coupes, sedans — if Honda built it under the Civic nameplate, we\'ve worked on it. Every visit starts with a free diagnosis so you know exactly what your Civic needs before we touch it.',
         generations: [
           { label: '1st Gen', years: '1972–1979', notes: 'Carbureted economy cars with Honda\'s CVCC emissions technology — an early clean-air engineering achievement. Simple mechanicals, straightforward repairs.' },
           { label: '2nd Gen', years: '1980–1983', notes: 'Hatchback and sedan body styles, transition to front-wheel drive. Reliable and basic — parts are still findable through specialty suppliers.' },
@@ -53,7 +53,7 @@ module.exports = {
         ],
 
         // WHEN
-        whenIntro: 'Civics are genuinely reliable cars, but every generation has known failure patterns — here\'s what to watch for by symptom and model year.',
+        whenIntro: 'We\'ve been servicing Honda Civics at our South Salt Lake shop since 1990 — from carbureted D-series engines to the current turbocharged 1.5T. When a Civic comes in, we road test it first, pull codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most consistently across the different Civic generations. If yours is showing any of these symptoms, bring it in and we\'ll tell you exactly what\'s going on — no charge for the diagnosis.',
         whenItems: [
           {
             title: 'Sudden Loud Exhaust — Catalytic Converter Theft',
