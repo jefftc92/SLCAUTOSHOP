@@ -53,7 +53,7 @@ module.exports = {
         ],
 
         // WHEN
-        whenIntro: 'Civics are genuinely reliable cars, but every generation has known failure patterns — here\'s what to watch for by symptom and model year.',
+        whenIntro: 'We\'ve been servicing Honda Civics at our South Salt Lake shop since 1990 — from carbureted D-series engines to the current turbocharged 1.5T. When a Civic comes in, we road test it first, pull codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most consistently across the different Civic generations. If yours is showing any of these symptoms, bring it in and we\'ll tell you exactly what\'s going on — no charge for the diagnosis.',
         whenItems: [
           {
             title: 'Sudden Loud Exhaust — Catalytic Converter Theft',
