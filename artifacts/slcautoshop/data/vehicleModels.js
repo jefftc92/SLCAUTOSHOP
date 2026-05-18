@@ -13,42 +13,166 @@ module.exports = {
         metaTitle: "Honda Civic Repair Salt Lake City | Scott's Auto & Clutch Repair",
         metaDesc: "Honda Civic repair in Salt Lake City — clutch, timing chain, catalytic converter theft, and full service. Free diagnosis. Scott's Auto & Clutch Repair. (801) 485-4089.",
         intro: 'The Honda Civic is the most common vehicle we service at our South Salt Lake shop. From high-school daily drivers to 200,000-mile workhorses, Civics of every generation roll through our bays regularly — and we know every quirk and common failure by model year.',
-        overview: [
-          'The Civic has been in continuous production since 1972, making it one of the longest-running nameplate in automotive history. Early generations were carbureted economy cars; modern examples are turbocharged, feature-laden compacts that still deliver exceptional fuel economy and reliability. We service all generations, though 8th through 11th gen (2006–present) make up the bulk of what we see.',
-          'In Salt Lake City, Civics face two problems above average: catalytic converter theft (Civic is one of the most targeted vehicles in Utah due to the high palladium content of Honda cats) and the cold-weather oil dilution issue affecting 1.5T engines from 2016–2021. If you drive a 10th or 11th gen Civic with the 1.5-liter turbo, short cold-weather trips can cause gasoline to contaminate the engine oil — something we check and address during every service.'
+
+        // WHAT
+        whatHeading: 'Full-Service Honda Civic Repair — All Generations, All Models',
+        whatIntro: 'We service every Honda Civic generation from the original 1972 CVCC economy car through the current 11th-gen — including Si models, Type R, hybrid trims, and every standard variant in between. Every visit starts with a free diagnosis so you know exactly what your Civic needs before we touch it.',
+        generations: [
+          { label: '1st Gen', years: '1972–1979', notes: 'Carbureted economy cars with Honda\'s CVCC emissions technology — an early clean-air engineering achievement. Simple mechanicals, straightforward repairs.' },
+          { label: '2nd Gen', years: '1980–1983', notes: 'Hatchback and sedan body styles, transition to front-wheel drive. Reliable and basic — parts are still findable through specialty suppliers.' },
+          { label: '3rd Gen', years: '1984–1987', notes: 'EF chassis. Honda introduced fuel injection on select trims. Lightweight and responsive — a cult favorite for budget-minded enthusiasts.' },
+          { label: '4th Gen', years: '1988–1991', notes: 'One of the most popular used Civics today. D-series engines are proven, parts are plentiful, and the chassis is highly tunable. We see plenty of these.' },
+          { label: '5th Gen (EG)', years: '1992–1995', notes: 'EG chassis brought the VTEC Si and B-series performance engines into the Civic lineup. Highly sought after. Clutch and suspension work are common requests.' },
+          { label: '6th Gen (EK)', years: '1996–2000', notes: 'EK chassis — one of the most reliable daily drivers Honda ever built. B16 and D16 engines, excellent longevity. These still roll in with 200K+ miles on them.' },
+          { label: '7th Gen (EP/ES)', years: '2001–2005', notes: 'EP3 Si brought the K20 engine to the Civic — a genuinely strong platform. Si clutch wear and timing chain inspection are the most common jobs we do on this generation.' },
+          { label: '8th Gen (FD)', years: '2006–2011', notes: 'FD chassis with the 1.8L R18 for base models; Si models use the K20Z3. Solid, high-mileage-capable cars. Catalytic converter theft is a significant concern on this generation.' },
+          { label: '9th Gen (FB/FG)', years: '2012–2015', notes: 'FB sedan and FG coupe with 1.8L and 2.4L Si. Honda addressed most of the earlier reliability concerns. These are now entering high-mileage territory — timing chain and clutch inspections are timely.' },
+          { label: '10th Gen (FC/FK)', years: '2016–2021', notes: 'Major redesign with the 1.5T turbocharged engine, a Type R (FK8), and updated Si. The 1.5T oil dilution issue affects short-trip cold-weather drivers — we check oil condition at every visit on these.' },
+          { label: '11th Gen (FL)', years: '2022–present', notes: 'FL chassis with updated 1.5T, a refined Si, and the FL5 Type R. Latest-generation infotainment and safety systems alongside proven powertrain fundamentals.' }
         ],
-        commonIssues: [
+
+        // WHY
+        whyIntro: 'Honda dealers charge $150–170 per hour for Civic service, and your car gets shuffled between a service advisor who writes the ticket and a technician you never meet. At Scott\'s, one mechanic diagnoses your Civic and does the repair — the same person, start to finish. You get a plain-language explanation of what we found and a written estimate before any work begins.',
+        whyUs: [
           {
-            title: 'Catalytic Converter Theft',
-            desc: 'Honda Civic catalytic converters are among the most stolen in Salt Lake City. If your Civic suddenly sounds like a loud lawnmower and the check engine light is on, thieves likely struck overnight. We handle cat replacement and can weld on theft-deterrent shields.',
-            serviceSlug: '/services/catalytic-converter-service-near-south-salt-lake-ut'
+            title: '35 Years of Honda Platform Experience',
+            desc: "We've been working on Civics since Scott's opened in 1990 — every generation, every engine family. That institutional knowledge means faster diagnosis and fewer surprises on your bill."
           },
           {
-            title: '1.5T Oil Dilution (2016–2021)',
-            desc: 'The 1.5-liter turbocharged engine in 10th and 11th gen Civics is known to accumulate gasoline in the engine oil during short cold-weather trips. This dilutes the oil and accelerates wear. We check oil condition at every visit and advise on extended warm-up habits or oil change intervals.',
-            serviceSlug: null
+            title: 'Clutch Specialists for Si and Type R',
+            desc: 'Clutch replacement is one of our core services. Si and Type R clutch jobs are routine for us — we stock quality OEM-spec kits for every manual Civic generation and know the correct break-in procedures.'
           },
           {
-            title: 'Timing Chain Stretch (K-Series, High Mileage)',
-            desc: 'High-mileage K-series Civics — particularly Si models — can develop timing chain stretch or rattle on startup. We inspect the tensioner and chain, replacing them before engine damage occurs.',
-            serviceSlug: '/services/timing-chain-repair-near-south-salt-lake-ut'
+            title: 'We Know the 1.5T Oil Dilution Issue',
+            desc: "The 10th and 11th gen 1.5T has a known problem with gasoline contaminating engine oil during short cold-weather trips. We check oil condition and dilution at every visit on these models — not just when you mention it."
           },
           {
-            title: 'Si Model Clutch Wear',
-            desc: 'Honda Civic Si drivers tend to push their cars harder than average. Clutch wear is accelerated on Si models, especially those driven with track days or aggressive street use. We stock quality OEM-spec clutch kits for all Si generations.',
-            serviceSlug: '/services/clutch-repair-near-south-salt-lake-ut'
-          },
-          {
-            title: 'EGR Fouling (Older D-Series Engines)',
-            desc: 'Older D-series Civics (pre-2006) frequently develop EGR valve fouling from carbon buildup, triggering P0401 codes and rough idle. Cleaning or replacing the EGR valve and passages restores smooth operation.',
-            serviceSlug: null
-          },
-          {
-            title: 'CV Axle Boots and Joints',
-            desc: 'Front CV axles on high-mileage Civics develop cracked boots and eventually worn joints, causing clicking on turns. We replace complete axle shafts for a reliable, long-lasting repair.',
-            serviceSlug: '/services/cv-joint-repair-near-south-salt-lake-ut'
+            title: 'Free Diagnosis on Every Civic',
+            desc: "We road test, pull codes, and inspect your Civic before recommending anything. You know what's wrong and what it will cost before we start. No diagnostic fee."
           }
         ],
+
+        // WHEN
+        whenIntro: 'Civics are genuinely reliable cars, but every generation has known failure patterns — here\'s what to watch for by symptom and model year.',
+        whenItems: [
+          {
+            title: 'Sudden Loud Exhaust — Catalytic Converter Theft',
+            desc: "Honda Civic catalytic converters are among the most stolen in Salt Lake City. The precious metals inside Honda cats command high scrap prices, and thieves with a cordless reciprocating saw can remove one in under 90 seconds. If your Civic sounds like a lawnmower when you started it this morning, your cat is almost certainly gone. We handle replacement and can weld on a cat shield to deter future theft.",
+            serviceSlug: '/services/catalytic-converter-service-near-south-salt-lake-ut',
+            symptomSlug: '/symptoms/loud-exhaust'
+          },
+          {
+            title: '1.5T Oil Dilution (2016–2021 Civic)',
+            desc: "The 1.5-liter turbocharged engine in 10th and 11th gen Civics can develop gasoline contamination in the engine oil — especially during short cold-weather trips where the engine never fully warms up. Fuel from the direct injection system washes into the crankcase. Symptoms include an oil level that reads higher than normal, or oil that smells like gasoline. Left unaddressed, diluted oil loses its lubricating ability and accelerates wear on bearings and cam surfaces. We check oil condition at every visit on 1.5T Civics and advise on shortened oil change intervals if you're doing a lot of short-trip winter driving.",
+            serviceSlug: null,
+            symptomSlug: null
+          },
+          {
+            title: 'Timing Chain Rattle on High-Mileage K-Series',
+            desc: "The K20 and K24 engines in 7th, 8th, and 9th gen Si models are strong powerplants, but high-mileage examples with infrequent oil changes can develop timing chain stretch. The first sign is usually a brief metallic rattle on cold startup that quiets down once oil pressure builds. Don't ignore it — a worn chain can jump timing teeth and cause serious engine damage. We inspect the chain, tensioner, and guides and replace them before you have a bigger problem.",
+            serviceSlug: '/services/timing-chain-repair-near-south-salt-lake-ut',
+            symptomSlug: '/symptoms/engine-rattling'
+          },
+          {
+            title: 'Clutch Wear on Si and Type R Models',
+            desc: "Manual Civics driven the way they're meant to be driven will wear clutches faster than a commuter automatic. Si clutches on cars used for spirited driving or occasional track days may need replacement as early as 50,000–60,000 miles. Type R clutches hold up well but are not immune. Signs include a high, grabby engagement point, slipping under hard acceleration, or difficulty finding neutral. We carry quality clutch kits for every manual Civic generation.",
+            serviceSlug: '/services/clutch-repair-near-south-salt-lake-ut',
+            symptomSlug: '/symptoms/hard-to-shift-gears'
+          },
+          {
+            title: 'Check Engine Light — EGR and O2 Sensor Codes',
+            desc: "Older D-series Civics (pre-2006) commonly trigger P0401 EGR flow codes from carbon buildup in the EGR passages — the valve itself may test fine, but the ports are clogged. Newer R-series models see upstream and downstream O2 sensor failures as mileage climbs. Both are straightforward diagnoses. We read the codes, verify the root cause, and fix what actually needs fixing — not just clear the light.",
+            serviceSlug: null,
+            symptomSlug: '/symptoms/check-engine-light'
+          },
+          {
+            title: 'CV Axle Clicking on Turns',
+            desc: "That rhythmic clicking you hear when turning — especially noticeable in parking lots at low speed — is a worn CV joint. The joint's protective rubber boot cracks over time, grease escapes, and grit gets in. Once the joint itself is worn, the clicking starts. We replace the complete axle shaft rather than just repacking the boot, which gives you a more durable long-term repair.",
+            serviceSlug: '/services/cv-joint-repair-near-south-salt-lake-ut',
+            symptomSlug: '/symptoms/clicking-when-turning'
+          }
+        ],
+
+        // WHO
+        whoContent: {
+          heading: 'Who to Trust for Honda Civic Repair in South Salt Lake',
+          paras: [
+            "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain and we don't have a service advisor layer — the mechanic who diagnoses your Civic is the one who repairs it. That matters: you get direct answers, accurate estimates, and someone who's accountable for the work from start to finish.",
+            "We've worked on Civics from every era — EG hatchbacks with B-series swaps, stock 7th-gen Si daily drivers, 10th-gen 1.5T commuters, and current Type Rs. Whether your car needs a clutch, a catalytic converter replacement, a timing chain, or just an honest answer about whether that noise is something to worry about, you'll get a straight assessment and a written estimate before we start."
+          ]
+        },
+
+        // HOW
+        process: [
+          {
+            step: 1,
+            title: 'Tell Us What Your Civic Is Doing',
+            desc: 'Describe the noise, the feel, the warning light, or the scheduled service you need. The more detail you give us, the faster we can zero in on the problem.'
+          },
+          {
+            step: 2,
+            title: 'Free Diagnostic Inspection',
+            desc: 'We road test your Civic, pull any stored codes, check fluid condition and levels, and inspect what the symptom points to — before recommending a single repair.'
+          },
+          {
+            step: 3,
+            title: 'We Explain What We Found',
+            desc: "Plain language, no jargon. You get a written estimate covering exactly what needs to be done, what it costs, and why. Nothing starts until you approve it."
+          },
+          {
+            step: 4,
+            title: 'Only the Work Your Civic Needs',
+            desc: "We don't upsell services your car doesn't need. If something can safely wait, we tell you that too — and note it so you can plan ahead."
+          },
+          {
+            step: 5,
+            title: 'Road Test and Walkthrough at Pickup',
+            desc: "We verify the repair under real driving conditions before you pick up. At pickup we walk you through what was done and what to watch for going forward."
+          }
+        ],
+
+        // COMMON REPAIRS
+        commonRepairs: [
+          {
+            slug: '/services/clutch-repair-near-south-salt-lake-ut',
+            name: 'Clutch Repair',
+            desc: 'Si, Type R, and all manual Civics — OEM-spec clutch kits, hydraulic inspection, flywheel resurfacing.'
+          },
+          {
+            slug: '/services/timing-chain-repair-near-south-salt-lake-ut',
+            name: 'Timing Chain Service',
+            desc: 'K-series and R-series high-mileage chain, tensioner, and guide replacement before damage occurs.'
+          },
+          {
+            slug: '/services/catalytic-converter-service-near-south-salt-lake-ut',
+            name: 'Catalytic Converter Service',
+            desc: 'Theft replacement, OEM-quality cats, and welded anti-theft shields for SLC Civic owners.'
+          },
+          {
+            slug: '/services/cv-joint-repair-near-south-salt-lake-ut',
+            name: 'CV Joint Repair',
+            desc: 'Complete axle shaft replacement for clicking on turns — more reliable than boot-only repairs.'
+          },
+          {
+            slug: '/services/brake-service-near-south-salt-lake-ut',
+            name: 'Brake Service',
+            desc: 'Civic rear brakes wear faster than most owners expect — pads, rotors, and caliper inspection.'
+          },
+          {
+            slug: '/services/complete-auto-service-near-south-salt-lake-ut',
+            name: 'Complete Auto Service',
+            desc: 'Full diagnostic, oil service, fluid checks, and anything else your Civic needs — one visit.'
+          }
+        ],
+
+        // TIPS
+        tips: [
+          "1.5T oil change intervals in Utah winters: if your 2016–2021 Civic does mostly short trips (under 10 minutes) during cold months, shorten your oil change interval to 5,000 miles or less. Short trips prevent the engine from reaching full operating temperature, which means fuel doesn't fully evaporate out of the oil. Don't wait for the maintenance minder — check the dipstick and smell the oil.",
+          "Catalytic converter theft prevention: park in well-lit, visible areas whenever possible. A cat shield bolted or welded to your exhaust significantly increases the time required for theft — most thieves move on. We install shields on Civics regularly; ask us about it at your next service.",
+          "Clutch fluid on manual Civics: most owners forget that the clutch hydraulic system shares fluid with the brakes. Old brake fluid absorbs moisture, which lowers its boiling point and can cause spongy clutch feel or clutch slave cylinder failure. Flush the clutch/brake fluid every 2–3 years — it's inexpensive and prevents a more costly hydraulic failure down the road."
+        ],
+
+        // FAQ
         faqs: [
           {
             q: 'My Civic sounds extremely loud since this morning — what happened?',
@@ -65,6 +189,10 @@ module.exports = {
           {
             q: 'Do you service older Civics — 1990s and early 2000s models?',
             a: 'Absolutely. We work on all Civic generations. Older D-series and B-series Civics have well-established parts availability through aftermarket suppliers, and our experience with these platforms is extensive.'
+          },
+          {
+            q: 'Is it worth repairing a high-mileage Honda Civic?',
+            a: "Almost always, yes. Civics routinely reach 200,000 miles and beyond when they've been maintained — the platform is that reliable. In most cases, the cost of a repair is a fraction of what a car payment would run you for 12 months. We'll give you an honest assessment: if the math genuinely doesn't work out in your favor, we'll tell you that too."
           }
         ]
       },

@@ -2,6 +2,9 @@
 
 <%- include('partials/breadcrumbs', {breadcrumbs: breadcrumbs}) %>
 
+<%# ============================================================
+     HERO
+     ============================================================ %>
 <section class="page-hero">
   <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('<%= brand.heroImage || site.heroImage %>')}</style>
   <div class="page-hero-bg"></div>
@@ -15,67 +18,241 @@
   </div>
 </section>
 
-<!-- Common Issues -->
-<section class="content-section">
+<% var _sec = 0; %>
+
+<%# ============================================================
+     1. WHAT — Full-Service [Model] Repair
+     ============================================================ %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
-    <h2>Common <%= model.fullName %> Repairs &amp; Issues</h2>
-    <p class="section-subtitle">These are the <%= model.fullName %> problems we see most often at our South Salt Lake shop. Every job starts with a thorough diagnosis so you know exactly what is going on before any work begins.</p>
-    <div class="issues-grid">
-      <% model.commonIssues.forEach(issue => { %>
+    <h2><%= model.whatHeading || ('Full-Service ' + model.fullName + ' Repair in Salt Lake City') %></h2>
+    <% if (model.whatIntro) { %>
+    <div class="prose mw-760 mb-6">
+      <p><%- model.whatIntro %></p>
+    </div>
+    <% } %>
+    <% if (model.generations && model.generations.length) { %>
+    <div class="brand-tags mt-5">
+      <% model.generations.forEach(function(gen) { %>
+      <span class="tag"><%= gen.label %> (<%= gen.years %>)</span>
+      <% }) %>
+    </div>
+    <% if (model.generations.some(function(g) { return g.notes; })) { %>
+    <div class="issues-grid mt-6">
+      <% model.generations.filter(function(g) { return g.notes; }).forEach(function(gen) { %>
       <div class="issue-card">
-        <% if (issue.serviceSlug) { %>
-        <h3><a href="<%= issue.serviceSlug %>" class="issue-link"><%= issue.title %></a></h3>
-        <% } else { %>
-        <h3><%= issue.title %></h3>
-        <% } %>
-        <p><%= issue.desc %></p>
-        <% if (issue.serviceSlug) { %>
-        <a href="<%= issue.serviceSlug %>" class="card-link-sm">Learn more →</a>
-        <% } %>
+        <h3><%= gen.label %> &mdash; <%= gen.years %></h3>
+        <p><%= gen.notes %></p>
+      </div>
+      <% }) %>
+    </div>
+    <% } %>
+    <% } else if (model.yearRange) { %>
+    <div class="prose mw-760 mt-5">
+      <p>We service all <%= model.fullName %> vehicles, covering production years <%= model.yearRange %>. Whatever generation you drive, our technicians have seen it — and know its quirks.</p>
+    </div>
+    <% } %>
+    <p class="mt-5">Have questions about your specific <%= model.fullName %>? Give us a call or send a quick text — we're happy to help.</p>
+    <div class="hero-buttons mt-5">
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+      <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I need service for my ' + model.fullName + '.') %>" class="btn btn-secondary">Text Us</a>
+    </div>
+  </div>
+</section>
+
+<%# ============================================================
+     2. WHY — Why [Model] Drivers Choose Scott's
+     ============================================================ %>
+<% if (model.whyUs && model.whyUs.length) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2>Why <%= model.fullName %> Drivers Choose Scott's Auto</h2>
+    <% if (model.whyIntro) { %>
+    <div class="prose mw-760 mb-8">
+      <p><%- model.whyIntro %></p>
+    </div>
+    <% } %>
+    <div class="values-grid">
+      <% model.whyUs.forEach(function(v) { %>
+      <div class="value-card">
+        <h3><%= v.title %></h3>
+        <p><%= v.desc %></p>
       </div>
       <% }) %>
     </div>
   </div>
 </section>
+<% } %>
 
-<!-- About the Model -->
-<section class="content-section alt-bg">
+<%# ============================================================
+     3. WHEN — When to Bring Your [Model] In
+     ============================================================ %>
+<% if ((model.whenIntro) || (model.whenItems && model.whenItems.length)) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
-    <h2>About the <%= model.fullName %></h2>
-    <p class="section-subtitle">Production years: <%= model.yearRange %></p>
+    <h2>When to Bring Your <%= model.fullName %> In</h2>
+    <% if (model.whenIntro) { %>
+    <div class="prose mw-760 mb-6">
+      <p><%- model.whenIntro %></p>
+    </div>
+    <% } %>
+    <% if (model.whenItems && model.whenItems.length) { %>
+    <div class="issues-grid">
+      <% model.whenItems.forEach(function(issue) {
+           var href = issue.serviceSlug || issue.symptomSlug || null;
+      %>
+      <div class="issue-card">
+        <% if (href) { %>
+        <h3><a href="<%= href %>" class="issue-link"><%= issue.title %></a></h3>
+        <% } else { %>
+        <h3><%= issue.title %></h3>
+        <% } %>
+        <p><%= issue.desc %></p>
+        <% if (href) { %>
+        <a href="<%= href %>" class="card-link-sm">Learn more &rarr;</a>
+        <% } %>
+      </div>
+      <% }) %>
+    </div>
+    <% } %>
+  </div>
+</section>
+<% } %>
+
+<%# ============================================================
+     4. WHO — Who to Trust
+     ============================================================ %>
+<% if (model.whoContent) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2><%= model.whoContent.heading %></h2>
     <div class="prose mw-760">
-      <% model.overview.forEach(function(para) { %>
-      <p><%= para %></p>
+      <% model.whoContent.paras.forEach(function(p) { %><p><%- p %></p><% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<%# ============================================================
+     5. HOW — How We Work With [Model] Drivers
+     ============================================================ %>
+<% if (model.process && model.process.length) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2>How We Work With <%= model.fullName %> Drivers</h2>
+    <div class="process-steps-compact">
+      <% model.process.forEach(function(p) { %>
+      <div class="process-step-compact">
+        <span class="step-num"><%= p.step %></span>
+        <div>
+          <h3><%= p.title %></h3>
+          <p><%= p.desc %></p>
+        </div>
+      </div>
       <% }) %>
     </div>
   </div>
 </section>
+<% } %>
 
-<!-- FAQ -->
-<% var pageFaqs = model.faqs.map(function(f) { return { q: f.q, a: f.a }; }); %>
-<% var faqTitle = 'Frequently Asked Questions — ' + model.fullName + ' Repair'; %>
-<% var faqAlt = false; %>
-<%- include('partials/faq') %>
-
-<!-- CTA back to Brand Page -->
-<section class="content-section alt-bg">
+<%# ============================================================
+     6. WHERE — Map & Address
+     ============================================================ %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
-    <h2>All Honda Models We Service</h2>
-    <p>We service the full Honda lineup — not just the <%= model.name %>. Visit our Honda brand page to see every model we work on, read about Honda-specific service procedures, and learn what makes our shop the right choice for Honda owners in Salt Lake City.</p>
-    <div class="hero-buttons">
-      <a href="/vehicle-brands/<%= makeData.brandSlug %>" class="btn btn-outline">View All Honda Services</a>
-      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+    <h2>Where to Find Us &mdash; <%= model.fullName %> Repair in South Salt Lake</h2>
+    <p>Scott's Auto &amp; Clutch Repair is located at 144 W Crystal Ave in South Salt Lake — centrally positioned in the valley, within 15 minutes of most Salt Lake City zip codes. Easy to reach from I-15, serving <%= model.fullName %> drivers from Millcreek, Murray, Draper, Sandy, West Jordan, Taylorsville, and across the greater Salt Lake area.</p>
+    <div class="symptom-location-grid mt-6">
+      <div class="symptom-location-info">
+        <div class="location-detail">
+          <h3>Address</h3>
+          <p><a href="<%= site.directionsUrl %>" target="_blank" rel="noopener"><%= site.fullAddress %></a></p>
+        </div>
+        <div class="location-detail">
+          <h3>Hours</h3>
+          <p><%= site.hours %></p>
+        </div>
+        <div class="location-detail">
+          <h3>Phone</h3>
+          <p><a href="tel:<%= site.phoneTel %>"><%= site.phone %></a></p>
+        </div>
+        <div class="symptom-location-actions">
+          <a href="<%= site.directionsUrl %>" class="btn btn-primary" target="_blank" rel="noopener">Get Directions</a>
+          <a href="tel:<%= site.phoneTel %>" class="btn btn-secondary">Call Us</a>
+        </div>
+      </div>
+      <div class="symptom-location-map">
+        <iframe
+          src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
+          width="100%" height="100%"
+          class="map-embed map-embed--sm"
+          allowfullscreen loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Scott's Auto & Clutch Repair Location Map">
+        </iframe>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Service Areas -->
-<section class="content-section">
+<%# ============================================================
+     7. FAQ
+     ============================================================ %>
+<% if (model.faqs && model.faqs.length) { %>
+<% var pageFaqs = model.faqs.map(function(f) { return { q: f.q, a: f.a }; }); %>
+<% var faqTitle = 'Frequently Asked Questions — ' + model.fullName + ' Repair'; %>
+<% var faqAlt = !!(_sec++ % 2); %>
+<%- include('partials/faq') %>
+<% } %>
+
+<%# ============================================================
+     8. Common Repairs (linked services)
+     ============================================================ %>
+<% if (model.commonRepairs && model.commonRepairs.length) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
-    <h2><%= model.fullName %> Repair — Service Areas</h2>
-    <p class="section-subtitle">Our shop in South Salt Lake is centrally located — most Salt Lake Valley customers are within 15 minutes.</p>
+    <h2>Common <%= model.fullName %> Repairs &amp; Services</h2>
+    <div class="services-grid small">
+      <% model.commonRepairs.forEach(function(r) { %>
+      <a href="<%= r.slug %>" class="service-card">
+        <h3><%= r.name %></h3>
+        <span class="card-p"><%= r.desc %></span>
+        <span class="card-link">View service</span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<%# ============================================================
+     9. Maintenance Tips
+     ============================================================ %>
+<% if (model.tips && model.tips.length) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2><%= model.fullName %> Maintenance Tips for Utah Drivers</h2>
+    <p class="section-subtitle">Utah's temperature swings, mountain roads, and high altitude put unique demands on your vehicle. Here's what we've learned from years of servicing <%= model.fullName %>s in the Salt Lake Valley.</p>
+    <div class="tips-grid">
+      <% model.tips.forEach(function(tip) { %>
+      <div class="tip-card">
+        <p><%= tip %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<%# ============================================================
+     10. Service Areas
+     ============================================================ %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <h2><%= model.fullName %> Repair Service Areas</h2>
+    <p class="section-subtitle">Our shop in South Salt Lake is centrally located in the valley — most customers are within 15 minutes. We service <%= model.fullName %> drivers from throughout the greater Salt Lake area.</p>
     <div class="locations-grid-compact mt-4">
-      <% allLocations.forEach(l => { %>
+      <% allLocations.forEach(function(l) { %>
       <a href="/locations/<%= l.slug %>" class="location-tag">
         <strong><%= l.name %>, UT</strong>
         <span><%= l.isHome ? 'Our Location' : l.driveTime + ' away' %></span>
@@ -85,7 +262,24 @@
   </div>
 </section>
 
+<%# ============================================================
+     11. Testimonials
+     ============================================================ %>
 <%- include('partials/testimonials') %>
+
+<%# ============================================================
+     12. Other Models / Brand Link
+     ============================================================ %>
+<section class="content-section">
+  <div class="container">
+    <h2>All <%= makeData.brandName %> Models We Service</h2>
+    <p>We service the full <%= makeData.brandName %> lineup — not just the <%= model.name %>. Visit our <%= makeData.brandName %> brand page to see every model we work on, read about <%= makeData.brandName %>-specific service procedures, and learn what makes our shop the right choice for <%= makeData.brandName %> owners in Salt Lake City.</p>
+    <div class="hero-buttons mt-5">
+      <a href="/vehicle-brands/<%= makeData.brandSlug %>" class="btn btn-outline">View All <%= makeData.brandName %> Services</a>
+      <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
+    </div>
+  </div>
+</section>
 
 <% var ctaTitle = "Need " + model.fullName + " Repair?"; var ctaDesc = "Contact Scott's Auto & Clutch Repair today. Expert " + model.fullName + " service at honest prices in Salt Lake City."; %>
 <%- include('partials/cta') %>

@@ -48,6 +48,9 @@ Thumbs.db
 .cache/
 .local/
 
+# Claude Code agent worktrees
+.claude/
+
 # Temporary content draft files
 v2_content_batch*.js
 v2_rewrites_group*.js
