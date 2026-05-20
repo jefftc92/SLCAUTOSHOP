@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "xc90",
+      "heroImage": "/images/models/volvo-xc90-hero.webp",
       "name": "XC90",
       "fullName": "Volvo XC90",
       "yearRange": "2003–present",
@@ -182,6 +183,7 @@ module.exports = {
     },
     {
       "slug": "xc60",
+      "heroImage": "/images/models/volvo-xc60-hero.webp",
       "name": "XC60",
       "fullName": "Volvo XC60",
       "yearRange": "2009–present",
@@ -355,6 +357,7 @@ module.exports = {
     },
     {
       "slug": "xc40",
+      "heroImage": "/images/models/volvo-xc40-hero.webp",
       "name": "XC40",
       "fullName": "Volvo XC40",
       "yearRange": "2018–present",
@@ -518,6 +521,7 @@ module.exports = {
     },
     {
       "slug": "s60",
+      "heroImage": "/images/models/volvo-s60-hero.webp",
       "name": "S60",
       "fullName": "Volvo S60",
       "yearRange": "2001–present",
@@ -699,6 +703,7 @@ module.exports = {
     },
     {
       "slug": "v70",
+      "heroImage": "/images/models/volvo-v70-hero.webp",
       "name": "V70",
       "fullName": "Volvo V70",
       "yearRange": "1996–2016",
@@ -880,6 +885,7 @@ module.exports = {
     },
     {
       "slug": "c30",
+      "heroImage": "/images/models/volvo-c30-hero.webp",
       "name": "C30",
       "fullName": "Volvo C30",
       "yearRange": "2007–2013",
@@ -1053,6 +1059,7 @@ module.exports = {
     },
     {
       "slug": "s80",
+      "heroImage": "/images/models/volvo-s80-hero.webp",
       "name": "S80",
       "fullName": "Volvo S80",
       "yearRange": "1998–2016",
@@ -1224,6 +1231,7 @@ module.exports = {
     },
     {
       "slug": "240",
+      "heroImage": "/images/models/volvo-240-hero.webp",
       "name": "240",
       "fullName": "Volvo 240",
       "yearRange": "1974–1993",
@@ -1399,6 +1407,7 @@ module.exports = {
     },
     {
       "slug": "740",
+      "heroImage": "/images/models/volvo-740-hero.webp",
       "name": "740",
       "fullName": "Volvo 740",
       "yearRange": "1984–1992",
@@ -1570,6 +1579,7 @@ module.exports = {
     },
     {
       "slug": "850",
+      "heroImage": "/images/models/volvo-850-hero.webp",
       "name": "850",
       "fullName": "Volvo 850",
       "yearRange": "1992–1997",
@@ -1747,6 +1757,7 @@ module.exports = {
     },
     {
       "slug": "940",
+      "heroImage": "/images/models/volvo-940-hero.webp",
       "name": "940",
       "fullName": "Volvo 940",
       "yearRange": "1990–1998",

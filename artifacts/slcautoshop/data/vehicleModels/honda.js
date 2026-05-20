@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "civic",
+      "heroImage": "/images/models/honda-civic-hero.webp",
       "name": "Civic",
       "fullName": "Honda Civic",
       "yearRange": "1972–present",
@@ -233,6 +234,7 @@ module.exports = {
     },
     {
       "slug": "accord",
+      "heroImage": "/images/models/honda-accord-hero.webp",
       "name": "Accord",
       "fullName": "Honda Accord",
       "yearRange": "1976–present",
@@ -446,6 +448,7 @@ module.exports = {
     },
     {
       "slug": "cr-v",
+      "heroImage": "/images/models/honda-cr-v-hero.webp",
       "name": "CR-V",
       "fullName": "Honda CR-V",
       "yearRange": "1997–present",
@@ -639,6 +642,7 @@ module.exports = {
     },
     {
       "slug": "pilot",
+      "heroImage": "/images/models/honda-pilot-hero.webp",
       "name": "Pilot",
       "fullName": "Honda Pilot",
       "yearRange": "2003–present",
@@ -824,6 +828,7 @@ module.exports = {
     },
     {
       "slug": "hr-v",
+      "heroImage": "/images/models/honda-hr-v-hero.webp",
       "name": "HR-V",
       "fullName": "Honda HR-V",
       "yearRange": "2016–present",
@@ -995,6 +1000,7 @@ module.exports = {
     },
     {
       "slug": "odyssey",
+      "heroImage": "/images/models/honda-odyssey-hero.webp",
       "name": "Odyssey",
       "fullName": "Honda Odyssey",
       "yearRange": "1995–present",
@@ -1184,6 +1190,7 @@ module.exports = {
     },
     {
       "slug": "ridgeline",
+      "heroImage": "/images/models/honda-ridgeline-hero.webp",
       "name": "Ridgeline",
       "fullName": "Honda Ridgeline",
       "yearRange": "2006–present",
@@ -1357,6 +1364,7 @@ module.exports = {
     },
     {
       "slug": "fit",
+      "heroImage": "/images/models/honda-fit-hero.webp",
       "name": "Fit",
       "fullName": "Honda Fit",
       "yearRange": "2007–2020",
@@ -1534,6 +1542,7 @@ module.exports = {
     },
     {
       "slug": "insight",
+      "heroImage": "/images/models/honda-insight-hero.webp",
       "name": "Insight",
       "fullName": "Honda Insight",
       "yearRange": "1999–2022",
@@ -1711,6 +1720,7 @@ module.exports = {
     },
     {
       "slug": "element",
+      "heroImage": "/images/models/honda-element-hero.webp",
       "name": "Element",
       "fullName": "Honda Element",
       "yearRange": "2003–2011",
@@ -1878,6 +1888,7 @@ module.exports = {
     },
     {
       "slug": "s2000",
+      "heroImage": "/images/models/honda-s2000-hero.webp",
       "name": "S2000",
       "fullName": "Honda S2000",
       "yearRange": "1999–2009",
@@ -2049,6 +2060,7 @@ module.exports = {
     },
     {
       "slug": "prelude",
+      "heroImage": "/images/models/honda-prelude-hero.webp",
       "name": "Prelude",
       "fullName": "Honda Prelude",
       "yearRange": "1978–2001",
@@ -2228,6 +2240,7 @@ module.exports = {
     },
     {
       "slug": "del-sol",
+      "heroImage": "/images/models/honda-del-sol-hero.webp",
       "name": "Del Sol",
       "fullName": "Honda Del Sol",
       "yearRange": "1992–1997",
@@ -2399,6 +2412,7 @@ module.exports = {
     },
     {
       "slug": "crx",
+      "heroImage": "/images/models/honda-crx-hero.webp",
       "name": "CRX",
       "fullName": "Honda CRX",
       "yearRange": "1983–1991",

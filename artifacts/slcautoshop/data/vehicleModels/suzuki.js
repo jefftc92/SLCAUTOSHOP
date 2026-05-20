@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "grand-vitara",
+      "heroImage": "/images/models/suzuki-grand-vitara-hero.webp",
       "name": "Grand Vitara",
       "fullName": "Suzuki Grand Vitara",
       "yearRange": "1999–2013",
@@ -180,6 +181,7 @@ module.exports = {
     },
     {
       "slug": "vitara",
+      "heroImage": "/images/models/suzuki-vitara-hero.webp",
       "name": "Vitara",
       "fullName": "Suzuki Vitara",
       "yearRange": "1989–2004",
@@ -351,6 +353,7 @@ module.exports = {
     },
     {
       "slug": "samurai",
+      "heroImage": "/images/models/suzuki-samurai-hero.webp",
       "name": "Samurai",
       "fullName": "Suzuki Samurai",
       "yearRange": "1985–1995",
@@ -514,6 +517,7 @@ module.exports = {
     },
     {
       "slug": "swift",
+      "heroImage": "/images/models/suzuki-swift-hero.webp",
       "name": "Swift",
       "fullName": "Suzuki Swift",
       "yearRange": "1985–2001",
@@ -681,6 +685,7 @@ module.exports = {
     },
     {
       "slug": "sx4",
+      "heroImage": "/images/models/suzuki-sx4-hero.webp",
       "name": "SX4",
       "fullName": "Suzuki SX4",
       "yearRange": "2007–2013",
@@ -848,6 +853,7 @@ module.exports = {
     },
     {
       "slug": "forenza",
+      "heroImage": "/images/models/suzuki-forenza-hero.webp",
       "name": "Forenza",
       "fullName": "Suzuki Forenza",
       "yearRange": "2004–2008",

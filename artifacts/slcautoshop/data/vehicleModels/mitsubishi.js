@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "outlander",
+      "heroImage": "/images/models/mitsubishi-outlander-hero.webp",
       "name": "Outlander",
       "fullName": "Mitsubishi Outlander",
       "yearRange": "2003–present",
@@ -190,6 +191,7 @@ module.exports = {
     },
     {
       "slug": "eclipse-cross",
+      "heroImage": "/images/models/mitsubishi-eclipse-cross-hero.webp",
       "name": "Eclipse Cross",
       "fullName": "Mitsubishi Eclipse Cross",
       "yearRange": "2018–present",
@@ -357,6 +359,7 @@ module.exports = {
     },
     {
       "slug": "eclipse",
+      "heroImage": "/images/models/mitsubishi-eclipse-hero.webp",
       "name": "Eclipse",
       "fullName": "Mitsubishi Eclipse",
       "yearRange": "1989–2012",
@@ -536,6 +539,7 @@ module.exports = {
     },
     {
       "slug": "galant",
+      "heroImage": "/images/models/mitsubishi-galant-hero.webp",
       "name": "Galant",
       "fullName": "Mitsubishi Galant",
       "yearRange": "1969–2012",
@@ -711,6 +715,7 @@ module.exports = {
     },
     {
       "slug": "lancer",
+      "heroImage": "/images/models/mitsubishi-lancer-hero.webp",
       "name": "Lancer",
       "fullName": "Mitsubishi Lancer",
       "yearRange": "1973–2017",
@@ -894,6 +899,7 @@ module.exports = {
     },
     {
       "slug": "montero",
+      "heroImage": "/images/models/mitsubishi-montero-hero.webp",
       "name": "Montero",
       "fullName": "Mitsubishi Montero",
       "yearRange": "1982–2006",
@@ -1065,6 +1071,7 @@ module.exports = {
     },
     {
       "slug": "3000gt",
+      "heroImage": "/images/models/mitsubishi-3000gt-hero.webp",
       "name": "3000GT",
       "fullName": "Mitsubishi 3000GT",
       "yearRange": "1990–1999",
@@ -1236,6 +1243,7 @@ module.exports = {
     },
     {
       "slug": "diamante",
+      "heroImage": "/images/models/mitsubishi-diamante-hero.webp",
       "name": "Diamante",
       "fullName": "Mitsubishi Diamante",
       "yearRange": "1990–2004",

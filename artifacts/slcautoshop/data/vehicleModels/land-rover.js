@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "defender",
+      "heroImage": "/images/models/land-rover-defender-hero.webp",
       "name": "Defender",
       "fullName": "Land Rover Defender",
       "yearRange": "1983–2016, 2020–present",
@@ -194,6 +195,7 @@ module.exports = {
     },
     {
       "slug": "discovery",
+      "heroImage": "/images/models/land-rover-discovery-hero.webp",
       "name": "Discovery",
       "fullName": "Land Rover Discovery",
       "yearRange": "1989–present",
@@ -377,6 +379,7 @@ module.exports = {
     },
     {
       "slug": "range-rover",
+      "heroImage": "/images/models/land-rover-range-rover-hero.webp",
       "name": "Range Rover",
       "fullName": "Land Rover Range Rover",
       "yearRange": "1970–present",
@@ -560,6 +563,7 @@ module.exports = {
     },
     {
       "slug": "lr3",
+      "heroImage": "/images/models/land-rover-lr3-hero.webp",
       "name": "LR3",
       "fullName": "Land Rover LR3",
       "yearRange": "2004–2009",
@@ -735,6 +739,7 @@ module.exports = {
     },
     {
       "slug": "lr4",
+      "heroImage": "/images/models/land-rover-lr4-hero.webp",
       "name": "LR4",
       "fullName": "Land Rover LR4",
       "yearRange": "2009–2016",
@@ -910,6 +915,7 @@ module.exports = {
     },
     {
       "slug": "range-rover-sport",
+      "heroImage": "/images/models/land-rover-range-rover-sport-hero.webp",
       "name": "Range Rover Sport",
       "fullName": "Land Rover Range Rover Sport",
       "yearRange": "2005–present",
@@ -1085,6 +1091,7 @@ module.exports = {
     },
     {
       "slug": "freelander",
+      "heroImage": "/images/models/land-rover-freelander-hero.webp",
       "name": "Freelander",
       "fullName": "Land Rover Freelander",
       "yearRange": "1997–2014",

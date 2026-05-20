@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "outback",
+      "heroImage": "/images/models/subaru-outback-hero.webp",
       "name": "Outback",
       "fullName": "Subaru Outback",
       "yearRange": "1994–present",
@@ -204,6 +205,7 @@ module.exports = {
     },
     {
       "slug": "forester",
+      "heroImage": "/images/models/subaru-forester-hero.webp",
       "name": "Forester",
       "fullName": "Subaru Forester",
       "yearRange": "1997–present",
@@ -403,6 +405,7 @@ module.exports = {
     },
     {
       "slug": "crosstrek",
+      "heroImage": "/images/models/subaru-crosstrek-hero.webp",
       "name": "Crosstrek",
       "fullName": "Subaru Crosstrek",
       "yearRange": "2012–present",
@@ -587,6 +590,7 @@ module.exports = {
     },
     {
       "slug": "impreza",
+      "heroImage": "/images/models/subaru-impreza-hero.webp",
       "name": "Impreza",
       "fullName": "Subaru Impreza",
       "yearRange": "1992–present",
@@ -786,6 +790,7 @@ module.exports = {
     },
     {
       "slug": "wrx",
+      "heroImage": "/images/models/subaru-wrx-hero.webp",
       "name": "WRX",
       "fullName": "Subaru WRX",
       "yearRange": "2002–present",
@@ -975,6 +980,7 @@ module.exports = {
     },
     {
       "slug": "legacy",
+      "heroImage": "/images/models/subaru-legacy-hero.webp",
       "name": "Legacy",
       "fullName": "Subaru Legacy",
       "yearRange": "1989–present",
@@ -1175,6 +1181,7 @@ module.exports = {
     },
     {
       "slug": "ascent",
+      "heroImage": "/images/models/subaru-ascent-hero.webp",
       "name": "Ascent",
       "fullName": "Subaru Ascent",
       "yearRange": "2019–present",
@@ -1350,6 +1357,7 @@ module.exports = {
     },
     {
       "slug": "brz",
+      "heroImage": "/images/models/subaru-brz-hero.webp",
       "name": "BRZ",
       "fullName": "Subaru BRZ",
       "yearRange": "2013–present",
@@ -1525,6 +1533,7 @@ module.exports = {
     },
     {
       "slug": "baja",
+      "heroImage": "/images/models/subaru-baja-hero.webp",
       "name": "Baja",
       "fullName": "Subaru Baja",
       "yearRange": "2003–2006",
@@ -1700,6 +1709,7 @@ module.exports = {
     },
     {
       "slug": "tribeca",
+      "heroImage": "/images/models/subaru-tribeca-hero.webp",
       "name": "Tribeca",
       "fullName": "Subaru Tribeca",
       "yearRange": "2006–2014",

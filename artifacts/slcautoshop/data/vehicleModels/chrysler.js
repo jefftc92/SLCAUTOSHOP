@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "300",
+      "heroImage": "/images/models/chrysler-300-hero.webp",
       "name": "300",
       "fullName": "Chrysler 300",
       "yearRange": "1955–present",
@@ -186,6 +187,7 @@ module.exports = {
     },
     {
       "slug": "sebring",
+      "heroImage": "/images/models/chrysler-sebring-hero.webp",
       "name": "Sebring",
       "fullName": "Chrysler Sebring",
       "yearRange": "1995–2010",
@@ -357,6 +359,7 @@ module.exports = {
     },
     {
       "slug": "pt-cruiser",
+      "heroImage": "/images/models/chrysler-pt-cruiser-hero.webp",
       "name": "PT Cruiser",
       "fullName": "Chrysler PT Cruiser",
       "yearRange": "2001–2010",
@@ -524,6 +527,7 @@ module.exports = {
     },
     {
       "slug": "town-and-country",
+      "heroImage": "/images/models/chrysler-town-and-country-hero.webp",
       "name": "Town & Country",
       "fullName": "Chrysler Town & Country",
       "yearRange": "1990–2016",
@@ -699,6 +703,7 @@ module.exports = {
     },
     {
       "slug": "pacifica",
+      "heroImage": "/images/models/chrysler-pacifica-hero.webp",
       "name": "Pacifica",
       "fullName": "Chrysler Pacifica",
       "yearRange": "2017–present",
@@ -862,6 +867,7 @@ module.exports = {
     },
     {
       "slug": "crossfire",
+      "heroImage": "/images/models/chrysler-crossfire-hero.webp",
       "name": "Crossfire",
       "fullName": "Chrysler Crossfire",
       "yearRange": "2004–2008",

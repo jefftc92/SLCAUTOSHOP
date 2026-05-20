@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "elantra",
+      "heroImage": "/images/models/hyundai-elantra-hero.webp",
       "name": "Elantra",
       "fullName": "Hyundai Elantra",
       "yearRange": "1990–present",
@@ -202,6 +203,7 @@ module.exports = {
     },
     {
       "slug": "sonata",
+      "heroImage": "/images/models/hyundai-sonata-hero.webp",
       "name": "Sonata",
       "fullName": "Hyundai Sonata",
       "yearRange": "1985–present",
@@ -403,6 +405,7 @@ module.exports = {
     },
     {
       "slug": "santa-fe",
+      "heroImage": "/images/models/hyundai-santa-fe-hero.webp",
       "name": "Santa Fe",
       "fullName": "Hyundai Santa Fe",
       "yearRange": "2001–present",
@@ -592,6 +595,7 @@ module.exports = {
     },
     {
       "slug": "tucson",
+      "heroImage": "/images/models/hyundai-tucson-hero.webp",
       "name": "Tucson",
       "fullName": "Hyundai Tucson",
       "yearRange": "2004–present",
@@ -777,6 +781,7 @@ module.exports = {
     },
     {
       "slug": "palisade",
+      "heroImage": "/images/models/hyundai-palisade-hero.webp",
       "name": "Palisade",
       "fullName": "Hyundai Palisade",
       "yearRange": "2020–present",
@@ -948,6 +953,7 @@ module.exports = {
     },
     {
       "slug": "accent",
+      "heroImage": "/images/models/hyundai-accent-hero.webp",
       "name": "Accent",
       "fullName": "Hyundai Accent",
       "yearRange": "1994–present",
@@ -1137,6 +1143,7 @@ module.exports = {
     },
     {
       "slug": "ioniq",
+      "heroImage": "/images/models/hyundai-ioniq-hero.webp",
       "name": "Ioniq",
       "fullName": "Hyundai Ioniq",
       "yearRange": "2017–2022",
@@ -1312,6 +1319,7 @@ module.exports = {
     },
     {
       "slug": "kona",
+      "heroImage": "/images/models/hyundai-kona-hero.webp",
       "name": "Kona",
       "fullName": "Hyundai Kona",
       "yearRange": "2018–present",
@@ -1483,6 +1491,7 @@ module.exports = {
     },
     {
       "slug": "veloster",
+      "heroImage": "/images/models/hyundai-veloster-hero.webp",
       "name": "Veloster",
       "fullName": "Hyundai Veloster",
       "yearRange": "2011–2022",
@@ -1658,6 +1667,7 @@ module.exports = {
     },
     {
       "slug": "genesis-coupe",
+      "heroImage": "/images/models/hyundai-genesis-coupe-hero.webp",
       "name": "Genesis Coupe",
       "fullName": "Hyundai Genesis Coupe",
       "yearRange": "2009–2016",
@@ -1829,6 +1839,7 @@ module.exports = {
     },
     {
       "slug": "azera",
+      "heroImage": "/images/models/hyundai-azera-hero.webp",
       "name": "Azera",
       "fullName": "Hyundai Azera",
       "yearRange": "2006–2017",
@@ -2000,6 +2011,7 @@ module.exports = {
     },
     {
       "slug": "santa-cruz",
+      "heroImage": "/images/models/hyundai-santa-cruz-hero.webp",
       "name": "Santa Cruz",
       "fullName": "Hyundai Santa Cruz",
       "yearRange": "2022–present",

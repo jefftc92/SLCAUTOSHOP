@@ -6,7 +6,7 @@
      HERO
      ============================================================ %>
 <section class="page-hero">
-  <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('<%= brand.heroImage || site.heroImage %>')}</style>
+  <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('<%= model.heroImage || brand.heroImage || site.heroImage %>')}</style>
   <div class="page-hero-bg"></div>
   <div class="container">
     <h1><%= model.heading %></h1>

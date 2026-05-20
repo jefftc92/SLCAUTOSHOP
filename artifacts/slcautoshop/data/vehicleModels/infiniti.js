@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "g35",
+      "heroImage": "/images/models/infiniti-g35-hero.webp",
       "name": "G35",
       "fullName": "Infiniti G35",
       "yearRange": "2003–2008",
@@ -186,6 +187,7 @@ module.exports = {
     },
     {
       "slug": "g37",
+      "heroImage": "/images/models/infiniti-g37-hero.webp",
       "name": "G37",
       "fullName": "Infiniti G37",
       "yearRange": "2008–2013",
@@ -363,6 +365,7 @@ module.exports = {
     },
     {
       "slug": "q50",
+      "heroImage": "/images/models/infiniti-q50-hero.webp",
       "name": "Q50",
       "fullName": "Infiniti Q50",
       "yearRange": "2014–present",
@@ -530,6 +533,7 @@ module.exports = {
     },
     {
       "slug": "q60",
+      "heroImage": "/images/models/infiniti-q60-hero.webp",
       "name": "Q60",
       "fullName": "Infiniti Q60",
       "yearRange": "2014–present",
@@ -697,6 +701,7 @@ module.exports = {
     },
     {
       "slug": "qx60",
+      "heroImage": "/images/models/infiniti-qx60-hero.webp",
       "name": "QX60",
       "fullName": "Infiniti QX60",
       "yearRange": "2013–present",
@@ -874,6 +879,7 @@ module.exports = {
     },
     {
       "slug": "qx80",
+      "heroImage": "/images/models/infiniti-qx80-hero.webp",
       "name": "QX80",
       "fullName": "Infiniti QX80",
       "yearRange": "2011–present",
@@ -1051,6 +1057,7 @@ module.exports = {
     },
     {
       "slug": "ex",
+      "heroImage": "/images/models/infiniti-ex-hero.webp",
       "name": "EX",
       "fullName": "Infiniti EX",
       "yearRange": "2008–2013",
@@ -1218,6 +1225,7 @@ module.exports = {
     },
     {
       "slug": "fx",
+      "heroImage": "/images/models/infiniti-fx-hero.webp",
       "name": "FX",
       "fullName": "Infiniti FX",
       "yearRange": "2003–2013",
@@ -1391,6 +1399,7 @@ module.exports = {
     },
     {
       "slug": "m35",
+      "heroImage": "/images/models/infiniti-m35-hero.webp",
       "name": "M35",
       "fullName": "Infiniti M35",
       "yearRange": "2003–2010",
@@ -1558,6 +1567,7 @@ module.exports = {
     },
     {
       "slug": "jx",
+      "heroImage": "/images/models/infiniti-jx-hero.webp",
       "name": "JX",
       "fullName": "Infiniti JX",
       "yearRange": "2013",

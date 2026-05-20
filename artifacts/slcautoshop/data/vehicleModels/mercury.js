@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "grand-marquis",
+      "heroImage": "/images/models/mercury-grand-marquis-hero.webp",
       "name": "Grand Marquis",
       "fullName": "Mercury Grand Marquis",
       "yearRange": "1975–2011",
@@ -194,6 +195,7 @@ module.exports = {
     },
     {
       "slug": "mountaineer",
+      "heroImage": "/images/models/mercury-mountaineer-hero.webp",
       "name": "Mountaineer",
       "fullName": "Mercury Mountaineer",
       "yearRange": "1997–2010",
@@ -365,6 +367,7 @@ module.exports = {
     },
     {
       "slug": "sable",
+      "heroImage": "/images/models/mercury-sable-hero.webp",
       "name": "Sable",
       "fullName": "Mercury Sable",
       "yearRange": "1986–2005",
@@ -546,6 +549,7 @@ module.exports = {
     },
     {
       "slug": "villager",
+      "heroImage": "/images/models/mercury-villager-hero.webp",
       "name": "Villager",
       "fullName": "Mercury Villager",
       "yearRange": "1993–2002",
@@ -713,6 +717,7 @@ module.exports = {
     },
     {
       "slug": "cougar",
+      "heroImage": "/images/models/mercury-cougar-hero.webp",
       "name": "Cougar",
       "fullName": "Mercury Cougar",
       "yearRange": "1967–2002",

@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "charger",
+      "heroImage": "/images/models/dodge-charger-hero.webp",
       "name": "Charger",
       "fullName": "Dodge Charger",
       "yearRange": "2006–present",
@@ -186,6 +187,7 @@ module.exports = {
     },
     {
       "slug": "challenger",
+      "heroImage": "/images/models/dodge-challenger-hero.webp",
       "name": "Challenger",
       "fullName": "Dodge Challenger",
       "yearRange": "2008–2023",
@@ -361,6 +363,7 @@ module.exports = {
     },
     {
       "slug": "durango",
+      "heroImage": "/images/models/dodge-durango-hero.webp",
       "name": "Durango",
       "fullName": "Dodge Durango",
       "yearRange": "1998–present",
@@ -536,6 +539,7 @@ module.exports = {
     },
     {
       "slug": "journey",
+      "heroImage": "/images/models/dodge-journey-hero.webp",
       "name": "Journey",
       "fullName": "Dodge Journey",
       "yearRange": "2009–2020",
@@ -707,6 +711,7 @@ module.exports = {
     },
     {
       "slug": "dart",
+      "heroImage": "/images/models/dodge-dart-hero.webp",
       "name": "Dart",
       "fullName": "Dodge Dart",
       "yearRange": "2013–2016",
@@ -874,6 +879,7 @@ module.exports = {
     },
     {
       "slug": "caliber",
+      "heroImage": "/images/models/dodge-caliber-hero.webp",
       "name": "Caliber",
       "fullName": "Dodge Caliber",
       "yearRange": "2007–2012",
@@ -1041,6 +1047,7 @@ module.exports = {
     },
     {
       "slug": "neon",
+      "heroImage": "/images/models/dodge-neon-hero.webp",
       "name": "Neon",
       "fullName": "Dodge Neon",
       "yearRange": "1995–2005",
@@ -1212,6 +1219,7 @@ module.exports = {
     },
     {
       "slug": "avenger",
+      "heroImage": "/images/models/dodge-avenger-hero.webp",
       "name": "Avenger",
       "fullName": "Dodge Avenger",
       "yearRange": "2008–2014",
@@ -1379,6 +1387,7 @@ module.exports = {
     },
     {
       "slug": "grand-caravan",
+      "heroImage": "/images/models/dodge-grand-caravan-hero.webp",
       "name": "Grand Caravan",
       "fullName": "Dodge Grand Caravan",
       "yearRange": "1984–2020",

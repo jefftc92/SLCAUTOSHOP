@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "cx-5",
+      "heroImage": "/images/models/mazda-cx-5-hero.webp",
       "name": "CX-5",
       "fullName": "Mazda CX-5",
       "yearRange": "2013–present",
@@ -182,6 +183,7 @@ module.exports = {
     },
     {
       "slug": "cx-9",
+      "heroImage": "/images/models/mazda-cx-9-hero.webp",
       "name": "CX-9",
       "fullName": "Mazda CX-9",
       "yearRange": "2007–present",
@@ -349,6 +351,7 @@ module.exports = {
     },
     {
       "slug": "mazda3",
+      "heroImage": "/images/models/mazda-mazda3-hero.webp",
       "name": "Mazda3",
       "fullName": "Mazda3",
       "yearRange": "2004–present",
@@ -528,6 +531,7 @@ module.exports = {
     },
     {
       "slug": "mazda6",
+      "heroImage": "/images/models/mazda-mazda6-hero.webp",
       "name": "Mazda6",
       "fullName": "Mazda6",
       "yearRange": "2003–2021",
@@ -699,6 +703,7 @@ module.exports = {
     },
     {
       "slug": "mx-5-miata",
+      "heroImage": "/images/models/mazda-mx-5-miata-hero.webp",
       "name": "MX-5 Miata",
       "fullName": "Mazda MX-5 Miata",
       "yearRange": "1989–present",
@@ -878,6 +883,7 @@ module.exports = {
     },
     {
       "slug": "rx-7",
+      "heroImage": "/images/models/mazda-rx-7-hero.webp",
       "name": "RX-7",
       "fullName": "Mazda RX-7",
       "yearRange": "1979–2002",
@@ -1057,6 +1063,7 @@ module.exports = {
     },
     {
       "slug": "cx-3",
+      "heroImage": "/images/models/mazda-cx-3-hero.webp",
       "name": "CX-3",
       "fullName": "Mazda CX-3",
       "yearRange": "2016–2021",
@@ -1225,6 +1232,7 @@ module.exports = {
     },
     {
       "slug": "cx-30",
+      "heroImage": "/images/models/mazda-cx-30-hero.webp",
       "name": "CX-30",
       "fullName": "Mazda CX-30",
       "yearRange": "2020–present",
@@ -1393,6 +1401,7 @@ module.exports = {
     },
     {
       "slug": "rx-8",
+      "heroImage": "/images/models/mazda-rx-8-hero.webp",
       "name": "RX-8",
       "fullName": "Mazda RX-8",
       "yearRange": "2003–2012",
@@ -1572,6 +1581,7 @@ module.exports = {
     },
     {
       "slug": "tribute",
+      "heroImage": "/images/models/mazda-tribute-hero.webp",
       "name": "Tribute",
       "fullName": "Mazda Tribute",
       "yearRange": "2001–2011",
@@ -1750,6 +1760,7 @@ module.exports = {
     },
     {
       "slug": "626",
+      "heroImage": "/images/models/mazda-626-hero.webp",
       "name": "626",
       "fullName": "Mazda 626",
       "yearRange": "1979–2002",
@@ -1938,6 +1949,7 @@ module.exports = {
     },
     {
       "slug": "mpv",
+      "heroImage": "/images/models/mazda-mpv-hero.webp",
       "name": "MPV",
       "fullName": "Mazda MPV",
       "yearRange": "1989–2006",

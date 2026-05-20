@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "h1",
+      "heroImage": "/images/models/hummer-h1-hero.webp",
       "name": "H1",
       "fullName": "Hummer H1",
       "yearRange": "1992–2006",
@@ -180,6 +181,7 @@ module.exports = {
     },
     {
       "slug": "h2",
+      "heroImage": "/images/models/hummer-h2-hero.webp",
       "name": "H2",
       "fullName": "Hummer H2",
       "yearRange": "2003–2009",
@@ -347,6 +349,7 @@ module.exports = {
     },
     {
       "slug": "h3",
+      "heroImage": "/images/models/hummer-h3-hero.webp",
       "name": "H3",
       "fullName": "Hummer H3",
       "yearRange": "2006–2010",

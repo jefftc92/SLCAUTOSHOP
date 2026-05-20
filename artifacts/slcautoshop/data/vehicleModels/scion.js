@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "tc",
+      "heroImage": "/images/models/scion-tc-hero.webp",
       "name": "tC",
       "fullName": "Scion tC",
       "yearRange": "2005–2016",
@@ -178,6 +179,7 @@ module.exports = {
     },
     {
       "slug": "xb",
+      "heroImage": "/images/models/scion-xb-hero.webp",
       "name": "xB",
       "fullName": "Scion xB",
       "yearRange": "2004–2015",
@@ -351,6 +353,7 @@ module.exports = {
     },
     {
       "slug": "xa",
+      "heroImage": "/images/models/scion-xa-hero.webp",
       "name": "xA",
       "fullName": "Scion xA",
       "yearRange": "2004–2006",
@@ -514,6 +517,7 @@ module.exports = {
     },
     {
       "slug": "xd",
+      "heroImage": "/images/models/scion-xd-hero.webp",
       "name": "xD",
       "fullName": "Scion xD",
       "yearRange": "2008–2014",
@@ -677,6 +681,7 @@ module.exports = {
     },
     {
       "slug": "fr-s",
+      "heroImage": "/images/models/scion-fr-s-hero.webp",
       "name": "FR-S",
       "fullName": "Scion FR-S",
       "yearRange": "2013–2016",
@@ -840,6 +845,7 @@ module.exports = {
     },
     {
       "slug": "iq",
+      "heroImage": "/images/models/scion-iq-hero.webp",
       "name": "iQ",
       "fullName": "Scion iQ",
       "yearRange": "2012–2015",

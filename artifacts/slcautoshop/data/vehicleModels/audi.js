@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "a4",
+      "heroImage": "/images/models/audi-a4-hero.webp",
       "name": "A4",
       "fullName": "Audi A4",
       "yearRange": "1994–present",
@@ -194,6 +195,7 @@ module.exports = {
     },
     {
       "slug": "a6",
+      "heroImage": "/images/models/audi-a6-hero.webp",
       "name": "A6",
       "fullName": "Audi A6",
       "yearRange": "1994–present",
@@ -377,6 +379,7 @@ module.exports = {
     },
     {
       "slug": "q5",
+      "heroImage": "/images/models/audi-q5-hero.webp",
       "name": "Q5",
       "fullName": "Audi Q5",
       "yearRange": "2009–present",
@@ -550,6 +553,7 @@ module.exports = {
     },
     {
       "slug": "q7",
+      "heroImage": "/images/models/audi-q7-hero.webp",
       "name": "Q7",
       "fullName": "Audi Q7",
       "yearRange": "2007–present",
@@ -717,6 +721,7 @@ module.exports = {
     },
     {
       "slug": "a3",
+      "heroImage": "/images/models/audi-a3-hero.webp",
       "name": "A3",
       "fullName": "Audi A3",
       "yearRange": "1996–present",
@@ -896,6 +901,7 @@ module.exports = {
     },
     {
       "slug": "tt",
+      "heroImage": "/images/models/audi-tt-hero.webp",
       "name": "TT",
       "fullName": "Audi TT",
       "yearRange": "1999–2023",
@@ -1077,6 +1083,7 @@ module.exports = {
     },
     {
       "slug": "a8",
+      "heroImage": "/images/models/audi-a8-hero.webp",
       "name": "A8",
       "fullName": "Audi A8",
       "yearRange": "1994–present",
@@ -1262,6 +1269,7 @@ module.exports = {
     },
     {
       "slug": "s4",
+      "heroImage": "/images/models/audi-s4-hero.webp",
       "name": "S4",
       "fullName": "Audi S4",
       "yearRange": "1991–present",
@@ -1447,6 +1455,7 @@ module.exports = {
     },
     {
       "slug": "r8",
+      "heroImage": "/images/models/audi-r8-hero.webp",
       "name": "R8",
       "fullName": "Audi R8",
       "yearRange": "2007–present",
@@ -1624,6 +1633,7 @@ module.exports = {
     },
     {
       "slug": "a5",
+      "heroImage": "/images/models/audi-a5-hero.webp",
       "name": "A5",
       "fullName": "Audi A5",
       "yearRange": "2007–present",
@@ -1801,6 +1811,7 @@ module.exports = {
     },
     {
       "slug": "q3",
+      "heroImage": "/images/models/audi-q3-hero.webp",
       "name": "Q3",
       "fullName": "Audi Q3",
       "yearRange": "2011–present",
@@ -1978,6 +1989,7 @@ module.exports = {
     },
     {
       "slug": "allroad",
+      "heroImage": "/images/models/audi-allroad-hero.webp",
       "name": "Allroad",
       "fullName": "Audi Allroad",
       "yearRange": "2000–present",

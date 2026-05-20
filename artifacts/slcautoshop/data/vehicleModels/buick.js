@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "enclave",
+      "heroImage": "/images/models/buick-enclave-hero.webp",
       "name": "Enclave",
       "fullName": "Buick Enclave",
       "yearRange": "2008–present",
@@ -172,6 +173,7 @@ module.exports = {
     },
     {
       "slug": "encore",
+      "heroImage": "/images/models/buick-encore-hero.webp",
       "name": "Encore",
       "fullName": "Buick Encore",
       "yearRange": "2013–present",
@@ -339,6 +341,7 @@ module.exports = {
     },
     {
       "slug": "lacrosse",
+      "heroImage": "/images/models/buick-lacrosse-hero.webp",
       "name": "LaCrosse",
       "fullName": "Buick LaCrosse",
       "yearRange": "2005–2019",
@@ -510,6 +513,7 @@ module.exports = {
     },
     {
       "slug": "regal",
+      "heroImage": "/images/models/buick-regal-hero.webp",
       "name": "Regal",
       "fullName": "Buick Regal",
       "yearRange": "1973–2020",
@@ -685,6 +689,7 @@ module.exports = {
     },
     {
       "slug": "verano",
+      "heroImage": "/images/models/buick-verano-hero.webp",
       "name": "Verano",
       "fullName": "Buick Verano",
       "yearRange": "2012–2017",
@@ -848,6 +853,7 @@ module.exports = {
     },
     {
       "slug": "lesabre",
+      "heroImage": "/images/models/buick-lesabre-hero.webp",
       "name": "LeSabre",
       "fullName": "Buick LeSabre",
       "yearRange": "1959–2005",

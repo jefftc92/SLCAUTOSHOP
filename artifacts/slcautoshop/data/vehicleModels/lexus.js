@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "es",
+      "heroImage": "/images/models/lexus-es-hero.webp",
       "name": "ES",
       "fullName": "Lexus ES",
       "yearRange": "1989–present",
@@ -202,6 +203,7 @@ module.exports = {
     },
     {
       "slug": "is",
+      "heroImage": "/images/models/lexus-is-hero.webp",
       "name": "IS",
       "fullName": "Lexus IS",
       "yearRange": "1999–present",
@@ -387,6 +389,7 @@ module.exports = {
     },
     {
       "slug": "rx",
+      "heroImage": "/images/models/lexus-rx-hero.webp",
       "name": "RX",
       "fullName": "Lexus RX",
       "yearRange": "1998–present",
@@ -576,6 +579,7 @@ module.exports = {
     },
     {
       "slug": "gx",
+      "heroImage": "/images/models/lexus-gx-hero.webp",
       "name": "GX",
       "fullName": "Lexus GX",
       "yearRange": "2002–present",
@@ -757,6 +761,7 @@ module.exports = {
     },
     {
       "slug": "lx",
+      "heroImage": "/images/models/lexus-lx-hero.webp",
       "name": "LX",
       "fullName": "Lexus LX",
       "yearRange": "1996–present",
@@ -942,6 +947,7 @@ module.exports = {
     },
     {
       "slug": "ls",
+      "heroImage": "/images/models/lexus-ls-hero.webp",
       "name": "LS",
       "fullName": "Lexus LS",
       "yearRange": "1990–present",
@@ -1135,6 +1141,7 @@ module.exports = {
     },
     {
       "slug": "nx",
+      "heroImage": "/images/models/lexus-nx-hero.webp",
       "name": "NX",
       "fullName": "Lexus NX",
       "yearRange": "2015–present",
@@ -1312,6 +1319,7 @@ module.exports = {
     },
     {
       "slug": "ux",
+      "heroImage": "/images/models/lexus-ux-hero.webp",
       "name": "UX",
       "fullName": "Lexus UX",
       "yearRange": "2019–present",
@@ -1475,6 +1483,7 @@ module.exports = {
     },
     {
       "slug": "gs",
+      "heroImage": "/images/models/lexus-gs-hero.webp",
       "name": "GS",
       "fullName": "Lexus GS",
       "yearRange": "1993–2020",
@@ -1660,6 +1669,7 @@ module.exports = {
     },
     {
       "slug": "sc",
+      "heroImage": "/images/models/lexus-sc-hero.webp",
       "name": "SC",
       "fullName": "Lexus SC",
       "yearRange": "1992–2010",
@@ -1837,6 +1847,7 @@ module.exports = {
     },
     {
       "slug": "rc",
+      "heroImage": "/images/models/lexus-rc-hero.webp",
       "name": "RC",
       "fullName": "Lexus RC",
       "yearRange": "2015–present",

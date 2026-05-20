@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "silverado",
+      "heroImage": "/images/models/chevrolet-silverado-hero.webp",
       "name": "Silverado",
       "fullName": "Chevrolet Silverado",
       "yearRange": "1999–present",
@@ -190,6 +191,7 @@ module.exports = {
     },
     {
       "slug": "equinox",
+      "heroImage": "/images/models/chevrolet-equinox-hero.webp",
       "name": "Equinox",
       "fullName": "Chevrolet Equinox",
       "yearRange": "2004–present",
@@ -375,6 +377,7 @@ module.exports = {
     },
     {
       "slug": "malibu",
+      "heroImage": "/images/models/chevrolet-malibu-hero.webp",
       "name": "Malibu",
       "fullName": "Chevrolet Malibu",
       "yearRange": "1964–present",
@@ -564,6 +567,7 @@ module.exports = {
     },
     {
       "slug": "traverse",
+      "heroImage": "/images/models/chevrolet-traverse-hero.webp",
       "name": "Traverse",
       "fullName": "Chevrolet Traverse",
       "yearRange": "2009–present",
@@ -745,6 +749,7 @@ module.exports = {
     },
     {
       "slug": "tahoe",
+      "heroImage": "/images/models/chevrolet-tahoe-hero.webp",
       "name": "Tahoe",
       "fullName": "Chevrolet Tahoe",
       "yearRange": "1995–present",
@@ -934,6 +939,7 @@ module.exports = {
     },
     {
       "slug": "suburban",
+      "heroImage": "/images/models/chevrolet-suburban-hero.webp",
       "name": "Suburban",
       "fullName": "Chevrolet Suburban",
       "yearRange": "1935–present",
@@ -1123,6 +1129,7 @@ module.exports = {
     },
     {
       "slug": "colorado",
+      "heroImage": "/images/models/chevrolet-colorado-hero.webp",
       "name": "Colorado",
       "fullName": "Chevrolet Colorado",
       "yearRange": "2004–present",
@@ -1304,6 +1311,7 @@ module.exports = {
     },
     {
       "slug": "camaro",
+      "heroImage": "/images/models/chevrolet-camaro-hero.webp",
       "name": "Camaro",
       "fullName": "Chevrolet Camaro",
       "yearRange": "1966–2024",
@@ -1493,6 +1501,7 @@ module.exports = {
     },
     {
       "slug": "corvette",
+      "heroImage": "/images/models/chevrolet-corvette-hero.webp",
       "name": "Corvette",
       "fullName": "Chevrolet Corvette",
       "yearRange": "1953–present",
@@ -1682,6 +1691,7 @@ module.exports = {
     },
     {
       "slug": "trax",
+      "heroImage": "/images/models/chevrolet-trax-hero.webp",
       "name": "Trax",
       "fullName": "Chevrolet Trax",
       "yearRange": "2013–present",
@@ -1855,6 +1865,7 @@ module.exports = {
     },
     {
       "slug": "blazer",
+      "heroImage": "/images/models/chevrolet-blazer-hero.webp",
       "name": "Blazer",
       "fullName": "Chevrolet Blazer",
       "yearRange": "1969–present",
@@ -2036,6 +2047,7 @@ module.exports = {
     },
     {
       "slug": "impala",
+      "heroImage": "/images/models/chevrolet-impala-hero.webp",
       "name": "Impala",
       "fullName": "Chevrolet Impala",
       "yearRange": "1958–2020",
@@ -2217,6 +2229,7 @@ module.exports = {
     },
     {
       "slug": "cruze",
+      "heroImage": "/images/models/chevrolet-cruze-hero.webp",
       "name": "Cruze",
       "fullName": "Chevrolet Cruze",
       "yearRange": "2008–2019",

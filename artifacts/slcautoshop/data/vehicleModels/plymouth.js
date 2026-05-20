@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "voyager",
+      "heroImage": "/images/models/plymouth-voyager-hero.webp",
       "name": "Voyager",
       "fullName": "Plymouth Voyager",
       "yearRange": "1984–2000",
@@ -186,6 +187,7 @@ module.exports = {
     },
     {
       "slug": "grand-voyager",
+      "heroImage": "/images/models/plymouth-grand-voyager-hero.webp",
       "name": "Grand Voyager",
       "fullName": "Plymouth Grand Voyager",
       "yearRange": "1987–2000",
@@ -363,6 +365,7 @@ module.exports = {
     },
     {
       "slug": "neon",
+      "heroImage": "/images/models/plymouth-neon-hero.webp",
       "name": "Neon",
       "fullName": "Plymouth Neon",
       "yearRange": "1995–1999",
@@ -532,6 +535,7 @@ module.exports = {
     },
     {
       "slug": "breeze",
+      "heroImage": "/images/models/plymouth-breeze-hero.webp",
       "name": "Breeze",
       "fullName": "Plymouth Breeze",
       "yearRange": "1996–2000",
@@ -701,6 +705,7 @@ module.exports = {
     },
     {
       "slug": "prowler",
+      "heroImage": "/images/models/plymouth-prowler-hero.webp",
       "name": "Prowler",
       "fullName": "Plymouth Prowler",
       "yearRange": "1997–2002",

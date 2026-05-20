@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "1500",
+      "heroImage": "/images/models/ram-1500-hero.webp",
       "name": "1500",
       "fullName": "Ram 1500",
       "yearRange": "1981–present",
@@ -194,6 +195,7 @@ module.exports = {
     },
     {
       "slug": "2500",
+      "heroImage": "/images/models/ram-2500-hero.webp",
       "name": "2500",
       "fullName": "Ram 2500",
       "yearRange": "1994–present",
@@ -373,6 +375,7 @@ module.exports = {
     },
     {
       "slug": "3500",
+      "heroImage": "/images/models/ram-3500-hero.webp",
       "name": "3500",
       "fullName": "Ram 3500",
       "yearRange": "1994–present",
@@ -552,6 +555,7 @@ module.exports = {
     },
     {
       "slug": "promaster",
+      "heroImage": "/images/models/ram-promaster-hero.webp",
       "name": "ProMaster",
       "fullName": "Ram ProMaster",
       "yearRange": "2014–present",
@@ -719,6 +723,7 @@ module.exports = {
     },
     {
       "slug": "dakota",
+      "heroImage": "/images/models/ram-dakota-hero.webp",
       "name": "Dakota",
       "fullName": "Ram Dakota",
       "yearRange": "1987–2011",
