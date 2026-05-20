@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # Vehicle hero image generator — ModelsLab Flux
+# Run #2 after wallet funding
 import requests
 import numpy as np
 from PIL import Image, ImageFilter, ImageEnhance
