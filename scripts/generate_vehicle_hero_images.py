@@ -410,29 +410,41 @@ VEHICLES = [
 ]
 
 API_URL = "https://en.wikipedia.org/w/api.php"
-UA = {"User-Agent": "ScottsAutoShop/1.0 (vehicle-hero-images)"}
+REST_SUMMARY = "https://en.wikipedia.org/api/rest_v1/page/summary/"
+UA = {"User-Agent": "ScottsAutoShop/1.0 (vehicle-hero-images contact: jeff@slcautoshop.com)"}
 
-def _pageimage_for_title(title):
-    params = {
-        "action": "query",
-        "titles": title,
-        "prop": "pageimages",
-        "pithumbsize": 1200,
-        "format": "json",
-        "redirects": 1,
-    }
+def _summary_image(title):
+    """REST summary returns originalimage + thumbnail more reliably than pageimages."""
     try:
-        r = requests.get(API_URL, params=params, timeout=15, headers=UA)
+        url = REST_SUMMARY + requests.utils.quote(title.replace(" ", "_"), safe="")
+        r = requests.get(url, timeout=15, headers=UA)
+        if r.status_code != 200:
+            return None
         data = r.json()
-        for page in data.get("query", {}).get("pages", {}).values():
-            if "thumbnail" in page:
-                return page["thumbnail"]["source"]
+        if "originalimage" in data:
+            return data["originalimage"]["source"]
+        if "thumbnail" in data:
+            return data["thumbnail"]["source"]
     except Exception:
         pass
     return None
 
+def _search_titles(query, limit=5):
+    params = {
+        "action": "query",
+        "list": "search",
+        "srsearch": query,
+        "srlimit": limit,
+        "format": "json",
+    }
+    try:
+        r = requests.get(API_URL, params=params, timeout=15, headers=UA)
+        return [hit["title"] for hit in r.json().get("query", {}).get("search", [])]
+    except Exception:
+        return []
+
 def fetch_wikimedia_image(make, model):
-    # 1. Try direct title variants
+    # 1. Direct title variants via REST summary
     variants = [
         f"{make} {model}",
         f"{make} {model.replace('-', ' ')}",
@@ -443,27 +455,16 @@ def fetch_wikimedia_image(make, model):
         if title in seen:
             continue
         seen.add(title)
-        img = _pageimage_for_title(title)
+        img = _summary_image(title)
         if img:
             return img
 
-    # 2. Fall back to MediaWiki search — find best matching article, then its pageimage
-    try:
-        search_params = {
-            "action": "query",
-            "list": "search",
-            "srsearch": f"{make} {model} car",
-            "srlimit": 3,
-            "format": "json",
-        }
-        r = requests.get(API_URL, params=search_params, timeout=15, headers=UA)
-        results = r.json().get("query", {}).get("search", [])
-        for result in results:
-            img = _pageimage_for_title(result["title"])
+    # 2. Search-driven: find best matching Wikipedia article, then get its image
+    for query in [f"{make} {model} car", f"{make} {model} automobile", f"{make} {model}"]:
+        for title in _search_titles(query, limit=3):
+            img = _summary_image(title)
             if img:
                 return img
-    except Exception:
-        pass
     return None
 
 def add_vignette(img):
