@@ -27,7 +27,9 @@ jobs:
       - name: Delete existing fallback images
         run: rm -f artifacts/slcautoshop/public/images/models/*.webp
 
-      - name: Generate images from Wikipedia
+      - name: Generate images via ModelsLab
+        env:
+          MODELSLAB_API_KEY: ${{ secrets.MODELSLAB_API_KEY }}
         run: python3 scripts/generate_vehicle_hero_images.py
 
       - name: Commit and push
@@ -38,6 +40,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No image changes to commit"
           else
-            git commit -m "Generate vehicle hero images from Wikipedia"
+            git commit -m "Generate vehicle hero images via ModelsLab"
             git push
           fi
