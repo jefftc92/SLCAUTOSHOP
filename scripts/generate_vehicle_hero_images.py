@@ -409,23 +409,59 @@ VEHICLES = [
     ("volvo","s70","Volvo","S70"),
 ]
 
-def fetch_wikimedia_image(make, model):
-    url = "https://en.wikipedia.org/w/api.php"
+API_URL = "https://en.wikipedia.org/w/api.php"
+UA = {"User-Agent": "ScottsAutoShop/1.0 (vehicle-hero-images)"}
+
+def _pageimage_for_title(title):
     params = {
         "action": "query",
-        "titles": f"{make} {model}",
+        "titles": title,
         "prop": "pageimages",
         "pithumbsize": 1200,
         "format": "json",
         "redirects": 1,
     }
     try:
-        r = requests.get(url, params=params, timeout=15,
-                         headers={"User-Agent": "ScottsAutoShop/1.0 (vehicle-hero-images)"})
+        r = requests.get(API_URL, params=params, timeout=15, headers=UA)
         data = r.json()
-        for page in data["query"]["pages"].values():
+        for page in data.get("query", {}).get("pages", {}).values():
             if "thumbnail" in page:
                 return page["thumbnail"]["source"]
+    except Exception:
+        pass
+    return None
+
+def fetch_wikimedia_image(make, model):
+    # 1. Try direct title variants
+    variants = [
+        f"{make} {model}",
+        f"{make} {model.replace('-', ' ')}",
+        f"{make} {model} (automobile)",
+    ]
+    seen = set()
+    for title in variants:
+        if title in seen:
+            continue
+        seen.add(title)
+        img = _pageimage_for_title(title)
+        if img:
+            return img
+
+    # 2. Fall back to MediaWiki search — find best matching article, then its pageimage
+    try:
+        search_params = {
+            "action": "query",
+            "list": "search",
+            "srsearch": f"{make} {model} car",
+            "srlimit": 3,
+            "format": "json",
+        }
+        r = requests.get(API_URL, params=search_params, timeout=15, headers=UA)
+        results = r.json().get("query", {}).get("search", [])
+        for result in results:
+            img = _pageimage_for_title(result["title"])
+            if img:
+                return img
     except Exception:
         pass
     return None
