@@ -1026,7 +1026,7 @@ const highVolumeBrands = new Set([
 ]);
 
 // lastmod dates — updated when content changes, not on every deploy
-const LASTMOD_SPRINT   = '2026-05-15'; // pages touched in current SEO sprint
+const LASTMOD_SPRINT   = '2026-05-20'; // pages touched in current SEO sprint
 const LASTMOD_STABLE   = '2025-01-15'; // vehicle brands, legal pages — not recently changed
 
 // Returns [{path, priority, freq, lastmod}] for every indexable URL on the site.
@@ -1052,7 +1052,7 @@ function getSitemapEntries() {
     if (defunctBrands.has(v.slug)) return;
     add('/vehicle-brands/' + v.slug, highVolumeBrands.has(v.slug) ? '0.8' : '0.6', 'monthly', LASTMOD_SPRINT);
   });
-  // Honda model pages
+  // Vehicle model pages
   Object.values(vehicleModels).forEach(makeData => {
     makeData.models.forEach(model => {
       add('/vehicle-brands/' + makeData.makeKey + '/' + model.slug + '-repair-salt-lake-city-ut', '0.7', 'monthly', LASTMOD_SPRINT);
@@ -1088,6 +1088,7 @@ const SUB_SITEMAPS = [
   { slug: 'sitemap-locations.xml',     label: 'Location pages' },
   { slug: 'sitemap-symptoms.xml',      label: 'Symptom pages' },
   { slug: 'sitemap-vehicles.xml',      label: 'Vehicle brand pages' },
+  { slug: 'sitemap-vehicle-models.xml', label: 'Vehicle model pages' },
 ];
 
 app.get('/sitemap.xml', (req, res) => {
@@ -1149,6 +1150,23 @@ sitemapRoute('/sitemap-vehicles.xml', () =>
       lastmod: LASTMOD_STABLE,
     }))
 );
+
+// Vehicle model pages — all make/model pages
+sitemapRoute('/sitemap-vehicle-models.xml', () => {
+  const entries = [];
+  Object.values(vehicleModels).forEach(makeData => {
+    const isDefunct = defunctBrands.has(makeData.brandSlug);
+    makeData.models.forEach(model => {
+      entries.push({
+        path: '/vehicle-brands/' + makeData.makeKey + '/' + model.slug + '-repair-salt-lake-city-ut',
+        priority: highVolumeBrands.has(makeData.brandSlug) ? '0.7' : '0.5',
+        freq: 'monthly',
+        lastmod: LASTMOD_SPRINT,
+      });
+    });
+  });
+  return entries;
+});
 
 // ── IndexNow — active crawl submission ───────────────────────────────────────
 // IndexNow lets us push URLs directly to search engines instead of waiting for
