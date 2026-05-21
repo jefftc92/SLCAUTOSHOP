@@ -250,18 +250,6 @@ const services = [
     introImage: "cv-joint-worn-vs-new.webp",
     introImageAlt: "Worn CV joint axle (top) next to a new CV axle with fresh boot (bottom)",
     introImageCaption: "Worn CV axle (top) vs. new axle with intact boot (bottom).",
-    introImageCallouts: [
-      {
-        label: "Old — Top",
-        variant: "worn",
-        desc: "The rubber boot has torn, letting grease escape and road grit in. Once the ball bearings inside run dry and start grinding against each other, you get the clicking or clunking you hear on turns. A torn boot caught early can often be replaced alone — once the joint itself is damaged, the whole axle needs to go."
-      },
-      {
-        label: "New — Bottom",
-        variant: "new",
-        desc: "A fresh CV axle with an intact accordion boot and new clamp. The boot keeps grease sealed around the joint and contaminants out. As long as the boot stays sealed, a CV joint can last the life of the vehicle."
-      }
-    ],
     hideServicesSection: true,
     specializedServices: [
       "CV Joint Replacement",
@@ -341,7 +329,7 @@ const services = [
       {
         heading: "What Does CV Joint Repair Actually Involve?",
         paras: [
-          "A CV axle is the shaft that transfers engine power from your transmission to your wheels. Each axle has two constant-velocity joints that allow the shaft to flex with suspension movement and steering without binding.",
+          "A CV axle is the shaft that transfers engine power from your transmission to your wheels. Each axle has two constant-velocity joints that allow the shaft to flex with suspension movement and steering without binding. In the photo above, the dark corroded axle at the top shows what happens when the rubber boot tears — grease escapes, road grit gets in, and the ball bearings inside wear against each other, which is what causes the clicking you hear on turns. The clean axle at the bottom has an intact accordion boot with a fresh clamp; as long as that boot stays sealed, the joint can last the life of the vehicle.",
           "<strong>Outer CV joint</strong> — connects the axle to the wheel hub and handles the sharp angles of steering. This joint takes the most stress during tight turns and is the one that produces the classic clicking sound when it wears.",
           "<strong>Inner CV joint</strong> — connects the axle to the transmission and handles the up-and-down plunge movement of the suspension. Wear here typically shows up as a shudder or vibration under acceleration.",
           "<strong>CV boots</strong> — rubber covers that seal grease inside the joints and keep road debris out. A torn boot is the most common cause of joint failure. If caught early, a boot replacement can save the joint. If ignored, grit gets in and destroys the joint.",
@@ -459,18 +447,6 @@ const services = [
     introImage: "brake-pads-worn-vs-new.webp",
     introImageAlt: "Worn brake pad (left) vs new brake pad (right) showing depleted friction material",
     introImageCaption: "Worn pad (left) vs. new pad (right).",
-    introImageCallouts: [
-      {
-        label: "Old — Left",
-        variant: "worn",
-        desc: "The friction material is nearly gone and the surface is heavily grooved — the metal backing plate is already contacting the rotor. Every stop at this point is scoring the rotor surface. What would have been a pad-only job is now pads plus rotors, roughly doubling the cost."
-      },
-      {
-        label: "New — Right",
-        variant: "new",
-        desc: "A full pad has 10–12mm of friction material. The small metal tab at the bottom is the wear indicator — it contacts the rotor and starts squealing when you're down to about 2–3mm, giving you a window to get the pads replaced before they damage the rotors."
-      }
-    ],
     hideServicesSection: true,
     specializedServices: [
       "Brake Pad Replacement",
@@ -555,7 +531,7 @@ const services = [
       {
         heading: "What Does Brake Service Actually Involve?",
         paras: [
-          "Your brake system has several components that work together to slow the vehicle. When any one of them wears or fails, it affects the rest. Here's what we inspect on every brake job.",
+          "Your brake system has several components that work together to slow the vehicle. When any one of them wears or fails, it affects the rest. The two pads in the photo show exactly how this plays out: the worn pad on the left has almost no friction material left — the surface is grooved and the metal backing is already contacting the rotor on every stop, scoring it. The new pad on the right still has its full thickness, and you can see the small metal wear indicator tab at the bottom that starts squealing when you're down to 2–3mm, giving you a warning window before damage occurs. Here's what we inspect on every brake job.",
           "<strong>Brake pads</strong> — the friction material that clamps against the rotor to slow the wheel. Pads wear gradually and have a built-in wear indicator that starts squealing when they're getting thin. Once they're gone, rotors take the damage.",
           "<strong>Rotors</strong> — the discs that rotate with the wheel. We measure thickness and runout before deciding whether to resurface or replace. Warped rotors cause the pulsation you feel through the pedal or steering wheel when braking.",
           "<strong>Calipers and slide pins</strong> — the calipers squeeze the pads against the rotor using hydraulic pressure. They float on slide pins that must move freely. A seized slide pin causes one pad to drag constantly, wearing unevenly and building heat.",
@@ -883,18 +859,6 @@ const services = [
     introImage: "water-pump-new-vs-old.webp",
     introImageAlt: "New water pump with full impeller fins (left) vs old corroded pump with eroded fins (right)",
     introImageCaption: "New pump (left) vs. failed pump (right).",
-    introImageCallouts: [
-      {
-        label: "New — Left",
-        variant: "new",
-        desc: "Seven full aluminum fins move coolant efficiently through the engine block and heater core. A healthy impeller keeps coolant flow steady at all RPMs, preventing hot spots from forming in the engine."
-      },
-      {
-        label: "Old — Right",
-        variant: "worn",
-        desc: "The impeller fins have been almost completely eaten away by corrosion and electrolysis — just corroded stubs remain. The pump shaft still spins but moves almost no coolant, so the engine overheats even though nothing appears seized. This is one of the trickier failures to catch without pulling the pump."
-      }
-    ],
     hideServicesSection: true,
     specializedServices: [
       "Water Pump Replacement",
@@ -970,7 +934,7 @@ const services = [
       {
         heading: "What Does Water Pump Replacement Actually Involve?",
         paras: [
-          "The water pump is what keeps coolant moving through your engine. When it fails, the engine overheats. Most water pumps give some warning before they fail completely, which is the time to act.",
+          "The water pump is what keeps coolant moving through your engine. When it fails, the engine overheats. The two pumps in the photo show one of the more deceptive failure modes: the pump on the left is new, with seven full aluminum fins that push coolant through the system efficiently. The pump on the right still has an intact shaft that spins — but the impeller fins have been almost completely eaten away by corrosion, so it moves almost no coolant. The engine runs hot even though nothing appears seized, which is why overheating doesn't always point to an obvious failure. Most water pumps give some warning before they fail completely, which is the time to act.",
           "<strong>Water pump body and shaft seal</strong> — the pump turns a vane wheel inside the engine, driven by the timing belt, timing chain, or a separate drive belt. When the shaft seal fails, coolant leaks out through the weep hole near the front of the engine. That drip is a designed warning signal built into the pump.",
           "<strong>Impeller</strong> — the internal vane wheel that actually moves the coolant. On some pumps, the impeller can corrode away or separate from the shaft without any external leak. The pump turns but circulates almost no coolant, causing the engine to run hot with no visible puddle to explain it.",
           "<strong>Thermostat</strong> — a valve that controls how much coolant flows to the radiator based on temperature. Its labor overlaps with the water pump on most engines. We recommend replacing it at the same time rather than leaving an aging thermostat in against a new pump.",
