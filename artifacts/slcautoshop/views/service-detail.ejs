@@ -39,19 +39,29 @@
 </section>
 <% } %>
 
-<% if (service.intro || service.introImage) { %>
+<% if (service.introImage) { %>
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
-    <div class="prose mw-760">
-      <% if (service.intro) { %><p class="intro-lead"><%= service.intro %></p><% } %>
-      <% if (service.introImage) { %>
-      <figure class="prose-figure">
-        <img src="/assets/<%= service.introImage %>" alt="<%= service.introImageAlt %>" class="prose-image" width="760" height="428" loading="lazy">
+    <div class="compare-split">
+      <div class="compare-split-text">
+        <% if (service.intro) { %><p><%= service.intro %></p><% } %>
+        <% if (service.shortDefinition) { %><p><%= service.shortDefinition %></p><% } %>
+        <% if (service.introImageCaption) { %><p class="compare-caption"><%= service.introImageCaption %></p><% } %>
+      </div>
+      <figure>
+        <img src="/assets/<%= service.introImage %>" alt="<%= service.introImageAlt %>" width="900" height="600" loading="lazy" class="compare-split-img">
         <% if (service.introImageCaption) { %>
         <figcaption class="prose-figcaption"><%= service.introImageCaption %></figcaption>
         <% } %>
       </figure>
-      <% } %>
+    </div>
+  </div>
+</section>
+<% } else if (service.intro) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <div class="prose mw-760">
+      <p class="intro-lead"><%= service.intro %></p>
     </div>
   </div>
 </section>
