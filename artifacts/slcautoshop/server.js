@@ -95,7 +95,7 @@ app.use(helmet({
       imgSrc:         ["'self'", "data:", "https://raw.githubusercontent.com"],
       connectSrc:     ["'self'"],
       frameSrc:       ["'self'", "https://www.google.com", "https://maps.google.com"],  // Maps embed
-      frameAncestors: ["'none'"],
+      frameAncestors: ["'self'", "https://*.replit.dev", "https://*.replit.app"],
     },
   },
   crossOriginEmbedderPolicy: false,
