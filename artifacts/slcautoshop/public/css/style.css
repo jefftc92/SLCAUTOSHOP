@@ -294,7 +294,7 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
 .cta-section .btn-secondary{border-color:rgba(255,255,255,.5);color:#fff}
 .cta-section .btn-secondary:hover{border-color:#fff}
 .cta-address{margin-top:1rem;font-size:.88rem;color:rgba(255,255,255,.7)}
-.cta-perks{display:flex;flex-wrap:wrap;justify-content:center;gap:.375rem 1.25rem;list-style:none;padding:0;margin:0 0 1.5rem;color:rgba(255,255,255,.9);font-size:.82rem}
+.cta-perks{display:flex;flex-wrap:wrap;justify-content:center;gap:.375rem .65rem;list-style:none;padding:0;margin:0 0 1.5rem;color:rgba(255,255,255,.9);font-size:.78rem}
 .cta-perks li::before{content:"\2713\00a0";font-weight:700}
 
 /* === Footer (dark) === */
