@@ -248,8 +248,20 @@ const services = [
     heroIntro: "Clicking when you turn or vibration when you accelerate? That's almost always the CV axle. Free diagnosis. Written estimate. No surprises.",
     intro: "",
     introImage: "cv-joint-worn-vs-new.webp",
-    introImageAlt: "Worn CV joint next to a new CV joint showing damaged ball tracks and degraded grease",
-    introImageCaption: "Failed CV joint (left) vs. new joint (right) — worn ball tracks and dried-out grease from a torn boot are what cause the clicking you hear on turns.",
+    introImageAlt: "Worn CV joint axle (top) next to a new CV axle with fresh boot (bottom)",
+    introImageCaption: "Worn CV axle (top) vs. new axle with intact boot (bottom).",
+    introImageCallouts: [
+      {
+        label: "Old — Top",
+        variant: "worn",
+        desc: "The rubber boot has torn, letting grease escape and road grit in. Once the ball bearings inside run dry and start grinding against each other, you get the clicking or clunking you hear on turns. A torn boot caught early can often be replaced alone — once the joint itself is damaged, the whole axle needs to go."
+      },
+      {
+        label: "New — Bottom",
+        variant: "new",
+        desc: "A fresh CV axle with an intact accordion boot and new clamp. The boot keeps grease sealed around the joint and contaminants out. As long as the boot stays sealed, a CV joint can last the life of the vehicle."
+      }
+    ],
     hideServicesSection: true,
     specializedServices: [
       "CV Joint Replacement",
@@ -445,8 +457,20 @@ const services = [
     heroIntro: "Squeaking or grinding brakes? We measure before we recommend anything. Free inspection. Written estimate. No surprises.",
     intro: "",
     introImage: "brake-pads-worn-vs-new.webp",
-    introImageAlt: "Worn brake pad next to a new brake pad showing nearly depleted friction material",
-    introImageCaption: "Worn brake pad (left) vs. new pad (right) — when the friction material wears this thin, the metal backing contacts the rotor directly and damages it.",
+    introImageAlt: "Worn brake pad (left) vs new brake pad (right) showing depleted friction material",
+    introImageCaption: "Worn pad (left) vs. new pad (right).",
+    introImageCallouts: [
+      {
+        label: "Old — Left",
+        variant: "worn",
+        desc: "The friction material is nearly gone and the surface is heavily grooved — the metal backing plate is already contacting the rotor. Every stop at this point is scoring the rotor surface. What would have been a pad-only job is now pads plus rotors, roughly doubling the cost."
+      },
+      {
+        label: "New — Right",
+        variant: "new",
+        desc: "A full pad has 10–12mm of friction material. The small metal tab at the bottom is the wear indicator — it contacts the rotor and starts squealing when you're down to about 2–3mm, giving you a window to get the pads replaced before they damage the rotors."
+      }
+    ],
     hideServicesSection: true,
     specializedServices: [
       "Brake Pad Replacement",
@@ -857,8 +881,20 @@ const services = [
     heroIntro: "Overheating or coolant leaking near the front of the engine? The water pump is a common cause. Free diagnosis. Written estimate. No surprises.",
     intro: "",
     introImage: "water-pump-new-vs-old.webp",
-    introImageAlt: "Old corroded water pump next to a new water pump showing impeller wear",
-    introImageCaption: "Old water pump (left) vs. new pump (right) — a corroded or eroded impeller can no longer move coolant efficiently, causing the engine to run hot.",
+    introImageAlt: "New water pump with full impeller fins (left) vs old corroded pump with eroded fins (right)",
+    introImageCaption: "New pump (left) vs. failed pump (right).",
+    introImageCallouts: [
+      {
+        label: "New — Left",
+        variant: "new",
+        desc: "Seven full aluminum fins move coolant efficiently through the engine block and heater core. A healthy impeller keeps coolant flow steady at all RPMs, preventing hot spots from forming in the engine."
+      },
+      {
+        label: "Old — Right",
+        variant: "worn",
+        desc: "The impeller fins have been almost completely eaten away by corrosion and electrolysis — just corroded stubs remain. The pump shaft still spins but moves almost no coolant, so the engine overheats even though nothing appears seized. This is one of the trickier failures to catch without pulling the pump."
+      }
+    ],
     hideServicesSection: true,
     specializedServices: [
       "Water Pump Replacement",

@@ -217,6 +217,11 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
 .service-content-grid{display:grid;grid-template-columns:1fr minmax(0,440px);gap:3rem;align-items:start}
 .service-intro-figure{min-width:0}
 .service-intro-figure img{width:100%;height:auto;border-radius:var(--radius);box-shadow:var(--shadow);display:block}
+.image-callouts{margin-top:.875rem;display:flex;flex-direction:column;gap:.625rem}
+.image-callout-item{display:flex;gap:.5rem;align-items:flex-start;font-size:.82rem;line-height:1.55;color:var(--c-text)}
+.callout-label{flex-shrink:0;font-weight:700;font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;padding:.18rem .45rem;border-radius:3px;margin-top:.18rem;white-space:nowrap}
+.callout-worn{background:#7f1d1d;color:#fff}
+.callout-new{background:#14532d;color:#fff}
 @media(max-width:960px){.service-content-grid{grid-template-columns:1fr}.service-intro-figure{order:-1}}
 
 /* === Cost callout & inline CTA === */

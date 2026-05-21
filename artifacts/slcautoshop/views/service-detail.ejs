@@ -87,6 +87,16 @@
       <figure class="service-intro-figure">
         <img src="/assets/<%= service.introImage %>" alt="<%= service.introImageAlt %>" width="480" height="270" loading="lazy">
         <% if (service.introImageCaption) { %><figcaption class="prose-figcaption"><%= service.introImageCaption %></figcaption><% } %>
+        <% if (service.introImageCallouts && service.introImageCallouts.length) { %>
+        <div class="image-callouts">
+          <% service.introImageCallouts.forEach(function(c) { %>
+          <div class="image-callout-item">
+            <span class="callout-label callout-<%= c.variant %>"><%= c.label %></span>
+            <p><%= c.desc %></p>
+          </div>
+          <% }) %>
+        </div>
+        <% } %>
       </figure>
     </div>
     <% } else { %>
