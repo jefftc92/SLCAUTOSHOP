@@ -247,6 +247,9 @@ const services = [
     metaDesc: "Clicking when turning? CV axle worn? We replace CV joints, boots & axles for all makes and models. Free diagnosis. Call (801) 485-4089.",
     heroIntro: "Clicking when you turn or vibration when you accelerate? That's almost always the CV axle. Free diagnosis. Written estimate. No surprises.",
     intro: "",
+    introImage: "cv-joint-worn-vs-new.webp",
+    introImageAlt: "Worn CV joint next to a new CV joint showing damaged ball tracks and degraded grease",
+    introImageCaption: "Failed CV joint (left) vs. new joint (right) — worn ball tracks and dried-out grease from a torn boot are what cause the clicking you hear on turns.",
     hideServicesSection: true,
     specializedServices: [
       "CV Joint Replacement",
@@ -441,6 +444,9 @@ const services = [
     metaDesc: "Squeaking or grinding brakes? We replace pads, rotors, and calipers for all makes. Free brake inspection. South Salt Lake, UT. (801) 485-4089.",
     heroIntro: "Squeaking or grinding brakes? We measure before we recommend anything. Free inspection. Written estimate. No surprises.",
     intro: "",
+    introImage: "brake-pads-worn-vs-new.webp",
+    introImageAlt: "Worn brake pad next to a new brake pad showing nearly depleted friction material",
+    introImageCaption: "Worn brake pad (left) vs. new pad (right) — when the friction material wears this thin, the metal backing contacts the rotor directly and damages it.",
     hideServicesSection: true,
     specializedServices: [
       "Brake Pad Replacement",
@@ -850,6 +856,9 @@ const services = [
     metaDesc: "Overheating or coolant leak? Water pump failure is a common cause. We diagnose and replace water pumps for all makes. Call (801) 485-4089.",
     heroIntro: "Overheating or coolant leaking near the front of the engine? The water pump is a common cause. Free diagnosis. Written estimate. No surprises.",
     intro: "",
+    introImage: "water-pump-new-vs-old.webp",
+    introImageAlt: "Old corroded water pump next to a new water pump showing impeller wear",
+    introImageCaption: "Old water pump (left) vs. new pump (right) — a corroded or eroded impeller can no longer move coolant efficiently, causing the engine to run hot.",
     hideServicesSection: true,
     specializedServices: [
       "Water Pump Replacement",
