@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "3-series",
+      "heroImage": "/images/models/bmw-3-series-hero.webp",
       "name": "3 Series",
       "fullName": "BMW 3 Series",
       "yearRange": "1975–present",
@@ -202,6 +203,7 @@ module.exports = {
     },
     {
       "slug": "5-series",
+      "heroImage": "/images/models/bmw-5-series-hero.webp",
       "name": "5 Series",
       "fullName": "BMW 5 Series",
       "yearRange": "1972–present",
@@ -403,6 +405,7 @@ module.exports = {
     },
     {
       "slug": "7-series",
+      "heroImage": "/images/models/bmw-7-series-hero.webp",
       "name": "7 Series",
       "fullName": "BMW 7 Series",
       "yearRange": "1977–present",
@@ -600,6 +603,7 @@ module.exports = {
     },
     {
       "slug": "x3",
+      "heroImage": "/images/models/bmw-x3-hero.webp",
       "name": "X3",
       "fullName": "BMW X3",
       "yearRange": "2003–present",
@@ -781,6 +785,7 @@ module.exports = {
     },
     {
       "slug": "x5",
+      "heroImage": "/images/models/bmw-x5-hero.webp",
       "name": "X5",
       "fullName": "BMW X5",
       "yearRange": "1999–present",
@@ -966,6 +971,7 @@ module.exports = {
     },
     {
       "slug": "x1",
+      "heroImage": "/images/models/bmw-x1-hero.webp",
       "name": "X1",
       "fullName": "BMW X1",
       "yearRange": "2009–present",
@@ -1147,6 +1153,7 @@ module.exports = {
     },
     {
       "slug": "x7",
+      "heroImage": "/images/models/bmw-x7-hero.webp",
       "name": "X7",
       "fullName": "BMW X7",
       "yearRange": "2019–present",
@@ -1320,6 +1327,7 @@ module.exports = {
     },
     {
       "slug": "m3",
+      "heroImage": "/images/models/bmw-m3-hero.webp",
       "name": "M3",
       "fullName": "BMW M3",
       "yearRange": "1986–present",
@@ -1513,6 +1521,7 @@ module.exports = {
     },
     {
       "slug": "m5",
+      "heroImage": "/images/models/bmw-m5-hero.webp",
       "name": "M5",
       "fullName": "BMW M5",
       "yearRange": "1984–present",
@@ -1710,6 +1719,7 @@ module.exports = {
     },
     {
       "slug": "1-series",
+      "heroImage": "/images/models/bmw-1-series-hero.webp",
       "name": "1 Series",
       "fullName": "BMW 1 Series",
       "yearRange": "2004–present",
@@ -1891,6 +1901,7 @@ module.exports = {
     },
     {
       "slug": "2-series",
+      "heroImage": "/images/models/bmw-2-series-hero.webp",
       "name": "2 Series",
       "fullName": "BMW 2 Series",
       "yearRange": "2013–present",
@@ -2072,6 +2083,7 @@ module.exports = {
     },
     {
       "slug": "4-series",
+      "heroImage": "/images/models/bmw-4-series-hero.webp",
       "name": "4 Series",
       "fullName": "BMW 4 Series",
       "yearRange": "2013–present",
@@ -2257,6 +2269,7 @@ module.exports = {
     },
     {
       "slug": "6-series",
+      "heroImage": "/images/models/bmw-6-series-hero.webp",
       "name": "6 Series",
       "fullName": "BMW 6 Series",
       "yearRange": "1976–2018",

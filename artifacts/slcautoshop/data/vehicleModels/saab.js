@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "9-3",
+      "heroImage": "/images/models/saab-9-3-hero.webp",
       "name": "9-3",
       "fullName": "Saab 9-3",
       "yearRange": "1998–2011",
@@ -190,6 +191,7 @@ module.exports = {
     },
     {
       "slug": "9-5",
+      "heroImage": "/images/models/saab-9-5-hero.webp",
       "name": "9-5",
       "fullName": "Saab 9-5",
       "yearRange": "1998–2011",
@@ -371,6 +373,7 @@ module.exports = {
     },
     {
       "slug": "900",
+      "heroImage": "/images/models/saab-900-hero.webp",
       "name": "900",
       "fullName": "Saab 900",
       "yearRange": "1978–1994",
@@ -556,6 +559,7 @@ module.exports = {
     },
     {
       "slug": "9000",
+      "heroImage": "/images/models/saab-9000-hero.webp",
       "name": "9000",
       "fullName": "Saab 9000",
       "yearRange": "1985–1998",

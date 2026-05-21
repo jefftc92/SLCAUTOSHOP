@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "cooper",
+      "heroImage": "/images/models/mini-cooper-hero.webp",
       "name": "Cooper",
       "fullName": "MINI Cooper",
       "yearRange": "2002–present",
@@ -186,6 +187,7 @@ module.exports = {
     },
     {
       "slug": "countryman",
+      "heroImage": "/images/models/mini-countryman-hero.webp",
       "name": "Countryman",
       "fullName": "MINI Countryman",
       "yearRange": "2011–present",
@@ -353,6 +355,7 @@ module.exports = {
     },
     {
       "slug": "clubman",
+      "heroImage": "/images/models/mini-clubman-hero.webp",
       "name": "Clubman",
       "fullName": "MINI Clubman",
       "yearRange": "2008–present",
@@ -520,6 +523,7 @@ module.exports = {
     },
     {
       "slug": "paceman",
+      "heroImage": "/images/models/mini-paceman-hero.webp",
       "name": "Paceman",
       "fullName": "MINI Paceman",
       "yearRange": "2013–2016",
@@ -683,6 +687,7 @@ module.exports = {
     },
     {
       "slug": "roadster",
+      "heroImage": "/images/models/mini-roadster-hero.webp",
       "name": "Roadster",
       "fullName": "MINI Roadster",
       "yearRange": "2012–2015",
@@ -846,6 +851,7 @@ module.exports = {
     },
     {
       "slug": "convertible",
+      "heroImage": "/images/models/mini-convertible-hero.webp",
       "name": "Convertible",
       "fullName": "MINI Convertible",
       "yearRange": "2005–present",

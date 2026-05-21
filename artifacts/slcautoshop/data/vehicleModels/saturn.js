@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "vue",
+      "heroImage": "/images/models/saturn-vue-hero.webp",
       "name": "Vue",
       "fullName": "Saturn Vue",
       "yearRange": "2002–2010",
@@ -182,6 +183,7 @@ module.exports = {
     },
     {
       "slug": "ion",
+      "heroImage": "/images/models/saturn-ion-hero.webp",
       "name": "Ion",
       "fullName": "Saturn Ion",
       "yearRange": "2003–2007",
@@ -353,6 +355,7 @@ module.exports = {
     },
     {
       "slug": "s-series",
+      "heroImage": "/images/models/saturn-s-series-hero.webp",
       "name": "S-Series",
       "fullName": "Saturn S-Series",
       "yearRange": "1991–2002",
@@ -524,6 +527,7 @@ module.exports = {
     },
     {
       "slug": "outlook",
+      "heroImage": "/images/models/saturn-outlook-hero.webp",
       "name": "Outlook",
       "fullName": "Saturn Outlook",
       "yearRange": "2007–2010",
@@ -691,6 +695,7 @@ module.exports = {
     },
     {
       "slug": "aura",
+      "heroImage": "/images/models/saturn-aura-hero.webp",
       "name": "Aura",
       "fullName": "Saturn Aura",
       "yearRange": "2007–2010",

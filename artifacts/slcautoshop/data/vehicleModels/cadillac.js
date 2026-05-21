@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "escalade",
+      "heroImage": "/images/models/cadillac-escalade-hero.webp",
       "name": "Escalade",
       "fullName": "Cadillac Escalade",
       "yearRange": "1999–present",
@@ -194,6 +195,7 @@ module.exports = {
     },
     {
       "slug": "cts",
+      "heroImage": "/images/models/cadillac-cts-hero.webp",
       "name": "CTS",
       "fullName": "Cadillac CTS",
       "yearRange": "2003–2019",
@@ -373,6 +375,7 @@ module.exports = {
     },
     {
       "slug": "ats",
+      "heroImage": "/images/models/cadillac-ats-hero.webp",
       "name": "ATS",
       "fullName": "Cadillac ATS",
       "yearRange": "2013–2019",
@@ -544,6 +547,7 @@ module.exports = {
     },
     {
       "slug": "srx",
+      "heroImage": "/images/models/cadillac-srx-hero.webp",
       "name": "SRX",
       "fullName": "Cadillac SRX",
       "yearRange": "2004–2016",
@@ -711,6 +715,7 @@ module.exports = {
     },
     {
       "slug": "xt5",
+      "heroImage": "/images/models/cadillac-xt5-hero.webp",
       "name": "XT5",
       "fullName": "Cadillac XT5",
       "yearRange": "2017–present",
@@ -878,6 +883,7 @@ module.exports = {
     },
     {
       "slug": "xt4",
+      "heroImage": "/images/models/cadillac-xt4-hero.webp",
       "name": "XT4",
       "fullName": "Cadillac XT4",
       "yearRange": "2019–present",
@@ -1041,6 +1047,7 @@ module.exports = {
     },
     {
       "slug": "xts",
+      "heroImage": "/images/models/cadillac-xts-hero.webp",
       "name": "XTS",
       "fullName": "Cadillac XTS",
       "yearRange": "2013–2019",
@@ -1212,6 +1219,7 @@ module.exports = {
     },
     {
       "slug": "deville",
+      "heroImage": "/images/models/cadillac-deville-hero.webp",
       "name": "DeVille",
       "fullName": "Cadillac DeVille",
       "yearRange": "1949–2005",

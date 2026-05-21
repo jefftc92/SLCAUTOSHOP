@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "altima",
+      "heroImage": "/images/models/nissan-altima-hero.webp",
       "name": "Altima",
       "fullName": "Nissan Altima",
       "yearRange": "1992–present",
@@ -198,6 +199,7 @@ module.exports = {
     },
     {
       "slug": "sentra",
+      "heroImage": "/images/models/nissan-sentra-hero.webp",
       "name": "Sentra",
       "fullName": "Nissan Sentra",
       "yearRange": "1982–present",
@@ -391,6 +393,7 @@ module.exports = {
     },
     {
       "slug": "rogue",
+      "heroImage": "/images/models/nissan-rogue-hero.webp",
       "name": "Rogue",
       "fullName": "Nissan Rogue",
       "yearRange": "2007–present",
@@ -572,6 +575,7 @@ module.exports = {
     },
     {
       "slug": "pathfinder",
+      "heroImage": "/images/models/nissan-pathfinder-hero.webp",
       "name": "Pathfinder",
       "fullName": "Nissan Pathfinder",
       "yearRange": "1985–present",
@@ -761,6 +765,7 @@ module.exports = {
     },
     {
       "slug": "frontier",
+      "heroImage": "/images/models/nissan-frontier-hero.webp",
       "name": "Frontier",
       "fullName": "Nissan Frontier",
       "yearRange": "1997–present",
@@ -942,6 +947,7 @@ module.exports = {
     },
     {
       "slug": "titan",
+      "heroImage": "/images/models/nissan-titan-hero.webp",
       "name": "Titan",
       "fullName": "Nissan Titan",
       "yearRange": "2004–present",
@@ -1119,6 +1125,7 @@ module.exports = {
     },
     {
       "slug": "maxima",
+      "heroImage": "/images/models/nissan-maxima-hero.webp",
       "name": "Maxima",
       "fullName": "Nissan Maxima",
       "yearRange": "1981–2023",
@@ -1312,6 +1319,7 @@ module.exports = {
     },
     {
       "slug": "murano",
+      "heroImage": "/images/models/nissan-murano-hero.webp",
       "name": "Murano",
       "fullName": "Nissan Murano",
       "yearRange": "2002–present",
@@ -1501,6 +1509,7 @@ module.exports = {
     },
     {
       "slug": "kicks",
+      "heroImage": "/images/models/nissan-kicks-hero.webp",
       "name": "Kicks",
       "fullName": "Nissan Kicks",
       "yearRange": "2016–present",
@@ -1685,6 +1694,7 @@ module.exports = {
     },
     {
       "slug": "versa",
+      "heroImage": "/images/models/nissan-versa-hero.webp",
       "name": "Versa",
       "fullName": "Nissan Versa",
       "yearRange": "2006–present",
@@ -1869,6 +1879,7 @@ module.exports = {
     },
     {
       "slug": "370z",
+      "heroImage": "/images/models/nissan-370z-hero.webp",
       "name": "370Z",
       "fullName": "Nissan 370Z",
       "yearRange": "2009–2020",
@@ -2053,6 +2064,7 @@ module.exports = {
     },
     {
       "slug": "350z",
+      "heroImage": "/images/models/nissan-350z-hero.webp",
       "name": "350Z",
       "fullName": "Nissan 350Z",
       "yearRange": "2002–2009",
@@ -2237,6 +2249,7 @@ module.exports = {
     },
     {
       "slug": "xterra",
+      "heroImage": "/images/models/nissan-xterra-hero.webp",
       "name": "Xterra",
       "fullName": "Nissan Xterra",
       "yearRange": "1999–2015",
@@ -2421,6 +2434,7 @@ module.exports = {
     },
     {
       "slug": "juke",
+      "heroImage": "/images/models/nissan-juke-hero.webp",
       "name": "Juke",
       "fullName": "Nissan Juke",
       "yearRange": "2010–2017",

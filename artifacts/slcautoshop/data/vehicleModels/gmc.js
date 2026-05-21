@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "sierra",
+      "heroImage": "/images/models/gmc-sierra-hero.webp",
       "name": "Sierra",
       "fullName": "GMC Sierra",
       "yearRange": "1999–present",
@@ -194,6 +195,7 @@ module.exports = {
     },
     {
       "slug": "yukon",
+      "heroImage": "/images/models/gmc-yukon-hero.webp",
       "name": "Yukon",
       "fullName": "GMC Yukon",
       "yearRange": "1992–present",
@@ -373,6 +375,7 @@ module.exports = {
     },
     {
       "slug": "acadia",
+      "heroImage": "/images/models/gmc-acadia-hero.webp",
       "name": "Acadia",
       "fullName": "GMC Acadia",
       "yearRange": "2007–present",
@@ -540,6 +543,7 @@ module.exports = {
     },
     {
       "slug": "canyon",
+      "heroImage": "/images/models/gmc-canyon-hero.webp",
       "name": "Canyon",
       "fullName": "GMC Canyon",
       "yearRange": "2004–present",
@@ -707,6 +711,7 @@ module.exports = {
     },
     {
       "slug": "terrain",
+      "heroImage": "/images/models/gmc-terrain-hero.webp",
       "name": "Terrain",
       "fullName": "GMC Terrain",
       "yearRange": "2010–present",
@@ -874,6 +879,7 @@ module.exports = {
     },
     {
       "slug": "envoy",
+      "heroImage": "/images/models/gmc-envoy-hero.webp",
       "name": "Envoy",
       "fullName": "GMC Envoy",
       "yearRange": "1998–2009",
@@ -1041,6 +1047,7 @@ module.exports = {
     },
     {
       "slug": "jimmy",
+      "heroImage": "/images/models/gmc-jimmy-hero.webp",
       "name": "Jimmy",
       "fullName": "GMC Jimmy",
       "yearRange": "1970–2005",

@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "c-class",
+      "heroImage": "/images/models/mercedes-benz-c-class-hero.webp",
       "name": "C-Class",
       "fullName": "Mercedes-Benz C-Class",
       "yearRange": "1993–present",
@@ -194,6 +195,7 @@ module.exports = {
     },
     {
       "slug": "e-class",
+      "heroImage": "/images/models/mercedes-benz-e-class-hero.webp",
       "name": "E-Class",
       "fullName": "Mercedes-Benz E-Class",
       "yearRange": "1984–present",
@@ -383,6 +385,7 @@ module.exports = {
     },
     {
       "slug": "s-class",
+      "heroImage": "/images/models/mercedes-benz-s-class-hero.webp",
       "name": "S-Class",
       "fullName": "Mercedes-Benz S-Class",
       "yearRange": "1972–present",
@@ -576,6 +579,7 @@ module.exports = {
     },
     {
       "slug": "gle",
+      "heroImage": "/images/models/mercedes-benz-gle-hero.webp",
       "name": "GLE",
       "fullName": "Mercedes-Benz GLE",
       "yearRange": "2015–present",
@@ -747,6 +751,7 @@ module.exports = {
     },
     {
       "slug": "glc",
+      "heroImage": "/images/models/mercedes-benz-glc-hero.webp",
       "name": "GLC",
       "fullName": "Mercedes-Benz GLC",
       "yearRange": "2015–present",
@@ -918,6 +923,7 @@ module.exports = {
     },
     {
       "slug": "glk",
+      "heroImage": "/images/models/mercedes-benz-glk-hero.webp",
       "name": "GLK",
       "fullName": "Mercedes-Benz GLK",
       "yearRange": "2008–2015",
@@ -1091,6 +1097,7 @@ module.exports = {
     },
     {
       "slug": "ml-class",
+      "heroImage": "/images/models/mercedes-benz-ml-class-hero.webp",
       "name": "ML-Class",
       "fullName": "Mercedes-Benz ML-Class",
       "yearRange": "1997–2015",
@@ -1272,6 +1279,7 @@ module.exports = {
     },
     {
       "slug": "cla",
+      "heroImage": "/images/models/mercedes-benz-cla-hero.webp",
       "name": "CLA",
       "fullName": "Mercedes-Benz CLA",
       "yearRange": "2013–present",
@@ -1443,6 +1451,7 @@ module.exports = {
     },
     {
       "slug": "gla",
+      "heroImage": "/images/models/mercedes-benz-gla-hero.webp",
       "name": "GLA",
       "fullName": "Mercedes-Benz GLA",
       "yearRange": "2014–present",
@@ -1614,6 +1623,7 @@ module.exports = {
     },
     {
       "slug": "sprinter",
+      "heroImage": "/images/models/mercedes-benz-sprinter-hero.webp",
       "name": "Sprinter",
       "fullName": "Mercedes-Benz Sprinter",
       "yearRange": "1995–present",
@@ -1795,6 +1805,7 @@ module.exports = {
     },
     {
       "slug": "sl",
+      "heroImage": "/images/models/mercedes-benz-sl-hero.webp",
       "name": "SL",
       "fullName": "Mercedes-Benz SL",
       "yearRange": "1954–2022",
@@ -1974,6 +1985,7 @@ module.exports = {
     },
     {
       "slug": "clk",
+      "heroImage": "/images/models/mercedes-benz-clk-hero.webp",
       "name": "CLK",
       "fullName": "Mercedes-Benz CLK",
       "yearRange": "1997–2009",

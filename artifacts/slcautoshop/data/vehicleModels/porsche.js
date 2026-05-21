@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "911",
+      "heroImage": "/images/models/porsche-911-hero.webp",
       "name": "911",
       "fullName": "Porsche 911",
       "yearRange": "1963–present",
@@ -206,6 +207,7 @@ module.exports = {
     },
     {
       "slug": "cayenne",
+      "heroImage": "/images/models/porsche-cayenne-hero.webp",
       "name": "Cayenne",
       "fullName": "Porsche Cayenne",
       "yearRange": "2002–present",
@@ -387,6 +389,7 @@ module.exports = {
     },
     {
       "slug": "macan",
+      "heroImage": "/images/models/porsche-macan-hero.webp",
       "name": "Macan",
       "fullName": "Porsche Macan",
       "yearRange": "2014–present",
@@ -554,6 +557,7 @@ module.exports = {
     },
     {
       "slug": "boxster",
+      "heroImage": "/images/models/porsche-boxster-hero.webp",
       "name": "Boxster",
       "fullName": "Porsche Boxster",
       "yearRange": "1996–present",
@@ -733,6 +737,7 @@ module.exports = {
     },
     {
       "slug": "cayman",
+      "heroImage": "/images/models/porsche-cayman-hero.webp",
       "name": "Cayman",
       "fullName": "Porsche Cayman",
       "yearRange": "2005–present",
@@ -908,6 +913,7 @@ module.exports = {
     },
     {
       "slug": "panamera",
+      "heroImage": "/images/models/porsche-panamera-hero.webp",
       "name": "Panamera",
       "fullName": "Porsche Panamera",
       "yearRange": "2009–present",

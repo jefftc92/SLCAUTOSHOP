@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "trooper",
+      "heroImage": "/images/models/isuzu-trooper-hero.webp",
       "name": "Trooper",
       "fullName": "Isuzu Trooper",
       "yearRange": "1981–2002",
@@ -178,6 +179,7 @@ module.exports = {
     },
     {
       "slug": "rodeo",
+      "heroImage": "/images/models/isuzu-rodeo-hero.webp",
       "name": "Rodeo",
       "fullName": "Isuzu Rodeo",
       "yearRange": "1990–2004",
@@ -351,6 +353,7 @@ module.exports = {
     },
     {
       "slug": "passport",
+      "heroImage": "/images/models/isuzu-passport-hero.webp",
       "name": "Passport",
       "fullName": "Isuzu Passport",
       "yearRange": "1994–2002",
@@ -518,6 +521,7 @@ module.exports = {
     },
     {
       "slug": "axiom",
+      "heroImage": "/images/models/isuzu-axiom-hero.webp",
       "name": "Axiom",
       "fullName": "Isuzu Axiom",
       "yearRange": "2002–2004",
@@ -681,6 +685,7 @@ module.exports = {
     },
     {
       "slug": "amigo",
+      "heroImage": "/images/models/isuzu-amigo-hero.webp",
       "name": "Amigo",
       "fullName": "Isuzu Amigo",
       "yearRange": "1989–2000",

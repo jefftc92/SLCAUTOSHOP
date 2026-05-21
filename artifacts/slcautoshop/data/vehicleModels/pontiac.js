@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "firebird",
+      "heroImage": "/images/models/pontiac-firebird-hero.webp",
       "name": "Firebird",
       "fullName": "Pontiac Firebird",
       "yearRange": "1967–2002",
@@ -190,6 +191,7 @@ module.exports = {
     },
     {
       "slug": "gto",
+      "heroImage": "/images/models/pontiac-gto-hero.webp",
       "name": "GTO",
       "fullName": "Pontiac GTO",
       "yearRange": "1964–1974, 2004–2006",
@@ -365,6 +367,7 @@ module.exports = {
     },
     {
       "slug": "grand-prix",
+      "heroImage": "/images/models/pontiac-grand-prix-hero.webp",
       "name": "Grand Prix",
       "fullName": "Pontiac Grand Prix",
       "yearRange": "1962–2008",
@@ -536,6 +539,7 @@ module.exports = {
     },
     {
       "slug": "grand-am",
+      "heroImage": "/images/models/pontiac-grand-am-hero.webp",
       "name": "Grand Am",
       "fullName": "Pontiac Grand Am",
       "yearRange": "1973–1975, 1978–1980, 1985–2005",
@@ -703,6 +707,7 @@ module.exports = {
     },
     {
       "slug": "bonneville",
+      "heroImage": "/images/models/pontiac-bonneville-hero.webp",
       "name": "Bonneville",
       "fullName": "Pontiac Bonneville",
       "yearRange": "1957–2005",
@@ -870,6 +875,7 @@ module.exports = {
     },
     {
       "slug": "solstice",
+      "heroImage": "/images/models/pontiac-solstice-hero.webp",
       "name": "Solstice",
       "fullName": "Pontiac Solstice",
       "yearRange": "2006–2010",
@@ -1033,6 +1039,7 @@ module.exports = {
     },
     {
       "slug": "aztek",
+      "heroImage": "/images/models/pontiac-aztek-hero.webp",
       "name": "Aztek",
       "fullName": "Pontiac Aztek",
       "yearRange": "2001–2005",

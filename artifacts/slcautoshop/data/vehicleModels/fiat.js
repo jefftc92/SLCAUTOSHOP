@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "500",
+      "heroImage": "/images/models/fiat-500-hero.webp",
       "name": "500",
       "fullName": "Fiat 500",
       "yearRange": "2012–2019",
@@ -186,6 +187,7 @@ module.exports = {
     },
     {
       "slug": "500x",
+      "heroImage": "/images/models/fiat-500x-hero.webp",
       "name": "500X",
       "fullName": "Fiat 500X",
       "yearRange": "2016–2020",
@@ -353,6 +355,7 @@ module.exports = {
     },
     {
       "slug": "500l",
+      "heroImage": "/images/models/fiat-500l-hero.webp",
       "name": "500L",
       "fullName": "Fiat 500L",
       "yearRange": "2014–2020",
@@ -526,6 +529,7 @@ module.exports = {
     },
     {
       "slug": "bravo",
+      "heroImage": "/images/models/fiat-bravo-hero.webp",
       "name": "Bravo",
       "fullName": "Fiat Bravo",
       "yearRange": "1995–2014",

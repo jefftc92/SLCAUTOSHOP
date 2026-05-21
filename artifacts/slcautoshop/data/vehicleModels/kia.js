@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "optima",
+      "heroImage": "/images/models/kia-optima-hero.webp",
       "name": "Optima",
       "fullName": "Kia Optima",
       "yearRange": "2001–2020",
@@ -190,6 +191,7 @@ module.exports = {
     },
     {
       "slug": "sorento",
+      "heroImage": "/images/models/kia-sorento-hero.webp",
       "name": "Sorento",
       "fullName": "Kia Sorento",
       "yearRange": "2003–present",
@@ -369,6 +371,7 @@ module.exports = {
     },
     {
       "slug": "sportage",
+      "heroImage": "/images/models/kia-sportage-hero.webp",
       "name": "Sportage",
       "fullName": "Kia Sportage",
       "yearRange": "1993–present",
@@ -552,6 +555,7 @@ module.exports = {
     },
     {
       "slug": "soul",
+      "heroImage": "/images/models/kia-soul-hero.webp",
       "name": "Soul",
       "fullName": "Kia Soul",
       "yearRange": "2010–present",
@@ -727,6 +731,7 @@ module.exports = {
     },
     {
       "slug": "telluride",
+      "heroImage": "/images/models/kia-telluride-hero.webp",
       "name": "Telluride",
       "fullName": "Kia Telluride",
       "yearRange": "2020–present",
@@ -894,6 +899,7 @@ module.exports = {
     },
     {
       "slug": "stinger",
+      "heroImage": "/images/models/kia-stinger-hero.webp",
       "name": "Stinger",
       "fullName": "Kia Stinger",
       "yearRange": "2018–2023",
@@ -1061,6 +1067,7 @@ module.exports = {
     },
     {
       "slug": "rio",
+      "heroImage": "/images/models/kia-rio-hero.webp",
       "name": "Rio",
       "fullName": "Kia Rio",
       "yearRange": "2001–present",
@@ -1246,6 +1253,7 @@ module.exports = {
     },
     {
       "slug": "niro",
+      "heroImage": "/images/models/kia-niro-hero.webp",
       "name": "Niro",
       "fullName": "Kia Niro",
       "yearRange": "2017–present",
@@ -1417,6 +1425,7 @@ module.exports = {
     },
     {
       "slug": "forte",
+      "heroImage": "/images/models/kia-forte-hero.webp",
       "name": "Forte",
       "fullName": "Kia Forte",
       "yearRange": "2010–present",
@@ -1598,6 +1607,7 @@ module.exports = {
     },
     {
       "slug": "sedona",
+      "heroImage": "/images/models/kia-sedona-hero.webp",
       "name": "Sedona",
       "fullName": "Kia Sedona",
       "yearRange": "2002–2021",
@@ -1779,6 +1789,7 @@ module.exports = {
     },
     {
       "slug": "cadenza",
+      "heroImage": "/images/models/kia-cadenza-hero.webp",
       "name": "Cadenza",
       "fullName": "Kia Cadenza",
       "yearRange": "2014–2020",

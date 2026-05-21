@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "navigator",
+      "heroImage": "/images/models/lincoln-navigator-hero.webp",
       "name": "Navigator",
       "fullName": "Lincoln Navigator",
       "yearRange": "1998–present",
@@ -186,6 +187,7 @@ module.exports = {
     },
     {
       "slug": "mkz",
+      "heroImage": "/images/models/lincoln-mkz-hero.webp",
       "name": "MKZ",
       "fullName": "Lincoln MKZ",
       "yearRange": "2007–2020",
@@ -357,6 +359,7 @@ module.exports = {
     },
     {
       "slug": "mkx",
+      "heroImage": "/images/models/lincoln-mkx-hero.webp",
       "name": "MKX",
       "fullName": "Lincoln MKX",
       "yearRange": "2007–2018",
@@ -524,6 +527,7 @@ module.exports = {
     },
     {
       "slug": "corsair",
+      "heroImage": "/images/models/lincoln-corsair-hero.webp",
       "name": "Corsair",
       "fullName": "Lincoln Corsair",
       "yearRange": "2020–present",
@@ -691,6 +695,7 @@ module.exports = {
     },
     {
       "slug": "aviator",
+      "heroImage": "/images/models/lincoln-aviator-hero.webp",
       "name": "Aviator",
       "fullName": "Lincoln Aviator",
       "yearRange": "2003–2005, 2020–present",
@@ -862,6 +867,7 @@ module.exports = {
     },
     {
       "slug": "town-car",
+      "heroImage": "/images/models/lincoln-town-car-hero.webp",
       "name": "Town Car",
       "fullName": "Lincoln Town Car",
       "yearRange": "1981–2011",
@@ -1041,6 +1047,7 @@ module.exports = {
     },
     {
       "slug": "continental",
+      "heroImage": "/images/models/lincoln-continental-hero.webp",
       "name": "Continental",
       "fullName": "Lincoln Continental",
       "yearRange": "1940–2002, 2017–2020",

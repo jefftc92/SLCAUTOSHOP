@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "f-150",
+      "heroImage": "/images/models/ford-f-150-hero.webp",
       "name": "F-150",
       "fullName": "Ford F-150",
       "yearRange": "1975–present",
@@ -219,6 +220,7 @@ module.exports = {
     },
     {
       "slug": "mustang",
+      "heroImage": "/images/models/ford-mustang-hero.webp",
       "name": "Mustang",
       "fullName": "Ford Mustang",
       "yearRange": "1964–present",
@@ -423,6 +425,7 @@ module.exports = {
     },
     {
       "slug": "explorer",
+      "heroImage": "/images/models/ford-explorer-hero.webp",
       "name": "Explorer",
       "fullName": "Ford Explorer",
       "yearRange": "1990–present",
@@ -622,6 +625,7 @@ module.exports = {
     },
     {
       "slug": "escape",
+      "heroImage": "/images/models/ford-escape-hero.webp",
       "name": "Escape",
       "fullName": "Ford Escape",
       "yearRange": "2000–present",
@@ -811,6 +815,7 @@ module.exports = {
     },
     {
       "slug": "ranger",
+      "heroImage": "/images/models/ford-ranger-hero.webp",
       "name": "Ranger",
       "fullName": "Ford Ranger",
       "yearRange": "1983–present",
@@ -1005,6 +1010,7 @@ module.exports = {
     },
     {
       "slug": "edge",
+      "heroImage": "/images/models/ford-edge-hero.webp",
       "name": "Edge",
       "fullName": "Ford Edge",
       "yearRange": "2007–2024",
@@ -1184,6 +1190,7 @@ module.exports = {
     },
     {
       "slug": "expedition",
+      "heroImage": "/images/models/ford-expedition-hero.webp",
       "name": "Expedition",
       "fullName": "Ford Expedition",
       "yearRange": "1997–present",
@@ -1378,6 +1385,7 @@ module.exports = {
     },
     {
       "slug": "bronco",
+      "heroImage": "/images/models/ford-bronco-hero.webp",
       "name": "Bronco",
       "fullName": "Ford Bronco",
       "yearRange": "1966–1996, 2021–present",
@@ -1573,6 +1581,7 @@ module.exports = {
     },
     {
       "slug": "maverick",
+      "heroImage": "/images/models/ford-maverick-hero.webp",
       "name": "Maverick",
       "fullName": "Ford Maverick",
       "yearRange": "2022–present",
@@ -1748,6 +1757,7 @@ module.exports = {
     },
     {
       "slug": "fusion",
+      "heroImage": "/images/models/ford-fusion-hero.webp",
       "name": "Fusion",
       "fullName": "Ford Fusion",
       "yearRange": "2006–2020",
@@ -1933,6 +1943,7 @@ module.exports = {
     },
     {
       "slug": "focus",
+      "heroImage": "/images/models/ford-focus-hero.webp",
       "name": "Focus",
       "fullName": "Ford Focus",
       "yearRange": "2000–2018",
@@ -2118,6 +2129,7 @@ module.exports = {
     },
     {
       "slug": "taurus",
+      "heroImage": "/images/models/ford-taurus-hero.webp",
       "name": "Taurus",
       "fullName": "Ford Taurus",
       "yearRange": "1986–2019",
@@ -2313,6 +2325,7 @@ module.exports = {
     },
     {
       "slug": "fiesta",
+      "heroImage": "/images/models/ford-fiesta-hero.webp",
       "name": "Fiesta",
       "fullName": "Ford Fiesta",
       "yearRange": "2011–2019",

@@ -5,6 +5,7 @@ module.exports = {
   models: [
   {
     "slug": "tl",
+      "heroImage": "/images/models/acura-tl-hero.webp",
     "name": "TL",
     "fullName": "Acura TL",
     "yearRange": "1995–2014",
@@ -190,6 +191,7 @@ module.exports = {
   },
   {
     "slug": "tsx",
+      "heroImage": "/images/models/acura-tsx-hero.webp",
     "name": "TSX",
     "fullName": "Acura TSX",
     "yearRange": "2004–2014",
@@ -357,6 +359,7 @@ module.exports = {
   },
   {
     "slug": "rsx",
+      "heroImage": "/images/models/acura-rsx-hero.webp",
     "name": "RSX",
     "fullName": "Acura RSX",
     "yearRange": "2002–2006",
@@ -524,6 +527,7 @@ module.exports = {
   },
   {
     "slug": "mdx",
+      "heroImage": "/images/models/acura-mdx-hero.webp",
     "name": "MDX",
     "fullName": "Acura MDX",
     "yearRange": "2001–present",
@@ -709,6 +713,7 @@ module.exports = {
   },
   {
     "slug": "rdx",
+      "heroImage": "/images/models/acura-rdx-hero.webp",
     "name": "RDX",
     "fullName": "Acura RDX",
     "yearRange": "2007–present",
@@ -886,6 +891,7 @@ module.exports = {
   },
   {
     "slug": "tlx",
+      "heroImage": "/images/models/acura-tlx-hero.webp",
     "name": "TLX",
     "fullName": "Acura TLX",
     "yearRange": "2015–present",
@@ -1059,6 +1065,7 @@ module.exports = {
   },
   {
     "slug": "integra",
+      "heroImage": "/images/models/acura-integra-hero.webp",
     "name": "Integra",
     "fullName": "Acura Integra",
     "yearRange": "1986–2001, 2023–present",
@@ -1244,6 +1251,7 @@ module.exports = {
   },
   {
     "slug": "cl",
+      "heroImage": "/images/models/acura-cl-hero.webp",
     "name": "CL",
     "fullName": "Acura CL",
     "yearRange": "1997–2003",
@@ -1417,6 +1425,7 @@ module.exports = {
   },
   {
     "slug": "rl",
+      "heroImage": "/images/models/acura-rl-hero.webp",
     "name": "RL",
     "fullName": "Acura RL",
     "yearRange": "1996–2012",
@@ -1590,6 +1599,7 @@ module.exports = {
   },
   {
     "slug": "nsx",
+      "heroImage": "/images/models/acura-nsx-hero.webp",
     "name": "NSX",
     "fullName": "Acura NSX",
     "yearRange": "1991–2005, 2017–2022",

@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "fortwo",
+      "heroImage": "/images/models/smart-fortwo-hero.webp",
       "name": "Fortwo",
       "fullName": "Smart Fortwo",
       "yearRange": "2005–2019",
@@ -186,6 +187,7 @@ module.exports = {
     },
     {
       "slug": "forfour",
+      "heroImage": "/images/models/smart-forfour-hero.webp",
       "name": "Forfour",
       "fullName": "Smart Forfour",
       "yearRange": "2016–2019",

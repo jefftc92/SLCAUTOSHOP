@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "xf",
+      "heroImage": "/images/models/jaguar-xf-hero.webp",
       "name": "XF",
       "fullName": "Jaguar XF",
       "yearRange": "2008–present",
@@ -182,6 +183,7 @@ module.exports = {
     },
     {
       "slug": "xe",
+      "heroImage": "/images/models/jaguar-xe-hero.webp",
       "name": "XE",
       "fullName": "Jaguar XE",
       "yearRange": "2016–present",
@@ -349,6 +351,7 @@ module.exports = {
     },
     {
       "slug": "f-pace",
+      "heroImage": "/images/models/jaguar-f-pace-hero.webp",
       "name": "F-Pace",
       "fullName": "Jaguar F-Pace",
       "yearRange": "2017–present",
@@ -522,6 +525,7 @@ module.exports = {
     },
     {
       "slug": "e-pace",
+      "heroImage": "/images/models/jaguar-e-pace-hero.webp",
       "name": "E-Pace",
       "fullName": "Jaguar E-Pace",
       "yearRange": "2018–present",
@@ -685,6 +689,7 @@ module.exports = {
     },
     {
       "slug": "xj",
+      "heroImage": "/images/models/jaguar-xj-hero.webp",
       "name": "XJ",
       "fullName": "Jaguar XJ",
       "yearRange": "1968–2019",
@@ -860,6 +865,7 @@ module.exports = {
     },
     {
       "slug": "f-type",
+      "heroImage": "/images/models/jaguar-f-type-hero.webp",
       "name": "F-Type",
       "fullName": "Jaguar F-Type",
       "yearRange": "2014–present",
@@ -1027,6 +1033,7 @@ module.exports = {
     },
     {
       "slug": "x-type",
+      "heroImage": "/images/models/jaguar-x-type-hero.webp",
       "name": "X-Type",
       "fullName": "Jaguar X-Type",
       "yearRange": "2001–2009",

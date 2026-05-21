@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "camry",
+      "heroImage": "/images/models/toyota-camry-hero.webp",
       "name": "Camry",
       "fullName": "Toyota Camry",
       "yearRange": "1983–present",
@@ -210,6 +211,7 @@ module.exports = {
     },
     {
       "slug": "corolla",
+      "heroImage": "/images/models/toyota-corolla-hero.webp",
       "name": "Corolla",
       "fullName": "Toyota Corolla",
       "yearRange": "1966–present",
@@ -415,6 +417,7 @@ module.exports = {
     },
     {
       "slug": "rav4",
+      "heroImage": "/images/models/toyota-rav4-hero.webp",
       "name": "RAV4",
       "fullName": "Toyota RAV4",
       "yearRange": "1994–present",
@@ -604,6 +607,7 @@ module.exports = {
     },
     {
       "slug": "tacoma",
+      "heroImage": "/images/models/toyota-tacoma-hero.webp",
       "name": "Tacoma",
       "fullName": "Toyota Tacoma",
       "yearRange": "1995–present",
@@ -789,6 +793,7 @@ module.exports = {
     },
     {
       "slug": "highlander",
+      "heroImage": "/images/models/toyota-highlander-hero.webp",
       "name": "Highlander",
       "fullName": "Toyota Highlander",
       "yearRange": "2000–present",
@@ -974,6 +979,7 @@ module.exports = {
     },
     {
       "slug": "4runner",
+      "heroImage": "/images/models/toyota-4runner-hero.webp",
       "name": "4Runner",
       "fullName": "Toyota 4Runner",
       "yearRange": "1984–present",
@@ -1167,6 +1173,7 @@ module.exports = {
     },
     {
       "slug": "tundra",
+      "heroImage": "/images/models/toyota-tundra-hero.webp",
       "name": "Tundra",
       "fullName": "Toyota Tundra",
       "yearRange": "1999–present",
@@ -1351,6 +1358,7 @@ module.exports = {
     },
     {
       "slug": "prius",
+      "heroImage": "/images/models/toyota-prius-hero.webp",
       "name": "Prius",
       "fullName": "Toyota Prius",
       "yearRange": "2000–present",
@@ -1545,6 +1553,7 @@ module.exports = {
     },
     {
       "slug": "sienna",
+      "heroImage": "/images/models/toyota-sienna-hero.webp",
       "name": "Sienna",
       "fullName": "Toyota Sienna",
       "yearRange": "1997–present",
@@ -1734,6 +1743,7 @@ module.exports = {
     },
     {
       "slug": "avalon",
+      "heroImage": "/images/models/toyota-avalon-hero.webp",
       "name": "Avalon",
       "fullName": "Toyota Avalon",
       "yearRange": "1994–2022",
@@ -1928,6 +1938,7 @@ module.exports = {
     },
     {
       "slug": "sequoia",
+      "heroImage": "/images/models/toyota-sequoia-hero.webp",
       "name": "Sequoia",
       "fullName": "Toyota Sequoia",
       "yearRange": "2001–present",
@@ -2112,6 +2123,7 @@ module.exports = {
     },
     {
       "slug": "land-cruiser",
+      "heroImage": "/images/models/toyota-land-cruiser-hero.webp",
       "name": "Land Cruiser",
       "fullName": "Toyota Land Cruiser",
       "yearRange": "1958–present",
@@ -2306,6 +2318,7 @@ module.exports = {
     },
     {
       "slug": "venza",
+      "heroImage": "/images/models/toyota-venza-hero.webp",
       "name": "Venza",
       "fullName": "Toyota Venza",
       "yearRange": "2009–2015, 2021–present",
@@ -2479,6 +2492,7 @@ module.exports = {
     },
     {
       "slug": "c-hr",
+      "heroImage": "/images/models/toyota-c-hr-hero.webp",
       "name": "C-HR",
       "fullName": "Toyota C-HR",
       "yearRange": "2018–2022",
@@ -2648,6 +2662,7 @@ module.exports = {
     },
     {
       "slug": "yaris",
+      "heroImage": "/images/models/toyota-yaris-hero.webp",
       "name": "Yaris",
       "fullName": "Toyota Yaris",
       "yearRange": "2006–2020",
@@ -2825,6 +2840,7 @@ module.exports = {
     },
     {
       "slug": "86",
+      "heroImage": "/images/models/toyota-86-hero.webp",
       "name": "86",
       "fullName": "Toyota 86",
       "yearRange": "2017–2020",
@@ -2998,6 +3014,7 @@ module.exports = {
     },
     {
       "slug": "supra",
+      "heroImage": "/images/models/toyota-supra-hero.webp",
       "name": "Supra",
       "fullName": "Toyota Supra",
       "yearRange": "1978–2002, 2020–present",
@@ -3183,6 +3200,7 @@ module.exports = {
     },
     {
       "slug": "matrix",
+      "heroImage": "/images/models/toyota-matrix-hero.webp",
       "name": "Matrix",
       "fullName": "Toyota Matrix",
       "yearRange": "2003–2013",
@@ -3356,6 +3374,7 @@ module.exports = {
     },
     {
       "slug": "celica",
+      "heroImage": "/images/models/toyota-celica-hero.webp",
       "name": "Celica",
       "fullName": "Toyota Celica",
       "yearRange": "1970–2006",
@@ -3549,6 +3568,7 @@ module.exports = {
     },
     {
       "slug": "mr2",
+      "heroImage": "/images/models/toyota-mr2-hero.webp",
       "name": "MR2",
       "fullName": "Toyota MR2",
       "yearRange": "1984–2007",
@@ -3733,6 +3753,7 @@ module.exports = {
     },
     {
       "slug": "fj-cruiser",
+      "heroImage": "/images/models/toyota-fj-cruiser-hero.webp",
       "name": "FJ Cruiser",
       "fullName": "Toyota FJ Cruiser",
       "yearRange": "2006–2014",
@@ -3912,6 +3933,7 @@ module.exports = {
     },
     {
       "slug": "tercel",
+      "heroImage": "/images/models/toyota-tercel-hero.webp",
       "name": "Tercel",
       "fullName": "Toyota Tercel",
       "yearRange": "1978–1999",
@@ -4106,6 +4128,7 @@ module.exports = {
     },
     {
       "slug": "echo",
+      "heroImage": "/images/models/toyota-echo-hero.webp",
       "name": "Echo",
       "fullName": "Toyota Echo",
       "yearRange": "1999–2005",
@@ -4280,6 +4303,7 @@ module.exports = {
     },
     {
       "slug": "paseo",
+      "heroImage": "/images/models/toyota-paseo-hero.webp",
       "name": "Paseo",
       "fullName": "Toyota Paseo",
       "yearRange": "1991–1999",
@@ -4459,6 +4483,7 @@ module.exports = {
     },
     {
       "slug": "previa",
+      "heroImage": "/images/models/toyota-previa-hero.webp",
       "name": "Previa",
       "fullName": "Toyota Previa",
       "yearRange": "1990–1997",

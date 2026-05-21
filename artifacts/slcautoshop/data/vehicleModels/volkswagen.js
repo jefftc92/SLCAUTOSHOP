@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "jetta",
+      "heroImage": "/images/models/volkswagen-jetta-hero.webp",
       "name": "Jetta",
       "fullName": "Volkswagen Jetta",
       "yearRange": "1979–present",
@@ -202,6 +203,7 @@ module.exports = {
     },
     {
       "slug": "passat",
+      "heroImage": "/images/models/volkswagen-passat-hero.webp",
       "name": "Passat",
       "fullName": "Volkswagen Passat",
       "yearRange": "1973–present",
@@ -403,6 +405,7 @@ module.exports = {
     },
     {
       "slug": "golf",
+      "heroImage": "/images/models/volkswagen-golf-hero.webp",
       "name": "Golf",
       "fullName": "Volkswagen Golf",
       "yearRange": "1974–present",
@@ -604,6 +607,7 @@ module.exports = {
     },
     {
       "slug": "tiguan",
+      "heroImage": "/images/models/volkswagen-tiguan-hero.webp",
       "name": "Tiguan",
       "fullName": "Volkswagen Tiguan",
       "yearRange": "2007–present",
@@ -781,6 +785,7 @@ module.exports = {
     },
     {
       "slug": "atlas",
+      "heroImage": "/images/models/volkswagen-atlas-hero.webp",
       "name": "Atlas",
       "fullName": "Volkswagen Atlas",
       "yearRange": "2018–present",
@@ -958,6 +963,7 @@ module.exports = {
     },
     {
       "slug": "cc",
+      "heroImage": "/images/models/volkswagen-cc-hero.webp",
       "name": "CC",
       "fullName": "Volkswagen CC",
       "yearRange": "2009–2017",
@@ -1135,6 +1141,7 @@ module.exports = {
     },
     {
       "slug": "gti",
+      "heroImage": "/images/models/volkswagen-gti-hero.webp",
       "name": "GTI",
       "fullName": "Volkswagen GTI",
       "yearRange": "1983–present",
@@ -1336,6 +1343,7 @@ module.exports = {
     },
     {
       "slug": "beetle",
+      "heroImage": "/images/models/volkswagen-beetle-hero.webp",
       "name": "Beetle",
       "fullName": "Volkswagen Beetle",
       "yearRange": "1938–2019",
@@ -1521,6 +1529,7 @@ module.exports = {
     },
     {
       "slug": "touareg",
+      "heroImage": "/images/models/volkswagen-touareg-hero.webp",
       "name": "Touareg",
       "fullName": "Volkswagen Touareg",
       "yearRange": "2002–present",
@@ -1702,6 +1711,7 @@ module.exports = {
     },
     {
       "slug": "golf-r",
+      "heroImage": "/images/models/volkswagen-golf-r-hero.webp",
       "name": "Golf R",
       "fullName": "Volkswagen Golf R",
       "yearRange": "2012–present",
@@ -1883,6 +1893,7 @@ module.exports = {
     },
     {
       "slug": "phaeton",
+      "heroImage": "/images/models/volkswagen-phaeton-hero.webp",
       "name": "Phaeton",
       "fullName": "Volkswagen Phaeton",
       "yearRange": "2002–2016",

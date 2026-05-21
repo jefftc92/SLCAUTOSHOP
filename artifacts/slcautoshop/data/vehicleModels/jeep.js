@@ -5,6 +5,7 @@ module.exports = {
   "models": [
     {
       "slug": "wrangler",
+      "heroImage": "/images/models/jeep-wrangler-hero.webp",
       "name": "Wrangler",
       "fullName": "Jeep Wrangler",
       "yearRange": "1987–present",
@@ -190,6 +191,7 @@ module.exports = {
     },
     {
       "slug": "cherokee",
+      "heroImage": "/images/models/jeep-cherokee-hero.webp",
       "name": "Cherokee",
       "fullName": "Jeep Cherokee",
       "yearRange": "1974–2001, 2014–present",
@@ -367,6 +369,7 @@ module.exports = {
     },
     {
       "slug": "grand-cherokee",
+      "heroImage": "/images/models/jeep-grand-cherokee-hero.webp",
       "name": "Grand Cherokee",
       "fullName": "Jeep Grand Cherokee",
       "yearRange": "1993–present",
@@ -552,6 +555,7 @@ module.exports = {
     },
     {
       "slug": "compass",
+      "heroImage": "/images/models/jeep-compass-hero.webp",
       "name": "Compass",
       "fullName": "Jeep Compass",
       "yearRange": "2007–present",
@@ -719,6 +723,7 @@ module.exports = {
     },
     {
       "slug": "renegade",
+      "heroImage": "/images/models/jeep-renegade-hero.webp",
       "name": "Renegade",
       "fullName": "Jeep Renegade",
       "yearRange": "2015–present",
@@ -882,6 +887,7 @@ module.exports = {
     },
     {
       "slug": "gladiator",
+      "heroImage": "/images/models/jeep-gladiator-hero.webp",
       "name": "Gladiator",
       "fullName": "Jeep Gladiator",
       "yearRange": "2020–present",
@@ -1045,6 +1051,7 @@ module.exports = {
     },
     {
       "slug": "liberty",
+      "heroImage": "/images/models/jeep-liberty-hero.webp",
       "name": "Liberty",
       "fullName": "Jeep Liberty",
       "yearRange": "2002–2012",
@@ -1212,6 +1219,7 @@ module.exports = {
     },
     {
       "slug": "patriot",
+      "heroImage": "/images/models/jeep-patriot-hero.webp",
       "name": "Patriot",
       "fullName": "Jeep Patriot",
       "yearRange": "2007–2017",

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Vehicle hero image generator — ModelsLab Flux
+# Run #2 after wallet funding
 import requests
 import numpy as np
 from PIL import Image, ImageFilter, ImageEnhance
@@ -409,25 +411,72 @@ VEHICLES = [
     ("volvo","s70","Volvo","S70"),
 ]
 
-def fetch_wikimedia_image(make, model):
-    url = "https://en.wikipedia.org/w/api.php"
-    params = {
-        "action": "query",
-        "titles": f"{make} {model}",
-        "prop": "pageimages",
-        "pithumbsize": 1200,
-        "format": "json",
-        "redirects": 1,
+MODELSLAB_KEY = os.environ.get("MODELSLAB_API_KEY", "").strip()
+MODELSLAB_URL = "https://modelslab.com/api/v6/images/text2img"
+MODELSLAB_FETCH_URL = "https://modelslab.com/api/v6/images/fetch"
+
+NEGATIVE_PROMPT = (
+    "cartoon, drawing, illustration, anime, sketch, painting, render, 3d, cgi, "
+    "low quality, blurry, deformed, distorted, multiple vehicles, two cars, "
+    "text, watermark, logo, signature, license plate text, people, person, "
+    "interior, dashboard, engine bay"
+)
+
+def _build_prompt(make, model):
+    return (
+        f"Professional automotive press photography of a {make} {model} parked on "
+        f"clean asphalt, three-quarter front view, golden-hour lighting, glossy "
+        f"factory paint, sharp focus, dealership-quality studio shot, "
+        f"photorealistic, ultra high detail, crisp reflections, 35mm DSLR"
+    )
+
+def _poll_modelslab(fetch_id, max_wait=90):
+    """ModelsLab returns 'processing' status with a fetch_id for queued jobs."""
+    deadline = time.time() + max_wait
+    while time.time() < deadline:
+        time.sleep(3)
+        try:
+            r = requests.post(
+                f"{MODELSLAB_FETCH_URL}/{fetch_id}",
+                json={"key": MODELSLAB_KEY},
+                timeout=20,
+            )
+            data = r.json()
+            if data.get("status") == "success" and data.get("output"):
+                return data["output"][0]
+            if data.get("status") == "failed":
+                return None
+        except Exception:
+            pass
+    return None
+
+def generate_ai_image(make, model):
+    if not MODELSLAB_KEY:
+        return None
+    payload = {
+        "key": MODELSLAB_KEY,
+        "model_id": "flux",
+        "prompt": _build_prompt(make, model),
+        "negative_prompt": NEGATIVE_PROMPT,
+        "width": "768",
+        "height": "512",
+        "samples": "1",
+        "num_inference_steps": "30",
+        "guidance_scale": 7.5,
+        "safety_checker": "no",
+        "enhance_prompt": "yes",
     }
     try:
-        r = requests.get(url, params=params, timeout=15,
-                         headers={"User-Agent": "ScottsAutoShop/1.0 (vehicle-hero-images)"})
+        r = requests.post(MODELSLAB_URL, json=payload, timeout=120)
         data = r.json()
-        for page in data["query"]["pages"].values():
-            if "thumbnail" in page:
-                return page["thumbnail"]["source"]
-    except Exception:
-        pass
+        status = data.get("status")
+        if status == "success" and data.get("output"):
+            return data["output"][0]
+        if status == "processing" and data.get("id"):
+            return _poll_modelslab(data["id"])
+        print(f"    api error: {data.get('message') or data.get('messege') or status}")
+    except Exception as e:
+        print(f"    api exception: {e}")
     return None
 
 def add_vignette(img):
@@ -455,6 +504,9 @@ def fallback_image():
         arr[y, :] = val
     return Image.fromarray(arr)
 
+if not MODELSLAB_KEY:
+    raise SystemExit("MODELSLAB_API_KEY env var is required")
+
 done = 0
 skipped = 0
 failed = []
@@ -466,30 +518,25 @@ for i, (makeKey, slug, make, model) in enumerate(VEHICLES):
         skipped += 1
         continue
 
-    img_url = fetch_wikimedia_image(make, model)
+    img_url = generate_ai_image(make, model)
 
     if img_url:
         try:
-            raw = requests.get(img_url, timeout=20,
-                               headers={"User-Agent": "ScottsAutoShop/1.0"}).content
+            raw = requests.get(img_url, timeout=60).content
             img = Image.open(BytesIO(raw))
             hero = process_hero(img)
             hero.save(filepath, "WEBP", quality=85)
             done += 1
             print(f"[{i+1}/{len(VEHICLES)}] ✓ {makeKey}/{slug}")
         except Exception as e:
-            hero = fallback_image()
-            hero.save(filepath, "WEBP", quality=85)
             failed.append(f"{makeKey}/{slug}")
-            print(f"[{i+1}/{len(VEHICLES)}] ✗ {makeKey}/{slug}: {e}")
+            print(f"[{i+1}/{len(VEHICLES)}] ✗ {makeKey}/{slug}: download error: {e}")
     else:
-        hero = fallback_image()
-        hero.save(filepath, "WEBP", quality=85)
         failed.append(f"{makeKey}/{slug}")
-        print(f"[{i+1}/{len(VEHICLES)}] ✗ {makeKey}/{slug}: no wikipedia image")
+        print(f"[{i+1}/{len(VEHICLES)}] ✗ {makeKey}/{slug}: generation failed")
 
-    # Be polite to Wikipedia's API
-    time.sleep(0.3)
+    # Stay under free-tier queue limit (5 concurrent)
+    time.sleep(1.5)
 
 print(f"\n{'='*50}")
 print(f"✓ Generated: {done}")
