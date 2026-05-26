@@ -78,6 +78,12 @@ const PORT = process.env.PORT || 3000;
 const CSS_VER = process.env.CSS_VER || (() => { try { return require('child_process').execSync('git rev-parse --short HEAD').toString().trim(); } catch (e) { return 'prod'; } })();
 
 // Middleware
+app.set('trust proxy', 1);
+app.use((req, res, next) => {
+  if (process.env.NODE_ENV !== 'production') return next();
+  if (req.secure || req.headers['x-forwarded-proto'] === 'https') return next();
+  return res.redirect(301, 'https://' + req.headers.host + req.url);
+});
 app.use(compression());
 // Generate a fresh nonce for every request — must run before Helmet so the
 // CSP directive functions can read res.locals.cspNonce when headers are written.
