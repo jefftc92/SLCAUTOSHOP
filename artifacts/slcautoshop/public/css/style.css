@@ -97,6 +97,7 @@ ul,ol{list-style:none}address{font-style:normal}
 .prose p{margin-bottom:1rem;color:var(--c-text-muted);max-width:800px}
 .prose h2{margin-top:2rem}
 .intro-lead{font-size:1.05rem;line-height:1.75;color:var(--c-text);max-width:760px}
+.page-byline{font-size:.875rem;color:var(--c-text-dim);margin:.25rem 0 1.25rem;font-style:italic}
 
 /* === Services Grid === */
 .services-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.25rem;margin-top:2rem}

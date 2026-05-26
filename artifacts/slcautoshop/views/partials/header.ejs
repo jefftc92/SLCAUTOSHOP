@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= typeof metaTitle !== 'undefined' ? metaTitle : site.name %></title>
   <meta name="description" content="<%= typeof metaDesc !== 'undefined' ? metaDesc : 'Expert auto repair in South Salt Lake, UT. Clutch repair, brake service, transmission work. Call (801) 485-4089.' %>">
-  <link rel="canonical" href="<%= site.domain %><%= typeof canonical !== 'undefined' ? canonical : '' %>">
-  <% if (typeof noindex !== 'undefined' && noindex) { %><meta name="robots" content="noindex, nofollow"><% } %>
+  <% if (typeof noindex !== 'undefined' && noindex) { %><meta name="robots" content="noindex, nofollow"><% } else { %><link rel="canonical" href="<%= site.domain %><%= typeof canonical !== 'undefined' ? canonical : '' %>"><% } %>
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/favicon-48.png">

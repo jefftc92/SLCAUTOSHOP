@@ -19,6 +19,17 @@
 
 <% var _sec = 0; %>
 
+<% if (service.shortDefinition) { %>
+<section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
+  <div class="container">
+    <div class="prose mw-760">
+      <h2>What Is <%= service.name %>?</h2>
+      <p class="intro-lead"><%= service.shortDefinition %></p>
+    </div>
+  </div>
+</section>
+<% } %>
+
 <% if (service.statsTable && service.statsTable.length) { %>
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
@@ -29,7 +40,7 @@
           <% service.statsTable.forEach(function(row) { %>
           <tr>
             <th scope="row"><%= row.label %></th>
-            <td><%= row.value %></td>
+            <td><%- row.value %></td>
           </tr>
           <% }); %>
         </tbody>
@@ -135,6 +146,7 @@
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
     <h2><%= service.whoContent.heading %></h2>
+    <p class="page-byline">Reviewed by <strong><%= site.owner.name %></strong>, <%= site.owner.jobTitle %> · <%= site.owner.yearsAtBusiness %> years repairing vehicles in South Salt Lake</p>
     <div class="prose mw-760 mb-8">
       <% service.whoContent.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
     </div>

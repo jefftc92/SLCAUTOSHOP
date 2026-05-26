@@ -19,6 +19,22 @@ const serviceGeoPages = require('./data/serviceGeoPages');
 const allReviews = require('./data/reviews.json');
 
 // Pick N random reviews and format them for the testimonials partial
+// Returns a single-element array with a FAQPage schema object, or an empty
+// array if there are no FAQs — designed to be spread into a structuredData list.
+function faqPageSchema(faqs) {
+  if (!faqs || !faqs.length) return [];
+  return [{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "author": { "@type": "Person", "@id": site.domain + "/#owner", "name": site.owner.name },
+    "mainEntity": faqs.map(f => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  }];
+}
+
 function pickReviews(count) {
   const shuffled = allReviews.slice().sort(() => Math.random() - 0.5);
   return shuffled.slice(0, count).map(r => ({
@@ -78,6 +94,12 @@ const PORT = process.env.PORT || 3000;
 const CSS_VER = process.env.CSS_VER || (() => { try { return require('child_process').execSync('git rev-parse --short HEAD').toString().trim(); } catch (e) { return 'prod'; } })();
 
 // Middleware
+app.set('trust proxy', 1);
+app.use((req, res, next) => {
+  if (process.env.NODE_ENV !== 'production') return next();
+  if (req.secure || req.headers['x-forwarded-proto'] === 'https') return next();
+  return res.redirect(301, 'https://' + req.headers.host + req.url);
+});
 app.use(compression());
 // Generate a fresh nonce for every request — must run before Helmet so the
 // CSP directive functions can read res.locals.cspNonce when headers are written.
@@ -148,12 +170,16 @@ app.use((req, res, next) => {
   res.locals.allServiceGeoPages = serviceGeoPages;
 
   const usedTerms = new Set();
+  const MAX_AUTO_LINKS_PER_PAGE = 3;
+  const linkState = { count: 0 };
   res.locals.linkifyServices = (text) => {
     if (!text) return '';
+    if (linkState.count >= MAX_AUTO_LINKS_PER_PAGE) return text;
     let result = text;
     // Use the city-specific clutch geo URL when on a location page
     const clutchOverride = res.locals._clutchGeoSlug;
     for (const [term, url] of SERVICE_LINK_TERMS) {
+      if (linkState.count >= MAX_AUTO_LINKS_PER_PAGE) break;
       if (usedTerms.has(term)) continue;
       let linkUrl = url;
       if (clutchOverride && (term === 'clutch repair' || term === 'clutch replacement')) {
@@ -167,6 +193,7 @@ app.use((req, res, next) => {
           `<a href="${linkUrl}">${match[0]}</a>` +
           result.slice(match.index + match[0].length);
         usedTerms.add(term);
+        linkState.count++;
       }
     }
     return result;
@@ -204,9 +231,18 @@ app.use((req, res, next) => {
   const p = req.path;
 
   // Old symptom pattern: /symptoms/{slug}-repair-south-salt-lake
+  // Old slugs sometimes embedded the related service (e.g. "sulfur-smell-exhaust"),
+  // so fall back to the longest current symptom slug that prefixes the captured value.
   const symptomMatch = p.match(/^\/symptoms\/(.+)-repair-south-salt-lake$/);
   if (symptomMatch) {
-    return res.redirect(301, '/symptoms/' + symptomMatch[1]);
+    const captured = symptomMatch[1];
+    let target = symptoms.find(s => s.slug === captured);
+    if (!target) {
+      target = symptoms
+        .filter(s => captured.startsWith(s.slug + '-') || captured.startsWith(s.slug))
+        .sort((a, b) => b.slug.length - a.slug.length)[0];
+    }
+    if (target) return res.redirect(301, '/symptoms/' + target.slug);
   }
 
   // Old service pattern: /services/{slug}-south-salt-lake-ut (missing -near-)
@@ -276,6 +312,13 @@ app.get('/', (req, res) => {
       "url": site.domain,
       "priceRange": "$$",
       "foundingDate": "1990",
+      "founder": {
+        "@type": "Person",
+        "@id": site.domain + "/#owner",
+        "name": site.owner.name,
+        "jobTitle": site.owner.jobTitle,
+        "worksFor": { "@id": site.domain + "/#business" }
+      },
       "description": "Family-owned auto repair shop in South Salt Lake since 1990. Brakes, clutch, transmission, engine, exhaust, and full service for all makes and models.",
       "slogan": "Honest diagnostics since 1990.",
       "paymentAccepted": ["Cash", "Credit Card", "Debit Card"],
@@ -337,6 +380,16 @@ app.get('/', (req, res) => {
         "ratingCount": String(allReviews.length),
         "reviewCount": String(allReviews.length)
       },
+      "review": allReviews
+        .slice()
+        .sort((a, b) => (b.rating - a.rating) || (b.text.length - a.text.length))
+        .slice(0, 5)
+        .map(r => ({
+          "@type": "Review",
+          "author": { "@type": "Person", "name": r.author },
+          "reviewRating": { "@type": "Rating", "ratingValue": String(r.rating), "bestRating": "5", "worstRating": "1" },
+          "reviewBody": r.text
+        })),
       "sameAs": [
         "https://g.page/r/CYDFwHsY4XoBEBM/review",
         "https://www.yelp.com/biz/scotts-auto-clutch-and-towing-salt-lake-city",
@@ -501,7 +554,8 @@ app.get('/services/:slug', (req, res) => {
               "containedInPlace": { "@type": "State", "name": "Utah" }
             },
             "url": site.domain + "/services/" + geo.slug
-          }
+          },
+          ...faqPageSchema(getGeoFaqs(geo))
         ]
       });
     }
@@ -547,7 +601,8 @@ app.get('/services/:slug', (req, res) => {
               "containedInPlace": { "@type": "State", "name": "Utah" }
             },
             "url": site.domain + "/services/" + serviceGeo.slug
-          }
+          },
+          ...faqPageSchema(geoPageFaqs)
         ]
       });
     }
@@ -1026,37 +1081,61 @@ const highVolumeBrands = new Set([
   'acura-repair-salt-lake-city-ut', 'infiniti-repair-salt-lake-city-ut',
 ]);
 
-// lastmod dates — updated when content changes, not on every deploy
-const LASTMOD_SPRINT   = '2026-05-20'; // pages touched in current SEO sprint
-const LASTMOD_STABLE   = '2025-01-15'; // vehicle brands, legal pages — not recently changed
+// lastmod per data file — derived from the file's last git commit so the
+// sitemap accurately reflects when each content type actually changed.
+// Falls back to the deploy date if git isn't available (e.g. some hosts).
+function gitMtime(relPath) {
+  try {
+    const out = require('child_process')
+      .execSync(`git log -1 --format=%cI -- ${relPath}`, { cwd: __dirname, stdio: ['ignore', 'pipe', 'ignore'] })
+      .toString()
+      .trim();
+    if (out) return out.slice(0, 10); // YYYY-MM-DD
+  } catch (e) { /* fall through */ }
+  return new Date().toISOString().slice(0, 10);
+}
+const LASTMOD = {
+  services:        gitMtime('data/services.js'),
+  symptoms:        gitMtime('data/symptoms.js'),
+  locations:       gitMtime('data/locations.js'),
+  geoPages:        gitMtime('data/geoPages.js'),
+  serviceGeoPages: gitMtime('data/serviceGeoPages.js'),
+  vehicleBrands:   gitMtime('data/vehicleBrandContent.js'),
+  vehicleModels:   gitMtime('data/vehicleModels.js'),
+  site:            gitMtime('data/site.js'),
+  reviews:         gitMtime('data/reviews.json'),
+};
+// Most recent change across all content — used for the sitemap index and core pages
+const LASTMOD_SITE   = Object.values(LASTMOD).sort().pop();
+const LASTMOD_STABLE = '2025-01-15'; // legal pages — manually bumped when the actual policy changes
 
 // Returns [{path, priority, freq, lastmod}] for every indexable URL on the site.
 function getSitemapEntries() {
   const entries = [];
-  const add = (path, priority = '0.8', freq = 'monthly', lastmod = LASTMOD_SPRINT) =>
+  const add = (path, priority = '0.8', freq = 'monthly', lastmod = LASTMOD_SITE) =>
     entries.push({ path, priority, freq, lastmod });
 
-  add('/', '1.0', 'weekly');
-  add('/about', '0.7', 'monthly', LASTMOD_SPRINT);
-  add('/contact', '0.8', 'monthly');
-  add('/services', '0.9', 'weekly');
-  add('/locations', '0.9', 'weekly');
-  add('/symptoms', '0.9', 'weekly');
-  add('/vehicle-brands', '0.8', 'weekly', LASTMOD_SPRINT);
+  add('/', '1.0', 'weekly', LASTMOD_SITE);
+  add('/about', '0.7', 'monthly', LASTMOD.site);
+  add('/contact', '0.8', 'monthly', LASTMOD.site);
+  add('/services', '0.9', 'weekly', LASTMOD.services);
+  add('/locations', '0.9', 'weekly', LASTMOD.locations);
+  add('/symptoms', '0.9', 'weekly', LASTMOD.symptoms);
+  add('/vehicle-brands', '0.8', 'weekly', LASTMOD.vehicleBrands);
 
-  services.forEach(s => add('/services/' + s.slug, '0.8', 'monthly'));
-  geoPages.forEach(g => add('/services/' + g.slug, '0.8', 'monthly'));
-  serviceGeoPages.forEach(g => add('/services/' + g.slug, '0.7', 'monthly'));
-  locations.forEach(l => add('/locations/' + l.slug, '0.9', 'monthly'));
-  symptoms.forEach(s => add('/symptoms/' + s.slug, '0.8', 'monthly'));
+  services.forEach(s => add('/services/' + s.slug, '0.8', 'monthly', LASTMOD.services));
+  geoPages.forEach(g => add('/services/' + g.slug, '0.8', 'monthly', LASTMOD.geoPages));
+  serviceGeoPages.forEach(g => add('/services/' + g.slug, '0.7', 'monthly', LASTMOD.serviceGeoPages));
+  locations.forEach(l => add('/locations/' + l.slug, '0.9', 'monthly', LASTMOD.locations));
+  symptoms.forEach(s => add('/symptoms/' + s.slug, '0.8', 'monthly', LASTMOD.symptoms));
   vehicleBrands.forEach(v => {
     if (defunctBrands.has(v.slug)) return;
-    add('/vehicle-brands/' + v.slug, highVolumeBrands.has(v.slug) ? '0.8' : '0.6', 'monthly', LASTMOD_SPRINT);
+    add('/vehicle-brands/' + v.slug, highVolumeBrands.has(v.slug) ? '0.8' : '0.6', 'monthly', LASTMOD.vehicleBrands);
   });
   // Vehicle model pages
   Object.values(vehicleModels).forEach(makeData => {
     makeData.models.forEach(model => {
-      add('/vehicle-brands/' + makeData.makeKey + '/' + model.slug + '-repair-salt-lake-city-ut', '0.7', 'monthly', LASTMOD_SPRINT);
+      add('/vehicle-brands/' + makeData.makeKey + '/' + model.slug + '-repair-salt-lake-city-ut', '0.7', 'monthly', LASTMOD.vehicleModels);
     });
   });
 
@@ -1092,11 +1171,22 @@ const SUB_SITEMAPS = [
   { slug: 'sitemap-vehicle-models.xml', label: 'Vehicle model pages' },
 ];
 
+// lastmod per sub-sitemap — the latest mtime across the data it contains
+const SUB_SITEMAP_LASTMOD = {
+  'sitemap-core.xml':           LASTMOD_SITE,
+  'sitemap-services.xml':       [LASTMOD.services, LASTMOD.geoPages].sort().pop(),
+  'sitemap-service-areas.xml':  LASTMOD.serviceGeoPages,
+  'sitemap-locations.xml':      LASTMOD.locations,
+  'sitemap-symptoms.xml':       LASTMOD.symptoms,
+  'sitemap-vehicles.xml':       LASTMOD.vehicleBrands,
+  'sitemap-vehicle-models.xml': LASTMOD.vehicleModels,
+};
+
 app.get('/sitemap.xml', (req, res) => {
   res.set('Content-Type', 'application/xml');
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
   SUB_SITEMAPS.forEach(({ slug }) => {
-    xml += `  <sitemap>\n    <loc>${site.domain}/${slug}</loc>\n    <lastmod>${LASTMOD_SPRINT}</lastmod>\n  </sitemap>\n`;
+    xml += `  <sitemap>\n    <loc>${site.domain}/${slug}</loc>\n    <lastmod>${SUB_SITEMAP_LASTMOD[slug]}</lastmod>\n  </sitemap>\n`;
   });
   xml += `</sitemapindex>`;
   res.send(xml);
@@ -1106,13 +1196,13 @@ app.get('/sitemap.xml', (req, res) => {
 
 // Core: homepage, section indexes, legal
 sitemapRoute('/sitemap-core.xml', () => [
-  { path: '/',              priority: '1.0', freq: 'weekly',  lastmod: LASTMOD_SPRINT },
-  { path: '/services',      priority: '0.9', freq: 'weekly',  lastmod: LASTMOD_SPRINT },
-  { path: '/locations',     priority: '0.9', freq: 'weekly',  lastmod: LASTMOD_SPRINT },
-  { path: '/symptoms',      priority: '0.9', freq: 'weekly',  lastmod: LASTMOD_SPRINT },
-  { path: '/vehicle-brands',priority: '0.8', freq: 'weekly',  lastmod: LASTMOD_SPRINT },
-  { path: '/contact',       priority: '0.8', freq: 'monthly', lastmod: LASTMOD_SPRINT },
-  { path: '/about',         priority: '0.7', freq: 'monthly', lastmod: LASTMOD_SPRINT },
+  { path: '/',              priority: '1.0', freq: 'weekly',  lastmod: LASTMOD_SITE },
+  { path: '/services',      priority: '0.9', freq: 'weekly',  lastmod: LASTMOD.services },
+  { path: '/locations',     priority: '0.9', freq: 'weekly',  lastmod: LASTMOD.locations },
+  { path: '/symptoms',      priority: '0.9', freq: 'weekly',  lastmod: LASTMOD.symptoms },
+  { path: '/vehicle-brands',priority: '0.8', freq: 'weekly',  lastmod: LASTMOD.vehicleBrands },
+  { path: '/contact',       priority: '0.8', freq: 'monthly', lastmod: LASTMOD.site },
+  { path: '/about',         priority: '0.7', freq: 'monthly', lastmod: LASTMOD.site },
   { path: '/privacy',       priority: '0.3', freq: 'yearly',  lastmod: LASTMOD_STABLE },
   { path: '/terms',         priority: '0.3', freq: 'yearly',  lastmod: LASTMOD_STABLE },
 ]);
@@ -1120,24 +1210,24 @@ sitemapRoute('/sitemap-core.xml', () => [
 // Services: individual service detail pages + clutch geo pages
 sitemapRoute('/sitemap-services.xml', () => {
   const entries = [];
-  services.forEach(s => entries.push({ path: '/services/' + s.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD_SPRINT }));
-  geoPages.forEach(g => entries.push({ path: '/services/' + g.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD_SPRINT }));
+  services.forEach(s => entries.push({ path: '/services/' + s.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD.services }));
+  geoPages.forEach(g => entries.push({ path: '/services/' + g.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD.geoPages }));
   return entries;
 });
 
 // Service × area: the 240 service-geo combo pages (15 services × 16 cities)
 sitemapRoute('/sitemap-service-areas.xml', () =>
-  serviceGeoPages.map(g => ({ path: '/services/' + g.slug, priority: '0.7', freq: 'monthly', lastmod: LASTMOD_SPRINT }))
+  serviceGeoPages.map(g => ({ path: '/services/' + g.slug, priority: '0.7', freq: 'monthly', lastmod: LASTMOD.serviceGeoPages }))
 );
 
 // Locations: individual location detail pages
 sitemapRoute('/sitemap-locations.xml', () =>
-  locations.map(l => ({ path: '/locations/' + l.slug, priority: '0.9', freq: 'monthly', lastmod: LASTMOD_SPRINT }))
+  locations.map(l => ({ path: '/locations/' + l.slug, priority: '0.9', freq: 'monthly', lastmod: LASTMOD.locations }))
 );
 
 // Symptoms: symptom detail pages
 sitemapRoute('/sitemap-symptoms.xml', () =>
-  symptoms.map(s => ({ path: '/symptoms/' + s.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD_SPRINT }))
+  symptoms.map(s => ({ path: '/symptoms/' + s.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD.symptoms }))
 );
 
 // Vehicles: active brand pages only
@@ -1148,7 +1238,7 @@ sitemapRoute('/sitemap-vehicles.xml', () =>
       path: '/vehicle-brands/' + v.slug,
       priority: highVolumeBrands.has(v.slug) ? '0.8' : '0.6',
       freq: 'monthly',
-      lastmod: LASTMOD_STABLE,
+      lastmod: LASTMOD.vehicleBrands,
     }))
 );
 
@@ -1162,7 +1252,7 @@ sitemapRoute('/sitemap-vehicle-models.xml', () => {
         path: '/vehicle-brands/' + makeData.makeKey + '/' + model.slug + '-repair-salt-lake-city-ut',
         priority: highVolumeBrands.has(makeData.brandSlug) ? '0.7' : '0.5',
         freq: 'monthly',
-        lastmod: LASTMOD_SPRINT,
+        lastmod: LASTMOD.vehicleModels,
       });
     });
   });
@@ -1240,11 +1330,27 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
+# Google-Extended powers AI Overviews / Gemini grounding — separate from Googlebot
+User-agent: Google-Extended
+Allow: /
+
 # AI training-only crawlers — no search referral value, blocked
 User-agent: CCBot
 Disallow: /
 
 User-agent: cohere-ai
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: ImagesiftBot
 Disallow: /
 
 Sitemap: ${site.domain}/sitemap.xml`);
