@@ -210,9 +210,18 @@ app.use((req, res, next) => {
   const p = req.path;
 
   // Old symptom pattern: /symptoms/{slug}-repair-south-salt-lake
+  // Old slugs sometimes embedded the related service (e.g. "sulfur-smell-exhaust"),
+  // so fall back to the longest current symptom slug that prefixes the captured value.
   const symptomMatch = p.match(/^\/symptoms\/(.+)-repair-south-salt-lake$/);
   if (symptomMatch) {
-    return res.redirect(301, '/symptoms/' + symptomMatch[1]);
+    const captured = symptomMatch[1];
+    let target = symptoms.find(s => s.slug === captured);
+    if (!target) {
+      target = symptoms
+        .filter(s => captured.startsWith(s.slug + '-') || captured.startsWith(s.slug))
+        .sort((a, b) => b.slug.length - a.slug.length)[0];
+    }
+    if (target) return res.redirect(301, '/symptoms/' + target.slug);
   }
 
   // Old service pattern: /services/{slug}-south-salt-lake-ut (missing -near-)
