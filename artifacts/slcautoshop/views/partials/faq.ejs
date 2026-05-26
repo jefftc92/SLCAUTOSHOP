@@ -15,6 +15,7 @@
 <script type="application/ld+json" nonce="<%= cspNonce %>"><%- JSON.stringify({
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "author": { "@type": "Person", "@id": site.domain + "/#owner", "name": site.owner.name },
   "mainEntity": pageFaqs.map(faq => ({
     "@type": "Question",
     "name": faq.q,

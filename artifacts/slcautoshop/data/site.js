@@ -15,6 +15,11 @@ module.exports = {
   sunHours: "Sunday: Closed",
   founded: 1990,
   yearsExperience: "36+",
+  owner: {
+    name: "Scott Bierman",
+    jobTitle: "Owner",
+    yearsAtBusiness: "36+"
+  },
   domain: "https://slcautoshop.com",
   directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=144%20W%20Crystal%20Ave%2C%20South%20Salt%20Lake%2C%20UT%2084115",
   headerLogo: "/assets/header-logo-CbiMbQv6.webp",

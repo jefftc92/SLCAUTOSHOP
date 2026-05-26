@@ -26,6 +26,7 @@ function faqPageSchema(faqs) {
   return [{
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    "author": { "@type": "Person", "@id": site.domain + "/#owner", "name": site.owner.name },
     "mainEntity": faqs.map(f => ({
       "@type": "Question",
       "name": f.q,
@@ -311,6 +312,13 @@ app.get('/', (req, res) => {
       "url": site.domain,
       "priceRange": "$$",
       "foundingDate": "1990",
+      "founder": {
+        "@type": "Person",
+        "@id": site.domain + "/#owner",
+        "name": site.owner.name,
+        "jobTitle": site.owner.jobTitle,
+        "worksFor": { "@id": site.domain + "/#business" }
+      },
       "description": "Family-owned auto repair shop in South Salt Lake since 1990. Brakes, clutch, transmission, engine, exhaust, and full service for all makes and models.",
       "slogan": "Honest diagnostics since 1990.",
       "paymentAccepted": ["Cash", "Credit Card", "Debit Card"],

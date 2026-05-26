@@ -146,6 +146,7 @@
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
     <h2><%= service.whoContent.heading %></h2>
+    <p class="page-byline">Reviewed by <strong><%= site.owner.name %></strong>, <%= site.owner.jobTitle %> · <%= site.owner.yearsAtBusiness %> years repairing vehicles in South Salt Lake</p>
     <div class="prose mw-760 mb-8">
       <% service.whoContent.paras.forEach(function(p) { %><p><%- p %></p><% }); %>
     </div>
