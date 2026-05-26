@@ -331,9 +331,9 @@ const services = [
         paras: [
           "A CV axle is the shaft that transfers engine power from your transmission to your wheels. Each axle has two constant-velocity joints that allow the shaft to flex with suspension movement and steering without binding. The photo here shows the difference clearly: the dark corroded axle at the top shows what happens when the rubber boot tears — grease escapes, road grit gets in, and the ball bearings inside wear against each other, which is what causes the clicking you hear on turns. The clean axle at the bottom has an intact accordion boot with a fresh clamp; as long as that boot stays sealed, the joint can last the life of the vehicle.",
           "<strong>Outer CV joint</strong> — connects the axle to the wheel hub and handles the sharp angles of steering. This joint takes the most stress during tight turns and is the one that produces the classic clicking sound when it wears.",
-          "<strong>Inner CV joint</strong> — connects the axle to the transmission and handles the up-and-down plunge movement of the suspension. Wear here typically shows up as a shudder or vibration under acceleration.",
+          "<strong>Inner CV joint</strong> — connects the axle to the <a href='/services/transmission-repair-near-south-salt-lake-ut'>transmission</a> and handles the up-and-down plunge movement of the suspension. Wear here typically shows up as a shudder or vibration under acceleration.",
           "<strong>CV boots</strong> — rubber covers that seal grease inside the joints and keep road debris out. A torn boot is the most common cause of joint failure. If caught early, a boot replacement can save the joint. If ignored, grit gets in and destroys the joint.",
-          "<strong>Axle seals</strong> — where the axle meets the transmission, a seal keeps transmission fluid from migrating into the boot. A seeping seal contaminates the CV grease and shortens the axle's life.",
+          "<strong>Axle seals</strong> — where the axle meets the <a href='/services/transmission-repair-near-south-salt-lake-ut'>transmission</a>, a seal keeps transmission fluid from migrating into the boot. A seeping seal contaminates the CV grease and shortens the axle's life.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -427,6 +427,7 @@ const services = [
     hasGeoPages: false,
     relatedSlugs: [
       "clutch-repair-near-south-salt-lake-ut",
+      "transmission-repair-near-south-salt-lake-ut",
       "strut-replacement-near-south-salt-lake-ut",
       "complete-auto-service-near-south-salt-lake-ut"
     ]
@@ -935,7 +936,7 @@ const services = [
         heading: "What Does Water Pump Replacement Actually Involve?",
         paras: [
           "The water pump is what keeps coolant moving through your engine. When it fails, the engine overheats. The two pumps in the photo show one of the more deceptive failure modes: the pump on the left is new, with seven full aluminum fins that push coolant through the system efficiently. The pump on the right still has an intact shaft that spins — but the impeller fins have been almost completely eaten away by corrosion, so it moves almost no coolant. The engine runs hot even though nothing appears seized, which is why overheating doesn't always point to an obvious failure. Most water pumps give some warning before they fail completely, which is the time to act.",
-          "<strong>Water pump body and shaft seal</strong> — the pump turns a vane wheel inside the engine, driven by the timing belt, timing chain, or a separate drive belt. When the shaft seal fails, coolant leaks out through the weep hole near the front of the engine. That drip is a designed warning signal built into the pump.",
+          "<strong>Water pump body and shaft seal</strong> — the pump turns a vane wheel inside the engine, driven by the <a href='/services/timing-belt-replacement-near-south-salt-lake-ut'>timing belt</a>, <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>timing chain</a>, or a separate drive belt. When the shaft seal fails, coolant leaks out through the weep hole near the front of the engine. That drip is a designed warning signal built into the pump.",
           "<strong>Impeller</strong> — the internal vane wheel that actually moves the coolant. On some pumps, the impeller can corrode away or separate from the shaft without any external leak. The pump turns but circulates almost no coolant, causing the engine to run hot with no visible puddle to explain it.",
           "<strong>Thermostat</strong> — a valve that controls how much coolant flows to the radiator based on temperature. Its labor overlaps with the water pump on most engines. We recommend replacing it at the same time rather than leaving an aging thermostat in against a new pump.",
           "<strong>Coolant hoses</strong> — we inspect all hoses while the system is open. A softened or blistered hose should be addressed before it fails on a recently repaired cooling system.",
@@ -965,7 +966,7 @@ const services = [
       },
       {
         q: "Can the water pump be replaced without replacing the timing belt?",
-        a: "Yes, on engines where they're not directly connected. On engines where the timing belt drives the water pump, we recommend doing both. It's more economical than two separate jobs."
+        a: "Yes, on engines where they're not directly connected. On engines where the <a href='/services/timing-belt-replacement-near-south-salt-lake-ut'>timing belt</a> drives the water pump, we recommend doing both. It's more economical than two separate jobs."
       },
       {
         q: "What happens if I keep driving with a leaking water pump?",
@@ -973,7 +974,7 @@ const services = [
       },
       {
         q: "Should I combine water pump and timing belt service?",
-        a: "On most engines, yes. They share the same access, and combining them saves several hours of labor compared to doing them separately. On engines where the timing belt drives the water pump directly, doing them together is standard practice rather than optional."
+        a: "On most engines, yes. They share the same access, and combining them saves several hours of labor compared to doing them separately. On engines where the <a href='/services/timing-belt-replacement-near-south-salt-lake-ut'>timing belt</a> drives the water pump directly, doing them together is standard practice rather than optional."
       },
       {
         q: "What is impeller failure and how do you diagnose it?",
@@ -1002,7 +1003,7 @@ const services = [
     statsTable: [
       {
         label: "Typical Turnaround",
-        value: "Same day to 1 day; faster when combined with timing belt at same access point"
+        value: "Same day to 1 day; faster when combined with <a href='/services/timing-belt-replacement-near-south-salt-lake-ut'>timing belt</a> at same access point"
       },
       {
         label: "Free Diagnosis",
@@ -1014,7 +1015,7 @@ const services = [
       },
       {
         label: "Common Savings",
-        value: "Combining water pump and timing belt replacement saves significant labor when both are due"
+        value: "Combining water pump and <a href='/services/timing-belt-replacement-near-south-salt-lake-ut'>timing belt replacement</a> saves significant labor when both are due"
       },
       {
         label: "Most Common Cause",
@@ -1133,7 +1134,7 @@ const services = [
           "Your exhaust system runs from the engine's exhaust manifold all the way to the tailpipe, treating and routing combustion gases out of the vehicle. A leak anywhere in that path can cause noise, fumes in the cabin, or a failed emissions test.",
           "<strong>Exhaust manifold</strong> — bolted directly to the engine, it collects exhaust gases from each cylinder. Manifolds crack from heat cycling and produce a cold-start ticking that quiets as the metal expands. A cracked manifold near the firewall can push fumes into the cabin.",
           "<strong>Flex pipe</strong> — a flexible section that absorbs engine movement and vibration. Flex pipes crack and separate with age, especially on vehicles with broken hangers that let the exhaust sag and stress the flex section.",
-          "<strong>Catalytic converter</strong> — reduces harmful emissions. We include it in every exhaust inspection even when it's not the presenting symptom.",
+          "<strong><a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>Catalytic converter</a></strong> — reduces harmful emissions. We include it in every exhaust inspection even when it's not the presenting symptom.",
           "<strong>Muffler</strong> — reduces exhaust noise. A rusted or damaged muffler produces a noticeably louder exhaust note.",
           "<strong>Exhaust hangers</strong> — rubber-isolated mounting points that let the exhaust flex with road vibration. A broken hanger causes the exhaust to sag and stress the nearest rigid joint until it cracks. They're an inexpensive repair on their own.",
           "Depending on what we find, the work we commonly perform includes:"
@@ -1730,7 +1731,7 @@ const services = [
           "The timing belt keeps your engine's crankshaft and camshaft synchronized. It's a preventive replacement, not a repair. You replace it on schedule so it never gets the chance to fail.",
           "<strong>Timing belt</strong> — a reinforced rubber belt that drives the camshaft from the crankshaft. Belts age from heat cycling and ozone exposure even when they look intact. Most manufacturers specify both a mileage interval (60,000 to 105,000 miles depending on the engine) and a time interval, typically 7 to 10 years.",
           "<strong>Tensioner and idler pulleys</strong> — keep the belt at the correct tension and guide it around its path. These are accessible whenever the belt is out. Replacing them alongside the belt is far less expensive than a second timing cover removal to replace a tensioner that fails on a new belt.",
-          "<strong>Water pump</strong> — on many 4-cylinder engines the water pump is driven directly off the timing belt and is accessible during the same service. Combining water pump and timing belt replacement saves several hours of labor.",
+          "<strong><a href='/services/water-pump-replacement-near-south-salt-lake-ut'>Water pump</a></strong> — on many 4-cylinder engines the water pump is driven directly off the timing belt and is accessible during the same service. Combining water pump and timing belt replacement saves several hours of labor.",
           "<strong>Drive belts</strong> — the serpentine and other accessory drive belts are often accessible during timing belt service and worth inspecting at the same time.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
@@ -1754,7 +1755,7 @@ const services = [
     faq: [
       {
         q: "How do I know if my vehicle has a timing belt or timing chain?",
-        a: "Check your owner's manual, or ask us. We can tell you in about 30 seconds. Generally, if your engine requires a scheduled timing belt replacement (typically listed in the 60K–100K mile maintenance), it has a belt."
+        a: "Check your owner's manual, or ask us. We can tell you in about 30 seconds. Generally, if your engine requires a scheduled timing belt replacement (typically listed in the 60K–100K mile maintenance), it has a belt. Engines with a <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>timing chain</a> don't have a scheduled replacement interval but can still wear and stretch over time."
       },
       {
         q: "What happens if my timing belt breaks?",
@@ -1762,7 +1763,7 @@ const services = [
       },
       {
         q: "Should I replace the water pump with the timing belt?",
-        a: "On most engines, yes. They're accessible at the same time and the water pump is near or at its service interval by the time the belt is due. We check pump condition and recommend based on what we find, not a blanket policy."
+        a: "On most engines, yes. They're accessible at the same time and the <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>water pump</a> is near or at its service interval by the time the belt is due. We check pump condition and recommend based on what we find, not a blanket policy."
       },
       {
         q: "Which vehicles still have timing belts?",
@@ -2525,7 +2526,7 @@ const services = [
         heading: "What Does Head Gasket Repair Actually Involve?",
         paras: [
           "The head gasket seals the cylinder head to the engine block, keeping combustion gases, engine oil, and coolant in their own passages. When it fails, those fluids mix — coolant burns in the cylinders (white smoke), oil turns milky, or the engine loses coolant with no visible external puddle.",
-          "Before we recommend head gasket work, we confirm the failure. Overheating and coolant loss have cheaper causes — a stuck thermostat, a failing water pump, a cracked hose. We rule those out first with a combustion gas block test and a cooling system pressure test.",
+          "Before we recommend head gasket work, we confirm the failure. Overheating and coolant loss have cheaper causes — a stuck thermostat, a failing <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>water pump</a>, a cracked hose. We rule those out first with a combustion gas block test and a cooling system pressure test.",
           "<strong>Head gasket</strong> — the sealing layer between the cylinder head and engine block. When it fails, combustion gases, oil, and coolant can mix through the failed section.",
           "<strong>Cylinder head</strong> — the aluminum casting bolted to the top of the block. Aluminum heads warp from overheating — even a single event — and a warped head won't seal against a new gasket. We measure for warping with a precision straightedge after removal.",
           "<strong>Head bolts</strong> — torqued in sequence to compress the gasket evenly. Many engines require new bolts on reassembly because the bolts are stretch-to-yield and lose clamping force if reused.",
@@ -2555,11 +2556,11 @@ const services = [
     faq: [
       {
         q: "How do you know it's the head gasket and not something cheaper?",
-        a: "We run a combustion gas block test first — it detects combustion gases in the coolant, which is the definitive sign of a failed gasket. We also pressure-test the cooling system to find external leaks. If the block test is clean, we look for other causes before recommending head gasket work. The thermostat and water pump are much less expensive repairs and worth ruling out first."
+        a: "We run a combustion gas block test first — it detects combustion gases in the coolant, which is the definitive sign of a failed gasket. We also pressure-test the cooling system to find external leaks. If the block test is clean, we look for other causes before recommending head gasket work. The thermostat and <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>water pump</a> are much less expensive repairs and worth ruling out first."
       },
       {
         q: "What causes a head gasket to fail?",
-        a: "Overheating is the most common cause. A single overheat event can warp the cylinder head enough that the gasket can't seal properly. High-mileage cooling system neglect — old coolant, a slow thermostat, a marginal water pump — often precedes the failure. Some engines have design vulnerabilities that make them more prone to gasket failure than others."
+        a: "Overheating is the most common cause. A single overheat event can warp the cylinder head enough that the gasket can't seal properly. High-mileage cooling system neglect — old coolant, a slow thermostat, a marginal <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>water pump</a> — often precedes the failure. Some engines have design vulnerabilities that make them more prone to gasket failure than others."
       },
       {
         q: "Does the cylinder head have to be resurfaced?",
@@ -2946,7 +2947,7 @@ const services = [
         heading: "What Does Check Engine Light Diagnosis Actually Involve?",
         paras: [
           "The check engine light — technically the malfunction indicator lamp (MIL) — activates when the engine control module detects a reading outside its acceptable range for one of its monitored systems. It stores a diagnostic trouble code (DTC) and turns on the light.",
-          "Reading that code is not diagnosing the problem. A P0420 catalyst efficiency code could mean a worn-out catalytic converter, a failed downstream O2 sensor giving false readings, an upstream exhaust leak contaminating the sample, or an engine misfire that damaged the catalyst. The code tells you what triggered — diagnosis tells you why.",
+          "Reading that code is not diagnosing the problem. A P0420 catalyst efficiency code could mean a worn-out <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a>, a failed downstream O2 sensor giving false readings, an upstream exhaust leak contaminating the sample, or an engine misfire that damaged the catalyst. The code tells you what triggered — diagnosis tells you why.",
           "We connect a professional scan tool, read all stored codes, and pull the live data stream the engine control module was seeing when the fault occurred. That data — fuel trims, O2 sensor waveforms, misfire counts, MAF readings — shows us what the engine was actually doing, which points us to the real cause.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
@@ -2967,7 +2968,7 @@ const services = [
       {
         heading: "When Should You Come In?",
         paras: [
-          "Come in any time the check engine light is on — but come in immediately if the light is flashing. A steady check engine light means a fault has been detected; the vehicle is usually safe to drive short-term but the issue needs diagnosis. A flashing or blinking check engine light means an active misfire severe enough to damage the catalytic converter. Driving with a flashing light risks turning a spark plug replacement into a catalytic converter replacement.",
+          "Come in any time the check engine light is on — but come in immediately if the light is flashing. A steady check engine light means a fault has been detected; the vehicle is usually safe to drive short-term but the issue needs diagnosis. A flashing or blinking check engine light means an active misfire severe enough to damage the <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a>. Driving with a flashing light risks turning a spark plug replacement into a catalytic converter replacement.",
           "Also come in if the light came back after being cleared elsewhere, or if you've replaced a part based on a code and the light returned. Code-based parts swaps without confirming root cause are one of the most common reasons check engine lights come back — we find what the code actually points to before recommending any repair."
         ]
       }
@@ -2979,11 +2980,11 @@ const services = [
       },
       {
         q: "Is it safe to drive with the check engine light on?",
-        a: "A steady check engine light usually means you can drive short-term, but you should get it diagnosed soon. Defer repairs and the cause often gets worse. A flashing check engine light means stop driving as soon as safely possible — an active misfire is occurring that can destroy the catalytic converter in minutes."
+        a: "A steady check engine light usually means you can drive short-term, but you should get it diagnosed soon. Defer repairs and the cause often gets worse. A flashing check engine light means stop driving as soon as safely possible — an active misfire is occurring that can destroy the <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a> in minutes."
       },
       {
         q: "What does a flashing check engine light mean?",
-        a: "A flashing or blinking check engine light indicates an active, severe misfire. Unburned fuel is passing into the exhaust and overheating the catalytic converter. Continued driving can destroy the converter — turning a spark plug or coil pack repair into a significantly more expensive job. Pull over safely and call us."
+        a: "A flashing or blinking check engine light indicates an active, severe misfire. Unburned fuel is passing into the exhaust and overheating the <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a>. Continued driving can destroy the converter — turning a spark plug or coil pack repair into a significantly more expensive job. Pull over safely and call us."
       },
       {
         q: "Do you just read the code or actually find the problem?",
