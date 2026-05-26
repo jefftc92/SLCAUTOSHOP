@@ -352,6 +352,16 @@ app.get('/', (req, res) => {
         "ratingCount": String(allReviews.length),
         "reviewCount": String(allReviews.length)
       },
+      "review": allReviews
+        .slice()
+        .sort((a, b) => (b.rating - a.rating) || (b.text.length - a.text.length))
+        .slice(0, 5)
+        .map(r => ({
+          "@type": "Review",
+          "author": { "@type": "Person", "name": r.author },
+          "reviewRating": { "@type": "Rating", "ratingValue": String(r.rating), "bestRating": "5", "worstRating": "1" },
+          "reviewBody": r.text
+        })),
       "sameAs": [
         "https://g.page/r/CYDFwHsY4XoBEBM/review",
         "https://www.yelp.com/biz/scotts-auto-clutch-and-towing-salt-lake-city",
