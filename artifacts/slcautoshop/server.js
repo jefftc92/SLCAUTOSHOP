@@ -930,7 +930,6 @@ app.get('/vehicle-brands/:slug', (req, res) => {
   const bc = getBrandContent(brand.name);
   res.render('vehicle-detail', {
     activePage: 'vehicles',
-    noindex: defunctBrands.has(brand.slug) || undefined,
     metaTitle: brand.metaTitle,
     metaDesc: brand.metaDesc,
     canonical: '/vehicle-brands/' + brand.slug,
@@ -1053,21 +1052,6 @@ app.get('/terms', (req, res) => {
 });
 
 // ── Shared URL catalogue (used by sitemap + IndexNow) ────────────────────────
-const defunctBrands = new Set([
-  'pontiac-repair-salt-lake-city-ut',   // discontinued 2010
-  'saturn-repair-salt-lake-city-ut',    // discontinued 2010
-  'mercury-repair-salt-lake-city-ut',   // discontinued 2011
-  'saab-repair-salt-lake-city-ut',      // bankrupt 2011
-  'hummer-repair-salt-lake-city-ut',    // discontinued 2010
-  'scion-repair-salt-lake-city-ut',     // discontinued 2016
-  'plymouth-repair-salt-lake-city-ut',  // discontinued 2001
-  'suzuki-repair-salt-lake-city-ut',    // exited US market 2012
-  'isuzu-repair-salt-lake-city-ut',     // exited US consumer market 2009
-  'fiat-repair-salt-lake-city-ut',      // effectively exited US market
-  'smart-repair-salt-lake-city-ut',     // exited US market 2019
-  'gm-repair-salt-lake-city-ut',        // manufacturer umbrella, not a consumer brand
-]);
-
 const highVolumeBrands = new Set([
   'toyota-repair-salt-lake-city-ut', 'honda-repair-salt-lake-city-ut',
   'ford-repair-salt-lake-city-ut', 'chevrolet-repair-salt-lake-city-ut',
@@ -1129,7 +1113,6 @@ function getSitemapEntries() {
   locations.forEach(l => add('/locations/' + l.slug, '0.9', 'monthly', LASTMOD.locations));
   symptoms.forEach(s => add('/symptoms/' + s.slug, '0.8', 'monthly', LASTMOD.symptoms));
   vehicleBrands.forEach(v => {
-    if (defunctBrands.has(v.slug)) return;
     add('/vehicle-brands/' + v.slug, highVolumeBrands.has(v.slug) ? '0.8' : '0.6', 'monthly', LASTMOD.vehicleBrands);
   });
   // Vehicle model pages
@@ -1230,10 +1213,9 @@ sitemapRoute('/sitemap-symptoms.xml', () =>
   symptoms.map(s => ({ path: '/symptoms/' + s.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD.symptoms }))
 );
 
-// Vehicles: active brand pages only
+// Vehicles: all brand pages
 sitemapRoute('/sitemap-vehicles.xml', () =>
   vehicleBrands
-    .filter(v => !defunctBrands.has(v.slug))
     .map(v => ({
       path: '/vehicle-brands/' + v.slug,
       priority: highVolumeBrands.has(v.slug) ? '0.8' : '0.6',
@@ -1246,7 +1228,6 @@ sitemapRoute('/sitemap-vehicles.xml', () =>
 sitemapRoute('/sitemap-vehicle-models.xml', () => {
   const entries = [];
   Object.values(vehicleModels).forEach(makeData => {
-    const isDefunct = defunctBrands.has(makeData.brandSlug);
     makeData.models.forEach(model => {
       entries.push({
         path: '/vehicle-brands/' + makeData.makeKey + '/' + model.slug + '-repair-salt-lake-city-ut',
