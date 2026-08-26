@@ -73,11 +73,11 @@ const businessSchema = {
   ],
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.8",
+    "ratingValue": site.rating.value,
     "bestRating": "5",
     "worstRating": "1",
-    "ratingCount": "51",
-    "reviewCount": "51"
+    "ratingCount": String(site.rating.count),
+    "reviewCount": String(site.rating.count)
   },
   "sameAs": [
     "https://g.page/r/CYDFwHsY4XoBEBM/review",
@@ -374,11 +374,11 @@ app.get('/', (req, res) => {
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": (allReviews.reduce((s, r) => s + r.rating, 0) / allReviews.length).toFixed(1),
+        "ratingValue": site.rating.value,
         "bestRating": "5",
         "worstRating": "1",
-        "ratingCount": String(allReviews.length),
-        "reviewCount": String(allReviews.length)
+        "ratingCount": String(site.rating.count),
+        "reviewCount": String(site.rating.count)
       },
       "review": allReviews
         .slice()

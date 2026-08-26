@@ -15,6 +15,13 @@ module.exports = {
   sunHours: "Sunday: Closed",
   founded: 1990,
   yearsExperience: "36+",
+  // Single source of truth for the aggregate review rating shown in schema.
+  // Must match the shop's real Google Business Profile so the homepage and
+  // inner pages never publish conflicting numbers. Update here when GBP changes.
+  rating: {
+    value: "4.8",
+    count: 51
+  },
   owner: {
     name: "Scott Bierman",
     jobTitle: "Owner",
