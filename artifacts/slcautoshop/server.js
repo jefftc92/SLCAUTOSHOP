@@ -944,8 +944,28 @@ app.get('/vehicle-brands/:slug', (req, res) => {
   if (!brand) return res.status(404).render('404', { metaTitle: 'Page Not Found' });
 
   const bc = getBrandContent(brand.name);
+
+  // Build the model-tag list that the brand page links to. Match the curated
+  // brand.models name list to actual model pages case-insensitively, then append
+  // any model pages the list doesn't cover — so every model page is linked from
+  // its brand page and none are left orphaned (sitemap-only).
+  const makeModels = vehicleModels[brand.makeKey];
+  const modelPages = (makeModels && makeModels.models) || [];
+  const normModel = s => String(s).toLowerCase().replace(/[^a-z0-9]/g, '');
+  const usedModelSlugs = new Set();
+  const modelTags = [];
+  (brand.models || []).forEach(name => {
+    const md = modelPages.find(p => normModel(p.name) === normModel(name));
+    if (md) usedModelSlugs.add(md.slug);
+    modelTags.push({ label: brand.name + ' ' + name, slug: md ? md.slug : null });
+  });
+  modelPages.forEach(p => {
+    if (!usedModelSlugs.has(p.slug)) modelTags.push({ label: brand.name + ' ' + p.name, slug: p.slug });
+  });
+
   res.render('vehicle-detail', {
     activePage: 'vehicles',
+    modelTags,
     metaTitle: brand.metaTitle,
     metaDesc: brand.metaDesc,
     canonical: '/vehicle-brands/' + brand.slug,
