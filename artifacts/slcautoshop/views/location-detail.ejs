@@ -93,7 +93,7 @@
 <section class="content-section">
   <div class="container">
     <h2>Landmarks Near Our Shop</h2>
-    <p>Scott's Auto & Clutch Repair is at <strong><%= site.fullAddress %></strong> — centrally located and easy to reach from across the Salt Lake Valley. Here are some well-known <%= location.name %> area landmarks and how they connect to our shop.</p>
+    <p>Scott's Auto & Clutch Repair is at <strong><%= site.fullAddress %></strong>: centrally located and easy to reach from across the Salt Lake Valley. Here are some well-known <%= location.name %> area landmarks and how they connect to our shop.</p>
     <div class="landmarks-grid">
       <% location.landmarks.forEach(lm => { %>
       <div class="landmark-card">
@@ -117,7 +117,7 @@
 <section class="content-section alt-bg">
   <div class="container">
     <h2>What <%= location.name %> Drivers Need Most</h2>
-    <p class="section-subtitle">Based on 35+ years serving <%= location.name %> drivers — the repairs local roads and terrain create the most demand for.</p>
+    <p class="section-subtitle">Based on 35+ years serving <%= location.name %> drivers, the repairs local roads and terrain create the most demand for.</p>
     <div class="loc-common-needs">
       <% locSeo.commonNeeds.forEach(need => { %>
       <div class="loc-need-item">
@@ -133,7 +133,7 @@
 <section class="content-section">
   <div class="container">
     <h2>Auto Repair Services for <%= location.name %> Drivers</h2>
-    <p>Complete auto repair for all makes and models — domestic and import. Every job starts with a free diagnosis before any work begins.</p>
+    <p>Complete auto repair for all makes and models, domestic and import. Every job starts with a free diagnosis before any work begins.</p>
     <div class="services-grid small mt-8">
       <% services.forEach(s => { %>
       <% var serviceUrl; if (s.slug === 'clutch-repair-near-south-salt-lake-ut' && clutchGeo) { serviceUrl = '/services/' + clutchGeo.slug; } else if (serviceGeoMap && serviceGeoMap[s.slug]) { serviceUrl = '/services/' + serviceGeoMap[s.slug]; } else { serviceUrl = '/services/' + s.slug; } %>

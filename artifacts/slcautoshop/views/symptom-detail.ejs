@@ -7,7 +7,7 @@
   <div class="page-hero-bg"></div>
   <div class="container">
     <span class="symptom-priority priority-<%= symptom.priority.toLowerCase() %>"><%= symptom.priority %> Priority</span>
-    <h1><%= symptom.name %> — Repair in Salt Lake City, UT</h1>
+    <h1><%= symptom.name %>: Repair in Salt Lake City, UT</h1>
     <% if (symptom.heroIntro) { %>
     <p class="hero-intro"><%= symptom.heroIntro %></p>
     <% } %>
@@ -71,7 +71,7 @@
       </div>
       <% }) %>
     </div>
-    <p class="inline-cta mt-6">Not sure which applies to you? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a> — free diagnosis at our Salt Lake City shop.</p>
+    <p class="inline-cta mt-6">Not sure which applies to you? <a href="tel:<%= site.phoneTel %>">Call <%= site.phone %></a> or <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent(symptom.smsBody) %>">text us</a>: free diagnosis at our Salt Lake City shop.</p>
   </div>
 </section>
 
@@ -108,7 +108,7 @@
 <section class="content-section alt-bg symptom-location-section">
   <div class="container">
     <h2>Where to Get Your <%= symptom.shortName %> Fixed</h2>
-    <p class="section-subtitle">Scott's Auto &amp; Clutch Repair — serving Salt Lake City drivers since 1990.</p>
+    <p class="section-subtitle">Scott's Auto &amp; Clutch Repair, serving Salt Lake City drivers since 1990.</p>
     <div class="symptom-location-grid">
       <div class="symptom-location-info">
         <div class="location-detail">
@@ -149,7 +149,7 @@
 <section class="content-section<%= faqAlt ? '' : ' alt-bg' %>">
   <div class="container">
     <h2>Not Sure This Is Your Issue?</h2>
-    <p class="section-subtitle">Browse related symptoms — drivers often confuse these for one another.</p>
+    <p class="section-subtitle">Browse related symptoms, drivers often confuse these for one another.</p>
     <div class="symptom-other-grid">
       <% relatedSymptoms.forEach(sy => { %>
       <a href="/symptoms/<%= sy.slug %>" class="symptom-other-card cat-<%= sy.category.toLowerCase().replace(' ','') %>">

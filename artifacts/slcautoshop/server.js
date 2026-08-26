@@ -544,7 +544,7 @@ app.get('/services/:slug', (req, res) => {
         geo,
         clutchService,
         pageFaqs: getGeoFaqs(geo),
-        faqTitle: 'Frequently Asked Questions — Clutch Repair Near ' + geo.locationName,
+        faqTitle: 'Frequently Asked Questions: Clutch Repair Near ' + geo.locationName,
         pageTestimonials: pickReviews(1 + Math.floor(Math.random() * 2)),
         structuredData: [
           businessSchema,
@@ -591,7 +591,7 @@ app.get('/services/:slug', (req, res) => {
         geo: serviceGeo,
         mainService: mainService || null,
         pageFaqs: geoPageFaqs,
-        faqTitle: 'Frequently Asked Questions — ' + serviceGeo.serviceFullName + ' Near ' + serviceGeo.locationName,
+        faqTitle: 'Frequently Asked Questions: ' + serviceGeo.serviceFullName + ' Near ' + serviceGeo.locationName,
         pageTestimonials: pickReviews(2 + Math.floor(Math.random() * 2)),
         structuredData: [
           businessSchema,
@@ -674,7 +674,7 @@ app.get('/services/:slug', (req, res) => {
     relatedServices,
     structuredData: schemaList,
     pageFaqs: allFaqs,
-    faqTitle: 'Frequently Asked Questions — ' + service.fullName,
+    faqTitle: 'Frequently Asked Questions: ' + service.fullName,
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3))
   });
 });
@@ -690,7 +690,7 @@ app.get('/locations', (req, res) => {
       {
         "@context": "https://schema.org",
         "@type": "ItemList",
-        "name": "Service Areas — Scott's Auto & Clutch Repair",
+        "name": "Service Areas | Scott's Auto & Clutch Repair",
         "url": site.domain + "/locations",
         "itemListElement": locations.map((l, i) => ({
           "@type": "ListItem", "position": i + 1, "name": l.name + ", UT", "url": site.domain + "/locations/" + l.slug
@@ -736,7 +736,7 @@ app.get('/locations/:slug', (req, res) => {
     clutchGeo,
     serviceGeoMap,
     pageFaqs: allLocFaqs,
-    faqTitle: 'Frequently Asked Questions — ' + location.name + ' Auto Repair',
+    faqTitle: 'Frequently Asked Questions: ' + location.name + ' Auto Repair',
     faqAlt: false,
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3)),
     structuredData: [
@@ -779,7 +779,7 @@ app.get('/symptoms', (req, res) => {
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Car Symptom Guide — What's Wrong With My Car?",
+        "name": "Car Symptom Guide: What's Wrong With My Car?",
         "url": site.domain + "/symptoms",
         "description": "Symptom-based car problem guide. Find your symptom and learn what might be causing it. Free diagnosis at Scott's Auto & Clutch Repair, South Salt Lake.",
         "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
@@ -822,7 +822,7 @@ app.get('/symptoms/:slug', (req, res) => {
     relatedService,
     relatedSymptoms,
     pageFaqs: sFaqs,
-    faqTitle: 'Frequently Asked Questions — ' + symptom.name,
+    faqTitle: 'Frequently Asked Questions: ' + symptom.name,
     ctaTitle: 'Experiencing ' + symptom.shortName + '?',
     ctaDesc: "Contact Scott's Auto & Clutch Repair today for a free diagnosis. We'll get your vehicle running right.",
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3)),
@@ -840,7 +840,7 @@ app.get('/symptoms/:slug', (req, res) => {
       {
         "@context": "https://schema.org",
         "@type": "TechArticle",
-        "headline": symptom.name + " — Causes, Diagnosis & Repair in South Salt Lake, UT",
+        "headline": symptom.name + ": Causes, Diagnosis & Repair in South Salt Lake, UT",
         "description": symptom.intro,
         "image": symptom.introImage
           ? { "@type": "ImageObject", "url": site.domain + "/assets/" + symptom.introImage, "width": 760, "height": 428 }
@@ -868,15 +868,15 @@ app.get('/vehicle-brands', (req, res) => {
   res.render('vehicles-index', {
     activePage: 'vehicles',
     metaTitle: "Car Brands We Repair | Domestic, Import, and Luxury",
-    metaDesc: "We service every major vehicle brand — Toyota, Honda, BMW, Porsche, and more. Same careful work, regardless of badge. Call (801) 485-4089.",
+    metaDesc: "We service every major vehicle brand: Toyota, Honda, BMW, Porsche, and more. Same careful work, regardless of badge. Call (801) 485-4089.",
     canonical: '/vehicle-brands',
     structuredData: [
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Vehicle Brands We Service — Scott's Auto & Clutch Repair",
+        "name": "Vehicle Brands We Service | Scott's Auto & Clutch Repair",
         "url": site.domain + "/vehicle-brands",
-        "description": "All makes and models serviced at Scott's Auto & Clutch Repair in South Salt Lake, UT — domestic, import, and luxury.",
+        "description": "All makes and models serviced at Scott's Auto & Clutch Repair in South Salt Lake, UT: domestic, import, and luxury.",
         "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
       },
       { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -972,7 +972,7 @@ app.get('/vehicle-brands/:slug', (req, res) => {
     brand,
     brandContent: bc,
     pageFaqs: bc.faqs || [],
-    faqTitle: 'Frequently Asked Questions — ' + brand.name + ' Repair',
+    faqTitle: 'Frequently Asked Questions: ' + brand.name + ' Repair',
     faqAlt: true,
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3)),
     structuredData: [
@@ -1003,14 +1003,14 @@ app.get('/vehicle-brands/:slug', (req, res) => {
 // Privacy & Terms
 app.get('/privacy', (req, res) => {
   res.render('legal', {
-    metaTitle: "Privacy Policy | Scott's Auto & Clutch Repair — Salt Lake City",
-    metaDesc: "Scott's Auto & Clutch Repair privacy policy. We don't sell your data — contact info only, never shared with third parties. Questions? Call (801) 485-4089.",
+    metaTitle: "Privacy Policy | Scott's Auto & Clutch Repair, Salt Lake City",
+    metaDesc: "Scott's Auto & Clutch Repair privacy policy. We don't sell your data: contact info only, never shared with third parties. Questions? Call (801) 485-4089.",
     canonical: '/privacy',
-    pageTitle: "Privacy Policy — Scott's Auto & Clutch Repair",
+    pageTitle: "Privacy Policy | Scott's Auto & Clutch Repair",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Privacy Policy — Scott's Auto & Clutch Repair",
+      "name": "Privacy Policy | Scott's Auto & Clutch Repair",
       "url": site.domain + "/privacy",
       "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
     },
@@ -1046,13 +1046,13 @@ app.get('/privacy', (req, res) => {
 app.get('/terms', (req, res) => {
   res.render('legal', {
     metaTitle: "Terms of Service | Scott's Auto & Clutch Repair",
-    metaDesc: "Scott's Auto & Clutch Repair service terms — warranty details, shop policies, and your rights as a customer. Questions? Call us at (801) 485-4089.",
+    metaDesc: "Scott's Auto & Clutch Repair service terms: warranty details, shop policies, and your rights as a customer. Questions? Call us at (801) 485-4089.",
     canonical: '/terms',
-    pageTitle: "Terms of Service — Scott's Auto & Clutch Repair",
+    pageTitle: "Terms of Service | Scott's Auto & Clutch Repair",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Terms of Service — Scott's Auto & Clutch Repair",
+      "name": "Terms of Service | Scott's Auto & Clutch Repair",
       "url": site.domain + "/terms",
       "publisher": { "@type": "AutoRepair", "@id": site.domain + "/#business", "name": site.name }
     },
