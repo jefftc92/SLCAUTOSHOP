@@ -11,10 +11,10 @@ module.exports = {
       "yearRange": "1992–present",
       "heading": "Nissan Altima Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Altima Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Altima repair in Salt Lake City — CVT issues, timing chain, brakes, and full service. Free diagnosis. Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Altima is one of the most common midsize sedans we see at our South Salt Lake shop — daily commuters, family cars, and high-mileage workhorses alike. We know the Altima's CVT behavior and the QR25 four-cylinder inside and out, and we'll tell you straight what yours needs.",
-      "whatHeading": "Full-Service Nissan Altima Repair — All Generations",
-      "whatIntro": "We service all Nissan Altima generations at our South Salt Lake shop — every trim, four-cylinder and V6, automatic and CVT. Every visit starts with a free diagnosis so you know exactly what your Altima needs before we touch it.",
+      "metaDesc": "Nissan Altima repair in Salt Lake City, CVT issues, timing chain, brakes, and full service. Free diagnosis. Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Altima is one of the most common midsize sedans we see at our South Salt Lake shop, daily commuters, family cars, and high-mileage workhorses alike. We know the Altima's CVT behavior and the QR25 four-cylinder inside and out, and we'll tell you straight what yours needs.",
+      "whatHeading": "Full-Service Nissan Altima Repair: All Generations",
+      "whatIntro": "We service all Nissan Altima generations at our South Salt Lake shop, every trim, four-cylinder and V6, automatic and CVT. Every visit starts with a free diagnosis so you know exactly what your Altima needs before we touch it.",
       "generations": [
         {
           "label": "1st Gen (U13)",
@@ -45,7 +45,7 @@ module.exports = {
       "whyUs": [
         {
           "title": "Straight Answers on Altima CVT Concerns",
-          "desc": "The Altima's continuously variable transmission has a reputation, and a lot of owners come to us worried. We road test, check fluid condition, and give you an honest assessment of whether you're looking at a fluid service or something larger — no scare tactics."
+          "desc": "The Altima's continuously variable transmission has a reputation, and a lot of owners come to us worried. We road test, check fluid condition, and give you an honest assessment of whether you're looking at a fluid service or something larger, no scare tactics."
         },
         {
           "title": "35 Years Working on Nissan Sedans",
@@ -53,18 +53,18 @@ module.exports = {
         },
         {
           "title": "Brakes Done Right the First Time",
-          "desc": "Altima rear brakes and front rotors wear faster than many owners expect. We do pads, rotors, and a full caliper and hardware inspection so the repair lasts — not just a quick pad slap."
+          "desc": "Altima rear brakes and front rotors wear faster than many owners expect. We do pads, rotors, and a full caliper and hardware inspection so the repair lasts, not just a quick pad slap."
         },
         {
           "title": "Free Diagnosis on Every Altima",
           "desc": "We road test, pull codes, and inspect your Altima before recommending anything. You know what's wrong and what it costs before we start. No diagnostic fee."
         }
       ],
-      "whenIntro": "We've been servicing Nissan Altimas at our South Salt Lake shop for decades — from early U13 sedans to the current L34. When an Altima comes in, we road test it, pull codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most consistently across Altima generations. If yours is showing any of these, bring it in for a free diagnosis.",
+      "whenIntro": "We've been servicing Nissan Altimas at our South Salt Lake shop for decades, from early U13 sedans to the current L34. When an Altima comes in, we road test it, pull codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most consistently across Altima generations. If yours is showing any of these, bring it in for a free diagnosis.",
       "whenItems": [
         {
           "title": "CVT Shudder, Whine, or Hesitation",
-          "desc": "Many Altima owners notice a shudder during light acceleration, a whining noise that rises with speed, or a delay when the transmission picks up. Often the first step is checking and servicing the CVT fluid with the correct Nissan NS-spec fluid — degraded fluid causes much of this behavior. We road test, check fluid condition, and tell you honestly whether a fluid service will help or whether the unit itself is failing.",
+          "desc": "Many Altima owners notice a shudder during light acceleration, a whining noise that rises with speed, or a delay when the transmission picks up. Often the first step is checking and servicing the CVT fluid with the correct Nissan NS-spec fluid, degraded fluid causes much of this behavior. We road test, check fluid condition, and tell you honestly whether a fluid service will help or whether the unit itself is failing.",
           "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
           "symptomSlug": null
         },
@@ -75,7 +75,7 @@ module.exports = {
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
-          "title": "Check Engine Light — Catalytic Converter and Sensor Codes",
+          "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "Older Altimas commonly trigger P0420 catalytic converter efficiency codes and O2 sensor faults as mileage climbs. These are straightforward diagnoses. We read the codes, confirm the actual root cause rather than guessing, and fix what genuinely needs fixing instead of just clearing the light.",
           "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/check-engine-light"
@@ -94,7 +94,7 @@ module.exports = {
         },
         {
           "title": "CV Axle Clicking on Turns",
-          "desc": "A rhythmic clicking when turning at low speed — most noticeable in parking lots — points to a worn CV joint. The rubber boot cracks, grease escapes, and grit gets in. We replace the complete axle shaft rather than just repacking the boot, which gives you a far more durable repair.",
+          "desc": "A rhythmic clicking when turning at low speed, most noticeable in parking lots, points to a worn CV joint. The rubber boot cracks, grease escapes, and grit gets in. We replace the complete axle shaft rather than just repacking the boot, which gives you a far more durable repair.",
           "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
@@ -102,8 +102,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Altima Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer between you and the shop floor — the mechanic who diagnoses your Altima is the one who repairs it. You get direct answers, accurate estimates, and someone accountable for the work start to finish.",
-          "We've worked on Altimas from every generation — older V6 coupes, four-cylinder commuter sedans, and the current CVT-equipped cars. Whether yours needs brakes, a timing chain, a CVT fluid service, or just an honest answer about whether that noise is worth worrying about, you'll get a straight assessment and a written estimate before we start."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer between you and the shop floor, the mechanic who diagnoses your Altima is the one who repairs it. You get direct answers, accurate estimates, and someone accountable for the work start to finish.",
+          "We've worked on Altimas from every generation, older V6 coupes, four-cylinder commuter sedans, and the current CVT-equipped cars. Whether yours needs brakes, a timing chain, a CVT fluid service, or just an honest answer about whether that noise is worth worrying about, you'll get a straight assessment and a written estimate before we start."
         ]
       },
       "process": [
@@ -115,7 +115,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Altima, scan for stored codes, check fluid condition including the CVT fluid, and inspect what the symptom points to — before recommending a single repair."
+          "desc": "We road test your Altima, scan for stored codes, check fluid condition including the CVT fluid, and inspect what the symptom points to, before recommending a single repair."
         },
         {
           "step": 3,
@@ -152,7 +152,7 @@ module.exports = {
         {
           "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
           "name": "CV Joint Repair",
-          "desc": "Complete axle shaft replacement for clicking on turns — more reliable than boot-only repairs."
+          "desc": "Complete axle shaft replacement for clicking on turns, more reliable than boot-only repairs."
         },
         {
           "slug": "/services/strut-replacement-near-south-salt-lake-ut",
@@ -162,22 +162,22 @@ module.exports = {
         {
           "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
           "name": "Complete Auto Service",
-          "desc": "Full diagnostic, oil service, CVT fluid check, and anything else your Altima needs — one visit."
+          "desc": "Full diagnostic, oil service, CVT fluid check, and anything else your Altima needs, one visit."
         }
       ],
       "tips": [
-        "CVT fluid in Utah's climate: the Altima's continuously variable transmission runs hotter in summer heat and on long canyon climbs. Don't go by the old 'lifetime fluid' myth — have the CVT fluid condition checked, and on higher-mileage cars consider servicing it with the correct Nissan NS-spec fluid to extend the transmission's life.",
+        "CVT fluid in Utah's climate: the Altima's continuously variable transmission runs hotter in summer heat and on long canyon climbs. Don't go by the old 'lifetime fluid' myth, have the CVT fluid condition checked, and on higher-mileage cars consider servicing it with the correct Nissan NS-spec fluid to extend the transmission's life.",
         "Road-salt corrosion: winter brine on Salt Lake Valley roads attacks brake lines, the rear subframe, and exhaust components on older Altimas. Rinse the underbody during winter and have us inspect for corrosion at every brake service so a rusty line doesn't become a surprise failure.",
-        "Cold-start oil habits: short winter trips never let the QR25 fully warm up, which is hard on the timing chain over time. Stick to a sensible 5,000-mile oil change interval with the correct grade, and don't stretch it — clean oil is the cheapest timing-chain insurance you can buy."
+        "Cold-start oil habits: short winter trips never let the QR25 fully warm up, which is hard on the timing chain over time. Stick to a sensible 5,000-mile oil change interval with the correct grade, and don't stretch it, clean oil is the cheapest timing-chain insurance you can buy."
       ],
       "faqs": [
         {
           "q": "My Altima's CVT shudders or whines when I accelerate. Is the transmission failing?",
-          "a": "Not necessarily. CVT shudder and whine often trace back to degraded fluid, and a proper fluid service with the correct Nissan NS-spec fluid resolves a lot of cases. Bring it in — we road test it, check the fluid condition, and give you an honest answer on whether a service will help or whether the unit itself needs attention."
+          "a": "Not necessarily. CVT shudder and whine often trace back to degraded fluid, and a proper fluid service with the correct Nissan NS-spec fluid resolves a lot of cases. Bring it in, we road test it, check the fluid condition, and give you an honest answer on whether a service will help or whether the unit itself needs attention."
         },
         {
           "q": "There's a rattle when I first start my Altima in the morning. What is it?",
-          "a": "On a 2.5L Altima, a brief metallic rattle on cold startup is often timing chain stretch and tensioner wear, especially if oil changes were skipped. It's worth checking promptly — a worn chain can jump teeth and damage the engine. We inspect the chain, guides, and tensioner and tell you exactly where things stand."
+          "a": "On a 2.5L Altima, a brief metallic rattle on cold startup is often timing chain stretch and tensioner wear, especially if oil changes were skipped. It's worth checking promptly. A worn chain can jump teeth and damage the engine. We inspect the chain, guides, and tensioner and tell you exactly where things stand."
         },
         {
           "q": "How long do Altima brakes usually last?",
@@ -189,7 +189,7 @@ module.exports = {
         },
         {
           "q": "Can you tow my Altima to the shop?",
-          "a": "Yes. We work with local tow providers and can coordinate getting your Altima to our South Salt Lake shop. Call or text us and we'll help arrange it — you don't have to sort out towing on your own."
+          "a": "Yes. We work with local tow providers and can coordinate getting your Altima to our South Salt Lake shop. Call or text us and we'll help arrange it, you don't have to sort out towing on your own."
         },
         {
           "q": "How long will my Altima be at the shop?",
@@ -205,10 +205,10 @@ module.exports = {
       "yearRange": "1982–present",
       "heading": "Nissan Sentra Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Sentra Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Sentra repair in Salt Lake City — CVT service, timing chain, brakes, clutch, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Sentra is a compact-sedan staple in our South Salt Lake bays — student cars, commuter sedans, and budget-minded family rides. We know the Sentra's CVT behavior and the MRA8 and MR20 four-cylinders well, and we keep the right parts and fluids on hand.",
-      "whatHeading": "Full-Service Nissan Sentra Repair — All Generations",
-      "whatIntro": "We service all Nissan Sentra generations at our South Salt Lake shop — every trim, including manual and CVT-equipped cars. Every visit starts with a free diagnosis so you know exactly what your Sentra needs before we touch it.",
+      "metaDesc": "Nissan Sentra repair in Salt Lake City, CVT service, timing chain, brakes, clutch, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Sentra is a compact-sedan staple in our South Salt Lake bays, student cars, commuter sedans, and budget-minded family rides. We know the Sentra's CVT behavior and the MRA8 and MR20 four-cylinders well, and we keep the right parts and fluids on hand.",
+      "whatHeading": "Full-Service Nissan Sentra Repair: All Generations",
+      "whatIntro": "We service all Nissan Sentra generations at our South Salt Lake shop, every trim, including manual and CVT-equipped cars. Every visit starts with a free diagnosis so you know exactly what your Sentra needs before we touch it.",
       "generations": [
         {
           "label": "3rd Gen (B13)",
@@ -235,7 +235,7 @@ module.exports = {
           "years": "2020–present"
         }
       ],
-      "whyIntro": "A Sentra is supposed to be an affordable car to own, and a $150-an-hour dealer bill works against that. At Scott's, you deal with one mechanic who diagnoses and repairs your Sentra — no service-advisor markup, no upsell pressure. We give you a written estimate first and stick to it.",
+      "whyIntro": "A Sentra is supposed to be an affordable car to own, and a $150-an-hour dealer bill works against that. At Scott's, you deal with one mechanic who diagnoses and repairs your Sentra, no service-advisor markup, no upsell pressure. We give you a written estimate first and stick to it.",
       "whyUs": [
         {
           "title": "Affordable Repair for an Affordable Car",
@@ -243,7 +243,7 @@ module.exports = {
         },
         {
           "title": "Honest CVT Assessments",
-          "desc": "Sentra CVT concerns bring a lot of worried owners through our door. We road test, check fluid condition, and give you a straight answer — fluid service or larger issue — without the dealership scare pitch."
+          "desc": "Sentra CVT concerns bring a lot of worried owners through our door. We road test, check fluid condition, and give you a straight answer, fluid service or larger issue, without the dealership scare pitch."
         },
         {
           "title": "Clutch Work on Manual Sentras",
@@ -254,7 +254,7 @@ module.exports = {
           "desc": "We road test, pull codes, and inspect your Sentra before recommending anything. You know what's wrong and what it costs before we start. No diagnostic fee."
         }
       ],
-      "whenIntro": "We've been servicing Nissan Sentras at our South Salt Lake shop for years — from older B-series sedans to the current B18. When a Sentra comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most consistently across Sentra generations.",
+      "whenIntro": "We've been servicing Nissan Sentras at our South Salt Lake shop for years, from older B-series sedans to the current B18. When a Sentra comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most consistently across Sentra generations.",
       "whenItems": [
         {
           "title": "CVT Shudder, Slipping, or RPM Flare",
@@ -269,8 +269,8 @@ module.exports = {
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
-          "title": "Check Engine Light — Emissions and Sensor Codes",
-          "desc": "Older Sentras frequently set P0420 catalytic converter codes and O2 sensor faults as they age — and that's also a common reason a Sentra fails an emissions test. We read the codes, verify the real cause, and fix what genuinely needs fixing so the car passes.",
+          "title": "Check Engine Light, Emissions and Sensor Codes",
+          "desc": "Older Sentras frequently set P0420 catalytic converter codes and O2 sensor faults as they age, and that's also a common reason a Sentra fails an emissions test. We read the codes, verify the real cause, and fix what genuinely needs fixing so the car passes.",
           "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/failed-emissions"
         },
@@ -288,7 +288,7 @@ module.exports = {
         },
         {
           "title": "Worn Struts and a Floaty Ride",
-          "desc": "A bouncy, floaty ride, nose dive when braking, or a clunk over rough pavement points to worn struts — and Utah's frost-heaved roads wear them out faster. We inspect the struts, mounts, and bushings and replace what's worn so the Sentra rides and tracks correctly.",
+          "desc": "A bouncy, floaty ride, nose dive when braking, or a clunk over rough pavement points to worn struts, and Utah's frost-heaved roads wear them out faster. We inspect the struts, mounts, and bushings and replace what's worn so the Sentra rides and tracks correctly.",
           "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
@@ -296,8 +296,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Sentra Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer — the mechanic who diagnoses your Sentra is the one who repairs it. For an economy car, that matters: you get accurate estimates and no padded labor.",
-          "We've worked on Sentras across the generations — older B13 and B14 sedans, manual SE-R models, and the current CVT-equipped cars. Whether yours needs a clutch, brakes, a timing chain, a CVT fluid service, or just an honest answer about a noise, you'll get a straight assessment and a written estimate before we start."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer, the mechanic who diagnoses your Sentra is the one who repairs it. For an economy car, that matters: you get accurate estimates and no padded labor.",
+          "We've worked on Sentras across the generations, older B13 and B14 sedans, manual SE-R models, and the current CVT-equipped cars. Whether yours needs a clutch, brakes, a timing chain, a CVT fluid service, or just an honest answer about a noise, you'll get a straight assessment and a written estimate before we start."
         ]
       },
       "process": [
@@ -309,7 +309,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Sentra, scan for stored codes, check fluid condition including the CVT fluid, and inspect what the symptom points to — before recommending a single repair."
+          "desc": "We road test your Sentra, scan for stored codes, check fluid condition including the CVT fluid, and inspect what the symptom points to, before recommending a single repair."
         },
         {
           "step": 3,
@@ -331,7 +331,7 @@ module.exports = {
         {
           "slug": "/services/clutch-repair-near-south-salt-lake-ut",
           "name": "Clutch Repair",
-          "desc": "Manual and SE-R Sentras — quality OEM-spec clutch kits and hydraulic system inspection."
+          "desc": "Manual and SE-R Sentras, quality OEM-spec clutch kits and hydraulic system inspection."
         },
         {
           "slug": "/services/brake-service-near-south-salt-lake-ut",
@@ -360,18 +360,18 @@ module.exports = {
         }
       ],
       "tips": [
-        "Emissions readiness: before your Sentra's Utah emissions test, make sure no check-engine light is on and the car has been driven enough to set its readiness monitors. If a light is on, bring it in early — we'll diagnose the cause so you don't waste a trip to the testing station.",
+        "Emissions readiness: before your Sentra's Utah emissions test, make sure no check-engine light is on and the car has been driven enough to set its readiness monitors. If a light is on, bring it in early, we'll diagnose the cause so you don't waste a trip to the testing station.",
         "CVT heat management: summer heat and the climb up I-80 toward the canyons push the Sentra's CVT to work harder. Have the fluid condition checked on higher-mileage cars and service it with the correct NS-spec fluid before the transmission gets noisy or starts shuddering.",
         "Winter brake care: road brine on valley streets corrodes Sentra brake hardware and lines. Rinse the underbody when you can, and have us inspect slide pins and lines at each brake service so a seized caliper or rusty line doesn't catch you off guard."
       ],
       "faqs": [
         {
           "q": "My Sentra's RPMs climb but the car barely accelerates. What's wrong?",
-          "a": "That RPM flare without matching acceleration is a classic CVT symptom on the Sentra, and it's often tied to worn or degraded CVT fluid. Bring it in — we road test it, check the fluid condition, and give you an honest assessment of whether a fluid service will help or whether the transmission needs more."
+          "a": "That RPM flare without matching acceleration is a classic CVT symptom on the Sentra, and it's often tied to worn or degraded CVT fluid. Bring it in, we road test it, check the fluid condition, and give you an honest assessment of whether a fluid service will help or whether the transmission needs more."
         },
         {
           "q": "My Sentra failed its emissions test. Can you help?",
-          "a": "Yes. A failed emissions test on a Sentra usually traces to a check-engine code — commonly a catalytic converter or O2 sensor issue. We scan the codes, confirm the actual cause, and make the right repair so the car passes on the retest."
+          "a": "Yes. A failed emissions test on a Sentra usually traces to a check-engine code, commonly a catalytic converter or O2 sensor issue. We scan the codes, confirm the actual cause, and make the right repair so the car passes on the retest."
         },
         {
           "q": "How long does a clutch last on a manual Sentra?",
@@ -399,10 +399,10 @@ module.exports = {
       "yearRange": "2007–present",
       "heading": "Nissan Rogue Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Rogue Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Rogue repair in Salt Lake City — CVT service, brakes, struts, timing chain, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Rogue is one of the most common compact crossovers we see at our South Salt Lake shop — commuter SUVs, family haulers, and all-wheel-drive winter cars. We know the Rogue's CVT behavior and the QR25 four-cylinder well, and we'll give you a straight assessment of what yours needs.",
-      "whatHeading": "Full-Service Nissan Rogue Repair — All Generations",
-      "whatIntro": "We service all Nissan Rogue generations at our South Salt Lake shop — front-wheel and all-wheel drive, every trim. Every visit starts with a free diagnosis so you know exactly what your Rogue needs before we touch it.",
+      "metaDesc": "Nissan Rogue repair in Salt Lake City, CVT service, brakes, struts, timing chain, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Rogue is one of the most common compact crossovers we see at our South Salt Lake shop, commuter SUVs, family haulers, and all-wheel-drive winter cars. We know the Rogue's CVT behavior and the QR25 four-cylinder well, and we'll give you a straight assessment of what yours needs.",
+      "whatHeading": "Full-Service Nissan Rogue Repair: All Generations",
+      "whatIntro": "We service all Nissan Rogue generations at our South Salt Lake shop, front-wheel and all-wheel drive, every trim. Every visit starts with a free diagnosis so you know exactly what your Rogue needs before we touch it.",
       "generations": [
         {
           "label": "1st Gen (S35)",
@@ -417,15 +417,15 @@ module.exports = {
           "years": "2021–present"
         }
       ],
-      "whyIntro": "Families count on a Rogue to be dependable and affordable to run, and a $150-an-hour dealer bill undercuts that. At Scott's, one mechanic diagnoses and repairs your Rogue — no service-writer markup, no upsell. We hand you a written estimate before any work begins and stand behind what we do.",
+      "whyIntro": "Families count on a Rogue to be dependable and affordable to run, and a $150-an-hour dealer bill undercuts that. At Scott's, one mechanic diagnoses and repairs your Rogue, no service-writer markup, no upsell. We hand you a written estimate before any work begins and stand behind what we do.",
       "whyUs": [
         {
           "title": "Honest Rogue CVT Diagnoses",
-          "desc": "The Rogue's continuously variable transmission worries a lot of owners. We road test, check fluid condition, and tell you straight whether you're looking at a fluid service or a larger repair — no fear-based sales pitch."
+          "desc": "The Rogue's continuously variable transmission worries a lot of owners. We road test, check fluid condition, and tell you straight whether you're looking at a fluid service or a larger repair, no fear-based sales pitch."
         },
         {
           "title": "All-Wheel-Drive Knowledge",
-          "desc": "AWD Rogues add a transfer assembly and rear differential that need fluid service and inspection. We know how the system works and check it as part of a thorough service — not an afterthought."
+          "desc": "AWD Rogues add a transfer assembly and rear differential that need fluid service and inspection. We know how the system works and check it as part of a thorough service, not an afterthought."
         },
         {
           "title": "Brakes and Suspension for a Family SUV",
@@ -436,7 +436,7 @@ module.exports = {
           "desc": "We road test, pull codes, and inspect your Rogue before recommending anything. You know what's wrong and what it costs before we start. No diagnostic fee."
         }
       ],
-      "whenIntro": "We've been servicing Nissan Rogues at our South Salt Lake shop since they hit the road — from the S35 through the current T33. When a Rogue comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most often across Rogue generations.",
+      "whenIntro": "We've been servicing Nissan Rogues at our South Salt Lake shop since they hit the road, from the S35 through the current T33. When a Rogue comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most often across Rogue generations.",
       "whenItems": [
         {
           "title": "CVT Whine, Shudder, or Power Loss",
@@ -458,19 +458,19 @@ module.exports = {
         },
         {
           "title": "Worn Struts and a Bouncy, Unstable Ride",
-          "desc": "Worn struts on a Rogue show up as a floaty ride, nose dive under braking, and a clunk over bumps — and a fully loaded SUV makes it worse. Utah's rough roads accelerate the wear. We inspect the struts, mounts, and bushings and replace what's worn so the Rogue rides stable and tracks straight.",
+          "desc": "Worn struts on a Rogue show up as a floaty ride, nose dive under braking, and a clunk over bumps, and a fully loaded SUV makes it worse. Utah's rough roads accelerate the wear. We inspect the struts, mounts, and bushings and replace what's worn so the Rogue rides stable and tracks straight.",
           "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
-          "title": "Check Engine Light — Catalytic Converter and Sensor Codes",
+          "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "As Rogues age they commonly trigger P0420 catalytic converter efficiency codes and O2 sensor faults. These are straightforward diagnoses. We read the codes, confirm the true root cause, and fix what genuinely needs fixing rather than just clearing the light.",
           "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
-          "desc": "A rhythmic clicking when turning at low speed points to a worn CV joint — common on front-wheel and all-wheel-drive Rogues alike. The boot cracks, grease leaks out, and grit gets in. We replace the complete axle shaft for a durable, long-lasting repair.",
+          "desc": "A rhythmic clicking when turning at low speed points to a worn CV joint, common on front-wheel and all-wheel-drive Rogues alike. The boot cracks, grease leaks out, and grit gets in. We replace the complete axle shaft for a durable, long-lasting repair.",
           "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
@@ -478,8 +478,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Rogue Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer between you and the shop floor — the mechanic who diagnoses your Rogue is the one who repairs it. You get direct answers, accurate estimates, and someone accountable for the work.",
-          "We've worked on Rogues from every generation — early S35 crossovers, T32 family SUVs, and the current T33. Whether yours needs brakes, struts, a timing chain, a CVT fluid service, or just an honest answer about a noise, you'll get a straight assessment and a written estimate before we start."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer between you and the shop floor, the mechanic who diagnoses your Rogue is the one who repairs it. You get direct answers, accurate estimates, and someone accountable for the work.",
+          "We've worked on Rogues from every generation, early S35 crossovers, T32 family SUVs, and the current T33. Whether yours needs brakes, struts, a timing chain, a CVT fluid service, or just an honest answer about a noise, you'll get a straight assessment and a written estimate before we start."
         ]
       },
       "process": [
@@ -491,7 +491,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Rogue, scan for stored codes, check fluid condition including the CVT and AWD fluids, and inspect what the symptom points to — before recommending a repair."
+          "desc": "We road test your Rogue, scan for stored codes, check fluid condition including the CVT and AWD fluids, and inspect what the symptom points to, before recommending a repair."
         },
         {
           "step": 3,
@@ -543,13 +543,13 @@ module.exports = {
       ],
       "tips": [
         "CVT cooling on canyon drives: hauling a loaded Rogue up Big or Little Cottonwood Canyon makes the CVT run hot. On higher-mileage cars, have the fluid condition checked and serviced with the correct NS-spec fluid before heat-related shudder or whine sets in.",
-        "AWD fluid service: if you have an all-wheel-drive Rogue, the transfer assembly and rear differential fluids need periodic service — they're easy to forget. Have us check and service them so your winter traction system stays healthy and quiet.",
+        "AWD fluid service: if you have an all-wheel-drive Rogue, the transfer assembly and rear differential fluids need periodic service, they're easy to forget. Have us check and service them so your winter traction system stays healthy and quiet.",
         "Winter underbody care: Salt Lake Valley road brine corrodes Rogue brake lines, suspension hardware, and exhaust components. Rinse the underbody during winter and have us inspect for corrosion at every service so a rusty part doesn't fail unexpectedly."
       ],
       "faqs": [
         {
           "q": "My Rogue whines and feels like it's losing power. Is the CVT going out?",
-          "a": "A rising whine and power loss are common CVT symptoms on the Rogue, and degraded fluid is often behind them. Bring it in — we road test it, check the CVT fluid condition, and give you an honest answer on whether a fluid service will help or whether the transmission needs more serious work."
+          "a": "A rising whine and power loss are common CVT symptoms on the Rogue, and degraded fluid is often behind them. Bring it in, we road test it, check the CVT fluid condition, and give you an honest answer on whether a fluid service will help or whether the transmission needs more serious work."
         },
         {
           "q": "Do you service all-wheel-drive Rogues?",
@@ -565,7 +565,7 @@ module.exports = {
         },
         {
           "q": "Can you tow my Rogue to the shop?",
-          "a": "Yes. We coordinate with local tow providers and can get your Rogue to our South Salt Lake shop. Call or text us and we'll help arrange it — you don't have to handle towing on your own."
+          "a": "Yes. We coordinate with local tow providers and can get your Rogue to our South Salt Lake shop. Call or text us and we'll help arrange it, you don't have to handle towing on your own."
         },
         {
           "q": "How long will my Rogue be in the shop?",
@@ -581,10 +581,10 @@ module.exports = {
       "yearRange": "1985–present",
       "heading": "Nissan Pathfinder Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Pathfinder Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Pathfinder repair in Salt Lake City — CVT service, brakes, timing chain, suspension, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Pathfinder has worn many hats over the years — rugged body-on-frame SUV, crossover family hauler, and three-row people mover. We service all of them at our South Salt Lake shop and know how each generation's drivetrain behaves.",
-      "whatHeading": "Full-Service Nissan Pathfinder Repair — All Generations",
-      "whatIntro": "We service all Nissan Pathfinder generations at our South Salt Lake shop — body-on-frame and unibody, two-wheel and four-wheel drive. Every visit starts with a free diagnosis so you know exactly what your Pathfinder needs before we touch it.",
+      "metaDesc": "Nissan Pathfinder repair in Salt Lake City, CVT service, brakes, timing chain, suspension, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Pathfinder has worn many hats over the years, rugged body-on-frame SUV, crossover family hauler, and three-row people mover. We service all of them at our South Salt Lake shop and know how each generation's drivetrain behaves.",
+      "whatHeading": "Full-Service Nissan Pathfinder Repair: All Generations",
+      "whatIntro": "We service all Nissan Pathfinder generations at our South Salt Lake shop, body-on-frame and unibody, two-wheel and four-wheel drive. Every visit starts with a free diagnosis so you know exactly what your Pathfinder needs before we touch it.",
       "generations": [
         {
           "label": "1st Gen (WD21)",
@@ -607,7 +607,7 @@ module.exports = {
           "years": "2022–present"
         }
       ],
-      "whyIntro": "A Pathfinder is built to haul people and gear for years, and keeping one on the road shouldn't mean dealer-rate labor bills. At Scott's, one mechanic diagnoses and repairs your Pathfinder start to finish — direct answers, a written estimate up front, and no upsell on services your SUV doesn't need.",
+      "whyIntro": "A Pathfinder is built to haul people and gear for years, and keeping one on the road shouldn't mean dealer-rate labor bills. At Scott's, one mechanic diagnoses and repairs your Pathfinder start to finish, direct answers, a written estimate up front, and no upsell on services your SUV doesn't need.",
       "whyUs": [
         {
           "title": "Experience Across Every Pathfinder Era",
@@ -615,7 +615,7 @@ module.exports = {
         },
         {
           "title": "Honest CVT Assessments on Newer Models",
-          "desc": "The R52 Pathfinder uses a CVT, and concerns about it bring owners to our door. We road test, check fluid condition, and give you a straight answer — fluid service or larger repair — with no scare tactics."
+          "desc": "The R52 Pathfinder uses a CVT, and concerns about it bring owners to our door. We road test, check fluid condition, and give you a straight answer, fluid service or larger repair, with no scare tactics."
         },
         {
           "title": "Suspension Work for a Heavy SUV",
@@ -626,7 +626,7 @@ module.exports = {
           "desc": "We road test, pull codes, and inspect your Pathfinder before recommending anything. You know what's wrong and what it costs before we start. No diagnostic fee."
         }
       ],
-      "whenIntro": "We've been servicing Nissan Pathfinders at our South Salt Lake shop for decades — from the original WD21 through the current R53. When a Pathfinder comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most often across Pathfinder generations.",
+      "whenIntro": "We've been servicing Nissan Pathfinders at our South Salt Lake shop for decades, from the original WD21 through the current R53. When a Pathfinder comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most often across Pathfinder generations.",
       "whenItems": [
         {
           "title": "CVT Hesitation or Shudder on R52 Models",
@@ -648,12 +648,12 @@ module.exports = {
         },
         {
           "title": "Worn Shocks and a Wallowing Ride",
-          "desc": "On body-on-frame Pathfinders, worn shocks produce a bouncy, wallowing ride and poor control over bumps — and a loaded SUV makes it obvious. Utah's rough roads wear them out. We inspect the shocks, mounts, and bushings and replace what's worn so the Pathfinder rides controlled and tracks straight.",
+          "desc": "On body-on-frame Pathfinders, worn shocks produce a bouncy, wallowing ride and poor control over bumps, and a loaded SUV makes it obvious. Utah's rough roads wear them out. We inspect the shocks, mounts, and bushings and replace what's worn so the Pathfinder rides controlled and tracks straight.",
           "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
-          "title": "Check Engine Light — Catalytic Converter and Sensor Codes",
+          "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "As Pathfinders age they commonly set P0420 catalytic converter codes and O2 sensor faults. These are straightforward diagnoses. We scan the codes, confirm the actual root cause, and fix what genuinely needs fixing instead of just clearing the light.",
           "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/check-engine-light"
@@ -668,8 +668,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Pathfinder Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer — the mechanic who diagnoses your Pathfinder is the one who repairs it. You get direct answers, accurate estimates, and someone accountable for the work start to finish.",
-          "We've worked on Pathfinders across every generation — rugged WD21 and R50 trucks, V6 R51s, and the modern unibody R52 and R53. Whether yours needs brakes, suspension work, a timing chain, exhaust repair, or just an honest answer about a noise, you'll get a straight assessment and a written estimate before we start."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer, the mechanic who diagnoses your Pathfinder is the one who repairs it. You get direct answers, accurate estimates, and someone accountable for the work start to finish.",
+          "We've worked on Pathfinders across every generation, rugged WD21 and R50 trucks, V6 R51s, and the modern unibody R52 and R53. Whether yours needs brakes, suspension work, a timing chain, exhaust repair, or just an honest answer about a noise, you'll get a straight assessment and a written estimate before we start."
         ]
       },
       "process": [
@@ -681,7 +681,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Pathfinder, scan for stored codes, check fluid condition, and inspect what the symptom points to — before recommending a single repair."
+          "desc": "We road test your Pathfinder, scan for stored codes, check fluid condition, and inspect what the symptom points to, before recommending a single repair."
         },
         {
           "step": 3,
@@ -739,11 +739,11 @@ module.exports = {
       "faqs": [
         {
           "q": "My 2015 Pathfinder hesitates when I accelerate. Is the CVT failing?",
-          "a": "Hesitation on an R52 Pathfinder is often a CVT symptom, and degraded fluid is a common contributor. Bring it in — we road test it, check the CVT fluid condition, and give you an honest answer on whether a fluid service will help or whether the transmission needs more attention."
+          "a": "Hesitation on an R52 Pathfinder is often a CVT symptom, and degraded fluid is a common contributor. Bring it in, we road test it, check the CVT fluid condition, and give you an honest answer on whether a fluid service will help or whether the transmission needs more attention."
         },
         {
           "q": "There's a rattle from the engine when I start my Pathfinder cold. What is it?",
-          "a": "On a VQ40-powered R51 Pathfinder, a cold-start rattle that quiets as oil pressure builds is often timing chain or guide wear. It's worth checking promptly — a worn chain can jump teeth and cause major engine damage. We inspect the chain, guides, and tensioners and tell you where things stand."
+          "a": "On a VQ40-powered R51 Pathfinder, a cold-start rattle that quiets as oil pressure builds is often timing chain or guide wear. It's worth checking promptly. A worn chain can jump teeth and cause major engine damage. We inspect the chain, guides, and tensioners and tell you where things stand."
         },
         {
           "q": "Do you service older body-on-frame Pathfinders?",
@@ -751,11 +751,11 @@ module.exports = {
         },
         {
           "q": "My Pathfinder rides rough and bounces over bumps. What's wrong?",
-          "a": "A bouncy, wallowing ride usually means worn shocks or struts — and a loaded SUV makes it obvious. We inspect the shocks, mounts, and bushings and replace what's worn so your Pathfinder rides controlled and tracks straight."
+          "a": "A bouncy, wallowing ride usually means worn shocks or struts, and a loaded SUV makes it obvious. We inspect the shocks, mounts, and bushings and replace what's worn so your Pathfinder rides controlled and tracks straight."
         },
         {
           "q": "Can you tow my Pathfinder to the shop?",
-          "a": "Yes. We work with local tow providers and can coordinate getting your Pathfinder to our South Salt Lake shop. Call or text us and we'll help arrange it — you don't have to handle towing on your own."
+          "a": "Yes. We work with local tow providers and can coordinate getting your Pathfinder to our South Salt Lake shop. Call or text us and we'll help arrange it, you don't have to handle towing on your own."
         },
         {
           "q": "How long will my Pathfinder be at the shop?",
@@ -771,10 +771,10 @@ module.exports = {
       "yearRange": "1997–present",
       "heading": "Nissan Frontier Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Frontier Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Frontier repair in Salt Lake City — clutch, timing chain, brakes, suspension, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Frontier is a midsize truck that earns its keep — work trucks, weekend haulers, and trail-ready 4x4s all roll through our South Salt Lake bays. We know the Frontier's VQ40 V6 and manual transmissions well and keep the right parts on hand.",
-      "whatHeading": "Full-Service Nissan Frontier Repair — All Generations",
-      "whatIntro": "We service all Nissan Frontier generations at our South Salt Lake shop — manual and automatic, two-wheel and four-wheel drive. Every visit starts with a free diagnosis so you know exactly what your Frontier needs before we touch it.",
+      "metaDesc": "Nissan Frontier repair in Salt Lake City, clutch, timing chain, brakes, suspension, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Frontier is a midsize truck that earns its keep, work trucks, weekend haulers, and trail-ready 4x4s all roll through our South Salt Lake bays. We know the Frontier's VQ40 V6 and manual transmissions well and keep the right parts on hand.",
+      "whatHeading": "Full-Service Nissan Frontier Repair: All Generations",
+      "whatIntro": "We service all Nissan Frontier generations at our South Salt Lake shop, manual and automatic, two-wheel and four-wheel drive. Every visit starts with a free diagnosis so you know exactly what your Frontier needs before we touch it.",
       "generations": [
         {
           "label": "1st Gen (D22)",
@@ -789,7 +789,7 @@ module.exports = {
           "years": "2022–present"
         }
       ],
-      "whyIntro": "A Frontier is a tool you depend on, and downtime costs you money. At Scott's, one mechanic diagnoses and repairs your truck start to finish — no service-writer middleman, no upsell. You get a written estimate up front and a truck back on the road as fast as we can do the job right.",
+      "whyIntro": "A Frontier is a tool you depend on, and downtime costs you money. At Scott's, one mechanic diagnoses and repairs your truck start to finish, no service-writer middleman, no upsell. You get a written estimate up front and a truck back on the road as fast as we can do the job right.",
       "whyUs": [
         {
           "title": "Clutch Specialists for Manual Frontiers",
@@ -808,7 +808,7 @@ module.exports = {
           "desc": "We road test, pull codes, and inspect your Frontier before recommending anything. You know what's wrong and what it costs before we start. No diagnostic fee."
         }
       ],
-      "whenIntro": "We've been servicing Nissan Frontiers at our South Salt Lake shop for years — from D22 work trucks to the current D41. When a Frontier comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most often across Frontier generations.",
+      "whenIntro": "We've been servicing Nissan Frontiers at our South Salt Lake shop for years, from D22 work trucks to the current D41. When a Frontier comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most often across Frontier generations.",
       "whenItems": [
         {
           "title": "Clutch Wear on Manual Frontiers",
@@ -830,7 +830,7 @@ module.exports = {
         },
         {
           "title": "Worn Shocks and a Harsh, Bouncy Ride",
-          "desc": "Worn shocks on a Frontier show up as a bouncy, unsettled ride and poor control over rough pavement — and a loaded bed makes it worse. Utah's frost-heaved roads accelerate the wear. We inspect the shocks, mounts, and bushings and replace what's worn so the truck rides controlled.",
+          "desc": "Worn shocks on a Frontier show up as a bouncy, unsettled ride and poor control over rough pavement, and a loaded bed makes it worse. Utah's frost-heaved roads accelerate the wear. We inspect the shocks, mounts, and bushings and replace what's worn so the truck rides controlled.",
           "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
@@ -841,7 +841,7 @@ module.exports = {
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
-          "title": "Check Engine Light — Catalytic Converter and Sensor Codes",
+          "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "As Frontiers age they commonly trigger P0420 catalytic converter codes and O2 sensor faults. These are straightforward diagnoses. We scan the codes, confirm the real root cause, and fix what genuinely needs fixing rather than just clearing the light.",
           "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/check-engine-light"
@@ -850,8 +850,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Frontier Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer — the mechanic who diagnoses your Frontier is the one who repairs it. For a work truck you depend on, that means accurate estimates and a fast, honest turnaround.",
-          "We've worked on Frontiers across the generations — D22 work trucks, V6 D40s with manual and automatic transmissions, and the current D41. Whether yours needs a clutch, brakes, a timing chain, suspension work, or exhaust repair, you'll get a straight assessment and a written estimate before we start."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer, the mechanic who diagnoses your Frontier is the one who repairs it. For a work truck you depend on, that means accurate estimates and a fast, honest turnaround.",
+          "We've worked on Frontiers across the generations, D22 work trucks, V6 D40s with manual and automatic transmissions, and the current D41. Whether yours needs a clutch, brakes, a timing chain, suspension work, or exhaust repair, you'll get a straight assessment and a written estimate before we start."
         ]
       },
       "process": [
@@ -863,7 +863,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Frontier, scan for stored codes, check fluid condition, and inspect what the symptom points to — before recommending a single repair."
+          "desc": "We road test your Frontier, scan for stored codes, check fluid condition, and inspect what the symptom points to, before recommending a single repair."
         },
         {
           "step": 3,
@@ -885,7 +885,7 @@ module.exports = {
         {
           "slug": "/services/clutch-repair-near-south-salt-lake-ut",
           "name": "Clutch Repair",
-          "desc": "Manual Frontiers — quality OEM-spec clutch kits and hydraulic system inspection for work-truck duty."
+          "desc": "Manual Frontiers, quality OEM-spec clutch kits and hydraulic system inspection for work-truck duty."
         },
         {
           "slug": "/services/brake-service-near-south-salt-lake-ut",
@@ -914,18 +914,18 @@ module.exports = {
         }
       ],
       "tips": [
-        "Clutch care when towing: if you tow with a manual Frontier, avoid riding the clutch on grades and use the right gear for the load. A burning smell after a heavy pull means the clutch is slipping — bring it in before it fails completely on a canyon climb.",
+        "Clutch care when towing: if you tow with a manual Frontier, avoid riding the clutch on grades and use the right gear for the load. A burning smell after a heavy pull means the clutch is slipping, bring it in before it fails completely on a canyon climb.",
         "Cooling system for hot, loaded climbs: hauling a loaded Frontier up Utah grades in summer heat stresses the cooling system. Have the coolant condition and water pump inspected periodically so the engine doesn't overheat when you're working it hardest.",
         "Winter corrosion: road brine attacks Frontier brake lines, exhaust hangers, and suspension hardware. Rinse the underbody during winter and have us inspect for corrosion at every service so a rusty component doesn't fail when you least expect it."
       ],
       "faqs": [
         {
           "q": "My manual Frontier's clutch slips when I tow. Does it need replacing?",
-          "a": "Slipping under load — RPMs climbing without matching acceleration — usually means the clutch is worn, and towing accelerates that. Bring it in. We inspect the clutch and hydraulics and, if it needs a kit, install a quality OEM-spec clutch built to handle work-truck duty."
+          "a": "Slipping under load, RPMs climbing without matching acceleration, usually means the clutch is worn, and towing accelerates that. Bring it in. We inspect the clutch and hydraulics and, if it needs a kit, install a quality OEM-spec clutch built to handle work-truck duty."
         },
         {
           "q": "There's a rattle from the engine on cold startup. What is it?",
-          "a": "On a VQ40-powered D40 Frontier, a cold-start rattle that quiets as oil pressure builds is often timing chain or guide wear. It's worth checking promptly — a worn chain can jump teeth and cause serious engine damage. We inspect the chain, guides, and tensioners and tell you where things stand."
+          "a": "On a VQ40-powered D40 Frontier, a cold-start rattle that quiets as oil pressure builds is often timing chain or guide wear. It's worth checking promptly. A worn chain can jump teeth and cause serious engine damage. We inspect the chain, guides, and tensioners and tell you where things stand."
         },
         {
           "q": "Do you service older D22 Frontiers?",
@@ -937,7 +937,7 @@ module.exports = {
         },
         {
           "q": "Can you tow my Frontier to the shop if it won't drive?",
-          "a": "Yes. We work with local tow providers and can coordinate getting your Frontier to our South Salt Lake shop. Call or text us and we'll help arrange it — you don't have to handle towing on your own."
+          "a": "Yes. We work with local tow providers and can coordinate getting your Frontier to our South Salt Lake shop. Call or text us and we'll help arrange it, you don't have to handle towing on your own."
         },
         {
           "q": "How fast can you turn around a Frontier repair?",
@@ -953,10 +953,10 @@ module.exports = {
       "yearRange": "2004–present",
       "heading": "Nissan Titan Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Titan Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Titan repair in Salt Lake City — brakes, timing chain, suspension, exhaust, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Titan is a full-size truck built for serious work — towing, hauling, and hard miles. We service Titans of every generation at our South Salt Lake shop and know how the Endurance V8 and its drivetrain hold up under load.",
-      "whatHeading": "Full-Service Nissan Titan Repair — All Generations",
-      "whatIntro": "We service all Nissan Titan generations at our South Salt Lake shop — half-ton and XD, two-wheel and four-wheel drive. Every visit starts with a free diagnosis so you know exactly what your Titan needs before we touch it.",
+      "metaDesc": "Nissan Titan repair in Salt Lake City, brakes, timing chain, suspension, exhaust, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Titan is a full-size truck built for serious work, towing, hauling, and hard miles. We service Titans of every generation at our South Salt Lake shop and know how the Endurance V8 and its drivetrain hold up under load.",
+      "whatHeading": "Full-Service Nissan Titan Repair: All Generations",
+      "whatIntro": "We service all Nissan Titan generations at our South Salt Lake shop, half-ton and XD, two-wheel and four-wheel drive. Every visit starts with a free diagnosis so you know exactly what your Titan needs before we touch it.",
       "generations": [
         {
           "label": "1st Gen (A60)",
@@ -967,11 +967,11 @@ module.exports = {
           "years": "2016–present"
         }
       ],
-      "whyIntro": "A full-size truck costs real money to service at a dealer, and a Titan owner usually wants the work done right without the dealer-rate overhead. At Scott's, one mechanic diagnoses and repairs your Titan start to finish — a written estimate before any work, no upsell, and a truck back to you fast.",
+      "whyIntro": "A full-size truck costs real money to service at a dealer, and a Titan owner usually wants the work done right without the dealer-rate overhead. At Scott's, one mechanic diagnoses and repairs your Titan start to finish, a written estimate before any work, no upsell, and a truck back to you fast.",
       "whyUs": [
         {
           "title": "Heavy-Duty Brake and Suspension Work",
-          "desc": "A loaded Titan pushes brakes and suspension hard. We do this work the right way — proper parts, full hardware inspection — so your truck stops straight and rides controlled under a load."
+          "desc": "A loaded Titan pushes brakes and suspension hard. We do this work the right way, proper parts, full hardware inspection, so your truck stops straight and rides controlled under a load."
         },
         {
           "title": "We Know the Endurance V8",
@@ -986,7 +986,7 @@ module.exports = {
           "desc": "We road test, pull codes, and inspect your Titan before recommending anything. You know what's wrong and what it costs before we start. No diagnostic fee."
         }
       ],
-      "whenIntro": "We've been servicing Nissan Titans at our South Salt Lake shop since the first generation arrived — A60 and A61, half-ton and XD. When a Titan comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most often on the Titan.",
+      "whenIntro": "We've been servicing Nissan Titans at our South Salt Lake shop since the first generation arrived, A60 and A61, half-ton and XD. When a Titan comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most often on the Titan.",
       "whenItems": [
         {
           "title": "Brake Wear from Heavy Hauling and Towing",
@@ -1002,7 +1002,7 @@ module.exports = {
         },
         {
           "title": "Worn Shocks and a Wallowing, Bouncy Ride",
-          "desc": "Worn shocks on a Titan show up as a bouncy, wallowing ride and poor control over rough pavement — and a loaded bed makes it obvious. Utah's frost-heaved roads accelerate the wear. We inspect the shocks, mounts, and bushings and replace what's worn so the truck rides controlled and tracks straight.",
+          "desc": "Worn shocks on a Titan show up as a bouncy, wallowing ride and poor control over rough pavement, and a loaded bed makes it obvious. Utah's frost-heaved roads accelerate the wear. We inspect the shocks, mounts, and bushings and replace what's worn so the truck rides controlled and tracks straight.",
           "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
@@ -1019,7 +1019,7 @@ module.exports = {
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
-          "title": "Check Engine Light — Catalytic Converter and Sensor Codes",
+          "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "As Titans age they commonly trigger P0420 catalytic converter codes and O2 sensor faults. These are straightforward diagnoses. We scan the codes, confirm the real root cause, and fix what genuinely needs fixing rather than just clearing the light.",
           "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/check-engine-light"
@@ -1028,8 +1028,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Titan Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer — the mechanic who diagnoses your Titan is the one who repairs it. For a full-size truck you rely on, that means accurate estimates and an honest, fast turnaround.",
-          "We've worked on Titans from both generations — A60 half-tons, the heavier-duty XD, and the current A61. Whether yours needs brakes, suspension work, a timing chain, cooling-system service, or exhaust repair, you'll get a straight assessment and a written estimate before we start."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer, the mechanic who diagnoses your Titan is the one who repairs it. For a full-size truck you rely on, that means accurate estimates and an honest, fast turnaround.",
+          "We've worked on Titans from both generations, A60 half-tons, the heavier-duty XD, and the current A61. Whether yours needs brakes, suspension work, a timing chain, cooling-system service, or exhaust repair, you'll get a straight assessment and a written estimate before we start."
         ]
       },
       "process": [
@@ -1041,7 +1041,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Titan, scan for stored codes, check fluid condition, and inspect what the symptom points to — before recommending a single repair."
+          "desc": "We road test your Titan, scan for stored codes, check fluid condition, and inspect what the symptom points to, before recommending a single repair."
         },
         {
           "step": 3,
@@ -1099,11 +1099,11 @@ module.exports = {
       "faqs": [
         {
           "q": "My Titan runs hot when I'm towing in summer. What should I check?",
-          "a": "Overheating under tow load on a Titan often traces to a tired water pump, old coolant, or a clogged radiator. Bring it in — we inspect the full cooling system, check the water pump, and service the coolant so the engine stays cool when you're working it hardest."
+          "a": "Overheating under tow load on a Titan often traces to a tired water pump, old coolant, or a clogged radiator. Bring it in, we inspect the full cooling system, check the water pump, and service the coolant so the engine stays cool when you're working it hardest."
         },
         {
           "q": "There's a rattle from the V8 on cold startup. Is that a problem?",
-          "a": "On a 5.6L Endurance V8, a cold-start rattle that quiets as oil pressure builds is often timing chain or guide wear, especially on high-mileage trucks. It's worth checking promptly — a worn chain can cause serious engine damage. We inspect the chain, guides, and tensioners and report exactly what we find."
+          "a": "On a 5.6L Endurance V8, a cold-start rattle that quiets as oil pressure builds is often timing chain or guide wear, especially on high-mileage trucks. It's worth checking promptly. A worn chain can cause serious engine damage. We inspect the chain, guides, and tensioners and report exactly what we find."
         },
         {
           "q": "How long do brakes last on a Titan that tows?",
@@ -1111,7 +1111,7 @@ module.exports = {
         },
         {
           "q": "Do you service the heavier-duty Titan XD?",
-          "a": "Yes. We service both the half-ton Titan and the heavier-duty XD, across both generations. Whatever your Titan needs — brakes, suspension, cooling, exhaust, or general service — we'll give you a straight assessment and a written estimate."
+          "a": "Yes. We service both the half-ton Titan and the heavier-duty XD, across both generations. Whatever your Titan needs, brakes, suspension, cooling, exhaust, or general service, we'll give you a straight assessment and a written estimate."
         },
         {
           "q": "Can you tow my Titan to the shop?",
@@ -1131,10 +1131,10 @@ module.exports = {
       "yearRange": "1981–2023",
       "heading": "Nissan Maxima Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Maxima Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Maxima repair in Salt Lake City — VQ V6 timing chain, CVT service, brakes, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Maxima has long been Nissan's sporty full-size sedan — the so-called four-door sports car, powered by the VQ V6. We service every generation at our South Salt Lake shop and know how the engine and transmission age over high miles.",
-      "whatHeading": "Full-Service Nissan Maxima Repair — All Generations",
-      "whatIntro": "We service all Nissan Maxima generations at our South Salt Lake shop — older manual-equipped cars and the modern CVT V6 sedans alike. Every visit starts with a free diagnosis so you know exactly what your Maxima needs before we touch it.",
+      "metaDesc": "Nissan Maxima repair in Salt Lake City, VQ V6 timing chain, CVT service, brakes, and full diagnostics. Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Maxima has long been Nissan's sporty full-size sedan, the so-called four-door sports car, powered by the VQ V6. We service every generation at our South Salt Lake shop and know how the engine and transmission age over high miles.",
+      "whatHeading": "Full-Service Nissan Maxima Repair: All Generations",
+      "whatIntro": "We service all Nissan Maxima generations at our South Salt Lake shop, older manual-equipped cars and the modern CVT V6 sedans alike. Every visit starts with a free diagnosis so you know exactly what your Maxima needs before we touch it.",
       "generations": [
         {
           "label": "3rd Gen (J30)",
@@ -1161,7 +1161,7 @@ module.exports = {
           "years": "2016–2023"
         }
       ],
-      "whyIntro": "A Maxima is a premium sedan, and dealers price its service to match — often $150–170 an hour with a service-advisor layer between you and the shop. At Scott's, one mechanic diagnoses and repairs your Maxima start to finish. You get a plain-language explanation and a written estimate before any work begins.",
+      "whyIntro": "A Maxima is a premium sedan, and dealers price its service to match, often $150–170 an hour with a service-advisor layer between you and the shop. At Scott's, one mechanic diagnoses and repairs your Maxima start to finish. You get a plain-language explanation and a written estimate before any work begins.",
       "whyUs": [
         {
           "title": "VQ V6 Experience Across Every Generation",
@@ -1169,7 +1169,7 @@ module.exports = {
         },
         {
           "title": "Honest CVT Assessments",
-          "desc": "Later Maximas use a CVT, and concerns about it bring owners to our door. We road test, check fluid condition, and give you a straight answer — fluid service or larger repair — without the dealership scare pitch."
+          "desc": "Later Maximas use a CVT, and concerns about it bring owners to our door. We road test, check fluid condition, and give you a straight answer, fluid service or larger repair, without the dealership scare pitch."
         },
         {
           "title": "Brakes and Suspension for a Sport Sedan",
@@ -1180,7 +1180,7 @@ module.exports = {
           "desc": "We road test, pull codes, and inspect your Maxima before recommending anything. You know what's wrong and what it costs before we start. No diagnostic fee."
         }
       ],
-      "whenIntro": "We've been servicing Nissan Maximas at our South Salt Lake shop for decades — from older J30 and A32 sedans to the final A36. When a Maxima comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most often across Maxima generations.",
+      "whenIntro": "We've been servicing Nissan Maximas at our South Salt Lake shop for decades, from older J30 and A32 sedans to the final A36. When a Maxima comes in, we road test it, scan for codes if the light is on, and do a full visual inspection before recommending anything. The issues below are the ones we see most often across Maxima generations.",
       "whenItems": [
         {
           "title": "Timing Chain Rattle on the VQ V6",
@@ -1202,19 +1202,19 @@ module.exports = {
         },
         {
           "title": "Worn Struts and a Floaty Ride",
-          "desc": "Worn struts rob the Maxima of the composed handling it's known for — you'll feel a floaty ride, nose dive under braking, and a clunk over bumps. Utah's rough roads accelerate the wear. We inspect the struts, mounts, and bushings and replace what's worn so the car tracks and handles correctly.",
+          "desc": "Worn struts rob the Maxima of the composed handling it's known for, you'll feel a floaty ride, nose dive under braking, and a clunk over bumps. Utah's rough roads accelerate the wear. We inspect the struts, mounts, and bushings and replace what's worn so the car tracks and handles correctly.",
           "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
-          "title": "Check Engine Light — Catalytic Converter and Sensor Codes",
+          "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "As Maximas age they commonly trigger P0420 catalytic converter efficiency codes and O2 sensor faults. These are straightforward diagnoses. We scan the codes, confirm the real root cause, and fix what genuinely needs fixing rather than just clearing the light.",
           "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
-          "desc": "A rhythmic clicking when turning at low speed — most noticeable in parking lots — points to a worn CV joint. The rubber boot cracks, grease escapes, and grit gets in. We replace the complete axle shaft rather than just repacking the boot, giving you a far more durable repair.",
+          "desc": "A rhythmic clicking when turning at low speed, most noticeable in parking lots, points to a worn CV joint. The rubber boot cracks, grease escapes, and grit gets in. We replace the complete axle shaft rather than just repacking the boot, giving you a far more durable repair.",
           "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
@@ -1222,8 +1222,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Maxima Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer between you and the shop floor — the mechanic who diagnoses your Maxima is the one who repairs it. You get direct answers, accurate estimates, and someone accountable for the work.",
-          "We've worked on Maximas from every era — older J30 and A32 sedans, the A34 and A35, and the final A36. Whether yours needs a timing chain, brakes, struts, a CVT fluid service, or just an honest answer about a noise, you'll get a straight assessment and a written estimate before we start."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer between you and the shop floor, the mechanic who diagnoses your Maxima is the one who repairs it. You get direct answers, accurate estimates, and someone accountable for the work.",
+          "We've worked on Maximas from every era, older J30 and A32 sedans, the A34 and A35, and the final A36. Whether yours needs a timing chain, brakes, struts, a CVT fluid service, or just an honest answer about a noise, you'll get a straight assessment and a written estimate before we start."
         ]
       },
       "process": [
@@ -1235,7 +1235,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Maxima, scan for stored codes, check fluid condition including the CVT fluid, and inspect what the symptom points to — before recommending a single repair."
+          "desc": "We road test your Maxima, scan for stored codes, check fluid condition including the CVT fluid, and inspect what the symptom points to, before recommending a single repair."
         },
         {
           "step": 3,
@@ -1277,7 +1277,7 @@ module.exports = {
         {
           "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
           "name": "CV Joint Repair",
-          "desc": "Complete axle shaft replacement for clicking on turns — more reliable than boot-only repairs."
+          "desc": "Complete axle shaft replacement for clicking on turns, more reliable than boot-only repairs."
         },
         {
           "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
@@ -1286,18 +1286,18 @@ module.exports = {
         }
       ],
       "tips": [
-        "Oil discipline for the VQ V6: the VQ engine rewards consistent oil changes. Stick to a sensible 5,000-mile interval with the correct grade — clean oil is the cheapest protection there is against timing chain stretch and guide wear on a high-mileage Maxima.",
+        "Oil discipline for the VQ V6: the VQ engine rewards consistent oil changes. Stick to a sensible 5,000-mile interval with the correct grade, clean oil is the cheapest protection there is against timing chain stretch and guide wear on a high-mileage Maxima.",
         "CVT heat on canyon climbs: on later CVT-equipped Maximas, summer heat and long grades make the transmission run hot. Have the fluid condition checked on higher-mileage cars and service it with the correct NS-spec fluid before shudder or hesitation sets in.",
         "Winter brake and underbody care: road brine on valley streets corrodes Maxima brake lines, hardware, and exhaust components. Rinse the underbody in winter and have us inspect for corrosion at every brake service so a rusty line doesn't become a surprise failure."
       ],
       "faqs": [
         {
           "q": "My Maxima rattles for a second or two when I start it cold. What is that?",
-          "a": "On a VQ V6 Maxima, a brief metallic rattle on cold startup is often timing chain or guide wear, especially if oil changes were skipped. It's worth checking promptly — a worn chain can jump teeth and cause serious engine damage. We inspect the chain, guides, and tensioners and tell you exactly where things stand."
+          "a": "On a VQ V6 Maxima, a brief metallic rattle on cold startup is often timing chain or guide wear, especially if oil changes were skipped. It's worth checking promptly. A worn chain can jump teeth and cause serious engine damage. We inspect the chain, guides, and tensioners and tell you exactly where things stand."
         },
         {
           "q": "My newer Maxima shudders when I accelerate gently. Is the CVT failing?",
-          "a": "A shudder under light throttle on a CVT-equipped Maxima is often tied to degraded transmission fluid. Bring it in — we road test it, check the CVT fluid condition, and give you an honest answer on whether a fluid service will help or whether the unit needs more serious work."
+          "a": "A shudder under light throttle on a CVT-equipped Maxima is often tied to degraded transmission fluid. Bring it in, we road test it, check the CVT fluid condition, and give you an honest answer on whether a fluid service will help or whether the unit needs more serious work."
         },
         {
           "q": "How long do Maxima brakes usually last?",
@@ -1309,7 +1309,7 @@ module.exports = {
         },
         {
           "q": "Can you tow my Maxima to the shop?",
-          "a": "Yes. We work with local tow providers and can coordinate getting your Maxima to our South Salt Lake shop. Call or text us and we'll help arrange it — you don't have to sort out towing on your own."
+          "a": "Yes. We work with local tow providers and can coordinate getting your Maxima to our South Salt Lake shop. Call or text us and we'll help arrange it, you don't have to sort out towing on your own."
         },
         {
           "q": "How long will my Maxima be at the shop?",
@@ -1325,15 +1325,15 @@ module.exports = {
       "yearRange": "2002–present",
       "heading": "Nissan Murano Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Murano Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Murano repair in Salt Lake City — CVT service, brakes, water pump, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Murano is a comfortable midsize crossover that's popular with Salt Lake families, and we see plenty of them at our South Salt Lake shop. The VQ35 V6 is a strong engine, but the CVT transmission and cooling system are the areas that need the most attention — and we know exactly what to look for by model year.",
-      "whatHeading": "Full-Service Nissan Murano Repair — All Generations",
-      "whatIntro": "We service all Nissan Murano generations at our South Salt Lake shop — every trim, every drivetrain, FWD and AWD. Every visit starts with a free diagnosis so you know exactly what your Murano needs before we touch it.",
+      "metaDesc": "Nissan Murano repair in Salt Lake City, CVT service, brakes, water pump, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Murano is a comfortable midsize crossover that's popular with Salt Lake families, and we see plenty of them at our South Salt Lake shop. The VQ35 V6 is a strong engine, but the CVT transmission and cooling system are the areas that need the most attention, and we know exactly what to look for by model year.",
+      "whatHeading": "Full-Service Nissan Murano Repair: All Generations",
+      "whatIntro": "We service all Nissan Murano generations at our South Salt Lake shop, every trim, every drivetrain, FWD and AWD. Every visit starts with a free diagnosis so you know exactly what your Murano needs before we touch it.",
       "generations": [
         {
           "label": "1st Gen (Z50)",
           "years": "2002–2007",
-          "notes": "The Murano that defined the crossover segment. VQ35DE V6 paired with Nissan's early CVT. These are high-mileage now — CVT health and cooling system condition are the big checks."
+          "notes": "The Murano that defined the crossover segment. VQ35DE V6 paired with Nissan's early CVT. These are high-mileage now, CVT health and cooling system condition are the big checks."
         },
         {
           "label": "2nd Gen (Z51)",
@@ -1351,11 +1351,11 @@ module.exports = {
           "notes": "Major redesign that finally drops the CVT for a conventional 9-speed automatic, paired with a turbocharged engine. A welcome change for long-term durability."
         }
       ],
-      "whyIntro": "Nissan dealers charge dealership rates for Murano service and hand your crossover off to a technician you never speak with. At Scott's, the mechanic who diagnoses your Murano is the one who fixes it. We're honest about CVT condition — if yours has life left, we'll tell you, and if it's failing, we won't sugarcoat it or pad the bill.",
+      "whyIntro": "Nissan dealers charge dealership rates for Murano service and hand your crossover off to a technician you never speak with. At Scott's, the mechanic who diagnoses your Murano is the one who fixes it. We're honest about CVT condition, if yours has life left, we'll tell you, and if it's failing, we won't sugarcoat it or pad the bill.",
       "whyUs": [
         {
           "title": "We Understand Nissan CVT Behavior",
-          "desc": "The CVT is the Murano's most misunderstood component. We know the difference between normal CVT behavior and genuine trouble, and we service the fluid correctly with the right Nissan-spec CVT fluid — not a generic substitute."
+          "desc": "The CVT is the Murano's most misunderstood component. We know the difference between normal CVT behavior and genuine trouble, and we service the fluid correctly with the right Nissan-spec CVT fluid, not a generic substitute."
         },
         {
           "title": "VQ35 V6 Cooling System Experience",
@@ -1363,7 +1363,7 @@ module.exports = {
         },
         {
           "title": "Straight Answers on CVT Repairs",
-          "desc": "A CVT replacement is a major expense. We give Murano owners an honest assessment of whether a fluid service will help or whether the transmission is genuinely done — so you can make a smart decision."
+          "desc": "A CVT replacement is a major expense. We give Murano owners an honest assessment of whether a fluid service will help or whether the transmission is genuinely done, so you can make a smart decision."
         },
         {
           "title": "Free Diagnosis on Every Murano",
@@ -1386,19 +1386,19 @@ module.exports = {
         },
         {
           "title": "Brake Wear on a Heavy Crossover",
-          "desc": "The Murano is a heavy vehicle, and front brakes take the brunt of stopping it — especially with Salt Lake's stop-and-go traffic and canyon descents. Squealing, a pulsing pedal, or longer stopping distances mean it's time for inspection. We measure pads and rotors and replace what's actually worn.",
+          "desc": "The Murano is a heavy vehicle, and front brakes take the brunt of stopping it, especially with Salt Lake's stop-and-go traffic and canyon descents. Squealing, a pulsing pedal, or longer stopping distances mean it's time for inspection. We measure pads and rotors and replace what's actually worn.",
           "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
-          "title": "Check Engine Light — Misfire and Sensor Codes",
+          "title": "Check Engine Light, Misfire and Sensor Codes",
           "desc": "Higher-mileage Muranos can set misfire codes from worn ignition coils or spark plugs, and oxygen sensor codes as the exhaust components age. We scan for the stored codes, verify the actual cause rather than guessing, and fix what's genuinely failed.",
           "serviceSlug": null,
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on AWD Models",
-          "desc": "AWD Muranos have front CV axles that wear like any other front-drive vehicle. A rhythmic clicking on turns — loudest at low speed in parking lots — means a CV joint has worn after the boot cracked and lost grease. We replace the complete axle shaft for a durable repair rather than just repacking the boot.",
+          "desc": "AWD Muranos have front CV axles that wear like any other front-drive vehicle. A rhythmic clicking on turns, loudest at low speed in parking lots, means a CV joint has worn after the boot cracked and lost grease. We replace the complete axle shaft for a durable repair rather than just repacking the boot.",
           "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
@@ -1412,8 +1412,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Murano Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer between you and your mechanic — the person who diagnoses your Murano is the one who repairs it. That means direct answers and accurate estimates.",
-          "We've worked on Muranos across every generation — first-gen Z50s with high miles, second-gen family haulers, and current Z52 crossovers. Whether your Murano needs CVT fluid service, a water pump, brakes, or just an honest opinion on whether that transmission noise is a problem, you'll get a straight assessment and a written estimate before any work starts."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer between you and your mechanic, the person who diagnoses your Murano is the one who repairs it. That means direct answers and accurate estimates.",
+          "We've worked on Muranos across every generation, first-gen Z50s with high miles, second-gen family haulers, and current Z52 crossovers. Whether your Murano needs CVT fluid service, a water pump, brakes, or just an honest opinion on whether that transmission noise is a problem, you'll get a straight assessment and a written estimate before any work starts."
         ]
       },
       "process": [
@@ -1425,7 +1425,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Murano, scan for stored codes, check fluid condition — including CVT fluid — and inspect what the symptom points to, before recommending a single repair."
+          "desc": "We road test your Murano, scan for stored codes, check fluid condition, including CVT fluid, and inspect what the symptom points to, before recommending a single repair."
         },
         {
           "step": 3,
@@ -1457,7 +1457,7 @@ module.exports = {
         {
           "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
           "name": "CV Joint Repair",
-          "desc": "Complete axle shaft replacement for clicking on turns — common on AWD Muranos."
+          "desc": "Complete axle shaft replacement for clicking on turns, common on AWD Muranos."
         },
         {
           "slug": "/services/strut-replacement-near-south-salt-lake-ut",
@@ -1476,30 +1476,30 @@ module.exports = {
         }
       ],
       "tips": [
-        "CVT fluid in Utah's climate: the Murano's CVT runs hot, and our hot summers plus canyon driving accelerate fluid degradation. Don't trust 'lifetime fluid' marketing — have the CVT fluid checked and serviced with genuine Nissan-spec fluid every 30,000–60,000 miles to extend the transmission's life.",
+        "CVT fluid in Utah's climate: the Murano's CVT runs hot, and our hot summers plus canyon driving accelerate fluid degradation. Don't trust 'lifetime fluid' marketing, have the CVT fluid checked and serviced with genuine Nissan-spec fluid every 30,000–60,000 miles to extend the transmission's life.",
         "Cooling system care: before each summer, have the coolant condition and the water pump checked. The VQ35 V6 does not tolerate overheating well, and a failed water pump or low coolant on a hot canyon climb can turn into expensive engine damage.",
-        "Winter brake maintenance: road salt and slush work into the Murano's brake hardware. Ask us to clean and lubricate the caliper slides and check the pads each fall — it prevents seized calipers and uneven pad wear through the winter."
+        "Winter brake maintenance: road salt and slush work into the Murano's brake hardware. Ask us to clean and lubricate the caliper slides and check the pads each fall, it prevents seized calipers and uneven pad wear through the winter."
       ],
       "faqs": [
         {
           "q": "Is my Nissan Murano's CVT going to fail?",
-          "a": "Not necessarily. Earlier Muranos had weaker CVTs, but most failures we see trace back to neglected fluid and overheating. If your CVT is shuddering or whining, bring it in — we'll check the fluid condition and give you an honest assessment of whether a service will help or whether the transmission is genuinely failing."
+          "a": "Not necessarily. Earlier Muranos had weaker CVTs, but most failures we see trace back to neglected fluid and overheating. If your CVT is shuddering or whining, bring it in, we'll check the fluid condition and give you an honest assessment of whether a service will help or whether the transmission is genuinely failing."
         },
         {
           "q": "How often should I service the CVT fluid on my Murano?",
-          "a": "Despite what some say about 'lifetime' fluid, we recommend servicing the CVT fluid every 30,000–60,000 miles — sooner if you do a lot of canyon driving or summer towing. We use genuine Nissan-spec CVT fluid, which is critical; the wrong fluid can damage the transmission."
+          "a": "Despite what some say about 'lifetime' fluid, we recommend servicing the CVT fluid every 30,000–60,000 miles, sooner if you do a lot of canyon driving or summer towing. We use genuine Nissan-spec CVT fluid, which is critical; the wrong fluid can damage the transmission."
         },
         {
-          "q": "My Murano's temperature gauge is climbing — what should I do?",
+          "q": "My Murano's temperature gauge is climbing. What should I do?",
           "a": "Stop driving as soon as it's safe. The VQ35 V6 can be damaged by overheating. The cause is often a failing water pump, a coolant leak, or a stuck thermostat. Have it towed in and we'll diagnose it for free before any repair."
         },
         {
           "q": "Do you work on the older first-generation Muranos from the early 2000s?",
-          "a": "Yes. We service all Murano generations. The first-gen Z50 cars are high-mileage now, so we pay close attention to CVT health, the cooling system, and suspension wear — and we'll tell you honestly where yours stands."
+          "a": "Yes. We service all Murano generations. The first-gen Z50 cars are high-mileage now, so we pay close attention to CVT health, the cooling system, and suspension wear, and we'll tell you honestly where yours stands."
         },
         {
           "q": "Can you tow my Murano to the shop?",
-          "a": "Yes. We work with local tow providers and can coordinate getting your Murano to our South Salt Lake shop. Call or text us and we'll help arrange it — you don't need to sort out towing yourself."
+          "a": "Yes. We work with local tow providers and can coordinate getting your Murano to our South Salt Lake shop. Call or text us and we'll help arrange it, you don't need to sort out towing yourself."
         },
         {
           "q": "How long will my Murano be in the shop?",
@@ -1515,10 +1515,10 @@ module.exports = {
       "yearRange": "2016–present",
       "heading": "Nissan Kicks Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Kicks Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Kicks repair in Salt Lake City — CVT service, brakes, CV joints, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Kicks is a small, fuel-efficient crossover that's become a popular choice for Salt Lake commuters and first-time buyers. It's a simple, dependable vehicle with the HR16 four-cylinder and a CVT — and at our South Salt Lake shop we keep these running affordably with honest, straightforward service.",
-      "whatHeading": "Full-Service Nissan Kicks Repair — All Generations",
-      "whatIntro": "We service all Nissan Kicks generations at our South Salt Lake shop — every trim, every model year. Every visit starts with a free diagnosis so you know exactly what your Kicks needs before we touch it.",
+      "metaDesc": "Nissan Kicks repair in Salt Lake City, CVT service, brakes, CV joints, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Kicks is a small, fuel-efficient crossover that's become a popular choice for Salt Lake commuters and first-time buyers. It's a simple, dependable vehicle with the HR16 four-cylinder and a CVT, and at our South Salt Lake shop we keep these running affordably with honest, straightforward service.",
+      "whatHeading": "Full-Service Nissan Kicks Repair: All Generations",
+      "whatIntro": "We service all Nissan Kicks generations at our South Salt Lake shop, every trim, every model year. Every visit starts with a free diagnosis so you know exactly what your Kicks needs before we touch it.",
       "generations": [
         {
           "label": "1st Gen (P15)",
@@ -1536,11 +1536,11 @@ module.exports = {
           "notes": "Fully redesigned with the option of all-wheel drive for the first time, plus a larger engine and updated CVT. A meaningful step up in capability."
         }
       ],
-      "whyIntro": "The Kicks is bought because it's affordable to own, and dealer service rates undercut that whole idea. At Scott's, you deal with the mechanic directly — no service-advisor markup, no upselling. We keep your Kicks reliable and on the road without padding the bill, which is exactly what an economy crossover owner needs.",
+      "whyIntro": "The Kicks is bought because it's affordable to own, and dealer service rates undercut that whole idea. At Scott's, you deal with the mechanic directly, no service-advisor markup, no upselling. We keep your Kicks reliable and on the road without padding the bill, which is exactly what an economy crossover owner needs.",
       "whyUs": [
         {
           "title": "Honest, Affordable Service",
-          "desc": "The Kicks is an economy vehicle, and we treat it that way — practical repairs, quality parts, and no upselling. We keep your costs in line with what the car is worth."
+          "desc": "The Kicks is an economy vehicle, and we treat it that way, practical repairs, quality parts, and no upselling. We keep your costs in line with what the car is worth."
         },
         {
           "title": "We Know Nissan's CVT",
@@ -1548,7 +1548,7 @@ module.exports = {
         },
         {
           "title": "One Mechanic, Start to Finish",
-          "desc": "The person who diagnoses your Kicks is the one who repairs it. No handoffs, no miscommunication — just direct answers and accountability for the work."
+          "desc": "The person who diagnoses your Kicks is the one who repairs it. No handoffs, no miscommunication, just direct answers and accountability for the work."
         },
         {
           "title": "Free Diagnosis on Every Kicks",
@@ -1571,12 +1571,12 @@ module.exports = {
         },
         {
           "title": "CV Axle Clicking on Turns",
-          "desc": "The front-wheel-drive Kicks has CV axles that wear over time. A rhythmic clicking when turning — loudest at low speed in a parking lot — means a CV joint has worn after its boot cracked and lost grease. We replace the complete axle shaft for a lasting repair.",
+          "desc": "The front-wheel-drive Kicks has CV axles that wear over time. A rhythmic clicking when turning, loudest at low speed in a parking lot, means a CV joint has worn after its boot cracked and lost grease. We replace the complete axle shaft for a lasting repair.",
           "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
-          "title": "Check Engine Light — Sensor and Emissions Codes",
+          "title": "Check Engine Light, Sensor and Emissions Codes",
           "desc": "As mileage climbs, the Kicks can set oxygen sensor or evaporative-emissions codes, and Utah's emissions testing means a check engine light needs a real fix. We scan for the codes, verify the genuine cause, and repair what actually failed so the light stays off.",
           "serviceSlug": null,
           "symptomSlug": "/symptoms/check-engine-light"
@@ -1597,7 +1597,7 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Kicks Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain and we don't put a service advisor between you and your mechanic — the person who diagnoses your Kicks is the one who repairs it. For an economy vehicle, that direct relationship keeps repair costs honest and predictable.",
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain and we don't put a service advisor between you and your mechanic, the person who diagnoses your Kicks is the one who repairs it. For an economy vehicle, that direct relationship keeps repair costs honest and predictable.",
           "We service the Kicks the way its owners want: practical repairs, quality parts, and no upselling. Whether your Kicks needs CVT fluid service, brakes, a CV axle, or just an honest answer about a noise, you'll get a straight assessment and a written estimate before any work begins."
         ]
       },
@@ -1610,7 +1610,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Kicks, scan for stored codes, check fluid condition, and inspect what the symptom points to — before recommending a single repair."
+          "desc": "We road test your Kicks, scan for stored codes, check fluid condition, and inspect what the symptom points to, before recommending a single repair."
         },
         {
           "step": 3,
@@ -1663,7 +1663,7 @@ module.exports = {
       "tips": [
         "CVT fluid maintenance: the Kicks CVT lasts a long time when the fluid is kept fresh. Have it checked and serviced with genuine Nissan-spec fluid every 30,000–60,000 miles, especially given Utah's hot summers, which accelerate fluid breakdown.",
         "Winter brake care: road salt and slush get into the brake hardware on a low-slung commuter like the Kicks. Ask us to clean and lubricate the caliper slides each fall so you don't end up with a sticking brake through the winter months.",
-        "Tire and altitude check: at Salt Lake's altitude and with big temperature swings, tire pressure shifts more than most owners expect. Check the Kicks' tire pressure monthly — proper inflation protects fuel economy and even tire wear on a budget-minded car."
+        "Tire and altitude check: at Salt Lake's altitude and with big temperature swings, tire pressure shifts more than most owners expect. Check the Kicks' tire pressure monthly, proper inflation protects fuel economy and even tire wear on a budget-minded car."
       ],
       "faqs": [
         {
@@ -1672,11 +1672,11 @@ module.exports = {
         },
         {
           "q": "Is the Nissan Kicks expensive to maintain?",
-          "a": "No — the Kicks is one of the more affordable crossovers to keep running. Its HR16 engine and CVT are simple, and parts are reasonably priced. We keep repairs practical and won't upsell you on work an economy vehicle doesn't need."
+          "a": "No. The Kicks is one of the more affordable crossovers to keep running. Its HR16 engine and CVT are simple, and parts are reasonably priced. We keep repairs practical and won't upsell you on work an economy vehicle doesn't need."
         },
         {
-          "q": "My Kicks failed emissions or has a check engine light — can you help?",
-          "a": "Yes. We scan for the stored codes, find the genuine cause — often an oxygen sensor or an evaporative-emissions issue on higher-mileage cars — and repair what actually failed so it passes and the light stays off."
+          "q": "My Kicks failed emissions or has a check engine light. Can you help?",
+          "a": "Yes. We scan for the stored codes, find the genuine cause, often an oxygen sensor or an evaporative-emissions issue on higher-mileage cars, and repair what actually failed so it passes and the light stays off."
         },
         {
           "q": "Do you work on the newer all-wheel-drive Kicks?",
@@ -1700,10 +1700,10 @@ module.exports = {
       "yearRange": "2006–present",
       "heading": "Nissan Versa Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Versa Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Versa repair in Salt Lake City — CVT service, clutch, brakes, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Versa is one of the most affordable cars on the road, and we see plenty of them at our South Salt Lake shop — driven by students, commuters, and budget-minded families. It's a simple, economical car, and we keep Versas running reliably without padding the bill.",
-      "whatHeading": "Full-Service Nissan Versa Repair — All Generations and Body Styles",
-      "whatIntro": "We service all Nissan Versa generations at our South Salt Lake shop — sedan and hatchback, manual and CVT, every trim. Every visit starts with a free diagnosis so you know exactly what your Versa needs before we touch it.",
+      "metaDesc": "Nissan Versa repair in Salt Lake City, CVT service, clutch, brakes, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Versa is one of the most affordable cars on the road, and we see plenty of them at our South Salt Lake shop, driven by students, commuters, and budget-minded families. It's a simple, economical car, and we keep Versas running reliably without padding the bill.",
+      "whatHeading": "Full-Service Nissan Versa Repair: All Generations and Body Styles",
+      "whatIntro": "We service all Nissan Versa generations at our South Salt Lake shop, sedan and hatchback, manual and CVT, every trim. Every visit starts with a free diagnosis so you know exactly what your Versa needs before we touch it.",
       "generations": [
         {
           "label": "1st Gen (C11)",
@@ -1721,7 +1721,7 @@ module.exports = {
           "notes": "Sedan only, with much-improved styling, safety tech, and interior quality. HR16 engine with a 5-speed manual or CVT. A genuine step up in refinement."
         }
       ],
-      "whyIntro": "The Versa is bought to keep costs low, and dealer service rates work against that. At Scott's, there's no service-advisor markup and no upselling — the mechanic who diagnoses your Versa is the one who fixes it. We give Versa owners practical repairs and honest advice so an economy car stays economical.",
+      "whyIntro": "The Versa is bought to keep costs low, and dealer service rates work against that. At Scott's, there's no service-advisor markup and no upselling, the mechanic who diagnoses your Versa is the one who fixes it. We give Versa owners practical repairs and honest advice so an economy car stays economical.",
       "whyUs": [
         {
           "title": "Clutch Work on Manual Versas",
@@ -1729,7 +1729,7 @@ module.exports = {
         },
         {
           "title": "Honest Pricing on an Economy Car",
-          "desc": "The Versa is built to be affordable, and we keep our repairs in line with that. Practical fixes, quality parts, no upselling — we keep your cost of ownership low."
+          "desc": "The Versa is built to be affordable, and we keep our repairs in line with that. Practical fixes, quality parts, no upselling, we keep your cost of ownership low."
         },
         {
           "title": "We Service the CVT Correctly",
@@ -1761,14 +1761,14 @@ module.exports = {
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
-          "title": "Check Engine Light — Emissions and Sensor Codes",
+          "title": "Check Engine Light, Emissions and Sensor Codes",
           "desc": "Higher-mileage Versas commonly set oxygen sensor and evaporative-emissions codes. With Utah's emissions testing, a check engine light needs a genuine fix. We scan for the codes, verify the real cause, and repair what actually failed.",
           "serviceSlug": null,
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "CV Axle Clicking on Turns",
-          "desc": "The front-drive Versa develops worn CV joints as the protective boots crack and lose grease. A rhythmic clicking on turns — loudest at low speed in parking lots — is the giveaway. We replace the complete axle shaft for a durable, lasting repair.",
+          "desc": "The front-drive Versa develops worn CV joints as the protective boots crack and lose grease. A rhythmic clicking on turns, loudest at low speed in parking lots, is the giveaway. We replace the complete axle shaft for a durable, lasting repair.",
           "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
@@ -1782,8 +1782,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Versa Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer — the mechanic who diagnoses your Versa is the one who repairs it. For an economy car, that direct relationship is what keeps repair costs honest.",
-          "We've worked on Versas from every generation — first-gen hatchbacks, Versa Notes, and current sedans, both manual and CVT. Whether yours needs a clutch, a CVT fluid service, brakes, or just an honest opinion on a noise, you'll get a straight assessment and a written estimate before any work begins."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer, the mechanic who diagnoses your Versa is the one who repairs it. For an economy car, that direct relationship is what keeps repair costs honest.",
+          "We've worked on Versas from every generation, first-gen hatchbacks, Versa Notes, and current sedans, both manual and CVT. Whether yours needs a clutch, a CVT fluid service, brakes, or just an honest opinion on a noise, you'll get a straight assessment and a written estimate before any work begins."
         ]
       },
       "process": [
@@ -1795,7 +1795,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Versa, scan for stored codes, check fluid condition, and inspect what the symptom points to — before recommending a single repair."
+          "desc": "We road test your Versa, scan for stored codes, check fluid condition, and inspect what the symptom points to, before recommending a single repair."
         },
         {
           "step": 3,
@@ -1848,28 +1848,28 @@ module.exports = {
       "tips": [
         "CVT fluid service: if your Versa has the CVT, have the fluid checked and serviced with genuine Nissan-spec fluid every 30,000–60,000 miles. Utah's hot summers degrade the fluid faster, and fresh fluid is the cheapest insurance against an expensive transmission failure.",
         "Clutch and brake fluid flush on manual Versas: the clutch hydraulic system shares fluid with the brakes, and old fluid absorbs moisture. Flush the brake/clutch fluid every 2–3 years to prevent a spongy clutch pedal and slave cylinder trouble.",
-        "Cold-weather warm-up: in Salt Lake winters, give the Versa a minute to circulate oil before driving off, and check tire pressure monthly — cold air drops pressure, and a budget car's fuel economy and tire wear both suffer when tires are low."
+        "Cold-weather warm-up: in Salt Lake winters, give the Versa a minute to circulate oil before driving off, and check tire pressure monthly, cold air drops pressure, and a budget car's fuel economy and tire wear both suffer when tires are low."
       ],
       "faqs": [
         {
           "q": "How long does a clutch last on a manual Nissan Versa?",
-          "a": "A Versa clutch in normal commuter use typically lasts 80,000–120,000 miles. Lots of city stop-and-go or aggressive shifting shortens that. If you notice slipping or a high engagement point, bring it in — we use quality OEM-spec clutch kits and can give you an honest read on how much life is left."
+          "a": "A Versa clutch in normal commuter use typically lasts 80,000–120,000 miles. Lots of city stop-and-go or aggressive shifting shortens that. If you notice slipping or a high engagement point, bring it in, we use quality OEM-spec clutch kits and can give you an honest read on how much life is left."
         },
         {
           "q": "Is it worth fixing a high-mileage Nissan Versa?",
-          "a": "Often, yes. The Versa's HR16 engine is durable, and most repairs cost far less than a year of car payments. We'll give you an honest assessment — if the repair genuinely doesn't make financial sense, we'll tell you that straight."
+          "a": "Often, yes. The Versa's HR16 engine is durable, and most repairs cost far less than a year of car payments. We'll give you an honest assessment, if the repair genuinely doesn't make financial sense, we'll tell you that straight."
         },
         {
-          "q": "My Versa's CVT is shuddering — what's wrong?",
+          "q": "My Versa's CVT is shuddering. What's wrong?",
           "a": "A shudder during acceleration is usually degraded or overheated CVT fluid. Bring it in and we'll check the fluid condition. In many cases a proper fluid service with genuine Nissan-spec fluid resolves it; if the transmission itself is failing, we'll tell you honestly."
         },
         {
           "q": "Can you help my Versa pass Utah emissions?",
-          "a": "Yes. If your Versa has a check engine light or failed emissions, we scan for the codes, find the genuine cause — often an oxygen sensor or evaporative-emissions issue — and repair what actually failed so it passes."
+          "a": "Yes. If your Versa has a check engine light or failed emissions, we scan for the codes, find the genuine cause, often an oxygen sensor or evaporative-emissions issue, and repair what actually failed so it passes."
         },
         {
           "q": "Can you tow my Versa to the shop?",
-          "a": "Yes. We work with local tow providers and can coordinate getting your Versa to our South Salt Lake shop. Call or text us and we'll help arrange it — you don't have to handle towing yourself."
+          "a": "Yes. We work with local tow providers and can coordinate getting your Versa to our South Salt Lake shop. Call or text us and we'll help arrange it, you don't have to handle towing yourself."
         },
         {
           "q": "How long will my Versa be in the shop?",
@@ -1885,10 +1885,10 @@ module.exports = {
       "yearRange": "2009–2020",
       "heading": "Nissan 370Z Repair in Salt Lake City, UT",
       "metaTitle": "Nissan 370Z Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan 370Z repair in Salt Lake City — clutch, brakes, suspension, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan 370Z is a proper rear-wheel-drive sports car, and the enthusiasts who own them in Salt Lake want a shop that respects the machine. At our South Salt Lake bays we service the Z34 for what it is — a driver's car — with clutch work, brake jobs, and honest mechanical service.",
-      "whatHeading": "Full-Service Nissan 370Z Repair — All Trims and the Z34 Chassis",
-      "whatIntro": "We service every Nissan 370Z trim at our South Salt Lake shop — base, Touring, Sport, NISMO, coupe and Roadster. Every visit starts with a free diagnosis so you know exactly what your 370Z needs before we touch it.",
+      "metaDesc": "Nissan 370Z repair in Salt Lake City, clutch, brakes, suspension, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan 370Z is a proper rear-wheel-drive sports car, and the enthusiasts who own them in Salt Lake want a shop that respects the machine. At our South Salt Lake bays we service the Z34 for what it is, a driver's car, with clutch work, brake jobs, and honest mechanical service.",
+      "whatHeading": "Full-Service Nissan 370Z Repair: All Trims and the Z34 Chassis",
+      "whatIntro": "We service every Nissan 370Z trim at our South Salt Lake shop, base, Touring, Sport, NISMO, coupe and Roadster. Every visit starts with a free diagnosis so you know exactly what your 370Z needs before we touch it.",
       "generations": [
         {
           "label": "Z34 (Early)",
@@ -1903,14 +1903,14 @@ module.exports = {
         {
           "label": "NISMO",
           "years": "2009–2020",
-          "notes": "The performance trim — more power from the VQ37, stiffer suspension, upgraded brakes, and aggressive aero. These are driven hard, so clutch and brake wear come faster."
+          "notes": "The performance trim, more power from the VQ37, stiffer suspension, upgraded brakes, and aggressive aero. These are driven hard, so clutch and brake wear come faster."
         }
       ],
-      "whyIntro": "A 370Z is a sports car, and the way it's driven means it needs a mechanic who understands rear-drive performance work. Nissan dealers charge premium rates and rotate your Z through technicians you never meet. At Scott's, the same mechanic diagnoses and repairs your 370Z — and we treat clutch and brake work on a Z as the precision job it is.",
+      "whyIntro": "A 370Z is a sports car, and the way it's driven means it needs a mechanic who understands rear-drive performance work. Nissan dealers charge premium rates and rotate your Z through technicians you never meet. At Scott's, the same mechanic diagnoses and repairs your 370Z, and we treat clutch and brake work on a Z as the precision job it is.",
       "whyUs": [
         {
           "title": "Clutch Specialists for the Z34",
-          "desc": "Clutch replacement is one of our core services, and a 370Z clutch — especially on a hard-driven or NISMO car — is a job we know well. We use quality OEM-spec clutch kits and follow the correct break-in procedure."
+          "desc": "Clutch replacement is one of our core services, and a 370Z clutch, especially on a hard-driven or NISMO car, is a job we know well. We use quality OEM-spec clutch kits and follow the correct break-in procedure."
         },
         {
           "title": "We Respect a Performance Car",
@@ -1958,7 +1958,7 @@ module.exports = {
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
-          "title": "Check Engine Light — Sensor and Misfire Codes",
+          "title": "Check Engine Light, Sensor and Misfire Codes",
           "desc": "As the VQ37VHR accumulates miles, it can set misfire codes from worn coils or plugs, and oxygen sensor codes as the exhaust ages. We scan for the stored codes, verify the genuine cause, and repair what actually failed so the light stays off.",
           "serviceSlug": null,
           "symptomSlug": "/symptoms/check-engine-light"
@@ -1967,8 +1967,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan 370Z Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer — the mechanic who diagnoses your 370Z is the one who repairs it. For a performance car, that means someone accountable who actually drives and understands the machine.",
-          "We've done clutch and brake work on Z34s — base coupes, Roadsters, and hard-driven NISMOs. Whether your 370Z needs a clutch, brakes that can take a canyon run, suspension work, or just an honest opinion on a noise, you'll get a straight assessment and a written estimate before any work begins."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer, the mechanic who diagnoses your 370Z is the one who repairs it. For a performance car, that means someone accountable who actually drives and understands the machine.",
+          "We've done clutch and brake work on Z34s, base coupes, Roadsters, and hard-driven NISMOs. Whether your 370Z needs a clutch, brakes that can take a canyon run, suspension work, or just an honest opinion on a noise, you'll get a straight assessment and a written estimate before any work begins."
         ]
       },
       "process": [
@@ -1980,7 +1980,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your 370Z, scan for stored codes, check fluid condition, and inspect the drivetrain and chassis — before recommending a single repair."
+          "desc": "We road test your 370Z, scan for stored codes, check fluid condition, and inspect the drivetrain and chassis, before recommending a single repair."
         },
         {
           "step": 3,
@@ -2031,22 +2031,22 @@ module.exports = {
         }
       ],
       "tips": [
-        "Brake fluid for canyon driving: if you take your 370Z up Big or Little Cottonwood, fresh brake fluid matters. Old fluid absorbs moisture and boils under repeated hard braking, causing a soft pedal. Flush the brake fluid every 2 years — sooner if you do track days.",
-        "Tire warm-up at altitude: cold tires offer far less grip, and Salt Lake mornings are cold. Give your 370Z's tires a few miles to warm before driving hard, and check pressures monthly — altitude and temperature swings move them more than you'd expect.",
+        "Brake fluid for canyon driving: if you take your 370Z up Big or Little Cottonwood, fresh brake fluid matters. Old fluid absorbs moisture and boils under repeated hard braking, causing a soft pedal. Flush the brake fluid every 2 years, sooner if you do track days.",
+        "Tire warm-up at altitude: cold tires offer far less grip, and Salt Lake mornings are cold. Give your 370Z's tires a few miles to warm before driving hard, and check pressures monthly, altitude and temperature swings move them more than you'd expect.",
         "Winter storage and road salt: if you store your Z for the winter, change the oil before it sits and wash the underbody after any salted-road driving. Road salt corrodes exhaust hangers and brake hardware on a low car quickly."
       ],
       "faqs": [
         {
           "q": "How often does a Nissan 370Z need a clutch?",
-          "a": "It depends entirely on how it's driven. A 370Z used gently can go well past 80,000 miles on a clutch, while a hard-driven or track-used Z — especially a NISMO — may need one much sooner. If yours is slipping or grabbing, bring it in and we'll give you an honest read."
+          "a": "It depends entirely on how it's driven. A 370Z used gently can go well past 80,000 miles on a clutch, while a hard-driven or track-used Z, especially a NISMO, may need one much sooner. If yours is slipping or grabbing, bring it in and we'll give you an honest read."
         },
         {
           "q": "Can you service a 370Z with an aftermarket exhaust or suspension?",
           "a": "Yes. Many 370Zs have aftermarket parts, and we work on them without issue. We'll service whatever is on the car and let you know honestly if a modified component is causing a problem."
         },
         {
-          "q": "My 370Z's brakes feel soft after a canyon drive — is that normal?",
-          "a": "A soft pedal after repeated hard braking is brake fade, usually from old brake fluid or worn pads. It's a safety issue. Bring it in — we'll inspect the pads and rotors and flush the fluid with a high-quality product that resists fade."
+          "q": "My 370Z's brakes feel soft after a canyon drive. Is that normal?",
+          "a": "A soft pedal after repeated hard braking is brake fade, usually from old brake fluid or worn pads. It's a safety issue. Bring it in, we'll inspect the pads and rotors and flush the fluid with a high-quality product that resists fade."
         },
         {
           "q": "Do you do clutch break-in on a new clutch?",
@@ -2070,10 +2070,10 @@ module.exports = {
       "yearRange": "2002–2009",
       "heading": "Nissan 350Z Repair in Salt Lake City, UT",
       "metaTitle": "Nissan 350Z Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan 350Z repair in Salt Lake City — clutch, brakes, suspension, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan 350Z brought the Z car back as an affordable rear-drive sports car, and the Z33 has a devoted following in Salt Lake. These cars are getting older now, so they need a shop that knows the chassis — and at our South Salt Lake bays we service clutches, brakes, and suspension on the 350Z the way enthusiasts expect.",
-      "whatHeading": "Full-Service Nissan 350Z Repair — All Trims and the Z33 Chassis",
-      "whatIntro": "We service every Nissan 350Z trim at our South Salt Lake shop — base, Touring, Track, coupe and Roadster, all model years. Every visit starts with a free diagnosis so you know exactly what your 350Z needs before we touch it.",
+      "metaDesc": "Nissan 350Z repair in Salt Lake City, clutch, brakes, suspension, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan 350Z brought the Z car back as an affordable rear-drive sports car, and the Z33 has a devoted following in Salt Lake. These cars are getting older now, so they need a shop that knows the chassis, and at our South Salt Lake bays we service clutches, brakes, and suspension on the 350Z the way enthusiasts expect.",
+      "whatHeading": "Full-Service Nissan 350Z Repair: All Trims and the Z33 Chassis",
+      "whatIntro": "We service every Nissan 350Z trim at our South Salt Lake shop, base, Touring, Track, coupe and Roadster, all model years. Every visit starts with a free diagnosis so you know exactly what your 350Z needs before we touch it.",
       "generations": [
         {
           "label": "Z33 (Early VQ35DE)",
@@ -2091,7 +2091,7 @@ module.exports = {
           "notes": "The updated VQ35HR engine with more power and a higher redline, plus chassis and styling refinements. The most refined and sought-after 350Z variant."
         }
       ],
-      "whyIntro": "A 350Z is now an aging performance car, and that means it needs a mechanic who knows where the Z33 wears. Dealers charge premium rates and may not even want an older car in the bay. At Scott's, the same mechanic diagnoses and repairs your 350Z, and we treat it as the enthusiast machine it is — with honest advice on what's worth fixing.",
+      "whyIntro": "A 350Z is now an aging performance car, and that means it needs a mechanic who knows where the Z33 wears. Dealers charge premium rates and may not even want an older car in the bay. At Scott's, the same mechanic diagnoses and repairs your 350Z, and we treat it as the enthusiast machine it is, with honest advice on what's worth fixing.",
       "whyUs": [
         {
           "title": "Clutch Specialists for the Z33",
@@ -2103,7 +2103,7 @@ module.exports = {
         },
         {
           "title": "Honest Advice on an Older Sports Car",
-          "desc": "A 350Z is worth keeping if it's sound. We give you a straight assessment of what needs attention now versus what can wait — so you can budget repairs sensibly."
+          "desc": "A 350Z is worth keeping if it's sound. We give you a straight assessment of what needs attention now versus what can wait, so you can budget repairs sensibly."
         },
         {
           "title": "Free Diagnosis on Every 350Z",
@@ -2143,7 +2143,7 @@ module.exports = {
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
-          "title": "Check Engine Light — Misfire and Sensor Codes",
+          "title": "Check Engine Light, Misfire and Sensor Codes",
           "desc": "High-mileage VQ35 engines set misfire codes from worn coils or plugs and oxygen sensor codes as the exhaust ages. We scan for the stored codes, confirm the genuine cause, and fix what actually failed so the light stays off and the car passes emissions.",
           "serviceSlug": null,
           "symptomSlug": "/symptoms/check-engine-light"
@@ -2152,8 +2152,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan 350Z Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer — the mechanic who diagnoses your 350Z is the one who repairs it. For an aging sports car, that means an experienced person who's accountable for the work.",
-          "We've done clutch, brake, and suspension work on Z33s — early VQ35DE cars, Rev-up models, and the later VQ35HR Zs. Whether your 350Z needs a clutch, refreshed suspension, brakes, or just an honest assessment of an older car's condition, you'll get a straight answer and a written estimate before any work begins."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer, the mechanic who diagnoses your 350Z is the one who repairs it. For an aging sports car, that means an experienced person who's accountable for the work.",
+          "We've done clutch, brake, and suspension work on Z33s, early VQ35DE cars, Rev-up models, and the later VQ35HR Zs. Whether your 350Z needs a clutch, refreshed suspension, brakes, or just an honest assessment of an older car's condition, you'll get a straight answer and a written estimate before any work begins."
         ]
       },
       "process": [
@@ -2165,7 +2165,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your 350Z, scan for stored codes, check fluid condition, and inspect the drivetrain and chassis — before recommending a single repair."
+          "desc": "We road test your 350Z, scan for stored codes, check fluid condition, and inspect the drivetrain and chassis, before recommending a single repair."
         },
         {
           "step": 3,
@@ -2216,18 +2216,18 @@ module.exports = {
         }
       ],
       "tips": [
-        "Watch oil level on early 350Zs: the 2003–2006 VQ35DE engines can consume oil. Check the dipstick regularly between changes and top off as needed — running low on oil is the fastest way to damage a high-mileage Z33.",
+        "Watch oil level on early 350Zs: the 2003–2006 VQ35DE engines can consume oil. Check the dipstick regularly between changes and top off as needed, running low on oil is the fastest way to damage a high-mileage Z33.",
         "Brake fluid for canyon runs: old brake fluid boils under repeated hard braking on Cottonwood Canyon descents, giving you a soft pedal. Flush the 350Z's brake fluid every 2 years to keep the pedal firm and safe.",
         "Road salt and underbody care: the Z33 is a low car, and Utah winter salt corrodes exhaust hangers, brake hardware, and suspension fasteners. Wash the underbody after salted-road driving, and have us inspect the suspension hardware each spring."
       ],
       "faqs": [
         {
           "q": "Is a high-mileage Nissan 350Z worth keeping?",
-          "a": "If the chassis is sound and it's been cared for, yes — the Z33 is a rewarding car and parts are readily available. We'll inspect it and give you an honest picture of what needs attention now versus later, so you can decide with real information."
+          "a": "If the chassis is sound and it's been cared for, yes. The Z33 is a rewarding car and parts are readily available. We'll inspect it and give you an honest picture of what needs attention now versus later, so you can decide with real information."
         },
         {
           "q": "Why is my 350Z burning oil?",
-          "a": "Some early VQ35DE engines have a known oil-consumption tendency, often related to the piston rings. Bring it in — we'll check the consumption rate and the engine's overall condition and give you a straight assessment of how to manage it."
+          "a": "Some early VQ35DE engines have a known oil-consumption tendency, often related to the piston rings. Bring it in, we'll check the consumption rate and the engine's overall condition and give you a straight assessment of how to manage it."
         },
         {
           "q": "How often does a 350Z need a clutch?",
@@ -2255,20 +2255,20 @@ module.exports = {
       "yearRange": "1999–2015",
       "heading": "Nissan Xterra Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Xterra Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Xterra repair in Salt Lake City — clutch, timing chain, brakes, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Xterra is a genuine body-on-frame SUV, and around Salt Lake it's a favorite for canyon trails, ski trips, and hauling gear. We see plenty of them at our South Salt Lake shop — these are tough trucks, but the way they're used means clutch, brake, and drivetrain service comes around regularly.",
-      "whatHeading": "Full-Service Nissan Xterra Repair — All Generations",
-      "whatIntro": "We service all Nissan Xterra generations at our South Salt Lake shop — every trim, 2WD and 4WD, manual and automatic. Every visit starts with a free diagnosis so you know exactly what your Xterra needs before we touch it.",
+      "metaDesc": "Nissan Xterra repair in Salt Lake City, clutch, timing chain, brakes, and full diagnostics. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Xterra is a genuine body-on-frame SUV, and around Salt Lake it's a favorite for canyon trails, ski trips, and hauling gear. We see plenty of them at our South Salt Lake shop, these are tough trucks, but the way they're used means clutch, brake, and drivetrain service comes around regularly.",
+      "whatHeading": "Full-Service Nissan Xterra Repair: All Generations",
+      "whatIntro": "We service all Nissan Xterra generations at our South Salt Lake shop, every trim, 2WD and 4WD, manual and automatic. Every visit starts with a free diagnosis so you know exactly what your Xterra needs before we touch it.",
       "generations": [
         {
           "label": "1st Gen (WD22)",
           "years": "1999–2004",
-          "notes": "Body-on-frame SUV built on the Frontier platform. Available with a 2.4L four-cylinder or the VG33E/supercharged VG33ER V6. Rugged and simple — popular with the outdoor crowd."
+          "notes": "Body-on-frame SUV built on the Frontier platform. Available with a 2.4L four-cylinder or the VG33E/supercharged VG33ER V6. Rugged and simple, popular with the outdoor crowd."
         },
         {
           "label": "2nd Gen (N50, Early)",
           "years": "2005–2007",
-          "notes": "Moved to the F-Alpha platform with the VQ40DE V6. Some of these had the well-known radiator-into-transmission coolant cross-contamination concern — worth inspecting."
+          "notes": "Moved to the F-Alpha platform with the VQ40DE V6. Some of these had the well-known radiator-into-transmission coolant cross-contamination concern, worth inspecting."
         },
         {
           "label": "2nd Gen (N50, Late)",
@@ -2276,7 +2276,7 @@ module.exports = {
           "notes": "Updated VQ40DE Xterra with available 6-speed manual and 5-speed automatic. The PRO-4X trim added off-road hardware. A capable, durable SUV right to the end of the run."
         }
       ],
-      "whyIntro": "An Xterra gets used hard — canyons, dirt roads, ski-traffic stop-and-go — and that calls for a mechanic who understands a real 4WD truck. Dealers charge premium rates and rotate your SUV through techs you never meet. At Scott's, one mechanic diagnoses and repairs your Xterra, and we know exactly where these trucks wear.",
+      "whyIntro": "An Xterra gets used hard, canyons, dirt roads, ski-traffic stop-and-go, and that calls for a mechanic who understands a real 4WD truck. Dealers charge premium rates and rotate your SUV through techs you never meet. At Scott's, one mechanic diagnoses and repairs your Xterra, and we know exactly where these trucks wear.",
       "whyUs": [
         {
           "title": "Real 4WD Truck Experience",
@@ -2299,7 +2299,7 @@ module.exports = {
       "whenItems": [
         {
           "title": "Radiator-to-Transmission Coolant Contamination",
-          "desc": "Certain 2005–2010 Xterras with the automatic can develop a radiator failure that lets coolant mix into the transmission fluid — sometimes called the 'strawberry milkshake' problem. Caught early, the radiator and a transmission flush can save the gearbox. We inspect for this condition on these model years before it causes a costly transmission failure.",
+          "desc": "Certain 2005–2010 Xterras with the automatic can develop a radiator failure that lets coolant mix into the transmission fluid, sometimes called the 'strawberry milkshake' problem. Caught early, the radiator and a transmission flush can save the gearbox. We inspect for this condition on these model years before it causes a costly transmission failure.",
           "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/engine-overheating"
         },
@@ -2311,7 +2311,7 @@ module.exports = {
         },
         {
           "title": "Timing Chain Rattle on the VQ40",
-          "desc": "High-mileage VQ40DE engines can develop timing chain wear, often heard as a metallic rattle on cold startup that quiets once oil pressure builds. Don't ignore it — a worn chain or guide can cause serious engine damage. We inspect the chain, tensioner, and guides and replace them before there's a bigger problem.",
+          "desc": "High-mileage VQ40DE engines can develop timing chain wear, often heard as a metallic rattle on cold startup that quiets once oil pressure builds. Don't ignore it, a worn chain or guide can cause serious engine damage. We inspect the chain, tensioner, and guides and replace them before there's a bigger problem.",
           "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
           "symptomSlug": null
         },
@@ -2337,8 +2337,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Xterra Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer — the mechanic who diagnoses your Xterra is the one who repairs it. For a 4WD truck that gets used hard, that direct accountability matters.",
-          "We've worked on Xterras across both generations — first-gen WD22 trucks and the later VQ40-powered N50s, including PRO-4X off-road models. Whether your Xterra needs a clutch, a timing chain, brakes that can take a canyon descent, or just an honest answer on a noise, you'll get a straight assessment and a written estimate before any work begins."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer, the mechanic who diagnoses your Xterra is the one who repairs it. For a 4WD truck that gets used hard, that direct accountability matters.",
+          "We've worked on Xterras across both generations, first-gen WD22 trucks and the later VQ40-powered N50s, including PRO-4X off-road models. Whether your Xterra needs a clutch, a timing chain, brakes that can take a canyon descent, or just an honest answer on a noise, you'll get a straight assessment and a written estimate before any work begins."
         ]
       },
       "process": [
@@ -2350,7 +2350,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Xterra, scan for stored codes, check fluid condition — including transmission fluid for contamination — and inspect what the symptom points to."
+          "desc": "We road test your Xterra, scan for stored codes, check fluid condition, including transmission fluid for contamination, and inspect what the symptom points to."
         },
         {
           "step": 3,
@@ -2401,7 +2401,7 @@ module.exports = {
         }
       ],
       "tips": [
-        "Check transmission fluid on 2005–2010 automatics: have the transmission fluid inspected for a pink, milky look that signals coolant contamination from a failing radiator. Catching it early — replacing the radiator and flushing the fluid — can save the transmission from a very expensive failure.",
+        "Check transmission fluid on 2005–2010 automatics: have the transmission fluid inspected for a pink, milky look that signals coolant contamination from a failing radiator. Catching it early, replacing the radiator and flushing the fluid, can save the transmission from a very expensive failure.",
         "Cooling system before summer: the VQ40 V6 works hard towing and climbing canyon grades. Have the coolant condition, radiator, and water pump checked each spring so a hot climb doesn't turn into an overheated engine.",
         "Underbody and salt: an Xterra that sees winter canyon driving gets a heavy dose of road salt. Wash the underbody after salted roads and have us inspect the exhaust hangers, brake hardware, and frame fasteners each spring for corrosion."
       ],
@@ -2415,7 +2415,7 @@ module.exports = {
           "a": "A manual Xterra clutch in normal use typically lasts 80,000–120,000 miles, but heavy towing, trail use, and steep grades shorten that. If yours is slipping or the engagement point feels high, bring it in for an honest evaluation. We use quality OEM-spec clutch kits."
         },
         {
-          "q": "My Xterra rattles on cold startup — should I worry?",
+          "q": "My Xterra rattles on cold startup. Should I worry?",
           "a": "A metallic rattle on cold start that quiets after a few seconds often means timing chain or guide wear on the VQ40. It's worth addressing before the chain skips and damages the engine. Bring it in and we'll inspect the chain, tensioner, and guides."
         },
         {
@@ -2440,15 +2440,15 @@ module.exports = {
       "yearRange": "2010–2017",
       "heading": "Nissan Juke Repair in Salt Lake City, UT",
       "metaTitle": "Nissan Juke Repair Salt Lake City | Scott's Auto & Clutch Repair",
-      "metaDesc": "Nissan Juke repair in Salt Lake City — turbo service, clutch, CVT, and brakes. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Nissan Juke is a small, turbocharged crossover with looks that nobody forgets, and Salt Lake owners love them for the peppy drive. At our South Salt Lake shop we keep the Juke running right — the 1.6L turbo, the CVT, and the available manual all need attention as these cars age, and we know what to check.",
-      "whatHeading": "Full-Service Nissan Juke Repair — All Trims and the F15 Chassis",
-      "whatIntro": "We service every Nissan Juke trim at our South Salt Lake shop — base, SV, SL, NISMO, FWD and AWD, manual and CVT. Every visit starts with a free diagnosis so you know exactly what your Juke needs before we touch it.",
+      "metaDesc": "Nissan Juke repair in Salt Lake City, turbo service, clutch, CVT, and brakes. Free diagnosis at Scott's Auto & Clutch Repair. (801) 485-4089.",
+      "intro": "The Nissan Juke is a small, turbocharged crossover with looks that nobody forgets, and Salt Lake owners love them for the peppy drive. At our South Salt Lake shop we keep the Juke running right, the 1.6L turbo, the CVT, and the available manual all need attention as these cars age, and we know what to check.",
+      "whatHeading": "Full-Service Nissan Juke Repair: All Trims and the F15 Chassis",
+      "whatIntro": "We service every Nissan Juke trim at our South Salt Lake shop, base, SV, SL, NISMO, FWD and AWD, manual and CVT. Every visit starts with a free diagnosis so you know exactly what your Juke needs before we touch it.",
       "generations": [
         {
           "label": "F15 (Early)",
           "years": "2010–2014",
-          "notes": "The original Juke — DIG-T 1.6L turbo four with a 6-speed manual or CVT, in FWD or AWD. Bold styling and surprising performance for a subcompact crossover."
+          "notes": "The original Juke, DIG-T 1.6L turbo four with a 6-speed manual or CVT, in FWD or AWD. Bold styling and surprising performance for a subcompact crossover."
         },
         {
           "label": "F15 (Facelift)",
@@ -2458,7 +2458,7 @@ module.exports = {
         {
           "label": "Juke NISMO / NISMO RS",
           "years": "2013–2017",
-          "notes": "The performance trims — more boost from the 1.6L turbo, stiffer suspension, and upgraded brakes. The NISMO RS added more power still. Driven hard, so wear comes faster."
+          "notes": "The performance trims, more boost from the 1.6L turbo, stiffer suspension, and upgraded brakes. The NISMO RS added more power still. Driven hard, so wear comes faster."
         }
       ],
       "whyIntro": "The Juke is a turbocharged car, and a turbo crossover needs a mechanic who understands boosted engines and stays on top of maintenance. Dealers charge premium rates and hand your Juke off to a tech you never meet. At Scott's, one mechanic diagnoses and repairs your Juke, with honest advice on keeping the turbo healthy.",
@@ -2469,11 +2469,11 @@ module.exports = {
         },
         {
           "title": "Clutch and CVT Both Covered",
-          "desc": "The Juke came as a manual and a CVT. Clutch replacement is a core service for us, and we service the CVT with genuine Nissan-spec fluid — whichever your Juke has, we know it."
+          "desc": "The Juke came as a manual and a CVT. Clutch replacement is a core service for us, and we service the CVT with genuine Nissan-spec fluid, whichever your Juke has, we know it."
         },
         {
           "title": "One Mechanic, Straight Answers",
-          "desc": "The person who diagnoses your Juke is the one who repairs it. No handoffs, no service-advisor markup — just direct answers and accountability for the work."
+          "desc": "The person who diagnoses your Juke is the one who repairs it. No handoffs, no service-advisor markup, just direct answers and accountability for the work."
         },
         {
           "title": "Free Diagnosis on Every Juke",
@@ -2484,7 +2484,7 @@ module.exports = {
       "whenItems": [
         {
           "title": "Turbo Health and Oil Condition",
-          "desc": "The Juke's 1.6L turbo runs hot and depends on clean, fresh oil. Neglected oil changes lead to coked oil passages and shortened turbo life. We use the correct oil at proper intervals and watch oil condition closely — turbocharged engines are far less forgiving of dirty oil than naturally aspirated ones.",
+          "desc": "The Juke's 1.6L turbo runs hot and depends on clean, fresh oil. Neglected oil changes lead to coked oil passages and shortened turbo life. We use the correct oil at proper intervals and watch oil condition closely, turbocharged engines are far less forgiving of dirty oil than naturally aspirated ones.",
           "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
           "symptomSlug": null
         },
@@ -2496,7 +2496,7 @@ module.exports = {
         },
         {
           "title": "Clutch Wear on Manual Jukes",
-          "desc": "The 6-speed manual Juke — especially the NISMO — is fun to drive hard, and clutches wear with that use. Slipping under boost, a high engagement point, or a burning smell after spirited driving point to a worn clutch. We replace it with a quality OEM-spec kit.",
+          "desc": "The 6-speed manual Juke, especially the NISMO, is fun to drive hard, and clutches wear with that use. Slipping under boost, a high engagement point, or a burning smell after spirited driving point to a worn clutch. We replace it with a quality OEM-spec kit.",
           "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
@@ -2508,12 +2508,12 @@ module.exports = {
         },
         {
           "title": "CV Axle Clicking on Turns",
-          "desc": "Front-drive and AWD Jukes both have front CV axles that wear as their boots crack and lose grease. A rhythmic clicking on turns — loudest at low speed in a parking lot — is the sign. We replace the complete axle shaft for a durable, lasting repair.",
+          "desc": "Front-drive and AWD Jukes both have front CV axles that wear as their boots crack and lose grease. A rhythmic clicking on turns, loudest at low speed in a parking lot, is the sign. We replace the complete axle shaft for a durable, lasting repair.",
           "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
-          "title": "Check Engine Light — Boost and Sensor Codes",
+          "title": "Check Engine Light, Boost and Sensor Codes",
           "desc": "As the turbocharged MR16DDT ages, it can set boost-related, oxygen sensor, or evaporative-emissions codes. With Utah's emissions testing, the light needs a real fix. We scan for the codes, confirm the genuine cause, and repair what actually failed.",
           "serviceSlug": null,
           "symptomSlug": "/symptoms/check-engine-light"
@@ -2522,8 +2522,8 @@ module.exports = {
       "whoContent": {
         "heading": "Who to Trust for Nissan Juke Repair in South Salt Lake",
         "paras": [
-          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer — the mechanic who diagnoses your Juke is the one who repairs it. For a turbocharged car, that direct relationship gets you accurate answers and honest estimates.",
-          "We've worked on Jukes across the F15 run — early turbo crossovers, facelifted cars, and hard-driven NISMOs, both manual and CVT. Whether your Juke needs a clutch, CVT fluid service, brakes, a CV axle, or just an honest opinion on a noise, you'll get a straight assessment and a written estimate before any work begins."
+          "Scott's Auto & Clutch Repair has been independently owned and operating at the same South Salt Lake location since 1990. We're not a chain, and there's no service-advisor layer, the mechanic who diagnoses your Juke is the one who repairs it. For a turbocharged car, that direct relationship gets you accurate answers and honest estimates.",
+          "We've worked on Jukes across the F15 run, early turbo crossovers, facelifted cars, and hard-driven NISMOs, both manual and CVT. Whether your Juke needs a clutch, CVT fluid service, brakes, a CV axle, or just an honest opinion on a noise, you'll get a straight assessment and a written estimate before any work begins."
         ]
       },
       "process": [
@@ -2535,7 +2535,7 @@ module.exports = {
         {
           "step": 2,
           "title": "Free Diagnostic Inspection",
-          "desc": "We road test your Juke, scan for stored codes, check fluid condition — including oil and CVT fluid — and inspect what the symptom points to, before any repair."
+          "desc": "We road test your Juke, scan for stored codes, check fluid condition, including oil and CVT fluid, and inspect what the symptom points to, before any repair."
         },
         {
           "step": 3,
@@ -2586,17 +2586,17 @@ module.exports = {
         }
       ],
       "tips": [
-        "Oil changes matter more on a turbo: the Juke's 1.6L turbo is hard on oil, and Utah's summer heat and canyon climbs add to that. Stick to a shorter oil change interval with the correct Nissan-spec oil — clean oil is the single best thing you can do for turbo longevity.",
+        "Oil changes matter more on a turbo: the Juke's 1.6L turbo is hard on oil, and Utah's summer heat and canyon climbs add to that. Stick to a shorter oil change interval with the correct Nissan-spec oil, clean oil is the single best thing you can do for turbo longevity.",
         "Let the turbo cool down: after a hard drive or a canyon climb, give the Juke a minute of idle before shutting it off so the turbo bearings get oil and don't bake the residual oil into deposits.",
         "CVT fluid in Utah heat: if your Juke has the CVT, have the fluid checked and serviced with genuine Nissan-spec fluid every 30,000–60,000 miles. Our hot summers degrade CVT fluid faster, and fresh fluid prevents an expensive transmission failure."
       ],
       "faqs": [
         {
           "q": "How often should I change the oil on a turbocharged Nissan Juke?",
-          "a": "More often than a non-turbo car. The Juke's 1.6L turbo runs hot and is hard on oil, so we recommend a shorter interval with the correct Nissan-spec oil — especially with Utah's summer heat and canyon driving. Clean oil is the key to a long turbo life."
+          "a": "More often than a non-turbo car. The Juke's 1.6L turbo runs hot and is hard on oil, so we recommend a shorter interval with the correct Nissan-spec oil, especially with Utah's summer heat and canyon driving. Clean oil is the key to a long turbo life."
         },
         {
-          "q": "My Juke's CVT is shuddering — what's the fix?",
+          "q": "My Juke's CVT is shuddering. What's the fix?",
           "a": "A shudder during acceleration is usually degraded or overheated CVT fluid. Bring it in and we'll check the fluid condition. A proper service with genuine Nissan-spec fluid often resolves it; if the transmission itself is failing, we'll tell you honestly."
         },
         {
@@ -2609,7 +2609,7 @@ module.exports = {
         },
         {
           "q": "Can you tow my Juke to the shop?",
-          "a": "Yes. We work with local tow providers and can coordinate getting your Juke to our South Salt Lake shop. Just call or text us and we'll help arrange it — you don't need to handle towing yourself."
+          "a": "Yes. We work with local tow providers and can coordinate getting your Juke to our South Salt Lake shop. Just call or text us and we'll help arrange it, you don't need to handle towing yourself."
         },
         {
           "q": "How long will my Juke be in the shop?",

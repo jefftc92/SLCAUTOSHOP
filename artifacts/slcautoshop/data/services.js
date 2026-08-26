@@ -12,7 +12,7 @@ const services = [
     heading: "Clutch Repair & Replacement in Salt Lake City, UT",
     metaDesc: "Clutch slipping, grinding, or hard to shift? We've specialized in clutch replacement for 36+ years. Free diagnosis. Call (801) 485-4089.",
     heroIntro: "Scott's has specialized in clutch repair since 1990. It's literally in the name. Free diagnosis. Written estimate. No surprises.",
-    shortDefinition: "A clutch connects your engine to your transmission so you can change gears — press the pedal, the connection breaks, you shift, release the pedal, it reconnects. The system has several components (disc, pressure plate, flywheel, hydraulic cylinders), and when any of them wear out, you feel it as slipping, grinding, or a pedal that doesn't feel right. Our service page explains exactly what we inspect and how we diagnose each issue.",
+    shortDefinition: "A clutch connects your engine to your transmission so you can change gears, press the pedal, the connection breaks, you shift, release the pedal, it reconnects. The system has several components (disc, pressure plate, flywheel, hydraulic cylinders), and when any of them wear out, you feel it as slipping, grinding, or a pedal that doesn't feel right. Our service page explains exactly what we inspect and how we diagnose each issue.",
     intro: "",
     hideServicesSection: true,
     specializedServices: [
@@ -51,12 +51,12 @@ const services = [
       {
         step: 1,
         title: "Tell Us What's Going On",
-        desc: "Slipping, grinding, a strange noise, a pedal that feels different than it used to — whatever you're noticing, describe it. Even 'something just feels off' is enough to get started."
+        desc: "Slipping, grinding, a strange noise, a pedal that feels different than it used to, whatever you're noticing, describe it. Even 'something just feels off' is enough to get started."
       },
       {
         step: 2,
         title: "We Find the Real Cause",
-        desc: "We check the whole system before recommending anything. A lot of clutch problems that look like a worn disc turn out to be something smaller — and diagnosing it correctly first saves you money."
+        desc: "We check the whole system before recommending anything. A lot of clutch problems that look like a worn disc turn out to be something smaller, and diagnosing it correctly first saves you money."
       },
       {
         step: 3,
@@ -66,18 +66,18 @@ const services = [
       {
         step: 4,
         title: "We Fix What Your Car Needs",
-        desc: "We do the work the diagnosis calls for — not more. We also check nearby parts while we're in there, so nothing gets missed that would cause a problem later."
+        desc: "We do the work the diagnosis calls for, not more. We also check nearby parts while we're in there, so nothing gets missed that would cause a problem later."
       },
       {
         step: 5,
         title: "You Get It Back Road-Tested",
-        desc: "Every clutch repair ends with a real road test — through the gears, uphill, under load. We don't hand the keys back until it drives right."
+        desc: "Every clutch repair ends with a real road test, through the gears, uphill, under load. We don't hand the keys back until it drives right."
       }
     ],
     commonIssues: [
       {
         title: "Clutch Slipping",
-        desc: "Engine revs but the car doesn't accelerate—the clutch disc can no longer grip the flywheel under load.",
+        desc: "Engine revs but the car doesn't accelerate. The clutch disc can no longer grip the flywheel under load.",
         symptomSlug: "clutch-slipping"
       },
       {
@@ -87,7 +87,7 @@ const services = [
       },
       {
         title: "Grinding When Shifting",
-        desc: "Grinding into gear means the clutch isn't fully disengaging—could be hydraulics, the cable, or the throw-out bearing.",
+        desc: "Grinding into gear means the clutch isn't fully disengaging, could be hydraulics, the cable, or the throw-out bearing.",
         symptomSlug: "grinding-when-shifting"
       },
       {
@@ -109,13 +109,13 @@ const services = [
       {
         heading: "Your Clutch Is Slipping. Is It Actually the Disc?",
         paras: [
-          "Not necessarily. A clutch slipping under load is the classic symptom of a worn disc — but a failing hydraulic system produces the exact same feeling. Before we recommend anything, we run through three checks: hydraulic pressure and cylinder condition, oil leaks at the rear main seal and transmission input shaft, and the flywheel surface. In a meaningful share of clutch slipping cases, the disc itself is fine and only the hydraulic system needs work. Replacing a disc on a car that has a cylinder problem doesn't fix the symptom — it just adds cost.",
+          "Not necessarily. A clutch slipping under load is the classic symptom of a worn disc, but a failing hydraulic system produces the exact same feeling. Before we recommend anything, we run through three checks: hydraulic pressure and cylinder condition, oil leaks at the rear main seal and transmission input shaft, and the flywheel surface. In a meaningful share of clutch slipping cases, the disc itself is fine and only the hydraulic system needs work. Replacing a disc on a car that has a cylinder problem doesn't fix the symptom, it just adds cost.",
           "A clutch isn't a single part. It's a system of components that work together to connect and disconnect your engine from your transmission. When one part wears or fails, others are often affected. Here's what's in the system and what we inspect on every clutch job.",
-          "<strong>Clutch disc</strong> — the friction plate that clamps between the flywheel and pressure plate. This is the part that wears with normal use. When the friction material wears thin or becomes glazed, the disc can no longer grip under load — the classic clutch slip condition.",
-          "<strong>Pressure plate</strong> — the spring-loaded clamp that holds the disc against the flywheel. Pressure plates can lose clamping force, crack, or develop hot spots from extended slipping. We inspect the pressure plate condition any time the clutch is accessible.",
-          "<strong>Flywheel</strong> — the heavy rotating disc bolted to the engine crankshaft that the clutch disc grips against. A glazed, scored, or heat-cracked flywheel surface causes a new disc to slip prematurely. We measure flywheel runout and inspect surface condition on every clutch job.",
-          "<strong>Throw-out bearing</strong> — the bearing that contacts the pressure plate fingers when you press the clutch pedal. A worn throw-out bearing squeals or chirps when the pedal is depressed. Since it's accessible during any clutch job, we replace it as part of every complete clutch service.",
-          "<strong>Hydraulic system</strong> — on hydraulically-actuated clutches, the master cylinder at the pedal and the slave cylinder at the transmission convert pedal pressure into clutch release force. A failing cylinder or air in the line produces symptoms identical to a worn disc. We diagnose the hydraulic system before recommending any disc replacement.",
+          "<strong>Clutch disc</strong>: the friction plate that clamps between the flywheel and pressure plate. This is the part that wears with normal use. When the friction material wears thin or becomes glazed, the disc can no longer grip under load, the classic clutch slip condition.",
+          "<strong>Pressure plate</strong>: the spring-loaded clamp that holds the disc against the flywheel. Pressure plates can lose clamping force, crack, or develop hot spots from extended slipping. We inspect the pressure plate condition any time the clutch is accessible.",
+          "<strong>Flywheel</strong>: the heavy rotating disc bolted to the engine crankshaft that the clutch disc grips against. A glazed, scored, or heat-cracked flywheel surface causes a new disc to slip prematurely. We measure flywheel runout and inspect surface condition on every clutch job.",
+          "<strong>Throw-out bearing</strong>: the bearing that contacts the pressure plate fingers when you press the clutch pedal. A worn throw-out bearing squeals or chirps when the pedal is depressed. Since it's accessible during any clutch job, we replace it as part of every complete clutch service.",
+          "<strong>Hydraulic system</strong>: on hydraulically-actuated clutches, the master cylinder at the pedal and the slave cylinder at the transmission convert pedal pressure into clutch release force. A failing cylinder or air in the line produces symptoms identical to a worn disc. We diagnose the hydraulic system before recommending any disc replacement.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -133,7 +133,7 @@ const services = [
       {
         heading: "How Long Can You Drive on a Slipping Clutch?",
         paras: [
-          "Not long — and the longer you wait, the more expensive it gets. A slipping disc generates heat with every engagement. That heat glazes the flywheel surface, and a glazed flywheel destroys a new disc within months. What starts as a disc-only job becomes a disc-and-flywheel job, sometimes a disc-flywheel-and-seal job. The cost compounds quickly.",
+          "Not long, and the longer you wait, the more expensive it gets. A slipping disc generates heat with every engagement. That heat glazes the flywheel surface, and a glazed flywheel destroys a new disc within months. What starts as a disc-only job becomes a disc-and-flywheel job, sometimes a disc-flywheel-and-seal job. The cost compounds quickly.",
           "Any change in how your clutch feels or behaves is worth a free diagnosis: slipping under load, grinding when shifting, difficulty into first or reverse, a soft or spongy pedal, a burning smell in stop-and-go or on hills, squealing when the pedal is pressed, or a pedal that just feels different than it used to. We'll tell you exactly what's going on before recommending anything."
         ]
       }
@@ -169,7 +169,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       },
       {
         q: "Do you offer towing if my vehicle can't be driven?",
@@ -200,7 +200,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — no charge to inspect the full clutch system"
+        value: "Yes. No charge to inspect the full clutch system"
       },
       {
         label: "Includes",
@@ -220,11 +220,11 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs"
+        value: "All makes and models, domestic, import, trucks, SUVs"
       },
       {
         label: "Free Towing",
-        value: "Included on repairs over $1,000 — we cover the tow to our shop"
+        value: "Included on repairs over $1,000, we cover the tow to our shop"
       }
     ],
     hasGeoPages: true,
@@ -239,7 +239,7 @@ const services = [
     name: "CV Joint Repair",
     fullName: "CV Joint & Axle Repair",
     shortDesc: "CV joint replacement, CV axle repair, and CV boot service.",
-    shortDefinition: "A CV axle is the shaft that sends power from your engine to your wheels, and it has flexible joints at each end so it can move with your steering and suspension. When one of those joints wears out, you usually hear a clicking sound when you turn. Catching it early — often just a torn rubber boot — can save you from a full axle replacement. Visit our service page to see what we inspect.",
+    shortDefinition: "A CV axle is the shaft that sends power from your engine to your wheels, and it has flexible joints at each end so it can move with your steering and suspension. When one of those joints wears out, you usually hear a clicking sound when you turn. Catching it early, often just a torn rubber boot, can save you from a full axle replacement. Visit our service page to see what we inspect.",
     image: "/assets/cv-joint-400-DttndxJM.webp",
     heroImage: "/assets/cv-joint-400-DttndxJM.webp",
     metaTitle: "CV Joint Repair Salt Lake City UT | Axle & Boot Service",
@@ -329,11 +329,11 @@ const services = [
       {
         heading: "What Does CV Joint Repair Actually Involve?",
         paras: [
-          "A CV axle is the shaft that transfers engine power from your transmission to your wheels. Each axle has two constant-velocity joints that allow the shaft to flex with suspension movement and steering without binding. The photo here shows the difference clearly: the dark corroded axle at the top shows what happens when the rubber boot tears — grease escapes, road grit gets in, and the ball bearings inside wear against each other, which is what causes the clicking you hear on turns. The clean axle at the bottom has an intact accordion boot with a fresh clamp; as long as that boot stays sealed, the joint can last the life of the vehicle.",
-          "<strong>Outer CV joint</strong> — connects the axle to the wheel hub and handles the sharp angles of steering. This joint takes the most stress during tight turns and is the one that produces the classic clicking sound when it wears.",
-          "<strong>Inner CV joint</strong> — connects the axle to the <a href='/services/transmission-repair-near-south-salt-lake-ut'>transmission</a> and handles the up-and-down plunge movement of the suspension. Wear here typically shows up as a shudder or vibration under acceleration.",
-          "<strong>CV boots</strong> — rubber covers that seal grease inside the joints and keep road debris out. A torn boot is the most common cause of joint failure. If caught early, a boot replacement can save the joint. If ignored, grit gets in and destroys the joint.",
-          "<strong>Axle seals</strong> — where the axle meets the <a href='/services/transmission-repair-near-south-salt-lake-ut'>transmission</a>, a seal keeps transmission fluid from migrating into the boot. A seeping seal contaminates the CV grease and shortens the axle's life.",
+          "A CV axle is the shaft that transfers engine power from your transmission to your wheels. Each axle has two constant-velocity joints that allow the shaft to flex with suspension movement and steering without binding. The photo here shows the difference clearly: the dark corroded axle at the top shows what happens when the rubber boot tears, grease escapes, road grit gets in, and the ball bearings inside wear against each other, which is what causes the clicking you hear on turns. The clean axle at the bottom has an intact accordion boot with a fresh clamp; as long as that boot stays sealed, the joint can last the life of the vehicle.",
+          "<strong>Outer CV joint</strong>: connects the axle to the wheel hub and handles the sharp angles of steering. This joint takes the most stress during tight turns and is the one that produces the classic clicking sound when it wears.",
+          "<strong>Inner CV joint</strong>: connects the axle to the <a href='/services/transmission-repair-near-south-salt-lake-ut'>transmission</a> and handles the up-and-down plunge movement of the suspension. Wear here typically shows up as a shudder or vibration under acceleration.",
+          "<strong>CV boots</strong>: rubber covers that seal grease inside the joints and keep road debris out. A torn boot is the most common cause of joint failure. If caught early, a boot replacement can save the joint. If ignored, grit gets in and destroys the joint.",
+          "<strong>Axle seals</strong>: where the axle meets the <a href='/services/transmission-repair-near-south-salt-lake-ut'>transmission</a>, a seal keeps transmission fluid from migrating into the boot. A seeping seal contaminates the CV grease and shortens the axle's life.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -348,7 +348,7 @@ const services = [
       {
         heading: "Can You Drive with a Bad CV Joint?",
         paras: [
-          "You can — for a while — but a clicking CV joint that's ignored will eventually fail completely, and it usually happens without warning. What started as a boot-only repair becomes a full axle job once grit has worked into the joint. A worn inner joint under load can cause loss of drive on hard acceleration. Getting it looked at early keeps a straightforward repair from becoming a more expensive one.",
+          "You can, for a while, but a clicking CV joint that's ignored will eventually fail completely, and it usually happens without warning. What started as a boot-only repair becomes a full axle job once grit has worked into the joint. A worn inner joint under load can cause loss of drive on hard acceleration. Getting it looked at early keeps a straightforward repair from becoming a more expensive one.",
           "The most common reasons drivers come in are clicking or popping when turning, vibration that builds during acceleration, a dark grease residue on the inside of a wheel or tire, a clunking sound when shifting between drive and reverse, or a boot they've noticed is torn during a tire rotation. Any of those is worth a free diagnosis. We'll tell you exactly what's going on before recommending anything."
         ]
       }
@@ -384,7 +384,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       }
     ],
     whoContent: {
@@ -401,7 +401,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — free inspection to identify the exact joint or axle"
+        value: "Yes. Free inspection to identify the exact joint or axle"
       },
       {
         label: "Includes",
@@ -409,7 +409,7 @@ const services = [
       },
       {
         label: "Most Common Cause",
-        value: "Torn CV boot lets grit in — clicking during turns is the first sign"
+        value: "Torn CV boot lets grit in, clicking during turns is the first sign"
       },
       {
         label: "Services Covered",
@@ -421,7 +421,7 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs"
+        value: "All makes and models, domestic, import, trucks, SUVs"
       }
     ],
     hasGeoPages: false,
@@ -437,7 +437,7 @@ const services = [
     name: "Brake Service",
     fullName: "Brake Repair & Service",
     shortDesc: "Brake pads, rotors, calipers, and complete brake system repair.",
-    shortDefinition: "Your brakes have pads that press against metal discs to slow you down. Over time the pads wear thin and need replacing — if you hear squealing, that's the built-in warning. Ignoring it long enough leads to grinding, which damages the discs and costs more to fix. See our service page for everything we check during a brake inspection.",
+    shortDefinition: "Your brakes have pads that press against metal discs to slow you down. Over time the pads wear thin and need replacing, if you hear squealing, that's the built-in warning. Ignoring it long enough leads to grinding, which damages the discs and costs more to fix. See our service page for everything we check during a brake inspection.",
     image: "/assets/brake-400-CLKCOOBz.webp",
     heroImage: "/assets/brake-400-CLKCOOBz.webp",
     metaTitle: "Brake Service South Salt Lake UT | Pads, Rotors & Calipers",
@@ -498,7 +498,7 @@ const services = [
       {
         step: 4,
         title: "Brake Repair",
-        desc: "We address what the inspection found—nothing more, nothing less."
+        desc: "We address what the inspection found, nothing more, nothing less."
       },
       {
         step: 5,
@@ -509,7 +509,7 @@ const services = [
     commonIssues: [
       {
         title: "Squeaking Brakes",
-        desc: "Squealing when braking usually means pads have worn to the built-in wear indicator—often caught before rotors are damaged.",
+        desc: "Squealing when braking usually means pads have worn to the built-in wear indicator, often caught before rotors are damaged.",
         symptomSlug: "squeaking-brakes"
       },
       {
@@ -532,12 +532,12 @@ const services = [
       {
         heading: "What Does Brake Service Actually Involve?",
         paras: [
-          "Your brake system has several components that work together to slow the vehicle. When any one of them wears or fails, it affects the rest. The two pads in the photo show exactly how this plays out: the worn pad on the left has almost no friction material left — the surface is grooved and the metal backing is already contacting the rotor on every stop, scoring it. The new pad on the right still has its full thickness, and you can see the small metal wear indicator tab at the bottom that starts squealing when you're down to 2–3mm, giving you a warning window before damage occurs. Here's what we inspect on every brake job.",
-          "<strong>Brake pads</strong> — the friction material that clamps against the rotor to slow the wheel. Pads wear gradually and have a built-in wear indicator that starts squealing when they're getting thin. Once they're gone, rotors take the damage.",
-          "<strong>Rotors</strong> — the discs that rotate with the wheel. We measure thickness and runout before deciding whether to resurface or replace. Warped rotors cause the pulsation you feel through the pedal or steering wheel when braking.",
-          "<strong>Calipers and slide pins</strong> — the calipers squeeze the pads against the rotor using hydraulic pressure. They float on slide pins that must move freely. A seized slide pin causes one pad to drag constantly, wearing unevenly and building heat.",
-          "<strong>Brake fluid</strong> — the hydraulic fluid that transfers pedal force to the calipers. Fluid absorbs moisture over time, which lowers its boiling point. On canyon descents or repeated hard stops, degraded fluid can briefly vaporize and cause a soft pedal.",
-          "<strong>Brake lines and hoses</strong> — carry fluid from the master cylinder to the calipers. Rubber hoses can swell internally and trap pressure, causing a dragging caliper even after you release the pedal.",
+          "Your brake system has several components that work together to slow the vehicle. When any one of them wears or fails, it affects the rest. The two pads in the photo show exactly how this plays out: the worn pad on the left has almost no friction material left. The surface is grooved and the metal backing is already contacting the rotor on every stop, scoring it. The new pad on the right still has its full thickness, and you can see the small metal wear indicator tab at the bottom that starts squealing when you're down to 2–3mm, giving you a warning window before damage occurs. Here's what we inspect on every brake job.",
+          "<strong>Brake pads</strong>: the friction material that clamps against the rotor to slow the wheel. Pads wear gradually and have a built-in wear indicator that starts squealing when they're getting thin. Once they're gone, rotors take the damage.",
+          "<strong>Rotors</strong>: the discs that rotate with the wheel. We measure thickness and runout before deciding whether to resurface or replace. Warped rotors cause the pulsation you feel through the pedal or steering wheel when braking.",
+          "<strong>Calipers and slide pins</strong>: the calipers squeeze the pads against the rotor using hydraulic pressure. They float on slide pins that must move freely. A seized slide pin causes one pad to drag constantly, wearing unevenly and building heat.",
+          "<strong>Brake fluid</strong>: the hydraulic fluid that transfers pedal force to the calipers. Fluid absorbs moisture over time, which lowers its boiling point. On canyon descents or repeated hard stops, degraded fluid can briefly vaporize and cause a soft pedal.",
+          "<strong>Brake lines and hoses</strong>: carry fluid from the master cylinder to the calipers. Rubber hoses can swell internally and trap pressure, causing a dragging caliper even after you release the pedal.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -555,7 +555,7 @@ const services = [
       {
         heading: "How Long Can You Drive on Worn Brakes?",
         paras: [
-          "Not far past the squealing stage. Brakes that are ignored start grinding, and grinding brakes score the rotors with every stop — what was a pad-only job becomes a pad-plus-rotors job. A soft pedal that keeps getting softer usually means a hydraulic component is on its way out entirely. Utah's canyon grades and stop-and-go traffic wear brakes faster than flat-highway driving, so waiting tends to cost more in the end.",
+          "Not far past the squealing stage. Brakes that are ignored start grinding, and grinding brakes score the rotors with every stop, what was a pad-only job becomes a pad-plus-rotors job. A soft pedal that keeps getting softer usually means a hydraulic component is on its way out entirely. Utah's canyon grades and stop-and-go traffic wear brakes faster than flat-highway driving, so waiting tends to cost more in the end.",
           "The most common reasons drivers come in are squealing or grinding when braking, a pedal that feels lower or softer than usual, vibration or pulsation through the pedal or steering wheel, pulling to one side under braking, or a brake warning light. Any of those is worth a free brake inspection. We'll tell you exactly what's going on before recommending anything."
         ]
       }
@@ -595,7 +595,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       }
     ],
     whoContent: {
@@ -612,7 +612,7 @@ const services = [
       },
       {
         label: "Free Inspection",
-        value: "Yes — free brake inspection before any work is recommended"
+        value: "Yes. Free brake inspection before any work is recommended"
       },
       {
         label: "Includes",
@@ -624,7 +624,7 @@ const services = [
       },
       {
         label: "Most Common Issue",
-        value: "Worn pads — squealing is the early warning; grinding means metal-on-metal"
+        value: "Worn pads, squealing is the early warning; grinding means metal-on-metal"
       },
       {
         label: "Warranty",
@@ -632,7 +632,7 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs"
+        value: "All makes and models, domestic, import, trucks, SUVs"
       }
     ],
     hasGeoPages: false,
@@ -652,7 +652,7 @@ const services = [
     heroImage: "/assets/timing-chain-400-DglkDYua.webp",
     metaTitle: "Timing Chain Repair Salt Lake City UT | Engine Rattling?",
     heading: "Timing Chain Replacement in Salt Lake City, UT",
-    metaDesc: "Engine rattling on startup? Don't wait—timing chain failure can destroy your engine. Free diagnosis at Scott's Auto. Call (801) 485-4089.",
+    metaDesc: "Engine rattling on startup? Don't wait, timing chain failure can destroy your engine. Free diagnosis at Scott's Auto. Call (801) 485-4089.",
     heroIntro: "Engine rattling at startup? That's a worn timing chain, and it gets worse the longer you wait. Free diagnosis. Written estimate. No surprises.",
     intro: "",
     hideServicesSection: true,
@@ -713,7 +713,7 @@ const services = [
     commonIssues: [
       {
         title: "Rattling on Startup",
-        desc: "A loose timing chain slaps against the guides at startup before oil pressure builds—a clear sign the chain needs attention.",
+        desc: "A loose timing chain slaps against the guides at startup before oil pressure builds, a clear sign the chain needs attention.",
         symptomSlug: "engine-rattling"
       },
       {
@@ -735,10 +735,10 @@ const services = [
         heading: "What Does Timing Chain Replacement Actually Involve?",
         paras: [
           "The timing chain keeps your engine's crankshaft and camshaft synchronized. When it stretches or fails, the entire valve timing sequence falls out of spec and the engine can be seriously damaged.",
-          "<strong>Timing chain</strong> — the load-bearing link between the crank and cam sprockets. Chains stretch gradually over time, especially on engines with irregular oil changes. A stretched chain slaps against the guides at startup before oil pressure builds enough to tension it.",
-          "<strong>Chain guides</strong> — plastic rails the chain runs against. They wear as the chain contacts them through millions of cycles. A chain replacement without guide replacement leaves the new chain running against worn plastic.",
-          "<strong>Hydraulic tensioner</strong> — uses oil pressure to push a slipper against the chain and maintain tension as the chain stretches. If tensioner oil passages are sludged, the tensioner can't do its job even after a new chain is installed.",
-          "<strong>VVT components</strong> — many modern engines use variable valve timing solenoids and phasers that work in conjunction with the chain. Timing-related fault codes (P0016, P0017) often involve these components alongside chain stretch.",
+          "<strong>Timing chain</strong>: the load-bearing link between the crank and cam sprockets. Chains stretch gradually over time, especially on engines with irregular oil changes. A stretched chain slaps against the guides at startup before oil pressure builds enough to tension it.",
+          "<strong>Chain guides</strong>: plastic rails the chain runs against. They wear as the chain contacts them through millions of cycles. A chain replacement without guide replacement leaves the new chain running against worn plastic.",
+          "<strong>Hydraulic tensioner</strong>: uses oil pressure to push a slipper against the chain and maintain tension as the chain stretches. If tensioner oil passages are sludged, the tensioner can't do its job even after a new chain is installed.",
+          "<strong>VVT components</strong>: many modern engines use variable valve timing solenoids and phasers that work in conjunction with the chain. Timing-related fault codes (P0016, P0017) often involve these components alongside chain stretch.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -789,7 +789,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       },
       {
         q: "Do you offer towing if my vehicle can't be driven?",
@@ -810,7 +810,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — we verify chain stretch with measurement before recommending replacement"
+        value: "Yes. We verify chain stretch with measurement before recommending replacement"
       },
       {
         label: "Includes",
@@ -830,11 +830,11 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs"
+        value: "All makes and models, domestic, import, trucks, SUVs"
       },
       {
         label: "Free Towing",
-        value: "Included on repairs over $1,000 — we cover the tow to our shop"
+        value: "Included on repairs over $1,000, we cover the tow to our shop"
       }
     ],
     hasGeoPages: false,
@@ -849,7 +849,7 @@ const services = [
     name: "Water Pump",
     fullName: "Water Pump Replacement",
     shortDesc: "Water pump repair and replacement to prevent overheating.",
-    shortDefinition: "Your water pump keeps coolant moving through the engine to prevent it from overheating — think of it like the heart of your car's cooling system. When it starts to fail, you may see a small coolant drip near the front of the engine or notice the temperature gauge creeping up. Catching it early avoids the much bigger cost of a damaged engine. See our service page for what we inspect and check.",
+    shortDefinition: "Your water pump keeps coolant moving through the engine to prevent it from overheating, think of it like the heart of your car's cooling system. When it starts to fail, you may see a small coolant drip near the front of the engine or notice the temperature gauge creeping up. Catching it early avoids the much bigger cost of a damaged engine. See our service page for what we inspect and check.",
     image: "/assets/water-pump-400-D_c-HhIr.webp",
     heroImage: "/assets/water-pump-400-D_c-HhIr.webp",
     metaTitle: "Water Pump Replacement South Salt Lake UT | Cooling System",
@@ -935,11 +935,11 @@ const services = [
       {
         heading: "What Does Water Pump Replacement Actually Involve?",
         paras: [
-          "The water pump is what keeps coolant moving through your engine. When it fails, the engine overheats. The two pumps in the photo show one of the more deceptive failure modes: the pump on the left is new, with seven full aluminum fins that push coolant through the system efficiently. The pump on the right still has an intact shaft that spins — but the impeller fins have been almost completely eaten away by corrosion, so it moves almost no coolant. The engine runs hot even though nothing appears seized, which is why overheating doesn't always point to an obvious failure. Most water pumps give some warning before they fail completely, which is the time to act.",
-          "<strong>Water pump body and shaft seal</strong> — the pump turns a vane wheel inside the engine, driven by the <a href='/services/timing-belt-replacement-near-south-salt-lake-ut'>timing belt</a>, <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>timing chain</a>, or a separate drive belt. When the shaft seal fails, coolant leaks out through the weep hole near the front of the engine. That drip is a designed warning signal built into the pump.",
-          "<strong>Impeller</strong> — the internal vane wheel that actually moves the coolant. On some pumps, the impeller can corrode away or separate from the shaft without any external leak. The pump turns but circulates almost no coolant, causing the engine to run hot with no visible puddle to explain it.",
-          "<strong>Thermostat</strong> — a valve that controls how much coolant flows to the radiator based on temperature. Its labor overlaps with the water pump on most engines. We recommend replacing it at the same time rather than leaving an aging thermostat in against a new pump.",
-          "<strong>Coolant hoses</strong> — we inspect all hoses while the system is open. A softened or blistered hose should be addressed before it fails on a recently repaired cooling system.",
+          "The water pump is what keeps coolant moving through your engine. When it fails, the engine overheats. The two pumps in the photo show one of the more deceptive failure modes: the pump on the left is new, with seven full aluminum fins that push coolant through the system efficiently. The pump on the right still has an intact shaft that spins, but the impeller fins have been almost completely eaten away by corrosion, so it moves almost no coolant. The engine runs hot even though nothing appears seized, which is why overheating doesn't always point to an obvious failure. Most water pumps give some warning before they fail completely, which is the time to act.",
+          "<strong>Water pump body and shaft seal</strong>: the pump turns a vane wheel inside the engine, driven by the <a href='/services/timing-belt-replacement-near-south-salt-lake-ut'>timing belt</a>, <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>timing chain</a>, or a separate drive belt. When the shaft seal fails, coolant leaks out through the weep hole near the front of the engine. That drip is a designed warning signal built into the pump.",
+          "<strong>Impeller</strong>: the internal vane wheel that actually moves the coolant. On some pumps, the impeller can corrode away or separate from the shaft without any external leak. The pump turns but circulates almost no coolant, causing the engine to run hot with no visible puddle to explain it.",
+          "<strong>Thermostat</strong>: a valve that controls how much coolant flows to the radiator based on temperature. Its labor overlaps with the water pump on most engines. We recommend replacing it at the same time rather than leaving an aging thermostat in against a new pump.",
+          "<strong>Coolant hoses</strong>: we inspect all hoses while the system is open. A softened or blistered hose should be addressed before it fails on a recently repaired cooling system.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -990,7 +990,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       }
     ],
     whoContent: {
@@ -1007,7 +1007,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — cooling system pressure test confirms the pump is the source before work begins"
+        value: "Yes. Cooling system pressure test confirms the pump is the source before work begins"
       },
       {
         label: "Includes",
@@ -1027,7 +1027,7 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs"
+        value: "All makes and models, domestic, import, trucks, SUVs"
       }
     ],
     hasGeoPages: false,
@@ -1062,7 +1062,7 @@ const services = [
     whyUs: [
       {
         title: "In-House Welding",
-        desc: "Our welding capability means many exhaust leaks and cracks can be repaired without replacing the full section—saving you money."
+        desc: "Our welding capability means many exhaust leaks and cracks can be repaired without replacing the full section, saving you money."
       },
       {
         title: "Emissions Compliance",
@@ -1070,7 +1070,7 @@ const services = [
       },
       {
         title: "Full System Inspection",
-        desc: "We inspect from manifold to tailpipe—finding all issues at once rather than treating symptoms one at a time."
+        desc: "We inspect from manifold to tailpipe, finding all issues at once rather than treating symptoms one at a time."
       },
       {
         title: "Repair or Replace",
@@ -1114,7 +1114,7 @@ const services = [
       },
       {
         title: "Exhaust Smell in Cabin",
-        desc: "Exhaust fumes entering the cabin is a safety issue—carbon monoxide is dangerous at low concentrations.",
+        desc: "Exhaust fumes entering the cabin is a safety issue, carbon monoxide is dangerous at low concentrations.",
         symptomSlug: "exhaust-smell-in-cabin"
       },
       {
@@ -1132,11 +1132,11 @@ const services = [
         heading: "What Does Exhaust Repair Actually Involve?",
         paras: [
           "Your exhaust system runs from the engine's exhaust manifold all the way to the tailpipe, treating and routing combustion gases out of the vehicle. A leak anywhere in that path can cause noise, fumes in the cabin, or a failed emissions test.",
-          "<strong>Exhaust manifold</strong> — bolted directly to the engine, it collects exhaust gases from each cylinder. Manifolds crack from heat cycling and produce a cold-start ticking that quiets as the metal expands. A cracked manifold near the firewall can push fumes into the cabin.",
-          "<strong>Flex pipe</strong> — a flexible section that absorbs engine movement and vibration. Flex pipes crack and separate with age, especially on vehicles with broken hangers that let the exhaust sag and stress the flex section.",
-          "<strong><a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>Catalytic converter</a></strong> — reduces harmful emissions. We include it in every exhaust inspection even when it's not the presenting symptom.",
-          "<strong>Muffler</strong> — reduces exhaust noise. A rusted or damaged muffler produces a noticeably louder exhaust note.",
-          "<strong>Exhaust hangers</strong> — rubber-isolated mounting points that let the exhaust flex with road vibration. A broken hanger causes the exhaust to sag and stress the nearest rigid joint until it cracks. They're an inexpensive repair on their own.",
+          "<strong>Exhaust manifold</strong>: bolted directly to the engine, it collects exhaust gases from each cylinder. Manifolds crack from heat cycling and produce a cold-start ticking that quiets as the metal expands. A cracked manifold near the firewall can push fumes into the cabin.",
+          "<strong>Flex pipe</strong>: a flexible section that absorbs engine movement and vibration. Flex pipes crack and separate with age, especially on vehicles with broken hangers that let the exhaust sag and stress the flex section.",
+          "<strong><a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>Catalytic converter</a></strong>: reduces harmful emissions. We include it in every exhaust inspection even when it's not the presenting symptom.",
+          "<strong>Muffler</strong>: reduces exhaust noise. A rusted or damaged muffler produces a noticeably louder exhaust note.",
+          "<strong>Exhaust hangers</strong>: rubber-isolated mounting points that let the exhaust flex with road vibration. A broken hanger causes the exhaust to sag and stress the nearest rigid joint until it cracks. They're an inexpensive repair on their own.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -1188,7 +1188,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       }
     ],
     whoContent: {
@@ -1205,11 +1205,11 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — we identify the leak source before quoting any work"
+        value: "Yes. We identify the leak source before quoting any work"
       },
       {
         label: "In-House Welding",
-        value: "Yes — one of the few independent shops in Salt Lake with welding capability for exhaust work"
+        value: "Yes. One of the few independent shops in Salt Lake with welding capability for exhaust work"
       },
       {
         label: "Includes",
@@ -1225,7 +1225,7 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs"
+        value: "All makes and models, domestic, import, trucks, SUVs"
       }
     ],
     hasGeoPages: false,
@@ -1240,7 +1240,7 @@ const services = [
     name: "Catalytic Converter",
     fullName: "Catalytic Converter Service",
     shortDesc: "Catalytic converter repair, replacement, and theft protection.",
-    shortDefinition: "The catalytic converter is a part in your exhaust system that cleans up harmful gases before they leave your tailpipe — it's required to pass a Utah emissions test. A warning light with a P0420 code or a failed emissions test often points here, but the root cause matters before replacing it. We also install protective shields, since catalytic converter theft is common in the Salt Lake area. See our service page for how we diagnose the problem.",
+    shortDefinition: "The catalytic converter is a part in your exhaust system that cleans up harmful gases before they leave your tailpipe, it's required to pass a Utah emissions test. A warning light with a P0420 code or a failed emissions test often points here, but the root cause matters before replacing it. We also install protective shields, since catalytic converter theft is common in the Salt Lake area. See our service page for how we diagnose the problem.",
     image: "/assets/catalytic-400-2YczmCtR.webp",
     heroImage: "/assets/catalytic-400-2YczmCtR.webp",
     metaTitle: "Catalytic Converter Repair South Salt Lake UT | Free Scan",
@@ -1306,7 +1306,7 @@ const services = [
     commonIssues: [
       {
         title: "Failed Emissions Test",
-        desc: "A degraded converter can't reduce pollutants to Utah's required thresholds—but the root cause matters before replacing it.",
+        desc: "A degraded converter can't reduce pollutants to Utah's required thresholds, but the root cause matters before replacing it.",
         symptomSlug: "failed-emissions"
       },
       {
@@ -1316,7 +1316,7 @@ const services = [
       },
       {
         title: "Check Engine Light",
-        desc: "P0420 or P0430 codes indicate reduced converter efficiency—diagnosis determines whether it's the converter or an upstream issue.",
+        desc: "P0420 or P0430 codes indicate reduced converter efficiency, diagnosis determines whether it's the converter or an upstream issue.",
         symptomSlug: "check-engine-light"
       },
       {
@@ -1329,10 +1329,10 @@ const services = [
         heading: "What Does Catalytic Converter Service Actually Involve?",
         paras: [
           "The catalytic converter treats exhaust gases before they exit the tailpipe, converting harmful compounds into less harmful ones. It works within a narrow operating window, and several conditions can damage it or make it appear to fail when it hasn't.",
-          "<strong>Catalytic substrate</strong> — a ceramic honeycomb coated with precious metals (platinum, palladium, rhodium) that catalyze chemical reactions in the exhaust stream. Heat overload from misfires or rich running can melt the ceramic and block exhaust flow.",
-          "<strong>Oxygen sensors</strong> — upstream and downstream sensors monitor the exhaust stream and help the ECU maintain the correct air-fuel ratio. A lazy or failing O2 sensor can trigger a P0420 code on a converter that's actually fine.",
-          "<strong>Fuel trim and misfire history</strong> — we check these before recommending a converter. A converter that's failing because of an unresolved engine condition will destroy a new one just as fast.",
-          "<strong>Anti-theft shields</strong> — heavy steel covers that bolt around the converter and require specialized tools to remove. Converter theft is a real problem in the Salt Lake Valley, and shields make most thieves move on to an easier target.",
+          "<strong>Catalytic substrate</strong>: a ceramic honeycomb coated with precious metals (platinum, palladium, rhodium) that catalyze chemical reactions in the exhaust stream. Heat overload from misfires or rich running can melt the ceramic and block exhaust flow.",
+          "<strong>Oxygen sensors</strong>: upstream and downstream sensors monitor the exhaust stream and help the ECU maintain the correct air-fuel ratio. A lazy or failing O2 sensor can trigger a P0420 code on a converter that's actually fine.",
+          "<strong>Fuel trim and misfire history</strong>: we check these before recommending a converter. A converter that's failing because of an unresolved engine condition will destroy a new one just as fast.",
+          "<strong>Anti-theft shields</strong>: heavy steel covers that bolt around the converter and require specialized tools to remove. Converter theft is a real problem in the Salt Lake Valley, and shields make most thieves move on to an easier target.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -1383,7 +1383,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       },
       {
         q: "Do you offer towing if my vehicle can't be driven?",
@@ -1404,7 +1404,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — we read and interpret all O2 sensor and catalyst efficiency codes before recommending replacement"
+        value: "Yes. We read and interpret all O2 sensor and catalyst efficiency codes before recommending replacement"
       },
       {
         label: "Includes",
@@ -1412,7 +1412,7 @@ const services = [
       },
       {
         label: "Emissions Repair",
-        value: "Yes — we repair failures tied to catalytic converter efficiency for Utah emissions testing"
+        value: "Yes. We repair failures tied to catalytic converter efficiency for Utah emissions testing"
       },
       {
         label: "Most Common Issue",
@@ -1424,11 +1424,11 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs"
+        value: "All makes and models, domestic, import, trucks, SUVs"
       },
       {
         label: "Free Towing",
-        value: "Included on repairs over $1,000 — we cover the tow to our shop"
+        value: "Included on repairs over $1,000, we cover the tow to our shop"
       }
     ],
     hasGeoPages: false,
@@ -1443,7 +1443,7 @@ const services = [
     name: "Struts",
     fullName: "Strut Replacement",
     shortDesc: "Front and rear strut replacement for a smoother, safer ride.",
-    shortDefinition: "Struts are a key part of your suspension — they absorb road bumps and keep your tires firmly on the ground. When they wear out, the car feels bouncy, the front end dips sharply when you brake, and your tires can wear unevenly. Because the wear happens slowly, most drivers don't notice how much their handling has changed until it's pointed out. See our service page for what we inspect and replace.",
+    shortDefinition: "Struts are a key part of your suspension, they absorb road bumps and keep your tires firmly on the ground. When they wear out, the car feels bouncy, the front end dips sharply when you brake, and your tires can wear unevenly. Because the wear happens slowly, most drivers don't notice how much their handling has changed until it's pointed out. See our service page for what we inspect and replace.",
     image: "/assets/struts-400-CBnjcX0e.webp",
     heroImage: "/assets/struts-400-CBnjcX0e.webp",
     metaTitle: "Strut Replacement South Salt Lake UT | Smoother Ride",
@@ -1509,7 +1509,7 @@ const services = [
     commonIssues: [
       {
         title: "Bouncy Ride",
-        desc: "The vehicle bounces two or three times after a bump instead of settling—a sign struts have lost their damping ability.",
+        desc: "The vehicle bounces two or three times after a bump instead of settling, a sign struts have lost their damping ability.",
         symptomSlug: "bouncy-ride"
       },
       {
@@ -1533,10 +1533,10 @@ const services = [
         heading: "What Does Strut Replacement Actually Involve?",
         paras: [
           "Struts serve two functions at once: they're the main suspension damper and a structural load-bearing part of the suspension. Replacing them involves more than just swapping a shock absorber.",
-          "<strong>Strut damper</strong> — the hydraulic component inside the strut that controls suspension movement. When it wears, the vehicle bounces repeatedly after bumps and pitches forward under braking instead of staying planted.",
-          "<strong>Coil spring</strong> — on most vehicles the spring is part of the strut assembly. Complete quick-strut assemblies come pre-assembled with a new spring and install as a single unit. On vehicles where the cartridge is replaced separately, a spring compressor is required to safely disassemble the strut.",
-          "<strong>Top mount and bearing</strong> — the mount connects the strut to the vehicle body, and the bearing inside allows the strut to rotate with the steering wheel. A worn mount bearing causes clunking when turning from a stop and vague steering feel. It's accessible whenever a strut is removed.",
-          "<strong>Alignment</strong> — new struts change the camber and caster angles because the new assembly has slightly different dimensions than the worn unit. Alignment after strut replacement is required, not optional. Skipping it causes accelerated inner-edge tire wear within a few thousand miles.",
+          "<strong>Strut damper</strong>: the hydraulic component inside the strut that controls suspension movement. When it wears, the vehicle bounces repeatedly after bumps and pitches forward under braking instead of staying planted.",
+          "<strong>Coil spring</strong>: on most vehicles the spring is part of the strut assembly. Complete quick-strut assemblies come pre-assembled with a new spring and install as a single unit. On vehicles where the cartridge is replaced separately, a spring compressor is required to safely disassemble the strut.",
+          "<strong>Top mount and bearing</strong>: the mount connects the strut to the vehicle body, and the bearing inside allows the strut to rotate with the steering wheel. A worn mount bearing causes clunking when turning from a stop and vague steering feel. It's accessible whenever a strut is removed.",
+          "<strong>Alignment</strong>: new struts change the camber and caster angles because the new assembly has slightly different dimensions than the worn unit. Alignment after strut replacement is required, not optional. Skipping it causes accelerated inner-edge tire wear within a few thousand miles.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -1587,7 +1587,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       },
       {
         q: "Do you offer towing if my vehicle can't be driven?",
@@ -1608,7 +1608,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — road test and visual inspection confirms strut condition before recommending replacement"
+        value: "Yes. Road test and visual inspection confirms strut condition before recommending replacement"
       },
       {
         label: "Includes",
@@ -1616,7 +1616,7 @@ const services = [
       },
       {
         label: "Replace in Pairs",
-        value: "Yes — we replace in axle pairs to maintain even handling and prevent steering pull"
+        value: "Yes. We replace in axle pairs to maintain even handling and prevent steering pull"
       },
       {
         label: "Most Common Trigger",
@@ -1628,11 +1628,11 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs"
+        value: "All makes and models, domestic, import, trucks, SUVs"
       },
       {
         label: "Free Towing",
-        value: "Included on repairs over $1,000 — we cover the tow to our shop"
+        value: "Included on repairs over $1,000, we cover the tow to our shop"
       }
     ],
     hasGeoPages: false,
@@ -1647,7 +1647,7 @@ const services = [
     name: "Timing Belt",
     fullName: "Timing Belt Replacement",
     shortDesc: "Preventive timing belt replacement before it fails.",
-    shortDefinition: "A timing belt is a rubber belt inside your engine that keeps critical parts moving in perfect sync. Unlike most car problems, it gives you no warning before it breaks — and on many engines, a snapped belt causes immediate and expensive engine damage. It's replaced on a schedule (typically every 60,000–100,000 miles) before it has a chance to fail. See our service page for what we check and which parts make sense to combine.",
+    shortDefinition: "A timing belt is a rubber belt inside your engine that keeps critical parts moving in perfect sync. Unlike most car problems, it gives you no warning before it breaks, and on many engines, a snapped belt causes immediate and expensive engine damage. It's replaced on a schedule (typically every 60,000–100,000 miles) before it has a chance to fail. See our service page for what we check and which parts make sense to combine.",
     image: "/assets/timing-belt-400-DGv-XrDO.webp",
     heroImage: "/assets/timing-belt-400-DGv-XrDO.webp",
     metaTitle: "Timing Belt Replacement Salt Lake City UT | All Makes",
@@ -1687,7 +1687,7 @@ const services = [
       {
         step: 1,
         title: "Check Interval",
-        desc: "Tell us your mileage—we'll check against your vehicle's manufacturer-recommended replacement schedule."
+        desc: "Tell us your mileage, we'll check against your vehicle's manufacturer-recommended replacement schedule."
       },
       {
         step: 2,
@@ -1712,7 +1712,7 @@ const services = [
     ],
     commonIssues: [
       {
-        title: "High Mileage — Interval Due",
+        title: "High Mileage, Interval Due",
         desc: "Most timing belts need replacement every 60,000–100,000 miles depending on the manufacturer. Check your owner's manual or ask us."
       },
       {
@@ -1729,10 +1729,10 @@ const services = [
         heading: "What Does Timing Belt Replacement Actually Involve?",
         paras: [
           "The timing belt keeps your engine's crankshaft and camshaft synchronized. It's a preventive replacement, not a repair. You replace it on schedule so it never gets the chance to fail.",
-          "<strong>Timing belt</strong> — a reinforced rubber belt that drives the camshaft from the crankshaft. Belts age from heat cycling and ozone exposure even when they look intact. Most manufacturers specify both a mileage interval (60,000 to 105,000 miles depending on the engine) and a time interval, typically 7 to 10 years.",
-          "<strong>Tensioner and idler pulleys</strong> — keep the belt at the correct tension and guide it around its path. These are accessible whenever the belt is out. Replacing them alongside the belt is far less expensive than a second timing cover removal to replace a tensioner that fails on a new belt.",
-          "<strong><a href='/services/water-pump-replacement-near-south-salt-lake-ut'>Water pump</a></strong> — on many 4-cylinder engines the water pump is driven directly off the timing belt and is accessible during the same service. Combining water pump and timing belt replacement saves several hours of labor.",
-          "<strong>Drive belts</strong> — the serpentine and other accessory drive belts are often accessible during timing belt service and worth inspecting at the same time.",
+          "<strong>Timing belt</strong>: a reinforced rubber belt that drives the camshaft from the crankshaft. Belts age from heat cycling and ozone exposure even when they look intact. Most manufacturers specify both a mileage interval (60,000 to 105,000 miles depending on the engine) and a time interval, typically 7 to 10 years.",
+          "<strong>Tensioner and idler pulleys</strong>: keep the belt at the correct tension and guide it around its path. These are accessible whenever the belt is out. Replacing them alongside the belt is far less expensive than a second timing cover removal to replace a tensioner that fails on a new belt.",
+          "<strong><a href='/services/water-pump-replacement-near-south-salt-lake-ut'>Water pump</a></strong>: on many 4-cylinder engines the water pump is driven directly off the timing belt and is accessible during the same service. Combining water pump and timing belt replacement saves several hours of labor.",
+          "<strong>Drive belts</strong>: the serpentine and other accessory drive belts are often accessible during timing belt service and worth inspecting at the same time.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -1783,7 +1783,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       },
       {
         q: "Do you offer towing if my vehicle can't be driven?",
@@ -1804,7 +1804,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — we confirm belt condition and interval before scheduling replacement"
+        value: "Yes. We confirm belt condition and interval before scheduling replacement"
       },
       {
         label: "Includes",
@@ -1812,11 +1812,11 @@ const services = [
       },
       {
         label: "Risk If Missed",
-        value: "Timing belt failure on an interference engine causes engine damage — this is a prevention-only repair"
+        value: "Timing belt failure on an interference engine causes engine damage, this is a prevention-only repair"
       },
       {
         label: "Service Interval",
-        value: "Typically 60,000–100,000 miles depending on make and model — check your owner's manual"
+        value: "Typically 60,000–100,000 miles depending on make and model, check your owner's manual"
       },
       {
         label: "Warranty",
@@ -1824,11 +1824,11 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models with timing belt engines — domestic, import, trucks, SUVs"
+        value: "All makes and models with timing belt engines, domestic, import, trucks, SUVs"
       },
       {
         label: "Free Towing",
-        value: "Included on repairs over $1,000 — we cover the tow to our shop"
+        value: "Included on repairs over $1,000, we cover the tow to our shop"
       }
     ],
     hasGeoPages: false,
@@ -1883,7 +1883,7 @@ const services = [
       {
         step: 1,
         title: "Describe the Issue",
-        desc: "Tell us what needs attention—exhaust, frame, a broken bracket, or custom work."
+        desc: "Tell us what needs attention, exhaust, frame, a broken bracket, or custom work."
       },
       {
         step: 2,
@@ -1979,7 +1979,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       }
     ],
     whoContent: {
@@ -1996,11 +1996,11 @@ const services = [
       },
       {
         label: "In-House Capability",
-        value: "Yes — one of the few independent shops in Salt Lake with on-site automotive welding"
+        value: "Yes. One of the few independent shops in Salt Lake with on-site automotive welding"
       },
       {
         label: "Free Estimate",
-        value: "Yes — visual inspection before any work begins"
+        value: "Yes. Visual inspection before any work begins"
       },
       {
         label: "Common Applications",
@@ -2012,11 +2012,11 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs"
+        value: "All makes and models, domestic, import, trucks, SUVs"
       },
       {
         label: "What Sets Us Apart",
-        value: "In-house welding avoids outsourcing to a specialty shop — one stop for the full repair"
+        value: "In-house welding avoids outsourcing to a specialty shop, one stop for the full repair"
       }
     ],
     hasGeoPages: false,
@@ -2031,7 +2031,7 @@ const services = [
     name: "Shocks",
     fullName: "Shock Replacement",
     shortDesc: "Shock absorber replacement for trucks, SUVs, and cars.",
-    shortDefinition: "Shock absorbers control how much your vehicle bounces after hitting a bump — without them, the car would keep bobbing up and down. When they wear out, the ride feels rough, the car sways in turns, and your tires can wear unevenly. The wear happens gradually, so most drivers adjust without realizing how much has changed. See our service page for what we inspect before recommending a replacement.",
+    shortDefinition: "Shock absorbers control how much your vehicle bounces after hitting a bump, without them, the car would keep bobbing up and down. When they wear out, the ride feels rough, the car sways in turns, and your tires can wear unevenly. The wear happens gradually, so most drivers adjust without realizing how much has changed. See our service page for what we inspect before recommending a replacement.",
     image: "/assets/shocks-400-5JfGLf4L.webp",
     heroImage: "/assets/shocks-400-5JfGLf4L.webp",
     metaTitle: "Shock Replacement South Salt Lake UT | Trucks & SUVs",
@@ -2097,7 +2097,7 @@ const services = [
     commonIssues: [
       {
         title: "Bouncy Ride",
-        desc: "The vehicle bounces repeatedly after bumps rather than settling—a classic sign of worn shock absorbers.",
+        desc: "The vehicle bounces repeatedly after bumps rather than settling, a classic sign of worn shock absorbers.",
         symptomSlug: "bouncy-ride"
       },
       {
@@ -2115,10 +2115,10 @@ const services = [
         heading: "What Does Shock Replacement Actually Involve?",
         paras: [
           "Shock absorbers are standalone hydraulic dampers that control suspension movement. Unlike struts, they don't carry the spring or serve as a structural part of the suspension, which makes replacement simpler. No spring compressor needed, and no alignment required afterward.",
-          "<strong>Shock absorber body</strong> — a sealed hydraulic cylinder that converts suspension movement into heat through fluid resistance. When the seals wear, the shock loses damping force and allows the suspension to move unchecked. Oil seeping down the shock body is a clear sign the seals have failed.",
-          "<strong>Shock mounts and bushings</strong> — rubber bushings at the upper and lower mounting points that isolate the shock from the chassis. Deteriorated bushings let the shock move in its mount, adding a clunking impact at the top or bottom of travel that new shocks can't fix.",
-          "<strong>Lift height matching for trucks</strong> — on lifted vehicles, OEM-length shocks top out or bottom out at travel limits the unlifted vehicle never reached. Extended-travel shocks rated for the actual lift height are required.",
-          "<strong>Axle pairing</strong> — we replace shocks in pairs per axle to maintain balanced handling. One worn and one new creates asymmetric damping.",
+          "<strong>Shock absorber body</strong>: a sealed hydraulic cylinder that converts suspension movement into heat through fluid resistance. When the seals wear, the shock loses damping force and allows the suspension to move unchecked. Oil seeping down the shock body is a clear sign the seals have failed.",
+          "<strong>Shock mounts and bushings</strong>: rubber bushings at the upper and lower mounting points that isolate the shock from the chassis. Deteriorated bushings let the shock move in its mount, adding a clunking impact at the top or bottom of travel that new shocks can't fix.",
+          "<strong>Lift height matching for trucks</strong>: on lifted vehicles, OEM-length shocks top out or bottom out at travel limits the unlifted vehicle never reached. Extended-travel shocks rated for the actual lift height are required.",
+          "<strong>Axle pairing</strong>: we replace shocks in pairs per axle to maintain balanced handling. One worn and one new creates asymmetric damping.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -2169,7 +2169,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       }
     ],
     whoContent: {
@@ -2186,7 +2186,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — road test and bounce test confirm shock condition before recommending replacement"
+        value: "Yes. Road test and bounce test confirm shock condition before recommending replacement"
       },
       {
         label: "Includes",
@@ -2194,7 +2194,7 @@ const services = [
       },
       {
         label: "Replace in Pairs",
-        value: "Yes — replaced in axle pairs to maintain balanced ride and handling"
+        value: "Yes. Replaced in axle pairs to maintain balanced ride and handling"
       },
       {
         label: "Most Common Trigger",
@@ -2221,7 +2221,7 @@ const services = [
     name: "Complete Auto Service",
     fullName: "Complete Auto Service",
     shortDesc: "Full-service automotive repair for all makes and models.",
-    shortDefinition: "Scott's has handled all kinds of car repairs and maintenance since 1990 — from oil changes and engine diagnostics to brakes, A/C, emissions, and everything in between. We started as clutch specialists and still do a lot of that work, but we're a full-service shop for all makes and models. Whatever your vehicle needs, we inspect first and explain what we found before recommending anything. See our service page for the full list of what we cover.",
+    shortDefinition: "Scott's has handled all kinds of car repairs and maintenance since 1990, from oil changes and engine diagnostics to brakes, A/C, emissions, and everything in between. We started as clutch specialists and still do a lot of that work, but we're a full-service shop for all makes and models. Whatever your vehicle needs, we inspect first and explain what we found before recommending anything. See our service page for the full list of what we cover.",
     image: "/assets/complete-auto-400-DKNHQ0l2.webp",
     heroImage: "/assets/complete-auto-400-DKNHQ0l2.webp",
     metaTitle: "Complete Auto Service South Salt Lake UT | All Makes",
@@ -2376,7 +2376,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       }
     ],
     whoContent: {
@@ -2393,7 +2393,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — code scan and vehicle inspection before recommending any repair"
+        value: "Yes. Code scan and vehicle inspection before recommending any repair"
       },
       {
         label: "Services Covered",
@@ -2401,7 +2401,7 @@ const services = [
       },
       {
         label: "All Makes & Models",
-        value: "Domestic, import, and luxury — cars, trucks, SUVs"
+        value: "Domestic, import, and luxury, cars, trucks, SUVs"
       },
       {
         label: "Specialization",
@@ -2434,7 +2434,7 @@ const services = [
     heading: "Head Gasket Repair in South Salt Lake, UT",
     metaDesc: "Overheating, white exhaust smoke, or milky oil? We diagnose head gasket failures before recommending any repair. Free diagnosis. South Salt Lake. (801) 485-4089.",
     heroIntro: "White smoke from the exhaust, coolant disappearing, or an engine that keeps overheating? Head gasket failure is one of the more serious repairs a vehicle can need. Free diagnosis. Written estimate. No surprises.",
-    shortDefinition: "The head gasket seals the cylinder head to the engine block, keeping combustion gases, engine oil, and coolant separated in their own passages. When it fails, those fluids mix — coolant burns in the cylinders (white smoke), oil turns milky from coolant contamination, or the engine loses coolant with no visible external leak. We pressure-test the cooling system, run a block test for combustion gases, and measure the head for warping before recommending any repair.",
+    shortDefinition: "The head gasket seals the cylinder head to the engine block, keeping combustion gases, engine oil, and coolant separated in their own passages. When it fails, those fluids mix, coolant burns in the cylinders (white smoke), oil turns milky from coolant contamination, or the engine loses coolant with no visible external leak. We pressure-test the cooling system, run a block test for combustion gases, and measure the head for warping before recommending any repair.",
     intro: "",
     hideServicesSection: true,
     specializedServices: [
@@ -2451,7 +2451,7 @@ const services = [
     whyUs: [
       {
         title: "Confirm Before We Recommend",
-        desc: "Many cooling system symptoms — overheating, slow coolant loss — aren't the head gasket. We run a combustion gas block test and pressure test first. If it's not the gasket, we tell you what it is."
+        desc: "Many cooling system symptoms, overheating, slow coolant loss, aren't the head gasket. We run a combustion gas block test and pressure test first. If it's not the gasket, we tell you what it is."
       },
       {
         title: "Cylinder Head Inspection Included",
@@ -2467,7 +2467,7 @@ const services = [
       }
     ],
     processHeading: "How We Diagnose and Repair a Head Gasket",
-    processIntro: "Overheating and white smoke are symptoms, not diagnoses. We work through the cooling system systematically before recommending head gasket work — because the cheaper fix is worth ruling out first.",
+    processIntro: "Overheating and white smoke are symptoms, not diagnoses. We work through the cooling system systematically before recommending head gasket work, because the cheaper fix is worth ruling out first.",
     process: [
       {
         step: 1,
@@ -2498,12 +2498,12 @@ const services = [
     commonIssues: [
       {
         title: "Engine Overheating",
-        desc: "A failed head gasket can allow combustion gases into the cooling system, pressurizing it and causing coolant to overflow — leading to overheating even with the reservoir full.",
+        desc: "A failed head gasket can allow combustion gases into the cooling system, pressurizing it and causing coolant to overflow, leading to overheating even with the reservoir full.",
         symptomSlug: "engine-overheating"
       },
       {
         title: "White Exhaust Smoke",
-        desc: "Thick white smoke that persists after the engine is warm — with a sweet smell — means coolant is burning in the combustion chamber. This is the clearest external sign of head gasket failure.",
+        desc: "Thick white smoke that persists after the engine is warm, with a sweet smell, means coolant is burning in the combustion chamber. This is the clearest external sign of head gasket failure.",
         symptomSlug: "white-exhaust-smoke"
       },
       {
@@ -2518,19 +2518,19 @@ const services = [
       },
       {
         title: "Bubbles in the Coolant Reservoir",
-        desc: "Combustion gases pushing into the cooling system cause visible bubbling in the overflow reservoir — a reliable sign to run a block test before the next overheat event."
+        desc: "Combustion gases pushing into the cooling system cause visible bubbling in the overflow reservoir, a reliable sign to run a block test before the next overheat event."
       }
     ],
     richContent: [
       {
         heading: "What Does Head Gasket Repair Actually Involve?",
         paras: [
-          "The head gasket seals the cylinder head to the engine block, keeping combustion gases, engine oil, and coolant in their own passages. When it fails, those fluids mix — coolant burns in the cylinders (white smoke), oil turns milky, or the engine loses coolant with no visible external puddle.",
-          "Before we recommend head gasket work, we confirm the failure. Overheating and coolant loss have cheaper causes — a stuck thermostat, a failing <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>water pump</a>, a cracked hose. We rule those out first with a combustion gas block test and a cooling system pressure test.",
-          "<strong>Head gasket</strong> — the sealing layer between the cylinder head and engine block. When it fails, combustion gases, oil, and coolant can mix through the failed section.",
-          "<strong>Cylinder head</strong> — the aluminum casting bolted to the top of the block. Aluminum heads warp from overheating — even a single event — and a warped head won't seal against a new gasket. We measure for warping with a precision straightedge after removal.",
-          "<strong>Head bolts</strong> — torqued in sequence to compress the gasket evenly. Many engines require new bolts on reassembly because the bolts are stretch-to-yield and lose clamping force if reused.",
-          "<strong>Combustion gas block test</strong> — a chemically treated fluid that changes color if combustion gases are present in the coolant. The most reliable non-disassembly confirmation of gasket failure.",
+          "The head gasket seals the cylinder head to the engine block, keeping combustion gases, engine oil, and coolant in their own passages. When it fails, those fluids mix, coolant burns in the cylinders (white smoke), oil turns milky, or the engine loses coolant with no visible external puddle.",
+          "Before we recommend head gasket work, we confirm the failure. Overheating and coolant loss have cheaper causes, a stuck thermostat, a failing <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>water pump</a>, a cracked hose. We rule those out first with a combustion gas block test and a cooling system pressure test.",
+          "<strong>Head gasket</strong>: the sealing layer between the cylinder head and engine block. When it fails, combustion gases, oil, and coolant can mix through the failed section.",
+          "<strong>Cylinder head</strong>: the aluminum casting bolted to the top of the block. Aluminum heads warp from overheating, even a single event, and a warped head won't seal against a new gasket. We measure for warping with a precision straightedge after removal.",
+          "<strong>Head bolts</strong>: torqued in sequence to compress the gasket evenly. Many engines require new bolts on reassembly because the bolts are stretch-to-yield and lose clamping force if reused.",
+          "<strong>Combustion gas block test</strong>: a chemically treated fluid that changes color if combustion gases are present in the coolant. The most reliable non-disassembly confirmation of gasket failure.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -2548,23 +2548,23 @@ const services = [
       {
         heading: "When Should You Come In?",
         paras: [
-          "Come in as soon as you notice white smoke from the exhaust that doesn't clear after warm-up, coolant that keeps disappearing without a visible puddle, an engine that overheats despite adequate coolant, or oil that looks milky on the dipstick. These symptoms escalate — an engine running on a failing head gasket can warp the cylinder head, turning a repairable situation into a significantly more expensive one.",
-          "If your vehicle has recently overheated — even once — it's worth having the cooling system and head gasket integrity checked before continuing to drive it. Catching a slow leak at the diagnosis stage costs far less than catching it after the oil turns milky or the head has warped. We'll tell you exactly what we find before recommending anything."
+          "Come in as soon as you notice white smoke from the exhaust that doesn't clear after warm-up, coolant that keeps disappearing without a visible puddle, an engine that overheats despite adequate coolant, or oil that looks milky on the dipstick. These symptoms escalate, an engine running on a failing head gasket can warp the cylinder head, turning a repairable situation into a significantly more expensive one.",
+          "If your vehicle has recently overheated, even once, it's worth having the cooling system and head gasket integrity checked before continuing to drive it. Catching a slow leak at the diagnosis stage costs far less than catching it after the oil turns milky or the head has warped. We'll tell you exactly what we find before recommending anything."
         ]
       }
     ],
     faq: [
       {
         q: "How do you know it's the head gasket and not something cheaper?",
-        a: "We run a combustion gas block test first — it detects combustion gases in the coolant, which is the definitive sign of a failed gasket. We also pressure-test the cooling system to find external leaks. If the block test is clean, we look for other causes before recommending head gasket work. The thermostat and <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>water pump</a> are much less expensive repairs and worth ruling out first."
+        a: "We run a combustion gas block test first, it detects combustion gases in the coolant, which is the definitive sign of a failed gasket. We also pressure-test the cooling system to find external leaks. If the block test is clean, we look for other causes before recommending head gasket work. The thermostat and <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>water pump</a> are much less expensive repairs and worth ruling out first."
       },
       {
         q: "What causes a head gasket to fail?",
-        a: "Overheating is the most common cause. A single overheat event can warp the cylinder head enough that the gasket can't seal properly. High-mileage cooling system neglect — old coolant, a slow thermostat, a marginal <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>water pump</a> — often precedes the failure. Some engines have design vulnerabilities that make them more prone to gasket failure than others."
+        a: "Overheating is the most common cause. A single overheat event can warp the cylinder head enough that the gasket can't seal properly. High-mileage cooling system neglect, old coolant, a slow thermostat, a marginal <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>water pump</a>: often precedes the failure. Some engines have design vulnerabilities that make them more prone to gasket failure than others."
       },
       {
         q: "Does the cylinder head have to be resurfaced?",
-        a: "Only if it's warped. We measure it with a precision straightedge once it's off the engine. If it's within spec, it goes back on after thorough cleaning. If it's warped beyond spec, resurfacing is required — putting a new gasket on a warped head just means doing the job again soon. We tell you exactly what we found before proceeding."
+        a: "Only if it's warped. We measure it with a precision straightedge once it's off the engine. If it's within spec, it goes back on after thorough cleaning. If it's warped beyond spec, resurfacing is required, putting a new gasket on a warped head just means doing the job again soon. We tell you exactly what we found before proceeding."
       },
       {
         q: "How long does a head gasket repair take?",
@@ -2572,11 +2572,11 @@ const services = [
       },
       {
         q: "What if the engine block is also damaged?",
-        a: "If the block itself is cracked — a less common outcome — we tell you honestly and lay out all the options: block repair, engine replacement, or whether the vehicle's value justifies the repair. We don't proceed without your clear decision."
+        a: "If the block itself is cracked, a less common outcome, we tell you honestly and lay out all the options: block repair, engine replacement, or whether the vehicle's value justifies the repair. We don't proceed without your clear decision."
       },
       {
         q: "Can I add stop-leak to fix a head gasket?",
-        a: "Stop-leak products can slow small leaks temporarily, but they don't repair the gasket. They can also clog coolant passages, heater cores, and radiators — turning a straightforward head gasket job into a more involved cooling system cleaning job. We don't recommend them as anything other than a last resort to get a vehicle somewhere safely."
+        a: "Stop-leak products can slow small leaks temporarily, but they don't repair the gasket. They can also clog coolant passages, heater cores, and radiators, turning a straightforward head gasket job into a more involved cooling system cleaning job. We don't recommend them as anything other than a last resort to get a vehicle somewhere safely."
       },
       {
         q: "Is there a warranty on the repair?",
@@ -2584,7 +2584,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       },
       {
         q: "Do you offer towing if my vehicle can't be driven?",
@@ -2594,8 +2594,8 @@ const services = [
     whoContent: {
       heading: "Who to Trust for Head Gasket Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been diagnosing and repairing engines in South Salt Lake since 1990. Head gasket repair is one of the more significant jobs a vehicle can need, and we approach it the same way we approach everything — confirm the diagnosis before recommending the repair, inspect the cylinder head before reassembly, and address the cooling system as part of the job rather than as an afterthought.",
-        "When you bring your vehicle in, you get a complete diagnosis, a written estimate before any work starts, and an honest explanation of what the repair involves and why. If the cheaper answer turns out to be the actual problem — a thermostat, a hose, a water pump — we'll tell you that."
+        "Scott's Auto & Clutch Repair has been diagnosing and repairing engines in South Salt Lake since 1990. Head gasket repair is one of the more significant jobs a vehicle can need, and we approach it the same way we approach everything, confirm the diagnosis before recommending the repair, inspect the cylinder head before reassembly, and address the cooling system as part of the job rather than as an afterthought.",
+        "When you bring your vehicle in, you get a complete diagnosis, a written estimate before any work starts, and an honest explanation of what the repair involves and why. If the cheaper answer turns out to be the actual problem, a thermostat, a hose, a water pump, we'll tell you that."
       ]
     },
     statsTable: [
@@ -2605,7 +2605,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — combustion gas block test and cooling system pressure test before any recommendation"
+        value: "Yes. Combustion gas block test and cooling system pressure test before any recommendation"
       },
       {
         label: "Includes",
@@ -2625,11 +2625,11 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs"
+        value: "All makes and models, domestic, import, trucks, SUVs"
       },
       {
         label: "Free Towing",
-        value: "Included on repairs over $1,000 — we cover the tow to our shop"
+        value: "Included on repairs over $1,000, we cover the tow to our shop"
       }
     ],
     hasGeoPages: true,
@@ -2648,9 +2648,9 @@ const services = [
     heroImage: "/assets/lift-kit-400.webp",
     metaTitle: "Lift & Leveling Kit Installation South Salt Lake | Scott's Auto",
     heading: "Lift & Leveling Kit Installation in South Salt Lake, UT",
-    metaDesc: "Leveling kit or full lift? We install both on trucks and SUVs — and we do the alignment after. Written estimate before we start. Scott's Auto. (801) 485-4089.",
-    heroIntro: "Leveling kit to even out that factory rake, or a full lift for real clearance? We install both on trucks and SUVs — and we do the alignment after so it actually drives right. Written estimate. No surprises.",
-    shortDefinition: "A leveling kit corrects the factory front-to-rear height difference on trucks and SUVs using spacers or strut extensions — raising the front to match the rear without significantly changing ride quality. A suspension lift raises the entire vehicle by replacing or augmenting springs, shocks, and sometimes control arms, adding clearance for larger tires and off-road use. Both require a wheel alignment after installation to maintain proper handling, tire wear, and steering geometry.",
+    metaDesc: "Leveling kit or full lift? We install both on trucks and SUVs, and we do the alignment after. Written estimate before we start. Scott's Auto. (801) 485-4089.",
+    heroIntro: "Leveling kit to even out that factory rake, or a full lift for real clearance? We install both on trucks and SUVs, and we do the alignment after so it actually drives right. Written estimate. No surprises.",
+    shortDefinition: "A leveling kit corrects the factory front-to-rear height difference on trucks and SUVs using spacers or strut extensions, raising the front to match the rear without significantly changing ride quality. A suspension lift raises the entire vehicle by replacing or augmenting springs, shocks, and sometimes control arms, adding clearance for larger tires and off-road use. Both require a wheel alignment after installation to maintain proper handling, tire wear, and steering geometry.",
     intro: "",
     hideServicesSection: true,
     specializedServices: [
@@ -2668,7 +2668,7 @@ const services = [
     whyUs: [
       {
         title: "Alignment Included in Every Install",
-        desc: "A lift that hasn't been aligned drives poorly and eats tires. We do the alignment as part of every installation — not as an add-on."
+        desc: "A lift that hasn't been aligned drives poorly and eats tires. We do the alignment as part of every installation, not as an add-on."
       },
       {
         title: "We Inspect the Suspension First",
@@ -2689,7 +2689,7 @@ const services = [
       {
         step: 1,
         title: "Tell Us What You're After",
-        desc: "Let us know your vehicle, lift height or leveling goal, whether you're running new tires, and how you use the truck — off-road, daily driver, or towing."
+        desc: "Let us know your vehicle, lift height or leveling goal, whether you're running new tires, and how you use the truck, off-road, daily driver, or towing."
       },
       {
         step: 2,
@@ -2704,7 +2704,7 @@ const services = [
       {
         step: 4,
         title: "Installation",
-        desc: "The kit goes in correctly — torqued to spec, hardware inspected, no shortcuts. Most leveling kits take 2–3 hours; suspension lifts take 4–8 hours depending on complexity."
+        desc: "The kit goes in correctly, torqued to spec, hardware inspected, no shortcuts. Most leveling kits take 2–3 hours; suspension lifts take 4–8 hours depending on complexity."
       },
       {
         step: 5,
@@ -2735,10 +2735,10 @@ const services = [
         heading: "What Does a Lift or Leveling Kit Installation Actually Involve?",
         paras: [
           "Leveling kits and lift kits are different things that get grouped together. Knowing which one fits your goal makes the job straightforward.",
-          "<strong>Leveling kit</strong> — raises the front of the truck to match the rear, correcting the factory nose-down rake. Most use a strut spacer or extended strut topper. Minimal impact on ride quality. Installation takes 2–3 hours. Always requires an alignment after.",
-          "<strong>Suspension lift kit</strong> — raises the entire vehicle by replacing or modifying springs, shocks, and sometimes upper control arms. Adds ground clearance and allows larger tire fitment. More involved installation — 4–8 hours depending on kit complexity. Requires alignment after.",
-          "<strong>Body lift kit</strong> — raises the body relative to the frame using blocks or spacers, without changing suspension geometry. Creates space for larger tires without affecting ride quality, but does not increase ground clearance under the axles.",
-          "<strong>Alignment</strong> — mandatory after any lift. Raising the truck changes caster, camber, and toe angles. Driving on a misaligned lift causes rapid uneven tire wear, steering wander, and unpredictable handling. We include alignment with every installation.",
+          "<strong>Leveling kit</strong>: raises the front of the truck to match the rear, correcting the factory nose-down rake. Most use a strut spacer or extended strut topper. Minimal impact on ride quality. Installation takes 2–3 hours. Always requires an alignment after.",
+          "<strong>Suspension lift kit</strong>: raises the entire vehicle by replacing or modifying springs, shocks, and sometimes upper control arms. Adds ground clearance and allows larger tire fitment. More involved installation, 4–8 hours depending on kit complexity. Requires alignment after.",
+          "<strong>Body lift kit</strong>: raises the body relative to the frame using blocks or spacers, without changing suspension geometry. Creates space for larger tires without affecting ride quality, but does not increase ground clearance under the axles.",
+          "<strong>Alignment</strong>: mandatory after any lift. Raising the truck changes caster, camber, and toe angles. Driving on a misaligned lift causes rapid uneven tire wear, steering wander, and unpredictable handling. We include alignment with every installation.",
           "Before installing any kit, we inspect ball joints, tie rod ends, CV axle boots, and shock condition. Installing a lift over worn components leads to handling issues and premature wear of the new parts. If we find something worth knowing about, we tell you before we start.",
           "Depending on your vehicle and goals, the work we commonly perform includes:"
         ],
@@ -2757,7 +2757,7 @@ const services = [
       {
         heading: "When Should You Come In?",
         paras: [
-          "Come in when you want to level out the factory rake, add clearance for larger tires, prepare your truck for off-road use, or improve the stance and appearance of your vehicle. Also come in if you had a lift installed elsewhere and it was never aligned — or if you're experiencing uneven tire wear, pulling, or steering wander after a previous install.",
+          "Come in when you want to level out the factory rake, add clearance for larger tires, prepare your truck for off-road use, or improve the stance and appearance of your vehicle. Also come in if you had a lift installed elsewhere and it was never aligned, or if you're experiencing uneven tire wear, pulling, or steering wander after a previous install.",
           "If you're planning new tires at the same time as a kit, let us know before you buy them. Tire size affects what lift height makes sense, and it's easier to confirm fitment before tires are purchased than after."
         ]
       }
@@ -2769,11 +2769,11 @@ const services = [
       },
       {
         q: "What's the difference between a leveling kit and a lift kit?",
-        a: "A leveling kit raises only the front of the truck to match the rear — correcting the factory nose-down rake. It typically adds 1–2.5 inches using strut spacers or extended strut toppers. A lift kit raises the entire vehicle by modifying or replacing suspension components, adding 2–6+ inches of total height for ground clearance and larger tire fitment."
+        a: "A leveling kit raises only the front of the truck to match the rear, correcting the factory nose-down rake. It typically adds 1–2.5 inches using strut spacers or extended strut toppers. A lift kit raises the entire vehicle by modifying or replacing suspension components, adding 2–6+ inches of total height for ground clearance and larger tire fitment."
       },
       {
         q: "Will a leveling kit affect my ride quality?",
-        a: "A quality spacer leveling kit on a truck in good suspension condition typically causes minimal change. Some stiffer spacers make the ride slightly firmer. If your shocks are already worn, adding a leveling kit makes that more noticeable — which is why we inspect the suspension before installing."
+        a: "A quality spacer leveling kit on a truck in good suspension condition typically causes minimal change. Some stiffer spacers make the ride slightly firmer. If your shocks are already worn, adding a leveling kit makes that more noticeable, which is why we inspect the suspension before installing."
       },
       {
         q: "How big of a lift do I need for a specific tire size?",
@@ -2793,32 +2793,32 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates are consistently below dealer rates — typically 20–40% less for the same installation. We use quality hardware and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates are consistently below dealer rates, typically 20–40% less for the same installation. We use quality hardware and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       }
     ],
     whoContent: {
       heading: "Who to Trust for Lift & Leveling Kit Installation in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been working on trucks and SUVs in South Salt Lake since 1990. A lift kit is only as good as the installation and the alignment that follows it — and alignment is something many lift-only shops don't have the equipment to do in-house. We do.",
+        "Scott's Auto & Clutch Repair has been working on trucks and SUVs in South Salt Lake since 1990. A lift kit is only as good as the installation and the alignment that follows it, and alignment is something many lift-only shops don't have the equipment to do in-house. We do.",
         "When you bring your truck in, we inspect the existing suspension first, install the kit to spec, align it properly, and road test it before you pick it up. If something about your suspension is worth knowing before we start, we'll tell you. No work gets done without your approval."
       ]
     },
     statsTable: [
       {
         label: "Typical Turnaround",
-        value: "Same day for most installs — leveling kits 2–3 hours, suspension lifts 4–8 hours"
+        value: "Same day for most installs, leveling kits 2–3 hours, suspension lifts 4–8 hours"
       },
       {
         label: "Free Estimate",
-        value: "Yes — we quote installation before any work begins"
+        value: "Yes. We quote installation before any work begins"
       },
       {
         label: "Alignment Included",
-        value: "Yes — every lift and leveling kit installation includes a full wheel alignment"
+        value: "Yes. Every lift and leveling kit installation includes a full wheel alignment"
       },
       {
         label: "Common Applications",
-        value: "Half-ton and three-quarter-ton trucks, SUVs, 4x4 vehicles — all makes and models"
+        value: "Half-ton and three-quarter-ton trucks, SUVs, 4x4 vehicles, all makes and models"
       },
       {
         label: "Pre-Install Inspection",
@@ -2830,7 +2830,7 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic and import trucks and SUVs"
+        value: "All makes and models, domestic and import trucks and SUVs"
       }
     ],
     hasGeoPages: true,
@@ -2849,9 +2849,9 @@ const services = [
     heroImage: "/assets/check-engine-400.webp",
     metaTitle: "Check Engine Light South Salt Lake UT | Scott's Auto",
     heading: "Check Engine Light Diagnosis & Engine Repair in South Salt Lake, UT",
-    metaDesc: "Check engine light on? We read the code and diagnose the actual cause — not just tell you the code number. Free diagnosis. South Salt Lake. (801) 485-4089.",
-    heroIntro: "Check engine light on? We read the code and find the actual cause — not just hand you a slip with a code number on it. Free diagnosis. Written estimate before any repair. No surprises.",
-    shortDefinition: "The check engine light means the engine management system detected a fault in one of its monitored systems and logged a diagnostic trouble code (DTC). Reading that code tells you which system triggered — it doesn't tell you why. We connect a scan tool, pull the live sensor data, and identify the root cause before recommending any repair. A misfire code could be a spark plug, a coil pack, a fuel injector, or low compression — the code is the starting point, not the answer.",
+    metaDesc: "Check engine light on? We read the code and diagnose the actual cause, not just tell you the code number. Free diagnosis. South Salt Lake. (801) 485-4089.",
+    heroIntro: "Check engine light on? We read the code and find the actual cause, not just hand you a slip with a code number on it. Free diagnosis. Written estimate before any repair. No surprises.",
+    shortDefinition: "The check engine light means the engine management system detected a fault in one of its monitored systems and logged a diagnostic trouble code (DTC). Reading that code tells you which system triggered, it doesn't tell you why. We connect a scan tool, pull the live sensor data, and identify the root cause before recommending any repair. A misfire code could be a spark plug, a coil pack, a fuel injector, or low compression. The code is the starting point, not the answer.",
     intro: "",
     hideServicesSection: true,
     specializedServices: [
@@ -2883,21 +2883,21 @@ const services = [
       },
       {
         title: "In Business Since 1990",
-        desc: "We've diagnosed check engine lights on every platform for 35 years. We know the patterns — which codes on which platforms are straightforward and which ones need deeper investigation."
+        desc: "We've diagnosed check engine lights on every platform for 35 years. We know the patterns, which codes on which platforms are straightforward and which ones need deeper investigation."
       }
     ],
     processHeading: "How We Diagnose a Check Engine Light",
-    processIntro: "Pulling a code takes 60 seconds. Diagnosing what actually caused it takes longer — and it's what determines whether the repair actually fixes the problem or just clears the light temporarily.",
+    processIntro: "Pulling a code takes 60 seconds. Diagnosing what actually caused it takes longer, and it's what determines whether the repair actually fixes the problem or just clears the light temporarily.",
     process: [
       {
         step: 1,
         title: "Describe What You've Noticed",
-        desc: "Tell us when the light came on, whether it's steady or flashing, and any drivability changes — rough idle, hesitation, reduced power, fuel smell."
+        desc: "Tell us when the light came on, whether it's steady or flashing, and any drivability changes, rough idle, hesitation, reduced power, fuel smell."
       },
       {
         step: 2,
         title: "OBD-II Scan & Live Data",
-        desc: "We read all stored fault codes and pull live sensor data — fuel trims, O2 sensor waveforms, misfire counts per cylinder — to see what the engine is actually doing."
+        desc: "We read all stored fault codes and pull live sensor data, fuel trims, O2 sensor waveforms, misfire counts per cylinder, to see what the engine is actually doing."
       },
       {
         step: 3,
@@ -2923,12 +2923,12 @@ const services = [
       },
       {
         title: "Catalytic Converter (Failure or Theft)",
-        desc: "A P0420 or P0430 code means the catalyst efficiency has dropped below threshold — either from normal wear, a misfiring cylinder damaging it, or post-theft replacement of a stolen unit.",
+        desc: "A P0420 or P0430 code means the catalyst efficiency has dropped below threshold, either from normal wear, a misfiring cylinder damaging it, or post-theft replacement of a stolen unit.",
         symptomSlug: ""
       },
       {
         title: "EVAP System Leaks",
-        desc: "Utah's dry climate and temperature swings crack EVAP hoses, degrade purge valves, and dry out fuel cap gaskets — all common causes of evaporative emission codes.",
+        desc: "Utah's dry climate and temperature swings crack EVAP hoses, degrade purge valves, and dry out fuel cap gaskets, all common causes of evaporative emission codes.",
         symptomSlug: ""
       },
       {
@@ -2946,9 +2946,9 @@ const services = [
       {
         heading: "What Does Check Engine Light Diagnosis Actually Involve?",
         paras: [
-          "The check engine light — technically the malfunction indicator lamp (MIL) — activates when the engine control module detects a reading outside its acceptable range for one of its monitored systems. It stores a diagnostic trouble code (DTC) and turns on the light.",
-          "Reading that code is not diagnosing the problem. A P0420 catalyst efficiency code could mean a worn-out <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a>, a failed downstream O2 sensor giving false readings, an upstream exhaust leak contaminating the sample, or an engine misfire that damaged the catalyst. The code tells you what triggered — diagnosis tells you why.",
-          "We connect a professional scan tool, read all stored codes, and pull the live data stream the engine control module was seeing when the fault occurred. That data — fuel trims, O2 sensor waveforms, misfire counts, MAF readings — shows us what the engine was actually doing, which points us to the real cause.",
+          "The check engine light, technically the malfunction indicator lamp (MIL), activates when the engine control module detects a reading outside its acceptable range for one of its monitored systems. It stores a diagnostic trouble code (DTC) and turns on the light.",
+          "Reading that code is not diagnosing the problem. A P0420 catalyst efficiency code could mean a worn-out <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a>, a failed downstream O2 sensor giving false readings, an upstream exhaust leak contaminating the sample, or an engine misfire that damaged the catalyst. The code tells you what triggered, diagnosis tells you why.",
+          "We connect a professional scan tool, read all stored codes, and pull the live data stream the engine control module was seeing when the fault occurred. That data, fuel trims, O2 sensor waveforms, misfire counts, MAF readings, shows us what the engine was actually doing, which points us to the real cause.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -2968,35 +2968,35 @@ const services = [
       {
         heading: "When Should You Come In?",
         paras: [
-          "Come in any time the check engine light is on — but come in immediately if the light is flashing. A steady check engine light means a fault has been detected; the vehicle is usually safe to drive short-term but the issue needs diagnosis. A flashing or blinking check engine light means an active misfire severe enough to damage the <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a>. Driving with a flashing light risks turning a spark plug replacement into a catalytic converter replacement.",
-          "Also come in if the light came back after being cleared elsewhere, or if you've replaced a part based on a code and the light returned. Code-based parts swaps without confirming root cause are one of the most common reasons check engine lights come back — we find what the code actually points to before recommending any repair."
+          "Come in any time the check engine light is on, but come in immediately if the light is flashing. A steady check engine light means a fault has been detected; the vehicle is usually safe to drive short-term but the issue needs diagnosis. A flashing or blinking check engine light means an active misfire severe enough to damage the <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a>. Driving with a flashing light risks turning a spark plug replacement into a catalytic converter replacement.",
+          "Also come in if the light came back after being cleared elsewhere, or if you've replaced a part based on a code and the light returned. Code-based parts swaps without confirming root cause are one of the most common reasons check engine lights come back, we find what the code actually points to before recommending any repair."
         ]
       }
     ],
     faq: [
       {
         q: "Can I just have the code cleared and see if it comes back?",
-        a: "Clearing the code without repairing the cause resets the light temporarily — it will return, often within one drive cycle. It also clears the readiness monitors, which can cause you to fail an emissions test even if the light is off. We diagnose the cause so the repair actually solves the problem."
+        a: "Clearing the code without repairing the cause resets the light temporarily, it will return, often within one drive cycle. It also clears the readiness monitors, which can cause you to fail an emissions test even if the light is off. We diagnose the cause so the repair actually solves the problem."
       },
       {
         q: "Is it safe to drive with the check engine light on?",
-        a: "A steady check engine light usually means you can drive short-term, but you should get it diagnosed soon. Defer repairs and the cause often gets worse. A flashing check engine light means stop driving as soon as safely possible — an active misfire is occurring that can destroy the <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a> in minutes."
+        a: "A steady check engine light usually means you can drive short-term, but you should get it diagnosed soon. Defer repairs and the cause often gets worse. A flashing check engine light means stop driving as soon as safely possible. An active misfire is occurring that can destroy the <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a> in minutes."
       },
       {
         q: "What does a flashing check engine light mean?",
-        a: "A flashing or blinking check engine light indicates an active, severe misfire. Unburned fuel is passing into the exhaust and overheating the <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a>. Continued driving can destroy the converter — turning a spark plug or coil pack repair into a significantly more expensive job. Pull over safely and call us."
+        a: "A flashing or blinking check engine light indicates an active, severe misfire. Unburned fuel is passing into the exhaust and overheating the <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>catalytic converter</a>. Continued driving can destroy the converter, turning a spark plug or coil pack repair into a significantly more expensive job. Pull over safely and call us."
       },
       {
         q: "Do you just read the code or actually find the problem?",
-        a: "We find the problem. Any auto parts store will read your code for free, but a code only identifies the triggered system — not the cause. We use the code as the starting point, then pull live sensor data and inspect the relevant system to confirm what's actually wrong before recommending a repair."
+        a: "We find the problem. Any auto parts store will read your code for free, but a code only identifies the triggered system, not the cause. We use the code as the starting point, then pull live sensor data and inspect the relevant system to confirm what's actually wrong before recommending a repair."
       },
       {
         q: "Why did the check engine light come back after it was repaired elsewhere?",
-        a: "Usually because the repair addressed the code rather than the root cause. A P0420 catalyst code replaced with a new O2 sensor will return if the converter itself is the actual problem — and vice versa. We confirm root cause before recommending any repair, which is why our fixes hold."
+        a: "Usually because the repair addressed the code rather than the root cause. A P0420 catalyst code replaced with a new O2 sensor will return if the converter itself is the actual problem, and vice versa. We confirm root cause before recommending any repair, which is why our fixes hold."
       },
       {
         q: "How much does check engine light diagnosis cost?",
-        a: "The diagnosis is free. We scan the codes, pull the live data, and identify the cause at no charge. You get a written estimate for the repair before any work begins — and you decide whether to proceed."
+        a: "The diagnosis is free. We scan the codes, pull the live data, and identify the cause at no charge. You get a written estimate for the repair before any work begins, and you decide whether to proceed."
       },
       {
         q: "Is there a warranty on the repair?",
@@ -3004,13 +3004,13 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       }
     ],
     whoContent: {
       heading: "Who to Trust for Check Engine Light Diagnosis in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been diagnosing check engine lights in South Salt Lake since 1990. We've seen every code on every platform — and we know that the same code on two different vehicles can have completely different causes. Our process starts with the code and ends with root cause confirmation before we recommend anything.",
+        "Scott's Auto & Clutch Repair has been diagnosing check engine lights in South Salt Lake since 1990. We've seen every code on every platform, and we know that the same code on two different vehicles can have completely different causes. Our process starts with the code and ends with root cause confirmation before we recommend anything.",
         "The diagnosis is free. You come in knowing what triggered the light and why. The repair estimate is in writing before any work starts, and you decide what happens next. If the cheapest fix turns out to be the actual answer, that's what we'll tell you."
       ]
     },
@@ -3021,7 +3021,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — OBD-II scan, live data review, and root cause identification at no charge"
+        value: "Yes. OBD-II scan, live data review, and root cause identification at no charge"
       },
       {
         label: "Includes",
@@ -3033,7 +3033,7 @@ const services = [
       },
       {
         label: "Flashing Light",
-        value: "Stop driving — active misfire is occurring. Call us before continuing to drive."
+        value: "Stop driving, active misfire is occurring. Call us before continuing to drive."
       },
       {
         label: "Warranty",
@@ -3041,7 +3041,7 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs, hybrids"
+        value: "All makes and models, domestic, import, trucks, SUVs, hybrids"
       }
     ],
     hasGeoPages: true,
@@ -3055,14 +3055,14 @@ const services = [
     slug: "transmission-repair-near-south-salt-lake-ut",
     name: "Transmission Repair & Service",
     fullName: "Transmission Repair & Service",
-    shortDesc: "Automatic transmission service, repair, and rebuilds — plus transfer case service for 4WD and AWD vehicles.",
+    shortDesc: "Automatic transmission service, repair, and rebuilds, plus transfer case service for 4WD and AWD vehicles.",
     image: "/assets/transmission-400.webp",
     heroImage: "/assets/transmission-400.webp",
     metaTitle: "Transmission Repair South Salt Lake UT | Scott's Auto",
     heading: "Transmission Repair & Service in South Salt Lake, UT",
     metaDesc: "Slipping, shuddering, or delayed engagement? We diagnose automatic transmissions and service transfer cases for all makes and models. Free diagnosis. (801) 485-4089.",
-    heroIntro: "Automatic transmission slipping, shuddering, or taking too long to engage? We start with a road test and fluid check — not a rebuild quote. Transfer case service included. Free diagnosis. Written estimate. No surprises.",
-    shortDefinition: "The automatic transmission uses hydraulic pressure to shift gears through a series of clutch packs, bands, and solenoids controlled by the transmission control module. When it slips, shudders, or shifts erratically, the cause is usually fluid condition, a solenoid, or worn friction material — not always an internal rebuild. The transfer case (on 4WD and AWD vehicles) routes power to the front axle and is serviced separately but diagnosed at the same time.",
+    heroIntro: "Automatic transmission slipping, shuddering, or taking too long to engage? We start with a road test and fluid check, not a rebuild quote. Transfer case service included. Free diagnosis. Written estimate. No surprises.",
+    shortDefinition: "The automatic transmission uses hydraulic pressure to shift gears through a series of clutch packs, bands, and solenoids controlled by the transmission control module. When it slips, shudders, or shifts erratically, the cause is usually fluid condition, a solenoid, or worn friction material, not always an internal rebuild. The transfer case (on 4WD and AWD vehicles) routes power to the front axle and is serviced separately but diagnosed at the same time.",
     intro: "",
     hideServicesSection: true,
     specializedServices: [
@@ -3082,11 +3082,11 @@ const services = [
     whyUs: [
       {
         title: "Fluid Service Before Rebuild",
-        desc: "Slipping and shuddering are often fluid issues — degraded ATF that's lost its friction modifiers. We check the fluid first. A $150 service beats a $3,000 rebuild when the fluid is the actual cause."
+        desc: "Slipping and shuddering are often fluid issues, degraded ATF that's lost its friction modifiers. We check the fluid first. A $150 service beats a $3,000 rebuild when the fluid is the actual cause."
       },
       {
         title: "Transfer Cases Diagnosed Here",
-        desc: "4WD not engaging or stuck in 4WD both point to the transfer case. We diagnose actuator motors, vacuum systems, and internal chain wear and service transfer case fluid — no separate shop required."
+        desc: "4WD not engaging or stuck in 4WD both point to the transfer case. We diagnose actuator motors, vacuum systems, and internal chain wear and service transfer case fluid, no separate shop required."
       },
       {
         title: "Written Estimate Before Any Work",
@@ -3094,7 +3094,7 @@ const services = [
       },
       {
         title: "In Business Since 1990",
-        desc: "We've diagnosed transmissions on every platform for 35 years. We know the patterns — which symptoms are fluid issues and which ones require teardown — and we tell you honestly which it is."
+        desc: "We've diagnosed transmissions on every platform for 35 years. We know the patterns, which symptoms are fluid issues and which ones require teardown, and we tell you honestly which it is."
       }
     ],
     processHeading: "How We Diagnose a Transmission Problem",
@@ -3103,12 +3103,12 @@ const services = [
       {
         step: 1,
         title: "Describe the Symptoms",
-        desc: "Tell us when it slips, shudders, or hesitates — which gear, at what speed, under load or at light throttle. That pattern narrows the cause significantly before we start."
+        desc: "Tell us when it slips, shudders, or hesitates, which gear, at what speed, under load or at light throttle. That pattern narrows the cause significantly before we start."
       },
       {
         step: 2,
         title: "Road Test & Fault Code Scan",
-        desc: "We drive the vehicle to confirm the symptom and pull all stored transmission fault codes and live data — solenoid duty cycles, line pressure data, torque converter slip speed."
+        desc: "We drive the vehicle to confirm the symptom and pull all stored transmission fault codes and live data, solenoid duty cycles, line pressure data, torque converter slip speed."
       },
       {
         step: 3,
@@ -3139,7 +3139,7 @@ const services = [
       },
       {
         title: "Transmission Shudder",
-        desc: "Shaking or vibration during acceleration — most often at 30–50 mph. Usually a torque converter clutch issue triggered by degraded ATF that's lost its friction modifiers.",
+        desc: "Shaking or vibration during acceleration, most often at 30–50 mph. Usually a torque converter clutch issue triggered by degraded ATF that's lost its friction modifiers.",
         symptomSlug: "transmission-shudder"
       },
       {
@@ -3157,11 +3157,11 @@ const services = [
       {
         heading: "What Does Transmission Repair Actually Involve?",
         paras: [
-          "Not every transmission problem is a rebuild. That's the most important thing to establish before any work begins — and it's why we always start with a road test and fluid inspection rather than a teardown quote.",
-          "<strong>Automatic transmission fluid (ATF)</strong> is the medium that transmits hydraulic pressure to apply clutch packs and bands. Old ATF loses its friction modifiers and its ability to build and hold pressure — slipping, shuddering, and delayed engagement are the results. A fluid service with the correct factory-spec fluid resolves many complaints without any internal work.",
-          "<strong>Solenoids</strong> are electrically controlled valves that route ATF pressure to the right clutch pack at the right moment. A failing solenoid can cause hard shifts, slipping in a specific gear, or delayed engagement — and a solenoid replacement is far less expensive than a rebuild.",
-          "<strong>Torque converter</strong> — the fluid coupling between engine and transmission. The torque converter clutch (TCC) locks up at highway speed for efficiency. When the TCC wears out or ATF degrades, it chatters instead of locking cleanly, producing the 30–50 mph shudder many drivers notice.",
-          "<strong>Transfer case</strong> — on 4WD and AWD vehicles, routes power between front and rear axles. Requires its own fluid service (separate from ATF) and has its own actuators and sensors. We diagnose 4WD engagement problems and service transfer cases alongside transmission work.",
+          "Not every transmission problem is a rebuild. That's the most important thing to establish before any work begins, and it's why we always start with a road test and fluid inspection rather than a teardown quote.",
+          "<strong>Automatic transmission fluid (ATF)</strong> is the medium that transmits hydraulic pressure to apply clutch packs and bands. Old ATF loses its friction modifiers and its ability to build and hold pressure, slipping, shuddering, and delayed engagement are the results. A fluid service with the correct factory-spec fluid resolves many complaints without any internal work.",
+          "<strong>Solenoids</strong> are electrically controlled valves that route ATF pressure to the right clutch pack at the right moment. A failing solenoid can cause hard shifts, slipping in a specific gear, or delayed engagement, and a solenoid replacement is far less expensive than a rebuild.",
+          "<strong>Torque converter</strong>: the fluid coupling between engine and transmission. The torque converter clutch (TCC) locks up at highway speed for efficiency. When the TCC wears out or ATF degrades, it chatters instead of locking cleanly, producing the 30–50 mph shudder many drivers notice.",
+          "<strong>Transfer case</strong>: on 4WD and AWD vehicles, routes power between front and rear axles. Requires its own fluid service (separate from ATF) and has its own actuators and sensors. We diagnose 4WD engagement problems and service transfer cases alongside transmission work.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
         list: [
@@ -3181,35 +3181,35 @@ const services = [
       {
         heading: "When Should You Come In?",
         paras: [
-          "Come in as soon as you notice slipping, shuddering, delayed engagement, or erratic shifting — these symptoms almost always worsen over time. An automatic transmission that slips and isn't serviced sheds friction material from the clutch packs into the fluid, which then accelerates wear throughout the unit. What starts as a $150 ATF service becomes a $2,500 rebuild if left long enough.",
-          "For 4WD vehicles, come in before winter if your 4WD hasn't been used in months — stuck actuators and degraded transfer case fluid are far easier to address before you need 4WD on a snowy canyon road. Transfer case fluid should be changed every 30,000–60,000 miles depending on the manufacturer and how often 4WD is engaged."
+          "Come in as soon as you notice slipping, shuddering, delayed engagement, or erratic shifting, these symptoms almost always worsen over time. An automatic transmission that slips and isn't serviced sheds friction material from the clutch packs into the fluid, which then accelerates wear throughout the unit. What starts as a $150 ATF service becomes a $2,500 rebuild if left long enough.",
+          "For 4WD vehicles, come in before winter if your 4WD hasn't been used in months, stuck actuators and degraded transfer case fluid are far easier to address before you need 4WD on a snowy canyon road. Transfer case fluid should be changed every 30,000–60,000 miles depending on the manufacturer and how often 4WD is engaged."
         ]
       }
     ],
     faq: [
       {
         q: "What's the difference between a transmission flush and a fluid drain-and-fill?",
-        a: "A drain-and-fill removes and replaces about 40–50% of the ATF through the pan drain plug. A flush forces new fluid through the entire system, including the torque converter. For transmissions with regular service history, a drain-and-fill is the safer choice — a flush can dislodge sediment in a neglected transmission and cause shifting issues. We assess fluid condition and history before recommending which approach is right for your vehicle."
+        a: "A drain-and-fill removes and replaces about 40–50% of the ATF through the pan drain plug. A flush forces new fluid through the entire system, including the torque converter. For transmissions with regular service history, a drain-and-fill is the safer choice. A flush can dislodge sediment in a neglected transmission and cause shifting issues. We assess fluid condition and history before recommending which approach is right for your vehicle."
       },
       {
-        q: "My transmission is slipping — does it need a rebuild?",
-        a: "Not necessarily. Slipping is often caused by low or degraded ATF that can't maintain hydraulic pressure — a fluid service resolves many cases. If the fluid looks and smells normal and slipping persists, we look at solenoids and the valve body next. We only recommend an internal rebuild when external causes have been ruled out."
+        q: "My transmission is slipping. Does it need a rebuild?",
+        a: "Not necessarily. Slipping is often caused by low or degraded ATF that can't maintain hydraulic pressure, a fluid service resolves many cases. If the fluid looks and smells normal and slipping persists, we look at solenoids and the valve body next. We only recommend an internal rebuild when external causes have been ruled out."
       },
       {
         q: "What does shuddering between 30 and 50 mph mean?",
-        a: "That specific speed range is where the torque converter clutch (TCC) locks up for highway efficiency. When it shudders there, the TCC is engaging roughly instead of smoothly — usually because the ATF has lost its friction modifier additives. Many shudder cases resolve completely with a fluid service using the correct factory-spec ATF."
+        a: "That specific speed range is where the torque converter clutch (TCC) locks up for highway efficiency. When it shudders there, the TCC is engaging roughly instead of smoothly, usually because the ATF has lost its friction modifier additives. Many shudder cases resolve completely with a fluid service using the correct factory-spec ATF."
       },
       {
         q: "How often should I service my automatic transmission?",
-        a: "Most manufacturers recommend ATF service every 30,000–60,000 miles under normal use — but towing, mountain driving, and stop-and-go commuting shorten that interval. Utah's canyon grades and temperature extremes are harder on ATF than flat-highway driving. We check fluid condition at every visit and let you know where you stand."
+        a: "Most manufacturers recommend ATF service every 30,000–60,000 miles under normal use, but towing, mountain driving, and stop-and-go commuting shorten that interval. Utah's canyon grades and temperature extremes are harder on ATF than flat-highway driving. We check fluid condition at every visit and let you know where you stand."
       },
       {
         q: "Do you service transfer cases?",
-        a: "Yes. Transfer case fluid should be changed every 30,000–60,000 miles depending on the vehicle and how often 4WD is used. We also diagnose 4WD engagement problems — actuator motors, encoder motors, vacuum systems, and internal chain wear — and service or replace the components we find."
+        a: "Yes. Transfer case fluid should be changed every 30,000–60,000 miles depending on the vehicle and how often 4WD is used. We also diagnose 4WD engagement problems, actuator motors, encoder motors, vacuum systems, and internal chain wear, and service or replace the components we find."
       },
       {
         q: "Can I drive with a slipping transmission?",
-        a: "Short distances to get to the shop, yes. Extended driving with a slipping automatic accelerates internal wear — each slip sheds friction material from the clutch packs into the fluid, compounding the damage. If the transmission is slipping badly enough that the vehicle is underpowered or surging, don't drive it."
+        a: "Short distances to get to the shop, yes. Extended driving with a slipping automatic accelerates internal wear, each slip sheds friction material from the clutch packs into the fluid, compounding the damage. If the transmission is slipping badly enough that the vehicle is underpowered or surging, don't drive it."
       },
       {
         q: "Is there a warranty on the repair?",
@@ -3217,7 +3217,7 @@ const services = [
       },
       {
         q: "How does your pricing compare to dealers and chain shops?",
-        a: "Our labor rates and parts pricing are consistently below dealer rates — typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
+        a: "Our labor rates and parts pricing are consistently below dealer rates, typically 20–40% less for the same repair. We use quality parts and back every job with a 2-year parts and labor warranty. You get a written estimate before any work starts so there are no surprises."
       },
       {
         q: "Do you offer towing if my vehicle can't be driven?",
@@ -3227,7 +3227,7 @@ const services = [
     whoContent: {
       heading: "Who to Trust for Transmission Repair in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been working on transmissions in South Salt Lake since 1990. We approach every transmission job the same way — road test first, fluid inspection second, fault codes third. We rule out the cheaper fixes before recommending anything more involved, and we explain exactly what we found before asking you to approve any work.",
+        "Scott's Auto & Clutch Repair has been working on transmissions in South Salt Lake since 1990. We approach every transmission job the same way, road test first, fluid inspection second, fault codes third. We rule out the cheaper fixes before recommending anything more involved, and we explain exactly what we found before asking you to approve any work.",
         "Transmission repairs range from a fluid service to a full rebuild, and we'll tell you honestly which your vehicle needs and why. If it's a fluid service, that's what you'll get. If it genuinely needs an internal rebuild, we'll explain what failed and why, and give you a written estimate before anything is disassembled."
       ]
     },
@@ -3238,11 +3238,11 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes — road test, fault code scan, and fluid inspection before any recommendation"
+        value: "Yes. Road test, fault code scan, and fluid inspection before any recommendation"
       },
       {
         label: "Transfer Case Service",
-        value: "Yes — fluid service, actuator diagnosis, 4WD engagement repair for all 4WD/AWD vehicles"
+        value: "Yes. Fluid service, actuator diagnosis, 4WD engagement repair for all 4WD/AWD vehicles"
       },
       {
         label: "Most Common Causes",
@@ -3250,7 +3250,7 @@ const services = [
       },
       {
         label: "Vehicles Served",
-        value: "All makes and models — domestic, import, trucks, SUVs, 4WD/AWD"
+        value: "All makes and models, domestic, import, trucks, SUVs, 4WD/AWD"
       },
       {
         label: "Warranty",
@@ -3258,7 +3258,7 @@ const services = [
       },
       {
         label: "Free Towing",
-        value: "Included on repairs over $1,000 — we cover the tow to our shop"
+        value: "Included on repairs over $1,000, we cover the tow to our shop"
       }
     ],
     hasGeoPages: true,

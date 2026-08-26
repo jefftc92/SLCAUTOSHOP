@@ -40,7 +40,7 @@
           </div>
           <div class="loc-detail-item">
             <span class="loc-detail-label">Specializing in Clutch Since</span>
-            <span class="loc-detail-value">1990 — 36+ years</span>
+            <span class="loc-detail-value">1990, 36+ years</span>
           </div>
         </div>
         <div class="loc-shop-actions">
@@ -57,7 +57,7 @@
           allowfullscreen
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          title="Scott's Auto & Clutch Repair — <%= geo.locationName %> customers">
+          title="Scott's Auto & Clutch Repair, <%= geo.locationName %> customers">
         </iframe>
       </div>
     </div>
@@ -111,7 +111,7 @@
 <section class="content-section alt-bg">
   <div class="container">
     <h2>How We Handle Clutch Repair for <%= geo.locationName %> Customers</h2>
-    <p class="section-subtitle"><%= geo.processNote || 'From the moment you call to the moment you pick up — here\'s exactly what happens.' %></p>
+    <p class="section-subtitle"><%= geo.processNote || 'From the moment you call to the moment you pick up, here\'s exactly what happens.' %></p>
     <div class="process-steps-compact">
       <% processSteps.forEach(p => { %>
       <div class="process-step-compact">
@@ -132,7 +132,7 @@
 <section class="content-section">
   <div class="container">
     <h2>Common Clutch Problems We See from <%= geo.locationName %></h2>
-    <p class="section-subtitle">We diagnose before we recommend — <%= geo.locationName %> customers know exactly what's wrong and why before any work begins.</p>
+    <p class="section-subtitle">We diagnose before we recommend, <%= geo.locationName %> customers know exactly what's wrong and why before any work begins.</p>
     <div class="issues-grid">
       <% clutchService.commonIssues.forEach(issue => { %>
       <div class="issue-card">
@@ -176,8 +176,8 @@
 <% if (clutchService && clutchService.specializedServices && clutchService.specializedServices.length) { %>
 <section class="content-section">
   <div class="container">
-    <h2>Clutch Repair — What <%= geo.locationName %> Customers Get</h2>
-    <p class="section-subtitle mw-760">Every clutch job for <%= geo.locationName %> customers starts with diagnosis. We find the root cause before recommending anything — and only do the work your vehicle actually needs.</p>
+    <h2>Clutch Repair: What <%= geo.locationName %> Customers Get</h2>
+    <p class="section-subtitle mw-760">Every clutch job for <%= geo.locationName %> customers starts with diagnosis. We find the root cause before recommending anything, and only do the work your vehicle actually needs.</p>
     <div class="brand-tags mt-5">
       <% clutchService.specializedServices.forEach(s => { %>
       <span class="tag"><%= s %></span>
@@ -195,6 +195,6 @@
 <% var faqAlt = true; %>
 <%- include('partials/faq') %>
 
-<% var ctaTitle = "Need Clutch Repair Near " + geo.locationName + "?"; var ctaDesc = "Scott's Auto & Clutch Repair is " + geo.distance + " from " + geo.locationName + " — about " + geo.driveTime + ". We diagnose before we recommend, and you'll have a full quote before any work begins."; %>
+<% var ctaTitle = "Need Clutch Repair Near " + geo.locationName + "?"; var ctaDesc = "Scott's Auto & Clutch Repair is " + geo.distance + " from " + geo.locationName + ", about " + geo.driveTime + ". We diagnose before we recommend, and you'll have a full quote before any work begins."; %>
 <%- include('partials/cta') %>
 <%- include('partials/footer') %>

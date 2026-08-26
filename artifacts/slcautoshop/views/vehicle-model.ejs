@@ -39,10 +39,10 @@
     </div>
     <% } else if (model.yearRange) { %>
     <div class="prose mw-760 mt-5">
-      <p>We service all <%= model.fullName %> vehicles, covering production years <%= model.yearRange %>. Whatever generation you drive, our technicians have seen it — and know its quirks.</p>
+      <p>We service all <%= model.fullName %> vehicles, covering production years <%= model.yearRange %>. Whatever generation you drive, our technicians have seen it, and know its quirks.</p>
     </div>
     <% } %>
-    <p class="mt-5">Have questions about your specific <%= model.fullName %>? Give us a call or send a quick text — we're happy to help.</p>
+    <p class="mt-5">Have questions about your specific <%= model.fullName %>? Give us a call or send a quick text, we're happy to help.</p>
     <div class="hero-buttons mt-5">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>?body=<%= encodeURIComponent('Hi, I need service for my ' + model.fullName + '.') %>" class="btn btn-secondary">Text Us</a>
@@ -151,7 +151,7 @@
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
     <h2>Where to Find Us &mdash; <%= model.fullName %> Repair in South Salt Lake</h2>
-    <p>Scott's Auto &amp; Clutch Repair is located at 144 W Crystal Ave in South Salt Lake — centrally positioned in the valley, within 15 minutes of most Salt Lake City zip codes. Easy to reach from I-15, serving <%= model.fullName %> drivers from Millcreek, Murray, Draper, Sandy, West Jordan, Taylorsville, and across the greater Salt Lake area.</p>
+    <p>Scott's Auto &amp; Clutch Repair is located at 144 W Crystal Ave in South Salt Lake, centrally positioned in the valley, within 15 minutes of most Salt Lake City zip codes. Easy to reach from I-15, serving <%= model.fullName %> drivers from Millcreek, Murray, Draper, Sandy, West Jordan, Taylorsville, and across the greater Salt Lake area.</p>
     <div class="symptom-location-grid mt-6">
       <div class="symptom-location-info">
         <div class="location-detail">
@@ -190,7 +190,7 @@
      ============================================================ %>
 <% if (model.faqs && model.faqs.length) { %>
 <% var pageFaqs = model.faqs.map(function(f) { return { q: f.q, a: f.a }; }); %>
-<% var faqTitle = 'Frequently Asked Questions — ' + model.fullName + ' Repair'; %>
+<% var faqTitle = 'Frequently Asked Questions, ' + model.fullName + ' Repair'; %>
 <% var faqAlt = !!(_sec++ % 2); %>
 <%- include('partials/faq') %>
 <% } %>
@@ -240,7 +240,7 @@
 <section class="content-section<%= _sec++ % 2 ? ' alt-bg' : '' %>">
   <div class="container">
     <h2><%= model.fullName %> Repair Service Areas</h2>
-    <p class="section-subtitle">Our shop in South Salt Lake is centrally located in the valley — most customers are within 15 minutes. We service <%= model.fullName %> drivers from throughout the greater Salt Lake area.</p>
+    <p class="section-subtitle">Our shop in South Salt Lake is centrally located in the valley. Most customers are within 15 minutes. We service <%= model.fullName %> drivers from throughout the greater Salt Lake area.</p>
     <div class="locations-grid-compact mt-4">
       <% allLocations.forEach(function(l) { %>
       <a href="/locations/<%= l.slug %>" class="location-tag">
@@ -263,7 +263,7 @@
 <section class="content-section">
   <div class="container">
     <h2>All <%= makeData.brandName %> Models We Service</h2>
-    <p>We service the full <%= makeData.brandName %> lineup — not just the <%= model.name %>. Visit our <%= makeData.brandName %> brand page to see every model we work on, read about <%= makeData.brandName %>-specific service procedures, and learn what makes our shop the right choice for <%= makeData.brandName %> owners in Salt Lake City.</p>
+    <p>We service the full <%= makeData.brandName %> lineup, not just the <%= model.name %>. Visit our <%= makeData.brandName %> brand page to see every model we work on, read about <%= makeData.brandName %>-specific service procedures, and learn what makes our shop the right choice for <%= makeData.brandName %> owners in Salt Lake City.</p>
     <div class="hero-buttons mt-5">
       <a href="/vehicle-brands/<%= makeData.brandSlug %>" class="btn btn-outline">View All <%= makeData.brandName %> Services</a>
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
