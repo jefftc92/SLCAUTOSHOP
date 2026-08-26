@@ -73,11 +73,11 @@ const businessSchema = {
   ],
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.8",
+    "ratingValue": site.rating.value,
     "bestRating": "5",
     "worstRating": "1",
-    "ratingCount": "51",
-    "reviewCount": "51"
+    "ratingCount": String(site.rating.count),
+    "reviewCount": String(site.rating.count)
   },
   "sameAs": [
     "https://g.page/r/CYDFwHsY4XoBEBM/review",
@@ -227,16 +227,32 @@ app.use((req, res, next) => {
 // Handles old React-site URL patterns that Google may have indexed
 // ============================
 
+// Old React-site symptom slugs that were reworded on the current site and share
+// no common prefix with the new slug, so the prefix fallback can't map them.
+// Maps old slug (without the "-repair-south-salt-lake" suffix) → current slug.
+const LEGACY_SYMPTOM_SLUG_ALIASES = {
+  'clicking-noise-turning':  'clicking-when-turning',
+  'clutch-pedal-feels-soft': 'soft-clutch-pedal',
+  'exhaust-smell-cabin':     'exhaust-smell-in-cabin',
+  'grinding-noise-shifting': 'grinding-when-shifting',
+  'rough-ride-bumps':        'rough-ride-over-bumps',
+};
+
 app.use((req, res, next) => {
   const p = req.path;
 
   // Old symptom pattern: /symptoms/{slug}-repair-south-salt-lake
-  // Old slugs sometimes embedded the related service (e.g. "sulfur-smell-exhaust"),
-  // so fall back to the longest current symptom slug that prefixes the captured value.
+  // Resolution order: (1) exact current slug, (2) explicit alias for old React-site
+  // slugs that were reworded and share no prefix with the current slug, (3) fall back
+  // to the longest current symptom slug that prefixes the captured value (handles old
+  // slugs that embedded the related service, e.g. "sulfur-smell-exhaust").
   const symptomMatch = p.match(/^\/symptoms\/(.+)-repair-south-salt-lake$/);
   if (symptomMatch) {
     const captured = symptomMatch[1];
     let target = symptoms.find(s => s.slug === captured);
+    if (!target && LEGACY_SYMPTOM_SLUG_ALIASES[captured]) {
+      target = symptoms.find(s => s.slug === LEGACY_SYMPTOM_SLUG_ALIASES[captured]);
+    }
     if (!target) {
       target = symptoms
         .filter(s => captured.startsWith(s.slug + '-') || captured.startsWith(s.slug))
@@ -374,11 +390,11 @@ app.get('/', (req, res) => {
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": (allReviews.reduce((s, r) => s + r.rating, 0) / allReviews.length).toFixed(1),
+        "ratingValue": site.rating.value,
         "bestRating": "5",
         "worstRating": "1",
-        "ratingCount": String(allReviews.length),
-        "reviewCount": String(allReviews.length)
+        "ratingCount": String(site.rating.count),
+        "reviewCount": String(site.rating.count)
       },
       "review": allReviews
         .slice()
@@ -928,8 +944,28 @@ app.get('/vehicle-brands/:slug', (req, res) => {
   if (!brand) return res.status(404).render('404', { metaTitle: 'Page Not Found' });
 
   const bc = getBrandContent(brand.name);
+
+  // Build the model-tag list that the brand page links to. Match the curated
+  // brand.models name list to actual model pages case-insensitively, then append
+  // any model pages the list doesn't cover — so every model page is linked from
+  // its brand page and none are left orphaned (sitemap-only).
+  const makeModels = vehicleModels[brand.makeKey];
+  const modelPages = (makeModels && makeModels.models) || [];
+  const normModel = s => String(s).toLowerCase().replace(/[^a-z0-9]/g, '');
+  const usedModelSlugs = new Set();
+  const modelTags = [];
+  (brand.models || []).forEach(name => {
+    const md = modelPages.find(p => normModel(p.name) === normModel(name));
+    if (md) usedModelSlugs.add(md.slug);
+    modelTags.push({ label: brand.name + ' ' + name, slug: md ? md.slug : null });
+  });
+  modelPages.forEach(p => {
+    if (!usedModelSlugs.has(p.slug)) modelTags.push({ label: brand.name + ' ' + p.name, slug: p.slug });
+  });
+
   res.render('vehicle-detail', {
     activePage: 'vehicles',
+    modelTags,
     metaTitle: brand.metaTitle,
     metaDesc: brand.metaDesc,
     canonical: '/vehicle-brands/' + brand.slug,
