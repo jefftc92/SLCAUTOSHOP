@@ -12,7 +12,10 @@
   <div class="page-hero-bg"></div>
   <div class="container">
     <h1><%= geo.heading %></h1>
-    <% if (geo.hasLocalContext) { %>
+    <% if (typeof serviceHero !== 'undefined' && serviceHero) { %>
+    <p><%= serviceHero %> Our shop is <%= geo.distance %> from <%= geo.locationName %>, about <%= geo.driveTime %>.</p>
+    <% if (geo.hasLocalContext && geo.intro) { %><p><%= geo.intro %></p><% } %>
+    <% } else if (geo.hasLocalContext) { %>
     <p><%= geo.intro %></p>
     <% } else if (mainService) { %>
     <p><%= mainService.shortDesc %> Our shop is <%= geo.distance %> from <%= geo.locationName %>: about <%= geo.driveTime %>. We diagnose every issue before recommending any repair.</p>

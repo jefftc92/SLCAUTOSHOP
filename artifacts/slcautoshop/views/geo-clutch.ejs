@@ -7,6 +7,7 @@
   <div class="page-hero-bg"></div>
   <div class="container">
     <h1><%= geo.heading %></h1>
+    <% if (typeof serviceHero !== 'undefined' && serviceHero) { %><p><%= serviceHero %></p><% } %>
     <p><%= geo.intro %></p>
     <div class="hero-buttons">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>

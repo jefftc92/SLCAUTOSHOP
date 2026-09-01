@@ -14,6 +14,7 @@ const vehicleModels = require('./data/vehicleModels');
 const { getContent: getBrandContent } = require('./data/vehicleBrandContent');
 const { serviceFaqs, getSymptomFaqs, getLocationFaqs, getGeoFaqs } = require('./data/pageFaqs');
 const { getLocationSeoContent } = require('./data/locationSeoContent');
+const { getServiceHero } = require('./data/serviceHeros');
 const geoPages = require('./data/geoPages');
 const serviceGeoPages = require('./data/serviceGeoPages');
 const allReviews = require('./data/reviews.json');
@@ -579,6 +580,7 @@ app.get('/services/:slug', (req, res) => {
         canonical: '/services/' + geo.slug,
         geo,
         clutchService,
+        serviceHero: getServiceHero('clutch-repair', geo.locationName),
         pageFaqs: getGeoFaqs(geo),
         faqTitle: 'Frequently Asked Questions: Clutch Repair Near ' + geo.locationName,
         pageTestimonials: pickReviews(1 + Math.floor(Math.random() * 2)),
@@ -626,6 +628,7 @@ app.get('/services/:slug', (req, res) => {
         canonical: '/services/' + serviceGeo.slug,
         geo: serviceGeo,
         mainService: mainService || null,
+        serviceHero: getServiceHero(serviceGeo.serviceKey, serviceGeo.locationName),
         pageFaqs: geoPageFaqs,
         faqTitle: 'Frequently Asked Questions: ' + serviceGeo.serviceFullName + ' Near ' + serviceGeo.locationName,
         pageTestimonials: pickReviews(2 + Math.floor(Math.random() * 2)),
