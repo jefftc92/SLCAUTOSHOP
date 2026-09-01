@@ -251,8 +251,8 @@ function getLocationFaqs(location) {
 
   if (isHome) {
     return [
-      {q:'Where is Scott\'s Auto & Clutch located?',a:'We\'re at 144 W Crystal Ave in Salt Lake City, UT 84117. We\'re right between I-15 and State Street, just south of 3300 South. The Central Pointe TRAX station is a 3-minute walk from our shop.'},
-      {q:'What are your hours?',a:'We\'re open Monday through Friday, 8:00 AM to 5:30 PM. Saturday appointments are available by request. Call (801) 485-4089 or text us to schedule.'},
+      {q:'Where is Scott\'s Auto & Clutch located?',a:'We\'re at 144 W Crystal Ave in South Salt Lake, UT 84115. We\'re right between I-15 and State Street, just south of 3300 South. The Central Pointe TRAX station is a 3-minute walk from our shop.'},
+      {q:'What are your hours?',a:'We\'re open Monday through Friday, 9:00 AM to 5:30 PM. Saturday appointments are available by request. Call (801) 485-4089 or text us to schedule.'},
       {q:'Do you offer free estimates?',a:'Yes. We provide free visual inspections and estimates for most services. For complex diagnostics requiring specialized equipment, we charge a diagnostic fee that is applied toward the repair cost if you proceed with us.'}
     ];
   }
@@ -294,7 +294,7 @@ const geoFaqMap = {
   'clutch-repair-near-west-valley-city-ut': [
     {q:'Can event traffic near USANA Amphitheatre actually damage a clutch in one evening?',a:'Yes. Stop-and-go traffic at walking speeds on 5600 West, especially if you\'re riding the clutch to control speed in the crowd, generates enough heat to glaze the disc surface in a single concert or event. A burning smell after that evening is a warning that your clutch absorbed more heat than it should have.'},
     {q:'How much does clutch repair cost for West Valley City drivers?',a:'Clutch replacement typically runs $800–$1,800. West Valley\'s stop-and-go on 3500 South puts above-average wear on throw-out bearings in addition to the disc, so we inspect the full release system, not just the disc and pressure plate, during any clutch job.'},
-    {q:'How far is the drive to Scott\'s from West Valley City?',a:'We\'re 7 miles east, about 12 minutes on 3500 South. It\'s a direct route with no freeway required. We\'re open Monday–Friday 8 AM–5:30 PM, and we can often fit a diagnosis appointment within a day or two of calling.'}
+    {q:'How far is the drive to Scott\'s from West Valley City?',a:'We\'re 7 miles east, about 12 minutes on 3500 South. It\'s a direct route with no freeway required. We\'re open Monday–Friday 9 AM–5:30 PM, and we can often fit a diagnosis appointment within a day or two of calling.'}
   ],
   'clutch-repair-near-holladay-ut': [
     {q:'My clutch only slips when cold. Is that a flywheel problem?',a:'Cold slipping that improves once warmed up is often a glazed flywheel surface. The disc needs the flywheel to be slightly rough to grip properly; a polished or glazed surface reduces grip when both components are cold and contracting. We always inspect the flywheel during clutch replacement, resurfacing or replacing it is essential for a lasting repair.'},
@@ -339,7 +339,7 @@ const geoFaqMap = {
   'clutch-repair-near-kearns-ut': [
     {q:'The 4500 South I-15 on-ramp is brutal on clutches. What can I do?',a:'The ramp is short and steep, which forces most drivers to launch hard from first gear at full throttle. Shifting to second gear earlier, even if it feels sluggish briefly, reduces the peak torque load on the disc and pressure plate significantly. It adds a second to your merge but can add 10,000 miles to your clutch life if you do it every day.'},
     {q:'How affordable is clutch repair at Scott\'s for Kearns families?',a:'We price our clutch work honestly, $800–$1,800 depending on your vehicle, with no unnecessary upselling. We diagnose first and quote before touching anything. Kearns customers tell us they appreciate knowing what they\'re paying for before we start, and we hold to that quote unless we discover a genuinely different problem during disassembly.'},
-    {q:'How far is the drive from Kearns to your shop?',a:'We\'re 7 miles east, about 12 minutes on 5400 South or 4700 South. The drive is straightforward on surface streets with no freeway required if you prefer it. We\'re open Monday–Friday 8 AM–5:30 PM.'}
+    {q:'How far is the drive from Kearns to your shop?',a:'We\'re 7 miles east, about 12 minutes on 5400 South or 4700 South. The drive is straightforward on surface streets with no freeway required if you prefer it. We\'re open Monday–Friday 9 AM–5:30 PM.'}
   ],
   'clutch-repair-near-midvale-ut': [
     {q:'The I-15/I-215 junction near Midvale has short merge lanes. How do I protect my clutch?',a:'Time your on-ramp entry to match the gap rather than launching from a full stop whenever possible. The first-gear, full-throttle launch from standstill is the hardest single event on your clutch disc. If you merge from a rolling start at 20–25 mph instead, you reduce peak clutch load substantially and can skip directly to second gear.'},

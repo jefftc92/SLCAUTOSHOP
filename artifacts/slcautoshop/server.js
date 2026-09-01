@@ -69,7 +69,7 @@ const businessSchema = {
     "longitude": -111.8883
   },
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "17:30" }
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "17:30" }
   ],
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -404,7 +404,7 @@ app.get('/', (req, res) => {
         "longitude": -111.8883
       },
       "openingHoursSpecification": [
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "17:30" }
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "17:30" }
       ],
       "areaServed": [
         { "@type": "City", "name": "South Salt Lake" },
@@ -526,7 +526,7 @@ app.get('/contact', (req, res) => {
           "@id": site.domain + "/#business",
           "name": site.name,
           "telephone": site.phone,
-          "openingHours": "Mo-Fr 08:00-17:30",
+          "openingHours": "Mo-Fr 09:00-17:30",
           "address": { "@type": "PostalAddress", "streetAddress": site.address, "addressLocality": site.city, "addressRegion": site.state, "postalCode": site.zip, "addressCountry": "US" }
         }
       },

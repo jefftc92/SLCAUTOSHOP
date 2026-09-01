@@ -11,10 +11,10 @@ const CITIES = [
       { name: 'Sprouts Farmers Market, 2750 S Highland Drive', distance: '0.5 miles from shop', tip: 'A recognizable stop on the drive south from Sugar House. When you see Sprouts on your right heading toward South Salt Lake, Crystal Ave is the next left. We\'re halfway down the block on the right.' },
       { name: 'State Street & Crystal Ave', distance: '0.1 miles east', tip: 'The intersection at the east end of our block. If you overshoot Crystal Ave heading south on Highland Drive, you can also come west on 3300 South to State Street, then turn right on Crystal Ave, we\'re half a block west.' }
     ],
-    logisticsNote: 'Most Sugar House customers drop the car in the morning and pick it up the same day. We open at 8 AM, and diagnoses are typically done within a couple of hours. If you\'d rather not sit at the shop, Uber and Lyft run consistently from our lot, the ride back to Sugar House is usually under $10 and about 5 minutes. Call ahead and we\'ll have your intake ready when you arrive.',
-    processNote: 'For Sugar House customers, most jobs are completed the same day, drop off at 8 AM and pick up before close.',
+    logisticsNote: 'Most Sugar House customers drop the car in the morning and pick it up the same day. We open at 9 AM, and diagnoses are typically done within a couple of hours. If you\'d rather not sit at the shop, Uber and Lyft run consistently from our lot, the ride back to Sugar House is usually under $10 and about 5 minutes. Call ahead and we\'ll have your intake ready when you arrive.',
+    processNote: 'For Sugar House customers, most jobs are completed the same day, drop off at 9 AM and pick up before close.',
     whyChooseUs: [
-      { title: '5 Minutes from Sugar House', desc: 'Highland Drive to Crystal Ave, one turn, no freeway. Drop off at 8 AM, Lyft back to the neighborhood, and pick up the same day.' },
+      { title: '5 Minutes from Sugar House', desc: 'Highland Drive to Crystal Ave, one turn, no freeway. Drop off at 9 AM, Lyft back to the neighborhood, and pick up the same day.' },
       { title: 'We Know Sugar House Terrain', desc: 'The I-80 on-ramp grade on 1300 East, the Harrison Avenue hill starts, the stop-and-go on 2100 South, we see these driving patterns from Sugar House vehicles regularly and know what each one does to a car over time.' },
       { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
       { title: 'In Business Since 1990', desc: 'Sugar House drivers come here because general shops send them back with the same problem. We\'ve been diagnosing and fixing cars in this valley since 1990, and we get it right the first time.' }
@@ -62,7 +62,7 @@ const CITIES = [
       { name: 'I-80 Overpass on State Street', distance: '1 mile north of shop', tip: 'A clear route marker on State Street heading south from downtown. Once you cross under I-80, you\'re 1 mile from our turn. Stay on State Street and turn right on Crystal Ave, we\'re on the left side.' },
       { name: 'Liberty Park, 1300 S / 700 E', distance: '2 miles north of shop', tip: 'A well-known SLC landmark for Avenues and east-side drivers. Heading south from Liberty Park on State Street or Highland Drive connects directly to the route to our shop. Crystal Ave is about 2 miles south of the park.' }
     ],
-    logisticsNote: 'TRAX makes this the easiest commute for Salt Lake City customers. Take the Red or Blue Line to Central Pointe Station and walk 3 minutes east to 144 W Crystal Ave, no rideshare needed. Drop your car at 8 AM, ride TRAX back to downtown or the Avenues, and we\'ll call when the diagnosis is ready. Driving from the Avenues or Capitol Hill? Take State Street south, cross under I-80, and Crystal Ave is the second major left, about 1 mile past the freeway. Uber and Lyft are available from our location throughout business hours.',
+    logisticsNote: 'TRAX makes this the easiest commute for Salt Lake City customers. Take the Red or Blue Line to Central Pointe Station and walk 3 minutes east to 144 W Crystal Ave, no rideshare needed. Drop your car at 9 AM, ride TRAX back to downtown or the Avenues, and we\'ll call when the diagnosis is ready. Driving from the Avenues or Capitol Hill? Take State Street south, cross under I-80, and Crystal Ave is the second major left, about 1 mile past the freeway. Uber and Lyft are available from our location throughout business hours.',
     processNote: 'Salt Lake City customers can drop off early and take TRAX or a rideshare back. Most jobs are done same-day. Call ahead so we can let you know about your specific vehicle.',
     whyChooseUs: [
       { title: 'TRAX Drop-Off, Same-Day Pickup', desc: 'Take the Red or Blue Line to Central Pointe, 3 minutes east on foot. Drop off your car, ride TRAX back to downtown or the Avenues, and pick up the same day.' },
@@ -80,9 +80,9 @@ const CITIES = [
       { name: '2700 South & State Street', distance: '2 blocks from shop', tip: 'When you see the 2700 South light on State Street heading north, Crystal Ave is just 2 blocks ahead on the right. If you take I-15, exit at 2700 South and head east, Crystal Ave is the first major right.' }
     ],
     logisticsNote: 'Taylorsville customers are about 10 minutes from the shop via 4700 South or I-215. Drop your car in the morning and Uber or Lyft back, the return ride to central Taylorsville is typically under 15 minutes. TRAX isn\'t directly on this route, but rideshare is available from our lot throughout the day. Call ahead and we\'ll have the intake ready when you arrive.',
-    processNote: 'Most Taylorsville customers drop off at 8 AM and pick up same day, the 4700 South route takes about 10 minutes each way.',
+    processNote: 'Most Taylorsville customers drop off at 9 AM and pick up same day, the 4700 South route takes about 10 minutes each way.',
     whyChooseUs: [
-      { title: '10 Minutes on 4700 South', desc: '4700 South east to State Street, north to Crystal Ave, one turn and 10 minutes. Drop off at 8 AM and most jobs are done before the end of the day.' },
+      { title: '10 Minutes on 4700 South', desc: '4700 South east to State Street, north to Crystal Ave, one turn and 10 minutes. Drop off at 9 AM and most jobs are done before the end of the day.' },
       { title: 'We Know Arterial and Freeway Driving', desc: 'Taylorsville\'s wide arterials and I-215 on-ramps create specific wear patterns from high-speed driving and abrupt stops. We see these regularly and know what to look for first.' },
       { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
       { title: 'In Business Since 1990', desc: 'Taylorsville drivers come here when a closer shop hasn\'t found the problem. We\'ve been doing this since 1990 and fix it right the first time.' }
@@ -165,9 +165,9 @@ const CITIES = [
       { name: '2700 South exit off I-15, South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop. Exit at 2700 South heading east, and Crystal Ave is about a mile from the freeway on the right. We\'re at 144 W Crystal Ave, on the left side of the block.' }
     ],
     logisticsNote: 'Draper customers can take the TRAX Blue Line to simplify drop-off. Board at Draper Town Center or Kimball Lane, ride north to Central Pointe Station, and walk 3 minutes east to our shop at 144 W Crystal Ave. Drop your car in the morning, take TRAX back to Draper or wherever you need to be, and we\'ll call when the job is ready. Uber and Lyft are also available from our lot throughout the day.',
-    processNote: 'Draper customers making the 15-minute drive can drop off at 8 AM. Most jobs are done by afternoon. Call ahead so we can give you an accurate time estimate.',
+    processNote: 'Draper customers making the 15-minute drive can drop off at 9 AM. Most jobs are done by afternoon. Call ahead so we can give you an accurate time estimate.',
     whyChooseUs: [
-      { title: 'Worth the 15-Minute Drive', desc: 'Draper drivers make the I-15 trip because the closer options haven\'t found the problem. Drop off at 8 AM and most jobs are done by afternoon.' },
+      { title: 'Worth the 15-Minute Drive', desc: 'Draper drivers make the I-15 trip because the closer options haven\'t found the problem. Drop off at 9 AM and most jobs are done by afternoon.' },
       { title: 'We Know Point of the Mountain Driving', desc: 'The I-15 grade at Point of the Mountain is one of the most demanding drives in the valley, especially towing. We see Draper vehicles with this wear pattern regularly and know what to check.' },
       { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
       { title: 'In Business Since 1990', desc: 'Draper customers drive here because they\'ve tried closer shops and got the wrong answer. We\'ve been doing this since 1990 and diagnose it correctly the first time.' }
@@ -216,9 +216,9 @@ const CITIES = [
       { name: '2700 South exit off I-15, South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop coming from Riverton. Head east from the exit and turn right on Crystal Ave. Our shop is at 144 W Crystal Ave on the left side of the block.' }
     ],
     logisticsNote: 'Riverton customers are about 16 minutes from the shop, mostly on I-15. Drop your car in the morning and Uber or Lyft back, the return ride to Riverton is typically under 20 minutes. TRAX isn\'t directly convenient from Riverton, but rideshare is available from our lot throughout the day. Many Riverton customers drop off early and arrange a same-day pickup, call ahead to confirm timing.',
-    processNote: 'Riverton customers making the 16-minute drive can drop off at 8 AM and pick up same day on most jobs, call ahead to confirm timing.',
+    processNote: 'Riverton customers making the 16-minute drive can drop off at 9 AM and pick up same day on most jobs, call ahead to confirm timing.',
     whyChooseUs: [
-      { title: 'Worth the 16-Minute Drive', desc: 'Riverton doesn\'t have many specialists nearby. Drop off at 8 AM and pick up same day on most jobs, call ahead to confirm timing.' },
+      { title: 'Worth the 16-Minute Drive', desc: 'Riverton doesn\'t have many specialists nearby. Drop off at 9 AM and pick up same day on most jobs, call ahead to confirm timing.' },
       { title: 'We Know Long-Commute Driving', desc: 'Riverton commuters put serious daily miles on their cars, Bangerter transitions, I-15 merges, and long-distance accumulation all create wear we see regularly from Riverton vehicles.' },
       { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
       { title: 'In Business Since 1990', desc: 'Riverton drivers make the trip because the closer shops haven\'t gotten the diagnosis right. We\'ve been doing this since 1990 and fix it correctly the first time.' }
@@ -226,16 +226,16 @@ const CITIES = [
   },
   {
     slug: 'herriman', name: 'Herriman', distance: '15 miles', driveTime: '20 min',
-    directions: 'Take Mountain View Corridor north from Herriman to I-15, then north approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave. About 20 minutes, mostly freeway. We open at 8 AM. Many Herriman customers drop off early and arrange same-day pickup.',
+    directions: 'Take Mountain View Corridor north from Herriman to I-15, then north approximately 10 miles. Exit at 2700 South in South Salt Lake and head east. Turn right on Crystal Ave. About 20 minutes, mostly freeway. We open at 9 AM. Many Herriman customers drop off early and arrange same-day pickup.',
     landmarks: [
       { name: 'Mountain View Corridor north entrance, Herriman area', distance: '15 miles south of shop', tip: 'The main route heading north from Herriman. Take Mountain View Corridor north until it connects with I-15, from the freeway junction it\'s about 10 miles to our 2700 South exit in South Salt Lake.' },
       { name: '5400 South interchange off I-15', distance: '5 miles south of shop', tip: 'A useful midpoint landmark on the I-15 run north from Herriman. From here, our exit is just 3 more miles, continue to 2700 South, then head east about a mile to Crystal Ave and turn right.' },
       { name: '2700 South exit off I-15, South Salt Lake', distance: '1 mile from shop', tip: 'The turn-off for our shop. Exit here and head east, Crystal Ave is about a mile from the freeway on the right. We\'re at 144 W Crystal Ave on the left side of the block.' }
     ],
     logisticsNote: 'Herriman customers are about 20 minutes from the shop on Mountain View Corridor and I-15. Drop your car in the morning and Uber or Lyft back, the return ride to Herriman is typically under 25 minutes. TRAX isn\'t convenient from Herriman, but rideshare is available from our lot throughout the day. Call ahead so we can confirm timing and have the intake ready when you arrive.',
-    processNote: 'Herriman customers making the 20-minute drive can drop off at 8 AM and pick up same day on most jobs, call ahead to confirm timing.',
+    processNote: 'Herriman customers making the 20-minute drive can drop off at 9 AM and pick up same day on most jobs, call ahead to confirm timing.',
     whyChooseUs: [
-      { title: 'No Closer Specialist', desc: 'Herriman doesn\'t have a dedicated specialist nearby. The 20-minute drive is worth it. Drop off at 8 AM and most jobs are done same day.' },
+      { title: 'No Closer Specialist', desc: 'Herriman doesn\'t have a dedicated specialist nearby. The 20-minute drive is worth it. Drop off at 9 AM and most jobs are done same day.' },
       { title: 'We Know Hillside and Long-Commute Driving', desc: 'Herriman\'s steep residential streets and long valley commutes create wear patterns that compound over time. We see these from Herriman vehicles regularly and know what to check first.' },
       { title: 'Diagnosis Before We Recommend Anything', desc: 'We check the whole system before pointing to any specific part. You know exactly what we found and why before any work begins.' },
       { title: 'In Business Since 1990', desc: 'Herriman drivers make the 20-minute drive because the closer shops haven\'t gotten it right. We\'ve been diagnosing and fixing since 1990 and do it correctly the first time.' }
