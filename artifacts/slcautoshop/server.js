@@ -96,6 +96,7 @@ const PRIMARY_DOMAIN = 'https://slcautoshop.com';
 const LEGACY_DOMAIN_HOSTS = new Set([
   'scottsautoandclutch.com',
   'www.scottsautoandclutch.com',
+  'www.slcautoshop.com',
   'slcautohsop-nodjs.replit.app',
 ]);
 
