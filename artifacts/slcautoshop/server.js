@@ -99,6 +99,9 @@ const LEGACY_DOMAIN_HOSTS = new Set([
   'www.slcautoshop.com',
   'slcautohsop-nodjs.replit.app',
 ]);
+const LEGACY_CANONICAL_PATHS = new Map([
+  ['/symptoms/rough-idle-over-bumps', '/symptoms/rough-ride-over-bumps'],
+]);
 
 // Domain migration: consolidate the old site at the new canonical domain before
 // any other redirect or route can run. This preserves deep links, query strings,
@@ -117,7 +120,8 @@ app.use((req, res, next) => {
   const queryIndex = originalUrl.indexOf('?');
   const rawPath = queryIndex === -1 ? originalUrl : originalUrl.slice(0, queryIndex);
   const query = queryIndex === -1 ? '' : originalUrl.slice(queryIndex);
-  const canonicalPath = rawPath.length > 1 ? rawPath.replace(/\/+$/, '') : rawPath;
+  const normalizedPath = rawPath.length > 1 ? rawPath.replace(/\/+$/, '') : rawPath;
+  const canonicalPath = LEGACY_CANONICAL_PATHS.get(normalizedPath) || normalizedPath;
 
   return res.redirect(301, PRIMARY_DOMAIN + canonicalPath + query);
 });
@@ -269,6 +273,9 @@ const LEGACY_SYMPTOM_SLUG_ALIASES = {
 
 app.use((req, res, next) => {
   const p = req.path;
+
+  const canonicalLegacyPath = LEGACY_CANONICAL_PATHS.get(p);
+  if (canonicalLegacyPath) return res.redirect(301, canonicalLegacyPath);
 
   // Old symptom pattern: /symptoms/{slug}-repair-south-salt-lake
   // Resolution order: (1) exact current slug, (2) explicit alias for old React-site
