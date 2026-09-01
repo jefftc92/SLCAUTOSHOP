@@ -92,6 +92,34 @@ const businessSchema = {
 const app = express();
 const PORT = process.env.PORT || 3000;
 const CSS_VER = process.env.CSS_VER || (() => { try { return require('child_process').execSync('git rev-parse --short HEAD').toString().trim(); } catch (e) { return 'prod'; } })();
+const PRIMARY_DOMAIN = 'https://slcautoshop.com';
+const LEGACY_DOMAIN_HOSTS = new Set([
+  'scottsautoandclutch.com',
+  'www.scottsautoandclutch.com',
+  'slcautohsop-nodjs.replit.app',
+]);
+
+// Domain migration: consolidate the old site at the new canonical domain before
+// any other redirect or route can run. This preserves deep links, query strings,
+// and tracking parameters while avoiding a redirect chain.
+app.use((req, res, next) => {
+  const forwardedHost = req.headers['x-forwarded-host'];
+  const requestHost = String(forwardedHost || req.headers.host || '')
+    .split(',')[0]
+    .trim()
+    .split(':')[0]
+    .toLowerCase();
+
+  if (!LEGACY_DOMAIN_HOSTS.has(requestHost)) return next();
+
+  const originalUrl = req.originalUrl || req.url || '/';
+  const queryIndex = originalUrl.indexOf('?');
+  const rawPath = queryIndex === -1 ? originalUrl : originalUrl.slice(0, queryIndex);
+  const query = queryIndex === -1 ? '' : originalUrl.slice(queryIndex);
+  const canonicalPath = rawPath.length > 1 ? rawPath.replace(/\/+$/, '') : rawPath;
+
+  return res.redirect(301, PRIMARY_DOMAIN + canonicalPath + query);
+});
 
 // Middleware
 app.set('trust proxy', 1);
