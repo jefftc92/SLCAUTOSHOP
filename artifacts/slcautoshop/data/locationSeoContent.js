@@ -50,7 +50,7 @@ const locationSeoContent = {
   'murray-ut-auto-repair': {
     keywordIntro: "Scott's Auto & Clutch Repair is Murray's trusted auto repair shop, just 4 miles north of Murray, about an 8-minute drive up State Street. We've been serving Murray families, commuters, and healthcare workers since 1990. Whether you need clutch repair, brake service, CV axle work, or routine maintenance, our Murray customers trust us for honest diagnostics and fair pricing. We serve drivers throughout 84107, 84121, and 84123.",
     commonNeeds: [
-      { service: 'Brake Service', context: 'Murray\'s central traffic corridors, State Street, 5300 South, and the I-15/5300 South interchange, create heavy stop-and-go wear on brake pads. Fashion Place Mall traffic alone wears brakes 30% faster than highway driving.' },
+      { service: 'Brake Service', context: 'Murray\'s central traffic corridors, State Street, 5300 South, and the I-15/5300 South interchange, create heavy stop-and-go wear on brake pads. Frequent braking around Fashion Place Mall and the State Street corridor is harder on brakes than steady highway driving.' },
       { service: 'Clutch Repair', context: 'Murray commuters stuck in State Street traffic put constant stress on manual transmission clutches. Riding the clutch in stop-and-go is the fastest way to wear it out, we see this pattern regularly from Murray customers.' },
       { service: 'Complete Auto Service', context: 'Healthcare workers at Intermountain Medical Center need reliable vehicles. Our complete service keeps Murray commuters on the road without unexpected breakdowns.' },
       { service: 'CV Axle Repair', context: 'Tight parking at Fashion Place Mall, Murray Parkway Center, and Intermountain Medical stresses CV joints. Clicking sounds during turns need immediate inspection.' }
@@ -140,7 +140,7 @@ const locationSeoContent = {
   'sandy-ut-auto-repair': {
     keywordIntro: "Scott's Auto & Clutch Repair is Sandy's trusted auto repair shop, located 8 miles north in South Salt Lake. Since 1990, we've served Sandy commuters, families, and car enthusiasts with complete auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and full vehicle maintenance. Our Sandy customers throughout 84070, 84092, 84093, and 84094 trust us for honest diagnostics and fair pricing on quality repairs.",
     commonNeeds: [
-      { service: 'Brake Service', context: 'Sandy commuters on I-15 to downtown face the most congested commute in Utah. Stop-and-go I-15 traffic wears brakes 30-40% faster than steady highway driving.' },
+      { service: 'Brake Service', context: 'Sandy commuters on I-15 to downtown face one of the most congested commutes in the valley. That stop-and-go I-15 traffic means more frequent braking than steady highway driving, which is harder on brake pads over time.' },
       { service: 'Clutch Repair', context: 'Manual transmission drivers commuting from Sandy to downtown via I-15 wear clutches quickly. Rush hour traffic on I-15 means constant clutch work that typical clutch lifespans don\'t account for.' },
       { service: 'Suspension Service', context: 'Sandy\'s location at the base of the Wasatch means canyon access and rough mountain roads for recreation. Combined with I-15 commuting, suspensions take a beating.' },
       { service: 'Timing Belt/Chain Service', context: 'Sandy commuters rack up miles quickly, 25+ mile round trips daily to downtown. Staying ahead of timing component replacement is critical to avoid catastrophic engine damage.' }
