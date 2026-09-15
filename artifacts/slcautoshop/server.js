@@ -156,7 +156,16 @@ app.use(helmet({
   },
   crossOriginEmbedderPolicy: false,
   frameguard: false,
-  hsts: { maxAge: 31536000, includeSubDomains: true, preload: true },
+  // The production edge (Google Frontend) emits its own
+  // `Strict-Transport-Security: max-age=63072000; includeSubDomains` ahead of
+  // this one. RFC 6797 §8.1 requires a UA to honour only the FIRST STS header
+  // and ignore the rest, so anything asserted here is inert in production.
+  // Keep HSTS on (the app must still protect direct/non-edge access) but
+  // match the edge's two-year max-age so the two headers agree, and drop
+  // `preload`: it never reached a browser and made the domain look opted in
+  // when it was not. Real preload eligibility has to be configured at the
+  // edge — it cannot be granted from this process.
+  hsts: { maxAge: 63072000, includeSubDomains: true },
   referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
 }));
 // Permissions-Policy — not in Helmet defaults
