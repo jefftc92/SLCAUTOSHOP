@@ -57,37 +57,37 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual V8 Firebirds",
           "desc": "The T-5 five-speed in third-gen Firebirds and the Borg-Warner T-56 six-speed in fourth-gen Trans Ams and Formula models are strong transmissions, but the clutches behind them see real work. High-torque launches, canyon driving, and enthusiast use wear clutch discs and pressure plates faster than stock specifications suggest. Slipping under hard acceleration, a pedal that engages too high, or grinding when searching for a gear are all signs. We replace the full clutch kit, disc, pressure plate, and release bearing, and check the flywheel.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Exhaust System Corrosion",
           "desc": "Firebird exhaust systems, particularly the Y-pipes and mid-section on second and third-gen cars, corrode aggressively over decades of Utah road salt and freeze-thaw exposure. A growing exhaust drone, ticking at idle from a cracked manifold, or a sudden volume increase all indicate exhaust failure. We inspect, weld, or replace the affected sections.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Refresh on High-Mileage Firebirds",
           "desc": "Fourth-gen Firebirds, especially WS6 Trans Ams with the performance brake package, have generous brake hardware that still wears and needs periodic attention. Rear calipers on these cars are prone to seizing on vehicles that sit infrequently. We replace pads, rotors, and service caliper slides at every brake job.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Suspension Wear, Front Struts and Rear Shocks",
           "desc": "Third and fourth-gen Firebird suspension components wear with mileage and are often the reason the car no longer handles the way it should. Front struts, rear shocks, and lower control arm bushings all degrade. We inspect the full suspension and replace what's actually worn, not everything at once unless everything actually needs it.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter Codes",
           "desc": "Third and fourth-gen Firebirds with high mileage commonly generate P0420/P0430 catalytic converter efficiency codes. On a car this age, the cat genuinely may be worn out, but upstream O2 sensor failure causes the same code. We diagnose the actual cause before recommending a new catalytic converter.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Wear on IRS-Equipped Models",
           "desc": "Fourth-gen Firebirds with independent rear suspension develop CV axle wear in the same pattern as any IRS vehicle, boot cracks, grease loss, joint wear, and eventual clicking on turns or vibration under load. We replace complete axle shafts.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -127,32 +127,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "T-5 and T-56 clutch kits for all manual Firebird and Trans Am generations."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Service",
           "desc": "Y-pipe, mid-section, manifold, and full exhaust repair on all F-body Firebird generations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and rear caliper service, WS6 and standard brake packages."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Front strut, rear shock, and control arm bushing replacement on high-mileage Firebirds."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat and O2 sensor diagnosis and replacement on third and fourth-gen Firebird models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and complete inspection for Firebirds returning to service."
         }
@@ -243,31 +243,31 @@ module.exports = {
         {
           "title": "Clutch Replacement on Manual GTO",
           "desc": "High-torque GTO clutches, Muncie 4-speed behind a 400 or 455, or a T-56 6-speed behind a 400hp LS2, don't last forever when driven enthusiastically. Classic GTOs may have original or period replacement clutches that are decades old. Modern GTOs with the T-56 develop clutch wear in the same pattern as the Firebird and Corvette. We replace the full clutch kit and inspect the flywheel for heat damage.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Exhaust, Manifold Cracks and System Corrosion",
           "desc": "Classic GTO cast iron exhaust manifolds crack at high mileage, especially on high-output 400 and 455 engines that run hot. The crack typically appears near the center of the manifold and produces a ticking sound that's most prominent when the engine is cold. Modern GTOs develop catalytic converter wear and O2 sensor codes at high mileage. We handle both.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Refresh, Classic and Modern",
           "desc": "Classic GTOs with original drum brakes benefit from a full brake inspection and drum shoe replacement, or a disc brake conversion discussion. Modern GTOs have four-wheel disc brakes that wear predictably and benefit from brake fluid flushing at regular intervals. We service both.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light on 2004–2006 GTO",
           "desc": "Modern GTOs with the LS1 or LS2 commonly generate catalytic converter efficiency codes and O2 sensor failures at higher mileage. We diagnose the actual cause, whether it's the sensor, the cat, or an exhaust leak ahead of the sensor, before recommending parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Suspension Wear on High-Mileage GTO",
           "desc": "Modern GTO front struts and rear shocks degrade with mileage. The car's weight and performance tuning mean worn suspension components are noticeable, handling becomes imprecise, the car floats over highway undulations, and nose-dive under braking increases. We inspect and replace what's actually worn.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -307,32 +307,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Muncie 4-speed and T-56 6-speed clutch kits for classic and modern GTO."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Service",
           "desc": "Manifold crack repair, system corrosion, and catalytic converter service on GTO models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Drum and disc brake service on classic GTOs; four-wheel disc service on modern 2004–2006 models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Front strut and rear shock replacement on 2004–2006 GTO models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "LS1/LS2 GTO catalytic converter and O2 sensor diagnosis and replacement."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and all GTO maintenance in a single visit."
         }
@@ -415,31 +415,31 @@ module.exports = {
         {
           "title": "Supercharger Coupler Wear on GTP",
           "desc": "The 3800 Series II supercharged GTP has a rubber coupler between the supercharger and drive pulley that degrades over time. A whining or growling noise under load, different from the normal supercharger whine, often indicates coupler wear. Left unaddressed, it leads to supercharger damage. We inspect and replace the coupler and assess supercharger condition.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Brake Wear and Caliper Seizing",
           "desc": "Grand Prix front brakes carry most of the braking load. The platform is front-heavy. Front calipers on high-mileage, infrequently serviced Grand Prix models seize at the slider pins, causing uneven pad wear and brake pull. We replace pads and rotors as a set and service caliper slides at every brake job.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Front Strut Wear, W-Body Platform",
           "desc": "W-body Grand Prix front struts wear with mileage and the pounding of Utah roads. The car will handle loosely, nose-dive under braking, and float at highway speeds. Strut replacement restores the handling precision the car was designed to deliver.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Flex Pipe Failure",
           "desc": "Grand Prix exhaust flex pipes corrode and crack from years of Utah road salt exposure. You'll notice a growing exhaust drone or a ticking that's loudest at idle and during warmup. We inspect and repair the exhaust system.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, Emissions and O2 Sensors",
           "desc": "High-mileage Grand Prix models generate O2 sensor and catalytic converter codes predictably. We diagnose the actual fault, sensor versus converter efficiency, before recommending expensive parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -479,32 +479,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front caliper service, pad and rotor replacement on all Grand Prix generations."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and rear shock service on W-body Grand Prix platform."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, mid-section, and manifold gasket repair on high-mileage Grand Prix."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "O2 sensor and converter diagnosis and replacement on high-mileage Grand Prix."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all Grand Prix maintenance in a single visit."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "3800 and 3.1L water pump replacement with cooling system inspection."
         }
@@ -583,31 +583,31 @@ module.exports = {
         {
           "title": "Timing Belt on 2.4L Twin Cam Engine",
           "desc": "The 2.4L Quad Four and Twin Cam engines in Grand Am models use a rubber timing belt that needs replacement every 60,000–80,000 miles. Many high-mileage Grand Ams have either never had the belt changed or the service history is unknown. This is an interference engine, a broken belt destroys the engine. We do the full service including water pump, tensioner, and idler pulley.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear and Caliper Seizing",
           "desc": "Grand Am front brakes carry most of the braking load and wear faster than rear brakes. Caliper slide pins corrode on high-mileage cars, causing the caliper to stick and the inboard pad to wear significantly faster than the outboard. We replace pads and rotors as a set and service caliper slides at every brake job.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Front Strut Wear",
           "desc": "N-body Grand Am front struts wear at predictable mileage intervals. Worn struts cause imprecise steering, excessive nose-dive under braking, and a bouncy ride over Utah road irregularities. We inspect and replace what's worn.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Grand Am CV axles develop clicking on turns, the classic sign of a worn outer CV joint after the boot cracks and grease escapes. We replace complete axle shafts for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light and Emissions Failure",
           "desc": "High-mileage Grand Ams generate catalytic converter and O2 sensor codes. We diagnose the root cause before recommending parts, on an older car, getting the diagnosis right the first time matters.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -647,32 +647,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Service",
           "desc": "Full 2.4L timing belt service including water pump, tensioner, and idler pulley."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front caliper service, pad and rotor replacement on all Grand Am generations."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement on N-body Grand Am platform."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Replacement",
           "desc": "Complete axle shaft replacement for clicking Grand Am front CV joints."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "O2 sensor and converter diagnosis and replacement on high-mileage Grand Am."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all Grand Am maintenance in one visit."
         }
@@ -751,31 +751,31 @@ module.exports = {
         {
           "title": "Intake Manifold Gaskets on 3800 Series II",
           "desc": "The 3800 Series II engine has a documented intake manifold gasket issue, the lower intake gaskets fail and allow coolant to seep externally or, in more serious cases, internally into the oil. You may notice a coolant smell, coolant loss with no visible external leak, or in severe cases a milky appearance to the oil. We replace the gaskets and inspect for any downstream damage.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Service: Front and Rear",
           "desc": "H-body Bonneville front brakes wear predictably and rear disc brakes, equipped on most trims, develop caliper seizing at high mileage. We service caliper slides, replace pads and rotors as a set, and inspect the brake hydraulic system at every brake job.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Front Strut Wear on Full-Size Platform",
           "desc": "Bonneville front struts carry significant weight and wear accordingly. A soft, bouncy ride, imprecise steering, and excessive nose-dive under braking indicate worn struts. We inspect and replace struts and check upper mount condition at the same service.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "SSEi Supercharger Coupler Wear",
           "desc": "The supercharged SSEi Bonneville's 3800 Series II supercharger has a rubber drive coupler that degrades over time. A growling or whining noise under load that differs from the normal supercharger whine indicates coupler wear. Neglecting it leads to supercharger damage. We inspect and replace the coupler.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Check Engine Light, O2 and Cat Codes",
           "desc": "High-mileage Bonnevilles generate O2 sensor and catalytic converter efficiency codes. We diagnose the actual root cause before recommending parts. A sensor can mimic a converter fault at a fraction of the cost.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -815,32 +815,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Cooling System Service",
           "desc": "Intake manifold gasket repair and water pump replacement on 3800 Series II Bonneville engines."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake job including rear caliper service on H-body Bonneville models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement with upper mount inspection on H-body platform."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "O2 sensor and converter diagnosis and replacement on high-mileage Bonneville."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all Bonneville maintenance in one visit."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, mid-section, and manifold gasket repair on high-mileage Bonneville exhaust."
         }
@@ -915,31 +915,31 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual Solstice",
           "desc": "Solstice clutches, especially on GXP turbocharged models, wear faster than most drivers expect from a small-displacement car. The turbo GXP produces enough torque to stress the clutch significantly, especially in first and second gear. Slipping under acceleration, a spongy pedal, or grinding when shifting are the signs. We do the full clutch kit replacement including flywheel inspection.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Wear, Sports Car Use",
           "desc": "Solstice owners who use their cars on canyon roads and spirited weekend drives accelerate brake wear considerably. The car's light weight means brake wear doesn't feel as dramatic as on a heavier vehicle, but the pads and rotors wear just as fast. We inspect brake condition at every service and recommend replacement with quality performance-appropriate pads.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Exhaust Flex Pipe and System Corrosion",
           "desc": "Solstice exhaust systems corrode with age and Utah road salt exposure. The mid-section flex pipe is the first area to develop cracks, you may hear a growing exhaust drone or rattle at cruising speed. We inspect, weld, or replace the affected section.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light on GXP Turbo",
           "desc": "GXP turbocharged Solstice models generate check engine lights from boost system issues, O2 sensor failures, and catalytic converter codes at higher mileage. We diagnose the actual fault before recommending parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Suspension Wear, Sports Tuned, Road Exposed",
           "desc": "The Solstice's sport-tuned suspension handles Utah canyon roads hard, and the shock absorbers and bushings wear accordingly. Degraded handling, clunking over rough pavement, and excessive body movement are the signs. We inspect and replace worn suspension components.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -979,32 +979,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch kit for manual Solstice, naturally aspirated and GXP turbocharged applications."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Performance Brake Service",
           "desc": "Front and rear brake service with fluid flush on all Solstice trims."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, mid-section, and exhaust system repair on Kappa platform Solstice."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Suspension Service",
           "desc": "Shock absorber and suspension bushing replacement on worn Solstice sport suspension."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "GXP turbo catalytic converter and O2 sensor diagnosis and replacement."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all Solstice maintenance in one visit."
         }
@@ -1079,31 +1079,31 @@ module.exports = {
         {
           "title": "Front Strut Wear",
           "desc": "GMT189 Aztek front struts wear with mileage and contribute to the imprecise steering and bouncy ride that many high-mileage Azteks display. Replacing front struts, and the upper mount bearings at the same time, restores the handling to what the car was designed to deliver.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service: Front-Heavy Platform",
           "desc": "The Aztek's front brakes carry most of the braking load. Front calipers on high-mileage examples seize at the slider pins from corrosion, causing uneven pad wear and brake pull. We replace pads and rotors as a set and service caliper slides at every brake job.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Aztek CV axles develop clicking on slow-speed turns as outer joint boots crack and grease escapes. AWD-equipped Azteks have front and rear CV axles that both see wear. We replace complete axle shafts.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Intake Manifold Gasket on 3.4L V6",
           "desc": "The GM 3400 V6 in the Aztek shares the intake manifold gasket vulnerability with other 3400-powered vehicles. Coolant loss without an obvious external leak, or a coolant smell at operating temperature, often means the lower intake manifold gasket is seeping. We replace the gaskets and inspect the cooling system.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light and Emissions Failure",
           "desc": "High-mileage Azteks generate O2 sensor and catalytic converter codes. We diagnose the root cause before recommending parts, the correct diagnosis the first time matters on a car where the repair cost needs to be proportional to the value.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1143,32 +1143,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and upper mount replacement on GMT189 Aztek platform."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front caliper service, pad and rotor replacement on all Aztek trims."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Replacement",
           "desc": "Front and rear axle shaft replacement for clicking Aztek AWD drivetrain."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Cooling System Service",
           "desc": "Intake manifold gasket repair and water pump replacement on 3.4L V6."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "O2 sensor and converter diagnosis and replacement on high-mileage Aztek."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all Aztek maintenance in a single visit."
         }

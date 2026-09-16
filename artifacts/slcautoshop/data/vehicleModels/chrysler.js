@@ -57,37 +57,37 @@ module.exports = {
         {
           "title": "Timing Chain Wear on 5.7L and 3.6L Engines",
           "desc": "Both the 5.7L Hemi and 3.6L Pentastar in the modern Chrysler 300 use timing chains. On high-mileage examples, especially those with stretched oil change intervals, chain stretch becomes an issue. A brief metallic rattle at cold startup that clears up once oil pressure builds is the earliest symptom. We inspect the chain, tensioner, and guides before a worn chain causes camshaft timing errors.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure on High-Mileage V6 and V8",
           "desc": "Water pump lifespan on the 300's V6 and V8 is typically 80,000–100,000 miles. Symptoms include a coolant leak from the front of the engine, an overheating gauge, or a rumbling noise from the pump bearing. We replace the pump, check the thermostat, and flush the coolant system as a package.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear, Front and Rear",
           "desc": "The Chrysler 300 is a heavy sedan, and brake wear reflects that. V8 models driven with any enthusiasm eat front brakes relatively quickly. A soft pedal, pulsation during braking, or squealing at low speed means it's time for an inspection. We check all four corners and replace only what's needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Exhaust System Leaks and Corrosion",
           "desc": "300 exhaust systems on Utah cars suffer from road salt damage, manifold gaskets crack, flex pipes rust through, and mid-pipe connections fail. A ticking noise at startup that changes with RPM typically points to a manifold leak. We inspect the full exhaust path and repair what needs fixing.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Shock Wear and Handling Changes",
           "desc": "The 300's rear-wheel-drive architecture with a live axle on base models and independent suspension on higher trims develops shock wear at mileage. A vehicle that floats on the highway, nose-dives under braking, or bounces on rough pavement has worn shocks. We replace in axle pairs and road-test.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Catalytic Converter Failure and Theft",
           "desc": "The 300's cat placement and easy access underneath make it a target for catalytic converter theft in Salt Lake City. Beyond theft, high-mileage converters fail internally and trigger P0420 codes that fail Utah emissions. We replace with OEM-quality units.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -127,32 +127,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide inspection and replacement for high-mileage Hemi and Pentastar 300 engines."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Pump, thermostat, and coolant flush for 300 V6 and V8 engines showing early overheating symptoms."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full four-corner brake inspection, pads, rotors, and calipers, for a sedan that earns its brake wear."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex pipes, and full exhaust service for salt-damaged 300 exhaust systems."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "OEM-grade shock replacement to restore highway stability and braking composure on high-mileage 300s."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Theft replacement and P0420 diagnostic for 300s in Salt Lake City's high-theft environment."
         }
@@ -235,31 +235,31 @@ module.exports = {
         {
           "title": "Timing Belt Replacement on 2.4L Sebring",
           "desc": "The 2.4L four-cylinder in first and second-gen Sebrings uses a timing belt driving an interference engine. A snapped belt bends valves immediately. The correct interval is 90,000 miles, but we recommend inspection earlier on cars whose service history is unknown. We replace the belt, tensioner, idler, and water pump as a complete kit.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "2.7L V6 Oil Sludge and Overheating",
           "desc": "The 2.7L V6 in 2001–2006 Sebrings is notorious for developing engine sludge when oil changes are deferred. Sludge blocks the oil pickup screen, starves the bearings, and causes overheating through blocked coolant passages. If your 2.7L is running hot, using oil, or ticking at idle, the cause may be sludge damage rather than a simple repair. We inspect the engine condition honestly before recommending what to do.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Strut Wear and Front-End Noise",
           "desc": "Sebring struts, especially on the second-gen, wear by 80,000–100,000 miles and produce clunking, bouncing, or a wandering front end. Utah road conditions accelerate strut wear. We replace in axle pairs and always recommend an alignment check afterward.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service",
           "desc": "Sebring brakes wear predictably, front pads first, rotors warp from heat, rear drums on some models need adjustment or replacement. A squealing or grinding noise or a soft pedal means it's time for an inspection. We check all four corners.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Joint Wear, Front Axles",
           "desc": "Sebring front CV joints wear at mileage, the rubber boot cracks, grease escapes, and clicking on turns follows. On an older Sebring, we replace the complete axle shaft rather than the boot alone, which holds up significantly better.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -299,32 +299,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt kit, belt, tensioner, idler, and water pump, for 2.4L Sebrings at the correct interval."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for Sebrings with bounce, clunk, or front-end wander."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and four-corner brake inspection for Sebrings at any mileage."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle replacement for Sebrings clicking on turns from worn CV joints."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump and coolant flush for Sebrings with cooling system leaks or overheating, with honest assessment of engine condition first."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid check, and inspection, everything your Sebring needs, prioritized honestly."
         }
@@ -403,31 +403,31 @@ module.exports = {
         {
           "title": "Timing Belt Replacement, The Critical Service",
           "desc": "The 2.4L in all PT Cruisers, turbocharged or not, uses a timing belt on an interference engine. If the belt breaks, the engine is destroyed immediately. The correct interval is 90,000 miles or 6 years, whichever comes first. On a PT Cruiser with unknown service history, treat the timing belt as due regardless of mileage. We replace the belt, tensioner, idler, and water pump as a complete kit. Engine removal is required for complete access on this platform.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Replacement",
           "desc": "The PT Cruiser water pump is driven by the timing belt. When we do the timing belt service, we always replace the water pump at the same time, the labor to access it is already done, and a water pump failure after a fresh timing belt would require the same extensive work again. If the water pump is failing on its own, we do the full kit job.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Clutch Wear on Manual PT Cruiser GT",
           "desc": "The turbocharged PT Cruiser GT with the 5-speed manual develops clutch wear, faster if the turbo power has been used as intended. A high engagement point, clutch slip under hard acceleration, or difficulty getting into gear cleanly are the signs. We carry quality clutch kits for the 2.4T GT.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Service",
           "desc": "PT Cruiser brakes wear predictably at mileage, front pads and rotors first, rear drums on base models or rear discs on GT. A squealing noise or a pedal that requires more pressure than usual means it's time for an inspection.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Joint Wear, Clicking on Turns",
           "desc": "Front CV joints on PT Cruisers wear by 100,000+ miles, the boot cracks, grease escapes, and clicking develops on low-speed turns. We replace the complete axle shaft for a more reliable repair than a boot kit alone.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -467,32 +467,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt kit, belt, tensioner, idler, and water pump, the most critical service for any PT Cruiser."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Always included with timing belt service. The labor is already done, and the pump should always be replaced at the same time."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual PT Cruiser GT clutch replacement, disc, pressure plate, release bearing, and flywheel inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection and service, pads, rotors or drums, and calipers for PT Cruisers at any mileage."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for PT Cruisers clicking on turns from worn CV joints."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic and multi-point inspection, a good starting point for a PT Cruiser with unknown service history."
         }
@@ -579,31 +579,31 @@ module.exports = {
         {
           "title": "Brake Wear, Heavy Loading and Family Use",
           "desc": "A fully loaded Town & Country with seven or eight people and luggage puts serious demands on the brake system. Rotors warp from repeated hard stops, rear brakes wear faster than owners expect, and brake fluid ages without obvious symptoms. We inspect all four corners, pads, rotors, calipers, and fluid, and replace only what needs replacing.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Shock and Strut Wear",
           "desc": "Town & Country struts and shocks wear progressively on vans that carry heavy loads regularly. A rear that squats under load and doesn't return smoothly, a nose that dives under braking, or a bouncy ride over rough pavement are the signs. Worn suspension components on a loaded van are a safety concern. We replace in axle pairs.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust System Corrosion",
           "desc": "Town & Country exhaust systems on Utah vans suffer from road salt damage, flex pipes, mid-pipe connections, and manifold gaskets are the common failure points. A ticking noise at startup, or a rumble that gets louder with RPM, typically points to an exhaust leak. We inspect the full system from manifold to tailpipe.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Water Pump Failure on 3.3L and 3.8L",
           "desc": "The 3.3L and 3.8L V6 engines in older Town & Country vans develop water pump failures around 80,000–100,000 miles. Early symptoms include a coolant leak from the front of the engine or an overheating gauge that creeps up in stop-and-go traffic. We replace the pump, inspect the thermostat, and flush the coolant.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Catalytic Converter Issues",
           "desc": "High-mileage Town & Country vans trigger P0420 codes at mileage, sometimes from a genuinely failed cat, sometimes from an oxygen sensor or exhaust leak that produces the same code. We diagnose the actual cause before recommending a catalytic converter replacement, which saves you from an unnecessary expense on a vehicle where cost-benefit matters.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -643,32 +643,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full four-corner brake inspection and service, pads, rotors, and calipers for a heavily used family van."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut and Shock Replacement",
           "desc": "Suspension service for Town & Country vans that carry heavy loads on Utah roads and highways."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex pipes, and full exhaust system service for salt-corroded Town & Country exhaust."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump, thermostat, and coolant flush for 3.3L and 3.8L Town & Country vans at mileage."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate P0420 diagnosis and quality cat replacement for Town & Country vans failing Utah emissions."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid check, and multi-point inspection for any Town & Country at any mileage."
         }
@@ -743,31 +743,31 @@ module.exports = {
         {
           "title": "Brake Wear from Heavy Use",
           "desc": "A loaded Pacifica with seven or eight passengers and cargo earns its brake wear. Front pads and rotors take the most load, and on vans used for regular family hauling, the interval can be shorter than owners expect. We inspect all four corners at every brake complaint and replace only what's needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut Wear and Suspension Noise",
           "desc": "Pacifica struts develop wear on higher-mileage vans and in vehicles regularly loaded to or near capacity. A clunking over bumps, a bouncy ride, or a vehicle that doesn't feel planted on the freeway points to strut wear. We replace in axle pairs and check alignment after installation.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Timing Chain Service on 3.6L Pentastar",
           "desc": "The 3.6L Pentastar is generally a durable engine, but high-mileage examples with stretched oil change intervals can develop timing chain wear. A brief cold-start rattle that clears in under a minute is the earliest sign. We inspect the chain and tensioners before the condition advances to cam timing errors.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Corrosion",
           "desc": "Utah road salt attacks Pacifica exhaust systems, flex pipes and mid-pipe sections are the most common failure points. A ticking, hissing, or rumbling exhaust note that changes with RPM is the typical sign of a leak. We inspect and repair the full exhaust system.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Catalytic Converter Issues and Check Engine Light",
           "desc": "P0420 codes on Pacificas at mileage can indicate a failing catalytic converter, or a failed oxygen sensor or exhaust leak producing the same code. We verify the cause before recommending a replacement.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -807,32 +807,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full four-corner brake inspection and service for a heavily used family minivan."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for Pacificas with bounce, clunk, or reduced handling confidence."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide inspection and replacement for high-mileage 3.6L Pentastar Pacificas."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, mid-pipe, and full exhaust system service for salt-corroded Pacifica exhaust components."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate P0420 diagnosis and quality cat replacement for Pacificas failing Utah emissions."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid check, and multi-point inspection for Pacificas at any mileage."
         }
@@ -907,31 +907,31 @@ module.exports = {
         {
           "title": "Clutch Wear on SRT-6 Manual",
           "desc": "The supercharged SRT-6 with the 6-speed manual generates enough torque that clutch wear can come sooner than on a base model, especially on cars driven as the SRT-6 was intended. A slipping clutch under hard acceleration, a high engagement point, or grinding when shifting are the signs. We inspect the complete clutch system and replace what's worn.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Exhaust System Wear and Corrosion",
           "desc": "Crossfire exhaust systems, especially on Utah cars that have seen road salt, develop leaks at the manifold-to-pipe connections and flex sections. An exhaust leak on a sports car with a performance exhaust note can be difficult to distinguish by sound alone. We put it on the lift and inspect visually from end to end.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Service",
           "desc": "Crossfire brake systems are sports-car appropriate, they're designed for spirited driving, but pads and rotors wear under sustained use. If the car pulls under braking, pulsates, or squeals from the front or rear, it's time for an inspection. We check all four corners and recommend only what's needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Shock and Suspension Component Wear",
           "desc": "At 15–20 years old, Crossfire suspension components, shock absorbers, bushings, and end links, are aging. A ride that's harsher than expected, a clunk over bumps, or handling that feels less precise than it once was can all point to worn suspension. We inspect and advise on what to address.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Oxygen Sensors and Emissions",
           "desc": "Crossfire oxygen sensor failures are common at age and mileage, triggering check engine lights and sometimes emissions failures. We read the specific code, verify the cause, and replace only the failed component, not every O2 sensor in the system by default.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -971,32 +971,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "SRT-6 manual clutch replacement, disc, pressure plate, release bearing, and flywheel inspection."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold connections, flex pipes, and full exhaust system inspection and repair for aging Crossfire exhaust systems."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Four-corner brake inspection and service, pads, rotors, and calipers for all Crossfire variants."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Shock absorber replacement for Crossfires with age-related suspension wear and handling changes."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Front CV joint inspection and axle service for Crossfire drivetrain wear at mileage and age."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic and multi-point inspection for Crossfires, a good starting point for a car with unknown service history."
         }

@@ -61,37 +61,37 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on Startup (M271/M274)",
           "desc": "The four-cylinder turbocharged engines used in W204 and W205 C-Classes, the M271 and M274, are well-known for timing chain and guide wear as mileage climbs. You'll typically hear a brief rattle on cold startup that quiets once oil pressure builds. Don't wait: a worn chain can jump a tooth and cause serious valve-train damage. We inspect the chain, tensioner, and plastic guides and replace the system before it leaves you stranded.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure",
           "desc": "C-Class engines, particularly the M271, use plastic impeller water pumps that are notorious for failure. The impeller can strip or crack, causing coolant circulation to drop without immediately leaking. The first sign is often creeping engine temperature or an overheating warning. We replace the water pump, inspect the thermostat, and pressure-test the cooling system before returning your car.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear and Brake Sensor Warnings",
           "desc": "C-Class brake components wear faster than many owners expect, particularly on the rear axle. Mercedes uses wear sensors that trigger a dashboard warning well before metal-on-metal contact, but many owners defer the repair. We service C-Class brakes regularly: pads, rotors, calipers, and brake fluid flush as needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Front Suspension Wear (Control Arms and Ball Joints)",
           "desc": "W204 and W205 C-Classes develop front control arm bushing wear and ball joint play at moderate mileage, especially cars driven on Utah's rougher secondary roads. Symptoms include a clunking sound over bumps, vague steering, or uneven tire wear. We inspect, diagnose, and replace worn suspension components with OEM-grade parts.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle and Driveshaft Wear",
           "desc": "Clicking on turns, especially at low speed in parking lots, is a worn CV joint. C-Class CV boots crack over time, particularly in Utah's freeze-thaw cycles, allowing grease to escape and grit to enter. We replace the complete axle shaft for a durable, long-lasting repair rather than just repacking the boot.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Oxygen Sensor and Catalytic Converter Codes",
           "desc": "High-mileage C-Class models frequently trigger P0420 or P0430 codes for catalytic converter efficiency, as well as upstream and downstream oxygen sensor faults. We scan and verify the actual root cause, a bad O2 sensor is a very different repair from a failing cat, and fix what actually needs fixing.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -131,32 +131,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "M271 and M274 chain, tensioner, and guide replacement, catch it before it causes valve-train damage."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Plastic impeller water pump replacement, thermostat inspection, and cooling system pressure test."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, wear sensors, and brake fluid flush for all C-Class generations."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, more reliable than boot-only repairs."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut and Suspension Repair",
           "desc": "Control arm bushings, ball joints, and strut replacement for a settled, responsive ride."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full C-Class inspection, fluid service, and anything else your car needs, one visit."
         }
@@ -251,37 +251,37 @@ module.exports = {
         {
           "title": "AIRMATIC Suspension Failure (W211/W212)",
           "desc": "The AIRMATIC air suspension used on many W211 and W212 E-Class models is a common failure point. Air struts develop leaks and the compressor eventually burns out from working overtime to compensate. Symptoms include a corner that sits lower than the others, or a car that rides on the bump stops. We diagnose the leak source, strut, line, or compressor, and recommend the most cost-effective repair path.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Timing Chain Wear (M272/M273 V6/V8)",
           "desc": "The M272 V6 and M273 V8 engines used in W211 and W212 E-Class models are prone to timing chain guide and balance shaft wear. The first indication is often a rattle at startup or a check engine light for camshaft position correlation. This is a significant repair but far less expensive than the engine damage that results from ignoring it.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump and Cooling System Service",
           "desc": "E-Class water pumps, particularly the plastic-impeller units in four- and six-cylinder engines, have a finite service life. Coolant leaks, overheating warnings, or a gradual rise in temperature gauge readings are all signals. We replace the water pump, test the thermostat, and pressure-test the system to confirm no other leaks exist.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Service and Wear Sensor Warning",
           "desc": "E-Class brake components are sized for a heavy, fast car, they do real work and they wear. Rear brakes often wear faster than front on these platforms. We service E-Class brakes regularly: pads, rotors, calipers, and fluid flush on a proper schedule.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust and Catalytic Converter Issues",
           "desc": "High-mileage E-Class models, particularly the V6 and V8 variants, develop catalytic converter efficiency codes and exhaust manifold issues. We diagnose the actual failure (converter, O2 sensor, or manifold leak) and repair what's actually causing the problem.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Joint and Driveshaft Wear",
           "desc": "E-Class CV joints and driveshaft carrier bearings wear with mileage, clicking on turns or a vibration at highway speed are the usual symptoms. We inspect and replace worn CV components, including complete axle shafts for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -321,32 +321,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "AIRMATIC / Strut Repair",
           "desc": "Air strut leak diagnosis and repair, compressor replacement, and conversion options for W211 and W212 models."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "M272 and M273 balance shaft and timing chain repair, caught early before catastrophic engine damage."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Plastic impeller pump replacement, thermostat, and full cooling system pressure test."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake service for all E-Class generations, pads, rotors, calipers, fluid flush."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Converter efficiency diagnosis and replacement for V6 and V8 E-Class models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full E-Class inspection, fluid service, and all maintenance items, one visit."
         }
@@ -445,37 +445,37 @@ module.exports = {
         {
           "title": "AIRMATIC Air Suspension Failure",
           "desc": "W220, W221, and W222 S-Class models rely on AIRMATIC air suspension, and virtually every high-mileage example has dealt with a failing strut or compressor. Symptoms include a car that sits low on one corner, takes a long time to level at startup, or won't rise at all. We diagnose whether the failure is the strut itself, the supply lines, or the compressor, because the repair path and cost vary significantly depending on the root cause.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake System Service",
           "desc": "S-Class brakes are doing serious work, stopping a heavy, fast car, and they wear accordingly. Rear brake wear is typically faster on these platforms. We service S-Class brakes completely: pads, rotors, calipers, and brake fluid flush. Keeping the brake fluid fresh is especially important on a car this heavy.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Water Pump and Cooling System",
           "desc": "S-Class V8 and V12 engines generate significant heat, and cooling system components, water pumps, thermostats, expansion tanks, have finite service lives. We see W220 S500 and S600 cooling failures regularly. When one component fails, we inspect the rest of the system to ensure you don't have a second repair due in six months.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust System Wear",
           "desc": "Long-wheelbase S-Class vehicles have extensive exhaust runs with multiple flex joints and hangers. Age, road salt, and Utah winters cause cracks at the flex points and rust at exhaust hangers. A rattling exhaust underneath or increased cabin noise under acceleration are the usual symptoms.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and O2 Sensors",
           "desc": "High-mileage S-Class V8s commonly trigger catalytic converter efficiency codes. Before condemning an expensive converter, we verify the actual root cause, sometimes it's a failed O2 sensor, an exhaust leak affecting sensor readings, or a genuine catalyst failure. We diagnose and fix the root cause.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Driveshaft and Carrier Bearing Wear",
           "desc": "S-Class rear-wheel-drive models with high mileage develop driveshaft center carrier bearing wear and CV joint play. A vibration at highway speed that worsens with acceleration, sometimes called a 'driveline shudder', is the most common symptom. We inspect and address the driveshaft assembly to restore smooth highway cruising.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -515,32 +515,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "AIRMATIC Suspension Repair",
           "desc": "Air strut, compressor, and supply line diagnosis and repair for W220, W221, and W222 S-Class models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake service for all S-Class generations, pads, rotors, calipers, fluid flush."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service including water pump, thermostat, and pressure testing for V8 and V12 engines."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex joint, hanger, and exhaust section repair for long-wheelbase S-Class models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Converter diagnosis and replacement for high-mileage S-Class V8 models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full S-Class mechanical inspection, fluid service, and maintenance, one visit, no surprises."
         }
@@ -623,31 +623,31 @@ module.exports = {
         {
           "title": "Brake Wear, Front and Rear",
           "desc": "GLE brake components handle the demands of a heavy luxury SUV, but they wear on schedule and sometimes faster when the vehicle is used for towing or frequent mountain driving. We see GLE brake jobs regularly, pads, rotors, and caliper inspection with brake fluid flush. The brake wear sensor warning on a GLE is reliable; don't let it sit once it triggers.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "AIRMATIC Air Suspension Leaks and Compressor Wear",
           "desc": "GLE models with AIRMATIC suspension are prone to air strut leaks and compressor wear, especially on cars with significant mileage in mountain terrain. A vehicle that corners unevenly or takes longer than usual to level at startup is showing early compressor strain. Catching a strut leak early prevents the more expensive compressor replacement.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump and Cooling System Service",
           "desc": "The inline-six and V6 engines in GLE 350 and GLE 450 models use water pumps with service lives that don't always match the general maintenance schedule. A slow climb in engine temperature or a coolant warning on a Utah summer mountain drive often indicates a pump or thermostat issue. We inspect, replace, and pressure-test the full cooling system.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle and Transfer Case Wear",
           "desc": "The 4MATIC drivetrain sees significant use in a Utah winter market. Front CV axles develop wear with high mileage and AWD use, clicking on turns and vibration under power are the early signs. We also recommend transfer case and front/rear differential fluid service on schedule, which is often skipped at quick-lube stops.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust System Wear on High-Mileage GLE",
           "desc": "High-mileage GLE exhaust systems develop flex joint cracks and hanger rust, particularly on vehicles that have seen multiple Utah winters. Increased exhaust noise under acceleration or a rattle from underneath are the common symptoms.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -687,32 +687,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full GLE brake service, pads, rotors, calipers, wear sensors, and fluid flush."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "AIRMATIC / Suspension Repair",
           "desc": "Air strut, compressor, and supply line diagnosis and repair for GLE AIRMATIC models."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump, thermostat, and cooling system pressure test for GLE 350 and GLE 450."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement and 4MATIC drivetrain fluid service."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex joint, hanger, and exhaust section repair for high-mileage GLE models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full GLE mechanical inspection, fluid service, and all maintenance items, one visit."
         }
@@ -795,31 +795,31 @@ module.exports = {
         {
           "title": "Timing Chain Wear (M264 2.0T)",
           "desc": "The M264 2.0-liter turbocharged engine in GLC 300 models is susceptible to timing chain stretch with deferred or extended oil change intervals. Symptoms include a rattle on cold startup, a check engine light for cam position correlation, or rough idle. We inspect the chain, tensioner, and guides and replace the assembly before damage to the valvetrain occurs.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure",
           "desc": "GLC 300 water pumps, the mechanically driven unit and, on some builds, an auxiliary electric pump, have finite service lives. Signs of failure include a slow temperature gauge rise, a coolant level warning, or a visible leak at the front of the engine. We replace the pump, inspect the thermostat, and pressure-test the system.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Service and Wear Sensor Warning",
           "desc": "GLC brake pads and rotors wear on a predictable schedule, rear brake wear is typically faster on this platform. The wear sensor warning is reliable; once it triggers, schedule service promptly. We handle the full brake job: pads, rotors, calipers where needed, and fluid flush.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Front Suspension, Control Arms and Bushings",
           "desc": "GLC front suspension components, particularly control arm bushings, wear with mileage and Utah road use. Symptoms include a clunking or knocking sound over bumps, vague steering response, or uneven front tire wear. We inspect and replace worn components with OEM-grade parts.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Wear on 4MATIC Models",
           "desc": "The 4MATIC all-wheel-drive system subjects front CV axles to additional stress. Clicking on slow turns, especially noticeable in parking lots, means a worn CV joint. We replace the complete axle shaft for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -859,32 +859,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "M264 timing chain, tensioner, and guide replacement for GLC 300 models."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump, thermostat, and cooling system pressure test for GLC 300."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full GLC brake service, pads, rotors, calipers, wear sensors, fluid flush."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Repair",
           "desc": "Control arm, bushing, and strut service for GLC front and rear suspension."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on 4MATIC GLC models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full GLC inspection, fluid service, and all maintenance items, one visit."
         }
@@ -963,37 +963,37 @@ module.exports = {
         {
           "title": "M272 Balance Shaft Wear and Timing Chain Issues",
           "desc": "The M272 V6 used in the GLK 350 has a documented failure involving balance shaft sprocket wear that can cause timing chain slop and guide damage over time. Symptoms include rough idle, a check engine light for cam timing correlation, or a metallic noise at startup. Left unaddressed, this can escalate into significant engine damage. We inspect the balance shaft and timing system and give you an honest read on where yours stands.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure",
           "desc": "The M272's plastic impeller water pump is a well-known failure point on the GLK 350. The impeller can crack or separate from the shaft, causing loss of coolant circulation without an immediately obvious external leak. A rising temperature gauge, coolant low warning, or overheating on a climb are typical symptoms. We replace the water pump as a complete service, including thermostat inspection and cooling system pressure test.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Service",
           "desc": "GLK brake components wear on a predictable schedule, and rear brakes often go first on this platform. The wear sensor warning is accurate, once it lights up, schedule service. We do the full brake job: pads, rotors, calipers as needed, and a fluid flush.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Front Control Arm and Bushing Wear",
           "desc": "GLK front suspension bushings develop wear and play at moderate mileage, particularly on vehicles driven on Utah's rougher secondary roads. Clunking over bumps, wandering steering, or uneven front tire wear are the usual signs. We inspect, diagnose, and replace worn components with OEM-grade parts.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Wear on 4MATIC Models",
           "desc": "GLK 4MATIC front CV axles see consistent wear with all-season driving and mileage. A clicking or popping sound on slow turns in parking lots means the CV joint is worn. We replace the complete axle shaft for a reliable fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust Wear and Catalytic Converter Codes",
           "desc": "High-mileage GLK models develop exhaust flex joint cracks and occasional catalytic converter efficiency codes. We diagnose whether the trigger is an actual converter failure, an O2 sensor issue, or an exhaust leak affecting sensor readings, and fix the root cause.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1033,32 +1033,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain and Balance Shaft Service",
           "desc": "M272 balance shaft, timing chain, and guide inspection and replacement for GLK 350."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Plastic impeller pump replacement, thermostat, and cooling system pressure test."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full GLK brake service, pads, rotors, calipers, and brake fluid flush."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Repair",
           "desc": "Front control arm, bushing, and strut service to restore handling and reduce clunking."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for GLK 4MATIC models with clicking on turns."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full GLK inspection, fluid service, and all maintenance items, one visit."
         }
@@ -1145,37 +1145,37 @@ module.exports = {
         {
           "title": "Air Suspension Sagging or Compressor Running Constantly",
           "desc": "The W163, W164, and W166 all use air suspension, and each generation develops its own failure modes. A compressor that runs constantly or an ML that sits low overnight usually points to a leaking air spring, a failed compressor, or a faulty valve block. We inspect the entire system and replace what's actually failed, not a scattershot guess.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Rough Ride After Air Suspension Conversion",
           "desc": "Many ML owners convert their air suspension to conventional coilover struts to save on future repair costs. We perform these conversions correctly, with quality strut assemblies matched to the ML's chassis, so the ride is firm and predictable without being punishing on Utah's canyon roads.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Wear and Brake Dust Buildup",
           "desc": "ML-Class vehicles are heavy, and the brakes know it. Front pads wear faster than owners expect, and the OEM pad compound produces significant brake dust on alloy wheels. We use quality pads and rotors matched to the ML's weight and braking demands, and we inspect calipers for sticking slides on every brake job.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Timing Chain Noise on High-Mileage ML350 and ML500",
           "desc": "The V6 and V8 engines in W164 and W166 ML-Class trucks can develop timing chain stretch at high mileage, especially when oil changes have been extended beyond recommended intervals. A cold-start rattle that clears once oil pressure builds is the classic warning sign. We inspect the chain, tensioner, and guide rails and replace them before a jumped chain causes serious internal damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and O2 Codes",
           "desc": "High-mileage ML-Class trucks frequently trigger P0420 or P0430 catalyst efficiency codes. Before throwing catalytic converters at the problem, we verify root cause, an upstream O2 sensor or exhaust leak can mimic a failing cat. We diagnose accurately so you only replace what's actually worn out.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Wear and Clicking on Turns",
           "desc": "Four-wheel-drive ML-Class trucks put additional stress on front CV axles. If you hear rhythmic clicking while turning, especially in parking lots, the front CV joint is likely worn. We replace complete axle shafts rather than just repacking boots for a longer-lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -1215,32 +1215,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension / Strut Service",
           "desc": "Air spring replacement, compressor diagnosis, and conventional strut conversions for all ML-Class generations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Heavy-duty pad and rotor service matched to the ML-Class's weight, front and rear, with caliper inspection."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement on high-mileage ML350 and ML500 engines before damage occurs."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate diagnosis of P0420/P0430 codes, we verify root cause before recommending cat replacement."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, front and rear on 4WD ML-Class trucks."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and any repairs your ML-Class needs, all at our South Salt Lake shop."
         }
@@ -1323,31 +1323,31 @@ module.exports = {
         {
           "title": "Jerky or Hesitant Low-Speed Transmission Behavior",
           "desc": "The 7G-DCT dual-clutch transmission in early C117 CLAs is well-known for awkward behavior at low speeds, particularly in stop-and-go traffic and when pulling into parking spots. This can be a fluid degradation issue, clutch pack wear, or transmission control adaptation drift. We diagnose the root cause before recommending a transmission service or deeper repair.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Water Pump Failure on 2.0T Engine",
           "desc": "The M270 and M260 engines use an electric water pump that is more failure-prone than a traditional belt-driven unit. When it fails, the engine overheats quickly, often with little warning beyond the temperature gauge. If your CLA is running hot or you see a coolant warning, bring it in immediately. We replace the pump and inspect the entire cooling system.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light, Catalytic Converter or O2 Sensor",
           "desc": "P0420 catalyst efficiency codes show up on higher-mileage CLAs. Before recommending a catalytic converter, we verify that an exhaust leak, a bad O2 sensor, or an oil consumption issue isn't mimicking a failed cat. Accurate diagnosis saves you money.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear, Rear More Than Front",
           "desc": "CLAs use a rear-biased brake balance that wears rear pads faster than many owners expect. If you hear squealing from the rear or the car pulls to one side under braking, bring it in. We inspect all four corners and address sticking caliper slides, which are common on CLAs that have spent time on salted Utah roads.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Axle Clicking on the CLA250 4MATIC",
           "desc": "The all-wheel-drive CLA250 4MATIC puts additional load on front CV axles. Clicking during low-speed turns in parking lots is the classic symptom of a worn outer CV joint. We replace complete axle shafts for a durable repair rather than attempting a boot-only fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -1387,32 +1387,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Electric water pump replacement on CLA 2.0T engines, cooling system inspection included."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear pad and rotor service, including rear-biased CLA brake systems and sticking caliper slides."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate P0420 diagnosis, we confirm root cause before recommending converter replacement."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for CLA250 4MATIC front CV joint failures."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid checks, and any service your CLA needs, one visit, one shop."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust leak diagnosis and repair, often misread as a catalytic converter failure on CLA models."
         }
@@ -1495,31 +1495,31 @@ module.exports = {
         {
           "title": "Water Pump Failure and Overheating",
           "desc": "Like the CLA, the GLA uses an electric water pump on the 2.0T engine, and it's one of the weaker links in the cooling system. When it fails, engine temperature climbs fast. A rising temp gauge or a coolant warning light demands immediate attention. We replace the pump and inspect hoses, thermostat, and coolant condition while we're in there.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear, Faster Than Expected",
           "desc": "GLA owners are often surprised by how quickly brake pads wear on a compact crossover. The GLA's weight and the spirited driving these cars invite means brakes are working hard. We inspect all four corners at every service visit and replace pads and rotors before wear causes rotor scoring.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Axle Clicking on 4MATIC Models",
           "desc": "The GLA250 4MATIC's front CV joints take significant stress, especially on Utah mountain roads where the AWD system is actively working. Clicking during turns, especially at low speed, means the outer CV joint is worn. We replace the complete axle shaft for a durable, long-lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Suspension Noise and Rough Ride",
           "desc": "GLA struts and shock absorbers are not as long-lived as some owners expect from a luxury vehicle. Utah's combination of canyon roads, winter potholes, and temperature extremes accelerates wear. A bouncy ride over rough pavement or clunking over speed bumps typically points to worn struts or strut mounts.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light and Exhaust Codes",
           "desc": "GLAs with higher mileage frequently trigger exhaust-related fault codes, from O2 sensor failures to catalytic efficiency codes. We verify the root cause before recommending any parts replacement. An exhaust leak upstream can mimic a failing catalytic converter, and we catch that distinction before it costs you unnecessarily.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -1559,32 +1559,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Electric water pump replacement on the GLA 2.0T, with full cooling system inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for GLA crossovers, all four corners inspected every visit."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for 4MATIC GLA models with clicking on turns."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for GLAs with rough ride or suspension noise."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Root-cause diagnosis for GLA check engine and catalyst efficiency codes."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full service visit for your GLA, diagnostic, fluids, and any repairs needed."
         }
@@ -1671,37 +1671,37 @@ module.exports = {
         {
           "title": "Exhaust Leaks and Loud Exhaust",
           "desc": "Sprinter exhaust manifolds, flex pipes, and downpipes are common failure points, especially on high-mileage diesel vans. An exhaust leak you can hear is one you shouldn't ignore: exhaust gases entering the cab are a safety concern, and an unchecked leak can cause secondary damage to nearby components. We locate and repair the leak completely.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Wear on Loaded Vans",
           "desc": "A Sprinter hauling cargo or passengers near gross vehicle weight rating eats through brakes faster than any passenger car. Front rotors warp from repeated heavy stops, and rear brakes often go unnoticed until grinding is audible. We service Sprinter brakes with the van's load demands in mind and inspect the entire system at every visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light, EGR, DPF, and O2 Codes",
           "desc": "Sprinter diesel check engine lights are common and range from nuisance codes to serious system faults. EGR valve carbon buildup, glow plug failures, and catalytic/DPF-related codes are the most frequent. We read the codes, verify what's actually failing, and repair the root cause rather than just clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Rough Ride and Suspension Wear",
           "desc": "High-mileage Sprinters carrying regular loads develop worn shock absorbers and struts that make an already utilitarian ride noticeably rougher. A bouncy, wallowing Sprinter is harder to control at highway speeds and puts more stress on cargo and passengers. We inspect and replace worn suspension components to restore stable handling.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump Failure and Overheating",
           "desc": "The diesel engines in NCV3 and VS30 Sprinters can develop water pump failures that lead to rapid overheating, a serious concern when you're loaded and climbing a canyon grade. We replace the water pump and inspect the full cooling system, including the coolant expansion tank, which is also a known failure item on these vans.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Burning Smell from Brakes or Exhaust",
           "desc": "A burning smell on a Sprinter can come from a stuck brake caliper, an exhaust leak near insulation or wiring, or an overloaded clutch on manual-transmission T1N models. Any burning smell warrants immediate inspection, we track down the source quickly and address it before it becomes a fire risk.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/burning-smell"
         }
       ],
@@ -1741,32 +1741,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust manifold, flex pipe, and downpipe repair on Sprinter diesel vans, leaks found and fixed completely."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Heavy-duty Sprinter brake service, pads, rotors, calipers, and load-appropriate component selection."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump and cooling system service for NCV3 and VS30 Sprinter diesel engines."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter / DPF Service",
           "desc": "Diesel exhaust and emissions system diagnosis, EGR, DPF codes, and catalytic system repair."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Front and rear shock absorber replacement for loaded Sprinters with rough or unstable ride."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full Sprinter service visit, diagnostic, fluids, filters, and any repairs needed."
         }
@@ -1857,31 +1857,31 @@ module.exports = {
         {
           "title": "ABC Suspension Warning Light or Harsh Ride",
           "desc": "The Active Body Control hydraulic suspension in R230 and R231 SLs is impressive when working correctly and conspicuous when it isn't. Warning lights, a harsh ride that no longer self-levels, or the car sitting noticeably low on one corner are the telltale signs. ABC issues range from leaking strut seals to pump failures to hydraulic fluid degradation, we diagnose the specific fault before recommending costly component replacement.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Timing Chain Stretch on M113 and M273 V8s",
           "desc": "The V8 engines found in R129, R230, and R231 SLs, particularly the M113 and M273, are known to develop timing chain issues at high mileage, especially when oil changes have been extended or infrequent. A cold-start rattle that fades as oil pressure builds is the classic early warning. We inspect the chain, tensioner, and guides and replace them before a jump timing event causes internal engine damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear and Brake Fade Under Load",
           "desc": "An SL used for spirited mountain canyon driving will stress its brakes accordingly. Brake fade, extended stopping distances, or a grinding sensation under hard braking all warrant immediate inspection. We service SL brakes with quality pads and rotors appropriate for the car's weight and performance character.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Water Pump Failure and Coolant Loss",
           "desc": "Water pump seals and impeller blades in high-mileage SL V8s degrade over time, causing slow coolant loss and eventually overheating. Catching water pump wear before it leads to an overheating event protects the engine from head gasket damage and warped cylinder heads. We inspect coolant condition and pump seal integrity at every service.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust System Wear on High-Mileage SLs",
           "desc": "Utah's winter road salt accelerates exhaust system corrosion on the underside of SL roadsters. Manifold leaks, flex pipe cracks, and corroded mid-pipe sections are common on R107 and R129 models with significant Utah winters behind them. We inspect the full exhaust system and repair leaks properly rather than with temporary patches.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1921,32 +1921,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "ABC Suspension Service",
           "desc": "Active Body Control diagnosis and strut service for R230 and R231 SL roadsters."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "V8 timing chain, tensioner, and guide replacement on M113 and M273 engines before damage occurs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Performance-appropriate brake service for SL roadsters, pads, rotors, and caliper inspection."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump seal and impeller inspection and replacement to prevent overheating events."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold, flex pipe, and exhaust system repair for high-mileage and older SL roadsters."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full service visit for your SL, diagnostic, fluids, inspection, and any needed repairs."
         }
@@ -2029,37 +2029,37 @@ module.exports = {
         {
           "title": "Timing Chain Noise on M112 V6 and M113 V8",
           "desc": "The M112 and M113 engines in CLK models are capable, but timing chain wear is a real concern at high mileage, particularly on cars that have spent time with extended oil change intervals or infrequent servicing. A metallic rattle on cold startup that clears within the first minute of running is the most reliable early indicator. We inspect the chain, tensioner, and guide rails and replace them before the chain can jump a tooth and cause valvetrain damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump and Thermostat Failure",
           "desc": "The plastic impeller on the original water pump in M112 and M113 engines degrades over time and can fail suddenly, leading to rapid overheating. This is a known failure mode on these engines. If your CLK is running warmer than normal, or the temperature fluctuates oddly, the water pump and thermostat are the first things to inspect. We replace both together since the labor overlap makes it cost-effective.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear and Soft Brake Pedal",
           "desc": "CLK coupes driven with any enthusiasm go through brake pads at a pace that surprises owners used to economy cars. Beyond pad wear, aging brake fluid absorbs moisture over time, which lowers its boiling point and produces a soft or spongy pedal under repeated hard stops. We inspect pads, rotors, and calipers and recommend a brake fluid flush if the fluid's moisture content is elevated.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Exhaust Manifold Cracks and Leaks",
           "desc": "Utah's temperature cycling, hot summers, cold winters, and wide daily swings in between, stresses exhaust manifold material. W208 and W209 CLKs with high mileage can develop manifold cracks that produce a ticking or popping sound that changes with engine temperature. Left unrepaired, an exhaust leak stresses downstream components and allows exhaust gases to enter the engine bay.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Suspension Noise and Worn Struts",
           "desc": "High-mileage CLKs, particularly cabriolets, which carry the extra weight of the folding roof mechanism, develop worn front struts and rear shock absorbers that produce clunking over bumps and a vague, floaty feel at highway speeds. We inspect and replace worn suspension components with quality parts suited to the CLK's weight and driving character.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, O2 Sensor and Catalyst Codes",
           "desc": "High-mileage M112 and M113 engines commonly trigger upstream and downstream O2 sensor fault codes as sensor heater elements fail. Before recommending catalytic converter replacement on a P0420 code, we verify that a failed sensor or an exhaust leak upstream isn't the actual cause. Correct diagnosis prevents replacing a $600 catalytic converter when a $90 sensor is the real fault.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -2099,32 +2099,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "M112 and M113 chain, tensioner, and guide rail replacement on high-mileage CLK models."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump and thermostat replacement on M112/M113 engines, both replaced together for efficiency."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, caliper, and brake fluid service for CLK coupes and cabriolets."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust manifold crack repair and exhaust leak diagnosis on high-mileage CLK models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and rear shock replacement for CLK coupes and heavier cabriolet models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate P0420 diagnosis, O2 sensor and exhaust leak ruled out before cat replacement is recommended."
         }

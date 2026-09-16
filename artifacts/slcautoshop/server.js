@@ -19,6 +19,21 @@ const geoPages = require('./data/geoPages');
 const serviceGeoPages = require('./data/serviceGeoPages');
 const allReviews = require('./data/reviews.json');
 
+// ── Canonical service hubs ────────────────────────────────────────────────────
+// Each service's full detail page used to live at a city-bound URL
+// (/services/clutch-repair-near-south-salt-lake-ut), which made it
+// indistinguishable from its 16 sibling city pages: seventeen near-identical
+// URLs competing for the same head term, with no canonical parent for Google to
+// pick. The detail page now lives at a city-free hub URL
+// (/services/clutch-repair) and the old city-bound URL 301s to it, so ranking
+// signal for "<service> salt lake city" consolidates on one page while the 16
+// per-city pages keep targeting their own long-tail queries beneath it.
+const SSL_SUFFIX = /-near-south-salt-lake-ut$/;
+const hubSlugOf = slug => slug.replace(SSL_SUFFIX, '');
+services.forEach(s => { s.hubSlug = hubSlugOf(s.slug); });
+const servicesByHub = new Map(services.map(s => [s.hubSlug, s]));
+const servicesByLegacy = new Map(services.map(s => [s.slug, s]));
+
 // Pick N random reviews and format them for the testimonials partial
 // Returns a single-element array with a FAQPage schema object, or an empty
 // array if there are no FAQs — designed to be spread into a structuredData list.
@@ -181,24 +196,24 @@ app.set('views', path.join(__dirname, 'views'));
 
 // Shared locals (available in all templates)
 const SERVICE_LINK_TERMS = [
-  ['catalytic converter', '/services/catalytic-converter-service-near-south-salt-lake-ut'],
-  ['clutch replacement',  '/services/clutch-repair-near-south-salt-lake-ut'],
-  ['clutch repair',       '/services/clutch-repair-near-south-salt-lake-ut'],
-  ['brake service',       '/services/brake-service-near-south-salt-lake-ut'],
-  ['brake repair',        '/services/brake-service-near-south-salt-lake-ut'],
-  ['CV joint',            '/services/cv-joint-repair-near-south-salt-lake-ut'],
-  ['CV axle',             '/services/cv-joint-repair-near-south-salt-lake-ut'],
-  ['timing chain',        '/services/timing-chain-repair-near-south-salt-lake-ut'],
-  ['timing belt',         '/services/timing-belt-replacement-near-south-salt-lake-ut'],
-  ['water pump',          '/services/water-pump-replacement-near-south-salt-lake-ut'],
-  ['shock absorber',      '/services/shock-replacement-near-south-salt-lake-ut'],
-  ['strut',               '/services/strut-replacement-near-south-salt-lake-ut'],
-  ['exhaust',             '/services/exhaust-repair-near-south-salt-lake-ut'],
-  ['check engine light',  '/services/check-engine-light-engine-repair-near-south-salt-lake-ut'],
-  ['leveling kit',        '/services/lift-leveling-kit-installation-near-south-salt-lake-ut'],
-  ['lift kit',            '/services/lift-leveling-kit-installation-near-south-salt-lake-ut'],
-  ['transfer case',       '/services/transmission-repair-near-south-salt-lake-ut'],
-  ['transmission',        '/services/transmission-repair-near-south-salt-lake-ut'],
+  ['catalytic converter', '/services/catalytic-converter-service'],
+  ['clutch replacement',  '/services/clutch-repair'],
+  ['clutch repair',       '/services/clutch-repair'],
+  ['brake service',       '/services/brake-service'],
+  ['brake repair',        '/services/brake-service'],
+  ['CV joint',            '/services/cv-joint-repair'],
+  ['CV axle',             '/services/cv-joint-repair'],
+  ['timing chain',        '/services/timing-chain-repair'],
+  ['timing belt',         '/services/timing-belt-replacement'],
+  ['water pump',          '/services/water-pump-replacement'],
+  ['shock absorber',      '/services/shock-replacement'],
+  ['strut',               '/services/strut-replacement'],
+  ['exhaust',             '/services/exhaust-repair'],
+  ['check engine light',  '/services/check-engine-light-engine-repair'],
+  ['leveling kit',        '/services/lift-leveling-kit-installation'],
+  ['lift kit',            '/services/lift-leveling-kit-installation'],
+  ['transfer case',       '/services/transmission-repair'],
+  ['transmission',        '/services/transmission-repair'],
 ];
 
 app.use((req, res, next) => {
@@ -562,7 +577,7 @@ app.get('/services', (req, res) => {
         "name": "Auto Repair Services at Scott's Auto & Clutch Repair",
         "url": site.domain + "/services",
         "itemListElement": services.map((s, i) => ({
-          "@type": "ListItem", "position": i + 1, "name": s.name, "url": site.domain + "/services/" + s.slug
+          "@type": "ListItem", "position": i + 1, "name": s.name, "url": site.domain + "/services/" + s.hubSlug
         }))
       },
       { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -575,7 +590,14 @@ app.get('/services', (req, res) => {
 
 // Service Detail
 app.get('/services/:slug', (req, res) => {
-  const service = services.find(s => s.slug === req.params.slug);
+  // The full detail page now answers on the city-free hub slug.
+  const service = servicesByHub.get(req.params.slug);
+
+  // Legacy city-bound detail URL → its hub. Permanent so the accumulated
+  // ranking signal moves with it rather than being split across both.
+  if (!service && servicesByLegacy.has(req.params.slug)) {
+    return res.redirect(301, '/services/' + servicesByLegacy.get(req.params.slug).hubSlug);
+  }
 
   // Check geo pages for clutch repair
   if (!service) {
@@ -625,11 +647,13 @@ app.get('/services/:slug', (req, res) => {
     // Check service geo pages (11 services × 16 cities)
     const serviceGeo = serviceGeoPages.find(g => g.slug === req.params.slug);
     if (serviceGeo) {
-      const mainService = services.find(s => s.slug === serviceGeo.mainServiceSlug);
+      // mainServiceSlug is the parent's hub slug; serviceFaqs is still keyed by
+      // the service's original city-bound slug, so look FAQs up by that.
+      const mainService = servicesByHub.get(serviceGeo.mainServiceSlug);
       // Pull FAQs from the main service so FAQPage schema fires on geo pages too
       const geoPageFaqs = (mainService && mainService.faq && mainService.faq.length > 0)
         ? mainService.faq
-        : (serviceFaqs[serviceGeo.mainServiceSlug] || []);
+        : ((mainService && serviceFaqs[mainService.slug]) || []);
       return res.render('service-geo', {
         activePage: 'services',
         metaTitle: serviceGeo.metaTitle,
@@ -685,7 +709,7 @@ app.get('/services/:slug', (req, res) => {
         "serviceType": service.fullName,
         "category": "Automotive Repair",
         "description": service.intro,
-        "url": site.domain + "/services/" + service.slug,
+        "url": site.domain + "/services/" + service.hubSlug,
         "provider": { "@type": "AutoRepair", "@id": site.domain + "/#business" },
         "areaServed": { "@type": "City", "name": "South Salt Lake, UT" },
         "hasOfferCatalog": service.specializedServices && service.specializedServices.length ? {
@@ -704,7 +728,7 @@ app.get('/services/:slug', (req, res) => {
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": site.domain + "/" },
           { "@type": "ListItem", "position": 2, "name": "Services", "item": site.domain + "/services" },
-          { "@type": "ListItem", "position": 3, "name": service.name, "item": site.domain + "/services/" + service.slug }
+          { "@type": "ListItem", "position": 3, "name": service.name, "item": site.domain + "/services/" + service.hubSlug }
         ]
       }
     ];
@@ -717,7 +741,7 @@ app.get('/services/:slug', (req, res) => {
     preloadImage: service.heroImage || null,
     metaTitle: service.metaTitle,
     metaDesc: service.metaDesc,
-    canonical: '/services/' + service.slug,
+    canonical: '/services/' + service.hubSlug,
     service,
     relatedServices,
     structuredData: schemaList,
@@ -1277,7 +1301,7 @@ sitemapRoute('/sitemap-core.xml', () => [
 // Services: individual service detail pages + clutch geo pages
 sitemapRoute('/sitemap-services.xml', () => {
   const entries = [];
-  services.forEach(s => entries.push({ path: '/services/' + s.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD.services }));
+  services.forEach(s => entries.push({ path: '/services/' + s.hubSlug, priority: '0.9', freq: 'monthly', lastmod: LASTMOD.services }));
   geoPages.forEach(g => entries.push({ path: '/services/' + g.slug, priority: '0.8', freq: 'monthly', lastmod: LASTMOD.geoPages }));
   return entries;
 });

@@ -69,37 +69,37 @@ module.exports = {
         {
           "title": "Cooling System Failure, Thermostat Housing and Water Pump",
           "desc": "The E46 3 Series (1999–2005) is notorious for its plastic thermostat housing cracking and the water pump's plastic impeller disintegrating without warning. When either component fails, the engine overheats fast. We inspect both at every service visit and replace them proactively when they show age, it is far cheaper than a head gasket repair.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Clutch Wear on Manual Models",
           "desc": "Manual 3 Series cars driven with any enthusiasm will wear clutches. The E36 M3, E46 330i, and F30 335i with the six-speed manual are the ones we see most often. Signs include a high engagement point, slipping under hard acceleration, or a spongy clutch pedal. We replace the clutch, inspect the flywheel, and check the hydraulic line, one job done right.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Front Strut and Control Arm Bushing Wear",
           "desc": "Utah roads, especially after a hard winter, accelerate suspension wear on the 3 Series. Front struts on E90 and F30 models, and control arm bushings on E46 and E90 cars, are frequent visitors to our lift. A worn bushing creates vague steering and causes premature tire wear. We inspect the full front suspension and give you a clear picture of what actually needs attention.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Oxygen Sensor and VANOS Codes",
           "desc": "The 3 Series check engine light often traces to oxygen sensor failures on higher-mileage N52 and M54 engines, or VANOS solenoid codes on the N54 and N55 turbocharged cars. We scan the full fault log, confirm the root cause, and repair what actually needs fixing, not just clear the light and hope.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Pad and Rotor Wear, Pad Sensor Warnings",
           "desc": "BMW brake pad wear sensors trigger a dashboard warning well before metal-on-metal contact, but many owners ignore the light longer than they should. The 3 Series uses floating calipers and relatively soft pads for good feel, which means replacement intervals can come up faster than expected. We service brakes on all 3 Series generations, including the larger brake packages on M Sport trim cars.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Axle and Driveshaft Clicking",
           "desc": "E90 and F30 xDrive models can develop CV joint noise as mileage climbs, that rhythmic clicking on acceleration or turning low-speed is usually the outer CV joint letting go. We replace the full axle shaft rather than just repacking the boot, which gives you a durable repair rather than a temporary fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -139,32 +139,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "E46 plastic impeller pump and thermostat housing replacement, done together before you end up on the side of the road."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual 3 Series clutch replacement, OEM-spec kits, flywheel inspection, hydraulic line check, all generations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad and rotor replacement, wear sensor reset, and caliper inspection for all 3 Series trims including M Sport."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and control arm bushing service for E90 and F30, restore the handling the 3 Series is known for."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full axle shaft replacement for xDrive and RWD 3 Series, clicking on turns or acceleration sorted properly."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and inspection, everything your 3 Series needs in a single visit."
         }
@@ -271,37 +271,37 @@ module.exports = {
         {
           "title": "Cooling System, Water Pump, Thermostat, and Expansion Tank",
           "desc": "The E39 5 Series (1996–2003) has a well-documented cooling system that fails in a predictable sequence: the expansion tank cracks, the thermostat sticks, and the water pump impeller disintegrates. Any one of these can overheat the engine quickly. We inspect the entire cooling circuit and replace components proactively when the mileage or condition warrants it.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Timing Chain and VANOS on N52 and N54 Engines",
           "desc": "High-mileage E60 and F10 5 Series cars with N52 and N54 engines can develop timing chain wear and VANOS solenoid faults. A cold-start rattle that settles once oil pressure builds is an early warning. Catching a stretched chain before it jumps is the difference between a chain replacement and a full engine teardown.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Front and Rear Suspension, Struts and Thrust Arms",
           "desc": "The 5 Series rides on a sophisticated multi-link suspension that delivers excellent dynamics when new but degrades noticeably as components wear. Thrust arm bushings on the rear axle are a common wear point, you'll notice increased tire wear and a wandering feel at highway speed. We inspect and restore the full suspension system.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Wear, Pads, Rotors, and Calipers",
           "desc": "The 5 Series uses large brake packages that perform well, but replacement costs catch owners off guard. We service all 5 Series brake configurations, including the rear integral parking brake on E60 and later models. If your pad wear light is on, bring it in and we'll assess how much material is left.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust and Catalytic Converter Issues",
           "desc": "Older E39 and E60 5 Series cars can develop exhaust manifold cracks and converter inefficiency codes. Utah's elevation and temperature swings accelerate thermal fatigue on exhaust components. A loud exhaust note or check engine light with catalyst efficiency codes warrants inspection.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "CV Joint and Driveshaft Wear on xDrive Models",
           "desc": "xDrive 5 Series, the 528xi, 535xi, and later all-wheel drive variants, add front driveshaft and CV joint complexity to the equation. Clicking or vibration on acceleration in an AWD 5 Series is worth investigating promptly. We handle full axle replacement rather than boot-only repairs for a long-term fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -341,32 +341,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "E39 and E60 cooling system service, water pump, thermostat, and expansion tank inspected and replaced together."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "N52 and N54 chain, tensioner, and guide inspection and replacement before catastrophic failure occurs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Complete pad, rotor, and caliper service for all 5 Series generations, including rear integral parking brake service."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut and Suspension",
           "desc": "Front strut replacement, thrust arm bushing service, and full suspension inspection to restore 5 Series handling."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold crack repair, cat replacement, and exhaust system inspection for E39, E60, and later 5 Series."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid services, and any mechanical repair your 5 Series needs, all in one visit."
         }
@@ -469,37 +469,37 @@ module.exports = {
         {
           "title": "Cooling System, Water Pump and Thermostat",
           "desc": "The E38 and E65 7 Series share the same vulnerability as other BMW platforms: plastic-bodied water pumps and thermostats that age out and fail. The 7 Series carries a larger displacement engine and more thermal load, which means a cooling failure is even more serious. We inspect and service the full cooling circuit.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake System, Pads, Rotors, and Wear Sensors",
           "desc": "A 7 Series weighs considerably more than a 3 or 5 Series, and its braking system is sized accordingly. The brake pad wear sensors will alert you, but heavy models in hilly terrain can go through pads faster than the average owner expects. We service all 7 Series brake configurations, including the large-diameter packages on V8 and V12 models.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Front Suspension, Thrust Arms, Control Arms, and Struts",
           "desc": "The 7 Series front suspension carries significant weight and uses precision multi-link geometry. Thrust arm bushings and control arm ball joints wear over time and create vague, imprecise steering and uneven tire wear. We inspect and restore the front end so the car steers the way it's supposed to.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Oxygen Sensors and Catalyst Efficiency",
           "desc": "V8 and V12 7 Series engines have four or more oxygen sensors, and they can trigger check engine lights on higher-mileage cars. Catalyst efficiency codes (P0420, P0430) also come up on older models. We scan and diagnose the actual fault, not just reset the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Timing Chain on V8 and Inline-Six Engines",
           "desc": "The N62 V8 in the E65 generation and the turbocharged engines in F01 and G11 cars can develop timing chain wear at high mileage, especially with oil change intervals that have been stretched. A faint metallic rattle on cold start is the early warning sign, we inspect the chain, tensioner, and guides and replace them before the problem escalates.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust and Catalytic Converter on Older Models",
           "desc": "E38 and E65 7 Series cars accumulate exhaust wear over time, manifold gaskets, flexible sections, and converters. Utah's road salt and temperature swings accelerate corrosion on exhaust hardware. A rumbling exhaust or a failed emissions test on an older 7 Series is something we diagnose and repair properly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -539,32 +539,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service for E38, E65, and F01 7 Series, water pump, thermostat, and expansion tank inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full pad, rotor, and caliper service for all 7 Series configurations including V8 and large-package brakes."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Front strut, control arm, and thrust arm bushing replacement to restore 7 Series handling precision."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide inspection and replacement on high-mileage N52, N54, and N62 7 Series engines."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket, catalytic converter, and exhaust system repair for older 7 Series models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, diagnostics, fluid service, and mechanical repair, everything your 7 Series needs in one visit."
         }
@@ -651,37 +651,37 @@ module.exports = {
         {
           "title": "Water Pump and Thermostat Failure",
           "desc": "The F25 X3 (2011–2017) with the N20 four-cylinder engine has a known water pump failure pattern. The electric water pump can fail without much warning, leaving the engine temperature climbing fast. The thermostat on the same engine also ages out prematurely. We inspect both and replace them together when one shows signs of failure.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle and Front Driveshaft Wear",
           "desc": "The X3's xDrive system puts constant demand on the front axle CV joints, especially in low-speed turns and off-pavement conditions. A clicking noise while turning slowly, particularly in a parking lot or tight corner, points to a worn outer CV joint. We replace the full axle shaft for a reliable, long-term repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Front Strut and Control Arm Bushing Wear",
           "desc": "X3 suspension components endure a tough cycle in Utah: summer heat followed by freezing winters and road salt. Front struts on the F25 and G01 wear faster than most owners expect, and control arm bushings are a common service item on the E83. We inspect the full front and rear suspension and report on what actually needs replacement.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Pad and Rotor Service",
           "desc": "Mountain driving puts more heat into X3 brakes than flat-city use. The X3's brake pad wear indicator light will alert you, but canyon driving can take pads from mid-life to minimum faster than expected. We service all X3 brake configurations and inspect the calipers for sticking, which is a common issue on cars that see road salt.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, N20 Timing Chain",
           "desc": "The N20 four-cylinder engine in the F25 X3 (2012–2017) has a known timing chain tensioner issue that can cause a check engine light and a rattling noise on cold start. This is a documented BMW concern. We inspect the timing chain, tensioner, and guides and replace them before the chain stretches to a damaging degree.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust and Emissions on Older X3 Models",
           "desc": "E83 X3 models accumulate exhaust wear as they age, flexible joints corrode, manifold gaskets weep, and Utah's emissions test will catch a catalyst that's fallen below threshold. We handle exhaust repair and can address failed emissions test codes properly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -721,32 +721,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "N20 and N52 water pump and thermostat replacement, serviced together for lasting reliability."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "N20 tensioner and chain replacement for F25 X3, catch it before it causes real damage."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full front axle shaft replacement for xDrive X3 models, clicking on turns resolved properly."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and wear sensor service for all X3 generations, mountain-ready brakes."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut and Suspension",
           "desc": "Front strut replacement and control arm bushing service to restore X3 handling on Utah roads."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all mechanical repairs your X3 needs, one visit, one shop."
         }
@@ -837,37 +837,37 @@ module.exports = {
         {
           "title": "Cooling System, Water Pump, Thermostat, and Expansion Tank",
           "desc": "The E53 X5 (1999–2006) with the M54 six-cylinder or M62 V8 is prone to plastic cooling component failures. The expansion tank cracks, the thermostat sticks, and the water pump impeller fails, often in sequence within a short period. We replace these components together when the car reaches the service window, which is far better than one roadside breakdown followed by another.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Front CV Axle Wear on xDrive Models",
           "desc": "Every X5 uses BMW's xDrive all-wheel drive system, which puts continuous demand on the front CV axles. Heavy X5s in low-speed turns, think parking lots and ski resort access roads, wear outer CV joints faster than most owners realize. A rhythmic clicking on turns is the signature symptom. We replace the full axle shaft for a reliable fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Pad and Rotor Wear",
           "desc": "An X5 going down Parley's Canyon or the grade off I-80 toward Big Cottonwood puts sustained thermal load on its brakes that flat-terrain driving never creates. We inspect brakes on every X5 that comes through and are upfront about intervals, a vehicle this heavy needs more frequent brake attention than BMW's standard reminder schedule implies for Utah mountain driving.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Rear Shock and Strut Wear",
           "desc": "The X5's rear suspension uses self-leveling shocks on some trim levels and standard units on others. Either way, the rear suspension on high-mileage X5s, especially those loaded regularly with passengers or cargo, shows wear in the form of a bouncy, unsettled ride. We inspect and replace rear shocks and service the entire rear suspension system.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Oxygen Sensors and Catalyst Codes",
           "desc": "V8 X5 models (E53 4.4i and 4.8is, E70 4.8i) have four oxygen sensors and can trigger check engine lights from sensor failures or catalyst efficiency codes as mileage climbs. We scan the full fault log, identify the actual cause, and repair it correctly rather than just clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust and Manifold Gasket Wear",
           "desc": "High-mileage E53 and E70 X5 trucks accumulate exhaust system wear, manifold gaskets, flex sections, and catalysts. Utah road salt corrodes exhaust hardware, and a rumbling exhaust or a burning smell from underhood warrants inspection. We handle full exhaust diagnosis and repair.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         }
       ],
@@ -907,32 +907,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "E53 and E70 cooling system service, water pump, thermostat, and expansion tank replaced together."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full front axle shaft replacement for xDrive X5, clicking on turns fixed with a lasting repair."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Heavy-duty pad, rotor, and caliper service for all X5 generations, mountain driving demands it."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Rear shock and suspension service for high-mileage X5 trucks, restore the ride and handling."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat replacement and oxygen sensor repair for V8 and six-cylinder X5 models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and all mechanical repairs your X5 needs, in one visit."
         }
@@ -1019,37 +1019,37 @@ module.exports = {
         {
           "title": "Timing Chain Tensioner on N20 Engine",
           "desc": "The F48 X1 (2016–2022) with the N20 four-cylinder engine is susceptible to a timing chain tensioner failure that causes a rattling noise on cold start and can trigger a check engine light. BMW has acknowledged this issue on the N20 platform. We inspect the timing chain, tensioner, and guides and replace them before damage occurs.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Low-Speed Turns",
           "desc": "The X1's front CV axles, especially on xDrive models, wear over time in Utah's winter driving conditions. Low-speed parking lot turns that produce a rhythmic clicking point to a worn outer CV joint. We replace the complete axle shaft for a reliable, lasting repair rather than a boot-only patch.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Pad and Rotor Wear",
           "desc": "X1 brakes are properly sized for the car's weight, but canyon driving and frequent stop-and-go on Utah's winter-salted roads takes a toll. The pad wear indicator system will alert you, but we also inspect brake hardware on every visit, stuck calipers from salt corrosion are a common issue that the warning light won't catch until it's too late.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Front Strut and Control Arm Wear",
           "desc": "The E84 and F48 X1 front suspensions are compact and precise, and they show wear in the steering feel before things get visually obvious. Worn front struts produce a bouncy, disconnected ride; worn control arm bushings create imprecise steering. We inspect both and report on what actually needs replacing.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump and Cooling System on N20",
           "desc": "The N20 engine in the F48 X1 uses an electric water pump that can fail at higher mileage, often without much warning. Engine temperature rising faster than normal or a cooling system fault code is the first sign. We inspect the water pump and thermostat together and replace both when one shows signs of failure.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust and Emissions on Higher-Mileage X1s",
           "desc": "Older E84 X1 models are now accumulating the mileage where exhaust gasket wear, flexible joint fatigue, and catalyst degradation become service items. Utah's emissions test will catch a catalyst efficiency code, we can diagnose the cause and repair it properly so your X1 passes inspection.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1089,32 +1089,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "N20 timing chain tensioner and guide replacement for F48 X1, before the chain causes real damage."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full front axle replacement for xDrive X1 models, clicking on turns fixed properly."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for all X1 generations, including inspection for salt-corroded hardware."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and control arm bushing service to restore the X1's precise steering feel."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "N20 electric water pump and thermostat service, catch cooling failures before they happen."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all mechanical repairs your X1 needs, one shop, one visit."
         }
@@ -1193,37 +1193,37 @@ module.exports = {
         {
           "title": "Air Suspension Sag or Warning Light",
           "desc": "X7 air suspension systems use individual corner air struts controlled by a central compressor and a network of lines and valves. A single failed strut, a cracked line, or a worn compressor can trigger the system warning and cause the vehicle to ride low or list to one side. We trace the fault to its source before quoting any parts.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Coolant Loss and Overheating",
           "desc": "BMW's modular plastic cooling system is convenient to assemble at the factory and notorious for cracking as it ages. On the X7, the expansion tank, water pump housing, and upper coolant hoses are prime suspects when coolant level drops without a visible external leak. We pressure-test the system to locate the source rather than guessing.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear, Front and Rear",
           "desc": "At 5,100–5,500 lbs, the X7 scrubs through brake pads noticeably faster than a lighter vehicle. We see a lot of X7s come in with worn front pads and grooved rotors from owners who pushed past the first warning signs. We inspect pad thickness, rotor condition, and caliper function at every service visit on these.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light, Emissions and Fuel System",
           "desc": "The X7's turbocharged inline-six and V8 engines can trigger check engine lights from carbon buildup on intake valves (a side effect of direct injection), secondary air system faults, or VANOS-related codes. We read the full fault history, not just the current code, to understand what's actually happening.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Noise",
           "desc": "X7 exhaust hangers, flex sections, and gaskets take a beating on Utah's roads, particularly on vehicles that see regular highway miles between Salt Lake and mountain destinations. A rattling or droning exhaust is usually a failed hanger or loose heat shield, but we inspect the full system to make sure nothing critical is leaking.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "CV Axle and Driveline Clunking",
           "desc": "The X7's all-wheel-drive system routes power through front CV axles that can develop play at high mileage or after exposure to road salt and grit. A clunk or click when pulling away from a stop or turning in a parking lot often points to a worn joint. We replace complete shafts rather than attempting boot-only repairs on vehicles this heavy.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -1263,32 +1263,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension Service",
           "desc": "Corner air strut inspection, compressor testing, and line diagnosis for X7 air suspension faults."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for the X7's heavy-duty braking system."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump & Cooling",
           "desc": "Plastic cooling component replacement, expansion tanks, water pump housings, thermostat units."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Repair",
           "desc": "Complete front axle shaft replacement for clicking, clunking, or vibration on X7 AWD models."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Hanger replacement, flex section repair, and heat shield work for rattling or droning exhaust."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, diagnostics, and anything else your X7 needs in one visit."
         }
@@ -1387,37 +1387,37 @@ module.exports = {
         {
           "title": "Rod Bearing Wear, E9x M3 S65 V8",
           "desc": "The S65 V8 in the 2007–2013 E92/E90/E93 M3 is one of the greatest naturally aspirated engines BMW has ever made, and it has a documented weak point in its rod bearings. At higher mileage, especially on cars that have seen track use or oil changes stretched past interval, the bearings can wear rapidly. The warning sign is a metallic knock that worsens under load. Preventive replacement at 60,000–80,000 miles is the right call. We've done these jobs and know what to expect.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual Transmission Models",
           "desc": "Every manual M3 generation is hard on clutches by nature, the torque output and driving style these cars invite accelerate clutch wear significantly compared to a regular 3 Series. The E46 M3's SMG paddle-shift system presents its own hydraulic wear patterns. We handle conventional clutch replacement across all manual M3 generations.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Cooling System Failure, Water Pump and Expansion Tank",
           "desc": "BMW's plastic cooling components are a persistent reliability issue on M3s, and with a high-performance engine that generates serious heat, a cooling failure is never a minor inconvenience. The electric water pump on F80 and G80 models can fail without warning, and the mechanical pumps on earlier generations develop impeller cracks. We inspect the entire cooling system, not just the component that failed.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake System Wear, Heavy Use and Track Days",
           "desc": "M3 owners use their brakes hard. Even on the street, the performance driving these cars invite accelerates rotor and pad wear faster than owners expect. Warped rotors, glazed pads, and worn caliper slide pins are the most common findings. We inspect the full brake system and recommend quality pads appropriate for the car's actual use.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "VANOS System Fault, E36, E46",
           "desc": "The S50 and S54 VANOS variable valve timing systems on E36 and E46 M3s can develop seal wear, solenoid faults, and gear rattle as they age. Symptoms include rough idle, lost power in the midrange, and a metallic rattle on cold startup. We diagnose VANOS faults precisely rather than recommending full unit replacement when a rebuild or seal kit will solve the problem.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Noise and Leaks",
           "desc": "M3 exhaust manifold gaskets, particularly on E46 and E9x models, can develop leaks that produce a ticking sound under acceleration, especially when cold. A leaking exhaust manifold gasket is more than a noise issue; it allows exhaust gases into the engine bay. We inspect the full exhaust from manifold to tip.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1457,32 +1457,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Manual M3 clutch kits for E36, E46, E9x, and F80, flywheel inspection included."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper service for M3s driven hard on the street or canyon roads."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump & Cooling",
           "desc": "Mechanical and electric water pump replacement, expansion tank, thermostat housing."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket replacement, flex section repair, and exhaust hanger service."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, rod bearing assessment, and diagnostics in one visit."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut & Shock Replacement",
           "desc": "Suspension refresh for M3s showing bounce, dive, or handling changes from worn dampers."
         }
@@ -1585,37 +1585,37 @@ module.exports = {
         {
           "title": "Cooling System Failure, E39 and E60",
           "desc": "The E39 M5's S62 V8 is particularly sensitive to cooling system neglect. Expansion tanks crack, coolant hose connectors become brittle, and water pump gaskets weep, often before there's any warning light. The E60's V10 S85 engine has its own cooling demands. We pressure-test the system and replace the plastic components proactively when they show age.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Clutch Wear, E28, E34, E39 Manual Models",
           "desc": "Manual M5 clutches are high-clamping-force units that wear faster on cars used as intended. An E39 M5 with 100,000 miles and spirited driving history is likely on its second clutch. We replace the complete clutch kit and inspect the dual-mass flywheel for signs of wear that would shorten the new clutch's life.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Fade and Wear Under Hard Use",
           "desc": "M5 drivers stress brake systems. The factory pads on most M5 generations are adequate for normal use but can fade during sustained hard driving, canyon descents, mountain passes, or aggressive highway use. Glazed pads, scored rotors, and low brake fluid are the most common findings when M5 owners report a soft or inconsistent pedal.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Check Engine Light, Catalytic and Emissions Faults",
           "desc": "The E60 M5's V10 S85 uses ten individual throttle bodies and has a complex emissions system that can trigger codes from a variety of sources, throttle actuator wear, catalytic efficiency faults, and oxygen sensor aging are all common. We read the full fault tree rather than reacting to just the first code.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Noise",
           "desc": "M5 exhaust systems are complex and often modified by previous owners. We see cracked manifold gaskets, failed resonator flex sections, and loose heat shields on high-mileage examples. An exhaust leak on a high-displacement engine is not a noise to ignore, the gases end up in the engine bay.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Suspension Wear, Struts and Shock Absorbers",
           "desc": "The M5's sport-tuned suspension is set up for high-speed stability, not longevity. At higher mileage, the shock absorbers lose their damping and the car starts to feel floaty or wallowy at speed. We inspect and replace struts and shocks with quality replacements appropriate for the vehicle's use.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -1655,32 +1655,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Complete clutch kit and flywheel inspection for all manual M5 generations."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump & Cooling",
           "desc": "Proactive cooling system service, expansion tank, water pump, hose connections."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and brake fluid service for high-output M5 brake systems."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket replacement, flex section, and heat shield service for M5 exhausts."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Strut and shock replacement for M5s showing handling changes or excessive body motion."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and diagnostics for all M5 generations in one visit."
         }
@@ -1771,37 +1771,37 @@ module.exports = {
         {
           "title": "N20 Timing Chain Failure",
           "desc": "The BMW N20 four-cylinder, used in F20 1 Series from 2012 to 2016, has a well-documented timing chain tensioner problem. The plastic tensioner guide wears faster than it should, and a loose chain can skip timing teeth without much warning. On cold startup, a brief metallic rattle that settles down quickly is the first sign. Don't wait for it to get louder, by then the chain may have already damaged the valvetrain.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear, Manual Transmission",
           "desc": "Manual 1 Series models are genuinely fun to drive, and that fun accelerates clutch wear. On E82 and E87 models driven with enthusiasm, clutch replacement around 60,000–80,000 miles is common. We replace the full clutch kit and inspect the flywheel, on these cars the dual-mass flywheel needs evaluation at every clutch change.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Cooling System, Water Pump and Thermostat",
           "desc": "BMW's electric water pump, used on N20 and N55 engines, can fail suddenly rather than gradually, there's often no warning beyond a temperature spike. The thermostat housing and expansion tank on older 1 Series are also prone to cracking as the plastic ages. We include a cooling system check on every visit for these engines.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake System Wear",
           "desc": "The 1 Series has relatively compact brake components for a rear-wheel-drive car, and owners who use them hard go through pads and rotors at a decent pace. The rear brakes in particular can wear unevenly if the caliper slide pins are sticky. We inspect the full brake system, not just swap parts, to make sure the new components have something good to work with.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Axle Clicking at Low Speed",
           "desc": "Rear-wheel-drive 1 Series can develop CV joint wear in the front axles, particularly on high-mileage examples in areas with road salt. The clicking at low speed during turns is classic worn CV joint. We replace the full axle shaft for a more durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Various Causes",
           "desc": "1 Series check engine lights can come from VANOS faults on N52 engines, boost pressure deviations on N20 and N55 models, or catalytic efficiency codes as cats age. We read the full fault history and verify the root cause before recommending a repair, the wrong fix wastes money and doesn't resolve the underlying issue.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -1841,32 +1841,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "N20 four-cylinder timing chain, tensioner, and guide replacement, before it becomes urgent."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Complete clutch kits for all manual 1 Series, flywheel inspection included."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump & Cooling",
           "desc": "Electric water pump, thermostat housing, and expansion tank for N20 and N55 1 Series."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for all 1 Series configurations."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Repair",
           "desc": "Full front axle shaft replacement for clicking or vibration at low speed on turns."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and diagnostics, everything your 1 Series needs in one visit."
         }
@@ -1953,37 +1953,37 @@ module.exports = {
         {
           "title": "N20 Timing Chain, F22 228i (2013–2016)",
           "desc": "The N20-equipped F22 228i carries the same timing chain tensioner vulnerability as the 1 Series. A rattle on cold startup that fades once the engine warms is a clear warning sign. We catch these before the chain becomes a critical failure, proactive replacement is straightforward when we're not also repairing valvetrain damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual Models",
           "desc": "Manual F22 M235i and 228i clutches take above-average abuse. Spirited driving, canyon runs, and autocross all shorten clutch life. A high engagement point that keeps creeping toward the top of pedal travel, or a noticeable slip under hard acceleration, means the clutch is nearing the end of its service life.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Rotor Warping and Fade",
           "desc": "Two-door BMWs attract spirited drivers, and spirited drivers use their brakes hard. Warped rotors produce a pulsation in the brake pedal during normal stops, usually most noticeable when slowing from highway speed. We replace rotors and pads as a set and inspect the caliper slides to ensure even wear going forward.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Water Pump Failure, Electric Unit",
           "desc": "The B46/B48 engines in current F22 and G42 models use an electric water pump that can fail without warning. Temperature gauge movement above normal, a coolant smell, or a stored fault code are the indicators. We replace the pump assembly and inspect the cooling system for any secondary damage.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light, Boost and Fuel System",
           "desc": "The N55 and M2's S55 turbocharged engines can trigger check engine lights from wastegate actuator wear, boost pressure deviation codes, and injector-related faults as mileage accumulates. We scan the full fault history and test under load conditions to identify what's actually causing the deviation.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Wear on High-Mileage AWD Models",
           "desc": "xDrive-equipped 2 Series Gran Coupes can develop CV joint wear on the front axles at higher mileage, particularly in areas with road salt. Clicking during slow turns in parking lots is the classic sign. We replace complete axle shafts for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -2023,32 +2023,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Complete clutch kits for all manual 2 Series applications, M235i, 228i, M2."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "N20 timing chain and tensioner replacement for F22 228i models before failure occurs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for performance-driven 2 Series owners."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump & Cooling",
           "desc": "Electric water pump replacement and cooling system inspection for B46/B48 engines."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Repair",
           "desc": "Complete axle shaft replacement for clicking or vibration on turns."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and diagnostics for all 2 Series models in one visit."
         }
@@ -2135,37 +2135,37 @@ module.exports = {
         {
           "title": "Brake Rotor and Pad Wear",
           "desc": "The 4 Series attracts drivers who use the car's performance. Rotor wear rates on a sport-driven 430i or M4 are significantly higher than the dealer's recommended service intervals suggest. We see glazed pads, lipped rotors, and sticky caliper slides regularly on 4 Series in the 40,000–60,000 mile range. We inspect the full system and recommend quality components appropriate for the car's actual use.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Clutch Wear, Manual M4",
           "desc": "The F82 and G82 M4 in manual configuration put enormous torque through the clutch with every hard launch or canyon pull. Stock clutch life on an actively driven M4 can be as short as 30,000–40,000 miles. The symptoms are a rising engagement point, noticeable slip under full throttle, or difficulty finding a clean engagement at lower RPM. We replace the full clutch assembly and inspect the dual-mass flywheel.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Cooling System, Water Pump and Thermostat",
           "desc": "The electric water pump on B46 and B48 engines can fail abruptly, and the F32/F33/F36 generation is now old enough that original-equipment cooling components are showing age. Temperature fluctuations above the normal operating range, a coolant smell in the cabin, or a stored fault code pointing to cooling are all signs we take seriously.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust System Noise, M4 and 440i",
           "desc": "High-output 4 Series models, particularly M4s and 440i/M440i variants, see exhaust manifold gasket wear as the higher exhaust gas temperatures take a toll. A ticking that appears on cold startup or under load points to a manifold leak. We inspect from manifold to tip and repair what's actually leaking.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, Various Engine Faults",
           "desc": "4 Series check engine lights span a wide range, from benign EVAP codes to more serious boost deviation or injector faults. The S58 in the G82 M4 is a new enough platform that its failure patterns are still being established. We read the full fault history, not just the current code, and test under driving conditions when the fault is intermittent.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Suspension Wear, Struts and Shock Absorbers",
           "desc": "4 Series adaptive dampers, if equipped, can lose their range of adjustment over time. The car will start to feel flat or vague even in Sport mode. Standard shocks and struts on base models wear more gradually. We inspect damper condition as part of any handling complaint and replace with quality parts suited to the car's configuration.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -2205,32 +2205,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, caliper inspection, and brake fluid service for all 4 Series variants."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Manual M4 clutch kits, S55 and S58 applications with flywheel inspection."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump & Cooling",
           "desc": "Electric water pump replacement and cooling system inspection for B46/B48 4 Series."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket, flex section, and heat shield service for M4 and 440i exhaust systems."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut & Suspension Service",
           "desc": "Strut and shock replacement for 4 Series showing handling changes or excessive body motion."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and diagnostics for all 4 Series configurations in one visit."
         }
@@ -2317,37 +2317,37 @@ module.exports = {
         {
           "title": "Cooling System Failure, E63 and F12/F13",
           "desc": "Both the E63 4.8i V8 and the F12/F13 turbocharged six-cylinder use cooling system architectures with known plastic component failure points. The expansion tank, thermostat housing, and coolant hose barbs become brittle over time, and a 6 Series overheating event on US-89 going home from Park City is an expensive tow. We pressure test and proactively replace these items on every cooling service visit.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake System Wear and Caliper Service",
           "desc": "The 6 Series, particularly the M6 and 650i variants, has large, capable brakes that still wear predictably with use. We see caliper slide pin corrosion causing uneven pad wear regularly on E63 and F13 models in Utah, where road salt winters and dry summers cycle caliper components aggressively. A full brake inspection catches this before it causes rotor damage.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Suspension Wear, Shock Absorbers and Struts",
           "desc": "A 6 Series with worn shock absorbers loses its composure at highway speed, the characteristic smooth, planted feel that makes these cars so good at covering distance gives way to vagueness and float. On F-series cars with adaptive dampers, the dampers can lose their adjustment range before the hardware fully fails. We inspect and replace with quality parts appropriate for each generation.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust System Noise",
           "desc": "6 Series exhaust systems are large, complex, and sometimes modified by previous owners. On E63 and F13 M6 models, manifold gasket leaks produce a ticking under load that's most noticeable on cold starts. Failed resonator hangers and cracked flex sections are common on higher-mileage examples. We inspect the full system from manifold to tip.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, Emissions and Engine Management",
           "desc": "The F12/F13 turbocharged six-cylinder platform generates check engine lights from boost deviation codes, VANOS faults, and catalytic efficiency issues as it ages. E63 V8 models can trigger codes from oxygen sensor aging and secondary air system faults. We read the full fault tree and test under driving conditions to identify the actual cause.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Wear on Rear-Wheel-Drive Models",
           "desc": "The 6 Series rear-axle CV joints and driveshaft flex discs can develop wear at higher mileage, particularly on cars that have done a lot of highway miles. A vibration that appears at speed or a clunk under load from the rear of the car often points to flex disc wear or a rear CV joint. We inspect the driveline as part of any vibration complaint.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -2387,32 +2387,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump & Cooling System",
           "desc": "Proactive plastic cooling component replacement for E63, F12, and F13 6 Series models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, caliper slide inspection, and brake fluid service for all 6 Series variants."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock & Strut Replacement",
           "desc": "Suspension refresh to restore the planted, composed ride the 6 Series is built for."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket replacement, flex section, and hanger service for all 6 Series generations."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Catalytic efficiency restoration and check engine light diagnosis for F-series 6 Series."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and diagnostics, everything your 6 Series needs in one visit."
         }

@@ -30,15 +30,15 @@ const brandContent = {
       { step: 5, title: "Road Test and Handoff", desc: "We verify the repair under real driving conditions before the car goes back to you, and walk you through what was done at pickup." }
     ],
     commonRepairs: [
-      { slug: "timing-belt-replacement-near-south-salt-lake-ut", name: "Timing Belt Replacement", desc: "Critical for belt-equipped Toyota engines, Camry, RAV4, Tacoma V6, Highlander (pre-2006)." },
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "Timing Chain Service", desc: "Chain stretch and VVT issues on high-mileage post-2006 Toyota engines." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump Replacement", desc: "Toyota V6 and some 4-cylinder engines are prone to water pump seal failure." },
-      { slug: "clutch-repair-near-south-salt-lake-ut", name: "Clutch Repair", desc: "Tacoma, 4Runner, GR86, Supra, and older Corolla and Camry stick shifts." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "Pads, rotors, calipers, and fluid flush for all Toyota models." },
-      { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Joint Repair", desc: "Clicking-on-turns axle and boot replacement. A common Toyota wear item." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Toyota V6 manifolds crack, we weld or replace as needed." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Strut Replacement", desc: "Worn struts affect handling and braking distance. Inspection and replacement." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full diagnostic and repair work across all Toyota systems." }
+      { slug: "timing-belt-replacement", name: "Timing Belt Replacement", desc: "Critical for belt-equipped Toyota engines, Camry, RAV4, Tacoma V6, Highlander (pre-2006)." },
+      { slug: "timing-chain-repair", name: "Timing Chain Service", desc: "Chain stretch and VVT issues on high-mileage post-2006 Toyota engines." },
+      { slug: "water-pump-replacement", name: "Water Pump Replacement", desc: "Toyota V6 and some 4-cylinder engines are prone to water pump seal failure." },
+      { slug: "clutch-repair", name: "Clutch Repair", desc: "Tacoma, 4Runner, GR86, Supra, and older Corolla and Camry stick shifts." },
+      { slug: "brake-service", name: "Brake Service", desc: "Pads, rotors, calipers, and fluid flush for all Toyota models." },
+      { slug: "cv-joint-repair", name: "CV Joint Repair", desc: "Clicking-on-turns axle and boot replacement. A common Toyota wear item." },
+      { slug: "exhaust-repair", name: "Exhaust Repair", desc: "Toyota V6 manifolds crack, we weld or replace as needed." },
+      { slug: "strut-replacement", name: "Strut Replacement", desc: "Worn struts affect handling and braking distance. Inspection and replacement." },
+      { slug: "complete-auto-service", name: "Complete Auto Service", desc: "Full diagnostic and repair work across all Toyota systems." }
     ],
     tips: [
       'Toyota engines are built around specific oil grades and change intervals. Full synthetic at the correct viscosity, changed at Toyota\'s recommended interval (typically 7,500–10,000 miles), is one of the most effective investments in long-term engine life. If you do a lot of mountain driving, towing, or stop-and-go in Salt Lake traffic, shorter intervals are worth it.',
@@ -80,14 +80,14 @@ const brandContent = {
       { step: 5, title: "Road Test and Walkthrough at Pickup", desc: "We verify the repair under real driving conditions before returning the car, and walk you through what was done when you pick it up." }
     ],
     commonRepairs: [
-      { slug: "clutch-repair-near-south-salt-lake-ut", name: "Clutch Repair", desc: "Civic Si, Accord manual, CR-Z, and Fit clutch jobs, flywheel inspection and dual-mass to single-mass conversion available." },
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "Timing Chain Service", desc: "VTEC solenoid service and timing chain wear on high-mileage K-series and R-series Honda engines." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump Replacement", desc: "Honda four-cylinder and V6 water pump replacement, often done with timing belt service on older belt-equipped models." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "Rear pads on Civics, Accords, and CR-Vs wear faster than expected, we check all four corners at every service." },
-      { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Joint Repair", desc: "Honda CV axle boot cracking and inner joint wear, catching it at the boot stage saves the full axle." },
-      { slug: "catalytic-converter-service-near-south-salt-lake-ut", name: "Catalytic Converter Service", desc: "Honda V6 converter efficiency codes, we diagnose upstream O2 sensor vs. converter failure before recommending replacement." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Honda exhaust manifold cracks and flange leaks, common on high-mileage V6 Accords and Pilots." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full mechanical service across all Honda models, diagnosis, repair, and fluid service." }
+      { slug: "clutch-repair", name: "Clutch Repair", desc: "Civic Si, Accord manual, CR-Z, and Fit clutch jobs, flywheel inspection and dual-mass to single-mass conversion available." },
+      { slug: "timing-chain-repair", name: "Timing Chain Service", desc: "VTEC solenoid service and timing chain wear on high-mileage K-series and R-series Honda engines." },
+      { slug: "water-pump-replacement", name: "Water Pump Replacement", desc: "Honda four-cylinder and V6 water pump replacement, often done with timing belt service on older belt-equipped models." },
+      { slug: "brake-service", name: "Brake Service", desc: "Rear pads on Civics, Accords, and CR-Vs wear faster than expected, we check all four corners at every service." },
+      { slug: "cv-joint-repair", name: "CV Joint Repair", desc: "Honda CV axle boot cracking and inner joint wear, catching it at the boot stage saves the full axle." },
+      { slug: "catalytic-converter-service", name: "Catalytic Converter Service", desc: "Honda V6 converter efficiency codes, we diagnose upstream O2 sensor vs. converter failure before recommending replacement." },
+      { slug: "exhaust-repair", name: "Exhaust Repair", desc: "Honda exhaust manifold cracks and flange leaks, common on high-mileage V6 Accords and Pilots." },
+      { slug: "complete-auto-service", name: "Complete Auto Service", desc: "Full mechanical service across all Honda models, diagnosis, repair, and fluid service." }
     ],
     intro: "Honest Honda repair in South Salt Lake since 1990. We diagnose your Civic, Accord, CR-V, Pilot, or Odyssey first, explain exactly what we found, and give you a written estimate before any work begins, at prices well below dealer rates. One mechanic, transparent process, no upsells.",
     whyUs: [
@@ -120,10 +120,10 @@ const brandContent = {
       }
     ],
     issues: [
-      {t:'Manual Transmission Clutch Judder',d:'Honda manual transmissions can develop clutch judder and vibration, often from dual-mass flywheel wear. We convert to a single-mass flywheel setup for smoother, more durable engagement.',href:'/services/clutch-repair-near-south-salt-lake-ut'},
+      {t:'Manual Transmission Clutch Judder',d:'Honda manual transmissions can develop clutch judder and vibration, often from dual-mass flywheel wear. We convert to a single-mass flywheel setup for smoother, more durable engagement.',href:'/services/clutch-repair'},
       {t:'AC Compressor Failure',d:'Honda AC compressors are prone to failure that sends metal debris through the entire system, requiring a full flush and compressor replacement, not just a component swap.'},
       {t:'VTEC Solenoid Oil Leaks',d:'Honda VTEC variable timing solenoid gaskets develop oil leaks that drip onto exhaust components, causing burning smells and smoke. It\'s a common and straightforward repair.'},
-      {t:'CV Axle Boot Wear',d:'Honda CV axle boots are prone to cracking and tearing, allowing grease to escape and contaminate the joint. Catching it early means replacing just the boot rather than the entire axle.',href:'/services/cv-joint-repair-near-south-salt-lake-ut'},
+      {t:'CV Axle Boot Wear',d:'Honda CV axle boots are prone to cracking and tearing, allowing grease to escape and contaminate the joint. Catching it early means replacing just the boot rather than the entire axle.',href:'/services/cv-joint-repair'},
       {t:'Transmission Fluid Sensitivity',d:'Honda automatic transmissions are particularly sensitive to incorrect or degraded fluid. Using non-Honda-spec ATF or running fluid too long causes shift quality deterioration and accelerated wear.'},
       {t:'Power Steering Hose Leaks',d:'Honda hydraulic power steering systems develop high-pressure hose leaks and pump seal failures over time. Low fluid causes whining noise and eventually steering assist loss.'},
       {t:'Coolant Thermostat Failure',d:'Honda thermostats can fail in either direction, causing overheating or an engine that runs too cool. Both conditions affect performance, fuel economy, and long-term engine health.'}
@@ -165,14 +165,14 @@ const brandContent = {
       { step: 5, title: "Road Test and Handoff", desc: "We verify the repair under real driving conditions before the vehicle goes back to you, and walk you through what was done." }
     ],
     commonRepairs: [
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "Timing Chain / Cam Phaser Service", desc: "Coyote 5.0L cam phaser wear and EcoBoost timing chain cover oil leaks, cold-start rattle is the first sign." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Manifold Stud Repair", desc: "Broken manifold studs on Ford V8 engines, careful extraction and thread restoration without head damage." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump Replacement", desc: "Plastic-impeller Ford water pumps fail predictably, we replace with updated designs that address the known pattern." },
-      { slug: "clutch-repair-near-south-salt-lake-ut", name: "Clutch Repair", desc: "Mustang, Ranger, and older F-150 manual transmission clutch jobs, hydraulic system inspection included." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "F-150 and Mustang brake pad, rotor, and caliper service, heavy towing wears brakes faster on canyon grades." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Strut Replacement", desc: "Explorer, Edge, and Escape strut wear, handling and braking distance both suffer when struts are gone." },
-      { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Joint Repair", desc: "Ford AWD and 4WD CV axle wear, clicking on turns or shuddering under load." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full diagnostic and repair across all Ford models and drivetrains." }
+      { slug: "timing-chain-repair", name: "Timing Chain / Cam Phaser Service", desc: "Coyote 5.0L cam phaser wear and EcoBoost timing chain cover oil leaks, cold-start rattle is the first sign." },
+      { slug: "exhaust-repair", name: "Exhaust Manifold Stud Repair", desc: "Broken manifold studs on Ford V8 engines, careful extraction and thread restoration without head damage." },
+      { slug: "water-pump-replacement", name: "Water Pump Replacement", desc: "Plastic-impeller Ford water pumps fail predictably, we replace with updated designs that address the known pattern." },
+      { slug: "clutch-repair", name: "Clutch Repair", desc: "Mustang, Ranger, and older F-150 manual transmission clutch jobs, hydraulic system inspection included." },
+      { slug: "brake-service", name: "Brake Service", desc: "F-150 and Mustang brake pad, rotor, and caliper service, heavy towing wears brakes faster on canyon grades." },
+      { slug: "strut-replacement", name: "Strut Replacement", desc: "Explorer, Edge, and Escape strut wear, handling and braking distance both suffer when struts are gone." },
+      { slug: "cv-joint-repair", name: "CV Joint Repair", desc: "Ford AWD and 4WD CV axle wear, clicking on turns or shuddering under load." },
+      { slug: "complete-auto-service", name: "Complete Auto Service", desc: "Full diagnostic and repair across all Ford models and drivetrains." }
     ],
     intro: "Independent Ford repair in South Salt Lake since 1990. We service F-150s, Mustangs, Explorers, and the full Ford lineup, free diagnosis before any work starts, written estimate, and pricing well below dealer rates.",
     whyUs: [
@@ -207,8 +207,8 @@ const brandContent = {
     issues: [
       {t:'EcoBoost Turbo Carbon and Boost Issues',d:'Ford turbocharged engines can develop carbon buildup, wastegate rattle, and boost pressure problems over time. We diagnose turbo systems thoroughly rather than replacing components unnecessarily.'},
       {t:'PowerShift Dual-Clutch Shudder',d:'Ford\'s dual-clutch transmissions developed a reputation for shuddering and slipping under light acceleration. We service clutch packs and reprogram the transmission control module.',href:'/symptoms/vibration-when-accelerating'},
-      {t:'Exhaust Manifold Stud Failure',d:'Ford V8 engines frequently develop cracked or broken exhaust manifold studs, causing a ticking sound especially when cold and eventual exhaust leaks. We extract broken studs and restore proper sealing.',href:'/services/exhaust-repair-near-south-salt-lake-ut'},
-      {t:'Cooling System Water Pump Failure',d:'Ford engines use water pumps with plastic impellers that crack and cause coolant loss. We replace with updated designs that address the failure pattern.',href:'/services/water-pump-replacement-near-south-salt-lake-ut'},
+      {t:'Exhaust Manifold Stud Failure',d:'Ford V8 engines frequently develop cracked or broken exhaust manifold studs, causing a ticking sound especially when cold and eventual exhaust leaks. We extract broken studs and restore proper sealing.',href:'/services/exhaust-repair'},
+      {t:'Cooling System Water Pump Failure',d:'Ford engines use water pumps with plastic impellers that crack and cause coolant loss. We replace with updated designs that address the failure pattern.',href:'/services/water-pump-replacement'},
       {t:'Spark Plug Seizure on V8 Engines',d:'Ford V8 engines are prone to spark plug seizure due to a two-piece plug design. Removal requires specialized tools and technique to avoid breaking the plug and damaging the cylinder head.'},
       {t:'Transmission Fluid Neglect',d:'Ford automatic transmissions are often labeled "lifetime fill" but benefit significantly from fluid changes every 30-60K miles under real-world driving conditions, especially in Utah\'s mountains.'},
       {t:'Clutch Hydraulic System Leaks',d:'Ford manual transmission clutch hydraulic systems develop internal leaks in the slave cylinder, causing a soft or spongy pedal and difficulty engaging gears cleanly.'}
@@ -250,14 +250,14 @@ const brandContent = {
       { step: 5, title: "Road Test and Handoff", desc: "We verify the repair under driving conditions before the truck goes back to you, and walk you through what was done at pickup." }
     ],
     commonRepairs: [
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "Timing Chain / Lifter Service", desc: "AFM lifter failure on 5.3L and 6.2L V8s, full lifter replacement with AFM delete programming. Also V6 timing chain stretch on high-mileage engines." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Manifold Repair", desc: "Broken manifold bolts on Chevy truck engines, extraction and thread restoration without head damage." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump Replacement", desc: "Silverado and Tahoe water pump replacement, plastic impeller failure and coolant leak diagnosis." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "Silverado and Tahoe pad, rotor, and caliper service, towing on canyon grades wears brakes harder than highway use." },
-      { slug: "shock-replacement-near-south-salt-lake-ut", name: "Shock Replacement", desc: "Chevy truck rear shock wear, common on Silverados used for hauling, affects ride and load stability." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Strut Replacement", desc: "Equinox, Traverse, and Colorado front strut service, handling changes and tire wear are the first signs." },
-      { slug: "welding-services-near-south-salt-lake-ut", name: "Undercarriage Welding", desc: "Road salt corrosion repair on Chevy truck frames, exhaust hangers, and brake line brackets." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full diagnostic and repair work across all Chevrolet models and engine families." }
+      { slug: "timing-chain-repair", name: "Timing Chain / Lifter Service", desc: "AFM lifter failure on 5.3L and 6.2L V8s, full lifter replacement with AFM delete programming. Also V6 timing chain stretch on high-mileage engines." },
+      { slug: "exhaust-repair", name: "Exhaust Manifold Repair", desc: "Broken manifold bolts on Chevy truck engines, extraction and thread restoration without head damage." },
+      { slug: "water-pump-replacement", name: "Water Pump Replacement", desc: "Silverado and Tahoe water pump replacement, plastic impeller failure and coolant leak diagnosis." },
+      { slug: "brake-service", name: "Brake Service", desc: "Silverado and Tahoe pad, rotor, and caliper service, towing on canyon grades wears brakes harder than highway use." },
+      { slug: "shock-replacement", name: "Shock Replacement", desc: "Chevy truck rear shock wear, common on Silverados used for hauling, affects ride and load stability." },
+      { slug: "strut-replacement", name: "Strut Replacement", desc: "Equinox, Traverse, and Colorado front strut service, handling changes and tire wear are the first signs." },
+      { slug: "welding-services", name: "Undercarriage Welding", desc: "Road salt corrosion repair on Chevy truck frames, exhaust hangers, and brake line brackets." },
+      { slug: "complete-auto-service", name: "Complete Auto Service", desc: "Full diagnostic and repair work across all Chevrolet models and engine families." }
     ],
     intro: "Trusted Chevrolet repair in South Salt Lake since 1990. We service Silverados, Tahoes, Colorados, Equinoxes, and the full Chevy lineup, free diagnosis, written estimate, and honest pricing without the upsell list.",
     whyUs: [
@@ -292,8 +292,8 @@ const brandContent = {
     issues: [
       {t:'AFM/DOD Lifter Failure',d:'Chevrolet V8 engines equipped with Active Fuel Management develop collapsed lifters causing misfires, ticking, and oil consumption. We replace all lifters and can permanently disable the AFM system for improved reliability.',href:'/symptoms/engine-rattling'},
       {t:'Torque Converter Shudder',d:'GM 8-speed and 10-speed automatic transmissions develop a torque converter shudder that feels like driving over rumble strips at light throttle. A fluid flush with updated specification fluid typically resolves it.',href:'/symptoms/vibration-when-accelerating'},
-      {t:'Exhaust Manifold Bolt Failure',d:'Chevrolet truck engines are prone to broken exhaust manifold bolts causing exhaust leaks and ticking. Extraction and repair requires care to avoid thread damage in the cylinder head.',href:'/services/exhaust-repair-near-south-salt-lake-ut'},
-      {t:'Timing Chain Wear on V6',d:'Chevrolet V6 engines develop timing chain stretch, causing camshaft correlation fault codes and potential engine damage if ignored. A complete chain kit replacement restores proper timing.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
+      {t:'Exhaust Manifold Bolt Failure',d:'Chevrolet truck engines are prone to broken exhaust manifold bolts causing exhaust leaks and ticking. Extraction and repair requires care to avoid thread damage in the cylinder head.',href:'/services/exhaust-repair'},
+      {t:'Timing Chain Wear on V6',d:'Chevrolet V6 engines develop timing chain stretch, causing camshaft correlation fault codes and potential engine damage if ignored. A complete chain kit replacement restores proper timing.',href:'/services/timing-chain-repair'},
       {t:'Oil Consumption on V8 Engines',d:'Some Chevrolet V8 engines consume more oil than expected, particularly with AFM active. Monitoring oil level and addressing the root cause, lifter or piston ring wear, prevents engine damage.'},
       {t:'Cooling System Thermostat Failure',d:'Chevrolet cooling system thermostats fail in either direction, causing overheating or an engine that runs chronically cool. Both conditions affect performance and long-term engine health.'},
       {t:'Transmission Fluid Degradation',d:'GM automatic transmissions are sensitive to fluid quality. Despite extended drain intervals, transmission fluid degrades and causes shift quality issues that worsen over time if not addressed.'}
@@ -335,14 +335,14 @@ const brandContent = {
       { step: 5, title: "Road Test and Handoff", desc: "We verify cooling system integrity and drive behavior before the car goes back, and walk you through what was done at pickup." }
     ],
     commonRepairs: [
-      { slug: "timing-belt-replacement-near-south-salt-lake-ut", name: "Timing Belt Replacement", desc: "Complete EJ boxer engine timing belt service, belt, water pump, idler pulleys, tensioner, and thermostat. Non-optional at 105K miles." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump Replacement", desc: "Belt-driven Subaru water pumps share timing belt access, always replaced together on EJ engines." },
-      { slug: "clutch-repair-near-south-salt-lake-ut", name: "Clutch Repair", desc: "WRX, STI, Impreza, and Legacy manual clutch jobs, throw-out bearing and flywheel inspection included." },
-      { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Joint Repair", desc: "Subaru AWD inner CV joint failure causes acceleration shudder, frequently misdiagnosed as AWD or transmission problems." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "Subaru AWD braking service, pads, rotors, and caliper inspection on all four corners." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Strut Replacement", desc: "Outback and Forester strut wear, mountain road and canyon driving accelerates strut deterioration." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Subaru boxer engine exhaust manifold and header cracks, common on WRX and high-mileage Outbacks." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full diagnostic and repair work across all Subaru models and drivetrain configurations." }
+      { slug: "timing-belt-replacement", name: "Timing Belt Replacement", desc: "Complete EJ boxer engine timing belt service, belt, water pump, idler pulleys, tensioner, and thermostat. Non-optional at 105K miles." },
+      { slug: "water-pump-replacement", name: "Water Pump Replacement", desc: "Belt-driven Subaru water pumps share timing belt access, always replaced together on EJ engines." },
+      { slug: "clutch-repair", name: "Clutch Repair", desc: "WRX, STI, Impreza, and Legacy manual clutch jobs, throw-out bearing and flywheel inspection included." },
+      { slug: "cv-joint-repair", name: "CV Joint Repair", desc: "Subaru AWD inner CV joint failure causes acceleration shudder, frequently misdiagnosed as AWD or transmission problems." },
+      { slug: "brake-service", name: "Brake Service", desc: "Subaru AWD braking service, pads, rotors, and caliper inspection on all four corners." },
+      { slug: "strut-replacement", name: "Strut Replacement", desc: "Outback and Forester strut wear, mountain road and canyon driving accelerates strut deterioration." },
+      { slug: "exhaust-repair", name: "Exhaust Repair", desc: "Subaru boxer engine exhaust manifold and header cracks, common on WRX and high-mileage Outbacks." },
+      { slug: "complete-auto-service", name: "Complete Auto Service", desc: "Full diagnostic and repair work across all Subaru models and drivetrain configurations." }
     ],
     intro: "Trusted Subaru repair in South Salt Lake since 1990. We service Outbacks, Foresters, Imprezas, Crosstreks, and WRXs, free diagnosis, written estimate, and transparent pricing well below dealer rates.",
     whyUs: [
@@ -376,9 +376,9 @@ const brandContent = {
     ],
     issues: [
       {t:'Head Gasket Leaks',d:'Subaru boxer engines are prone to head gasket failure, typically presenting as external oil seeping at the gasket line or gradual coolant loss. We replace with updated multi-layer steel gaskets designed to address the known failure pattern.',href:'/symptoms/coolant-leak'},
-      {t:'Timing Belt Service',d:'Subaru boxer engines use timing belts that must be replaced at the manufacturer\'s recommended interval without exception. A broken belt destroys the engine, this is non-optional maintenance.',href:'/services/timing-belt-replacement-near-south-salt-lake-ut'},
-      {t:'Clutch Throw-Out Bearing Noise',d:'Subaru manual transmissions frequently develop a chirping or squeaking noise at idle that disappears when the clutch pedal is pressed. This is the throw-out bearing, and we replace it during clutch service.',href:'/services/clutch-repair-near-south-salt-lake-ut'},
-      {t:'CV Axle Failure',d:'Subaru\'s AWD system puts continuous load on CV axles. Inner CV joint failure causes vibration and shuddering under acceleration that\'s often mistaken for a transmission or AWD system problem.',href:'/services/cv-joint-repair-near-south-salt-lake-ut'},
+      {t:'Timing Belt Service',d:'Subaru boxer engines use timing belts that must be replaced at the manufacturer\'s recommended interval without exception. A broken belt destroys the engine, this is non-optional maintenance.',href:'/services/timing-belt-replacement'},
+      {t:'Clutch Throw-Out Bearing Noise',d:'Subaru manual transmissions frequently develop a chirping or squeaking noise at idle that disappears when the clutch pedal is pressed. This is the throw-out bearing, and we replace it during clutch service.',href:'/services/clutch-repair'},
+      {t:'CV Axle Failure',d:'Subaru\'s AWD system puts continuous load on CV axles. Inner CV joint failure causes vibration and shuddering under acceleration that\'s often mistaken for a transmission or AWD system problem.',href:'/services/cv-joint-repair'},
       {t:'Wheel Bearing Wear',d:'Subaru AWD systems put additional load on wheel bearings. Rear wheel bearing failure is common and presents as a hum or growl that changes with vehicle speed, we diagnose and replace the affected bearing.'},
       {t:'Coolant System Corrosion',d:'Subaru boxer engines require specific coolant formulation to prevent head gasket corrosion. Running incorrect coolant accelerates the gasket failure pattern the platform is known for.'},
       {t:'Power Steering Rack Leaks',d:'Subaru hydraulic power steering racks develop seal leaks over time, causing steering fluid loss and gradual reduction in assist. We rebuild or replace racks depending on the condition and extent of the leak.'}
@@ -420,14 +420,14 @@ const brandContent = {
       { step: 5, title: "Road Test and Handoff", desc: "We verify CVT behavior and general driving conditions before the vehicle goes back, and walk you through what was done at pickup." }
     ],
     commonRepairs: [
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "Timing Chain Guide Replacement", desc: "QR25DE Altima and VQ35 Pathfinder/Murano cold-start chain guide wear, caught early, it's a guide and tensioner job." },
-      { slug: "catalytic-converter-service-near-south-salt-lake-ut", name: "Catalytic Converter Service", desc: "Nissan V6 premature converter failure, we diagnose upstream O2 sensor vs. actual converter before recommending replacement." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump Replacement", desc: "Nissan four-cylinder and V6 water pump failure, often presenting as slow coolant loss before an overheat." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "Altima, Rogue, and Pathfinder pad, rotor, and caliper service, mountain and canyon driving wears brakes unevenly." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Strut Replacement", desc: "Rogue and Murano front strut wear, common at 80,000–100,000 miles on Utah roads." },
-      { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Joint Repair", desc: "Nissan AWD CV axle and boot wear, clicking on turns or vibration under load." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Nissan V6 exhaust manifold cracks and flange leaks, Frontier and Pathfinder are the most common." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full diagnostic and repair across all Nissan models and drivetrain configurations." }
+      { slug: "timing-chain-repair", name: "Timing Chain Guide Replacement", desc: "QR25DE Altima and VQ35 Pathfinder/Murano cold-start chain guide wear, caught early, it's a guide and tensioner job." },
+      { slug: "catalytic-converter-service", name: "Catalytic Converter Service", desc: "Nissan V6 premature converter failure, we diagnose upstream O2 sensor vs. actual converter before recommending replacement." },
+      { slug: "water-pump-replacement", name: "Water Pump Replacement", desc: "Nissan four-cylinder and V6 water pump failure, often presenting as slow coolant loss before an overheat." },
+      { slug: "brake-service", name: "Brake Service", desc: "Altima, Rogue, and Pathfinder pad, rotor, and caliper service, mountain and canyon driving wears brakes unevenly." },
+      { slug: "strut-replacement", name: "Strut Replacement", desc: "Rogue and Murano front strut wear, common at 80,000–100,000 miles on Utah roads." },
+      { slug: "cv-joint-repair", name: "CV Joint Repair", desc: "Nissan AWD CV axle and boot wear, clicking on turns or vibration under load." },
+      { slug: "exhaust-repair", name: "Exhaust Repair", desc: "Nissan V6 exhaust manifold cracks and flange leaks, Frontier and Pathfinder are the most common." },
+      { slug: "complete-auto-service", name: "Complete Auto Service", desc: "Full diagnostic and repair across all Nissan models and drivetrain configurations." }
     ],
     intro: "Independent Nissan repair in South Salt Lake since 1990. We service Altimas, Rogues, Pathfinders, Frontiers, and the full Nissan lineup, free diagnosis before any work starts, written estimate, and transparent pricing.",
     whyUs: [
@@ -461,9 +461,9 @@ const brandContent = {
     ],
     issues: [
       {t:'CVT Transmission Failure',d:'Nissan CVT transmissions are prone to overheating and premature failure, particularly when fluid is neglected. We diagnose CVT issues and handle repairs from fluid service to full replacement depending on the failure mode.',href:'/symptoms/transmission-slipping'},
-      {t:'Timing Chain Guide Wear',d:'Nissan engines develop timing chain guide wear that causes cold-start rattling. If caught early, guide and tensioner replacement prevents the chain from jumping and causing engine damage.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
-      {t:'Catalytic Converter Failure',d:'Nissan V6 engines experience premature catalytic converter failure, triggering efficiency codes and failed emissions tests. We diagnose whether it\'s the converter or an upstream oxygen sensor issue before recommending replacement.',href:'/services/catalytic-converter-service-near-south-salt-lake-ut'},
-      {t:'Clutch Hydraulic System Leaks',d:'Nissan manual transmission vehicles develop leaks in the clutch slave and master cylinder, causing soft pedal feel and difficulty engaging gears. We replace the hydraulic components and bleed to proper feel.',href:'/services/clutch-repair-near-south-salt-lake-ut'},
+      {t:'Timing Chain Guide Wear',d:'Nissan engines develop timing chain guide wear that causes cold-start rattling. If caught early, guide and tensioner replacement prevents the chain from jumping and causing engine damage.',href:'/services/timing-chain-repair'},
+      {t:'Catalytic Converter Failure',d:'Nissan V6 engines experience premature catalytic converter failure, triggering efficiency codes and failed emissions tests. We diagnose whether it\'s the converter or an upstream oxygen sensor issue before recommending replacement.',href:'/services/catalytic-converter-service'},
+      {t:'Clutch Hydraulic System Leaks',d:'Nissan manual transmission vehicles develop leaks in the clutch slave and master cylinder, causing soft pedal feel and difficulty engaging gears. We replace the hydraulic components and bleed to proper feel.',href:'/services/clutch-repair'},
       {t:'Power Steering Hose Leaks',d:'Nissan power steering high-pressure hoses develop leaks at the crimped fittings over time. We replace with quality hoses to restore proper assist and prevent continued fluid loss.'},
       {t:'Coolant Overflow Tank Cracks',d:'Nissan coolant overflow reservoirs crack and cause gradual coolant loss that can go unnoticed until the engine runs low on coolant and overheats. We inspect and replace as part of cooling system service.'},
       {t:'Oil Consumption on High-Mileage Engines',d:'Nissan V6 engines can develop increased oil consumption as piston rings and valve seals wear with age. Regular oil level checks catch low-oil situations before they cause engine damage.'}
@@ -505,14 +505,14 @@ const brandContent = {
       { step: 5, title: "Road Test and Handoff", desc: "We verify cooling system pressure holds, oil leaks are resolved, and driving behavior is correct before the vehicle goes back to you." }
     ],
     commonRepairs: [
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Electric Water Pump Replacement", desc: "BMW electric water pump and expansion tank replacement, proactive service before failure is far less expensive than emergency recovery." },
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "VANOS and Timing Chain Service", desc: "BMW VANOS solenoid service and N-series timing chain tensioner wear, cold-start rattle is the key symptom." },
-      { slug: "clutch-repair-near-south-salt-lake-ut", name: "Clutch Repair / Flywheel Conversion", desc: "BMW dual-mass flywheel wear and clutch replacement, single-mass conversion available at significant cost savings." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust and Manifold Repair", desc: "BMW exhaust manifold cracks and exhaust leaks, common on N52 and S54 engines with high mileage." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service with Pad Sensors", desc: "BMW pad, rotor, and wear sensor replacement, both pads and sensors are consumed when the warning light comes on." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Strut and Suspension Service", desc: "BMW control arm bushings, ball joints, and struts, suspension wear causes handling changes and accelerated tire wear." },
-      { slug: "welding-services-near-south-salt-lake-ut", name: "Exhaust Welding", desc: "BMW exhaust section welding and repair, mid-pipe and cat-back repairs on aging exhaust systems." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Auto Service", desc: "Full diagnostic and repair work across all BMW models, 3 Series, 5 Series, X3, X5, and M vehicles." }
+      { slug: "water-pump-replacement", name: "Electric Water Pump Replacement", desc: "BMW electric water pump and expansion tank replacement, proactive service before failure is far less expensive than emergency recovery." },
+      { slug: "timing-chain-repair", name: "VANOS and Timing Chain Service", desc: "BMW VANOS solenoid service and N-series timing chain tensioner wear, cold-start rattle is the key symptom." },
+      { slug: "clutch-repair", name: "Clutch Repair / Flywheel Conversion", desc: "BMW dual-mass flywheel wear and clutch replacement, single-mass conversion available at significant cost savings." },
+      { slug: "exhaust-repair", name: "Exhaust and Manifold Repair", desc: "BMW exhaust manifold cracks and exhaust leaks, common on N52 and S54 engines with high mileage." },
+      { slug: "brake-service", name: "Brake Service with Pad Sensors", desc: "BMW pad, rotor, and wear sensor replacement, both pads and sensors are consumed when the warning light comes on." },
+      { slug: "strut-replacement", name: "Strut and Suspension Service", desc: "BMW control arm bushings, ball joints, and struts, suspension wear causes handling changes and accelerated tire wear." },
+      { slug: "welding-services", name: "Exhaust Welding", desc: "BMW exhaust section welding and repair, mid-pipe and cat-back repairs on aging exhaust systems." },
+      { slug: "complete-auto-service", name: "Complete Auto Service", desc: "Full diagnostic and repair work across all BMW models, 3 Series, 5 Series, X3, X5, and M vehicles." }
     ],
     intro: "Independent BMW repair in South Salt Lake since 1990. We service 3 Series, 5 Series, X3, X5, and the full BMW lineup, free diagnosis, written estimate, at pricing significantly below dealer rates.",
     whyUs: [
@@ -545,10 +545,10 @@ const brandContent = {
       }
     ],
     issues: [
-      {t:'Cooling System Plastic Component Failure',d:'BMW cooling systems use plastic expansion tanks, thermostat housings, and water pump components that crack and leak with age. We replace with upgraded aluminum parts where available for improved longevity.',href:'/services/water-pump-replacement-near-south-salt-lake-ut'},
+      {t:'Cooling System Plastic Component Failure',d:'BMW cooling systems use plastic expansion tanks, thermostat housings, and water pump components that crack and leak with age. We replace with upgraded aluminum parts where available for improved longevity.',href:'/services/water-pump-replacement'},
       {t:'Oil Leaks at Multiple Points',d:'BMW engines develop oil leaks at valve cover gaskets, oil filter housing gaskets, oil pan gaskets, and crankshaft seals. Oil dripping onto hot exhaust components creates burning smells and a fire risk.'},
       {t:'VANOS Variable Timing Issues',d:'BMW\'s VANOS variable valve timing system develops solenoid and seal wear, causing rough idle, loss of power, and fault codes. We service or replace VANOS components as needed.',href:'/symptoms/engine-rattling'},
-      {t:'Dual-Mass Flywheel Wear',d:'BMW manual transmission vehicles use dual-mass flywheels that wear over time, causing clutch judder and vibration. We offer OEM replacement or single-mass flywheel conversion at significant cost savings.',href:'/services/clutch-repair-near-south-salt-lake-ut'},
+      {t:'Dual-Mass Flywheel Wear',d:'BMW manual transmission vehicles use dual-mass flywheels that wear over time, causing clutch judder and vibration. We offer OEM replacement or single-mass flywheel conversion at significant cost savings.',href:'/services/clutch-repair'},
       {t:'Electric Water Pump Failure',d:'BMW uses electrically-driven water pumps that can fail without warning, causing sudden overheating. We replace these proactively, engine overheating on a BMW is expensive and happens quickly with no belt-driven backup.'},
       {t:'Fuel Injector Deposits',d:'BMW direct-injection engines accumulate deposits on fuel injectors and intake valves over time, affecting combustion efficiency and fuel economy. An intake cleaning service restores proper fueling and performance.'},
       {t:'Suspension Component Wear',d:'BMW suspension systems use multiple bushings, control arms, and ball joints that wear faster than domestic vehicle equivalents. Worn suspension causes tire wear, handling changes, and clunking noises over bumps.'}
@@ -590,14 +590,14 @@ const brandContent = {
       { step: 5, title: "Test and Verify Before It Leaves", desc: "We test 4WD engagement, steering, and braking under real conditions, not just a parking lot loop, before your Jeep goes back to you." }
     ],
     commonRepairs: [
-      { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Axle and Front-End Repair", desc: "Death wobble diagnosis, ball joint and tie rod replacement, track bar service, and CV axle work on Wrangler and Cherokee front axle assemblies." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "Brake inspection, pad and rotor replacement, caliper service, and brake fluid flush for all Jeep models. Important for canyon grades and loaded towing." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Suspension Service", desc: "Shock and strut replacement, lift kit service, and suspension component inspection for both stock and modified Jeeps." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump Replacement", desc: "Pentastar 3.6L and other Jeep engines, cooling system service, thermostat and water pump replacement." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Exhaust manifold and downpipe repair, welded patch, and muffler service. Jeep exhaust takes hard use, especially with lift kits that stress flex points." },
-      { slug: "welding-services-near-south-salt-lake-ut", name: "Welding and Fabrication", desc: "Frame and exhaust welding, skid plate repair, and structural work for trail-damaged Jeeps." },
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "Timing Chain and Valve Train", desc: "Pentastar 3.6L valve train tick diagnosis, timing chain inspection, and VVT system service on high-mileage Jeep engines." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Jeep Service", desc: "Full diagnostic, 4WD system service, fluid changes, and mechanical repair across all Jeep systems and model lines." }
+      { slug: "cv-joint-repair", name: "CV Axle and Front-End Repair", desc: "Death wobble diagnosis, ball joint and tie rod replacement, track bar service, and CV axle work on Wrangler and Cherokee front axle assemblies." },
+      { slug: "brake-service", name: "Brake Service", desc: "Brake inspection, pad and rotor replacement, caliper service, and brake fluid flush for all Jeep models. Important for canyon grades and loaded towing." },
+      { slug: "strut-replacement", name: "Suspension Service", desc: "Shock and strut replacement, lift kit service, and suspension component inspection for both stock and modified Jeeps." },
+      { slug: "water-pump-replacement", name: "Water Pump Replacement", desc: "Pentastar 3.6L and other Jeep engines, cooling system service, thermostat and water pump replacement." },
+      { slug: "exhaust-repair", name: "Exhaust Repair", desc: "Exhaust manifold and downpipe repair, welded patch, and muffler service. Jeep exhaust takes hard use, especially with lift kits that stress flex points." },
+      { slug: "welding-services", name: "Welding and Fabrication", desc: "Frame and exhaust welding, skid plate repair, and structural work for trail-damaged Jeeps." },
+      { slug: "timing-chain-repair", name: "Timing Chain and Valve Train", desc: "Pentastar 3.6L valve train tick diagnosis, timing chain inspection, and VVT system service on high-mileage Jeep engines." },
+      { slug: "complete-auto-service", name: "Complete Jeep Service", desc: "Full diagnostic, 4WD system service, fluid changes, and mechanical repair across all Jeep systems and model lines." }
     ],
     intro: "Trusted Jeep repair in South Salt Lake since 1990. We service Wranglers, Cherokees, Grand Cherokees, Gladiators, and the full Jeep lineup, free diagnosis, written estimate, and honest pricing whether your Jeep sees trails or just the daily commute.",
     whyUs: [
@@ -632,7 +632,7 @@ const brandContent = {
     issues: [
       {t:'Front-End Death Wobble',d:'Jeep Wranglers and similar models can develop violent front-end shaking triggered by a road imperfection at highway speed. It\'s caused by worn front suspension components, track bars, ball joints, tie rod ends, or steering stabilizer. We find and replace the actual worn parts, not just mask the symptom.',href:'/symptoms/steering-vibration'},
       {t:'Engine Oil Leaks',d:'Jeep V6 and older inline-six engines develop oil cooler housing gasket leaks and valve cover leaks. Oil accumulating on the starter motor causes intermittent no-start conditions that can be hard to diagnose without knowing the source.'},
-      {t:'Exhaust Manifold Cracks',d:'Jeep exhaust manifolds crack between cylinders, causing a ticking sound especially when cold and eventual failed emissions tests. We weld or replace depending on crack severity.',href:'/services/exhaust-repair-near-south-salt-lake-ut'},
+      {t:'Exhaust Manifold Cracks',d:'Jeep exhaust manifolds crack between cylinders, causing a ticking sound especially when cold and eventual failed emissions tests. We weld or replace depending on crack severity.',href:'/services/exhaust-repair'},
       {t:'Transfer Case Seal Leaks',d:'Jeep 4WD transfer cases develop output shaft seal leaks, especially on vehicles that see regular off-road use or water crossings. Fluid loss leads to transfer case damage if not addressed.'},
       {t:'Differential Fluid Contamination',d:'Jeep axle differentials can take on water during deep crossings or after seal wear, causing bearing and gear damage. We drain, inspect for contamination, and reseal as part of differential service.'},
       {t:'Suspension Lift Component Fatigue',d:'Lifted Jeeps put additional stress on driveshaft u-joints, CV joints, and ball joints. Improperly adjusted driveshaft angles cause vibration and accelerated wear throughout the drivetrain.'},
@@ -675,14 +675,14 @@ const brandContent = {
       { step: 5, title: "Verified and Returned", desc: "Road test after every repair. For HEMI work, we verify oil pressure and listen for recurrence under load before the vehicle goes back to you." }
     ],
     commonRepairs: [
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "HEMI Lifter and Valve Train Repair", desc: "MDS collapsed lifter diagnosis, individual lifter replacement, and MDS delete on HEMI 5.7L and 6.4L engines. Includes camshaft inspection for lobe damage." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "Pad, rotor, and caliper service for Charger, Challenger, Durango, and Ram. Brake fluid flush for vehicles doing canyon grades." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Manifold and Stud Repair", desc: "Dodge exhaust manifold stud failure is common, studs snap in the cylinder head. We extract broken studs and repair or replace manifolds as needed." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump and Cooling System", desc: "Cooling system service, thermostat and water pump replacement for HEMI and V6 Dodge engines." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Suspension Service", desc: "Shock and strut replacement and front suspension inspection for Charger, Challenger, and Durango." },
-      { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Axle and Drivetrain", desc: "CV axle and boot service, front differential, and AWD coupling for Durango and Ram 1500 4WD models." },
-      { slug: "catalytic-converter-service-near-south-salt-lake-ut", name: "Catalytic Converter Service", desc: "Converter diagnosis and replacement for HEMI and V6 Dodge engines. Stainless exhaust welding where applicable." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "Complete Dodge and Ram Service", desc: "Full mechanical service across all Dodge and Ram platforms, trucks, performance cars, and SUVs." }
+      { slug: "timing-chain-repair", name: "HEMI Lifter and Valve Train Repair", desc: "MDS collapsed lifter diagnosis, individual lifter replacement, and MDS delete on HEMI 5.7L and 6.4L engines. Includes camshaft inspection for lobe damage." },
+      { slug: "brake-service", name: "Brake Service", desc: "Pad, rotor, and caliper service for Charger, Challenger, Durango, and Ram. Brake fluid flush for vehicles doing canyon grades." },
+      { slug: "exhaust-repair", name: "Exhaust Manifold and Stud Repair", desc: "Dodge exhaust manifold stud failure is common, studs snap in the cylinder head. We extract broken studs and repair or replace manifolds as needed." },
+      { slug: "water-pump-replacement", name: "Water Pump and Cooling System", desc: "Cooling system service, thermostat and water pump replacement for HEMI and V6 Dodge engines." },
+      { slug: "strut-replacement", name: "Suspension Service", desc: "Shock and strut replacement and front suspension inspection for Charger, Challenger, and Durango." },
+      { slug: "cv-joint-repair", name: "CV Axle and Drivetrain", desc: "CV axle and boot service, front differential, and AWD coupling for Durango and Ram 1500 4WD models." },
+      { slug: "catalytic-converter-service", name: "Catalytic Converter Service", desc: "Converter diagnosis and replacement for HEMI and V6 Dodge engines. Stainless exhaust welding where applicable." },
+      { slug: "complete-auto-service", name: "Complete Dodge and Ram Service", desc: "Full mechanical service across all Dodge and Ram platforms, trucks, performance cars, and SUVs." }
     ],
     intro: "Independent Dodge repair in South Salt Lake since 1990. We service Chargers, Challengers, Durangos, and the full Dodge lineup, free diagnosis, written estimate, and pricing well below dealer rates.",
     whyUs: [
@@ -716,7 +716,7 @@ const brandContent = {
     ],
     issues: [
       {t:'Hemi Cam and Lifter Failure',d:'Dodge Hemi engines with MDS cylinder deactivation develop collapsed lifters and cam wear over time, causing misfires and ticking. We replace all lifters and offer MDS disable for improved long-term reliability.',href:'/symptoms/engine-rattling'},
-      {t:'Exhaust Manifold Bolt Breakage',d:'Dodge Hemi engines are prone to broken exhaust manifold bolts causing a distinct ticking sound and exhaust leaks. Extraction requires careful technique to avoid damaging threads in the cylinder head.',href:'/services/exhaust-repair-near-south-salt-lake-ut'},
+      {t:'Exhaust Manifold Bolt Breakage',d:'Dodge Hemi engines are prone to broken exhaust manifold bolts causing a distinct ticking sound and exhaust leaks. Extraction requires careful technique to avoid damaging threads in the cylinder head.',href:'/services/exhaust-repair'},
       {t:'Transmission Cooler Line Corrosion',d:'Dodge transmission cooler lines corrode and develop leaks, particularly in Utah\'s winter road salt conditions. We replace with quality lines that resist the corrosion that damages the OEM steel lines.'},
       {t:'Electrical System Issues',d:'Dodge vehicles can develop electrical faults in the integrated power module causing random no-starts, fuel pump issues, and intermittent electrical gremlins. We diagnose these systematically before recommending any component replacement.'},
       {t:'Transfer Case Seal Leaks',d:'Dodge 4WD vehicles develop transfer case output seal leaks that allow fluid loss over time. Catching seal leaks early prevents transfer case bearing damage and gear wear.'},
@@ -760,14 +760,14 @@ const brandContent = {
       { step: 5, title: "Test Drive and Handoff", desc: "Road test after every repair to verify the fix before your Hyundai leaves the shop. We walk you through what was done at pickup." }
     ],
     commonRepairs: [
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "Engine Diagnosis and Theta II Inspection", desc: "Rod knock diagnosis, oil consumption evaluation, and engine assessment for Hyundai Theta II 2.0L and 2.4L engines with known recall-related failure patterns." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "GDI Carbon Cleaning", desc: "Intake valve carbon deposit removal for Theta II and other Hyundai GDI engines. Restores idle quality, throttle response, and fuel economy at 50,000-60,000 mile intervals." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "Pad, rotor, and brake fluid service for Palisade, Tucson, Sonata, and Santa Fe. Especially important for AWD models doing mountain canyon driving." },
-      { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Axle Service", desc: "CV axle and boot replacement across Hyundai front-wheel-drive and AWD platforms." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Suspension and Strut Service", desc: "Strut and shock replacement for Hyundai sedans and SUVs. Utah road salt accelerates strut corrosion on Sonata and Elantra underbodies." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump and Cooling System", desc: "Cooling system service, thermostat and water pump replacement for Hyundai 4-cylinder and V6 engines." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Exhaust manifold, downpipe, and muffler repair and replacement across all Hyundai models." },
-      { slug: "shock-replacement-near-south-salt-lake-ut", name: "Shock Replacement", desc: "Rear shock replacement for Hyundai SUVs and sedans. Often due together with struts on higher-mileage vehicles." }
+      { slug: "timing-chain-repair", name: "Engine Diagnosis and Theta II Inspection", desc: "Rod knock diagnosis, oil consumption evaluation, and engine assessment for Hyundai Theta II 2.0L and 2.4L engines with known recall-related failure patterns." },
+      { slug: "complete-auto-service", name: "GDI Carbon Cleaning", desc: "Intake valve carbon deposit removal for Theta II and other Hyundai GDI engines. Restores idle quality, throttle response, and fuel economy at 50,000-60,000 mile intervals." },
+      { slug: "brake-service", name: "Brake Service", desc: "Pad, rotor, and brake fluid service for Palisade, Tucson, Sonata, and Santa Fe. Especially important for AWD models doing mountain canyon driving." },
+      { slug: "cv-joint-repair", name: "CV Axle Service", desc: "CV axle and boot replacement across Hyundai front-wheel-drive and AWD platforms." },
+      { slug: "strut-replacement", name: "Suspension and Strut Service", desc: "Strut and shock replacement for Hyundai sedans and SUVs. Utah road salt accelerates strut corrosion on Sonata and Elantra underbodies." },
+      { slug: "water-pump-replacement", name: "Water Pump and Cooling System", desc: "Cooling system service, thermostat and water pump replacement for Hyundai 4-cylinder and V6 engines." },
+      { slug: "exhaust-repair", name: "Exhaust Repair", desc: "Exhaust manifold, downpipe, and muffler repair and replacement across all Hyundai models." },
+      { slug: "shock-replacement", name: "Shock Replacement", desc: "Rear shock replacement for Hyundai SUVs and sedans. Often due together with struts on higher-mileage vehicles." }
     ],
     intro: "Trusted Hyundai repair in South Salt Lake since 1990. We service Elantras, Tucsons, Santa Fes, Sonatas, Palisades, and the full Hyundai lineup, free diagnosis, written estimate, and honest pricing without upsell pressure.",
     whyUs: [
@@ -802,8 +802,8 @@ const brandContent = {
     issues: [
       {t:'Engine Bearing Failure (Theta II)',d:'Hyundai vehicles with 2.0L and 2.4L Theta II engines are subject to an ongoing recall for connecting rod bearing failure. We diagnose affected engines, check VINs, and help navigate warranty claims where applicable.'},
       {t:'Dual-Clutch Transmission Shudder',d:'Hyundai vehicles equipped with the dual-clutch transmission can experience clutch actuator failure causing jerky acceleration, shuddering, and shifting hesitation. We service clutch actuators and reprogram the transmission control module.',href:'/symptoms/vibration-when-accelerating'},
-      {t:'Catalytic Converter Theft Prevention',d:'Hyundai catalytic converters are common theft targets due to their precious metal content. We install anti-theft shields and can advise on parking habits that reduce theft risk.',href:'/services/catalytic-converter-service-near-south-salt-lake-ut'},
-      {t:'Strut Mount and Suspension Noise',d:'Hyundai front strut mounts develop clunking and popping noises over bumps over time. It\'s a common wear item we replace during strut service or independently.',href:'/services/strut-replacement-near-south-salt-lake-ut'},
+      {t:'Catalytic Converter Theft Prevention',d:'Hyundai catalytic converters are common theft targets due to their precious metal content. We install anti-theft shields and can advise on parking habits that reduce theft risk.',href:'/services/catalytic-converter-service'},
+      {t:'Strut Mount and Suspension Noise',d:'Hyundai front strut mounts develop clunking and popping noises over bumps over time. It\'s a common wear item we replace during strut service or independently.',href:'/services/strut-replacement'},
       {t:'GDI Carbon Buildup',d:'Hyundai direct-injection engines accumulate carbon deposits on intake valves over time, causing rough idle, reduced power, and increased fuel consumption. An intake cleaning service restores proper combustion.'},
       {t:'AWD Coupling Fluid Neglect',d:'Hyundai AWD systems use an electronically controlled coupling that requires specific fluid changed on schedule. Running degraded or incorrect fluid causes coupling failure and loss of AWD functionality.'},
       {t:'ABS and Brake System Codes',d:'Hyundai brake systems require specific brake fluid specification. Using incorrect fluid can trigger ABS and stability control faults. We use the correct fluid spec for every Hyundai brake service.'}
@@ -845,14 +845,14 @@ const brandContent = {
       { step: 5, title: "Verified Before You Pick It Up", desc: "Road test after every repair. Steering repairs get a full lock-to-lock check and a road test before the car goes back. We walk you through what was done." }
     ],
     commonRepairs: [
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "Engine Diagnosis and Theta II Inspection", desc: "Rod knock diagnosis and engine assessment for Kia Theta II 2.0L and 2.4L engines in Optima, Sorento, and Sportage. Recall history review and engine health evaluation." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "GDI Carbon Cleaning", desc: "Intake valve carbon deposit cleaning for Kia GDI engines. Restores throttle response and idle quality on engines past 50,000 miles." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "Pad, rotor, and brake fluid service across all Kia models. Stinger brake inspections for vehicles doing canyon road use." },
-      { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Axle Service", desc: "CV axle and boot replacement on Kia front-wheel-drive and AWD platforms. Clicking on turns is the common first sign." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Suspension Service", desc: "Strut and shock replacement for Kia sedans and SUVs. Telluride and Sorento suspension inspection for Utah mountain road use." },
-      { slug: "clutch-repair-near-south-salt-lake-ut", name: "Clutch and Manual Transmission", desc: "Clutch replacement and dual-clutch service for Kia Stinger and manual-transmission Kia models. Stinger dual-mass flywheel and clutch pack service." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump and Cooling System", desc: "Cooling system service and water pump replacement for Kia 4-cylinder and V6 engines including Stinger turbocharged platforms." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Exhaust system repair and replacement for Kia models. Stinger downpipe and turbo exhaust inspection for performance-driven vehicles." }
+      { slug: "timing-chain-repair", name: "Engine Diagnosis and Theta II Inspection", desc: "Rod knock diagnosis and engine assessment for Kia Theta II 2.0L and 2.4L engines in Optima, Sorento, and Sportage. Recall history review and engine health evaluation." },
+      { slug: "complete-auto-service", name: "GDI Carbon Cleaning", desc: "Intake valve carbon deposit cleaning for Kia GDI engines. Restores throttle response and idle quality on engines past 50,000 miles." },
+      { slug: "brake-service", name: "Brake Service", desc: "Pad, rotor, and brake fluid service across all Kia models. Stinger brake inspections for vehicles doing canyon road use." },
+      { slug: "cv-joint-repair", name: "CV Axle Service", desc: "CV axle and boot replacement on Kia front-wheel-drive and AWD platforms. Clicking on turns is the common first sign." },
+      { slug: "strut-replacement", name: "Suspension Service", desc: "Strut and shock replacement for Kia sedans and SUVs. Telluride and Sorento suspension inspection for Utah mountain road use." },
+      { slug: "clutch-repair", name: "Clutch and Manual Transmission", desc: "Clutch replacement and dual-clutch service for Kia Stinger and manual-transmission Kia models. Stinger dual-mass flywheel and clutch pack service." },
+      { slug: "water-pump-replacement", name: "Water Pump and Cooling System", desc: "Cooling system service and water pump replacement for Kia 4-cylinder and V6 engines including Stinger turbocharged platforms." },
+      { slug: "exhaust-repair", name: "Exhaust Repair", desc: "Exhaust system repair and replacement for Kia models. Stinger downpipe and turbo exhaust inspection for performance-driven vehicles." }
     ],
     intro: "Trusted Kia repair in South Salt Lake since 1990. We service Tellurides, Sorentos, Sportages, Fortes, and the full Kia lineup, free diagnosis before any work starts, written estimate, and honest pricing well below dealer rates.",
     whyUs: [
@@ -888,7 +888,7 @@ const brandContent = {
       {t:'Engine Bearing Failure (Theta II)',d:'Like Hyundai, Kia vehicles with 2.0L and 2.4L Theta II engines are subject to an ongoing recall for connecting rod bearing failure. We check VINs, diagnose affected engines, and assist with warranty coordination.'},
       {t:'Steering Coupler Clunking',d:'Kia vehicles develop a clunking or popping noise when turning the steering wheel, caused by a worn intermediate steering shaft coupler. It\'s a safety-relevant issue, steering feel degrades as it worsens.',href:'/symptoms/steering-vibration'},
       {t:'AC Compressor Failure',d:'Kia AC compressors can fail and send metal debris through the entire system, requiring a full system flush and compressor replacement, not just a component swap, to prevent repeat failure.'},
-      {t:'Timing Chain Rattle',d:'Kia GDI engines develop timing chain rattle from stretched chains and worn guides, typically showing up after 80,000 miles. Catching it early means chain and guide replacement rather than engine damage.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
+      {t:'Timing Chain Rattle',d:'Kia GDI engines develop timing chain rattle from stretched chains and worn guides, typically showing up after 80,000 miles. Catching it early means chain and guide replacement rather than engine damage.',href:'/services/timing-chain-repair'},
       {t:'GDI Carbon Buildup',d:'Kia direct-injection engines accumulate carbon deposits on intake valves that restrict airflow and cause rough idle, hesitation, and reduced fuel economy. An intake cleaning service restores performance.'},
       {t:'AWD Coupling Fluid Neglect',d:'Kia AWD systems use an electronically controlled coupling requiring specific fluid on a regular change schedule. Generic ATF or neglected fluid causes coupling failure and loss of AWD function.'},
       {t:'Coolant System Thermostat Wear',d:'Kia thermostats wear over time and can fail in either direction, causing overheating or an engine that runs too cool. Both conditions affect performance and fuel economy and are straightforward to address.'}
@@ -930,15 +930,15 @@ const brandContent = {
       { step: 5, title: "Road Test and Confirm Before Pickup", desc: "Every VW is road tested after repair, DSG shift quality verified, cold-start behavior checked, fault codes cleared and confirmed absent. We walk you through what was done." }
     ],
     commonRepairs: [
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "TSI Timing Chain Tensioner Service", desc: "Early-revision tensioner replacement on 1.8T and 2.0T TSI engines before or after failure. Includes timing chain inspection and cam timing verification." },
-      { slug: "clutch-repair-near-south-salt-lake-ut", name: "Clutch and DSG Service", desc: "Manual transmission clutch replacement and DSG dual-clutch fluid and filter service. DSG service recommended at 40,000-mile intervals, not lifetime." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "GDI Carbon Cleaning (Walnut Blast)", desc: "Walnut media blasting of intake valves on TSI GDI engines. Restores idle quality, throttle response, and fuel economy, typically needed at 50,000-60,000 miles." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "Pad, rotor, and brake fluid service for Jetta, Golf, GTI, and Tiguan. GTI brake inspection for vehicles doing canyon driving." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump and Cooling System", desc: "VW TSI engine water pumps are plastic-impeller designs prone to impeller failure. Inspection and replacement before it causes overheating." },
-      { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Axle Service", desc: "CV axle and boot replacement on VW front-wheel-drive and 4Motion AWD platforms." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Suspension Service", desc: "Strut replacement for VW sedans and SUVs. DCC adaptive damper diagnosis on equipped GTI and Tiguan models." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust and Downpipe Repair", desc: "Exhaust system repair for TSI and TDI VW engines. Downpipe inspection on turbo models." },
-      { slug: "catalytic-converter-service-near-south-salt-lake-ut", name: "Catalytic Converter Service", desc: "Converter inspection, diagnosis, and replacement for VW TSI and TDI engines. DPF-related service on diesel models." }
+      { slug: "timing-chain-repair", name: "TSI Timing Chain Tensioner Service", desc: "Early-revision tensioner replacement on 1.8T and 2.0T TSI engines before or after failure. Includes timing chain inspection and cam timing verification." },
+      { slug: "clutch-repair", name: "Clutch and DSG Service", desc: "Manual transmission clutch replacement and DSG dual-clutch fluid and filter service. DSG service recommended at 40,000-mile intervals, not lifetime." },
+      { slug: "complete-auto-service", name: "GDI Carbon Cleaning (Walnut Blast)", desc: "Walnut media blasting of intake valves on TSI GDI engines. Restores idle quality, throttle response, and fuel economy, typically needed at 50,000-60,000 miles." },
+      { slug: "brake-service", name: "Brake Service", desc: "Pad, rotor, and brake fluid service for Jetta, Golf, GTI, and Tiguan. GTI brake inspection for vehicles doing canyon driving." },
+      { slug: "water-pump-replacement", name: "Water Pump and Cooling System", desc: "VW TSI engine water pumps are plastic-impeller designs prone to impeller failure. Inspection and replacement before it causes overheating." },
+      { slug: "cv-joint-repair", name: "CV Axle Service", desc: "CV axle and boot replacement on VW front-wheel-drive and 4Motion AWD platforms." },
+      { slug: "strut-replacement", name: "Suspension Service", desc: "Strut replacement for VW sedans and SUVs. DCC adaptive damper diagnosis on equipped GTI and Tiguan models." },
+      { slug: "exhaust-repair", name: "Exhaust and Downpipe Repair", desc: "Exhaust system repair for TSI and TDI VW engines. Downpipe inspection on turbo models." },
+      { slug: "catalytic-converter-service", name: "Catalytic Converter Service", desc: "Converter inspection, diagnosis, and replacement for VW TSI and TDI engines. DPF-related service on diesel models." }
     ],
     intro: "Independent Volkswagen repair in South Salt Lake since 1990. We service Jettas, Golfs, GTIs, Tiguans, and the full VW lineup, free diagnosis, written estimate, and transparent pricing well below dealer rates.",
     whyUs: [
@@ -971,10 +971,10 @@ const brandContent = {
       }
     ],
     issues: [
-      {t:'Timing Chain Tensioner Failure',d:'VW turbocharged engines have a known early-revision timing chain tensioner that can fail without warning, causing the chain to skip and destroying the engine. Preventive tensioner replacement is one of the most important services we perform on VW TSI engines.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
+      {t:'Timing Chain Tensioner Failure',d:'VW turbocharged engines have a known early-revision timing chain tensioner that can fail without warning, causing the chain to skip and destroying the engine. Preventive tensioner replacement is one of the most important services we perform on VW TSI engines.',href:'/services/timing-chain-repair'},
       {t:'Carbon Buildup on GDI Engines',d:'VW direct-injection engines suffer from significant carbon buildup on intake valves over time, causing rough idle, misfires, and power loss. We perform walnut blast carbon cleaning to restore combustion efficiency without removing the engine.'},
       {t:'DSG Dual-Clutch Transmission Issues',d:'VW DSG dual-clutch transmissions can develop mechatronic unit faults causing jerky shifts, gear selection errors, and warning lights. Fluid service every 40,000 miles prevents the most common failures.'},
-      {t:'Water Pump and Thermostat Housing Leaks',d:'VW TSI engines use a combined water pump and thermostat housing that cracks and leaks with age. Coolant loss can go unnoticed until overheating occurs, we replace with updated parts during cooling system service.',href:'/services/water-pump-replacement-near-south-salt-lake-ut'},
+      {t:'Water Pump and Thermostat Housing Leaks',d:'VW TSI engines use a combined water pump and thermostat housing that cracks and leaks with age. Coolant loss can go unnoticed until overheating occurs, we replace with updated parts during cooling system service.',href:'/services/water-pump-replacement'},
       {t:'Fuel Injector and High-Pressure Pump Wear',d:'VW high-pressure fuel injection systems develop injector wear and high-pressure pump issues over time, causing rough running and difficulty starting. Proper diagnosis identifies whether it\'s the pump, injectors, or fuel pressure regulation.'},
       {t:'Turbo Boost Pressure Loss',d:'VW turbocharged engines develop boost leaks from intercooler connections, diverter valves, and boost pipes over time. Loss of boost causes sluggish acceleration and increased turbo lag.'},
       {t:'Oil Leaks at Multiple Gaskets',d:'VW engines develop oil leaks at cam cover gaskets, oil cooler seals, and crankshaft seals as they age. Oil on hot exhaust components causes burning smells and should be addressed promptly.'}
@@ -1039,19 +1039,19 @@ const extendedBrandContent = {
       { step: 5, title: "Road Test, Including Clutch and AWD Verification", desc: "Every Mazda gets a road test after repair. Clutch jobs include full engagement zone verification. AWD service includes coupling response check under load." }
     ],
     commonRepairs: [
-      { slug: "clutch-repair-near-south-salt-lake-ut", name: "Clutch Repair and Flywheel Service", desc: "MX-5 Miata dual-mass flywheel clutch replacement and solid flywheel conversion. Manual transmission clutch service for Mazda3, Mazda6, and older Mazda platforms." },
-      { slug: "complete-auto-service-near-south-salt-lake-ut", name: "SkyActiv GDI Carbon Cleaning", desc: "Intake valve carbon deposit cleaning for SkyActiv-G direct-injection engines. Recommended at 50,000-mile intervals on CX-5, CX-9, Mazda3, and Mazda6." },
-      { slug: "cv-joint-repair-near-south-salt-lake-ut", name: "CV Axle Service", desc: "CV axle and boot replacement on front-wheel-drive and AWD Mazda platforms. Clicking during turns is the common first sign." },
-      { slug: "brake-service-near-south-salt-lake-ut", name: "Brake Service", desc: "Pad, rotor, and brake fluid service for all Mazda models. MX-5 brake inspection for track-day and canyon-road use." },
-      { slug: "strut-replacement-near-south-salt-lake-ut", name: "Suspension and Strut Service", desc: "Strut and shock replacement for Mazda3 and CX-5. Mazda3 subframe inspection for corrosion on older models in Utah road-salt conditions." },
-      { slug: "water-pump-replacement-near-south-salt-lake-ut", name: "Water Pump and Cooling System", desc: "Cooling system service and water pump replacement for SkyActiv 4-cylinder engines. Overheating prevention in high-altitude Utah driving." },
-      { slug: "exhaust-repair-near-south-salt-lake-ut", name: "Exhaust Repair", desc: "Exhaust manifold, downpipe, and muffler repair for Mazda models. MX-5 exhaust system inspection and repair for modified and stock setups." },
-      { slug: "shock-replacement-near-south-salt-lake-ut", name: "Shock Replacement", desc: "Rear shock replacement for CX-5, CX-9, and Mazda3. Often paired with struts on higher-mileage vehicles." },
-      { slug: "timing-chain-repair-near-south-salt-lake-ut", name: "Timing Chain Inspection", desc: "Timing chain and VVT system inspection on high-mileage SkyActiv engines. SkyActiv engines are chain-driven, no belt to replace, but chain stretch is worth monitoring past 150,000 miles." }
+      { slug: "clutch-repair", name: "Clutch Repair and Flywheel Service", desc: "MX-5 Miata dual-mass flywheel clutch replacement and solid flywheel conversion. Manual transmission clutch service for Mazda3, Mazda6, and older Mazda platforms." },
+      { slug: "complete-auto-service", name: "SkyActiv GDI Carbon Cleaning", desc: "Intake valve carbon deposit cleaning for SkyActiv-G direct-injection engines. Recommended at 50,000-mile intervals on CX-5, CX-9, Mazda3, and Mazda6." },
+      { slug: "cv-joint-repair", name: "CV Axle Service", desc: "CV axle and boot replacement on front-wheel-drive and AWD Mazda platforms. Clicking during turns is the common first sign." },
+      { slug: "brake-service", name: "Brake Service", desc: "Pad, rotor, and brake fluid service for all Mazda models. MX-5 brake inspection for track-day and canyon-road use." },
+      { slug: "strut-replacement", name: "Suspension and Strut Service", desc: "Strut and shock replacement for Mazda3 and CX-5. Mazda3 subframe inspection for corrosion on older models in Utah road-salt conditions." },
+      { slug: "water-pump-replacement", name: "Water Pump and Cooling System", desc: "Cooling system service and water pump replacement for SkyActiv 4-cylinder engines. Overheating prevention in high-altitude Utah driving." },
+      { slug: "exhaust-repair", name: "Exhaust Repair", desc: "Exhaust manifold, downpipe, and muffler repair for Mazda models. MX-5 exhaust system inspection and repair for modified and stock setups." },
+      { slug: "shock-replacement", name: "Shock Replacement", desc: "Rear shock replacement for CX-5, CX-9, and Mazda3. Often paired with struts on higher-mileage vehicles." },
+      { slug: "timing-chain-repair", name: "Timing Chain Inspection", desc: "Timing chain and VVT system inspection on high-mileage SkyActiv engines. SkyActiv engines are chain-driven, no belt to replace, but chain stretch is worth monitoring past 150,000 miles." }
     ],
     issues: [
       {t:'Mazda SkyActiv Engine Carbon Buildup',d:'Mazda\'s direct-injection SkyActiv engines accumulate carbon on intake valves, causing rough idle and power loss. We perform walnut blast carbon cleaning to restore performance.'},
-      {t:'Mazda Clutch Chatter on Mazda3/MX-5',d:'Manual transmission Mazda3 and MX-5 Miata models develop clutch chatter from the dual-mass flywheel. We offer solid flywheel conversions that eliminate the vibration.',href:'/services/clutch-repair-near-south-salt-lake-ut'},
+      {t:'Mazda Clutch Chatter on Mazda3/MX-5',d:'Manual transmission Mazda3 and MX-5 Miata models develop clutch chatter from the dual-mass flywheel. We offer solid flywheel conversions that eliminate the vibration.',href:'/services/clutch-repair'},
       {t:'Mazda Rust-Prone Subframes',d:'Certain Mazda3 and CX-5 model years have subframe corrosion issues accelerated by Utah road salt. We inspect and treat subframes to prevent structural failure.'}
     ],
     tips: [
@@ -1109,44 +1109,44 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Manual Mercedes models and AMG vehicles benefit from Scott's clutch specialty. We replace dual-mass flywheels and clutch assemblies to factory spec."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Balance Shaft Gear Replacement",
         desc: "M272/M273 balance shaft gear failure is one of the most costly Mercedes-specific repairs, Scott's handles it at significantly less than dealer pricing."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Airmatic Air Suspension Repair",
         desc: "We diagnose and replace air springs, compressors, and valve blocks on E-Class, S-Class, GL, and ML models with sagging or failed Airmatic systems."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump & Thermostat",
         desc: "Mercedes electric water pumps and thermostats fail without warning. We replace them with quality components and bleed the cooling system properly."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service",
         desc: "High-mileage MB V6 and V8 engines develop timing chain stretch and tensioner wear. Early service prevents catastrophic engine damage."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Mercedes brake systems require electronic pad reset and sensor replacement. We handle all MB brake service including AMG Brembo-equipped models."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust & Catalytic Converter",
         desc: "Utah's road salt accelerates exhaust corrosion. We repair and replace Mercedes exhaust components including cat converters that trigger P0420 codes."
       }
     ],
     issues: [
       {t:'Mercedes Oil Leak Epidemic',d:'Mercedes engines develop multiple oil leaks as they age, valve cover gaskets, oil cooler seals, rear main seals, and camshaft position sensor O-rings. We address all leak points systematically rather than chasing one at a time.'},
-      {t:'Mercedes Balance Shaft & Timing Chain (M272/M273)',d:'The M272 V6 and M273 V8 engines have a known balance shaft gear failure that can destroy the engine if not addressed. We inspect and replace preventively.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
+      {t:'Mercedes Balance Shaft & Timing Chain (M272/M273)',d:'The M272 V6 and M273 V8 engines have a known balance shaft gear failure that can destroy the engine if not addressed. We inspect and replace preventively.',href:'/services/timing-chain-repair'},
       {t:'Mercedes Airmatic Suspension Failure',d:'Mercedes air suspension struts develop leaks, causing the vehicle to sag overnight. We replace with OEM or quality aftermarket air struts at significant savings versus the dealer.'}
     ],
     tips: [
@@ -1204,43 +1204,43 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Tensioner Replacement",
         desc: "The EA888 2.0T tensioner failure in 2008–2013 A4/A5/Q5 models is one of the most critical Audi repairs. Early replacement prevents catastrophic engine damage."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Intake Valve Carbon Cleaning",
         desc: "TFSI direct-injection engines accumulate heavy carbon on intake valves. We perform walnut shell blasting to restore power and smooth idle."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "S-Tronic / DSG Service & Clutch Repair",
         desc: "S-Tronic dual-clutch fluid service every 40K prevents shudder. Manual Audi clutch and dual-mass flywheel replacement is a Scott's specialty."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Audi brake service requires electronic pad reset and EPB calibration. We handle all Audi brake work including sport and S-line models."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Suspension & Strut Replacement",
         desc: "Audi's DRC and standard suspension components wear on Utah's rough winter roads. We replace struts and alignment components to restore factory handling."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Replacement",
         desc: "EA888 engines use plastic impeller water pumps known to fail. We replace with upgraded metal impeller units and service the cooling system completely."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Axle Repair",
         desc: "Quattro AWD systems put added stress on CV joints. Utah winter driving accelerates boot cracking. We replace boots and full axle assemblies as needed."
       }
     ],
     issues: [
-      {t:'Audi Timing Chain Tensioner Failure',d:'Audi 2.0T engines share the same timing chain tensioner issue as VW, the early revision tensioner fails and causes catastrophic engine damage. Preventive replacement is critical.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
+      {t:'Audi Timing Chain Tensioner Failure',d:'Audi 2.0T engines share the same timing chain tensioner issue as VW, the early revision tensioner fails and causes catastrophic engine damage. Preventive replacement is critical.',href:'/services/timing-chain-repair'},
       {t:'Audi Carbon Buildup on Direct Injection',d:'Audi TFSI engines suffer severe carbon buildup on intake valves. Symptoms include rough idle, misfires, and reduced power. We perform walnut blast cleaning to restore full performance.'},
       {t:'Audi Mechatronic Unit (DSG/S-Tronic)',d:'Audi S-Tronic (dual-clutch) transmissions develop mechatronic unit failures causing jerky shifts and warning lights. We diagnose and repair these systems.'}
     ],
@@ -1299,45 +1299,45 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "timing-belt-replacement-near-south-salt-lake-ut",
+        slug: "timing-belt-replacement",
         name: "Timing Belt & Water Pump Replacement",
         desc: "GX470 and LX470 V8 timing belt service at 90K is critical on these interference engines. We replace belt, water pump, and tensioners together for full peace of mind."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Service",
         desc: "Lexus water pumps on V6 and V8 models benefit from proactive replacement. We service the complete cooling system at the same time."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Lexus brake systems require electronic calibration on models with electronic parking brakes. We handle all Lexus brake work including IS-F sport models."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Strut & Suspension Replacement",
         desc: "GX and LX suspension components wear with Utah off-road and canyon use. We restore factory handling with quality replacement struts and control arms."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Hybrid Battery Cooling Service",
         desc: "RX400h and other Lexus hybrids need battery cooling fan cleaning every 30K in Utah's dusty climate. We clean and inspect the hybrid cooling system."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Axle Service",
         desc: "AWD Lexus models including RX and GX develop CV joint wear. We replace boots and axle assemblies to maintain smooth power delivery."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust & Catalytic Converter",
         desc: "Utah road salt corrodes exhaust systems even on well-maintained Lexus vehicles. We repair manifolds, flex pipes, and replace catalytic converters causing check engine lights."
       }
     ],
     issues: [
       {t:'Lexus Dashboard Cracking',d:'While not a mechanical issue, Lexus IS and GS models are known for dashboard cracking in hot climates like Utah. We can refer you to an interior specialist while handling your mechanical needs.'},
-      {t:'Lexus GX/LX Timing Belt Service',d:'Lexus GX 470 and LX 470/570 use Toyota V8 engines with timing belts that must be replaced every 90,000 miles. The belt drives the water pump, we always replace both together.',href:'/services/timing-belt-replacement-near-south-salt-lake-ut'},
-      {t:'Lexus IS/RC Brake Dust and Pad Wear',d:'Lexus sport models use aggressive brake pad compounds that create heavy dust and wear faster than economy pads. We offer low-dust ceramic alternatives that maintain stopping power.',href:'/services/brake-service-near-south-salt-lake-ut'}
+      {t:'Lexus GX/LX Timing Belt Service',d:'Lexus GX 470 and LX 470/570 use Toyota V8 engines with timing belts that must be replaced every 90,000 miles. The belt drives the water pump, we always replace both together.',href:'/services/timing-belt-replacement'},
+      {t:'Lexus IS/RC Brake Dust and Pad Wear',d:'Lexus sport models use aggressive brake pad compounds that create heavy dust and wear faster than economy pads. We offer low-dust ceramic alternatives that maintain stopping power.',href:'/services/brake-service'}
     ],
     tips: [
       'Lexus vehicles are essentially premium Toyotas mechanically. They benefit from the same maintenance practices, 0W-20 synthetic oil, timing belt service at 90K on V8 models.',
@@ -1394,37 +1394,37 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "SH-AWD Differential Fluid Service",
         desc: "Neglected SH-AWD rear differential fluid causes shudder during turns. We service it with Acura-specified fluid every 30K to protect the clutch pack."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Manual Acura models including the Integra Type R and NSX get expert clutch service. We also service the SH-AWD clutch pack assembly."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Acura brake systems with electronic parking brake require proper calibration. We handle all Acura brake work including MDX and RDX sport packages."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service",
         desc: "High-mileage Acura V6 engines develop timing chain stretch, especially with irregular oil changes. We replace chains and tensioners to restore proper timing."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Axle Repair",
         desc: "SH-AWD and front-wheel-drive Acura axles develop CV joint wear. Utah winters are hard on CV boots. We replace boots and full axle assemblies."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Replacement",
         desc: "Acura V6 water pumps are driven by the timing belt on older models. We replace pump and belt together for comprehensive cooling system service."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Strut & Suspension Replacement",
         desc: "Acura suspension components wear with Utah mountain and highway driving. We replace struts and control arm bushings to restore factory ride quality."
       }
@@ -1489,37 +1489,37 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "catalytic-converter-service-near-south-salt-lake-ut",
+        slug: "catalytic-converter-service",
         name: "Catalytic Converter Service",
         desc: "P0420/P0430 codes are extremely common on high-mileage Infiniti VQ engines. We diagnose root cause first, then replace only what's necessary."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Gallery Gasket & Oil Leak Repair",
         desc: "The G37 and Q50 gallery gasket leak around 80K is a known issue. We repair it before oil loss becomes serious engine damage."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Infiniti brake systems with Brembo-equipped sport models and electronic parking brakes receive proper calibration and quality pad/rotor service."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Strut & Suspension Service",
         desc: "G and Q series suspension components wear with Utah's canyon and freeway driving. We restore factory handling with quality strut and bushing replacement."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Axle Repair",
         desc: "AWD Infiniti QX models develop CV joint wear. Utah winters crack CV boots. We replace boots and full axle assemblies to prevent joint failure."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust System Repair",
         desc: "Utah road salt accelerates exhaust corrosion on Infiniti vehicles. We repair manifolds, flex sections, and replace deteriorated exhaust components."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Replacement",
         desc: "VQ engine water pumps develop leaks at high mileage. We replace the pump and service the cooling system completely to prevent overheating."
       }
@@ -1527,7 +1527,7 @@ const extendedBrandContent = {
     issues: [
       {t:'Infiniti VQ Engine Oil Consumption',d:'Infiniti\'s VQ-series V6 engines develop increased oil consumption after 100,000 miles from piston ring wear. We monitor consumption and recommend intervention when it exceeds 1 quart per 2,000 miles.'},
       {t:'Infiniti CVT Transmission (QX60/JX35)',d:'Infiniti QX60 uses a Nissan CVT that shares the same overheating and reliability concerns. Regular CVT fluid changes every 30,000 miles are essential.',href:'/symptoms/transmission-slipping'},
-      {t:'Infiniti Catalytic Converter Premature Failure',d:'Infiniti 3.5L and 3.7L V6 models experience catalytic converter efficiency codes (P0420/P0430) more frequently than average. We diagnose root cause before recommending converter replacement.',href:'/services/catalytic-converter-service-near-south-salt-lake-ut'}
+      {t:'Infiniti Catalytic Converter Premature Failure',d:'Infiniti 3.5L and 3.7L V6 models experience catalytic converter efficiency codes (P0420/P0430) more frequently than average. We diagnose root cause before recommending converter replacement.',href:'/services/catalytic-converter-service'}
     ],
     tips: [
       'Infiniti VQ engines benefit from using Nissan-specific 5W-30 ester oil. Switching to a high-mileage formula after 100K miles helps control oil consumption.',
@@ -1584,37 +1584,37 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Hemi MDS Lifter Repair",
         desc: "The 5.7L Hemi lifter collapse is one of the most common Ram 1500 repairs. We diagnose and replace failed MDS lifters before damage spreads to camshaft lobes."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Ram trucks used for towing experience heavy brake wear on I-15 grades. We replace pads, rotors, and drums, and check for axle seal contamination on rear drum setups."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust & EGR Service",
         desc: "EcoDiesel 3.0L EGR cooler failure causes coolant loss and white smoke. We replace EGR coolers and inspect the entire exhaust system for corrosion damage."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Suspension & Strut Service",
         desc: "Ram truck suspension takes a beating with Utah's rough terrain and heavy loads. We replace struts, shocks, and leaf spring hardware to restore proper handling."
       },
       {
-        slug: "shock-replacement-near-south-salt-lake-ut",
+        slug: "shock-replacement",
         name: "Shock Replacement",
         desc: "Ram 2500 and 3500 rear shocks wear quickly with fifth-wheel towing. We replace with quality units rated for Ram's payload capacity."
       },
       {
-        slug: "welding-services-near-south-salt-lake-ut",
+        slug: "welding-services",
         name: "Frame & Exhaust Welding",
         desc: "Utah road salt attacks Ram truck frames and exhaust systems. We weld cracked exhaust hangers, manifold flanges, and perform structural frame repairs."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Front Axle Repair",
         desc: "4WD Ram trucks develop front CV joint and axle seal wear. We replace boots, joints, and axle seals to maintain 4WD engagement."
       }
@@ -1679,44 +1679,44 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "AFM Lifter Replacement",
         desc: "5.3L and 6.2L V8 AFM lifter collapse is GMC's most significant reliability issue. We repair it correctly, including proper oil system cleaning afterward."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Replacement",
         desc: "Terrain 2.4L Ecotec timing chain stretch causes startup rattle and check engine lights. We replace chain, guides, and tensioners as a complete service."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "GMC trucks and SUVs used for towing on Utah grades need regular brake inspection. We service all GMC brake systems including Sierra HD trailer brake controllers."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Strut & Suspension Service",
         desc: "Canyon and Terrain struts wear with Utah road conditions. Sierra and Yukon front end components get thorough inspection and replacement as needed."
       },
       {
-        slug: "shock-replacement-near-south-salt-lake-ut",
+        slug: "shock-replacement",
         name: "Shock Replacement",
         desc: "Yukon and Sierra HD rear shocks wear with heavy payloads. Denali air ride shocks are diagnosed and replaced at significant savings over dealer pricing."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust & Catalytic Converter",
         desc: "Utah road salt attacks GMC exhaust systems. We repair corroded manifolds, flex pipes, and replace catalytic converters triggering check engine codes."
       },
       {
-        slug: "welding-services-near-south-salt-lake-ut",
+        slug: "welding-services",
         name: "Frame & Exhaust Welding",
         desc: "Sierra and Canyon frames and exhaust hangers corrode with Utah winters. We weld cracked sections and fabricate replacement hangers."
       }
     ],
     issues: [
       {t:'GMC Sierra AFM Lifter Collapse',d:'GMC Sierra 5.3L V8 engines share the same Active Fuel Management lifter failure as the Chevrolet Silverado. Collapsed lifters cause misfires and ticking. We replace all lifters and can disable AFM.',href:'/symptoms/engine-rattling'},
-      {t:'GMC Terrain 2.4L Timing Chain Stretch',d:'GMC Terrain with the 2.4L Ecotec engine develops timing chain stretch causing rough running and check engine lights. The chain, guides, and tensioners need replacement as a set.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
+      {t:'GMC Terrain 2.4L Timing Chain Stretch',d:'GMC Terrain with the 2.4L Ecotec engine develops timing chain stretch causing rough running and check engine lights. The chain, guides, and tensioners need replacement as a set.',href:'/services/timing-chain-repair'},
       {t:'GMC Denali Air Ride Compressor Failure',d:'GMC Yukon and Sierra Denali models with air ride suspension develop compressor failures from overwork when air springs leak. We replace the compressor and leaking springs together.'}
     ],
     tips: [
@@ -1774,38 +1774,38 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Replacement",
         desc: "The 3.6L V6 timing chain in Enclave, LaCrosse, and Regal models fails between 80K–120K miles. We replace the complete chain set with tensioners and guides."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Turbo Charge Pipe & Wastegate Service",
         desc: "Encore 1.4T boost leaks and wastegate issues are diagnosed and repaired. We replace aging charge pipes and intercooler hoses before boost is lost completely."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Strut & Suspension Replacement",
         desc: "Buick suspension components wear with Utah road conditions. We replace struts and bushings on Enclave, Encore, and LaCrosse to restore ride quality."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Buick brake systems with electronic parking brake require proper pad reset procedures. We service all Buick brake systems with quality pads and rotors."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Replacement",
         desc: "3.6L Buick water pumps fail at high mileage. We replace the pump and flush the cooling system to prevent overheating in Utah's summer heat."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust & Catalytic Converter",
         desc: "Utah road salt corrodes Buick exhaust systems. We repair manifold leaks, replace flex pipes, and service catalytic converters causing check engine codes."
       }
     ],
     issues: [
-      {t:'Buick 3.6L Timing Chain Stretch',d:'Buick Enclave, LaCrosse, and Regal with the GM 3.6L V6 develop timing chain stretch causing check engine lights and rough running. Complete chain kit replacement is required.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
+      {t:'Buick 3.6L Timing Chain Stretch',d:'Buick Enclave, LaCrosse, and Regal with the GM 3.6L V6 develop timing chain stretch causing check engine lights and rough running. Complete chain kit replacement is required.',href:'/services/timing-chain-repair'},
       {t:'Buick Encore/Envision Turbo Issues',d:'Buick Encore\'s 1.4L turbo engine can develop turbo wastegate actuator failure and charge pipe cracks. We diagnose and repair turbo systems without unnecessary component replacement.'},
       {t:'Buick Power Steering Rack Leaks',d:'Buick LaCrosse and Regal develop power steering rack seal leaks causing fluid loss and whining. We replace the rack or reseal depending on severity.'}
     ],
@@ -1864,40 +1864,40 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "AFM Lifter Replacement",
         desc: "Escalade 5.3L and 6.2L V8 AFM lifter collapse is the most common Cadillac drivetrain failure. We repair it correctly with proper oil system cleaning."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Replacement",
         desc: "ATS, CTS, and SRX 3.6L V6 timing chain stretch causes startup rattle. We replace the complete chain set with guides and tensioners."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "MagneRide Shock Replacement",
         desc: "CTS and ATS MagneRide adaptive shocks are 40–50% less expensive through Scott's than dealer pricing, with the same quality result."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Brembo-equipped CTS-V and ATS-V brakes require performance pads rated for track and mountain use. We service all Cadillac brake systems correctly."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Service",
         desc: "High-mileage Cadillac V6 and V8 water pumps develop coolant leaks. We replace the pump and service the cooling system completely."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust & Catalytic Converter",
         desc: "Utah road salt corrodes Cadillac exhaust systems. We repair manifold leaks and replace catalytic converters on V6 and V8 models."
       }
     ],
     issues: [
       {t:'Cadillac CUE Infotainment Failure',d:'While not a mechanical repair, Cadillac CUE touchscreen delamination affects nearly all 2013–2017 models. We focus on the mechanical side, and there\'s plenty to address.'},
-      {t:'Cadillac 3.6L Timing Chain Issues',d:'Cadillac ATS, CTS, and SRX with the 3.6L V6 share the GM timing chain stretch problem. We replace chains, guides, and tensioners as a complete kit.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
-      {t:'Cadillac Magnetic Ride Control Shock Failure',d:'Cadillac\'s MagneRide adaptive shocks fail over time and cost $500–$800 each at the dealer. We source quality replacements at significant savings.',href:'/services/strut-replacement-near-south-salt-lake-ut'}
+      {t:'Cadillac 3.6L Timing Chain Issues',d:'Cadillac ATS, CTS, and SRX with the 3.6L V6 share the GM timing chain stretch problem. We replace chains, guides, and tensioners as a complete kit.',href:'/services/timing-chain-repair'},
+      {t:'Cadillac Magnetic Ride Control Shock Failure',d:'Cadillac\'s MagneRide adaptive shocks fail over time and cost $500–$800 each at the dealer. We source quality replacements at significant savings.',href:'/services/strut-replacement'}
     ],
     tips: [
       'Cadillac models with MagneRide suspension: if the ride quality degrades or you see "Service Suspension" warnings, the magnetic shocks are failing. Delaying replacement accelerates tire wear.',
@@ -1954,32 +1954,32 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Pentastar Oil Filter Housing Gasket",
         desc: "The 3.6L oil filter housing gasket leak drips onto the starter, a two-problem repair in one. We replace the gasket before starter damage occurs."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Chrysler 300 and Pacifica brake systems are serviced with electronic park brake reset and quality pads and rotors for Utah mountain driving."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Strut & Suspension Replacement",
         desc: "300 and Pacifica suspension components wear with Utah road conditions. We replace struts, control arm bushings, and sway bar links as needed."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust & Catalytic Converter",
         desc: "Utah road salt corrodes Chrysler exhaust systems. We repair manifold leaks and replace catalytic converters triggering P0420 codes."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Replacement",
         desc: "Pentastar V6 water pumps develop coolant leaks at high mileage. We replace the pump and flush the cooling system completely."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service",
         desc: "Pentastar V6 timing chains can stretch at high mileage with irregular oil changes. We replace chains and tensioners to restore proper cam timing."
       }
@@ -2044,37 +2044,37 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Air Suspension Repair",
         desc: "Navigator and Aviator air spring and compressor failures are a Scott's specialty. We diagnose component by component and replace only what's failed."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "EcoBoost Oil & Spark Plug Service",
         desc: "5K oil changes and 60K spark plugs are non-negotiable on Lincoln EcoBoost engines. We enforce correct intervals to prevent turbo damage and misfires."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Lincoln brake systems with electronic parking brake and trailer brake integration are fully serviced with proper calibration and quality components."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service",
         desc: "EcoBoost timing chains and VCT system components wear with extended oil intervals. We replace chains and phaser assemblies to restore proper valve timing."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Replacement",
         desc: "Lincoln 3.5L and 3.0L EcoBoost water pumps fail at high mileage. We replace the pump and service the cooling system completely."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust & Catalytic Converter",
         desc: "Utah road salt attacks Lincoln exhaust systems. We repair manifold leaks, replace flex pipes, and service catalytic converters triggering P0420 codes."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & AWD Service",
         desc: "Lincoln AWD models develop CV joint wear. We replace boots and axle assemblies and service AWD coupling components to maintain system function."
       }
@@ -2139,37 +2139,37 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "PCV System Repair",
         desc: "T5 and T6 Volvo PCV system failure causes oil consumption and false turbo symptoms. We repair it correctly before any turbo diagnosis is made."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Manual Volvo models including the C70 and sport S60 receive expert clutch service. We also source dual-mass flywheel replacements for high-mileage turbocharged models."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Strut & Suspension Replacement",
         desc: "XC60 and XC90 suspension components wear with Utah mountain and canyon use. We replace struts and control arm components to factory specification."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Volvo brake systems with electronic pad wear sensors and electronic parking brake receive proper service and calibration on all models."
       },
       {
-        slug: "timing-belt-replacement-near-south-salt-lake-ut",
+        slug: "timing-belt-replacement",
         name: "Timing Belt Replacement",
         desc: "Legacy Volvo five-cylinder engines use timing belts. We replace belts, tensioners, and water pumps as a complete service on older S60, S80, and XC70 models."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Service",
         desc: "Volvo water pumps on T5 and T6 engines develop coolant leaks. We replace the pump and service the complete cooling system."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust & Catalytic Converter",
         desc: "Utah road salt corrodes Volvo exhaust systems. We repair flex pipes, manifold leaks, and replace catalytic converters on all Volvo models."
       }
@@ -2177,7 +2177,7 @@ const extendedBrandContent = {
     issues: [
       {t:'Volvo PCV System Failure',d:'Volvo 5-cylinder and T5/T6 engines develop PCV (positive crankcase ventilation) system failures that cause oil leaks, rough idle, and boost leaks. We replace the PCV system with upgraded components.'},
       {t:'Volvo Transmission Software Issues',d:'Volvo Geartronic automatic transmissions can develop harsh shifting from outdated software or degraded fluid. We update software and replace fluid to restore smooth operation.'},
-      {t:'Volvo Cooling System Failures',d:'Volvo expansion tanks and coolant hoses become brittle and crack in Utah\'s temperature extremes. We proactively replace cooling system components to prevent roadside overheating.',href:'/services/water-pump-replacement-near-south-salt-lake-ut'}
+      {t:'Volvo Cooling System Failures',d:'Volvo expansion tanks and coolant hoses become brittle and crack in Utah\'s temperature extremes. We proactively replace cooling system components to prevent roadside overheating.',href:'/services/water-pump-replacement'}
     ],
     tips: [
       'Volvo turbo engines (T5, T6, T8) need oil changes every 7,500 miles maximum with Volvo-approved VCC RBS0-2AE specification oil.',
@@ -2234,43 +2234,43 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Air Suspension Repair",
         desc: "Range Rover and Discovery air spring, compressor, and valve block failures are diagnosed and repaired at significant savings over Land Rover dealer pricing."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Cooling System & Plastic Component Replacement",
         desc: "Range Rover V8 plastic coolant expansion tanks and pipe sections are replaced proactively before they fail on the road and overheat the engine."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Transfer Case & Differential Fluid Service",
         desc: "Land Rover drivetrain fluids require 30K service intervals. We service transfer case, front, and rear differentials with correct fluids."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Land Rover brake systems with electronic parking brake and hill descent control require proper calibration. We service all LR brake systems completely."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust & Catalytic Converter",
         desc: "Utah road salt attacks Land Rover exhaust systems. We repair corroded components and replace catalytic converters causing emission fault codes."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service",
         desc: "AJ-V8 and other Land Rover engines develop timing chain stretch at high mileage. We replace chains and tensioners to restore proper valve timing."
       },
       {
-        slug: "shock-replacement-near-south-salt-lake-ut",
+        slug: "shock-replacement",
         name: "Shock Replacement",
         desc: "Non-air-suspension Land Rover models use conventional shocks that wear with off-road and highway use. We replace with quality units for proper ride control."
       }
     ],
     issues: [
-      {t:'Land Rover Coolant System Failures',d:'Land Rover vehicles are notorious for coolant leaks, expansion tanks, hoses, water pumps, and thermostat housings all fail with age. Utah\'s temperature swings accelerate plastic component degradation.',href:'/services/water-pump-replacement-near-south-salt-lake-ut'},
+      {t:'Land Rover Coolant System Failures',d:'Land Rover vehicles are notorious for coolant leaks, expansion tanks, hoses, water pumps, and thermostat housings all fail with age. Utah\'s temperature swings accelerate plastic component degradation.',href:'/services/water-pump-replacement'},
       {t:'Land Rover Air Suspension Failures',d:'Range Rover and Discovery air suspension systems develop compressor failures, valve block leaks, and air spring leaks. We diagnose the specific failure point rather than replacing the entire system.'},
       {t:'Land Rover Transfer Case and Differential Leaks',d:'Land Rover 4WD systems develop output shaft seal leaks and differential cover leaks. Regular fluid changes help, but eventually seals need replacement.'}
     ],
@@ -2329,37 +2329,37 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch & IMS Bearing Replacement",
         desc: "Combining IMS bearing replacement with clutch service on 996/997 Porsche models is the smart approach, Scott's clutch expertise makes this our strongest Porsche offering."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Cayenne Coolant Pipe & Water Pump",
         desc: "V8 Cayenne plastic coolant pipes are replaced with aluminum upgrades before they crack and overheat the engine. Water pump service is included."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "PDK Dual-Clutch Fluid Service",
         desc: "PDK transmission fluid service every 30K–40K maintains smooth engagement and protects the clutch pack from wear caused by degraded fluid."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Porsche brake systems, including PCCB ceramic composite setups on 911, are serviced with performance-grade pads appropriate for canyon driving."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "PASM Suspension Service",
         desc: "Porsche Active Suspension Management components are diagnosed and replaced. We evaluate each damper individually before recommending replacement."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust System Repair",
         desc: "Utah road salt attacks Porsche exhaust systems. We repair manifold flanges, replace corroded sections, and service sport exhaust systems."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service",
         desc: "High-mileage Porsche flat-six and V8 engines develop timing chain wear. We replace chains and tensioners with precision to maintain engine timing accuracy."
       }
@@ -2424,45 +2424,45 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Tensioner Replacement",
         desc: "N14 and N18 Cooper S timing chain tensioner failure is MINI's most common serious repair. We replace the tensioner, chain, and guides as a complete service."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch & Flywheel Replacement",
         desc: "Manual MINI clutch replacement is a Scott's specialty. We offer solid flywheel conversion to eliminate dual-mass flywheel chatter permanently."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Electric Water Pump & Thermostat",
         desc: "MINI electric water pumps fail between 50K–80K miles. We replace the pump and thermostat together with a full cooling system bleed."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Supercharger Oil Service (R53)",
         desc: "R53 Cooper S supercharger oil top-off is often missed by non-specialist shops. We include it in routine service on 2002–2006 models."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "MINI brake systems with electronic pad wear indicators are serviced with quality performance pads appropriate for Utah mountain and canyon driving."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Strut & Suspension Replacement",
         desc: "MINI suspension components wear with Utah's road conditions. We replace struts and control arm components to restore MINI's sharp handling character."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust System Repair",
         desc: "Utah road salt corrodes MINI exhaust systems. We repair manifold flanges, replace flex pipes, and service catalytic converters on all MINI models."
       }
     ],
     issues: [
-      {t:'MINI Timing Chain Tensioner Failure',d:'MINI Cooper S and JCW turbocharged engines share BMW\'s timing chain tensioner issue. Early-revision tensioners fail and cause engine damage. We replace with the updated revision.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
-      {t:'MINI Thermostat and Water Pump Failure',d:'MINI uses an electric water pump and electronically controlled thermostat that fail frequently. Combined replacement prevents repeat visits.',href:'/services/water-pump-replacement-near-south-salt-lake-ut'},
-      {t:'MINI Clutch and Flywheel Replacement',d:'MINI Cooper S manual transmissions develop clutch judder from the dual-mass flywheel. We offer a single-mass flywheel conversion for smoother, longer-lasting clutch operation.',href:'/services/clutch-repair-near-south-salt-lake-ut'}
+      {t:'MINI Timing Chain Tensioner Failure',d:'MINI Cooper S and JCW turbocharged engines share BMW\'s timing chain tensioner issue. Early-revision tensioners fail and cause engine damage. We replace with the updated revision.',href:'/services/timing-chain-repair'},
+      {t:'MINI Thermostat and Water Pump Failure',d:'MINI uses an electric water pump and electronically controlled thermostat that fail frequently. Combined replacement prevents repeat visits.',href:'/services/water-pump-replacement'},
+      {t:'MINI Clutch and Flywheel Replacement',d:'MINI Cooper S manual transmissions develop clutch judder from the dual-mass flywheel. We offer a single-mass flywheel conversion for smoother, longer-lasting clutch operation.',href:'/services/clutch-repair'}
     ],
     tips: [
       'MINI Cooper S and JCW turbocharged engines need oil changes every 5,000 miles with BMW-approved LL-01 oil. The 10,000-mile interval BMW suggests is too long for turbo engines in Utah conditions.',
@@ -2519,44 +2519,44 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "CVT Fluid Service",
         desc: "Outlander and Eclipse Cross JATCO CVT fluid service every 30K prevents shudder and transmission failure. We use correct NS-3 equivalent fluid only."
       },
       {
-        slug: "timing-belt-replacement-near-south-salt-lake-ut",
+        slug: "timing-belt-replacement",
         name: "Timing Belt Replacement",
         desc: "Older Mitsubishi interference engines require 60K timing belt replacement. We replace belt, tensioner, idler, and water pump as a complete service."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Lancer Evolution and manual Eclipse clutch replacement is a Scott's specialty. We service OEM and performance aftermarket clutch systems on Evo models."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Mitsubishi Brembo-equipped Lancer Evolution brakes and standard models receive appropriate pad and rotor service for Utah driving conditions."
       },
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Strut & Suspension Replacement",
         desc: "Outlander and Lancer suspension components wear with Utah's varied terrain. We replace struts and control arm components for restored handling."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Axle Repair",
         desc: "S-AWC and AWD Mitsubishi models develop CV joint wear. Utah winters crack CV boots. We replace boots and full axle assemblies as needed."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust System Repair",
         desc: "Utah road salt corrodes Mitsubishi exhaust systems. We repair manifold leaks, replace flex pipes, and service catalytic converters on all models."
       }
     ],
     issues: [
       {t:'Mitsubishi CVT Transmission Concerns',d:'Mitsubishi Outlander and Eclipse Cross use a JATCO CVT that shares reliability concerns with Nissan\'s CVT. Regular fluid changes every 30,000 miles are essential for longevity.'},
-      {t:'Mitsubishi Timing Belt Service',d:'Older Mitsubishi 4-cylinder and V6 engines use timing belts requiring replacement every 60,000 miles. This is an interference engine, belt failure destroys the engine.',href:'/services/timing-belt-replacement-near-south-salt-lake-ut'},
+      {t:'Mitsubishi Timing Belt Service',d:'Older Mitsubishi 4-cylinder and V6 engines use timing belts requiring replacement every 60,000 miles. This is an interference engine, belt failure destroys the engine.',href:'/services/timing-belt-replacement'},
       {t:'Mitsubishi AWD System Maintenance',d:'Mitsubishi S-AWC and Super All-Wheel Control systems need transfer case and rear differential fluid changes every 30,000 miles. Neglect causes coupling failure.'}
     ],
     tips: [
@@ -2614,32 +2614,32 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "timing-belt-replacement-near-south-salt-lake-ut",
+        slug: "timing-belt-replacement",
         name: "Timing Belt Replacement",
         desc: "The MultiAir 1.4T timing belt is a critical service on Fiat 500T, 500L, and 500X. We replace belt, tensioner, and water pump as a complete kit at the 60,000-mile interval."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Scott's clutch specialty applies directly to the manual Fiat 500 Abarth and 500 Sport. We replace clutch assemblies, flywheels, and release bearings with the correct parts."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Replacement",
         desc: "Water pump replacement is typically performed alongside the timing belt on MultiAir engines since the pump is driven by the belt. We always recommend doing both together."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Fiat 500 brake pads and rotors wear at typical intervals. We stock correct-spec hardware for all 500 variants including the larger Brembo brakes on Abarth trim levels."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Axle Repair",
         desc: "The 500X and 500L AWD models stress CV joints on Utah's varied terrain. We inspect boots and replace axle assemblies when wear or damage is found."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Electrical Diagnosis & Full Service",
         desc: "Fiat's Italian electrical systems generate unusual fault codes that require European scan tools to read properly. We diagnose sensor faults, HVAC issues, and warning light conditions accurately."
       }
@@ -2704,32 +2704,32 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "strut-replacement-near-south-salt-lake-ut",
+        slug: "strut-replacement",
         name: "Air Suspension Repair",
         desc: "Jaguar XJ and XF air suspension compressors and air springs fail with age and mileage. We diagnose and replace the correct components to restore proper ride height and quality."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service",
         desc: "AJ-V6 and AJ-V8 timing chain and cam phaser wear causes startup rattles and VVT fault codes. Early repair prevents the much larger damage of a jumped chain on an interference engine."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Engine Oil Leak Repair",
         desc: "Cam cover and front cover oil leaks are common on high-mileage Jaguar V6 and V8 engines. We reseal these correctly using the proper gaskets and sealants."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Jaguar brake service requires electronic parking brake calibration on many models. We handle all Jaguar brake work including F-Type and sport-spec brake systems."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump & Cooling System",
         desc: "Jaguar V6 and V8 cooling systems need proper maintenance to prevent overheating. We replace water pumps, thermostats, and service coolant with the correct specification fluid."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Axle Repair",
         desc: "F-Pace and all-wheel-drive Jaguar models put stress on CV joints. We inspect and replace axle components on both front and rear axles as needed."
       }
@@ -2737,7 +2737,7 @@ const extendedBrandContent = {
     issues: [
       {t:'Jaguar Supercharged Engine Coolant Leaks',d:'Jaguar supercharged V6 and V8 engines develop coolant crossover pipe leaks and thermostat housing cracks. The supercharger adds heat that accelerates plastic component failure.'},
       {t:'Jaguar Air Suspension Failures',d:'Jaguar XJ and F-Pace air suspension systems develop air spring leaks and compressor failures similar to Land Rover (shared platform). We diagnose and replace failed components.'},
-      {t:'Jaguar Timing Chain Stretch (AJ-V8)',d:'Jaguar AJ-series V8 engines develop timing chain stretch and tensioner wear causing rattle and performance loss. Complete chain kit replacement is required.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'}
+      {t:'Jaguar Timing Chain Stretch (AJ-V8)',d:'Jaguar AJ-series V8 engines develop timing chain stretch and tensioner wear causing rattle and performance loss. Complete chain kit replacement is required.',href:'/services/timing-chain-repair'}
     ],
     tips: [
       'Jaguar supercharged engines need coolant system inspection every 30,000 miles. Plastic components fail faster under the added heat of forced induction.',
@@ -2794,39 +2794,39 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "timing-belt-replacement-near-south-salt-lake-ut",
+        slug: "timing-belt-replacement",
         name: "Timing Belt Replacement",
         desc: "Timing belt service is critical on Grand Vitara and Vitara interference engines. We replace belt, tensioner, and water pump as a complete service at the correct interval."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Manual SX4, Kizashi, and Swift models need clutch replacement as mileage adds up. Scott's clutch specialty covers full clutch assembly and flywheel service on all Suzuki manual transmissions."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Replacement",
         desc: "Water pump replacement is done concurrently with timing belt service on most Suzuki interference engines. We always replace both to avoid revisiting the job."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Axle Service",
         desc: "SX4 and Grand Vitara AWD models rely on healthy CV joints. Utah winter driving cracks boots and accelerates wear. We inspect and replace as needed."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Suzuki brake systems are straightforward and serviceable. We stock correct pads, rotors, and hardware for Grand Vitara, SX4, Kizashi, and other models."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Full Mechanical Service",
         desc: "With no Suzuki dealers remaining, Scott's serves as the go-to full-service shop for Suzuki owners in Salt Lake Valley, from oil changes to drivetrain and engine repairs."
       }
     ],
     issues: [
       {t:'Suzuki Grand Vitara Head Gasket Failure',d:'Suzuki Grand Vitara 2.7L V6 engines develop head gasket failures causing coolant loss and overheating. We replace head gaskets and resurface cylinder heads.',href:'/symptoms/coolant-leak'},
-      {t:'Suzuki Timing Chain Stretch',d:'Suzuki 2.0L and 2.4L 4-cylinder engines develop timing chain stretch causing rattling and check engine lights. Chain kit replacement prevents engine damage.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
+      {t:'Suzuki Timing Chain Stretch',d:'Suzuki 2.0L and 2.4L 4-cylinder engines develop timing chain stretch causing rattling and check engine lights. Chain kit replacement prevents engine damage.',href:'/services/timing-chain-repair'},
       {t:'Suzuki AWD Coupling Failure',d:'Suzuki SX4 and Grand Vitara AWD systems use a viscous coupling that wears out, reducing AWD effectiveness. We diagnose and replace failed couplings.'}
     ],
     tips: [
@@ -2884,38 +2884,38 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "timing-belt-replacement-near-south-salt-lake-ut",
+        slug: "timing-belt-replacement",
         name: "Timing Belt Replacement",
         desc: "The 3.2L and 3.5L DOHC V6 timing belt is critical maintenance on Trooper, Rodeo, and Axiom. We replace belt, tensioner, and water pump together at the 60,000-mile interval."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Manual Trooper and Rodeo clutches take a beating in Utah's conditions. Scott's specialty in clutch repair means fast, correct replacement of clutch assembly and flywheel."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump Replacement",
         desc: "Isuzu V6 water pumps are replaced as part of timing belt service. We include the pump in every belt job to avoid revisiting the engine at a later date."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Front Axle Repair",
         desc: "4WD Isuzu front axles and CV joints wear with off-road use and age. We inspect and replace boots and axle assemblies to keep 4WD engagement reliable."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust Repair",
         desc: "High-mileage Isuzu trucks develop exhaust leaks at manifold gaskets and mid-pipe connections. We repair and replace exhaust components correctly with welding services when needed."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Trooper and Rodeo brake systems are robust but wear with age and use. We replace pads, rotors, calipers, and hardware and bleed brake lines completely."
       }
     ],
     issues: [
-      {t:'Isuzu Rodeo/Trooper Timing Belt Service',d:'Isuzu Rodeo and Trooper V6 engines use timing belts requiring replacement every 60,000 miles. These are interference engines, belt failure is catastrophic.',href:'/services/timing-belt-replacement-near-south-salt-lake-ut'},
+      {t:'Isuzu Rodeo/Trooper Timing Belt Service',d:'Isuzu Rodeo and Trooper V6 engines use timing belts requiring replacement every 60,000 miles. These are interference engines, belt failure is catastrophic.',href:'/services/timing-belt-replacement'},
       {t:'Isuzu 4WD Transfer Case Issues',d:'Isuzu Rodeo and Trooper 4WD transfer cases develop shifting difficulties and seal leaks. We service and repair Isuzu 4WD systems.'},
       {t:'Isuzu Diesel Engine Maintenance',d:'Isuzu NPR commercial trucks use diesel engines that require glow plug service, fuel filter maintenance, and turbo inspection. We service Isuzu commercial vehicles.'}
     ],
@@ -2974,32 +2974,32 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Turbo & Boost System Service",
         desc: "Saab diverter valves, turbocharger oil lines, and intercooler hoses are the most common failure points. We inspect and repair the complete boost circuit for proper performance restoration."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain & Tensioner Service",
         desc: "B207 timing chain tensioner wear causes startup rattle and eventual chain stretch. We service the chain system early to prevent damage on these interference engines."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Manual 9-3 and 9-5 models need clutch replacement at moderate mileages when driven spiritedly. Scott's handles full clutch assembly, flywheel, and release bearing replacement."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Saab 9-3 and 9-5 brake systems are conventional but require correct-spec pads and rotors. We stock the appropriate hardware and bleed systems completely on all Saab brake work."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump & Cooling System",
         desc: "Saab turbocharged engines need proper cooling system maintenance. We replace water pumps and thermostats and use the correct coolant specification for these engines."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust Repair",
         desc: "Saab turbo downpipes and exhaust manifold gaskets develop leaks that affect both performance and cabin smell. We diagnose and repair exhaust leaks on 9-3 and 9-5 models."
       }
@@ -3064,38 +3064,38 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service",
         desc: "Ecotec engine timing chain tensioner wear is common across Saturn Ion, Vue, and Aura models. We replace tensioners and chains before cold-start rattle progresses to engine damage."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "CVT Transmission Service",
         desc: "Saturn Vue CVT fluid service and early repairs can extend transmission life significantly. We service and diagnose CVT issues before they become full replacement scenarios."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Manual Saturn Ion and Sky Redline clutches wear with use. Scott's handles full clutch assembly and flywheel replacement, particularly rewarding on the turbo Sky."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Saturn brake service is straightforward with widely available GM-spec parts. We replace pads, rotors, and hardware and bleed systems on all Saturn models."
       },
       {
-        slug: "shock-replacement-near-south-salt-lake-ut",
+        slug: "shock-replacement",
         name: "Shock & Suspension Service",
         desc: "Saturn Outlook and Vue suspension components wear at higher mileages. We replace shocks, struts, and related hardware to restore handling and ride quality."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump & Cooling System",
         desc: "Ecotec water pump and thermostat replacement is standard maintenance on high-mileage Saturn engines. We service the complete cooling system with correct GM-spec coolant."
       }
     ],
     issues: [
-      {t:'Saturn Vue/Outlook Timing Chain Stretch',d:'Saturn Vue and Outlook with the GM 3.6L V6 share the timing chain stretch issue. Chain, guides, and tensioners need replacement as a set.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
+      {t:'Saturn Vue/Outlook Timing Chain Stretch',d:'Saturn Vue and Outlook with the GM 3.6L V6 share the timing chain stretch issue. Chain, guides, and tensioners need replacement as a set.',href:'/services/timing-chain-repair'},
       {t:'Saturn Ion/Astra Ignition Switch Recall',d:'Saturn Ion models were part of the GM ignition switch recall. If your vehicle hasn\'t been updated, we can check recall status and help coordinate the repair.'},
       {t:'Saturn CVT Transmission (Vue)',d:'Early Saturn Vue models used a CVT transmission with known reliability issues. We diagnose CVT failures and recommend repair or replacement based on condition.',href:'/symptoms/transmission-slipping'}
     ],
@@ -3154,39 +3154,39 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Intake Manifold Gasket Replacement",
         desc: "The 3800 V6 intake gasket failure is one of the most common Pontiac Grand Prix and Grand Am repairs. We replace with updated gaskets that resolve the original design deficiency."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Manual Firebird, Trans Am, and Solstice clutches are a Scott's specialty. We replace full clutch assemblies and resurface or replace flywheels on all Pontiac manual transmissions."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump & Cooling System",
         desc: "3800 and LS1 water pump and thermostat replacement is standard high-mileage maintenance. We service the complete cooling system and use the correct GM-spec coolant."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service",
         desc: "Ecotec-powered Solstice and G6 models develop timing chain tensioner wear. We replace chains and tensioners before cold-start rattle leads to a jumped chain and bent valves."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Grand Prix, Grand Am, and G6 brake service uses widely available GM-spec components. We replace pads, rotors, calipers, and hardware with correct parts."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust Repair",
         desc: "High-mileage Pontiac exhaust manifolds and mid-pipes develop leaks and rust through, common on Utah vehicles. We repair and replace exhaust components with welding services when needed."
       }
     ],
     issues: [
       {t:'Pontiac G6 3.5L V6 Intake Manifold Gasket',d:'Pontiac G6 and Grand Prix with GM 3.5L and 3.8L V6 engines develop intake manifold gasket failures causing coolant leaks and overheating. This is one of the most common GM repairs we perform.'},
-      {t:'Pontiac GTO/G8 LS Engine Service',d:'Pontiac GTO and G8 use GM LS-series V8 engines that are powerful and reliable but need proper maintenance. We service LS engines including clutch replacement on manual GTO/G8 models.',href:'/services/clutch-repair-near-south-salt-lake-ut'},
+      {t:'Pontiac GTO/G8 LS Engine Service',d:'Pontiac GTO and G8 use GM LS-series V8 engines that are powerful and reliable but need proper maintenance. We service LS engines including clutch replacement on manual GTO/G8 models.',href:'/services/clutch-repair'},
       {t:'Pontiac Vibe (Toyota Matrix) Service',d:'The Pontiac Vibe is mechanically identical to the Toyota Matrix. We service it with Toyota knowledge and parts, often more reliable and available than GM-branded components.'}
     ],
     tips: [
@@ -3244,32 +3244,32 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "4.6L V8 Tune-Up & Engine Service",
         desc: "Grand Marquis 4.6L spark plug service, including careful extraction of late-model 2-piece plugs, along with ignition wire and coil replacement for smooth high-mileage performance."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service",
         desc: "High-mileage Mountaineer and Grand Marquis 4.6L engines develop timing chain tensioner wear. We service chains and guides before slack causes rattling and eventual jump."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump & Cooling Service",
         desc: "Mercury V6 and V8 water pumps and thermostats are replaced with quality Ford-spec components. Complete cooling system service extends engine life on these high-mileage platforms."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Grand Marquis, Mountaineer, and Mariner brake systems use Ford-compatible components with excellent parts availability. We replace pads, rotors, and hardware correctly."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Axle Service",
         desc: "Mariner and Mountaineer AWD front axles and CV joints wear with use and Utah winter driving. We inspect and replace boots and full axle assemblies as needed."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust Repair",
         desc: "Panther-platform Grand Marquis exhaust manifold cracking and mid-pipe rust are common high-mileage repairs. We repair and replace with welding services available for cost-effective fixes."
       }
@@ -3334,32 +3334,32 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "timing-belt-replacement-near-south-salt-lake-ut",
+        slug: "timing-belt-replacement",
         name: "Timing Belt Replacement",
         desc: "Plymouth Neon and Breeze timing belt replacement is critical every 60,000 miles. We replace belt, tensioner, and water pump together on these interference-engine four-cylinders."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump & Cooling System",
         desc: "Plymouth Voyager 3.3L and 3.8L V6 cooling systems need regular maintenance. We replace thermostats, water pumps, and hoses and properly flush degraded coolant."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Manual Plymouth Neon clutch replacement is an affordable repair that keeps these practical small cars running. Scott's handles full clutch assembly and flywheel service."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Chrysler-platform Plymouth brake components are widely available and economically priced. We replace pads, rotors, and hardware on all Voyager, Neon, and Breeze models."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust Repair",
         desc: "Age and Utah road conditions corrode Plymouth exhaust systems. We repair and replace exhaust pipes, manifold gaskets, and hangers with welding services for cost-effective fixes."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Full Mechanical Service",
         desc: "With no Plymouth dealers and parts well into their classic-car supply chain, Scott's provides complete mechanical service, keeping these Chrysler-platform vehicles on the road."
       }
@@ -3424,38 +3424,38 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service (H3)",
         desc: "The Atlas inline-5 timing chain and tensioner replacement is the most critical H3 repair. We address cold-start rattle early before chain stretch causes a jump and major engine damage."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "4WD Transfer Case & Differential Service",
         desc: "Hummer transfer case and axle differential fluid service keeps 4WD systems reliable for Utah's mountain and off-road conditions. We service all drivetrain fluids with correct GM specifications."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump & Cooling System",
         desc: "H2 and H3 cooling systems work hard under load. We replace water pumps, thermostats, and service coolant to prevent overheating on these high-curb-weight trucks."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Hummer H2 and H3 brake systems handle enormous vehicle weight. We replace pads, rotors, calipers, and brake lines with components matched to the braking demands of these heavy trucks."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust Manifold & Exhaust Repair",
         desc: "H2 and H3 exhaust manifold bolt failures and gasket leaks are common. We repair manifold leaks, replace broken studs, and address mid-pipe and catalytic converter issues."
       },
       {
-        slug: "shock-replacement-near-south-salt-lake-ut",
+        slug: "shock-replacement",
         name: "Suspension & Shock Replacement",
         desc: "Hummer suspension components, especially shocks and torsion bar components on the H3, wear with mileage and off-road use. We restore proper ride height and handling stability."
       }
     ],
     issues: [
-      {t:'Hummer H2 Exhaust Manifold Bolt Failure',d:'The Hummer H2 uses the GM 6.0L/6.2L V8 that shares the exhaust manifold bolt breakage issue with Silverado and Sierra. Extraction requires skill to avoid head damage.',href:'/services/exhaust-repair-near-south-salt-lake-ut'},
+      {t:'Hummer H2 Exhaust Manifold Bolt Failure',d:'The Hummer H2 uses the GM 6.0L/6.2L V8 that shares the exhaust manifold bolt breakage issue with Silverado and Sierra. Extraction requires skill to avoid head damage.',href:'/services/exhaust-repair'},
       {t:'Hummer H3 Cylinder Head Crack',d:'The Hummer H3 3.5L and 3.7L inline-5 engines develop cylinder head cracks causing coolant loss and overheating. We replace heads with updated castings.'},
       {t:'Hummer Transfer Case and Differential Service',d:'Hummer 4WD systems work harder than most due to vehicle weight. Transfer case and differential fluid changes are critical maintenance items.'}
     ],
@@ -3514,38 +3514,38 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "The Scion FR-S and tC are manual-transmission cars that attract enthusiastic drivers. Scott's clutch specialty means correct replacement with options for both OEM and performance-spec clutch kits."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain Service",
         desc: "Scion tC timing chain tensioner wear causes startup rattle on higher-mileage examples. We service chains and tensioners before the rattling progresses to a jumped chain."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "FR-S and tC brake systems, including Brembo brakes on performance variants, get regular use on enthusiast cars. We replace pads, rotors, and hardware with quality Toyota-spec components."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump & Cooling System",
         desc: "Toyota four-cylinder water pump and thermostat replacement is straightforward preventive maintenance on higher-mileage xB, xD, and tC models. We use Toyota-spec coolant."
       },
       {
-        slug: "cv-joint-repair-near-south-salt-lake-ut",
+        slug: "cv-joint-repair",
         name: "CV Joint & Axle Service",
         desc: "Front-wheel-drive Scion models depend on healthy CV joints for smooth power delivery. We inspect and replace boots and axle assemblies on tC, xB, and xD models."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Full Mechanical Service",
         desc: "With no Scion dealers, Toyota shops and independents like Scott's handle all Scion service. We provide complete mechanical maintenance using Toyota-compatible parts and fluids."
       }
     ],
     issues: [
-      {t:'Scion tC Clutch and Flywheel Wear',d:'Scion tC manual transmission models develop clutch chatter from the dual-mass flywheel, similar to other Toyota platforms. We offer solid flywheel conversion for longer clutch life.',href:'/services/clutch-repair-near-south-salt-lake-ut'},
+      {t:'Scion tC Clutch and Flywheel Wear',d:'Scion tC manual transmission models develop clutch chatter from the dual-mass flywheel, similar to other Toyota platforms. We offer solid flywheel conversion for longer clutch life.',href:'/services/clutch-repair'},
       {t:'Scion FR-S/BRZ Valve Spring Recall',d:'The Scion FR-S (now Toyota 86) had a valve spring recall on early models. If your vehicle hasn\'t been updated, we can check and coordinate the repair.'},
       {t:'Scion xB Oil Consumption',d:'The second-generation Scion xB (2008+) uses the Toyota 2AZ-FE engine known for excessive oil consumption from piston ring wear.'}
     ],
@@ -3604,32 +3604,32 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "AMT Clutch Replacement",
         desc: "The Smart ForTwo automated manual clutch wears over time and causes rough, jerky gear changes. Scott's clutch specialty directly covers Smart AMT clutch and actuator service."
       },
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "AMT Transmission Actuator Service",
         desc: "The electro-hydraulic actuator that operates the Smart's AMT clutch can develop issues separate from the clutch itself. We diagnose actuator faults accurately before recommending replacements."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust Repair",
         desc: "Smart ForTwo rear-mounted exhaust components experience significant heat cycling. We repair exhaust leaks and replace deteriorated components on the turbo three-cylinder exhaust system."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Cooling System Service",
         desc: "Smart three-cylinder cooling system maintenance prevents overheating in stop-and-go conditions. We replace thermostats, inspect hoses, and service coolant at correct intervals."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "Smart ForTwo brakes are compact and require correct-spec components. We replace pads and rotors with appropriate hardware for the ForTwo's lightweight braking system."
       },
       {
-        slug: "catalytic-converter-service-near-south-salt-lake-ut",
+        slug: "catalytic-converter-service",
         name: "Catalytic Converter Service",
         desc: "Smart turbo three-cylinder catalytic converters are close-coupled to the engine and experience high heat. We diagnose P0420 codes and replace converters when efficiency has genuinely degraded."
       }
@@ -3694,39 +3694,39 @@ const extendedBrandContent = {
     ],
     commonRepairs: [
       {
-        slug: "complete-auto-service-near-south-salt-lake-ut",
+        slug: "complete-auto-service",
         name: "Full GM Mechanical Service",
         desc: "From older carbureted 350s to current Vortec and EcoTec3 engines, Scott's handles comprehensive GM mechanical service for private owners, fleet operators, and classic vehicle owners."
       },
       {
-        slug: "timing-chain-repair-near-south-salt-lake-ut",
+        slug: "timing-chain-repair",
         name: "Timing Chain & AFM Lifter Service",
         desc: "GM Vortec V8 timing chains and AFM lifter failures are significant repairs in older fleet vans and trucks. We diagnose and replace components correctly before secondary damage develops."
       },
       {
-        slug: "water-pump-replacement-near-south-salt-lake-ut",
+        slug: "water-pump-replacement",
         name: "Water Pump & Cooling System",
         desc: "GM V8 water pump and thermostat replacement is standard high-mileage service. We replace cooling components using correct GM-spec parts and properly flush and refill with current coolant specifications."
       },
       {
-        slug: "clutch-repair-near-south-salt-lake-ut",
+        slug: "clutch-repair",
         name: "Clutch Repair",
         desc: "Older GM manual transmission vehicles, trucks, vans, and classic cars, get complete clutch assembly and flywheel service at Scott's, which has specialized in manual transmissions since 1990."
       },
       {
-        slug: "brake-service-near-south-salt-lake-ut",
+        slug: "brake-service",
         name: "Brake Service",
         desc: "GM truck and van brake systems handle heavy loads and need regular service. We replace pads, drums, rotors, calipers, and wheel cylinders with quality components on all GM platforms."
       },
       {
-        slug: "exhaust-repair-near-south-salt-lake-ut",
+        slug: "exhaust-repair",
         name: "Exhaust Repair & Welding",
         desc: "High-mileage GM trucks and vans develop exhaust manifold leaks and mid-pipe failures. Our welding services allow cost-effective exhaust repairs that don't require full system replacement."
       }
     ],
     issues: [
       {t:'GM AFM/DFM Lifter Failure',d:'GM Active Fuel Management and Dynamic Fuel Management systems in 5.3L and 6.2L V8 engines develop collapsed lifters causing misfires and engine damage. This is the #1 GM repair we perform.',href:'/symptoms/engine-rattling'},
-      {t:'GM 3.6L V6 Timing Chain Stretch',d:'The GM 3.6L V6 (used in Acadia, Traverse, Enclave, CTS, Equinox) develops timing chain stretch causing rough running and check engine lights. Complete chain kit replacement required.',href:'/services/timing-chain-repair-near-south-salt-lake-ut'},
+      {t:'GM 3.6L V6 Timing Chain Stretch',d:'The GM 3.6L V6 (used in Acadia, Traverse, Enclave, CTS, Equinox) develops timing chain stretch causing rough running and check engine lights. Complete chain kit replacement required.',href:'/services/timing-chain-repair'},
       {t:'GM 10-Speed Transmission Shudder',d:'GM\'s 10-speed automatic transmission develops torque converter shudder felt at light throttle. Fluid flush with updated specification fluid usually resolves the issue.',href:'/symptoms/vibration-when-accelerating'}
     ],
     tips: [

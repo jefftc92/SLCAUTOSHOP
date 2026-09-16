@@ -83,13 +83,13 @@ module.exports = {
         {
           "title": "Clicking CV Axles on Turns",
           "desc": "That rhythmic clicking when you turn at low speed means a CV joint is worn. On an AWD Outback the boots crack with age, grease escapes, and grit destroys the joint. We replace the complete axle shaft rather than just repacking a boot, a more durable repair on a car that puts power through all four wheels.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Timing Belt Service on EJ Engines",
           "desc": "EJ-series Outbacks through 2009 use a rubber timing belt that must be replaced on schedule, generally around 105,000 miles. The EJ25 is an interference engine, so a snapped belt bends valves and turns a routine job into a rebuild. We replace the belt along with the tensioner, idlers, and water pump as a complete service, since they all live behind the same covers.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": null
         },
         {
@@ -101,7 +101,7 @@ module.exports = {
         {
           "title": "Brake Wear from Canyon and Mountain Driving",
           "desc": "Outbacks get driven up Utah canyons loaded with gear, and long downhill grades wear pads and heat-check rotors faster than flat commuting does. If you hear squealing, feel a pulsation through the pedal, or notice longer stopping distances, it's time for an inspection. We measure pad thickness and rotor runout and tell you what actually needs replacing.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         }
       ],
@@ -141,32 +141,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "EJ-engine Outbacks, belt, tensioner, idlers, and water pump replaced together as a complete service."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Boxer-engine water pumps done with the timing service, plus cooling system pressure testing."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete AWD axle shaft replacement for clicking on turns, more durable than boot-only repairs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for Outbacks worn by canyon and mountain driving."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Tired struts on high-mileage Outbacks, restores ride height, control, and a planted feel."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, AWD driveline checks, and anything else your Outback needs in one visit."
         }
@@ -283,25 +283,25 @@ module.exports = {
         {
           "title": "CV Axle Clicking Through Turns",
           "desc": "A rhythmic click that shows up when you turn at low speed is a worn CV joint. On an AWD Forester the rubber boots crack with age and Utah grit gets into the joint. We replace the full axle shaft instead of repacking a boot, which holds up far better on a car driving all four wheels.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Timing Belt Service on Older Foresters",
           "desc": "Foresters through 2010 with EJ engines use a rubber timing belt that needs replacement around 105,000 miles. The EJ25 is an interference engine, so a failed belt bends valves. We replace the belt with the tensioner, idlers, and water pump as one service since they all sit behind the same covers.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": null
         },
         {
           "title": "Worn Struts and Sagging Suspension",
           "desc": "Foresters get loaded with gear and driven over rough roads and dirt, and the struts eventually tire out. A bouncy ride, nose-dive under braking, or clunking over bumps points to worn struts or mounts. We inspect the full suspension and replace what's worn so the car rides level and stays controlled.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Wear and Pulsation",
           "desc": "Foresters spend time on canyon descents and stop-and-go valley traffic, both hard on brakes. Squealing, a pedal pulsation, or longer stops mean it's time for an inspection. We measure pad thickness and rotor runout and replace only what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         }
       ],
@@ -341,32 +341,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "EJ-engine Foresters, belt, tensioner, idlers, and water pump replaced together before failure."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Boxer-engine water pumps replaced with the timing service, plus cooling system pressure testing."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete AWD axle shaft replacement for clicking on turns, more durable than boot-only fixes."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restores ride height and control on Foresters worn by gear loads and rough Utah roads."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for Foresters worn by canyon descents and city traffic."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, AWD checks, and anything else your Forester needs in one visit."
         }
@@ -468,25 +468,25 @@ module.exports = {
         {
           "title": "Clicking CV Axles",
           "desc": "A rhythmic clicking when you turn at low speed means a CV joint is worn. The rubber boots crack with age and Utah dust and grit work into the joint. On an AWD Crosstrek we replace the complete axle shaft instead of repacking a boot, which lasts much longer.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear from Mountain Driving",
           "desc": "Crosstreks live on canyon roads and ski-resort access routes, and long descents wear pads and heat-check rotors faster than flat driving. Squealing, a pulsing pedal, or longer stops mean it's time for a brake inspection. We measure pads and rotors and replace only what's worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Clutch Wear on Manual Crosstreks",
           "desc": "Early Crosstreks offered a five-speed manual, and clutches eventually wear, faster if the car is driven hard or learned on. A high or grabby engagement point, slipping under acceleration, or a burning smell after hills are the signs. We carry quality OEM-spec clutch kits and know the correct break-in procedure.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Worn Struts and Bouncy Ride",
           "desc": "The Crosstrek's extra ride height and the rough roads it gets driven on take a toll on struts. A floaty or bouncy ride, nose-dive under braking, or clunking over bumps points to worn struts or mounts. We inspect the full suspension and replace what's tired so the car rides controlled again.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -526,32 +526,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete AWD axle shaft replacement for clicking on turns, more durable than boot-only repairs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for Crosstreks worn by canyon and ski-route driving."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits and correct break-in for manual-transmission Crosstreks."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restores ride control on Crosstreks worn by rough roads and extra ride height."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Boxer-engine water pump replacement with cooling system pressure testing."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid and CVT service, AWD checks, and whatever else your Crosstrek needs."
         }
@@ -656,7 +656,7 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual Imprezas",
           "desc": "Manual Imprezas across every generation eventually need a clutch, sooner if the car is driven hard, used to teach someone to drive stick, or commuted in heavy traffic. A high or grabby engagement point, slipping under acceleration, or a burning smell after climbs are the signs. We carry quality clutch kits for every manual Impreza and resurface the flywheel as part of the job.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
@@ -668,25 +668,25 @@ module.exports = {
         {
           "title": "Timing Belt Service on Older Imprezas",
           "desc": "Imprezas through 2011 with EJ engines use a rubber timing belt due around 105,000 miles. The EJ is an interference engine, so a snapped belt bends valves. We replace the belt with the tensioner, idlers, and water pump as one service since they all sit behind the same covers.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": null
         },
         {
           "title": "Grinding When Shifting a Manual",
           "desc": "A manual Impreza that grinds going into gear, often most noticeable into second, can have a worn clutch hydraulic system that isn't fully releasing, or worn synchros. We diagnose whether it's clutch hydraulics, the clutch itself, or the gearbox before recommending a repair, so you don't pay for the wrong fix.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Clicking CV Axles",
           "desc": "A rhythmic clicking when you turn at low speed means a CV joint is worn. On an AWD Impreza the rubber boots crack with age and Utah grit gets into the joint. We replace the complete axle shaft rather than repacking a boot, which holds up far better.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear and Pulsation",
           "desc": "Imprezas see plenty of winter stop-and-go and canyon driving, both hard on brakes. Squealing, a pedal pulsation, or longer stops mean it's time for an inspection. We measure pad thickness and rotor runout and replace only what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         }
       ],
@@ -726,32 +726,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits, hydraulic inspection, and flywheel resurfacing for all manual Imprezas."
         },
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "EJ-engine Imprezas, belt, tensioner, idlers, and water pump replaced together before failure."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete AWD axle shaft replacement for clicking on turns, more durable than boot-only repairs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for Imprezas worn by winter and canyon driving."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Boxer-engine water pump replacement with the timing service and cooling system pressure testing."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, AWD checks, and anything else your Impreza needs in one visit."
         }
@@ -846,37 +846,37 @@ module.exports = {
         {
           "title": "Clutch Wear from Spirited Driving",
           "desc": "WRX clutches take a beating, launches, canyon runs, and the occasional autocross day wear them faster than commuter use. A high or grabby engagement point, slipping under hard acceleration, or trouble finding gears are the signs. WRX clutches driven hard can need replacement well before 60,000 miles. We carry quality kits and resurface the flywheel as part of the job.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Burning Smell After Hard Driving",
           "desc": "A burning smell after a canyon run on a WRX often comes from a slipping clutch overheating, but it can also be hot brakes or an oil seep onto the exhaust. We track down the actual source, clutch, brakes, or a leak, instead of guessing, so the right thing gets fixed.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Grinding Into Gear",
           "desc": "A WRX that grinds going into gear, often into second or third under quick shifts, can have a clutch that isn't fully releasing, worn hydraulics, or worn synchros from hard shifting. We diagnose which it is before recommending a repair so you don't pay for the wrong part.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Brake Fade and Wear from Canyon Use",
           "desc": "WRXs get driven hard on canyon descents, and that heat-checks rotors and wears pads quickly. A pulsing pedal, squealing, a soft feel after repeated stops, or longer stopping distances all warrant an inspection. We measure pads and rotor runout and replace what's needed for confident braking.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Worn Suspension on Hard-Driven Cars",
           "desc": "Spirited driving and Utah's rough pavement wear WRX struts, shocks, and bushings faster than gentle use. A bouncy or floaty ride, clunking over bumps, or vague handling points to worn suspension. We inspect the full setup and replace what's tired so the car feels planted again.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Clicking CV Axles",
           "desc": "A rhythmic clicking on turns means a CV joint is worn, and on a WRX, hard cornering and launches accelerate joint wear once a boot cracks. We replace the complete axle shaft rather than repacking a boot, which is far more durable on a car putting turbo power through all four wheels.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -916,32 +916,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Turbo WRX clutch kits, hydraulic inspection, and flywheel resurfacing for hard-driven cars."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for WRXs worn by canyon descents and spirited driving."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restores planted handling on WRXs worn by hard driving and rough Utah pavement."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete AWD axle shaft replacement for clicking on turns, built to handle turbo power."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leak repair and fitment on WRX exhaust systems, including aftermarket setups."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, AWD checks, and anything else your WRX needs in one visit."
         }
@@ -1057,31 +1057,31 @@ module.exports = {
         {
           "title": "Timing Belt Due on EJ Engines",
           "desc": "Legacys with EJ-series engines use a rubber timing belt that needs replacement on a mileage interval, and the EJ25 is an interference engine, so a snapped belt means bent valves. We replace the belt along with the tensioner, idlers, and usually the water pump while we're in there, since they share the same labor.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": null
         },
         {
           "title": "Clutch Wear on Manual Legacy GT",
           "desc": "Manual-transmission Legacys, especially the turbocharged GT, will wear a clutch faster when they're driven the way they're meant to be. Signs include a high or grabby engagement point, slipping under acceleration, or a burning smell after hill climbs. We carry quality OEM-spec clutch kits and know the correct break-in procedure.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "That rhythmic clicking when you turn, most noticeable at low speed in a parking lot, is a worn CV joint. The boot cracks, grease escapes, grit gets in, and the joint wears. On an AWD Legacy a failed axle can also load the rest of the driveline, so it's worth addressing promptly. We replace the complete axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Catalyst and O2 Codes",
           "desc": "As Legacys age, P0420 catalyst-efficiency codes and O2 sensor faults are common reasons the check engine light comes on, and they also cause emissions failures. We scan for codes, verify the actual root cause, and fix what genuinely needs fixing instead of just clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Worn Struts and Bouncy Ride",
           "desc": "Utah's frost-heaved roads and canyon miles wear Legacy struts over time. If your Legacy floats over dips, bounces more than once after a bump, or nose-dives under braking, the struts are likely tired. We inspect all four corners and replace struts in pairs to keep the car balanced.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -1121,32 +1121,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "EJ-engine Legacy timing belt, tensioner, idlers, and water pump replaced together at the correct interval."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Boxer-engine water pump service, done with the timing belt to save labor and prevent overheating."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Legacy and Legacy GT clutch kits, hydraulic inspection, and flywheel resurfacing."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete AWD axle shaft replacement for clicking on turns, keeps the driveline balanced."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Legacy pads, rotors, and caliper inspection, important for canyon descents and winter stops."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Legacy needs in one visit."
         }
@@ -1227,7 +1227,7 @@ module.exports = {
         {
           "title": "Brake Wear on a Loaded Family Hauler",
           "desc": "An Ascent carrying passengers and gear works its brakes hard, especially on Wasatch canyon descents. Squealing, a pulsing pedal, or longer stopping distances all point to pads and rotors that need attention. We measure pad thickness and rotor condition and replace what's worn with quality parts.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
@@ -1239,7 +1239,7 @@ module.exports = {
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Clicking when you turn, most obvious at low speed in a parking lot, is a worn CV joint. The protective boot cracks, grease escapes, and grit wears the joint. On an AWD Ascent it's worth fixing promptly. We replace the complete axle shaft rather than just the boot for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
@@ -1251,13 +1251,13 @@ module.exports = {
         {
           "title": "Worn Struts and Bouncy Ride",
           "desc": "Carrying a full load over Utah's frost-heaved roads wears Ascent struts. If your Ascent floats over dips, keeps bouncing after a bump, or feels unsettled on the highway, the struts are likely tired. We inspect all four corners and replace struts in pairs to keep the SUV planted.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Leaks and Rattles",
           "desc": "Road salt and the heat-cycling of canyon driving take a toll on exhaust components. A rattle under the floor, a deeper-than-normal tone, or a buzzing at certain RPM can mean a cracked exhaust component or a failed hanger. We inspect the full system and repair leaks before they get louder.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1297,32 +1297,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Ascent pads, rotors, and caliper inspection sized for a loaded three-row SUV on canyon descents."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete AWD axle shaft replacement for clicking on turns, keeps the Ascent driveline balanced."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Ascent struts replaced in pairs to restore a planted ride after high-mileage Utah road wear."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leak repair and hanger replacement for rattles and drone on salt-corroded exhaust systems."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling-system service for the FA24 turbo boxer, important for keeping turbo temps in check."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Ascent needs in one visit."
         }
@@ -1403,7 +1403,7 @@ module.exports = {
         {
           "title": "Clutch Wear on the Manual BRZ",
           "desc": "A manual BRZ driven the way it's meant to be, canyon runs, spirited shifting, the occasional track day, will wear a clutch sooner than a commuter car. Watch for a high or grabby engagement point, slipping under hard acceleration, or a burning smell after aggressive driving. We carry quality clutch kits and know the correct break-in.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
@@ -1415,13 +1415,13 @@ module.exports = {
         {
           "title": "Brake Fade and Worn Pads",
           "desc": "BRZs see hard braking on canyon descents and track days, and the factory pads wear quickly under that use. Squealing, a soft or fading pedal, or a pulsing through the wheel all mean it's time. We replace pads and rotors with quality parts and bleed the system for a firm pedal.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Worn Struts and Shocks",
           "desc": "A BRZ's appeal is its handling, and tired dampers dull it. If the car floats over dips, bounces after bumps, or feels vague at turn-in, the struts and shocks are likely worn. We inspect all four corners and replace dampers in pairs to keep the car balanced.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
@@ -1433,7 +1433,7 @@ module.exports = {
         {
           "title": "Exhaust Drone and Leaks",
           "desc": "Many BRZs run aftermarket or aging exhaust, and a cracked component, loose hanger, or failed gasket changes the tone and can drone at cruise. We inspect the full system and repair leaks so it sounds right and doesn't trigger codes.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1473,32 +1473,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual BRZ clutch kits, hydraulic inspection, and flywheel resurfacing, done with the correct break-in."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "BRZ pads, rotors, and a proper bleed for a firm pedal on canyon descents and track days."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Worn dampers replaced in pairs to restore the BRZ's sharp turn-in and balanced handling."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Rear shock service to keep the BRZ planted and predictable through fast corners."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leak and hanger repair for stock or aftermarket BRZ exhaust, fixes drone and code triggers."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your BRZ needs in one visit."
         }
@@ -1585,31 +1585,31 @@ module.exports = {
         {
           "title": "Timing Belt Overdue",
           "desc": "Every Baja has an EJ engine with a rubber timing belt, and at 20-plus years old, many are well past due. The EJ25 is an interference engine, so a snapped belt means bent valves and a big repair. We replace the belt with the tensioner, idlers, and water pump together, since they share the labor.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": null
         },
         {
           "title": "Clutch Wear on Manual Bajas",
           "desc": "Manual-transmission Bajas, especially the turbo, can develop clutch wear after two decades of use. Signs include a high or grabby engagement point, slipping under load, or a burning smell on a hill. We carry quality OEM-spec clutch kits and know the correct break-in for the EJ driveline.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Clicking when you turn, most obvious at low speed, is a worn CV joint, and on a 20-year-old AWD Baja the boots have usually cracked and lost grease long ago. A failing axle can also stress the driveline, so it's worth fixing. We replace the complete axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust Corrosion and Leaks",
           "desc": "Two decades of Utah road salt take a heavy toll on a Baja's exhaust. A louder tone, a rattle under the bed, or a buzz at certain RPM usually means a corroded pipe, muffler, or hanger. We inspect the full system and repair or replace what's rusted through.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Worn Struts and Bouncy Ride",
           "desc": "Original struts on a Baja this age are long worn out. If it floats over dips, keeps bouncing after a bump, or nose-dives under braking, the struts need replacing. We inspect all four corners and replace them in pairs to keep the truck level and controlled.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -1649,32 +1649,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "EJ-engine Baja timing belt, tensioner, idlers, and water pump replaced together, critical on this interference engine."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Boxer-engine water pump service done with the timing belt to save labor and prevent overheating."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Baja and Baja Turbo clutch kits, hydraulic inspection, and flywheel resurfacing."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete AWD axle shaft replacement for clicking on turns on high-mileage Bajas."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Repair and replacement of salt-corroded Baja exhaust pipes, mufflers, and hangers."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your aging Baja needs in one visit."
         }
@@ -1755,37 +1755,37 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on the Flat-Six",
           "desc": "The EZ30 and EZ36 flat-sixes use timing chains, and high-mileage examples with a history of skipped oil changes can develop chain or guide wear. The early sign is usually a brief metallic rattle on cold startup that quiets as oil pressure builds. Don't ignore it, we inspect the chain, tensioner, and guides and address wear before it causes engine damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": null
         },
         {
           "title": "Brake Wear on a Heavy Three-Row Crossover",
           "desc": "A loaded Tribeca puts real demand on its brakes, especially on canyon descents. Squealing, a pulsing pedal, or longer stops mean the pads and rotors need attention. We measure pad thickness and rotor condition and replace what's worn with quality parts sized for the vehicle.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Clicking when you turn, most noticeable at low speed in a parking lot, is a worn CV joint. On a decade-plus-old AWD Tribeca the boots have usually cracked and lost grease. A failing axle can stress the driveline, so it's worth fixing promptly. We replace the complete axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Engine Overheating and Cooling-System Wear",
           "desc": "After a decade-plus, a Tribeca's hoses, water pump, and radiator are aging. A temperature gauge that climbs, coolant loss, or a sweet smell points to cooling-system trouble, and an overheated flat-six is an expensive mistake. We pressure-test the system and replace worn components before it leaves you stranded.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Worn Struts and Bouncy Ride",
           "desc": "Original struts on a Tribeca this age are well past their service life. If it floats over dips, keeps bouncing after bumps, or nose-dives under braking, the struts need replacing. We inspect all four corners and replace them in pairs to keep the crossover stable and controlled.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalyst and Sensor Codes",
           "desc": "As Tribecas age, catalyst-efficiency and O2 sensor codes commonly trigger the check engine light, and they also cause emissions failures. We scan for codes, verify the actual root cause, and fix what genuinely needs fixing instead of just clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -1825,32 +1825,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "EZ-series flat-six timing chain, tensioner, and guide inspection and replacement before damage occurs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Tribeca pads, rotors, and caliper inspection sized for a heavy three-row AWD crossover."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete AWD axle shaft replacement for clicking on turns on high-mileage Tribecas."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling-system service for the aging flat-six, water pump and hoses replaced before overheating."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Worn Tribeca struts replaced in pairs to restore a stable, controlled ride."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Tribeca needs in one visit."
         }

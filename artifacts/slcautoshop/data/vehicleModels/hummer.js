@@ -53,31 +53,31 @@ module.exports = {
         {
           "title": "Brake Pedal Issues and Brake System Service",
           "desc": "The H1's inboard drum brakes are unusual by modern standards, they sit at the differential rather than at the wheel, which is a direct carryover from the military HMMWV. This design keeps unsprung weight down but means brake service requires specific knowledge. Soft pedal, pulling under braking, or grinding are all signs the system needs attention. We inspect the full system including the master cylinder, booster, lines, and wheel-end hardware.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Cooling System Service: Overheating on 6.5L Engines",
           "desc": "The 6.5L turbocharged diesel in mid-period H1s has a known tendency toward overheating when the cooling system isn't maintained correctly, particularly the water pump, thermostat, and coolant condition. An H1 that overheats on Utah's mountain grades is a serious situation. We service the full cooling system: water pump, thermostat, hoses, and coolant flush.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust System Leaks and Noise",
           "desc": "The H1's exhaust routing is complex and the manifold gaskets and flex connectors develop leaks over time, especially on high-mileage examples. An exhaust leak on a diesel produces a distinctive ticking or hissing sound under load. Left alone, exhaust leaks can affect turbocharger backpressure on turbodiesel models. We inspect the full system from manifold to tailpipe.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Suspension Wear and Rough Ride",
           "desc": "Even though the H1 was built for rough terrain, its suspension components wear out. Wheel bearings, upper and lower control arm bushings, and shock absorbers are all serviceable wear items. A vehicle that wanders at highway speed or produces clunking sounds over bumps needs a suspension inspection.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Diesel Emission and Fuel System Codes",
           "desc": "H1s with the 6.5L diesel or the Duramax can trigger check engine codes related to the fuel system, EGR, or emissions equipment. On a diesel, these codes require specific diagnostic approaches. We pull the codes and trace them to the actual root cause before recommending parts.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -117,32 +117,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake System Service",
           "desc": "Full inspection and service of the H1's inboard braking system, pads, drums, master cylinder, and lines."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Cooling System Service",
           "desc": "Water pump, thermostat, hose inspection, and coolant flush on diesel-powered H1s."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex connectors, and exhaust system service on 6.2L, 6.5L, and Duramax H1s."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock / Suspension Service",
           "desc": "Shock absorbers, control arm bushings, and wheel bearing inspection on the H1 platform."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions-related catalyst service on gasoline-powered H1 variants."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection and fluid service, coolant, oil, brake fluid, and differential fluids."
         }
@@ -225,31 +225,31 @@ module.exports = {
         {
           "title": "Brake Grinding or Squealing",
           "desc": "The H2's weight means the front brakes work extremely hard. High-mileage H2s frequently come in with rotors that have worn past minimum thickness before the owner noticed. Squealing means the wear indicators are contacting the rotor. Grinding means metal on metal. We inspect pads, rotors, calipers, and the full hydraulic system before recommending parts.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Water Pump Failure, Vortec V8 Cooling System",
           "desc": "The 6.0L and 6.2L Vortec engines in the H2 see water pump failures as mileage climbs. A leaking pump will drip coolant from the weep hole and eventually cause overheating. In Utah's summer heat, especially on grades, an H2 that's losing coolant is a vehicle that's one long uphill away from a serious overheat. We replace the water pump, thermostat, and inspect all hoses as part of a cooling system service.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust Manifold Leaks",
           "desc": "The Vortec V8's cast iron exhaust manifolds are known to crack or develop gasket leaks on high-mileage examples, the heavy-load thermal cycling these engines see accelerates the process. An exhaust leak sounds like a ticking or tapping that's loudest when the engine is cold and may quiet down as the metal expands. We inspect the manifolds and repair any leaks before exhaust gases can affect oxygen sensor readings.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Front Suspension Clunking, Control Arms and Ball Joints",
           "desc": "H2 front suspension components, upper and lower control arm bushings and ball joints, wear under the vehicle's weight and off-road use. Clunking over bumps, uneven tire wear, and steering that feels loose are the symptoms. Ball joint failure on a heavy truck is a safety concern, if you're hearing clunking from the front end, get it inspected.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Vortec EVAP and O2 Sensor Codes",
           "desc": "H2s with the Vortec V8 commonly trigger evaporative emission system codes and oxygen sensor faults as mileage climbs. Some of these are simple fixes; others require more investigation. We read the codes and trace them to the actual cause.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -289,32 +289,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and hydraulic system inspection, heavy-duty hardware for a 6,500-lb SUV."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump / Cooling Service",
           "desc": "Vortec V8 water pump, thermostat, and full cooling system service to prevent overheating."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Manifold Repair",
           "desc": "Manifold crack and gasket repair on high-mileage Vortec 6.0L and 6.2L H2 engines."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Front Suspension Service",
           "desc": "Control arm bushings, ball joints, and strut service on the H2's heavy-duty front suspension."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Rear Shock Replacement",
           "desc": "Restore ride quality and load-carrying stability on worn H2 rear shocks."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and diagnostics, everything your H2 needs in one visit."
         }
@@ -393,37 +393,37 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on Startup, 3.5L and 3.7L",
           "desc": "The 3.5L and 3.7L five-cylinder engines in the H3 are prone to timing chain and guide wear at high mileage, particularly when oil changes have been stretched. The classic sign is a brief rattling on cold startup that quiets once oil pressure builds. Don't ignore it, a worn timing chain can jump teeth and cause major engine damage. We replace the chain, guides, tensioner, and front cover seal as a complete service.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Squealing and Wear",
           "desc": "H3 brakes handle well for the vehicle's size, but front pads wear at a predictable rate, faster if the truck is used for towing or off-road. Squealing is the wear indicator telling you it's time. We inspect the full system, pads, rotors, calipers, and brake fluid condition, and give you a written estimate.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-wheel-drive axles on the H3 handle a lot of articulation during off-road use, which accelerates CV joint wear. A rhythmic clicking on low-speed turns, especially in parking lots or on tight trail sections, is the worn outer CV joint. We replace the full axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Water Pump Replacement on Five-Cylinder",
           "desc": "Water pump failure on the H3's five-cylinder is a known service item as mileage climbs. A dripping weep hole or unexplained coolant loss that isn't coming from a hose usually points to the pump. In Utah's summer heat, a compromised cooling system on an H3 working the Wasatch grades is a real risk.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light, EVAP and O2 Codes",
           "desc": "High-mileage H3s frequently trigger evaporative emission system and oxygen sensor codes. We read the codes, trace the actual root cause, and fix what needs fixing rather than just clearing the light.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Noise",
           "desc": "H3 exhaust manifold gaskets and downstream flex connectors develop leaks on high-mileage examples. An exhaust leak produces a ticking or hissing under the hood when cold, and can affect O2 sensor accuracy. We inspect the full exhaust system from manifold to tailpipe.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -463,32 +463,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Five-cylinder H3 timing chain, guides, and tensioner, repair before wear causes engine damage."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear brake service, pads, rotors, and calipers on the GMT345 H3 platform."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for CV clicking on turns, especially on H3s used off-road."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service for high-mileage H3 five-cylinder engines running in Utah's climate."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets and exhaust system service on the 3.5L and 3.7L H3 engines."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and diagnostics, everything your H3 needs in one visit."
         }

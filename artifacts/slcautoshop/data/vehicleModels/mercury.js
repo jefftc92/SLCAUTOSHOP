@@ -61,37 +61,37 @@ module.exports = {
         {
           "title": "Rear End Sagging, Air Suspension Failure",
           "desc": "The rear air suspension on 1998–2011 Grand Marquis models is one of the first things to go with age. Leaking air bags or a failed compressor will cause the rear to sag noticeably, especially overnight. We replace the failed components or convert the system to a passive coil setup that eliminates future air system headaches.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Fade or Soft Pedal",
           "desc": "The Grand Marquis uses large, straightforward disc brakes all around, but aging rubber brake hoses can internally collapse and cause uneven braking or a soft pedal. We inspect the entire brake system including the hoses, calipers, pads, and rotors before recommending parts.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Loud or Rattling Exhaust",
           "desc": "The exhaust system on a high-mileage Grand Marquis, especially one that's lived through Utah winters with road salt, is a common failure point. Rusted flex pipes, cracked manifold gaskets, and rotted muffler hangers cause loud rattles and exhaust leaks. We inspect the full exhaust and repair or replace what's needed.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, Catalytic Converter Codes",
           "desc": "High-mileage Grand Marquis with P0420 or P0430 codes are common. The 4.6L modular V8 runs two catalytic converters, and they wear out as mileage climbs. We diagnose the root cause, bad O2 sensor, actual cat failure, or an exhaust leak tricking the sensor, before recommending replacement.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Rough Ride, Worn Shocks and Struts",
           "desc": "Grand Marquis with factory air suspension converted to passive springs, or non-air models with original shocks, will develop a loose, floaty ride as the dampers wear out. Utah's rough roads and temperature extremes accelerate this. We replace shocks with quality units that restore the firm, controlled feel these cars were engineered to deliver.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Squealing or Grinding Brakes",
           "desc": "Brake pads on the Grand Marquis are thick from the factory, but they do wear out, and owners who aren't watching the mileage sometimes push into the backing plate. Grinding brakes mean rotor damage, which turns a pad replacement into a pad-and-rotor job. Bring it in before it gets to that point.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         }
       ],
@@ -131,32 +131,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension Conversion or Strut Replacement",
           "desc": "Air bag replacement or full passive coil conversion for sagging 1998–2011 Grand Marquis rear ends."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, brake hose inspection, full brake system service for all Grand Marquis years."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, manifold gasket, muffler, and hanger replacement for rusted or damaged Grand Marquis exhaust systems."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420/P0430 diagnosis and cat replacement for the 4.6L dual-cat exhaust system."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Quality shock absorber replacement to restore ride control on high-mileage Panther-platform cars."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and fluid checks, everything your Grand Marquis needs in a single visit."
         }
@@ -243,31 +243,31 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on Cold Start",
           "desc": "The 4.0L SOHC V6 in 2002–2010 Mountaineers is notorious for timing chain and tensioner failure. The chains run through the front and rear of the engine. A worn tensioner creates a rattling or slapping sound on cold startup that usually quiets after oil pressure builds. This is a serious issue that can cause catastrophic engine damage if ignored. We inspect the chain system and replace it before it lets go.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front CV axle joints on Mountaineer models with 4WD wear out over time, especially on trucks used for off-road or rough terrain driving. The first symptom is a rhythmic clicking that increases when turning. We replace the complete axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Noise or Grinding",
           "desc": "Mountaineer brake systems are conventional and straightforward, but the rear drums on early models and the rear discs on later ones wear unevenly if the parking brake hasn't been used regularly. We inspect the full brake system, pads, rotors, calipers, and drums, and replace what's worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light, Emissions and Oxygen Sensor Codes",
           "desc": "High-mileage Mountaineers commonly trigger oxygen sensor and P0420 catalytic converter efficiency codes. We read the codes, verify the actual cause, an exhaust leak, a bad sensor, or a genuinely worn cat, and fix the right thing rather than throwing parts at it.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Rough or Bouncy Ride",
           "desc": "Shock absorbers on high-mileage Mountaineers wear out gradually, so owners sometimes don't notice how much the ride quality has degraded until they compare it to a newer vehicle. Worn shocks also affect handling and braking distance. We inspect and replace shocks when they're no longer controlling wheel movement effectively.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -307,32 +307,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "4.0L SOHC chain, tensioner, and guide replacement, the most critical repair on high-mileage Mountaineers."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Front axle shaft replacement for clicking or grinding during turns on 4WD-equipped Mountaineers."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pads, rotors, drums, calipers, for all Mountaineer generations."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and replacement for high-mileage Mountaineer exhaust systems."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Shock absorber replacement to restore ride control and handling stability."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and fluid maintenance, everything your Mountaineer needs in one visit."
         }
@@ -419,37 +419,37 @@ module.exports = {
         {
           "title": "Timing Belt Replacement, Duratec V6",
           "desc": "The 3.0L Duratec V6 in 1996–2005 Sables uses a rubber timing belt that should be replaced every 60,000–90,000 miles. Unlike some interference engines, the Duratec has some forgiveness if the belt breaks, but the damage can still be serious. We replace the belt, water pump, tensioner, and idler pulleys together, doing the water pump at the same time is standard practice since the labor is already done.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Water Pump Weep or Overheating",
           "desc": "The water pump on the Duratec V6 is driven by the timing belt, it's buried inside the engine cover and often fails with a slow weep before it fails completely. We catch this during timing belt inspections. Ignoring it risks overheating and head gasket damage that costs far more to repair.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-wheel-drive Sables rely on CV axles that wear out over time, particularly on the inner joints. Clicking during low-speed turns is the first sign. We replace the complete axle shaft, not just the boot, for a repair that holds up.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Squealing or Soft Brake Pedal",
           "desc": "The Sable's brake system is conventional but needs regular attention on high-mileage cars. Aging rubber brake hoses can restrict fluid flow or internally collapse, causing uneven braking or a pedal that goes too far to the floor. We inspect the full system, hoses, calipers, pads, and rotors, before recommending parts.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Check Engine Light and Emissions Failure",
           "desc": "Older Sables frequently develop P0171 and P0174 lean codes from a cracked intake manifold runner or a failing idle air control valve, both common failure modes on the Vulcan V6. We read the codes, test the system, and fix the actual cause rather than clearing the light and hoping it stays off.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Loud Exhaust or Exhaust Smell in Cabin",
           "desc": "Sable exhaust manifold gaskets fail with age and high mileage, causing a ticking sound and occasionally routing exhaust toward the cabin. A cracked flex pipe is another common exhaust leak point. Both are safety concerns and need to be addressed, we inspect the full exhaust system and repair what's leaking.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -489,32 +489,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Duratec V6 timing belt, water pump, tensioner, and idler, complete service on the correct interval."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Belt-driven Duratec water pump replacement, typically done alongside the timing belt service."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Complete front axle shaft replacement for clicking on turns, all Sable front-wheel-drive configurations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system inspection including hoses, calipers, pads, and rotors for all Sable generations."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket, flex pipe, and full exhaust system repair for leaking or noisy Sable exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and fluid maintenance, everything your Sable needs in one visit."
         }
@@ -593,31 +593,31 @@ module.exports = {
         {
           "title": "Timing Belt Service: VG33E V6",
           "desc": "The Nissan VG33E V6 in all Villagers is an interference engine, if the timing belt breaks, the valves and pistons collide and the engine is destroyed. The service interval is 60,000 miles, but age matters as much as mileage on belts this old. If you don't know when the belt was last replaced, assume it's overdue. We replace the belt, water pump, tensioner, and idler pulley as a complete service.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Water Pump Failure and Overheating",
           "desc": "The Villager's water pump is driven by the timing belt and lives inside the timing cover. When it fails, usually a weeping seal before a full failure. The coolant loss leads to overheating. We replace it alongside the timing belt as a matter of course; opening the timing cover twice is unnecessary expense.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front CV joints on the Villager wear over time, particularly on vans that have been driven with a cracked boot for any length of time. Rhythmic clicking on low-speed turns is the tell. We replace the complete axle shaft for a proper repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake System Wear",
           "desc": "Villagers with original brake hardware that's never been fully serviced will have aged calipers, hardened rubber hoses, and worn rotors. A brake system that's 20 years old needs more than just pads. We inspect the entire system and replace what's actually worn, not just what's easy.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light",
           "desc": "Older Villagers develop check engine lights from worn oxygen sensors, failing EGR components, or catalytic converter efficiency codes. In Utah, a check engine light means an automatic emissions failure. We read the codes, trace the actual cause, and fix it, not just erase it.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -657,32 +657,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "VG33E interference engine timing belt, water pump, tensioner, and idler, the most critical service on any Villager."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Belt-driven water pump replacement, done as part of the timing belt service to avoid redundant labor."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Complete front axle shaft replacement for worn CV joints on all Villager model years."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system service, pads, rotors, calipers, hoses, for vans with original or aging brake hardware."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust manifold gaskets, flex pipes, and muffler service for aging Villager exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and fluid maintenance for older vans that need a thorough going-over."
         }
@@ -789,31 +789,31 @@ module.exports = {
         {
           "title": "Clutch Slipping or High Engagement Point",
           "desc": "The manual Cougar with the 2.0L or 2.5L engine is a fun driver's car, but clutches wear, particularly on cars driven spiritedly. A clutch that slips under hard acceleration, grabs high on the pedal, or has difficulty finding neutral is telling you it's time. We replace the clutch assembly, inspect the flywheel, and verify the hydraulics so the job is done completely.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Timing Belt Service: Zetec Four-Cylinder",
           "desc": "The 2.0L Zetec in the 1999–2002 Cougar uses a rubber timing belt on a 60,000-mile replacement interval. It is an interference engine, a broken belt destroys valves. We replace the belt, water pump, tensioner, and idler pulleys as a complete service. Don't let this one go overdue.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "The front-wheel-drive final-gen Cougar relies on CV axles that see more stress on a car that's driven hard. Clicking on low-speed turns is the first sign of a worn outer joint. We replace the complete axle shaft for a proper fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Squealing or Grinding Brakes",
           "desc": "Cougars driven enthusiastically go through brake pads faster than average commuter cars. Squealing is the wear indicator, grinding means you've hit the backing plate and are cutting into the rotor. Get brake noise addressed before it becomes a more expensive repair.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Rough Ride or Wandering Handling",
           "desc": "The Cougar's suspension was tuned for a sporty feel from the factory, but worn struts make the car feel loose and unpredictable, particularly on Utah's canyon roads and uneven pavement. We inspect and replace struts and shocks to restore the handling precision these cars were designed to deliver.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -853,32 +853,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Cougar clutch replacement, assembly, hydraulics, and flywheel inspection for all drivetrain configurations."
         },
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Zetec interference engine timing belt, water pump, and tensioner, complete service on schedule."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Complete front axle shaft replacement for clicking or worn CV joints on FWD Cougar models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for all Cougar generations, including performance-driven wear patterns."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement to restore handling precision on worn final-gen Cougar suspensions."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and fluid maintenance, everything your Cougar needs in a single visit."
         }

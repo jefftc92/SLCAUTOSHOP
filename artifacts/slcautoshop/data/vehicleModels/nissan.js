@@ -65,37 +65,37 @@ module.exports = {
         {
           "title": "CVT Shudder, Whine, or Hesitation",
           "desc": "Many Altima owners notice a shudder during light acceleration, a whining noise that rises with speed, or a delay when the transmission picks up. Often the first step is checking and servicing the CVT fluid with the correct Nissan NS-spec fluid, degraded fluid causes much of this behavior. We road test, check fluid condition, and tell you honestly whether a fluid service will help or whether the unit itself is failing.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Timing Chain Rattle on the QR25 Four-Cylinder",
           "desc": "High-mileage 2.5L Altimas with a history of skipped oil changes can develop timing chain stretch and tensioner wear. The classic sign is a metallic rattle on cold startup that quiets as oil pressure builds. Ignored, a worn chain can jump teeth and damage the engine. We inspect the chain, guides, and tensioner and replace them before that happens.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "Older Altimas commonly trigger P0420 catalytic converter efficiency codes and O2 sensor faults as mileage climbs. These are straightforward diagnoses. We read the codes, confirm the actual root cause rather than guessing, and fix what genuinely needs fixing instead of just clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Front Brake Wear and Squeal",
           "desc": "Altima front brakes take a beating in stop-and-go Salt Lake Valley traffic. A squeal when braking usually means the pads are near the wear indicator; a grinding sound means metal-on-metal and rotor damage. We do pads and rotors together and inspect the calipers and slide pins so the new brakes work properly.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Clunks and a Bouncy Ride Over Bumps",
           "desc": "Worn struts on a high-mileage Altima show up as a floaty, bouncy ride, nose dive under braking, or a clunk over rough pavement. Utah's frost-heaved roads accelerate this wear. We inspect the struts, mounts, and bushings and replace what's worn so the car tracks straight and rides the way it should.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "A rhythmic clicking when turning at low speed, most noticeable in parking lots, points to a worn CV joint. The rubber boot cracks, grease escapes, and grit gets in. We replace the complete axle shaft rather than just repacking the boot, which gives you a far more durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -135,32 +135,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Altima front and rear pads, rotors, and full caliper inspection for SLC stop-and-go driving."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "QR25 chain, tensioner, and guide replacement on high-mileage Altimas before damage occurs."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and OEM-quality converter replacement for Altima check-engine concerns."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, more reliable than boot-only repairs."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "New struts and mounts to fix a bouncy, floaty Altima ride on Utah's rough roads."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, CVT fluid check, and anything else your Altima needs, one visit."
         }
@@ -259,37 +259,37 @@ module.exports = {
         {
           "title": "CVT Shudder, Slipping, or RPM Flare",
           "desc": "Sentra owners often describe a shudder under light throttle, a sense of slipping, or the engine RPMs flaring without matching acceleration. Worn or degraded CVT fluid is a frequent culprit. We road test the car, check the fluid, and tell you honestly whether a service with the correct Nissan NS-spec fluid will help or whether the transmission itself is the problem.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Timing Chain Rattle on High-Mileage Engines",
           "desc": "The MR-series four-cylinders in newer Sentras can develop timing chain and tensioner wear when oil changes have been neglected. A metallic rattle on cold startup that fades after a few seconds is the warning sign. We inspect the chain, tensioner, and guides and replace them before a jumped chain causes engine damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Check Engine Light, Emissions and Sensor Codes",
           "desc": "Older Sentras frequently set P0420 catalytic converter codes and O2 sensor faults as they age, and that's also a common reason a Sentra fails an emissions test. We read the codes, verify the real cause, and fix what genuinely needs fixing so the car passes.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "Clutch Wear on Manual Sentras",
           "desc": "Manual Sentras, including the sportier SE-R variants, will eventually need a clutch. Signs include a high or grabby engagement point, slipping under acceleration, or a burning smell after hill climbs. We carry quality clutch kits and inspect the hydraulic system at the same time so the repair is complete.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Squeal and Front Pad Wear",
           "desc": "Sentra front brakes wear steadily in valley commuting, and a squeal usually means the pads have reached the wear indicator. Let it go and you'll hear grinding, which means rotor damage. We do pads and rotors together and inspect the calipers and slide pins so the new brakes perform.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Worn Struts and a Floaty Ride",
           "desc": "A bouncy, floaty ride, nose dive when braking, or a clunk over rough pavement points to worn struts, and Utah's frost-heaved roads wear them out faster. We inspect the struts, mounts, and bushings and replace what's worn so the Sentra rides and tracks correctly.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -329,32 +329,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual and SE-R Sentras, quality OEM-spec clutch kits and hydraulic system inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Sentra front and rear pads, rotors, and caliper inspection for SLC commuting."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "MR-series chain, tensioner, and guide replacement on high-mileage Sentras before damage."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and OEM-quality converter replacement to help your Sentra pass emissions."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "New struts and mounts to fix a bouncy Sentra ride on Utah's rough roads."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, CVT fluid check, and anything else your Sentra needs."
         }
@@ -441,37 +441,37 @@ module.exports = {
         {
           "title": "CVT Whine, Shudder, or Power Loss",
           "desc": "Rogue owners often report a rising whine with speed, a shudder under light acceleration, or a noticeable loss of power. Degraded CVT fluid causes much of this. We road test the SUV, check the fluid condition, and give you an honest answer about whether a service with the correct Nissan NS-spec fluid will help or whether the unit is failing.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Timing Chain Rattle on the QR25 Engine",
           "desc": "High-mileage Rogues with a history of skipped oil changes can develop timing chain stretch and tensioner wear in the 2.5L engine. A metallic rattle on cold startup that fades quickly is the warning sign. We inspect the chain, guides, and tensioner and replace them before a jumped chain damages the engine.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear and Squeal",
           "desc": "A loaded Rogue hauling family and gear wears brakes faster than a light car, especially with frequent canyon descents. A squeal means the pads are near the wear indicator; grinding means rotor damage. We do pads and rotors together and inspect the calipers and hardware so the new brakes work properly.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Worn Struts and a Bouncy, Unstable Ride",
           "desc": "Worn struts on a Rogue show up as a floaty ride, nose dive under braking, and a clunk over bumps, and a fully loaded SUV makes it worse. Utah's rough roads accelerate the wear. We inspect the struts, mounts, and bushings and replace what's worn so the Rogue rides stable and tracks straight.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "As Rogues age they commonly trigger P0420 catalytic converter efficiency codes and O2 sensor faults. These are straightforward diagnoses. We read the codes, confirm the true root cause, and fix what genuinely needs fixing rather than just clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "A rhythmic clicking when turning at low speed points to a worn CV joint, common on front-wheel and all-wheel-drive Rogues alike. The boot cracks, grease leaks out, and grit gets in. We replace the complete axle shaft for a durable, long-lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -511,32 +511,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Rogue front and rear pads, rotors, and caliper inspection for a loaded family SUV."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "New struts and mounts to restore stable ride and handling on a high-mileage Rogue."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "QR25 chain, tensioner, and guide replacement on high-mileage Rogues before damage."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and OEM-quality converter replacement for Rogue check-engine concerns."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on FWD and AWD Rogues."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, CVT and AWD fluid checks, and anything else your Rogue needs."
         }
@@ -631,37 +631,37 @@ module.exports = {
         {
           "title": "CVT Hesitation or Shudder on R52 Models",
           "desc": "Owners of 2013–2020 Pathfinders sometimes notice a hesitation when accelerating or a shudder under light throttle. Degraded CVT fluid is a common contributor. We road test the SUV, check the fluid condition, and tell you honestly whether a service with the correct Nissan NS-spec fluid will help or whether the transmission needs deeper work.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Timing Chain Rattle on the VQ40 V6",
           "desc": "The VQ40 V6 in R51 Pathfinders is a strong engine, but high-mileage examples with neglected oil changes can develop timing chain and guide wear. A rattle on cold startup that quiets as oil pressure builds is the tell. We inspect the chain, guides, and tensioners and replace them before a jumped chain causes major engine damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear on a Heavy SUV",
           "desc": "A loaded Pathfinder puts serious demand on its brakes, especially descending the canyons. A squeal means the pads are near the wear indicator; grinding means rotor damage. We do pads and rotors together and inspect calipers and hardware so the new brakes stop the SUV confidently.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Worn Shocks and a Wallowing Ride",
           "desc": "On body-on-frame Pathfinders, worn shocks produce a bouncy, wallowing ride and poor control over bumps, and a loaded SUV makes it obvious. Utah's rough roads wear them out. We inspect the shocks, mounts, and bushings and replace what's worn so the Pathfinder rides controlled and tracks straight.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "As Pathfinders age they commonly set P0420 catalytic converter codes and O2 sensor faults. These are straightforward diagnoses. We scan the codes, confirm the actual root cause, and fix what genuinely needs fixing instead of just clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Leaks and Drone",
           "desc": "Years of Utah road brine eat at exhaust pipes, hangers, and connections on older Pathfinders. The result is a louder exhaust, a drone in the cabin, or a rattle from a broken hanger. We inspect the full exhaust system and repair or replace the corroded sections so it runs quiet and seals correctly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -701,32 +701,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pathfinder front and rear pads, rotors, and caliper inspection for a heavy, loaded SUV."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "New shocks and mounts to restore controlled ride on a high-mileage Pathfinder."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VQ40 V6 chain, guide, and tensioner replacement on high-mileage Pathfinders before damage."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Repair of corroded pipes, hangers, and connections to quiet a leaking Pathfinder exhaust."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and OEM-quality converter replacement for Pathfinder check-engine concerns."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Pathfinder needs."
         }
@@ -813,37 +813,37 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual Frontiers",
           "desc": "Manual Frontiers used for towing, hauling, or frequent hill starts will wear a clutch. Signs include a high or grabby engagement point, slipping under load, or a burning smell after a heavy pull. We carry quality clutch kits and inspect the hydraulic system so the repair is complete and the new clutch feels right.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Timing Chain Rattle on the VQ40 V6",
           "desc": "High-mileage D40 Frontiers with a history of neglected oil changes can develop timing chain and guide wear. A rattle on cold startup that quiets once oil pressure builds is the warning sign. We inspect the chain, guides, and tensioners and replace them before a jumped chain causes serious engine damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear from Hauling and Towing",
           "desc": "A loaded Frontier puts heavy demand on its brakes, especially on canyon descents. A squeal means the pads are near the wear indicator; grinding means rotor damage. We do pads and rotors together and inspect calipers and hardware so the brakes stop a working truck confidently.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Worn Shocks and a Harsh, Bouncy Ride",
           "desc": "Worn shocks on a Frontier show up as a bouncy, unsettled ride and poor control over rough pavement, and a loaded bed makes it worse. Utah's frost-heaved roads accelerate the wear. We inspect the shocks, mounts, and bushings and replace what's worn so the truck rides controlled.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Leaks and Drone",
           "desc": "Years of Utah road brine corrode exhaust pipes, hangers, and connections on older Frontiers. The result is a louder exhaust, a cabin drone, or a rattle from a broken hanger. We inspect the full exhaust system and repair or replace the corroded sections so it runs quiet and seals correctly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "As Frontiers age they commonly trigger P0420 catalytic converter codes and O2 sensor faults. These are straightforward diagnoses. We scan the codes, confirm the real root cause, and fix what genuinely needs fixing rather than just clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -883,32 +883,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Frontiers, quality OEM-spec clutch kits and hydraulic system inspection for work-truck duty."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Frontier front and rear pads, rotors, and caliper inspection for a hauling, towing truck."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VQ40 V6 chain, guide, and tensioner replacement on high-mileage Frontiers before damage."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "New shocks and mounts to restore a controlled ride on a high-mileage Frontier."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Repair of corroded pipes, hangers, and connections to quiet a leaking Frontier exhaust."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Frontier needs."
         }
@@ -991,37 +991,37 @@ module.exports = {
         {
           "title": "Brake Wear from Heavy Hauling and Towing",
           "desc": "A full-size Titan loaded or towing puts serious heat into its brakes, especially on canyon descents. A squeal means the pads are near the wear indicator; grinding means rotor damage. We do pads and rotors together and inspect calipers and hardware so the brakes stop a heavy truck with confidence.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Timing Chain Wear on the Endurance V8",
           "desc": "The 5.6L V8 is durable, but high-mileage Titans with neglected oil changes can develop timing chain and guide wear. A rattle on cold startup that quiets as oil pressure builds is the warning sign. We inspect the chain, guides, and tensioners and replace them before a jumped chain causes serious engine damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Worn Shocks and a Wallowing, Bouncy Ride",
           "desc": "Worn shocks on a Titan show up as a bouncy, wallowing ride and poor control over rough pavement, and a loaded bed makes it obvious. Utah's frost-heaved roads accelerate the wear. We inspect the shocks, mounts, and bushings and replace what's worn so the truck rides controlled and tracks straight.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Leaks and Drone",
           "desc": "Years of Utah road brine corrode exhaust pipes, hangers, and connections on the Titan. The result is a louder exhaust, a drone in the cabin, or a rattle from a broken hanger. We inspect the full exhaust system and repair or replace the corroded sections so it runs quiet and seals correctly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Engine Overheating Under Load",
           "desc": "Towing a heavy trailer up a Utah grade in summer heat pushes the Titan's cooling system to its limit. A failing water pump, tired coolant, or a clogged radiator can let temperatures climb. We check the cooling system, inspect the water pump, and service the coolant so the engine stays cool when you're working it hard.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "As Titans age they commonly trigger P0420 catalytic converter codes and O2 sensor faults. These are straightforward diagnoses. We scan the codes, confirm the real root cause, and fix what genuinely needs fixing rather than just clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -1061,32 +1061,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Titan front and rear pads, rotors, and caliper inspection for a heavy hauling, towing truck."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Endurance V8 chain, guide, and tensioner replacement on high-mileage Titans before damage."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "New shocks and mounts to restore a controlled ride on a loaded, high-mileage Titan."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling-system service and water pump replacement to keep a towing Titan from overheating."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Repair of corroded pipes, hangers, and connections to quiet a leaking Titan exhaust."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Titan needs."
         }
@@ -1185,37 +1185,37 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on the VQ V6",
           "desc": "High-mileage Maximas with a history of skipped oil changes can develop timing chain and guide wear in the VQ V6. A metallic rattle on cold startup that quiets as oil pressure builds is the warning sign. We inspect the chain, guides, and tensioners and replace them before a jumped chain causes serious engine damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CVT Shudder or Hesitation on Later Models",
           "desc": "Owners of later CVT-equipped Maximas sometimes notice a shudder under light throttle or a hesitation when accelerating. Degraded CVT fluid is a common contributor. We road test the car, check the fluid condition, and tell you honestly whether a service with the correct Nissan NS-spec fluid will help or whether the unit needs deeper work.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Front Brake Wear and Squeal",
           "desc": "The Maxima's weight and quick power make it harder on front brakes than a typical sedan. A squeal means the pads are near the wear indicator; grinding means rotor damage. We do pads and rotors together and inspect calipers and slide pins so the new brakes perform the way the car deserves.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Worn Struts and a Floaty Ride",
           "desc": "Worn struts rob the Maxima of the composed handling it's known for, you'll feel a floaty ride, nose dive under braking, and a clunk over bumps. Utah's rough roads accelerate the wear. We inspect the struts, mounts, and bushings and replace what's worn so the car tracks and handles correctly.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and Sensor Codes",
           "desc": "As Maximas age they commonly trigger P0420 catalytic converter efficiency codes and O2 sensor faults. These are straightforward diagnoses. We scan the codes, confirm the real root cause, and fix what genuinely needs fixing rather than just clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "A rhythmic clicking when turning at low speed, most noticeable in parking lots, points to a worn CV joint. The rubber boot cracks, grease escapes, and grit gets in. We replace the complete axle shaft rather than just repacking the boot, giving you a far more durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -1255,32 +1255,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VQ V6 chain, guide, and tensioner replacement on high-mileage Maximas before damage occurs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Maxima front and rear pads, rotors, and caliper inspection for a heavier sport sedan."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "New struts and mounts to restore the Maxima's composed handling on Utah roads."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and OEM-quality converter replacement for Maxima check-engine concerns."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, more reliable than boot-only repairs."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, CVT fluid check, and anything else your Maxima needs."
         }
@@ -1375,19 +1375,19 @@ module.exports = {
         {
           "title": "CVT Overheating and Shudder",
           "desc": "The Murano's Xtronic CVT runs hot, and Utah summer heat plus canyon climbs make it worse. Symptoms include a shudder or hesitation during acceleration, a whining noise that rises with speed, or the transmission going into a protective limp mode on long grades. Most of the time the fluid is overdue or degraded. We service the CVT with the correct Nissan-spec fluid and check the transmission cooler, which buys these transmissions real longevity.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Water Pump and Coolant Leaks",
           "desc": "The VQ35 V6 depends on a healthy cooling system, and water pumps wear out as mileage climbs. A weeping pump, a sweet coolant smell, or a temperature gauge creeping up means it's time. We replace the water pump with a quality part and pressure-test the system so you don't end up with an overheated V6.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear on a Heavy Crossover",
           "desc": "The Murano is a heavy vehicle, and front brakes take the brunt of stopping it, especially with Salt Lake's stop-and-go traffic and canyon descents. Squealing, a pulsing pedal, or longer stopping distances mean it's time for inspection. We measure pads and rotors and replace what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
@@ -1399,13 +1399,13 @@ module.exports = {
         {
           "title": "CV Axle Clicking on AWD Models",
           "desc": "AWD Muranos have front CV axles that wear like any other front-drive vehicle. A rhythmic clicking on turns, loudest at low speed in parking lots, means a CV joint has worn after the boot cracked and lost grease. We replace the complete axle shaft for a durable repair rather than just repacking the boot.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Worn Struts and a Floaty Ride",
           "desc": "The Murano is tuned for comfort, and worn struts make it feel loose and bouncy over Utah's frost-heaved roads. If the front end keeps bobbing after a bump or the body leans hard in corners, the struts are likely done. We inspect and replace struts to bring back the controlled ride.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -1445,32 +1445,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "VQ35 V6 water pump and coolant service to keep your Murano's cooling system healthy."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for a heavy crossover that's hard on front brakes."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, common on AWD Muranos."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore the controlled, comfortable ride the Murano is known for on rough Utah roads."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leaks, hangers, and corrosion repair for Muranos exposed to years of Utah road salt."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, CVT fluid service, oil service, and anything else your Murano needs."
         }
@@ -1560,19 +1560,19 @@ module.exports = {
         {
           "title": "CVT Service and Fluid Condition",
           "desc": "The Kicks CVT is reliable when its fluid is kept fresh, but neglected fluid leads to shudder, whine, or hesitant acceleration. Utah's summer heat speeds up fluid degradation. We service the CVT with genuine Nissan-spec fluid, which keeps these transmissions healthy and avoids a very expensive repair down the road.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Brake Wear from City Commuting",
           "desc": "The Kicks is a commuter car, and Salt Lake's stop-and-go driving wears front brakes steadily. Squealing, a pulsing pedal, or a grinding noise means it's time for inspection. We measure the pads and rotors and replace only what's worn, keeping the cost reasonable.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "The front-wheel-drive Kicks has CV axles that wear over time. A rhythmic clicking when turning, loudest at low speed in a parking lot, means a CV joint has worn after its boot cracked and lost grease. We replace the complete axle shaft for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
@@ -1584,13 +1584,13 @@ module.exports = {
         {
           "title": "Worn Struts and a Rough Ride",
           "desc": "The Kicks is a light vehicle, and worn struts make Utah's broken pavement feel even rougher. If the front end bounces repeatedly after a bump or the car feels unsettled, the struts are likely worn. We inspect and replace them to restore a controlled ride.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Corrosion from Road Salt",
           "desc": "Utah's heavy winter road salt corrodes exhaust components on a budget crossover like the Kicks. A new rattle, a louder exhaust note, or a buzzing under the floor often means a corroded hanger or a leak. We inspect the system and repair leaks before they grow.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1630,32 +1630,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for a daily-driven commuter crossover."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on the front-drive Kicks."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore a controlled ride on a light crossover over rough Utah pavement."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leak and hanger repair for exhaust corroded by years of Utah road salt."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Rear shock replacement to keep the Kicks composed over bumps and dips."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, CVT fluid service, oil service, and routine maintenance in one visit."
         }
@@ -1745,19 +1745,19 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual Versas",
           "desc": "Many Versas came with the 5-speed manual, and clutches wear with miles and city driving. Signs include a high or grabby engagement point, slipping under acceleration, or a clutch that's hard to disengage. We replace the clutch with a quality OEM-spec kit and inspect the hydraulic system.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "CVT Shudder and Hesitation",
           "desc": "On CVT Versas, neglected or overheated fluid causes a shudder during acceleration, a rising whine, or hesitation pulling away from a stop. We service the CVT with genuine Nissan-spec fluid, which keeps the transmission healthy and avoids a major repair bill on an inexpensive car.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Brake Wear from Commuting",
           "desc": "The Versa is a commuter car, and Salt Lake's stop-and-go traffic wears front brakes steadily. Squealing, a pulsing pedal, or a grinding noise means it's time. We measure pads and rotors and replace only what's worn, keeping costs reasonable.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
@@ -1769,13 +1769,13 @@ module.exports = {
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "The front-drive Versa develops worn CV joints as the protective boots crack and lose grease. A rhythmic clicking on turns, loudest at low speed in parking lots, is the giveaway. We replace the complete axle shaft for a durable, lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Worn Struts and a Bouncy Ride",
           "desc": "The Versa is a light car, and worn struts make Utah's frost-cracked roads feel harsh. If the front end keeps bouncing after a bump or feels loose, the struts are likely worn out. We inspect and replace them to restore a controlled, stable ride.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -1815,32 +1815,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits and hydraulic inspection for manual-transmission Versas."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for a daily-driven commuter car."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on the front-drive Versa."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore a controlled ride on a light car over rough Utah pavement."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leak and hanger repair for exhaust corroded by Utah's heavy winter road salt."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, CVT fluid service, oil service, and routine maintenance in one visit."
         }
@@ -1930,31 +1930,31 @@ module.exports = {
         {
           "title": "Clutch Wear on the 6-Speed",
           "desc": "The 370Z's 6-speed manual is a great gearbox, but spirited driving, canyon runs, and the occasional track day wear clutches faster than commuter use. Signs include slipping under hard acceleration, a high or grabby engagement point, or a burning smell after aggressive driving. We replace the clutch with a quality OEM-spec kit and inspect the hydraulics and flywheel.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Fade and Pad Wear",
           "desc": "Z owners use their brakes hard, and the Wasatch canyons add long descents that heat them up. A soft pedal after repeated stops, squealing, or a pulsing pedal means it's time. We inspect pads and rotors and fit quality parts that resist fade under spirited driving.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Grinding or Notchy Shifting",
           "desc": "If the 370Z gearbox grinds going into a gear or feels notchy, it can point to worn synchros or a clutch that isn't fully disengaging. We diagnose whether it's a hydraulic issue, the clutch, or the transmission itself, and give you a straight answer before any work.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Worn Suspension and Sloppy Handling",
           "desc": "A sports car lives on its suspension. As the Z34's shocks and bushings age, the handling gets vague and the car wanders or floats over bumps. We inspect the struts, shocks, and bushings and replace what's worn to bring back the sharp, planted feel.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Leaks and Drone",
           "desc": "Many 370Zs have aftermarket or aging exhaust systems, and Utah road salt corrodes hangers and joints over time. A new rattle, an exhaust leak, or excessive drone often means a corroded section or a loose connection. We inspect the full system and repair leaks.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
@@ -2000,32 +2000,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits, hydraulic inspection, and flywheel service for the 6-speed Z34."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Quality pads and rotors that resist fade under canyon and spirited driving."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Restore the sharp, planted handling the 370Z is built to deliver."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut service to keep the Z34 chassis precise over rough Utah roads."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leak, hanger, and connection repair for aging or aftermarket 370Z exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and routine maintenance to keep your 370Z sharp."
         }
@@ -2115,31 +2115,31 @@ module.exports = {
         {
           "title": "Clutch Wear on the 6-Speed",
           "desc": "The 350Z's 6-speed manual takes a beating from spirited driving and canyon runs. Slipping under hard acceleration, a high engagement point, or a burning smell after aggressive driving all point to a worn clutch. We replace it with a quality OEM-spec kit and inspect the hydraulics and flywheel.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Worn Suspension and Vague Handling",
           "desc": "The Z33's shocks and bushings wear with age, and a 350Z that floats over bumps or feels loose in corners has lost its edge. We inspect the shocks, struts, and bushings and replace what's worn to bring back the planted, responsive feel.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Fade and Pad Wear",
           "desc": "Z owners use their brakes, and the Wasatch canyon descents heat them up fast. A soft pedal after repeated stops, squealing, or a pulsing pedal means it's time for inspection. We fit quality pads and rotors that hold up to spirited driving.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Grinding or Notchy Shifting",
           "desc": "If the 350Z's gearbox grinds into a gear or feels notchy, it can point to worn synchros or a clutch that's not fully disengaging. We diagnose whether the issue is hydraulic, the clutch, or the transmission and give you a straight answer first.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Exhaust Leaks and Corrosion",
           "desc": "Many 350Zs run aftermarket or aging exhaust systems, and years of Utah road salt corrode the hangers and joints. A new rattle, a leak, or heavy drone usually means a corroded section. We inspect the whole system and repair the leaks.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
@@ -2185,32 +2185,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits, hydraulic inspection, and flywheel service for the 6-speed Z33."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Refresh worn Z33 dampers to restore the planted, responsive handling."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Quality pads and rotors that resist fade under canyon and spirited driving."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut service to keep the aging Z33 chassis precise over rough roads."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leak, hanger, and connection repair for aging or aftermarket 350Z exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and routine maintenance to keep your 350Z sound."
         }
@@ -2300,37 +2300,37 @@ module.exports = {
         {
           "title": "Radiator-to-Transmission Coolant Contamination",
           "desc": "Certain 2005–2010 Xterras with the automatic can develop a radiator failure that lets coolant mix into the transmission fluid, sometimes called the 'strawberry milkshake' problem. Caught early, the radiator and a transmission flush can save the gearbox. We inspect for this condition on these model years before it causes a costly transmission failure.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Clutch Wear on Manual Xterras",
           "desc": "The manual Xterra works hard on grades and trails, and clutches wear with use. Slipping under load, a high engagement point, or a burning smell on a long climb point to a worn clutch. We replace it with a quality OEM-spec kit and inspect the hydraulics and flywheel.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Timing Chain Rattle on the VQ40",
           "desc": "High-mileage VQ40DE engines can develop timing chain wear, often heard as a metallic rattle on cold startup that quiets once oil pressure builds. Don't ignore it, a worn chain or guide can cause serious engine damage. We inspect the chain, tensioner, and guides and replace them before there's a bigger problem.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": null
         },
         {
           "title": "Brake Wear from Canyon Descents",
           "desc": "An Xterra is heavy, and the long descents out of the Wasatch canyons heat the brakes hard. Squealing, a pulsing pedal, or longer stops mean it's time for inspection. We measure pads and rotors and fit quality parts that handle the load of a heavy SUV.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Worn Shocks and a Rough Ride",
           "desc": "Trail use and Utah's broken pavement wear out an Xterra's shocks. If the truck bounces repeatedly after a bump, wallows on dirt roads, or feels uncontrolled, the shocks are likely worn. We inspect and replace them to restore stability on and off the pavement.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Corrosion from Road Salt",
           "desc": "Utah winter road salt corrodes exhaust components on any truck that sees the canyons in winter. A new rattle, a louder note, or a buzz under the floor often means a corroded hanger or a leak. We inspect the full exhaust system and repair leaks before they spread.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -2370,32 +2370,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits, hydraulic inspection, and flywheel service for manual Xterras."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VQ40DE chain, tensioner, and guide replacement before high-mileage wear causes damage."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads and rotors built to handle a heavy SUV on long Wasatch canyon descents."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Restore stability and control on and off the pavement after trail and road wear."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service to keep the VQ40 V6 from overheating on hard climbs."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and maintenance to keep your Xterra trail-ready."
         }
@@ -2485,31 +2485,31 @@ module.exports = {
         {
           "title": "Turbo Health and Oil Condition",
           "desc": "The Juke's 1.6L turbo runs hot and depends on clean, fresh oil. Neglected oil changes lead to coked oil passages and shortened turbo life. We use the correct oil at proper intervals and watch oil condition closely, turbocharged engines are far less forgiving of dirty oil than naturally aspirated ones.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "CVT Shudder and Hesitation",
           "desc": "On CVT-equipped Jukes, neglected or overheated fluid causes a shudder during acceleration, a rising whine, or hesitation from a stop. Utah's heat speeds the fluid's decline. We service the CVT with genuine Nissan-spec fluid to keep the transmission healthy and avoid a major repair.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Clutch Wear on Manual Jukes",
           "desc": "The 6-speed manual Juke, especially the NISMO, is fun to drive hard, and clutches wear with that use. Slipping under boost, a high engagement point, or a burning smell after spirited driving point to a worn clutch. We replace it with a quality OEM-spec kit.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Wear from City Driving",
           "desc": "The Juke is a peppy commuter, and Salt Lake's stop-and-go traffic wears the front brakes. Squealing, a pulsing pedal, or a grinding noise means it's time for inspection. We measure pads and rotors and replace only what's worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-drive and AWD Jukes both have front CV axles that wear as their boots crack and lose grease. A rhythmic clicking on turns, loudest at low speed in a parking lot, is the sign. We replace the complete axle shaft for a durable, lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
@@ -2555,32 +2555,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits and hydraulic inspection for manual and NISMO Jukes."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for a peppy daily-driven turbo crossover."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on FWD and AWD Jukes."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore a controlled, planted ride on a small crossover over rough Utah roads."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leak and hanger repair for exhaust corroded by years of Utah winter road salt."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, turbo-appropriate oil service, CVT fluid service, and maintenance."
         }

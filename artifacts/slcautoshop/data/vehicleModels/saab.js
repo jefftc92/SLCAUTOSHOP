@@ -57,37 +57,37 @@ module.exports = {
         {
           "title": "DI Cassette Failure and Misfires (1st Gen)",
           "desc": "The direct ignition cassette on 1st-gen 9-3s (the NG900-platform cars) is the single most common failure point on these engines. When the cassette begins to fail you'll get misfires, rough idle, and sometimes a no-start condition, particularly in wet or humid weather. The car may run fine when cold and misfire when it gets warm. We test the cassette before condemning it and replace it with a quality unit that will outlast the original.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Turbo Bypass Valve and Boost Issues",
           "desc": "The 9-3's turbo system relies on a bypass valve (blow-off valve) that can crack, stick, or fail with age. A failed bypass valve causes compressor surge, reduced boost, and a distinctive fluttering sound under hard acceleration. We pressure-test the boost system to identify leaks, check the bypass valve function, and inspect intercooler hoses and connections before assuming the turbo itself is the problem.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear and Hydraulic Slave Cylinder",
           "desc": "Manual 9-3s develop clutch slip and high engagement points as mileage climbs. On both generations the hydraulic clutch slave cylinder is a common wear item. A failing slave can cause a spongy or sinking pedal even when the friction disc still has life left. We inspect the full clutch hydraulic system before quoting a clutch replacement to make sure we replace only what's actually worn.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Suspension Wear, Front Control Arms and Bushings",
           "desc": "Second-gen 9-3s with significant mileage frequently develop worn front control arm bushings and ball joints. The symptom is typically a clunking or knocking over bumps, wandering steering feel, or uneven front tire wear. Utah's frost-heaved roads accelerate bushing deterioration faster than a moderate climate would. We inspect front suspension geometry and recommend bushing or arm replacement based on what we actually measure.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Coolant System Leaks and Overheating",
           "desc": "The 9-3's 2.0T and 2.8T engines are prone to coolant loss from aging hoses, thermostat housing gaskets, and, on high-mileage examples, the water pump. Turbo engines running low on coolant overheat faster than naturally aspirated ones and cause more damage when they do. We pressure-test the cooling system, trace every leak, and replace components as a logical group rather than chasing one leak at a time.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust Manifold and Downpipe Leaks",
           "desc": "Turbocharged 9-3s run hot at the exhaust manifold and turbo flange. Gaskets crack, studs corrode, and the joint between the exhaust manifold and turbo outlet develops leaks over time. The symptom is a ticking or hissing noise under acceleration that often worsens when the engine is cold. We inspect the full exhaust path from manifold to downpipe and repair the leak correctly, not with exhaust sealant.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -127,32 +127,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Full clutch kit service for manual 9-3s, disc, pressure plate, release bearing, and hydraulic slave cylinder inspection."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump and coolant system service for 9-3s showing coolant loss, overheating, or bearing noise."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket, downpipe, and turbo flange repair for 9-3s with ticking or hissing exhaust leaks."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and suspension service for 9-3s with bounce, clunking over bumps, or uneven tire wear."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for all 9-3 generations, with brake fluid flush on the recommended interval."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, turbo system inspection, and anything else your 9-3 needs, one visit."
         }
@@ -239,37 +239,37 @@ module.exports = {
         {
           "title": "Timing Chain Tensioner Failure",
           "desc": "The B235 and B255 engines used in the 9-5 can develop timing chain tensioner wear, particularly on cars with extended oil change intervals or high mileage. The first sign is often a rattling or ticking noise at cold startup that quiets as oil pressure builds. Left unaddressed, a worn tensioner allows the chain to slap and, in severe cases, skip timing. We inspect the chain, tensioner, and guides on every high-mileage 9-5 that comes through our shop.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Coolant Crossover Pipe and Thermostat Housing Leaks",
           "desc": "The 9-5's cooling system uses plastic crossover pipes and a thermostat housing that become brittle with age and heat cycling. Cracks and leaks develop gradually, often as a slow drip that worsens in cold weather when the plastic contracts. We pressure-test the cooling system, locate every leak, and replace plastic components with quality replacements rather than applying sealant that will fail again.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Turbo Wastegate and Boost Control",
           "desc": "9-5 turbos in both the 2.0T and the higher-output Aero variants can develop wastegate actuator wear and boost control issues as mileage climbs. Symptoms include inconsistent boost, a whistling sound under acceleration, or a check engine light with boost-related codes. We test the boost system under load, check the wastegate actuator rod for wear, and verify bypass valve function before diagnosing the turbo itself.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear and Caliper Service",
           "desc": "The 9-5 is a heavier car than the 9-3, and the front brakes work harder for it. High-mileage 9-5s commonly need front rotor replacement along with pads. The rotors wear unevenly when pads are left past their service limit. Utah's canyon roads put additional stress on the braking system. We measure pad thickness and rotor runout at every service visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust System Leaks",
           "desc": "Turbocharged 9-5s run hot at the turbo-to-downpipe junction, and exhaust manifold studs corrode over time in Utah's winter salt environment. An exhaust leak in this area produces a ticking or popping noise under acceleration that's often mistaken for an engine knock. We inspect the full exhaust path from manifold to rear and repair leaks at their source rather than using temporary sealant.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Strut and Shock Wear",
           "desc": "High-mileage 9-5 sedans and SportCombis frequently develop worn front struts and rear shocks that contribute to a floaty, vague steering feel and excessive body roll. Utah's varied road surfaces, from smooth highways to potholed city streets, make worn suspension easy to notice. We inspect strut condition and measure rear shock travel before recommending replacement, and we align the car after any suspension work.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -309,32 +309,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement for high-mileage B235 and B255 engines showing cold-start rattle."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump and Cooling System",
           "desc": "Water pump, coolant crossover pipe, and thermostat housing service for 9-5s with leaks or overheating."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket, turbo downpipe, and exhaust system repair for 9-5s with ticking or loud exhaust leaks."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for all 9-5 generations, with brake fluid flush on the correct interval."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut and Shock Replacement",
           "desc": "Front strut and rear shock replacement for 9-5 sedans and SportCombis showing bounce or handling degradation."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full-service maintenance covering oil, fluids, timing chain inspection, cooling system, and a multi-point inspection."
         }
@@ -425,37 +425,37 @@ module.exports = {
         {
           "title": "Clutch Replacement",
           "desc": "The Saab 900's transverse front-wheel-drive layout places the transmission ahead of the engine, which makes clutch replacement significantly more involved than on a conventional front-wheel-drive car. The job requires experience with this specific configuration. We replace the clutch disc, pressure plate, and release bearing as a complete kit and inspect the flywheel for heat cracks and surface condition.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Turbo System, Classic 900 Turbo",
           "desc": "The original 900 Turbo used a Garrett T3 turbocharger with relatively modest boost pressure, reliable when oil changes were kept up, but sensitive to oil neglect. We inspect turbo shaft play, check the bypass valve, and test for boost leaks in the hoses and intercooler piping. On cars that have sat for extended periods, we verify that the turbo oil feed line is clear before starting the engine.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Cooling System Service",
           "desc": "Classic 900 cooling systems age hard, rubber hoses crack, the plastic coolant reservoir becomes brittle, and the water pump can weep without obviously puddling on the ground. We do a complete cooling system inspection and pressure test on every high-mileage or long-dormant 900 that comes in, and we replace components proactively rather than waiting for a roadside failure.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust System Leaks and Rust",
           "desc": "Utah's road salt environment is hard on the 900's exhaust system, manifold gaskets crack with age, and exhaust joints rust through. An exhaust leak on a turbocharged 900 is particularly important to address promptly because it affects boost pressure readings and exposes the cabin to exhaust gases. We inspect the full exhaust path and repair leaks at the joint, not with patch tape.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Service and Rear Drum Inspection",
           "desc": "Early 900s used rear drum brakes, a system that many mechanics are less familiar with than discs. We service rear drums correctly: adjusting, inspecting wheel cylinders for seepage, and replacing hardware rather than just the shoes. 900s with rear disc conversions get the same thorough inspection front and rear.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "The classic 900's MacPherson strut front suspension wears predictably at the strut bearings and bushings. High-mileage cars develop clunking over bumps, vague steering, and uneven front tire wear as these components age. Replacement struts are still available through specialty suppliers, we source quality units and do the job with a post-repair alignment.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -495,32 +495,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Complete clutch kit service for manual 900s, the unusual transaxle layout done correctly, with flywheel inspection."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump and Cooling System",
           "desc": "Cooling system inspection, pressure testing, water pump, and hose replacement for aging 900 cooling systems."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket, turbo outlet, and exhaust system repair for 900s with leaks or rust-through sections."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front disc and rear drum or disc service for classic 900s, including wheel cylinder inspection and hardware."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement and post-repair alignment for classic 900s with worn suspension components."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, cooling system check, and multi-point inspection for your classic Saab 900."
         }
@@ -607,37 +607,37 @@ module.exports = {
         {
           "title": "Turbo System, Boost Leaks and Bypass Valve",
           "desc": "The 9000's turbo system is pressurized through an intercooler and a network of rubber hoses that crack and soften with age and heat. A failing bypass valve or a split intercooler hose causes a loss of boost that feels like sudden power reduction under hard acceleration. We pressure-test the full boost circuit, check the bypass valve, and inspect hose condition before assuming the turbo itself needs attention.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch and Flywheel Service",
           "desc": "Manual 9000s, including the Aero, accumulate clutch wear with age. The friction disc typically shows slip under hard acceleration first, followed by a rising engagement point. On older cars the hydraulic master and slave cylinders can also be weeping. We replace the complete clutch kit and inspect the flywheel for cracks and heat checks, the flywheel on a performance-driven Aero is worth resurfacing rather than risking a new disc on a damaged surface.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Cooling System, Thermostat Housing and Hoses",
           "desc": "The 9000's cooling system uses a plastic thermostat housing and aging rubber hoses that develop cracks and slow leaks after decades of service. A leaking thermostat housing can empty the cooling system faster than you'd expect. We pressure-test the system, replace the housing and hoses as a logical group, and check water pump condition at the same time to avoid returning for the same job twice.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Suspension, Front Struts and Bushings",
           "desc": "The 9000's front suspension uses MacPherson struts that wear predictably at the strut bearing and lower control arm bushings. A clunking noise over bumps, vague steering feel, or uneven front tire wear are the common symptoms. Strut replacement on a 9000 restores the handling character that makes these cars enjoyable to drive, it's not just a safety fix.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Failed Emissions, Catalytic Converter and O2 Sensors",
           "desc": "Utah emissions testing catches aging 9000s regularly. The catalytic converter on a high-mileage 9000 may be below efficiency threshold even if the car runs well, and failed O2 sensors give incorrect feedback to the fuel management system, affecting both fuel economy and emissions. We diagnose the root cause of an emissions failure before recommending cat replacement, because an O2 sensor fix is often all that's needed.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "Brake Service",
           "desc": "The 9000, particularly the Aero, was engineered with strong brakes for its performance envelope. High-mileage cars need pad and rotor replacement, and the rear calipers are worth inspecting for slide pin corrosion in Utah's salt environment. We measure rotor thickness and runout, check caliper function, and replace brake fluid if it hasn't been done recently.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         }
       ],
@@ -677,32 +677,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch kit service for manual 9000s and Aero models, disc, pressure plate, release bearing, and flywheel inspection."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump and Cooling System",
           "desc": "Thermostat housing, hoses, and water pump service for 9000 cooling systems showing leaks or overheating."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat replacement and O2 sensor diagnosis for 9000s that have failed Utah emissions testing."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and bushing service for 9000s with clunking, vague steering, or uneven tire wear."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for all 9000 variants, including rear caliper slide pin inspection."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, turbo and cooling inspection, and multi-point service for your Saab 9000."
         }

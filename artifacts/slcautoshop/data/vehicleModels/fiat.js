@@ -57,37 +57,37 @@ module.exports = {
         {
           "title": "Clutch Slipping or Grinding When Shifting",
           "desc": "The manual Fiat 500 and especially the Abarth are enthusiast cars driven by people who enjoy them, which means clutches see real use. A clutch that slips under hard acceleration, grinds going into gear, or has a high or erratic engagement point needs attention. We replace the clutch assembly, inspect the dual-mass flywheel if equipped, and verify the hydraulic system from master to slave cylinder.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "The front-wheel-drive 500 uses CV axles that wear over time, especially on cars that have been driven hard or had a boot crack go unnoticed. That rhythmic clicking on low-speed turns is the joint telling you it needs attention. We replace the complete axle shaft for a repair that holds up.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, MultiAir or Turbo Codes",
           "desc": "The MultiAir system uses hydraulically controlled valve timing, it's precise and responsive but sensitive to oil quality and change intervals. A check engine light on a MultiAir 500 can signal oil control issues, sensor faults, or turbo boost faults on the Abarth. We read the codes and trace the actual cause before recommending parts.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Squealing or Soft Brake Pedal",
           "desc": "The 500's brake system is sized for a light car, and brake wear happens faster on an Abarth driven spiritedly. Worn pads are the usual culprit, but we also inspect the calipers and brake hoses, aging rubber hoses on older models can restrict fluid flow and cause uneven braking.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Rough Ride and Handling Vagueness",
           "desc": "The 500's go-kart handling character disappears quickly when struts wear out. Utah's rougher roads and pot holes accelerate strut wear on a small car. If the ride feels noticeably harsher than it used to, or the car wanders on the freeway. The struts need inspection.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Burning Smell After Driving",
           "desc": "A burning smell from a Fiat 500 after city driving can indicate clutch slippage on manual models, an exhaust contact with heat shielding, or brake drag from a partially seized caliper. We identify the source and address it, burning smells should never be ignored.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/burning-smell"
         }
       ],
@@ -127,32 +127,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual 500 and Abarth clutch assembly, flywheel inspection, and hydraulic system service."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Complete front axle shaft replacement for clicking joints on FWD Fiat 500 models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper inspection and replacement, sized and specified for the Fiat 500 platform."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement to restore ride quality and handling precision on worn 500 suspensions."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust system repair for Fiat 500 and Abarth, manifold, midpipe, and muffler service."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and fluid maintenance, everything your Fiat 500 needs in one visit."
         }
@@ -231,31 +231,31 @@ module.exports = {
         {
           "title": "Harsh Shifting or Hesitation from DCT",
           "desc": "The dual-clutch transmission in many 500X models can develop shuddering, harsh engagement, or hesitation, especially when cold, as fluid degrades or the clutch pack wears. We inspect the transmission, check fluid condition, and service or repair what's needed. Skipping DCT fluid service is the leading cause of early failure on these transmissions.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front and rear CV axles on AWD 500X models wear over time, particularly on the front outer joints. Clicking during low-speed turns is the first sign. We replace the complete axle shaft for a proper, durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Turbo and Emissions Codes",
           "desc": "The 1.4T and 1.3T turbocharged engines in the 500X generate a variety of check engine codes, boost control faults, oxygen sensor codes, and catalytic converter efficiency codes as mileage climbs. We read the codes, trace the actual cause, and fix what needs fixing.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Bouncy Ride or Poor Handling",
           "desc": "The 500X is a taller crossover and depends more heavily on its struts than the low-slung 500. Worn struts cause the car to feel top-heavy, bounce excessively on rough pavement, and wander on the freeway. We inspect and replace struts when they're no longer doing their job.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Squealing or Grinding Brakes",
           "desc": "Brake pads on the 500X wear more quickly than the standard 500 due to the added weight. Squealing is the wear indicator, grinding means pad material is gone and the rotor is being damaged. Get brake noise addressed promptly.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         }
       ],
@@ -295,32 +295,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Front and rear axle shaft replacement for clicking or worn CV joints on AWD and FWD 500X models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pads, rotors, calipers, for all 500X trim levels and configurations."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement to restore ride control and handling stability on the crossover platform."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and replacement for the turbocharged 500X engine exhaust system."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Turbo downpipe, flex pipe, and exhaust system repair for Fiat 500X models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, DCT fluid check, and all maintenance items in one visit."
         }
@@ -399,37 +399,37 @@ module.exports = {
         {
           "title": "Timing Belt Service, 1.4L MultiAir Turbo",
           "desc": "The 1.4L MultiAir turbo in the 500L uses a rubber timing belt on a 60,000-mile service interval. The engine is an interference design. A broken belt causes valve and piston contact and serious engine damage. We replace the belt, water pump, tensioner, and idler pulleys together. If you don't know when the belt was last done, assume it needs attention.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump and Overheating",
           "desc": "The belt-driven water pump on the 1.4T lives inside the timing cover. It typically fails with a slow weep before fully giving out, but once it goes, coolant loss leads to overheating and potential head gasket damage. We replace the water pump at every timing belt service as standard practice.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light, MultiAir and Boost Codes",
           "desc": "Check engine lights on the 500L most commonly involve MultiAir valve control faults, oxygen sensor codes, or boost pressure codes from the turbo. We read the codes, verify the root cause, and fix what actually needs fixing, not just clear the light.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "The 500L's front CV axles carry more weight than the standard 500's and wear accordingly. Clicking during turns is the sign of a worn outer joint. We replace the complete axle shaft.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear, Pads and Rotors",
           "desc": "The 500L is heavier than the standard 500, and brakes work proportionally harder. Brake pads wear faster than owners expect, especially on a car used for family hauling with frequent stops. We inspect the full brake system and replace what's worn, pads, rotors, and caliper condition.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Bouncy or Wallowy Ride",
           "desc": "The 500L's taller stance and softer suspension makes it more susceptible to shock absorber wear than the sportier 500. When the shocks go, the car rolls and pitches noticeably on Utah's varied roads. We inspect the suspension and replace worn struts and shocks.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -469,32 +469,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "1.4L MultiAir turbo timing belt, water pump, tensioner, and idler, complete interference engine service."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Belt-driven water pump replacement done as part of the timing belt service."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Complete front axle shaft replacement for worn CV joints on the FWD 500L platform."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for the heavier 500L platform, which wears brakes faster than the base 500."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Strut and shock replacement to restore ride quality on high-mileage 500L models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and fluid maintenance, everything your 500L needs in one visit."
         }
@@ -573,31 +573,31 @@ module.exports = {
         {
           "title": "Clutch Wear or Grinding When Shifting",
           "desc": "Fiat manual transmissions feel direct and rewarding when the clutch is in good shape, and they feel terrible when it isn't. A slipping clutch, difficult gear engagement, or grinding between gears means the friction disc and possibly the pressure plate need replacement. We replace the full clutch assembly and inspect the flywheel surface before buttoning it back up.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Timing Belt Service",
           "desc": "Most Bravo engine variants use a rubber timing belt that must be replaced on schedule. Many European engines in this class are interference designs. A broken belt means serious engine damage. We research the specific service interval and interference status for your engine variant before quoting the job.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Wear",
           "desc": "The Bravo's front-wheel-drive platform uses CV axles that wear over time, especially on a car that's been driven enthusiastically. Clicking on turns is the tell. We source and install correct CV axle assemblies for your specific variant.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Service",
           "desc": "European brake specifications often differ from domestic equivalents in pad compound, rotor sizing, and caliper specifications. We source correct brake components for your Bravo variant rather than substituting domestic parts that may not perform to the same standard.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust Noise or Check Engine Light",
           "desc": "European-spec emissions equipment may not align with US emissions standards perfectly, and check engine lights on imported Bravos sometimes involve sensor calibration differences or catalytic converter specification mismatches. We diagnose what's actually happening before making recommendations.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -637,32 +637,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Bravo clutch assembly replacement, friction disc, pressure plate, flywheel inspection, and hydraulics."
         },
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Fiat engine timing belt service with correct variant-specific interval and component specifications."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Front CV axle shaft replacement sourced to correct specifications for the Bravo platform."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "European-spec brake pad and rotor service using components specified for your Bravo variant."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust system diagnosis and repair for imported Bravo models including manifold and midpipe work."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and fluid maintenance for imported Bravo models."
         }

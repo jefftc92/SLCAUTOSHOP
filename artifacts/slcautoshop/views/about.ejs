@@ -90,7 +90,7 @@
     <p class="section-subtitle">Complete auto repair and maintenance for all makes and models, from clutch specialists to full-service shop.</p>
     <div class="service-links-grid">
       <% services.slice(0, 6).forEach(s => { %>
-      <a href="/services/<%= s.slug %>" class="service-link-card">
+      <a href="/services/<%= s.hubSlug %>" class="service-link-card">
         <strong><%= s.name %></strong>
         <span><%= s.shortDesc %></span>
       </a>

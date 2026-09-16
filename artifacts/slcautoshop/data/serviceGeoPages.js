@@ -2429,7 +2429,7 @@ Object.entries(CONTENT).forEach(([serviceKey, svc]) => {
     serviceGeoPages.push({
       slug: `${serviceKey}-near-${city.slug}-ut`,
       serviceKey,
-      mainServiceSlug: svc.mainSlug,
+      mainServiceSlug: svc.mainSlug.replace(/-near-south-salt-lake-ut$/, ''),
       serviceName: svc.serviceName,
       serviceFullName: svc.serviceFullName,
       hasLocalContext: !!svc.hasLocalContext,

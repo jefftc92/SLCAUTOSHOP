@@ -61,37 +61,37 @@ module.exports = {
         {
           "title": "Exhaust Noise, Manifold Cracks and Leaks",
           "desc": "The 5.7 Hemi is notorious for cracked exhaust manifolds, Utah's temperature swings from winter cold to summer heat accelerate the cast-iron fatigue that causes cracks. You'll hear a ticking or tapping at startup that often quiets down once the manifold warms and expands. Left alone, the leak gets worse and can damage nearby components. We inspect both manifolds and gaskets and replace what's actually failed.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Soft or Low Brake Pedal",
           "desc": "High-mileage Ram 1500s with heavy payloads or trailer towing put serious heat into the brake system. Rear brake calipers can seize from infrequent use and corrosion, causing uneven wear and a soft pedal. Front rotors on the 4th and 5th gen 1500 can warp under repeated heavy braking. We inspect the full brake system, pads, rotors, calipers, and brake fluid condition, and give you an honest assessment.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Timing Chain Noise on 5.7 Hemi",
           "desc": "High-mileage 5.7 Hemi engines, particularly those with infrequent oil changes, can develop timing chain stretch. The signature symptom is a brief metallic rattle on cold startup that fades as oil pressure builds. Don't wait: a worn chain can jump a tooth and cause significant internal damage. We inspect the chain, tensioner, and guides and replace them before a small problem turns expensive.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Rough or Bouncy Ride, Worn Shocks",
           "desc": "Ram 1500s used for towing, hauling, or off-road use wear shocks faster than light-duty commuter trucks. When the factory shocks give out, you'll feel it, excessive body roll, a bouncing rear end after bumps, or a nose-dive under braking. We replace shocks and struts with quality aftermarket units rated for the actual use your truck sees.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter Codes",
           "desc": "Ram 1500s with the 5.7 Hemi can trigger P0420 or P0430 codes from catalytic converter efficiency failures, especially on higher-mileage examples. Before replacing cats, we verify the O2 sensor readings and rule out upstream issues like exhaust leaks that can produce false converter codes. We replace only what's actually failed.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking, 4WD Models",
           "desc": "Four-wheel-drive Ram 1500s that see regular off-road or gravel-road use can wear CV joints faster than highway trucks. The tell-tale clicking on turns, especially noticeable in parking lots, points to a worn CV joint. We replace the complete axle shaft for a durable long-term repair rather than just repacking the boot.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -131,32 +131,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Hemi exhaust manifold cracks, gasket replacement, and full exhaust system inspection and repair."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and brake fluid service, built for trucks that actually tow and haul."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "5.7 Hemi and 3.6 Pentastar chain, tensioner, and guide replacement on high-mileage trucks."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Front and rear shock replacement with quality units rated for towing and off-road use."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420/P0430 diagnostics, converter replacement, and exhaust leak inspection on Hemi trucks."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, fluid checks, and any repair your Ram 1500 needs, one visit."
         }
@@ -247,31 +247,31 @@ module.exports = {
         {
           "title": "Clutch Slipping Under Load, Manual 2500s",
           "desc": "Manual Ram 2500 trucks that regularly pull loaded trailers can wear through a clutch faster than a shop that's never done a G56 or NV4500 job might expect. Slipping under heavy acceleration, a high engagement point, or difficulty getting into gear are the signs. We carry quality clutch kits for every manual Ram 2500 application.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Fade on Mountain Grades",
           "desc": "Heavy trailer loads on I-15 grades between Salt Lake and Provo, or on US-6 through Spanish Fork Canyon, put extreme heat into Ram 2500 brakes. When rear brake calipers seize or pads glaze, stopping distances increase dangerously. We inspect the full brake system, front and rear, and replace components with units rated for heavy-duty use.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust Smoke and Check Engine Light, Diesel Models",
           "desc": "6.7 Cummins diesel trucks can develop exhaust issues including excessive smoke, EGR-related codes, and catalytic converter or DPF efficiency faults. We diagnose the actual failure point, whether it's the EGR cooler, a boost leak, or a converter issue, before recommending parts replacement.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Rough Ride and Body Roll, Worn Shocks",
           "desc": "A loaded Ram 2500 is a heavy vehicle, and the factory shocks on high-mileage or heavily-used trucks wear out faster than most owners realize. Excessive body sway while towing, a bouncy ride on rough roads, or a nose-dive under braking all point to shocks that have given up. We replace with quality units rated for the loads your truck actually carries.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Squealing or Grinding Brakes",
           "desc": "When Ram 2500 brakes squeal or grind, the cause is almost always worn pads, but the underlying question is why they wore prematurely. Seized calipers are a common culprit on trucks that see winter salt exposure and irregular brake use at the rear. We inspect the whole system and replace what needs to be replaced.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         }
       ],
@@ -311,32 +311,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "G56 and NV4500 clutch replacement for manual Ram 2500 trucks, including tow-rated pressure plates and flywheels."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Heavy-duty brake pads, rotors, and caliper service for Ram 2500 trucks that actually haul and tow."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust manifold, gasket, and pipe repair on both gas and diesel Ram 2500 applications."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Front and rear heavy-duty shock replacement rated for the loads Ram 2500 trucks carry."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Converter efficiency diagnostics and replacement on 6.4 Hemi and diesel-equipped Ram 2500 trucks."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, fluid checks, and any repair your Ram 2500 needs, one visit."
         }
@@ -427,31 +427,31 @@ module.exports = {
         {
           "title": "Clutch Failure Under Heavy Load",
           "desc": "A Ram 3500 used for regular fifth-wheel or gooseneck towing will wear a clutch faster than factory replacement intervals suggest. The G56 six-speed is a strong transmission, but clutch pack wear is real under sustained high-GVW use. Slipping under hard pull, a high or inconsistent engagement point, or burning smell on grades are all signs the clutch is due.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Fade and Grinding Under Load",
           "desc": "A loaded Ram 3500 with a 5th-wheel trailer on a Utah downgrade is one of the most severe brake scenarios a vehicle can face. Glazed pads, warped rotors, and seized rear calipers are all common on high-mileage tow trucks. If you're hearing grinding or experiencing reduced brake feel with a load behind you, don't wait.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust Rattle and Smoke",
           "desc": "Ram 3500 exhaust systems, particularly on diesel trucks, can develop loose heat shields, cracked manifold gaskets, and catalyst efficiency faults. Excessive smoke with a check engine light often points to an EGR or exhaust-side issue that needs real diagnosis before any parts are ordered.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Suspension Sag and Rough Ride, Worn Shocks",
           "desc": "A dually Ram 3500 carrying repeated heavy payloads wears rear shocks and suspension components faster than most owners track. When the rear of the truck sags noticeably under load, or the ride is harsh and bouncy unladen, the shocks are the first thing to inspect.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump Failure on High-Mileage Trucks",
           "desc": "Ram 3500 water pumps, particularly on the 6.7 Cummins diesel, can develop weep-hole seeps and bearing failures on high-mileage trucks. Coolant loss, overheating on grades, or a coolant smell from the engine bay are the early signals. We replace water pumps before they cause a catastrophic cooling system failure.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -491,32 +491,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "G56 and NV5600 clutch replacement for towing-spec Ram 3500 trucks in all configurations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Heavy-duty brake service for Ram 3500 trucks pulling 5th-wheel and gooseneck trailers on Utah mountain grades."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust manifold, gasket, and pipe repair for gas and diesel Ram 3500 applications."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cummins diesel and 6.4 Hemi water pump replacement before coolant loss causes overheating on grades."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Heavy-duty front and rear shock replacement for payload and towing applications."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and any repair your Ram 3500 needs, all in one visit."
         }
@@ -595,31 +595,31 @@ module.exports = {
         {
           "title": "Clicking on Turns, CV Axle Wear",
           "desc": "Front-wheel-drive ProMasters under regular cargo loads wear CV joints faster than light-use vans. When you hear rhythmic clicking during low-speed turns in parking lots or loading docks, the CV joint is worn. We replace the complete axle shaft for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Noise and Soft Pedal",
           "desc": "ProMasters loaded with cargo put serious weight over the front axle, which means front brakes carry most of the stopping load. Pads and rotors wear faster than in a typical passenger vehicle. Squealing brakes or a soft pedal are signs you need a brake inspection, especially before a high-mileage van heads out for a full delivery day.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Bouncy Ride and Steering Wander, Worn Struts",
           "desc": "ProMaster front struts take constant punishment from loaded cargo and rough delivery routes. When the struts wear out, you'll notice the van floats or wanders on the freeway and bottoms out on rough pavement. We replace front struts with quality aftermarket units that restore proper handling and load capacity.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Overheating, Cooling System Issues",
           "desc": "The 3.6 Pentastar in the ProMaster can develop water pump failures and coolant system leaks on higher-mileage vans. An overheating van on an Interstate run is a serious situation, pulling over early and calling us is far less expensive than an engine that's sustained heat damage.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light and Exhaust Noise",
           "desc": "ProMaster exhaust codes and check engine lights are common on high-mileage commercial examples. We diagnose the actual fault, catalyst efficiency, O2 sensor, or exhaust leak, before recommending parts replacement. A code alone doesn't tell you what needs replacing.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -659,32 +659,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Full front axle shaft replacement for ProMasters showing CV clicking under load."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear brake pads, rotors, and caliper service for cargo-loaded ProMasters."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement to restore handling and load capacity on worn ProMasters."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "3.6 Pentastar water pump replacement to prevent overheating on high-mileage commercial vans."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust leak diagnosis and repair on ProMaster commercial vans."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and any repair your ProMaster needs to stay in service."
         }
@@ -771,31 +771,31 @@ module.exports = {
         {
           "title": "Clutch Slip and Grinding Shifts, Manual Dakotas",
           "desc": "Manual Dakota clutches on trucks used for towing or moderate off-road use wear out well before 100,000 miles in some cases. The NV1500 and NV2500 transmissions are robust, but the clutch pack takes the punishment. Slipping at highway speeds, difficulty engaging first gear, or grinding when downshifting are classic worn clutch symptoms.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Exhaust Tick, Manifold Cracks",
           "desc": "The 4.7 V8 and 3.9 V6 Dakota engines share the same cast iron manifold cracking issue found across the Chrysler/Dodge truck lineup. The tick at cold startup that quiets down after warmup is a classic cracked manifold symptom. We inspect both manifolds and replace what's actually cracked.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Squeal and Pedal Fade",
           "desc": "High-mileage Dakotas, especially those used for towing or trail driving, wear front brakes faster than lightly-used examples. Rear drum brakes on earlier generations can develop self-adjuster seizure from infrequent use. We inspect the full brake system and repair whatever is causing the symptom.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light and Emissions Failures",
           "desc": "Older Dakotas are a common sight at Utah emissions test failures, EGR codes, O2 sensor faults, and catalytic converter efficiency codes are all routine on high-mileage examples. We diagnose the actual cause rather than just clearing codes or swapping parts based on the code alone.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "Bouncy Ride, Worn Shocks",
           "desc": "An older Dakota that's been used for trail access, ranch roads, or towing will have worn shocks well before most owners check them. Excessive bounce after bumps, rear end sway, and a wallowy feel on the highway are the signs. We replace shocks with quality units appropriate for your truck's use.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -835,32 +835,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Dakota clutch replacement, NV1500, NV2500, and A578 applications across all three generations."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "4.7 V8 and 3.9 V6 manifold crack repair, gasket replacement, and full exhaust inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front disc and rear drum brake service on all Dakota generations, pads, rotors, shoes, and hardware."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Front and rear shock replacement on trail-used and high-mileage Dakotas."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions diagnostics and converter replacement to get your Dakota through Utah's inspection."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and any repair your Dakota needs, one visit, no surprises."
         }

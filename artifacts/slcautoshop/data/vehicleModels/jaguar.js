@@ -49,37 +49,37 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on Cold Start",
           "desc": "First-generation XFs with the AJ-V6 or supercharged V8 can develop timing chain rattle, particularly on cold startup. You may hear a brief metallic clatter that quiets after oil pressure builds. The culprit is chain stretch combined with a weak tensioner, common on high-mileage examples with infrequent oil changes. Left unaddressed, a jumped timing chain causes severe engine damage. We inspect and replace the chain assembly proactively.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Rough Ride and Handling Drift",
           "desc": "XF rear suspension bushings and control arm ball joints wear with mileage and Utah road conditions. You may notice vague steering feel, wandering at highway speed, or a clunking over rough pavement. We inspect the full suspension geometry and replace worn components, control arms, bushings, or end links as needed.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Fade and Grinding, XF Brakes",
           "desc": "XF brakes are generously sized but wear quickly on drivers who use the performance the car provides. Rear calipers on first-generation XFs are particularly prone to seizing in high-mileage, infrequently serviced cars, the parking brake mechanism inside the rear caliper corrodes and binds. We service calipers, replace worn pads and rotors, and lubricate caliper slide pins at every brake job.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and O2 Sensors",
           "desc": "High-mileage XF catalytic converters degrade and trigger P0420/P0430 codes. The XF also sees upstream and downstream O2 sensor failures as mileage climbs. We diagnose the actual root cause, whether it's the sensor, the cat, or an exhaust leak upstream, rather than swapping parts blindly.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure and Overheating",
           "desc": "The 2.0T engine in second-generation XFs uses an electric water pump that can fail without warning, oil contamination or internal failure of the pump motor causes a sudden loss of coolant circulation. You may see a coolant temperature spike or an overheat warning with no other symptoms. We replace the pump and inspect the entire cooling system before returning the car.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust Rattles and Flex Pipe Cracks",
           "desc": "XF exhaust flex pipes and mid-section hangers crack and fatigue over time, especially on vehicles exposed to Utah's freeze-thaw cycles and salted roads. You may hear a rattle or droning noise at specific RPMs. We weld or replace the affected section and inspect the full exhaust run.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -119,32 +119,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "AJ-V6 and V8 first-gen XF timing chain, tensioner, and guide inspection and replacement."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, rear caliper service, and parking brake mechanism inspection on all XF trims."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Control arm, bushing, and strut replacement for worn XF suspension geometry."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Electric water pump replacement on 2.0T second-gen XF, full cooling system inspection included."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Catalytic converter and O2 sensor diagnosis and replacement on high-mileage XFs."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and everything else your XF needs, handled in one visit."
         }
@@ -223,31 +223,31 @@ module.exports = {
         {
           "title": "Overheating or Coolant Temperature Warning",
           "desc": "The 2.0T Ingenium engine uses an electric water pump that can fail without warning, the motor inside the pump seizes or the impeller slips. You'll typically see a coolant temperature warning or see the gauge climb. Don't continue driving, overheating damages head gaskets quickly on aluminum engines. We replace the pump, inspect the thermostat and hoses, and pressure-test the system.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Squealing or Grinding Brakes",
           "desc": "XE brake pads wear faster than most compact sedans because the car is heavier than it looks and the pads are high-friction performance spec. You'll typically hear a squeal first. A metal wear indicator contacting the rotor, before it progresses to grinding. We replace pads and rotors as a set and inspect caliper slides for corrosion at every brake job.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Rough Ride Over Utah Roads",
           "desc": "XE sport suspension tuning is firm by design, but worn struts and shock absorbers amplify every pothole and frost heave on I-15 and surface streets. If the ride feels crashy, the car bottoms out over dips, or you hear clunking over rough pavement, the dampers may need replacement. We inspect the full suspension and replace what's actually worn.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Emissions System",
           "desc": "XE catalytic converters and O2 sensors degrade with mileage. A P0420 or P0430 code doesn't automatically mean a new catalytic converter, it can also mean a failed upstream O2 sensor giving a false reading. We diagnose the actual cause before recommending expensive parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Noise, Flex Pipe or Hanger Failure",
           "desc": "XE exhaust flex pipes and hangers corrode and crack in Utah's salt-and-freeze-thaw environment. Exhaust noise that appears gradually, usually a raspy droning at cruising speed, is often a cracked flex pipe or a broken hanger allowing the exhaust to contact the floor pan. We inspect, weld, or replace the affected section.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -287,32 +287,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Electric water pump replacement on 2.0T Ingenium, cooling system inspection and pressure test included."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Performance-spec pad and rotor replacement with caliper slide service on all XE trims."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut and Shock Replacement",
           "desc": "Front and rear suspension replacement for XE sport-tuned models worn by Utah road conditions."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Diagnosis and replacement of degraded catalytic converters and O2 sensors on high-mileage XEs."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, hanger, and mid-section repair for corroded or cracked XE exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all XE maintenance needs handled in a single visit."
         }
@@ -395,37 +395,37 @@ module.exports = {
         {
           "title": "Timing Chain Service: AJ and Ingenium Engines",
           "desc": "High-mileage F-Pace models with the 3.0 supercharged AJ-V6 develop timing chain wear in the 80,000–100,000-mile range, particularly if oil changes have been stretched. The Ingenium 2.0T has similar timing chain concerns at high mileage. First signs are a metallic rattle on cold start or a check engine light with timing-related codes. We inspect the full chain assembly and recommend replacement when chain slack exceeds spec.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear, Front and Rear",
           "desc": "The F-Pace weighs over 4,000 pounds and the brakes are working hard every time you scrub speed from highway or canyon driving. Front brake pads are typically the first to need attention, but rear brakes on F-Paces with sport trim and larger rear rotors wear almost as fast. We inspect brake condition at every service visit and replace pads and rotors as a set.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Rough Ride, Suspension Wear",
           "desc": "F-Pace front struts and rear shock absorbers wear with mileage and the constant abuse of Utah's potholed roads and frost heaves. If the car feels crashy, nose-dives under braking, or clunks over rough pavement, it's time for suspension inspection. We assess what's actually worn and replace components as needed.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump Failure on 2.0T Ingenium",
           "desc": "The electric water pump on the Ingenium 2.0T is a known failure point. The pump motor can fail internally without warning, causing a sudden loss of coolant circulation and a rapid temperature rise. We replace the pump and inspect the thermostat, coolant hoses, and reservoir for secondary damage.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust Drone and Rattle",
           "desc": "F-Pace exhaust system hangers and flex pipe sections corrode and fail on vehicles exposed to Utah road salt and freeze-thaw cycling. You may notice a low drone at highway speed or a rattle at specific RPMs, both are signs of a broken hanger or cracked flex section allowing exhaust movement. We inspect and repair the exhaust run.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "F-Pace CV axles develop the same wear pattern as most AWD SUVs, the boot cracks, grease escapes, grit enters the joint, and the characteristic clicking on slow turns begins. We replace complete axle shafts rather than patching boots, which provides a more durable long-term repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -465,32 +465,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, guide, and tensioner inspection and replacement on AJ-V6 and Ingenium F-Pace engines."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Complete pad and rotor replacement with caliper slide service on all F-Pace trims and generations."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Electric water pump replacement on Ingenium 2.0T, full cooling system inspection included."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Strut and shock absorber replacement for worn F-Pace suspension worn by Utah road conditions."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Replacement",
           "desc": "Complete axle shaft replacement for clicking or vibrating F-Pace AWD drivetrain."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and all F-Pace maintenance needs handled in one visit."
         }
@@ -565,31 +565,31 @@ module.exports = {
         {
           "title": "Coolant Temperature Warning, Water Pump",
           "desc": "The Ingenium 2.0T electric water pump is a documented failure item across multiple JLR platforms. The pump motor can fail internally, causing sudden loss of coolant circulation and an overheating condition. If you see a temperature warning or coolant light, stop driving and call us. We replace the pump and inspect the full cooling circuit.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Squealing or Soft Pedal",
           "desc": "E-Pace brake pads wear predictably and give you a squeal warning before they get to metal-on-metal. Don't ignore it, rotors that get scored cost more to fix than a timely pad replacement. We inspect pad thickness, rotor condition, and caliper slides at every brake service.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, O2 and Emissions Codes",
           "desc": "High-mileage E-Pace models generate catalytic converter degradation and O2 sensor codes as mileage accumulates. We diagnose the actual fault, sensor versus cat versus upstream exhaust leak, before recommending parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Suspension Noise on Rough Roads",
           "desc": "E-Pace front struts and rear shock absorbers absorb the full impact of Utah's potholed surface streets and frost-heaved roads. Worn struts cause clunking, nose-diving under braking, and an uncomfortable crash over expansion joints. We inspect and replace what's actually worn.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on AWD E-Pace",
           "desc": "AWD E-Pace models with worn CV axle boots develop grease loss and joint wear. The clicking is most noticeable during slow-speed turns in parking lots. We replace the complete axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -629,32 +629,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Ingenium 2.0T electric water pump replacement, full cooling system inspection and pressure test included."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad and rotor replacement with caliper inspection on all E-Pace configurations."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Front strut and rear shock replacement for worn E-Pace suspension."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Replacement",
           "desc": "Complete axle shaft replacement for clicking or vibrating E-Pace AWD drivetrain."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Diagnostic and replacement of degraded cats and O2 sensors on high-mileage E-Pace models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and all E-Pace maintenance in a single visit."
         }
@@ -737,31 +737,31 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on AJ-V8",
           "desc": "The 4.2L and 4.0L AJ-V8 engines in X350 and X358 XJs develop timing chain wear in the 80,000–100,000-mile range when oil changes have been stretched. Cold-start rattle that quiets as oil pressure builds is the first sign. A worn chain can jump timing and cause catastrophic valve-to-piston contact. We inspect the chain, tensioners, and guides and replace the assembly before failure occurs.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Air Suspension Failure on X351",
           "desc": "X351 XJ air suspension compressors wear out, air bags leak, and height sensors fail, often independently, sometimes in cascades. You may notice the car sitting low in the rear, uneven ride height, or a constant compressor run sound. We diagnose each component of the air suspension system individually and replace what's actually failed.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service: Flagship Weight and Performance",
           "desc": "The XJ is a large, heavy vehicle that moves with startling speed. The brakes are working hard every time you use the performance the car offers. Front and rear brake wear is predictable and we inspect it at every service. Rear calipers on high-mileage XJs are prone to seizing, we service caliper slides and parking brake mechanisms at every brake job.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Cooling System Failure, Water Pump and Thermostat",
           "desc": "High-mileage XJ AJ-V8 water pumps fail internally, impeller separation is a documented failure mode that causes the pump to spin without moving coolant. You'll see a temperature rise with no obvious external leak. We replace the pump, thermostat, and inspect hoses and the coolant reservoir for secondary damage.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust System Corrosion",
           "desc": "XJ exhaust systems are exposed to the same Utah road salt environment as any vehicle, and the mid-section flex pipes and hangers corrode predictably. A growing exhaust drone or rattle at speed usually means a cracked flex section or broken hanger. We inspect and repair the exhaust run.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -801,32 +801,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "AJ-V8 timing chain, tensioner, and guide replacement before wear causes engine damage."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Air Suspension Service",
           "desc": "X351 air suspension compressor, bag, and sensor diagnosis and replacement."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake job including rear caliper service and parking brake mechanism on XJ flagship models."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "AJ-V8 water pump and thermostat replacement with full cooling system inspection."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, hanger, and mid-section repair on corroded XJ exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and everything your XJ needs in a single visit."
         }
@@ -909,31 +909,31 @@ module.exports = {
         {
           "title": "Brake Wear, Especially V8 R and SVR",
           "desc": "The F-Type V8 R and SVR produce 550+ horsepower and weigh 3,500–3,700 pounds. The brakes are working very hard. Front brake pads on cars used on canyon roads or track days can wear in as few as 15,000–20,000 miles. We inspect pad thickness at every service and recommend replacement with quality performance-spec pads and fresh fluid.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Exhaust Valve and Flex Pipe Issues",
           "desc": "The F-Type's active exhaust valve actuators can develop mechanical failures, the valve sticks open or closed, or the actuator cable frays. You may notice the exhaust note doesn't change between normal and sport mode, or you get an exhaust warning. Separately, flex pipes in the mid-section corrode and crack in Utah's salt environment. We repair both.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Timing Chain on High-Mileage Supercharged V6",
           "desc": "The 3.0 supercharged AJ-V6 in first-generation F-Types develops timing chain wear on high-mileage examples, the same pattern seen in XJ and XF models with this engine. Cold-start rattle that quiets as oil pressure builds is the early warning. We inspect and replace the chain assembly before wear progresses to timing failure.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Soft Brake Pedal, Fluid Contamination",
           "desc": "F-Type owners who use their cars enthusiastically often experience brake fade or a soft pedal from moisture-contaminated brake fluid. The system generates significant heat under hard use, and degraded fluid boils and compresses, resulting in a pedal that goes soft precisely when you need maximum braking. We flush brake fluid annually on F-Types driven hard.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "CV Axle Wear on AWD F-Type",
           "desc": "AWD F-Type models subject their CV axles to high torque loads, especially on 5.0 V8 models where power delivery is aggressive. CV boot cracks, grease loss, and joint wear show up as clicking on turns or vibration under hard acceleration. We replace complete axle shafts.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -973,32 +973,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Performance Brake Service",
           "desc": "Complete brake job with performance-grade pads, rotor inspection, and fluid service on all F-Type trims."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Service",
           "desc": "Active exhaust valve service, flex pipe repair, and hanger replacement on F-Type exhaust systems."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "AJ-V6 supercharged timing chain, tensioner, and guide inspection and replacement."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Replacement",
           "desc": "Complete axle shaft replacement for AWD F-Type models with worn CV joints."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service for high-mileage supercharged F-Type engines."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full F-Type inspection, fluid service, and all maintenance needs in one visit."
         }
@@ -1077,31 +1077,31 @@ module.exports = {
         {
           "title": "Timing Belt Service: Interval Critical",
           "desc": "The Jaguar X-Type V6 uses a rubber timing belt that must be replaced on a strict mileage and time interval, typically every 60,000–80,000 miles or every five years, whichever comes first. These cars are old enough that most have had one or two belt changes, but some haven't. A broken timing belt destroys the engine. We do the full service including water pump, tensioner, and all idler pulleys.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Replacement on Manual X-Type",
           "desc": "Manual X-Types with the 2.5 or 3.0 V6 develop clutch wear predictably. Slipping under acceleration, difficulty engaging first gear, or a high engagement point are the classic signs. We replace the full clutch kit, disc, pressure plate, and release bearing, and inspect the flywheel for heat damage.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "CV Axle Wear on AWD X-Type",
           "desc": "AWD X-Type CV axles wear with mileage and UV-degraded boots, the inner boots on the AWD drivetrain are particularly prone to cracking. Once grease escapes and grit enters, the joint wears quickly. We replace complete axle shafts for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Service on High-Mileage X-Type",
           "desc": "X-Type brakes are standard sedan spec, not heavy-duty, and wear predictably. Rear calipers on high-mileage examples are prone to seizing from corrosion in the parking brake mechanism. We service caliper slides, replace pads and rotors as needed, and free up seized caliper pistons.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust Corrosion, Mid-Section and Manifold",
           "desc": "Older X-Types in Utah with years of road salt exposure develop exhaust system corrosion at the mid-section, flex pipe, and manifold gasket joints. A growing exhaust noise, raspy droning or ticking at idle, often means a cracked manifold gasket or failed flex section. We inspect and repair the full exhaust run.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1141,32 +1141,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Service",
           "desc": "Full timing belt replacement including water pump, tensioner, and idler pulleys on X-Type V6."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch kit replacement for manual 2.5 and 3.0 V6 X-Type models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Replacement",
           "desc": "Complete axle shaft replacement for AWD X-Type clicking or vibration."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and rear caliper service on high-mileage X-Type models."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, manifold gasket, and mid-section repair on corroded X-Type exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all X-Type maintenance needs in one visit."
         }

@@ -69,37 +69,37 @@ module.exports = {
         {
           "title": "Timing Belt Failure or Overdue Interval",
           "desc": "The Mk3 through Mk5 Jetta engines, including the 2.0 AEG, 1.8T, 2.5, and TDI, all use timing belts with strict replacement intervals. In Utah's temperature swings, belts age faster than mileage alone would suggest. A snapped timing belt on an interference engine causes immediate and catastrophic valve damage. We inspect belt condition at every service visit on these generations and replace the belt, water pump, and tensioner together so you get maximum service life from the job.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual Transmission Jettas",
           "desc": "Manual Jettas, particularly the 1.8T Mk4 and 2.0T Mk5/Mk6, are popular with drivers who actually enjoy shifting, and that means clutch wear is a regular service item. Signs of wear include a clutch that engages near the top of pedal travel, slipping under hard acceleration up a grade, or difficulty finding neutral at a stop. We replace the full clutch kit including the pressure plate and throw-out bearing, and resurface or replace the flywheel as needed.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Water Pump Failure on 2.5L and 1.8T Engines",
           "desc": "The 2.5L five-cylinder engine in Mk5 and Mk6 Jettas is known for plastic water pump impeller failure, the impeller spins but stops pumping coolant effectively, and the engine gradually overheats. The 1.8T has similar plastic impeller issues at higher mileage. We replace the full water pump assembly and flush the cooling system to remove any debris the deteriorating plastic left behind.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Clicking on low-speed turns, especially noticeable in parking lots, is the classic sign of a worn CV joint. The protective boot cracks, grease escapes, and the joint begins to wear. Once the clicking starts, the joint itself is compromised and the axle shaft needs replacement. We replace the complete axle rather than just repacking the boot, which gives a more durable long-term repair on the Jetta's front-wheel-drive platform.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Oxygen Sensor and Emissions Codes",
           "desc": "Jettas trigger check engine lights regularly as mileage climbs, upstream and downstream oxygen sensors, MAF sensor contamination, and EVAP system codes are the most common culprits. Mk4 TDI owners frequently deal with EGR-related codes from carbon buildup. We read the codes, verify the root cause with live data, and repair what actually needs fixing, not just clear the light and hope it stays off.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear and Pulsation",
           "desc": "Jetta brakes, particularly the rear disc brakes on Mk5 and later models, wear at a moderate pace but often develop rotor pulsation from heat cycling in Utah's canyon and mountain driving conditions. If you feel brake pedal pulsation at highway speeds or hear grinding on the rear wheels, bring it in. We inspect pads, rotors, and calipers and advise you on what genuinely needs replacement versus what has service life remaining.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         }
       ],
@@ -139,32 +139,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Full timing belt service including water pump and tensioner, the correct way to do the job on Mk3 through Mk5 Jetta engines."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits for all manual Jetta generations, flywheel resurfacing, throw-out bearing, and hydraulic inspection included."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Plastic impeller water pump replacement on 2.5L and 1.8T Jettas before an overheating event causes engine damage."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, the durable fix for Jetta front-wheel-drive wear."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper service, addressing the pulsation and wear patterns common on Utah-driven Jettas."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and whatever your Jetta needs, handled in a single visit at our South Salt Lake shop."
         }
@@ -271,37 +271,37 @@ module.exports = {
         {
           "title": "Timing Belt and Water Pump Service",
           "desc": "The B5 and B5.5 Passat, with the 1.8T, 2.8 V6, and TDI engines, uses a timing belt that is genuinely critical. These are interference engines: if the belt breaks, the valves and pistons collide and the engine is destroyed. We replace the belt, water pump, and all tensioners as a complete kit. If you've purchased a used Passat and the service history is unclear, the timing belt should be treated as unknown and replaced.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Cooling System, Plastic Flanges and Water Pump",
           "desc": "The B5 and B5.5 Passat cooling system includes several plastic coolant flanges and a water pump with a plastic impeller that are prone to failure as the cars age. These components become brittle with heat cycling. A failed coolant flange or impeller can cause rapid coolant loss and overheating with little warning. We inspect these components at every service visit on higher-mileage B5 Passats and replace them before they fail.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Clutch Wear on Manual Passat Models",
           "desc": "Manual Passats, the 1.8T and TDI in particular, develop normal clutch wear over time. The B5 and B5.5 clutch is a moderate-difficulty job that requires proper flywheel inspection and often resurfacing. A clutch that grabs at the top of pedal travel, slips under load, or makes a squealing noise when the pedal is depressed is ready for replacement. We carry full clutch kits for all manual Passat generations.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Check Engine Light, MAF, O2, and EVAP Codes",
           "desc": "Passats are frequent check engine light visitors as they age. The MAF sensor on 1.8T and 2.8 V6 models gets contaminated with oil from the breather system and triggers lean-condition codes. Downstream oxygen sensors fail at higher mileage. EVAP purge valve failures are common on B6 and B7 models. We read the actual fault codes and verify root cause before recommending any part replacements.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "The Passat's independent suspension delivers a comfortable ride when the struts and mounts are healthy, but worn struts create a bouncy, imprecise feel over Utah's potholed streets and canyon roads. Strut mounts on B5 and B6 models are a known wear item. If you notice body dive under braking, excessive bounce over dips, or a clunking sound from the front end on rough pavement, it's time for an inspection.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Leaks, Manifold and Downpipe",
           "desc": "The 1.8T and 2.8 V6 exhaust manifold gaskets on B5 and B5.5 Passats deteriorate with age and heat cycling. A ticking or hissing sound from the engine bay, especially noticeable during the first few minutes of driving while the exhaust system is cold, often points to an exhaust manifold leak. Left unaddressed, exhaust leaks pull unmetered air into the intake pre-MAF and can trigger fault codes alongside the noise.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -341,32 +341,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt service with water pump and tensioners, essential preventive maintenance for B5, B5.5, and TDI Passats."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Plastic impeller and coolant flange replacement on aging B5 and B5.5 Passats, before an overheating event happens."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Full clutch kit replacement on manual Passats, 1.8T, TDI, and V6, with flywheel resurfacing as needed."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut and mount replacement for Passats showing a bouncy ride or front-end clunk."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust manifold gasket and downpipe repair on 1.8T and V6 Passats, addressing the ticking and hissing that comes with age."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and maintenance for your Passat, all handled at our South Salt Lake shop."
         }
@@ -473,37 +473,37 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual Golf and GTI",
           "desc": "The Golf GTI's manual transmission is a large part of what makes the car enjoyable, and enthusiast driving means the clutch works harder. Mk5 and Mk6 GTI clutches used for spirited driving may need replacement in the 60,000–80,000-mile range. The Mk7's IS38 upgrade and performance tunes put additional stress on the stock clutch. Signs include clutch slip on hard acceleration, a high engagement point, or grinding when shifting. We replace the complete clutch kit and inspect the dual-mass flywheel, which is a common wear item on turbocharged Golf platforms.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Timing Belt on Mk3 and Mk4 Golf",
           "desc": "The Mk3 and Mk4 Golf, 2.0 AEG, 1.8T, and TDI engines, all use timing belts. These are interference engines where a belt failure means immediate and catastrophic damage. Utah's temperature extremes age belts faster than mileage alone suggests. We replace the belt, water pump, and tensioners as a complete service. If you're buying a used Mk3 or Mk4 Golf with unknown service history, we treat the timing belt as overdue.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure on 2.0T TSI Engines",
           "desc": "The 2.0T engine in Mk5 and Mk6 Golf GTI models uses a water pump with a plastic impeller that can fail at higher mileage, the impeller separates from the shaft or degrades, the pump spins without moving coolant, and the engine overheats. The symptoms are often subtle at first: temperature gauge running higher than normal, intermittent overheating warning, coolant loss without an obvious leak. We inspect cooling system condition on all 2.0T Golf visits and advise on water pump replacement before a failure occurs.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Wear and Clicking on Turns",
           "desc": "The Golf's front CV axles work hard, the combination of front-wheel drive and the torque from 1.8T and 2.0T engines puts real stress on the outer CV joints. Once you hear that rhythmic clicking on tight turns, especially in parking lots. The joint is worn and replacement is due. We replace the complete axle shaft rather than just the boot, which is the correct repair for a CV joint that has already begun to click.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear, Front and Rear Disc Inspection",
           "desc": "Golf brakes, particularly on GTI models driven on canyon roads, wear at a pace that surprises some owners. Front brake pads on a Mk7 GTI driven with enthusiasm may need inspection at 30,000–40,000 miles. Rear brakes on all Golf models can develop rotor pulsation from the temperature cycling of mountain driving. Squealing, grinding, or a pulsating brake pedal are your signals.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, Carbon Buildup on Direct-Injection Engines",
           "desc": "Mk6 and Mk7 Golf TSI engines use direct injection, which means intake valves never get the detergent bath that port-injected engines receive. Over time, carbon deposits build up on the back of the intake valves and cause rough idle, hesitation, and check engine codes. We diagnose the root cause of any Golf check engine light before recommending repairs, carbon cleaning and other TSI-specific service items are part of our regular work.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -543,32 +543,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Full clutch replacement for manual Golf and GTI, OEM-spec kits, dual-mass flywheel inspection, and hydraulic system check."
         },
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt service for Mk3 and Mk4 Golf engines, belt, water pump, and tensioners replaced as one job."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Plastic impeller water pump replacement on 2.0T TSI Golf engines before a cooling failure occurs."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for Golf CV joint wear, the correct fix for clicking on turns."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection on Golf and GTI, especially important for canyon-driven cars."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and anything your Golf needs, handled in a single visit at our South Salt Lake shop."
         }
@@ -651,37 +651,37 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on Early 2.0T Engines",
           "desc": "Pre-2012 Tiguan 2.0T engines, the EA888 Gen 1 and Gen 2, had a known issue with timing chain tensioner failure. The tensioner loses hydraulic pressure at cold startup and allows chain slack, which produces a metallic rattle for several seconds before oil pressure builds. This is not just a noise issue. A slack chain can jump timing and cause serious engine damage. If your early Tiguan rattles briefly on cold startup, bring it in for an inspection before the problem progresses.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure on 2.0T TSI",
           "desc": "The 2.0T TSI engine in the Tiguan uses a plastic-impeller water pump that is prone to failure at higher mileage. The impeller can separate or degrade, reducing coolant flow without triggering an immediate alert. The engine begins running hot, the temperature gauge climbs, and without intervention the situation escalates quickly. We inspect cooling system condition at every Tiguan service visit and advise on water pump replacement for higher-mileage cars.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light, TSI Carbon Deposits and Sensor Codes",
           "desc": "The Tiguan's direct-injection 2.0T engine is prone to intake valve carbon buildup over time, a characteristic of all direct-injection engines. Symptoms include rough idle, hesitation at low RPM, and check engine codes. MAF sensor contamination from the PCV breather system is also common. We read actual fault codes and verify root cause with live data before recommending any parts replacement.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "The Tiguan's suspension was designed for European roads, Utah's potholed city streets and washboard canyon roads work the struts harder. Worn front struts cause a bouncy, floaty ride over rough pavement and reduce the precise handling feel the Tiguan normally provides. Strut mounts are also common wear items on higher-mileage Mk1 Tiguans. If your Tiguan is bouncing more than it used to or clunking over speed bumps, bring it in for a suspension inspection.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service: Utah Canyon Road Wear",
           "desc": "Tiguans used for canyon driving, Big Cottonwood, Little Cottonwood, or Parleys Canyon, go through brake pads more quickly than city-only vehicles. Front brakes carry most of the load on mountain descents. Squealing or grinding brakes, a pulsating pedal, or a brake warning light all indicate it's time for an inspection. We evaluate pad life and rotor condition honestly and advise you on what needs attention now versus what can wait.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Axle and Front Drivetrain Wear",
           "desc": "Tiguans that spend time on rough roads or have been driven hard accumulate CV axle wear faster than typical urban commuters. Clicking on turns, vibration at highway speed, or a clunking sound on acceleration can all point to front CV axle wear. We replace the complete axle shaft rather than doing a boot-only repair, which provides a more durable result.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -721,32 +721,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Timing chain tensioner inspection and replacement on early 2.0T Tiguan engines, before a cold-start rattle becomes engine damage."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Plastic impeller water pump replacement on 2.0T TSI Tiguans, a proactive repair that prevents overheating events."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for Tiguans showing a bouncy ride or suspension clunk on rough Utah roads."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service on Tiguans, especially those used for canyon driving in the Wasatch mountains."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle replacement on clicking Tiguans, full-shaft replacement for lasting results."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid checks, and whatever your Tiguan needs, handled in one visit at our South Salt Lake shop."
         }
@@ -829,37 +829,37 @@ module.exports = {
         {
           "title": "Brake Wear, Large SUV with Mountain Driving",
           "desc": "The Atlas is a heavy vehicle, the 3.6L AWD model tips the scales at nearly 4,500 lbs, and heavy vehicles consume brake pads and rotors more quickly than lighter cars. Add canyon driving to the equation and brake wear accelerates further. Front brakes on a family-driven Atlas that regularly visits the Wasatch ski resorts may need attention in the 30,000–40,000-mile range. We evaluate pad thickness and rotor condition honestly at every service visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Strut and Suspension Wear at Higher Mileage",
           "desc": "The Atlas carries heavy loads on Utah's variable road surfaces, city streets, mountain highways, and everything in between. Front struts and strut mounts accumulate wear faster on a large, loaded SUV than on a lighter vehicle. Signs include increased body roll in corners, a bouncy feel over rough pavement, or a clunking noise from the front suspension on speed bumps. Early-production Atlas models are reaching the mileage where suspension inspection is timely.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, 2.0T and 3.6L Sensor Codes",
           "desc": "Atlas check engine lights most commonly involve oxygen sensor faults, EVAP system codes, and occasionally MAF sensor contamination on the 2.0T. The 3.6L VR6 has its own fault code patterns. We read actual codes and verify root cause with live data before recommending any parts, we've seen enough cleared-and-returned check engine lights to know that guessing is expensive.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "DSG Transmission Service",
           "desc": "The Atlas 2.0T uses a 7-speed DSG dual-clutch transmission that requires periodic fluid service. Many owners don't realize this, VW's 'lifetime fluid' language in the manual doesn't reflect the reality of stop-and-go Salt Lake City traffic and mountain driving. Degraded DSG fluid causes shift hesitation, judder at low speed, and eventually accelerated clutch pack wear. We service DSG transmissions and advise on the correct service interval for your driving pattern.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Water Pump and Cooling System Service",
           "desc": "The 2.0T EA888 engine in the Atlas shares its water pump architecture with other VW turbocharged platforms, the plastic impeller design that has a known failure mode at higher mileage. On a large family SUV that gets driven hard and loaded heavily, cooling system reliability matters more than on a lighter car. We inspect water pump condition on Atlas models approaching 80,000–100,000 miles and advise on replacement before failure occurs.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust and Emissions System",
           "desc": "Atlas models are starting to trigger exhaust-related fault codes as they age, oxygen sensor degradation and catalytic converter efficiency codes appear as the cars accumulate mileage. Failed emissions tests are an increasingly common reason Atlas owners contact us. We diagnose the root cause of any emissions-related check engine light and handle the repair to get your Atlas through Utah's emissions testing.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -899,32 +899,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service on the Atlas, essential maintenance for a heavy SUV driven in Utah's mountainous terrain."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut service on higher-mileage Atlas SUVs showing a bouncy ride or suspension noise."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Plastic impeller water pump replacement on 2.0T Atlas engines, proactive maintenance for cooling system reliability."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Oxygen sensor and catalytic converter service on aging Atlas models, addressing emissions failures and check engine codes."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Front axle shaft replacement for Atlas CV joint wear, especially on 4MOTION models with varied terrain use."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and maintenance for your Atlas, handled in one visit at our South Salt Lake shop."
         }
@@ -1007,37 +1007,37 @@ module.exports = {
         {
           "title": "Timing Chain Rattle, EA888 Gen 1 Tensioner Failure",
           "desc": "The 2009–2012 CC 2.0T uses the EA888 Gen 1 engine, which has a well-documented timing chain tensioner failure. The tensioner loses hydraulic retention overnight and allows chain slack on cold startup, you hear a rattling or chattering sound for 2–4 seconds before oil pressure builds and quiets it. This is not merely cosmetic noise. A loose chain can jump timing teeth and cause valve-to-piston contact. We inspect and repair the timing chain assembly on CC models showing this symptom before it becomes an engine replacement discussion.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure on 2.0T TSI",
           "desc": "The 2.0T CC shares its water pump architecture with other TSI-equipped VWs, a plastic impeller that is prone to degradation at higher mileage. The impeller can separate or crack, reducing coolant flow without triggering an immediate warning. A temperature gauge that runs higher than normal or an occasional overheating alert on a high-mileage CC is a signal to inspect the water pump before the situation escalates. We replace the complete water pump assembly and flush the cooling system.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Clutch Wear on 6-Speed Manual CC",
           "desc": "The manual CC is a pleasure to drive, and owners who enjoy the car's V6 or 2.0T performance tend to use the clutch accordingly. Manual CCs with enthusiast driving histories may need clutch replacement in the 70,000–90,000-mile range. The CC's dual-mass flywheel also wears and requires inspection at every clutch job. A clutch that engages at the very top of pedal travel, slips under load on acceleration, or makes a noise on engagement is ready for replacement.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Strut and Suspension Wear on High-Mileage CC",
           "desc": "The CC's sporty suspension tune delivers a precise, connected feel, but that means the suspension components work with less compliance, and worn struts become noticeable quickly. High-mileage CC models often show front strut wear, strut mount degradation, and worn sway bar end links. If your CC no longer feels as planted and controlled as it once did, or if you hear a clunking sound from the front end on rough pavement, a suspension inspection is overdue.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine and Emissions Failures on High-Mileage CCs",
           "desc": "CCs with significant mileage frequently trigger oxygen sensor codes, EVAP system faults, and occasionally catalytic converter efficiency codes that cause Utah emissions test failures. The MAF sensor on 2.0T models is also a common fault contributor, contamination from the PCV breather system causes lean-condition codes. We diagnose what's actually causing the fault before replacing any parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "Brake Service on an Enthusiast-Driven Sedan",
           "desc": "CC owners tend to drive their cars the way they're meant to be driven, briskly. That's appropriate for the platform, and it means brakes get real use. Front brakes on an actively driven CC may need attention in the 35,000–45,000-mile range. The rear brakes, which are disc on all CC models, require periodic inspection and caliper slide servicing to prevent uneven wear. Squealing, grinding, or a pulsating brake pedal are your cues.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         }
       ],
@@ -1077,32 +1077,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "EA888 Gen 1 timing chain tensioner repair on 2009–2012 CC models, addressing the cold-start rattle before it causes engine damage."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Plastic impeller water pump replacement on high-mileage 2.0T CC engines, proactive cooling system maintenance."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Full clutch kit replacement on manual CC models, dual-mass flywheel inspection and replacement as needed."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and mount replacement on high-mileage CCs, restoring the precise handling feel the car was built for."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service on the CC, front and rear disc inspection for an enthusiast-driven sedan."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid checks, and maintenance for your CC, everything in one visit at our South Salt Lake shop."
         }
@@ -1209,37 +1209,37 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on Mk5/Mk6 2.0T",
           "desc": "The first-generation EA888 engine in Mk5 and Mk6 GTIs has a known timing chain tensioner that loses pressure over time. The classic symptom is a metallic rattle on cold startup that fades once oil pressure builds. Don't wait, a stretched or jumped chain can cause severe engine damage. We inspect the chain, tensioner, and guides and replace them as a unit when needed.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Slipping or Hard Engagement",
           "desc": "Manual GTIs driven the way they're designed to be driven will wear clutches. Enthusiast use, canyon driving, or towing will accelerate wear significantly. Common signs are slipping under hard acceleration, a high and grabby engagement point, or grinding going into gear. We carry quality OEM-spec clutch kits for every manual GTI generation, Mk4 through Mk8.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Water Pump Failure on EA888 Engines",
           "desc": "The plastic impeller water pump used in many EA888-equipped GTIs is a known wear item that can fail prematurely, especially above 60,000 miles. Symptoms include an overheating warning, coolant loss, or a check engine light with a coolant temperature code. When we replace a water pump, we inspect the thermostat and coolant hoses at the same time, they share labor.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "DSG Shudder or Hesitation",
           "desc": "DSG-equipped GTIs that are past due for mechatronic fluid service can shudder during low-speed engagement or hesitate on acceleration. VW's 40,000-mile fluid service interval is the minimum, in Utah stop-and-go traffic and temperature extremes, we recommend inspecting the fluid sooner. Fresh DSG fluid resolves shudder in many cases before anything mechanical needs attention.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Check Engine Light, Carbon Buildup on Intake Valves",
           "desc": "Direct-injection engines like the EA888 don't get fuel washing the intake valves the way port-injected engines do. Over time, oil vapors from the PCV system bake onto the valve stems and cause rough idle, misfires, and hesitation. The GTI is particularly prone to this above 60,000 miles. We inspect intake valve condition and walnut-blast the valves clean when buildup is present.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Leaks and Failed Emissions",
           "desc": "GTIs with aging exhaust gaskets or flex pipes can develop leaks that smell like exhaust inside the cabin or trigger oxygen sensor codes. Utah emissions testing is required every two years for Salt Lake County vehicles, and an exhaust leak will fail you. We inspect the full exhaust system, replace gaskets and worn sections, and retest.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1279,32 +1279,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "All manual GTI generations, OEM-spec clutch kits, flywheel inspection, hydraulic component check."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "EA888 chain, tensioner, and guide replacement for Mk5 and Mk6 GTIs before damage occurs."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "EA888 plastic impeller pump replacement, thermostat and hose inspection included."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "GTI front brake wear is accelerated by spirited driving, pads, rotors, and caliper inspection."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust gaskets, flex pipe replacement, and full system inspection for GTIs failing Utah emissions."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, DSG fluid service, oil service, and anything else your GTI needs, one visit."
         }
@@ -1395,37 +1395,37 @@ module.exports = {
         {
           "title": "Timing Belt Service on New Beetle 1.8T and TDI",
           "desc": "The 1.8T and TDI engines in the New Beetle are interference engines, meaning if the timing belt breaks, the valves and pistons collide and the repair bill multiplies. VW recommends replacement every 60,000–80,000 miles depending on engine and year. When we do a timing belt, we replace the water pump and tensioners at the same time. The labor is already done.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual Beetles",
           "desc": "Manual New Beetles and A5 Beetles have cable or hydraulic clutch systems that wear with regular use. Signs include a soft or spongy pedal, clutch slipping under load, or grinding on gear changes. Classic air-cooled Bugs have cable-operated clutches that go out of adjustment over time, periodic adjustment keeps them engaging correctly.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Water Pump Failure",
           "desc": "Water-cooled Beetles, both New Beetle and A5, can develop cooling system issues from a failing water pump or thermostat. Watch for a temperature gauge that climbs above normal, a coolant light, or a sweet-smelling puddle under the car. The water pump is often serviced with the timing belt since both share access time.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light on New Beetle",
           "desc": "New Beetle 1.8T models see a variety of check engine light triggers: boost leaks from aging silicone hoses, faulty diverter valves, oxygen sensor failures, and evaporative emissions codes. Many of these are straightforward once the codes are pulled and the root cause is verified. We read codes, test the components the code points to, and repair what's actually failing.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "New Beetle and A5 Beetle front CV joints are a regular wear item, especially on higher-mileage examples. A rhythmic clicking during tight turns, most noticeable in parking lots, is the classic sign of a worn outer CV joint. We replace the complete axle shaft rather than just the boot, which provides a more durable long-term result.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust and Emissions Concerns",
           "desc": "Utah's biennial emissions testing catches a lot of VW owners off guard. Aging oxygen sensors, failing catalytic converters, and small exhaust leaks can all trigger failures. We inspect the full exhaust system, identify what's causing the failure, and repair only what needs it.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1465,32 +1465,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "New Beetle 1.8T and TDI timing belt service, water pump and tensioner replaced at the same time."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Classic Bug cable clutch adjustment through New Beetle hydraulic clutch replacement, all generations."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service for water-cooled Beetles, often combined with timing belt service."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle replacement for clicking-on-turns diagnosis, New Beetle and A5 generations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for all water-cooled Beetle generations."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and diagnostics for your Beetle, classic or modern."
         }
@@ -1577,37 +1577,37 @@ module.exports = {
         {
           "title": "Timing Chain Wear on High-Mileage V6 and V8",
           "desc": "First and second-gen Touareg V6 and V8 engines are prone to timing chain stretch when oil changes are stretched past interval. Early signs include a rattle on cold startup or a check engine light with cam/crank timing codes. We inspect the full timing system, chain, tensioners, and guides, and address wear before it causes real engine damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump and Cooling System Failure",
           "desc": "The Touareg's cooling system uses plastic-bodied water pumps and thermostat housings that become brittle over time and can fail suddenly. Overheating in Utah's summer heat can cause serious damage fast. We inspect coolant hose condition, pump integrity, and thermostat function at every visit on Touaregs over 80,000 miles.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear and Electronic Parking Brake Service",
           "desc": "The Touareg's weight puts real demands on the brake system. Front pads and rotors wear faster than on lighter VW platforms. The rear electronic parking brake also requires a scan tool for retraction during pad replacement, a step that shops unfamiliar with the platform sometimes skip, leading to premature wear. We handle it correctly every time.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, Oxygen Sensor and Emissions Codes",
           "desc": "Touaregs with higher mileage commonly trigger upstream and downstream oxygen sensor codes, as well as evaporative emissions codes from degraded charcoal canisters or aging fuel caps. Utah emissions testing is required every two years for Salt Lake County vehicles, we diagnose and resolve check engine lights before they become test failures.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "Exhaust Leaks and Loud Exhaust Note",
           "desc": "Aging exhaust manifold gaskets and flex sections on V8 Touaregs can develop leaks that produce a noticeable ticking or rumbling exhaust note. These leaks can also allow exhaust gases into the engine bay. We inspect the full exhaust system and repair only what needs it.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Rough Ride, Strut and Shock Wear",
           "desc": "Touaregs with conventional suspension that have seen Utah's frost heaves and rough canyon roads will eventually show worn struts and shocks. Signs include a bouncy or wallowing ride, nosedive under braking, or unusual tire wear patterns. We inspect suspension condition and replace components as needed.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -1647,32 +1647,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "V6 and V8 Touareg chain, tensioner, and guide replacement, addressed before failure causes engine damage."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service including water pump, thermostat, and hose inspection for all Touareg generations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and electronic parking brake service, proper scan tool retraction procedure included."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and rear shock replacement for Touaregs with conventional suspension showing wear."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket, flex pipe, and full exhaust system repair for Touaregs with exhaust leaks."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid services, and diagnostics for your Touareg, all in one visit."
         }
@@ -1759,37 +1759,37 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual Golf R",
           "desc": "A six-speed manual Golf R driven at its capability will wear the clutch faster than a commuter vehicle. Canyon runs, track days, or performance driving on canyon roads near Salt Lake City all accelerate wear. Signs include slipping under hard acceleration, a high engagement point, or grinding when shifting. We stock clutch kits specifically for the Golf R and know the correct dual-mass flywheel inspection procedure.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "DSG Shudder and Fluid Service",
           "desc": "DSG-equipped Golf Rs that are past due for mechatronic fluid service can shudder at low-speed engagement or hesitate on upshifts. This is particularly noticeable in Utah's stop-and-go canyon access traffic. A DSG fluid service, done at the correct interval with the correct fluid, often resolves shudder before anything mechanical needs attention.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Water Pump Failure on EA888 Gen 3",
           "desc": "The EA888 Gen 3 engine in the Golf R uses an electronically controlled water pump that can fail between 60,000 and 90,000 miles. Early signs are a coolant temperature warning, sudden overheating, or a check engine light with a coolant temp code. We replace the water pump and thermostat together, they share access labor on this engine.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Intake Valve Carbon Buildup",
           "desc": "The Golf R's direct-injection 2.0T doesn't rinse the intake valves with fuel the way a port-injected engine does. Oil vapors from the PCV system accumulate on valve stems over time, causing rough idle, misfires, and hesitation, especially on cold starts. We inspect intake valve condition and walnut-blast the valves clean when buildup is found.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear Under Performance Use",
           "desc": "The Golf R's brembo-branded brakes on higher trims and the standard brakes on base models wear faster under enthusiast use. Utah canyon driving, in particular, puts real heat into the front brakes. We inspect pad and rotor condition thoroughly and recommend replacement based on actual wear measurement rather than mileage estimates.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Exhaust Leaks and Emissions",
           "desc": "Utah requires emissions testing every two years for Salt Lake County vehicles. Golf Rs with aging exhaust gaskets or cracked flex sections can develop leaks that cause exhaust odor in the cabin or trigger oxygen sensor codes. We inspect the full exhaust system and repair only what needs attention.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1829,32 +1829,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Golf R six-speed clutch replacement, OEM-spec kits, dual-mass flywheel inspection, correct break-in procedure."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "EA888 Gen 3 electronic water pump replacement, thermostat replaced at the same time."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Performance-use brake inspection, pad and rotor replacement based on actual wear measurement."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "EA888 Gen 3 chain, tensioner, and guide inspection for high-mileage Golf Rs."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Gasket and flex pipe repair for Golf Rs with exhaust leaks or Utah emissions concerns."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, Haldex AWD service, DSG fluid, oil service, and diagnostics, one visit."
         }
@@ -1937,37 +1937,37 @@ module.exports = {
         {
           "title": "Timing Chain Wear on V8 and W12 Engines",
           "desc": "The Phaeton V8 shares engine architecture with the Audi 4.2L V8 and has known timing chain service requirements above 100,000 miles. The W12 engine is more complex but follows similar principles. A cold-startup rattle or cam/crank timing codes are early warnings. We inspect and replace chain components before failure, not after.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Cooling System Failure",
           "desc": "The Phaeton's extensive cooling system, with its multiple circuits for engine, transmission, and rear axle cooling, uses plastic housings and hoses that degrade over time. Given the age of U.S.-market Phaetons, proactive coolant hose inspection and water pump replacement is highly advisable. We pressure test the cooling system before and after any cooling work.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake System Service",
           "desc": "The Phaeton's weight, over 5,000 pounds on W12 models, puts real demands on the brake system. Front brake pad and rotor wear is significant, and the rear electronic parking brake requires specific procedures during service. We have the tooling to do this correctly and inspect the full brake system at every visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light and Oxygen Sensor Codes",
           "desc": "Higher-mileage Phaetons regularly trigger oxygen sensor codes, there are four sensors on the V8 and more on the W12. Evaporative emissions codes from aging fuel system components are also common on cars of this vintage. Utah's biennial emissions requirement means these need to be addressed. We diagnose and repair accurately.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "Exhaust System Leaks",
           "desc": "At this age, Phaeton exhaust manifold gaskets and mid-pipe sections can develop leaks that produce a ticking or rumbling exhaust note and allow exhaust gases into the engine compartment. We inspect the full exhaust system and repair sections that are failing.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Suspension Wear and Rough Ride",
           "desc": "Phaetons with conventional or air suspension that have covered significant Utah mileage will show wear in struts, shock absorbers, and bushings over time. On cars with conventional suspension, worn struts produce a bouncy or floating ride and accelerate tire wear. We inspect suspension thoroughly and replace worn components.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -2007,32 +2007,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "V8 and W12 Phaeton timing chain, tensioner, and guide inspection and replacement."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service including water pump, hose inspection, and system pressure testing."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system service, pads, rotors, and electronic parking brake with correct retraction procedure."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut and Shock Replacement",
           "desc": "Suspension component replacement for Phaetons showing wear or ride quality changes."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket and exhaust section repair for Phaetons with exhaust leaks."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid services, and diagnostics for your Phaeton, one visit."
         }

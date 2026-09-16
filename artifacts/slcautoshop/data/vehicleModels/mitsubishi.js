@@ -57,37 +57,37 @@ module.exports = {
         {
           "title": "CVT Shudder or Hesitation",
           "desc": "Outlanders with high mileage or neglected CVT fluid changes often develop a shudder at low speeds or during light acceleration. Old or degraded CVT fluid is the most common cause, a drain-and-fill with the correct Mitsubishi-spec fluid resolves it in many cases. Waiting too long can mean a much more expensive transmission repair.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Worn Struts and Bouncy Ride",
           "desc": "Utah's canyon roads and potholed city streets are rough on Outlander struts. When the ride starts feeling bouncy or the truck floats through corners, it's usually time for strut replacement. We inspect both front and rear struts and replace them in axle pairs for balanced handling.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Fade on Mountain Descents",
           "desc": "Outlander owners who regularly drive Parleys Canyon or Little Cottonwood put a lot of heat through their brakes. Worn pads can fade quickly on long downhill runs, and rotors that are marginal on the flat become a hazard on grades. We inspect pad thickness, rotor condition, and caliper function before recommending any brake work.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Timing Chain Noise on 2.4L Engines",
           "desc": "The 2.4L four-cylinder in second and third generation Outlanders can develop timing chain stretch on high-mileage examples that have had inconsistent oil changes. A brief metallic rattle on cold startup that clears once oil pressure builds is the classic warning sign. Catching it early means a chain and tensioner job, ignoring it risks serious engine damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Check Engine Light, Oxygen Sensor or Catalytic Converter",
           "desc": "Outlanders with over 100,000 miles commonly trigger oxygen sensor or catalyst efficiency codes. We pull the code, verify what's actually failed, not just clear the light, and confirm the repair resolves the fault before the car leaves our shop.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "That clicking on tight turns in a parking lot is a worn CV joint. Outlander CV boots crack over time and lose grease, and once grit gets into the joint the wear is quick. We replace the complete axle shaft for a long-lasting repair rather than just repacking the boot.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -127,32 +127,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "CVT Service",
           "desc": "Mitsubishi-spec CVT fluid drain and fill, essential maintenance on 3rd and 4th gen Outlanders."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for Outlanders that have gone soft on Utah's rough roads."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, caliper inspection, especially important for Outlanders used on canyon grades."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "2.4L chain, tensioner, and guide replacement on high-mileage second and third gen models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, common on higher-mileage Outlanders."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Catalyst efficiency codes, O2 sensor diagnosis, and converter replacement on high-mileage models."
         }
@@ -235,31 +235,31 @@ module.exports = {
         {
           "title": "CVT Shudder or Sluggish Acceleration",
           "desc": "The Eclipse Cross CVT can develop a low-speed shudder or feel sluggish under acceleration when the fluid is past its service life. The friction modifiers that keep the belt running smoothly degrade over time, a drain-and-fill with the correct Mitsubishi CVT fluid is often all it takes to restore smooth operation.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Brake Squealing or Pulsation",
           "desc": "Eclipse Cross brakes see regular wear in stop-and-go Salt Lake City traffic. Squealing usually means the pads are near their wear limit. Pedal pulsation suggests warped rotors. We inspect pad thickness and rotor runout before recommending replacement, we don't replace what doesn't need replacing.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, Turbo or Oxygen Sensor Codes",
           "desc": "The 1.5T can trigger boost-related codes if the engine has been run on low-quality oil or if the PCV system has an issue. Oxygen sensor codes are also common as mileage climbs. We diagnose the actual fault, not just clear the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Bouncy Ride or Wandering Steering",
           "desc": "When the Eclipse Cross starts floating over bumps or feels vague in corners, the struts are usually the culprit. Utah roads are hard on suspension components. We inspect strut condition, strut mounts, and sway bar links as a system, not just individual components.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Clicking on Turns",
           "desc": "A clicking sound when turning, especially at low speeds in parking lots, points to a worn CV axle joint. Eclipse Cross CV boots crack in Utah's freeze-thaw cycles, grease escapes, and the joint wears quickly once it's running dry. Complete axle replacement gives a more reliable result than boot packing alone.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -299,32 +299,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "CVT Service",
           "desc": "Mitsubishi-spec CVT fluid service, the most important interval item on Eclipse Cross."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection on all four corners."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut service for Eclipse Cross vehicles with a soft, bouncy ride."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Catalyst efficiency and O2 sensor diagnosis and repair."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Full Auto Service",
           "desc": "Oil service, fluid checks, and complete vehicle inspection in one visit."
         }
@@ -411,31 +411,31 @@ module.exports = {
         {
           "title": "Timing Belt on 4G63 and 4G64 Engines",
           "desc": "The 4G63 turbo and 4G64 naturally aspirated engines in 1st through 3rd gen Eclipses use timing belts with interference configurations, if the belt breaks, the engine sustains serious internal damage. These belts should be replaced every 60,000 miles or 5 years, whichever comes first. We do the water pump and all tensioners at the same time to avoid reopening the job.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual Models",
           "desc": "Manual Eclipses, especially GSX AWD and GS-T models, wear clutches faster when driven aggressively. A clutch that's slipping under hard acceleration or has a high, grabby engagement point is overdue for replacement. We carry clutch kits for every manual Eclipse generation and know the correct installation procedures for both FWD and AWD setups.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Turbo Oil Feed Line Leaks",
           "desc": "The turbocharger oil feed and return lines on 4G63 Eclipses are a known leak point as the vehicle ages. Oil that migrates onto hot exhaust components produces the burning smell owners sometimes notice at idle. Catching this early is important, a starved turbo bearing is a much more expensive problem than a feed line replacement.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Exhaust Manifold Gasket Failure",
           "desc": "Third and fourth generation Eclipses commonly develop exhaust manifold gasket leaks as the gaskets harden and crack with heat cycling. You'll notice a ticking sound at idle that gets louder when the engine is cold, often accompanied by a faint exhaust smell in the cabin. We replace the gasket and inspect the manifold for cracks or warping at the same time.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Service and Soft Pedal",
           "desc": "High-mileage Eclipses often have brake fluid that hasn't been changed in years. Moisture-saturated brake fluid has a lower boiling point and can cause a soft, spongy pedal under hard braking. We flush the fluid, inspect the calipers, and check pad and rotor condition as a complete brake system inspection.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         }
       ],
@@ -475,32 +475,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "4G63 and 4G64 timing belt, water pump, and tensioner service, interference engines where timing failure means engine damage."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Eclipse clutch replacement, FWD and AWD GSX setups, all generations."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust manifold gasket and downpipe work on 3rd and 4th gen Eclipse models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, fluid flush, pads and rotors on all Eclipse generations."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Suspension restoration on high-mileage Eclipse models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Full Auto Service",
           "desc": "Comprehensive inspection, oil service, and fluid checks, all in one visit."
         }
@@ -591,31 +591,31 @@ module.exports = {
         {
           "title": "Timing Belt Service",
           "desc": "Galant 4-cylinder and V6 engines use timing belts on interference engines, belt failure means engine damage. The replacement interval is every 60,000 miles or 5 years. If you don't have documentation of when it was last done, treat it as overdue. We replace the water pump and tensioners at the same time. The labor is already there.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Transmission Shudder or Delayed Engagement",
           "desc": "Automatic Galants with neglected transmission fluid changes develop a shudder during light acceleration or a delay when shifting from Park to Drive. Old fluid loses its viscosity and friction modifier properties. A fluid drain and fill often resolves early shudder, but if the bands are already slipping, it's a more involved repair.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Exhaust Manifold Crack or Gasket Leak",
           "desc": "High-mileage Galants commonly develop exhaust manifold cracks or gasket leaks. The symptom is a ticking or tapping sound at cold startup that diminishes as the engine warms. Left alone, exhaust leaks upstream of the oxygen sensor produce false rich readings and can damage the catalytic converter.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Soft or Spongy Brake Pedal",
           "desc": "Older Galants often have brake fluid that hasn't been changed in years. Moisture-saturated fluid has a lower boiling point and produces a soft, spongy pedal. We flush the brake system, inspect caliper condition, and check pad and rotor wear as part of a complete brake service.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Bouncy Ride and Worn Struts",
           "desc": "8th gen Galant struts wear gradually, the car doesn't suddenly feel broken, it just gets progressively worse. By the time the ride feels noticeably bouncy or the car nose-dives under braking, the struts are well past their service life. We inspect and replace in axle pairs for balanced handling.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -655,32 +655,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Galant interference engine timing belt, water pump, and tensioner service, the most critical interval job."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Fluid flush, pads, rotors, and caliper inspection on all Galant generations."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Suspension restoration on high-mileage Galant models."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket and downstream exhaust work on aging Galants."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and fluid checks in one visit."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions diagnosis and catalytic converter service on Galants with check engine lights."
         }
@@ -771,31 +771,31 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual Lancers and Evos",
           "desc": "Manual Lancers and Evo models driven hard will go through clutches faster than a commuter automatic. Evo clutches from owners who run mountain passes or attend track days may need replacement as early as 40,000–50,000 miles. Signs include slipping under hard acceleration, a high engagement point, or difficulty releasing cleanly. We carry OEM-spec kits for all manual Lancer generations.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Timing Belt on 4G63 Evo Engines",
           "desc": "Every Evo through Evo IX uses the turbocharged 4G63, an interference engine. The timing belt must be replaced every 60,000 miles, and if you've bought an Evo without service records, that interval is the first thing to address. We do the complete job: belt, water pump, tensioners, and idler pulleys.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear on High-Performance Models",
           "desc": "Evo brakes from stock Brembos to aftermarket setups get worked hard on canyon roads. Pad wear is faster than on a standard sedan, and brake fade on long descents is a real concern when pads are thin. We inspect pad thickness and rotor condition at every service and won't ask you to replace parts that don't need replacing.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Axle Clicking (FWD Lancers)",
           "desc": "Front-wheel-drive Lancer models develop CV axle wear as the boots crack and grease escapes. The clicking sound on tight turns is the classic symptom. We replace the complete axle shaft for a durable, lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust and Catalytic Converter",
           "desc": "High-mileage Lancers often trigger catalyst efficiency codes as the converter degrades. Utah's emissions testing program will catch this. We diagnose the root cause, oxygen sensor, actual converter failure, or something upstream, and repair what's actually at fault.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -835,32 +835,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Lancer and Evo clutch replacement, OEM-spec and performance kits, all generations."
         },
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "4G63 and 4B11 timing belt, water pump, and tensioner service, complete interference engine belt jobs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection, especially important on canyon-driven Evo models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle replacement for clicking on turns on FWD Lancer models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions diagnosis and converter service on high-mileage Lancers."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and fluid checks in a single visit."
         }
@@ -947,31 +947,31 @@ module.exports = {
         {
           "title": "Timing Belt Service on V6 Models",
           "desc": "Second and third gen Montero V6 engines, the 3.0L and 3.5L, use interference timing belts. Failure destroys the engine. The replacement interval is every 60,000 miles or 5 years. We do the water pump and tensioners at the same time. The labor to get there is already accounted for.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Fade on Long Canyon Descents",
           "desc": "Loaded Monteros coming down Parleys or Little Cottonwood put a lot of heat through the brakes. Pads that are marginal on flat roads become a real safety issue on grades. We inspect brake pad thickness, rotor condition, and caliper function before recommending any brake work.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Transfer Case and Differential Fluid Leaks",
           "desc": "Older Monteros commonly develop leaks at the transfer case output seals and differential axle seals. These aren't always obvious until the fluid level is critically low. We inspect all drivetrain seals at every major service, especially on trucks that see off-road use where water crossings can wash lubricant out faster.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Worn Shocks and Rough Ride",
           "desc": "Montero shocks take significant punishment on Utah's forest service roads and rocky terrain. When the ride becomes harsh, jarring, or the truck wallows after crests, the shocks are usually due for replacement. We inspect and replace in axle pairs.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust and Catalytic Converter on High-Mileage Models",
           "desc": "Monteros with significant mileage often develop exhaust manifold leaks and degraded catalytic converters. The combination triggers check engine lights and can cause emissions failures at Utah's testing stations. We diagnose the actual fault and replace only what's needed.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1011,32 +1011,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Montero V6 interference engine timing belt, water pump, and tensioner service."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection, especially for Monteros used on canyon grades."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Four-wheel shock replacement on Monteros used in Utah off-road terrain."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "4WD Drivetrain Service",
           "desc": "Transfer case, front and rear differential fluid service and seal inspection."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket and downstream exhaust work on aging Montero trucks."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Converter diagnosis and replacement on high-mileage Montero models."
         }
@@ -1119,31 +1119,31 @@ module.exports = {
         {
           "title": "Timing Belt Service on 3.0L V6",
           "desc": "The 3.0L DOHC V6 in both naturally aspirated and VR-4 3000GT models uses an interference timing belt. Replacement is required every 60,000 miles or 5 years. On VR-4 models we also inspect the turbo oil feed lines and check coolant condition at the same time. The engine is already partially disassembled and these inspections cost nothing extra.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual Transmission Models",
           "desc": "Manual 3000GT clutches, especially on the heavy VR-4 with all the additional drivetrain mass, wear faster than on a lighter sports car. Slipping under hard acceleration, a high grabby engagement point, or a grinding sensation when releasing are the classic symptoms. We carry clutch kits for all 3000GT configurations.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Exhaust System Leaks and Turbo Downpipe",
           "desc": "VR-4 exhaust systems, particularly the turbo downpipes, are a common leak point as gaskets age and the constant heat cycling takes its toll. An exhaust leak upstream of the oxygen sensor causes rich running, poor fuel economy, and check engine lights. We inspect the full exhaust path from manifold to catalytic converter.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Service on All-Wheel-Drive Models",
           "desc": "The VR-4's weight and AWD system put more demand on the brakes than a FWD sports car. Pad wear is faster and rotor warping from heat cycles is more common. We inspect all four corners as a system on every 3000GT brake service.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Water Pump and Coolant System",
           "desc": "The 3.0L V6 water pump is driven off the timing belt system, which is why we replace it during every timing belt service. If a 3000GT comes in overheating, we inspect the water pump, thermostat, and coolant condition as a complete system before recommending any single repair.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -1183,32 +1183,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "3.0L DOHC V6 timing belt, water pump, and tensioner service, the most critical interval job on the 3000GT."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual 3000GT clutch replacement, FWD and VR-4 AWD configurations."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Downpipe gaskets, manifold leaks, and exhaust system repair on VR-4 and base models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Complete four-corner brake inspection and service on all 3000GT trims."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump replacement done concurrently with timing belt service on the 3.0L V6."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and maintenance in one visit."
         }
@@ -1287,31 +1287,31 @@ module.exports = {
         {
           "title": "Timing Belt Service",
           "desc": "The Diamante's 3.0L and 3.5L V6 engines use interference timing belts, the same situation as many Mitsubishi V6 engines from this era. The belt must be replaced every 60,000 miles or 5 years. We include the water pump and all tensioners in the job. The accessory cost of those parts is minor compared to the labor cost of returning to the same engine twice.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Transmission Shudder on Acceleration",
           "desc": "Older Diamante automatics with neglected fluid changes develop a low-speed shudder, harsh shifts, or delayed engagement. The correct fluid specification is important, using generic ATF in a Diamante transmission can make shudder worse rather than better. We diagnose the condition and advise on whether a fluid service will help or whether the transmission needs more attention.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Exhaust Manifold Gasket Leaks",
           "desc": "High-mileage Diamantes frequently develop exhaust manifold gasket leaks, a ticking sound at cold startup, an exhaust smell in the cabin, or a check engine light from the upstream oxygen sensor are the common symptoms. We inspect the manifold for cracks and replace the gaskets and oxygen sensor if needed.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Service and Fluid Flush",
           "desc": "Older Diamantes often have brake fluid that has absorbed significant moisture over the years. This lowers the fluid's boiling point and produces a soft, spongy pedal under hard braking. We flush the system, inspect caliper condition, and check pad and rotor wear as a complete brake service.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Strut Replacement on High-Mileage Models",
           "desc": "Diamante struts age gradually, the car doesn't announce their failure, it just gets progressively softer and less controlled. By 100,000+ miles on original struts, the handling and braking distance are meaningfully compromised. We inspect strut condition and replace in axle pairs for balanced handling.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -1351,32 +1351,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Diamante V6 timing belt, water pump, and tensioner service, interference engine critical maintenance."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Fluid flush, pads, rotors, and caliper inspection on all Diamante models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut service for high-mileage Diamante models."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket, oxygen sensor, and downstream exhaust work on aging Diamantes."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Transmission Service",
           "desc": "Automatic transmission fluid service with correct Mitsubishi-spec fluid."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Converter and emissions diagnosis on high-mileage Diamante models."
         }

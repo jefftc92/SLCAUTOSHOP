@@ -61,37 +61,37 @@ module.exports = {
         {
           "title": "Brake Wear from Towing and Mountain Grades",
           "desc": "Sierras used for towing, boats, trailers, fifth-wheels, burn through brake pads and warp rotors faster than most owners expect. Utah's canyon grades make it worse. A soft pedal, grinding, or a truck that pulls to one side under braking means it's time. We inspect pads, rotors, calipers, and brake fluid condition at the same time.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Shock and Strut Wear on High-Mileage Trucks",
           "desc": "A Sierra that bounces, wallows around corners, or feels loose over rough roads has worn shocks or struts. This matters more on a truck that hauls weight, worn suspension components affect ride control, tire wear, and braking distance. We replace shocks and struts in axle pairs and road-test before you pick up.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Timing Chain Wear on High-Mileage 5.3L and 6.0L",
           "desc": "The LS-family V8s in GMT900 and K2XX Sierras can develop timing chain stretch past 150,000 miles, particularly when oil changes have been deferred. A brief metallic rattle at cold startup, especially on a winter morning, is the first warning. A worn chain can jump timing and cause serious internal damage. We inspect the chain, tensioner, and guides and replace before the problem escalates.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Rust and Manifold Leaks",
           "desc": "Utah road salt and wide temperature swings are hard on Sierra exhaust systems. Exhaust manifold gaskets crack, manifold bolts snap, and flex pipes rust through, especially on older GMT800 and GMT900 trucks. A ticking noise at startup that fades as the engine warms up is a classic manifold leak. We handle the full exhaust from manifold to tip.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "CV Joint Wear on 4WD Models",
           "desc": "Sierra 4x4s with front CV axles, particularly GMT900 and newer, develop clicking on turns when the front CV joints wear out. The boot cracks, grease escapes, and grit gets in. We replace the complete axle shaft for a more durable repair than boot-only service.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Catalytic Converter Failure or Theft",
           "desc": "Sierra trucks sit high enough to make catalytic converter theft quick and easy. Beyond theft, high-mileage cats fail internally and trigger P0420 codes that cause failed Utah emissions tests. We replace catalytic converters with OEM-quality units and can advise on anti-theft deterrents for trucks parked outdoors.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -131,32 +131,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and brake fluid service, especially important on tow rigs and trucks used on Utah mountain grades."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "OEM-grade shock replacement in axle pairs for Sierras with bounce, wallow, or reduced load-hauling stability."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement for high-mileage 5.3L and 6.0L LS-family engines showing cold-start rattle."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex pipes, and full exhaust replacement for rusted-out or leaking Sierra exhaust systems."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for 4WD Sierras with clicking on turns."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and everything your Sierra needs, inspected and prioritized in one visit."
         }
@@ -251,31 +251,31 @@ module.exports = {
         {
           "title": "Brake System Wear, Pads, Rotors, and Calipers",
           "desc": "Heavy Yukons, especially fully loaded XLs, are hard on brakes. Rear brakes often wear faster than front on these platforms, and rotors warp from repeated hard stops. A soft pedal, squealing, or grinding under braking means it's time for an inspection. We check pads, rotors, calipers, and brake fluid in one visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Shock and Strut Wear",
           "desc": "A Yukon that feels floaty over bumps, body-rolls excessively in corners, or nose-dives under braking has worn shock absorbers. For a vehicle this size, worn shocks are a safety concern, they extend stopping distances and reduce steering control. We replace shocks in axle pairs and road-test before you leave.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump Failure on High-Mileage V8s",
           "desc": "The water pump on 5.3L and 6.0L Yukons typically lasts 80,000–100,000 miles before the bearing or seal starts to fail. Signs include a coolant leak from the front of the engine, an overheating gauge creeping up, or a rumbling noise from the front of the engine. We replace the pump, inspect the thermostat, and flush the coolant as a package.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Timing Chain Wear on GMT900 Yukons",
           "desc": "The GMT900 Yukon (2007–2014) with 5.3L V8 is known for timing chain issues at high mileage, often triggered by Active Fuel Management lifter problems and deferred oil changes. A cold-start rattle that fades in seconds is the first sign. We inspect the chain, tensioner, and guides before a stretched chain causes engine damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Manifold Leaks",
           "desc": "Yukon exhaust manifold bolts are notorious for cracking or snapping, especially on the driver's side of the 5.3L, causing a ticking noise at startup. Utah's temperature swings accelerate this. The noise often sounds like a ticking lifter but gets louder when the engine is cold. We diagnose the source and repair the manifold properly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -315,32 +315,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection and service, pads, rotors, calipers, and fluid, for a vehicle that earns its brakes."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "OEM-grade shock replacement for Yukons with bounce, body roll, or reduced handling confidence."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump, thermostat, and coolant flush service for overheating or leaking V8 Yukons."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement for high-mileage GMT900 5.3L engines showing cold-start rattle."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, manifold bolts, and full exhaust system service for leaking or loud Yukon exhausts."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic and multi-point inspection, everything your Yukon needs, prioritized in one visit."
         }
@@ -419,31 +419,31 @@ module.exports = {
         {
           "title": "Timing Chain Noise on 3.6L First-Gen Acadia",
           "desc": "The 3.6L LLT engine in 2007–2016 Acadias has a documented timing chain stretch problem. The first symptom is usually a rattling or whirring noise on cold startup that clears up within a minute. Ignore it long enough and the chain skips a tooth, triggering rough running or a no-start. We inspect the chain, tensioners, and guides and replace what's actually worn, not every part in the system.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut Wear and Suspension Noise",
           "desc": "First-gen Acadias develop clunking or bouncing over rough roads as the struts wear, often by 80,000–100,000 miles. This is a common complaint on Utah roads, which take a beating from winter freeze-thaw cycles. We replace struts in axle pairs and recheck alignment to make sure the repair holds.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Wear, Front and Rear",
           "desc": "Acadias wear front brakes predictably, but rear brake calipers can seize on older models, especially if brake fluid hasn't been changed regularly. A pulsating pedal, a pull to one side, or squealing from the rear are all reasons to bring it in. We inspect the full brake system and replace only what needs replacing.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Water Pump Failure on 3.6L",
           "desc": "The water pump on the 3.6L Acadia runs off the timing chain system, when the pump begins to fail, coolant leaks internally and can contaminate the timing chain area. It's important to catch this early. Overheating, a puddle of coolant under the engine, or a sweet coolant smell from under the hood are the warning signs.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Catalytic Converter Issues and Check Engine Light",
           "desc": "High-mileage Acadias frequently trigger P0420 or P0430 codes, catalytic converter efficiency below threshold. Before replacing the cats, we verify the code isn't caused by an oxygen sensor or exhaust leak, which are far cheaper fixes. When the cat is genuinely failing, we replace with OEM-quality units.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -483,32 +483,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement for 3.6L first-gen Acadias, one of the most common repairs we handle on this platform."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for Acadias with bounce, clunk, or handling instability over rough Utah roads."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection, including rear caliper seizure common on older Acadias."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump replacement for 3.6L Acadias showing coolant leaks or early overheating symptoms."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat replacement or O2 sensor diagnosis for Acadias throwing P0420/P0430 codes and failing Utah emissions."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection and service, fluid condition, timing chain check, brakes, and suspension in one visit."
         }
@@ -587,31 +587,31 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual First-Gen Canyons",
           "desc": "The 5-speed manual in first-gen Canyons is a solid gearbox, but the clutch wears out with use, especially on trucks used for towing or driven aggressively. A high engagement point, clutch slip under load, or difficulty finding reverse are signs it's time. We replace the disc, pressure plate, and release bearing as a set.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Exhaust Rust and Leaks",
           "desc": "Utah road salt attacks Canyon exhaust systems, flex pipes, mid-pipes, and catalytic converter connections. A ticking or hissing noise that changes pitch with engine RPM is often an exhaust leak. We inspect the full system from manifold to tailpipe and repair or replace what's actually failed.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Service",
           "desc": "Canyon brakes wear at a predictable rate, front pads first, rotors not far behind. If you've been towing a small trailer or hauling tools regularly, the rear brakes take more heat than usual too. We inspect all four corners and replace only what needs replacing.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Joint and Front Axle Wear on 4WD Models",
           "desc": "4WD Canyons used off-road put stress on the front CV joints. A clicking sound when turning, especially noticeable at low speed in a parking lot, means the CV joint is worn. We replace the complete axle shaft rather than just the boot, which holds up much better under continued off-road use.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Oxygen Sensor and Emissions",
           "desc": "High-mileage Canyons frequently trigger oxygen sensor codes or P0420 catalyst efficiency codes. Before replacing the catalytic converter, we verify the root cause, sometimes an exhaust leak or a failed O2 sensor mimics a failing cat. We diagnose correctly the first time.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -651,32 +651,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Canyon clutch replacement, disc, pressure plate, release bearing, and flywheel service."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Full exhaust system repair for Canyons with salt-damaged pipes, manifold leaks, or rusted flex pipes."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and calipers, front and rear, for Canyons used for work, towing, or daily commuting."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle replacement for 4WD Canyons clicking on turns from worn CV joints."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Correct diagnosis and replacement for Canyons with P0420 codes failing Utah emissions tests."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and multi-point inspection for Canyons at any mileage."
         }
@@ -755,31 +755,31 @@ module.exports = {
         {
           "title": "Timing Chain Wear on 2.4L First-Gen Terrain",
           "desc": "The 2.4L Ecotec engine in 2010–2017 Terrains is known for timing chain tensioner failure, which leads to chain slack and a rattling noise at startup. The issue is most common on vehicles with infrequent oil changes or extended idle times. We inspect the chain, tensioner, and guides and advise on what actually needs replacing.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut Wear and Suspension Noise",
           "desc": "Terrain struts wear out at high mileage and show up as a bouncy ride, clunking over bumps, or a vehicle that doesn't return smoothly to center after a turn. Utah's frost-heaved winter roads accelerate strut wear. We replace in axle pairs and check alignment after installation.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Wear, Pads and Rotors",
           "desc": "Terrain brake wear is fairly predictable, front pads wear first, rotors warp from heat. A squealing noise at low speed is the pad wear indicator; grinding means the pad is gone and the rotor is being scored. We check all four corners and provide an honest assessment of what needs replacing now.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Water Pump Failure",
           "desc": "Water pump failures on the 2.4L Ecotec can be sneaky, a small coolant leak from the front of the engine or a creeping temperature gauge before more obvious overheating develops. We replace the pump, inspect the thermostat, and flush the coolant as a package to prevent a return visit.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light and Emissions Failure",
           "desc": "Terrain P0420 codes, catalyst below threshold, are common at high mileage, but the root cause isn't always the catalytic converter. We verify whether the code is from a genuinely failed cat, a failed oxygen sensor, or an exhaust leak before recommending a replacement.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -819,32 +819,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Tensioner, chain, and guide replacement for 2.4L Ecotec Terrains with cold-start rattle or tensioner failure."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for Terrains with bounce, clunk, or imprecise handling on Utah roads."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for all Terrain trims, complete four-corner brake service."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Pump, thermostat, and coolant flush for Terrains with coolant leaks or early overheating symptoms."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate diagnosis and quality replacement for Terrains with P0420 codes and Utah emissions failures."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and inspection for any Terrain at any mileage, everything in one visit."
         }
@@ -923,31 +923,31 @@ module.exports = {
         {
           "title": "Shock Absorber Wear and Handling Deterioration",
           "desc": "High-mileage Envoys develop a loose, floaty ride from worn shock absorbers, the body leans in corners, the nose dives under braking, and the truck bounces over rough pavement. These are safety concerns, not just comfort issues. We replace shocks in axle pairs and road-test to confirm the handling improvement.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust System Rust and Leaks",
           "desc": "Envoys that have spent Utah winters with road salt exposure develop exhaust leaks, cracked manifold gaskets, rusted flex pipes, and failed mid-pipe connections. The classic symptom is a ticking or hissing noise that's loudest at startup and changes with RPM. We inspect the full system and repair what needs fixing.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Water Pump Failure on 4.2L and 5.3L",
           "desc": "Water pump lifespan on GMT360 Envoys is typically 80,000–100,000 miles. Symptoms include a coolant leak from the front of the engine, an overheating gauge, or a rumbling noise from the front of the engine. We replace the pump, check the thermostat, and flush the coolant as a package.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Service: Four-Corner Inspection",
           "desc": "High-mileage Envoys need regular brake attention, pads wear, rotors develop heat spots, and calipers can seize on vehicles that have sat for extended periods. We inspect all four corners and replace only what needs replacing, never as a blanket job.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light and Catalytic Converter",
           "desc": "P0420 and P0430 codes on high-mileage Envoys usually indicate genuinely worn catalytic converters. Before replacing, we verify the code isn't an upstream O2 sensor or exhaust leak issue. When the cat is at fault, we replace with OEM-quality units that will pass Utah emissions.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -987,32 +987,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "OEM-grade shock replacement for Envoys with a loose, floaty, or bouncy ride from worn-out shock absorbers."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex pipes, and full exhaust service for salt-damaged or leaking Envoy exhaust systems."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump, thermostat, and coolant flush for overheating or leaking Envoys."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Four-corner brake inspection and service, pads, rotors, and caliper condition on high-mileage Envoys."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate diagnosis and quality replacement for Envoys with P0420/P0430 codes failing Utah emissions."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and maintenance for high-mileage Envoys, everything in one visit."
         }
@@ -1095,31 +1095,31 @@ module.exports = {
         {
           "title": "Brake System Service",
           "desc": "Jimmy brakes, especially rear drum brakes on older models, need regular attention. Brake fluid absorbs moisture over time and the boiling point drops, causing a mushy pedal under hard use. We inspect the full brake system, check caliper and wheel cylinder condition, and replace what needs replacing.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Shock Absorber Replacement",
           "desc": "A Jimmy that wallows on the highway, feels loose over bumps, or body-rolls aggressively in corners has worn shock absorbers. On a 4x4 used off-road, worn shocks affect both on-road comfort and off-road articulation. We replace in axle pairs with OEM-grade units.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Corrosion and Leaks",
           "desc": "Utah road salt is hard on older exhaust systems. Jimmys from the 1990s and early 2000s often have rust-damaged flex pipes, manifold gasket failures, and corroded mid-pipes. A ticking or hissing exhaust note that changes with RPM points to a leak. We inspect from manifold to tailpipe.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Clutch Service on Manual Jimmys",
           "desc": "Manual Jimmy models, especially S-15s used for off-road work, wear clutches through rough-terrain use. A clutch that slips under load, has a high engagement point, or grinds when shifting is due for replacement. We carry quality clutch kits for all manual Jimmy transmissions.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Check Engine Light and Emissions",
           "desc": "Older Jimmys with check engine lights often have oxygen sensor failures or catalytic converter issues, both common on high-mileage platforms. We diagnose the specific code, verify the root cause, and repair what's actually needed to pass Utah emissions.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -1159,32 +1159,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection and service, drums, discs, wheel cylinders, and calipers for all Jimmy generations."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "OEM-grade shock replacement for Jimmys with worn-out ride control and 4x4 suspension handling."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex pipes, and full exhaust system service for salt-corroded Jimmy exhaust systems."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Service",
           "desc": "Manual Jimmy clutch replacement, disc, pressure plate, release bearing, and flywheel inspection."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Diagnosis and replacement for Jimmys with check engine lights or Utah emissions failures."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and under-vehicle inspection, everything your Jimmy needs in one visit."
         }

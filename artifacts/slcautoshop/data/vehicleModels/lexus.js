@@ -69,37 +69,37 @@ module.exports = {
         {
           "title": "Timing Belt Service (1989–2006 ES)",
           "desc": "The 1MZ-FE V6 in the 3rd and 4th gen ES is an interference engine, if the timing belt breaks, the valves and pistons collide and the engine is destroyed. The factory interval is 90,000 miles, but Utah's temperature swings accelerate belt aging. We do the full kit: belt, tensioner, idler pulleys, and water pump at the same time since it's already apart. Don't skip this one.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure on High-Mileage V6 Models",
           "desc": "The water pump on early ES V6 engines is driven by the timing belt, which means it should always be replaced together with the belt. On later chain-driven models, water pump failure shows up as coolant drips, overheating warnings, or a bearing whine from the front of the engine. We catch these early before they strand you.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear, Rear Pads Go First",
           "desc": "ES models distribute brake bias toward the rear more than most cars their size, rear pads wear faster than many owners expect. By the time you hear squealing, pads may already be metal-on-rotor. We inspect brake thickness at every service visit and let you know where you stand before it becomes an emergency.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut Wear and Road Noise (XV40/XV60)",
           "desc": "5th and 6th gen ES sedans are known for a comfortable highway ride that gradually gets bumpier as struts wear. Utah's frost-heave road damage accelerates this. If your ES feels like it's floating on rough pavement or you're getting more road noise than usual, worn struts are the most likely cause.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, O2 Sensor and Catalytic Codes",
           "desc": "High-mileage ES 350 models commonly trigger P0420 or P0430 catalyst efficiency codes as the upstream O2 sensor or the catalyst itself ages. We read the full code set, verify which bank is flagging, and fix the actual root cause, not just the symptom.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-wheel-drive ES models develop CV joint wear over time, especially if the protective boots crack and lose grease. The symptom is a rhythmic clicking or popping sound during slow turns, parking lots, driveways. We replace the full axle shaft for a durable long-term repair rather than just repacking the boot.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -139,32 +139,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Full kit service for interference-engine ES V6 models, belt, tensioner, pulleys, and water pump in one visit."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Timing belt-driven and independent water pump replacement for all ES generations, coolant system pressure-tested after."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "ES rear brake pads wear faster than most owners expect, pads, rotors, and caliper inspection at every service."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore the smooth ES ride quality that made you buy the car, quality strut assemblies for all generations."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for clicking and popping on turns, common on high-mileage FWD ES models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid services, filters, and anything else your ES needs, one appointment, one shop."
         }
@@ -255,37 +255,37 @@ module.exports = {
         {
           "title": "IS 250 Intake Valve Carbon Buildup",
           "desc": "The 2GR-FSE and 4GR-FSE direct-injection engines skip the intake valve wash that port-injection engines get from fuel passing over the valves. Carbon deposits build up over time, reducing airflow and causing rough idle, hesitation, and loss of power. This is a known issue on IS 250 models from the XE20 generation. We inspect for it and perform intake service when deposits are significant.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Rear Brake Wear, IS 350 Especially",
           "desc": "The IS 350's rear brake bias wears rear pads faster than most owners plan for. We see IS 350s come in with front pads still at 60% and rears already at the wear indicator. A regular brake inspection catches this before rotors are scored. Squealing under light braking is often the first sign.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut Wear on XE20 and XE30 Models",
           "desc": "Salt Lake City roads take a toll on suspension, spring frost-heave leaves potholes that punish struts. IS owners often notice increased road harshness or a clunking sound over bumps as struts wear on XE20 and XE30 cars. We inspect the full suspension and replace what's worn, not what's merely convenient to sell.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Drone and Leaks",
           "desc": "Aftermarket exhaust systems are popular on the IS platform, and poorly fitted aftermarket components can develop rattles and leaks over time. Even OEM exhausts develop flange leaks and flex-pipe cracks on high-mileage cars. A ticking or hissing sound from under the car on acceleration is the telltale sign.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, Catalyst and O2 Codes",
           "desc": "High-mileage IS models commonly trigger catalyst efficiency codes (P0420/P0430) on the V6 engine banks. Before replacing the catalytic converter, we verify the upstream O2 sensor is functioning correctly. A faulty sensor is a much cheaper fix than a cat and often the actual culprit.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Soft or Spongy Brake Pedal",
           "desc": "A brake pedal that requires more pressure than usual, or that sinks slightly before firm engagement, usually means air in the hydraulic system or brake fluid that's absorbed enough moisture to affect performance. We bleed and flush the system and inspect calipers for signs of internal leakage.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         }
       ],
@@ -325,32 +325,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "IS 350 rear pads wear faster than most owners expect, full inspection, pads, rotors, and caliper service."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore the sport-tuned IS ride and handling, quality strut assemblies for XE10 through XE40."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flange leaks, flex-pipe cracks, and OEM or aftermarket exhaust system repairs on all IS models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420/P0430 code diagnosis and catalyst replacement, we verify O2 sensor function first to avoid unnecessary parts."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full IS inspection, oil service, fluid checks, and any deferred maintenance, one appointment."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Rear shock replacement for IS models showing increased body motion or rear-end instability on rough roads."
         }
@@ -445,37 +445,37 @@ module.exports = {
         {
           "title": "Timing Belt Service (1998–2009 RX 300/330)",
           "desc": "The 1MZ-FE engine in 1st and 2nd gen RX models is an interference design, a snapped timing belt destroys the engine. The factory interval is 90,000 miles, but an RX that sat or did lots of short trips may need the belt earlier due to age-related degradation. We do the complete kit in one appointment: belt, tensioner, idler pulleys, and water pump. This is not a job to defer.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Replacement",
           "desc": "On belt-driven water pump RX models, we always replace the pump at the same timing belt service, labor overlaps almost completely, and a failed water pump after a fresh belt job means tearing everything apart again. On chain-driven 3rd and 4th gen models, the water pump is separate, and failure shows up as overheating or a weeping coolant smell from the front of the engine.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Strut and Shock Wear",
           "desc": "RX struts take a beating from Utah's combination of smooth freeway, rough city streets, and mountain roads. Worn struts show up as increased body roll in turns, excessive nose dive under braking, or a clunking sound over expansion joints. We inspect at every visit and replace when wear crosses from acceptable to affecting safety or tire wear.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Rear Brake Service",
           "desc": "The RX's all-wheel-drive layout and rear brake bias mean rear pads wear out faster than many owners anticipate. We see RX models come in for a routine oil change and find rear pads already metal-on-metal while fronts look fine. Squealing under light braking or pulling to one side are the signs to watch for.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Catalytic Converter Codes (P0420/P0430)",
           "desc": "High-mileage RX 350 and RX 300 models commonly flag catalyst efficiency codes. Before condemning the catalytic converter, we verify O2 sensor function on both banks, a faulty upstream sensor is far less expensive to replace and is often the real cause of the code. We fix what the car actually needs.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Failed Emissions Test",
           "desc": "Utah emissions testing catches RX models with catalyst efficiency codes, EVAP system leaks, and O2 sensor faults. If your RX failed emissions, we diagnose the actual fault, repair it properly, and retest. We also check that the drive cycle is complete before the inspection so you're not making a second trip.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -515,32 +515,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Full kit service on 1MZ-FE RX models, belt, tensioner, idler pulleys, and water pump in one appointment."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Belt-driven and independent water pump service for all RX generations, cooling system pressure-tested after."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore RX ride quality and handling after Utah road damage, quality strut assemblies for all generations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Rear brake pads wear faster than fronts on the AWD RX, full inspection and service at every visit."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420/P0430 diagnosis and cat replacement, O2 sensor verification first to avoid unnecessary parts."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full RX inspection, oil service, fluid services, and any deferred maintenance, one appointment."
         }
@@ -627,37 +627,37 @@ module.exports = {
         {
           "title": "Timing Belt Service on GX 470 (2UZ-FE)",
           "desc": "The GX 470's 4.7L V8 uses a timing belt with a 90,000-mile replacement interval. It is an interference engine, if the belt breaks, the valves and pistons collide and the engine is totaled. We do the complete kit in one appointment: belt, tensioner, idler pulleys, and water pump. This is one of the most important preventive services you can do on a GX 470.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Replacement",
           "desc": "The GX 470 water pump is driven by the timing belt, replacing it at the same time as the belt is the only sensible approach, since the labor cost is nearly identical and a pump failure on a fresh belt means tearing it all back apart. On the GX 460 with its chain-driven 1UR-FE, water pump failure shows up as coolant weeping or an overheating warning.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Front and Rear Brake Service",
           "desc": "Off-road and mountain driving cycles the brakes more aggressively than suburban commuting. GX 470 rear drum brakes require periodic adjustment and inspection that many shops overlook. GX 460 rear disc brakes are more straightforward but wear quickly on trucks used for towing. We inspect everything, pads, rotors, drums, hardware, and caliper slide pins.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "The GX's coil-spring front suspension and rear leaf springs get a workout on Utah's mountain trails and rough city roads. Worn front struts cause a bouncy, vague steering feel and accelerate tire wear. We inspect the full suspension system and replace what's worn, struts, shocks, and suspension bushings as needed.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust System Maintenance",
           "desc": "Off-road driving exposes the exhaust system to rocks, debris, and water crossings that can accelerate rust and physical damage. Manifold leaks, flex-pipe cracks, and heat shield rattles are all common on higher-mileage GX models. A ticking sound from the engine bay on startup is often a manifold gasket leak, we catch these before they turn into bigger problems.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light and Emissions",
           "desc": "GX 460 and late GX 470 models can trigger EVAP system codes and O2 sensor codes as mileage climbs. Utah's altitude and temperature swings stress these systems more than average. We diagnose the actual fault and fix it properly, and verify emissions readiness before sending you to the testing station.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -697,32 +697,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Full kit service on the GX 470 2UZ-FE V8, belt, tensioner, pulleys, and water pump in one visit."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "GX 470 belt-driven water pump service and GX 460 standalone pump replacement, cooling system tested after."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection for off-road and towing use, pads, rotors, drums, hardware, and caliper service."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut service for GX models, restore handling and reduce tire wear from worn suspension components."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold leaks, flex-pipe damage, and heat shield repairs, common on GX trucks used in rough terrain."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full GX inspection, oil service, all fluid services, and any deferred maintenance, one appointment."
         }
@@ -813,37 +813,37 @@ module.exports = {
         {
           "title": "Timing Belt Service (LX 470, 2UZ-FE V8)",
           "desc": "The LX 470's 4.7L V8 uses a timing belt with a 90,000-mile replacement interval. This is an interference engine. A belt failure causes immediate catastrophic engine damage. We perform the complete kit service: belt, tensioner, idler pulleys, and water pump. If you've purchased an LX 470 without maintenance records, this is the first thing to verify.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Service",
           "desc": "The LX 470 water pump is driven by the timing belt and is replaced as part of the same service. On LX 570 models with the 3UR-FE V8 timing chain, the water pump is a standalone unit that can develop coolant weeps at high mileage. We inspect and replace before a small leak becomes an overheating event.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Service",
           "desc": "An LX with its 6,000-plus-pound curb weight puts real demands on its brakes. LX owners who tow or drive mountain roads will see accelerated brake wear. We inspect pads, rotors, calipers, and brake hoses, and advise on appropriate brake pad compounds for the way you use your LX.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Strut and Shock Absorber Wear",
           "desc": "LX models use a sophisticated suspension for a truck this size, and shock absorber wear gradually robs the truck of its ability to control body motion under load. An LX that wallows over freeway dips or bottoms out on rough terrain often just needs new shocks. We inspect at every major service and replace when wear is affecting safety or comfort.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust System and Manifold Leaks",
           "desc": "High-mileage LX 470 and LX 570 models can develop exhaust manifold gasket leaks, particularly on the driver's side, causing a ticking or tapping sound under acceleration. These leaks also allow hot exhaust gases near engine components and can trigger O2 sensor codes. We repair manifold gaskets and any downstream flex-pipe or flange issues.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Emissions Failure and Check Engine Light",
           "desc": "LX models can trigger O2 sensor codes, catalyst efficiency codes, and EVAP system faults as mileage climbs. Utah's emissions testing applies to these trucks, and a failed test needs a proper repair, not a cleared code. We diagnose the actual fault, fix it, and verify monitor readiness before you head back to the station.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -883,32 +883,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Full kit service on LX 470 2UZ-FE V8, belt, tensioner, idler pulleys, and water pump in one appointment."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Belt-driven LX 470 water pump and standalone LX 570 pump service, cooling system fully tested after."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection for a heavy-duty platform, pads, rotors, calipers, and hose condition on all LX models."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Restore LX ride control under load, quality shock absorbers for LX 470, LX 570, and LX 600."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket leaks, flex-pipe cracks, and exhaust flange repairs on high-mileage LX V8 models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full LX inspection, oil service, all drivetrain fluid services, and any deferred maintenance, one visit."
         }
@@ -1007,37 +1007,37 @@ module.exports = {
         {
           "title": "Timing Belt Service (LS 400 and LS 430)",
           "desc": "The 1UZ-FE and 3UZ-FE V8 engines in the LS 400 and LS 430 use timing belts with a 90,000-mile service interval. Both are interference engines, valve-to-piston contact is the result of a belt failure. We do the complete kit: belt, tensioner, idler pulleys, and water pump in one visit. For an LS 400 or LS 430 without documented belt history, this is the highest priority maintenance item.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Service",
           "desc": "On belt-driven LS models, the water pump is replaced with the timing belt. The labor is nearly identical and a pump failure on a fresh belt means reopening the entire front of the engine. On the LS 460 and LS 500 with timing chains, the water pump is a standalone component, coolant weeps and overheating warnings are the signs we watch for.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear on a Heavy Platform",
           "desc": "The LS is a large, heavy sedan, and its brakes are working harder than those on a lighter car at the same speeds. Rear brake pads wear out faster than most owners expect given the car's premium positioning. We inspect brake condition at every service visit and catch wear before rotors are damaged, which saves real money on a car where OEM-quality rotors are not cheap.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Air Suspension Issues (LS 430 and LS 460)",
           "desc": "Some LS 430 and LS 460 models are equipped with air suspension that can develop leaks in the air strut bladders or compressor failures as these cars age. When the air suspension fails, the car sinks to bumpstop height. We can convert air suspension to quality coilover strut assemblies that eliminate the failure mode and restore ride quality.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust System Wear on High-Mileage LS",
           "desc": "LS models accumulate high mileage gracefully, but at 150,000+ miles even the robust Lexus exhaust system develops manifold gasket leaks and flex-pipe wear. A ticking sound from the engine bay on cold startup that quiets as the engine warms is often a manifold gasket, we repair these before hot exhaust gas reaches nearby wiring or emissions components.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Check Engine Light and Emissions Readiness",
           "desc": "High-mileage LS models can trigger O2 sensor and catalyst efficiency codes as well as EVAP system faults. Utah's emissions test applies to these cars. A check-engine light is an automatic failure. We diagnose the actual fault, repair it, and verify monitor readiness so you pass on the first attempt.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1077,32 +1077,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Full kit service for LS 400 and LS 430 V8 models, belt, tensioner, pulleys, and water pump in one appointment."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Belt-driven and standalone water pump service across all LS generations, cooling system tested after."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Brake inspection and service for a large, heavy sedan, pads, rotors, and caliper service at every visit."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Air suspension conversion or standard strut replacement, restore LS ride quality on aging suspension systems."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket leaks and exhaust system repairs on high-mileage LS V8 models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full LS inspection, oil service, all fluid services, and any overdue maintenance, one appointment."
         }
@@ -1185,37 +1185,37 @@ module.exports = {
         {
           "title": "Brake Wear and Brake Pedal Feel Changes",
           "desc": "The Lexus NX uses high-quality factory brakes, but Utah mountain driving, particularly descending Parley's Canyon or Big Cottonwood, accelerates pad and rotor wear faster than flat-road commuting. If you're noticing a soft pedal, squealing at low speed, or a pulsing sensation when braking, it's time for an inspection. We check pad thickness, rotor condition, and caliper function on every visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut and Shock Wear on Utah Roads",
           "desc": "The NX's suspension is tuned for a comfortable, composed ride, and worn struts destroy that character quickly. The freeze-thaw pothole cycles on Salt Lake roads hit suspension hard. If your NX feels floaty over bumps, wanders at highway speed, or the front end dips heavily under braking, the struts are likely worn. We inspect both front and rear on every NX that comes in with ride complaints.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on AWD Models",
           "desc": "The NX's all-wheel-drive system routes significant torque through the front and rear axle shafts. Over time, CV joint boots crack, especially in Utah's dry, UV-intense climate, allowing grease to escape and grit to enter. The result is a rhythmic clicking on turns that gets louder as the joint wears. We replace the complete axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Emissions and Sensor Codes",
           "desc": "NX check engine lights most commonly trace to catalytic converter efficiency codes, O2 sensor failures, or evaporative emission system leaks on higher-mileage examples. The NX 300h hybrid adds a more complex emissions calibration. We read the codes, verify the root cause with the proper tests, and repair what actually needs fixing, not just clear the light and hope it stays off.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Weeping on 2.0T Models",
           "desc": "The 2.0-liter turbocharged engine in first-generation NX 200t and NX 300 models uses an internal water pump driven by the timing chain. Early signs of failure include coolant weeping from the front of the engine or a gradual coolant level drop with no visible leak. Left alone, a failing water pump leads to overheating. We inspect the cooling system as part of every major service on these engines.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust System Corrosion and Rattles",
           "desc": "Utah's winter road salt is harsh on exhaust systems. NX exhaust hangers and mid-pipe connections corrode over time, leading to rattles at idle or under acceleration that can be mistaken for engine noise. We inspect the full exhaust from the manifold back and repair or replace what's causing the noise.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1255,32 +1255,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad and rotor replacement, caliper inspection, and brake fluid flush for all NX generations."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement to restore the NX's composed, quiet ride quality."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Repair",
           "desc": "Complete axle shaft replacement for clicking or vibration on AWD NX models."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service including water pump replacement on NX 200t and NX 300 models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions code diagnosis and catalytic converter replacement for NX models facing check engine lights."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full multi-point inspection, fluid services, and any repair your NX needs, one visit."
         }
@@ -1359,31 +1359,31 @@ module.exports = {
         {
           "title": "Brake Fade on Canyon Descents",
           "desc": "The UX is light and the brakes are well-sized, but repeated canyon descents, like the regular commute down Big Cottonwood or Emigration Canyon, generate more heat than flat-road driving. If your brake pedal feels less firm than usual or you smell a hot, sharp odor after a descent, have the brakes inspected. Degraded brake fluid and worn pads make this worse.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Strut Noise and Ride Quality Loss",
           "desc": "Utah roads punish suspension components. The UX's struts can develop a knocking or clunking noise over rough pavement as the strut mounts and bearings wear. A bouncy, floating ride at highway speed is another sign. We inspect the struts, mounts, and bushings and replace what's causing the problem.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Wear on UX 250h AWD",
           "desc": "The UX 250h uses a rear electric motor for all-wheel drive, but the front axle shafts still carry primary drive loads and are subject to CV joint wear. Clicking or vibration on turns, particularly at low speeds in parking lots, points to a worn outer CV joint. We replace the complete axle shaft rather than attempting boot-only repairs.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light and Emissions Codes",
           "desc": "UX check engine lights most frequently trace to catalytic converter efficiency warnings (P0420 or P0430), evaporative emission system faults from the gas cap or purge valve, or O2 sensor degradation on higher-mileage cars. We read the code, run the diagnostic tests to confirm the root cause, and repair what actually needs fixing.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Rattle from Road Salt Corrosion",
           "desc": "Winter road salt in Salt Lake corrodes exhaust hangers, heat shields, and mid-pipe joints on UX models that see year-round Utah driving. The rattle typically appears at idle or under light acceleration and can travel through the cabin in a way that sounds more serious than it is. We inspect the full exhaust system and repair the source.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1423,32 +1423,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pad and rotor replacement, and brake fluid condition testing for all UX models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Strut, mount, and bearing replacement to restore ride quality and handling on Utah roads."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Repair",
           "desc": "Complete axle shaft replacement for CV joint wear on UX 250h AWD and UX 200 models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions code diagnosis and catalytic converter service for check engine light issues."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Hanger, mid-pipe, and exhaust connection repairs for salt-corrosion rattles and leaks."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid services, and all mechanical repairs for your UX, one visit."
         }
@@ -1535,37 +1535,37 @@ module.exports = {
         {
           "title": "Timing Belt Replacement (1st and 2nd Gen V6/V8)",
           "desc": "The 2JZ-GE inline-six in the 1st and 2nd gen GS 300 and the 1UZ-FE V8 in the GS 400 both use timing belts with a strict replacement interval, typically 90,000 miles or 7 years. Utah's temperature extremes accelerate belt aging; the dry heat and cold cycling are hard on rubber. We replace the belt, tensioner, idler pulleys, and water pump together to avoid paying for partial teardown twice.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure and Coolant Loss",
           "desc": "Water pump failure on the GS is most commonly noticed as a slow coolant leak from the front of the engine or a gradual drop in the coolant reservoir level over weeks. On timing-belt-equipped GS models, we replace the water pump as part of the belt service, it's driven by the same belt and requires the same disassembly. Catching it here saves a repeat job.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Strut and Shock Wear on High-Mileage GS",
           "desc": "A well-maintained GS can accumulate 150,000–200,000+ miles, and by that point struts and shocks have earned their retirement. Worn suspension on the GS shows up as vague steering feel, a wallowing sensation over dips, and increased brake dive. Replacing struts on a high-mileage GS transforms how the car feels, it's one of the best-value improvements you can make at this mileage.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake System Service",
           "desc": "The GS's rear-wheel-drive layout and sport-sedan character mean drivers use the brakes more assertively than in a crossover. On mountain roads around Salt Lake, brake fade from worn pads and old fluid is a real concern. We inspect pad thickness, rotor surface, caliper operation, and fluid condition on every GS brake service.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust System Leaks and Resonance",
           "desc": "High-mileage GS exhaust gaskets, particularly at the manifold and front pipe connections, develop leaks that produce a ticking or hissing sound at cold startup. Road salt accelerates corrosion on exhaust connections. A properly sealed exhaust matters for both performance and cabin air quality.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and O2 Sensor Codes",
           "desc": "On 3rd and 4th gen GS models, P0420 and P0430 catalyst efficiency codes are common as mileage builds. Upstream O2 sensors also degrade with age. We diagnose these thoroughly. A catalyst code can have multiple root causes, and we verify the actual source before recommending a repair.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -1605,32 +1605,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Service",
           "desc": "Complete timing belt, tensioner, idler, and water pump replacement for 1st and 2nd gen GS models."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service and water pump replacement, done alongside timing belt service for efficiency."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, caliper, and fluid service for the GS's sport-sedan braking demands."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut and Shock Replacement",
           "desc": "Front and rear suspension refresh for high-mileage GS models, restores handling and ride quality."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions code diagnosis and catalyst replacement for 3rd and 4th gen GS check engine lights."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full multi-point inspection and all fluid and mechanical services for your GS, one visit."
         }
@@ -1713,37 +1713,37 @@ module.exports = {
         {
           "title": "Timing Belt Service on SC 300 and SC 400",
           "desc": "The 2JZ-GE in the SC 300 and the 1UZ-FE V8 in the SC 400 both use timing belts with a 90,000-mile or 7-year replacement interval. Utah's temperature extremes accelerate belt aging. A broken timing belt on these interference engines causes severe valve and piston damage, this is not a service to defer. We replace the belt, tensioner, idler pulleys, and water pump together.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump and Cooling System",
           "desc": "Coolant weeping from the front of the engine or a gradual reservoir level drop often indicates water pump seal wear. On SC 300 and SC 400 models, the water pump is replaced as part of the timing belt service to avoid repeating the disassembly. Catching it before it fails prevents overheating and the far more expensive damage that follows.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Clutch Replacement on SC 300 Manual",
           "desc": "The SC 300 five-speed manual is one of the better driving experiences in any Lexus, and the clutch on these cars is engineered to match. At high mileage, clutch disc wear, pressure plate fatigue, and pilot bearing wear are expected. Symptoms include a slipping clutch under hard acceleration, a high engagement point, or difficulty finding a gear cleanly. We replace the full clutch assembly, disc, pressure plate, and release bearing.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Service on the SC Platform",
           "desc": "The SC is a heavy coupe and its brakes are sized accordingly, but high-mileage examples benefit from complete brake inspections. Brake fluid in an SC 430 that has sat for extended periods, common with cars driven seasonally or as weekend cars, absorbs moisture and should be replaced. We inspect and service the full brake system.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Shock Absorber Wear on SC 430",
           "desc": "The SC 430's suspension is tuned for a luxurious, composed ride. Worn shocks and struts let that tuning fall apart, the car floats over highway dips, wanders in lane changes, and nose-dives under braking. SC 430s driven year-round in Utah accumulate suspension wear faster than weekend-only cars.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust and Emissions on High-Mileage SC",
           "desc": "High-mileage SC models develop exhaust manifold gasket leaks that produce a ticking sound on cold startup, this is particularly common on the 2JZ. Catalytic converter efficiency codes (P0420/P0430) also appear as mileage climbs. We diagnose the actual cause before recommending parts.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1783,32 +1783,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Service",
           "desc": "Complete timing belt, tensioner, idler, and water pump replacement for SC 300 and SC 400 models."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch assembly service for the SC 300 five-speed manual, disc, pressure plate, and release bearing."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service and water pump replacement, typically done with timing belt service."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection and service including fluid replacement for seasonally-driven SC models."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock and Strut Replacement",
           "desc": "Suspension refresh for SC 430 models to restore the composed, controlled ride Lexus intended."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full condition assessment and all fluid and mechanical services for your SC, one visit."
         }
@@ -1887,37 +1887,37 @@ module.exports = {
         {
           "title": "Brake Pad and Rotor Wear",
           "desc": "The RC's sport-tuned brakes handle aggressive driving well, but they also wear faster than a commuter sedan's. RC owners who use their cars on Utah canyon roads or occasional track days should inspect brakes every 20,000–25,000 miles. Glazed rotors from infrequent aggressive stops are common on RCs used primarily as daily drivers with occasional hard use. We check pad thickness, rotor surface condition, and caliper function.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "The RC's suspension is firm and purposeful. As struts wear, that character softens, the car begins to float over highway undulations, wallow through lane changes, and nose-dive under hard braking. Utah's pothole-heavy roads accelerate strut wear on any vehicle, and the RC's sport tuning makes that wear more noticeable sooner. We inspect front and rear struts and replace what's causing the change in behavior.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Wear on RC 300 AWD",
           "desc": "The all-wheel-drive RC 300 routes significant torque through front axle shafts that are subject to CV joint wear. Utah's dry UV-intense climate cracks CV boots faster than humid regions, allowing grease to escape and contamination to enter. Clicking on turns that worsens over time is the symptom. We replace the complete axle shaft for a reliable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Timing Chain Inspection on V6 Models",
           "desc": "The 2GR-FE V6 in the RC 350 uses a timing chain, it doesn't have a belt replacement interval, but chains do wear with age and oil neglect. A brief cold-start rattle that quiets after oil pressure builds is the first sign. We inspect the chain, tensioner, and guides during any major engine service and advise on action before it progresses to a more serious failure.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Check Engine Light, Emissions and Sensor Codes",
           "desc": "The RC's check engine light most commonly traces to O2 sensor degradation, catalytic converter efficiency codes, or evaporative emission system faults. The turbocharged RC 200t can also see boost-related sensor codes as mileage builds. We diagnose these with proper testing to confirm the root cause before recommending parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Rattle and Corrosion",
           "desc": "Utah road salt corrodes exhaust hangers, heat shields, and mid-pipe joints over multiple winters. On the RC, exhaust rattles from corroded mounts can resonate through the coupe body in a way that sounds more alarming than it is. We inspect the full exhaust system and repair the actual source of the noise.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1957,32 +1957,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pad and rotor replacement, and brake fluid service for all RC models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement to restore the RC's sport-tuned handling character."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Repair",
           "desc": "Complete axle shaft replacement for clicking or vibration on RC 300 AWD models."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide inspection and replacement on high-mileage RC 350 V6 models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions diagnosis and catalytic converter replacement for RC check engine light codes."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full multi-point inspection and all fluid and mechanical services for your RC, one visit."
         }

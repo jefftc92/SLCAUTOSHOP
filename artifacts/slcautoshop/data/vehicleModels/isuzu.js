@@ -49,37 +49,37 @@ module.exports = {
         {
           "title": "Timing Belt Service, 3.2L and 3.5L V6",
           "desc": "The second-generation Trooper's V6 engines use a rubber timing belt that must be replaced every 60,000 miles. Both the 3.2L SOHC and 3.5L DOHC are interference engines, a broken belt destroys the valvetrain. We replace the belt, water pump, tensioner, and idler pulleys as a complete service. If you don't know when the belt was last replaced, assume it needs to be done.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Water Pump and Overheating",
           "desc": "The Trooper's belt-driven water pump lives behind the timing cover. A failing water pump, typically a weeping seal before a full failure, leads to coolant loss and overheating. Utah's mountain terrain means the Trooper is often working hard at elevation, which amplifies the consequences of a cooling system problem. We replace the water pump at every timing belt service.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "4WD Engagement Problems or Transfer Case Noise",
           "desc": "The Trooper's part-time 4WD system can develop engagement problems, grinding when shifting into 4WD, difficulty disengaging, or a whine from the transfer case, when the transfer case fluid hasn't been serviced. Front locking hubs also wear with use. We inspect the full 4WD system and service what's needed.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "CV Axle and Front Axle Wear",
           "desc": "Front CV axles on four-wheel-drive Troopers see significant stress, especially on trucks used for off-road driving. Clicking during turns or grinding during 4WD use indicates worn CV joints or front axle components. We inspect and replace what's worn.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Bouncy Ride, Worn Shocks",
           "desc": "High-mileage Troopers with original shocks will have lost most of their damping ability. On a truck used for off-road travel or rough terrain, worn shocks are both a comfort problem and a safety issue, they affect handling and braking stability. We replace shocks with quality units appropriate for the Trooper's weight and use.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service: Pads, Rotors, and Drums",
           "desc": "The Trooper uses disc brakes front and rear on later models and disc/drum configurations on earlier ones. High-mileage examples often have brake hardware that's never been fully serviced, aged calipers, hardened hoses, and worn rotors. We inspect the complete system and replace what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         }
       ],
@@ -119,32 +119,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "3.2L and 3.5L V6 timing belt, water pump, tensioner, and idler, complete interference engine service."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Belt-driven water pump replacement as part of the timing belt service on the Trooper V6 engines."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Front axle and CV joint replacement for 4WD-equipped Troopers used on and off pavement."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system service, pads, rotors, calipers, and drums, for all Trooper generations."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Quality shock absorber replacement to restore ride control and off-road capability on high-mileage Troopers."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, 4WD fluid check, and all maintenance items in one visit."
         }
@@ -223,37 +223,37 @@ module.exports = {
         {
           "title": "Timing Belt Service, 3.2L V6",
           "desc": "The 3.2L SOHC V6 in 1992–2004 Rodeos uses an interference-engine timing belt that must be replaced every 60,000 miles. A broken belt on this engine causes serious valve and piston damage. We replace the belt, water pump, tensioner, and idler together, skipping any of those components means opening the engine again sooner than necessary.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Overheating, Cooling System Failure",
           "desc": "High-mileage Rodeos develop cooling system issues from the water pump, thermostat, and degraded coolant working together. The 3.2L V6 runs well within its temperature range but suffers head gasket damage when overheated. We inspect the full cooling system, hoses, thermostat, water pump, and coolant condition, before replacing individual parts.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Four-wheel-drive Rodeo front CV axles wear over time, particularly on trucks that have seen real off-road use. Clicking during low-speed turns is the first sign. We replace the complete axle shaft.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear and Soft Pedal",
           "desc": "Rodeo brakes are conventional and straightforward, but aging rubber brake hoses on older trucks restrict fluid flow and cause soft or uneven braking. We inspect the full system, hoses, calipers, pads, and rotors, and replace what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Check Engine Light and Emissions",
           "desc": "High-mileage Rodeos commonly develop oxygen sensor and catalytic converter efficiency codes. In Utah, a check engine light means a failed emissions test. We read the codes, trace the root cause, and fix the actual problem rather than clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Rough Ride, Worn Shocks",
           "desc": "The Rodeo was designed for truck-like durability, but original shocks on a high-mileage example have lost their damping ability. On a truck used for off-road travel, worn shocks are a safety concern, they affect braking distance and handling stability. We replace them with quality units appropriate for the Rodeo's weight and use.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -293,32 +293,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "3.2L V6 interference engine timing belt, water pump, tensioner, and idler, complete service."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Belt-driven water pump replacement as part of the timing belt service on V6 Rodeos."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Front axle shaft replacement for worn CV joints on 4WD Rodeo models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system service including hose inspection for all Rodeo generations."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Quality shock replacement to restore ride control and handling stability."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, 4WD fluid check, and all maintenance in one visit."
         }
@@ -397,31 +397,31 @@ module.exports = {
         {
           "title": "Timing Belt, Critical Service on 3.2L V6",
           "desc": "The 3.2L SOHC V6 in the Passport is an interference engine. The 60,000-mile timing belt interval is not optional. A broken belt causes the valves and pistons to collide, and the repair bill for that damage is significant. On a truck that's 20+ years old, belt age is as important as mileage. We replace the belt, water pump, tensioner, and idler pulleys together.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Overheating or Coolant Loss",
           "desc": "Aging cooling systems on high-mileage Passports develop multiple failure points simultaneously, water pump weep, cracked hoses, a thermostat that sticks, and degraded coolant all conspire. Utah's summer heat and elevation amplify these issues. We diagnose the full cooling system rather than replacing individual parts on speculation.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front CV axles on the Passport wear with time and use, especially on trucks that have been used for off-road driving or towing. Clicking on low-speed turns is the classic sign. We replace the complete axle shaft.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Soft Brake Pedal or Brake Noise",
           "desc": "Rubber brake hoses on a 20-year-old Passport can internally collapse or swell, restricting fluid flow and causing uneven or spongy braking. We inspect the entire brake system, hoses, calipers, pads, and rotors, before recommending parts.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Check Engine Light, Emissions Codes",
           "desc": "High-mileage Passports commonly develop oxygen sensor codes and catalytic converter efficiency codes. A check engine light means a Utah emissions failure. We pull the codes, trace the actual cause, and fix it properly.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -461,32 +461,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "3.2L V6 interference engine timing belt, water pump, tensioner, and idler, complete service."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Belt-driven water pump replacement as part of timing belt service on V6 Passport models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Front axle shaft replacement for worn CV joints on all Passport drivetrain configurations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system service including brake hose inspection for all Passport model years."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and replacement for high-mileage Passport exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, 4WD fluid check, and all maintenance in one visit."
         }
@@ -561,31 +561,31 @@ module.exports = {
         {
           "title": "Timing Belt Service, 3.5L DOHC V6",
           "desc": "The 3.5L DOHC V6 in the Axiom uses a rubber timing belt on a 60,000-mile interference engine. A broken belt causes serious internal engine damage. On a 20-year-old truck, the belt's age is as important as its mileage, rubber doesn't last forever. We replace the belt, water pump, tensioner, and idler pulleys as a complete service.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Water Pump and Cooling System",
           "desc": "The Axiom's belt-driven water pump lives inside the timing cover, and a failing water pump leaks coolant and leads to overheating. We replace the water pump at every timing belt service and inspect the full cooling system, hoses, thermostat, and coolant condition, at the same time.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Wear, Clicking on Turns",
           "desc": "The Axiom's front CV axles handle both 4WD power delivery and front-end steering loads. Clicking on turns, especially at low speed in parking lots, indicates a worn outer joint. We replace the complete axle shaft.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Bouncy Ride or Poor Handling",
           "desc": "Original shocks on an Axiom at this age have lost their damping ability. The truck will feel loose and bouncy, particularly on Utah's rougher highways and mountain roads. We replace shocks with quality units appropriate for this platform's weight.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service",
           "desc": "Aging brake hardware on the Axiom, rubber hoses, caliper slides, and worn rotors, creates uneven braking and increased stopping distances. We inspect the complete brake system before recommending parts.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         }
       ],
@@ -625,32 +625,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "3.5L DOHC V6 interference engine timing belt, water pump, tensioner, and idler, complete service."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Belt-driven water pump replacement as part of the timing belt service."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Front axle shaft replacement for worn CV joints on the Axiom's AWD system."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system service, pads, rotors, calipers, and brake hose inspection."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Quality shock absorber replacement to restore ride and handling control on aging Axiom suspensions."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and all fluid maintenance for the Isuzu Axiom platform."
         }
@@ -729,31 +729,31 @@ module.exports = {
         {
           "title": "Clutch Wear, Manual Transmission Amigos",
           "desc": "Most Amigos were sold with manual transmissions, and a light truck used for off-road trails and varied terrain sees real clutch wear. Slipping under load, a high or inconsistent engagement point, or difficulty finding gears means it's time. We replace the full clutch assembly, inspect the flywheel, and verify the hydraulics.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Timing Belt, 3.2L V6 Second-Gen Models",
           "desc": "The second-generation Amigo with the 3.2L V6 has an interference engine timing belt. At this age and mileage, the rubber belt may be original equipment. Replace it before it fails. A broken belt means engine damage that costs far more than the belt service.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle and Front Axle Wear",
           "desc": "Four-wheel-drive Amigos stress the front CV axles during off-road use, steep angles, hard landings, and aggressive terrain all take a toll. Clicking on turns is the sign. We replace the complete axle shaft and inspect the front axle housing for additional damage.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Service on Aging Hardware",
           "desc": "Original brake hardware on a 25+ year-old Amigo, rubber hoses, caliper pistons, and worn rotors, needs to be assessed honestly. Old hardware that looks acceptable on the surface can fail under hard braking. We inspect the full system and replace what's actually needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust Leaks and Loud Exhaust",
           "desc": "Exhaust manifold gaskets and flex pipes on old Amigos fail with age, particularly on trucks that have seen off-road use with thermal cycling. Exhaust leaks make the truck loud and can route exhaust toward the occupant area. We inspect the full exhaust and repair what's leaking.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -793,32 +793,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Amigo clutch assembly, flywheel inspection, and hydraulic system service."
         },
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "3.2L V6 interference engine timing belt, water pump, tensioner, and idler for second-gen Amigo models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Front axle shaft replacement for worn CV joints on 4WD Amigo models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system service, pads, rotors, drums, calipers, and hose inspection, for all Amigo years."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket, flex pipe, and muffler service for aging Amigo exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and fluid maintenance for the Isuzu Amigo platform."
         }

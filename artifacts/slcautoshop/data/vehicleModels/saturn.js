@@ -49,37 +49,37 @@ module.exports = {
         {
           "title": "CVT Slipping or Shuddering (2002–2007 Four-Cylinder)",
           "desc": "The JATCO CVT used on early four-cylinder Vues is among the least reliable transmissions Saturn installed. Shudder under acceleration, hesitation from stops, and a burning smell are all warning signs. In some cases a fluid flush buys time; in others the transmission needs to be replaced. We diagnose the condition honestly and won't recommend a rebuild when a less expensive fix will do, or vice versa.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Strut and Shock Wear",
           "desc": "Vue struts and rear shocks wear out faster than most compact SUV owners expect, particularly on Utah roads. A bouncy or wallowing ride, nose dive under braking, or uneven tire wear all point to suspension components that need attention. We replace struts and shocks in pairs and follow up with an alignment.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front CV axles on the Vue wear at the outer joint first. The telltale clicking or popping on tight turns, especially in parking lots, means the joint's protective boot has failed and the grease is gone. We replace the complete axle shaft rather than patching the boot, which is a more durable repair that lasts.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and O2 Codes",
           "desc": "Vue catalytic converters on high-mileage examples trigger P0420 codes regularly. Before recommending a new cat, we verify root cause, an upstream O2 sensor failure can mimic a bad converter. We diagnose accurately so you only pay for what actually needs replacing.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Timing Belt on 2.2L Four-Cylinder",
           "desc": "The 2.2L Ecotec engine in first-gen Vues uses a timing belt, not a chain. At high mileage an overdue belt replacement is an interference engine failure waiting to happen. If you don't know when yours was last replaced, we'll inspect it and give you a straight answer on whether it needs to come off now.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": null
         },
         {
           "title": "Brake Wear, Front and Rear",
           "desc": "Vue brakes are straightforward but the rear brakes on AWD models can seize if the vehicle sits or if moisture works into the caliper slides. Grinding, pulling to one side, or a soft pedal are all reasons to bring it in. We inspect the full brake system and replace only what's needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         }
       ],
@@ -119,32 +119,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "CVT and Transmission Service",
           "desc": "Fluid diagnosis, condition assessment, and honest guidance on early-generation Vue CVT problems."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front struts and rear shocks replaced in pairs with alignment follow-up on Utah-road-worn Vues."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Repair",
           "desc": "Complete axle shaft replacement for clicking joints, more durable than boot-only repairs."
         },
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "2.2L Ecotec timing belt inspection and replacement before an overdue belt causes engine damage."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pad and rotor replacement, and seized caliper repair on AWD models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis, we verify root cause before recommending a replacement cat."
         }
@@ -227,31 +227,31 @@ module.exports = {
         {
           "title": "Timing Chain Noise on High-Mileage Ecotec",
           "desc": "The 2.2L Ecotec in the Ion uses a timing chain that can stretch on high-mileage examples, especially those with irregular oil changes. A brief metallic rattle on cold startup that fades after a few seconds is the classic early symptom. Left alone, a stretched chain can skip a tooth and cause serious engine damage. We inspect the chain, tensioner, and guides and advise before the problem becomes catastrophic.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": null
         },
         {
           "title": "Clutch Wear, Manual Transmission Models",
           "desc": "Manual Ion clutches driven in stop-and-go Salt Lake City traffic wear faster than open-highway use. A high engagement point, clutch slip under load, or difficulty finding reverse are all signs the clutch is due. We handle the full clutch replacement including flywheel inspection and hydraulic system check.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Check Engine Light, Catalytic Converter Codes",
           "desc": "High-mileage Ions commonly set P0420 codes. Before recommending a catalytic converter replacement, we verify the root cause, a failing upstream oxygen sensor mimics a bad cat and costs a fraction of the price to fix. We diagnose accurately, not just guess.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear and Rear Drum Service",
           "desc": "Many Ion trims used rear drum brakes, which require periodic adjustment and occasional shoe replacement. Front disc brakes wear more quickly in Utah's hilly terrain. Squealing, grinding, or a soft pedal are all reasons to bring the Ion in for a full brake inspection.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut Wear and Front-End Noise",
           "desc": "Ion front struts wear with age and mileage, clunking or thumping over bumps, a vague steering feel, and uneven tire wear are the usual signs. Utah roads amplify strut wear. We replace struts in pairs and follow up with an alignment to protect your tires.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -291,32 +291,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "High-mileage Ecotec timing chain, tensioner, and guide inspection and replacement."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Full clutch replacement for manual Ion models, disc, pressure plate, flywheel inspection, and hydraulic check."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front disc and rear drum brake service, shoes, pads, rotors, and caliper inspection."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement in pairs with alignment follow-up for Ion front-end noise and tire wear."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate P0420 diagnosis, we confirm root cause before recommending a replacement cat."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid check, oil service, and any repair your Ion needs, one visit."
         }
@@ -399,31 +399,31 @@ module.exports = {
         {
           "title": "Timing Chain Rattle, SOHC and DOHC",
           "desc": "S-Series timing chains stretch with age and mileage. Cold-start rattle that quiets once oil pressure builds is the first sign. The Saturn SOHC engine's tensioner system is oil-pressure dependent, if oil changes have been skipped or intervals stretched, chain wear accelerates. We inspect and replace the chain, tensioner, and guides as a set.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": null
         },
         {
           "title": "Clutch Wear on Manual Transmission Models",
           "desc": "The SC2 and SL2 5-speed manual is popular with drivers who like to stay engaged behind the wheel, which means clutch wear is common. High engagement, slipping under load, and grinding when shifting are the signs. We do full clutch replacements on S-Series cars regularly, it's a bread-and-butter job for us.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "CV Axle Wear on High-Mileage Cars",
           "desc": "CV axle boots crack with age on S-Series cars that are now two decades old. Once the boot fails, the grease escapes and the joint wears quickly. Clicking or popping on turns is the classic symptom. We replace complete axle shafts rather than just the boot for a more lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust Rust and Loud Exhaust",
           "desc": "Utah's winter road salt is hard on S-Series exhaust systems. These cars are old enough that rust-through on the mid-pipe and muffler is common. A loud exhaust note or a rattling heat shield means it's time for exhaust work. We weld and replace exhaust components and get the noise and the emissions back in order.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Coolant Loss and Water Pump Failure",
           "desc": "Water pumps on high-mileage S-Series engines are a wear item. Low coolant, overheating, or a coolant puddle under the car in the morning all point to cooling system issues. We inspect the pump, thermostat, hoses, and radiator condition as a system, not just the most obvious component.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -463,32 +463,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "SOHC and DOHC timing chain, tensioner, and guide replacement on high-mileage S-Series engines."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Full clutch kit replacement for SC2, SL2, and SW2 5-speed manual models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Repair",
           "desc": "Complete axle shaft replacement for clicking or popping on turns, aged-boot failures are common."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Mid-pipe and muffler replacement on rust-affected S-Series exhaust systems."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system inspection and water pump replacement on high-mileage SOHC and DOHC engines."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front disc and rear drum brake service, pads, shoes, rotors, and hydraulic inspection."
         }
@@ -567,31 +567,31 @@ module.exports = {
         {
           "title": "Timing Chain Noise, 3.6L V6",
           "desc": "The 3.6L V6's timing chain system uses plastic guides that degrade over time, especially on cars with infrequent oil changes. A rattle or ticking from the front of the engine on cold startup is the classic early warning. This engine has four camshafts and a complex chain routing, it's a job that requires proper experience. We handle these repairs and won't cut corners on a job this involved.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": null
         },
         {
           "title": "Water Pump Failure, Timing Chain Pump",
           "desc": "The Outlook uses an internal water pump driven off the timing chain, not a traditional externally-mounted pump. When it fails, coolant leaks internally rather than onto the ground. Engine overheating, coolant loss without a visible leak, or white exhaust smoke are the signs. This repair is combined with the timing chain service since the engine has to come apart the same way.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear on a Heavy Crossover",
           "desc": "At curb weights approaching 5,000 pounds, the Outlook's brakes work hard, especially in Utah's hilly terrain. Front rotors warp, brake pads wear faster than owners expect, and rear calipers can seize on vehicles that see winter road salt. We do full brake inspections and replace components as needed without overselling.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Strut and Shock Wear",
           "desc": "Outlook struts and shocks wear with load and mileage. A wallowing or bouncy ride, nose-dive under braking, or a persistent shimmy at highway speed all point to suspension components that need replacing. We replace struts in pairs and do an alignment after the job.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Exhaust and Catalyst Codes",
           "desc": "The 3.6L V6 has multiple O2 sensors monitoring both banks of the exhaust. High-mileage Outlooks commonly set catalyst efficiency codes on one or both banks. We diagnose accurately, sometimes it's an O2 sensor, sometimes it's a cat. You won't get a guess from us.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -631,32 +631,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "3.6L V6 timing chain, guides, and tensioner replacement, a critical maintenance item on high-mileage Outlooks."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Internal water pump service, typically paired with timing chain work on the 3.6L."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection and replacement on a heavy crossover that works its brakes hard."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear suspension service with alignment follow-up for ride quality and tire preservation."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate diagnosis of P0420/P0430 codes before recommending an expensive cat replacement."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and any repair your Outlook needs, one visit."
         }
@@ -735,31 +735,31 @@ module.exports = {
         {
           "title": "Transmission Shudder, V6 6-Speed",
           "desc": "The 6-speed automatic in V6 Auras can develop a shudder or harsh shift feel when the transmission fluid is overdue for a change. Many owners don't know this fluid needs periodic attention. A proper drain-and-fill with the correct fluid often clears up mild shudder. If the transmission has been neglected for a long time, we'll give you an honest assessment of its condition.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Strut Wear and Ride Quality Decline",
           "desc": "Aura front struts are a wear item that most owners don't think about until the car starts bouncing or the steering feels vague. On Utah roads with their frost heaves and canyon-road wear, struts typically need replacement by 80,000–100,000 miles. We replace in pairs and follow up with an alignment.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Wear, Front and Rear",
           "desc": "Aura brakes are straightforward but front rotors on this platform warp fairly easily, brake pedal pulsation under moderate braking is the first sign. We replace warped rotors rather than turning them when they're below spec, and we inspect calipers for uneven wear.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Check Engine Light, O2 Sensor and Cat Codes",
           "desc": "High-mileage Auras with the 2.4L Ecotec or the V6 regularly develop O2 sensor codes. Before recommending a catalytic converter replacement, we confirm root cause, an O2 sensor failure often sets the same P0420 code as a bad cat, at a fraction of the cost.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front CV axles on the Aura wear at the outer joint as the rubber boot cracks with age. A clicking or popping sound on turns is the sign. We replace the complete axle shaft rather than attempting a boot-only repair for a more durable result.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -799,32 +799,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Transmission Service",
           "desc": "V6 6-speed fluid service and shudder diagnosis before deferred maintenance becomes a rebuild."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement in pairs with alignment follow-up for ride quality and tire longevity."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Rotor, pad, and caliper service, front brake pulsation is a common complaint on this platform."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Repair",
           "desc": "Complete front axle shaft replacement for clicking-on-turns, aged boots are common on Auras."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Root-cause P0420 diagnosis before recommending a replacement cat."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and any repair your Aura needs, one visit."
         }

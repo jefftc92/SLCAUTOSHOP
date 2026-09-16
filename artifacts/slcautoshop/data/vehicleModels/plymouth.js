@@ -53,37 +53,37 @@ module.exports = {
         {
           "title": "Clicking or Popping on Turns",
           "desc": "Front-wheel-drive Voyagers put a lot of stress on their CV axles, especially at high mileage. That rhythmic clicking you hear when turning, most noticeable in parking lots at low speed, is a worn outer CV joint. Once the boot cracks and grease escapes, the joint deteriorates quickly. We replace the full axle shaft for a more durable repair than a boot-only patch.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Pedal Goes Soft or Spongy",
           "desc": "Voyager braking systems are straightforward, but the front-heavy weight of a loaded van means front pads wear faster than owners expect. Spongy pedal feel usually points to air in the hydraulic system, a failing master cylinder, or a caliper that's sticking. We inspect the full brake system, pads, rotors, calipers, lines, and master cylinder, and give you a clear picture of what needs attention.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Engine Overheating or Coolant Loss",
           "desc": "The 3.3L and 3.0L engines in later Voyagers are prone to coolant loss as mileage climbs. Water pump failure, radiator leaks, and dried-out hoses are all common on high-mileage examples. Utah's summer heat accelerates the process. If your temperature gauge is climbing or you're adding coolant regularly, bring it in, overheating on these engines can cause head gasket failure.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light, Oxygen Sensor or Evap Codes",
           "desc": "High-mileage Voyagers commonly trigger oxygen sensor faults and evaporative emissions codes. These can range from a simple loose gas cap to a cracked vacuum hose or a failed O2 sensor. We read the codes, find the actual root cause, and fix what needs fixing, not just clear the light.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Bouncy Ride and Poor Handling",
           "desc": "Voyager struts and shocks take a beating when a van is loaded with passengers or cargo regularly, which is most of them. Worn suspension components make the ride feel bouncy and unpredictable, and they affect braking distance. If your van feels like it's wallowing through corners or nose-diving under braking, the shocks or struts need attention.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Noise or Failed Emissions Test",
           "desc": "Older Voyagers often develop exhaust leaks at the manifold gasket or at flex pipe connections. A failed Utah emissions test on a Voyager can often be traced to an exhaust leak or a failing catalytic converter. We inspect the full exhaust system and address whatever is causing the failure.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -123,32 +123,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, front-wheel-drive Voyagers go through CV joints at high mileage."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front pads, rotors, calipers, and master cylinder, van weight means the brakes work hard."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Coolant system service to prevent overheating on high-mileage 3.0L and 3.3L Voyager engines."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore ride quality and handling on worn-out Voyager suspension, front and rear."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex pipes, and catalytic converter service for Voyagers that fail Utah emissions."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and everything else your Voyager needs, one visit, honest estimate."
         }
@@ -235,37 +235,37 @@ module.exports = {
         {
           "title": "Timing Belt Replacement on the 3.0L Mitsubishi V6",
           "desc": "Grand Voyagers equipped with the 3.0L V6 (a Mitsubishi-sourced engine) have a timing belt that needs replacement at regular intervals, this is an interference engine, meaning a snapped belt causes serious internal damage. If you don't know when the belt was last done on your van, assume it's overdue. We replace the belt, tensioner, and water pump as a package.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Spongy or Low Brake Pedal",
           "desc": "The Grand Voyager's extra wheelbase and cargo capacity means the brake system works hard. Spongy pedal feel often means air in the hydraulic lines, a failing master cylinder, or a caliper that's not releasing fully. We inspect the complete system and address the actual root cause.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Water Pump Failure and Overheating",
           "desc": "The 3.3L and 3.8L V6 engines in later Grand Voyagers see water pump failures as mileage climbs, and the consequences in Utah summers can be severe. A leaking water pump often drips coolant from the weep hole at the front of the engine. Don't wait for the temperature gauge to spike, catch it early.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-wheel-drive Grand Voyagers are hard on CV axles, heavier vehicle, more load through the joints. Once the outer CV joint wears, you'll hear a steady clicking on turns, especially at low speed. We replace the full axle shaft rather than patching a worn joint.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Rough Ride and Worn Struts",
           "desc": "A Grand Voyager that wallows, nose-dives, or bounces on rough pavement has worn struts or shocks. Loaded cargo use accelerates suspension wear significantly. Worn suspension also affects braking distance and tire wear, it's not just a comfort issue.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Loud Exhaust or Utah Emissions Failure",
           "desc": "Grand Voyagers develop exhaust manifold gasket leaks and flex pipe cracks with age. An exhaust leak will cause a ticking or hissing noise when the engine is cold, and can contribute to emissions test failure. We inspect the full exhaust system and repair whatever is causing the problem.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -305,32 +305,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "3.0L V6 timing belt, tensioner, and water pump, interference engine, don't skip this service."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Coolant system service for 3.3L and 3.8L Grand Voyager engines running in Utah's heat."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system inspection and service, pads, rotors, calipers, and hydraulics for a heavily loaded van."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on this front-wheel-drive platform."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore ride quality and handling on worn Grand Voyager suspension, front and rear."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex pipes, and catalytic converter service for Grand Voyagers that fail Utah emissions."
         }
@@ -405,37 +405,37 @@ module.exports = {
         {
           "title": "Head Gasket Failure, Coolant Loss and Overheating",
           "desc": "The first-generation Neon's 2.0L SOHC and DOHC engines have a known head gasket weakness, the factory gasket design was marginal, and many high-mileage examples develop coolant leaks. Signs include unexplained coolant loss, white exhaust smoke on startup, or an engine that runs warm. We replace the gasket with an updated part and re-torque the head properly so the repair holds.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Timing Belt Replacement",
           "desc": "The 2.0L engine in the Neon uses a timing belt, and this is an interference engine. A belt failure means bent valves and an engine that won't run. If you don't know when the belt was last replaced, assume it's due. We replace the belt, tensioner, and water pump together for a complete service.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual Neons",
           "desc": "The Neon's 5-speed manual is a light, direct box, fun to drive but the clutch doesn't last forever, especially on cars used for spirited driving. A slipping clutch under acceleration, a high engagement point, or difficulty getting into gear are all signs it's time. We carry quality clutch kits for the Neon and know the correct procedure.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Squealing and Grinding",
           "desc": "Neon front brakes, especially on sport-trimmed models that were driven hard, wear pads quickly. If you're hearing squealing (wear indicator) or grinding (metal-on-metal), don't delay. We inspect pads, rotors, and calipers and give you a clear picture of what needs replacement.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, Oxygen Sensor and Evap Codes",
           "desc": "High-mileage Neons commonly trigger O2 sensor and evaporative emission codes. A P0420 catalyst efficiency code can sometimes be traced to a failing upstream O2 sensor rather than the converter itself. We read the codes, verify the root cause, and fix what actually needs fixing.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-wheel-drive Neons wear out CV axles like any compact in their class. A clicking sound on turns, especially tight, low-speed maneuvers, is the classic worn outer CV joint symptom. We replace the complete axle shaft for a clean, lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -475,32 +475,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "2.0L Neon timing belt, tensioner, and water pump, interference engine, don't skip this interval."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Head Gasket / Water Pump Service",
           "desc": "First-gen Neon head gasket replacement with updated gasket and correct torque procedure."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "5-speed Neon clutch replacement, quality kits, full hydraulic inspection."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on the front-wheel-drive Neon."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection, front brake wear is common on driven Neons."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, everything your Neon needs in one visit."
         }
@@ -575,37 +575,37 @@ module.exports = {
         {
           "title": "Timing Belt Replacement on 2.4L Engine",
           "desc": "The 2.4L DOHC four-cylinder in the Breeze uses a timing belt that Chrysler recommended replacing every 60,000 miles. This is an interference engine. A snapped belt causes the pistons to contact the valves, typically resulting in a repair that costs more than the car is worth. If you're unsure when the belt was last done, don't guess. We replace the belt, tensioner, and water pump together as a complete service.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure and Coolant Loss",
           "desc": "Water pump failure is common on high-mileage JA-platform cars. Because the water pump is driven by the timing belt on the 2.4L, we replace both at the same time, you don't want to pull the timing cover apart twice. A leaking water pump leaves coolant on the ground and can cause overheating in Utah's summer heat.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-wheel-drive Breeze CV axles are a common wear item, especially on cars that have been driven aggressively or have high mileage. The clicking on low-speed turns is a worn outer CV joint. We replace the complete axle shaft for a more reliable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Squealing or Grinding Brakes",
           "desc": "Breeze front brakes are straightforward but wear at a predictable rate. Squealing means the wear indicators are contacting the rotor, you have some time. Grinding means metal on metal and you need service immediately. We inspect pads, rotors, and calipers and give you a written estimate.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light",
           "desc": "Older Breeze models with high mileage commonly trigger O2 sensor codes and evaporative emission system faults. We read the codes, find the actual root cause, and fix what needs fixing, not just clear the light and send you to the emissions station.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Rough Ride, Worn Struts",
           "desc": "JA-platform struts have a finite life. A Breeze with worn struts will feel loose and bouncy on the highway and wallow through corners. It also affects tire wear and braking. If the ride quality has changed noticeably, the struts are worth checking.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -645,32 +645,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "2.4L Breeze timing belt, tensioner, and water pump, interference engine with a 60,000-mile interval."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Coolant system service for high-mileage JA-platform four-cylinders in Utah's climate."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for CV clicking on turns, front-wheel-drive Breeze platform."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear pad, rotor, and caliper inspection and service."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore handling and ride quality on worn JA-platform struts."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic and fluid service, everything your Breeze needs in one visit."
         }
@@ -749,31 +749,31 @@ module.exports = {
         {
           "title": "Exhaust Noise or Leak",
           "desc": "The Prowler's exhaust system runs close to bodywork and has a number of joints and gaskets that develop leaks with age. An exhaust leak produces a ticking or popping sound at idle and under acceleration. The Prowler's layout makes some of these repairs more involved than on a conventional sedan, we take the time to do it right.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake System Service: Pads, Rotors, and Fluid",
           "desc": "Low annual mileage doesn't mean brake service can be skipped. Brake fluid absorbs moisture over time regardless of mileage, lowering its boiling point and promoting corrosion in the calipers and lines. On a car that sits, calipers can seize. We inspect the full system, flush the fluid, and replace what's needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Catalytic Converter Service",
           "desc": "Prowler cats can fail with age and storage periods, sitting for extended periods with fuel vapors and heat cycles takes a toll on the catalyst substrate. A failed catalyst will trigger a P0420 code and fail Utah emissions. We replace with a quality unit that meets emissions requirements.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "Suspension Service: Shocks and Bushings",
           "desc": "The Prowler's independent front and rear suspension is a highlight of the car's design, but bushings dry out and shocks lose their damping with age. A car that's been stored or driven infrequently often needs a full suspension inspection. Worn bushings cause imprecise handling and uneven tire wear.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light",
           "desc": "Prowler check engine lights are commonly triggered by O2 sensor faults, evaporative emission codes, or catalyst efficiency codes. On a specialty vehicle that sees irregular use, these can arise after storage periods. We read the codes and trace them to the actual root cause, not just clear them.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -813,32 +813,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust leaks, manifold gaskets, and catalytic converter service on the Prowler's 3.5L V6 system."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system service, pads, rotors, fluid flush, and caliper inspection on specialty vehicle."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Catalyst replacement for Prowlers that fail Utah emissions or trigger P0420 codes."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock / Suspension Service",
           "desc": "Rear shock replacement and suspension bushing inspection on the Prowler's independent rear setup."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection and fluid service, everything a stored or occasionally-used Prowler needs."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Front Strut Service",
           "desc": "Strut and bushing service for the Prowler's distinctive front suspension geometry."
         }

@@ -61,37 +61,37 @@ module.exports = {
         {
           "title": "Rear Sags or Ride Height Uneven, Air Suspension",
           "desc": "The air suspension on GMT900 and later Escalades uses a compressor, solenoids, and air struts to maintain ride height. When the rear of your Escalade sags overnight or the dash warning light illuminates, the compressor or one of the air struts has likely failed. Left alone, the compressor will burn itself out trying to maintain pressure. We diagnose the system, identify the failed component, and repair it, we don't replace the entire system unless it's actually necessary.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Timing Chain Rattle on Cold Start, 6.2L V8",
           "desc": "A brief metallic rattle during the first few seconds after cold startup is the classic sign of timing chain stretch on the 6.2L. Oil pressure hasn't fully built yet, and a worn chain and tensioner allow slack. Most owners dismiss the sound since it goes away quickly, that's the wrong call. A jumped chain on a 6.2L causes major engine damage. We inspect the chain, tensioner, and guides on any Escalade showing this symptom.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Soft or Pulsating Brake Pedal",
           "desc": "The Escalade's size and weight demand a lot from its brakes. Brake rotor warping is common on trucks used for towing or mountain driving, Utah's canyon descents accelerate rotor wear. A pulsating pedal or a pedal that travels further than it should before engaging are signs the brakes need attention. We inspect the full system: pads, rotors, calipers, and brake fluid condition.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Clunking Over Bumps, Front Suspension",
           "desc": "Front-end clunking on Escalades typically traces to worn control arm bushings, upper strut mounts, or front struts themselves. On 200,000-mile examples the front end can develop multiple worn components that compound the noise. We do a thorough suspension inspection and replace what's actually worn, not a blanket front-end rebuild.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter Codes",
           "desc": "P0420 and P0430 catalyst efficiency codes are common on high-mileage Escalades. Before replacing the cats, we verify the upstream O2 sensors are reading correctly and that there are no exhaust leaks upstream skewing the readings. A misdiagnosed sensor has cost more than one Escalade owner an unnecessary pair of catalytic converters.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Leak, Manifold or Flex Pipe",
           "desc": "The cast iron exhaust manifolds on older Escalades crack over time, especially with the thermal cycling Utah winters create. A ticking or tapping sound that changes with engine speed, loudest on cold startup, is often a cracked manifold or failed gasket. Flex pipe failures on the Y-pipe are also common on higher-mileage examples.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -131,32 +131,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension & Strut Repair",
           "desc": "Compressor, air strut, and height sensor diagnosis and replacement on GMT900 and K2XX Escalades."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "6.2L timing chain, tensioner, and guide replacement on high-mileage Escalades before damage occurs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pad and rotor replacement, caliper service, built for the Escalade's weight and towing demands."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold cracks, flex pipe failures, and exhaust leaks diagnosed and repaired on all Escalade generations."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420/P0430 diagnosis, proper root-cause verification before replacement, OEM-quality cats."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and maintenance on your Escalade, everything in one visit."
         }
@@ -251,31 +251,31 @@ module.exports = {
         {
           "title": "Timing Chain Rattle, 3.6L LFX",
           "desc": "The 3.6L LFX V6 in second and third-gen CTS models has known timing chain stretch at higher mileage, particularly when oil changes have been inconsistent. A brief rattle on cold start that fades once oil pressure builds is the first sign. The repair involves the chain, both tensioners, guides, and cam phasers, it's a significant job, but significantly less expensive than what happens if the chain jumps.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CTS-V Clutch Slip or High Engagement Point",
           "desc": "CTS-V clutches driven hard, as most are, wear faster than a standard commuter clutch. A slip under hard acceleration, a high engagement point, or difficulty locating neutral are the signs. We carry quality clutch kits for the TR6060-equipped V models and know the correct flywheel inspection procedure.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Harsh Ride or Suspension Warning, Magnetic Ride Control",
           "desc": "When a Magnetic Ride Control shock fails, the car's computer often puts it into a stiff default mode that makes the ride noticeably harsh. Before condemning the entire system, we test the individual shocks and sensors, a single failed component is often the culprit.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Squealing or Grinding Brakes",
           "desc": "The CTS, especially the V, has large brake rotors that are excellent when fresh but can develop surface rust quickly during Utah winters if the car sits for any period. Grinding that goes away after a few stops is usually rotor surface rust; grinding that persists means pads are worn to metal. We inspect the complete brake system and replace only what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light, Cam Phaser Codes",
           "desc": "P0008, P0011, P0014 and related variable valve timing codes on the 3.6L LFX usually point to the cam phasers or timing chain system. These codes rarely self-resolve. We diagnose the root cause, whether it's oil pressure, phaser wear, or chain stretch, before recommending specific repairs.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -315,32 +315,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "3.6L LFX chain, tensioner, guide, and cam phaser replacement on second and third-gen CTS models."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "CTS-V TR6060 clutch replacement with quality kits matched to the supercharged or naturally aspirated application."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock & Suspension Service",
           "desc": "Magnetic Ride Control diagnosis and shock replacement, finding the failed component before recommending a full system."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, rotor and pad replacement, sized for the CTS's sport-sedan performance demands."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust manifold, flex pipe, and gasket repairs on all CTS generations."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, and maintenance, everything your CTS needs in one visit."
         }
@@ -423,31 +423,31 @@ module.exports = {
         {
           "title": "Check Engine Light, Timing or Fuel System Codes",
           "desc": "The 2.0T LTG engine in the ATS can trigger codes related to the high-pressure fuel pump, timing chain stretch, or cam phaser operation. P0011, P0014, and fuel trim codes are common on higher-mileage examples. We pull the codes, verify the root cause, and explain what needs to happen before recommending a repair.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "ATS-V Clutch Slip Under Hard Acceleration",
           "desc": "The ATS-V's twin-turbo LF4 makes real power, and the clutch takes the brunt of it under aggressive driving. A clutch that slips under hard acceleration, feels grabby, or has a noticeably high engagement point is telling you it's time. We carry quality clutch kits for the ATS-V and handle the job correctly.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Grinding or Squealing Brakes",
           "desc": "ATS brake rotors and pads are sized for sport performance, they're excellent when fresh but don't last as long as economy-car brakes under hard use. If you're hearing metal-on-metal grinding or a persistent squeal that doesn't clear after a few stops, the pads are due. We inspect the full system and replace what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Suspension Noise or Harsh Ride",
           "desc": "The Alpha platform's tight suspension geometry delivers great handling but transmits road imperfections more directly than a softer luxury sedan. Worn front struts, control arm bushings, and rear lateral links are the most common culprits when the ride deteriorates or you hear clunking on rough surfaces. We diagnose the specific failed components rather than replacing everything at once.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Clicking on Turns, CV Axle",
           "desc": "The ATS uses CV axles on both RWD and AWD models. A rhythmic clicking that's most noticeable during low-speed turns, parking lots, U-turns, is the sign of a worn CV joint. We replace the complete axle shaft rather than patching the boot, which gives you a more durable long-term repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -487,32 +487,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "2.0T LTG timing chain, tensioner, and cam phaser service on high-mileage ATS models."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "ATS-V Tremec TR6070 clutch replacement with quality kits and proper flywheel inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Sport-spec pad and rotor replacement sized for the ATS's rear-wheel-drive performance demands."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, RWD and AWD ATS models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut & Suspension Repair",
           "desc": "Alpha platform front strut, control arm bushing, and rear lateral link replacement."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, and maintenance, everything your ATS needs in one visit."
         }
@@ -591,31 +591,31 @@ module.exports = {
         {
           "title": "Engine Overheating, Internal Water Pump Failure",
           "desc": "The second-gen SRX's 3.6L water pump is driven off the timing chain and located inside the engine. When it fails, there's often no visible coolant leak, the coolant goes into the oil or the engine simply overheats without warning. An SRX that's running hot, has discolored oil, or shows a low coolant level without visible leaks should be diagnosed immediately. We inspect the pump during every timing chain job on these engines.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Cold-Start Rattle, Timing Chain Stretch",
           "desc": "The 3.6L LFX timing chain stretches at higher mileage, especially with inconsistent oil changes. The cold-start rattle that fades as oil pressure builds is the classic sign. On the SRX this repair requires significant disassembly, it's worth doing right the first time, and worth doing before the chain jumps a tooth.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Bouncy Ride or Clunking, Struts and Mounts",
           "desc": "SRX struts and strut mounts wear out on a timeline that most owners underestimate. Utah's highway expansion joints and frost-heaved residential streets accelerate the wear. A clunking sound over bumps or a noticeably bouncy ride on the highway are signs the struts are due. We inspect the mounts and bearing plates at the same time, they often fail together.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Noise, Pads and Rotors",
           "desc": "The SRX's weight makes brake wear happen faster than most owners expect, particularly the rear brakes. Squealing is usually the brake wear indicator doing its job; grinding means the pads are gone and metal is contacting rotor. We inspect the full brake system and replace what's worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine, Exhaust or O2 Sensor Codes",
           "desc": "High-mileage SRX models commonly develop upstream oxygen sensor failures and occasional catalytic converter efficiency codes. Before recommending a cat replacement we verify the O2 sensors are reading correctly. A faulty sensor can generate a false cat code and send you down the wrong repair path.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -655,32 +655,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "3.6L LFX timing chain, tensioners, guides, and phaser replacement before a failure occurs."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Internal water pump replacement on the 3.6L LFX, often done in conjunction with timing chain service."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut & Suspension Repair",
           "desc": "Front and rear strut, mount, and bearing plate replacement on second-gen SRX models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pad and rotor replacement for the SRX's crossover weight demands."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Root-cause diagnosis before cat replacement, verifying O2 sensors first to avoid unnecessary parts."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and maintenance, everything your SRX needs in one visit."
         }
@@ -759,31 +759,31 @@ module.exports = {
         {
           "title": "Check Engine Light, Cam Phaser or Timing Codes",
           "desc": "The 3.6L LGX can generate P0011, P0014, and related variable valve timing codes as mileage climbs and oil change intervals are stretched. These codes indicate the cam phasers or timing chain system need attention. We pull the codes and verify the root cause before recommending a repair.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Bouncy Ride or Front-End Clunking",
           "desc": "Front struts on the XT5 are competent but wear out, especially on Utah's frost-heaved roads. A noticeable bounce that doesn't settle after bumps, or a clunking sound from the front suspension, usually points to worn struts or strut mounts. We inspect both before recommending replacement.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Pedal Pulsation or Squealing",
           "desc": "XT5 brakes wear at a rate proportional to the crossover's weight and the driver's habits. If you're doing regular canyon driving or towing, expect shorter intervals. A pulsating pedal usually means warped rotors; squealing means the wear indicators are doing their job. We inspect the full brake system and replace what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Clicking on Turns, CV Axle Wear",
           "desc": "The XT5's front CV axles handle the torque of a 3.6L V6 and, on AWD models, all-road driving conditions. A rhythmic clicking during low-speed turns is the first sign of a worn outer CV joint. We replace the complete axle shaft for a more durable repair than a boot kit alone.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Failed Utah Emissions, O2 or Catalyst Codes",
           "desc": "An XT5 that fails emissions in Salt Lake County is usually throwing a P0420 or P0430 catalyst efficiency code. Before recommending catalytic converters, we verify the upstream O2 sensors are functioning correctly. A faulty sensor can mimic a cat failure and send you down the wrong repair path.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -823,32 +823,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "3.6L LGX timing chain, cam phaser, and tensioner inspection and replacement on high-mileage XT5 models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut & Suspension Repair",
           "desc": "Front strut and mount replacement, addressing the most common ride quality complaint on high-mileage XT5 crossovers."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full pad, rotor, and caliper inspection on the XT5, with attention to rear brake wear which surprises most owners."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, FWD and AWD XT5 models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate root-cause diagnosis before cat replacement, O2 sensor verification included."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and maintenance for your XT5, all in one visit."
         }
@@ -923,31 +923,31 @@ module.exports = {
         {
           "title": "Check Engine Light, Timing or Boost Codes",
           "desc": "The 2.0L LSY turbocharged engine can generate timing-related codes, boost control codes, or fuel trim codes on higher-mileage examples. We pull the stored codes and road test before recommending anything, the specific code tells us where to look, but we verify the root cause before suggesting a repair.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Squealing or Pulsating Brakes",
           "desc": "The XT4's brake system handles the crossover's weight competently, but it does wear, especially the rear brakes, which many XT4 owners are surprised to find wearing faster than the front. Squealing indicates the wear indicators are active; pulsating means the rotors are warped. We inspect the complete brake system before recommending replacements.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Clicking on Turns, CV Axle",
           "desc": "AWD XT4 models put real demands on their CV axles, especially in Utah where off-pavement driving and winter conditions are common. A rhythmic clicking on low-speed turns is the first sign of a worn outer CV joint. We replace the complete axle shaft for a durable long-term repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Burning Smell After Hard Driving",
           "desc": "A burning smell from the engine bay after aggressive driving or extended highway driving in Utah's mountains is often heat soak from the turbo system or an oil leak onto the exhaust. On a turbo engine, small oil leaks can evaporate before they drip, leaving a burning smell without a visible puddle under the car. We inspect the valve cover gaskets, turbo oil feed lines, and exhaust heat shield.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Failed Utah Emissions Test",
           "desc": "An XT4 that fails Salt Lake County emissions is usually dealing with an active or stored check engine code, or incomplete drive cycle monitors after a battery replacement. We diagnose the root cause, repair it, and verify the monitors are complete before you return for re-testing.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -987,32 +987,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pad and rotor replacement, including rear brakes that wear faster than most XT4 owners expect."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on AWD XT4 models."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Inspection",
           "desc": "LSY timing chain and tensioner inspection on higher-mileage XT4 models, catching stretch before it becomes a failure."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust & Turbo Leak Inspection",
           "desc": "Turbo oil feed line, valve cover, and exhaust system inspection for burning smells and boost leaks."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Emissions & Catalyst Service",
           "desc": "Root-cause diagnosis for XT4 emissions failures, code diagnosis, repair, and monitor verification."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and maintenance, everything your XT4 needs in one visit."
         }
@@ -1095,31 +1095,31 @@ module.exports = {
         {
           "title": "Cold-Start Rattle, Timing Chain on the 3.6L LFX",
           "desc": "The LFX timing chain stretches at higher mileage, and the XTS carries the same engine as the CTS and SRX with the same failure pattern. A brief rattle on cold startup that clears once oil pressure builds is the sign. The internal water pump should be inspected and typically replaced at the same time, both require significant disassembly to reach.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Overheating or Coolant Loss, Internal Water Pump",
           "desc": "The XTS's 3.6L LFX water pump is inside the engine, driven by the timing chain. It fails without external visible leaks, often the first sign is overheating or a rising temperature gauge. If your XTS is running warmer than normal, losing coolant without a visible puddle, or showing oil that appears discolored, get it inspected before driving further.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Harsh Ride or Suspension Warning",
           "desc": "XTS models with Continuous Damping Control go into a stiff default mode when a shock fails. A ride that suddenly feels much harsher, or a suspension warning light, usually means one shock has given up. We test the system component by component to identify the specific failure before recommending a fix.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Soft or Pulsating Brake Pedal",
           "desc": "The XTS is a heavy sedan, and the brakes show it. Rear brake wear surprises most XTS owners. The rear pads can go as fast or faster than the front. A soft pedal or one that pulsates usually means warped rotors or degraded brake fluid. We inspect the complete system and replace only what's worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Loud Exhaust or Burning Smell, V-Sport Turbo",
           "desc": "The V-Sport's twin-turbo system creates more heat and more stress on the exhaust components than the naturally aspirated LFX. A louder-than-usual exhaust, a burning smell after spirited driving, or an exhaust tick that changes with engine speed points to a manifold, downpipe, or gasket issue we can diagnose and repair.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1159,32 +1159,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "3.6L LFX chain, tensioner, guide, and cam phaser replacement, the most critical service item on high-mileage XTS models."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Internal LFX water pump replacement, typically done in conjunction with timing chain service to avoid redundant labor."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock & Suspension Service",
           "desc": "Continuous Damping Control diagnosis and shock replacement, finding the failed component before recommending a full system."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full system inspection, pad and rotor replacement, including rear brakes that wear faster than most XTS owners expect."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold, downpipe, and gasket repairs, especially on V-Sport twin-turbo models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and maintenance for your XTS, all in one visit."
         }
@@ -1275,31 +1275,31 @@ module.exports = {
         {
           "title": "Overheating, Northstar Cooling System",
           "desc": "The Northstar's notorious head bolt thread failure is caused by overheating, the aluminum block's threads pull out under the thermal stress of a hot engine. Keeping the cooling system healthy is the single best thing you can do to protect a Northstar DeVille. If your temperature gauge moves above normal, the coolant level is dropping without a visible leak, or you see bubbling in the overflow tank, bring it in immediately. Do not drive an overheating Northstar.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Soft or Spongy Brake Pedal",
           "desc": "The DeVille's large brake system, appropriate for its size and weight, can develop soft pedal from worn pads, deteriorated brake fluid, or caliper issues. Old brake fluid in a car that sits or sees infrequent use absorbs moisture and loses its boiling point. We inspect the full system and service the fluid along with mechanical components.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Bouncy Ride, Struts and Shocks",
           "desc": "DeVille suspension components wear over time, and many late-model DeVilles have long since passed the mileage where struts and shocks needed replacement. A car that bounces excessively over bumps or wallows through corners has worn shocks or struts. We inspect the full suspension and replace what's actually failed.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Loud Exhaust, Manifold or Y-Pipe",
           "desc": "The Northstar's exhaust manifolds and Y-pipe can develop cracks or leaks on high-mileage examples. An exhaust tick that changes with engine speed, particularly on cold startup, and gets worse over time is a manifold or gasket issue. We diagnose and repair exhaust leaks before they cause downstream sensor issues.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, Northstar Sensor Codes",
           "desc": "High-mileage Northstar DeVilles commonly generate O2 sensor codes, mass airflow codes, and EGR codes. These are well-understood failure patterns on this platform. We pull the codes, verify the root cause, and fix what actually needs fixing, not just clear the light.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -1339,32 +1339,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Cooling System Service",
           "desc": "Northstar water pump, thermostat, and coolant flush, the most critical maintenance for keeping a Northstar DeVille healthy."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pad and rotor replacement, and brake fluid service on all DeVille generations."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock & Strut Replacement",
           "desc": "Suspension component inspection and replacement on late-model DeVilles that have accumulated high mileage."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Northstar manifold, Y-pipe, and gasket repairs for exhaust leaks and exhaust ticks."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Diagnosis and replacement of catalyst efficiency failures on high-mileage Northstar models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and maintenance for your DeVille, all in one visit."
         }

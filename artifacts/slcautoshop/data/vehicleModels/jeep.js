@@ -57,37 +57,37 @@ module.exports = {
         {
           "title": "Clutch Wear and Slipping",
           "desc": "Wrangler clutches used off-road, especially on technical terrain where you're slipping the clutch through rocky sections, wear faster than street-use clutches. Signs include a high, grabby engagement point, slipping under load on uphills, or difficulty finding gear. We replace the complete clutch assembly including pressure plate, disc, and throw-out bearing, and resurface or replace the flywheel as needed.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "CV Joint Clicking and Front Axle Noise",
           "desc": "The Wrangler's front axle CV joints and U-joints endure significant stress on uneven terrain. Torn boots allow grease to escape and contamination to enter, once the joint itself is worn, you'll hear a rhythmic clicking on turns or a clunk under load. We replace complete axle shafts for a more durable long-term repair than boot-only work.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Fade and Worn Hardware After Trail Use",
           "desc": "Steep descents on canyon trails work brakes hard. If your Wrangler's brakes feel spongy, pull to one side, or squeal and grind after off-road use, bring it in. We inspect pads, rotors, calipers, and brake lines, mud and rock debris can accelerate wear on all of these.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Exhaust Damage from Rocks and Clearance",
           "desc": "Wranglers running moderate lift heights still drag exhaust components on larger obstacles. Cracked manifolds, damaged flex sections, and broken exhaust hangers are common after a season of trail use. A loud, raspy exhaust or an exhaust smell in the cabin are signs something's come loose or cracked.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Suspension Wear and Bouncy Ride",
           "desc": "Stock Wrangler shocks and struts take a harder beating than nearly any other vehicle on Utah roads and trails. If your Wrangler wallows over highway undulations, bottoms out on moderate bumps, or wanders at highway speed, the shocks are likely worn. We inspect and replace shocks as a set for consistent handling.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, O2 Sensor and Emissions",
           "desc": "Off-road vibration and heat cycles stress oxygen sensors and exhaust components. If your check engine light came on after a trail run, it may be a loose exhaust connection or a heat-damaged sensor. We pull codes, inspect the exhaust system, and diagnose the root cause before recommending a repair.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -127,32 +127,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Wrangler clutch replacement, complete assembly including pressure plate, disc, throw-out bearing, and flywheel resurfacing."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Shaft Repair",
           "desc": "Front axle CV joint and U-joint replacement for clicking on turns and clunking under load."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and brake line inspection, with trail use in mind, not just mileage."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Cracked manifolds, damaged flex sections, and broken exhaust hangers from off-road clearance issues."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Worn shock and strut replacement for Wranglers that have seen serious terrain."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Wrangler needs, one visit."
         }
@@ -239,37 +239,37 @@ module.exports = {
         {
           "title": "Timing Chain Wear, XJ 4.0L",
           "desc": "The XJ's 4.0L inline-six can develop timing chain stretch at high mileage, especially on engines with infrequent oil changes. A brief metallic rattle on cold startup that clears once oil pressure builds is the classic first symptom. Don't wait, a worn chain that jumps timing on a 4.0L causes serious damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Cooling System Failures, XJ 4.0L",
           "desc": "The XJ 4.0L has a known weakness in its cooling system, head gasket failure, water pump wear, and cracked plastic radiator end tanks are all common on high-mileage examples. Overheating on Utah's I-15 grades or canyon climbs can cascade into expensive engine damage. We inspect the entire cooling system when a Cherokee comes in overheating.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking, KL",
           "desc": "The KL Cherokee uses a front-wheel-drive-based independent front axle that wears CV joints in a similar pattern to FWD cars. Clicking on turns at low speed is the tell-tale sign. We replace complete axle shafts for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Squealing and Grinding Brakes",
           "desc": "Both XJ and KL Cherokees see brake wear accelerated by Utah's canyon grades. Worn pads, scored rotors, and seized calipers are the most common findings. Grinding means the pads are gone, bring it in before you damage rotors further.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Strut Wear and Rough Ride, KL",
           "desc": "KL Cherokee front struts wear progressively on Utah's rough canyon-approach roads. A bouncy ride over highway joints and a tendency to wander on uneven pavement are the first signs. Struts are best replaced as a pair.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light",
           "desc": "KL Cherokees with the 2.4L or 2.0T engines develop O2 sensor and catalytic converter codes as mileage climbs. XJ models commonly trigger codes from aging oxygen sensors and EGR components. We read the codes, verify the root cause, and fix what actually needs fixing.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -309,32 +309,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "XJ 4.0L high-mileage timing chain, tensioner, and guide replacement before damage occurs."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump and Cooling System",
           "desc": "XJ cooling system repair, water pump, thermostat, and radiator inspection to prevent overheating."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "KL front axle CV shaft replacement for clicking on turns and vibration under acceleration."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for both XJ and KL Cherokees, canyon-grade wear in mind."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "KL front strut replacement for rough ride and handling issues on Utah roads."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Cherokee needs, one visit."
         }
@@ -425,37 +425,37 @@ module.exports = {
         {
           "title": "Timing Chain Rattle, 3.6L Pentastar (WK2)",
           "desc": "The 3.6L Pentastar V6 in 2011–2021 Grand Cherokees can develop timing chain wear, particularly on higher-mileage examples that have run extended oil change intervals. A faint rattle on cold startup is the first sign. Left alone, a stretched chain can jump timing and cause serious engine damage. We inspect and replace the chain, tensioners, and guides.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure, 4.7L and 5.7L V8",
           "desc": "The 4.7L and 5.7L HEMI V8 Grand Cherokees see water pump bearing and seal failures as mileage climbs. Coolant weeping from the front of the engine or an overheating condition on a canyon climb are the common presentations. We replace the water pump, thermostat, and inspect the belt and tensioner while the system is open.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear on Canyon-Grade Drivers",
           "desc": "Grand Cherokee owners who regularly drive canyon roads, Alta, Snowbird, Park City, go through brakes faster than those who stay on the valley floor. Brake squeal, grinding, and a soft pedal are all signs it's time for an inspection. We service the complete brake system, pads, rotors, calipers, and brake fluid.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Exhaust and Catalytic Converter Issues",
           "desc": "Grand Cherokee exhaust systems develop cracked manifold bolts and failed catalytic converters as mileage climbs. A richer exhaust smell, a check engine light with catalyst efficiency codes, or a loud exhaust note point toward exhaust system issues we can diagnose and repair.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Shock and Strut Wear",
           "desc": "WK2 Grand Cherokees with the standard suspension, not Quadra-Lift air suspension, develop shock wear that shows up as a wallowing ride on the highway and excessive body roll in corners. Rear shock replacement is common on higher-mileage WK2s. We inspect all four corners and replace in axle pairs.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on Low-Speed Turns",
           "desc": "Grand Cherokee front CV axles wear on vehicles with high mileage or those that see regular light off-road use. The classic click-on-turns symptom means the joint is worn. We replace complete axle shafts for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -495,32 +495,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "3.6L Pentastar and other Grand Cherokee engines, chain, tensioner, and guide replacement at high mileage."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "4.7L and 5.7L V8 water pump, thermostat, and cooling system inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Complete brake service, pads, rotors, calipers, and brake fluid flush."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold bolts, catalytic converter efficiency, and exhaust system repair."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "WK2 and WK rear shock replacement for highway wallowing and rough ride."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Grand Cherokee needs."
         }
@@ -599,31 +599,31 @@ module.exports = {
         {
           "title": "Timing Belt Replacement, 2.4L",
           "desc": "The Compass 2.4L engine uses a timing belt rather than a chain. On interference engines like this one, a snapped belt doesn't just strand you, it bends valves and potentially destroys the engine. Factory service interval is typically 100,000 miles, but Utah's temperature extremes can age rubber faster. We replace the belt, water pump, tensioner, and idler as a complete service.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front CV axle wear on the Compass shows up as the familiar clicking on low-speed turns. Torn boots, escaped grease, and joint wear are the usual sequence. We replace complete axle shafts for a more durable repair than repacking a worn joint.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Pad and Rotor Wear",
           "desc": "Compass brakes wear at a normal rate for a compact SUV, but Utah's canyon approaches and winter driving accelerate pad wear. Squealing or grinding means it's time for service. We inspect pads, rotors, and calipers and recommend only what's needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut Wear and Rough Ride",
           "desc": "MP Compass front struts develop a noticeably rougher ride and some steering wander as mileage climbs. Utah's mix of smooth freeway and rough canyon-access roads accelerates this wear pattern. We replace struts in pairs for consistent handling.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light",
           "desc": "Compass check engine lights most commonly point to O2 sensor failures, EVAP system leaks, and catalytic converter efficiency codes on higher-mileage examples. We read the codes and verify the root cause before recommending a repair.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -663,32 +663,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "2.4L complete timing belt service, belt, water pump, tensioner, and idler pulley."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Complete front axle shaft replacement for clicking on turns."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for Compass, all trims and drivetrains."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement for rough ride and handling issues on MP Compass."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Catalyst efficiency codes and exhaust system diagnostics for Compass models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Compass needs, one visit."
         }
@@ -763,31 +763,31 @@ module.exports = {
         {
           "title": "Timing Belt Replacement, 1.4T MultiAir",
           "desc": "The 1.4L turbocharged engine in the Renegade uses a timing belt, and it's an interference engine. A failed belt doesn't just stop the car, it bends valves. Factory interval is roughly 100,000 miles, but Utah's temperature range cycles rubber hard. We do the complete service: belt, water pump, tensioner, and idler.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Click on Turns",
           "desc": "Front CV axle clicking on low-speed turns is one of the most common issues on higher-mileage Renegades. Boot failure leads to joint contamination and wear. We replace complete axle shafts rather than attempting boot-only repairs on worn joints.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Strut Wear and Rough Ride",
           "desc": "Renegade front struts show wear on higher-mileage examples, bouncing on Utah's expansion joints and wandering on uneven road surfaces are the common complaints. We replace struts in pairs for consistent ride and handling.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service",
           "desc": "Front brake pads on the Renegade wear at a typical small-SUV rate, but drivers who use canyon roads for ski season access go through them faster. Squealing or a soft pedal means it's time. We inspect the complete brake system before recommending specific repairs.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Check Engine Light, 1.4T Turbocharged Engine",
           "desc": "The Renegade's 1.4T commonly triggers codes from the MAF sensor, O2 sensors, and EVAP system as mileage climbs. Turbocharged engines can also produce misfire codes from worn spark plugs or ignition components. We read the codes and diagnose the actual cause before recommending parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -827,32 +827,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "1.4T complete timing belt service, belt, water pump, tensioner, and idler pulley."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Complete front axle shaft replacement for clicking on turns on higher-mileage Renegades."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement for rough ride, bouncing, and handling issues."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for all Renegade trims."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump replacement as part of timing belt service on the 1.4T engine."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Renegade needs, one visit."
         }
@@ -927,31 +927,31 @@ module.exports = {
         {
           "title": "Clutch Wear, Manual Transmission",
           "desc": "The Gladiator's manual transmission clutch sees accelerated wear in off-road applications where low-speed maneuvering on technical terrain requires sustained clutch slipping. Towing on canyon grades adds further load. Signs include a high engagement point, slipping under load, or difficulty getting into gear. We replace the complete clutch assembly.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Fade and Wear, Towing and Trail Use",
           "desc": "Canyon descents with a trailer behind a Gladiator work brakes extremely hard. If your brakes feel spongy, pull to one side, or squeal and grind after towing season, bring it in. We inspect pads, rotors, calipers, and brake fluid, all four corners.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Exhaust Damage from Trail Clearance",
           "desc": "Gladiators running stock ride height can scrape exhaust components on larger obstacles. Cracked manifold studs, damaged flex pipe sections, and broken exhaust hangers are common after a demanding trail season. A loud exhaust or smell of exhaust inside the cab means something needs attention.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "CV Axle Noise and Front Drivetrain",
           "desc": "Front axle CV joints and U-joints on the Gladiator face significant stress on uneven terrain. Clicking on turns or a clunk when engaging 4WD points to wear on these components. We replace complete axle shafts rather than attempting to repack worn joints.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light",
           "desc": "Gladiator check engine lights most commonly stem from O2 sensor issues, EVAP codes from a loose fuel cap, or exhaust-related codes after off-road use. We read the codes and identify the actual root cause before recommending any repair.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -991,32 +991,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Gladiator clutch replacement, complete assembly including pressure plate, disc, and flywheel resurfacing."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Complete brake service for towing and trail use, pads, rotors, calipers, and brake fluid."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold studs, flex sections, and exhaust hangers damaged by trail clearance."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Front axle shaft replacement for clicking on turns and clunking under load."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Worn shock replacement for Gladiators that have seen serious terrain or heavy use."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and anything else your Gladiator needs, one visit."
         }
@@ -1095,31 +1095,31 @@ module.exports = {
         {
           "title": "Water Pump Failure, 3.7L V6",
           "desc": "The Liberty 3.7L water pump is a known wear item. Signs include coolant weeping from the front of the engine, an overheating condition on grades, or a high-pitched whine from the front of the engine. We replace the water pump, thermostat, and inspect the belt and cooling system for related wear.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Timing Chain and Tensioner Wear",
           "desc": "High-mileage 3.7L Liberty engines can develop timing chain stretch, particularly those with infrequent oil changes or sustained high-mileage use. A brief rattle on cold startup is the typical first symptom. We inspect the chain and tensioners and replace them before the problem progresses.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front CV axle wear shows up as clicking on low-speed turns, a classic sign that the joint's boot has failed and the joint itself is worn. We replace complete axle shafts for a durable, long-term repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear and Spongy Pedal",
           "desc": "Libertys in Utah with canyon and mountain road use go through brakes at an accelerated rate. Worn pads, scored rotors, and old brake fluid are the most common findings. A spongy pedal on a high-mileage Liberty almost always means the brake fluid needs a flush at minimum.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Exhaust and Catalytic Converter Issues",
           "desc": "Liberty exhaust systems on high-mileage vehicles develop cracked flex sections, failed gaskets, and aging catalytic converters. A loud exhaust or a check engine light with catalyst efficiency codes are the typical presentations. We inspect the complete exhaust system from manifold to tailpipe.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1159,32 +1159,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "3.7L Liberty water pump, thermostat, and cooling system service to prevent overheating."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "High-mileage 3.7L timing chain, tensioner, and guide replacement."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Complete front axle shaft replacement for clicking on turns."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and brake fluid flush for high-mileage Liberty."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex sections, gaskets, and catalytic converter service on aging Liberty exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full condition assessment, oil service, fluid checks, and anything else your Liberty needs."
         }
@@ -1263,31 +1263,31 @@ module.exports = {
         {
           "title": "Timing Belt Replacement, 2.4L",
           "desc": "The Patriot 2.4L engine uses a timing belt and is an interference design. A broken belt does not just strand you, it destroys valves. Factory interval is around 100,000 miles, but Utah's climate extremes age rubber faster. We replace the belt, water pump, tensioner, and idler as a complete service.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front CV axle wear on the Patriot produces the familiar low-speed clicking on turns. Once the boot fails and the joint wears, the sound only gets worse. We replace the complete axle shaft, it's a longer-lasting repair than repacking a worn joint.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Clutch Wear, Manual Models",
           "desc": "Manual Patriot clutches are durable in normal commuter use but wear faster in mountain and canyon driving conditions. A slipping clutch, high engagement point, or burning smell after a canyon descent are signs the clutch needs attention.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Brake Wear",
           "desc": "Patriot brakes wear at a normal rate for a compact SUV, but canyon-road commuters go through pads faster. Squealing, grinding, and a soft pedal are all reasons to bring it in. We inspect all four corners and give you a complete picture before recommending specific repairs.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light and Emissions",
           "desc": "Patriot check engine lights most often stem from O2 sensor failures, EVAP system leaks, and catalytic converter efficiency codes on higher-mileage examples. We read the codes and verify the root cause before recommending a repair, not just clearing the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1327,32 +1327,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "2.4L complete timing belt service, belt, water pump, tensioner, and idler pulley."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint and Axle Repair",
           "desc": "Complete front axle shaft replacement for clicking on turns."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Patriot clutch replacement, complete assembly for all manual transmission configurations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and brake fluid for all Patriot trims and drivetrains."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Catalyst efficiency codes, O2 sensor replacement, and exhaust system diagnostics."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full condition assessment, oil service, fluid checks, and anything else your Patriot needs."
         }

@@ -57,37 +57,37 @@ module.exports = {
         {
           "title": "Rear Sag or Suspension Warning, Air Bags",
           "desc": "The Navigator's rear air suspension bags wear out and develop leaks, the most obvious symptom is the rear of the truck sitting lower than the front, especially after sitting overnight. The suspension compressor will run continuously trying to compensate, and will burn out if the bag leak isn't repaired. We diagnose whether it's the bag, the compressor, or a solenoid before recommending a fix.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Timing Chain Rattle, 5.4L Triton",
           "desc": "The 5.4L Triton V8 in second and third-gen Navigators has known timing chain and cam phaser issues at higher mileage. A brief metallic rattle on cold startup that fades as oil pressure builds is the classic sign. This is a repair worth doing proactively, a jumped chain on a 5.4L causes serious engine damage and the repair cost jumps dramatically.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Grinding or Soft Pedal",
           "desc": "The Navigator's size and weight demand exceptional brake performance, and the brakes show that use. Rear brakes on Navigators used for towing wear faster than the fronts. A soft pedal usually means old brake fluid or a caliper issue; grinding means pads are worn through. We inspect the full brake system and replace what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Rough Idle or Check Engine, Cam Phaser Codes",
           "desc": "P0022, P0012, and related cam phaser codes on the 5.4L Triton indicate the variable valve timing system needs attention. These codes are usually caused by oil pressure issues, dirty oil, or worn cam phasers. We diagnose the root cause, oil system vs. mechanical wear, before recommending specific parts.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Tick, Manifold Studs or Gaskets",
           "desc": "The 5.4L Triton is known for exhaust manifold stud breakage, a repair more common on this engine than most. The tick is most pronounced on cold startup and changes with engine speed. Broken studs allow the manifold to move and the gasket to fail. We extract broken studs and replace the gasket, which stops the tick and prevents exhaust from entering the cabin.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Clicking on Turns, Front CV Axle",
           "desc": "Navigators with independent front suspension use CV axles that wear over time, especially on trucks used for light off-road or repeated four-wheel-drive engagement in Utah's winter conditions. A rhythmic clicking during slow turns is the sign. We replace the complete axle shaft for a durable long-term repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -127,32 +127,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "5.4L Triton timing chain, cam phaser, and tensioner replacement on second and third-gen Navigators."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension Repair",
           "desc": "Rear air bag, compressor, and height sensor diagnosis and replacement, fixing the failed component, not the whole system."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system service sized for the Navigator's heavy-truck weight demands, pads, rotors, calipers, and fluid."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Manifold Repair",
           "desc": "Broken manifold stud extraction and gasket replacement on 5.4L Triton Navigators."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for clicking on turns, IFS Navigator models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and maintenance, everything your Navigator needs in one visit."
         }
@@ -235,31 +235,31 @@ module.exports = {
         {
           "title": "Check Engine, EcoBoost Timing or Boost Codes",
           "desc": "The 2.0T EcoBoost in the second-gen MKZ can generate timing chain codes, boost control codes, and intake codes as mileage climbs. Cam phaser codes and wastegate-related faults are both common on higher-mileage examples. We pull the codes and road test before recommending any repair, the code tells us where to look, not necessarily what to replace.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Squealing Brakes, Wear Indicators",
           "desc": "MKZ brake pads have audible wear indicators that squeal when the pads reach replacement thickness. The rear brakes on the MKZ wear faster than most owners expect, especially on the hybrid models where regenerative braking means the rear friction brakes see different use patterns than on a conventional car. We inspect the full system and replace what's worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Bouncy Ride or Strut Noise",
           "desc": "The MKZ's front struts and rear shock absorbers wear at predictable mileage intervals, and many first-gen models are now well past 100,000 miles. A noticeable bounce that doesn't settle after road bumps, or a clunking from the front suspension on Utah's frost-heaved roads, usually points to struts or strut mounts. We inspect and replace what's actually failed.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Clicking on Turns, CV Axle",
           "desc": "The MKZ's front CV axles handle the platform's FWD and AWD drivetrain demands. A rhythmic clicking during low-speed turns, most noticeable in parking lots, is a worn outer CV joint. We replace the complete axle shaft for a more reliable repair than repackaging the boot alone.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Failed Utah Emissions, Catalyst or O2 Codes",
           "desc": "A P0420 catalyst efficiency code is one of the most common reasons an MKZ fails Salt Lake County emissions. Before recommending catalytic converter replacement, we verify the upstream O2 sensors are reading correctly. A faulty sensor can mimic a catalyst failure and lead to an unnecessary parts expense.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -299,32 +299,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "2.0T EcoBoost timing chain, tensioner, and cam phaser inspection and replacement."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full pad, rotor, and caliper service, with attention to the MKZ Hybrid's unique rear brake wear patterns."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut & Shock Service",
           "desc": "Front strut and rear shock replacement on high-mileage first and second-gen MKZ models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, FWD and AWD MKZ models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Root-cause diagnosis before cat replacement, O2 sensor verification included for emissions failures."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and maintenance for your MKZ, all in one visit."
         }
@@ -403,31 +403,31 @@ module.exports = {
         {
           "title": "Check Engine, EcoBoost Timing or Cam Codes",
           "desc": "The 2.7L EcoBoost in the second-gen MKX can develop timing chain stretch and cam phaser codes on higher-mileage examples with inconsistent oil changes. P0011, P0022, and fuel trim codes are common. We pull the codes, road test, and inspect before recommending a specific repair.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Bouncy Ride, Struts and Shock Absorbers",
           "desc": "First-gen MKX models at high mileage have often worn through their original struts. A crossover that bounces excessively after bumps or wallows through gradual corners has lost shock damping. Utah's frost-heaved winter roads accelerate strut wear faster than smoother climates. We inspect the mounts and bearing plates at the same time, they often go together.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Squealing or Grinding Brakes",
           "desc": "The MKX's rear brakes wear faster than most owners expect, especially on AWD models where weight distribution and traction demands change brake loading. Squealing is the wear indicator; grinding means you're past it. We inspect the full system before recommending replacements.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Clicking on Turns, Front CV Axles",
           "desc": "The MKX's front CV axles handle the torque from a 3.5L or 2.7L V6 and, on AWD models, the demands of all-surface traction. A clicking that's loudest during slow-speed turns in parking lots is a worn outer CV joint. We replace the complete axle shaft for a more durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust Noise or Burning Smell, EcoBoost Heat",
           "desc": "The 2.7L EcoBoost runs hot and creates more heat near the exhaust system than the naturally aspirated 3.5L. A burning smell or louder-than-normal exhaust can indicate an exhaust manifold gasket, a heat shield that's come loose, or a small oil leak onto a hot exhaust component. We inspect the full exhaust and engine bay before recommending a repair.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         }
       ],
@@ -467,32 +467,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "2.7L EcoBoost timing chain, cam phaser, and tensioner inspection and replacement."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut & Shock Service",
           "desc": "Front strut and rear shock replacement on high-mileage first and second-gen MKX models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Complete brake inspection and pad/rotor service, including rear brakes that wear faster than expected."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for front CV joint wear on FWD and AWD MKX models."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "EcoBoost manifold gasket, heat shield, and exhaust system repairs on second-gen MKX models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and maintenance for your MKX, everything in one visit."
         }
@@ -571,31 +571,31 @@ module.exports = {
         {
           "title": "Check Engine, EcoBoost Timing or Sensor Codes",
           "desc": "The 2.0T and 2.3T EcoBoost engines in the Corsair can generate timing chain codes, boost codes, and oxygen sensor codes as mileage climbs. Extended oil intervals accelerate timing system wear on these engines. We pull the codes and road test before recommending any specific repair.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Noise or Pulsation",
           "desc": "Corsair brakes wear at a rate proportional to the crossover's weight and driving style. Utah's canyon descents and stop-and-go Salt Lake traffic both accelerate brake wear. Squealing means the wear indicators are active; pulsation means the rotors are warped. We inspect the full system before recommending replacements.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Clicking on Turns, CV Axles",
           "desc": "The Corsair's front CV axles handle FWD and AWD traction demands, and Utah's canyon roads and winter conditions put real stress on them. A clicking during slow-speed turns is the sign of a worn outer CV joint. We replace the complete axle shaft for a durable long-term repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Burning Smell After Hard Driving",
           "desc": "A burning smell from the engine bay after aggressive highway driving or canyon grades often indicates an oil leak near the exhaust on the EcoBoost, or a heat shield that's come loose. Small turbo oil leaks can evaporate before dripping, leaving a smell without a visible puddle. We inspect the turbo oil lines, valve cover gasket, and exhaust heat shields.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Failed Utah Emissions",
           "desc": "A Corsair that fails Salt Lake County emissions usually has an active or recent check engine code, or incomplete emissions monitors after a battery replacement. We diagnose the underlying cause, repair it, and verify the monitors are complete before you go back for re-testing.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -635,32 +635,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Inspection & Service",
           "desc": "EcoBoost 2.0T and 2.3T timing chain and tensioner inspection on Corsair models approaching higher mileage."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Complete pad, rotor, and caliper service, sized for the Corsair's compact crossover weight."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for front CV joint wear on FWD and AWD Corsair models."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust & Turbo Leak Service",
           "desc": "Turbo oil line, valve cover, and exhaust system inspection for burning smells and boost leaks."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Emissions & Catalyst Service",
           "desc": "Root-cause diagnosis for Utah emissions failures, code diagnosis, repair, and monitor completion."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and maintenance for your Corsair, all in one visit."
         }
@@ -743,31 +743,31 @@ module.exports = {
         {
           "title": "Check Engine, Turbo or Timing Codes",
           "desc": "The 3.0L twin-turbo V6 can generate boost codes, cam timing codes, and oxygen sensor codes as mileage climbs. On an engine with two turbos, a boost discrepancy code can help pinpoint which side is underperforming. We pull the codes and road test before recommending specific repairs.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Ride Height Issue, Air Suspension",
           "desc": "Air-suspension-equipped Aviators can develop height discrepancies, one corner sitting lower than the others, from a failed air spring, a faulty height sensor, or a failing compressor. The system will attempt to compensate by running the compressor more frequently, eventually burning it out. We diagnose the specific failure before recommending a fix.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Noise or Soft Pedal",
           "desc": "A three-row SUV loaded with passengers and luggage demands a lot from its brakes, especially on Utah's canyon descents. Squealing wear indicators or a pedal that travels further than normal before engaging are signals the brake system needs attention. We inspect pads, rotors, calipers, and fluid condition before recommending specific replacements.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Clicking on Turns, Front CV Axles",
           "desc": "The Aviator's front CV axles handle the torque of a 3.0L twin-turbo V6 and, on AWD models, the demands of full-time traction. A rhythmic clicking during low-speed turns is the classic sign of a worn outer CV joint. We replace the complete axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Burning Smell After Extended Driving",
           "desc": "The twin-turbo 3.0L generates significant heat, and small oil leaks onto hot exhaust or turbo surfaces produce a burning smell without visible dripping. A valve cover gasket leak or a turbo oil supply line weeping are common sources. We inspect the full engine bay and exhaust system to find the source.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         }
       ],
@@ -807,32 +807,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension Service",
           "desc": "Air spring, compressor, and height sensor diagnosis and repair on second-gen Aviator models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection and replacement, sized for the Aviator's three-row SUV weight and towing demands."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Inspection",
           "desc": "3.0L twin-turbo V6 timing system monitoring and service on Aviators approaching higher mileage."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for clicking on turns, AWD Aviator models."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust & Turbo Leak Service",
           "desc": "Valve cover, turbo oil line, and exhaust system inspection and repair for the 3.0L twin-turbo V6."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and maintenance for your Aviator, all in one visit."
         }
@@ -919,31 +919,31 @@ module.exports = {
         {
           "title": "Rear Sag or Air Suspension Warning",
           "desc": "The Town Car's rear air bags develop leaks with age, a sagging rear end, especially after sitting overnight, is the clearest sign. The compressor will run continuously trying to compensate and will burn out if the bag isn't replaced. We assess whether the bags, compressor, or height sensors need service, and recommend a passive spring conversion if the car isn't worth the air system repair cost.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Engine Overheating, 4.6L Cooling System",
           "desc": "The 4.6L modular V8 in the Town Car has known plastic coolant housing and intake manifold coolant port issues on older examples. Coolant leaks, rising temperature gauges, or a heater that blows cold at idle are the signs. We diagnose the specific coolant system failure and repair it before it causes engine damage.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Grinding or Soft Brake Pedal",
           "desc": "Town Cars accumulate brake wear in proportion to their use, livery and fleet examples are especially hard on brakes. Grinding means pads are past their service limit and rotors may be damaged. A soft, low pedal usually indicates old brake fluid or a caliper seal that's started to fail. We inspect the complete brake system before making recommendations.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust Leak, Manifold or Y-Pipe",
           "desc": "The 4.6L's cast iron exhaust manifolds crack over time, Utah's cold winters and the thermal cycling of a car driven year-round accelerate the process. An exhaust tick on cold startup that changes with engine speed and fades as the engine warms is the classic sign of a cracked manifold or failed gasket. We diagnose and repair before downstream O2 sensors give false readings.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine, O2 Sensor or EGR Codes",
           "desc": "High-mileage Town Cars commonly generate O2 sensor codes and EGR-related codes. On a car with 150,000–200,000 miles, these are routine service items. We pull the codes, verify the root cause, and repair what's actually failed, not just clear the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -983,32 +983,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Air Suspension & Shock Service",
           "desc": "Rear air bag, compressor diagnosis, and passive spring conversion when the repair doesn't make economic sense."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full pad, rotor, caliper, and fluid service, with attention to rear brakes on high-mileage and fleet Town Cars."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Cooling System Service",
           "desc": "4.6L water pump, thermostat, coolant housing, and flush, addressing the plastic cooling components that fail on older Town Cars."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Manifold Repair",
           "desc": "Manifold crack and gasket repair on the 4.6L, stopping exhaust leaks before they cause sensor problems."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "O2 sensor verification and catalyst diagnosis on high-mileage Town Cars, root cause before parts."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and maintenance for your Town Car, all in one visit."
         }
@@ -1099,31 +1099,31 @@ module.exports = {
         {
           "title": "Check Engine, EcoBoost Timing or Boost Codes",
           "desc": "The 3.0T and 2.7T EcoBoost engines in the modern Continental can generate timing chain codes, cam phaser codes, and boost system codes as mileage climbs. We pull the stored codes, road test the car, and inspect before recommending any specific repair, the code points us in the right direction, but we verify the root cause.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Noise or Soft Pedal",
           "desc": "The Continental's brake system handles a heavy full-size sedan's stopping demands, and it wears accordingly. Squealing from the wear indicators or a pedal that feels lower than it should both warrant inspection. We check pads, rotors, calipers, and fluid condition before recommending specific replacements.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Bouncy Ride or Clunking, Suspension",
           "desc": "The modern Continental uses a sophisticated suspension system that delivers a quiet, compliant ride when the components are healthy. Worn struts, strut mounts, or rear shock absorbers produce a bounce or clunk that's particularly noticeable on Utah's frost-heaved roads. We diagnose the specific failed components before recommending replacements.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "The Continental's front CV axles handle FWD traction demands on a heavy luxury sedan. A rhythmic clicking during low-speed turns is the sign of a worn outer CV joint. We replace the complete axle shaft for a more durable repair than a boot-only fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Failed Utah Emissions, Catalyst or Oxygen Sensor Codes",
           "desc": "A P0420 or P0430 catalyst efficiency code will cause a Salt Lake County emissions failure. Before recommending catalytic converter replacement, we verify the upstream O2 sensors are functioning correctly. A faulty sensor can generate a false catalyst code. We find the actual problem before recommending parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1163,32 +1163,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "3.0T and 2.7T EcoBoost timing chain, cam phaser, and tensioner service on the modern Continental."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Complete pad, rotor, and caliper service, sized for the Continental's full-size luxury sedan weight."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut & Suspension Service",
           "desc": "Front strut and rear shock replacement on the modern Continental platform."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for clicking on turns on the modern Continental."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Root-cause diagnosis before cat replacement, O2 sensor verification included for emissions failures."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and maintenance for your Continental, all in one visit."
         }

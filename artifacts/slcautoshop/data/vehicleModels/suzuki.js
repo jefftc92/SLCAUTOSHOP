@@ -53,31 +53,31 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on Cold Start",
           "desc": "High-mileage Grand Vitaras, particularly those that have seen inconsistent oil changes, can develop timing chain stretch in the J20A and H27A engines. A brief metallic rattle on cold start that fades as oil pressure builds is the classic early warning. Don't wait for the noise to get worse; a worn chain can jump timing and cause serious valve damage. We inspect the full chain system and replace what's worn before it becomes a bigger problem.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Fade on Mountain Descents",
           "desc": "Grand Vitara owners who use their trucks in the Wasatch canyons know that the factory brake setup can feel underwhelming on long descents. Brake fade from overheated pads and rotors, combined with worn hardware, is a real safety concern in canyon driving. We inspect the full brake system, pads, rotors, calipers, and brake fluid condition, and make sure your truck can handle what Utah terrain demands.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "The front CV axles on front-wheel-drive and AWD Grand Vitaras are vulnerable to boot cracking, especially on vehicles used on rough terrain. Once the boot fails, grease escapes and the joint wears quickly. The telltale click on low-speed turns is the sign that the joint is already worn. We replace the complete axle shaft for a durable repair rather than attempting a boot-only patch.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust Rust and Leaks",
           "desc": "Utah's road salt from November through March is hard on exhaust systems. Grand Vitaras with high mileage and age will develop rust at flex pipe joints, the mid-pipe, and the muffler. A ticking or hissing sound from under the truck, especially noticeable when cold, usually points to an exhaust leak. We inspect the full system and weld or replace what's compromised.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Shock and Strut Wear from Off-Road Use",
           "desc": "Grand Vitaras used on dirt roads, forest service tracks, or even just Utah's potholed city streets wear out their shocks and struts faster than a pure pavement vehicle would. A bouncy, floaty ride and reduced steering control are the first signs. We test strut function and replace them in axle pairs so the truck handles evenly.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -117,32 +117,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "J20A and H27A chain, tensioner, and guide replacement on high-mileage Grand Vitaras."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and brake fluid service, essential for canyon driving in Utah."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Replacement",
           "desc": "Complete front axle shaft replacement for clicking joints on 4WD and AWD models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Strut and shock replacement for off-road-worn suspension and improved ride quality."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Rust, leaks, and flex pipe failures common on Utah-winter-driven Grand Vitaras."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid services, and everything else your Grand Vitara needs, one visit."
         }
@@ -225,31 +225,31 @@ module.exports = {
         {
           "title": "Clutch Slip or Hard Engagement",
           "desc": "Manual Vitaras driven off-road or with spirited driving habits put real stress on the clutch. A high engagement point, slipping under acceleration, or difficulty finding neutral are all signs that the clutch disc is worn. We carry OEM-spec clutch kits for Vitara applications and handle flywheel inspection and resurfacing as part of the job.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Squeaking or Grinding Brakes",
           "desc": "Vitaras used on dirt roads and off-road terrain wear brake pads faster than highway-only vehicles. The rear drum brakes on older models are especially prone to dust contamination and glazing. We inspect the full brake system, front discs, rear drums or discs, hardware, and fluid, and replace what's needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust Rust and Rattles",
           "desc": "Utah road salt and the temperature swings between summer and winter take a toll on Vitara exhaust systems. Flex pipe failures, rusted muffler connections, and cracked manifold gaskets are common on higher-mileage examples. We diagnose exhaust leaks by sound and visual inspection and repair or replace the affected sections.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Bouncy Ride, Worn Shocks",
           "desc": "The factory shocks on Vitaras have limited travel to begin with, and worn-out units make the truck feel vague and bouncy on rough roads. If your Vitara bounces excessively after hitting a dip or the steering feels less precise than it used to, the shocks are likely worn. We replace them in pairs and verify handling improvement before you leave.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Oxygen Sensor Codes",
           "desc": "Second-gen Vitaras with high mileage commonly trigger O2 sensor codes as the upstream or downstream sensors degrade. We read the fault codes, verify the root cause, and replace only what's actually failed, not just clear the light and hope for the best.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -289,32 +289,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Vitara clutch replacement, disc, pressure plate, throw-out bearing, and flywheel inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front disc and rear drum service, pads, shoes, hardware, and fluid for Utah terrain use."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Worn shock replacement for improved ride and handling on Vitaras used off-road."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Rust, leaks, and manifold gasket failures on salt-exposed Utah Vitaras."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Front axle shaft replacement for clicking or worn CV joints on 4WD models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid services, and all general maintenance, one visit, one shop."
         }
@@ -393,31 +393,31 @@ module.exports = {
         {
           "title": "Clutch Slip or Grinding When Shifting",
           "desc": "Every Samurai is a manual, and clutch wear is inevitable with age and off-road use. Clutch slip under load, grinding when shifting into gear, or a high-riding engagement point all indicate the disc is worn. We do full clutch replacements on Samurais regularly, disc, pressure plate, throw-out bearing, and flywheel inspection are all part of the job.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Worn Shocks and Leaf Spring Fatigue",
           "desc": "Samurais used on trails and rocky terrain wear out shocks quickly. The stock leaf-spring suspension on the rear can also sag with age, causing the truck to sit lower than it should. We replace worn shocks and inspect the leaf springs and U-bolts for cracks and fatigue, important safety checks on any off-road vehicle.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Issues After Off-Road Use",
           "desc": "Trail-driven Samurais accumulate mud, dust, and grit in the brake system. Contaminated brake fluid, glazed pads from overuse on descents, and seized caliper pins are common. We inspect the full brake system, front discs or drums and rear drums, and restore reliable stopping power.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Exhaust Leaks and Rust",
           "desc": "Samurai exhaust systems are short and close to the ground, making them vulnerable to impact damage off-road and to rust from road salt. A ticking or popping noise from under the hood that changes with engine speed is a classic exhaust manifold gasket leak. We diagnose and repair exhaust leaks before they become a cab-filling carbon monoxide hazard.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light on FI Models",
           "desc": "Fuel-injected Samurais from 1988 onward will occasionally throw codes from aged O2 sensors, throttle position sensors, and MAP sensors. We read the codes, verify the root cause, and repair what's actually failed, on a 30-year-old truck, accurate diagnosis saves you from replacing parts by guesswork.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -457,32 +457,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch replacement for manual Samurais, disc, pressure plate, throw-out bearing, flywheel check."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection and service, critical for off-road and canyon-driven Samurais."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Shock absorber replacement to restore controlled handling on trail-worn Samurais."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket leaks, rust repairs, and muffler replacement on aging Samurai exhaust systems."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump replacement to prevent overheating on the G13 and F10A engines."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Comprehensive inspection and service, everything your Samurai needs in one visit."
         }
@@ -561,31 +561,31 @@ module.exports = {
         {
           "title": "Clutch Slip or Burning Smell",
           "desc": "Manual Swifts have relatively light clutch assemblies that wear through faster than those on heavier vehicles, especially in stop-and-go traffic. A burning smell after aggressive acceleration or a high, grabby engagement point both indicate a clutch that's near the end of its life. We handle full clutch replacement on Swifts including disc, pressure plate, throw-out bearing, and flywheel check.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Timing Belt, Due by Mileage or Age",
           "desc": "The G13 and GA16 engines in second-gen Swifts use a timing belt with a replacement interval of around 60,000 miles. Many high-mileage Swifts we see have no documented belt history. On an interference engine, a snapped belt means bent valves. We inspect belt condition and replace it on schedule or when condition warrants, this is a service you do not want to skip.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear on a Light Platform",
           "desc": "The Swift's light curb weight means brake components last reasonably well, but the front brakes carry the majority of stopping load. Worn front pads and scored rotors are the most common brake issue we see. We inspect the full system and replace what's needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Exhaust Rust and Muffler Failure",
           "desc": "Utah road salt and age are not kind to Swift exhaust systems. The thin-gauge exhaust on economy cars rusts from the inside out over time, with muffler failures and flange leaks being common on vehicles over 15 years old. We inspect and repair or replace the affected sections.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Overheating, Water Pump and Thermostat",
           "desc": "The small cooling systems on Swift engines don't have much reserve capacity. A failing water pump, a stuck thermostat, or a leaking hose can quickly push the engine into dangerous temperature territory. If your temperature gauge is climbing above normal, pull over and call us, overheating on a small displacement engine causes expensive damage quickly.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -625,32 +625,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch replacement on manual Swifts, disc, pressure plate, throw-out bearing, flywheel inspection."
         },
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "G13 and GA16 timing belt replacement, do not skip on an interference engine."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front pad and rotor replacement, rear drum service, and brake fluid flush."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Muffler, flange, and flex pipe repairs on age- and salt-worn Swift exhaust systems."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump and thermostat service to prevent overheating on small-displacement Swift engines."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full fluid services, filters, and inspection, everything your Swift needs in a single visit."
         }
@@ -725,31 +725,31 @@ module.exports = {
         {
           "title": "Clicking on Turns, CV Axle Wear",
           "desc": "The SX4's front CV axles are vulnerable to boot cracking, particularly on AWD models that see winter use and road salt exposure. Once the boot fails, the joint wears rapidly. The rhythmic clicking on slow turns, parking lots, tight corners, is the classic symptom. We replace complete axle shafts rather than doing boot-only repairs, which gives a more durable result.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Bouncy or Wallowing Ride, Strut Wear",
           "desc": "SX4 struts wear at a predictable rate, and Utah's potholed roads accelerate the process. A bouncy, floating sensation over bumps and reduced steering precision are the signs. We replace struts in axle pairs, inspect the strut mounts, and verify alignment improvement after the job.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Clutch Engagement Issues on Manual SX4s",
           "desc": "Manual SX4s driven in stop-and-go traffic on Salt Lake's urban grid wear clutches at a reasonable rate. A slipping clutch, a burning smell after aggressive driving, or a clutch that grabs high in the pedal travel are all signs the disc is near the end. We handle the complete replacement, disc, pressure plate, throw-out bearing, and flywheel inspection.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Soft or Spongy Brake Pedal",
           "desc": "SX4 brake systems are straightforward, but brake fluid degrades over time and absorbs moisture, which lowers its boiling point and causes a spongy pedal feel. Worn pads and scored rotors are common beyond 60,000 miles. We inspect the full system and flush the fluid as part of every brake service.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Check Engine Light",
           "desc": "SX4s commonly generate O2 sensor codes, EVAP fault codes, and misfire codes on higher-mileage examples. We read the codes, diagnose the actual root cause, and repair what's failed, not just clear the light.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -789,32 +789,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Replacement",
           "desc": "Complete front axle shaft replacement for clicking joints on FWD and AWD SX4 models."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch kit replacement on 5-speed and 6-speed manual SX4 transmissions."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement to restore ride quality and steering precision."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and brake fluid flush, full system service on all SX4 trims."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust leaks, rust, and catalytic converter service on aging SX4 exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full fluid services, inspection, and any repairs your SX4 needs, one visit."
         }
@@ -893,31 +893,31 @@ module.exports = {
         {
           "title": "Timing Belt, Due or Unknown History",
           "desc": "The Forenza's X20D engine is an interference design, meaning a broken timing belt causes the pistons to strike the open valves, resulting in bent valves and a costly head repair. The service interval is approximately 60,000 miles. If you've purchased a used Forenza and don't have documentation of a belt change, assume it needs one now. We handle the full belt, tensioner, and water pump as a combined service.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Leak and Overheating",
           "desc": "Forenza water pumps are driven by the timing belt, which means we replace them at the same time as the belt, it's bad practice to leave an aging pump in place after removing the belt. If your Forenza is showing coolant drips at the front of the engine or running warmer than usual, the water pump may be leaking. We address both issues in one visit.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear, Pads and Rotors",
           "desc": "Forenza front brakes carry most of the stopping load and wear through pads and rotors at a predictable rate. Squealing on normal stops and grinding under harder braking are the warning signs. We inspect the full system and recommend what actually needs replacement.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Exhaust Noise and Emissions",
           "desc": "Older Forenzas develop exhaust leaks at manifold gaskets and flex pipe joints with age. An exhaust smell in the cabin or a ticking noise that changes with engine speed indicates a leak. We also see catalytic converter degradation on higher-mileage examples causing failed emissions tests.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "Check Engine Light",
           "desc": "Forenza check engine codes frequently involve O2 sensors, EVAP system faults, and mass airflow sensor issues on higher-mileage examples. We diagnose the root cause before recommending any parts replacement.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -957,32 +957,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Full belt, tensioner, and water pump service on the X20D interference engine, do not skip."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Belt-driven water pump replacement, always done with the timing belt service."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front pad and rotor replacement, rear service, and brake fluid flush."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat replacement and exhaust repair for Forenzas failing Utah emissions tests."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket leaks, flex pipe failures, and muffler repair on aging Forenza exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full fluid services, filters, and inspection, everything your Forenza needs in one visit."
         }

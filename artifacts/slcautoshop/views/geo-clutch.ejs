@@ -1,6 +1,6 @@
 <%- include('partials/header') %>
 
-<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Services',url:'/services'},{label:'Clutch Repair',url:'/services/clutch-repair-near-south-salt-lake-ut'},{label:geo.locationName}]}) %>
+<%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Services',url:'/services'},{label:'Clutch Repair',url:'/services/clutch-repair'},{label:geo.locationName}]}) %>
 
 <section class="page-hero">
   <style nonce="<%= cspNonce %>">.page-hero-bg{background-image:url('/assets/hero-600-DnXM3vMX.webp')}</style>
@@ -86,7 +86,7 @@
       <p><%= geo.shortDefinition || clutchService.shortDefinition %></p>
     </div>
     <div class="mt-6">
-      <a href="/services/clutch-repair-near-south-salt-lake-ut" class="btn btn-outline">Full Clutch Repair Service Details &rarr;</a>
+      <a href="/services/clutch-repair" class="btn btn-outline">Full Clutch Repair Service Details &rarr;</a>
     </div>
   </div>
 </section>
@@ -185,7 +185,7 @@
       <% }) %>
     </div>
     <div class="mt-6">
-      <a href="/services/clutch-repair-near-south-salt-lake-ut" class="btn btn-outline">Full Clutch Repair Service Details</a>
+      <a href="/services/clutch-repair" class="btn btn-outline">Full Clutch Repair Service Details</a>
     </div>
   </div>
 </section>

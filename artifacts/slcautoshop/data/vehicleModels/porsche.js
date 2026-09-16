@@ -73,37 +73,37 @@ module.exports = {
         {
           "title": "Clutch Slip or High Engagement Point",
           "desc": "Manual 911s, especially those used for spirited canyon driving or occasional track days, wear clutches at an accelerated rate. The G50 gearbox (964/993) and G96 (996/997) both use hydraulic clutch actuation. A clutch that slips under hard acceleration, grabs high on the pedal travel, or makes noise during disengagement needs inspection. We service manual 911 clutches regularly and carry quality replacement kits.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Fade or Pedal Feel Changes",
           "desc": "The 911's rear weight bias puts significant load on the rear brakes during hard stops. High-performance pads and fluid maintenance are critical. Drivers who push their 911 on canyon roads or track days often experience pedal feel changes, a sign of fluid boiling or pad glazing. We service 911 brakes using quality OEM-spec pads and rotors and recommend brake fluid flushes at every other year regardless of mileage.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Check Engine Light, O2 Sensors and Exhaust Codes",
           "desc": "Water-cooled 911s (996 onward) commonly develop oxygen sensor failures as mileage climbs, particularly on the 3.4L and 3.6L flat-six engines. Exhaust manifold leaks near the heat exchanger area are also a known issue on 996 and 997 cars. We read the codes, verify the root cause with a visual inspection, and repair what actually triggered the light.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Coolant Leaks on Water-Cooled Models (996–992)",
           "desc": "The 996 introduced water-cooling to the 911, and with it came a set of cooling system vulnerabilities, coolant pipe fittings that crack over time, thermostat housing leaks, and water pump wear. On 997.1 models the coolant pipe that runs through the engine compartment is a known failure point. Engine overheating on a 911 is a serious situation; don't drive it if the temperature is climbing.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Suspension Bounce or Handling Changes",
           "desc": "Utah's roads, particularly the canyon routes 911 drivers love, are hard on suspension components. Worn strut inserts on 964/993-era cars, or strut mount deterioration on 996/997 models, cause handling changes that are immediately noticeable to a driver who knows the car. If your 911 feels different in corners or over rough pavement, a suspension inspection is warranted.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Loud or Droning Exhaust Note",
           "desc": "A 911 exhaust that suddenly sounds louder, raspier, or has developed a drone at cruise speeds typically means a cracked exhaust manifold, a failed secondary cat, or a split in the mid-pipe. The 996 and 997 heat exchanger-to-exhaust junction is a common leak point. We inspect the full exhaust system and replace only what's failed, not the entire system by default.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -143,32 +143,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "G50 and G96 gearbox clutch replacement, OEM-spec kits, flywheel inspection, hydraulic system service."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, caliper inspection, and brake fluid flush, critical for 911s used on Utah canyon roads."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump & Cooling System",
           "desc": "996/997/991/992 cooling system service, water pump, thermostat, coolant pipe replacement."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold cracks, heat exchanger leaks, mid-pipe repairs, 996 through 992 exhaust work."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut & Suspension Service",
           "desc": "Strut inserts, mounts, and suspension inspection for all 911 generations."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and everything else your 911 needs, one visit."
         }
@@ -259,37 +259,37 @@ module.exports = {
         {
           "title": "Air Suspension Sag or Compressor Noise",
           "desc": "First and second-gen Cayennes (955, 957, 958) are well known for air suspension compressor wear and air strut leaks as mileage climbs. Symptoms include the car sitting noticeably lower on one corner, the compressor running longer than normal, or a warning message on the dash. We diagnose which component has failed, compressor, strut, valve block, or air lines, and repair it accurately.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Squeal or Pedal Pulsation",
           "desc": "Cayenne brakes take a beating on Utah mountain roads. Rotor warping from excessive heat, often from riding the brakes on long descents, is a common complaint. Glazed pads squeal on initial application. We inspect pad thickness, rotor run-out, and caliper function to diagnose brake noise accurately rather than replacing parts until the noise goes away.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Coolant Leaks and Engine Overheating",
           "desc": "The V8 and V6 engines in 955/957/958 Cayennes have known cooling system weak points, plastic coolant pipes and T-fittings that become brittle with age and heat cycling. A slow coolant leak that goes unaddressed can cause serious overheating damage quickly. We inspect the full cooling system and replace failed plastic coolant lines before they become an engine problem.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light, Catalytic Converter or O2 Codes",
           "desc": "High-mileage 955 and 957 Cayennes frequently develop catalytic converter efficiency codes (P0420/P0430) as the cats age. Oxygen sensor failures upstream and downstream are also common on these engines as mileage climbs. We verify the root cause before recommending replacement, sometimes it's a fouled O2 sensor, not a failed cat.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Timing Chain Service on V8 Models",
           "desc": "The Cayenne's 4.5L V8 (955/957) and 4.8L V8 (957/958 S/Turbo) use timing chains that can stretch on high-mileage engines with infrequent oil changes. A cold-start rattle that quiets with oil pressure is the classic symptom. Timing chain service on these engines is complex and labor-intensive, but far less expensive than the engine damage that follows a chain failure.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Burning Smell or Visible Leak",
           "desc": "Exhaust manifold gasket failures and small cracks in the exhaust system are more common on high-mileage Cayennes than most owners realize. You may notice a burning smell on startup, a ticking sound from the engine bay that goes away when warm, or a visible soot mark near a joint. We inspect the full exhaust system and repair the leak at the source.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         }
       ],
@@ -329,32 +329,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, caliper inspection, and brake fluid flush, critical on a heavy performance SUV used on Utah mountain roads."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension Service",
           "desc": "Compressor, air strut, and valve block diagnosis and repair, all Cayenne generations."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Cooling System Repair",
           "desc": "Coolant pipe, water pump, and thermostat service, preventing the brittle-plastic cooling failures common on 955/957/958."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "V8 timing chain, tensioner, and guide replacement on high-mileage 955, 957, and 958 Cayennes."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat efficiency codes, O2 sensor failures, and replacement on high-mileage V6 and V8 Cayennes."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and everything your Cayenne needs, one visit."
         }
@@ -433,31 +433,31 @@ module.exports = {
         {
           "title": "Squealing or Grinding Brakes",
           "desc": "Macan brakes are excellent when new, but the sport-spec pads wear faster than most owners expect, particularly in the spirited driving the Macan invites. A squealing sound on light brake application is often wear indicator contact. Grinding means the pad material is gone and rotor damage is already occurring. We inspect the full brake system and replace what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light, Turbo and Exhaust Codes",
           "desc": "The Macan's turbocharged engines can trigger exhaust and boost-related fault codes from worn O2 sensors, boost leaks, or exhaust manifold gasket failures as mileage climbs. We read the stored codes, verify the root cause, and repair what actually triggered the light, not just clear the code and send you on your way.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Coolant Leak or Overheating",
           "desc": "The Macan 3.6TT engine shares architecture with other VAG group turbocharged V6s and has similar coolant pipe and thermostat vulnerabilities. A low coolant warning on a Macan should be investigated immediately, small leaks in the pressurized cooling system can escalate quickly at operating temperature. We pressure-test the cooling system to locate the source before recommending repairs.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Rough Ride or Suspension Noise",
           "desc": "The Macan's sport-tuned suspension, particularly the optional PASM adaptive dampers, can develop noise and handling changes as components wear. Control arm bushings and front strut mounts are common wear items on first-gen 95B Macans with higher mileage. We inspect and replace the worn components rather than guessing.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "As Macan mileage climbs, CV boot deterioration and subsequent joint wear can produce a rhythmic clicking sound during low-speed turns, most noticeable in parking lots. We replace the complete axle shaft assembly for a durable long-term repair rather than attempting boot-only patches on a worn joint.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -497,32 +497,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, caliper inspection, and fluid flush, Macan-specific sport-pad service and rotor inspection."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Cooling System Repair",
           "desc": "Coolant pipe, water pump, and thermostat service, especially for the 3.6TT V6 engine."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust & Turbo System Service",
           "desc": "Manifold gaskets, O2 sensors, and exhaust leaks on the 2.0T and 3.6TT engines."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Replacement",
           "desc": "Complete axle shaft replacement for clicking on turns, all Macan drivetrain configurations."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Strut mounts, control arm bushings, and front-end inspection on 95B Macans."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, PDK fluid check, and everything your Macan needs, one visit."
         }
@@ -609,31 +609,31 @@ module.exports = {
         {
           "title": "Clutch Slip or Difficult Engagement",
           "desc": "Manual Boxsters driven as sports cars, canyon runs, spirited mountain roads, will wear clutches at an accelerated rate compared to commuter vehicles. A Boxster clutch that slips under hard acceleration, has a very high engagement point, or chatters on cold morning starts needs inspection. The mid-engine clutch access is more involved than a front-engine car, but this is work we do regularly.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Water Pump Failure (986/987)",
           "desc": "The M96/M97 engine's plastic-impeller water pump is one of the most documented failures on 986 and 987 Boxsters. The impeller separates from the shaft without warning, causing sudden overheating. On a mid-engine Boxster this can cook the engine quickly before the temperature gauge fully registers. We replace the plastic-impeller pump with a metal-impeller unit at every water pump service on these cars.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust Drone or Leak",
           "desc": "Boxster exhaust systems, particularly on 986 and 987 models, can develop cracks at the heat exchanger connections and flex sections over time. A droning sound at highway speeds or a burning smell from the engine bay are the typical first signs. We inspect the full exhaust system and repair the leak at the source.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Soft Brake Pedal or Brake Fade",
           "desc": "Boxster drivers who use their cars for canyon driving or occasional track days will push the braking system harder than it's designed for with stock fluid and pads. A pedal that feels softer than usual after a spirited drive typically indicates brake fluid that has absorbed enough moisture to boil at high temperatures. Fresh high-spec brake fluid and performance-grade pads make a meaningful difference.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Check Engine Light, Emissions and Catalyst Codes",
           "desc": "High-mileage Boxsters (986 and 987) commonly trigger catalytic converter efficiency codes and oxygen sensor failure codes. The cats on these cars work hard under the flat-six's exhaust temperatures. We read the codes, verify what has actually failed, and replace only what's needed, not both cats by default.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -673,32 +673,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Boxster clutch replacement, OEM-spec kits, flywheel inspection, hydraulic system service."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Metal-impeller water pump replacement on M96/M97 engines, the most critical preventive service on 986/987 Boxsters."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, caliper inspection, and fluid flush, Boxster-specific sport brake service."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Heat exchanger connections, flex sections, and mid-pipe repairs on 986, 987, 981, and 982."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat efficiency code diagnosis and replacement on high-mileage flat-six Boxsters."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and everything your Boxster needs, one visit."
         }
@@ -785,31 +785,31 @@ module.exports = {
         {
           "title": "Clutch Slip or Chatter",
           "desc": "Cayman clutches on cars used for enthusiast driving wear at an accelerated rate. A clutch that slips under load, chatters on engagement, or has a very high bite point needs inspection. The mid-engine layout makes this a more involved job than a front-engine car, but it's work we do regularly. We use quality clutch kits and inspect the flywheel and hydraulic actuator as part of every replacement.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Engine Overheating or Coolant Loss",
           "desc": "987 Caymans with the M97 engine share the water pump impeller failure mode with the 987 Boxster. Sudden coolant loss or overheating on a 987 Cayman is most often the pump impeller. Proactive replacement with a metal-impeller unit is the correct approach on any 987 over 60,000 miles that hasn't had this addressed. Don't wait for the temperature gauge to move, by then the damage may already be done.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Fade or Grinding",
           "desc": "Cayman brakes that have been used hard on Utah canyon roads, Parley's, Emigration, or Big Cottonwood, develop heat-related wear faster than street-only vehicles. Grinding indicates the pads are worn through and rotor damage is actively occurring. We inspect pad thickness, rotor condition, and caliper function and replace what's actually needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust Drone or Burning Smell",
           "desc": "Cayman exhaust systems, particularly on 987 models, can develop cracks at the heat exchanger junction and catalyst connections over time. A drone that appears at specific RPM bands or a burning smell after spirited driving are the typical indicators. We inspect and repair at the leak source rather than replacing entire sections by default.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Check Engine Light, Emissions Codes",
           "desc": "High-mileage 987 and 981 Caymans often develop oxygen sensor failures and catalytic converter efficiency codes. The flat-six works the exhaust system hard, and these are wear items that eventually need attention. We read the codes, confirm what has actually failed, and replace only the component that triggered the fault.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -849,32 +849,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Mid-engine Cayman clutch replacement, OEM-spec kits, flywheel inspection, hydraulic system service."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Metal-impeller pump replacement on 987 Caymans, the most important preventive service on M97 engines."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, caliper inspection, and fluid flush for canyon and track-driven Caymans."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Heat exchanger and catalyst section repairs on 987, 981, and 982 exhaust systems."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat efficiency diagnosis and O2 sensor replacement on high-mileage flat-six Caymans."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and everything your Cayman needs, one visit."
         }
@@ -957,31 +957,31 @@ module.exports = {
         {
           "title": "Brake Noise or Pedal Pulsation",
           "desc": "The Panamera's weight combined with its performance braking capability means brake wear is a regular maintenance item. Rotor warping under sustained heavy braking causes pedal pulsation. Worn pads squealing on application is a sign the wear indicators are contacting the rotor. We inspect pad thickness, rotor run-out, and caliper condition and replace only what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, Timing or Boost Codes",
           "desc": "Turbocharged Panamera engines can generate timing-related and boost management fault codes as mileage accumulates, exhaust manifold gasket failures, boost leaks in the charge piping, and O2 sensor wear are common culprits. We read the stored codes, verify the actual cause, and repair what triggered the light.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Cooling System Leaks",
           "desc": "The Panamera's cooling system, particularly on the V8 models, has multiple potential leak points: coolant hoses, thermostat housings, and water pump seals. A low coolant warning should be investigated promptly. We pressure-test the cooling system to locate leaks accurately before recommending repairs.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust Leak or Burning Smell",
           "desc": "Panamera exhaust manifold gaskets and heat shield connections can develop leaks over time, particularly on V8 models where exhaust heat is intense. A ticking sound from the engine bay that disappears when warm, or a burning smell after spirited driving, typically indicates an exhaust leak. We inspect and repair at the actual failure point.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Suspension Bounce or Handling Change",
           "desc": "The Panamera's air suspension, standard or optional depending on variant, can develop compressor and strut wear as mileage climbs. A car that sits low on one corner, rides noticeably harsher than it should, or shows a 'suspension fault' warning needs inspection. We diagnose which component has failed and repair or replace it accurately.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -1021,32 +1021,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and fluid flush, Panamera-specific service for a heavy performance sedan."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Cooling System Repair",
           "desc": "Water pump, thermostat, and coolant hose service on V6 and V8 Panamera engines."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Timing chain, tensioner, and guide inspection and replacement on high-mileage Panamera V8 engines."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, heat shield connections, and exhaust leak repair on 970 and 971 Panameras."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Air suspension compressor, strut, and mount service on all Panamera variants."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and everything your Panamera needs, one visit."
         }

@@ -57,37 +57,37 @@ module.exports = {
         {
           "title": "Check Engine Light, O2 Sensor and Emissions Codes",
           "desc": "Optimas, especially 2nd and 3rd gen models, are frequent visitors with P0420 catalyst efficiency codes and O2 sensor faults. We diagnose root cause before recommending a catalytic converter, often it's a failed upstream sensor causing the false read. We fix what's actually wrong.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Timing Belt Due, 2001–2010 Optimas",
           "desc": "First and second-gen Optimas use an interference-fit timing belt. When that belt snaps, it bends valves, a very expensive repair. We check the interval on every early Optima that comes in and replace the belt along with the water pump and tensioner as a complete service.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Engine Oil Consumption, 2011–2015 2.4L",
           "desc": "The Theta II 2.4L in third-gen Optimas has a documented oil consumption problem. Some owners find themselves a quart low between oil changes. We check oil level and condition at every visit, advise on realistic change intervals, and assess whether the consumption level is worsening over time.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Brake Wear and Soft Pedal",
           "desc": "Optima brakes, particularly rear pads and rotors, wear faster than many owners expect, especially with the added weight of the 2.0T models. A soft or spongy pedal usually points to air in the lines or worn brake fluid. We inspect the full brake system and give you a clear picture of where things stand.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "That rhythmic clicking in parking lots, louder when you're turning, is a worn outer CV joint. The protective boot cracks, grease escapes, grit enters, and the joint wears quickly from there. We replace the full axle shaft rather than patching the boot, giving you a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Strut and Shock Wear on High-Mileage Optimas",
           "desc": "Utah's potholed roads and temperature swings are hard on suspension components. High-mileage Optimas frequently come in with worn struts causing a bouncy ride, nose-dive under braking, or clunking over rough pavement. We inspect both ends of the suspension and replace what's actually worn.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -127,32 +127,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete belt-and-water-pump service for 1st and 2nd gen Optimas, before the belt snaps and bends valves."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, caliper inspection, and brake fluid flush for all Optima generations."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and cat replacement for Optimas that are failing Utah emissions testing."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for Optimas clicking on turns, more durable than boot-only repairs."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for worn, bouncy, or clunking Optima suspensions."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and anything else your Optima needs, handled in one visit."
         }
@@ -243,31 +243,31 @@ module.exports = {
         {
           "title": "Timing Belt Overdue, 1st and 2nd Gen Sorento",
           "desc": "The 2003–2009 BL Sorento and 2010–2015 XM with certain engine configurations use timing belts with approximately 60,000-mile replacement intervals. These are interference engines. A broken belt means bent valves and a major repair bill. We check belt status on every Sorento visit and complete the full belt-and-pump service when it's due.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut and Shock Wear, All Generations",
           "desc": "Utah roads are rough on Sorento suspensions. Worn struts show up as a bouncy, floaty ride, nose-diving under braking, or a clunk over speed bumps. We see both front and rear strut wear on high-mileage third-gen Sorentos in particular. We inspect the full suspension and replace what's actually worn, not what's easiest to upsell.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service: Pads, Rotors, and Fluid",
           "desc": "A loaded three-row Sorento is heavier than most drivers realize, and that weight accelerates brake wear, particularly on rear brakes. A grinding or squealing complaint usually traces to worn pads, scored rotors, or both. We inspect all four corners and advise honestly on what needs replacement now versus what can wait.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light, Emissions and O2 Sensor Codes",
           "desc": "Sorentos are a common vehicle at Utah emissions testing stations, and P0420 catalyst efficiency codes are a frequent failure. We diagnose root cause before recommending a converter replacement, a failed O2 sensor can trigger the same code at a much lower repair cost. We identify which part is actually at fault.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Wear on AWD Models",
           "desc": "AWD Sorentos put more stress on front axle CV joints than their FWD counterparts. If you're hearing clicking on turns, especially when loaded with passengers or gear for a ski trip, that's a worn outer CV joint telling you it's done. We replace the full axle shaft for a long-lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -307,32 +307,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete belt-and-water-pump service for 1st and 2nd gen Sorentos, done on schedule, before it fails."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut service for Sorentos with a bouncy ride or clunking suspension after Utah road wear."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pads, rotors, and fluid service for all Sorento trims and drivetrain configurations."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle replacement for AWD and FWD Sorentos clicking on turns."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Proper P0420 diagnosis and converter replacement for Sorentos failing Utah emissions."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and all other scheduled maintenance, one visit."
         }
@@ -427,31 +427,31 @@ module.exports = {
         {
           "title": "Timing Belt Service, 1st and 2nd Gen",
           "desc": "First-gen JA Sportages and some second-gen KM models use timing belts on interference engines. The belt does not announce when it's about to snap, it just goes. At 60,000-mile intervals we replace the belt, water pump, and tensioner as a complete service so you're not doing it piecemeal.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Squealing or Grinding Brakes",
           "desc": "Compact SUV brakes wear faster when the vehicle is used for the kind of driving Utah demands, canyon roads, mountain passes, towing a trailer to a campsite. We inspect all four corners and tell you exactly where brake wear stands. Worn pads caught early save the rotors; ignored grinding means replacing both.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Loud Exhaust or Failed Emissions",
           "desc": "Sportages with older exhaust systems develop leaks at flex joints, manifold flanges, and mid-pipe connections, a rattle or hiss under the car that gets louder as the leak grows. A failing cat triggers a P0420 code that causes Utah emissions failure. We locate and fix the actual problem, whether it's an exhaust leak or a converter that's genuinely spent.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "CV Joint Wear on AWD Models",
           "desc": "The compact AWD layout of the Sportage puts its outer CV joints through steady stress. When the boot cracks and grease escapes, the joint wears quickly. The first sign is clicking on low-speed turns. We replace the complete axle shaft, not just the boot, for a repair that holds up.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Rough Ride and Suspension Clunk",
           "desc": "Third and fourth-gen Sportages with higher mileage frequently come in with worn front struts. The symptoms are a bouncy highway ride, clunking over speed bumps, and reduced steering response. Utah's road surface, alternating between canyon pavement and potholed surface streets, accelerates strut wear.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -491,32 +491,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete belt, water pump, and tensioner service for 1st and 2nd gen Sportages on an interference engine."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for all Sportage generations, especially those used on Utah canyon roads."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex joint, manifold, and mid-pipe leak repair for Sportages with loud or rattling exhaust."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and converter replacement for Sportages failing Utah emissions testing."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full axle shaft replacement for Sportages with a clicking turn on AWD and FWD models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut service for Sportages with a rough, bouncy ride after Utah road wear."
         }
@@ -603,31 +603,31 @@ module.exports = {
         {
           "title": "Oil Consumption, 2014–2019 Soul 2.0L",
           "desc": "The Nu-series 2.0L engine in second-gen Souls consumes oil at a rate that surprises a lot of owners. Running a quart or more low between changes is common on these cars. Low oil accelerates wear on bearings and valve train components. We check oil level at every visit, track whether consumption is worsening, and advise on shortened change intervals for high-consumption engines.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Check Engine Light and Emissions Failure",
           "desc": "P0420 catalyst efficiency codes are one of the most common reasons Soul owners come to us. A failing oxygen sensor can mimic a bad catalytic converter. We read the code, inspect the exhaust system, test sensor function, and identify the actual cause before any parts are ordered.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear, City Driving Accelerates Pad Life",
           "desc": "The Soul is popular as a city car, and city driving is hard on brakes. Frequent stops, traffic light to traffic light across South Salt Lake and downtown SLC, wear pads significantly faster than highway miles. Squealing is the first sign; grinding means the pads are gone and the rotors are being cut. Don't wait for grinding. The rotor replacement adds cost that a timely pad change avoids.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Loud Exhaust and Exhaust Leaks",
           "desc": "Souls with over 100,000 miles frequently develop exhaust leaks at the manifold or flex pipe junction, a ticking or hissing sound from under the hood or a louder exhaust note than usual. Left alone, exhaust leaks can trigger check engine codes and cause the cat to work harder than it's designed to. We locate and repair the leak properly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Strut Wear on City-Driven Souls",
           "desc": "South Salt Lake and Salt Lake City surface streets are notably rough in sections, and Souls absorb that punishment through their struts. A bouncy ride over rough pavement, nose-dive under braking, or clunking on bumps all point to worn struts. We inspect the suspension and give you an honest assessment of what needs attention.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -667,32 +667,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Oil service, fluid checks, oil consumption monitoring, and full diagnostics, especially important for 2014–2019 2.0L models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper inspection for city-driven Souls where brake wear accumulates faster than average."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and targeted repair for Souls failing Utah emissions testing."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold and flex pipe leak repair for Souls with a loud or ticking exhaust."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut service for Souls with a bouncy or clunking suspension from city road wear."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full axle shaft replacement for Souls clicking on turns."
         }
@@ -771,31 +771,31 @@ module.exports = {
         {
           "title": "Brake Service: Pads and Rotors",
           "desc": "A Telluride in towing and family-load service will wear brakes faster than a lighter crossover. Rear pads often wear before fronts on AWD models with aggressive regen or towing use. We inspect all four corners and advise on timing, catching wear before it scores the rotors saves money.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut and Suspension Inspection",
           "desc": "First-generation Tellurides are now past 50,000 miles on many examples, and strut wear is beginning to show on high-mileage or hard-used units. A floaty highway ride or nose-dive under braking that's more pronounced than it used to be points to struts losing their damping. We inspect and advise honestly.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Emissions Codes",
           "desc": "Tellurides aren't immune to check engine lights. O2 sensor codes and EVAP codes are the most common on first-gen models reaching higher mileage. We pull codes, verify root cause with a proper inspection, and fix what's actually causing the light, not just clear it and send you on your way.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Wear on AWD Models",
           "desc": "AWD Tellurides used for canyon driving, towing, or off-pavement use put more demand on CV axle joints than standard commuter miles. A clicking sound on turns, especially under load, indicates outer CV joint wear. We replace the full axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust and Emissions Compliance",
           "desc": "Utah's emissions requirements apply to newer Tellurides as they age. Exhaust leaks at manifold gaskets or flex joints can appear on higher-mileage examples and should be repaired promptly, they affect emissions readings and can cause the engine to run lean if air enters the exhaust stream.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -835,32 +835,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pad, rotor, and fluid service for a heavy AWD three-row under real Utah driving demands."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut service for higher-mileage Tellurides showing suspension wear."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Axle shaft replacement for AWD Tellurides with clicking on turns from hard use or high mileage."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions diagnosis and targeted repair for Tellurides with check engine codes."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket and flex pipe repair for Tellurides with exhaust leaks or loud exhaust."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full scheduled maintenance including drivetrain fluids, brake inspection, and everything your Telluride needs, one visit."
         }
@@ -939,31 +939,31 @@ module.exports = {
         {
           "title": "Brake Wear After Canyon and Performance Use",
           "desc": "A Stinger driven as intended, with real throttle use on canyon roads or track days, will wear brakes faster than a commuter sedan. The Stinger's weight and performance envelope demand proper brake inspection after hard-use events. Squealing is early warning; grinding means rotor damage. We inspect the full brake system and advise on appropriate pad compounds for how the car is driven.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, Turbo and Emissions Codes",
           "desc": "Both Stinger engines are turbocharged, and boost system faults, wastegate codes, and MAF sensor readings generate check engine lights on higher-mileage examples. We pull codes and diagnose root cause, whether it's a boost leak, a failing sensor, or an emissions component reaching end of life.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Leak and Loud Exhaust",
           "desc": "The Stinger's exhaust is complex, dual-exit, with multiple joints from the turbos back. Exhaust gasket leaks and flex pipe fatigue appear on higher-mileage examples, especially those that have seen sustained high-RPM use. The symptom is a ticking or hissing from the engine bay or a change in the exhaust note. We locate and repair the leak without disturbing the rest of the system.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Strut and Suspension Wear on Performance Platform",
           "desc": "The Stinger's sports suspension tuning gives it a composed ride that's firmer than a typical sedan. When struts wear, the first sign is often a harsh or trampy feel over rough pavement that didn't used to be there, or a looseness in directional stability at highway speed. We inspect and replace with components matched to the Stinger's performance suspension geometry.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump Service, 3.3T Twin Turbo",
           "desc": "The Lambda II 3.3T V6 uses a water pump that can develop leaks or reduced flow as mileage climbs. Given the thermal demands of a twin-turbocharged engine, particularly one that's been driven hard, a failing water pump is a problem that escalates quickly. We inspect the cooling system on every 3.3T Stinger that comes in and address water pump issues before they become an overheating event.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -1003,32 +1003,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Performance pad and rotor service for Stingers driven hard, Brembo-equipped GT and GT2 trims included."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Gasket and flex pipe repair for Stinger exhaust leaks, handled without disrupting the sport exhaust character."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions diagnosis and cat service for Stingers with check engine codes or Utah emissions failures."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system and water pump service for the 3.3T twin-turbo Lambda II engine."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement matched to the Stinger's performance suspension geometry."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostics, oil service, and turbo-appropriate maintenance for both 2.0T and 3.3T Stingers."
         }
@@ -1119,37 +1119,37 @@ module.exports = {
         {
           "title": "Timing Belt Due or Overdue",
           "desc": "The Rio uses an interference engine, if the timing belt breaks, the valves and pistons collide and engine damage is severe. Kia's interval is around 60,000 miles, but Utah's temperature swings, cold winters, hot summers, can age rubber belts faster than the calendar suggests. Don't wait for a symptom. If you don't know when the belt was last replaced, we'll inspect it and tell you where it stands.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "That rhythmic clicking when you turn, especially at low speed in parking lots, is a worn CV joint. The rubber boot cracks over time, grease escapes, and the joint wears. We replace the complete axle shaft rather than just repacking the boot, which gives you a more durable long-term repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Pad and Rotor Wear",
           "desc": "Rio brakes don't have a lot of mass to shed heat, and stop-and-go Salt Lake Valley commuting wears pads faster than highway driving would. If you're hearing squealing or a grinding sensation underfoot, the brakes need attention. We inspect pads, rotors, and calipers and replace what actually needs replacing.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Clutch Wear on Manual Rios",
           "desc": "Manual Rio clutches in stop-and-go traffic wear faster than highway miles would suggest. Signs include a high, slipping engagement point or difficulty getting into neutral. We stock quality clutch kits for manual Rios and do the complete job, clutch, pressure plate, throwout bearing, and flywheel inspection.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Check Engine Light, O2 Sensor and Emissions Codes",
           "desc": "High-mileage Rios commonly trigger O2 sensor codes and emissions-related faults. The fix is usually a straightforward sensor replacement once we verify the root cause. We read the codes, confirm what's actually failing, and fix it, not just clear the light.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Rust and Leaks",
           "desc": "Salt Lake roads get heavy brine treatment in winter, and Rio exhaust systems, especially on older models, corrode at flex pipes and flanges. A rumbling or hissing noise that's louder than usual is often a cracked flex pipe or blown gasket. We weld or replace what's needed and get the exhaust sealed back up.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1189,32 +1189,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete service, belt, tensioner, idler, and water pump, before interference engine damage occurs."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, more reliable than boot-only repairs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection, Rio brakes wear quickly in stop-and-go SLC commuting."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Complete clutch kit, throwout bearing, and flywheel inspection for manual Rio transmissions."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe welding, gasket replacement, and section repairs for winter brine corrosion damage."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and everything else your Rio needs, one visit."
         }
@@ -1297,31 +1297,31 @@ module.exports = {
         {
           "title": "Brake Wear, Front and Rear",
           "desc": "The Niro's front brakes carry the bulk of the stopping load, and front pads wear faster than rear on this platform. If you're hearing squealing on brake application or a grinding sensation through the pedal, the brakes need attention. We inspect pads, rotors, and calipers front and rear and replace what's actually worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut and Shock Wear",
           "desc": "Salt Lake roads, especially side streets, put real stress on suspension components. Worn struts show up as a bouncy, floating ride, excessive nose dive under braking, or clunking over bumps. We inspect strut condition and replace them in axle pairs so handling stays balanced.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "A rhythmic clicking or clunking on tight turns is a worn CV joint. Boot cracks, grease escapes, and the joint wears from there. We replace the complete axle shaft, not just the boot, for a repair that lasts.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Coolant System Service and Water Pump",
           "desc": "Long-life coolant still needs to be flushed and replaced on a schedule, degraded coolant loses its corrosion inhibitors and can cause internal scaling on the water pump and radiator. The Niro's water pump is accessible and we recommend replacing it as part of major cooling system service.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Soft or Spongy Brake Pedal",
           "desc": "A soft or spongy brake pedal on a Niro usually points to worn brake fluid that has absorbed moisture, a caliper that isn't releasing properly, or a brake line issue. We bleed the system, inspect the calipers, and identify the root cause before recommending a repair.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         }
       ],
@@ -1361,32 +1361,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear pads, rotors, caliper inspection, and brake fluid condition, thorough brake system service."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Axle-pair strut replacement for bouncy ride, nose dive, or clunking over bumps on SLC roads."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for clicking or clunking on turns, more reliable than boot-only repair."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service and water pump replacement to prevent overheating and coolant system damage."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Rear shock service for Niro models, restore ride control and handling stability."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full mechanical inspection, fluid service, and everything your Niro needs, covered in one visit."
         }
@@ -1473,37 +1473,37 @@ module.exports = {
         {
           "title": "Timing Chain Noise on 2.0L and 2.4L Engines",
           "desc": "The Nu-series 2.0L and Theta-series 2.4L engines in second and third-gen Fortes can develop timing chain stretch on high-mileage examples, particularly when oil changes have been infrequent or delayed. The first symptom is usually a brief metallic rattle on cold startup. Don't ignore it, a jumped timing chain on an interference engine means bent valves. We inspect the chain, tensioner, and guides and replace them before damage occurs.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual Forte and Forte5",
           "desc": "Manual Fortes used as daily commuters in stop-and-go Salt Lake traffic wear clutches at a predictable rate. Forte5 hatchbacks with the 1.6T are popular with enthusiast drivers who accelerate clutch wear further. Signs include a slipping or high engagement point, difficulty finding neutral, or a burning smell from the drivetrain area. We carry quality clutch kits for all manual Forte generations.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Check Engine Light, Common Fault Codes",
           "desc": "Third-gen Fortes with the 2.0L commonly trigger evap system codes and O2 sensor faults as mileage climbs. Turbocharged 1.6T models see boost-related codes tied to wastegate position and boost pressure sensors. We read the codes, confirm the root cause, and repair what actually needs fixing, not just clear the light.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Forte CV axles take a beating in daily commuter use. The boot cracks, grease escapes, and clicking on turns follows. We replace the complete axle shaft, not just the boot, for a repair that doesn't need to be revisited six months later.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear and Rotor Thickness",
           "desc": "Forte front brakes wear faster than the rears, especially in stop-and-go urban driving. Rotors on this platform are relatively thin from the factory, once they're worn, they can't be machined much before hitting the discard thickness. We measure rotor thickness at every brake service and tell you honestly whether they can be resurfaced or need replacement.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust Flex Pipe Failure",
           "desc": "Utah road brine corrodes Forte exhaust flex pipes and flanges over time. A rumbling exhaust note that's louder than usual, especially under acceleration, is often a cracked flex pipe. We weld or replace the affected section and get the exhaust sealed up properly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1543,32 +1543,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement on high-mileage 2.0L and 2.4L Forte engines before damage occurs."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Complete clutch kit service for manual Forte and Forte5, all generations, OEM-spec components."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection, Forte front brakes wear quickly in SLC stop-and-go traffic."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, all Forte generations."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe and flange repair for brine-corroded Forte exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and everything else your Forte needs in one visit."
         }
@@ -1655,37 +1655,37 @@ module.exports = {
         {
           "title": "Timing Belt Replacement, V6 Interference Engine",
           "desc": "Every Sedona V6 uses a timing belt driving an interference engine. Kia's service interval is typically 60,000 miles, and the consequences of a belt failure are severe, bent valves, possible piston damage, and an engine replacement bill. We do complete timing belt service including the water pump, tensioner, and idler pulley. If you've bought a used Sedona without maintenance records, get the belt inspected before the mileage catches up with you.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Leak or Failure",
           "desc": "The Sedona's water pump is driven off the timing belt, it's right there when we're doing belt service. A weeping water pump on an older Sedona will often leave coolant residue on the timing cover. If you see green or orange staining under the front of the engine, or your temperature gauge climbs higher than usual, bring it in. We replace the water pump as part of every timing belt job.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear on a Heavy Minivan",
           "desc": "The Sedona weighs around 4,500 lbs loaded, that's a lot of mass for the brakes to manage. Front brakes wear faster than you might expect, especially when the van is used for hauling. If you're hearing squealing, grinding, or the pedal feels lower than it used to, the brakes need attention. We inspect pads, rotors, and calipers at every service.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust System Corrosion",
           "desc": "Older Sedonas, especially first and second-gen models, develop exhaust rust at flex pipes, manifold gaskets, and rear section flanges from Utah road brine. A rumbling exhaust under acceleration or a hissing sound near the firewall area is often an exhaust leak. We inspect and repair the exhaust system properly, welding where it's appropriate and replacing sections that are too corroded to hold a weld.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Strut and Shock Replacement",
           "desc": "A fully loaded Sedona, passengers and cargo, puts sustained load on the suspension. Worn struts show up as a wallowing ride, excessive body roll in corners, or a bottoming-out sensation over sharp bumps. We inspect strut condition and replace in axle pairs for balanced handling.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine and Catalytic Converter Codes",
           "desc": "High-mileage Sedonas commonly trigger P0420 and P0430 codes, catalytic converter efficiency faults from aging cats. Before recommending cat replacement, we inspect O2 sensor condition and check for exhaust leaks upstream of the sensors, which can cause false catalyst codes. We address the actual problem, not just the code.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -1725,32 +1725,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete V6 timing belt service, belt, tensioner, idler pulley, and water pump together."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Sedona water pump replacement bundled with timing belt service for maximum value."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Heavy minivan brake service, front pads and rotors wear faster than most owners expect."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe welding, manifold gasket replacement, and section repairs for salt-corroded Sedona exhaust systems."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Axle-pair strut service for loaded-minivan ride control and handling stability."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, fluid checks, and everything your Sedona needs, one visit."
         }
@@ -1833,37 +1833,37 @@ module.exports = {
         {
           "title": "Timing Chain Inspection on 3.3L V6",
           "desc": "The Lambda II 3.3L V6 in the Cadenza uses a timing chain rather than a belt, which is designed to last the life of the engine, but 'designed to last' doesn't mean 'ignore forever.' High-mileage examples with infrequent oil changes can develop chain stretch and tensioner wear. Symptoms include a brief metallic rattle at cold startup or a slight roughness at idle. We inspect the chain and tensioner and replace them before a worn chain causes real damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear, Heavier Sedan, Bigger Demands",
           "desc": "The Cadenza weighs over 3,900 lbs, heavier than most compact sedans by a significant margin. Front brakes do the heavy lifting and wear faster than the rears. If you're hearing squealing on light brake applications or a grinding sensation, it's time. We inspect pads, rotor thickness, and caliper condition front and rear and give you an accurate picture of what needs attention.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "The Cadenza's comfort-focused suspension can feel acceptable long after the struts have worn past their functional service life, the soft initial tune masks the degradation. If the car feels vague or floaty at highway speed, or if you're noticing more body roll than before, the struts may be overdue. We inspect strut condition and replace in axle pairs to restore the handling balance the car was designed with.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust System Leaks",
           "desc": "Older Cadenzas, particularly first-gen models, can develop exhaust manifold gasket leaks or flex pipe corrosion from road brine. An exhaust tick or hiss that's most prominent during cold startup or under load is worth investigating. Exhaust leaks upstream of the O2 sensors can also trigger check engine codes, so a small leak can create a larger diagnostic chain. We seal it up properly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Check Engine Light, O2 Sensors and Evap Codes",
           "desc": "As Cadenzas accumulate miles, O2 sensor degradation and evaporative emission system faults become common. Both will fail a Utah emissions test. We read the codes, verify the actual root cause, not just the code, and fix what needs fixing.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Catalytic Converter Efficiency Codes (P0420/P0430)",
           "desc": "High-mileage Cadenza V6s can trigger P0420 or P0430 catalyst efficiency codes as the cats age. Before we recommend replacement, we check O2 sensor condition and look for exhaust leaks upstream. Both can cause false catalyst failures. We diagnose the actual problem before recommending the repair.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1903,32 +1903,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide inspection and replacement on high-mileage 3.3L Cadenza V6 engines."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pads, rotors, and calipers, for a heavy luxury sedan that demands reliable stopping power."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Axle-pair strut service to restore the Cadenza's handling precision and ride quality."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket and flex pipe repair for Cadenzas with exhaust ticks or leaks."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Catalyst efficiency diagnosis and replacement for P0420/P0430 codes on high-mileage Cadenza V6 engines."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, inspection, and all mechanical service your Cadenza needs, one visit."
         }

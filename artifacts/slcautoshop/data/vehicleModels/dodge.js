@@ -53,37 +53,37 @@ module.exports = {
         {
           "title": "HEMI MDS Lifter Tick or Misfire",
           "desc": "The 5.7L HEMI's Multi-Displacement System can develop collapsed lifters, especially in cars that don't get regular oil changes or sit for extended periods. A persistent tick at idle, particularly on startup, or a misfire code on a cylinder controlled by MDS are common early symptoms. We inspect the valvetrain and determine whether you're dealing with a lifter, a collapsed pushrod, or something upstream like oil pressure.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Manifold Cracks and Leaks",
           "desc": "Cracked exhaust manifolds are a known issue on the 5.7L HEMI, the cast iron manifolds crack near the collector, producing a ticking or tapping sound that gets louder when the engine is cold and sometimes quiets down once everything expands at operating temperature. It's easy to misdiagnose as a valvetrain tick. We inspect the full exhaust path and repair or replace manifolds properly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Fade and Wear on Heavy Braking",
           "desc": "The Charger is a heavy car, especially V8 models, and the factory brake setup works hard. High-speed stops, mountain canyon driving, and spirited use accelerate rotor wear and can cause brake fade. We see warped rotors, glazed pads, and sticking calipers regularly. If your Charger pulls on braking, vibrates through the pedal, or squeals, bring it in before the problem gets worse.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Rough Ride and Suspension Wear",
           "desc": "Charger struts and shocks absorb a lot of force, especially on Utah roads with their freeze-thaw pothole cycles. Worn struts produce a bouncy, floating ride and vague steering. If your Charger bottoms out on dips or the front end dives hard under braking, the struts are likely due. We inspect and replace shocks and struts and check associated bushings and mounts at the same time.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter Codes",
           "desc": "Chargers, especially older 5.7L models, trigger P0420 and P0430 codes from failing catalytic converters. The HEMI runs hot, and high-mileage cats degrade. We confirm whether the cat itself has failed or whether an upstream issue (oxygen sensor, exhaust leak) is triggering the code before recommending replacement.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Timing Chain Rattle on High-Mileage HEMIs",
           "desc": "High-mileage 5.7L HEMIs with infrequent oil changes can develop timing chain stretch. The first sign is usually a brief metallic rattle on cold startup that fades as oil pressure builds. Don't wait. A worn chain can jump timing and cause serious internal damage. We inspect the chain, tensioner, and guides and advise whether you're still ahead of the damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -123,32 +123,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection, especially important on heavy V8 Chargers used for spirited driving."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "HEMI exhaust manifold cracks, flex pipe repairs, and full exhaust path inspection."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "High-mileage 5.7L HEMI chain, tensioner, and guide inspection and replacement."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for a stable, controlled ride on Utah roads."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Replacement and code diagnosis for P0420/P0430 on aging HEMI models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluids, and diagnostics, everything your Charger needs in one visit."
         }
@@ -235,31 +235,31 @@ module.exports = {
         {
           "title": "Clutch Wear on T56 Manual Models",
           "desc": "R/T and Scat Pack Challengers with the 6-speed T56 Magnum work their clutches hard, especially cars used at drag strips or driven aggressively on canyon roads. A high engagement point, slipping under hard acceleration, or a burning smell after a spirited run are the classic signs. We handle complete clutch replacements including flywheel resurfacing and hydraulic system inspection.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Exhaust Manifold Leaks",
           "desc": "Like the Charger, the Challenger's 5.7L HEMI is susceptible to exhaust manifold cracks, the ticking or tapping that's most prominent on a cold start and fades as the engine warms up. Left alone, a cracked manifold can damage the catalytic converter downstream and create a smoke or burning smell inside the cabin. We inspect and repair properly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Brake Wear, Heavy Car, Big Stopping Demands",
           "desc": "The Challenger is one of the heaviest muscle cars sold in its era, a Hellcat tips the scales at nearly 4,500 lbs. Stopping that kind of mass takes a toll on rotors and pads. We see warped rotors and glazed pads regularly on high-mileage or hard-driven examples. Squealing, pulling, or pedal vibration are your signals.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Suspension Wear and Alignment Issues",
           "desc": "Challenger suspension bushings and struts take a beating on Utah's roads. Worn front struts produce a harsh, floaty ride and vague steering feel. We inspect struts, mounts, and bushings together, replacing just the strut and leaving degraded mounts defeats the purpose of the repair.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and Oxygen Sensor Codes",
           "desc": "High-mileage HEMI Challengers commonly trigger P0420/P0430 catalyst efficiency codes. Before recommending a cat replacement, we confirm whether the converter itself has failed or whether an upstream oxygen sensor or exhaust leak is triggering the code. Getting the diagnosis right saves you from replacing an expensive part that isn't the problem.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -299,32 +299,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "T56 Magnum clutch replacement for R/T and Scat Pack models, complete kit, flywheel resurfacing, hydraulic inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection on heavy Challenger platforms, including Widebody and SRT setups."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "HEMI exhaust manifold crack repair and full exhaust path inspection for noise and leak issues."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420/P0430 root-cause diagnosis and converter replacement on aging HEMI models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut and mount replacement for restored handling and ride quality."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluids, and inspection, everything your Challenger needs in one visit."
         }
@@ -411,31 +411,31 @@ module.exports = {
         {
           "title": "Timing Chain Noise on 5.7L HEMI",
           "desc": "The 3rd-gen Durango's 5.7L HEMI can develop timing chain stretch on higher-mileage examples, particularly when oil change intervals have been stretched. A metallic rattle on cold startup, especially noticeable in winter before oil pressure builds, is the earliest symptom. We inspect the chain, tensioner, and guides and advise on replacement before internal engine damage occurs.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Water Pump Failure and Overheating",
           "desc": "Durango water pumps, particularly on the 4.7L V8 second-generation models, are a known failure point. A seeping water pump seal, coolant loss, or temperature gauge climbing above normal are early warnings. We pressure-test the cooling system, identify the leak source, and replace the water pump and thermostat together to avoid a repeat visit.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear on a Heavy SUV",
           "desc": "A loaded Durango towing a trailer through a canyon descends at a significant weight penalty, that eats through brake pads and can warp rotors quickly. We inspect pads, rotors, calipers, and brake fluid condition at each service visit and recommend replacement before you're metal-on-metal. Utah's canyon passes are not the place to discover your brakes are overdue.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Shock Absorber Wear and Ride Degradation",
           "desc": "High-mileage Durangos develop shock absorber wear that shows up as excessive body roll, a bouncy highway ride, and nose dive under braking. Utah's dirt roads and seasonal frost heaves accelerate the wear. We inspect shocks and struts and replace worn units with quality replacements, and we check the associated mounts and bump stops at the same time.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust and Catalytic Converter Issues",
           "desc": "High-mileage Durango cats degrade, and a P0420 or P0430 code doesn't automatically mean the converter is at fault. We verify whether it's the cat itself, an oxygen sensor, or an upstream exhaust leak before recommending a replacement. Getting the diagnosis right saves you from buying a converter when a sensor would have fixed it.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -475,32 +475,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "5.7L HEMI chain, tensioner, and guide replacement on 3rd-gen Durangos before cold-start rattle becomes engine damage."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system pressure testing and water pump replacement, especially common on 4.7L V8 models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full pad, rotor, and caliper service for a heavily loaded SUV used in Utah's mountain terrain."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Rear and front shock replacement for worn Durangos with poor ride quality and excessive body roll."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate P0420/P0430 diagnosis and OEM-quality replacement on aging Durango V8 models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluids, and diagnostics, everything your Durango needs before a road trip or ski season."
         }
@@ -583,31 +583,31 @@ module.exports = {
         {
           "title": "Timing Belt Overdue on 3.5L V6",
           "desc": "The 3.5L V6 in Journey models is an interference engine, if the timing belt breaks, the valves contact the pistons and the engine is destroyed. Dodge specifies replacement intervals, and many high-mileage Journeys we see are overdue. We replace the belt, water pump, tensioner, and idler pulleys as a complete service, if the water pump fails between belt changes, you're doing the whole job again anyway.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "That clicking you hear from the front of your Journey when you turn into a parking lot is a worn CV joint. The rubber boot cracks, grease escapes, dirt gets in, and the joint wears. We replace the complete axle shaft, not just the boot, for a repair that lasts. FWD and AWD Journeys both see this failure.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Water Pump Leaks and Cooling System Failure",
           "desc": "Journey water pumps, especially on 3.5L V6 models, are a known wear item, and since they're driven by the timing belt, a leaking pump often means you're doing the timing belt job anyway. We inspect the cooling system whenever a Journey comes in for any belt-adjacent service and replace the pump proactively if it's showing any signs of wear.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear, Family Crossover, Regular Inspection",
           "desc": "Family vehicles rack up miles, and Journey brakes are no exception. We see pads and rotors worn well past the replacement threshold on Journeys brought in for other services. Front brakes wear faster than rear, but we inspect all four corners. Squealing or grinding when stopping means you're already past due.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, Emissions and Sensor Codes",
           "desc": "Journey check engine lights are common at higher mileage, oxygen sensor failures, EVAP system leaks (often just a loose gas cap in Utah's dry climate), and catalytic converter efficiency codes all appear regularly. We pull the codes, verify the root cause, and fix what actually needs fixing.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -647,32 +647,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt service on 3.5L V6 Journey, belt, water pump, tensioner, and idler pulleys."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, FWD and AWD Journey models."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system inspection and water pump replacement, often done in conjunction with timing belt service."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection on a family crossover with predictable wear patterns."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate diagnosis and replacement for P0420/P0430 codes on aging Journey V6 models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluids, and diagnostics for everything your Journey needs in one visit."
         }
@@ -751,31 +751,31 @@ module.exports = {
         {
           "title": "DDCT Transmission Shudder and Jerking",
           "desc": "The Dual Dry Clutch Transmission used in many Dart automatics is notorious for low-speed shudder, jerky engagement, and hesitation when pulling away from a stop. Some of this is normal behavior for the platform; some indicates actual clutch pack wear. We diagnose the difference and advise accordingly, including whether a software update or physical repair addresses your specific complaint.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Timing Belt Service on 1.4T and 2.4L Engines",
           "desc": "Both the 1.4L MultiAir turbo and the 2.4L Tigershark are timing belt engines. Many Dart owners don't realize this or don't know the interval, and a broken belt on either engine causes internal damage. We inspect belt condition, replace at the correct interval, and include the tensioner and pulleys in the service.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear and Soft Pedal",
           "desc": "Darts have a relatively light brake setup and the pads wear predictably, more so in stop-and-go Salt Lake City traffic. We see soft pedal complaints on higher-mileage Darts from degraded brake fluid as well as worn pads and rotors. We inspect fluid condition, pad thickness, and rotor wear together.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-wheel-drive Darts see CV axle wear in the same pattern as most FWD vehicles, the inner and outer boots degrade, grease escapes, and the joint wears. A clicking sound on turns at low speed is the earliest sign. We replace complete axle shafts for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Suspension Wear on Utah Roads",
           "desc": "Dart struts and front-end bushings take a beating on Salt Lake City roads with their freeze-thaw pavement damage and occasional frost heave. A bouncy ride, a clunking over bumps, or excessive body roll in corners points to worn suspension components. We inspect and replace struts and mounts together.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -815,32 +815,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "1.4T MultiAir and 2.4L Tigershark timing belt, tensioner, and pulley service at correct intervals."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch and DDCT Service",
           "desc": "Manual clutch replacement and DDCT dual dry clutch diagnosis, we know this transmission's specific behavior patterns."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for FWD Dart clicking on turns."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, fluid condition check, and soft pedal diagnosis on all Dart trims."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and mount replacement for worn Darts with rough ride and clunking over bumps."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluids, and diagnostics, everything your Dart needs in one visit."
         }
@@ -919,31 +919,31 @@ module.exports = {
         {
           "title": "Timing Belt Service on 2.0L and 2.4L Engines",
           "desc": "The 2.0L and 2.4L World Gas Engine in the Caliber uses a timing belt, not a chain. Chrysler specifies a replacement interval and most high-mileage Calibers we see are either overdue or have no service records. We replace the belt, tensioner, idler pulley, and water pump together as a complete service to avoid a second teardown for water pump failure.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Wear, Clicking on Turns",
           "desc": "Front-wheel-drive Calibers wear CV axles in a predictable pattern, low-speed clicking on turns is the first sign of a worn outer joint. We replace complete axle shafts rather than repacking boots alone for a more durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust Leaks and Manifold Issues",
           "desc": "Higher-mileage Calibers commonly develop exhaust leaks at the manifold-to-head flange or at the flex pipe section downstream of the manifold. The result is a ticking or hissing sound at idle that increases with engine speed, and sometimes a burning smell from exhaust gases escaping near the firewall. We inspect the full exhaust path and repair the leak properly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Brake Service on an Aging Daily Driver",
           "desc": "Calibers in high-mileage daily-driver service wear through brakes at a steady rate. Salt Lake City stop-and-go traffic eats front pads faster than highway miles would. We inspect all four corners and the brake fluid condition and recommend replacement at the right point, before you're metal-on-metal.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Failed Emissions, P0420 Catalyst Code",
           "desc": "Aging Calibers frequently trigger P0420 catalyst efficiency codes on Utah's emissions test. Before recommending a converter replacement, we confirm whether the cat itself has failed or whether an upstream issue is the actual cause. The diagnosis makes a significant cost difference.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -983,32 +983,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete belt, water pump, tensioner, and pulley service on 2.0L and 2.4L Caliber engines."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on FWD Caliber models."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold flange and flex pipe leak repair on high-mileage Calibers."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and fluid inspection on daily-driver Calibers at standard wear intervals."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate P0420 root-cause diagnosis before recommending converter replacement."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluids, and diagnostics, everything your Caliber needs in one visit."
         }
@@ -1091,31 +1091,31 @@ module.exports = {
         {
           "title": "Timing Belt Service: Non-Negotiable on Any Neon",
           "desc": "Both the 1.8L and 2.0L Neon engines are interference engines using timing belts. A broken belt while driving destroys the engine. Many high-mileage Neons have unknown service histories, if you're not certain the belt has been replaced within the last 60,000 miles, treat it as due. We replace belt, water pump, tensioner, and idler together.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Head Gasket Failure on 1st-Gen 2.0L",
           "desc": "The 1995–1999 Neon's 2.0L has a documented head gasket weakness. Symptoms include white smoke from the exhaust (coolant burning), an overheating engine, coolant loss without an obvious external leak, or a milky residue on the oil cap. Catching it early, before the head warps, is the difference between a $600 repair and a $1,500 one. We inspect and advise.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Clutch Wear on Manual and SRT-4 Models",
           "desc": "Standard Neon clutches last a reasonable amount of time with normal use, but SRT-4 clutches driven hard see wear much earlier. High engagement point, slipping under acceleration, or grinding when shifting are the telltale signs. We handle complete clutch jobs including hydraulic inspection and flywheel evaluation.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Exhaust Leaks, Manifold and Flex Pipe",
           "desc": "High-mileage Neons develop exhaust leaks at the manifold flange and the flexible section of the exhaust, producing a ticking or hissing sound that increases with engine speed. In the cabin, it may produce a faint exhaust smell at idle with the windows down. We inspect the full exhaust path and repair leaks correctly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "CV Axle Clicking, FWD Wear",
           "desc": "Front-wheel-drive Neons wear CV axles predictably, the classic clicking on turns starts when the outer CV joint is worn. We replace complete axle shafts for a lasting repair rather than just repacking the boot on a joint that's already degraded.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -1155,32 +1155,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete belt, water pump, tensioner, and pulley service on all 1.8L and 2.0L Neon engines."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Standard and SRT-4 Neon clutch replacement with hydraulic inspection and flywheel evaluation."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold flange and flex pipe leak repair on high-mileage Neons."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, all FWD Neon models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and fluid inspection on Neons at routine service intervals."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluids, and diagnostics, everything your Neon needs in one visit."
         }
@@ -1259,31 +1259,31 @@ module.exports = {
         {
           "title": "Timing Belt Service on 2.4L and 2.7L Engines",
           "desc": "The 2.4L and 2.7L Avenger engines are interference designs with timing belts that require replacement on schedule. A broken belt results in severe engine damage with no warning. Many Avengers in the mileage range where we see them have unknown service histories, if you can't confirm a replacement within the last 60,000–90,000 miles, have it inspected. We complete the full service, belt, water pump, tensioner, and idler.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump and Cooling System Failure",
           "desc": "The 2.7L V6 Avenger is particularly sensitive to cooling system health. A leaking water pump, failing thermostat, or low coolant can result in overheating that damages the head gasket or cylinder head. We pressure-test the cooling system to isolate the failure point and replace the water pump with quality components, often alongside the timing belt since the pump is in the same area.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "High-mileage Avengers routinely develop worn CV joints. The clicking on turns in parking lots is the telltale sign. We replace the complete axle shaft rather than just repacking the outer boot, which gives you a repair that lasts instead of one that comes back in another 20,000 miles.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear on a Family Sedan",
           "desc": "Avengers accumulate city miles quickly in the Salt Lake Valley, and front brakes wear faster in stop-and-go traffic. We inspect all four corners, check brake fluid condition, and recommend replacement at the right threshold, before grinding becomes the symptom.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Catalytic Converter Efficiency Codes",
           "desc": "Aging Avengers, particularly V6 models, develop P0420 catalyst efficiency codes. Before recommending a converter replacement we confirm whether the cat itself has degraded or whether an upstream oxygen sensor or exhaust leak is triggering the code.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1323,32 +1323,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete belt, water pump, tensioner, and pulley service on 2.4L and 2.7L Avenger engines."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system pressure test and water pump replacement, especially on 2.7L V6 models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on FWD Avenger models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and fluid service on Avengers with city-mile wear patterns."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate P0420 root-cause diagnosis and OEM-quality replacement on aging V6 Avengers."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluids, and diagnostics for everything your Avenger needs in one visit."
         }
@@ -1443,37 +1443,37 @@ module.exports = {
         {
           "title": "Water Pump and Cooling System Failure",
           "desc": "Grand Caravan water pumps, especially on the 3.3L and 3.8L engines, are a known wear item at higher mileage. The pump is driven by the serpentine belt, making it accessible, but a failing pump seal often doesn't show symptoms until it's actively weeping coolant. We pressure-test the cooling system at each inspection and recommend replacement when seepage is confirmed, before you're stranded with an overheating van.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking, FWD Minivan Wear",
           "desc": "Front-wheel-drive Grand Caravans wear CV axles at predictable intervals, the characteristic clicking on tight turns in parking lots points to a worn outer CV joint. A loaded van exerts more stress on the axle joints than a lighter passenger car, which can accelerate wear. We replace complete axle shafts for a repair that lasts.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear on a Heavy, Loaded Van",
           "desc": "A fully loaded Grand Caravan is a heavy vehicle and brakes take the full penalty of that weight on every stop. Front brakes wear faster than rear, and brake fluid degrades from the heat cycling. We inspect all four corners and fluid condition at every service visit and advise based on actual wear measurements, not just mileage estimates.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Shock Absorber Wear and Ride Quality",
           "desc": "High-mileage Grand Caravans develop worn shock absorbers that show up as a bouncy, floaty ride, especially noticeable when the van is lightly loaded versus heavily loaded. Worn shocks also reduce braking stability and increase body roll. We inspect and replace shocks as a complete axle service, front and rear, and check the related mounts at the same time.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust and Catalytic Converter Issues",
           "desc": "3.3L and 3.8L Grand Caravans develop P0420 and P0430 catalyst efficiency codes with age. We verify whether it's the converter itself or an upstream sensor or exhaust leak before recommending any replacement. On a family vehicle with a repair-value consideration, getting this diagnosis right matters.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut Wear on Front Suspension",
           "desc": "The front struts on Grand Caravans take a continuous load from the engine and transaxle mounted ahead of them, plus whatever the van is carrying. Worn front struts produce a harsh ride, clunking over bumps, and vague steering. We replace struts and mounts together, a strut mount that's worn while the strut is new gives you a poor result.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -1513,32 +1513,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system pressure test and water pump replacement on 3.3L, 3.8L, and 3.6L Caravan engines."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, common on higher-mileage FWD Caravans."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection and service on a heavy minivan with variable load patterns."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Front and rear shock replacement for restored ride quality and braking stability."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and mount replacement for clunking, harsh ride, and vague steering on high-mileage Caravans."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluids, and diagnostics, everything your Grand Caravan needs before a road trip or new school year."
         }

@@ -53,37 +53,37 @@ module.exports = {
         {
           "title": "Rough or Jerky Shifting, Clutch Actuator",
           "desc": "The 450 and 451 Fortwos use a Getrag automated manual transmission that shifts via electrically-controlled actuators rather than a hydraulic torque converter. Jerky, lurching shifts or a car that hesitates between gears are almost always caused by a worn or out-of-calibration clutch actuator, not a transmission failure. The actuator can sometimes be recalibrated; when it can't, replacement is significantly less expensive than a full transmission job. We diagnose the actuator specifically before recommending anything further.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Check Engine Light, Turbo and Emission Codes",
           "desc": "The 450 and 451's three-cylinder turbocharged engines commonly trigger check engine lights from boost system issues, O2 sensor aging, and EGR function. The 453's naturally aspirated inline-three has its own code patterns. We pull and interpret the full fault record, including pending codes, before recommending parts. Clearing the light without addressing the root cause means it comes back.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Cooling System Service",
           "desc": "The Fortwo's rear-mounted engine has a cooling system that routes coolant through a longer-than-expected path for such a small car. The coolant hoses, thermostat, and water pump are all aging items on 450 and 451 Fortwos now. An overheating Fortwo is a stopped Fortwo, we pressure-test the cooling system and address weak points before a roadside failure happens.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Service",
           "desc": "The Fortwo's rear drum brakes (on most configurations) and front disc brakes require different service approaches. Rear drums are often overlooked by shops used to all-disc vehicles, we service them correctly, checking wheel cylinder condition, shoe wear, and hardware function. Front brakes on the Fortwo are straightforward disc systems that we inspect at every visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Joint Wear on Rear Axles",
           "desc": "The Fortwo's rear-engine, rear-wheel-drive layout means the rear CV joints take the full drive load. A clicking noise when accelerating from a stop, especially noticeable because the car is so light, indicates CV joint wear. We replace the complete axle shaft rather than attempting a boot-only repair, which gives a more reliable long-term result.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust System and Catalytic Converter",
           "desc": "The Fortwo's rear-mounted exhaust system is subject to road debris impact given the car's low ground clearance and rear-engine layout. The catalytic converter is a wear item on high-mileage examples, and Utah emissions testing catches degraded cats. We inspect the full exhaust path from manifold to rear and diagnose emissions failures before recommending cat replacement.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -123,32 +123,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Actuator Service",
           "desc": "Clutch actuator diagnosis, calibration, and replacement for Fortwos with jerky or hesitant shifting."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front disc and rear drum service for all Fortwo generations, with wheel cylinder and hardware inspection."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump and Cooling",
           "desc": "Cooling system pressure test, water pump, hose, and thermostat service for aging 450 and 451 Fortwos."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Rear CV axle replacement for Fortwos with clicking on acceleration or turns from worn joints."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat replacement and O2 sensor diagnosis for Fortwos that have failed Utah emissions testing."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, cooling check, and multi-point inspection for your Smart Fortwo, one visit."
         }
@@ -227,37 +227,37 @@ module.exports = {
         {
           "title": "DCT Hesitation and Jerky Low-Speed Shifts",
           "desc": "The Forfour's dual-clutch transmission is efficient on the open road but can feel hesitant or jerky in stop-and-go traffic, particularly when the fluid is degraded or the clutch calibration is off. Low-speed DCT behavior problems are often software or fluid issues rather than mechanical failures. We assess the fluid condition, check for relevant fault codes, and verify whether the transmission is behaving within its design parameters before recommending a mechanical repair.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Check Engine Light, Emissions and Engine Management",
           "desc": "The Forfour's naturally aspirated 0.9T or 1.0-liter three-cylinder engine can trigger check engine lights from O2 sensor aging, EGR function, and emissions-related codes, particularly as these cars age and accumulate miles. We pull the full fault record, check for pending codes, and diagnose the root cause before recommending parts. A check engine light that's ignored on a Utah-registered vehicle will cause an emissions test failure.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Service: Front Discs and Rear Drums",
           "desc": "Like the Fortwo, many Forfour configurations use rear drum brakes. These require service attention that goes beyond a basic pad swap, drum adjustment, wheel cylinder inspection, and spring and hardware replacement are part of a complete rear brake service. We inspect the full braking system at every Forfour visit and don't assume the rear brakes are fine just because they're drums.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Rear CV Joints and Axles",
           "desc": "The Forfour's rear-wheel-drive layout puts all drive stress through the rear CV joints. Worn joints show up as a clicking or clunking sound when pulling away from a stop or maneuvering at low speed. Because these cars are light, CV joint wear is audible before it becomes dangerous, which gives us a chance to catch and replace the axle before it fails on the road.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Cooling System Leaks and Water Pump",
           "desc": "The Forfour's rear-mounted engine has a cooling system with a longer coolant circuit than you'd expect in a small city car. Hose connections and the water pump are the most likely sources of leaks on aging W453 cars. We pressure-test the system to find leaks that aren't visible externally and address all weak points in a single visit rather than chasing them one at a time.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust and Catalytic Converter",
           "desc": "The Forfour's rear exhaust system is low to the ground and exposed to road debris and winter road salt. The catalytic converter is vulnerable to efficiency loss on aging examples, and Utah emissions testing will catch a degraded cat. We inspect the exhaust from the manifold back and trace any exhaust noise to its actual source, a loose heat shield sounds similar to an exhaust leak on these cars.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -297,32 +297,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "DCT Service",
           "desc": "Dual-clutch transmission fluid and calibration service for Forfours with hesitant or jerky low-speed shifts."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front disc and rear drum service for the Forfour, including wheel cylinder inspection and hardware replacement."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Rear CV axle replacement for Forfours with clicking or clunking on acceleration from worn joints."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump and Cooling System",
           "desc": "Cooling system pressure test, water pump, and hose replacement for W453 Forfours showing leaks or overheating."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust manifold, cat, and rear exhaust service for Forfours with leaks, noise, or emissions failures."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, brake and cooling inspection, and multi-point service for your Smart Forfour."
         }

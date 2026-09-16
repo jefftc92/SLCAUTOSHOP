@@ -20,7 +20,7 @@
     <h2>Auto Repair Services</h2>
     <div class="services-grid">
       <% services.slice(0, 8).forEach(s => { %>
-      <a href="/services/<%= s.slug %>" class="service-card">
+      <a href="/services/<%= s.hubSlug %>" class="service-card">
         <img src="<%= s.image %>" alt="<%= s.fullName %> service" loading="lazy" width="400" height="267">
         <h3><%= s.fullName %></h3>
         <span class="card-p"><%= s.shortDesc %></span>

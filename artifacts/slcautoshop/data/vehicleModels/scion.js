@@ -49,37 +49,37 @@ module.exports = {
         {
           "title": "Clutch Slipping or Hard Shifts on Manual tC",
           "desc": "The tC's 6-speed manual is a fun gearbox, but clutches on cars driven aggressively or used for canyon runs can wear faster than the 100,000-mile mark. A clutch that slips under hard acceleration, a high engagement point where the clutch barely grabs before it's fully released, or grinding when hunting for a gear are all signs it's time. We replace the clutch disc, pressure plate, and throwout bearing, and inspect the flywheel and hydraulics.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Timing Chain Rattle on 2AR-FE (2nd Gen)",
           "desc": "The 2.5L 2AR-FE in the second-generation tC uses a timing chain that's susceptible to guide wear at high mileage, particularly on cars with stretched oil change intervals. A brief metallic rattle on cold startup that quiets once the engine warms is the classic symptom. We replace the chain, tensioner, and both guides as a complete service.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-wheel-drive tCs with high mileage or driven through Utah's potholed winters develop CV axle wear. Clicking on low-speed turns, especially on tight parking lot maneuvers, is the outer CV joint telling you it's done. We replace the full axle shaft for a reliable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Squealing and Wear",
           "desc": "tC front brakes wear at a predictable rate, faster on driven cars. A squealing that happens every time you brake is the wear indicator contacting the rotor. Don't wait until it turns into grinding. We inspect pads, rotors, and calipers and give you a written estimate.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Exhaust Noise, Aftermarket or OEM Issues",
           "desc": "Many tCs have aftermarket exhausts, and some of them develop leaks at the header or mid-pipe connections. OEM exhausts develop manifold gasket leaks at high mileage. Either way, the symptom is a ticking or hissing under the hood. We inspect and repair both OEM and aftermarket exhaust systems.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light",
           "desc": "tC check engine lights frequently come from O2 sensor codes on high-mileage cars, evaporative emission system faults, or a catalyst efficiency code (P0420). We read the codes and trace the actual root cause, we don't just clear them and send you to emissions.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -119,32 +119,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "6-speed tC clutch replacement, disc, pressure plate, throwout bearing, and hydraulic inspection."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "2AR-FE timing chain, guides, and tensioner replacement on second-generation tC."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on the front-wheel-drive tC platform."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear pad, rotor, and caliper inspection for the tC."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets and exhaust system service, OEM and aftermarket tC exhausts."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic and fluid service, everything your tC needs in one visit."
         }
@@ -223,37 +223,37 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on 2nd-Gen xB",
           "desc": "The 2.4L 2AZ-FE in the second-generation xB is prone to timing chain and guide wear at high mileage, especially on cars with inconsistent oil change history. The symptom is a metallic rattle on cold startup that quiets after the engine warms up. We replace the chain, tensioner, and guides before the worn chain can jump timing.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure on 2AZ-FE",
           "desc": "The second-gen xB's water pump is an internal component, it runs on the timing chain inside the engine rather than as an external belt-driven pump. When it fails, coolant enters the engine oil or the engine loses cooling capacity. We replace the water pump and timing chain together since the engine has to come apart for both.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Both xB generations are front-wheel-drive and wear CV axles as mileage climbs. A clicking sound on low-speed turns is the outer CV joint telling you the grease is gone and the joint is worn. We replace the complete axle shaft for a reliable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear, Pads and Rotors",
           "desc": "xB brakes are straightforward and relatively inexpensive to service. Front pads wear first. A squealing that occurs on every brake application is the wear indicator contacting the rotor. We inspect the full system and give you a written estimate.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, O2 Sensor and EVAP Codes",
           "desc": "High-mileage xBs regularly trigger oxygen sensor faults and evaporative emission codes. We read the codes and find the actual root cause before recommending parts.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut Wear and Bouncy Ride",
           "desc": "xBs with 100,000+ miles often have worn front struts. The car feels like it floats over bumps and doesn't settle quickly after a dip. Worn struts affect tire wear and braking distance, not just comfort. We inspect and replace as needed.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -293,32 +293,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "2AZ-FE timing chain, guides, and tensioner, complete service on second-generation xB."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Internal water pump replacement on 2AZ-FE, done together with timing chain service."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, both xB generations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection, straightforward service on the xB platform."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore ride quality and handling on high-mileage xB front struts."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection and fluid service, everything your xB needs in one visit."
         }
@@ -393,31 +393,31 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual xA",
           "desc": "The xA's 5-speed manual is a light, short-throw gearbox that's enjoyable to use, but the clutch is a wear item. A slipping clutch that doesn't fully engage before the pedal is near the top of its travel, or difficulty shifting into gear, are signs it needs attention. We replace the complete clutch assembly and inspect the flywheel.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-wheel-drive xAs wear CV joints at high mileage. The clicking sound on low-speed turns, especially in parking lots, is the outer joint telling you the grease is gone and the joint is worn. We replace the complete axle shaft.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Pad Wear",
           "desc": "xA front brakes are small and lightweight, which means they work hard for a city car. Squealing on brake application is the wear indicator contacting the rotor, it means you have some time, but don't wait for grinding. We inspect pads, rotors, and calipers and give you a clear estimate.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Exhaust Leaks and Noise",
           "desc": "High-mileage xAs develop exhaust manifold gasket leaks and deteriorating flex pipe connections. An exhaust leak sounds like a ticking or hissing from under the hood on a cold start. We inspect the full system and repair what's causing the noise.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light",
           "desc": "xA check engine lights frequently come from O2 sensor faults on high-mileage cars or evaporative emission codes from a cracked vapor hose or deteriorated fuel cap seal. We read the codes, trace the root cause, and fix what needs fixing.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -457,32 +457,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "5-speed xA clutch replacement, complete assembly and hydraulic inspection."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on the front-wheel-drive xA."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear pads, rotors, and caliper inspection on the xA."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets and exhaust system service on the 1NZ-FE xA."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restore ride quality on worn xA front struts at high mileage."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection and fluid service, everything your xA needs in one visit."
         }
@@ -557,31 +557,31 @@ module.exports = {
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-wheel-drive xDs go through CV joints at high mileage, especially in Utah's winters, where potholes and temperature cycling accelerate boot cracking and grease loss. The clicking on low-speed turns is unmistakable. We replace the full axle shaft.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Pad and Rotor Wear",
           "desc": "xD front brakes are light-duty and wear at a steady rate in daily commuter use. Squealing means the wear indicators are telling you it's time. We inspect the full brake system and give you an estimate covering exactly what needs to be done.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Clutch Wear on Manual xD",
           "desc": "Manual xD owners who drive the car the way it's meant to be driven will eventually need a clutch. High engagement point, slipping under acceleration, or difficulty shifting into first and reverse are the signs. We replace the full clutch assembly and inspect the flywheel.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Check Engine Light",
           "desc": "High-mileage xDs commonly trigger O2 sensor codes and evaporative emission faults. We trace the actual root cause before recommending any parts.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Noise",
           "desc": "Older xDs develop exhaust manifold gasket leaks and deteriorated flex pipe connections. A ticking noise from under the hood on cold starts that quiets as the engine warms is the classic exhaust leak symptom.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -621,32 +621,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, front-wheel-drive xD platform."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for the xD."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual xD clutch replacement, full assembly and hydraulic inspection."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets and exhaust system service on high-mileage xD models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut service to restore handling on high-mileage xD."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection and fluid service, everything your xD needs."
         }
@@ -721,31 +721,31 @@ module.exports = {
         {
           "title": "Clutch Wear, 6-Speed Manual",
           "desc": "The FR-S's 6-speed manual with the lighter flywheel is a genuinely fun drivetrain, but clutches wear faster on cars that see spirited use, canyon runs, or the occasional track event. A slipping clutch under hard acceleration, a high engagement point, or difficulty getting into gear are all signs. We carry quality clutch kits for the FA20 and know the correct procedure for this platform.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Wear, Pads and Rotor Damage",
           "desc": "Track use and spirited canyon driving burns through brake pads faster than the emissions-testing schedule suggests. A burning smell after aggressive braking, squealing during normal stops, or a pulsating brake pedal are signs the brakes need inspection. We service the full system and check for rotor damage caused by overheating.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Exhaust Leaks, Aftermarket and OEM",
           "desc": "Many FR-S owners run aftermarket headers or cat-back exhausts, and aftermarket connections develop leaks at gaskets and slip joints. OEM exhaust manifold gaskets also develop leaks on high-mileage examples. We inspect and repair both aftermarket and stock exhaust systems.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, O2 Sensor and Catalyst Codes",
           "desc": "The FA20's direct injection and exhaust layout makes it susceptible to catalyst efficiency codes (P0420), sometimes triggered by a genuinely failing cat, sometimes by an O2 sensor reading incorrectly after an exhaust modification. We read the codes, trace the actual root cause, and fix what needs fixing.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "FR-S suspension components see real stress on canyon roads and track days. A car that feels imprecise or has lost its crisp turn-in response may have worn strut bushings or shock valving. We inspect the full suspension and give you an accurate assessment.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -785,32 +785,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "FA20 FR-S clutch replacement, disc, pressure plate, throwout bearing, flywheel inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection for driven FR-S models, pads, rotors, fluid, and caliper function."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets and exhaust system service, OEM and aftermarket FR-S exhausts."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Catalyst replacement and O2 sensor diagnosis for FR-S P0420 codes."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut / Suspension Service",
           "desc": "Front strut and suspension bushing inspection and replacement on the ZN6 platform."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic and fluid service, everything your FR-S needs in one visit."
         }
@@ -885,31 +885,31 @@ module.exports = {
         {
           "title": "Brake Wear in Stop-and-Go Traffic",
           "desc": "City cars spend most of their life in stop-and-go conditions, which means brakes wear at a faster rate per mile than highway-driven vehicles. The iQ's small brake system can feel spongy or soft when pads are worn. We inspect pads, rotors, calipers, and fluid condition, a complete brake service, not just a pad swap.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-wheel-drive iQs with high mileage develop CV joint wear like any front-wheel-drive car. The clicking on low-speed turns is the outer CV joint wearing through its grease. We replace the complete axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light",
           "desc": "iQ check engine lights commonly come from O2 sensor faults, evaporative emission codes, or catalyst efficiency issues on high-mileage cars. We pull the codes and trace the actual root cause before recommending parts.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Service",
           "desc": "The iQ's compact exhaust system is tucked tightly to the underside of the car, which makes exhaust manifold gasket leaks and flex connector deterioration more consequential. A ticking noise on cold starts is the typical symptom. We inspect the full system and repair what's causing the leak.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Rough Ride, Worn Struts on High-Mileage iQ",
           "desc": "The iQ's short wheelbase magnifies the effect of worn struts, a city car with worn suspension feels noticeably bouncy and imprecise even at low speeds. Strut replacement restores both ride quality and tire wear patterns.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -949,32 +949,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "City car brake service, pads, rotors, and full hydraulic inspection on the compact iQ."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, front-wheel-drive iQ."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets and exhaust service on the iQ's compact 1NR-FE system."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement to restore ride quality on high-mileage iQ."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Catalyst service and emissions diagnosis for iQ P0420 codes."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and diagnostics for the Scion iQ."
         }

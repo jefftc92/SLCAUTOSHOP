@@ -63,31 +63,31 @@ module.exports = {
         {
           "title": "Front Brake Pulsation and Worn Pads",
           "desc": "Silverados, especially trucks that tow or haul, go through front brakes faster than owners expect. Warped or grooved rotors cause a pulsing pedal and steering-wheel shake under braking. We measure rotor thickness, check pad life, and inspect calipers and slides, then quote pads and rotors rated for the loads you carry.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Worn Front-End Suspension Components",
           "desc": "The independent front suspension on Silverados wears at the control-arm bushings, idler and pitman arms, and tie-rod ends, Utah's rough roads and frost heaves accelerate it. Symptoms include a clunk over bumps, wandering steering, and uneven tire wear. We inspect the whole front end and tell you exactly what's loose.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Cracked Exhaust Manifolds and Broken Bolts",
           "desc": "Vortec and EcoTec3 V8s are known for exhaust manifold bolts that snap from years of heat cycling, plus manifold cracks. The result is a ticking exhaust leak that's loudest on cold startup. We extract broken bolts and reseal or replace the manifold so the leak doesn't worsen.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Water Pump Leaks on High-Mileage V8s",
           "desc": "The water pump on Silverado V8s eventually weeps coolant from the weep hole or fails at the bearing, which can lead to overheating if ignored. Watch for a low coolant level, a sweet smell, or a puddle under the front of the truck. We replace the pump with a quality unit and refresh the coolant at the same time.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Catalytic Converter Theft on Trucks",
           "desc": "Silverados sit high off the ground, which makes their catalytic converters an easy target for thieves with a battery-powered saw. If your truck suddenly roars like a race car at startup, the cat is likely gone. We replace the converter with an emissions-legal unit and can weld on a shield to deter repeat theft.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -127,32 +127,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper service rated for the towing and hauling your Silverado actually does."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Worn shocks restored for a controlled ride, important for loaded trucks on Utah roads."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front-end ride control and handling restored on Silverados that wander or clunk over bumps."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Cracked manifolds and broken bolts on Vortec and EcoTec3 V8s, sealed up so the leak stops."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Leaking or failing water pumps on high-mileage Silverado V8s, with fresh coolant included."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and anything else your Silverado needs, one visit."
         }
@@ -249,31 +249,31 @@ module.exports = {
         {
           "title": "Timing Chain Stretch and Rattle",
           "desc": "Equinox four-cylinders, especially the 2.4L, can develop timing chain stretch as miles climb, particularly with infrequent oil changes. The first sign is usually a rattle on cold startup or a check engine light for camshaft correlation. Left alone, a stretched chain can jump timing and damage the engine. We inspect the chain, tensioner, and guides and replace them before that happens.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Front Brake Wear and Pulsation",
           "desc": "Equinox front brakes take the brunt of stop-and-go commuting and carry the weight of a loaded family SUV. Worn pads cause squealing or grinding, and warped rotors cause a pulsing pedal. We measure rotor thickness, check pad life, and inspect the calipers, then quote only what your Equinox actually needs.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Worn Struts and a Bouncy Ride",
           "desc": "Utah's rough roads and frost-heaved pavement wear Equinox struts over time. Signs include a bouncy, floaty ride, nose-dive under braking, and uneven tire wear. We inspect the struts, mounts, and bushings and tell you what's worn before it chews up your tires.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump and Cooling System Leaks",
           "desc": "Equinox water pumps eventually leak coolant, and the turbo engines in newer models run their cooling systems hard. A low coolant level, a sweet smell, or overheating on a canyon climb all point to a cooling problem. We pressure test the system, find the leak, and replace the pump or component with quality parts.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "A rhythmic clicking when turning at low speed, most noticeable in parking lots, points to a worn CV joint on a front- or all-wheel-drive Equinox. The boot cracks, grease escapes, grit gets in, and the joint wears. We replace the complete axle shaft for a more durable repair than a boot-only fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -313,32 +313,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper service for the stop-and-go commuting your Equinox does daily."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement on Ecotec four-cylinders before stretch causes damage."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Ride control and handling restored on Equinox SUVs that ride bouncy or wear tires unevenly."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, more reliable than boot-only repairs."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Leaking water pumps and cooling-system repairs on Equinox engines, with fresh coolant."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and anything else your Equinox needs, one visit."
         }
@@ -433,25 +433,25 @@ module.exports = {
         {
           "title": "Timing Chain Stretch on Ecotec Four-Cylinders",
           "desc": "The 2.4L and turbocharged Ecotec engines in later Malibus can develop timing chain stretch, especially with stretched oil-change intervals. A cold-start rattle or a camshaft correlation code is the usual warning. A neglected chain can jump timing and damage valves, so we inspect the chain, tensioner, and guides and replace them before that happens.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Coolant Leaks and Overheating",
           "desc": "Malibus develop coolant leaks at the water pump, thermostat housing, and intake gaskets on older models. Watch for a low coolant level, a sweet smell, or the temperature gauge climbing on a hot day. We pressure test the system, pinpoint the leak, and replace the failed part with quality components before overheating damages the engine.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Front Brake Wear and Pedal Pulsation",
           "desc": "Malibu front brakes wear from daily commuting, and warped rotors cause a pulsing pedal and steering-wheel shake under braking. Squealing or grinding usually means the pads are at their limit. We measure rotors, check pad life, and inspect the calipers, then quote only what your Malibu needs.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Worn Struts and Front-End Clunks",
           "desc": "Utah's rough pavement wears Malibu struts, sway-bar links, and control-arm bushings. Symptoms include a bouncy ride, a clunk over bumps, and uneven tire wear. We inspect the full front end and tell you exactly what's worn before it ruins a set of tires.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
@@ -463,7 +463,7 @@ module.exports = {
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "A rhythmic clicking when turning at low speed points to a worn CV joint on a front-wheel-drive Malibu. The protective boot cracks, grease escapes, and grit accelerates the wear. We replace the complete axle shaft for a more durable repair than just repacking the boot.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -503,32 +503,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper service for the daily commuting miles your Malibu puts in."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement on Ecotec engines before stretch damages valves."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Coolant leaks and cooling-system repairs on the Malibu, with fresh coolant included."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Ride control restored on Malibu sedans that ride bouncy, clunk, or wear tires unevenly."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, a more durable fix than boot-only."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and anything else your Malibu needs, one visit."
         }
@@ -615,31 +615,31 @@ module.exports = {
         {
           "title": "3.6L V6 Timing Chain Stretch",
           "desc": "The 3.6L V6 in 2009–2017 Traverse models is well known for timing chain stretch, especially with infrequent oil changes. The warning signs are a rattle on cold startup and a check engine light for camshaft correlation. A stretched chain that jumps timing can cause major engine damage, so we inspect the chains, tensioners, and guides and replace them before that happens.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure and Overheating",
           "desc": "The water pump on the 3.6L Traverse is a known failure point. When it leaks or the bearing fails, coolant drops and the engine overheats, a serious risk on a hot canyon climb with the family aboard. Watch for a low coolant level, a sweet smell, or the temperature gauge climbing. We replace the pump with a quality unit and refresh the coolant.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Front Brake Wear on a Heavy SUV",
           "desc": "A loaded three-row Traverse puts real demand on the front brakes. Worn pads cause squealing or grinding, and warped rotors cause a pulsing pedal under braking. We measure rotor thickness, check pad life, and inspect the calipers, then quote brakes rated for the weight your Traverse carries.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Worn Struts and a Bouncy, Floaty Ride",
           "desc": "Utah's rough roads and the weight of a loaded family SUV wear Traverse struts over time. Signs include a bouncy ride, nose-dive under braking, and uneven tire wear. We inspect the struts, mounts, and bushings and tell you what's worn before it chews through your tires.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "A rhythmic clicking when turning at low speed points to a worn CV joint on a front- or all-wheel-drive Traverse. The boot cracks, grease escapes, and grit wears the joint. We replace the complete axle shaft for a more durable repair than a boot-only fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
@@ -685,32 +685,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "3.6L V6 chain, tensioner, and guide replacement before stretch causes serious engine damage."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "The known 3.6L Traverse water pump weak point, replaced with a quality pump and fresh coolant."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper service rated for the weight a loaded three-row Traverse carries."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Ride control restored on Traverse SUVs that ride bouncy or wear tires unevenly."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, more reliable than boot-only repairs."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and anything else your Traverse needs, one visit."
         }
@@ -811,31 +811,31 @@ module.exports = {
         {
           "title": "Front Brake Wear on a Heavy SUV",
           "desc": "A full-size Tahoe, especially one that tows, works the front brakes hard. Warped rotors cause a pulsing pedal and steering shake, and worn pads cause grinding. We measure rotor thickness, check pad life, and inspect the calipers, then quote brakes rated for the loads your Tahoe carries.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Worn Steering and Front-End Components",
           "desc": "The independent front suspension on older Tahoes wears at the idler arm, pitman arm, tie-rod ends, and control-arm bushings. Utah's rough roads accelerate it. Symptoms include wandering steering, a clunk over bumps, and uneven tire wear. We inspect the full front end and tell you exactly what's loose.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Cracked Exhaust Manifolds and Broken Bolts",
           "desc": "Tahoe V8s are known for exhaust manifold bolts that snap from years of heat cycling, along with manifold cracks. The result is a ticking exhaust leak, loudest on cold startup. We extract the broken bolts and reseal or replace the manifold so the leak doesn't get worse.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Water Pump Leaks on High-Mileage V8s",
           "desc": "The water pump on Tahoe V8s eventually weeps coolant or fails at the bearing, risking overheating if ignored. Watch for low coolant, a sweet smell, or a puddle under the front of the SUV. We replace the pump with a quality unit and refresh the coolant at the same time.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Catalytic Converter Theft on Full-Size SUVs",
           "desc": "Tahoes sit high off the ground, which gives thieves easy access to the catalytic converters. If your Tahoe suddenly sounds like a race car at startup, the cat is likely gone. We replace it with an emissions-legal converter and can weld on a shield to deter repeat theft.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -875,32 +875,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Heavy-duty pads, rotors, and caliper service rated for the towing your Tahoe does."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Worn shocks restored for a controlled ride on this heavy SUV across Utah roads."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Cracked manifolds and broken bolts on Tahoe V8s, sealed up so the ticking leak stops."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Theft replacement with emissions-legal converters and welded anti-theft shields."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Leaking water pumps on high-mileage Tahoe V8s, replaced with fresh coolant."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and anything else your Tahoe needs, one visit."
         }
@@ -1001,31 +1001,31 @@ module.exports = {
         {
           "title": "Front Brake Wear on a Long, Heavy SUV",
           "desc": "A full-size Suburban is one of the heaviest vehicles on the road, and that weight plus any trailer works the front brakes hard. Warped rotors cause a pulsing pedal, and worn pads cause grinding. We measure rotor thickness, check pad life, and inspect the calipers, then quote brakes rated for the loads you carry.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Worn Steering and Front-End Components",
           "desc": "The front suspension on older Suburbans wears at the idler arm, pitman arm, tie-rod ends, and control-arm bushings, Utah's rough roads speed it up. Symptoms include wandering steering, a clunk over bumps, and uneven tire wear. We inspect the whole front end and tell you exactly what's worn.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Cracked Exhaust Manifolds and Broken Bolts",
           "desc": "Suburban V8s are known for exhaust manifold bolts that snap after years of heat cycling, plus manifold cracks. The result is a ticking exhaust leak that's loudest on cold startup. We extract broken bolts and reseal or replace the manifold so the leak doesn't worsen.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Water Pump Leaks and Overheating",
           "desc": "The water pump on Suburban V8s eventually weeps coolant or fails at the bearing, and a long heavy hauler that tows runs its cooling system hard. Watch for a low coolant level, a sweet smell, or the temperature gauge climbing on a grade. We replace the pump with a quality unit and refresh the coolant.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Catalytic Converter Theft on Full-Size SUVs",
           "desc": "Suburbans sit high off the ground with long exhaust systems, giving thieves easy access to the catalytic converters. If your Suburban suddenly roars at startup, the cat is likely gone. We replace it with an emissions-legal converter and can weld on a shield to deter repeat theft.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1065,32 +1065,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Heavy-duty pads, rotors, and caliper service rated for the weight and towing of a Suburban."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Worn shocks restored for a controlled ride on this long, heavy hauler across Utah roads."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Cracked manifolds and broken bolts on Suburban V8s, sealed up so the ticking leak stops."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Theft replacement with emissions-legal converters and welded anti-theft shields."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Leaking water pumps and cooling repairs on high-mileage Suburban V8s, with fresh coolant."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and anything else your Suburban needs, one visit."
         }
@@ -1177,37 +1177,37 @@ module.exports = {
         {
           "title": "Front Brake Wear and Pulsation",
           "desc": "Colorado front brakes wear from daily driving, hauling, and the stop-and-go demands of trail and canyon use. Warped rotors cause a pulsing pedal, and worn pads cause squealing or grinding. We measure rotor thickness, check pad life, and inspect the calipers, then quote only what your Colorado needs.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Clutch Wear on Manual Colorados",
           "desc": "A manual Colorado used for towing, off-road crawling, or hard daily driving will wear its clutch faster than an easygoing commuter. Signs include a high or grabby engagement point, slipping under load, or a burning smell after a hard climb. We carry quality clutch kits and know the correct break-in procedure.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Worn Front-End Suspension Components",
           "desc": "The independent front suspension on the Colorado wears at the control-arm bushings, ball joints, and tie-rod ends, Utah's rough roads and trail use accelerate it. Symptoms include a clunk over bumps, wandering steering, and uneven tire wear. We inspect the whole front end and tell you what's loose.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Leaks and Loud Operation",
           "desc": "Colorado exhaust systems develop leaks at the manifold, flex pipe, and rusted connections, especially on trucks exposed to road salt. The result is a louder-than-normal exhaust note and sometimes a check engine light. We locate the leak and repair or replace the affected section so it's sealed up properly.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "CV Axle Clicking on 4WD Models",
           "desc": "A rhythmic clicking when turning at low speed points to a worn CV joint on a four-wheel-drive Colorado. The protective boot cracks, grease escapes, and grit accelerates the wear, trail dust speeds it up. We replace the complete axle shaft for a more durable repair than a boot-only fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Water Pump Leaks and Overheating",
           "desc": "The water pump on Colorado engines eventually weeps coolant or fails at the bearing, and trail use plus Utah summer heat work the cooling system hard. Watch for a low coolant level, a sweet smell, or the temperature gauge climbing. We pressure test the system, find the leak, and replace the pump with a quality part.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -1247,32 +1247,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Colorado clutch replacement with quality OEM-spec kits and proper break-in guidance."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper service for the daily, towing, and trail use your Colorado sees."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Worn shocks restored for ride control on a Colorado that sees rough roads and trails."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold, flex-pipe, and rusted-connection leaks repaired so your Colorado runs quiet again."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on four-wheel-drive Colorados."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil and fluid service, and anything else your Colorado needs, one visit."
         }
@@ -1371,19 +1371,19 @@ module.exports = {
         {
           "title": "Clutch Slipping Under Hard Acceleration",
           "desc": "Manual Camaros, especially V8 cars driven the way they were built to be driven, wear clutches faster than a commuter automatic. If engine RPM climbs without a matching jump in speed, or the bite point has crept high and grabby, the clutch is going. We carry quality clutch kits for every manual Camaro and resurface the flywheel during the job.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Fade and Worn Pads on Heavy Coupes",
           "desc": "Fifth and sixth-gen Camaros are heavy cars, and the front brakes take a beating, especially if the car sees canyon driving or spirited use. Pulsation through the pedal, longer stopping distances, or a grinding noise all mean it's time. We replace pads and rotors with the right components for how you drive.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Loud or Leaking Exhaust",
           "desc": "Camaro exhaust systems take road salt, ground clearance scrapes, and heat cycling. A sudden droning or rasp usually means a cracked weld, a failed gasket, or a rusted-through section. We diagnose where the leak is and repair or replace just the affected section.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
@@ -1395,13 +1395,13 @@ module.exports = {
         {
           "title": "Worn Struts and Shocks, Bouncy, Loose Ride",
           "desc": "A Camaro that floats over bumps, nose-dives under braking, or feels vague in corners has tired dampers. Performance cars hide worn shocks well until the handling is genuinely compromised. We inspect the full suspension and replace struts or shocks with the correct parts for your generation.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Grinding When Shifting a Manual",
           "desc": "If your Camaro crunches going into a gear, most often second or third, it points to clutch hydraulics not fully releasing or synchro wear in the transmission. We check the clutch system first since that's the common and less costly cause, then advise from there.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         }
       ],
@@ -1441,32 +1441,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "T56 and TR6060 clutch jobs for manual Camaros, quality kits, hydraulic inspection, flywheel resurfacing."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear pads, rotors, and caliper inspection sized for heavy Camaro coupes and canyon use."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leak diagnosis, gasket and section replacement, and rust repair on Camaro exhaust systems."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut & Shock Replacement",
           "desc": "Restoring ride control and handling on Camaros with tired dampers, correct parts per generation."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling-system service for Camaro V8s before an overheat leaves you stranded."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and anything else your Camaro needs in a single visit."
         }
@@ -1561,25 +1561,25 @@ module.exports = {
         {
           "title": "Clutch Slipping on Manual Cars",
           "desc": "Corvettes are built to be driven hard, and manual cars wear clutches accordingly. If RPM rises without matching acceleration, or the engagement point has gone high and grabby, the clutch is on its way out. We carry quality clutch kits for manual Corvettes and handle the rear-transaxle layout correctly.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Pulsation and Worn Pads",
           "desc": "Corvette brakes work hard, especially on cars used in the canyons or for spirited driving. A pulsing pedal, grinding noise, or longer stopping distances all mean the pads and rotors need attention. We replace them with components suited to how you actually drive the car.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Worn Shocks, Floaty or Loose Handling",
           "desc": "A Corvette that floats over expansion joints, dives under braking, or feels vague has tired dampers. On a car this precise, worn shocks dull everything that makes it special. We inspect the full suspension and replace shocks with the correct parts for your generation.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Loud or Rasping Exhaust",
           "desc": "Corvette exhaust systems take heat cycling, scrapes from low clearance, and road salt. A new drone or rasp usually points to a cracked weld, failed gasket, or rusted section. We find the leak and repair or replace only the affected part.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
@@ -1591,7 +1591,7 @@ module.exports = {
         {
           "title": "Grinding When Shifting a Manual",
           "desc": "A Corvette that crunches going into gear usually has a clutch hydraulic system not fully releasing, or synchro wear. We check the clutch hydraulics first, the common and less expensive cause, then advise from there.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         }
       ],
@@ -1631,32 +1631,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Corvette clutch jobs with the rear-transaxle layout handled correctly, quality kits and proper break-in."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection sized for how a Corvette actually gets driven."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Restoring sharp handling and ride control on Corvettes with worn dampers."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leak diagnosis and section repair on Corvette exhaust systems, gaskets, welds, and rust."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling-system service for Corvette V8s before summer heat causes an overheat."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and anything else your Corvette needs in one visit."
         }
@@ -1735,19 +1735,19 @@ module.exports = {
         {
           "title": "Overheating, Cooling System Wear",
           "desc": "The 1.4L turbo in the first-gen Trax runs hot, and water pumps, thermostats, and hoses wear with age. A temperature gauge that climbs, coolant smell, or low coolant all point to the cooling system. We pressure-test it, find the leak, and replace the failed part before an overheat causes engine damage.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "A rhythmic clicking when turning, most noticeable in parking lots at low speed, points to a worn CV joint. The boot cracks, grease escapes, and grit wears the joint. We replace the complete axle shaft rather than just repacking the boot for a more durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear and Squeaking",
           "desc": "As a commuter crossover, the Trax goes through brakes with stop-and-go city driving. A squeal at low speed, a grinding noise, or longer stops all mean it's time. We inspect pads, rotors, and calipers and replace what's worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
@@ -1759,13 +1759,13 @@ module.exports = {
         {
           "title": "Bouncy Ride, Worn Struts",
           "desc": "A Trax that bounces over bumps, keeps moving after a dip, or nose-dives under braking has worn struts. Utah's rough winter roads wear dampers faster than smooth pavement. We inspect the suspension and replace struts with the correct parts.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Failed Emissions Test",
           "desc": "A Trax that fails an emissions test in Salt Lake County usually has an aging O2 sensor, a catalyst-efficiency issue, or an unresolved check engine code. We scan for codes, diagnose the actual cause, and make the mechanical repair needed to pass.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1805,32 +1805,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling-system service for the 1.4L turbo Trax before an overheat causes engine damage."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, more durable than boot-only repairs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for a city-driven commuter crossover."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restoring ride control on Trax crossovers worn by Utah's rough winter roads."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions-related repair and replacement to help your Trax pass a Salt Lake County test."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, and fluid checks, everything your Trax needs in one visit."
         }
@@ -1917,25 +1917,25 @@ module.exports = {
         {
           "title": "Overheating, Cooling System Wear",
           "desc": "Older Blazers with the 4.3L V6 and full-size V8s wear out water pumps, thermostats, and hoses with age and Utah heat. A climbing temperature gauge, coolant smell, or low coolant all point to the cooling system. We pressure-test it and replace the failed part before an overheat causes damage.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear and Grinding",
           "desc": "Blazers are heavy vehicles, and the brakes do real work, especially on a crossover used for canyon trips or an older truck hauling gear. Pulsation, grinding, or longer stops all mean it's time. We inspect pads, rotors, and calipers and replace what's worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Worn Shocks and Struts, Rough, Bouncy Ride",
           "desc": "A Blazer that bounces over bumps, wallows in corners, or nose-dives under braking has tired dampers. Utah's rough roads and trails wear suspension faster. We inspect the full suspension and replace shocks or struts with the correct parts for your Blazer.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Loud or Leaking Exhaust",
           "desc": "Blazer exhaust systems take road salt, trail scrapes, and heat cycling. A new drone or rasp usually points to a cracked weld, failed gasket, or rusted-through section. We locate the leak and repair or replace only the affected part.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
@@ -1947,7 +1947,7 @@ module.exports = {
         {
           "title": "CV Axle Clicking on Front-Drive Crossovers",
           "desc": "The modern Blazer crossover can develop a rhythmic clicking when turning, a worn CV joint. The boot cracks, grease escapes, and grit wears the joint. We replace the complete axle shaft for a more durable repair than a boot-only fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -1987,32 +1987,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling-system service for 4.3L V6 and V8 Blazers before an overheat causes engine damage."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection sized for heavy Blazer trucks and crossovers."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock & Strut Replacement",
           "desc": "Restoring ride control on Blazers worn by Utah's rough roads and trails."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Leak diagnosis and section repair on Blazer exhaust systems, welds, gaskets, and rust."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on front-drive Blazer crossovers."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and anything else your Blazer needs in a single visit."
         }
@@ -2099,25 +2099,25 @@ module.exports = {
         {
           "title": "Overheating, Cooling System Wear",
           "desc": "The V6 engines in front-drive Impalas wear out water pumps, thermostats, and intake gaskets with age. A climbing temperature gauge, coolant smell, or disappearing coolant all point to the cooling system. We pressure-test it, find the leak, and replace the failed part before an overheat causes damage.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear and Pulsation",
           "desc": "The Impala is a heavy sedan, and its brakes do real work in city driving. A pulsing pedal, grinding noise, or longer stopping distances all mean it's time. We inspect pads, rotors, and calipers and replace what's worn with the right components.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Worn Struts, Floaty, Bouncy Ride",
           "desc": "An Impala that floats over bumps, keeps moving after a dip, or nose-dives under braking has worn struts. Utah's rough roads wear dampers faster. We inspect the full suspension and replace struts with the correct parts for your generation.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front-drive Impalas can develop a rhythmic clicking when turning, a worn CV joint. The boot cracks, grease escapes, and grit wears the joint. We replace the complete axle shaft rather than just repacking the boot for a more durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
@@ -2129,7 +2129,7 @@ module.exports = {
         {
           "title": "Failed Emissions Test",
           "desc": "An Impala that fails an emissions test in Salt Lake County usually has an aging O2 sensor, a catalyst-efficiency issue, or an unresolved check engine code. We scan for codes, diagnose the real cause, and make the mechanical repair needed to pass.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -2169,32 +2169,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling-system service for V6 Impalas before an overheat causes engine damage."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection sized for a heavy full-size Impala sedan."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Restoring ride control on Impalas worn by Utah's rough roads and freeway miles."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns on front-drive Impalas."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions-related repair and replacement to help your Impala pass a Salt Lake County test."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and anything else your Impala needs in a single visit."
         }
@@ -2273,19 +2273,19 @@ module.exports = {
         {
           "title": "Overheating, Cooling System Wear",
           "desc": "The 1.4L turbo Cruze is well known for cooling-system trouble, water pumps, thermostat housings, coolant outlets, and lines all develop leaks. A climbing temperature gauge, coolant smell, or low coolant all point here. We pressure-test the system, find the leak, and replace the failed component before an overheat damages the engine.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Clutch Wear on Manual Cars",
           "desc": "Manual Cruze sedans wear clutches with stop-and-go city commuting. A high, grabby engagement point, slipping under acceleration, or trouble finding a gear all point to clutch wear. We carry quality clutch kits for the manual Cruze and resurface the flywheel during the job.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Wear and Squeaking",
           "desc": "As a commuter sedan, the Cruze goes through brakes with city stop-and-go driving. A squeal at low speed, grinding, or longer stops all mean it's time. We inspect pads, rotors, and calipers and replace what's worn.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
@@ -2297,13 +2297,13 @@ module.exports = {
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "The front-drive Cruze can develop a rhythmic clicking when turning, a worn CV joint. The boot cracks, grease escapes, and grit wears the joint. We replace the complete axle shaft rather than just repacking the boot for a longer-lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Failed Emissions Test",
           "desc": "A Cruze that fails an emissions test in Salt Lake County usually has an aging O2 sensor, a catalyst-efficiency issue, or an unresolved check engine code. We scan for codes, diagnose the real cause, and make the mechanical repair needed to pass.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -2343,32 +2343,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling-system service for the 1.4L turbo Cruze. A known wear point, before an overheat causes damage."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual Cruze clutch jobs with quality kits, hydraulic inspection, and flywheel resurfacing."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for a city-driven commuter Cruze."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, more durable than boot-only repairs."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Emissions-related repair and replacement to help your Cruze pass a Salt Lake County test."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, and fluid checks, everything your Cruze needs in one visit."
         }

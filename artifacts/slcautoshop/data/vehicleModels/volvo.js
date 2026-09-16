@@ -49,37 +49,37 @@ module.exports = {
         {
           "title": "Timing Belt Due or Overdue (2003–2006 T6)",
           "desc": "The B6294T inline-six in early XC90s uses a rubber timing belt with a firm replacement interval, typically around 105,000 miles or 10 years, whichever comes first. Skipping this service is a gamble: when the belt fails, it fails catastrophically and bends valves. We replace the belt, water pump, idler pulley, and tensioner together as a complete kit, if you're already in there, those components are cheap insurance.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Worn Struts and Rough Ride",
           "desc": "XC90 struts, especially on first-gen models with 100,000+ miles, lose their damping ability gradually. Owners often adapt to the deterioration without realizing how far it's progressed. Signs include nose-dive under braking, body roll in corners, and a bouncy freeway ride. Utah's potholed roads accelerate wear. We inspect the struts, mounts, and spring seats together and replace what's needed rather than what's easiest to sell.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "The XC90's front CV axles take additional stress in a vehicle this heavy, the combination of weight and AWD loading accelerates boot wear. Once a boot cracks and the joint loses its grease, the clicking starts. You'll notice it most clearly at low-speed parking-lot turns. We replace the complete axle shaft for a durable long-term repair rather than repacking the boot alone.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear, Heavy SUV, Hard Stops",
           "desc": "At 4,500–5,000 lbs, the XC90 works its brakes harder than most passenger cars. Rear brakes in particular wear faster than owners expect. We see squealing, grinding, and soft-pedal complaints on XC90s that haven't had a full brake inspection in two or three years. We inspect pads, rotors, calipers, and brake fluid condition, and advise on what's actually worn versus what's just dirty.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Water Pump Failure and Engine Overheating",
           "desc": "First-gen XC90 water pumps are a known wear item, particularly on higher-mileage examples. A failing pump may weep coolant slowly before it fails entirely, or fail suddenly and leave you with an overheating engine on I-15. If you notice the temperature gauge climbing or smell coolant, bring it in immediately. We replace the pump and inspect the thermostat, hoses, and expansion tank cap at the same time.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light, Emissions and Sensor Codes",
           "desc": "XC90s trigger check engine lights for a range of reasons: oxygen sensor failures, EVAP system leaks, catalytic converter efficiency codes, and MAF sensor issues are all common as mileage climbs. We read the codes, verify the root cause with further testing, and fix what's actually causing the fault, not just clear the light and hope it stays off.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -119,32 +119,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete kit, belt, water pump, tensioner, and idler, for 2003–2006 XC90 T6 models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut and mount replacement for improved ride quality and handling stability."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and brake fluid service, front and rear inspection on every visit."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement to eliminate clicking on turns."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump and cooling system inspection to prevent overheating on high-mileage XC90s."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, fluid checks, and everything else your XC90 needs in one visit."
         }
@@ -227,37 +227,37 @@ module.exports = {
         {
           "title": "Timing Belt Service Due (2009–2015 3.2L)",
           "desc": "The B6324S 3.2L inline-six in first-generation XC60s uses a rubber timing belt with a firm service interval. Left past its limit, the belt can fail without warning and cause significant internal engine damage. We perform the complete service, belt, water pump, tensioner, and idler, in one visit so you're not revisiting the same labor twice.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut and Shock Wear",
           "desc": "First-gen XC60 struts are a high-mileage wear item, especially on vehicles that have spent years navigating Utah's potholed roads and frost heaves. A bouncy, unsettled ride on the freeway is a reliable indicator. We also check the upper strut mounts, which can develop play and cause clunking over rough pavement.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service: Rear Wear",
           "desc": "XC60 rear brakes wear faster than many owners expect. The electronic parking brake on second-gen models adds a mechanical complication to rear caliper service that requires the right process to avoid damaging the actuator. We know this service well and perform it correctly every time.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Axle Clicking on Tight Turns",
           "desc": "Worn front CV joints on the XC60 announce themselves with a rhythmic clicking during tight parking-lot turns. The combination of AWD loading and the vehicle's weight accelerates boot and joint wear. We replace the complete axle shaft rather than patching the boot, a more reliable repair at similar cost.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Water Pump Leak or Overheating",
           "desc": "First-gen XC60 water pumps are known to develop weeping seals at higher mileage. Often the first sign is a coolant smell under the hood or a faint residue around the pump area, not an outright leak. Catch it early and it's a water pump replacement. Ignore it and you're looking at an overheating event and potential head gasket stress.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Check Engine Light, O2 and Catalyst Codes",
           "desc": "As XC60s accumulate miles, oxygen sensor degradation and catalytic converter efficiency codes become common. We see both pre-cat and post-cat sensor failures on first-gen models. We diagnose properly, reading the fault, testing the sensor under operating conditions, and confirming the root cause before recommending any parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -297,32 +297,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt kit, belt, water pump, tensioner, idler, for first-gen 3.2L XC60 models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement with alignment to restore ride quality and handling."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection, including proper electronic parking brake service on second-gen models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement to eliminate clicking on turns."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump and cooling system inspection, done together with the timing belt when applicable."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full-vehicle inspection, oil service, and fluid checks for your XC60 in one visit."
         }
@@ -397,31 +397,31 @@ module.exports = {
         {
           "title": "Brake Noise and Wear",
           "desc": "Squealing and grinding brakes on the XC40 usually mean it's time for pad replacement, but we don't stop there. We inspect rotor thickness and surface condition, check caliper slide pins, and test brake fluid moisture content. Brake fluid absorbs moisture over time, which lowers its boiling point; in canyon-driving situations, degraded fluid can cause brake fade.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut Wear and Rough Ride",
           "desc": "The XC40's front struts can develop a characteristic clunking over sharp bumps as the upper mount wears. A rough, unsettled freeway ride suggests worn dampers. We inspect the complete strut assembly, strut body, spring, and mount, and replace only what's actually worn rather than selling you a full suspension refresh.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Axle Clicking",
           "desc": "A consistent clicking noise during tight low-speed turns is a worn CV joint. On AWD XC40s, the front axles carry the combined load of drive torque and steering angles. Once a boot fails and the joint runs dry of grease, wear accelerates quickly. We replace the complete axle shaft for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light",
           "desc": "XC40s trigger check engine lights for a range of reasons, EVAP system leaks, oxygen sensor codes, and turbo boost pressure faults are among the more common causes. We read the full code history, verify root causes, and give you an accurate picture of what needs attention versus what can wait.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Noise or Smell",
           "desc": "A loud or raspy exhaust note that appeared suddenly, or a burning exhaust smell inside the cabin, warrants immediate attention. Exhaust leaks upstream of the catalytic converter can affect catalyst efficiency, trigger check engine lights, and in rare cases allow exhaust gases into the cabin. We inspect the full system from the manifold down.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -461,32 +461,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and full hydraulic system inspection, front and rear on every brake visit."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and mount replacement with wheel alignment to restore ride quality."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for AWD XC40 clicking on turns."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust leak diagnosis and repair from manifold through catalytic converter."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Rear shock absorber replacement to match front strut work and restore balanced ride quality."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full-vehicle inspection, oil service, and fluid checks for your XC40 in one visit."
         }
@@ -569,37 +569,37 @@ module.exports = {
         {
           "title": "Timing Belt Service: Interference Engine",
           "desc": "The turbocharged five-cylinder engines in first and second-gen S60s are interference designs, if the timing belt breaks, pistons contact open valves and cause catastrophic damage. The belt has a firm service interval that must be respected. We do this job right: belt, water pump, tensioner, idler pulley, and front crankshaft seal in one visit. Skipping the water pump to save a few dollars and then having it fail soon after is false economy.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual S60s",
           "desc": "S60 T5 and R models with the manual gearbox are frequently driven with some enthusiasm, that's the point. Clutches on these cars may need replacement earlier than the manufacturer's theoretical maximum, particularly in stop-and-go Salt Lake traffic where partial clutch engagement wears the friction material faster. Signs include a high or slipping engagement point, difficulty finding neutral, and burning smell in heavy traffic.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Strut and Front Suspension Wear",
           "desc": "First and second-gen S60s are sport-tuned, stiffer springs, firmer dampers, which means the front suspension components transfer more road shock into the mounts and bushings. Control arm bushings and front strut mounts wear faster on S60s than on less sporty platforms. We see a lot of S60s with clunking front ends that need more than just struts.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Fade or Soft Pedal",
           "desc": "Sport sedans generate more brake heat than commuter cars, and S60 drivers who use their car the way it's designed to be driven will see brake wear faster than generic service intervals suggest. Soft brake pedal is often brake fluid degradation, the fluid has absorbed moisture and its boiling point has dropped. We inspect pad depth, rotor condition, and fluid quality together at every brake service.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "CV Axle Clicking",
           "desc": "Front CV axles on the S60, especially AWD variants under spirited driving loads, develop boot cracks and joint wear over time. The clicking starts on tight turns and worsens as the joint deteriorates further. We replace the complete axle shaft for a lasting fix rather than a boot patch.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Boost and Sensor Codes",
           "desc": "The turbocharged engines in all S60 generations generate a range of check engine codes as mileage climbs: boost pressure faults, MAF sensor errors, oxygen sensor degradation, and EVAP leaks are all common. We read the full code history, test under operating conditions, and identify root causes accurately before recommending any parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -639,32 +639,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt service, belt, water pump, tensioner, idler, for all P2 and P3 S60 five-cylinder engines."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual S60 clutch replacement, quality OEM-spec kits for T5 and R models with Getrag and M66 transmissions."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut, mount, and control arm bushing inspection and replacement with wheel alignment."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and brake fluid service, full hydraulic inspection on every brake visit."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement to eliminate clicking on turns on FWD and AWD S60 models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, fluid checks, and all scheduled maintenance for your S60 in one visit."
         }
@@ -751,37 +751,37 @@ module.exports = {
         {
           "title": "Timing Belt Overdue, Interference Engine Risk",
           "desc": "All three V70 generations use timing belts in interference engine designs. The interval varies by engine, typically 70,000 miles on older five-cylinders, up to 105,000 miles on later inline-six models, but age matters as much as mileage. A belt that hasn't been changed in 10 years is a risk regardless of mileage. We do this service completely: belt, water pump, tensioner, idler, and front crank seal together.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Slipping or Hard Shifts (Manual Models)",
           "desc": "Manual V70s, especially spirited T5 drivers, wear clutches at a higher rate in stop-and-go urban traffic. The M56 and M66 transmissions are robust, but the clutch kits have a finite life. A clutch that slips under load, requires a very high pedal for engagement, or causes burning smell in traffic is due for replacement. We inspect the flywheel for hot spots and step at every clutch job.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Strut and Shock Wear, Wagon Loads",
           "desc": "V70 owners use their wagons like wagons, loaded with gear, bikes, ski equipment, cargo. That weight accelerates wear on struts and rear shocks. A bouncy rear end under load, body roll in corners, or a clunk over rough pavement are all signs the suspension needs attention. We inspect front and rear together and replace what's actually worn.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Rust and Leaks",
           "desc": "Utah road conditions, road salt and grit in winter, heat cycling in summer, are hard on exhaust systems over time. V70 exhaust pipes and flex sections are common failure points on high-mileage examples. A loud exhaust note, exhaust smell in the cabin, or a rattling heat shield all warrant inspection. We assess the full system and repair what's failed rather than replacing the entire exhaust unnecessarily.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Service",
           "desc": "V70 brakes wear at a rate consistent with the vehicle's weight and how it's loaded. Rear brakes in particular, which do more work on a rear-loaded wagon, can wear faster than owners expect. We inspect pads, rotors, calipers, and brake fluid condition at every brake service visit and advise on what needs immediate attention versus what can be scheduled.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Water Pump and Cooling System",
           "desc": "High-mileage V70 water pumps, especially on P2-generation 2.3L and 2.5L five-cylinder models, are a known wear item. Early signs include a very slow coolant seep around the pump area, coolant smell after the engine reaches operating temperature, or slight temperature gauge movement. Catching a failing pump early is a straightforward repair; letting it fail completely risks a serious overheating event.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -821,32 +821,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt service, belt, water pump, tensioner, and idler, for all V70 five-cylinder and inline-six engines."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual V70 clutch replacement, M56 and M66 transmissions, quality OEM-spec friction kits, flywheel inspection."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut and Shock Replacement",
           "desc": "Front strut and rear shock replacement with alignment, important for a wagon that carries real loads."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust pipe, flex section, and heat shield repair for high-mileage V70s."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump and cooling system inspection, done with the timing belt when applicable."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, fluid checks, and all scheduled maintenance for your V70 in one visit."
         }
@@ -925,37 +925,37 @@ module.exports = {
         {
           "title": "Timing Belt Service: Due by 105,000 Miles",
           "desc": "The 2.4i and T5 five-cylinder engines are interference designs. A timing belt failure at speed doesn't just leave you stranded, it bends valves and can destroy the top end of the engine. Volvo's published interval is 105,000 miles, but Utah's temperature swings, hot summers, cold winters, accelerate rubber aging. We replace the belt, tensioner, idler pulley, and water pump as a complete kit every time.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Six-Speed Manual C30s",
           "desc": "C30 T5 models with the M66 six-speed see clutch wear that tracks closely with driving style. Short-trip canyon-road use and stop-and-go Salt Lake City commuting are both hard on the clutch disc. Signs include a pedal that engages very high in the travel, slipping under hard acceleration, or a burning smell after a demanding drive. We replace the disc, pressure plate, and throwout bearing as a set.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "C30 inner and outer CV boots crack with age, especially after Utah winters where road salt and temperature swings accelerate rubber deterioration. Once grease escapes and grit gets in, the joint wears quickly. That rhythmic clicking on low-speed turns is the worn joint telling you it's time. We replace the complete axle shaft rather than just repacking the boot for a more durable long-term fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear, Front and Rear",
           "desc": "C30 front brakes carry most of the stopping load, and the pads wear unevenly if the caliper slides are neglected during Utah's road-salt winters. Squealing or grinding under braking, a pulsating pedal, or a car that pulls to one side while stopping are all signs it's time. We inspect pads, rotors, and caliper function at every service visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, Emissions and Sensor Codes",
           "desc": "C30s that have reached 100,000-plus miles in Salt Lake City commonly trigger upstream or downstream oxygen sensor codes, or catalytic converter efficiency faults. The altitude and dry climate here affect emissions system readings differently than sea level. We pull codes, verify the actual root cause, and fix what needs fixing, not just reset the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut and Shock Wear",
           "desc": "The C30's sport-tuned suspension feels tight when it's new, but worn struts turn that precision into a bouncy, floaty ride that wears tires unevenly. Salt Lake City's potholed roads and canyon driving both take a toll. If your C30 bounces more than once after a bump or feels loose through corners, it's time to inspect the struts.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -995,32 +995,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt kit, belt, tensioner, idler, and water pump, for 2.4i and T5 five-cylinder engines."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Six-speed manual clutch replacement with OEM-spec disc, pressure plate, and throwout bearing."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for inner and outer CV joint wear, more durable than boot-only repairs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad and rotor replacement, caliper inspection, and slide lubrication for C30 front and rear brakes."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Sport-tuned strut replacement to restore C30 handling precision and eliminate bouncy ride."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, fluid checks, and anything else your C30 needs, all in one visit."
         }
@@ -1103,31 +1103,31 @@ module.exports = {
         {
           "title": "Timing Belt Service: Interference Engine Risk",
           "desc": "First-generation S80s with the B6294 inline-six and B5254 five-cylinder are interference designs. The timing belt interval is 105,000 miles, but age matters as much as mileage, a belt that's seven or eight years old is at risk regardless of odometer reading. We replace the complete kit: belt, tensioner, idler pulley, and water pump. The water pump is driven by the belt, so replacing it at the same time is just common sense.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Leaks",
           "desc": "The S80's water pump is a high-mileage wear item, and when it fails, it typically weeps coolant from the weep hole first, then progresses to an active leak. Overheating an S80 engine is expensive. If you see coolant pooling under the front of the car or notice the temperature gauge climbing on the interstate, have it inspected immediately. On timing belt engines, we replace the water pump with the belt as a package.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Strut and Strut Mount Wear",
           "desc": "P2 S80s with age and Utah road miles develop worn strut mounts before the struts themselves fail, the mount bearing collapses and causes a clunking sound on turning or rough pavement. P3 S80s develop more typical strut wear: a bouncy, imprecise ride and uneven tire wear. We inspect both struts and mounts together and replace what's actually failed.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake System Service",
           "desc": "S80 front brakes do heavy work on a car that weighs close to 3,800 lbs. Brake dust buildup in the caliper slides during Utah's salty winters can cause uneven pad wear and a car that pulls to one side under braking. We inspect pads, rotors, and caliper hardware at every service, catching a stuck caliper early saves a rotor.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light, O2 and Catalyst Codes",
           "desc": "High-mileage S80s commonly trigger P0420 catalyst efficiency codes and upstream or downstream O2 sensor faults. The rear O2 sensors on these cars live in a rough environment and fail with age. We scan the codes, verify what's actually causing the fault, and repair the root issue rather than clearing the code and hoping it stays off.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -1167,32 +1167,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete belt kit, belt, tensioner, idler, and water pump, for P2 S80 inline-six and five-cylinder engines."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump replacement paired with timing belt service, the smart way to do it on S80 interference engines."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "P2 and P3 S80 strut and strut mount replacement to restore highway composure and eliminate clunking."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper inspection for the S80's front-heavy braking system, including caliper slide service."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and catalyst replacement for high-mileage S80s triggering efficiency codes."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, fluid condition check, and all routine maintenance, one visit, one shop."
         }
@@ -1283,31 +1283,31 @@ module.exports = {
         {
           "title": "Timing Belt Service",
           "desc": "The B230 engine uses an interference timing belt. A failure means bent valves and a major engine repair. The interval is 50,000 miles on these older engines, but age matters too, rubber that's five or six years old is at risk. We do the complete job: belt, tensioner, and water pump. It's cheap insurance on a car that's worth keeping.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Repair",
           "desc": "The 240's exhaust system rusts from the inside out in Utah's dry-then-salty winter conditions. Manifold-to-pipe gaskets blow, flex sections crack, and mufflers rot through. A suddenly loud exhaust on a 240 is almost always exhaust system deterioration, not a performance feature. We weld, replace sections, and do full system replacements depending on what's needed.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Clutch Replacement on Manual 240s",
           "desc": "Manual-transmission 240s, especially the 4-speed and 5-speed M46/M47 equipped cars, are well past their original clutch life at this point. Signs include a pedal that feels different than it used to, slipping under load, or difficulty getting into first and reverse. We replace the disc, pressure plate, and throwout bearing as a set with quality parts.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Brake System Overhaul",
           "desc": "240 brake hardware is simple and durable, but cars that sat for extended periods in Utah's dry climate can develop seized caliper pistons from rubber seal deterioration. If a 240 pulls to one side, smells like burning brake material, or the pedal feels spongy, the brake system needs a thorough inspection, not just new pads.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Cooling System Service",
           "desc": "The B230's cooling system hoses, thermostat, and water pump have predictable service lives. An overheating 240 on the freeway is usually a failed thermostat or a cracked hose, both simple fixes. But the consequences of running an interference engine hot are not simple. We inspect the cooling system thoroughly at every visit on high-mileage 240s.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -1347,32 +1347,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "B230 timing belt, tensioner, and water pump, the complete interference-engine service."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex sections, mufflers, and full system replacement for 240 exhaust deterioration."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "M46/M47 five-speed clutch kits, disc, pressure plate, and throwout bearing for manual 240s."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection and caliper service for 240s, including seized pistons from long storage."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system service, water pump, thermostat, and hose inspection for high-mileage B230 engines."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full going-over for 240s returning from storage or in need of a comprehensive catch-up service."
         }
@@ -1455,31 +1455,31 @@ module.exports = {
         {
           "title": "Timing Belt Service",
           "desc": "The B230 and B234 are interference engines, a timing belt failure at speed means bent valves at minimum. The 740's belt interval is 50,000 miles, but age is equally important: a five-year-old belt on a low-mileage garage queen is still at risk. We do the complete job, belt, tensioner, and water pump, and date-stamp the work so you have a record.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Deterioration",
           "desc": "The 740's exhaust is a long-lived system, but high-mileage examples show manifold-to-downpipe gasket failures, cracked flex couplings, and rotted mufflers. A 740 that suddenly sounds like a race car has an exhaust problem, and an exhaust leak forward of the firewall means carbon monoxide in the cabin. We repair by section when possible, replacing the full system when the damage warrants it.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Clutch Service on Manual 740s",
           "desc": "Manual 740s with the M46 or M47 gearbox are holding up well mechanically, but the original clutches are long past their expected service life. A slipping clutch, a burning smell after a long grade on I-15, or difficulty engaging first gear cold are all signs. We source quality clutch kits for the 740 and do the complete job: disc, pressure plate, throwout bearing, and pilot bearing.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Shock Absorber Replacement",
           "desc": "740s with worn rear shocks develop the classic tall-wagon bounce, a slow, rolling pitch that makes the car feel like a boat on canyon roads or the freeway's expansion joints. The front shocks show wear as nose dive under braking and imprecise steering. We replace shocks in axle pairs, not individually, to maintain balanced handling.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake System Service",
           "desc": "740 front brakes do most of the work on a car that weighs 3,100–3,400 lbs. Caliper slide pins corrode in Utah's road-salt environment and cause pad drag, uneven wear, and a car that pulls under braking. Rear drum brakes on some 740 trims need periodic inspection of the self-adjuster mechanism. We cover all of it at a single service visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         }
       ],
@@ -1519,32 +1519,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete B230/B234 belt kit, belt, tensioner, and water pump, for naturally aspirated and turbo 740s."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex couplings, and muffler replacement for 740 sedan and wagon exhaust systems."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "M46/M47 clutch kit with disc, pressure plate, throwout bearing, and pilot bearing for manual 740s."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Front and rear shock replacement to restore 740 sedan and wagon ride quality and handling."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front disc and rear drum/disc service, caliper slides, pads, rotors, and hardware for 740 brakes."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Comprehensive inspection and catch-up maintenance for 740s returning to service or needing a thorough once-over."
         }
@@ -1623,37 +1623,37 @@ module.exports = {
         {
           "title": "Timing Belt Service",
           "desc": "The 850's five-cylinder is an interference engine, and the timing belt is tucked in tightly on the transverse layout, not a job for someone unfamiliar with the platform. The belt interval is 70,000 miles, but a decade-old belt on a low-mileage 850 is equally at risk. We do the complete service: belt, tensioner, idler, and water pump. On T5 models we also inspect the turbo oil feed line while we're in there.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Wear, Clicking on Turns",
           "desc": "The 850's front-wheel-drive CV axles take a beating, especially on the inner joints where the transverse engine layout creates tight angles. CV boot cracking is accelerated by Utah's dry heat in summer and road salt in winter. That rhythmic clicking on turns at low speed is a worn joint. We replace the complete axle shaft, a more durable fix than repacking a boot on a joint that's already damaged.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Clutch Replacement on Manual 850s",
           "desc": "Manual 850s, T5 models especially, are rewarding to drive, and their clutches reflect it. The M59 five-speed clutch wears faster when the car is driven with enthusiasm. High engagement point, slipping under acceleration, or a burning smell climbing the Cottonwood Canyon roads are all signs. We carry quality clutch kits for the 850 and do the complete job.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Strut and Strut Mount Wear",
           "desc": "The 850's front strut bearings deteriorate with age and create a distinct clunking sound when turning at low speed, often mistaken for a CV axle problem. The rear struts on estate wagons loaded regularly wear faster. We distinguish between strut mount noise and CV noise during the road test, so you get the correct repair.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake System Service",
           "desc": "The 850's sport-tuned brake system works the front brakes hard, and the rear pads wear down faster than some owners expect. Squealing or grinding under braking, or a soft pedal that firms up on the second pump, all warrant a brake system inspection. We do pads, rotors, caliper function, and brake fluid condition in one visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Failed Emissions, Catalytic Converter",
           "desc": "High-mileage 850s fail Utah DEQ inspections most commonly on catalyst efficiency. The P0420 code is a catalyst downstream efficiency fault, which can mean a worn catalyst or a faulty downstream O2 sensor. We diagnose which is the actual cause before replacing expensive parts.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1693,32 +1693,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete five-cylinder belt kit, belt, tensioner, idler, and water pump, for B5254 and B5234 850 engines."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for 850 inner and outer CV joint wear, clicking turns, inner joint failures."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "M59 five-speed clutch kit replacement for manual 850, T5, and T5R models."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and strut mount replacement, distinguishing mount bearing noise from CV joint noise."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear brake service, pads, rotors, caliper inspection, and brake fluid condition."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic inspection and maintenance service for high-mileage 850s, sedan and estate."
         }
@@ -1805,37 +1805,37 @@ module.exports = {
         {
           "title": "Timing Belt Service: Don't Skip It",
           "desc": "The B230 and B230FT are interference engines. A timing belt failure means bent valves and a major engine repair, far more expensive than a belt kit. The 940's interval is 50,000 miles, but age matters equally: a belt that's six or seven years old is at risk regardless of mileage. We do the complete service, belt, tensioner, and water pump, and stamp the work with the date and mileage for your records.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Repair",
           "desc": "The 940's long exhaust run, especially on wagon models, develops manifold gasket leaks, cracked flex joints, and rotten mufflers as it ages. Utah's dry winters with road salt hit the underside hard. A sudden loud exhaust sound on a 940 means something in the system has failed. We repair by section when practical, or replace the full system when the damage warrants it.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Turbo System Service on 940 Turbo",
           "desc": "The 940 Turbo's T3 turbocharger depends entirely on clean engine oil. Turbo bearing wear is the most common failure mode, and it almost always traces back to extended oil change intervals or low oil level. We check the turbo oil supply and return lines for blockage and inspect the intercooler hose clamps, a loose clamp at boost is a hard no-start diagnosis waiting to happen.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Clutch Replacement on Manual 940s",
           "desc": "Manual 940s, turbo models in particular, have specific clutch wear characteristics when driven on Utah's mountain roads. The long grades on I-15 to Provo and the canyon runs to Snowbird put real heat into clutch components. High engagement point, slipping on the grade, or a burning smell after a demanding drive all mean it's time. We source quality clutch kits and do the full job.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Shock Absorber Wear",
           "desc": "940 wagons loaded with Utah ski gear, camping equipment, or contractor supplies wear rear shocks faster than sedans. The handling becomes progressively worse, floating on the freeway, nose-diving under braking, and squirming on rough pavement. We replace shocks in axle pairs and align the car afterward if the suspension geometry needs correction.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake System Service",
           "desc": "940 front brakes carry the majority of the braking load, and the caliper slides corrode in Utah's road-salt environment. A car that pulls to one side under braking or has a pedal that slowly sinks has a brake system problem that needs a thorough inspection. We cover pads, rotors, caliper function, and brake fluid condition in a single visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         }
       ],
@@ -1875,32 +1875,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete B230/B230FT belt kit, belt, tensioner, and water pump, for all 940 engines."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex joints, and muffler replacement for 940 sedan and wagon exhaust systems."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch kit for manual 940 and 940 Turbo, disc, pressure plate, throwout bearing, and pilot bearing."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Front and rear shock replacement for 940 sedans and loaded wagons, axle-pair replacement for balanced handling."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear brake service, pads, rotors, caliper inspection, and brake fluid condition check."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Comprehensive inspection and catch-up service for high-mileage 940s, including turbo system check."
         }

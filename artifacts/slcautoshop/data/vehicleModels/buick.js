@@ -49,31 +49,31 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on 3.6L First-Gen Enclave",
           "desc": "The 3.6L VVT engine in 2008–2017 Enclaves is known for timing chain tensioner wear that leads to chain slack and a rattling noise on cold startup. The noise often clears within 30–60 seconds as oil pressure builds, which makes owners think it's normal. It isn't. Left unaddressed, a stretched chain can skip a cam gear tooth and cause rough running or a no-start. We inspect what's actually worn and replace only what the inspection reveals.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure, Internal Leak Risk",
           "desc": "The 3.6L Enclave water pump is driven off the timing chain system. When the pump seal fails, coolant can leak internally into the timing chain area, making what might have been a straightforward pump replacement into a more involved repair. Early symptoms include a sweet coolant smell from the engine bay, a creeping temperature gauge, or a small coolant puddle under the front of the engine. We address it before the internal leak complicates the timing chain system.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Strut Wear and Rough Ride",
           "desc": "Enclave struts on first-gen models typically wear by 80,000–100,000 miles, producing a bouncy, unsettled ride that's especially noticeable on Utah's frost-heaved winter pavement. A vehicle this size with worn struts handles poorly in an emergency maneuver. We replace in axle pairs and check alignment after installation.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Wear on a Heavy Three-Row SUV",
           "desc": "A loaded Enclave puts significant stress on its brakes, heavier than most owners account for. Front pads wear first, rotors develop heat scoring, and rear calipers can seize on vehicles that don't see regular brake service. We inspect all four corners and give you an honest assessment of what needs replacing.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Check Engine Light and Catalytic Converter Codes",
           "desc": "P0420 and P0430 efficiency codes are common on higher-mileage Enclaves. Before recommending catalytic converter replacement, which isn't cheap on a V6 with two cats, we verify whether an oxygen sensor failure or exhaust leak is the actual cause. Correct diagnosis saves you from an unnecessary repair.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -113,32 +113,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement for 3.6L first-gen Enclaves, one of the most common repairs we perform on this platform."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump and coolant flush service for Enclaves with coolant leaks or overheating symptoms."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for Enclaves with bounce, float, or handling instability."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Four-corner brake inspection, pads, rotors, and calipers, for a heavy SUV that earns its brakes."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate P0420/P0430 diagnosis and quality replacement to pass Utah emissions testing."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid check, and multi-point inspection, everything your Enclave needs in one visit."
         }
@@ -217,31 +217,31 @@ module.exports = {
         {
           "title": "Turbo Wear from Deferred Oil Changes",
           "desc": "The 1.4T turbocharger in first-gen Encores is lubricated by engine oil. Old, degraded oil damages the turbo bearing and compressor wheel well before it affects the rest of the engine. Early symptoms are a faint whine from the turbo at boost, or oil consumption without a visible external leak. We inspect turbo condition at every oil service and advise on oil interval.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Exhaust Leak, Turbo Outlet and Downpipe",
           "desc": "The exhaust between the turbocharger outlet and the catalytic converter, the downpipe area, is a common leak point on high-mileage Encores. A hissing or ticking noise under acceleration that quiets at idle is the typical symptom. We inspect the full exhaust path from the manifold through to the tailpipe.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Strut Wear and Rough Ride",
           "desc": "Encore struts on first-gen models show wear by 70,000–90,000 miles, earlier if the vehicle has been driven on Utah's rougher secondary roads. A bouncy ride, clunking over bumps, or pulling during braking are the common signs. We replace in axle pairs and check alignment after the job.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service",
           "desc": "Encore brakes are predictable in their wear, front pads first, rotors next. On a small crossover, the brakes don't carry as heavy a load as on a larger vehicle, but they're smaller too. We inspect all four corners and give an accurate assessment of what needs replacing.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, O2 Sensor and Catalyst",
           "desc": "High-mileage Encores trigger oxygen sensor and P0420 catalyst efficiency codes. We verify the actual cause before recommending a catalytic converter, an O2 sensor or exhaust leak can produce the same code at a fraction of the cost. We diagnose correctly the first time.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -281,32 +281,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Oil service, turbo inspection, fluid check, and full diagnostic, the right starting point for any Encore visit."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for Encores with bounce, clunk, or handling issues on Utah roads."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and four-corner inspection for Encore brake wear at any mileage."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Downpipe, flex pipe, and full exhaust service for Encores with turbo-outlet leaks or rust damage."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate P0420 diagnosis and quality cat replacement for Encores failing Utah emissions."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for Encores with front CV joint clicking on turns."
         }
@@ -389,31 +389,31 @@ module.exports = {
         {
           "title": "Timing Chain Service on 3.6L Second-Gen LaCrosse",
           "desc": "The 3.6L VVT engine in 2010–2016 LaCrosses shares its architecture with the Lambda crossovers and has the same timing chain tensioner wear pattern. A brief cold-start rattle that clears up within a minute is the first sign. We inspect the chain, tensioners, and guides and quote what the inspection confirms, not a blanket system replacement.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut Wear and Handling Changes",
           "desc": "LaCrosse struts wear predictably at high mileage, producing a ride that's noticeably less smooth than new, floating over bumps, mild nose-dive under braking, or slight body roll in corners. For a car designed around a quiet, smooth ride, worn struts are particularly obvious. We replace in axle pairs and check alignment.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service",
           "desc": "LaCrosse brakes wear reliably over time, front first, rear not far behind. Rotors warp from heat and glazing on a car this weight. A pulsating pedal under braking is the typical sign of warped rotors. We inspect the full brake system and replace only what's needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Water Pump Failure on High-Mileage V6",
           "desc": "The water pump on 3.6L LaCrosses typically reaches end-of-life between 80,000–110,000 miles. Signs include a small coolant leak from the front of the engine, a temperature gauge creeping above normal, or a rumbling from the front of the engine. We replace the pump, check the thermostat, and flush the coolant.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Wear on Front-Wheel-Drive Models",
           "desc": "LaCrosse CV axles on high-mileage front-wheel-drive models develop clicking on turns when the joints wear out. The rubber boot cracks, grease is lost, and grit enters the joint. We replace the complete axle shaft, not just the boot, for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -453,32 +453,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide inspection and replacement for 3.6L LaCrosse with cold-start rattle."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement to restore the LaCrosse's smooth ride and handling precision."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and full brake inspection, including pulsation diagnosis from warped rotors."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Pump, thermostat, and coolant flush for LaCrosses with cooling system leaks or overheating."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for front-wheel-drive LaCrosses with clicking on turns."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic and inspection for any LaCrosse, all findings prioritized and explained."
         }
@@ -565,31 +565,31 @@ module.exports = {
         {
           "title": "Timing Belt on 2.0T Fifth-Gen Regal",
           "desc": "The 2.0L turbocharged LHU engine in the 2011–2017 Regal uses a timing belt, an interference engine design where a snapped belt causes immediate, severe valve damage. The correct interval is approximately 97,000 miles, but we recommend inspection closer to 85,000 miles in Utah's temperature extremes. We replace the belt, tensioner, idler, and water pump as a complete kit.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch on 5th-Gen Regal GS",
           "desc": "The manual-transmission Regal GS with its 2.0T engine is a performance-oriented car that earns its clutch wear faster than a commuter sedan. Signs of a worn clutch include slipping under hard acceleration, a grabby or high engagement point, or difficulty getting into gear cleanly. We carry quality clutch kits for the 2.0T GS.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Strut Wear on Sporty 5th-Gen Models",
           "desc": "The 5th-gen Regal has a sport-tuned suspension that's firmer than average, and when the struts wear, the tradeoff shifts from sporty to jarring on Utah roads. Worn struts show up as a harsh, unsettled ride and reduced handling precision. We replace in axle pairs and always recommend an alignment check afterward.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service",
           "desc": "Regal brakes across all generations need regular attention, the 5th-gen GS in particular, driven as intended, eats front brakes faster than a base sedan. A pulsating pedal, squealing on initial brake application, or a longer stopping distance are all reasons to have the system inspected.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Exhaust and Turbo Outlet on High-Mileage 2.0T",
           "desc": "The exhaust system on the 2.0T Regal, especially the turbo downpipe and the flex section, is a common failure point at higher mileage. Road salt accelerates corrosion at the pipe joints. A hissing or ticking noise under acceleration is the typical exhaust leak symptom on these cars.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -629,32 +629,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete belt kit service for 2.0T fifth-gen Regal, belt, tensioner, idler, and water pump."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "5th-gen GS clutch replacement, disc, pressure plate, release bearing, and flywheel inspection."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Strut replacement to restore the Regal's balance between sport feel and road compliance."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection and service, especially relevant for GS drivers who use the performance the car offers."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Downpipe, flex pipe, and exhaust system service for 2.0T Regals with leaks from salt corrosion."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic and service, everything your Regal needs, prioritized and explained in one visit."
         }
@@ -729,31 +729,31 @@ module.exports = {
         {
           "title": "Timing Chain Tensioner Wear on 2.4L Verano",
           "desc": "The 2.4L Ecotec in the Verano is known for timing chain tensioner failure, the same issue as in the GMC Terrain and other 2.4L applications. A cold-start rattle that clears up in 30–60 seconds is the first sign. The tensioner is losing its ability to maintain chain tension during cold, low-oil-pressure conditions. We inspect the chain and tensioner and quote what the inspection confirms.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut Wear",
           "desc": "Verano struts wear by 80,000–100,000 miles, producing a ride that drifts from smooth to bouncy or noisy. The car may pull slightly during braking or feel unsettled over bumps. We replace struts in axle pairs and recheck alignment after installation.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service: Pads, Rotors, and Calipers",
           "desc": "Verano brakes are relatively standard compact-sedan wear patterns. Front pads wear first, rotors tend to warp from heat cycles on cars used primarily for city driving. A pulsating pedal or squealing from the front axle means it's time for an inspection.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Joint Wear on High-Mileage Veranos",
           "desc": "High-mileage Veranos develop clicking on turns from worn front CV joints. The CV boot cracks with age, grease escapes, and joint wear follows. We replace the complete axle shaft, not just the boot, for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust System Wear",
           "desc": "Verano exhaust systems suffer from Utah road salt, flex pipes and mid-pipe connections are the first failure points. A ticking or hissing noise under acceleration that quiets at idle is the typical exhaust leak symptom. We inspect from manifold to tailpipe.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -793,32 +793,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Tensioner, chain, and guide inspection and replacement for the 2.4L Ecotec Verano, a common repair at mileage."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement for high-mileage Veranos with a bouncy or noisy ride."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pads, rotors, and calipers, for Veranos at any mileage."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for Veranos clicking on turns from worn front CV joints."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, mid-pipe, and full exhaust service for Veranos with salt-corrosion leaks."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid check, and inspection for Veranos at any mileage, everything prioritized."
         }
@@ -905,31 +905,31 @@ module.exports = {
         {
           "title": "Water Pump Failure on 3.8L LeSabre",
           "desc": "The water pump on the 3.8L Series II is driven by the serpentine belt and typically fails between 80,000–120,000 miles. Signs include a coolant leak from the weep hole on the pump housing, an overheating gauge, or a grinding noise from the front of the engine. We replace the pump, inspect the thermostat, and flush the coolant as a package.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Shock Absorber Wear",
           "desc": "High-mileage LeSabres develop a floating, wallowing ride as the shock absorbers wear, a particular contrast on a car designed for smooth, controlled highway cruising. Worn shocks also affect tire wear and stopping distance. We replace in axle pairs and road-test to confirm the handling improvement.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake System Service",
           "desc": "LeSabre brakes age predictably, front pads wear first, rotors develop heat scoring, and brake fluid absorbs moisture over years of service. If the brake pedal feels spongy, the car pulls during braking, or you hear squealing or grinding, bring it in. We inspect all four corners and replace only what's needed.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Exhaust System Wear",
           "desc": "LeSabre exhaust systems on Utah cars suffer from road salt corrosion, flex pipes and mid-pipe connections are the first failure points. A ticking or hissing noise that changes with engine RPM typically points to an exhaust leak. We inspect the full system and repair what needs fixing.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, Oxygen Sensor and Emissions",
           "desc": "High-mileage LeSabres frequently trigger oxygen sensor and P0420 catalyst efficiency codes. We read the specific code, check for exhaust leaks that can mimic a failing cat, and diagnose the actual cause before recommending a repair.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -969,32 +969,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump, thermostat, and coolant flush, the single most common high-mileage 3.8L LeSabre repair."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "OEM-grade shocks to restore the smooth, controlled highway ride LeSabres are known for."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full four-corner brake inspection, pad replacement, rotor service, and brake fluid flush."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, mid-pipe, and full system repair for LeSabres with salt-damaged exhaust components."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate diagnosis and quality replacement for LeSabres failing Utah emissions with P0420 codes."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid check, and maintenance inspection, everything your LeSabre needs in one visit."
         }

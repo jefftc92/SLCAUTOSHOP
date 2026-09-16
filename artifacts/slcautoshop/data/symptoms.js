@@ -41,7 +41,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Clutch Slipping Repair in Salt Lake City",
         paras: [
-          "Before we drop the transmission, we check the hydraulic system and inspect for oil leaks at the rear main and input shaft seals, contamination from a leaking seal can destroy a new clutch within months. Once we have access, we measure flywheel runout and inspect the surface for glazing and heat checks. You see the parts before the cost conversation. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch repair service page</a> for what's included.",
+          "Before we drop the transmission, we check the hydraulic system and inspect for oil leaks at the rear main and input shaft seals, contamination from a leaking seal can destroy a new clutch within months. Once we have access, we measure flywheel runout and inspect the surface for glazing and heat checks. You see the parts before the cost conversation. <a href='/services/clutch-repair'>See our full clutch repair service page</a> for what's included.",
           "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. Clutches are one of our highest-volume jobs, we know which platforms have weak points, which aftermarket kits come back, and how to spot the contamination patterns that cause repeat failures."
         ],
         inlineCta: true
@@ -85,7 +85,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Grinding Gear Repair in Salt Lake City",
         paras: [
-          "We rule out hydraulic causes first: a road test to confirm the grinding pattern, then a system inspection covering fluid condition, master and slave cylinder response, and release bearing check. Most grinding originates in the hydraulic system, and the fix is much simpler than internal transmission work. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch repair service page</a> for what's included.",
+          "We rule out hydraulic causes first: a road test to confirm the grinding pattern, then a system inspection covering fluid condition, master and slave cylinder response, and release bearing check. Most grinding originates in the hydraulic system, and the fix is much simpler than internal transmission work. <a href='/services/clutch-repair'>See our full clutch repair service page</a> for what's included.",
           "Scott's Auto & Clutch Repair has been doing manual transmission work in South Salt Lake since 1990. We see enough grinding complaints to recognize the temperature and gear-specific patterns that distinguish a release problem from actual gearbox wear, that's what keeps customers from paying for transmission rebuilds they didn't need."
         ],
         inlineCta: true
@@ -129,7 +129,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Stiff Clutch Pedal Repair in Salt Lake City",
         paras: [
-          "We identify which system you have, cable or hydraulic, then pressure-test cylinders or inspect the cable run for fraying, kinks, and pivot friction. We also measure clutch disc wear while we're at it so nothing surprises you later. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch service page</a> for what's covered.",
+          "We identify which system you have, cable or hydraulic, then pressure-test cylinders or inspect the cable run for fraying, kinks, and pivot friction. We also measure clutch disc wear while we're at it so nothing surprises you later. <a href='/services/clutch-repair'>See our full clutch service page</a> for what's covered.",
           "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. We catch failing cylinders before they leak visibly and cable fraying before it becomes a roadside breakdown."
         ],
         inlineCta: true
@@ -173,7 +173,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Transmission Slipping Repair in Salt Lake City",
         paras: [
-          "We road-test to characterize the slip pattern, then pull fault codes, check fluid condition, and inspect clutch engagement before recommending any teardown. External causes, solenoids, fluid, hydraulic issues, are ruled out first. <a href='/services/clutch-repair-near-south-salt-lake-ut'>Our clutch service page</a> covers what's included in a typical manual repair.",
+          "We road-test to characterize the slip pattern, then pull fault codes, check fluid condition, and inspect clutch engagement before recommending any teardown. External causes, solenoids, fluid, hydraulic issues, are ruled out first. <a href='/services/clutch-repair'>Our clutch service page</a> covers what's included in a typical manual repair.",
           "Scott's Auto & Clutch Repair has been working on manual and automatic transmissions in South Salt Lake since 1990. We won't recommend a rebuild without first ruling out the simpler fixes that produce identical symptoms."
         ],
         inlineCta: true
@@ -217,7 +217,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Hard-to-Shift Gears Repair in Salt Lake City",
         paras: [
-          "We road-test to characterize the shift pattern, run the pause test, then inspect the hydraulic system before looking at the disc or linkage. Hydraulic causes are ruled out first because they're most common and cheapest to fix. <a href='/services/clutch-repair-near-south-salt-lake-ut'>Our clutch service page</a> covers what's included.",
+          "We road-test to characterize the shift pattern, run the pause test, then inspect the hydraulic system before looking at the disc or linkage. Hydraulic causes are ruled out first because they're most common and cheapest to fix. <a href='/services/clutch-repair'>Our clutch service page</a> covers what's included.",
           "Scott's Auto & Clutch Repair has been working on manual transmissions in South Salt Lake since 1990. We frequently solve hard shifting with a hydraulic repair on cars other shops quoted full clutch replacements for."
         ],
         inlineCta: true
@@ -261,7 +261,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Burning Clutch Repair in Salt Lake City",
         paras: [
-          "We road-test to characterize when the smell appears, then inspect for oil contamination at the rear main and input shaft seals, a leaking seal soaking the disc causes repeat failures. Once the transmission is dropped, we measure flywheel runout and inspect for glazing before any repair quote. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch repair service page</a> for what's covered.",
+          "We road-test to characterize when the smell appears, then inspect for oil contamination at the rear main and input shaft seals, a leaking seal soaking the disc causes repeat failures. Once the transmission is dropped, we measure flywheel runout and inspect for glazing before any repair quote. <a href='/services/clutch-repair'>See our full clutch repair service page</a> for what's covered.",
           "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. We know the canyon-driver and towing-driver wear patterns, and the contamination patterns that make new clutches fail prematurely."
         ],
         inlineCta: true
@@ -305,7 +305,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Soft Clutch Pedal Repair in Salt Lake City",
         paras: [
-          "We check fluid level and condition, then characterize the pedal feel to identify the specific component, soft from the start, sinking under pressure, or firm but no release each point to different causes. We pressure-test before any parts are ordered. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch service page</a> for what's covered.",
+          "We check fluid level and condition, then characterize the pedal feel to identify the specific component, soft from the start, sinking under pressure, or firm but no release each point to different causes. We pressure-test before any parts are ordered. <a href='/services/clutch-repair'>See our full clutch service page</a> for what's covered.",
           "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. We catch failing cylinders before they leak visibly, catching them early means a single replacement instead of a full circuit flush after a complete failure."
         ],
         inlineCta: true
@@ -348,7 +348,7 @@ const symptoms = [
       {
         heading: "Who to Trust for CV Joint Repair in Salt Lake City",
         paras: [
-          "We inspect both CV boots for tears and grease loss, feel both inner and outer joints for play, and road-test to confirm which side is clicking. Outer joint clicking comes only during turns; inner joint problems show up as vibration under acceleration, different failure, different repair. <a href='/services/cv-joint-repair-near-south-salt-lake-ut'>See our CV joint service page</a> for what's included.",
+          "We inspect both CV boots for tears and grease loss, feel both inner and outer joints for play, and road-test to confirm which side is clicking. Outer joint clicking comes only during turns; inner joint problems show up as vibration under acceleration, different failure, different repair. <a href='/services/cv-joint-repair'>See our CV joint service page</a> for what's included.",
           "Scott's Auto & Clutch Repair has been doing front-end work in South Salt Lake since 1990. Pattern recognition, which side, which turn angle, which speed, is what keeps us from replacing the wrong axle."
         ],
         inlineCta: true
@@ -391,7 +391,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Drivetrain Vibration Repair in Salt Lake City",
         paras: [
-          "We road-test first, characterizing when the vibration appears (under power, constant speed, or coasting) shapes which components we focus on. On the lift, we check CV axle play, U-joint play, wheel bearing roughness, motor mount condition, and tire balance. Motor mounts are commonly missed and feel exactly like a drivetrain issue. <a href='/services/cv-joint-repair-near-south-salt-lake-ut'>Our CV joint service</a> covers what's included.",
+          "We road-test first, characterizing when the vibration appears (under power, constant speed, or coasting) shapes which components we focus on. On the lift, we check CV axle play, U-joint play, wheel bearing roughness, motor mount condition, and tire balance. Motor mounts are commonly missed and feel exactly like a drivetrain issue. <a href='/services/cv-joint-repair'>Our CV joint service</a> covers what's included.",
           "Scott's Auto & Clutch Repair has been doing drivetrain work in South Salt Lake since 1990. We won't recommend a CV axle when the pattern points to a motor mount, pattern recognition is what keeps customers from paying for the wrong repair."
         ],
         inlineCta: true
@@ -435,7 +435,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Brake Hydraulic Repair in Salt Lake City",
         paras: [
-          "We check fluid level and condition, characterize the pedal feel to identify the component, and pressure-test the system before any parts are ordered. We inspect every wheel for weeping at calipers and hose connections. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's covered. We don't start work until you understand exactly what's wrong.",
+          "We check fluid level and condition, characterize the pedal feel to identify the component, and pressure-test the system before any parts are ordered. We inspect every wheel for weeping at calipers and hose connections. <a href='/services/brake-service'>See our brake service page</a> for what's covered. We don't start work until you understand exactly what's wrong.",
           "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. We test and measure before recommending parts, that's what catches the failing master cylinder that a pad-only shop would miss."
         ],
         inlineCta: true
@@ -479,7 +479,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Brake Pad Replacement in Salt Lake City",
         paras: [
-          "We measure pad thickness on all four corners, measure rotor thickness and runout, and inspect caliper slide pin condition before recommending anything. If you only need pads, that's the complete repair, we won't upsell rotors that don't need replacing. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's included.",
+          "We measure pad thickness on all four corners, measure rotor thickness and runout, and inspect caliper slide pin condition before recommending anything. If you only need pads, that's the complete repair, we won't upsell rotors that don't need replacing. <a href='/services/brake-service'>See our brake service page</a> for what's included.",
           "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. We inspect slide pins on every brake job as standard practice. A stuck slide causes a 15,000-mile comeback, which is why we won't skip that step."
         ],
         inlineCta: true
@@ -522,7 +522,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Grinding Brake Repair in Salt Lake City",
         paras: [
-          "We measure pad thickness, rotor thickness against minimum spec, runout, and the depth of any scoring. We also check caliper slide pin and piston seal condition, a stuck caliper produces grinding even on pads with material left. Hub temperature after a road test tells us which side is dragging. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's covered.",
+          "We measure pad thickness, rotor thickness against minimum spec, runout, and the depth of any scoring. We also check caliper slide pin and piston seal condition, a stuck caliper produces grinding even on pads with material left. Hub temperature after a road test tells us which side is dragging. <a href='/services/brake-service'>See our brake service page</a> for what's covered.",
           "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. We'll tell you honestly whether the rotors can be saved or need replacement, we won't push parts that aren't necessary."
         ],
         inlineCta: true
@@ -565,7 +565,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Steering Vibration Repair in Salt Lake City",
         paras: [
-          "We diagnose both the brake system and front suspension simultaneously, rotor runout, caliper condition, tie rod play, ball joint condition, and wheel bearing roughness, before recommending any repair. Replacing rotors on a car with worn tie rods leaves the shake in place. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake and steering service page</a> for what's included.",
+          "We diagnose both the brake system and front suspension simultaneously, rotor runout, caliper condition, tie rod play, ball joint condition, and wheel bearing roughness, before recommending any repair. Replacing rotors on a car with worn tie rods leaves the shake in place. <a href='/services/brake-service'>See our brake and steering service page</a> for what's included.",
           "Scott's Auto & Clutch Repair has been doing brake and front-end work in South Salt Lake since 1990. We won't recommend rotors when the pattern points to suspension wear, pattern recognition is what keeps customers from paying for the wrong repair."
         ],
         inlineCta: true
@@ -608,7 +608,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Brake Rotor Repair in Salt Lake City",
         paras: [
-          "We measure rotor thickness and runout precisely and tell you the actual numbers against spec. We also inspect caliper slide pins, a stuck slide concentrates heat on one area and is a frequent root cause of DTV. Replacing rotors without fixing the stuck slide produces the same warping within 20,000 miles. <a href='/services/brake-service-near-south-salt-lake-ut'>See our brake service page</a> for what's covered.",
+          "We measure rotor thickness and runout precisely and tell you the actual numbers against spec. We also inspect caliper slide pins, a stuck slide concentrates heat on one area and is a frequent root cause of DTV. Replacing rotors without fixing the stuck slide produces the same warping within 20,000 miles. <a href='/services/brake-service'>See our brake service page</a> for what's covered.",
           "Scott's Auto & Clutch Repair has been doing brake work in South Salt Lake since 1990. Inspecting slide pins on every brake job is standard practice for us, it's what makes the repair last."
         ],
         inlineCta: true
@@ -651,7 +651,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Timing Chain Repair in Salt Lake City",
         paras: [
-          "We check oil pressure to the tensioner circuit, inspect VVT actuator function if equipped, measure chain stretch directly, and inspect guides and tensioner on the bench before recommending a repair scope. The front cover gives us access to everything including the water pump on chain-driven applications. <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>Our timing chain service page</a> covers what's included.",
+          "We check oil pressure to the tensioner circuit, inspect VVT actuator function if equipped, measure chain stretch directly, and inspect guides and tensioner on the bench before recommending a repair scope. The front cover gives us access to everything including the water pump on chain-driven applications. <a href='/services/timing-chain-repair'>Our timing chain service page</a> covers what's included.",
           "Scott's Auto & Clutch Repair has been doing timing chain work in South Salt Lake since 1990. We see high volume on the platforms most common in Utah, Honda/Acura 4-cylinders, Ford EcoBoost, GM, and know their specific failure patterns and which kits hold up."
         ],
         inlineCta: true
@@ -694,7 +694,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Timing System Repair in Salt Lake City",
         paras: [
-          "Diagnosis starts with live scan data, cam and crank sensor waveforms, VVT actuator commanded vs. actual position, and fuel trim corrections. This separates a mechanical chain problem from a sensor fault or VVT clog, which are very different repairs at very different costs. <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>Our timing chain service</a> is one of our highest-volume specialized repairs.",
+          "Diagnosis starts with live scan data, cam and crank sensor waveforms, VVT actuator commanded vs. actual position, and fuel trim corrections. This separates a mechanical chain problem from a sensor fault or VVT clog, which are very different repairs at very different costs. <a href='/services/timing-chain-repair'>Our timing chain service</a> is one of our highest-volume specialized repairs.",
           "Scott's Auto & Clutch Repair has been doing timing system work in South Salt Lake since 1990. If you're seeing timing codes paired with startup rattling, call us, we'll help you assess urgency before you bring the vehicle in."
         ],
         inlineCta: true
@@ -738,7 +738,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Check Engine Light Diagnosis in Salt Lake City",
         paras: [
-          "We capture live sensor data, fuel trim values, oxygen sensor waveforms, misfire counters, intake pressure, not just code numbers. That context is what finds the root cause instead of replacing parts in sequence. We won't recommend a repair until we've confirmed what actually caused the fault. <a href='/services/complete-auto-service-near-south-salt-lake-ut'>Our diagnostic service</a> includes a full code pull with live data review.",
+          "We capture live sensor data, fuel trim values, oxygen sensor waveforms, misfire counters, intake pressure, not just code numbers. That context is what finds the root cause instead of replacing parts in sequence. We won't recommend a repair until we've confirmed what actually caused the fault. <a href='/services/complete-auto-service'>Our diagnostic service</a> includes a full code pull with live data review.",
           "Scott's Auto & Clutch Repair has been diagnosing check engine lights in South Salt Lake since 1990. We work through multiple possible causes in order of probability, not part price."
         ],
         inlineCta: true
@@ -782,7 +782,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Engine Overheating Repair in Salt Lake City",
         paras: [
-          "We check for head gasket compromise first, combustion gases in the coolant or milky oil on the dipstick means the gasket is the primary repair, not just the water pump or thermostat. We test before diagnosing so we don't fix the wrong thing. After ruling that out, we pressure-test, check thermostat operation, and inspect water pump flow and all hoses. <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>Our cooling system service page</a> covers what's included.",
+          "We check for head gasket compromise first, combustion gases in the coolant or milky oil on the dipstick means the gasket is the primary repair, not just the water pump or thermostat. We test before diagnosing so we don't fix the wrong thing. After ruling that out, we pressure-test, check thermostat operation, and inspect water pump flow and all hoses. <a href='/services/water-pump-replacement'>Our cooling system service page</a> covers what's included.",
           "Scott's Auto & Clutch Repair has been diagnosing cooling system failures in South Salt Lake since 1990. If you've already overheated, call before driving further, we'll help you assess whether it's safe to bring the car in."
         ],
         inlineCta: true
@@ -826,7 +826,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Coolant Leak Repair in Salt Lake City",
         paras: [
-          "We pressure-test the sealed cooling system to locate the source precisely. Most leaks are locatable without disassembly. On any vehicle with overheating history, we run a combustion gas test first, because a head gasket leak changes the entire repair scope. <a href='/services/water-pump-replacement-near-south-salt-lake-ut'>See our cooling system service</a> for what's included.",
+          "We pressure-test the sealed cooling system to locate the source precisely. Most leaks are locatable without disassembly. On any vehicle with overheating history, we run a combustion gas test first, because a head gasket leak changes the entire repair scope. <a href='/services/water-pump-replacement'>See our cooling system service</a> for what's included.",
           "Scott's Auto & Clutch Repair has been diagnosing cooling system failures in South Salt Lake since 1990. Utah's climate, summer heat, mountain grades, winter freeze cycles, puts specific stress on these systems, and we know the failure patterns most common here."
         ],
         inlineCta: true
@@ -869,7 +869,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Exhaust Repair in Salt Lake City",
         paras: [
-          "Exhaust repair doesn't always mean full replacement. A cracked flex pipe or section hole can often be cut out and welded in place, significantly cheaper than a full system if the rest is still sound. We do our welding in-house, which gives us flexibility that shops without that capability can't offer. <a href='/services/exhaust-repair-near-south-salt-lake-ut'>See our exhaust service</a> for what's included.",
+          "Exhaust repair doesn't always mean full replacement. A cracked flex pipe or section hole can often be cut out and welded in place, significantly cheaper than a full system if the rest is still sound. We do our welding in-house, which gives us flexibility that shops without that capability can't offer. <a href='/services/exhaust-repair'>See our exhaust service</a> for what's included.",
           "Scott's Auto & Clutch Repair has been doing exhaust work in South Salt Lake since 1990. We'll tell you honestly what the rest of the system looks like so you can make one informed decision instead of coming back in a few months."
         ],
         inlineCta: true
@@ -912,7 +912,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Exhaust Leak Repair in Salt Lake City",
         paras: [
-          "We inspect the full exhaust routing on the lift, manifold condition near the firewall, flex pipe and collector joints under the floorpan, and sections adjacent to floor grommets. We also check the HVAC fresh-air intake zone. <a href='/services/exhaust-repair-near-south-salt-lake-ut'>We treat exhaust cabin intrusion as a same-day priority.</a>",
+          "We inspect the full exhaust routing on the lift, manifold condition near the firewall, flex pipe and collector joints under the floorpan, and sections adjacent to floor grommets. We also check the HVAC fresh-air intake zone. <a href='/services/exhaust-repair'>We treat exhaust cabin intrusion as a same-day priority.</a>",
           "Scott's Auto & Clutch Repair has been doing exhaust work in South Salt Lake since 1990. If you're experiencing headaches or fatigue while driving with windows up, call us before driving further, CO is the concern."
         ],
         inlineCta: true
@@ -956,7 +956,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Emissions Repair in Salt Lake City",
         paras: [
-          "We check root cause before recommending parts, a P0420 code alone doesn't mean the converter is the problem. We evaluate fuel trims, O2 sensor signal quality, and misfire data. We also check readiness monitor status so you know if a recent battery disconnect will cause a test failure on monitor status alone. <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>We run pre-emission checks</a> so you don't make a wasted trip to the testing station.",
+          "We check root cause before recommending parts, a P0420 code alone doesn't mean the converter is the problem. We evaluate fuel trims, O2 sensor signal quality, and misfire data. We also check readiness monitor status so you know if a recent battery disconnect will cause a test failure on monitor status alone. <a href='/services/catalytic-converter-service'>We run pre-emission checks</a> so you don't make a wasted trip to the testing station.",
           "Scott's Auto & Clutch Repair has been doing emissions and exhaust work in South Salt Lake since 1990. Our goal is for you to pass on the first retest attempt, not just get close."
         ],
         inlineCta: true
@@ -999,7 +999,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Catalytic Converter and Fuel System Repair in Salt Lake City",
         paras: [
-          "We verify fuel system and ignition system health before recommending a converter. We'll show you the fuel trim data that supports the diagnosis, a P0420 code doesn't automatically mean the converter is the problem. <a href='/services/catalytic-converter-service-near-south-salt-lake-ut'>Our emissions diagnosis</a> addresses root cause and converter condition in the same inspection.",
+          "We verify fuel system and ignition system health before recommending a converter. We'll show you the fuel trim data that supports the diagnosis, a P0420 code doesn't automatically mean the converter is the problem. <a href='/services/catalytic-converter-service'>Our emissions diagnosis</a> addresses root cause and converter condition in the same inspection.",
           "Scott's Auto & Clutch Repair has been doing exhaust and emissions work in South Salt Lake since 1990. We won't replace a converter on an engine that would fail the new one within a year."
         ],
         inlineCta: true
@@ -1042,7 +1042,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Strut and Shock Replacement in Salt Lake City",
         paras: [
-          "We inspect the full strut assembly, damper, top mount, and spring, and do a bounce test combined with visual inspection for oil leakage. Strut and shock replacement is done in axle pairs to maintain even handling, and we include a wheel alignment with every strut job. <a href='/services/strut-replacement-near-south-salt-lake-ut'>See our strut replacement service page</a> for what's included.",
+          "We inspect the full strut assembly, damper, top mount, and spring, and do a bounce test combined with visual inspection for oil leakage. Strut and shock replacement is done in axle pairs to maintain even handling, and we include a wheel alignment with every strut job. <a href='/services/strut-replacement'>See our strut replacement service page</a> for what's included.",
           "Scott's Auto & Clutch Repair has been doing suspension work in South Salt Lake since 1990. We'll also inspect the opposing pair while we're working so you have a clear picture of their remaining life."
         ],
         inlineCta: true
@@ -1084,7 +1084,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Front Strut Replacement in Salt Lake City",
         paras: [
-          "We check damper condition, top mount bearing play, and spring condition as part of every strut assessment. Most front strut jobs are completed the same day, and we include the post-replacement alignment as standard. <a href='/services/strut-replacement-near-south-salt-lake-ut'>See our strut service page</a> for what's included.",
+          "We check damper condition, top mount bearing play, and spring condition as part of every strut assessment. Most front strut jobs are completed the same day, and we include the post-replacement alignment as standard. <a href='/services/strut-replacement'>See our strut service page</a> for what's included.",
           "Scott's Auto & Clutch Repair has been doing suspension work in South Salt Lake since 1990. For Utah drivers using canyon roads, the safety margin lost to worn front struts is real and measurable, don't put this one off."
         ],
         inlineCta: true
@@ -1127,7 +1127,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Alignment and Suspension Repair in Salt Lake City",
         paras: [
-          "We measure all four alignment angles before and after adjustment and show you the before/after printout. If the alignment is within spec but the tires are still cupping, we'll tell you clearly that the issue is suspension-related, alignment won't fix worn dampers. <a href='/services/strut-replacement-near-south-salt-lake-ut'>Strut and shock replacement</a> followed by alignment resolves cupping wear.",
+          "We measure all four alignment angles before and after adjustment and show you the before/after printout. If the alignment is within spec but the tires are still cupping, we'll tell you clearly that the issue is suspension-related, alignment won't fix worn dampers. <a href='/services/strut-replacement'>Strut and shock replacement</a> followed by alignment resolves cupping wear.",
           "Scott's Auto & Clutch Repair has been doing alignment and suspension work in South Salt Lake since 1990. Being honest about the root cause saves you a second tire purchase."
         ],
         inlineCta: true
@@ -1170,7 +1170,7 @@ const symptoms = [
       {
         heading: "Who to Trust for Shock Absorber Replacement in Salt Lake City",
         paras: [
-          "We replace shocks in axle pairs, even if only one has clearly failed, its partner is aging at the same rate and a mismatched pair creates handling asymmetry. <a href='/services/shock-replacement-near-south-salt-lake-ut'>Shock replacement</a> is simpler than strut work with no spring compression required, and most jobs are completed the same day.",
+          "We replace shocks in axle pairs, even if only one has clearly failed, its partner is aging at the same rate and a mismatched pair creates handling asymmetry. <a href='/services/shock-replacement'>Shock replacement</a> is simpler than strut work with no spring compression required, and most jobs are completed the same day.",
           "Scott's Auto & Clutch Repair has been doing suspension work in South Salt Lake since 1990. We bounce-test all four corners and check for body seepage so you know exactly which dampers need attention."
         ],
         inlineCta: true
@@ -1226,7 +1226,7 @@ const symptoms = [
         paras: [
           "If you see thick white smoke and the engine is fully warm: stop driving. Pull over safely, shut off the engine, and let it cool before opening anything. A hot, pressurized cooling system can cause burns if opened while hot. Do not continue to your destination if the temperature gauge is climbing.",
           "Call us before driving further if you're seeing persistent white smoke. Depending on what you describe, we may advise towing rather than driving. Repairs over $1,000 include free towing, so getting the vehicle here safely won't cost extra. We'd rather have you call us than drive a vehicle that's overheating to get it to the shop.",
-          "<a href='/services/head-gasket-repair-near-south-salt-lake-ut'>See our full head gasket repair service page</a> for what the diagnosis and repair process involves."
+          "<a href='/services/head-gasket-repair'>See our full head gasket repair service page</a> for what the diagnosis and repair process involves."
         ],
         inlineCta: true
       }
@@ -1276,7 +1276,7 @@ const symptoms = [
         paras: [
           "Coolant-contaminated oil cannot lubricate engine internals properly. The coolant dilutes the oil's viscosity and destroys the oil film that prevents metal-to-metal contact at bearing surfaces and cylinder walls. Every mile driven on contaminated oil accelerates bearing wear and cylinder wall scoring that won't be visible until the engine is disassembled, and may not be repairable without a full engine rebuild or replacement.",
           "If you find milky oil, don't top off the oil and keep driving. The problem will get worse, not better. Call us and we'll talk through the symptoms and help you determine whether the vehicle can be safely driven to the shop or needs to be towed. Repairs over $1,000 include free towing.",
-          "<a href='/services/head-gasket-repair-near-south-salt-lake-ut'>See our head gasket repair page</a> for how we diagnose and repair coolant contamination problems."
+          "<a href='/services/head-gasket-repair'>See our head gasket repair page</a> for how we diagnose and repair coolant contamination problems."
         ],
         inlineCta: true
       }

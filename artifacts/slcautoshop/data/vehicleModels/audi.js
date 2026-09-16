@@ -61,37 +61,37 @@ module.exports = {
         {
           "title": "Timing Chain Tensioner Failure (2.0T B8/B9)",
           "desc": "The EA888 2.0T engine used in B8 and B9 A4s has a well-documented timing chain tensioner that can fail, particularly when oil changes have been stretched past recommended intervals. A faint metallic rattle on cold startup that clears once oil pressure builds is the early warning sign. Left unaddressed, a collapsed tensioner can allow the chain to jump and cause significant engine damage. We inspect the tensioner, guides, and chain stretch as a unit and replace the entire assembly when needed.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure (2.0T TFSI)",
           "desc": "The impeller on the 2.0T TFSI water pump is plastic and prone to cracking or spinning free from its shaft, especially on B7 and early B8 models. When it fails the engine overheats quickly and often without much warning. If your temperature gauge is climbing toward the red or you see coolant on the ground, stop driving and call us. We replace the water pump and thermostat as a set since labor overlap makes doing both at once the smart call.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "High-mileage quattro A4s frequently develop worn CV joints on the front axles, the constant-velocity joint boot cracks, grease escapes, and grit contaminates the joint. The result is a rhythmic clicking or popping noise during low-speed turns, most obvious in parking lots. We replace the complete axle shaft rather than attempting a boot-only repair, which provides a more durable result and avoids a second visit six months later.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear, Pads, Rotors, and Calipers",
           "desc": "A4 brakes are capable but the stock pad and rotor combination tends to produce brake dust and wear at moderate mileage intervals. Rear calipers with integrated parking brake mechanisms can seize on older A4s that have spent Utah winters with road salt exposure. We inspect brake hardware at every service visit and carry quality replacement pads and rotors for every A4 generation.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, Carbon Buildup (Direct Injection)",
           "desc": "B8 and B9 A4s use gasoline direct injection (GDI), which means intake valves don't get the fuel-bath cleaning that port-injected engines receive. Carbon deposits accumulate on the intake valves over time, causing rough idle, hesitation, and eventually misfires. A check engine light with lean or misfire codes on a well-maintained A4 is often carbon buildup rather than a sensor failure. We diagnose the root cause before recommending a repair.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut and Shock Wear on High-Mileage A4s",
           "desc": "Utah roads, between the freeze-thaw cycles that create potholes and the rough canyon roads A4 owners tend to use, are hard on suspension components. Worn struts on an A4 show up as a bouncy, unsettled ride, nose dive under braking, and accelerated tire wear on the outer edges. We inspect struts, mounts, and sway bar links as a system and replace what's actually worn.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -131,32 +131,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "EA888 2.0T tensioner, chain, and guide replacement, catch it early and avoid engine damage."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Plastic-impeller 2.0T TFSI water pump replacement before overheating causes head gasket damage."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for quattro A4s with clicking or popping on turns."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and rear caliper service for all A4 generations, including integrated parking brake calipers."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement, mounts, and sway bar links for A4s with high mileage or rough-road wear."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and anything else your A4 needs, one visit, one mechanic."
         }
@@ -251,31 +251,31 @@ module.exports = {
         {
           "title": "Timing Belt Service, 2.7T, 3.0T, and 4.2L V8",
           "desc": "The C5 and C6 A6 in 2.7T and 4.2L V8 configurations use an interference engine timing belt that must be replaced on schedule, typically at 75,000–90,000 miles. A belt failure on an interference engine causes immediate, severe internal engine damage. We replace the belt, tensioners, idlers, and water pump as a complete set. The labor overlap makes doing all components at once the smart financial decision, doing them separately costs you significantly more.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure and Overheating",
           "desc": "A6 water pumps, particularly on the 2.7T and 3.0T engines, are high-failure items. The 3.0T supercharged A6 has a known issue with the coolant pump impeller. Overheating on an A6 is a serious situation; the complex cylinder heads on these engines don't tolerate heat stress well. If your temperature gauge is climbing, stop driving and call us.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Air Suspension Faults (C6 and C7 A6)",
           "desc": "The adaptive air suspension system on C6 and C7 A6s is a comfort and handling asset, until the compressor wears out, an air strut develops a leak, or a height sensor fails. The car will either ride noticeably low, display a suspension warning light, or both. We diagnose which component is actually at fault before recommending a replacement, which can save you from replacing a $600 compressor when the real problem is a $40 height sensor.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Wear and Caliper Issues",
           "desc": "A6 brakes perform well but wear at rates that surprise owners who are accustomed to domestic vehicles. Rear calipers with the integrated electric parking brake mechanism on C7 and C8 models require a specific process for compression, you can't use a standard piston tool. We have the correct equipment and know the procedure for every A6 generation.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust and Catalytic Converter Issues",
           "desc": "C5 and C6 A6 exhaust systems, especially the twin-pipe setups on 2.7T models, develop flex pipe cracks and catalytic converter failures as they age. A check engine light with P0420 or P0430 codes often points to downstream O2 sensor failure or an aging catalytic converter. We diagnose the actual cause before recommending a converter replacement.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -315,32 +315,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt service for 2.7T and 4.2L V8 A6 engines, belt, tensioners, idlers, and water pump."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Coolant pump replacement for 3.0T supercharged and 2.7T A6 engines before overheating causes head damage."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension / Strut Service",
           "desc": "Accurate air suspension diagnosis and replacement, compressor, air struts, and height sensors for C6 and C7 A6."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake service including integrated electric parking brake caliper procedure for C7 and C8 A6 models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Diagnosis and replacement of exhaust and catalytic converter issues on C5 and C6 twin-pipe A6 setups."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full multi-point inspection, fluid services, and all maintenance your A6 needs, one visit."
         }
@@ -423,37 +423,37 @@ module.exports = {
         {
           "title": "Timing Chain Tensioner (2.0T EA888)",
           "desc": "The EA888 2.0T in the 8R Q5 is particularly susceptible to timing chain tensioner wear, it's a hydraulic tensioner that loses pressure when oil is old or low. The symptom is a brief cold-start rattle that disappears after oil pressure builds. Ignore it long enough and the chain can jump a tooth, causing misfires or serious engine damage. We inspect the tensioner and chain together and replace them as a system when there's any sign of wear.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Coolant Pump Failure and Overheating",
           "desc": "Later 2.0T EA888 variants use an electric auxiliary coolant pump that fails with some regularity, it's a point of vulnerability that Audi improved in later production runs but that remains a common repair item. If your Q5's temperature gauge is behaving abnormally, coolant is leaking, or you see steam from the engine bay, stop and call us. Driving through an overheat on a turbocharged engine causes expensive damage.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle Wear on Quattro Models",
           "desc": "Front CV axles on high-mileage Q5s, especially those used in winter conditions with road salt, develop worn joints and cracked boots. The first indication is a popping or clicking sound during low-speed turns. We replace the complete axle shaft for a durable repair that doesn't leave you dealing with a boot failure a few months later.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Service and Rear Caliper Wear",
           "desc": "Q5 brake pads and rotors wear at moderate intervals, and the rear calipers on later models require specific tooling for the integrated electric parking brake piston. We carry the correct equipment for every Q5 generation and use quality replacement components that hold up to Utah mountain driving.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Suspension, Struts and Control Arm Bushings",
           "desc": "Utah's pothole-riddled roads after winter are hard on Q5 suspension components. Control arm bushings on 8R Q5s crack and deteriorate over time, causing a vague, wandering steering feel. Strut mounts wear and produce a clunking noise over bumps. We inspect the full suspension geometry when these symptoms appear and replace only what's actually failed.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Carbon and Lean Codes",
           "desc": "Direct injection Q5s accumulate carbon deposits on intake valves over time, the same issue as on the A4 and A6. The result is rough idle, hesitation under load, and eventually lean or misfire codes. We diagnose the actual cause of your Q5's check engine light rather than clearing codes and hoping for the best.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -493,32 +493,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "EA888 2.0T timing chain tensioner and chain replacement, catch it at the rattle stage, not the damage stage."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump / Coolant Pump",
           "desc": "Electric auxiliary coolant pump replacement for 2.0T Q5 models before an overheat causes turbo or engine damage."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for quattro Q5s clicking or popping through turns."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake service including rear integrated electric parking brake caliper procedure for all Q5 generations."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut and Suspension Service",
           "desc": "Strut replacement, control arm bushing inspection, and sway bar links for Q5s showing wear from Utah roads."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, all fluid services, and anything else your Q5 needs, handled in one visit."
         }
@@ -597,31 +597,31 @@ module.exports = {
         {
           "title": "Timing Belt Service, 3.6L FSI and 4.2L V8",
           "desc": "First-generation Q7s equipped with the 3.6L FSI V6 and 4.2L FSI V8 use an interference engine timing belt that must be replaced at intervals, typically 75,000–90,000 miles or every 8 years, whichever comes first. A Q7 that was driven lightly may have an aged belt that's never been changed. Belt failure on an interference engine causes immediate, catastrophic internal engine damage with no warning. We replace the belt, all tensioners and idlers, and the water pump as a complete service.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Air Suspension, Compressor, Struts, and Sensors",
           "desc": "Q7 air suspension provides an exceptional ride, and when it fails, the car either sits low, rides inconsistently, or displays a suspension warning light. The most common failure on the 4L generation is the air compressor wearing out; 4M models also develop strut leaks and height sensor faults. We diagnose which component has failed before recommending a replacement, which consistently results in a more accurate repair.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump and Coolant System",
           "desc": "The Q7's 3.0T supercharged engine, used in the SQ7 and Q7 V6, has a known coolant pump vulnerability. Water pump failure on the 3.6L and 4.2L engines is often a maintenance timing issue, it frequently coincides with timing belt service, and doing both at the same time is the cost-efficient decision. We check coolant condition and pump function at every service on higher-mileage Q7s.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Service: Large Rotors and Electric Parking Brake",
           "desc": "The Q7's substantial curb weight demands quality brake components and regular inspection. The factory rotors are large and the vehicle's weight puts real thermal load on pads during mountain descents on Utah canyon roads. Rear brake calipers with integrated electric parking brake actuators require specific retraction tools and procedures. We have the correct equipment and regularly service Q7 brakes.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust and Catalytic Converter Service",
           "desc": "Older 4L Q7s develop exhaust flex pipe cracks near the manifold, a common result of the engine's torque load on an aging exhaust system. Catalytic converter codes on a well-maintained Q7 are worth diagnosing carefully; the issue is sometimes the O2 sensor rather than the converter itself. We verify the root cause before recommending a converter replacement.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -661,32 +661,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt service for Q7 3.6L FSI and 4.2L V8, belt, tensioners, idlers, and water pump."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension Service",
           "desc": "Accurate diagnosis and component replacement for Q7 air suspension, compressor, struts, and height sensors."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Coolant pump service for Q7 3.0T and V6 FSI engines, often combined with timing belt service for cost efficiency."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full Q7 brake service including large-rotor replacement and electric parking brake caliper procedure."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Exhaust and converter diagnosis on Q7 models, root cause identified before recommending replacement."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full multi-system inspection, fluid services, and all maintenance items, everything your Q7 needs in one visit."
         }
@@ -773,31 +773,31 @@ module.exports = {
         {
           "title": "DSG Shudder and Low-Speed Hesitation",
           "desc": "The S-tronic DSG dual-clutch transmission in 8P and 8V A3s develops a characteristic shudder or hesitation at low speeds, typically when pulling away from a stop, when the transmission fluid and mechatronic unit are overdue for service. This is not a mechanical failure; it's a maintenance issue. DSG fluid degrades and causes clutch pack slippage. The service requires specific fluid and proper fill volume, not a generic transmission fluid change. After proper service, the shudder typically resolves.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Timing Chain Tensioner (2.0T EA888)",
           "desc": "Same tensioner issue as the A4 and Q5, the 2.0T EA888 timing chain tensioner loses hydraulic pressure when oil is old or low, producing a brief metallic rattle on cold startup. On a compact car like the A3 this is easy to miss or dismiss as normal cold-engine noise. It isn't. We inspect tensioner function and chain stretch on every higher-mileage 2.0T A3 that comes in.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Front CV axles on A3s see regular wear, particularly on quattro models and on front-wheel-drive A3s driven in Utah winters with road salt. A popping or clicking sound during low-speed turns is the classic symptom of a worn CV joint. We replace the complete axle shaft for a repair that holds up rather than a boot-only patch that fails in another season.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Clutch Wear on Manual and S-Tronic Models",
           "desc": "Manual A3s, particularly S3 models and 8P sports versions, see clutch wear from the way they're typically driven. A clutch that slips under hard acceleration, requires a high engagement point, or produces a burning smell under load needs attention before the pressure plate is damaged. We service clutches on all manual A3 models and can advise on timing if you're experiencing early-wear symptoms.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Service and Wear Rates",
           "desc": "A3 brakes are sized appropriately for the car's weight, but the OEM pads tend toward the dusty side and wear at moderate intervals. If you hear squeaking or grinding, or if the brake pedal feels softer than it used to, bring it in. We inspect pad thickness, rotor condition, and caliper function, and recommend replacement only when the measurements call for it.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         }
       ],
@@ -837,32 +837,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "EA888 2.0T timing chain tensioner inspection and replacement on 8V and 8Y A3 models."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual and S-tronic clutch service for A3 and S3, OEM-spec clutch kits and proper break-in."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for clicking or popping A3s, all drive configurations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for all A3 generations, measured before recommended."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection including DSG fluid check, all fluid services, and A3 maintenance, one visit."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and rear shock replacement for A3s with bounce, wander, or noise over bumps."
         }
@@ -949,37 +949,37 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual TTs",
           "desc": "Manual TTs, particularly in quattro configuration, see clutch wear that accelerates with spirited driving. The engagement point gradually moving higher, slipping under hard acceleration, or a burning smell during aggressive driving are all signs the clutch assembly is approaching end of life. We carry quality clutch kits for every manual TT generation and include flywheel resurfacing inspection with every clutch job.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Timing Chain Tensioner (2.0T 8J and 8S)",
           "desc": "The EA888 2.0T in second and third generation TTs shares the same timing chain tensioner vulnerability as the A4, A3, and Q5 of the same era. A brief metallic rattle on cold startup, especially on a TT that hasn't had consistent oil changes, is the early warning sign. We inspect timing chain condition on every 2.0T TT over 60,000 miles that comes in.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Low-Speed Turns",
           "desc": "High-mileage TTs develop worn CV joints, a product of the front suspension geometry combined with the way TTs get driven. The clicking or popping on low-speed turns is unmistakable once it starts. We replace the complete axle shaft rather than attempting a boot-only repair, which is particularly important on a car that may be driven with any enthusiasm post-repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "DSG Shudder on S-Tronic TT Models",
           "desc": "S-tronic-equipped TTs develop the same low-speed shudder as the A3 and A4 with the DSG when the transmission fluid service is overdue. It's a clutch pack lubrication issue, not a mechanical failure, but it needs to be addressed with the correct procedure and fluid before it becomes one. We see this regularly on 8J TTs with 50,000+ miles and no DSG service on record.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "The TT's sporty suspension tuning means it transmits more road feel than a comfort-oriented car, which also means strut wear shows up more noticeably when it starts. A TT that bounces through corners, clunks over bumps, or wanders at speed has likely worn through its strut mounts or strut bodies. Utah's roads, with their combination of canyon curves and pothole-riddled city streets, accelerate this wear.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Noise and Catalytic Converter",
           "desc": "An exhaust that suddenly sounds louder than usual on a TT could be a cracked flex pipe, a loose connection at the manifold, or a failing catalytic converter. The compact underbody layout of the TT makes exhaust components more susceptible to road debris damage. We inspect the full exhaust path and identify the exact source before recommending any repairs.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1019,32 +1019,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual TT clutch replacement, all generations, OEM-spec kits, flywheel inspection, proper break-in."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "EA888 2.0T timing chain tensioner inspection and replacement for 8J and 8S TT models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for clicking or popping TTs, front-wheel-drive and quattro."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut service for TTs showing bounce, wander, or clunking, sport-tuned replacement components."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, manifold connection, and full exhaust path inspection and repair for noisy TT exhausts."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection including DSG fluid check, all fluid services, and maintenance, everything your TT needs."
         }
@@ -1135,37 +1135,37 @@ module.exports = {
         {
           "title": "Air Suspension Sag or Compressor Failure",
           "desc": "The A8's adaptive air suspension provides an exceptional ride, but the air struts and compressor have a finite lifespan, typically 80,000–120,000 miles in normal use. Utah's temperature extremes accelerate rubber bladder deterioration. Common symptoms include the car sitting lower on one corner overnight, a compressor that runs constantly, or a ride that has become harsh and unyielding. We replace air struts and compressors and verify the height sensors are calibrated correctly after the repair.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Timing Chain Rattle, 4.2 V8 and W12",
           "desc": "The 4.2-liter V8 found in D2 and D3 A8s and the 6.0-liter W12 in the A8 L both use timing chains that stretch with age and irregular oil change intervals. The classic symptom is a metallic rattle or ticking on cold startup that quiets once oil pressure builds. At that point the chain has already stretched, continued driving risks jumping a tooth and causing severe internal engine damage. We inspect the chain, tensioner, and guides and replace them as a set.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Service: Large Rotors and Calipers",
           "desc": "A8 brakes are substantial, large-diameter rotors with multi-piston front calipers. They perform extremely well but require quality replacement parts that meet the original spec. Using undersized or cheap rotors on an A8 results in brake fade under hard stops and accelerated pad wear. We use OEM-grade rotors and pads rated for the A8's curb weight and stopping demands.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Joint Wear on Quattro AWD",
           "desc": "Quattro all-wheel drive sends power to all four corners through CV joints that see significant stress on a heavy full-size sedan. Boot cracking from Utah's freeze-thaw cycles is the first sign of trouble, once grease escapes and grit enters, the joint itself follows. We replace complete axle shafts rather than repacking boots, giving you a more durable long-term result.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Oxygen Sensors and Catalytic Converters",
           "desc": "V8 A8s have four oxygen sensors, two upstream, two downstream, and catalytic converters on each bank. As mileage climbs, upstream O2 sensors degrade and trigger P0136 or P0156-series codes, and aging catalysts can trigger efficiency codes (P0420/P0430). We read the codes, verify what's actually at fault, and replace only what's needed.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Deterioration",
           "desc": "The A8's long wheelbase and low ride height mean exhaust components take road debris impacts more frequently than on a taller vehicle. Utah's road salt accelerates corrosion on mid-pipes and flex sections. A louder exhaust note or exhaust smell in the cabin is the first sign. We inspect the full exhaust path and repair or replace affected sections.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1205,32 +1205,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Strut Replacement",
           "desc": "Air spring and compressor replacement for A8 adaptive suspension, all D2, D3, and D4 platforms."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement on 4.2 V8 and W12 engines before cold-start rattle becomes major damage."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "OEM-grade rotors and pads for the A8's large-diameter brake system, front and rear."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Service",
           "desc": "Complete axle shaft replacement for Quattro drivetrain clicking or vibration."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "O2 sensor and cat replacement on V8 A8s, accurate code diagnosis before any parts are ordered."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and inspection, everything your A8 needs in one visit."
         }
@@ -1321,37 +1321,37 @@ module.exports = {
         {
           "title": "Supercharger Belt and Nose Cone, B8 3.0T",
           "desc": "The B8 S4's 3.0T supercharged engine uses an internal nose cone bearing that can fail and send debris through the supercharger. The first sign is often a grinding or whirring noise from the front of the engine at idle or under load. This is not a problem to defer, a failed nose cone bearing can destroy the supercharger entirely. We inspect the belt drive and nose cone bearing condition on every B8 S4 that comes in.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Clutch Wear on Manual S4 Models",
           "desc": "Manual B5 and B7 S4s driven in the mountains, which includes anyone who uses I-15 as a daily commute with the occasional canyon run, wear clutches harder than the same car would in flat-terrain daily driving. Symptoms include a high engagement point, clutch slip under power, or difficulty finding neutral at a stop. We carry OEM-spec clutch kits for all manual S4 generations and inspect the flywheel surface before recommending just a disc replacement.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Timing Chain Rattle, B5 2.7T and B7 4.2 V8",
           "desc": "The B5 2.7T has a well-documented timing chain tensioner failure mode, oil pressure-dependent tensioners lose preload as they age, and the chain goes slack on startup. The B7's 4.2 V8 has similar chain stretch concerns at high mileage. Both engines give a brief cold-start rattle as the first warning. Don't drive it in. These engines can jump timing and bend valves quickly once the chain is loose.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Joint Clicking on Quattro S4",
           "desc": "Quattro CV joints on the S4 take the torque of a performance engine through tight-angle cornering. Boot cracking from Utah's freeze-thaw cycles accelerates joint failure. Once clicking appears on turns, the joint is worn, it won't repair itself. We replace complete axle shafts for a more durable result than boot repacking alone.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear Under Performance Driving",
           "desc": "S4 brakes are sized for performance but wear faster when the car is driven accordingly. Canyon runs, mountain passes, and extended downhill braking all heat the brakes harder than commuter use. Squealing or grinding brakes on an S4 should be addressed promptly, driving a performance car on degraded brakes is a significant safety concern. We use OEM-grade pads and rotors rated for the S4's performance demands.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, Boost and Sensor Codes",
           "desc": "The S4's forced-induction engines, both the 2.7T turbos and the 3.0T supercharger, generate boost-related fault codes when sensors age or boost pipes develop cracks. Common codes include P0234 (overboost) and P0299 (underboost), often traced to a split charge pipe or failing boost pressure sensor. We diagnose the root cause rather than clearing the code and hoping it stays off.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -1391,32 +1391,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits for manual B5, B6, and B7 S4s, flywheel inspection, hydraulic system check, correct break-in procedure."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "B5 2.7T tensioner and chain replacement, B7 4.2 V8 chain and guide service, before cold-start rattle becomes engine damage."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "OEM-grade pads and rotors sized for the S4's performance demands, not undersized commuter components."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Service",
           "desc": "Full axle shaft replacement for Quattro clicking or vibration, all S4 generations."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic and inspection, supercharger belt check, fluid service, and anything else your S4 needs in one visit."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Mid-pipe, flex section, and resonator repair on all S4 generations, Utah road salt accelerates corrosion."
         }
@@ -1499,37 +1499,37 @@ module.exports = {
         {
           "title": "Clutch Wear, Manual Gated Transmission",
           "desc": "The manual R8's open-gate gearbox is an experience, but the clutch is a wear item like any other manual car's. R8 clutches driven on canyon roads or occasional track days wear faster than a commuter application. Symptoms include a high or inconsistent engagement point, slip under hard acceleration from lower gears, or difficulty finding neutral. We inspect the full clutch assembly and give you an honest assessment of remaining life before recommending replacement.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Pad and Rotor Service",
           "desc": "Steel-rotor R8s go through brake pads faster than most owners expect, especially with canyon or mountain driving. Squealing is the first sign that pads are approaching the wear limit. We use OEM-grade pads and rotors appropriate for the R8's braking demands and perform a proper bed-in procedure after installation.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Suspension, Shock and Strut Wear",
           "desc": "The R8's suspension is tuned for a specific balance of handling and compliance. Worn shocks change that balance. The car may feel more floaty over freeway expansion joints or less composed in corners. We inspect shock condition and replace them as a set when wear is confirmed, restoring the handling character the R8 was designed to deliver.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust Drone or Damage",
           "desc": "The R8's naturally aspirated V10 exhaust note is a significant part of the ownership experience. Impact damage from road debris, a real concern on Utah's canyon roads, can crack or dent mid-pipes and resonators, changing the exhaust character or adding a drone at certain RPMs. We inspect the full exhaust path and repair or replace damaged sections.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Check Engine Light, Emissions and Sensor Codes",
           "desc": "The R8's naturally aspirated V10 has two banks of sensors, oxygen sensors and catalytic converters on each side. Aging O2 sensors generate efficiency codes that trigger the check engine light at higher mileage. We diagnose the root cause accurately before recommending any parts, catalyst codes in particular have multiple possible causes.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Joint Wear on Quattro R8",
           "desc": "The R8 Quattro variant routes power through CV joints that see significant stress under the V10's torque. CV joint clicking on tight turns or a vibration at highway speed points to worn joints or a damaged axle shaft. We replace complete axle shafts rather than attempting boot-only repairs on a performance platform.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -1569,32 +1569,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual gated-transmission R8 clutch inspection and replacement, OEM-spec components, proper break-in."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "OEM-grade pads and rotors for steel-rotor R8s, correct bed-in procedure after every installation."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Suspension shock and strut service to restore the R8's factory handling character."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Mid-pipe and resonator repair for impact damage or corrosion, all R8 generations."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Service",
           "desc": "Complete axle shaft replacement for Quattro drivetrain clicking or vibration."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and current-condition inspection, one visit, honest assessment."
         }
@@ -1677,37 +1677,37 @@ module.exports = {
         {
           "title": "Timing Chain Noise, B8 2.0T",
           "desc": "The B8 A5's 2.0T engine, particularly models built before 2013, has a timing chain tensioner that can lose preload as miles accumulate. The first sign is a brief rattling noise on cold starts, a chain slap that quiets once oil pressure builds. Left unaddressed, the chain can stretch further and eventually skip teeth, causing serious valvetrain damage. We inspect chain tension and tensioner condition on every high-mileage B8 A5 visit.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual A5",
           "desc": "Manual A5 owners who enjoy the car in Utah's mountain canyons will wear clutches faster than a flat-road commuter. Symptoms include a high or grabby engagement point, slip under hard acceleration, or trouble finding neutral. We carry quality clutch kits for all manual A5 generations and inspect flywheel wear before recommending components.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "CV Joint Clicking and Vibration",
           "desc": "The A5 Quattro's CV boots crack in Utah's climate, allowing grease to escape and grit to enter. Once clicking begins on turns, most audible in parking lots at full steering lock. The joint itself is worn. We replace complete axle shafts for a durable repair rather than boot repacking alone.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "The A5's sport-tuned suspension puts more stress on strut components than a standard-height sedan. Over time, the strut damping degrades. The car feels floaty on freeway expansion joints or less composed in corners. We inspect strut condition and replace them as a set when wear is confirmed.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service",
           "desc": "A5 rear brakes wear faster than most owners expect, particularly on cars driven in the mountains where engine braking is supplemented by heavy brake use on descents. Squealing or grinding brakes need prompt attention. We use OEM-grade pads and rotors and inspect caliper condition during every brake service.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Check Engine Light",
           "desc": "The A5's most common check engine triggers at higher mileage are oxygen sensor degradation, catalytic converter efficiency codes, and evaporative emission system faults. We pull the codes, verify the root cause, and fix what's actually wrong, not just reset the light.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -1747,32 +1747,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "B8 2.0T chain, tensioner, and guide replacement, before cold-start rattle progresses to engine damage."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits for all manual A5 generations, flywheel inspection, hydraulic system check."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Service",
           "desc": "Complete axle shaft replacement for Quattro clicking or vibration, more durable than boot repacking."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut service to restore the A5's handling composure, done as a set."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "OEM-grade pads and rotors, rear brake wear is often faster than expected on canyon-driven A5s."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and inspection, everything your A5 needs in a single visit."
         }
@@ -1855,37 +1855,37 @@ module.exports = {
         {
           "title": "Timing Chain, 2.0T EA888",
           "desc": "The 2.0T EA888 engine in the Q3 uses a timing chain rather than a belt, but that chain is not maintenance-free. High-mileage examples, particularly those with inconsistent oil changes, can develop chain stretch or tensioner softening. Cold-start rattle that quiets once the engine warms up is the first sign. We inspect the chain and tensioner at every high-mileage visit and replace them before they become a more expensive problem.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Joint Wear on Quattro Q3",
           "desc": "The Q3 Quattro's CV boots crack from Utah's UV exposure and freeze-thaw cycling. Once a boot is torn and grease has escaped, the joint itself begins to wear, eventually producing that characteristic clicking on turns. We replace complete axle shafts for a durable repair and inspect both sides when one joint shows wear.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Strut Wear and Ride Quality",
           "desc": "The Q3's suspension handles Utah's variable road quality, from I-215 expansion joints to canyon pavement, on a daily basis. Worn struts make the car feel floaty over bumps or less composed in corners. We inspect strut condition and replace them as a set when wear is confirmed, restoring the Q3's intended ride and handling.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service",
           "desc": "Q3 brake wear is predictable and manageable when addressed at the right mileage. Rear brakes often wear faster than the fronts, especially on vehicles that see a lot of downhill driving. Squealing is the first sign pads are approaching their wear limit. We replace pads and rotors as a set per axle and inspect calipers for binding or seizing.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Check Engine Light, Common Emissions Codes",
           "desc": "The Q3's 2.0T generates check engine codes most frequently for oxygen sensor degradation, evaporative emission system faults (P0441/P0442), and occasionally catalytic converter efficiency codes at higher mileage. We read and verify the root cause before recommending any parts, clearing codes without fixing the cause wastes your money and won't pass Utah's emissions inspection.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Failed Emissions Inspection",
           "desc": "Utah's OBD emissions inspection checks for active fault codes and readiness monitors. A Q3 with a check engine light will fail automatically. Even after clearing codes, readiness monitors need to complete a specific drive cycle before the car will pass. We diagnose the underlying fault, fix it correctly, and advise you on the drive cycle needed to set the monitors before your inspection.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1925,32 +1925,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "EA888 2.0T chain and tensioner service, inspected proactively on high-mileage Q3s."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Service",
           "desc": "Complete axle shaft replacement for Quattro clicking on turns, both-side inspection when one joint shows wear."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut service to restore Q3 ride quality, done as a set per axle."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads and rotors per axle, rear brake wear monitoring on canyon-driven Q3s."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Accurate code diagnosis before any emissions or O2 sensor parts are ordered."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, and diagnostic, everything your Q3 needs in one visit."
         }
@@ -2037,37 +2037,37 @@ module.exports = {
         {
           "title": "Air Suspension Failure, C5 Allroad",
           "desc": "The C5 Allroad's pneumatic air suspension is the first thing that wears on these vehicles. Air struts begin to leak as the rubber bladders age, typically by 80,000–100,000 miles, and the compressor overworks trying to maintain pressure, eventually burning out as well. The car may sit low on one corner, ride harshly, or show a suspension fault on the instrument cluster. We diagnose which component has failed, replace what's actually needed, and verify the height sensors are calibrated correctly after the repair.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Timing Belt and Water Pump, C5 2.7T",
           "desc": "The C5 Allroad's 2.7T engine uses a timing belt, not a chain, and the water pump is driven off it. When the water pump impeller fails, coolant circulation stops, the engine overheats, and the heat can destroy the timing belt. Both components should be replaced together on any C5 Allroad that doesn't have a documented recent belt service. We also replace the tensioners, idler pulleys, and thermostat as part of this service, all the components that could cause you to come back early.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Timing Chain, B8/B9 2.0T EA888",
           "desc": "The newer Allroad generations use the 2.0T EA888 engine with a timing chain rather than a belt. High-mileage examples can develop chain stretch and tensioner wear. The first sign is a brief cold-start rattle. We inspect the chain and tensioner proactively on high-mileage B8 and B9 Allroads and replace them before the chain becomes a more expensive problem.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Joint Wear on Quattro Drivetrain",
           "desc": "Allroad CV joints see more stress than standard sedan joints, the slightly higher ride height changes CV joint angles, and the car is often driven on rougher terrain than a standard Audi sedan. Utah's gravel canyon roads and off-pavement use accelerate boot wear. Clicking on turns is the classic sign. We replace complete axle shafts and inspect both sides when one joint shows wear.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Service",
           "desc": "Allroad brake wear patterns are similar to the A4 and A6 platforms, with rear brakes often wearing faster than expected on vehicles used in mountain terrain. We service the full brake system, pads, rotors, calipers, and note any fluid condition concerns at every brake visit.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Water Pump Failure, Signs and Prevention",
           "desc": "On any Audi Allroad, the water pump is a time-sensitive component. On the C5 2.7T it fails catastrophically and takes the timing belt with it. On the 2.0T versions it can develop a coolant leak from the weep hole, an early warning sign you should not ignore. Engine temperature fluctuations, a sweet coolant smell, or a small puddle under the engine after sitting are all signs. We inspect the water pump at every major service on high-mileage Allroads.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -2107,32 +2107,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Strut Replacement",
           "desc": "C5 Allroad air spring and compressor replacement, with height sensor calibration after repair."
         },
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt and Water Pump",
           "desc": "C5 2.7T complete timing belt service, belt, tensioners, water pump, and thermostat replaced together."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "B8/B9 2.0T EA888 chain and tensioner replacement, proactive inspection on high-mileage examples."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump service on all Allroad generations, weep hole leaks caught early before they become engine damage."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint / Axle Service",
           "desc": "Complete axle shaft replacement for Quattro clicking on turns, both sides inspected when one shows wear."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and current-condition assessment, one visit, honest picture of your Allroad."
         }

@@ -49,37 +49,37 @@ module.exports = {
         {
           "title": "Brake Noise and Premature Wear",
           "desc": "CX-5 brakes tend to wear unevenly when rear caliper slides get sticky, a common issue in vehicles that see a lot of highway miles punctuated by canyon driving. If your brakes are squeaking or grinding, or if the car pulls slightly during stops, the calipers, pads, and rotors all need to be inspected together. We don't just swap pads and send you on your way.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut and Shock Wear on High-Mileage CX-5s",
           "desc": "Utah's roads, from I-15 construction zones to canyon switchbacks, are hard on suspension components. CX-5 struts that are worn out produce a bouncy, disconnected ride, reduced braking stability, and accelerated tire wear. If your ride quality has degraded noticeably or the front end dives hard under braking, it's time to have the struts inspected.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and O2 Sensor",
           "desc": "Skyactiv engines run a lean combustion cycle, which places specific demands on the catalytic converter and oxygen sensors. Higher-mileage CX-5s frequently trigger P0420 codes indicating catalytic efficiency below threshold. We verify the actual cause, worn cat, failed O2 sensor, or upstream issue, before recommending a repair.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "The rhythmic clicking you hear in parking lots or during low-speed turns is a worn outer CV joint. Once the boot tears and grease escapes, the joint wears quickly. We replace the complete axle shaft rather than attempting a boot-only repair, it's a more durable fix that holds up better over the long term.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust Leaks and Heat Shield Rattle",
           "desc": "CX-5 exhaust heat shields can loosen and rattle at highway speeds, and exhaust manifold gaskets on higher-mileage examples sometimes develop leaks. If you're hearing a metallic rattle under the car or a ticking sound from the engine bay that goes away when warmed up, bring it in, these are usually quick, inexpensive fixes when caught early.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Water Pump Service on 2.5T Turbocharged Models",
           "desc": "The turbocharged 2.5T in late-model CX-5s uses a separate electric water pump for turbocharger cooling. This auxiliary pump is a known wear item. If you see an overheating warning or notice the coolant level dropping with no obvious external leak, the auxiliary pump circuit is one of the first things we check.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -119,32 +119,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, and caliper inspection for all CX-5 generations, front and rear."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut replacement to restore ride quality and braking stability on high-mileage CX-5s."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking or vibration during turns."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis, OEM-quality replacement, and O2 sensor verification for Skyactiv engines."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Primary and auxiliary water pump service for 2.5T turbocharged CX-5 models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid inspection, and anything else your CX-5 needs, one visit."
         }
@@ -227,31 +227,31 @@ module.exports = {
         {
           "title": "Timing Chain Service on First-Gen V6",
           "desc": "The 3.7L V6 in first-generation CX-9s is a robust engine, but high-mileage examples with irregular oil changes can develop timing chain wear. An early rattling noise on cold startup that clears once oil pressure builds is the most common indicator. A stretched chain that's allowed to jump timing can cause catastrophic valve damage, we catch and address this before it becomes an engine replacement conversation.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear Across All Three Axle Positions",
           "desc": "CX-9s loaded with passengers and cargo put significant demand on the brake system. Rear brakes in particular see accelerated wear when the caliper slides seize up, common in vehicles that regularly see winter road salt. If you're getting brake noise, a soft pedal, or a pulling sensation when stopping, all four corners need to be inspected, not just the noisy side.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Shock Absorber Wear on High-Mileage CX-9s",
           "desc": "A three-row crossover loaded to capacity wears out shocks faster than a lighter vehicle. If your CX-9 feels wallowy on the highway, takes extra time to settle after bumps, or has visible fluid leakage on the shock bodies, replacement is overdue. Worn shocks also compromise braking distance, a real concern in a heavier family vehicle.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump Failure on 2.5T Models",
           "desc": "The turbocharged 2.5T in second-generation CX-9s uses both a mechanical and an auxiliary electric water pump for the turbocharger cooling circuit. The auxiliary pump is a known wear item. Symptoms include intermittent overheating warnings, coolant smell from the engine bay, or coolant level that drops without an obvious external leak.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust System Corrosion and Heat Shield Issues",
           "desc": "Utah winters mean road salt, and road salt attacks exhaust system fasteners, flex pipes, and heat shields. Loose heat shields rattle at highway speeds and can eventually separate. Corroded flex pipes develop exhaust leaks that cause a ticking or hissing sound from under the vehicle. We address these before they become larger issues.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -291,32 +291,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide inspection and replacement for high-mileage first-gen 3.7L V6 models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection and service for all four corners, pads, rotors, calipers, and slides."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Rear and front shock replacement to restore ride quality and handling stability on high-mileage CX-9s."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Mechanical and auxiliary water pump service for second-gen turbocharged CX-9 models."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Heat shield, flex pipe, and exhaust manifold gasket repair for corrosion-related issues."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluids, and inspection, everything your CX-9 needs in one visit."
         }
@@ -403,31 +403,31 @@ module.exports = {
         {
           "title": "Clutch Wear on Manual Mazda3s and Mazdaspeed3",
           "desc": "Manual Mazda3 clutches hold up well under normal commuting, but spirited driving, mountain passes, and city stop-and-go driving each accelerate wear in different ways. Mazdaspeed3 clutches take extra abuse from the turbocharged torque load. Signs of a worn clutch include slipping under hard acceleration, a high or grabby engagement point, or grinding when finding gears. We carry clutch kits for every manual Mazda3 generation.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "CV Axle Wear and Clicking on Turns",
           "desc": "Front-wheel-drive Mazda3s develop CV joint wear when the outer boot tears and the joint loses its grease. In Utah winters, the combination of cold temperatures and road grit accelerates this process. The characteristic clicking on turns, louder under load, typically on one side, means the joint is worn and needs replacement. We replace the full axle shaft, not just the boot.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Timing Chain Inspection on High-Mileage BK and BL",
           "desc": "First- and second-generation Mazda3s with the 2.0L and 2.3L engines are well into high-mileage territory. Timing chains on oil-change-neglected examples can stretch and develop slack. A metallic rattle on cold startup that clears once oil pressure builds is the early indicator. We inspect the chain, tensioner, and guides as part of any high-mileage diagnosis on older Mazda3s.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Fade and Rear Caliper Issues",
           "desc": "Mazda3 rear calipers are prone to seizing on vehicles that spend winters in salty conditions, and Utah roads get salted heavily. A seized rear caliper drags the brake, causing rapid pad wear on one side, a burning smell after highway driving, and uneven braking. We inspect caliper slides and pistons as part of every brake service.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Check Engine Light on Skyactiv Models",
           "desc": "Third- and fourth-generation Mazda3s with Skyactiv-G engines occasionally trigger codes related to the carbon buildup in the intake valves, a direct-injection characteristic. We see P0300 misfires and intake-related codes. We diagnose the root cause accurately before recommending any repair, and we don't clear codes without fixing what set them.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -467,32 +467,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits for all manual Mazda3 generations, including Mazdaspeed3 turbocharged models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full axle shaft replacement for clicking or vibration on turns, all Mazda3 generations."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide inspection and replacement for high-mileage BK and BL Mazda3 engines."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake service including rear caliper slide inspection, critical for Utah winter salt exposure."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement to restore the sharp handling the Mazda3 is known for."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, and inspection, everything your Mazda3 needs in one visit."
         }
@@ -579,31 +579,31 @@ module.exports = {
         {
           "title": "Timing Chain Wear on 2.3L and 2.5L Engines",
           "desc": "High-mileage first- and second-gen Mazda6s with the 2.3L engine, and third-gen models with the Skyactiv 2.5L approaching 120,000+ miles, are candidates for timing chain inspection. Cold-start rattle that clears after 5–10 seconds is the earliest sign. We inspect the chain, tensioner, and guide rails, and if the chain is worn, we replace the complete set rather than just the chain.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "The Mazda6's more performance-oriented suspension geometry means worn struts are more noticeable here than on softer midsize sedans. Front strut wear shows up as vague steering, excessive dive under braking, and a floaty highway feel that wasn't there when the car was new. If your Mazda6 doesn't feel as sharp as it used to, suspension inspection is the place to start.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake System Service",
           "desc": "Mazda6 brake wear is generally predictable, but rear calipers, especially on cars exposed to Utah road salt, can seize and cause uneven wear. If your Mazda6 is pulling during stops, grinding, or showing the brake warning light, all four corners need to be checked. We don't just replace the noisy side and call it done.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Axle and Drivetrain Clicking",
           "desc": "Front-drive Mazda6s develop the same CV joint wear patterns as other front-wheel-drive Mazda platforms. The outer CV joint is the more common failure point, clicking on turns, louder under acceleration. We replace the full axle shaft for a more reliable repair than a boot-only patch.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust System Corrosion",
           "desc": "Older Mazda6s, especially first-gen models now 15+ years old, see significant exhaust system corrosion in Utah's climate. Flex pipe failures, manifold gasket leaks, and corroded mid-pipe sections are common. A ticking or hissing sound from the engine bay, or a change in exhaust note, usually indicates an exhaust leak worth investigating.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -643,32 +643,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide rail replacement for high-mileage 2.3L, 2.5L, and V6 Mazda6 engines."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut service to restore the Mazda6's signature handling feel."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full four-corner brake inspection, pads, rotors, and caliper service, including rear caliper slides."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full axle shaft replacement for clicking or drivetrain vibration on front-drive Mazda6 models."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, manifold gasket, and mid-pipe repair for corrosion-related exhaust failures on older models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and inspection, everything your Mazda6 needs in one visit."
         }
@@ -755,31 +755,31 @@ module.exports = {
         {
           "title": "Clutch Wear. Every Generation",
           "desc": "The Miata's lightweight chassis and rev-happy engine make it a pleasure to drive with a manual gearbox, and a pleasure to drive means the clutch works harder than it would in a commuter sedan. NA clutches driven enthusiastically may need replacement around 60,000–80,000 miles. NB and NC clutches similar. ND clutches are more robust but not immune. Signs include a high engagement point, slipping under hard acceleration, or a grinding sensation when moving between gears. We've done clutch replacements on all four Miata generations.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Timing Belt Service on NA and NB",
           "desc": "The 1.6L and 1.8L B-series engines in NA and NB Miatas use a rubber timing belt that must be replaced on schedule, Mazda's interval is every 60,000 miles, but many NA and NB Miatas on the road have unknown service histories. An interference engine means a broken belt equals bent valves. We replace the belt, tensioner, idler pulley, and water pump as a complete kit, doing half the job is not worth the risk on an engine this valuable to its owner.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust and Catalytic Converter",
           "desc": "Miata exhausts are a frequent modification target, but stock systems on NA and NB cars are now old enough to develop genuine rust issues, flex pipes, mid-pipes, and manifold studs are all common failure points. NC and ND catalytic converters occasionally trigger efficiency codes. We service stock and modified exhaust systems and can address whatever your Miata needs in this area.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Shock and Strut Replacement for Handling",
           "desc": "An NA or NB Miata with worn shocks is a significantly different driving experience than it should be. The chassis becomes vague, the back end moves around, and you lose the confidence that makes the car fun. We inspect shock condition and mounting hardware on every high-mileage Miata and recommend replacement when it'll make a meaningful difference to the driving experience.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service and Rotor Wear",
           "desc": "Miata brakes are sized to the car's weight, which means they're relatively small and can fade if overworked on canyon descents. Rotor warping from repeated hard stops, pad glazing, and caliper wear are all things we see on Miatas used for spirited driving. If your Miata has brake pulsation, pulls on stops, or feels spongy, don't put off having it looked at.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         }
       ],
@@ -819,32 +819,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "OEM-spec clutch kits for NA, NB, NC, and ND Miatas, flywheel resurfacing and hydraulic inspection included."
         },
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete belt, tensioner, idler, and water pump replacement for NA and NB Miata B-series engines."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, mid-pipe, and manifold stud repair for aging NA and NB exhaust systems."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Front and rear shock service to restore handling precision on high-mileage NA and NB Miatas."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, pad and rotor service for Miatas used in canyon driving and performance use."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and inspection, everything your Miata needs, one visit."
         }
@@ -935,31 +935,31 @@ module.exports = {
         {
           "title": "Clutch Wear and Hydraulic Failure",
           "desc": "RX-7 clutches, especially on FC and FD cars driven enthusiastically, wear at rates that depend heavily on driving style. The FD six-speed's clutch hydraulic system uses a remote slave cylinder that is a known wear item; a leaking or failed slave cylinder produces a clutch pedal that slowly falls to the floor and doesn't spring back with normal feel. We replace complete clutch kits and inspect the hydraulic circuit on every clutch job.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Water Pump and Cooling Circuit Service",
           "desc": "The rotary engine makes heat in proportion to how hard it's working, and the cooling system has to be in excellent condition to manage it. A worn water pump impeller, a known failure mode on high-mileage rotaries, reduces coolant flow without necessarily triggering an overheating light until the situation is serious. We service the full cooling circuit: water pump, thermostat, hoses, and coolant condition.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust Leaks and Catalytic Converter Issues",
           "desc": "FC and FD RX-7 exhaust manifold gaskets are prone to leaking after many heat cycles. The symptom is a ticking or hissing from the engine bay that intensifies under load. FD catalytic converters are also expensive and occasionally trigger check engine lights when their efficiency drops. We diagnose the actual cause before recommending a replacement.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Brake Service: All Generations",
           "desc": "RX-7 brakes are performance-oriented and appropriately sized for the car's weight. Calipers on older SA, FB, and FC cars can seize from decades of use and intermittent storage. FD brake components are still serviceable but require attention on high-mileage cars. We inspect full brake system condition on every RX-7 visit and address what actually needs attention.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "CV Axle and Drivetrain Service",
           "desc": "The front CV joints on front-wheel-affected models and rear axle components on all RX-7 generations require attention as mileage climbs. Clicking on turns, or vibration under acceleration, are signs the drivetrain components need inspection. We diagnose and address these before they cause secondary damage.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -999,32 +999,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Complete clutch kit replacement for FC and FD RX-7s, hydraulic system inspection included."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Full cooling circuit service including water pump, thermostat, and coolant replacement."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gasket, flex pipe, and heat shield repair for FC and FD exhaust systems."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake inspection, caliper service, pads and rotors for all RX-7 generations."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "FD catalytic converter diagnosis and OEM-quality replacement for emissions and performance."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, fluid service, and diagnostics, everything your RX-7 needs, one visit."
         }
@@ -1104,31 +1104,31 @@ module.exports = {
         {
           "title": "CV Axle Clicking on Low-Speed Turns",
           "desc": "A rhythmic clicking when turning at low speed, pulling out of a parking space or making a slow corner, is a worn CV joint. The CX-3's compact front axles are not immune to this failure, particularly on higher-mileage examples. Once the protective boot cracks and the grease escapes, the joint wears fast. We replace the complete axle shaft rather than attempting a boot-only repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Wear, Rear Pads First",
           "desc": "Mazda's brake bias on the CX-3 results in rear brake pads wearing at a pace that surprises many owners. By the time the fronts look marginal, the rears may already be metal-on-metal. We inspect all four corners at every service visit and give you a clear picture of remaining brake life before you're dealing with a rotor replacement that could have been avoided.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut and Shock Wear on Utah Roads",
           "desc": "South Salt Lake's potholed streets and the jarring transitions coming off I-15 ramps accelerate strut wear on small crossovers like the CX-3. A bouncy, unsettled ride, especially over highway expansion joints, and longer stopping distances are the main signs. We inspect both struts and shocks and replace them in axle pairs for even handling.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter Codes",
           "desc": "P0420 catalyst efficiency codes are common on higher-mileage CX-3s. Before replacing the catalytic converter, we verify the root cause, a genuine worn-out cat versus an upstream oxygen sensor failure or an exhaust leak fooling the system. We fix the actual problem, not just the symptom.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Rust and Leaks",
           "desc": "Utah's winter road salt is hard on exhaust systems, and the CX-3's low ground clearance means the underside gets a direct hit. Rust-through at the flex pipe or mid-pipe connections causes a ticking or hissing exhaust note under acceleration. We inspect the full system and weld or replace what's necessary.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -1168,32 +1168,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for clicking on turns, more reliable than boot-only repairs on aging CX-3 axles."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Rear brake inspection and pad/rotor replacement, CX-3 rears wear faster than most owners expect."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Paired strut replacement to restore CX-3 handling on Utah's rough road surfaces."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and cat replacement, we verify root cause before recommending converter replacement."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, mid-pipe, and exhaust joint repairs for CX-3s showing salt corrosion damage."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and everything else your CX-3 needs, one visit."
         }
@@ -1273,31 +1273,31 @@ module.exports = {
         {
           "title": "Brake Noise and Premature Wear",
           "desc": "Utah drivers who frequent mountain canyons or the long downhill runs coming into Salt Lake Valley put significant thermal stress on brake components. CX-30 brakes are well-sized for the vehicle's weight, but aggressive driving or towing habits can accelerate pad wear. Squealing is usually the first warning, if you're hearing grinding, you're already into rotor damage territory.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut Wear from Utah Road Conditions",
           "desc": "The CX-30 rides on a tuned sport suspension that's stiffer than average for its class, which means it also transmits road impacts more directly to the strut hardware. South Salt Lake's rough pavement and the jarring transitions on I-15 ramps can accelerate strut wear. A bouncy, unsettled ride or a clunking noise over expansion joints are the main symptoms.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light on 2.5T Models",
           "desc": "The turbocharged CX-30 is more sensitive to oil quality than the naturally aspirated version. Running past the oil change interval, using lower-viscosity oil than specified, or extended low-speed city driving can trigger oil pressure or engine management codes. We read the codes, check oil condition, and identify the root cause, not just clear the light.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust System Corrosion",
           "desc": "Winter road salt in the Salt Lake Valley attacks exhaust system components, and the CX-30's low profile means the underside takes the full brunt. Rust at flex pipe connections or mid-pipe joints produces a hissing or ticking exhaust note under acceleration. We inspect the full exhaust system and address corrosion before it becomes a complete system replacement.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "CV Axle Wear on AWD Models",
           "desc": "AWD CX-30s put additional stress on front CV axles under full-throttle acceleration and tight-turn maneuvering. Clicking on turns at low speed, particularly noticeable in parking lots, is the tell-tale sign of a worn outer CV joint. We replace the complete axle assembly for a reliable, long-term fix.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -1337,32 +1337,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper inspection for CX-30s used on Utah canyon roads and mountain passes."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Paired strut replacement to restore the CX-30's sport-tuned handling on worn components."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for CX-30 AWD models showing clicking on turns."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe and exhaust joint repairs for CX-30s with winter salt corrosion damage."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "P0420 diagnosis and converter replacement, we verify the root cause before recommending cat replacement."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, fluid checks, and all scheduled maintenance for your CX-30 in one visit."
         }
@@ -1447,37 +1447,37 @@ module.exports = {
         {
           "title": "Hard Start or No-Start After Short Trip",
           "desc": "The most common RX-8 complaint is a no-start or very hard start, especially after a short cold-weather trip. Unburned fuel floods the rotary's combustion chambers when the engine is shut off before reaching full operating temperature. The fix for a mild flood is a high-RPM crank with the fuel pump disabled. Chronic flooding that's happened repeatedly points to deeper carbon buildup issues. We diagnose the severity and advise on the correct repair.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Low Compression, Apex Seal Wear",
           "desc": "The Renesis engine's apex seals are the rotary equivalent of piston rings. When they wear, from overheating, detonation, or neglected oil consumption, compression drops. Symptoms include loss of power, misfires, excessive oil consumption, and white smoke from the exhaust. A rotary compression test gives us the definitive answer. Below spec compression on one or both rotors means a rebuild or engine replacement is in your near future.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Clutch Wear on 6-Speed Models",
           "desc": "The RX-8's 6-speed manual pairs a high-revving rotary with a clutch that sees high slip loads when driven correctly. The engine lives above 5,000 RPM. Clutch life varies widely: 40,000–80,000 miles depending on driving style. A high, grabby engagement point or slipping under hard acceleration means it's time. We replace the clutch assembly with quality components and inspect the flywheel.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Ignition Coil and Plug Failures",
           "desc": "The Renesis uses two spark plugs per rotor face, four plugs total, and the ignition coils on Series I cars (2003–2008) are a known weak point. Misfires, rough idle, and a check engine light with cylinder-specific misfire codes often trace back to a failing coil or fouled plug. We inspect and replace ignition components and advise on the correct heat-range plugs for the rotary.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Exhaust Flooding and Catalytic Converter Damage",
           "desc": "Repeated cold-start floods push unburned fuel through the exhaust system, which overheats and damages the catalytic converter. A clogged or damaged cat restricts exhaust flow and causes power loss, rough running, and emissions failure. We inspect the cat condition and advise on replacement if damage is confirmed.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "CV Axle Wear on High-Mileage Examples",
           "desc": "The RX-8 is rear-wheel drive, but the front CV axles on older examples do wear, especially on cars used for spirited driving where steering input combines with hard acceleration. Clicking on turns at low speed is the symptom. We replace the complete axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -1517,32 +1517,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "6-speed RX-8 clutch replacement, complete kit with flywheel inspection, correct procedure for the rotary's high-rev character."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Flood-damaged cat diagnosis and replacement, we verify the extent of damage before recommending converter replacement."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust system inspection and repair for RX-8s with flooding damage or corrosion-related leaks."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Front axle replacement for high-mileage RX-8s showing clicking on turns."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "RX-8 brake inspection, the rotary's weight balance makes brake feel a defining characteristic worth preserving."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full rotary-aware inspection, oil service, compression test when needed, and all other services in one visit."
         }
@@ -1632,31 +1632,31 @@ module.exports = {
         {
           "title": "Timing Belt Service on 2.0L Four-Cylinder",
           "desc": "The 2.0L Tribute engine uses a rubber timing belt that Mazda specifies for replacement at 60,000 miles. This is a non-negotiable interval. A snapped belt means bent valves and an engine rebuild. When we replace the timing belt we always include the water pump, tensioner, and idler pulleys in the same service. The water pump is driven by the same belt, and replacing it separately later means pulling the whole belt again.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Wear on 4WD Models",
           "desc": "Tribute 4WD front CV axles take additional stress from full-time AWD operation and Utah's rough roads. The clicking on turns that signals CV joint failure is often preceded by a torn boot, grease on the inside of the wheel well is an early warning sign. We replace the complete axle shaft and inspect the 4WD actuator while we're in there.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake System Wear, All Four Corners",
           "desc": "Tributes used for mountain driving or towing see accelerated brake wear. The rear drums on early models and rear discs on later ones both need periodic inspection. We check all four corners at every service visit, rear brake wear is often underestimated until it becomes a rotor replacement.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Water Pump Failure on High-Mileage Engines",
           "desc": "Water pump failure on the 3.0L V6 typically shows up between 90,000 and 130,000 miles, a coolant leak from the pump weep hole or an overheating condition as the impeller fails. Catching it before it strands you is important; a failed water pump in Utah summer heat can lead to a warped head. We inspect the water pump at every cooling system service.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Strut Wear on High-Mileage Tributes",
           "desc": "Tributes driven on rough Utah roads or used for off-road duty wear struts faster than highway-only vehicles. A bouncy, floaty ride, clunking over expansion joints, or unusual tire wear patterns are the indicators. We replace struts in axle pairs and inspect the associated steering hardware at the same time.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -1696,32 +1696,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "60,000-mile timing belt service on 2.0L Tributes, belt, water pump, tensioner, and idler as a complete package."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "V6 water pump replacement, we catch failure before it becomes an overheating and head damage situation."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete front axle shaft replacement for Tribute 4WD models showing clicking on turns."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full four-corner brake inspection, pad and rotor replacement for Tributes used in Utah mountain driving."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Paired strut replacement for high-mileage Tributes showing ride quality or tire wear issues."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and all scheduled maintenance for your Tribute in one visit."
         }
@@ -1821,31 +1821,31 @@ module.exports = {
         {
           "title": "Timing Belt Replacement, All Engines",
           "desc": "Every Mazda 626 engine uses a rubber timing belt. The replacement interval is 60,000 miles, and these are interference engines. A snapped belt means bent valves and an engine rebuild. We do the complete service: belt, water pump, tensioner, and idler pulleys together. The water pump is belt-driven on these engines, and replacing it at the same time avoids paying for labor twice.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual Transmission Models",
           "desc": "Manual 626s driven the way Mazda intended wear clutches at a pace that depends heavily on driving style and traffic habits. Salt Lake Valley stop-and-go commuting is particularly hard on clutches. A high, slipping engagement point or difficulty getting into gear are the main symptoms. We replace the clutch assembly with quality components and inspect the flywheel surface.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Automatic Transmission Issues on V6 Models",
           "desc": "The 4th and 5th generation 626 V6 automatics have a documented history of premature failure when ATF changes are deferred. The fluid degrades, loses its friction modifier characteristics, and accelerates wear in the valve body and clutch packs. Symptoms include slipping between gears, harsh shifts, and delayed engagement. We change ATF at the correct interval and give you an honest assessment of transmission condition.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Water Pump and Cooling System on V6 Models",
           "desc": "The 2.5L V6 water pump is a known wear item on high-mileage examples. Coolant leaking from the pump weep hole, or the beginning of an overheating condition, are the typical presentations. Utah summer temperatures amplify cooling system stress, a marginal water pump that holds on through winter may fail on a hot July day in stop-and-go traffic on I-15.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake System Wear, Rear Drums or Discs",
           "desc": "Depending on the generation and trim level, the 626 may have rear drums or rear discs. Both wear predictably and we inspect all four corners at every service. High-mileage 626s that haven't had brake service in a while often have seized rear calipers or drums worn well past spec, we give you a complete picture before recommending replacements.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         }
       ],
@@ -1885,32 +1885,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt service, belt, water pump, tensioner, and idler, for all 626 four-cylinder and V6 engines."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Manual 626 clutch replacement across all generations, quality kits with flywheel inspection."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "V6 water pump replacement to prevent cooling system failure on high-mileage 626s."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full four-corner brake inspection and service for 626s with drum or disc rear configurations."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Front axle CV joint replacement for clicking on turns, common on high-mileage FWD 626s."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, ATF check, and all scheduled maintenance for your 626 in one visit."
         }
@@ -1995,37 +1995,37 @@ module.exports = {
         {
           "title": "Timing Belt Service: V6 Engines",
           "desc": "Both the 3.0L V6 in the second-generation MPV and the 3.0L in later first-generation models use rubber timing belts. Mazda specifies replacement at 60,000 miles, and these are interference engines. A snapped belt means bent valves. We do the complete service: timing belt, water pump, tensioner, and idler pulleys together. The water pump is belt-driven, and replacing it at the same visit saves you from paying belt labor costs twice in two years.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure and Overheating",
           "desc": "MPV water pump failure follows a predictable pattern, coolant seeping from the weep hole, or an overheating condition as the impeller erodes. Utah's summer temperatures are unforgiving; a marginal pump that survives through winter can fail quickly in July traffic on I-15. We inspect the water pump at every cooling system service and recommend proactive replacement when it shows early signs of wear.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Exhaust System Corrosion and Leaks",
           "desc": "The MPV's large exhaust system, sized for a V6 minivan, presents a significant surface area for Utah winter road salt to attack. Rust-through at flex pipe connections and mid-pipe joints creates exhaust leaks that produce a ticking or hissing sound under acceleration, and a burning smell in the cabin if the leak is near the firewall. We inspect the full exhaust system and repair or replace the corroded sections.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Brake Wear on a Heavy Platform",
           "desc": "The MPV is heavier than a typical passenger car, and loaded family hauling puts real demand on the braking system. Front brake wear is consistent, we see MPVs with pads worn to the backing plate on the front axle while the rears still have life. We inspect all four corners at every service and give you a complete picture of remaining brake life.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Strut and Shock Wear on High-Mileage MPVs",
           "desc": "Minivans accumulate high mileage fast. The MPV is no exception. Struts and shocks worn past their service life make the van feel wallowy and slow to respond, reduce braking effectiveness, and cause uneven tire wear. The added weight of passengers and cargo accelerates wear compared to a lighter car. We inspect suspension components and recommend replacement when the data supports it.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter Codes",
           "desc": "The MPV's catalytic converters are common P0420 and P0430 failure points on higher-mileage vehicles. Before recommending converter replacement, we verify the root cause, sometimes it's an oxygen sensor or an exhaust leak upstream. We fix what's actually wrong.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -2065,32 +2065,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt service, belt, water pump, tensioner, and idler, for all MPV V6 engines."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "MPV water pump replacement before the overheating event that precedes a much larger repair."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, mid-pipe, and manifold repairs for MPVs with Utah salt corrosion damage."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Four-corner brake inspection and service for MPVs loaded with passengers and cargo."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Rear shock replacement for high-mileage MPVs showing excessive body roll and poor ride control."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full inspection, oil service, cooling system check, and all scheduled maintenance for your MPV in one visit."
         }

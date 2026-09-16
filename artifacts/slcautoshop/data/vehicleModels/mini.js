@@ -53,37 +53,37 @@ module.exports = {
         {
           "title": "Timing Chain Failure on N14 Engine (2007–2013)",
           "desc": "The Prince N14 engine in second-generation MINI Coopers has a documented timing chain wear issue that BMW/MINI acknowledged but never fully resolved. The plastic chain guide wears and the tensioner weakens, you may hear a rattle on startup, see a check engine light with timing codes, or in severe cases experience rough running and misfires. This is one of the most critical maintenance items on second-gen MINI Coopers. We inspect chain condition, guides, and tensioner and replace the assembly when wear is present.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Timing Belt Service on Tritec Engine (2002–2006)",
           "desc": "First-generation R50/R53 MINIs use a Tritec engine with a rubber timing belt. Service interval is typically 60,000–80,000 miles, and most of these cars are now old enough to need a second or third belt change. This is an interference engine: a broken belt destroys the engine. We do the full service including water pump, tensioner, and idler.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual Cooper",
           "desc": "Manual MINI Coopers, especially Coopers used the way they're meant to be driven in town, wear clutches at a predictable rate. Slipping under acceleration, a high engagement point, or difficulty finding neutral are the signs. JCW models with the higher-output engines wear clutches even faster. We stock quality clutch kits for all manual MINI generations.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Water Pump Failure on N12/N14 Engines",
           "desc": "Second-gen MINI Coopers with the N12 and N14 engines have plastic water pump impellers that crack and separate from the pump shaft, the pump spins but moves no coolant, causing rapid overheating. You may see a temperature spike with no external leak. We replace the pump with an upgraded metal impeller version and inspect the full cooling circuit.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Service: Front-Heavy Wear",
           "desc": "MINI Cooper front brakes carry the majority of braking load. The car is front-engine and front-drive, and the brake bias reflects that. Front pads and rotors wear faster than rear. We inspect brake condition at every service and replace pads and rotors as a set when wear reaches the minimum.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Burning Smell or Rough Running, Carbon Buildup",
           "desc": "Third-gen F56 MINI Coopers with the BMW B38 three-cylinder use direct injection, which means intake valves don't get the cleaning benefit of fuel washing over them. Carbon builds up on the valve stems and causes rough idle, hesitation, and sometimes a burnt smell. We inspect carbon buildup and advise on walnut blasting when deposits are significant.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         }
       ],
@@ -123,32 +123,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "N14 timing chain, guide, and tensioner replacement for second-gen MINI Cooper models."
         },
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Service",
           "desc": "Full Tritec timing belt service including water pump, tensioner, and idler for first-gen R50/R53."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch kit for manual MINI Coopers, all generations, all trim levels including JCW."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "N12/N14 water pump replacement with upgraded metal impeller and full cooling inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear pad and rotor service on all MINI Cooper generations and trim levels."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all MINI maintenance needs in one visit."
         }
@@ -231,31 +231,31 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on R60 N14",
           "desc": "First-gen Countrymans with the turbocharged N14 engine share the timing chain guide wear issue documented across the Prince engine family. Cold-start rattle, check engine light with timing codes, and rough running are the signs. We inspect the chain, guides, and tensioner and replace the assembly before catastrophic failure.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure on N12/N14",
           "desc": "The plastic impeller water pumps on first-gen Countryman engines crack and stop moving coolant. You'll see a rapid temperature rise with no external leak. We replace the pump with a metal impeller unit and inspect the full cooling circuit.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear, Heavier Than a Cooper",
           "desc": "The Countryman is significantly heavier than the standard Cooper, brakes work harder and wear faster, especially on a vehicle used for canyon and mountain driving. We inspect brake pad thickness at every service and replace pads and rotors as a set when wear requires it.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Suspension Wear, Front Struts",
           "desc": "Countryman front struts see real wear on Utah mountain roads and frost-heaved city streets. A nose-dive under braking, clunking over rough pavement, or uneven tire wear are the signs. We inspect strut condition and replace what's actually worn.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light and Failed Emissions",
           "desc": "High-mileage Countrymans generate O2 sensor and catalytic converter codes. We diagnose the actual root cause before recommending parts, a sensor that reads wrong is a fraction of the cost of a catalytic converter.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -295,32 +295,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "N14 timing chain, guide, and tensioner replacement for first-gen R60 Countryman."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "N12/N14 water pump replacement with metal impeller upgrade and cooling system inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear brake service on all Countryman configurations, canyon and commuter use."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Front strut and rear shock replacement for worn Countryman suspension."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "O2 sensor and catalytic converter diagnosis and replacement on high-mileage Countrymans."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all Countryman maintenance in one visit."
         }
@@ -399,31 +399,31 @@ module.exports = {
         {
           "title": "Timing Chain on R55 N14",
           "desc": "First-gen Clubmans with the N14 engine share the documented timing chain guide wear issue. The longer the engine runs with stretched oil change intervals, the faster the plastic guides wear. Cold-start rattle and timing-related check engine codes are the first signs. We inspect and replace the chain assembly when wear is present.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure, Plastic Impeller",
           "desc": "N12 and N14 engines in R55 Clubmans have the same plastic impeller water pump issue as other first-gen MINIs. Pump failure causes rapid overheating without an obvious external leak. We replace with a metal impeller pump and inspect the full cooling system.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Clutch Slipping on Manual R55",
           "desc": "R55 manual Clubman clutches wear at a rate similar to the standard Cooper, city driving is harder on them than highway miles. A slipping clutch or difficult gear engagement means it's time for replacement. We do the full job including flywheel inspection.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Brake Wear, Heavier Platform",
           "desc": "The Clubman's additional length and weight mean the brakes work a bit harder than on a standard Cooper. Front brake pads are the first to wear. We inspect at every service visit and replace pads and rotors as a set when wear requires it.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "Clubman suspension handles additional weight with the same basic strut and shock design as the Cooper, which means wear shows up at similar mileage, sometimes sooner. Clunking over rough pavement or a degraded ride quality on Utah roads is the first sign.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -463,32 +463,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "N14 timing chain, guide, and tensioner for first-gen R55 Clubman models."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch kit for manual R55 Clubman, hydraulic inspection and flywheel check included."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "N12/N14 water pump with metal impeller upgrade and complete cooling inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear brake service on R55 and F54 Clubman generations."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Strut and shock replacement for worn Clubman suspension."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all Clubman maintenance in a single visit."
         }
@@ -563,31 +563,31 @@ module.exports = {
         {
           "title": "N14 Timing Chain Guide Wear",
           "desc": "The Prince N14 engine in the MINI Paceman has the same documented plastic timing chain guide wear issue as the Cooper, Countryman, and Clubman. Cold-start rattle, timing-related check engine codes, and rough running are the signs. We inspect the chain assembly at every major service on high-mileage N14 Pacemans and replace it when wear is present.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure",
           "desc": "N12 and N14 plastic impeller water pumps fail in a specific way, the impeller separates from the shaft, the pump spins freely, and coolant stops circulating. Temperature rises quickly. We replace with a metal impeller pump and inspect the cooling system thoroughly.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Service: Sport-Tuned Platform",
           "desc": "The Paceman's sport-tuned suspension and lower stance mean brakes work harder in spirited driving. Front brake pads wear faster than on a standard Cooper. We inspect at every service and replace as a complete set.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Axle Clicking on ALL4 Paceman",
           "desc": "ALL4 Paceman CV axles develop clicking on turns as boot seals crack and grease escapes. The AWD configuration adds drivetrain stress that accelerates boot wear. We replace complete axle shafts.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Suspension Wear, Lowered Sport Stance",
           "desc": "Paceman suspension components wear with mileage and Utah road conditions. The lower sport stance means less suspension travel, which translates to harder impacts on rough pavement. Strut and shock wear shows up as clunking and degraded ride quality.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -627,32 +627,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "N14 timing chain, guide, and tensioner replacement for MINI Paceman R61."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "N12/N14 water pump with metal impeller upgrade and cooling circuit inspection."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Front and rear pad and rotor service on all Paceman trims."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Axle Replacement",
           "desc": "Complete axle shaft replacement for ALL4 Paceman clicking or vibration."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Suspension Service",
           "desc": "Strut and shock replacement for Paceman suspension worn by Utah road conditions."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all Paceman maintenance in a single visit."
         }
@@ -727,31 +727,31 @@ module.exports = {
         {
           "title": "Timing Chain on N14/N18 Engines",
           "desc": "Both the N14 and N18 Prince-family engines in the Roadster share documented timing chain guide wear. The N18 addressed some N14 weaknesses but is not immune. Cold-start rattle and timing-related check engine codes are the warning signs. We inspect the chain assembly proactively on high-mileage Roadsters.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on Manual Roadster",
           "desc": "A manual Roadster, especially a JCW, driven on canyon roads will wear a clutch faster than a commuter car. Slipping under hard acceleration, a grabby engagement point, or difficulty finding neutral are the signs. We replace the full clutch kit with quality OEM-spec components.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Water Pump Failure on Prince Engines",
           "desc": "N14 Roadsters are vulnerable to the same plastic impeller water pump failure as other Prince-engine MINIs. Temperature spike with no external leak, the impeller has separated from the pump shaft. We replace with an upgraded metal impeller pump.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Wear, Sport-Focused Platform",
           "desc": "The Roadster's sport-tuned brakes work hard on a car used for canyon driving. Front pads wear first, rear close behind on JCW models. We inspect brake condition at every service and replace as a complete set.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Exhaust Noise on Aging Roadster",
           "desc": "Roadster exhaust systems corrode and develop flex pipe and hanger failures over time. A growing exhaust drone or rattle is usually a cracked flex section or broken hanger. We repair or replace the affected section and inspect the full exhaust run.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -791,32 +791,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "N14/N18 timing chain, guide, and tensioner inspection and replacement for MINI Roadster."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch kit for manual Roadster, Cooper, Cooper S, and JCW trims."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Metal impeller water pump replacement and cooling system inspection on Prince-engine Roadsters."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Performance Brake Service",
           "desc": "Front and rear brake service on sport-tuned Roadster braking system."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Flex pipe, hanger, and mid-section repair on corroded Roadster exhaust systems."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, fluid service, and all Roadster maintenance in one visit."
         }
@@ -899,37 +899,37 @@ module.exports = {
         {
           "title": "Timing Belt Service on R52 Tritec",
           "desc": "First-generation R52 Convertibles with the Tritec engine use a rubber timing belt that must be changed every 60,000–80,000 miles. These cars are now 17–20 years old, most are past two or three belt intervals. We do the full service including water pump, tensioner, and idler pulleys. A broken belt on an interference engine destroys the engine.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Timing Chain on R57 N14/N18",
           "desc": "Second-gen Convertibles with the Prince N14 or N18 engine share the documented timing chain guide wear issue. Cold-start rattle, timing codes, rough running. We inspect the chain assembly on high-mileage R57 Convertibles proactively and replace it when wear is present.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump Failure on Prince Engines",
           "desc": "N14 and N18 plastic impeller water pumps fail the same way in Convertibles as in every other MINI: the impeller separates from the shaft, coolant stops circulating, temperature rises fast. We replace with a metal impeller pump and inspect the full cooling circuit.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Clutch Wear on Manual Convertible",
           "desc": "Manual MINI Convertibles wear clutches in the same pattern as other manual MINIs, city driving and enthusiast use accelerate the wear timeline. We do the full clutch kit replacement on all generations of manual Convertible.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Brake Service and Fluid Maintenance",
           "desc": "MINI Convertible brakes are standard-spec for the platform but wear predictably. Front brake pads are the first items to go. Brake fluid on a car used seasonally can absorb moisture during storage periods, we check and flush it at every annual service.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Exhaust Corrosion on Aging Convertibles",
           "desc": "Older R52 and R57 Convertibles develop exhaust system corrosion, flex pipes crack, hangers fail, and mid-section joints corrode. A growing drone or rattle at certain RPMs is the sign. We inspect and repair the exhaust system.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         }
       ],
@@ -969,32 +969,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Service",
           "desc": "Full Tritec timing belt service, water pump, tensioner, and idler, for R52 Convertibles."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "N14/N18 chain, guide, and tensioner replacement for R57 Convertible models."
         },
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Replacement",
           "desc": "Full clutch kit for manual Convertibles, R52, R57, and F57 generations."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Metal impeller pump replacement with cooling system inspection for Prince-engine Convertibles."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad and rotor service with brake fluid flush on all Convertible generations."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Pre-season inspection, fluid service, and all Convertible maintenance in one visit."
         }

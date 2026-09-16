@@ -57,37 +57,37 @@ module.exports = {
       {
         "title": "3rd-Gen Automatic Transmission Slip or Shudder",
         "desc": "The 2004–2008 TL's 5-speed automatic is one of the model's known weak points, particularly when driven hard or with infrequent fluid changes. Symptoms include delayed engagement, shudder under light throttle, and hesitation on the 1-2 shift. We assess fluid condition, check for fault codes, and advise honestly on whether a fluid service is likely to help or whether the transmission has progressed past that point.",
-        "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/complete-auto-service",
         "symptomSlug": "/symptoms/grinding-when-shifting"
       },
       {
         "title": "Timing Belt Service (J32/J35 V6)",
         "desc": "All TL V6 engines through the 3rd generation use a rubber timing belt on an interference engine. The factory interval is 90,000 miles. An overdue belt is the single most dangerous deferred maintenance item on these cars. We replace the belt, tensioner, idler pulley, and water pump as a complete kit.",
-        "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/timing-belt-replacement",
         "symptomSlug": null
       },
       {
         "title": "Clutch Wear on Type-S 6-Speed",
         "desc": "The manual TL Type-S is a satisfying car to drive, and its clutch shows that use. High-mileage examples with a history of spirited driving often come in with slip under acceleration and a high engagement point. We replace the full clutch kit and inspect the flywheel for heat cracks and scoring.",
-        "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/clutch-repair",
         "symptomSlug": "/symptoms/clutch-slipping"
       },
       {
         "title": "Check Engine Light, VTC and O2 Sensor Codes",
         "desc": "High-mileage TLs frequently trigger codes related to the variable timing control actuator or oxygen sensors. The VTC actuator on J-series engines can develop a rattle at cold startup. A sign it needs replacement before it causes cam timing issues. We diagnose the actual root cause before recommending parts.",
-        "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/complete-auto-service",
         "symptomSlug": "/symptoms/check-engine-light"
       },
       {
         "title": "Brake Service",
         "desc": "The TL's sport-tuned suspension and relatively stiff brake bias means front pads wear faster than some owners expect. We measure pad thickness front and rear, inspect rotors for runout, and replace brake fluid on the Honda-recommended 3-year interval, brake fluid absorbs moisture and degrades stopping performance.",
-        "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/brake-service",
         "symptomSlug": "/symptoms/squeaking-brakes"
       },
       {
         "title": "SH-AWD Service (4th Gen)",
         "desc": "The 4th-gen TL SH-AWD rear drive unit has its own fluid that requires periodic service. Most shops overlook it. We check rear drive unit fluid condition and change it on the correct interval, neglecting it causes premature wear on the rear torque vectoring hardware.",
-        "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/complete-auto-service",
         "symptomSlug": null
       }
     ],
@@ -127,32 +127,32 @@ module.exports = {
     ],
     "commonRepairs": [
       {
-        "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "slug": "/services/timing-belt-replacement",
         "name": "Timing Belt Replacement",
         "desc": "Complete J32/J35 timing belt kit, belt, tensioner, idler, and water pump on the correct 90,000-mile interval."
       },
       {
-        "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+        "slug": "/services/clutch-repair",
         "name": "Clutch Replacement",
         "desc": "Full clutch kit for manual Type-S TLs, disc, pressure plate, release bearing, and flywheel service."
       },
       {
-        "slug": "/services/brake-service-near-south-salt-lake-ut",
+        "slug": "/services/brake-service",
         "name": "Brake Service",
         "desc": "Pad, rotor, and caliper service for all TL generations including brake fluid flush."
       },
       {
-        "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+        "slug": "/services/water-pump-replacement",
         "name": "Water Pump Replacement",
         "desc": "Water pump replacement bundled with timing belt service for complete cooling system reliability."
       },
       {
-        "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+        "slug": "/services/strut-replacement",
         "name": "Strut Replacement",
         "desc": "Front strut replacement for high-mileage TLs showing dive, bounce, or uneven tire wear."
       },
       {
-        "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "slug": "/services/complete-auto-service",
         "name": "Complete Auto Service",
         "desc": "Full maintenance visit, fluids, filters, brakes, timing inspection, and multi-point check."
       }
@@ -235,31 +235,31 @@ module.exports = {
       {
         "title": "Timing Chain Service on High-Mileage K24",
         "desc": "The K24A2 in the 1st-gen TSX uses a timing chain rather than a belt, but high-mileage examples, especially those with infrequent oil changes, can develop chain stretch and tensioner wear. A brief metallic rattle at cold startup that fades as oil pressure builds is the classic early sign. We inspect the chain, tensioner, and guides and replace only what's actually worn.",
-        "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/timing-chain-repair",
         "symptomSlug": "/symptoms/check-engine-light"
       },
       {
         "title": "Manual Clutch Replacement",
         "desc": "6-speed manual TSXs driven with enthusiasm will need a clutch before an automatic equivalent would. Slipping under hard acceleration, a high bite point, or a chatter during slow engagement are the signs. We replace the full clutch assembly and resurface or replace the flywheel as needed.",
-        "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/clutch-repair",
         "symptomSlug": "/symptoms/clutch-slipping"
       },
       {
         "title": "Front Strut Replacement",
         "desc": "High-mileage TSXs develop worn front struts that show up as nose dive under braking, a bouncy ride on rough pavement, and uneven tire wear. Utah's freeze-thaw road conditions accelerate strut wear. We replace struts as complete assemblies, spring, strut, and mount, for a lasting repair.",
-        "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/strut-replacement",
         "symptomSlug": "/symptoms/bouncy-ride"
       },
       {
         "title": "Brake Service",
         "desc": "The TSX's sport-biased brake setup wears front pads relatively quickly, especially on drivers who use the car the way it was intended. We measure pad and rotor condition, check caliper slide pins, and flush brake fluid on a 2–3 year interval.",
-        "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/brake-service",
         "symptomSlug": "/symptoms/squeaking-brakes"
       },
       {
         "title": "Check Engine and VTEC-Related Codes",
         "desc": "High-mileage K24 TSXs can trigger codes related to VTEC oil pressure, spool valve solenoids, and oxygen sensors. The VTEC solenoid screen is a common culprit, it clogs with oil sludge if oil changes were infrequent. We diagnose the root cause rather than clearing the light.",
-        "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/complete-auto-service",
         "symptomSlug": "/symptoms/check-engine-light"
       }
     ],
@@ -299,32 +299,32 @@ module.exports = {
     ],
     "commonRepairs": [
       {
-        "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+        "slug": "/services/timing-chain-repair",
         "name": "Timing Chain Service",
         "desc": "K24 chain, tensioner, and guide service for high-mileage TSXs showing cold-start rattle."
       },
       {
-        "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+        "slug": "/services/clutch-repair",
         "name": "Clutch Replacement",
         "desc": "Complete clutch kit for manual 6-speed TSX, disc, pressure plate, release bearing, and flywheel service."
       },
       {
-        "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+        "slug": "/services/strut-replacement",
         "name": "Strut Replacement",
         "desc": "Front strut and mount replacement for TSXs with bounce, dive, or worn handling characteristics."
       },
       {
-        "slug": "/services/brake-service-near-south-salt-lake-ut",
+        "slug": "/services/brake-service",
         "name": "Brake Service",
         "desc": "Pad, rotor, and caliper service plus brake fluid flush for all TSX generations."
       },
       {
-        "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "slug": "/services/cv-joint-repair",
         "name": "CV Joint Repair",
         "desc": "CV axle replacement for TSXs with clicking on turns from worn joints or torn boots."
       },
       {
-        "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "slug": "/services/complete-auto-service",
         "name": "Complete Auto Service",
         "desc": "Full maintenance visit covering oil, fluids, brakes, timing inspection, and a multi-point check."
       }
@@ -403,31 +403,31 @@ module.exports = {
       {
         "title": "Clutch Replacement on 6-Speed Manual",
         "desc": "The RSX Type-S 6-speed is designed to be driven, and enthusiast use shortens clutch life accordingly. A slipping clutch, high engagement point, or grinding going into first are the clearest signs. We replace the complete clutch assembly and resurface or replace the flywheel.",
-        "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/clutch-repair",
         "symptomSlug": "/symptoms/clutch-slipping"
       },
       {
         "title": "Timing Chain and VTEC Solenoid",
         "desc": "High-mileage K20 engines develop timing chain slack and VTEC solenoid screen clogging, often together when oil changes have been deferred. Cold-start rattle and VTEC engagement hesitation are the symptoms. We diagnose which is the root cause and address it directly.",
-        "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/timing-chain-repair",
         "symptomSlug": "/symptoms/check-engine-light"
       },
       {
         "title": "Exhaust Leaks and Catalytic Converter",
         "desc": "RSX exhaust manifolds and cat pipes develop cracks and loose connections with age, especially on cars with aftermarket mid-pipes. A ticking exhaust note under acceleration and a check engine light from O2 sensor codes are the typical signs. We inspect the full exhaust path and repair or replace as needed.",
-        "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/exhaust-repair",
         "symptomSlug": "/symptoms/loud-exhaust"
       },
       {
         "title": "Brake Service",
         "desc": "RSX front brakes carry most of the stopping load on this front-heavy car. Worn pads, scored rotors, and sticky caliper slide pins are the most common brake issues we see. We measure, inspect, and service front and rear as needed.",
-        "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/brake-service",
         "symptomSlug": "/symptoms/grinding-brakes"
       },
       {
         "title": "CV Axle and Joint Noise",
         "desc": "CV joints on high-mileage or hard-driven RSXs wear faster than on more conservative platforms. Clicking through turns, especially obvious in parking lots, indicates a worn outer joint. We replace the complete axle shaft for a lasting repair rather than repacking a boot on a worn joint.",
-        "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/cv-joint-repair",
         "symptomSlug": "/symptoms/clicking-when-turning"
       }
     ],
@@ -467,32 +467,32 @@ module.exports = {
     ],
     "commonRepairs": [
       {
-        "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+        "slug": "/services/clutch-repair",
         "name": "Clutch Replacement",
         "desc": "Complete clutch kit for manual RSX and RSX Type-S, disc, pressure plate, release bearing, flywheel service."
       },
       {
-        "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+        "slug": "/services/timing-chain-repair",
         "name": "Timing Chain Service",
         "desc": "K20 timing chain, tensioner, and guide replacement for high-mileage DC5s showing cold-start rattle."
       },
       {
-        "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+        "slug": "/services/exhaust-repair",
         "name": "Exhaust Repair",
         "desc": "Manifold crack repair, mid-pipe leaks, catalytic converter service, and emissions-related exhaust work."
       },
       {
-        "slug": "/services/brake-service-near-south-salt-lake-ut",
+        "slug": "/services/brake-service",
         "name": "Brake Service",
         "desc": "Pads, rotors, and caliper service for both RSX variants, front-heavy bias means frequent front pad inspection."
       },
       {
-        "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "slug": "/services/cv-joint-repair",
         "name": "CV Joint Repair",
         "desc": "Complete axle shaft replacement for RSXs with clicking on turns from worn outer CV joints."
       },
       {
-        "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "slug": "/services/complete-auto-service",
         "name": "Complete Auto Service",
         "desc": "Full maintenance service, oil, fluids, timing check, brakes, and a multi-point inspection in one visit."
       }
@@ -579,7 +579,7 @@ module.exports = {
       {
         "title": "Timing Belt Service",
         "desc": "First and second-gen MDXs have an interference engine. A snapped belt means major engine damage. We replace the belt, tensioners, idler, and water pump together.",
-        "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/timing-belt-replacement",
         "symptomSlug": null
       },
       {
@@ -591,25 +591,25 @@ module.exports = {
       {
         "title": "Brake Service",
         "desc": "Three-row family haulers put heavy demands on brakes, especially on canyon descents. MDX rear brakes often wear faster than expected, we inspect both axles.",
-        "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/brake-service",
         "symptomSlug": "/symptoms/squeaking-brakes"
       },
       {
         "title": "CV Axle Wear",
         "desc": "SH-AWD MDXs have front and rear CV axles. Clicking on turns usually points to a worn outer CV joint, we inspect and replace as needed.",
-        "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/cv-joint-repair",
         "symptomSlug": "/symptoms/clicking-when-turning"
       },
       {
         "title": "Suspension & Struts",
         "desc": "Utah's roads take a toll on MDX struts and control arm bushings. A bouncy ride or pulling to one side after hitting a pothole is worth having us check.",
-        "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/strut-replacement",
         "symptomSlug": "/symptoms/bouncy-ride"
       },
       {
         "title": "Water Pump Failure",
         "desc": "The timing belt water pump on first and second-gen MDXs is a common failure point. We replace it as a set with the belt to avoid a repeat job.",
-        "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/water-pump-replacement",
         "symptomSlug": "/symptoms/engine-overheating"
       }
     ],
@@ -649,32 +649,32 @@ module.exports = {
     ],
     "commonRepairs": [
       {
-        "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "slug": "/services/timing-belt-replacement",
         "name": "Timing Belt Replacement",
         "desc": "Interference engine service for 1st and 2nd gen MDX, belt, tensioners, idler, and water pump replaced as a complete kit."
       },
       {
-        "slug": "/services/brake-service-near-south-salt-lake-ut",
+        "slug": "/services/brake-service",
         "name": "Brake Service",
         "desc": "Pads, rotors, calipers, and brake fluid service for all MDX generations, including rear brake-in-hat drum inspection."
       },
       {
-        "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "slug": "/services/cv-joint-repair",
         "name": "CV Axle Repair",
         "desc": "Front and rear CV axle replacement for SH-AWD models. We address clicking on turns before it becomes a larger repair."
       },
       {
-        "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+        "slug": "/services/strut-replacement",
         "name": "Strut Replacement",
         "desc": "Front and rear strut service to restore ride quality and handling on high-mileage MDXs."
       },
       {
-        "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+        "slug": "/services/water-pump-replacement",
         "name": "Water Pump Replacement",
         "desc": "Timing belt water pump replacement, always done as a complete set to protect your engine investment."
       },
       {
-        "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "slug": "/services/complete-auto-service",
         "name": "Full-Service Maintenance",
         "desc": "Oil changes, differential fluid, transmission service, coolant flush, everything your MDX needs on schedule."
       }
@@ -761,7 +761,7 @@ module.exports = {
       {
         "title": "Timing Belt Replacement",
         "desc": "Second-gen RDXs with the V6 have an interference timing belt. A failure means engine damage. We replace the belt, water pump, tensioner, and idler as a complete job.",
-        "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/timing-belt-replacement",
         "symptomSlug": null
       },
       {
@@ -773,25 +773,25 @@ module.exports = {
       {
         "title": "Brake Service",
         "desc": "Canyon driving and frequent stop-and-go in the Salt Lake Valley wear RDX brakes steadily. We inspect pads, rotors, and calipers and recommend service before noise becomes damage.",
-        "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/brake-service",
         "symptomSlug": "/symptoms/squeaking-brakes"
       },
       {
         "title": "CV Axle & Clicking Noise",
         "desc": "Clicking on turns is the classic symptom of a worn outer CV joint. RDX front CV axles handle significant load, we diagnose and replace as needed.",
-        "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/cv-joint-repair",
         "symptomSlug": "/symptoms/clicking-when-turning"
       },
       {
         "title": "Strut & Suspension Wear",
         "desc": "Utah roads are hard on struts. If your RDX feels bouncy on the freeway or pulls after a pothole, we check struts, control arm bushings, and alignment.",
-        "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/strut-replacement",
         "symptomSlug": "/symptoms/bouncy-ride"
       },
       {
         "title": "Water Pump Replacement",
         "desc": "The V6 timing belt water pump is a known failure point on second-gen RDX. We always replace it during belt service to avoid a repeat job.",
-        "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/water-pump-replacement",
         "symptomSlug": "/symptoms/engine-overheating"
       }
     ],
@@ -831,32 +831,32 @@ module.exports = {
     ],
     "commonRepairs": [
       {
-        "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "slug": "/services/timing-belt-replacement",
         "name": "Timing Belt Replacement",
         "desc": "Complete timing belt service for 2nd-gen V6 RDX, belt, water pump, tensioner, and idler replaced together."
       },
       {
-        "slug": "/services/brake-service-near-south-salt-lake-ut",
+        "slug": "/services/brake-service",
         "name": "Brake Service",
         "desc": "Front and rear brake inspection and service for all RDX generations, including caliper condition check."
       },
       {
-        "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "slug": "/services/cv-joint-repair",
         "name": "CV Axle Repair",
         "desc": "Front CV axle replacement for clicking on turns, common on high-mileage first and second-gen RDX."
       },
       {
-        "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+        "slug": "/services/strut-replacement",
         "name": "Strut Replacement",
         "desc": "Strut service to restore ride quality and handling on RDXs with significant Utah road mileage."
       },
       {
-        "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+        "slug": "/services/water-pump-replacement",
         "name": "Water Pump Replacement",
         "desc": "Timing belt water pump replacement for 2nd-gen V6, always done as part of belt service."
       },
       {
-        "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "slug": "/services/complete-auto-service",
         "name": "Full-Service Maintenance",
         "desc": "Oil service, coolant flush, transmission service, and all scheduled maintenance for every RDX generation."
       }
@@ -941,31 +941,31 @@ module.exports = {
       {
         "title": "Brake Service",
         "desc": "Performance-oriented TLX drivers cycle through brakes faster, especially on canyon roads. We inspect pads, rotors, and brake fluid condition at every service.",
-        "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/brake-service",
         "symptomSlug": "/symptoms/squeaking-brakes"
       },
       {
         "title": "Timing Chain Noise",
         "desc": "High-mileage first-gen TLX four-cylinders can develop timing chain rattle on cold starts. We inspect chain tensioner health and advise honestly on next steps.",
-        "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/timing-chain-repair",
         "symptomSlug": null
       },
       {
         "title": "CV Axle Wear",
         "desc": "Clicking on turns is a sign of worn CV joints. TLX front CV axles handle significant load on SH-AWD models, we diagnose and replace as needed.",
-        "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/cv-joint-repair",
         "symptomSlug": "/symptoms/clicking-when-turning"
       },
       {
         "title": "Suspension & Struts",
         "desc": "Utah roads are tough on TLX strut bearings and control arm bushings. A change in steering feel or ride quality is worth a quick check.",
-        "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/strut-replacement",
         "symptomSlug": "/symptoms/bouncy-ride"
       },
       {
         "title": "Exhaust & Emissions",
         "desc": "P0420 catalyst codes are common on higher-mileage TLXs. We verify root cause, O2 sensor or actual catalyst, before recommending any parts.",
-        "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/catalytic-converter-service",
         "symptomSlug": "/symptoms/failed-emissions"
       }
     ],
@@ -1005,32 +1005,32 @@ module.exports = {
     ],
     "commonRepairs": [
       {
-        "slug": "/services/brake-service-near-south-salt-lake-ut",
+        "slug": "/services/brake-service",
         "name": "Brake Service",
         "desc": "Pad, rotor, and brake fluid service for all TLX trims. We address both performance and safety on canyon-driven vehicles."
       },
       {
-        "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+        "slug": "/services/timing-chain-repair",
         "name": "Timing Chain Service",
         "desc": "Inspection and repair for timing chain noise on high-mileage first-gen TLX four-cylinder engines."
       },
       {
-        "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "slug": "/services/cv-joint-repair",
         "name": "CV Axle Repair",
         "desc": "Front CV axle replacement for clicking on turns, common on SH-AWD TLX at higher mileage."
       },
       {
-        "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+        "slug": "/services/strut-replacement",
         "name": "Strut Replacement",
         "desc": "Strut service to restore TLX handling and ride quality worn down by Utah roads."
       },
       {
-        "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+        "slug": "/services/catalytic-converter-service",
         "name": "Catalytic Converter Service",
         "desc": "P0420 diagnosis and repair, we verify root cause before recommending any catalytic converter replacement."
       },
       {
-        "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "slug": "/services/complete-auto-service",
         "name": "Full-Service Maintenance",
         "desc": "All scheduled maintenance for TLX, oil changes, transmission service, differential fluid, and more."
       }
@@ -1121,13 +1121,13 @@ module.exports = {
       {
         "title": "Clutch Replacement",
         "desc": "Classic B-series Integras with manual transmissions eventually need a clutch. We replace the disc, pressure plate, and flywheel resurfacing as a complete job.",
-        "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/clutch-repair",
         "symptomSlug": "/symptoms/clutch-slipping"
       },
       {
         "title": "Timing Belt Service",
         "desc": "Third and fourth-gen Integras (B-series, K-series) use interference timing belts. A failure means bent valves. We replace belt, water pump, and tensioners together.",
-        "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/timing-belt-replacement",
         "symptomSlug": null
       },
       {
@@ -1139,19 +1139,19 @@ module.exports = {
       {
         "title": "Brake Service",
         "desc": "Spirited driving wears Integra brakes faster. We inspect pads, rotors, and brake fluid, properly bedded brakes make a real difference on canyon roads.",
-        "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/brake-service",
         "symptomSlug": "/symptoms/squeaking-brakes"
       },
       {
         "title": "CV Axle Clicking",
         "desc": "High-mileage Integras commonly wear out outer CV joints, especially if boots have cracked and lost grease. We replace axles as needed.",
-        "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/cv-joint-repair",
         "symptomSlug": "/symptoms/clicking-when-turning"
       },
       {
         "title": "Exhaust Repair",
         "desc": "Classic Integra exhaust systems rust at flex pipes and collector joints over Utah winters. We repair leaks before they become a failed emissions test.",
-        "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/exhaust-repair",
         "symptomSlug": "/symptoms/loud-exhaust"
       }
     ],
@@ -1191,32 +1191,32 @@ module.exports = {
     ],
     "commonRepairs": [
       {
-        "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+        "slug": "/services/clutch-repair",
         "name": "Clutch Replacement",
         "desc": "Complete clutch service for manual Integras, disc, pressure plate, flywheel resurfacing, and release bearing."
       },
       {
-        "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "slug": "/services/timing-belt-replacement",
         "name": "Timing Belt Replacement",
         "desc": "Interference engine timing belt service with water pump, tensioner, and idler, the right way to do it."
       },
       {
-        "slug": "/services/brake-service-near-south-salt-lake-ut",
+        "slug": "/services/brake-service",
         "name": "Brake Service",
         "desc": "Front and rear brake service for all Integra generations, including performance-pad recommendations for enthusiast drivers."
       },
       {
-        "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "slug": "/services/cv-joint-repair",
         "name": "CV Axle Repair",
         "desc": "Front CV axle replacement for clicking or vibration on turns."
       },
       {
-        "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+        "slug": "/services/exhaust-repair",
         "name": "Exhaust Repair",
         "desc": "Flex pipe and collector repairs for classic Integras with rust-prone factory exhaust systems."
       },
       {
-        "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "slug": "/services/complete-auto-service",
         "name": "Full-Service Maintenance",
         "desc": "Oil changes, coolant flushes, transmission service, and full maintenance for all Integra generations."
       }
@@ -1295,13 +1295,13 @@ module.exports = {
       {
         "title": "Timing Belt Service",
         "desc": "The J32A2 V6 is an interference engine with a belt-driven timing system. Failure means major engine damage. We replace belt, water pump, and all related components together.",
-        "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/timing-belt-replacement",
         "symptomSlug": null
       },
       {
         "title": "Transmission Service",
         "desc": "Second-gen CL automatics benefit from regular ATF service. Neglected fluid leads to shift quality issues and premature wear. We service and inspect.",
-        "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/complete-auto-service",
         "symptomSlug": null
       },
       {
@@ -1313,19 +1313,19 @@ module.exports = {
       {
         "title": "Brake Service",
         "desc": "CL front brakes carry most of the stopping load. If you notice squealing, pulling, or a soft pedal, we inspect pads, rotors, calipers, and brake fluid condition.",
-        "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/brake-service",
         "symptomSlug": "/symptoms/soft-brake-pedal"
       },
       {
         "title": "Water Pump Replacement",
         "desc": "The CL V6 timing belt water pump is a known failure point. We always replace it with the timing belt to prevent a coolant failure from defeating your belt service.",
-        "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/water-pump-replacement",
         "symptomSlug": "/symptoms/engine-overheating"
       },
       {
         "title": "Exhaust & Emissions",
         "desc": "CL exhaust systems are aging. Flex pipe cracks, rusted hangers, and failing catalytic converters are common on Utah-road CL models. We repair leaks and address P0420 codes.",
-        "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/exhaust-repair",
         "symptomSlug": "/symptoms/loud-exhaust"
       }
     ],
@@ -1365,32 +1365,32 @@ module.exports = {
     ],
     "commonRepairs": [
       {
-        "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "slug": "/services/timing-belt-replacement",
         "name": "Timing Belt Replacement",
         "desc": "J32A2 V6 timing belt service, belt, water pump, tensioner, idler, and cam seals as a complete job."
       },
       {
-        "slug": "/services/brake-service-near-south-salt-lake-ut",
+        "slug": "/services/brake-service",
         "name": "Brake Service",
         "desc": "Front and rear brake service for both CL generations, including caliper inspection and brake fluid test."
       },
       {
-        "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+        "slug": "/services/water-pump-replacement",
         "name": "Water Pump Replacement",
         "desc": "Timing belt water pump replacement, always part of belt service on the J-series V6."
       },
       {
-        "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+        "slug": "/services/exhaust-repair",
         "name": "Exhaust Repair",
         "desc": "Flex pipe and exhaust hanger repair for aging CL exhaust systems affected by Utah road salt."
       },
       {
-        "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+        "slug": "/services/catalytic-converter-service",
         "name": "Catalytic Converter Service",
         "desc": "P0420 diagnosis and repair for high-mileage CL models. We verify root cause before recommending replacement."
       },
       {
-        "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "slug": "/services/complete-auto-service",
         "name": "Full-Service Maintenance",
         "desc": "Oil changes, transmission service, coolant flush, and all scheduled maintenance for both CL generations."
       }
@@ -1469,19 +1469,19 @@ module.exports = {
       {
         "title": "Timing Belt Service",
         "desc": "Both RL generations use interference timing belts requiring replacement every 90,000 miles or 7 years. We do the belt, water pump, tensioner, and idler as a complete set.",
-        "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/timing-belt-replacement",
         "symptomSlug": null
       },
       {
         "title": "Water Pump Failure",
         "desc": "The RL timing belt water pump is a common failure point. We always replace it during belt service, doing it separately doubles the labor cost.",
-        "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/water-pump-replacement",
         "symptomSlug": "/symptoms/engine-overheating"
       },
       {
         "title": "Brake Service",
         "desc": "The RL is a heavier flagship vehicle with proportional brake demands. We service front and rear pads, rotors, and brake fluid on schedule.",
-        "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/brake-service",
         "symptomSlug": "/symptoms/grinding-brakes"
       },
       {
@@ -1493,13 +1493,13 @@ module.exports = {
       {
         "title": "CV Axle Service",
         "desc": "SH-AWD RL models have front and rear CV axles. Clicking on turns or vibration under load points to CV joint wear.",
-        "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/cv-joint-repair",
         "symptomSlug": "/symptoms/clicking-when-turning"
       },
       {
         "title": "Suspension Wear",
         "desc": "The RL's more complex suspension geometry wears at control arm bushings and strut mounts. A change in ride quality or steering feel is worth having checked.",
-        "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/strut-replacement",
         "symptomSlug": "/symptoms/bouncy-ride"
       }
     ],
@@ -1539,32 +1539,32 @@ module.exports = {
     ],
     "commonRepairs": [
       {
-        "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "slug": "/services/timing-belt-replacement",
         "name": "Timing Belt Replacement",
         "desc": "Complete V6 timing belt service, belt, water pump, tensioner, idler, and cam seals at the correct interval."
       },
       {
-        "slug": "/services/brake-service-near-south-salt-lake-ut",
+        "slug": "/services/brake-service",
         "name": "Brake Service",
         "desc": "Full brake service for both RL generations, including fluid test and caliper condition inspection."
       },
       {
-        "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+        "slug": "/services/water-pump-replacement",
         "name": "Water Pump Replacement",
         "desc": "Timing belt water pump service, done concurrently with belt replacement to avoid double labor."
       },
       {
-        "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+        "slug": "/services/cv-joint-repair",
         "name": "CV Axle Repair",
         "desc": "Front and rear CV axle service for SH-AWD RL models."
       },
       {
-        "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+        "slug": "/services/strut-replacement",
         "name": "Strut Replacement",
         "desc": "Strut and suspension service to restore the RL's original ride quality and handling characteristics."
       },
       {
-        "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "slug": "/services/complete-auto-service",
         "name": "Full-Service Maintenance",
         "desc": "All scheduled maintenance for both RL generations, oil service, transmission fluid, differential service, coolant flush."
       }
@@ -1651,25 +1651,25 @@ module.exports = {
       {
         "title": "Timing Belt Service",
         "desc": "The C30A/C32B NSX uses an interference timing belt requiring replacement every 60,000 miles. We do the complete job, belt, water pump, tensioner, idler, and seals.",
-        "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/timing-belt-replacement",
         "symptomSlug": null
       },
       {
         "title": "Clutch Replacement",
         "desc": "Six-speed manual NSXs eventually need a clutch. It's more involved than a front-engine car but well within our capability. We replace disc, pressure plate, and resurface the flywheel.",
-        "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+        "serviceSlug": "/services/clutch-repair",
         "symptomSlug": "/symptoms/clutch-slipping"
       },
       {
         "title": "Brake Service",
         "desc": "NSX brakes are a critical safety system. We service front and rear pads, rotors, and brake fluid to spec, and recommend fluid flushes more frequently for driven cars.",
-        "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+        "serviceSlug": "/services/brake-service",
         "symptomSlug": "/symptoms/burning-smell"
       },
       {
         "title": "Water Pump Replacement",
         "desc": "The NSX timing belt water pump is always replaced with the belt. Skipping it on a vehicle this age is not a risk we'd recommend taking.",
-        "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/water-pump-replacement",
         "symptomSlug": "/symptoms/engine-overheating"
       },
       {
@@ -1681,7 +1681,7 @@ module.exports = {
       {
         "title": "Suspension Service",
         "desc": "Classic NSX suspension geometry is precisely engineered and responds to worn bushings and struts. We inspect and service to restore the handling the car was designed to deliver.",
-        "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+        "serviceSlug": "/services/shock-replacement",
         "symptomSlug": "/symptoms/bouncy-ride"
       }
     ],
@@ -1721,32 +1721,32 @@ module.exports = {
     ],
     "commonRepairs": [
       {
-        "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+        "slug": "/services/timing-belt-replacement",
         "name": "Timing Belt Replacement",
         "desc": "Complete C30A/C32B timing belt service, belt, water pump, tensioner, idler, and cam seals at 60,000-mile intervals."
       },
       {
-        "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+        "slug": "/services/clutch-repair",
         "name": "Clutch Replacement",
         "desc": "Six-speed manual NSX clutch service, disc, pressure plate, release bearing, and flywheel resurfacing."
       },
       {
-        "slug": "/services/brake-service-near-south-salt-lake-ut",
+        "slug": "/services/brake-service",
         "name": "Brake Service",
         "desc": "Front and rear brake service with OEM-spec hardware and brake fluid appropriate for the performance demands of the NSX."
       },
       {
-        "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+        "slug": "/services/water-pump-replacement",
         "name": "Water Pump Replacement",
         "desc": "Timing belt water pump service, always done as part of belt replacement, never skipped."
       },
       {
-        "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+        "slug": "/services/shock-replacement",
         "name": "Shock & Suspension Service",
         "desc": "NSX shock and suspension service to preserve the precise handling the car was engineered to deliver."
       },
       {
-        "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+        "slug": "/services/complete-auto-service",
         "name": "Full-Service Maintenance",
         "desc": "All NSX scheduled maintenance, oil service with the correct 5W-30 spec, coolant, brake fluid, and transmission service."
       }

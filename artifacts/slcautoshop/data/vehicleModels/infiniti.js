@@ -53,37 +53,37 @@ module.exports = {
         {
           "title": "Timing Chain Rattle on Cold Start",
           "desc": "High-mileage VQ35DE engines with irregular oil change history develop timing chain stretch and tensioner wear. A brief metallic rattle at cold startup that fades as oil pressure builds is the classic sign. Don't ignore it. A worn chain can jump teeth and cause serious engine damage. We inspect the chain, guides, and tensioners and replace what's actually worn.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Wear on 6-Speed Models",
           "desc": "Manual G35s used for spirited canyon driving or any track time wear clutches faster than commuter vehicles. Signs include a high engagement point, slipping under hard acceleration, or grinding when shifting into gear. We carry quality clutch kits for the VQ35 platform and have done this job enough times to do it right the first time.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "G35 sedans and coupes develop worn CV joints as mileage climbs, especially if the protective boots have cracked and allowed grease to escape. That rhythmic clicking on low-speed turns is the tell. We replace the complete axle shaft for a lasting repair rather than just repacking a worn joint.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Service: Rear Pads and Rotors",
           "desc": "The G35's rear-biased weight distribution means rear brakes wear more evenly than on most front-drive cars, but canyon driving in Utah accelerates pad wear on all four corners. We measure pad thickness and rotor condition front and rear and service the rear brake hardware that corrodes in winter salt.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut and Shock Wear",
           "desc": "Utah's frost-heaved roads are brutal on G35 suspension. Worn struts produce a bouncy, floaty ride and accelerate tire wear. We inspect strut condition, spring integrity, and upper mount bearings and replace what's actually worn, not what's convenient to upsell.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Check Engine Light, Catalytic Converter and O2 Codes",
           "desc": "High-mileage G35s commonly trigger catalyst efficiency codes (P0420, P0430) and O2 sensor faults. We read the codes, verify whether the issue is actually the cat or an upstream O2 sensor, and fix the root cause, not just clear the light and hand the car back.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -123,32 +123,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Complete clutch kit installation for 6-speed G35 sedans and coupes, disc, pressure plate, bearing, and flywheel service."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VQ35DE chain, tensioner, and guide inspection and replacement for high-mileage G35s with cold-start rattle."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for all G35 configurations, front and rear, with hardware corrosion service."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for G35s with clicking on turns or torn CV boots."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and spring service for G35s showing bounce or handling degradation on Utah roads."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full diagnostic, oil service, fluid checks, and multi-point inspection, everything your G35 needs in one visit."
         }
@@ -235,37 +235,37 @@ module.exports = {
         {
           "title": "Timing Chain Service on High-Mileage VQ37VHR",
           "desc": "Like its VQ35 predecessor, the VQ37VHR is susceptible to timing chain stretch and tensioner wear when oil changes have been inconsistent. A metallic rattle at cold startup is the warning sign. We inspect the chain, guides, and tensioners before recommending replacement, sometimes only the tensioner needs attention.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Clutch Replacement on 6-Speed Models",
           "desc": "The 6-speed G37 is driven hard by owners who appreciate its capabilities. Clutch wear shows up as a high or inconsistent engagement point, slipping under load, or difficulty finding neutral at idle. We do the complete job, not just the disc, because skipping the pressure plate or release bearing on a worn clutch leads to a comeback.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Brake Wear, Performance Driving Context",
           "desc": "G37 owners who use canyon roads or make the occasional track day go through brake pads faster than owners who just commute. We stock appropriate pad options for both daily driving and more spirited use, and we inspect calipers for uneven wear caused by sticking slide pins.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Axle and Joint Wear",
           "desc": "G37 CV joints wear on high-mileage cars, clicking on turns is the classic sign. Cracked or torn CV boots let grease escape and accelerate joint wear. We replace the complete axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust and Catalytic Converter Codes",
           "desc": "High-mileage G37s develop catalyst efficiency codes and O2 sensor faults. Before replacing expensive cats, we verify whether the issue is actually the catalyst or an oxygen sensor reading incorrectly. Accurate diagnosis saves money on this platform.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "Strut Replacement and Ride Quality",
           "desc": "Utah's roads take a toll on G37 struts, particularly on coupes, which have a firmer suspension tune to begin with. Worn struts produce excessive body motion on rough pavement and accelerate tire wear. We inspect strut condition as part of every high-mileage G37 checkup.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -305,32 +305,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Complete clutch kit installation for 6-speed G37 sedans, coupes, and convertibles, disc, pressure plate, bearing, and flywheel service."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VQ37VHR chain, tensioner, and guide inspection and replacement for high-mileage G37s."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service, options appropriate for both daily driving and spirited canyon use."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for G37s with clicking on turns or torn CV boots."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and spring service for G37s with degraded ride quality on Utah's rough pavement."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full service visit, oil, fluids, brakes, suspension check, and multi-point inspection for your G37."
         }
@@ -409,31 +409,31 @@ module.exports = {
         {
           "title": "Timing Chain Service: VQ35HR and VR30",
           "desc": "The Q50's timing chain systems require clean, regular oil changes to maintain proper tension. High-mileage examples, or any Q50 that has been through multiple owners with uncertain maintenance history, should have the chain and tensioner condition verified. A cold-start rattle is the main warning sign.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Pad and Rotor Service",
           "desc": "The Q50's weight and sporty brake bias mean pad wear is faster than many owners expect, especially on the rear. We measure all four corners and recommend replacing pads before rotors are grooved. Rear calipers are also susceptible to seizing from Utah road salt.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Joint Wear and Axle Service",
           "desc": "Q50 CV boots crack over time, allowing grease to escape and grit to enter the joint. The clicking on low-speed turns that results gets worse quickly once the joint itself is worn. We replace the complete axle shaft, not just repack the boot, for a repair that holds.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Water Pump and Cooling System Service",
           "desc": "The VR30DDTT twin-turbo engine runs hot by design, and a failing water pump on a turbocharged Q50 can cause overheating more quickly than on a naturally aspirated car. We check coolant condition, hose integrity, and water pump function as part of any high-mileage Q50 service.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Strut and Suspension Wear",
           "desc": "Utah's road surfaces are hard on Q50 suspension, the sport-tuned dampers on Red Sport and Sport models wear out faster than base Q50 shocks. Excessive bounce, pulling under braking, or uneven tire wear all point to worn suspension components.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -473,32 +473,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide inspection and replacement for high-mileage Q50s with VQ35HR or VR30DDTT engines."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for all Q50 trims, with attention to rear caliper seizing from Utah road salt."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for Q50s with clicking on turns or torn CV boots."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump service for Q50s, especially important on the VR30DDTT twin-turbo where cooling margin is tighter."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut service for Q50 Sport and Red Sport models with worn dampers on Utah's rough roads."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full Q50 maintenance visit, oil, fluids, brakes, suspension inspection, and multi-point check."
         }
@@ -577,31 +577,31 @@ module.exports = {
         {
           "title": "Brake Service: Performance Pads and Rotors",
           "desc": "The Q60, particularly the Red Sport 400, generates significant heat at the brakes during spirited driving. Pad fade, glazed rotors, and grooved rotors are all common on high-mileage or hard-driven coupes. We assess the full system, not just pad thickness, and recommend appropriate components for how the car is actually driven.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust and Catalytic Converter Service",
           "desc": "Q60 catalytic converter codes (P0420/P0430) are common as mileage climbs. We verify whether the issue is the catalyst itself or an O2 sensor reporting inaccurately, replacing an expensive cat when only a sensor is needed is an error we work to prevent.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "Timing Chain Inspection",
           "desc": "The VR30DDTT and VQ37VHR both use timing chains that are sensitive to oil quality and change intervals. Cold-start metallic rattle is the primary warning sign. We assess chain tension and guide condition before recommending replacement.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Water Pump and Cooling System",
           "desc": "Turbocharged Q60s put more heat into the cooling system than naturally aspirated cars, and the water pump works harder as a result. We inspect coolant condition, hoses, and the pump itself on every high-mileage Q60 service. An overheating turbocharged engine is an expensive repair.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Strut and Shock Service",
           "desc": "The Q60 coupe's sport suspension tunes are a point of pride, until Utah's frost-heaved pavement has worn the struts to the point where the ride quality no longer reflects the car's intent. We inspect and replace struts and shocks that have lost their damping ability.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -641,32 +641,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Performance pad and rotor service for Q60 Red Sport and standard models, full caliper inspection included."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide inspection and replacement for high-mileage VR30DDTT and VQ37VHR Q60s."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat replacement and O2 sensor diagnosis for Q60s with catalyst efficiency codes."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump service for Q60, especially important on twin-turbo models with higher cooling system demands."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front and rear strut service for Q60 coupes with worn sport suspension on Utah roads."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full Q60 maintenance visit covering all fluids, brakes, exhaust, and multi-point inspection."
         }
@@ -745,37 +745,37 @@ module.exports = {
         {
           "title": "CVT Fluid Service (2013–2021)",
           "desc": "The 1st-gen QX60's continuously variable transmission requires Infiniti-specification CVT fluid changed every 60,000 miles, sooner for mountain driving or towing. Shudder at low speeds, hesitation on acceleration, or a burning smell from the transmission are all signs of degraded fluid. We drain and refill with the correct CVT fluid and road-test for shudder resolution.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Timing Chain Service: VQ35DE",
           "desc": "The VQ35DE in the QX60 shares its timing chain vulnerabilities with other VQ-family engines, cold-start rattle after oil change neglect is the primary symptom. We inspect chain tension, guide condition, and tensioner function before recommending a repair scope.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Service: Front and Rear",
           "desc": "The QX60's weight, over 4,300 lbs loaded, means brake pads take a real beating on Utah canyon roads. We measure pad thickness on all four corners and inspect rotors for grooves and minimum thickness. Rear calipers are prone to seizing from winter salt and are always part of our brake inspection.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "AWD Rear Differential Service",
           "desc": "AWD QX60s have a rear differential with its own fluid requirement, separate from the transmission. Many QX60s arrive at our shop with original rear diff fluid and well over 60,000 miles on the clock. We service it on the correct interval with the right specification fluid.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Strut Replacement, Ride Quality",
           "desc": "High-mileage QX60s develop strut wear that turns Utah's potholed roads into a genuinely uncomfortable experience. A fully-loaded three-row crossover with worn struts also handles poorly in emergency maneuvers. We inspect struts at every high-mileage service and replace them when they've lost their damping ability.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump and Coolant Service",
           "desc": "The QX60's cooling system sees real stress on mountain drives with a full load. We check water pump bearing noise, coolant condition and freeze protection level, and hose integrity at every high-mileage service. Utah's elevation means the boiling point of coolant is lower than at sea level, keeping the system in good condition matters more here.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -815,32 +815,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VQ35DE chain, tensioner, and guide service for high-mileage QX60s with cold-start rattle."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full pad, rotor, and caliper service for QX60, including rear caliper seizure service from Utah road salt."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and spring service for QX60s with degraded ride quality on Utah's roads."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump service for QX60s with coolant loss, overheating, or bearing noise."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "CV axle and joint service for QX60s with clicking on turns or damaged CV boots."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Comprehensive QX60 maintenance, CVT fluid, rear diff, brakes, fluids, and multi-point inspection in one visit."
         }
@@ -927,37 +927,37 @@ module.exports = {
         {
           "title": "Timing Chain Service: VK56VD",
           "desc": "The VK56VD engine uses a complex timing chain system with multiple chains, guides, and tensioners. High-mileage examples, or trucks with inconsistent oil service history, develop cold-start rattle and timing chain stretch. This is a significant job on the QX80 due to the engine's configuration, and we approach it with the thoroughness it requires.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Service: Heavy-Duty Pads and Rotors",
           "desc": "The QX80's mass means it demands more from its brakes than a typical crossover. Utah's canyon descents accelerate brake wear further. We measure pad thickness and rotor condition at every service and replace components with parts rated for the QX80's actual curb weight.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Shock Replacement and Ride Quality",
           "desc": "High-mileage QX80s develop shock wear that shows up as excessive body roll, nose-dive under braking, and a floaty ride on rough pavement. The QX80's air suspension trims add complexity but the symptom is the same: the truck handles worse than it did when new. We inspect and replace worn shocks and struts.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust and Catalytic Converter Service",
           "desc": "The QX80 has four catalytic converters, two per bank, and they can trigger efficiency codes as mileage climbs. We diagnose O2 sensor versus actual catalyst failure before recommending expensive cat replacement.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         },
         {
           "title": "Water Pump and Cooling System",
           "desc": "The VK56VD displaces 5.6 liters and generates significant heat. Water pump bearing wear, coolant hose deterioration, and low coolant level from slow leaks are all concerns on higher-mileage QX80s. We inspect the full cooling system at every high-mileage service.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "CV Axle and Front Differential Service",
           "desc": "4WD and AWD QX80s develop CV joint wear on the front axle shafts with heavy use. Clicking on turns or vibration under 4WD engagement points to CV joint or axle shaft issues. We also service front and rear differential fluid, commonly skipped but essential for drivetrain longevity.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -997,32 +997,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VK56VD multi-chain system inspection and replacement for high-mileage QX80s with cold-start rattle."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Heavy-duty pad, rotor, and caliper service for QX80, components appropriate for a 5,700-lb truck."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Rear shock replacement for QX80s with excessive body motion, nose-dive, or degraded ride quality."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump service for VK56VD QX80s with coolant loss or overheating concerns."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat efficiency diagnosis and replacement for QX80s with P0420/P0430 codes, with O2 sensor verification first."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Comprehensive QX80 service, engine oil, differentials, transfer case, brakes, and full multi-point inspection."
         }
@@ -1101,31 +1101,31 @@ module.exports = {
         {
           "title": "Timing Chain Rattle, VQ35HR and VQ37VHR",
           "desc": "The EX shares its timing chain vulnerabilities with the G35 and G37. High-mileage engines that have seen inconsistent oil changes develop chain stretch and tensioner wear. A cold-start metallic rattle that fades once oil pressure builds is the key symptom. We assess the chain and tensioner condition before recommending a repair scope.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle and Joint Service",
           "desc": "EX CV boots crack over time, a natural consequence of the compact crossover's range of suspension articulation. Once grease escapes and grit enters, joint wear accelerates quickly. The clicking-on-turns symptom is the classic indicator. We replace the complete axle shaft.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake Service: Pads, Rotors, and Calipers",
           "desc": "The EX's rear brakes are more commonly serviced than the fronts on cars that have done a lot of highway driving. We inspect all four corners and check rear caliper slide pins for corrosion-related seizing, a common issue in Utah's winter salt environment.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Strut Replacement",
           "desc": "The EX's sport-influenced suspension tune results in struts that wear noticeably when they've passed their useful life, road noise increases, and rough pavement that used to be manageable becomes more intrusive. We replace struts as a set when they've lost their damping ability.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust and Catalytic Converter Codes",
           "desc": "High-mileage EX35 and EX37 models develop catalyst efficiency codes as the converters age. We verify whether it's the cat or an O2 sensor before quoting replacement, this step saves money on an otherwise expensive repair.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1165,32 +1165,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VQ35HR and VQ37VHR chain, tensioner, and guide service for high-mileage EX models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for EX35 and EX37 with clicking on turns or failed CV boots."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for EX, all four corners with rear hardware corrosion service."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut replacement for EX models with worn dampers and degraded ride quality."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Cat diagnosis and replacement for EX models with P0420/P0430 codes, O2 sensor verified first."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full EX service, engine oil, transmission fluid, rear diff, brakes, and multi-point inspection."
         }
@@ -1269,37 +1269,37 @@ module.exports = {
         {
           "title": "Timing Chain Service: VQ35 and VQ37",
           "desc": "The VQ35DE and VQ37VHR engines in the FX share their timing chain vulnerability with the G35 and G37. High mileage combined with inconsistent oil service leads to chain stretch, tensioner wear, and eventually cold-start rattle. We inspect the full chain system before quoting repairs.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Shock and Strut Replacement",
           "desc": "The FX's sport suspension tune is a defining characteristic of the vehicle, and when the shocks wear out, the character degrades noticeably. Excessive body motion, harsh secondary ride over rough pavement, and accelerated tire wear all point to worn dampers. We replace shocks and struts when they've genuinely lost their function.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Service: Performance-Oriented Platform",
           "desc": "FX owners who use their vehicles as intended put real loads on the brakes, particularly during Utah's canyon descents. We measure pad thickness and rotor condition at every service and replace components with appropriate-spec parts for the FX's performance character.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "CV Axle and Front Drive Shaft Service",
           "desc": "FX CV joints, front axle shafts on AWD models, wear as mileage accumulates. The characteristic clicking on turns is the sign. We replace complete axle shafts rather than just repacking worn joints for a more durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Exhaust System and Catalytic Converter",
           "desc": "High-mileage FX models develop catalyst efficiency codes on both VQ and VK engines. We differentiate between an actual catalyst failure and an O2 sensor issue before recommending the more expensive repair.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Water Pump Service",
           "desc": "The VQ and VK engines in the FX rely on proper cooling system function for long-term health. Water pump bearing wear, coolant deterioration, and slow leaks are concerns on higher-mileage FX models. We inspect the cooling system as part of every major service.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -1339,32 +1339,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VQ35DE, VQ35HR, and VQ37VHR chain, tensioner, and guide service for high-mileage FX models."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Rear shock replacement for FX sport crossovers, components appropriate for the vehicle's performance suspension tuning."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pad, rotor, and caliper service for all FX generations, front and rear with hardware corrosion service."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for FX AWD models with clicking on turns or failed CV boots."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump service for high-mileage FX35, FX37, FX45, and FX50 models."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full FX maintenance, engine oil, transmission fluid, rear differential, brakes, and multi-point inspection."
         }
@@ -1443,31 +1443,31 @@ module.exports = {
         {
           "title": "Timing Chain Service: VQ35DE and VQ35HR",
           "desc": "The M35's timing chain system mirrors what we see on the G35 and FX35. Cold-start metallic rattle is the primary indicator of chain or tensioner wear. On high-mileage M35s with uncertain oil service history, we recommend a chain inspection before purchasing or undertaking other major repairs.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Service: Four-Corner Inspection",
           "desc": "The M35's sport sedan brake setup wears rear pads more evenly than front-drive cars. Utah canyon roads accelerate wear on all four corners. We inspect pad thickness, rotor condition, and caliper function, and address rear slide pin corrosion that's endemic to vehicles driven in Utah winters.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Axle and Joint Service",
           "desc": "M35 CV joints wear with mileage, particularly on AWD M35x models where the front axles are constantly engaged. The clicking-on-turns symptom is the standard indicator. We replace the complete axle shaft for a durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Strut Replacement and Ride Quality",
           "desc": "High-mileage M35 struts produce a ride quality that no longer matches the car's original refinement. Excessive body motion, harshness over rough pavement, and accelerated tire wear are the signs. We replace worn struts as a set and verify the improvement on a road test.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Exhaust and Catalytic Converter Codes",
           "desc": "P0420 and P0430 catalyst efficiency codes on the M35 are common at higher mileage. We verify whether the cat is actually failed or whether an O2 sensor is reading inaccurately. This step is important on a car where the catalyst replacement cost is significant.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/failed-emissions"
         }
       ],
@@ -1507,32 +1507,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VQ35DE and VQ35HR chain, tensioner, and guide service for high-mileage M35 and M35x models."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full four-corner brake service for M35, pads, rotors, calipers, and rear hardware corrosion service."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for M35 and M35x with CV joint clicking on turns."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and spring service for high-mileage M35 sedans with worn dampers."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Catalyst diagnosis and replacement for M35 models with P0420/P0430 efficiency codes."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full M35 maintenance, oil, transmission fluid, rear differential (AWD), brakes, and multi-point inspection."
         }
@@ -1607,37 +1607,37 @@ module.exports = {
         {
           "title": "CVT Fluid Service",
           "desc": "The JX35 CVT is sensitive to fluid condition, shudder at low speeds, hesitation on acceleration, or a burning smell from the transmission are signs of degraded fluid. We drain and refill with Infiniti-specification CVT fluid and road-test to confirm shudder resolution. At Utah's mountain driving demands, we recommend a 45,000-mile interval rather than the factory 60,000.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/burning-smell"
         },
         {
           "title": "Timing Chain, VQ35DE",
           "desc": "The VQ35DE in the JX35 shares its timing chain vulnerability with every VQ35 engine we service. Cold-start metallic rattle is the warning sign. We inspect chain tension, tensioner condition, and guide wear before recommending a repair scope.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "AWD Rear Differential Service",
           "desc": "AWD JX35s have a rear differential with its own fluid requirement, separate from the CVT and engine oil. It's commonly missed at standard service shops. We service it at every AWD JX35 inspection, on the correct interval, with the correct specification fluid.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": null
         },
         {
           "title": "Brake Service: Pads, Rotors, Rear Calipers",
           "desc": "The JX35's weight, over 4,300 lbs loaded, means brakes work hard on Utah's canyon descents. We inspect all four corners and address rear caliper slide pin corrosion that is common on vehicles driven in Utah winter salt conditions.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "Strut Replacement and Ride Quality",
           "desc": "High-mileage JX35s develop strut wear that makes Utah's rough roads noticeably more uncomfortable. A loaded three-row crossover with worn struts also handles poorly in emergency maneuvers. We replace struts when they've genuinely lost their damping function.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "CV Joint and Axle Service",
           "desc": "JX35 CV boots crack with age, especially on AWD models where the front axles are constantly loaded. The clicking-on-turns symptom indicates a worn joint. We replace the complete axle shaft for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -1677,32 +1677,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "VQ35DE chain, tensioner, and guide service for JX35 models with cold-start rattle or oil change neglect."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full four-corner brake service for JX35, pads, rotors, and rear caliper hardware corrosion service."
         },
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Strut Replacement",
           "desc": "Front strut and spring replacement for JX35 with degraded ride quality on Utah's roads."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Complete axle shaft replacement for JX35 AWD with clicking on turns or damaged CV boots."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump service for JX35 with coolant loss, overheating, or bearing noise."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Comprehensive JX35 service, CVT fluid, rear differential, brakes, engine oil, and full multi-point inspection."
         }

@@ -61,37 +61,37 @@ module.exports = {
         {
           "title": "Clutch Slipping or High Engagement Point",
           "desc": "Classic and TD5 Defenders work the clutch hard, especially when rock-crawling in low range or towing trailers on canyon roads. A clutch that slips under load or engages at the very top of the pedal travel is overdue for replacement. We handle the full clutch assembly and inspect the flywheel and hydraulics while everything is apart.",
-          "serviceSlug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/clutch-repair",
           "symptomSlug": "/symptoms/clutch-slipping"
         },
         {
           "title": "Exhaust Leaks and Loud Running",
           "desc": "Defenders run their exhaust through tight routing under a solid-axle chassis, and the combination of heat cycles, off-road flexing, and road salt speeds up joint and manifold failures. A rattling or louder-than-normal exhaust is often a cracked manifold or blown flange gasket. We diagnose and repair the whole exhaust system, not just the obvious leak.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Bouncy or Vague Ride After Trail Use",
           "desc": "Coil-sprung Defenders use relatively simple suspension geometry, but repeated off-road use chews through shock absorbers, radius arm bushings, and Panhard rod bushings. A Defender that hops or wanders on the highway needs a full suspension inspection, often it's the rear shocks and worn bushings working together to produce that unsettled feeling.",
-          "serviceSlug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/shock-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Pedal Feel Issues",
           "desc": "Defenders with aging brake fluid and original caliper seals can develop a soft, spongy pedal, particularly after hard off-road use where the brakes see repeated heavy application. A soft pedal on a vehicle this size is not something to drive past. We flush the system, inspect calipers and slides, and restore firm pedal feel.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/soft-brake-pedal"
         },
         {
           "title": "CV Joint Noise on Full-Lock Turns",
           "desc": "Defenders running lifted suspensions or heavy steering locks put significant stress on CV joints. Clicking on full lock is a CV joint in distress, once the boot splits and grease evacuates, the joint wears quickly. We replace the full axle shaft for a lasting repair rather than patching a cracked boot.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Emissions and Sensor Codes",
           "desc": "Later Defenders with emissions controls develop sensor and catalytic converter codes as mileage accumulates, especially on examples that see a lot of low-speed off-road running that never fully purges the exhaust system. We read codes, verify root cause, and repair what actually needs fixing.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -131,32 +131,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/clutch-repair-near-south-salt-lake-ut",
+          "slug": "/services/clutch-repair",
           "name": "Clutch Repair",
           "desc": "Full clutch assembly, hydraulics, and flywheel inspection, classic and modern Defenders."
         },
         {
-          "slug": "/services/shock-replacement-near-south-salt-lake-ut",
+          "slug": "/services/shock-replacement",
           "name": "Shock Replacement",
           "desc": "Trail-worn shock absorbers and worn suspension bushings, restore highway manners and off-road control."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, caliper inspection, and brake fluid flush, critical on a heavy-duty vehicle."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full axle shaft replacement for clicking on turns, especially common on lifted or heavily used Defenders."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold, flange, and system repairs for Defenders with heat and trail-related exhaust damage."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full fluid service, inspection, and any mechanical work your Defender needs, one visit."
         }
@@ -251,31 +251,31 @@ module.exports = {
         {
           "title": "Air Suspension Sagging or Corner Low",
           "desc": "The air suspension on Series II, Discovery 3, and 4 models is the most common complaint we hear from Discovery owners. A single corner sitting low usually points to a failed air spring or a leak at a line fitting. A system that sags overnight points to the compressor struggling to hold pressure. We diagnose the specific failure point before recommending parts.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Timing Chain Noise on Cold Start",
           "desc": "High-mileage Discovery V8 engines that have had infrequent oil changes can develop chain stretch. The telltale sign is a brief metallic rattle on cold startup that fades as oil pressure builds, don't ignore it. A worn chain that jumps teeth will cause serious engine damage. We do the complete chain, tensioner, and guide service.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Grinding or Spongy Pedal",
           "desc": "Discoveries are heavy vehicles that are often driven in mountainous Utah terrain, that's a demanding environment for brakes. Worn pads grinding on rotors or a soft pedal from degraded brake fluid are both safety issues we take seriously. We do a complete brake inspection including caliper slides and fluid condition.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Lifted Discoveries or those with significant off-road mileage put stress on front CV axles. Clicking on turns is a worn outer CV joint, once the boot cracks and grease escapes, the joint deteriorates quickly. We replace the full axle shaft rather than just repack the boot for a more durable repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Check Engine Light, Catalytic Converter or O2 Sensor",
           "desc": "Discovery models with high mileage commonly see catalytic converter efficiency codes and upstream O2 sensor failures. We read codes, verify the root cause through actual component testing, and fix what needs fixing rather than guessing.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/check-engine-light"
         }
       ],
@@ -315,32 +315,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension Service",
           "desc": "Air spring replacement, compressor assessment, and ride height correction on Series II through Discovery 5."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement on high-mileage V8 Discovery engines."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and fluid flush, complete brake service for a heavy-duty SUV."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full axle shaft replacement for clicking on turns, front and rear."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Converter replacement and O2 sensor service for check engine light and emissions failures."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full fluid service, inspection, and mechanical work, one visit, everything documented."
         }
@@ -435,31 +435,31 @@ module.exports = {
         {
           "title": "Air Suspension Low or Warning Light",
           "desc": "P38, L322, and L405 Range Rovers are well-known for air suspension failures. The EAS system on P38 models is particularly age-sensitive, brittle air lines and failed compressors are common at this point. Newer models develop air spring bladder failures and height sensor issues. We diagnose the specific failed component before quoting repair.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Brake Squealing or Grinding",
           "desc": "Range Rovers run heavy, and Utah's mountain terrain is demanding on brake systems. Squealing usually means glazed pads or pads at minimum thickness. Grinding means the friction material is gone and rotors are taking damage. Both need prompt attention on a vehicle this size.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Engine Overheating, Cooling System Issues",
           "desc": "The BMW 4.4L V8 used in the L322 Range Rover has a history of cooling system component failures, particularly the plastic coolant expansion tank, coolant hoses, and water pump. An overheating Range Rover needs immediate attention before head gasket damage occurs.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Loud Exhaust or Check Engine, Catalytic Converter",
           "desc": "Range Rover catalytic converters, particularly on V8 models, contain significant precious metal content, making them targets for theft in urban areas. Failed cats also trigger efficiency codes. We handle replacement and advise on deterrent measures.",
-          "serviceSlug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/catalytic-converter-service",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "Strut or Shock Deterioration",
           "desc": "When the air suspension is operating correctly, Range Rover ride quality is exceptional. When the dampers themselves wear out, the vehicle has a floaty, wallowing character that's uncomfortable and reduces handling precision. Shock and strut replacement restores the original ride balance.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         }
       ],
@@ -499,32 +499,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension Service",
           "desc": "Air spring, compressor, height sensor, and damper service, all Range Rover generations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system service for a heavy luxury SUV, pads, rotors, calipers, and fluid."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system repairs including water pump, hoses, and expansion tank on L322 V8 models."
         },
         {
-          "slug": "/services/catalytic-converter-service-near-south-salt-lake-ut",
+          "slug": "/services/catalytic-converter-service",
           "name": "Catalytic Converter Service",
           "desc": "Converter replacement and exhaust system repair on V8 and supercharged models."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold leaks, flange failures, and exhaust system repair across all Range Rover generations."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full fluid service, inspection, and mechanical work, all documented, one visit."
         }
@@ -611,31 +611,31 @@ module.exports = {
         {
           "title": "Air Suspension Not Raising or Sagging Corner",
           "desc": "LR3 air suspension failures are the most common repair we see on these vehicles. A corner that sits low, a system that takes too long to rise, or a compressor that runs constantly are all signs of a failing component. We use pressure testing to identify exactly which part of the system has failed before recommending repairs.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Timing Chain Rattle, 4.4L V8",
           "desc": "The Jaguar AJ-V8 in the LR3 is known to develop timing chain noise on high-mileage examples, especially those with extended oil change intervals. A metallic rattle on cold startup that fades as oil pressure builds is an early warning. We do the full chain, tensioner, and guide replacement before the chain jumps timing teeth.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake System Service",
           "desc": "LR3s are heavy vehicles that regularly carry passengers and cargo through Utah mountain terrain. Worn brakes on a vehicle this size are a genuine safety concern. We do full brake inspections covering pad thickness, rotor condition, caliper operation, and brake fluid condition.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Front CV Axle Clicking",
           "desc": "The LR3's front independent suspension runs CV axles that wear over time, particularly on vehicles used off-road or that see hard use. Clicking on turns is the classic symptom of a worn outer CV joint. We replace the full axle shaft for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Burning Smell from Engine Bay or Exhaust",
           "desc": "A burning oil smell on the LR3 V8 often points to valve cover gasket leaks dripping onto the exhaust, common on higher-mileage examples. A sweet burning smell is coolant, possibly a small hose leak contacting the exhaust. Both warrant prompt inspection.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/burning-smell"
         }
       ],
@@ -675,32 +675,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension Service",
           "desc": "Air spring replacement, compressor assessment, and height sensor service on LR3 models."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Full chain, tensioner, and guide replacement on the 4.4L V8 before damage occurs."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Complete brake inspection and service for a heavy-duty SUV used in mountain terrain."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full axle shaft replacement for clicking on turns on LR3 front and rear axles."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Cooling system maintenance on V8 models to prevent overheating on Utah canyon roads."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full fluid service, inspection, and mechanical repairs, one visit, everything documented."
         }
@@ -787,31 +787,31 @@ module.exports = {
         {
           "title": "Air Suspension Fault, Sagging or Won't Rise",
           "desc": "Air suspension faults on the LR4 can range from a single failed air spring to a compressor that's nearing the end of its life. A fault message on the instrument panel paired with a visibly low corner is usually a failed spring. A system that raises slowly and the compressor runs for a long time suggests a leak or a struggling compressor. We diagnose before we quote.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Water Pump Failure or Overheating",
           "desc": "The 5.0L V8 water pump is a known wear item on high-mileage LR4s, particularly those that have seen Utah summer heat on long highway runs. A water pump that's beginning to fail may weep coolant, make a rumbling noise, or cause the temperature gauge to creep upward on extended driving. We replace the pump before an overheat event causes head gasket damage.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         },
         {
           "title": "Brake Pad and Rotor Wear",
           "desc": "An LR4 loaded with passengers and gear, descending a Utah canyon road, places serious demands on the brake system. We see LR4 front brakes wearing faster than owners expect under these conditions. A full brake inspection covers pad thickness, rotor condition, caliper slides, and brake fluid age.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Timing Chain Noise on V8 Models",
           "desc": "High-mileage LR4 5.0L V8 engines can develop timing chain rattle, that brief metallic sound on cold startup that fades as oil pressure builds. Don't wait on this one. We do the full chain and tensioner service before the wear pattern progresses to a jumped tooth.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Wear on Off-Road LR4s",
           "desc": "LR4s that have seen real off-road use put stress on their front CV axles, particularly at full steering lock on steep terrain. Clicking on turns is the clear symptom. We replace the full axle shaft for a repair that lasts.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -851,32 +851,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension Service",
           "desc": "Air spring, compressor, and height sensor replacement on all LR4 model years."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Preventive and failure cooling system service on the 5.0L V8 and V6 models."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Chain, tensioner, and guide replacement on high-mileage LR4 V8 engines."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Full brake system service for a heavy SUV in mountain driving conditions."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full axle shaft replacement for clicking on turns, front axles on trail-used LR4s."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Comprehensive fluid service, inspection, and mechanical repairs in one visit."
         }
@@ -963,31 +963,31 @@ module.exports = {
         {
           "title": "Air Suspension Fault or Low Ride Height",
           "desc": "Range Rover Sport L320 and L494 air suspension failures follow the same pattern as the full Range Rover, age-related air spring bladder failures, compressor fatigue, and occasionally height sensor faults. We diagnose the specific failure before recommending components.",
-          "serviceSlug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/strut-replacement",
           "symptomSlug": "/symptoms/bouncy-ride"
         },
         {
           "title": "Timing Chain Rattle, L320 Supercharged V8",
           "desc": "The 4.2L supercharged V8 in L320 Range Rover Sports is known for timing chain wear on high-mileage examples. A brief metallic rattle on cold startup is the signature symptom. This is a job to do proactively, a jumped chain on a supercharged V8 causes extensive and expensive damage.",
-          "serviceSlug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-chain-repair",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "Brake Wear, Performance Use Accelerates It",
           "desc": "Sport owners who drive their vehicles the way the name suggests, pushing through Parley's Canyon or Emigration, will see front brakes wear significantly faster than the owner's manual interval suggests. We do a full brake inspection at each visit and advise on realistic replacement intervals based on how the vehicle is driven.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/grinding-brakes"
         },
         {
           "title": "Exhaust Leaks and Manifold Issues",
           "desc": "The supercharged V8 in L320 models runs significant heat through the exhaust system. Manifold gasket failures and cracked flex pipes are common on high-mileage examples. A ticking noise from the engine bay under load is often an exhaust manifold leak, we locate the leak precisely before recommending repair.",
-          "serviceSlug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/exhaust-repair",
           "symptomSlug": "/symptoms/loud-exhaust"
         },
         {
           "title": "CV Axle Wear",
           "desc": "Range Rover Sports that see genuine off-road use, which many do in Utah, put significant stress on front CV axles at full suspension travel. Clicking on turns is the clear signal. We replace the complete axle shaft for a lasting repair.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         }
       ],
@@ -1027,32 +1027,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/strut-replacement-near-south-salt-lake-ut",
+          "slug": "/services/strut-replacement",
           "name": "Air Suspension Service",
           "desc": "Air spring, compressor, and height sensor service on L320 and L494 Range Rover Sports."
         },
         {
-          "slug": "/services/timing-chain-repair-near-south-salt-lake-ut",
+          "slug": "/services/timing-chain-repair",
           "name": "Timing Chain Service",
           "desc": "Complete chain, tensioner, and guide service on the L320 supercharged V8."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Performance brake system service, pads, rotors, calipers, and fluid flush."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Manifold gaskets, flex pipes, and exhaust system repair on supercharged V8 models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full axle shaft replacement for CV wear on Sport models with off-road use."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full fluid service, inspection, and mechanical repairs, documented, one visit."
         }
@@ -1135,31 +1135,31 @@ module.exports = {
         {
           "title": "Timing Belt Replacement, Freelander 2",
           "desc": "The 3.2L engine in the Freelander 2 uses a timing belt with a finite service life. A belt failure on an interference engine causes severe internal engine damage. We do the complete service, belt, tensioner, idler, and water pump, so you don't have to come back for the water pump when it fails three months later.",
-          "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/timing-belt-replacement",
           "symptomSlug": "/symptoms/check-engine-light"
         },
         {
           "title": "CV Axle Clicking on Turns",
           "desc": "Both Freelander generations develop CV joint wear with age. The compact chassis and tight suspension geometry put stress on the outer CV joints. Clicking at low speed on full steering lock is the classic symptom, once the boot cracks and grease escapes, the joint wears quickly. We replace the full axle shaft.",
-          "serviceSlug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "serviceSlug": "/services/cv-joint-repair",
           "symptomSlug": "/symptoms/clicking-when-turning"
         },
         {
           "title": "Brake System Service",
           "desc": "Freelander brake wear is straightforward but accelerates on vehicles driven in Utah's hilly terrain. We do a full brake inspection, pads, rotors, calipers, and brake fluid condition, and advise on what needs attention now versus what can wait.",
-          "serviceSlug": "/services/brake-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/brake-service",
           "symptomSlug": "/symptoms/squeaking-brakes"
         },
         {
           "title": "Drivetrain Vibration or Noise, Freelander 1 IRD",
           "desc": "A vibration or whine under acceleration on a Freelander 1, particularly when the vehicle has high mileage, can point to the IRD unit. We inspect the IRD, check the fluid, and give you an honest assessment of the unit's condition before recommending repair or replacement.",
-          "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "serviceSlug": "/services/complete-auto-service",
           "symptomSlug": "/symptoms/grinding-when-shifting"
         },
         {
           "title": "Water Pump Failure, Freelander 2",
           "desc": "The water pump on the Freelander 2 3.2L is a recommended replacement at the same interval as the timing belt, which is the right approach, since accessing the water pump requires the same disassembly. If your Freelander 2 timing belt has been replaced without the water pump, have the pump inspected.",
-          "serviceSlug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "serviceSlug": "/services/water-pump-replacement",
           "symptomSlug": "/symptoms/engine-overheating"
         }
       ],
@@ -1199,32 +1199,32 @@ module.exports = {
       ],
       "commonRepairs": [
         {
-          "slug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
+          "slug": "/services/timing-belt-replacement",
           "name": "Timing Belt Replacement",
           "desc": "Complete timing belt service with water pump and tensioner on Freelander 2 3.2L models."
         },
         {
-          "slug": "/services/cv-joint-repair-near-south-salt-lake-ut",
+          "slug": "/services/cv-joint-repair",
           "name": "CV Joint Repair",
           "desc": "Full axle shaft replacement for clicking on turns, both Freelander generations."
         },
         {
-          "slug": "/services/brake-service-near-south-salt-lake-ut",
+          "slug": "/services/brake-service",
           "name": "Brake Service",
           "desc": "Pads, rotors, calipers, and fluid service on Freelander 1 and 2."
         },
         {
-          "slug": "/services/water-pump-replacement-near-south-salt-lake-ut",
+          "slug": "/services/water-pump-replacement",
           "name": "Water Pump Replacement",
           "desc": "Water pump service on Freelander 2, typically done with the timing belt."
         },
         {
-          "slug": "/services/complete-auto-service-near-south-salt-lake-ut",
+          "slug": "/services/complete-auto-service",
           "name": "Complete Auto Service",
           "desc": "Full fluid service, IRD fluid check, and mechanical inspection, one visit."
         },
         {
-          "slug": "/services/exhaust-repair-near-south-salt-lake-ut",
+          "slug": "/services/exhaust-repair",
           "name": "Exhaust Repair",
           "desc": "Exhaust system inspection and repair on high-mileage Freelander models."
         }
