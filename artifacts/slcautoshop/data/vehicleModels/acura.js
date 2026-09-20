@@ -41,7 +41,7 @@ module.exports = {
       },
       {
         "title": "J-Series Timing Belt Specialists",
-        "desc": "The J32 and J35 in the TL are interference engines, a snapped timing belt destroys them. We do complete belt kit service including tensioner, idler, and water pump on the correct interval."
+        "desc": "The J32 and J35 in the TL are interference engines, a broken timing belt can cause serious internal damage. We do complete belt kit service including tensioner, idler, and water pump on the correct interval."
       },
       {
         "title": "Clutch Work on 6-Speed Manual TLs",
@@ -62,7 +62,7 @@ module.exports = {
       },
       {
         "title": "Timing Belt Service (J32/J35 V6)",
-        "desc": "All TL V6 engines through the 3rd generation use a rubber timing belt on an interference engine. The factory interval is 90,000 miles. An overdue belt is the single most dangerous deferred maintenance item on these cars. We replace the belt, tensioner, idler pulley, and water pump as a complete kit.",
+        "desc": "TL V6 engines use a timing belt. Replacement timing depends on the model year, elapsed time, and driving conditions. We check the maintenance schedule and service history for your specific vehicle, then explain which belt-drive components should be serviced together.",
         "serviceSlug": "/services/timing-belt-replacement-near-south-salt-lake-ut",
         "symptomSlug": null
       },
@@ -73,8 +73,8 @@ module.exports = {
         "symptomSlug": "/symptoms/clutch-slipping"
       },
       {
-        "title": "Check Engine Light, VTC and O2 Sensor Codes",
-        "desc": "High-mileage TLs frequently trigger codes related to the variable timing control actuator or oxygen sensors. The VTC actuator on J-series engines can develop a rattle at cold startup. A sign it needs replacement before it causes cam timing issues. We diagnose the actual root cause before recommending parts.",
+        "title": "Check Engine Light or Startup Noise",
+        "desc": "A check engine light or cold-start rattle needs diagnosis for the specific engine. We read the stored codes, check oil level and condition, and inspect the components associated with the noise or fault. A rattle alone does not establish which part needs replacement.",
         "serviceSlug": "/services/complete-auto-service-near-south-salt-lake-ut",
         "symptomSlug": "/symptoms/check-engine-light"
       },
@@ -159,7 +159,7 @@ module.exports = {
     ],
     "tips": [
       "3rd-gen TL owners (2004–2008): change your automatic transmission fluid every 30,000 miles using Honda DW-1 ATF, the 5-speed in these cars is sensitive to degraded fluid, and most transmission problems we see on this generation trace back to infrequent fluid changes.",
-      "Utah's temperature swings, from sub-zero January nights to 100°F July afternoons, put extra stress on rubber timing belts. If your TL's belt is within 15,000 miles of the 90,000-mile interval, don't wait for a Utah summer to find out it's overdue.",
+      "Check both the age and mileage of your timing belt against the maintenance schedule for your TL. If there is no record of replacement, arrange an inspection and discuss the appropriate service rather than assuming the belt was changed.",
       "Brake fluid absorbs moisture over time and loses its boiling point, a real concern when you're descending Emigration Canyon or Big Cottonwood on a hot day. Flush your TL's brake fluid every two to three years regardless of mileage."
     ],
     "faqs": [

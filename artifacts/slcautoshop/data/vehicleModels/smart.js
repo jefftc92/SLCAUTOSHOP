@@ -14,7 +14,7 @@ module.exports = {
       "metaDesc": "Smart Fortwo repair in Salt Lake City, transmission, clutch actuator, brakes, cooling, and full service. Scott's Auto & Clutch Repair. (801) 485-4089.",
       "intro": "The Smart Fortwo is unlike anything else we work on, a 8.8-foot-long city car that fits in half a parking space and gets remarkable fuel economy when it's running right. At Scott's Auto & Clutch Repair in South Salt Lake, we service all generations of the US-market Fortwo, and we've developed a clear-eyed understanding of where these cars need attention and where they're actually quite durable.",
       "whatHeading": "Full-Service Smart Fortwo Repair: All Generations",
-      "whatIntro": "We service all US-market Smart Fortwo generations at our South Salt Lake shop, the 450-chassis first generation and the 451 second generation. Every visit starts with a free diagnosis so you know exactly what your Fortwo needs before we touch it.",
+      "whatIntro": "We service all US-market Smart Fortwo generations at our South Salt Lake shop, including the 450, 451, and 453 chassis listed below. Every visit starts with a free diagnosis so you know exactly what your Fortwo needs before we touch it.",
       "generations": [
         {
           "label": "1st Gen (450), Fortwo Pure / Passion / Cabrio",

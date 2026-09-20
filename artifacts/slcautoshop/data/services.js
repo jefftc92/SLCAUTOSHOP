@@ -871,7 +871,7 @@ const services = [
     whyUs: [
       {
         title: "Pressure-Test First",
-        desc: "We pressure-test the cooling system before replacing the pump, confirming the pump is the source and not the thermostat, hose, or head gasket."
+        desc: "We pressure-test for leaks and inspect the cooling system. A pressure test alone does not check thermostat operation or confirm that the pump is circulating coolant properly."
       },
       {
         title: "Complete Cooling Inspection",
@@ -887,7 +887,7 @@ const services = [
       }
     ],
     processHeading: "How We Diagnose and Replace Your Water Pump",
-    processIntro: "We pressure-test the cooling system before recommending a pump replacement, confirming the pump is the actual source. Then we check what else is accessible during the same labor so you can make an informed decision about what to combine.",
+    processIntro: "We check for leaks and evaluate cooling-system operation before recommending a water pump. We also check which related parts share access on your engine so you can decide whether to combine repairs.",
     process: [
       {
         step: 1,
@@ -938,7 +938,7 @@ const services = [
           "The water pump is what keeps coolant moving through your engine. When it fails, the engine overheats. The two pumps in the photo show one of the more deceptive failure modes: the pump on the left is new, with seven full aluminum fins that push coolant through the system efficiently. The pump on the right still has an intact shaft that spins, but the impeller fins have been almost completely eaten away by corrosion, so it moves almost no coolant. The engine runs hot even though nothing appears seized, which is why overheating doesn't always point to an obvious failure. Most water pumps give some warning before they fail completely, which is the time to act.",
           "<strong>Water pump body and shaft seal</strong>: the pump turns a vane wheel inside the engine, driven by the <a href='/services/timing-belt-replacement-near-south-salt-lake-ut'>timing belt</a>, <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>timing chain</a>, or a separate drive belt. When the shaft seal fails, coolant leaks out through the weep hole near the front of the engine. That drip is a designed warning signal built into the pump.",
           "<strong>Impeller</strong>: the internal vane wheel that actually moves the coolant. On some pumps, the impeller can corrode away or separate from the shaft without any external leak. The pump turns but circulates almost no coolant, causing the engine to run hot with no visible puddle to explain it.",
-          "<strong>Thermostat</strong>: a valve that controls how much coolant flows to the radiator based on temperature. Its labor overlaps with the water pump on most engines. We recommend replacing it at the same time rather than leaving an aging thermostat in against a new pump.",
+          "<strong>Thermostat</strong>: a temperature-controlled valve that regulates coolant flow to the radiator. Access and labor overlap with the water pump vary by engine. We recommend replacement when its condition or the repair circumstances justify it.",
           "<strong>Coolant hoses</strong>: we inspect all hoses while the system is open. A softened or blistered hose should be addressed before it fails on a recently repaired cooling system.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
@@ -974,7 +974,7 @@ const services = [
       },
       {
         q: "Should I combine water pump and timing belt service?",
-        a: "On most engines, yes. They share the same access, and combining them saves several hours of labor compared to doing them separately. On engines where the <a href='/services/timing-belt-replacement-near-south-salt-lake-ut'>timing belt</a> drives the water pump directly, doing them together is standard practice rather than optional."
+        a: "It depends on the engine. When the timing belt drives the water pump, replacing both can avoid repeating much of the same labor. We check the belt service history, pump condition, and manufacturer guidance before recommending combined work."
       },
       {
         q: "What is impeller failure and how do you diagnose it?",
@@ -982,7 +982,7 @@ const services = [
       },
       {
         q: "Why replace the thermostat alongside the water pump?",
-        a: "The labor largely overlaps on most engines, so combining them costs very little extra. Leaving an aging thermostat in place against a new pump is the kind of decision that often results in a return visit a few months later when the thermostat sticks."
+        a: "On some engines, access overlaps enough to make combined work worthwhile. On others, the thermostat is elsewhere. We consider its condition, service history, and any overheating symptoms before recommending replacement."
       },
       {
         q: "Is there a warranty on the repair?",
@@ -996,7 +996,7 @@ const services = [
     whoContent: {
       heading: "Who to Trust for Water Pump Replacement in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been diagnosing and repairing cooling systems in South Salt Lake since 1990. We pressure-test before recommending a pump replacement, which means we're confirming the pump is actually the problem rather than assuming. We also check what else is accessible at the same time so you can decide whether to combine services and save on labor.",
+        "Scott's Auto & Clutch Repair has worked on cooling systems in South Salt Lake since 1990. We check for leaks and evaluate operating temperature and coolant circulation before recommending a repair. We explain any useful labor overlap with related parts on your engine.",
         "When you bring your vehicle in, you get a complete cooling system assessment. We explain what we found, what we recommend, and why before any work starts. If combining services makes sense for your vehicle's mileage and service history, we'll tell you. If it doesn't, we'll tell you that too."
       ]
     },
@@ -1007,7 +1007,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes. Cooling system pressure test confirms the pump is the source before work begins"
+        value: "Yes. Leak testing and cooling-system inspection guide the diagnosis before work begins"
       },
       {
         label: "Includes",

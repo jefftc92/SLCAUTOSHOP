@@ -9,7 +9,7 @@ const symptoms = [
     relatedService: "clutch-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: true, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "Clutch slipping is when your engine revs climb but your speed doesn't, power isn't reaching the wheels. One of the most common reasons is a worn clutch disc. You can see in the image below that the disc on the left is worn down and can no longer grip, compared to the disc on the right which is brand new. There are several other reasons a clutch can slip, which we cover in the Why Is My Clutch Slipping section below.",
+    intro: "Clutch slipping is when your engine revs climb but your speed doesn't, power isn't reaching the wheels. One of the most common reasons is a worn clutch disc. You can see in the image below that the disc on the left is worn down and can no longer grip, compared to the disc on the right which is brand new. There are several other reasons a clutch can slip, which we cover in the causes section below.",
     introImage: "clutch-disc-worn-vs-new.png",
     introImageAlt: "Worn clutch disc vs new clutch disc, Scott's Auto & Clutch Repair, Salt Lake City UT",
     introImageCaption: "Left: worn clutch disc with glazed, heat-discolored friction surface. Right: new replacement disc. When the friction material looks like the left, the clutch can no longer grip the flywheel under load.",
@@ -58,7 +58,7 @@ const symptoms = [
     relatedService: "clutch-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: true, easilyConfused: true },
-    intro: "A grinding noise on every shift means the clutch isn't fully releasing. The input shaft stays spinning and forces the synchronizers to clash instead of matching speeds cleanly. Common culprits are low or contaminated hydraulic fluid, a failing master or slave cylinder, or a worn clutch disc.",
+    intro: "Grinding during a gear change can happen when the clutch does not fully disengage or when transmission components cannot match speeds correctly. Hydraulic or linkage problems, worn synchronizers, and other internal wear can produce similar noises. Whether it affects one gear or several helps guide the inspection.",
     serviceBlurb: "Grinding when shifting is a race against time on your synchronizers. We start with a hydraulic system check, bleed, pressure test, and cylinder inspection, to determine if it's a release problem or actual disc wear. In most cases, a complete clutch replacement stops the grinding immediately. If we find synchronizer damage, we'll give you an honest assessment of transmission condition so you can make an informed decision before any work begins.",
     smsBody: "Hi, I'm hearing grinding noises when shifting.",
     causes: [
@@ -102,7 +102,7 @@ const symptoms = [
     relatedService: "clutch-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: true, easilyConfused: false },
-    intro: "A clutch pedal that takes more effort than it used to has increased resistance somewhere in the mechanical or hydraulic path, a fraying cable, a failing master or slave cylinder, or a pressure plate with weakened springs are the most common causes.",
+    intro: "A stiff clutch pedal takes more effort to press than usual. Possible causes include a binding cable or linkage, a problem in the release mechanism, or a hydraulic fault. The parts involved depend on the vehicle's clutch design.",
     serviceBlurb: "A stiff pedal is often a cable or hydraulic component issue, which means the fix is frequently less involved and less expensive than a full clutch replacement. We'll pressure-test the hydraulic system, inspect the master and slave cylinders, and check the clutch cable and pivot points to isolate the resistance. We'll also measure clutch disc wear while we're at it so you have a complete picture of your clutch system's health.",
     smsBody: "Hi, my clutch pedal is very stiff.",
     causes: [
@@ -190,7 +190,7 @@ const symptoms = [
     relatedService: "clutch-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: true, easilyConfused: true },
-    intro: "When the clutch doesn't fully disengage, the input shaft keeps spinning and the synchronizers have to fight it on every shift, making gears hard to select. Air in the hydraulic line, a worn master or slave cylinder, or a misadjusted clutch cable are the usual culprits.",
+    intro: "Hard shifting means a gear is difficult to select or the lever resists moving into position. A clutch that does not fully disengage, a linkage problem, incorrect or low transmission fluid, and internal transmission wear can all cause difficulty shifting.",
     serviceBlurb: "Difficulty shifting is often a hydraulic release problem, air in the line, a worn cylinder, or a cable adjustment, which is a simpler repair than the clutch disc. We bleed and pressure-test the clutch hydraulic system, inspect the shift linkage for worn bushings or cables, and check clutch disc clearance. If the disc is also worn, we'll let you know upfront so you can plan accordingly rather than be surprised later.",
     smsBody: "Hi, I'm having trouble shifting gears.",
     causes: [
@@ -234,7 +234,7 @@ const symptoms = [
     relatedService: "clutch-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: true, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "That sharp, acrid smell from a manual transmission car is the clutch disc slipping against the flywheel and generating intense heat, each slip event burns off friction material and can glaze the flywheel surface, which compounds the damage quickly.",
+    intro: "A burning smell from a manual-transmission vehicle can come from an overheated clutch, but it can also come from brakes, leaking fluid on hot parts, or an electrical problem. Tell us when the smell appears and whether the engine revs rise without the car gaining speed.",
     serviceBlurb: "When a clutch is generating enough heat to smell, it's in the late stages of its life. We inspect the clutch system thoroughly and check for oil leaks at the rear main seal or input shaft while the transmission is accessible, since contamination is a common reason clutches burn out before the friction material is fully worn. We'll give you an honest assessment of everything we find before recommending any repair.",
     smsBody: "Hi, I'm smelling a burning smell from my clutch.",
     causes: [
@@ -278,7 +278,7 @@ const symptoms = [
     relatedService: "clutch-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: true, easilyConfused: false },
-    intro: "A soft or spongy clutch pedal that travels further than usual before the clutch releases is a hydraulic system problem, air in the line is the most common cause, but a failing slave or master cylinder can take the pedal from spongy to fully failed with little warning.",
+    intro: "A soft or spongy clutch pedal has less resistance than usual or travels farther before the clutch releases. On a hydraulic clutch, air, a fluid leak, or a master or slave cylinder problem can cause this change. Difficulty selecting gears or a pedal that stays down needs prompt inspection.",
     serviceBlurb: "A spongy pedal almost always means a bleed, a cylinder replacement, or both. Our hydraulic clutch service includes a full system bleed to remove air, inspection of the master and slave cylinders under pressure, and a check of all lines and fittings for seepage. If a cylinder is leaking internally, we'll quote the replacement so you have the full picture before any work begins.",
     smsBody: "Hi, my clutch pedal feels soft or spongy.",
     causes: [
@@ -322,7 +322,7 @@ const symptoms = [
     relatedService: "cv-joint-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "A sharp clicking or popping sound that appears only during turns, especially tight, slow turns, means something in the front drivetrain is failing under the stress of the steering angle.",
+    intro: "Clicking or popping during a turn can come from a CV joint, steering or suspension components, or something contacting a moving part. A repeated click during a tight turn under power is a useful clue, but the noise alone does not identify the failed part.",
     serviceBlurb: "We'll diagnose the extent of CV joint wear and give you a clear recommendation on what repair approach makes sense for your vehicle and budget. We also inspect the opposite axle while your vehicle is on the lift, if one boot has torn, the other is often aging close behind, and catching it early prevents a repeat visit.",
     smsBody: "Hi, I hear clicking when turning.",
     causes: [
@@ -365,7 +365,7 @@ const symptoms = [
     relatedService: "cv-joint-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: false, easilyConfused: true },
-    intro: "Vibration that builds under acceleration is usually a drivetrain component failing under load, a worn inner CV joint is the most common cause on FWD vehicles, while worn U-joints or a bent driveshaft produce similar vibration on RWD and 4WD vehicles.",
+    intro: "Vibration during acceleration is shaking that appears or gets stronger when you press the accelerator. CV joints, driveshaft components, engine or transmission mounts, tires, and engine running problems can cause vibration. Comparing acceleration, steady speed, and coasting helps narrow down what to inspect.",
     serviceBlurb: "Drivetrain vibration diagnosis starts with a detailed road test to characterize when and how the vibration appears. We then inspect CV axles, driveshaft U-joints, wheel bearings, and tire balance to isolate the source. On front-wheel-drive vehicles, this is most often a CV axle replacement, a straightforward repair that resolves the vibration and prevents more expensive drivetrain damage from developing.",
     smsBody: "Hi, I feel vibration when accelerating.",
     causes: [
@@ -378,7 +378,7 @@ const symptoms = [
         heading: "Is My Car Vibrating When I Accelerate?",
         paras: [
           "You feel a shudder or vibration through the floorboard or seat that appears when you press the accelerator, it may start at a specific speed or throttle position and fade when you ease off. Coasting without throttle is usually smooth.",
-          "If the vibration only happens under power and disappears on deceleration, the CV axle or driveshaft is the most likely cause. Vibration that persists whether you're accelerating or not points toward a wheel balance or tire issue instead."
+          "Vibration that changes with throttle can involve drivetrain components, mounts, or engine operation. Vibration that follows road speed can involve tires, wheels, or a rotating driveline component. These patterns overlap, so we use a road test and inspection to narrow down the cause."
         ]
       },
       {
@@ -452,7 +452,7 @@ const symptoms = [
     relatedService: "brake-service-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "monitor", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: false, easilyConfused: true },
-    intro: "Brake squeal is your car's built-in warning. A small metal wear indicator on the pad contacts the rotor when friction material gets thin, producing a high-pitched scrape that tells you pad replacement is due.",
+    intro: "Squeaking brakes make a high-pitched noise when the pads contact the rotors. A pad wear indicator can cause the noise, but moisture, debris, pad material, or brake hardware can also cause squealing. An inspection checks pad thickness and the condition of the other brake components.",
     serviceBlurb: "Squeaking brakes caught early usually mean pad replacement only, no rotors needed. Our brake inspection measures pad thickness, rotor thickness and runout, and checks caliper slide pins for binding (stuck slides cause uneven wear that leads to squealing even on newer pads). We'll tell you up front whether your rotors have enough material left or need replacement, no surprises.",
     smsBody: "Hi, my brakes are squeaking.",
     causes: [
@@ -496,7 +496,7 @@ const symptoms = [
     relatedService: "brake-service-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "critical", progressive: true, terrainSensitive: true, weatherSensitive: false, temperatureSensitive: false, easilyConfused: true },
-    intro: "Metal-on-metal grinding when braking means the pads have worn through and the steel backing plate is cutting directly into the rotor surface with every stop. A stuck caliper can produce the same grinding even on a pad with material left, by keeping one pad continuously pressed against the rotor.",
+    intro: "Grinding during braking can mean the pad friction material is worn away and the backing plate is contacting the rotor. Debris or other brake-component problems can also cause grinding. Have the brakes inspected promptly; if braking feels reduced or unsafe, stop driving and arrange a tow.",
     serviceBlurb: "Metal-on-metal grinding means we'll assess rotor condition carefully alongside the pads, scoring from the contact often means the rotors can't be reused. We also inspect caliper function and brake hardware as part of the job, and road-test every brake repair before the car leaves the shop to make sure everything is working properly.",
     smsBody: "Hi, my brakes are grinding.",
     causes: [
@@ -539,7 +539,7 @@ const symptoms = [
     relatedService: "brake-service-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: false, easilyConfused: true },
-    intro: "Vibration through the steering wheel, especially when braking at highway speed, usually means warped front rotors with slight thickness variation across the surface, causing a rhythmic pulsation as the pads clamp down. Worn tie rod ends and loose wheel bearings can transmit similar vibration without braking.",
+    intro: "Steering-wheel vibration is shaking felt through the wheel. Tire or wheel problems, worn steering or suspension parts, and brake rotor variation can cause it. Whether the vibration appears during braking, at a steady speed, or after an impact helps guide the inspection.",
     serviceBlurb: "Steering vibration diagnosis covers both the brake system and the front suspension simultaneously. We measure rotor runout with a dial indicator to confirm warping, check brake fluid condition, and inspect front-end components, tie rods, ball joints, and wheel bearings, for play. This approach ensures we identify the actual cause of the vibration rather than replacing parts based on guesswork.",
     smsBody: "Hi, my steering wheel vibrates.",
     causes: [
@@ -625,7 +625,7 @@ const symptoms = [
     relatedService: "timing-chain-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: true, temperatureSensitive: true, easilyConfused: false },
-    intro: "A metallic rattle in the first 2–5 seconds of a cold start that fades once the engine is warm means something at the top of the engine isn't building oil pressure fast enough. The noise is components moving under slack or friction until oil fully circulates.",
+    intro: "Engine rattling is a metallic noise that may occur at startup, at idle, or under load. Timing components, low oil level or oil-pressure problems, accessory-drive parts, and loose exhaust components can produce rattles. The timing and location of the noise help determine what needs inspection.",
     serviceBlurb: "Timing chain diagnosis involves physically inspecting chain stretch, tensioner condition, and guide wear. If the chain has already jumped, we use a scan tool to check cam-to-crank correlation before any disassembly so we understand the full extent of the problem. We'll give you a complete picture of the timing system's condition and a clear recommendation before any work is authorized.",
     smsBody: "Hi, my engine rattles on startup.",
     causes: [
@@ -668,7 +668,7 @@ const symptoms = [
     relatedService: "timing-chain-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "critical", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: true, easilyConfused: false },
-    intro: "Timing codes like P0016, P0017, P0340, or P0341 mean the ECM has detected a mismatch between crankshaft and camshaft positions. The cause can be a worn timing chain, a failed VVT actuator, low oil pressure, or a faulty cam sensor, each requiring a different repair.",
+    intro: "Codes P0016 and P0017 concern the relationship between crankshaft and camshaft position signals. P0340 and P0341 concern the camshaft-position sensor circuit or signal performance. These codes do not, by themselves, prove the timing chain is worn; diagnosis may include oil condition, wiring, sensors, variable valve timing, and mechanical timing.",
     serviceBlurb: "Timing fault codes require both scan tool analysis and mechanical inspection to diagnose correctly. We check VVT actuator function, cam sensor signal quality, oil pressure to the timing system, and physically measure chain stretch. The repair depends on what's actually causing the timing error, some cases are solvable with an oil flush that clears sludge from VVT passages; others require a full mechanical timing service. We always verify the root cause before recommending parts.",
     smsBody: "Hi, I have a timing-related check engine light.",
     causes: [
@@ -711,7 +711,7 @@ const symptoms = [
     relatedService: "complete-auto-service-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "monitor", progressive: false, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: false, easilyConfused: true },
-    intro: "A check engine light can mean anything from a loose gas cap to a misfiring cylinder. A steady light is a stored fault, while a flashing light signals an active misfire that can damage the catalytic converter within minutes and needs same-day diagnosis.",
+    intro: "The check engine light means the vehicle has detected an engine-management or emissions-system fault. A steady light needs diagnosis, even if the car seems to run normally. A flashing light can indicate a damaging misfire: reduce load, stop safely, and follow the owner's manual or call for advice about towing.",
     serviceBlurb: "We scan your vehicle's fault codes with professional diagnostic equipment that captures live sensor data and freeze frame information, not just the basic code number. From there we explain what the code means, what caused it, and what it will take to fix it, in plain language with no pressure. We verify the fault is real before recommending parts, because guessing at the cause based on a code number alone leads to unnecessary repairs.",
     smsBody: "Hi, my check engine light is on.",
     causes: [
@@ -886,7 +886,7 @@ const symptoms = [
     relatedService: "exhaust-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "critical", progressive: false, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "Exhaust smell inside the cabin is a carbon monoxide risk, CO is colorless and odorless, but the other combustion byproducts you smell confirm it's present. Common entry points are a cracked exhaust manifold near the firewall, a leak routed under the floor, or deteriorated body seals.",
+    intro: "Exhaust smell in the cabin can indicate an exhaust leak or fumes entering through openings in the body. Carbon monoxide is odorless, so smell cannot establish whether it is present or at what concentration. Stop safely, leave the vehicle for fresh air, and have the problem inspected before continuing to use it.",
     serviceBlurb: "When exhaust is entering the cabin, we treat it as an urgent safety repair. We inspect the full exhaust routing with the vehicle on a lift, specifically checking for cracked manifolds near the firewall and leaks in areas beneath the floorpan. We also check the HVAC system's fresh-air intake routing, which can draw exhaust fumes in from a leak directly below the windshield base, a common and easily overlooked entry point.",
     smsBody: "Hi, I smell exhaust inside my car.",
     causes: [
@@ -929,7 +929,7 @@ const symptoms = [
     relatedService: "catalytic-converter-service-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "monitor", progressive: false, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "A failed emissions test means exhaust pollutants exceeded the state threshold. The most common causes are a worn catalytic converter, a slow oxygen sensor skewing the fuel mixture, or an engine misfire sending unburned fuel into the exhaust.",
+    intro: "A failed emissions inspection means the vehicle did not meet one or more requirements of the test. Depending on the vehicle and test, the reason may involve stored fault codes, a check engine light, readiness-monitor status, or measured exhaust emissions. Bring the inspection report so we can diagnose the reason recorded by the testing station.",
     serviceBlurb: "Emissions failures require finding the root cause, not just replacing the component that's over the threshold. We scan for fault codes, evaluate oxygen sensor response times and signal quality, check catalytic converter efficiency codes in detail, and look for any underlying engine conditions, misfires, rich fuel trims, that would damage a new converter. Our goal is for your vehicle to pass the retest on the first attempt, not just get it close.",
     smsBody: "Hi, I failed my emissions test.",
     causes: [
@@ -1101,7 +1101,7 @@ const symptoms = [
     relatedService: "strut-replacement-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "monitor", progressive: true, terrainSensitive: true, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "Uneven tire wear is a direct readout of what's wrong with your suspension or alignment, inner-edge wear means excessive negative camber, outer-edge wear means positive camber or under-inflation, and scalloped or cupped wear means the shock absorbers or struts are letting the tire bounce instead of staying planted.",
+    intro: "Uneven tire wear means some parts of the tread are wearing faster than others. Tire pressure, alignment, wheel or tire problems, and worn steering or suspension components can contribute. The tread pattern is a clue; it does not identify one failed component by itself.",
     serviceBlurb: "Uneven tire wear diagnosis starts with measuring all four alignment angles, camber, caster, and toe, and inspecting struts, shocks, tie rod ends, and ball joints for wear. We'll show you the alignment measurements before and after adjustment so you can confirm the correction was made. We'll also advise whether the existing tires can be rotated to even the wear or whether the wear pattern is too severe to recover.",
     smsBody: "Hi, I have uneven tire wear.",
     causes: [
@@ -1144,7 +1144,7 @@ const symptoms = [
     relatedService: "shock-replacement-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
     tags: { safetyTier: "important", progressive: true, terrainSensitive: true, weatherSensitive: false, temperatureSensitive: false, easilyConfused: true },
-    intro: "When every pothole transmits as a sharp jolt instead of a dampened thud, the shock absorbers or struts can no longer cushion the suspension's rebound, the spring's energy transfers straight into the body rather than being absorbed by the damper.",
+    intro: "A rough ride means bumps feel harsher than usual. Tire pressure and tire construction, damaged or binding suspension parts, springs, and shocks or struts can affect ride quality. Tell us whether the change was gradual or started after new tires, suspension work, or an impact.",
     serviceBlurb: "Shock absorber replacement is typically one of the more cost-effective suspension repairs, shocks are simpler assemblies than struts and don't require spring compressors or alignment correction afterward. We bounce-test all four corners, inspect for oil leakage from the shock body (a sign of internal seal failure), and check mounting bushings while we're at it. If only one shock has clearly failed, we still recommend replacing the pair on that axle to keep handling balanced.",
     smsBody: "Hi, I have a rough ride over bumps.",
     causes: [
@@ -1242,7 +1242,7 @@ const symptoms = [
     relatedService: "head-gasket-repair-near-south-salt-lake-ut",
     lastUpdated: "May 2026", datePublished: "2026-05-01", dateModified: "2026-05-01",
     tags: { safetyTier: "critical", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "Engine oil that looks milky, frothy, grayish, or tan, especially visible on the dipstick or the underside of the oil filler cap, means coolant has mixed with the oil. Oil cannot lubricate properly when contaminated with coolant. Continued driving in this condition causes rapid bearing wear, cylinder wall scoring, and potentially catastrophic engine failure.",
+    intro: "Milky or frothy oil can indicate water or coolant contamination. A small deposit under the filler cap can also come from condensation, especially after short trips, so it is not proof of a failed head gasket. Milky oil on the dipstick, coolant loss, or overheating needs prompt inspection before further driving.",
     serviceBlurb: "We diagnose the source of coolant contamination with a combustion gas block test, cooling system pressure test, and cylinder head inspection. The repair depends on what's failing, head gasket, cracked head, or in some engines, an intake manifold gasket, and we tell you exactly what we found before recommending anything.",
     smsBody: "Hi, my engine oil looks milky or frothy.",
     causes: [
@@ -1413,7 +1413,7 @@ const symptoms = [
     lastUpdated: 'May 2026', datePublished: '2024-01-01', dateModified: '2026-05-01',
     tags: { safetyTier: 'important', progressive: true, terrainSensitive: true, weatherSensitive: true, temperatureSensitive: false, easilyConfused: false },
     heroIntro: 'Scott\'s Auto & Clutch Repair has diagnosed 4WD engagement problems, and trucks stuck in 4WD, in South Salt Lake since 1990.',
-    intro: '4WD not engaging means the transfer case isn\'t locking the front axle into drive, so the truck stays in two-wheel drive even when you\'ve selected 4H or 4L. The opposite problem, 4WD that won\'t disengage, is also common and causes binding, scrubbing, and drivetrain stress on dry pavement. Both conditions almost always point to the transfer case: the actuator motor, encoder motor, shift motor, vacuum system (on older trucks), or the case\'s internal chain and gears.',
+    intro: "When four-wheel drive does not engage, the vehicle may remain in two-wheel drive after you select a four-wheel-drive mode. Depending on the design, the fault may involve controls, wiring, an actuator, an axle disconnect, a vacuum system, or the transfer case. Follow the owner's manual for shift conditions before assuming a mechanical failure.",
     smsBody: 'Hi, my 4WD isn\'t engaging properly.',
     introImage: '', introImageAlt: '', introImageCaption: '',
     causes: [
