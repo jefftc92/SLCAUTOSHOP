@@ -86,17 +86,41 @@ const symptomFaqs = {
     {q:'Can I make my synchronizers last longer once they\'re wearing?',a:'Yes. Slow your shifts a bit and pause briefly with the clutch fully pressed before engaging the next gear. That gives the input shaft time to slow down, which reduces the load on the synchronizer rings. Avoid downshifting into low gears at high RPM. These habits won\'t reverse wear, but they slow it noticeably.'},
     {q:'Should I replace the clutch when I fix the hydraulic system?',a:'Only if the clutch disc is worn. If the grinding is purely a hydraulic issue and the disc still has plenty of life, the hydraulic repair is the complete fix. We measure disc wear during the diagnosis so you know whether to plan for a clutch job soon or whether you have years left on it.'}
   ],
-  'stiff-clutch-pedal': [
-    {q:'How much does a stiff clutch pedal repair cost?',a:'Cable replacement typically runs $150–$350. Master or slave cylinder replacement is $250–$550 each. If the underlying cause turns out to be a worn clutch disc, a full clutch job is $800–$1,800. Diagnosis is free and a written estimate is provided before any work starts.'},
-    {q:'How can I tell if I have a cable or hydraulic clutch?',a:'Look at the firewall on the driver\'s side. A small fluid reservoir near the brake master cylinder, with a hose running down to the bell housing, means hydraulic. A bare cable running from the pedal arm through the firewall down to the transmission means cable. Most vehicles since the mid-2000s are hydraulic; many older platforms are cable.'},
-    {q:'Should I replace the master and slave cylinders together?',a:'Often, yes, especially on high-mileage vehicles. They share fluid and were installed at the same time, and contamination from one failing cylinder shortens the life of the other. Replacing both at once costs less than coming back in six months for the second one. We\'ll measure both before making the recommendation.'},
-    {q:'Can I make a stiff clutch pedal last longer?',a:'A failing cable or cylinder won\'t reverse, but you can avoid making it worse. Don\'t rest your foot on the clutch pedal between shifts; that loads the throw-out bearing and the failing component continuously. Pause at stops in neutral with the brake instead of holding the clutch in. These habits buy time but don\'t replace the repair.'}
+  "stiff-clutch-pedal": [
+    {
+      "q": "Does a stiff pedal mean I need a new clutch?",
+      "a": "Not necessarily. A cable, pedal pivot, hydraulic component, or release mechanism may be binding. We inspect the system before deciding whether work inside the bell housing is needed."
+    },
+    {
+      "q": "How do you tell whether my clutch uses a cable or hydraulics?",
+      "a": "We check the vehicle design and inspect the linkage or hydraulic components. Some hydraulic clutches share the brake-fluid reservoir, so the presence or absence of a separate reservoir is not enough to identify the design."
+    },
+    {
+      "q": "Should I replace both clutch cylinders together?",
+      "a": "Only when their condition or the repair procedure supports it. We explain any shared labor and why each part is recommended. One failed cylinder does not automatically mean the other needs replacement."
+    },
+    {
+      "q": "What determines the repair cost?",
+      "a": "The failed part and access needed determine the estimate. An external cable or pivot repair differs from a job that requires transmission removal. We explain the recommended work before you approve it."
+    }
   ],
-  'transmission-slipping': [
-    {q:'How much does transmission slipping repair cost?',a:'It depends on the cause. An automatic fluid service runs $150–$300. A solenoid or sensor replacement is $300–$700. A manual clutch replacement is $800–$1,800. A partial or full transmission rebuild ranges from $2,000–$4,500+. Free diagnosis means you know what you\'re dealing with before committing to anything.'},
-    {q:'When should automatic transmission fluid be serviced?',a:'Most automatics need a fluid service every 60,000 to 100,000 miles depending on the manufacturer and how the vehicle is driven. Towing, mountain driving, or stop-and-go commuting shorten that interval. Fluid that\'s gone past its service life darkens, loses friction additives, and accelerates internal wear, which is the leading cause of automatic transmission failure.'},
-    {q:'How long does a manual clutch last for someone who tows?',a:'Plan on 50,000 to 70,000 miles instead of the typical 80,000 to 120,000. Towing loads the disc near the limit of what it was designed for, especially on Utah grades like Point of the Mountain or Parley\'s. Hard launches and frequent partial engagement to hold position on hills shorten clutch life further.'},
-    {q:'Should I do a transmission flush or just a fluid drain?',a:'For most automatics with regular service history, a drain-and-fill is the safer choice. A full flush forces fluid through the system under pressure, which can dislodge sediment and cause shifting issues on a transmission that hasn\'t been maintained. We assess fluid condition and service history before recommending which approach is right.'}
+  "transmission-slipping": [
+    {
+      "q": "Does slipping mean I need a rebuild?",
+      "a": "Not always. Fluid level, pressure controls, and internal wear can affect an automatic. A manual vehicle may have a clutch problem. Testing determines the repair; symptoms alone do not establish a rebuild is needed."
+    },
+    {
+      "q": "Will changing the fluid fix slipping?",
+      "a": "Only if the diagnosed problem can be addressed by the appropriate fluid service. Fresh fluid cannot restore worn friction parts. We check the transmission design, symptoms, fluid, and service history before recommending work."
+    },
+    {
+      "q": "Is jumping out of gear the same as clutch slipping?",
+      "a": "No. A slipping manual clutch can let the engine rev while the gear lever stays in gear. A lever that moves into neutral calls for checks of linkage, mounts, and gearbox engagement components."
+    },
+    {
+      "q": "When should transmission fluid be changed?",
+      "a": "Use the maintenance schedule and fluid specification for your vehicle and transmission. Towing or other severe use may change the schedule. There is no single mileage interval that applies to every transmission."
+    }
   ],
   'hard-to-shift-gears': [
     {q:'How much does hard-to-shift gears repair cost?',a:'Hydraulic clutch repairs (master/slave cylinder, fluid) typically run $200–$600. A full clutch replacement is $800–$1,800. If the transmission itself has sustained synchronizer damage, costs rise significantly. Catching it while the cause is still hydraulic is the cheapest path. Diagnosis is always free.'},
@@ -104,11 +128,23 @@ const symptomFaqs = {
     {q:'Can I use a different gear oil to make shifting smoother?',a:'Only the oil specified for your transmission. Manufacturers spec specific viscosity and friction characteristics, and synchronizer rings are designed around those properties. Aftermarket additives or wrong-spec oil can make synchronizer engagement worse, not better, and may void warranty on a recent transmission rebuild.'},
     {q:'Will my synchronizers heal if I stop forcing the shifts?',a:'No. Synchronizer wear is mechanical material loss; it doesn\'t regenerate. What gentler shifting does is stop adding to the wear. A gearbox that grinds into 2nd today will grind into 2nd tomorrow if the synchronizer ring isn\'t replaced, but it won\'t grind worse if you give it more time on each shift.'}
   ],
-  'soft-clutch-pedal': [
-    {q:'How much does a soft clutch pedal repair cost?',a:'A hydraulic fluid flush runs $100–$150. Master or slave cylinder replacement is $250–$550 each. Replacing both at once on a high-mileage vehicle saves labor versus coming back twice. If the disc is also worn, a full clutch job is $800–$1,800. Written estimate provided before any work begins.'},
-    {q:'How often should clutch hydraulic fluid be changed?',a:'Most clutch systems share brake fluid, and that should be flushed every 2 to 3 years regardless of clutch symptoms. Fluid absorbs moisture from the air over time, which lowers its boiling point and corrodes seal surfaces inside the master and slave cylinders. Regular flushes extend the life of both cylinders significantly.'},
-    {q:'Should I replace the master and slave cylinders at the same time?',a:'On high-mileage vehicles, often yes. They\'re part of the same hydraulic circuit, they were installed at the same time, and they\'re exposed to the same fluid contamination. Replacing one without the other frequently leads to a second visit a few months later when the remaining cylinder fails too.'},
-    {q:'Does a soft pedal damage anything else if I keep driving?',a:'It can. A pedal that doesn\'t fully release the clutch keeps the disc partially engaged during shifts, which loads the synchronizer rings on every gear change. Continuous low-pressure operation can also damage the throw-out bearing. Catching it at the soft-pedal stage is much cheaper than catching it after secondary damage.'}
+  "soft-clutch-pedal": [
+    {
+      "q": "Will bleeding fix a soft clutch pedal?",
+      "a": "Bleeding can remove air, but it does not repair a leak or a failed cylinder. We check why the pedal is soft before deciding whether bleeding is enough."
+    },
+    {
+      "q": "Can a cylinder fail without a visible leak?",
+      "a": "Yes. A master cylinder can lose pressure through internal seal bypass without leaving fluid outside. We check cylinder operation rather than ruling out a fault because the ground is dry."
+    },
+    {
+      "q": "Do both clutch cylinders need replacement?",
+      "a": "Not automatically. We base the recommendation on their condition, the vehicle design, and any shared access labor. An internal slave cylinder may require transmission removal."
+    },
+    {
+      "q": "Can I drive if the clutch pedal stays down?",
+      "a": "Do not continue driving if you cannot disengage the clutch or select gears reliably. Stop safely and call to discuss towing. Pumping the pedal is not a repair."
+    }
   ],
   'burning-smell': [
     {q:'How much does clutch repair cost after a burning smell?',a:'If the disc is worn but the flywheel is still smooth, clutch replacement runs $800–$1,800. If the flywheel was heat-damaged by extended slipping, add $200–$400 for resurfacing or replacement. Catching it at the first burning smell is almost always cheaper than waiting. Diagnosis is free.'},
@@ -116,11 +152,23 @@ const symptomFaqs = {
     {q:'Does towing always burn out a clutch faster?',a:'Within rated capacity, no. Within the vehicle\'s tow rating, a properly used clutch handles trailer loads without excessive wear. The problems start when load approaches the rating, when launches happen at high RPM, or when the same clutch is used for both daily commuting and frequent towing. Plan for 30 to 50 percent shorter clutch life if you tow regularly.'},
     {q:'Can a clutch recover after it burns once?',a:'Sometimes. A single mild overheat that didn\'t glaze the disc surface or warp the flywheel may not need immediate replacement. But the disc\'s heat-handling capacity has been reduced, and it\'s easier to overheat next time. We inspect for glazing and surface damage to tell you whether you have miles left or whether replacement is the right call.'}
   ],
-  'clicking-when-turning': [
-    {q:'How much does a CV joint or axle repair cost?',a:'A CV axle replacement typically runs $400–$800 per side including parts and labor. If the boot is caught before the joint is damaged, a boot replacement is $150–$250. We quote before starting, no surprises at pickup.'},
-    {q:'Should I replace both CV axles at the same time?',a:'Often, yes. Both axles were installed when the car was built and have aged on the same clock. When one boot tears or one joint clicks, the other side is usually within a few months of the same failure. Doing both during one visit avoids paying labor twice and means the front end is back to a known good state.'},
-    {q:'How long can I drive with a clicking CV joint?',a:'Realistically, weeks to a few months, but there\'s no reliable way to predict the exact moment of failure. Some clicking joints last a year before binding completely. Others fail in 30 days. The safer call is to schedule the repair within the next month rather than running the joint until it strands you.'},
-    {q:'Can a torn CV boot be repaired before the joint fails?',a:'Yes, if the boot is caught quickly. A boot replacement with fresh grease before significant grit gets in saves the joint and the much larger axle replacement that follows. The window is short, often a few hundred miles after the boot tears, because grease flings out fast and contamination follows quickly.'}
+  "clicking-when-turning": [
+    {
+      "q": "Does clicking during a turn always mean a CV joint?",
+      "a": "No. Repeated clicking under power can point to a CV joint, but steering, suspension, or brake components can also click or pop. We reproduce the noise when safe and inspect before choosing a repair."
+    },
+    {
+      "q": "Should I replace both CV axles at once?",
+      "a": "Not automatically. We inspect both axles and boots, then recommend work based on their condition. A problem on one side does not establish that the other will fail soon."
+    },
+    {
+      "q": "How long can I drive with a clicking CV joint?",
+      "a": "There is no reliable safe mileage or time limit based on the sound alone. Arrange an inspection promptly. Stop driving if you also notice loose steering, severe vibration, or difficulty controlling the vehicle."
+    },
+    {
+      "q": "Can you replace the boot instead of the axle?",
+      "a": "Sometimes. A boot repair may be appropriate if the joint is still serviceable. Noise, wear, contamination, and parts availability help determine whether a boot, joint, or axle replacement makes sense."
+    }
   ],
   'vibration-when-accelerating': [
     {q:'How much does acceleration vibration repair cost?',a:'A CV axle replacement is $400–$800 per side. Motor mount replacement runs $300–$600 per mount. A wheel balance is $80–$120 for all four. We diagnose first so you only pay for what\'s actually needed, diagnosis is free.'},

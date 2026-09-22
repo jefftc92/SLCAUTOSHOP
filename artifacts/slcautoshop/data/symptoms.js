@@ -93,93 +93,145 @@ const symptoms = [
     ]
   },
   {
-    slug: "stiff-clutch-pedal",
-    heroIntro: "Scott's has been diagnosing and repairing stiff clutch pedals for Salt Lake City drivers since 1990.",
-    name: "Stiff Clutch Pedal",
-    shortName: "Stiff Clutch Pedal",
-    priority: "Medium",
-    category: "Clutch",
-    relatedService: "clutch-repair-near-south-salt-lake-ut",
-    lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
-    tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: true, easilyConfused: false },
-    intro: "A stiff clutch pedal takes more effort to press than usual. Possible causes include a binding cable or linkage, a problem in the release mechanism, or a hydraulic fault. The parts involved depend on the vehicle's clutch design.",
-    serviceBlurb: "A stiff pedal is often a cable or hydraulic component issue, which means the fix is frequently less involved and less expensive than a full clutch replacement. We'll pressure-test the hydraulic system, inspect the master and slave cylinders, and check the clutch cable and pivot points to isolate the resistance. We'll also measure clutch disc wear while we're at it so you have a complete picture of your clutch system's health.",
-    smsBody: "Hi, my clutch pedal is very stiff.",
-    causes: [
-      { title: "Worn Clutch Cable", desc: "A clutch cable is a braided steel rope inside a lubricated housing. As it ages, individual strands fray and the lubricant breaks down. The cable starts dragging against the housing every time you press the pedal, which translates directly into pedal effort. Once enough strands have broken, the cable can snap entirely.", diagnosticSignal: "Stiffness builds gradually over months, often paired with slower pedal return. Common on older vehicles (pre-2005 platforms) with cable-actuated clutches. The cable can fail suddenly even after years of warning, leaving you stranded mid-drive." },
-      { title: "Failing Pressure Plate", desc: "The pressure plate uses heavy springs to clamp the disc against the flywheel. When you press the clutch, you're working against those springs. As they age and weaken, the system loses balance and you end up feeling more of the spring force at the pedal. The pedal gets heavier as the clutch nears the end of its life.", diagnosticSignal: "Stiffness appears alongside a high engagement point or mild slipping under load. Usually shows up after 80,000 miles and develops over weeks. The increased pedal force is the spring force you're now feeling directly." },
-      { title: "Hydraulic System Issue", desc: "On hydraulic clutches, the master cylinder converts pedal motion to fluid pressure, and the slave cylinder converts that pressure back into release force. When seals inside either cylinder start to drag or swell, fluid moves harder through the system. You feel that resistance as a heavier pedal, especially when the fluid is cold and thicker.", diagnosticSignal: "Worse on cold mornings, may be paired with intermittent grinding or a pedal that doesn't return cleanly. Look for leaking fluid near the pedal or at the bell housing, or a low reservoir level." },
-      { title: "Pivot/Linkage Wear", desc: "The clutch pedal pivots on bushings under the dash, and the pedal arm connects to the rest of the system through a linkage. Once those bushings dry out, rust, or wear, the friction at every pivot point adds up. The pedal still works, but every press is moving against extra friction that wasn't there when the bushings were healthy.", diagnosticSignal: "Stiffness is paired with a creaking or groaning noise from under the dash when you press the pedal. Often appears on vehicles over 150,000 miles where pivot bushings have dried out or rusted." }
+    "slug": "stiff-clutch-pedal",
+    "heroIntro": "Scott's has been diagnosing and repairing stiff clutch pedals for Salt Lake City drivers since 1990.",
+    "name": "Stiff Clutch Pedal",
+    "shortName": "Stiff Clutch Pedal",
+    "priority": "Medium",
+    "category": "Clutch",
+    "relatedService": "clutch-repair-near-south-salt-lake-ut",
+    "lastUpdated": "September 2026",
+    "datePublished": "2024-01-01",
+    "dateModified": "2026-09-21",
+    "tags": {
+      "safetyTier": "important",
+      "progressive": true,
+      "terrainSensitive": false,
+      "weatherSensitive": false,
+      "temperatureSensitive": true,
+      "easilyConfused": false
+    },
+    "intro": "A stiff clutch pedal takes more effort to press than usual. Possible causes include a binding cable or linkage, a problem in the release mechanism, or a hydraulic fault. The parts involved depend on the vehicle's clutch design.",
+    "serviceBlurb": "We identify whether your clutch uses a cable or hydraulics, then check the pedal pivots and release mechanism for binding. A stiff pedal does not by itself show that the clutch disc is worn. We explain whether the inspection points to an external component or requires access inside the bell housing.",
+    "smsBody": "Hi, my clutch pedal is very stiff.",
+    "causes": [
+      {
+        "title": "Binding Clutch Cable",
+        "desc": "On a cable-operated clutch, frayed strands or a damaged cable housing can make the pedal harder to press. The cable routing and adjustment also need inspection.",
+        "diagnosticSignal": "Slow return or resistance through the pedal stroke makes the cable worth checking. The vehicle design determines whether a cable is present; mileage alone does not diagnose wear."
+      },
+      {
+        "title": "Release Mechanism or Pressure Plate",
+        "desc": "The release bearing, fork, guides, and pressure plate work together to disengage the clutch. Binding or damage in these parts can change pedal effort. Weak springs alone do not explain a heavier pedal.",
+        "diagnosticSignal": "Tell us if the effort changed suddenly, after clutch work, or alongside grinding or slipping. Inspecting internal release parts may require transmission removal."
+      },
+      {
+        "title": "Hydraulic Restriction or Cylinder Fault",
+        "desc": "On a hydraulic clutch, a sticking cylinder or restricted fluid path can interfere with pedal movement and return. We inspect the hydraulic system before recommending parts.",
+        "diagnosticSignal": "Report a pedal that returns slowly or behaves differently when cold. Those details guide inspection but do not confirm a particular cylinder or hose."
+      },
+      {
+        "title": "Pedal Pivot or Linkage Binding",
+        "desc": "Dry or damaged pedal pivots and linkage can resist movement. We check the parts accessible around the pedal and clutch linkage.",
+        "diagnosticSignal": "A creak under the dash or resistance even at the start of pedal travel makes the pedal assembly worth inspecting."
+      }
     ],
-    richContent: [
+    "richContent": [
       {
-        heading: "Is My Clutch Pedal Too Stiff?",
-        paras: [
-          "The pedal takes noticeably more force to push down than it used to, you may find yourself straining on every shift or arriving at your destination with a fatigued left leg. It may also return to rest more slowly than normal.",
-          "Stiffness that creaks or groans under the dash points to worn pivot bushings. Stiffness that's worse on cold mornings and improves as the car warms up usually points to a hydraulic issue."
+        "heading": "Is My Clutch Pedal Too Stiff?",
+        "paras": [
+          "Compare the pedal with how it normally feels in your vehicle. A new increase in effort, a pedal that catches during its travel, or slow return deserves an inspection.",
+          "Tell us whether the change began suddenly or gradually and whether you also hear a creak, struggle to select gears, or notice slipping. We use those observations to choose checks, not to diagnose a part from pedal feel alone."
         ]
       },
       {
-        heading: "When Should You Bring Your Car In for Stiff Clutch Pedal Repair?",
-        paras: [
-          "Cable stiffness compounds, a cable that's been progressively stiffer for months can snap on a routine press with no further warning, leaving you stranded wherever it breaks.",
-          "A cable replacement is a quick repair caught before failure; a snapped cable adds a tow. A master cylinder caught at the stiff stage is straightforward; one that fully fails often takes the slave cylinder with it. Catch it stiff, fix it cheap."
+        "heading": "When Should You Have a Stiff Clutch Pedal Checked?",
+        "paras": [
+          "Have a new change in pedal effort checked before the vehicle becomes difficult to control. Do not force a pedal that jams or a gear lever that will not engage.",
+          "If the pedal stays down, you cannot disengage the clutch, or the vehicle creeps with the clutch fully pressed, stop driving and call to discuss towing."
         ]
       },
       {
-        heading: "Who to Trust for Stiff Clutch Pedal Repair in Salt Lake City",
-        paras: [
-          "We identify which system you have, cable or hydraulic, then pressure-test cylinders or inspect the cable run for fraying, kinks, and pivot friction. We also measure clutch disc wear while we're at it so nothing surprises you later. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch service page</a> for what's covered.",
-          "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. We catch failing cylinders before they leak visibly and cable fraying before it becomes a roadside breakdown."
+        "heading": "How We Diagnose a Stiff Clutch Pedal",
+        "paras": [
+          "We check whether your vehicle has a cable or hydraulic clutch. We inspect accessible pedal pivots, cable routing or hydraulic components, and clutch release movement for binding.",
+          "We explain whether the next step requires access inside the bell housing. We cannot measure the clutch disc directly without the necessary access. <a href=\"/services/clutch-repair-near-south-salt-lake-ut\">Read about our clutch repair service</a>."
         ],
-        inlineCta: true
+        "inlineCta": true
       }
     ]
   },
+
   {
-    slug: "transmission-slipping",
-    heroIntro: "Scott's Auto & Clutch Repair has diagnosed transmission slipping on both manual and automatic vehicles in Salt Lake City since 1990.",
-    name: "Transmission Slipping",
-    shortName: "Transmission Slipping",
-    priority: "High",
-    category: "Clutch",
-    relatedService: "clutch-repair-near-south-salt-lake-ut",
-    lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
-    tags: { safetyTier: "important", progressive: true, terrainSensitive: true, weatherSensitive: false, temperatureSensitive: false, easilyConfused: true },
-    intro: "Transmission slipping means the transmission pops out of gear, fails to engage cleanly, or lets the engine rev without the car accelerating. In manuals, the most common cause is a worn clutch assembly; in automatics, it's usually low or burnt fluid, worn clutch packs, or failing solenoids.",
-    serviceBlurb: "Transmission slipping can range from a straightforward clutch replacement in a manual to a fluid service or solenoid replacement in an automatic, or in more serious cases, a rebuild. We road-test your vehicle, pull stored fault codes, check fluid condition and level, and inspect for external leaks before recommending a repair path. Early diagnosis frequently allows us to solve slipping with a targeted service rather than a full rebuild.",
-    smsBody: "Hi, my transmission is slipping.",
-    causes: [
-      { title: "Worn Clutch Components", desc: "In a manual, the clutch transmits all the engine's torque through friction. As the disc wears thin or oil contamination reduces grip, the disc can no longer hold against the flywheel under load. Engine power leaks past the disc instead of reaching the wheels, and you feel that as the engine revving while your speed barely climbs.", diagnosticSignal: "Manual transmission only. RPMs climb sharply on freeway onramps, hills, or hard acceleration while speed lags. Almost always paired with a clutch engagement point near the top of the pedal. Common between 70,000 and 120,000 miles." },
-      { title: "Low or Burnt Transmission Fluid", desc: "An automatic transmission uses fluid pressure to apply internal clutch packs and bands. Low fluid means low pressure, and clutches that should clamp firmly start slipping. Burnt fluid that's no longer translucent red has lost its friction additives and lubricating quality, so even at the right level it can't make the clutch packs grab properly.", diagnosticSignal: "Automatic only. Slipping starts in 2nd or 3rd gear, often during the 1-2 or 2-3 shift. Fluid on the dipstick is brown or smells burnt rather than translucent red. Common above 100,000 miles if fluid was never serviced." },
-      { title: "Worn Synchronizers", desc: "Synchronizers hold a gear engaged once it's selected. Once the friction surface and the locking dogs wear, the gear can be pushed out of engagement by the torque pulses that come naturally from the engine. The shifter pops out of gear under load and the engine free-revs.", diagnosticSignal: "Manual only. Transmission pops out of a specific gear under load, usually 2nd or 5th, with the engine RPM dropping with the gear rather than surging. Often appears at higher mileage on vehicles driven hard." },
-      { title: "Detent Spring Wear", desc: "Inside a manual transmission, detent springs and ball bearings hold each gear position firmly. Decades of shifting wear those springs and the ball-detent surfaces, so the spring can no longer keep the shift fork seated. Vibration or load changes are then enough to walk the gear out of engagement.", diagnosticSignal: "Manual only. Gear pop-out happens during deceleration or load changes, often without grinding. Pattern is consistent (same gear, same conditions), and the shifter may visibly move on its own when slipping out." }
+    "slug": "transmission-slipping",
+    "heroIntro": "Scott's Auto & Clutch Repair has diagnosed transmission slipping on both manual and automatic vehicles in Salt Lake City since 1990.",
+    "name": "Transmission Slipping",
+    "shortName": "Transmission Slipping",
+    "priority": "High",
+    "category": "Clutch",
+    "relatedService": "transmission-repair-near-south-salt-lake-ut",
+    "lastUpdated": "September 2026",
+    "datePublished": "2024-01-01",
+    "dateModified": "2026-09-21",
+    "tags": {
+      "safetyTier": "important",
+      "progressive": true,
+      "terrainSensitive": true,
+      "weatherSensitive": false,
+      "temperatureSensitive": false,
+      "easilyConfused": true
+    },
+    "intro": "Slipping means the engine revs without a matching increase in road speed. In a manual vehicle, the clutch may be losing its grip. In an automatic, fluid-pressure, control, or internal wear problems may be involved. A manual gearbox jumping out of gear is a different symptom and needs different checks.",
+    "serviceBlurb": "We ask whether you have a manual or automatic transmission and when the engine revs without the vehicle accelerating. We inspect fluid and leaks where applicable, check stored codes, and assess clutch or transmission operation. We explain the findings before recommending a fluid service, component repair, or internal work.",
+    "smsBody": "Hi, my transmission is slipping.",
+    "causes": [
+      {
+        "title": "Manual Clutch Losing Grip",
+        "desc": "A worn disc, oil contamination, or a pressure-plate or release-system problem can prevent a manual clutch from holding engine power.",
+        "diagnosticSignal": "The engine revs while road speed lags, even though the gear lever stays in gear. We check clutch operation and possible contamination before recommending replacement."
+      },
+      {
+        "title": "Automatic Fluid Level or Pressure Problem",
+        "desc": "An automatic transmission needs the correct fluid level and hydraulic pressure. A leak or pressure-control problem can interfere with engagement. The fluid and checking procedure depend on the transmission.",
+        "diagnosticSignal": "Tell us if the vehicle takes longer to move after selecting Drive or Reverse, or revs between shifts. We follow the specified level-check procedure rather than diagnosing from fluid color alone."
+      },
+      {
+        "title": "Automatic Control or Internal Wear",
+        "desc": "Solenoid, valve-body, or internal friction-component problems can interrupt power transfer. A fault code helps direct testing but does not identify the repair by itself.",
+        "diagnosticSignal": "Report which shifts are affected, whether the transmission behaves differently when warm, and any warning lights. We compare those observations with codes and operating data."
+      },
+      {
+        "title": "Manual Gearbox Jumping Out of Gear",
+        "desc": "A gear lever that moves into neutral is different from a clutch that slips while the lever stays in gear. Linkage, mounts, engagement components, or internal wear may need inspection.",
+        "diagnosticSignal": "Tell us which gear disengages and whether it happens while accelerating or slowing down. We inspect accessible linkage and mounts before considering internal gearbox work."
+      }
     ],
-    richContent: [
+    "richContent": [
       {
-        heading: "Is My Transmission Slipping?",
-        paras: [
-          "In a manual, the engine revs sharply without a matching increase in speed, most noticeable on hills or freeway onramps. In an automatic, the transmission hesitates or shudders between gears, or the engine surges without acceleration.",
-          "A burnt smell from the transmission area, or a dipstick showing brown or dark fluid instead of clear red, confirms fluid damage in an automatic. On a manual, check whether the RPMs climb without a matching increase in speed, that gap between engine speed and road speed is the signature of a slipping disc."
+        "heading": "Is My Transmission Slipping or Jumping Out of Gear?",
+        "paras": [
+          "Watch for revving without a matching increase in speed. In a manual vehicle, note whether the gear lever stays in position. If it moves into neutral, report that separately.",
+          "In an automatic, tell us whether the revving occurs during a shift or whether the vehicle takes longer to move after you select Drive or Reverse. Shuddering is another symptom to report; it does not by itself confirm slipping."
         ]
       },
       {
-        heading: "When Should You Bring Your Vehicle In for Transmission Slipping Repair?",
-        paras: [
-          "In a manual, each slip glazes the disc further, lowering grip and causing more slipping. In an automatic, friction material shed from slipping clutch packs circulates through the fluid and degrades the rest of the unit, what started as a fluid service becomes an internal rebuild.",
-          "An automatic fluid service caught early is the cheapest path. The same transmission a few months later, after the fluid has burned, often needs a full rebuild. A manual clutch caught early is a clutch job; ignored long enough, it damages the flywheel too."
+        "heading": "When Should You Have Transmission Slipping Checked?",
+        "paras": [
+          "Arrange an inspection promptly. Continuing to drive while the clutch or transmission slips can increase wear and leave the vehicle unable to move.",
+          "Stop driving if acceleration becomes unreliable, the transmission drops out of gear, or you notice a substantial leak or overheating warning. Call to discuss towing rather than trying to reach the shop under those conditions."
         ]
       },
       {
-        heading: "Who to Trust for Transmission Slipping Repair in Salt Lake City",
-        paras: [
-          "We road-test to characterize the slip pattern, then pull fault codes, check fluid condition, and inspect clutch engagement before recommending any teardown. External causes, solenoids, fluid, hydraulic issues, are ruled out first. <a href='/services/clutch-repair-near-south-salt-lake-ut'>Our clutch service page</a> covers what's included in a typical manual repair.",
-          "Scott's Auto & Clutch Repair has been working on manual and automatic transmissions in South Salt Lake since 1990. We won't recommend a rebuild without first ruling out the simpler fixes that produce identical symptoms."
+        "heading": "How We Diagnose Slipping",
+        "paras": [
+          "We inspect leaks and fluid where applicable, read stored codes, and assess operation with a road test when safe. The checks differ between an automatic transmission, a slipping manual clutch, and a manual gearbox that disengages.",
+          "See our <a href=\"/services/transmission-repair-near-south-salt-lake-ut\">transmission diagnosis and repair service</a> for automatic and gearbox work, or our <a href=\"/services/clutch-repair-near-south-salt-lake-ut\">clutch repair service</a> for manual clutch problems. Fluid service is not a guaranteed cure for slipping."
         ],
-        inlineCta: true
+        "inlineCta": true
       }
     ]
   },
+
   {
     slug: "hard-to-shift-gears",
     heroIntro: "Scott's has diagnosed hard-shifting manual transmissions for Salt Lake City drivers since 1990.",
@@ -269,92 +321,140 @@ const symptoms = [
     ]
   },
   {
-    slug: "soft-clutch-pedal",
-    heroIntro: "Scott's has diagnosed and repaired soft and spongy clutch pedals for Salt Lake City drivers since 1990.",
-    name: "Clutch Pedal Feels Soft or Spongy",
-    shortName: "Soft Clutch Pedal",
-    priority: "Medium",
-    category: "Clutch",
-    relatedService: "clutch-repair-near-south-salt-lake-ut",
-    lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
-    tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: true, easilyConfused: false },
-    intro: "A soft or spongy clutch pedal has less resistance than usual or travels farther before the clutch releases. On a hydraulic clutch, air, a fluid leak, or a master or slave cylinder problem can cause this change. Difficulty selecting gears or a pedal that stays down needs prompt inspection.",
-    serviceBlurb: "A spongy pedal almost always means a bleed, a cylinder replacement, or both. Our hydraulic clutch service includes a full system bleed to remove air, inspection of the master and slave cylinders under pressure, and a check of all lines and fittings for seepage. If a cylinder is leaking internally, we'll quote the replacement so you have the full picture before any work begins.",
-    smsBody: "Hi, my clutch pedal feels soft or spongy.",
-    causes: [
-      { title: "Air in Hydraulic System", desc: "Hydraulic systems work because liquid doesn't compress. Air does. When air bubbles get into the clutch line (usually from a low reservoir or after recent service) the bubbles absorb the pressure that should be moving the slave cylinder. The pedal feels soft because the energy is being spent compressing air instead of releasing the clutch.", diagnosticSignal: "Pedal feels soft from the start of the stroke. May follow a recent low-fluid event or a topped-off reservoir. A bleed often resolves it completely if no cylinder is leaking. Worse on cold mornings when fluid viscosity is highest." },
-      { title: "Failing Slave Cylinder", desc: "The slave cylinder sits at the bell housing and converts fluid pressure into the physical push that releases the clutch. Inside it, a rubber seal swept across the cylinder bore for tens of thousands of cycles eventually wears or hardens. Once it starts letting fluid bypass, the cylinder can't make full travel and pedal feel softens.", diagnosticSignal: "Pedal firmness varies and the clutch fails to fully release; shifting becomes hard alongside the soft feel. Look for fluid drips or wetness at the bell housing where the slave cylinder is mounted. Common past 100,000 miles on the original cylinder." },
-      { title: "Failing Master Cylinder", desc: "The master cylinder sits behind the pedal and converts pedal force into fluid pressure. Like the slave, it has internal seals that wear with use. When those seals start letting fluid bypass internally, you can hold the pedal down and feel it slowly sink. The fluid is leaking past the seal back into the reservoir instead of pushing the slave.", diagnosticSignal: "Distinctive pattern: pedal slowly sinks toward the floor when held down, then rises when pumped. Indicates internal seal bypass. May appear without any visible fluid leak, since fluid is bypassing internally. Often paired with a low reservoir." },
-      { title: "Fluid Leak", desc: "A clutch hydraulic system is a closed circuit and doesn't consume fluid. If the reservoir level drops, fluid has escaped somewhere: a cracked line, a loose fitting, a failing master cylinder seal at the firewall, or a slave cylinder seal at the bell housing. As the level drops, air gets drawn in and the pedal goes from spongy to non-functional.", diagnosticSignal: "Reservoir level keeps dropping despite topping off. Look for drips on the driveway near the firewall (master cylinder) or near the bell housing (slave cylinder or hose). Any fluid loss means an active leak somewhere." }
+    "slug": "soft-clutch-pedal",
+    "heroIntro": "Scott's has diagnosed and repaired soft and spongy clutch pedals for Salt Lake City drivers since 1990.",
+    "name": "Clutch Pedal Feels Soft or Spongy",
+    "shortName": "Soft Clutch Pedal",
+    "priority": "Medium",
+    "category": "Clutch",
+    "relatedService": "clutch-repair-near-south-salt-lake-ut",
+    "lastUpdated": "September 2026",
+    "datePublished": "2024-01-01",
+    "dateModified": "2026-09-21",
+    "tags": {
+      "safetyTier": "important",
+      "progressive": true,
+      "terrainSensitive": false,
+      "weatherSensitive": false,
+      "temperatureSensitive": true,
+      "easilyConfused": false
+    },
+    "intro": "A soft or spongy clutch pedal has less resistance than usual or travels farther before the clutch releases. On a hydraulic clutch, air, a fluid leak, or a master or slave cylinder problem can cause this change. Difficulty selecting gears or a pedal that stays down needs prompt inspection.",
+    "serviceBlurb": "We check the clutch design, reservoir level, hydraulic lines, and master and slave cylinders. We also check whether the clutch releases fully. Bleeding may remove trapped air, but a leak or failing cylinder must be addressed if it is letting air enter or preventing pressure from building.",
+    "smsBody": "Hi, my clutch pedal feels soft or spongy.",
+    "causes": [
+      {
+        "title": "Air in the Hydraulic Line",
+        "desc": "Air compresses when you press the pedal. That can reduce the movement reaching the clutch release mechanism. Air may enter after service or when a leak lets the fluid level fall.",
+        "diagnosticSignal": "Tell us whether the soft pedal started after clutch work or a drop in fluid level. We check for leaks before deciding whether bleeding alone is appropriate."
+      },
+      {
+        "title": "Master Cylinder Problem",
+        "desc": "The master cylinder turns pedal movement into hydraulic pressure. A worn internal seal can let fluid bypass without leaving an obvious external leak.",
+        "diagnosticSignal": "A pedal that sinks while held down or works differently between presses makes the master cylinder worth checking. Pedal feel alone does not confirm which cylinder has failed."
+      },
+      {
+        "title": "Slave Cylinder Problem",
+        "desc": "The slave cylinder moves the clutch release mechanism. A leaking cylinder or insufficient travel can keep the clutch from releasing fully. Some slave cylinders are inside the bell housing.",
+        "diagnosticSignal": "Difficulty selecting gears with a soft pedal can indicate insufficient release movement. We check for leakage and movement where accessible; some inspections or repairs require transmission removal."
+      },
+      {
+        "title": "Leaking Line or Connection",
+        "desc": "A damaged hose, line, or connection can let clutch fluid escape. Some vehicles share a reservoir with the brakes, so low fluid needs careful inspection.",
+        "diagnosticSignal": "Report a falling fluid level or any visible leak. Topping up fluid does not repair the leak. Use only the fluid specified for the vehicle and have the system inspected."
+      }
     ],
-    richContent: [
+    "richContent": [
       {
-        heading: "Is My Clutch Pedal Too Soft?",
-        paras: [
-          "The pedal feels spongy or travels further than it should before you feel resistance, like pressing into a foam pad rather than a firm spring. You may have to push it nearly to the floor before the clutch releases.",
-          "Check the clutch fluid reservoir near the firewall, low or discolored fluid points to a hydraulic issue. A pedal that doesn't return fully to rest on its own, or one that needs to be pumped to firm up, also confirms hydraulic problems."
+        "heading": "Is My Clutch Pedal Too Soft?",
+        "paras": [
+          "A soft pedal offers less resistance than it used to. It may travel farther before the clutch releases, sink while held down, or stay on the floor.",
+          "Tell us whether you can select gears with the engine off but struggle with the engine running. That difference helps us check whether the clutch is releasing. Do not force the gear lever or keep pumping the pedal as a way to continue driving."
         ]
       },
       {
-        heading: "When Should You Bring Your Car In for Soft Clutch Pedal Repair?",
-        paras: [
-          "The hydraulic system is a closed circuit. A dropping reservoir means fluid has escaped, and topping off without finding the source just delays the failure. Each drop in level draws in more air and worsens pedal feel.",
-          "A hydraulic bleed is the cheapest fix when air is the only issue. A cylinder caught at the seeping stage is a straightforward replacement. One that fails completely often takes the other cylinder with it and may damage the release bearing. Catch it soft, fix it cheap."
+        "heading": "When Should You Have a Soft Clutch Pedal Checked?",
+        "paras": [
+          "Arrange an inspection when the pedal feel changes. If the pedal stays down, the gears grind, or the vehicle creeps with the clutch fully pressed, stop driving and call to discuss towing.",
+          "A fluid leak needs repair before the system is bled. If no leak is visible, we check cylinder operation and release movement rather than assuming the clutch disc needs replacement."
         ]
       },
       {
-        heading: "Who to Trust for Soft Clutch Pedal Repair in Salt Lake City",
-        paras: [
-          "We check fluid level and condition, then characterize the pedal feel to identify the specific component, soft from the start, sinking under pressure, or firm but no release each point to different causes. We pressure-test before any parts are ordered. <a href='/services/clutch-repair-near-south-salt-lake-ut'>See our full clutch service page</a> for what's covered.",
-          "Scott's Auto & Clutch Repair has been doing this in South Salt Lake since 1990. We catch failing cylinders before they leak visibly, catching them early means a single replacement instead of a full circuit flush after a complete failure."
+        "heading": "How We Diagnose a Soft Clutch Pedal",
+        "paras": [
+          "We identify the clutch system, inspect the fluid reservoir and accessible lines, and check master and slave cylinder operation. We compare pedal movement with clutch release to narrow down the fault.",
+          "We explain any access limits before further work, including whether an internal slave cylinder requires transmission removal. <a href=\"/services/clutch-repair-near-south-salt-lake-ut\">See our clutch repair service</a> for repair options."
         ],
-        inlineCta: true
+        "inlineCta": true
       }
     ]
   },
+
   {
-    slug: "clicking-when-turning",
-    heroIntro: "Scott's Auto & Clutch Repair has diagnosed and repaired CV joint clicking for Salt Lake City drivers since 1990.",
-    name: "Clicking Noise When Turning",
-    shortName: "Clicking When Turning",
-    priority: "Medium",
-    category: "CV Joint",
-    relatedService: "cv-joint-repair-near-south-salt-lake-ut",
-    lastUpdated: "May 2026", datePublished: "2024-01-01", dateModified: "2026-05-01",
-    tags: { safetyTier: "important", progressive: true, terrainSensitive: false, weatherSensitive: false, temperatureSensitive: false, easilyConfused: false },
-    intro: "Clicking or popping during a turn can come from a CV joint, steering or suspension components, or something contacting a moving part. A repeated click during a tight turn under power is a useful clue, but the noise alone does not identify the failed part.",
-    serviceBlurb: "We'll diagnose the extent of CV joint wear and give you a clear recommendation on what repair approach makes sense for your vehicle and budget. We also inspect the opposite axle while your vehicle is on the lift, if one boot has torn, the other is often aging close behind, and catching it early prevents a repeat visit.",
-    smsBody: "Hi, I hear clicking when turning.",
-    causes: [
-      { title: "Worn CV Joint", desc: "The outer CV joint contains a set of ball bearings that ride in machined races, packed in heavy grease. Once that grease is lost (almost always because the boot tore), road grit grinds against the bearings and races. The bearings wear shallow grooves into the race surfaces, and every turn now snaps the bearings into and out of those grooves. That's the click you hear.", diagnosticSignal: "Sharp clicking only during turns, especially tight low-speed turns in parking lots. Louder turning the direction that loads the failing axle. Often appears after a torn boot has been ignored for thousands of miles. Common past 100,000 miles." },
-      { title: "Torn CV Boot", desc: "The rubber accordion boot keeps grease in and contaminants out. UV exposure, ozone, and road debris eventually crack the rubber. Once the boot tears, centrifugal force flings grease out within a few hundred miles of driving. Water and grit then enter, and the joint's lifespan goes from years to weeks. Catching a torn boot before grease is fully lost is the cheapest stage of this repair.", diagnosticSignal: "Look for grease splattered along the inside of the wheel well or on suspension components, flung off the spinning axle. The boot is the rubber accordion-shaped cover near the wheel hub. A boot replacement caught here prevents the joint replacement that follows." },
-      { title: "Damaged CV Axle", desc: "An impact like a curb strike or deep pothole can bend the axle shaft itself or crack the joint housing. Unlike wear damage, impact damage doesn't follow a slow timeline. The joint may run normally for hundreds of miles, then fail abruptly under load. The internal balls can shift, the cage can crack, or the shaft can develop a runout that rapidly destroys the bearings.", diagnosticSignal: "Clicking that started suddenly after hitting a curb, deep pothole, or off-road impact. Often paired with vibration that gets worse with speed. Less common than wear-induced clicking but more urgent, since impact damage can fail quickly." }
+    "slug": "clicking-when-turning",
+    "heroIntro": "Scott's Auto & Clutch Repair has diagnosed and repaired CV joint clicking for Salt Lake City drivers since 1990.",
+    "name": "Clicking Noise When Turning",
+    "shortName": "Clicking When Turning",
+    "priority": "Medium",
+    "category": "CV Joint",
+    "relatedService": "cv-joint-repair-near-south-salt-lake-ut",
+    "lastUpdated": "September 2026",
+    "datePublished": "2024-01-01",
+    "dateModified": "2026-09-21",
+    "tags": {
+      "safetyTier": "important",
+      "progressive": true,
+      "terrainSensitive": false,
+      "weatherSensitive": false,
+      "temperatureSensitive": false,
+      "easilyConfused": false
+    },
+    "intro": "Clicking or popping during a turn can come from a CV joint, steering or suspension components, or something contacting a moving part. A repeated click during a tight turn under power is a useful clue, but the noise alone does not identify the failed part.",
+    "serviceBlurb": "We check the CV boots and joints, steering and suspension joints, and nearby brake hardware to find the source of the clicking. We explain which part needs attention before recommending a repair. A problem on one axle does not automatically mean both axles need replacement.",
+    "smsBody": "Hi, I hear clicking when turning.",
+    "causes": [
+      {
+        "title": "Worn CV Joint or Torn Boot",
+        "desc": "A CV joint lets the axle transmit power while the wheels turn. Wear inside an outer joint can produce repeated clicking during a turn. A torn boot lets grease escape and dirt enter, but a torn boot alone does not tell us how much wear is inside.",
+        "diagnosticSignal": "Repeated clicking during a tight turn under power makes the outer CV joints worth inspecting. Grease around a boot is another clue. We inspect both sides rather than choosing an axle from the turn direction alone."
+      },
+      {
+        "title": "Steering or Suspension Joint",
+        "desc": "A worn joint or a binding strut mount can click or pop as the steering moves. These parts need an inspection because looseness or binding can affect steering.",
+        "diagnosticSignal": "Tell us whether the sound happens while the car is stationary, over a bump, or once as you change steering direction. A single pop needs different checks from a click that repeats as the wheel rotates."
+      },
+      {
+        "title": "Brake Hardware or Contact Near the Wheel",
+        "desc": "Loose brake hardware or a shield contacting a moving part can make a click or scrape. We look for loose parts and contact marks before recommending an axle.",
+        "diagnosticSignal": "Tell us if the noise changes when you apply the brakes or also happens while driving straight. Mention any recent brake work, wheel work, or curb impact."
+      }
     ],
-    richContent: [
+    "richContent": [
       {
-        heading: "Is That Clicking My CV Joint?",
-        paras: [
-          "You'll hear a rhythmic clicking or popping sound that appears when turning, it's most obvious in slow, tight turns like parking lots or U-turns, and usually comes from the front of the car on the side that's turning.",
-          "The click is caused by a worn CV joint that only loads up under the angle and torque of a turn. If the noise disappears when driving straight, the CV joint is almost certainly the source."
+        "heading": "Is That Clicking My CV Joint?",
+        "paras": [
+          "A repeated click during a tight, slow turn under power can point to an outer CV joint. The sound alone cannot confirm the joint or identify which side needs repair.",
+          "Tell us whether the noise repeats with wheel speed, happens once as you turn the steering wheel, or changes when you brake. Those details help us choose between axle, steering, suspension, and brake inspections."
         ]
       },
       {
-        heading: "When Should You Bring Your Car In for CV Joint Clicking Repair?",
-        paras: [
-          "The boot tore first, that happened thousands of miles before the clicking appeared. Once grease escapes, road grit packs into the joint and progressively deepens the bearing races. Each turn moves the joint closer to binding or separation.",
-          "We inspect the opposite axle on the lift because boots age together, doing both at once costs less than a return visit when the second side fails a few months later. A failed joint can also damage the hub, ABS sensor, or brake components, turning a single axle replacement into a multi-component repair."
+        "heading": "When Should You Have Clicking During Turns Checked?",
+        "paras": [
+          "Arrange an inspection when a new click or pop starts. A torn boot may be repairable before the joint is damaged, but we need to inspect the joint before recommending a boot or axle replacement.",
+          "Stop driving if the clicking comes with loose steering, severe vibration, a wheel that appears out of position, or difficulty controlling the vehicle. Call to discuss towing rather than driving with those symptoms."
         ]
       },
       {
-        heading: "Who to Trust for CV Joint Repair in Salt Lake City",
-        paras: [
-          "We inspect both CV boots for tears and grease loss, feel both inner and outer joints for play, and road-test to confirm which side is clicking. Outer joint clicking comes only during turns; inner joint problems show up as vibration under acceleration, different failure, different repair. <a href='/services/cv-joint-repair-near-south-salt-lake-ut'>See our CV joint service page</a> for what's included.",
-          "Scott's Auto & Clutch Repair has been doing front-end work in South Salt Lake since 1990. Pattern recognition, which side, which turn angle, which speed, is what keeps us from replacing the wrong axle."
+        "heading": "How We Find the Source of the Clicking",
+        "paras": [
+          "We ask about the speed, steering angle, and braking conditions that produce the sound. When safe, we reproduce the noise, inspect the CV boots and joints, and check steering, suspension, and brake components for looseness or contact.",
+          "We recommend repairs based on what the inspection shows. <a href=\"/services/cv-joint-repair-near-south-salt-lake-ut\">Read about CV joint and axle repair</a> at our South Salt Lake shop."
         ],
-        inlineCta: true
+        "inlineCta": true
       }
     ]
   },
+
   {
     slug: "vibration-when-accelerating",
     heroIntro: "Scott's Auto & Clutch Repair has diagnosed drivetrain vibration on FWD, RWD, and 4WD vehicles in Salt Lake City since 1990.",
@@ -1472,8 +1572,8 @@ const symptomMeta = {
   'transmission-slipping':     { metaTitle: "Transmission Slipping? Causes & Fixes | Scott's Auto Salt Lake City", metaDesc: "RPMs climb without acceleration, could be fluid, solenoid, or internal wear. We diagnose before recommending repair. Call (801) 485-4089." },
   'hard-to-shift-gears':       { metaTitle: "Hard to Shift Gears? Manual Trans Help | Scott's Auto Salt Lake City", metaDesc: "Won't go into gear cleanly? Clutch, hydraulics, synchros, or linkage, we find the real cause. Manual transmission specialists. (801) 485-4089." },
   'burning-smell':             { metaTitle: "Burning Clutch Smell? Don't Ignore It | Scott's Auto Salt Lake City", metaDesc: "A burning smell after hills or hard acceleration is a slipping clutch overheating. Get it inspected before damage spreads. Call (801) 485-4089." },
-  'soft-clutch-pedal':         { metaTitle: "Soft or Spongy Clutch Pedal | Scott's Auto Salt Lake City, UT", metaDesc: "A pedal that sinks or feels mushy means the hydraulic system is failing. Master cylinder, slave, or hose, we diagnose. (801) 485-4089." },
-  'clicking-when-turning':     { metaTitle: "Clicking Noise When Turning | Scott's Auto Salt Lake City, UT", metaDesc: "A clicking sound during turns almost always means a worn outer CV joint. Catch it before the axle fails completely. (801) 485-4089." },
+  'soft-clutch-pedal':         { metaTitle: "Soft or Spongy Clutch Pedal | Scott's Auto Salt Lake City, UT", metaDesc: "Soft or sinking clutch pedal? We check leaks, cylinders, and clutch release before recommending repairs. Scott's Auto, South Salt Lake." },
+  'clicking-when-turning':     { metaTitle: "Clicking Noise When Turning | Scott's Auto Salt Lake City, UT", metaDesc: "Clicking during turns? We inspect CV joints, steering, suspension, and brake components to find the source. Scott's Auto, Salt Lake City." },
   'vibration-when-accelerating': { metaTitle: "Vibration When Accelerating | Scott's Auto Salt Lake City, UT", metaDesc: "Vibration that grows with speed could be CV joints, motor mounts, or driveline. Honest diagnosis, no guessing. Call (801) 485-4089." },
   'soft-brake-pedal':          { metaTitle: "Soft or Spongy Brake Pedal | South Salt Lake Brake Repair", metaDesc: "A brake pedal that sinks to the floor is a safety emergency. Fluid, hoses, or master cylinder, don't drive until it's fixed. (801) 485-4089." },
   'squeaking-brakes':          { metaTitle: "Squeaking Brakes? What It Means | Scott's Auto South Salt Lake", metaDesc: "That squeal is usually the wear indicator telling you pads are thin. A few thousand miles left before metal-on-metal. Free inspection. (801) 485-4089." },

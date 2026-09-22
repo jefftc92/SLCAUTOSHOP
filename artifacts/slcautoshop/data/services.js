@@ -653,7 +653,7 @@ const services = [
     metaTitle: "Timing Chain Repair Salt Lake City UT | Engine Rattling?",
     heading: "Timing Chain Replacement in Salt Lake City, UT",
     metaDesc: "Engine rattling on startup? Don't wait, timing chain failure can destroy your engine. Free diagnosis at Scott's Auto. Call (801) 485-4089.",
-    heroIntro: "Engine rattling at startup? That's a worn timing chain, and it gets worse the longer you wait. Free diagnosis. Written estimate. No surprises.",
+    heroIntro: "Engine rattling at startup? We check the noise, oil condition, and timing-system operation before recommending chain, tensioner, or guide repairs. A startup rattle alone does not confirm a worn chain.",
     intro: "",
     hideServicesSection: true,
     specializedServices: [
@@ -1653,7 +1653,7 @@ const services = [
     metaTitle: "Timing Belt Replacement Salt Lake City UT | All Makes",
     heading: "Timing Belt Replacement Service in Salt Lake City, UT",
     metaDesc: "Timing belt due for replacement? We handle belt, tensioner, idler & water pump as a complete service. Honest pricing. Call (801) 485-4089.",
-    heroIntro: "Timing belt due or overdue? A broken belt on an interference engine destroys the engine. We do the full service right. Written estimate. No surprises.",
+    heroIntro: "Timing belt due or overdue? We check the replacement schedule for your engine and explain which related parts need attention. A broken belt can cause serious damage on an interference engine.",
     intro: "",
     hideServicesSection: true,
     specializedServices: [
@@ -1674,7 +1674,7 @@ const services = [
       },
       {
         title: "Interference Engine Expertise",
-        desc: "Interference engines are the ones where a broken belt destroys valves and pistons. We know which vehicles have them and explain the stakes clearly."
+        desc: "In an interference engine, lost timing can let pistons contact valves. We check the engine design and explain the risk of an overdue belt."
       },
       {
         title: "Component Combination Planning",
@@ -1747,7 +1747,7 @@ const services = [
       {
         heading: "How Do You Know When a Timing Belt Needs Replacing?",
         paras: [
-          "The timing belt does not give you warning before it breaks. On an interference engine, a broken belt bends valves and destroys the engine without any further sign. The repair cost is typically 5 to 10 times the cost of a belt service. A belt that looks fine might be 12 years old and past its time interval. A low-mileage vehicle that's been driven infrequently still has a belt that has aged. Interval-based replacement exists because the belt weakens from heat cycling and age even when it appears intact.",
+          "A timing belt can fail without an obvious warning. Appearance alone does not establish its remaining life. Check the mileage and time limits for the specific engine, including any available replacement records. On an interference engine, belt failure can let pistons and valves collide and cause serious damage.",
           "The most common reasons drivers come in are a mileage or age interval that's due or overdue, a ticking noise from the engine, an engine that cranks but won't start on a vehicle with a timing belt, or a water pump or tensioner service that was flagged at a recent inspection. Any of those is worth a free consultation. We'll tell you exactly where your vehicle stands before recommending anything."
         ]
       }
@@ -1759,7 +1759,7 @@ const services = [
       },
       {
         q: "What happens if my timing belt breaks?",
-        a: "On a non-interference engine, the engine stops and the vehicle is towed for a belt replacement. On an interference engine (which covers most modern vehicles), the pistons hit the open valves and catastrophic engine damage occurs. The repair cost is typically 5–10x the cost of the belt service."
+        a: "The engine may stop or fail to start. On an interference engine, lost timing can allow piston-to-valve contact and serious damage. The amount of damage must be inspected; a broken belt does not automatically mean the entire engine needs replacement. Avoid repeated starting attempts and arrange towing."
       },
       {
         q: "Should I replace the water pump with the timing belt?",
@@ -1775,7 +1775,7 @@ const services = [
       },
       {
         q: "What is the interference engine risk with a broken timing belt?",
-        a: "On an interference engine, pistons and valves share overlapping travel zones and are kept apart only by the belt maintaining precise cam timing. When the belt breaks, the camshaft stops but the crankshaft keeps turning. Pistons hit open valves, causing bent valves, damaged pistons, and in severe cases a destroyed cylinder head. The cost is typically a $3,000 to $6,000 repair for a service that costs $400 to $700."
+        a: "An interference engine relies on correct valve timing to keep pistons and valves apart. A broken or displaced belt can allow contact. Repair needs and cost depend on the engine and inspection findings, so we do not assume either a belt-only repair or engine replacement before assessing damage."
       },
       {
         q: "Is there a warranty on the repair?",
@@ -1793,7 +1793,7 @@ const services = [
     whoContent: {
       heading: "Who to Trust for Timing Belt Replacement in Salt Lake City",
       paras: [
-        "Scott's Auto & Clutch Repair has been handling timing belt services in South Salt Lake since 1990. We've replaced timing belts on every make and model that uses them, and we know which components make sense to combine based on the engine design and the vehicle's mileage. We explain the options, give you the information to decide, and don't push a blanket recommendation to replace everything accessible.",
+        "Scott's Auto & Clutch Repair has been handling timing belt services in South Salt Lake since 1990. We check the engine design, mileage, and service records to explain which components make sense to replace together. We explain the options, give you the information to decide, and don't push a blanket recommendation to replace everything accessible.",
         "When you bring your vehicle in, you get a complete assessment of the belt system and related components, a written estimate before any work starts, and timing verified after the job is done. The goal is a service done right the first time, with no return visit for a tensioner or water pump that should have been included."
       ]
     },
@@ -1812,7 +1812,7 @@ const services = [
       },
       {
         label: "Risk If Missed",
-        value: "Timing belt failure on an interference engine causes engine damage, this is a prevention-only repair"
+        value: "Belt failure can cause serious damage on an interference engine. Follow the replacement schedule for your specific engine."
       },
       {
         label: "Service Interval",

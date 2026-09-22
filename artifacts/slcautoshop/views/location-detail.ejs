@@ -18,7 +18,7 @@
 <!-- 1. Shop Info + Map — white -->
 <section class="content-section">
   <div class="container">
-    <h2><% if (!location.isHome) { %>Just <%= location.driveTime %> from <%= location.name %><% } else { %>Your South Salt Lake Auto Shop<% } %></h2>
+    <h2><% if (!location.isHome) { %>Auto Repair for <%= location.name %> Drivers<% } else { %>Your South Salt Lake Auto Shop<% } %></h2>
     <div class="loc-shop-grid">
       <div class="loc-shop-info">
         <p><%- linkifyServices(location.whyChooseUs) %></p>

@@ -101,6 +101,7 @@ const LEGACY_DOMAIN_HOSTS = new Set([
   'slcautohsop-nodjs.replit.app',
 ]);
 const LEGACY_CANONICAL_PATHS = new Map([
+  ['/symptoms/shifting-grinding', '/symptoms/grinding-when-shifting'],
   ['/symptoms/rough-idle-over-bumps', '/symptoms/rough-ride-over-bumps'],
 ]);
 
@@ -269,6 +270,7 @@ const LEGACY_SYMPTOM_SLUG_ALIASES = {
   'clutch-pedal-feels-soft': 'soft-clutch-pedal',
   'exhaust-smell-cabin':     'exhaust-smell-in-cabin',
   'grinding-noise-shifting': 'grinding-when-shifting',
+  'shifting-grinding':      'grinding-when-shifting',
   'rough-ride-bumps':        'rough-ride-over-bumps',
 };
 

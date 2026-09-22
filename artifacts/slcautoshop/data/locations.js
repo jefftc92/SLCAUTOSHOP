@@ -32,13 +32,40 @@ const locations = [
     aboutCity: "Murray was founded in 1903 as a smelter town processing ore from the Bingham Canyon Mine and has grown into one of Salt Lake County's largest cities with over 50,000 residents. Intermountain Medical Center is the region's flagship hospital, making Murray a healthcare hub for the entire valley. The city's central location along State Street and I-15 makes it one of the valley's most accessible communities, and its strong TRAX connectivity links Murray residents to downtown, the airport, and southern suburbs."
   },
   {
-    slug: "salt-lake-city-ut-auto-repair", name: "Salt Lake City", state: "UT", distance: "4 miles", driveTime: "10 min", zipCodes: ["84101", "84102", "84103", "84104", "84105", "84111"], isHome: false,
-    intro: "Downtown Salt Lake City drivers are just 4 miles from our shop, about 10 minutes south on State Street or I-15. We serve everyone from downtown office commuters to University of Utah students to Avenues residents who need a mechanic they can trust.",
-    whyChooseUs: "Salt Lake City driving is uniquely demanding. Between the steep Avenues streets, downtown one-way grid, freeway merging on I-15 and I-80, and winter inversions that mean cold starts for months, your vehicle works harder than most people realize.",
-    landmarks: [],
-    neighborhoods: ["Downtown", "The Avenues", "Capitol Hill", "Liberty Wells", "Central City", "9th & 9th", "East Central", "Poplar Grove", "Rose Park"],
-    aboutCity: "Salt Lake City is Utah's capital and largest city, home to over 200,000 residents in the city proper and 1.2 million in the greater metro area. Founded in 1847, the city is headquarters to major corporations, world-class universities, and internationally recognized healthcare systems. The Wasatch Mountains immediately to the east provide access to some of the best skiing in North America, Alta, Snowbird, Park City, and Brighton are all within 45 minutes. The city's downtown core is undergoing significant growth and development."
+    "slug": "salt-lake-city-ut-auto-repair",
+    "name": "Salt Lake City",
+    "state": "UT",
+    "distance": "4 miles",
+    "driveTime": "10 min",
+    "zipCodes": [
+      "84101",
+      "84102",
+      "84103",
+      "84104",
+      "84105",
+      "84111"
+    ],
+    "isHome": false,
+    "intro": "Salt Lake City drivers can bring clutch problems, brake noise, warning lights, and other repair needs to Scott's Auto & Clutch Repair at 144 W Crystal Ave in South Salt Lake.",
+    "whyChooseUs": "We specialize in clutch repair and also handle brakes, CV axles, engine diagnostics, and transmission work. Tell us what the vehicle is doing so we can discuss the inspection and arrange a visit. We explain our findings and the recommended repair before work begins.",
+    "landmarks": [],
+    "neighborhoods": [
+      "Downtown",
+      "The Avenues",
+      "Capitol Hill",
+      "Liberty Wells",
+      "Central City",
+      "9th & 9th",
+      "East Central",
+      "Poplar Grove",
+      "Rose Park"
+    ],
+    "aboutCity": "",
+    "metaTitle": "Auto Repair Salt Lake City UT | Scott's Auto & Clutch Repair",
+    "metaDesc": "Trusted auto repair for Salt Lake City drivers since 1990. Clutch specialists, full service shop, honest pricing. Call (801) 485-4089.",
+    "heading": "Auto Repair Shop Salt Lake City UT, Brakes, Clutch & More"
   },
+
   {
     slug: "taylorsville-ut-auto-repair", name: "Taylorsville", state: "UT", distance: "5 miles", driveTime: "10 min", zipCodes: ["84118", "84123", "84129"], isHome: false,
     intro: "Taylorsville residents are 5 miles from our shop, a 10-minute drive east on 4700 South or 5400 South. We've been the trusted mechanic for Taylorsville families who need honest auto repair without dealership pricing.",
@@ -88,13 +115,32 @@ const locations = [
     aboutCity: "Draper has about 51,000 residents and sits at the southern boundary of Salt Lake County, bordering Utah County. The city has grown rapidly as a tech hub and is a core part of Utah's 'Silicon Slopes' corridor, with major corporate campuses along Bangerter Highway. Draper's eastern neighborhoods border the Wasatch foothills and Corner Canyon, providing direct access to mountain biking, hiking, and skiing. The city has one of the highest median household incomes in Utah."
   },
   {
-    slug: "west-jordan-ut-auto-repair", name: "West Jordan", state: "UT", distance: "8 miles", driveTime: "12 min", zipCodes: ["84081", "84084", "84088"], isHome: false,
-    intro: "West Jordan drivers are about 8 miles east, a 12-minute drive up Redwood Road or the 201. We've been the honest alternative to dealerships for West Jordan families since 1990.",
-    whyChooseUs: "West Jordan's suburban sprawl means every errand involves driving. Between the 7800 South commercial strip, Mountain View Corridor, and school traffic, vehicles accumulate city miles fast.",
-    landmarks: [],
-    neighborhoods: ["West Jordan Center", "Jordan Landing", "Copper Hills", "Harvest Village"],
-    aboutCity: "West Jordan is the fourth-largest city in Utah with about 116,000 residents, one of the fastest-growing cities in the valley over the past two decades. It's a primarily residential community with major commercial development along Bangerter Highway and 7800 South. West Jordan has a strong family-oriented character with top-rated schools, active parks, and significant community investment in recreation facilities."
+    "slug": "west-jordan-ut-auto-repair",
+    "name": "West Jordan",
+    "state": "UT",
+    "distance": "8 miles",
+    "driveTime": "12 min",
+    "zipCodes": [
+      "84081",
+      "84084",
+      "84088"
+    ],
+    "isHome": false,
+    "intro": "West Jordan drivers can bring clutch problems, brake noise, warning lights, and other repair needs to Scott's Auto & Clutch Repair at 144 W Crystal Ave in South Salt Lake.",
+    "whyChooseUs": "We specialize in clutch repair and also handle brakes, CV axles, engine diagnostics, and transmission work. Tell us what the vehicle is doing so we can discuss the inspection and arrange a visit. We explain our findings and the recommended repair before work begins.",
+    "landmarks": [],
+    "neighborhoods": [
+      "West Jordan Center",
+      "Jordan Landing",
+      "Copper Hills",
+      "Harvest Village"
+    ],
+    "aboutCity": "",
+    "metaTitle": "Auto Repair West Jordan UT | Scott's Auto & Clutch Repair",
+    "metaDesc": "Eight miles east of West Jordan. Family vehicles, minivans, and SUVs serviced by a shop that tells you what's wrong, not what's profitable. (801) 485-4089.",
+    "heading": "Auto Repair Shop West Jordan UT, Brakes, Clutch & More"
   },
+
   {
     slug: "south-jordan-ut-auto-repair", name: "South Jordan", state: "UT", distance: "10 miles", driveTime: "14 min", zipCodes: ["84009", "84095"], isHome: false,
     intro: "South Jordan residents are 10 miles from our shop, about 14 minutes on I-15 or Bangerter Highway. We're the clutch and drivetrain specialists South Jordan drivers come to when they need it done right.",

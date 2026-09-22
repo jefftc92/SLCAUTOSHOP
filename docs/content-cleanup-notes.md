@@ -34,3 +34,19 @@ This pass addresses identified content problems; remaining model-specific schedu
 The local server runs with IndexNow disabled during verification. The full sitemap crawl checks all 728 pages across seven sitemaps for successful rendering, one H1, a matching production canonical, a nonempty unique title and meta description, and no noindex directive. It also checks internal page links, image sources, reachability from the homepage, and JSON-LD syntax.
 
 An existing separate issue remains: 256 pages render more than one FAQPage schema object. This copy change does not alter schema generation.
+
+## Search Console audit follow-up — September 2026
+
+The follow-up prioritizes observed impression losses and commercially relevant pages with few recorded impressions. The exports do not establish that these content defects caused a Google update loss.
+
+- Rewrite clicking-when-turning, soft-clutch-pedal, stiff-clutch-pedal, and transmission-slipping explanations and FAQs. Separate observations from diagnoses, automatic slipping from manual clutch slipping and gear disengagement, and external checks from inspections that require transmission removal.
+- Add transmission, check-engine diagnosis, and head-gasket services to the shared navigation. Include all existing services in the footer.
+- Replace unsupported road-specific failure and theft claims on all 16 check-engine and 16 transmission city-service pages. Describe useful symptoms, records to bring, and diagnostic checks instead. Make check-engine titles explicitly describe diagnosis.
+- Put service definitions before shop-map content on city-service pages. Stop cutting stored meta descriptions mid-word or mid-phone-number.
+- Replace speculative driving-wear and city-history copy on the Salt Lake City and West Jordan location pages with service and inspection information.
+- Correct absolute timing-belt damage claims and the timing-chain hero diagnosis.
+- Redirect the historical `/symptoms/shifting-grinding` URL to `/symptoms/grinding-when-shifting`.
+
+Follow-up verification: all 728 sitemap URLs render with one H1, matching production canonicals, unique nonempty titles and descriptions, valid JSON-LD, and no observed noindex. All pages expose the three added service links. Targeted checks pass for the four symptom pages, 32 revised city-service pages, service-before-map ordering, and the legacy 301 redirect. `git diff --check` passes. IndexNow was disabled during local verification.
+
+No pages were removed or consolidated. No new testimonials, completed-job examples, prices, or shop policies were invented. The owner-confirmation questions above and further query-level/indexing investigation remain open; this batch does not claim to resolve every low-impression page.

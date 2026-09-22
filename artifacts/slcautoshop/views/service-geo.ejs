@@ -13,12 +13,12 @@
   <div class="container">
     <h1><%= geo.heading %></h1>
     <% if (typeof serviceHero !== 'undefined' && serviceHero) { %>
-    <p><%= serviceHero %> Our shop is <%= geo.distance %> from <%= geo.locationName %>, about <%= geo.driveTime %>.</p>
+    <p><%= serviceHero %> Our shop is in South Salt Lake. Use Get Directions to plan your trip from <%= geo.locationName %>.</p>
     <% if (geo.hasLocalContext && geo.intro) { %><p><%= geo.intro %></p><% } %>
     <% } else if (geo.hasLocalContext) { %>
     <p><%= geo.intro %></p>
     <% } else if (mainService) { %>
-    <p><%= mainService.shortDesc %> Our shop is <%= geo.distance %> from <%= geo.locationName %>: about <%= geo.driveTime %>. We diagnose every issue before recommending any repair.</p>
+    <p><%= mainService.shortDesc %> Our shop is in South Salt Lake. Use Get Directions to plan your trip from <%= geo.locationName %>. We diagnose every issue before recommending any repair.</p>
     <% } %>
     <div class="hero-buttons">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
@@ -26,6 +26,19 @@
     </div>
   </div>
 </section>
+
+<!-- ── Section 2: What Is [Service] (alt-bg) ─────────────────────────────── -->
+<% if (mainService && mainService.shortDefinition) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2>What Is <%= geo.serviceFullName %>?</h2>
+    <div class="prose mw-700"><p><%= mainService.shortDefinition %></p></div>
+    <div class="mt-6">
+      <a href="/services/<%= geo.mainServiceSlug %>" class="btn btn-outline">Full <%= geo.serviceName %> Service Details &rarr;</a>
+    </div>
+  </div>
+</section>
+<% } %>
 
 <!-- ── Section 1: Shop Info + Map (white) ────────────────────────────────── -->
 <section class="content-section">
@@ -38,7 +51,7 @@
     </div>
     <% if (geo.localTip) { %>
     <div class="issue-card issue-card--accent mw-700 mt-5">
-      <p class="tip-text"><strong>Local tip:</strong> <%= geo.localTip %></p>
+      <p class="tip-text"><strong>Before your visit:</strong> <%= geo.localTip %></p>
     </div>
     <% } %>
     <% } else { %>
@@ -103,19 +116,6 @@
   </div>
 </section>
 
-<!-- ── Section 2: What Is [Service] (alt-bg) ─────────────────────────────── -->
-<% if (mainService && mainService.shortDefinition) { %>
-<section class="content-section alt-bg">
-  <div class="container">
-    <h2>What Is <%= geo.serviceFullName %>?</h2>
-    <div class="prose mw-700"><p><%= mainService.shortDefinition %></p></div>
-    <div class="mt-6">
-      <a href="/services/<%= geo.mainServiceSlug %>" class="btn btn-outline">Full <%= geo.serviceName %> Service Details &rarr;</a>
-    </div>
-  </div>
-</section>
-<% } %>
-
 <!-- ── Section 3: Why [City] Drivers Need [Service] (white) ──────────────── -->
 <% if (!geo.hasLocalContext && geo.localContent) { %>
 <section class="content-section">
@@ -127,7 +127,7 @@
     </div>
     <% if (geo.localTip) { %>
     <div class="issue-card issue-card--accent mw-700 mt-5">
-      <p class="tip-text"><strong>Local tip:</strong> <%= geo.localTip %></p>
+      <p class="tip-text"><strong>Before your visit:</strong> <%= geo.localTip %></p>
     </div>
     <% } %>
   </div>

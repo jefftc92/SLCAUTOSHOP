@@ -62,19 +62,37 @@ const locationSeoContent = {
       { q: 'What is the fastest route from Murray to your shop?', a: 'The fastest route depends on where in Murray you\'re starting. From central Murray and Fashion Place Mall area, State Street north is typically 8 minutes. From eastern Murray, 5300 South west to State Street. From western Murray near Murray Parkway, 5400 South to State Street and north. We\'re at 144 W Crystal Ave.' }
     ]
   },
-  'salt-lake-city-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch Repair is Salt Lake City's trusted auto repair shop, located just south of downtown in South Salt Lake at 144 W Crystal Ave. For over 35 years, we've served Salt Lake City drivers throughout the Avenues, Capitol Hill, Downtown, 9th & 9th, and surrounding neighborhoods with honest automotive repair. Our specialty is clutch and manual transmission repair, but we handle all makes and models for brakes, CV axles, timing chains, exhaust, and complete auto service.",
-    commonNeeds: [
-      { service: 'Clutch Repair', context: 'Salt Lake City\'s Avenues and Capitol Hill neighborhoods have some of the steepest residential streets in Utah. Manual transmission drivers in these areas see faster clutch wear from constant hill starts.' },
-      { service: 'Brake Service', context: 'Downtown Salt Lake City driving means constant stopping at light-controlled intersections. Salt Lake commuters typically need brake service sooner than suburban drivers.' },
-      { service: 'Suspension Service', context: 'Older streets in Salt Lake City\'s historic neighborhoods have more potholes and rough patches that wear struts and shocks faster than newer suburbs.' },
-      { service: 'CV Axle Repair', context: 'Tight parking and frequent turning in downtown Salt Lake City and the Avenues stresses CV joints. We see Salt Lake City CV repairs regularly.' }
+  "salt-lake-city-ut-auto-repair": {
+    "keywordIntro": "Our shop serves Salt Lake City drivers from South Salt Lake. We inspect the vehicle before recommending parts and explain whether the repair involves the clutch, transmission, brakes, engine, or another system. Use the service links below for details about the work you need.",
+    "commonNeeds": [
+      {
+        "service": "Clutch Repair",
+        "context": "Tell us if the pedal feels different, gears are hard to select, or the engine revs without the vehicle accelerating. We check clutch release and engagement before recommending repair."
+      },
+      {
+        "service": "Brake Service",
+        "context": "Report grinding, pulling, a soft pedal, or vibration while braking. We inspect pad and rotor condition and check for hydraulic or caliper problems."
+      },
+      {
+        "service": "Engine Diagnostics",
+        "context": "Tell us whether a warning light is steady or flashing and whether the engine runs roughly. Stored codes guide testing; a code alone does not identify a part to replace."
+      },
+      {
+        "service": "Transmission Repair",
+        "context": "Tell us if shifts are harsh, the transmission slips, or movement is delayed after selecting Drive or Reverse. We check operation, fluid where applicable, leaks, and stored codes."
+      }
     ],
-    vehicleContext: "Salt Lake City\'s diverse population drives everything from vintage cars in the Avenues to modern hybrids downtown, family SUVs in the suburbs to performance cars in the foothills. We have experience with European imports common to the Avenues and Capitol Hill, as well as the domestic trucks and Japanese imports that dominate throughout the city.",
-    routeInfo: "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from Salt Lake City with current traffic and your exact starting point.",
-    extraFaqs: [
-      { q: 'Who is the best auto mechanic in Salt Lake City?', a: 'Scott\'s Auto & Clutch has been rated among Salt Lake City\'s trusted independent mechanics since 1990. With over 35 years of experience, honest pricing, and a satisfaction guarantee, we\'ve built a reputation for quality auto repair that Salt Lake City drivers rely on.' },
-      { q: 'What is the best auto repair for vehicles driven in the Avenues?', a: 'The steep streets in the Avenues are particularly hard on clutches, brakes, and suspensions. We specialize in these exact repairs and understand the wear patterns that Avenues driving creates. Our 35+ years of Salt Lake City experience means we know what to look for.' }
+    "vehicleContext": "Bring your vehicle details and any recent service records. Tell us about towing, modifications, or repairs that preceded the problem so we can plan the inspection.",
+    "routeInfo": "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from Salt Lake City with current traffic and your exact starting point.",
+    "extraFaqs": [
+      {
+        "q": "Who is the best auto mechanic in Salt Lake City?",
+        "a": "Scott's Auto & Clutch has been rated among Salt Lake City's trusted independent mechanics since 1990. With over 35 years of experience, honest pricing, and a satisfaction guarantee, we've built a reputation for quality auto repair that Salt Lake City drivers rely on."
+      },
+      {
+        "q": "What is the best auto repair for vehicles driven in the Avenues?",
+        "a": "The steep streets in the Avenues are particularly hard on clutches, brakes, and suspensions. We specialize in these exact repairs and understand the wear patterns that Avenues driving creates. Our 35+ years of Salt Lake City experience means we know what to look for."
+      }
     ]
   },
   'taylorsville-ut-auto-repair': {
@@ -167,19 +185,37 @@ const locationSeoContent = {
       { q: 'Is it worth the drive from Draper for auto repair?', a: "Call with your vehicle details and symptoms before making the trip. We can discuss the inspection and scheduling so you can decide whether our South Salt Lake shop is a good fit. Ask about expected turnaround before arranging your ride home." }
     ]
   },
-  'west-jordan-ut-auto-repair': {
-    keywordIntro: "Scott's Auto & Clutch Repair is West Jordan's trusted auto repair shop, located 8 miles east in South Salt Lake. Since 1990, we've served West Jordan drivers with honest, quality auto repair including clutch replacement, brake service, CV axle work, timing chain repair, and complete vehicle maintenance. Our West Jordan customers throughout 84081, 84084, and 84088 trust us for fair pricing and expert repairs on all makes and models.",
-    commonNeeds: [
-      { service: 'Brake Service', context: 'West Jordan drivers on Mountain View Corridor face fast-moving traffic with abrupt exits. The fast-slow pattern wears brakes harder than sustained highway or city driving.' },
-      { service: 'Clutch Repair', context: 'West Jordan commuters face long drives with variable traffic conditions, sometimes freeway speeds, sometimes heavy stop-and-go. This mixed wear pattern is tough on manual transmission clutches.' },
-      { service: 'Suspension Service', context: 'Newer West Jordan subdivisions have speed bumps, traffic calming, and rougher streets that wear suspension components. Inspections every 40,000 miles catch problems early.' },
-      { service: 'CV Axle Repair', context: 'Tight suburban turns and frequent directional changes in West Jordan\'s residential neighborhoods stress CV joints, especially on front-wheel drive vehicles.' }
+  "west-jordan-ut-auto-repair": {
+    "keywordIntro": "Our shop serves West Jordan drivers from South Salt Lake. We inspect the vehicle before recommending parts and explain whether the repair involves the clutch, transmission, brakes, engine, or another system. Use the service links below for details about the work you need.",
+    "commonNeeds": [
+      {
+        "service": "Clutch Repair",
+        "context": "Tell us if the pedal feels different, gears are hard to select, or the engine revs without the vehicle accelerating. We check clutch release and engagement before recommending repair."
+      },
+      {
+        "service": "Brake Service",
+        "context": "Report grinding, pulling, a soft pedal, or vibration while braking. We inspect pad and rotor condition and check for hydraulic or caliper problems."
+      },
+      {
+        "service": "Engine Diagnostics",
+        "context": "Tell us whether a warning light is steady or flashing and whether the engine runs roughly. Stored codes guide testing; a code alone does not identify a part to replace."
+      },
+      {
+        "service": "Transmission Repair",
+        "context": "Tell us if shifts are harsh, the transmission slips, or movement is delayed after selecting Drive or Reverse. We check operation, fluid where applicable, leaks, and stored codes."
+      }
     ],
-    vehicleContext: "West Jordan is a family-oriented community with a strong mix of minivans, family SUVs, commuter sedans, and work trucks. We see a lot of Honda Odysseys, Toyota Siennas, Chrysler Pacificas, Ford F-150s, Chevy Silverados, and family-friendly crossovers from West Jordan customers.",
-    routeInfo: "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from West Jordan with current traffic and your exact starting point.",
-    extraFaqs: [
-      { q: 'Where is the best auto repair near West Jordan?', a: 'Scott\'s Auto & Clutch is 8 miles east of West Jordan, about a 12-15 minute drive. We\'ve served West Jordan families since 1990 with honest diagnostics and fair pricing. Our satisfaction guarantee and decades of repeat customers speak to our quality.' },
-      { q: 'Do you service family vehicles and minivans from West Jordan?', a: 'Absolutely. Family vehicles are our bread and butter, minivans, SUVs, crossovers, and family sedans. We understand the reliability needs of parents hauling kids and groceries, and we prioritize repairs that keep family vehicles safe and dependable.' }
+    "vehicleContext": "Bring your vehicle details and any recent service records. Tell us about towing, modifications, or repairs that preceded the problem so we can plan the inspection.",
+    "routeInfo": "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from West Jordan with current traffic and your exact starting point.",
+    "extraFaqs": [
+      {
+        "q": "Where is the best auto repair near West Jordan?",
+        "a": "Scott's Auto & Clutch is 8 miles east of West Jordan, about a 12-15 minute drive. We've served West Jordan families since 1990 with honest diagnostics and fair pricing. Our satisfaction guarantee and decades of repeat customers speak to our quality."
+      },
+      {
+        "q": "Do you service family vehicles and minivans from West Jordan?",
+        "a": "Absolutely. Family vehicles are our bread and butter, minivans, SUVs, crossovers, and family sedans. We understand the reliability needs of parents hauling kids and groceries, and we prioritize repairs that keep family vehicles safe and dependable."
+      }
     ]
   },
   'south-jordan-ut-auto-repair': {
