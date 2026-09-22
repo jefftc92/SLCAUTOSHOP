@@ -3,12 +3,7 @@ const locations = [
     slug: "south-salt-lake-ut-auto-repair", name: "South Salt Lake", state: "UT", distance: "Our Location", driveTime: "0 min", zipCodes: ["84115", "84119"], isHome: true,
     intro: "Scott's Auto & Clutch Repair has called South Salt Lake home since 1990. Our shop at 144 W Crystal Ave sits right between I-15 and State Street, making us one of the most accessible auto repair shops in the valley. Whether you're coming from the 3300 South exit or cutting through on West Temple, you're never more than a few minutes away.",
     whyChooseUs: "South Salt Lake's mix of industrial corridors and residential neighborhoods means heavy stop-and-go traffic on State Street and 3300 South. That kind of driving accelerates brake wear and clutch fatigue, especially if you drive a manual. We see it every day, and we fix it every day.",
-    landmarks: [
-      { name: "Central Pointe TRAX Station", description: "Central Pointe Station sits on the TRAX Red and Green lines, a 3-minute walk from our shop at 144 W Crystal Ave, making it the easiest transit drop-off for customers across the valley.", distance: "0.3 miles", tip: "Drop your car off and hop on TRAX to get to work downtown, we'll text you when it's ready." },
-      { name: "Smith's Ballpark", description: "Smith's Ballpark, home of the Salt Lake Bees, is about half a mile north of our shop, an easy walk or short drive up West Temple.", distance: "0.5 miles", tip: "Catch a game while we handle your repair. Evening games line up perfectly with our same-day turnaround times." },
-      { name: "Rio Grande Depot", description: "The historic Rio Grande Depot is about 1.8 miles north of our shop in the Granary district, a straight shot up State Street.", distance: "1.8 miles", tip: "Heading to the depot area or Granary Row? We're a straight shot south on State Street, easy detour before or after your visit." },
-      { name: "State Street Corridor", description: "State Street runs a block east of our shop and is the main artery South Salt Lake drivers use to reach us, with constant stop-and-go from 2100 South to 3900 South.", distance: "0.2 miles", tip: "If your brakes squeak every time you hit a red light on State Street, bring it in. Those lights are hard on pads." }
-    ],
+    landmarks: [],
     neighborhoods: ["Central Pointe", "Gadsby Triangle", "Fitts Park", "Dallas-Evergreen", "Crystal Park"],
     aboutCity: "South Salt Lake was incorporated in 1938 and has transformed from an industrial hub into a diverse community of over 25,000 residents. The city's central location between downtown Salt Lake City and the southern suburbs makes it a crossroads for commuters throughout the valley. Its ongoing revitalization along State Street has brought new restaurants, breweries, and creative businesses alongside long-established industrial and commercial operations. The Central Pointe TRAX hub makes South Salt Lake one of the most transit-accessible communities in Utah."
   },
@@ -16,12 +11,7 @@ const locations = [
     slug: "sugar-house-ut-auto-repair", name: "Sugar House", state: "UT", distance: "3 miles", driveTime: "5 min", zipCodes: ["84106"], isHome: false,
     intro: "Sugar House drivers have been bringing their vehicles to Scott's Auto & Clutch Repair for over three decades. We're just 3 miles south on Highland Drive or State Street, a straight 5-minute shot from Sugar House Park. No freeway needed.",
     whyChooseUs: "Sugar House's hilly terrain around Sugarhouse Park and the 1300 East corridor puts extra strain on clutches and brakes. The constant elevation changes between 2100 South and I-80 mean your drivetrain works harder than in flat parts of the valley.",
-    landmarks: [
-      { name: "Sugar House Park", description: "Sugar House Park sits at 1300 East and 2100 South, about 2.5 miles north of our South Salt Lake shop. It's a straight run south on 1300 East or State Street, no freeway needed.", distance: "2.5 miles", tip: "Head south on 1300 East from the park, continue to 3300 South, and we're just past State Street on Crystal Ave." },
-      { name: "Westminster University", description: "Westminster University is on 1300 East in Sugar House, roughly 3 miles from our South Salt Lake shop, a few minutes south on Highland Drive or State Street.", distance: "3.0 miles", tip: "Students and staff get straightforward pricing. We know the reality of college and university budgets." },
-      { name: "Sugar House Shopping District", description: "The Sugar House shopping district runs along 2100 South, about 2.8 miles north of our shop, an easy drive south on State Street or Highland Drive.", distance: "2.8 miles", tip: "If you're running errands in Sugar House, we're just a 5-minute drive south on State Street or Highland Drive." },
-      { name: "Fairmont Park", description: "Fairmont Park is on 900 East near 2100 South in Sugar House, about 2.2 miles from our South Salt Lake shop and minutes away via State Street.", distance: "2.2 miles", tip: "Residents in the Fairmont and Forest Dale areas are just minutes from our shop, easy to drop off in the morning." }
-    ],
+    landmarks: [],
     neighborhoods: ["Sugar House Proper", "Forest Dale", "Gilmer Park", "Highland Park", "Emerson"],
     aboutCity: "Sugar House is one of Salt Lake City's oldest and most distinctive neighborhoods, originally named for a sugar beet processing plant that operated here in the 1850s. Today it's known for its walkable shopping district, tree-lined residential streets, and strong community identity. Sugar House Park's 110 acres provide year-round recreation for tens of thousands of residents. Westminster University adds a collegiate energy to the neighborhood, while ongoing development has brought new housing and retail to the 2100 South corridor."
   },
@@ -29,12 +19,7 @@ const locations = [
     slug: "millcreek-ut-auto-repair", name: "Millcreek", state: "UT", distance: "3 miles", driveTime: "7 min", zipCodes: ["84106", "84109"], isHome: false,
     intro: "Millcreek residents are just 3 miles from our shop, a quick 7-minute drive down 3300 South or Highland Drive. We've been the go-to mechanic for Millcreek families since 1990, especially for drivers who commute through Parley's Canyon or head up to the ski resorts.",
     whyChooseUs: "Millcreek sits at the mouth of two major canyons, and that geography defines the driving conditions. Residents heading up Big Cottonwood or Millcreek Canyon deal with steep grades that stress clutches, brakes, and cooling systems more than any flatland driving.",
-    landmarks: [
-      { name: "Millcreek Canyon", description: "The Millcreek Canyon entrance is at 3800 S Millcreek Canyon Road, about 5 miles east of our South Salt Lake shop. Millcreek drivers reach us heading west on 3300 South.", distance: "5 miles", tip: "If you hike or bike Millcreek Canyon regularly, your brakes are working overtime on every descent. We check rotors for heat damage and warping from sustained downhill braking." },
-      { name: "Millcreek Common", description: "Millcreek Common sits on 3300 South near 900 East, about 3 miles east of our shop, a straight shot west on 3300 South.", distance: "3 miles", tip: "The Common is a natural stopping point before heading west on 3300 South toward our shop." },
-      { name: "Skyline High School", description: "Skyline High School serves the Millcreek and Mount Olympus area, about 3.5 miles east of our South Salt Lake shop via 3300 South.", distance: "3.5 miles", tip: "Take 3900 South west from Skyline's area to State Street, then south to Crystal Ave, about 7 minutes." },
-      { name: "Mount Olympus Trailhead", description: "The Mount Olympus trailhead sits on Wasatch Blvd at the east edge of Millcreek, about 5 miles from our shop. Millcreek drivers come west on 3300 South or 4500 South to reach us.", distance: "5 miles", tip: "Hikers heading to Mount Olympus often leave their cars at the trailhead all day. If you want your vehicle checked while you hike, drop it with us the morning before." }
-    ],
+    landmarks: [],
     neighborhoods: ["Canyon Rim", "Millcreek Proper", "Meadowmoor", "Mount Olympus", "Sunnydale"],
     aboutCity: "Millcreek was incorporated as a city in 2016 after decades as an unincorporated Salt Lake County township, making it one of Utah's newest cities despite being one of the valley's oldest settled areas. Named for the creek flowing from the Wasatch Mountains, Millcreek is home to nearly 63,000 residents across a mix of established mid-century neighborhoods and newer developments. The city's eastern edge borders the Wasatch Mountains, giving residents direct access to Millcreek Canyon, Big Cottonwood Canyon, and the trails of the Wasatch Front."
   },
@@ -42,38 +27,50 @@ const locations = [
     slug: "murray-ut-auto-repair", name: "Murray", state: "UT", distance: "4 miles", driveTime: "8 min", zipCodes: ["84107", "84121", "84123"], isHome: false,
     intro: "Murray drivers are just 4 miles from our shop, about 8 minutes straight up State Street. We've been serving Murray families since 1990, and many of our longest-running customers come from the Fashion Place Mall and Intermountain Medical Center areas.",
     whyChooseUs: "Murray's central location means heavy traffic on State Street and I-15. The constant stop-and-go around Fashion Place Mall and the 5300 South interchange wears down brakes faster than highway driving, we see that pattern every day from Murray customers.",
-    landmarks: [
-      { name: "Intermountain Medical Center", description: "Intermountain Medical Center is at 5121 S Cottonwood St in Murray, about 2.8 miles south of our South Salt Lake shop. Staff and patients reach us in minutes up State Street or I-15.", distance: "2.8 miles", tip: "Healthcare workers on shift schedules appreciate our drop-off service. Leave your vehicle with us, take TRAX to the hospital, and pick it up after your shift." },
-      { name: "Fashion Place Mall", description: "Fashion Place Mall is at 6191 S State Street in Murray, about 3.2 miles south of our shop, a straight drive north on State Street.", distance: "3.2 miles", tip: "Head north on State Street from Fashion Place, we're about 8 minutes up the road at Crystal Ave." },
-      { name: "Murray City Park", description: "Murray City Park sits along the Jordan River near 300 East, about 3.5 miles from our South Salt Lake shop via State Street or I-15.", distance: "3.5 miles", tip: "Murray Park families rely on us for the family minivan, pre-trip brake and safety checks are always a good idea before road trips." },
-      { name: "Murray TRAX Station", description: "Murray Central and Murray North TRAX stations are on the Blue Line, a short ride north to Central Pointe and a 3-minute walk to our shop. Murray is about 3 miles south.", distance: "3.0 miles", tip: "Drop your car at our shop and catch TRAX, Murray Central is just 8 minutes north. No need to sit around waiting." }
-    ],
+    landmarks: [],
     neighborhoods: ["Downtown Murray", "Historic Murray", "Vine Street District", "Murray City Center", "Fashion Place"],
     aboutCity: "Murray was founded in 1903 as a smelter town processing ore from the Bingham Canyon Mine and has grown into one of Salt Lake County's largest cities with over 50,000 residents. Intermountain Medical Center is the region's flagship hospital, making Murray a healthcare hub for the entire valley. The city's central location along State Street and I-15 makes it one of the valley's most accessible communities, and its strong TRAX connectivity links Murray residents to downtown, the airport, and southern suburbs."
   },
   {
-    slug: "salt-lake-city-ut-auto-repair", name: "Salt Lake City", state: "UT", distance: "4 miles", driveTime: "10 min", zipCodes: ["84101", "84102", "84103", "84104", "84105", "84111"], isHome: false,
-    intro: "Downtown Salt Lake City drivers are just 4 miles from our shop, about 10 minutes south on State Street or I-15. We serve everyone from downtown office commuters to University of Utah students to Avenues residents who need a mechanic they can trust.",
-    whyChooseUs: "Salt Lake City driving is uniquely demanding. Between the steep Avenues streets, downtown one-way grid, freeway merging on I-15 and I-80, and winter inversions that mean cold starts for months, your vehicle works harder than most people realize.",
-    landmarks: [
-      { name: "University of Utah", description: "The University of Utah sits in the foothills above downtown, about 5 miles from our South Salt Lake shop. Students and staff reach us south on State Street or I-15.", distance: "5 miles", tip: "U of U students and staff: take the TRAX Red Line south to Central Pointe. Our shop is a 3-minute walk from the station." },
-      { name: "Liberty Park", description: "Liberty Park is at 600 East and 900 South, about 2.5 miles north of our shop, a quick drive south on State Street or 700 East.", distance: "2.5 miles", tip: "If you live near Liberty Park, we're just a quick drive south on 700 East to 3300 South, then west to Crystal Ave." },
-      { name: "Downtown / City Creek Center", description: "City Creek Center is in the heart of downtown Salt Lake City, about 4 miles north of our South Salt Lake shop via State Street or I-15.", distance: "4 miles", tip: "From downtown, take I-15 south to the 3300 South exit, we're just east of the freeway at 144 W Crystal Ave." },
-      { name: "The Avenues", description: "The Avenues sit on the hillside above downtown, about 4.5 miles from our shop. Avenues drivers reach us heading south on State Street or I-15.", distance: "4.5 miles", tip: "Avenues drivers: your clutch and brakes work harder than any other neighborhood in SLC. We see that wear pattern constantly." }
+    "slug": "salt-lake-city-ut-auto-repair",
+    "name": "Salt Lake City",
+    "state": "UT",
+    "distance": "4 miles",
+    "driveTime": "10 min",
+    "zipCodes": [
+      "84101",
+      "84102",
+      "84103",
+      "84104",
+      "84105",
+      "84111"
     ],
-    neighborhoods: ["Downtown", "The Avenues", "Capitol Hill", "Liberty Wells", "Central City", "9th & 9th", "East Central", "Poplar Grove", "Rose Park"],
-    aboutCity: "Salt Lake City is Utah's capital and largest city, home to over 200,000 residents in the city proper and 1.2 million in the greater metro area. Founded in 1847, the city is headquarters to major corporations, world-class universities, and internationally recognized healthcare systems. The Wasatch Mountains immediately to the east provide access to some of the best skiing in North America, Alta, Snowbird, Park City, and Brighton are all within 45 minutes. The city's downtown core is undergoing significant growth and development."
+    "isHome": false,
+    "intro": "Salt Lake City drivers can bring clutch problems, brake noise, warning lights, and other repair needs to Scott's Auto & Clutch Repair at 144 W Crystal Ave in South Salt Lake.",
+    "whyChooseUs": "We specialize in clutch repair and also handle brakes, CV axles, engine diagnostics, and transmission work. Tell us what the vehicle is doing so we can discuss the inspection and arrange a visit. We explain our findings and the recommended repair before work begins.",
+    "landmarks": [],
+    "neighborhoods": [
+      "Downtown",
+      "The Avenues",
+      "Capitol Hill",
+      "Liberty Wells",
+      "Central City",
+      "9th & 9th",
+      "East Central",
+      "Poplar Grove",
+      "Rose Park"
+    ],
+    "aboutCity": "",
+    "metaTitle": "Auto Repair Salt Lake City UT | Scott's Auto & Clutch Repair",
+    "metaDesc": "Trusted auto repair for Salt Lake City drivers since 1990. Clutch specialists, full service shop, honest pricing. Call (801) 485-4089.",
+    "heading": "Auto Repair Shop Salt Lake City UT, Brakes, Clutch & More"
   },
+
   {
     slug: "taylorsville-ut-auto-repair", name: "Taylorsville", state: "UT", distance: "5 miles", driveTime: "10 min", zipCodes: ["84118", "84123", "84129"], isHome: false,
     intro: "Taylorsville residents are 5 miles from our shop, a 10-minute drive east on 4700 South or 5400 South. We've been the trusted mechanic for Taylorsville families who need honest auto repair without dealership pricing.",
     whyChooseUs: "Taylorsville's wide arterial roads, 4700 South, Redwood Road, 5400 South, encourage higher speeds that stress braking systems. The I-215 belt route runs through the heart of Taylorsville, and the merge ramps put extra load on transmissions.",
-    landmarks: [
-      { name: "Utah Olympic Oval", description: "The Utah Olympic Oval sits at 5662 S 4800 W, about 4 miles from our South Salt Lake shop. Taylorsville drivers reach us east on 4700 South to State Street or via I-215.", distance: "4 miles", tip: "From the Oval area, head east on 5400 South to State Street, then north to Crystal Ave, about 10 minutes." },
-      { name: "Valley Fair Mall", description: "Valley Fair Mall is at 3601 S 2700 W, about 5 miles west of our shop. Taylorsville drivers reach us east on 3500 South toward State Street.", distance: "5 miles", tip: "If you're at Valley Fair, head east on 3500 South to State Street, then south to Crystal Ave. The drive is about 10 minutes." },
-      { name: "Taylorsville City Hall", description: "Taylorsville City Hall is at 2600 W Taylorsville Blvd, about 5.5 miles from our South Salt Lake shop via 4700 South or I-215.", distance: "5.5 miles", tip: "From Taylorsville City Hall, take 4700 South east, it's a straight shot to our shop past State Street." },
-      { name: "I-215 / Redwood Road Interchange", description: "The I-215 / Redwood Road interchange is about 4 miles from our shop and the main route Taylorsville drivers take east toward I-15 and South Salt Lake.", distance: "4 miles", tip: "If you commute through this interchange daily, your clutch and brakes experience more wear than average, we recommend more frequent inspections." }
-    ],
+    landmarks: [],
     neighborhoods: ["Taylorsville Proper", "Bennion", "Valley Hi", "Oquirrh Shadows"],
     aboutCity: "Taylorsville is a city of about 60,000 residents in the heart of Salt Lake County, incorporated in 1996. The city's central location at the intersection of I-215, Redwood Road, and 4700 South makes it a natural crossroads for the southwest valley. Taylorsville is known for its family-oriented neighborhoods, strong school system, and proximity to both the University of Utah Medical Center and Intermountain Health facilities."
   },
@@ -81,12 +78,7 @@ const locations = [
     slug: "west-valley-city-ut-auto-repair", name: "West Valley City", state: "UT", distance: "7 miles", driveTime: "12 min", zipCodes: ["84119", "84120", "84128"], isHome: false,
     intro: "West Valley City drivers are 7 miles east of our shop, about 12 minutes on 3500 South. We've been a trusted alternative to the chain shops for West Valley families since 1990.",
     whyChooseUs: "West Valley City's sprawling layout means longer commutes and more highway miles. Whether you're driving 5600 West to the USANA Amphitheatre or merging onto I-215, your vehicle accumulates wear fast.",
-    landmarks: [
-      { name: "USANA Amphitheatre", description: "USANA Amphitheatre is at 5150 S Upper Ridge Dr in West Valley City, about 10 miles from our South Salt Lake shop via I-215 and I-15.", distance: "10 miles", tip: "Concert traffic on 5600 West creates serious clutch abuse in stop-and-go. If your clutch feels different after a show night, bring it in for a check." },
-      { name: "Maverik Center", description: "The Maverik Center is at 3200 S Decker Lake Dr in West Valley City, about 8 miles west of our shop, reached heading east on 3500 South toward I-15.", distance: "8 miles", tip: "From the Maverik Center area, take 3100 South east to reach State Street, then south to Crystal Ave, about 12 minutes." },
-      { name: "Valley Fair Mall", description: "Valley Fair Mall is at 3601 S 2700 W in West Valley City, about 6 miles west of our South Salt Lake shop via 3500 South.", distance: "6 miles", tip: "From Valley Fair, head east on 3500 South. Our shop is about 12 minutes east at 144 W Crystal Ave." },
-      { name: "West Valley City Hall", description: "West Valley City Hall is at 3600 Constitution Blvd, about 7 miles from our shop. West Valley drivers reach us east on 3500 South to I-15 or State Street.", distance: "7 miles", tip: "West Valley City Hall is centrally located, from there, take 3500 South east for the most direct route to our shop." }
-    ],
+    landmarks: [],
     neighborhoods: ["Chesterfield", "West Ridge", "Lake Park", "Redwood", "Hunter"],
     aboutCity: "West Valley City is Utah's second-largest city with over 140,000 residents, incorporated in 1980 from what was previously an unincorporated area west of Salt Lake City. It's one of the most culturally diverse communities in Utah, with significant Latino, Pacific Islander, and refugee populations contributing to a vibrant community fabric. The city is home to major entertainment venues including USANA Amphitheatre and the Maverik Center, and continues to develop its commercial and residential base."
   },
@@ -94,12 +86,7 @@ const locations = [
     slug: "holladay-ut-auto-repair", name: "Holladay", state: "UT", distance: "5 miles", driveTime: "9 min", zipCodes: ["84117", "84121"], isHome: false,
     intro: "Holladay is one of our closest neighboring communities, just 5 miles and 9 minutes from our shop on Highland Drive or 4500 South. Many Holladay residents drive through our area daily on their commute.",
     whyChooseUs: "Holladay sits at the base of the Wasatch Mountains, and many residents commute up Big Cottonwood Canyon for skiing or recreation. That canyon driving creates specific wear patterns on brakes, clutches, and cooling systems that we know well.",
-    landmarks: [
-      { name: "Big Cottonwood Canyon", description: "The Big Cottonwood Canyon mouth is above Holladay off Wasatch Blvd, about 7 miles east of our South Salt Lake shop. Holladay drivers reach us west on 4500 South or Highland Drive.", distance: "7 miles", tip: "Holladay drivers heading into Big Cottonwood should get brakes inspected before ski season. Sustained downhill braking at 8% grade generates extreme heat." },
-      { name: "Holladay Village", description: "Holladay Village sits along Highland Drive, about 4.5 miles east of our shop, a straight run west on 4500 South or down Highland Drive.", distance: "4.5 miles", tip: "From Holladay Village on Highland Drive, head north on Highland, it runs nearly straight to our area at 3300 South." },
-      { name: "Mount Olympus", description: "Mount Olympus rises on Holladay's eastern skyline, its trailhead on Wasatch Blvd about 5 miles from our South Salt Lake shop via 4500 South.", distance: "5 miles", tip: "SUVs and crossovers used for mountain access from Holladay need regular suspension and alignment checks, rough trailhead roads take a toll." },
-      { name: "Murray Holladay Road Corridor", description: "Murray-Holladay Road (4500 South) is the main route Holladay drivers take west to State Street and our shop, about 3.5 miles away.", distance: "3.5 miles", tip: "Murray Holladay Road brings you straight to the State Street intersection, then it's a short jog south to Crystal Ave and our shop." }
-    ],
+    landmarks: [],
     neighborhoods: ["Holladay Village", "Cottonwood", "Olympus Cove", "Holladay Hills", "Knollwood"],
     aboutCity: "Holladay was incorporated in 1999 and is home to about 31,000 residents in one of the east bench's most desirable communities. Nestled between Mount Olympus and the broader Salt Lake Valley, Holladay offers established neighborhoods with mature trees, strong schools, and easy access to both Big and Little Cottonwood Canyons. The city has maintained its quiet residential character while continuing to develop its Holladay Village commercial core."
   },
@@ -107,12 +94,7 @@ const locations = [
     slug: "cottonwood-heights-ut-auto-repair", name: "Cottonwood Heights", state: "UT", distance: "6 miles", driveTime: "10 min", zipCodes: ["84121"], isHome: false,
     intro: "Cottonwood Heights drivers are about 6 miles from our shop, a 10-minute drive down Highland Drive or Fort Union Boulevard. We're the trusted mechanic for residents who put serious miles on their vehicles between canyon recreation and valley commuting.",
     whyChooseUs: "Cottonwood Heights is the gateway to both Big and Little Cottonwood Canyons, some of the most demanding driving conditions in Utah, with steep grades, altitude changes, and winter road treatments that stress brakes, clutches, and cooling systems.",
-    landmarks: [
-      { name: "Brighton Ski Resort", description: "Brighton Resort sits at the top of Big Cottonwood Canyon above Cottonwood Heights, about 20 miles from our South Salt Lake shop via Wasatch Blvd and I-215.", distance: "20 miles", tip: "Brighton season pass holders: your brakes see more heat cycling on canyon descents than almost any other driving scenario. Pre-season and post-season brake inspections are worth it." },
-      { name: "Snowbird Ski Resort", description: "Snowbird is up Little Cottonwood Canyon above Cottonwood Heights, about 18 miles from our shop via Wasatch Blvd and I-215.", distance: "18 miles", tip: "If you ski Snowbird or Alta regularly, your brakes are experiencing extreme thermal stress on every descent. We specialize in inspecting canyon-worn brake systems." },
-      { name: "Fort Union Boulevard", description: "Fort Union Boulevard (7200 South) is Cottonwood Heights' main arterial, about 4 miles from our shop and the route drivers take toward I-215 and I-15.", distance: "4 miles", tip: "Fort Union west to Highland Drive, then north, brings you to our area in about 10 minutes." },
-      { name: "Wasatch Boulevard", description: "Wasatch Boulevard runs along the mountain base through Cottonwood Heights, about 5 miles from our South Salt Lake shop via Fort Union Blvd and I-215.", distance: "5 miles", tip: "Wasatch Boulevard's curves and grade changes accelerate suspension wear, struts and alignment are worth checking annually for drivers who use this road regularly." }
-    ],
+    landmarks: [],
     neighborhoods: ["Canyon Estates", "Fort Union", "Cottonwood Proper", "Kings Hill"],
     aboutCity: "Cottonwood Heights was incorporated in 2005 and has about 34,000 residents. The city sits between Big Cottonwood Canyon and Little Cottonwood Canyon, providing access to four world-class ski resorts, Brighton, Solitude, Snowbird, and Alta. Cottonwood Heights is one of the more affluent communities in Salt Lake County, with highly rated schools and an active outdoor recreation culture. Many residents are year-round canyon users who need vehicles capable of handling demanding mountain driving conditions."
   },
@@ -120,12 +102,7 @@ const locations = [
     slug: "sandy-ut-auto-repair", name: "Sandy", state: "UT", distance: "8 miles", driveTime: "12 min", zipCodes: ["84070", "84092", "84093", "84094"], isHome: false,
     intro: "Sandy is one of the valley's largest suburbs, and our shop is just 8 miles north, about 12 minutes up I-15 or State Street. We're worth the short drive for clutch specialists and honest pricing that Sandy's chain shops can't match.",
     whyChooseUs: "Sandy drivers deal with I-15 commuting, 10600 South congestion, and uphill terrain toward the Wasatch foothills. The combination creates mixed wear patterns that require an experienced mechanic to diagnose correctly.",
-    landmarks: [
-      { name: "America First Field", description: "America First Field sits at 9256 S State Street in Sandy, about 7.5 miles south of our South Salt Lake shop. Sandy drivers reach us in roughly 12 minutes up State Street or I-15.", distance: "7.5 miles", tip: "Match day traffic on 9000 South is brutal on manual transmissions. If your clutch smells or slips after a game night, bring it in." },
-      { name: "South Towne Center", description: "South Towne Center is at 10450 S State Street in Sandy, roughly 7 miles south of our shop. From here it's a straight run north on I-15 or State Street into South Salt Lake.", distance: "7 miles", tip: "From South Towne, take I-15 north to the 3300 South exit, it's about 10 minutes to our shop on Crystal Ave." },
-      { name: "Sandy Civic Center TRAX Station", description: "The Sandy Civic Center TRAX station on the Blue Line connects Sandy directly to South Salt Lake, about 8 miles north, making it the easiest transit option for Sandy drivers dropping a car with us.", distance: "8 miles", tip: "Take TRAX Blue Line north to Central Pointe, it's a 3-minute walk to our shop. Perfect for full-day repairs." },
-      { name: "Dimple Dell Regional Park", description: "Scott's is about 6.5 miles north of the Dimple Dell area in eastern Sandy. Drivers from Sandy's east-side neighborhoods reach our South Salt Lake shop via 10600 South and I-15 or State Street.", distance: "6.5 miles", tip: "Sandy's eastern foothills neighborhoods near Dimple Dell have steep driveways and grades that accelerate clutch wear on manual vehicles." }
-    ],
+    landmarks: [],
     neighborhoods: ["Sandy City Center", "Dimple Dell", "Alta Canyon", "Pepperwood", "Hidden Valley"],
     aboutCity: "Sandy is home to over 96,000 residents and is the sixth-largest city in Utah, known for a strong blend of suburban amenities and outdoor access. The city is home to America First Field (Real Salt Lake's stadium), South Towne Center, and direct TRAX access to downtown Salt Lake City. Sandy's eastern neighborhoods border the Wasatch foothills with access to Corner Canyon mountain biking trails and multiple ski resort corridors."
   },
@@ -133,38 +110,42 @@ const locations = [
     slug: "draper-ut-auto-repair", name: "Draper", state: "UT", distance: "12 miles", driveTime: "15 min", zipCodes: ["84020"], isHome: false,
     intro: "Draper is 12 miles south, but our clutch and drivetrain expertise makes the 15-minute I-15 drive worthwhile. Many Draper residents have come to us after being disappointed by generic chain shops closer to home.",
     whyChooseUs: "Draper sits where I-15 begins its climb toward Point of the Mountain. That terrain plus tech corridor traffic on Bangerter Highway means Draper vehicles accumulate unique wear patterns that a specialist needs to understand.",
-    landmarks: [
-      { name: "Corner Canyon Trails", description: "Corner Canyon sits in the foothills of eastern Draper, about 14 miles from our South Salt Lake shop. Draper drivers reach us north on I-15.", distance: "14 miles", tip: "Mountain bikers put SUVs through unpaved trailhead roads that stress CV boots and suspension components. Worth inspecting annually." },
-      { name: "Draper TRAX Station", description: "The Draper Town Center TRAX station is the Blue Line's southern end, a direct ride north toward Central Pointe near our shop, about 12 miles south.", distance: "12 miles", tip: "Take TRAX Blue Line north to Central Pointe, a 3-minute walk to our shop. Ideal for full-day repairs when you need your vehicle in the evening." },
-      { name: "Silicon Slopes / Bangerter Corridor", description: "Draper's Silicon Slopes / Bangerter corridor is about 11 miles from our shop, reached north on I-15 to the 2700 South exit.", distance: "11 miles", tip: "European and performance vehicle owners in Draper appreciate our rates, 30-50% less than dealer pricing with the same quality parts and diagnostic equipment." },
-      { name: "Point of the Mountain", description: "Point of the Mountain is where I-15 crests at the Salt Lake–Utah county line, about 10 miles south of our shop and the main route Draper drivers take north to reach us.", distance: "10 miles", tip: "The Point of the Mountain grade is where clutch and brake issues reveal themselves. If you tow anything over this pass, get inspections before and after towing season." }
-    ],
+    landmarks: [],
     neighborhoods: ["Draper City Center", "SunCrest", "South Mountain", "Corner Canyon"],
     aboutCity: "Draper has about 51,000 residents and sits at the southern boundary of Salt Lake County, bordering Utah County. The city has grown rapidly as a tech hub and is a core part of Utah's 'Silicon Slopes' corridor, with major corporate campuses along Bangerter Highway. Draper's eastern neighborhoods border the Wasatch foothills and Corner Canyon, providing direct access to mountain biking, hiking, and skiing. The city has one of the highest median household incomes in Utah."
   },
   {
-    slug: "west-jordan-ut-auto-repair", name: "West Jordan", state: "UT", distance: "8 miles", driveTime: "12 min", zipCodes: ["84081", "84084", "84088"], isHome: false,
-    intro: "West Jordan drivers are about 8 miles east, a 12-minute drive up Redwood Road or the 201. We've been the honest alternative to dealerships for West Jordan families since 1990.",
-    whyChooseUs: "West Jordan's suburban sprawl means every errand involves driving. Between the 7800 South commercial strip, Mountain View Corridor, and school traffic, vehicles accumulate city miles fast.",
-    landmarks: [
-      { name: "Jordan Landing", description: "Jordan Landing sits near 7000 South and Bangerter Highway in West Jordan, about 9 miles from our South Salt Lake shop via Redwood Road or I-15.", distance: "9 miles", tip: "From Jordan Landing, take Bangerter north to the 201, then I-15 north to 3300 South, about 12 minutes to our shop." },
-      { name: "Gardner Village", description: "Gardner Village is at 1100 W 7800 S in West Jordan, about 6 miles from our shop, reached via Redwood Road toward State Street and I-15.", distance: "6 miles", tip: "Gardner Village visitors heading east toward State Street pass near our shop, we're just north of 3300 South at Crystal Ave." },
-      { name: "Mountain View Corridor", description: "Mountain View Corridor (SR-85) runs the west side of the valley through West Jordan, about 7 miles from our shop via Redwood Road and I-215.", distance: "7 miles", tip: "Mountain View Corridor's fast-moving traffic and abrupt exits create harsh braking events. Drivers who use this road daily benefit from more frequent brake inspections." },
-      { name: "West Jordan City Hall", description: "West Jordan City Hall is at 8000 S Redwood Road, about 7 miles from our South Salt Lake shop. West Jordan drivers reach us via Redwood Road or I-15.", distance: "7 miles", tip: "From West Jordan City Hall, Redwood Road north to 3500 South, then east to State Street. The drive to our shop is about 12 minutes." }
+    "slug": "west-jordan-ut-auto-repair",
+    "name": "West Jordan",
+    "state": "UT",
+    "distance": "8 miles",
+    "driveTime": "12 min",
+    "zipCodes": [
+      "84081",
+      "84084",
+      "84088"
     ],
-    neighborhoods: ["West Jordan Center", "Jordan Landing", "Copper Hills", "Harvest Village"],
-    aboutCity: "West Jordan is the fourth-largest city in Utah with about 116,000 residents, one of the fastest-growing cities in the valley over the past two decades. It's a primarily residential community with major commercial development along Bangerter Highway and 7800 South. West Jordan has a strong family-oriented character with top-rated schools, active parks, and significant community investment in recreation facilities."
+    "isHome": false,
+    "intro": "West Jordan drivers can bring clutch problems, brake noise, warning lights, and other repair needs to Scott's Auto & Clutch Repair at 144 W Crystal Ave in South Salt Lake.",
+    "whyChooseUs": "We specialize in clutch repair and also handle brakes, CV axles, engine diagnostics, and transmission work. Tell us what the vehicle is doing so we can discuss the inspection and arrange a visit. We explain our findings and the recommended repair before work begins.",
+    "landmarks": [],
+    "neighborhoods": [
+      "West Jordan Center",
+      "Jordan Landing",
+      "Copper Hills",
+      "Harvest Village"
+    ],
+    "aboutCity": "",
+    "metaTitle": "Auto Repair West Jordan UT | Scott's Auto & Clutch Repair",
+    "metaDesc": "Eight miles east of West Jordan. Family vehicles, minivans, and SUVs serviced by a shop that tells you what's wrong, not what's profitable. (801) 485-4089.",
+    "heading": "Auto Repair Shop West Jordan UT, Brakes, Clutch & More"
   },
+
   {
     slug: "south-jordan-ut-auto-repair", name: "South Jordan", state: "UT", distance: "10 miles", driveTime: "14 min", zipCodes: ["84009", "84095"], isHome: false,
     intro: "South Jordan residents are 10 miles from our shop, about 14 minutes on I-15 or Bangerter Highway. We're the clutch and drivetrain specialists South Jordan drivers come to when they need it done right.",
     whyChooseUs: "South Jordan's mix of Bangerter Highway commuting, 10400 South congestion, and the Daybreak community's roundabouts means diverse driving conditions that stress different vehicle systems.",
-    landmarks: [
-      { name: "Daybreak Community", description: "Daybreak spans western South Jordan along the Jordan River, about 12 miles from our shop. Its TRAX line and I-15 both connect it north to South Salt Lake.", distance: "12 miles", tip: "Daybreak residents: take TRAX from the Daybreak station north to Central Pointe, it connects directly to our stop, just a 3-minute walk from our shop." },
-      { name: "The District at South Jordan", description: "The District is at 11400 S Bangerter Highway in South Jordan, about 10 miles from our South Salt Lake shop via Bangerter and I-15.", distance: "10 miles", tip: "From The District, take Bangerter north to the 201, then I-15 north to 3300 South. The drive to our shop is about 14 minutes." },
-      { name: "South Jordan Towne Center", description: "South Jordan's Towne Center sits along Redwood Road, about 9 miles from our shop, reached north on Redwood Road or I-15.", distance: "9 miles", tip: "From South Jordan Towne Center, 10400 South east to State Street, then north to Crystal Ave is one route, or take Bangerter for the faster freeway option." },
-      { name: "Jordan River Parkway", description: "The Jordan River Parkway runs through South Jordan along the river, with access points about 9 miles from our South Salt Lake shop via Redwood Road or I-15.", distance: "9 miles", tip: "South Jordan residents who use the Jordan River trail access often keep their vehicles in good shape for the longer drives to recreational areas farther afield." }
-    ],
+    landmarks: [],
     neighborhoods: ["Daybreak", "River View", "Jordan Willows", "South Jordan Proper"],
     aboutCity: "South Jordan has about 77,000 residents and has grown rapidly over the past two decades. The nationally recognized master-planned Daybreak community has been a major driver of growth, bringing thousands of new residents and a TRAX light rail connection to the southwest valley. South Jordan's location along Bangerter Highway provides convenient access to I-15 and I-215, making it a well-connected suburb with a strong family-oriented community."
   },
@@ -172,12 +153,7 @@ const locations = [
     slug: "riverton-ut-auto-repair", name: "Riverton", state: "UT", distance: "12 miles", driveTime: "16 min", zipCodes: ["84065"], isHome: false,
     intro: "Riverton is 12 miles southwest, about 16 minutes on Bangerter Highway and I-15. Our clutch expertise and honest pricing bring Riverton drivers to our shop when local shops can't diagnose the problem.",
     whyChooseUs: "Riverton's position at the edge of the valley means longer commutes. Those extra daily miles add up fast on drivetrain components, worn clutches, tired brakes, and stressed CV joints show up earlier than Riverton residents expect.",
-    landmarks: [
-      { name: "Riverton City Center", description: "Riverton's City Center sits along Redwood Road near 12600 South, about 12 miles from our South Salt Lake shop via Redwood Road or I-15.", distance: "12 miles", tip: "From Riverton City Center, take 12600 South east to Bangerter, then north to I-15 north to our 3300 South exit." },
-      { name: "Bangerter Highway Corridor", description: "Bangerter Highway (SR-154) is the main route Riverton drivers take north toward I-215 and our shop, about 11 miles away.", distance: "11 miles", tip: "Bangerter's 55-65 mph sections and frequent abrupt interchanges create harder braking events than typical surface streets, worth factoring into your maintenance schedule." },
-      { name: "Riverton High School", description: "Riverton High School is on 13000 South, about 12 miles from our shop. Riverton drivers reach us north on Redwood Road or I-15.", distance: "12 miles", tip: "Families in the Riverton High area can reach our shop via Bangerter north, about 16 minutes with normal traffic." },
-      { name: "Jordan River (Riverton Access)", description: "The Jordan River runs along Riverton's western edge near 12600 South, about 11 miles from our South Salt Lake shop via Redwood Road.", distance: "11 miles", tip: "Western Riverton neighborhoods near the Jordan River occasionally experience road flooding during spring runoff, this can damage CV boots and undercarriage if you drive through standing water." }
-    ],
+    landmarks: [],
     neighborhoods: ["Riverton Proper", "Western Springs", "Midas Creek"],
     aboutCity: "Riverton has about 44,000 residents and maintains a distinct small-town feel even as surrounding communities have grown rapidly. The city's western edge borders the Jordan River, and its Wasatch Mountain views to the east are among the best in the valley. Riverton has grown significantly since 2000 and continues to develop its commercial and civic infrastructure while preserving the agricultural character of its founding community."
   },
@@ -185,12 +161,7 @@ const locations = [
     slug: "herriman-ut-auto-repair", name: "Herriman", state: "UT", distance: "15 miles", driveTime: "20 min", zipCodes: ["84096"], isHome: false,
     intro: "Herriman is the furthest community we regularly serve, 15 miles, about 20 minutes on Mountain View Corridor and I-15. Our clutch repair specialty brings Herriman drivers to our shop because there aren't many clutch specialists in the southwest valley.",
     whyChooseUs: "Herriman is one of Utah's fastest-growing cities, and its location at the base of the Oquirrh foothills means hilly terrain that stresses drivetrains. The long commute means preventive maintenance is more important, not less.",
-    landmarks: [
-      { name: "Herriman Town Center", description: "Herriman's Town Center sits along Herriman Blvd and Main Street, about 15 miles from our South Salt Lake shop via Mountain View Corridor or Bangerter Highway.", distance: "15 miles", tip: "From Herriman Town Center, Mountain View Corridor north to I-215, then I-15 north to 3300 South is the fastest route to our shop." },
-      { name: "Herriman High School", description: "Herriman High School is in Herriman's growing neighborhoods, about 15 miles from our shop. Drivers reach us north via Mountain View Corridor and I-215.", distance: "15 miles", tip: "Herriman High families heading to our shop should plan for a 20-minute drive via Mountain View Corridor. It's worth it for clutch specialists." },
-      { name: "Mountain View Corridor", description: "Mountain View Corridor (SR-85) is Herriman's main route north, carrying drivers about 14 miles toward I-215 and our South Salt Lake shop.", distance: "14 miles", tip: "Herriman residents commute 20-30+ miles daily via Mountain View Corridor. High annual mileage means maintenance schedules matter more, not less." },
-      { name: "Oquirrh Mountain Foothills", description: "Herriman's eastern neighborhoods climb into the Oquirrh foothills, about 15 miles from our shop via Mountain View Corridor and I-15.", distance: "15 miles", tip: "Herriman's hillside streets accelerate clutch and brake wear. Manual transmission drivers doing hill starts daily should monitor clutch engagement point more frequently." }
-    ],
+    landmarks: [],
     neighborhoods: ["Herriman Town Center", "Anthem", "Blackridge"],
     aboutCity: "Herriman has grown from about 1,500 residents in 2000 to over 60,000 today, one of the fastest-growing cities in the western US over that period. Located at the base of the Oquirrh Mountains in the southwest corner of Salt Lake County, Herriman offers stunning mountain views and newly built neighborhoods. The city's growth has been driven by affordable housing, strong schools, and the extension of Mountain View Corridor. Most residents commute 20-30+ miles to employment centers."
   },
@@ -198,12 +169,7 @@ const locations = [
     slug: "kearns-ut-auto-repair", name: "Kearns", state: "UT", distance: "7 miles", driveTime: "12 min", zipCodes: ["84118"], isHome: false,
     intro: "Kearns drivers are 7 miles from our shop, about 12 minutes east on 4700 South or 5400 South. We've been serving Kearns families who want honest auto repair at fair prices since 1990.",
     whyChooseUs: "Kearns is a working-class community where vehicles aren't luxuries, they're necessities. We understand that, and we price accordingly. No upselling, no unnecessary repairs, no surprises.",
-    landmarks: [
-      { name: "Utah Olympic Oval", description: "The Utah Olympic Oval is at 5662 S 4800 W in Kearns, about 7 miles from our South Salt Lake shop via 5400 South and I-215.", distance: "7 miles", tip: "From the Olympic Oval, head east on 5400 South to State Street, then north to Crystal Ave, about 12 minutes to our shop." },
-      { name: "Kearns High School", description: "Kearns High School is on 5765 S Cougar Lane, about 7 miles west of our shop. Kearns drivers reach us east on 5400 South toward I-15.", distance: "7 miles", tip: "Kearns High families are a short drive east from our shop, 5400 South east to State Street, then north to Crystal Ave." },
-      { name: "5400 South Commercial Corridor", description: "The 5400 South corridor is Kearns' main commercial artery and the route drivers take east about 6 miles toward State Street and our shop.", distance: "6 miles", tip: "5400 South's commercial truck traffic means potholes and debris are ongoing hazards. Alignment and suspension checks are worth doing annually for regular commuters on this road." },
-      { name: "Oquirrh Park Fitness Center", description: "The Oquirrh Park Fitness Center is a Kearns community hub, about 7 miles from our South Salt Lake shop via 5400 South and I-215.", distance: "7 miles", tip: "Oquirrh Park is in the heart of Kearns, from there, 4700 South east to State Street is the most direct route to our shop." }
-    ],
+    landmarks: [],
     neighborhoods: ["Kearns Proper", "Oquirrh Park", "Western Hills"],
     aboutCity: "Kearns has about 36,000 residents and is best known internationally for the Utah Olympic Oval, the indoor speed skating venue from the 2002 Winter Olympics that produced American Olympic champions and continues to train world-class athletes. Kearns is an unincorporated community administered by Salt Lake County, with a strong working-class identity and diverse population. The community has deep roots in the mining and smelting industries that shaped the west side of Salt Lake Valley."
   },
@@ -211,12 +177,7 @@ const locations = [
     slug: "midvale-ut-auto-repair", name: "Midvale", state: "UT", distance: "5 miles", driveTime: "8 min", zipCodes: ["84047"], isHome: false,
     intro: "Midvale is one of our closest communities, just 5 miles south, about 8 minutes on State Street or I-15. We share the same working-class roots as Midvale and we've been serving its drivers since 1990.",
     whyChooseUs: "Midvale sits at the junction of I-15 and I-215, making it a crossroads for valley traffic. The 7200 South interchange is especially demanding, short merge lanes force hard acceleration that stresses clutches and brakes.",
-    landmarks: [
-      { name: "Midvale TRAX Stations", description: "Midvale Center and Fort Union TRAX stations are on the Blue Line, a direct ride north toward Central Pointe near our shop, about 5 miles south.", distance: "5 miles", tip: "Drop your car at our shop and take TRAX north from Central Pointe if you need to get downtown. The Blue Line runs frequently throughout the day." },
-      { name: "Bingham Junction", description: "Bingham Junction is Midvale's transit-oriented redevelopment near the TRAX line, about 5 miles from our South Salt Lake shop via State Street or I-15.", distance: "5 miles", tip: "Bingham Junction residents are just 5 miles from our shop, quick drive north on State Street or I-15 to 3300 South." },
-      { name: "Historic Downtown Midvale", description: "Midvale's historic Main Street runs along State Street south of 7200 South, about 4.5 miles south of our shop, a straight drive north on State Street.", distance: "4.5 miles", tip: "From historic downtown Midvale on State Street, it's a straight shot north, about 8 minutes to our shop at Crystal Ave." },
-      { name: "I-15 / I-215 Interchange", description: "The I-15 / I-215 interchange near Midvale is about 4.5 miles from our shop and the main route Midvale drivers take north into South Salt Lake.", distance: "4.5 miles", tip: "Daily commuters through the I-15/I-215 interchange experience significant brake wear. If you merge here every day, annual brake inspections are a minimum." }
-    ],
+    landmarks: [],
     neighborhoods: ["Midvale City Center", "Bingham Junction", "Old Midvale", "East Midvale"],
     aboutCity: "Midvale has about 35,000 residents and a rich industrial heritage rooted in the smelting and mining industries that shaped the southwest valley. The city has reinvented itself with the Bingham Junction mixed-use development near its TRAX stations, drawing new residents and businesses while honoring its working-class roots. Midvale's location at the I-15/I-215 junction makes it one of the most centrally located mid-valley communities."
   }
@@ -236,7 +197,7 @@ const locationMetaMap = {
   'draper-ut-auto-repair':          { t: "Auto Repair Draper UT | Scott's Auto & Clutch Repair",                 d: "Draper drivers make the 12-mile I-15 run for brakes, engine, drivetrain, and luxury service without dealership pricing. Call (801) 485-4089." },
   'west-jordan-ut-auto-repair':     { t: "Auto Repair West Jordan UT | Scott's Auto & Clutch Repair",            d: "Eight miles east of West Jordan. Family vehicles, minivans, and SUVs serviced by a shop that tells you what's wrong, not what's profitable. (801) 485-4089." },
   'south-jordan-ut-auto-repair':    { t: "Auto Repair South Jordan UT | Scott's Auto & Clutch Repair",           d: "Ten miles north of Daybreak and South Jordan. Modern diagnostic equipment handles newer crossovers, SUVs, and family sedans. (801) 485-4089." },
-  'riverton-ut-auto-repair':        { t: "Auto Repair Riverton UT | Scott's Auto & Clutch Repair",               d: "Riverton customers drop off via I-15 and take TRAX from Central Pointe to continue their day. Twelve miles north. Call (801) 485-4089." },
+  'riverton-ut-auto-repair':        { t: "Auto Repair Riverton UT | Scott's Auto & Clutch Repair",               d: "Auto repair for Riverton drivers at Scott's Auto & Clutch Repair in South Salt Lake. Call (801) 485-4089 to discuss your vehicle and plan drop-off." },
   'herriman-ut-auto-repair':        { t: "Auto Repair Herriman UT | Scott's Auto & Clutch Repair",               d: "Fifteen miles via Bangerter Highway. Herriman's trucks, SUVs, and family vehicles get careful work at fair pricing. (801) 485-4089." },
   'kearns-ut-auto-repair':          { t: "Auto Repair Kearns UT | Scott's Auto & Clutch Repair",                 d: "Seven miles east via 5400 South. Kearns customers have stuck with us across decades of repeat visits. Free estimates. Call (801) 485-4089." },
   'midvale-ut-auto-repair':         { t: "Auto Repair Midvale UT | Scott's Auto & Clutch Repair",                d: "Five miles straight up State Street. The closest family-owned auto shop to Midvale for brakes, clutch, engine, and full service. (801) 485-4089." }

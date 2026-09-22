@@ -24,7 +24,7 @@
 <section class="content-section">
   <div class="container">
     <div class="prose mw-760">
-      <h2>What Is <%= symptom.shortName %>?</h2>
+      <h2>Understanding <%= symptom.name %></h2>
       <p class="intro-lead"><%= symptom.intro %></p>
       <% if (symptom.introImage) { %>
       <figure class="prose-figure">
@@ -55,8 +55,8 @@
 
 <section class="content-section">
   <div class="container">
-    <h2>Why Is My <%= symptom.shortName %>?</h2>
-    <p class="section-subtitle">These are the most common causes. The "How to tell" note on each card describes what that cause typically feels or sounds like so you can narrow down which one applies to your vehicle.</p>
+    <h2>What Causes <%= symptom.name %>?</h2>
+    <p class="section-subtitle">These are possible causes to inspect. Tell us which symptoms you notice; the checks below help guide diagnosis but do not confirm a failed part on their own.</p>
     <div class="issues-grid">
       <% symptom.causes.forEach(c => { %>
       <div class="issue-card">
@@ -107,7 +107,7 @@
 
 <section class="content-section alt-bg symptom-location-section">
   <div class="container">
-    <h2>Where to Get Your <%= symptom.shortName %> Fixed</h2>
+    <h2>Where to Get Help with <%= symptom.name %></h2>
     <p class="section-subtitle">Scott's Auto &amp; Clutch Repair, serving Salt Lake City drivers since 1990.</p>
     <div class="symptom-location-grid">
       <div class="symptom-location-info">

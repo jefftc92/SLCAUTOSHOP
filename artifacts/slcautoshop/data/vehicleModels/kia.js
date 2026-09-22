@@ -12,7 +12,7 @@ module.exports = {
       "heading": "Kia Optima Repair in Salt Lake City, UT",
       "metaTitle": "Kia Optima Repair Salt Lake City | Scott's Auto & Clutch Repair",
       "metaDesc": "Kia Optima repair in Salt Lake City, timing belt, engine issues, brakes, and full diagnostics. Free diagnosis. Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Kia Optima is a solid mid-size sedan that earned a loyal following in Salt Lake City, and we've serviced plenty of them at our South Salt Lake shop across all three generations. Whether you've got a first-gen base model or a turbocharged 2.0T SX, we know the Optima's common failure points and keep the right parts on hand to fix them correctly.",
+      "intro": "The Kia Optima is a solid mid-size sedan that earned a loyal following in Salt Lake City, and we've serviced plenty of them at our South Salt Lake shop across all four generations. Whether you've got a first-gen base model or a turbocharged 2.0T SX, we know the Optima's common failure points and keep the right parts on hand to fix them correctly.",
       "whatHeading": "Full-Service Kia Optima Repair: All Generations",
       "whatIntro": "We service all Kia Optima generations at our South Salt Lake shop, every trim level and engine variant. Every visit starts with a free diagnosis so you know exactly what your Optima needs before we turn a wrench.",
       "generations": [
@@ -378,7 +378,7 @@ module.exports = {
       "heading": "Kia Sportage Repair in Salt Lake City, UT",
       "metaTitle": "Kia Sportage Repair Salt Lake City | Scott's Auto & Clutch Repair",
       "metaDesc": "Kia Sportage repair in Salt Lake City, timing chain, brakes, CV joints, and full service. Free diagnosis. Scott's Auto & Clutch Repair. (801) 485-4089.",
-      "intro": "The Kia Sportage has been around longer than most people realize, it's been competing in the compact SUV market since the mid-1990s and has gotten genuinely good over four generations. We service all Sportage generations at our South Salt Lake shop and know the model well enough to diagnose common problems quickly without unnecessary guesswork.",
+      "intro": "The Kia Sportage has been around longer than most people realize, it's been competing in the compact SUV market since the mid-1990s and spans five generations with different engines and service needs. We service all Sportage generations at our South Salt Lake shop and know the model well enough to diagnose common problems quickly without unnecessary guesswork.",
       "whatHeading": "Full-Service Kia Sportage Repair: All Generations",
       "whatIntro": "We work on every Kia Sportage generation at our South Salt Lake shop, from the rugged first-gen body-on-frame to the current turbocharged fourth and fifth gen crossovers. Every visit starts with a free diagnosis so you know what your Sportage needs before we do anything.",
       "generations": [

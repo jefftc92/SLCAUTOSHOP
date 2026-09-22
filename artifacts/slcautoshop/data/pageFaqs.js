@@ -86,17 +86,41 @@ const symptomFaqs = {
     {q:'Can I make my synchronizers last longer once they\'re wearing?',a:'Yes. Slow your shifts a bit and pause briefly with the clutch fully pressed before engaging the next gear. That gives the input shaft time to slow down, which reduces the load on the synchronizer rings. Avoid downshifting into low gears at high RPM. These habits won\'t reverse wear, but they slow it noticeably.'},
     {q:'Should I replace the clutch when I fix the hydraulic system?',a:'Only if the clutch disc is worn. If the grinding is purely a hydraulic issue and the disc still has plenty of life, the hydraulic repair is the complete fix. We measure disc wear during the diagnosis so you know whether to plan for a clutch job soon or whether you have years left on it.'}
   ],
-  'stiff-clutch-pedal': [
-    {q:'How much does a stiff clutch pedal repair cost?',a:'Cable replacement typically runs $150–$350. Master or slave cylinder replacement is $250–$550 each. If the underlying cause turns out to be a worn clutch disc, a full clutch job is $800–$1,800. Diagnosis is free and a written estimate is provided before any work starts.'},
-    {q:'How can I tell if I have a cable or hydraulic clutch?',a:'Look at the firewall on the driver\'s side. A small fluid reservoir near the brake master cylinder, with a hose running down to the bell housing, means hydraulic. A bare cable running from the pedal arm through the firewall down to the transmission means cable. Most vehicles since the mid-2000s are hydraulic; many older platforms are cable.'},
-    {q:'Should I replace the master and slave cylinders together?',a:'Often, yes, especially on high-mileage vehicles. They share fluid and were installed at the same time, and contamination from one failing cylinder shortens the life of the other. Replacing both at once costs less than coming back in six months for the second one. We\'ll measure both before making the recommendation.'},
-    {q:'Can I make a stiff clutch pedal last longer?',a:'A failing cable or cylinder won\'t reverse, but you can avoid making it worse. Don\'t rest your foot on the clutch pedal between shifts; that loads the throw-out bearing and the failing component continuously. Pause at stops in neutral with the brake instead of holding the clutch in. These habits buy time but don\'t replace the repair.'}
+  "stiff-clutch-pedal": [
+    {
+      "q": "Does a stiff pedal mean I need a new clutch?",
+      "a": "Not necessarily. A cable, pedal pivot, hydraulic component, or release mechanism may be binding. We inspect the system before deciding whether work inside the bell housing is needed."
+    },
+    {
+      "q": "How do you tell whether my clutch uses a cable or hydraulics?",
+      "a": "We check the vehicle design and inspect the linkage or hydraulic components. Some hydraulic clutches share the brake-fluid reservoir, so the presence or absence of a separate reservoir is not enough to identify the design."
+    },
+    {
+      "q": "Should I replace both clutch cylinders together?",
+      "a": "Only when their condition or the repair procedure supports it. We explain any shared labor and why each part is recommended. One failed cylinder does not automatically mean the other needs replacement."
+    },
+    {
+      "q": "What determines the repair cost?",
+      "a": "The failed part and access needed determine the estimate. An external cable or pivot repair differs from a job that requires transmission removal. We explain the recommended work before you approve it."
+    }
   ],
-  'transmission-slipping': [
-    {q:'How much does transmission slipping repair cost?',a:'It depends on the cause. An automatic fluid service runs $150–$300. A solenoid or sensor replacement is $300–$700. A manual clutch replacement is $800–$1,800. A partial or full transmission rebuild ranges from $2,000–$4,500+. Free diagnosis means you know what you\'re dealing with before committing to anything.'},
-    {q:'When should automatic transmission fluid be serviced?',a:'Most automatics need a fluid service every 60,000 to 100,000 miles depending on the manufacturer and how the vehicle is driven. Towing, mountain driving, or stop-and-go commuting shorten that interval. Fluid that\'s gone past its service life darkens, loses friction additives, and accelerates internal wear, which is the leading cause of automatic transmission failure.'},
-    {q:'How long does a manual clutch last for someone who tows?',a:'Plan on 50,000 to 70,000 miles instead of the typical 80,000 to 120,000. Towing loads the disc near the limit of what it was designed for, especially on Utah grades like Point of the Mountain or Parley\'s. Hard launches and frequent partial engagement to hold position on hills shorten clutch life further.'},
-    {q:'Should I do a transmission flush or just a fluid drain?',a:'For most automatics with regular service history, a drain-and-fill is the safer choice. A full flush forces fluid through the system under pressure, which can dislodge sediment and cause shifting issues on a transmission that hasn\'t been maintained. We assess fluid condition and service history before recommending which approach is right.'}
+  "transmission-slipping": [
+    {
+      "q": "Does slipping mean I need a rebuild?",
+      "a": "Not always. Fluid level, pressure controls, and internal wear can affect an automatic. A manual vehicle may have a clutch problem. Testing determines the repair; symptoms alone do not establish a rebuild is needed."
+    },
+    {
+      "q": "Will changing the fluid fix slipping?",
+      "a": "Only if the diagnosed problem can be addressed by the appropriate fluid service. Fresh fluid cannot restore worn friction parts. We check the transmission design, symptoms, fluid, and service history before recommending work."
+    },
+    {
+      "q": "Is jumping out of gear the same as clutch slipping?",
+      "a": "No. A slipping manual clutch can let the engine rev while the gear lever stays in gear. A lever that moves into neutral calls for checks of linkage, mounts, and gearbox engagement components."
+    },
+    {
+      "q": "When should transmission fluid be changed?",
+      "a": "Use the maintenance schedule and fluid specification for your vehicle and transmission. Towing or other severe use may change the schedule. There is no single mileage interval that applies to every transmission."
+    }
   ],
   'hard-to-shift-gears': [
     {q:'How much does hard-to-shift gears repair cost?',a:'Hydraulic clutch repairs (master/slave cylinder, fluid) typically run $200–$600. A full clutch replacement is $800–$1,800. If the transmission itself has sustained synchronizer damage, costs rise significantly. Catching it while the cause is still hydraulic is the cheapest path. Diagnosis is always free.'},
@@ -104,11 +128,23 @@ const symptomFaqs = {
     {q:'Can I use a different gear oil to make shifting smoother?',a:'Only the oil specified for your transmission. Manufacturers spec specific viscosity and friction characteristics, and synchronizer rings are designed around those properties. Aftermarket additives or wrong-spec oil can make synchronizer engagement worse, not better, and may void warranty on a recent transmission rebuild.'},
     {q:'Will my synchronizers heal if I stop forcing the shifts?',a:'No. Synchronizer wear is mechanical material loss; it doesn\'t regenerate. What gentler shifting does is stop adding to the wear. A gearbox that grinds into 2nd today will grind into 2nd tomorrow if the synchronizer ring isn\'t replaced, but it won\'t grind worse if you give it more time on each shift.'}
   ],
-  'soft-clutch-pedal': [
-    {q:'How much does a soft clutch pedal repair cost?',a:'A hydraulic fluid flush runs $100–$150. Master or slave cylinder replacement is $250–$550 each. Replacing both at once on a high-mileage vehicle saves labor versus coming back twice. If the disc is also worn, a full clutch job is $800–$1,800. Written estimate provided before any work begins.'},
-    {q:'How often should clutch hydraulic fluid be changed?',a:'Most clutch systems share brake fluid, and that should be flushed every 2 to 3 years regardless of clutch symptoms. Fluid absorbs moisture from the air over time, which lowers its boiling point and corrodes seal surfaces inside the master and slave cylinders. Regular flushes extend the life of both cylinders significantly.'},
-    {q:'Should I replace the master and slave cylinders at the same time?',a:'On high-mileage vehicles, often yes. They\'re part of the same hydraulic circuit, they were installed at the same time, and they\'re exposed to the same fluid contamination. Replacing one without the other frequently leads to a second visit a few months later when the remaining cylinder fails too.'},
-    {q:'Does a soft pedal damage anything else if I keep driving?',a:'It can. A pedal that doesn\'t fully release the clutch keeps the disc partially engaged during shifts, which loads the synchronizer rings on every gear change. Continuous low-pressure operation can also damage the throw-out bearing. Catching it at the soft-pedal stage is much cheaper than catching it after secondary damage.'}
+  "soft-clutch-pedal": [
+    {
+      "q": "Will bleeding fix a soft clutch pedal?",
+      "a": "Bleeding can remove air, but it does not repair a leak or a failed cylinder. We check why the pedal is soft before deciding whether bleeding is enough."
+    },
+    {
+      "q": "Can a cylinder fail without a visible leak?",
+      "a": "Yes. A master cylinder can lose pressure through internal seal bypass without leaving fluid outside. We check cylinder operation rather than ruling out a fault because the ground is dry."
+    },
+    {
+      "q": "Do both clutch cylinders need replacement?",
+      "a": "Not automatically. We base the recommendation on their condition, the vehicle design, and any shared access labor. An internal slave cylinder may require transmission removal."
+    },
+    {
+      "q": "Can I drive if the clutch pedal stays down?",
+      "a": "Do not continue driving if you cannot disengage the clutch or select gears reliably. Stop safely and call to discuss towing. Pumping the pedal is not a repair."
+    }
   ],
   'burning-smell': [
     {q:'How much does clutch repair cost after a burning smell?',a:'If the disc is worn but the flywheel is still smooth, clutch replacement runs $800–$1,800. If the flywheel was heat-damaged by extended slipping, add $200–$400 for resurfacing or replacement. Catching it at the first burning smell is almost always cheaper than waiting. Diagnosis is free.'},
@@ -116,17 +152,29 @@ const symptomFaqs = {
     {q:'Does towing always burn out a clutch faster?',a:'Within rated capacity, no. Within the vehicle\'s tow rating, a properly used clutch handles trailer loads without excessive wear. The problems start when load approaches the rating, when launches happen at high RPM, or when the same clutch is used for both daily commuting and frequent towing. Plan for 30 to 50 percent shorter clutch life if you tow regularly.'},
     {q:'Can a clutch recover after it burns once?',a:'Sometimes. A single mild overheat that didn\'t glaze the disc surface or warp the flywheel may not need immediate replacement. But the disc\'s heat-handling capacity has been reduced, and it\'s easier to overheat next time. We inspect for glazing and surface damage to tell you whether you have miles left or whether replacement is the right call.'}
   ],
-  'clicking-when-turning': [
-    {q:'How much does a CV joint or axle repair cost?',a:'A CV axle replacement typically runs $400–$800 per side including parts and labor. If the boot is caught before the joint is damaged, a boot replacement is $150–$250. We quote before starting, no surprises at pickup.'},
-    {q:'Should I replace both CV axles at the same time?',a:'Often, yes. Both axles were installed when the car was built and have aged on the same clock. When one boot tears or one joint clicks, the other side is usually within a few months of the same failure. Doing both during one visit avoids paying labor twice and means the front end is back to a known good state.'},
-    {q:'How long can I drive with a clicking CV joint?',a:'Realistically, weeks to a few months, but there\'s no reliable way to predict the exact moment of failure. Some clicking joints last a year before binding completely. Others fail in 30 days. The safer call is to schedule the repair within the next month rather than running the joint until it strands you.'},
-    {q:'Can a torn CV boot be repaired before the joint fails?',a:'Yes, if the boot is caught quickly. A boot replacement with fresh grease before significant grit gets in saves the joint and the much larger axle replacement that follows. The window is short, often a few hundred miles after the boot tears, because grease flings out fast and contamination follows quickly.'}
+  "clicking-when-turning": [
+    {
+      "q": "Does clicking during a turn always mean a CV joint?",
+      "a": "No. Repeated clicking under power can point to a CV joint, but steering, suspension, or brake components can also click or pop. We reproduce the noise when safe and inspect before choosing a repair."
+    },
+    {
+      "q": "Should I replace both CV axles at once?",
+      "a": "Not automatically. We inspect both axles and boots, then recommend work based on their condition. A problem on one side does not establish that the other will fail soon."
+    },
+    {
+      "q": "How long can I drive with a clicking CV joint?",
+      "a": "There is no reliable safe mileage or time limit based on the sound alone. Arrange an inspection promptly. Stop driving if you also notice loose steering, severe vibration, or difficulty controlling the vehicle."
+    },
+    {
+      "q": "Can you replace the boot instead of the axle?",
+      "a": "Sometimes. A boot repair may be appropriate if the joint is still serviceable. Noise, wear, contamination, and parts availability help determine whether a boot, joint, or axle replacement makes sense."
+    }
   ],
   'vibration-when-accelerating': [
     {q:'How much does acceleration vibration repair cost?',a:'A CV axle replacement is $400–$800 per side. Motor mount replacement runs $300–$600 per mount. A wheel balance is $80–$120 for all four. We diagnose first so you only pay for what\'s actually needed, diagnosis is free.'},
     {q:'Should I replace both CV axles or just the failing one?',a:'If the vibration is clearly from one side, the other side may have years of life left. We inspect both joints and boots before recommending. On a vehicle approaching 150,000 miles where both axles are original, doing them together is often the better call. On a newer car with one impact-damaged axle, replacing only the damaged side is the right repair.'},
     {q:'How are motor mounts checked when diagnosing vibration?',a:'We open the hood while a helper applies the brake and shifts between Drive and Reverse with the engine running. Excessive engine movement during the load reversal points to collapsed mounts. Visible cracks in the rubber or the engine sitting at an unusual angle are also strong indicators. Motor mounts often get blamed on CV joints incorrectly, and vice versa.'},
-    {q:'Can tire balance issues cause acceleration vibration?',a:'They can. Tires out of balance produce vibration that builds with speed regardless of throttle, which can mimic an inner CV joint or U-joint. Balancing the tires is part of any vibration diagnosis we run. If a fresh balance resolves the symptom, the drivetrain is healthy and the original problem was tire-related.'}
+    {q:'Can tire balance issues cause acceleration vibration?',a:"They can. Tires out of balance produce vibration that builds with speed regardless of throttle, which can mimic an inner CV joint or U-joint. Balancing the tires is part of any vibration diagnosis we run. If balancing resolves the vibration, tire or wheel imbalance was contributing. That result does not, by itself, establish the condition of every drivetrain component."}
   ],
   'soft-brake-pedal': [
     {q:'How much does a soft brake pedal repair cost?',a:'A brake fluid flush is $100–$150. Master cylinder replacement runs $300–$600. A leaking caliper or wheel cylinder is $200–$500 per corner. If a brake line has failed, add $150–$400 for the line. Written estimate before any work begins, diagnosis is free.'},
@@ -251,16 +299,16 @@ function getLocationFaqs(location) {
 
   if (isHome) {
     return [
-      {q:'Where is Scott\'s Auto & Clutch located?',a:'We\'re at 144 W Crystal Ave in South Salt Lake, UT 84115. We\'re right between I-15 and State Street, just south of 3300 South. The Central Pointe TRAX station is a 3-minute walk from our shop.'},
+      {q:'Where is Scott\'s Auto & Clutch located?',a:"We are at 144 W Crystal Ave, South Salt Lake, UT 84115. Use the Get Directions link to plan your route to the shop."},
       {q:'What are your hours?',a:'We\'re open Monday through Friday, 9:00 AM to 5:30 PM. Saturday appointments are available by request. Call (801) 485-4089 or text us to schedule.'},
       {q:'Do you offer free estimates?',a:'Yes. We provide free visual inspections and estimates for most services. For complex diagnostics requiring specialized equipment, we charge a diagnostic fee that is applied toward the repair cost if you proceed with us.'}
     ];
   }
 
   return [
-    {q:`How far is Scott's Auto & Clutch Repair from ${name}?`,a:`We're ${dist} from ${name}, a quick drive to 144 W Crystal Ave in South Salt Lake. Many ${name} customers drop off their vehicle and take TRAX to work from our nearby Central Pointe station.`},
+    {q:`How far is Scott's Auto & Clutch Repair from ${name}?`,a:`Our shop is at 144 W Crystal Ave in South Salt Lake. Distance and travel time from ${name} depend on your starting point. Use the Get Directions link for a current route.`},
     {q:`Do you service vehicles from ${name}?`,a:`Absolutely. ${name} is one of our most common service areas. We've been serving ${name} drivers since 1990 and understand the specific driving conditions and wear patterns that come with the area.`},
-    {q:`What's the best route from ${name} to your shop?`,a:`Most ${name} drivers reach us via State Street or I-15 to the 3300 South exit. We're at 144 W Crystal Ave, just west of State Street. Call (801) 485-4089 if you need turn-by-turn directions.`}
+    {q:`What's the best route from ${name} to your shop?`,a:`Use the Get Directions link with your starting address in ${name}. The destination is 144 W Crystal Ave, South Salt Lake, UT 84115. Call (801) 485-4089 if you need help finding the shop.`}
   ];
 }
 
@@ -268,83 +316,83 @@ function getLocationFaqs(location) {
 const geoFaqMap = {
   'clutch-repair-near-sugar-house-ut': [
     {q:'How does Sugar House terrain affect clutch wear?',a:'Sugar House\'s hills accelerate clutch wear significantly. The steep grades on 2100 South and 1300 East force repeated uphill clutch engagements under load. Hill-start drivers in Sugar House typically need clutch service 15,000–20,000 miles sooner than flat-terrain drivers with the same vehicle.'},
-    {q:'How much does clutch repair cost for Sugar House drivers?',a:'Clutch replacement typically costs $800–$1,800 depending on your vehicle. Because Sugar House\'s hills put extra stress on the flywheel surface, we always inspect flywheel condition during any clutch job, resurfacing adds $200–$400 if needed, and skipping it risks the new clutch wearing prematurely.'},
-    {q:'My car rolls back on Sugar House hills before the clutch catches. What does that mean?',a:'If your engagement point has shifted to near the top of pedal travel and the car rolls before catching, the clutch disc is wearing thin. The friction material is losing its ability to grip quickly under load. This is the stage where replacement prevents you from getting stranded on a hill.'}
+    {q:'How much does clutch repair cost for Sugar House drivers?',a:"Clutch replacement typically runs $800–$1,800 depending on the vehicle. The inspection determines whether the clutch, release system, flywheel, or other parts need work. Ask for an estimate for your specific vehicle before authorizing repairs."},
+    {q:'My car rolls back on Sugar House hills before the clutch catches. What does that mean?',a:"Rolling backward on a hill does not, by itself, mean the clutch is worn out. Use the brakes to hold the vehicle and follow the hill-start procedure in your owner's manual. Tell us if the engine revs rise without a matching increase in speed."}
   ],
   'clutch-repair-near-millcreek-ut': [
-    {q:'Why do Millcreek canyon drivers burn through clutches faster?',a:'The stop-start pattern at the Millcreek Canyon toll booth alone causes dozens of clutch engagements in a few hundred feet of road. Add switchback climbing in first or second gear and descents where drivers downshift to engine-brake, and Millcreek canyon-access clutches can wear 10,000–15,000 miles sooner than identical vehicles on flat terrain.'},
-    {q:'How far is your shop from Millcreek, and is the drive worth it?',a:'We\'re 3 miles west of Millcreek, about 7 minutes on 3300 South. We\'ve been the clutch specialist for Millcreek drivers since 1990, which means we\'ve seen the specific wear patterns canyon driving creates. A clutch replaced correctly the first time is worth more than a cheaper job done nearby.'},
-    {q:'My clutch slips when I downshift to engine-brake on canyon descents. What\'s wrong?',a:'Slipping on downshifts while descending means the disc surface is glazed from heat. Canyon descents generate significant heat in the clutch even when used correctly. A glazed disc won\'t improve, once the surface is hardened and smooth, it can\'t develop the grip it had when new. Replacement is the fix.'}
+    {q:"How can canyon driving affect clutch wear?",a:"Repeated starts in slow canyon traffic can add clutch wear, particularly when the clutch is kept partially engaged. Driving downhill with the clutch fully engaged is different from slipping it. Canyon use alone cannot tell us when a clutch will need replacement."},
+    {q:'How far is your shop from Millcreek, and is the drive worth it?',a:"Our shop is at 144 W Crystal Ave in South Salt Lake. Use the Get Directions link for the route and travel time from your starting point in Millcreek. Call before leaving to confirm an appointment."},
+    {q:'My clutch slips when I downshift to engine-brake on canyon descents. What\'s wrong?',a:"If you notice slipping after a canyon trip, tell us which gear you were in and whether the engine revs rose without the car gaining speed. An inspection is needed to distinguish worn friction parts from a release-system problem."}
   ],
   'clutch-repair-near-murray-ut': [
-    {q:'Does State Street stop-and-go traffic wear clutches faster in Murray?',a:'Yes. Murray commuters who drive State Street daily engage and disengage their clutch hundreds more times per trip than highway drivers. The Fashion Place corridor between 5900 South and 6400 South is especially brutal for manual transmissions, the signal timing forces full stops at nearly every block.'},
-    {q:'How much does clutch repair cost, and are there cheaper options in Murray?',a:'Clutch replacement runs $800–$1,800 depending on your vehicle. There are general shops closer to Murray, but clutch diagnosis requires specialist experience, misdiagnosed clutch problems often lead to unnecessary parts and repeat visits. We\'ve been doing clutch work since 1990 and it\'s our primary specialty.'},
-    {q:'I ride the clutch in Fashion Place traffic to stay in gear. Is that bad?',a:'It\'s one of the fastest ways to wear out a clutch. Partially engaging the clutch in traffic keeps the disc slipping against the flywheel under load, generating heat with every second. Use neutral and the brake instead. A driver who breaks this habit can extend clutch life by 20,000–30,000 miles.'}
+    {q:'Does State Street stop-and-go traffic wear clutches faster in Murray?',a:"Stop-and-go traffic means more starts than steady-speed driving. Avoid using a partially engaged clutch to hold the car still. We cannot predict clutch life from the number or location of traffic lights."},
+    {q:'How much does clutch repair cost, and are there cheaper options in Murray?',a:"Clutch replacement typically runs $800–$1,800 depending on the vehicle. The inspection determines whether the clutch, release system, flywheel, or other parts need work. Ask for an estimate for your specific vehicle before authorizing repairs."},
+    {q:'I ride the clutch in Fashion Place traffic to stay in gear. Is that bad?',a:"Avoid holding the car still with a partially engaged clutch. At a prolonged stop, select neutral and use the brake as described in your owner's manual. Report any new slipping, shuddering, or difficulty selecting a gear."}
   ],
   'clutch-repair-near-salt-lake-city-ut': [
-    {q:'Are Avenues hill starts that hard on a clutch?',a:'Capitol Hill and Avenues streets regularly exceed 15% grade, among the steepest in the valley. A hill start on a 15% grade puts two to three times the load on the clutch disc compared to a flat start. Daily Avenues commuters should expect clutch replacement 20,000–30,000 miles earlier than valley-floor drivers with the same vehicle.'},
-    {q:'Can Salt Lake City drivers use TRAX to get to your shop?',a:'Yes. TRAX makes our shop genuinely convenient. Take any Red or Blue Line to Central Pointe station and we\'re a 3-minute walk. Drop your vehicle with us in the morning, commute to work downtown on TRAX, and pick up that evening.'},
-    {q:'My clutch engagement point is near the top of the pedal. Do I need replacement soon?',a:'If the clutch fully releases only in the final inch of pedal travel, yes, that\'s a strong sign the disc is worn thin. Avenues drivers should take this seriously: a clutch that fails on an uphill street is both inconvenient and a hazard. We recommend not waiting more than a few weeks to have it inspected.'}
+    {q:'Are Avenues hill starts that hard on a clutch?',a:"Hill starts can increase wear when the clutch slips for a prolonged period. Use the hill-start procedure in your owner's manual. A street grade does not translate into a fixed number of miles lost from clutch life."},
+    {q:'Can Salt Lake City drivers use TRAX to get to your shop?',a:"Use UTA's current trip planner with 144 W Crystal Ave, South Salt Lake as your destination. Check the complete route, including the walk or connecting ride from the station, before arranging drop-off or pickup."},
+    {q:'My clutch engagement point is near the top of the pedal. Do I need replacement soon?',a:"A high engagement point cannot tell you how many miles a clutch has left. If the pedal position changes or the engine revs rise without the car accelerating, arrange an inspection before relying on the car for hill driving."}
   ],
   'clutch-repair-near-taylorsville-ut': [
-    {q:'Why does Taylorsville\'s I-215 interchange wear clutches hard?',a:'The I-215 on-ramps in Taylorsville are notably short, requiring full-throttle clutch engagement from near-standstill in first gear. If you use these ramps daily, you\'re loading your clutch disc at maximum pressure every commute. That high-RPM, high-load engagement pattern is harder on the disc than slow city driving.'},
-    {q:'How far is the drive to your shop from Taylorsville?',a:'We\'re 5 miles east, a 10-minute drive on 4700 South directly to our shop in South Salt Lake. Most Taylorsville drivers use 4700 South or the I-215 East interchange. No freeway required if you prefer surface streets.'},
-    {q:'My clutch shudders when I accelerate from the 4700 South lights. What does that mean?',a:'A shuddering clutch under acceleration usually means the disc surface is uneven from heat cycling, it grabs unevenly across its surface. Unlike a slipping clutch, shudder won\'t improve on its own. The uneven contact accelerates disc wear until full replacement is needed.'}
+    {q:"How should I use the clutch when merging onto the freeway?",a:"Merging does not require a special clutch-saving shift pattern. Choose a gear and speed appropriate for the vehicle and traffic, and fully release the clutch after shifting. Have new slipping or shuddering checked."},
+    {q:'How far is the drive to your shop from Taylorsville?',a:"Our shop is at 144 W Crystal Ave in South Salt Lake. Use the Get Directions link for the route and travel time from your starting point in Taylorsville. Call before leaving to confirm an appointment."},
+    {q:'My clutch shudders when I accelerate from the 4700 South lights. What does that mean?',a:"Shudder when moving away from a stop can involve clutch friction surfaces, mounts, or other components. Note whether it happens when the vehicle is cold, warm, or carrying a load so we can check it under similar conditions."}
   ],
   'clutch-repair-near-west-valley-city-ut': [
-    {q:'Can event traffic near USANA Amphitheatre actually damage a clutch in one evening?',a:'Yes. Stop-and-go traffic at walking speeds on 5600 West, especially if you\'re riding the clutch to control speed in the crowd, generates enough heat to glaze the disc surface in a single concert or event. A burning smell after that evening is a warning that your clutch absorbed more heat than it should have.'},
-    {q:'How much does clutch repair cost for West Valley City drivers?',a:'Clutch replacement typically runs $800–$1,800. West Valley\'s stop-and-go on 3500 South puts above-average wear on throw-out bearings in addition to the disc, so we inspect the full release system, not just the disc and pressure plate, during any clutch job.'},
-    {q:'How far is the drive to Scott\'s from West Valley City?',a:'We\'re 7 miles east, about 12 minutes on 3500 South. It\'s a direct route with no freeway required. We\'re open Monday–Friday 9 AM–5:30 PM, and we can often fit a diagnosis appointment within a day or two of calling.'}
+    {q:'Can event traffic near USANA Amphitheatre actually damage a clutch in one evening?',a:"Prolonged slipping in slow traffic can overheat a clutch. A burning smell warrants attention, but it does not establish that the clutch was damaged in one evening or identify the component involved."},
+    {q:'How much does clutch repair cost for West Valley City drivers?',a:"Clutch replacement typically runs $800–$1,800 depending on the vehicle. The inspection determines whether the clutch, release system, flywheel, or other parts need work. Ask for an estimate for your specific vehicle before authorizing repairs."},
+    {q:'How far is the drive to Scott\'s from West Valley City?',a:"Our shop is at 144 W Crystal Ave in South Salt Lake. Use the Get Directions link for the route and travel time from your starting point in West Valley City. Call before leaving to confirm an appointment."}
   ],
   'clutch-repair-near-holladay-ut': [
-    {q:'My clutch only slips when cold. Is that a flywheel problem?',a:'Cold slipping that improves once warmed up is often a glazed flywheel surface. The disc needs the flywheel to be slightly rough to grip properly; a polished or glazed surface reduces grip when both components are cold and contracting. We always inspect the flywheel during clutch replacement, resurfacing or replacing it is essential for a lasting repair.'},
-    {q:'How does Big Cottonwood Canyon access affect clutch life in Holladay?',a:'The thermal cycle is the key factor: flat valley driving heats the clutch gradually, then canyon climbing in first or second gear generates intense heat, followed by engine-braking descents that cycle the flywheel temperature again. This repeated heating and cooling accelerates both disc wear and flywheel glazing for Holladay canyon-access drivers.'},
-    {q:'How far is your shop from Holladay, and what\'s the route?',a:'We\'re 5 miles north on Highland Drive, a straight 9-minute drive with no freeway required. Highland Drive becomes State Street as you approach our shop. We\'re at 144 W Crystal Ave, just west of State Street at the 3300 South area.'}
+    {q:'My clutch only slips when cold. Is that a flywheel problem?',a:"Tell us whether slipping happens only when cold or continues after warm-up. That pattern helps guide the inspection, but it does not identify a flywheel problem by itself."},
+    {q:'How does Big Cottonwood Canyon access affect clutch life in Holladay?',a:"Clutch wear during canyon use depends on how often and how long the clutch slips, vehicle load, and its condition. Once the clutch is fully engaged, it should not be continuously slipping on a climb or descent. Report slipping or shuddering rather than assuming it is normal canyon wear."},
+    {q:'How far is your shop from Holladay, and what\'s the route?',a:"Our shop is at 144 W Crystal Ave in South Salt Lake. Use the Get Directions link for the route and travel time from your starting point in Holladay. Call before leaving to confirm an appointment."}
   ],
   'clutch-repair-near-cottonwood-heights-ut': [
-    {q:'Why do Little Cottonwood Canyon drivers need clutch specialists specifically?',a:'Little Cottonwood has the steepest sustained grade of any paved road in the Salt Lake Valley. Climbing toward Snowbird or Alta in first or second gear, especially in slow canyon traffic during traction-law conditions, puts extraordinary heat into the clutch disc and pressure plate. General mechanics see this infrequently; we see it regularly from Cottonwood Heights customers.'},
-    {q:'If I smell burning mid-canyon, should I pull over or keep going?',a:'Pull over immediately and let the clutch cool for at least 5 minutes. A clutch that\'s already burning is generating enough heat to glaze the disc surface and potentially warp the flywheel. Five minutes of cooling can prevent permanent damage. If the smell continues after cooling, the clutch needs replacement, don\'t push on to the resort.'},
-    {q:'How much does clutch repair cost for Cottonwood Heights drivers?',a:'Clutch replacement runs $800–$1,800 depending on your vehicle. Canyon drivers should budget for flywheel resurfacing ($200–$400 additional) in roughly 40% of cases, the extreme heat cycles that Cottonwood Heights roads create leave flywheel surfaces glazed more often than valley driving.'}
+    {q:"What does a clutch inspection check after canyon-driving symptoms?",a:"An inspection can distinguish worn clutch friction parts from a release-system fault or another cause of difficult shifting. Tell us whether symptoms occur during a hill start, under load, or after warm-up so we can investigate the conditions you noticed."},
+    {q:'If I smell burning mid-canyon, should I pull over or keep going?',a:"If you notice a burning smell or loss of drive while climbing, stop in a safe place and call for advice. There is no fixed cooling time that makes a slipping clutch safe to drive again."},
+    {q:'How much does clutch repair cost for Cottonwood Heights drivers?',a:"Clutch replacement typically runs $800–$1,800 depending on the vehicle. The inspection determines whether the clutch, release system, flywheel, or other parts need work. Ask for an estimate for your specific vehicle before authorizing repairs."}
   ],
   'clutch-repair-near-sandy-ut': [
-    {q:'Sandy\'s 10600 South has long red-light cycles. How should I wait in a manual?',a:'Use neutral and the brake, not first gear with the clutch in. Resting your foot on the clutch pedal while stopped loads the throw-out bearing continuously under engine vibration. Sandy\'s long light cycles amplify this. A driver who holds the clutch at every 10600 South light can double their throw-out bearing wear over a year of commuting.'},
-    {q:'How do I reach your shop from Sandy via TRAX?',a:'Take the TRAX Blue Line north to the Central Pointe station, we\'re a 3-minute walk from the platform. It\'s a straightforward option for Sandy drivers who want to drop their vehicle and continue their day without waiting. Call ahead and we\'ll have you checked in when you arrive.'},
-    {q:'How much does clutch replacement cost for Sandy vehicles?',a:'Clutch replacement typically runs $800–$1,800 depending on the make and model. Sandy\'s mix of I-15 merging and foothill hill starts tends to wear both the disc and the throw-out bearing simultaneously, so we inspect the full release system during any clutch job rather than just the obvious worn component.'}
+    {q:"How should I wait at a traffic light in a manual vehicle?",a:"Avoid resting your foot on the clutch pedal or holding the vehicle on a hill with the clutch. Use the brakes to hold the car and follow the stopping and hill-start instructions in your owner's manual."},
+    {q:'How do I reach your shop from Sandy via TRAX?',a:"Use UTA's current trip planner with 144 W Crystal Ave, South Salt Lake as your destination. Check the complete route, including the walk or connecting ride from the station, before arranging drop-off or pickup."},
+    {q:'How much does clutch replacement cost for Sandy vehicles?',a:"Clutch replacement typically runs $800–$1,800 depending on the vehicle. The inspection determines whether the clutch, release system, flywheel, or other parts need work. Ask for an estimate for your specific vehicle before authorizing repairs."}
   ],
   'clutch-repair-near-draper-ut': [
-    {q:'Why is Point of the Mountain so hard on clutches when towing?',a:'The I-15 grade at Point of the Mountain is long and sustained. Trucks towing trailers or boats must hold first or second gear at high RPM for an extended climb, often in summer heat with the engine and clutch already warm. The combination of sustained high-RPM engagement, heavy load, and ambient heat creates enough friction heat to cause clutch slipping mid-hill. We see this from Draper towing customers regularly.'},
-    {q:'Is it worth the 15-minute drive from Draper to Scott\'s for clutch repair?',a:'The drive to a clutch specialist pays for itself in diagnosis accuracy. A correctly identified clutch problem means the right parts, replaced once. A misdiagnosis means a second repair visit on top of the first. We\'ve been doing clutch work since 1990, Draper drivers who\'ve tried closer general shops frequently end up with us afterward.'},
-    {q:'I smell burning on Point of the Mountain when towing. Is my clutch damaged?',a:'If you smelled burning and noticed the engine RPM climbing without a matching speed increase, yes, the clutch slipped under towing load. A single severe slipping event can glaze both the disc and flywheel. Pull the trailer load until you can have it inspected. Continued towing with a heat-damaged clutch risks failure mid-grade.'}
+    {q:'Why is Point of the Mountain so hard on clutches when towing?',a:"Towing adds load, especially during starts and climbs. A fully engaged clutch should transmit power without continuous slipping; high engine revs alone do not prove clutch overheating. Stay within the vehicle's towing limits and have slipping checked."},
+    {q:'Is it worth the 15-minute drive from Draper to Scott\'s for clutch repair?',a:"Call us with the symptoms, vehicle details, and any previous repair records before making the trip. We can discuss an appointment and whether the vehicle should be towed. Our shop is in South Salt Lake."},
+    {q:'I smell burning on Point of the Mountain when towing. Is my clutch damaged?',a:"If the engine revs climb without the vehicle gaining speed while towing, stop safely and arrange an inspection. Continuing to drive with a slipping clutch can cause additional damage."}
   ],
   'clutch-repair-near-west-jordan-ut': [
-    {q:'Does Mountain View Corridor driving create specific clutch wear patterns?',a:'Mountain View Corridor\'s high-speed exits require quick downshifts from 55 mph that simultaneously load the synchronizers and clutch disc. West Jordan drivers on this corridor daily present with combined disc wear and hydraulic fatigue, both the mechanical clutch and the release system show wear at the same time, which is why we inspect the full clutch system rather than just the disc.'},
-    {q:'How far is West Jordan from your shop?',a:'We\'re 8 miles northeast, about 12 minutes on Redwood Road or the 201. Most West Jordan drivers use 3500 South East or 201 West to I-15 North. It\'s a straightforward drive with good parking at our shop.'},
-    {q:'My clutch pedal feels stiffer than usual on Mountain View Corridor. What\'s happening?',a:'Increased pedal effort on high-speed roads often points to the hydraulic master cylinder beginning to fail. The higher line pressures from aggressive downshifting stress the master cylinder seals more than city driving. A stiff pedal that\'s getting progressively harder is worth diagnosing before the cylinder fails completely.'}
+    {q:'Does Mountain View Corridor driving create specific clutch wear patterns?',a:"Road name alone does not establish a clutch failure pattern. Tell us whether difficulty shifting or slipping occurs during acceleration, after warm-up, or in a particular gear. Those details are more useful than assuming the commute damaged a specific part."},
+    {q:'How far is West Jordan from your shop?',a:"Our shop is at 144 W Crystal Ave in South Salt Lake. Use the Get Directions link for the route and travel time from your starting point in West Jordan. Call before leaving to confirm an appointment."},
+    {q:'My clutch pedal feels stiffer than usual on Mountain View Corridor. What\'s happening?',a:"A stiff pedal can involve the release mechanism, linkage, or hydraulic system, depending on the vehicle. Tell us whether the change was sudden and whether selecting gears has become harder."}
   ],
   'clutch-repair-near-south-jordan-ut': [
-    {q:'How does Daybreak\'s roundabout design affect clutch life?',a:'Daybreak\'s roundabouts require constant first-to-second gear cycling at 15–20 mph, a gentler load than freeway driving, but a high-frequency one. Throw-out bearing wear accumulates from the repetitive partial clutch engagement at each roundabout entry and exit. South Jordan Daybreak drivers should check clutch pedal free play every 10,000 miles and note any increase in pedal effort.'},
-    {q:'Can I reach your shop from South Jordan via TRAX?',a:'Yes. Take the TRAX Red Line from the Daybreak station north to Central Pointe station, we\'re a 3-minute walk from the platform. It\'s a practical option for South Jordan commuters who want to drop their vehicle in the morning and pick it up after work.'},
-    {q:'How much does clutch service cost for South Jordan vehicles?',a:'Clutch replacement runs $800–$1,800 depending on your vehicle. Bangerter Highway driving adds above-average throw-out bearing wear from aggressive deceleration events at exit ramps, so we inspect the complete release system during any South Jordan clutch job.'}
+    {q:'How does Daybreak\'s roundabout design affect clutch life?',a:"Low-speed driving involves frequent gear changes, but clutch life depends on driving technique and vehicle condition. Avoid riding the clutch, and follow the manufacturer's adjustment guidance; many hydraulic systems self-adjust."},
+    {q:'Can I reach your shop from South Jordan via TRAX?',a:"Use UTA's current trip planner with 144 W Crystal Ave, South Salt Lake as your destination. Check the complete route, including the walk or connecting ride from the station, before arranging drop-off or pickup."},
+    {q:'How much does clutch service cost for South Jordan vehicles?',a:"Clutch replacement typically runs $800–$1,800 depending on the vehicle. The inspection determines whether the clutch, release system, flywheel, or other parts need work. Ask for an estimate for your specific vehicle before authorizing repairs."}
   ],
   'clutch-repair-near-riverton-ut': [
-    {q:'Riverton is far. Is the drive to your shop really worth it?',a:'Riverton commuters put 25+ miles each way on their vehicles, which means your clutch accumulates wear faster than a closer suburb. Getting an accurate diagnosis from a clutch specialist, rather than a repeat repair from a shop that guessed at the cause, is worth the 16-minute drive. Many Riverton customers come to us after a failed repair elsewhere.'},
-    {q:'At 25+ miles each way, when should Riverton drivers expect to replace a clutch?',a:'Plan for replacement at 60,000–70,000 miles rather than waiting for the typical 80,000–100,000 mile interval. Commute miles are harder on a clutch than highway miles, they involve more engagement cycles and higher-RPM starts than steady freeway driving. This is especially true for Riverton drivers who use Bangerter Highway\'s grade-separated ramps.'},
-    {q:'Can Jordan River flooding affect clutch condition for Riverton drivers?',a:'It can. Western Riverton neighborhoods near the Jordan River occasionally see floodwater that splashes up into bell housings during heavy spring runoff. Water contamination on the clutch disc causes both glazing and slipping, often misdiagnosed as normal wear. If your clutch started slipping after wet conditions, mention that when you bring it in.'}
+    {q:'Riverton is far. Is the drive to your shop really worth it?',a:"Call before travelling so we can discuss your symptoms, vehicle, and service history. A clear description of slipping, shuddering, or difficult shifting helps us plan the inspection. Use the map link for the current route to our South Salt Lake shop."},
+    {q:"Does a longer commute mean I need clutch replacement at a fixed mileage?",a:"Clutch replacement has no universal mileage interval. Driving technique, towing, traffic, and the vehicle all affect wear. Arrange an inspection for slipping, shuddering, or difficulty shifting rather than replacing the clutch based on commute distance alone."},
+    {q:'Can Jordan River flooding affect clutch condition for Riverton drivers?',a:"Do not drive through floodwater. If clutch symptoms began after the vehicle was submerged or exposed to deep water, mention that history when arranging an inspection. Wet weather alone does not prove water entered the clutch housing."}
   ],
   'clutch-repair-near-herriman-ut': [
-    {q:'Herriman is 20 minutes away. Why do locals drive to Scott\'s?',a:'There are almost no clutch specialists in the southwest valley. Herriman\'s growth has outpaced specialty repair shops. We\'ve been doing clutch work since 1990, before most of Herriman\'s neighborhoods existed. When a general shop can\'t diagnose the problem, Herriman drivers call us.'},
-    {q:'How do Herriman\'s hillside streets affect clutch components?',a:'Herriman\'s hillside developments at the base of the Oquirrh Mountains have residential driveways and streets with 10–15% grades. Daily launches from those grades put extreme stress on clutch release bearings and pressure plate springs, components that flat-terrain drivers barely stress. Herriman drivers tend to need full clutch replacement, not just disc replacement, because the pressure plate components wear faster under hill-start loads.'},
-    {q:'What\'s the best way to do hill starts in Herriman without burning the clutch?',a:'Use the handbrake for hill starts on steep grades instead of holding the car on the clutch. Bring the clutch to its engagement point, release the handbrake as you feel the car resist rolling backward, then release the clutch fully as you accelerate. This eliminates the partial-engagement slipping that burns discs on steep hills.'}
+    {q:'Herriman is 20 minutes away. Why do locals drive to Scott\'s?',a:"Clutch repair is a specialty at our South Salt Lake shop. Call with your vehicle details and symptoms to discuss an appointment, the inspection process, and whether towing is appropriate."},
+    {q:'How do Herriman\'s hillside streets affect clutch components?',a:"Repeated hill starts can add wear if the clutch slips for a long time. That does not establish which components need replacement. We inspect the clutch and release system before recommending a repair."},
+    {q:'What\'s the best way to do hill starts in Herriman without burning the clutch?',a:"Rolling backward before moving off on a hill is not proof of a worn clutch. Use the brakes and your vehicle's recommended hill-start procedure. Avoid holding the vehicle still with a partially engaged clutch."}
   ],
   'clutch-repair-near-kearns-ut': [
-    {q:'The 4500 South I-15 on-ramp is brutal on clutches. What can I do?',a:'The ramp is short and steep, which forces most drivers to launch hard from first gear at full throttle. Shifting to second gear earlier, even if it feels sluggish briefly, reduces the peak torque load on the disc and pressure plate significantly. It adds a second to your merge but can add 10,000 miles to your clutch life if you do it every day.'},
-    {q:'How affordable is clutch repair at Scott\'s for Kearns families?',a:'We price our clutch work honestly, $800–$1,800 depending on your vehicle, with no unnecessary upselling. We diagnose first and quote before touching anything. Kearns customers tell us they appreciate knowing what they\'re paying for before we start, and we hold to that quote unless we discover a genuinely different problem during disassembly.'},
-    {q:'How far is the drive from Kearns to your shop?',a:'We\'re 7 miles east, about 12 minutes on 5400 South or 4700 South. The drive is straightforward on surface streets with no freeway required if you prefer it. We\'re open Monday–Friday 9 AM–5:30 PM.'}
+    {q:"How can I merge safely without riding the clutch?",a:"Choose a gear that lets you merge safely without straining the engine, and follow your vehicle's operating instructions. If the engine revs rise but the car does not accelerate normally, have the clutch inspected."},
+    {q:'How affordable is clutch repair at Scott\'s for Kearns families?',a:"Clutch replacement typically runs $800–$1,800 depending on the vehicle. The inspection determines whether the clutch, release system, flywheel, or other parts need work. Ask for an estimate for your specific vehicle before authorizing repairs."},
+    {q:'How far is the drive from Kearns to your shop?',a:"Our shop is at 144 W Crystal Ave in South Salt Lake. Use the Get Directions link for the route and travel time from your starting point in Kearns. Call before leaving to confirm an appointment."}
   ],
   'clutch-repair-near-midvale-ut': [
-    {q:'The I-15/I-215 junction near Midvale has short merge lanes. How do I protect my clutch?',a:'Time your on-ramp entry to match the gap rather than launching from a full stop whenever possible. The first-gear, full-throttle launch from standstill is the hardest single event on your clutch disc. If you merge from a rolling start at 20–25 mph instead, you reduce peak clutch load substantially and can skip directly to second gear.'},
-    {q:'Can I reach your shop from Midvale on TRAX?',a:'Midvale is one of the most TRAX-accessible communities for our shop. Take the Blue Line north to Central Pointe station, we\'re a 3-minute walk. Drop your vehicle in the morning and commute to work or school; pick it up in the afternoon.'},
-    {q:'How much does clutch work cost for Midvale vehicles, and how quickly can you fit me in?',a:'Clutch replacement runs $800–$1,800. For Midvale customers, we can typically schedule a diagnosis within a day or two of calling and complete most clutch replacements the same day or the next morning. Call (801) 485-4089 and we\'ll find a slot that works.'}
+    {q:"How should I use the clutch when entering I-15 or I-215?",a:"Follow traffic signals and merge at a safe speed for the conditions. Do not change your approach speed to protect the clutch. Report slipping or shuddering during acceleration so we can inspect the vehicle."},
+    {q:'Can I reach your shop from Midvale on TRAX?',a:"Use UTA's current trip planner with 144 W Crystal Ave, South Salt Lake as your destination. Check the complete route, including the walk or connecting ride from the station, before arranging drop-off or pickup."},
+    {q:'How much does clutch work cost for Midvale vehicles, and how quickly can you fit me in?',a:"Clutch replacement typically runs $800–$1,800 depending on the vehicle and work needed. Call (801) 485-4089 for current appointment availability and a vehicle-specific estimate. Completion time depends on the diagnosis and parts availability."}
   ]
 };
 

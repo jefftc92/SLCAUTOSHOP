@@ -653,7 +653,7 @@ const services = [
     metaTitle: "Timing Chain Repair Salt Lake City UT | Engine Rattling?",
     heading: "Timing Chain Replacement in Salt Lake City, UT",
     metaDesc: "Engine rattling on startup? Don't wait, timing chain failure can destroy your engine. Free diagnosis at Scott's Auto. Call (801) 485-4089.",
-    heroIntro: "Engine rattling at startup? That's a worn timing chain, and it gets worse the longer you wait. Free diagnosis. Written estimate. No surprises.",
+    heroIntro: "Engine rattling at startup? We check the noise, oil condition, and timing-system operation before recommending chain, tensioner, or guide repairs. A startup rattle alone does not confirm a worn chain.",
     intro: "",
     hideServicesSection: true,
     specializedServices: [
@@ -871,7 +871,7 @@ const services = [
     whyUs: [
       {
         title: "Pressure-Test First",
-        desc: "We pressure-test the cooling system before replacing the pump, confirming the pump is the source and not the thermostat, hose, or head gasket."
+        desc: "We pressure-test for leaks and inspect the cooling system. A pressure test alone does not check thermostat operation or confirm that the pump is circulating coolant properly."
       },
       {
         title: "Complete Cooling Inspection",
@@ -887,7 +887,7 @@ const services = [
       }
     ],
     processHeading: "How We Diagnose and Replace Your Water Pump",
-    processIntro: "We pressure-test the cooling system before recommending a pump replacement, confirming the pump is the actual source. Then we check what else is accessible during the same labor so you can make an informed decision about what to combine.",
+    processIntro: "We check for leaks and evaluate cooling-system operation before recommending a water pump. We also check which related parts share access on your engine so you can decide whether to combine repairs.",
     process: [
       {
         step: 1,
@@ -938,7 +938,7 @@ const services = [
           "The water pump is what keeps coolant moving through your engine. When it fails, the engine overheats. The two pumps in the photo show one of the more deceptive failure modes: the pump on the left is new, with seven full aluminum fins that push coolant through the system efficiently. The pump on the right still has an intact shaft that spins, but the impeller fins have been almost completely eaten away by corrosion, so it moves almost no coolant. The engine runs hot even though nothing appears seized, which is why overheating doesn't always point to an obvious failure. Most water pumps give some warning before they fail completely, which is the time to act.",
           "<strong>Water pump body and shaft seal</strong>: the pump turns a vane wheel inside the engine, driven by the <a href='/services/timing-belt-replacement-near-south-salt-lake-ut'>timing belt</a>, <a href='/services/timing-chain-repair-near-south-salt-lake-ut'>timing chain</a>, or a separate drive belt. When the shaft seal fails, coolant leaks out through the weep hole near the front of the engine. That drip is a designed warning signal built into the pump.",
           "<strong>Impeller</strong>: the internal vane wheel that actually moves the coolant. On some pumps, the impeller can corrode away or separate from the shaft without any external leak. The pump turns but circulates almost no coolant, causing the engine to run hot with no visible puddle to explain it.",
-          "<strong>Thermostat</strong>: a valve that controls how much coolant flows to the radiator based on temperature. Its labor overlaps with the water pump on most engines. We recommend replacing it at the same time rather than leaving an aging thermostat in against a new pump.",
+          "<strong>Thermostat</strong>: a temperature-controlled valve that regulates coolant flow to the radiator. Access and labor overlap with the water pump vary by engine. We recommend replacement when its condition or the repair circumstances justify it.",
           "<strong>Coolant hoses</strong>: we inspect all hoses while the system is open. A softened or blistered hose should be addressed before it fails on a recently repaired cooling system.",
           "Depending on what we find, the work we commonly perform includes:"
         ],
@@ -974,7 +974,7 @@ const services = [
       },
       {
         q: "Should I combine water pump and timing belt service?",
-        a: "On most engines, yes. They share the same access, and combining them saves several hours of labor compared to doing them separately. On engines where the <a href='/services/timing-belt-replacement-near-south-salt-lake-ut'>timing belt</a> drives the water pump directly, doing them together is standard practice rather than optional."
+        a: "It depends on the engine. When the timing belt drives the water pump, replacing both can avoid repeating much of the same labor. We check the belt service history, pump condition, and manufacturer guidance before recommending combined work."
       },
       {
         q: "What is impeller failure and how do you diagnose it?",
@@ -982,7 +982,7 @@ const services = [
       },
       {
         q: "Why replace the thermostat alongside the water pump?",
-        a: "The labor largely overlaps on most engines, so combining them costs very little extra. Leaving an aging thermostat in place against a new pump is the kind of decision that often results in a return visit a few months later when the thermostat sticks."
+        a: "On some engines, access overlaps enough to make combined work worthwhile. On others, the thermostat is elsewhere. We consider its condition, service history, and any overheating symptoms before recommending replacement."
       },
       {
         q: "Is there a warranty on the repair?",
@@ -996,7 +996,7 @@ const services = [
     whoContent: {
       heading: "Who to Trust for Water Pump Replacement in South Salt Lake",
       paras: [
-        "Scott's Auto & Clutch Repair has been diagnosing and repairing cooling systems in South Salt Lake since 1990. We pressure-test before recommending a pump replacement, which means we're confirming the pump is actually the problem rather than assuming. We also check what else is accessible at the same time so you can decide whether to combine services and save on labor.",
+        "Scott's Auto & Clutch Repair has worked on cooling systems in South Salt Lake since 1990. We check for leaks and evaluate operating temperature and coolant circulation before recommending a repair. We explain any useful labor overlap with related parts on your engine.",
         "When you bring your vehicle in, you get a complete cooling system assessment. We explain what we found, what we recommend, and why before any work starts. If combining services makes sense for your vehicle's mileage and service history, we'll tell you. If it doesn't, we'll tell you that too."
       ]
     },
@@ -1007,7 +1007,7 @@ const services = [
       },
       {
         label: "Free Diagnosis",
-        value: "Yes. Cooling system pressure test confirms the pump is the source before work begins"
+        value: "Yes. Leak testing and cooling-system inspection guide the diagnosis before work begins"
       },
       {
         label: "Includes",
@@ -1653,7 +1653,7 @@ const services = [
     metaTitle: "Timing Belt Replacement Salt Lake City UT | All Makes",
     heading: "Timing Belt Replacement Service in Salt Lake City, UT",
     metaDesc: "Timing belt due for replacement? We handle belt, tensioner, idler & water pump as a complete service. Honest pricing. Call (801) 485-4089.",
-    heroIntro: "Timing belt due or overdue? A broken belt on an interference engine destroys the engine. We do the full service right. Written estimate. No surprises.",
+    heroIntro: "Timing belt due or overdue? We check the replacement schedule for your engine and explain which related parts need attention. A broken belt can cause serious damage on an interference engine.",
     intro: "",
     hideServicesSection: true,
     specializedServices: [
@@ -1674,7 +1674,7 @@ const services = [
       },
       {
         title: "Interference Engine Expertise",
-        desc: "Interference engines are the ones where a broken belt destroys valves and pistons. We know which vehicles have them and explain the stakes clearly."
+        desc: "In an interference engine, lost timing can let pistons contact valves. We check the engine design and explain the risk of an overdue belt."
       },
       {
         title: "Component Combination Planning",
@@ -1747,7 +1747,7 @@ const services = [
       {
         heading: "How Do You Know When a Timing Belt Needs Replacing?",
         paras: [
-          "The timing belt does not give you warning before it breaks. On an interference engine, a broken belt bends valves and destroys the engine without any further sign. The repair cost is typically 5 to 10 times the cost of a belt service. A belt that looks fine might be 12 years old and past its time interval. A low-mileage vehicle that's been driven infrequently still has a belt that has aged. Interval-based replacement exists because the belt weakens from heat cycling and age even when it appears intact.",
+          "A timing belt can fail without an obvious warning. Appearance alone does not establish its remaining life. Check the mileage and time limits for the specific engine, including any available replacement records. On an interference engine, belt failure can let pistons and valves collide and cause serious damage.",
           "The most common reasons drivers come in are a mileage or age interval that's due or overdue, a ticking noise from the engine, an engine that cranks but won't start on a vehicle with a timing belt, or a water pump or tensioner service that was flagged at a recent inspection. Any of those is worth a free consultation. We'll tell you exactly where your vehicle stands before recommending anything."
         ]
       }
@@ -1759,7 +1759,7 @@ const services = [
       },
       {
         q: "What happens if my timing belt breaks?",
-        a: "On a non-interference engine, the engine stops and the vehicle is towed for a belt replacement. On an interference engine (which covers most modern vehicles), the pistons hit the open valves and catastrophic engine damage occurs. The repair cost is typically 5–10x the cost of the belt service."
+        a: "The engine may stop or fail to start. On an interference engine, lost timing can allow piston-to-valve contact and serious damage. The amount of damage must be inspected; a broken belt does not automatically mean the entire engine needs replacement. Avoid repeated starting attempts and arrange towing."
       },
       {
         q: "Should I replace the water pump with the timing belt?",
@@ -1775,7 +1775,7 @@ const services = [
       },
       {
         q: "What is the interference engine risk with a broken timing belt?",
-        a: "On an interference engine, pistons and valves share overlapping travel zones and are kept apart only by the belt maintaining precise cam timing. When the belt breaks, the camshaft stops but the crankshaft keeps turning. Pistons hit open valves, causing bent valves, damaged pistons, and in severe cases a destroyed cylinder head. The cost is typically a $3,000 to $6,000 repair for a service that costs $400 to $700."
+        a: "An interference engine relies on correct valve timing to keep pistons and valves apart. A broken or displaced belt can allow contact. Repair needs and cost depend on the engine and inspection findings, so we do not assume either a belt-only repair or engine replacement before assessing damage."
       },
       {
         q: "Is there a warranty on the repair?",
@@ -1793,7 +1793,7 @@ const services = [
     whoContent: {
       heading: "Who to Trust for Timing Belt Replacement in Salt Lake City",
       paras: [
-        "Scott's Auto & Clutch Repair has been handling timing belt services in South Salt Lake since 1990. We've replaced timing belts on every make and model that uses them, and we know which components make sense to combine based on the engine design and the vehicle's mileage. We explain the options, give you the information to decide, and don't push a blanket recommendation to replace everything accessible.",
+        "Scott's Auto & Clutch Repair has been handling timing belt services in South Salt Lake since 1990. We check the engine design, mileage, and service records to explain which components make sense to replace together. We explain the options, give you the information to decide, and don't push a blanket recommendation to replace everything accessible.",
         "When you bring your vehicle in, you get a complete assessment of the belt system and related components, a written estimate before any work starts, and timing verified after the job is done. The goal is a service done right the first time, with no return visit for a tensioner or water pump that should have been included."
       ]
     },
@@ -1812,7 +1812,7 @@ const services = [
       },
       {
         label: "Risk If Missed",
-        value: "Timing belt failure on an interference engine causes engine damage, this is a prevention-only repair"
+        value: "Belt failure can cause serious damage on an interference engine. Follow the replacement schedule for your specific engine."
       },
       {
         label: "Service Interval",
