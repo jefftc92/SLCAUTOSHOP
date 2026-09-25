@@ -490,12 +490,9 @@ def add_vignette(img):
     return Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
 
 def process_hero(img):
-    img = img.convert("RGB").resize((768, 432), Image.LANCZOS)
-    img = img.filter(ImageFilter.GaussianBlur(radius=2.5))
-    img = ImageEnhance.Brightness(img).enhance(0.50)
-    img = ImageEnhance.Color(img).enhance(0.70)
-    img = add_vignette(img)
-    return img
+    # Site-wide CSS already applies filter:brightness(.28) to all hero backgrounds,
+    # so we ship crisp full-color images and let the CSS do the darkening.
+    return img.convert("RGB").resize((768, 432), Image.LANCZOS)
 
 def fallback_image():
     arr = np.zeros((432, 768, 3), dtype=np.uint8)

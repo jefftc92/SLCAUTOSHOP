@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - claude/honda-models-full-content
+      - claude/lighten-model-heroes
     paths:
       - 'scripts/generate_vehicle_hero_images.py'
       - '.github/workflows/generate-vehicle-hero-images.yml'
