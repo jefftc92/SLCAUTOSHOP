@@ -1,7 +1,7 @@
 const locations = [
   {
     slug: "south-salt-lake-ut-auto-repair", name: "South Salt Lake", state: "UT", distance: "Our Location", driveTime: "0 min", zipCodes: ["84115", "84119"], isHome: true,
-    intro: "Scott's Auto & Clutch Repair has called South Salt Lake home since 1990. Our shop at 144 W Crystal Ave sits right between I-15 and State Street, making us one of the most accessible auto repair shops in the valley. Whether you're coming from the 3300 South exit or cutting through on West Temple, you're never more than a few minutes away.",
+    intro: "The shop is at 144 W Crystal Ave in South Salt Lake, between I-15 and State Street, a few minutes from the 3300 South exit. Family-owned since 1990. Clutch work is what we started with, and we also do brakes, exhaust, and the other repairs that come through the door. Open Mon-Fri 9:00 AM-5:30 PM. Call (801) 485-4089.",
     whyChooseUs: "South Salt Lake's mix of industrial corridors and residential neighborhoods means heavy stop-and-go traffic on State Street and 3300 South. That kind of driving accelerates brake wear and clutch fatigue, especially if you drive a manual. We see it every day, and we fix it every day.",
     landmarks: [],
     neighborhoods: ["Central Pointe", "Gadsby Triangle", "Fitts Park", "Dallas-Evergreen", "Crystal Park"],
@@ -46,7 +46,7 @@ const locations = [
       "84111"
     ],
     "isHome": false,
-    "intro": "Salt Lake City drivers can bring clutch problems, brake noise, warning lights, and other repair needs to Scott's Auto & Clutch Repair at 144 W Crystal Ave in South Salt Lake.",
+    "intro": "Salt Lake City is about 4 miles and a 10-minute drive from our shop at 144 W Crystal Ave in South Salt Lake. Scott's Auto & Clutch Repair has been family-owned since 1990. Clutch work is the specialty, and we also do brakes, exhaust, and everyday repairs. Open Mon-Fri 9:00 AM-5:30 PM. Call (801) 485-4089.",
     "whyChooseUs": "We specialize in clutch repair and also handle brakes, CV axles, engine diagnostics, and transmission work. Tell us what the vehicle is doing so we can discuss the inspection and arrange a visit. We explain our findings and the recommended repair before work begins.",
     "landmarks": [],
     "neighborhoods": [
@@ -61,9 +61,9 @@ const locations = [
       "Rose Park"
     ],
     "aboutCity": "",
-    "metaTitle": "Auto Repair Salt Lake City UT | Scott's Auto & Clutch Repair",
-    "metaDesc": "Trusted auto repair for Salt Lake City drivers since 1990. Clutch specialists, full service shop, honest pricing. Call (801) 485-4089.",
-    "heading": "Auto Repair Shop Salt Lake City UT, Brakes, Clutch & More"
+    "metaTitle": "Salt Lake City Auto Repair | Scott's Auto & Clutch Repair",
+    "metaDesc": "Auto repair for Salt Lake City, 4 miles south at 144 W Crystal Ave. Family-owned clutch shop since 1990. Free estimates. (801) 485-4089.",
+    "heading": "Salt Lake City Auto Repair"
   },
 
   {
@@ -126,7 +126,7 @@ const locations = [
       "84088"
     ],
     "isHome": false,
-    "intro": "West Jordan drivers can bring clutch problems, brake noise, warning lights, and other repair needs to Scott's Auto & Clutch Repair at 144 W Crystal Ave in South Salt Lake.",
+    "intro": "West Jordan is about 8 miles and a 12-minute drive from Scott's Auto & Clutch Repair at 144 W Crystal Ave in South Salt Lake. The shop has been family-owned since 1990. Clutch work is the specialty, and we also do brakes, exhaust, and repairs on the cars and trucks people drive every day. Call (801) 485-4089.",
     "whyChooseUs": "We specialize in clutch repair and also handle brakes, CV axles, engine diagnostics, and transmission work. Tell us what the vehicle is doing so we can discuss the inspection and arrange a visit. We explain our findings and the recommended repair before work begins.",
     "landmarks": [],
     "neighborhoods": [
@@ -136,9 +136,9 @@ const locations = [
       "Harvest Village"
     ],
     "aboutCity": "",
-    "metaTitle": "Auto Repair West Jordan UT | Scott's Auto & Clutch Repair",
-    "metaDesc": "Eight miles east of West Jordan. Family vehicles, minivans, and SUVs serviced by a shop that tells you what's wrong, not what's profitable. (801) 485-4089.",
-    "heading": "Auto Repair Shop West Jordan UT, Brakes, Clutch & More"
+    "metaTitle": "West Jordan Auto Repair | Scott's Auto & Clutch Repair",
+    "metaDesc": "Auto repair for West Jordan, 8 miles east in South Salt Lake. Family-owned clutch shop since 1990. Free estimates. (801) 485-4089.",
+    "heading": "West Jordan Auto Repair"
   },
 
   {
@@ -184,18 +184,18 @@ const locations = [
 ];
 
 const locationMetaMap = {
-  'south-salt-lake-ut-auto-repair': { t: "Auto Repair Shop South Salt Lake UT | Since 1990",                      d: "Your neighborhood auto repair shop at 144 W Crystal Ave, South Salt Lake. Clutch, brakes, CV joints & more since 1990. (801) 485-4089." },
+  'south-salt-lake-ut-auto-repair': { t: "South Salt Lake Auto Repair | Scott's Auto & Clutch Repair", h: "Auto Repair in South Salt Lake", d: "Auto repair at 144 W Crystal Ave, South Salt Lake. Family-owned clutch shop since 1990, between I-15 and State Street. (801) 485-4089." },
   'sugar-house-ut-auto-repair':     { t: "Auto Repair Sugar House UT | Scott's Auto & Clutch Repair",            d: "Three miles south of Sugar House with TRAX drop-off. Drop your car, catch the train, pick up after work. Honest diagnosis. (801) 485-4089." },
   'millcreek-ut-auto-repair':       { t: "Auto Repair Millcreek UT | Scott's Auto & Clutch Repair",              d: "Millcreek's independent mechanic since 1990. Subaru boxer engines, Honda, Toyota, and everything else this canyon-driving community owns. (801) 485-4089." },
   'murray-ut-auto-repair':          { t: "Auto Repair Murray UT | 4 Miles | Free Diagnosis",                         d: "Murray drivers, Scott's Auto & Clutch Repair is just 4 miles away in South Salt Lake. Clutch, brakes, CV joints & more. (801) 485-4089." },
-  'salt-lake-city-ut-auto-repair':  { t: "Auto Repair Salt Lake City UT | Scott's Auto & Clutch Repair",         d: "Trusted auto repair for Salt Lake City drivers since 1990. Clutch specialists, full service shop, honest pricing. Call (801) 485-4089." },
+  'salt-lake-city-ut-auto-repair':  { t: "Salt Lake City Auto Repair | Scott's Auto & Clutch Repair", h: "Salt Lake City Auto Repair", d: "Auto repair for Salt Lake City, 4 miles south at 144 W Crystal Ave. Family-owned clutch shop since 1990. Free estimates. (801) 485-4089." },
   'taylorsville-ut-auto-repair':    { t: "Auto Repair Taylorsville UT | Scott's Auto & Clutch Repair",           d: "Taylorsville families, minivans, SUVs, and daily drivers, five miles east and over 35 years of trusted service to the community. (801) 485-4089." },
   'west-valley-city-ut-auto-repair':{ t: "Auto Repair West Valley City UT | Since 1990",                         d: "West Valley commercial vehicles, work trucks, and family cars get fast turnaround at our South Salt Lake shop. Seven miles east. Call (801) 485-4089." },
   'holladay-ut-auto-repair':        { t: "Auto Repair Holladay UT | Scott's Auto & Clutch Repair",               d: "Five miles from Holladay, and 30+ years of experience with luxury, import, and canyon-driving vehicles common to the neighborhood. (801) 485-4089." },
   'cottonwood-heights-ut-auto-repair':{ t: "Auto Repair Cottonwood Heights UT | Since 1990",                    d: "Ski-canyon commuters to Alta, Snowbird, Brighton, and Solitude trust our shop for winter-wear inspection and year-round service. (801) 485-4089." },
   'sandy-ut-auto-repair':           { t: "Auto Repair Sandy UT | 8 Miles | Free Diagnosis",                         d: "Sandy drivers trust Scott's Auto & Clutch Repair for clutch repair, brakes, and full auto service. Just 8 miles away. Free diagnosis. (801) 485-4089." },
   'draper-ut-auto-repair':          { t: "Auto Repair Draper UT | Scott's Auto & Clutch Repair",                 d: "Draper drivers make the 12-mile I-15 run for brakes, engine, drivetrain, and luxury service without dealership pricing. Call (801) 485-4089." },
-  'west-jordan-ut-auto-repair':     { t: "Auto Repair West Jordan UT | Scott's Auto & Clutch Repair",            d: "Eight miles east of West Jordan. Family vehicles, minivans, and SUVs serviced by a shop that tells you what's wrong, not what's profitable. (801) 485-4089." },
+  'west-jordan-ut-auto-repair':     { t: "West Jordan Auto Repair | Scott's Auto & Clutch Repair", h: "West Jordan Auto Repair", d: "Auto repair for West Jordan, 8 miles east in South Salt Lake. Family-owned clutch shop since 1990. Free estimates. (801) 485-4089." },
   'south-jordan-ut-auto-repair':    { t: "Auto Repair South Jordan UT | Scott's Auto & Clutch Repair",           d: "Ten miles north of Daybreak and South Jordan. Modern diagnostic equipment handles newer crossovers, SUVs, and family sedans. (801) 485-4089." },
   'riverton-ut-auto-repair':        { t: "Auto Repair Riverton UT | Scott's Auto & Clutch Repair",               d: "Auto repair for Riverton drivers at Scott's Auto & Clutch Repair in South Salt Lake. Call (801) 485-4089 to discuss your vehicle and plan drop-off." },
   'herriman-ut-auto-repair':        { t: "Auto Repair Herriman UT | Scott's Auto & Clutch Repair",               d: "Fifteen miles via Bangerter Highway. Herriman's trucks, SUVs, and family vehicles get careful work at fair pricing. (801) 485-4089." },
@@ -207,9 +207,11 @@ locations.forEach(loc => {
   const lm = locationMetaMap[loc.slug];
   loc.metaTitle = lm ? lm.t : (loc.isHome ? "South Salt Lake Auto Repair | Scott's Auto & Clutch Repair" : loc.name + " Auto Repair | Scott's Auto & Clutch Repair");
   loc.metaDesc  = lm ? lm.d : (loc.isHome ? "Expert auto repair in South Salt Lake since 1990. Clutch repair, brake service, transmission work. 144 W Crystal Ave. Call (801) 485-4089." : "Expert auto repair near " + loc.name + ", UT. " + loc.distance + " from our shop. Call (801) 485-4089.");
-  loc.heading = loc.isHome
-    ? "Auto Repair Shop South Salt Lake UT, Brakes, Clutch & More"
-    : "Auto Repair Shop " + loc.name + " UT, Brakes, Clutch & More";
+  loc.heading = (lm && lm.h)
+    ? lm.h
+    : (loc.isHome
+      ? "Auto Repair Shop South Salt Lake UT, Brakes, Clutch & More"
+      : "Auto Repair Shop " + loc.name + " UT, Brakes, Clutch & More");
 });
 
 module.exports = locations;
