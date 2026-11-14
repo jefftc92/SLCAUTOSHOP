@@ -75,7 +75,7 @@ module.exports = {
       "whyIntro": "Honda dealers charge $150–170 per hour for Civic service, and your car gets shuffled between a service advisor who writes the ticket and a technician you never meet. At Scott's, one mechanic diagnoses your Civic and does the repair, the same person, start to finish. You get a plain-language explanation of what we found and a written estimate before any work begins.",
       "whyUs": [
         {
-          "title": "35 Years of Honda Platform Experience",
+          "title": "Over 35 Years of Honda Platform Experience",
           "desc": "We've been working on Civics since Scott's opened in 1990, every generation, every engine family. That institutional knowledge means faster diagnosis and fewer surprises on your bill."
         },
         {

@@ -65,7 +65,7 @@ module.exports = {
       "whyIntro": "Ford dealers bill $150–180 an hour for F-150 service, and your truck gets passed between a service writer and a tech you never speak to. At Scott's, the mechanic who diagnoses your F-150 is the one who repairs it. For a truck you depend on for work or towing, that direct accountability means accurate estimates and fewer comebacks.",
       "whyUs": [
         {
-          "title": "35 Years on Ford Trucks",
+          "title": "Over 35 Years on Ford Trucks",
           "desc": "We've serviced F-150s since Scott's opened in 1990, from 300-six work trucks to current EcoBoost crew cabs. That depth of platform knowledge means a faster, more accurate diagnosis on your bill."
         },
         {
@@ -274,7 +274,7 @@ module.exports = {
           "desc": "Clutch replacement is one of our core services. Fox-body, S197, and S550 GT clutch jobs are routine for us, we use quality OEM-spec kits and follow the correct break-in procedure for each platform."
         },
         {
-          "title": "35 Years of Ford V8 Experience",
+          "title": "Over 35 Years of Ford V8 Experience",
           "desc": "We've worked on Mustangs since Scott's opened in 1990, pushrod 5.0s, modular 4.6Ls, and the Coyote. That history means a faster, more confident diagnosis on your car."
         },
         {
@@ -470,7 +470,7 @@ module.exports = {
       "whyIntro": "When the SUV that hauls your family needs work, you want a shop that's straight with you. Ford dealers charge dealer rates and put a service-writer layer between you and the mechanic. At Scott's, one mechanic diagnoses and repairs your Explorer, and you get a clear explanation and a written estimate before anything begins.",
       "whyUs": [
         {
-          "title": "35 Years on Ford SUVs",
+          "title": "Over 35 Years on Ford SUVs",
           "desc": "We've serviced Explorers since the model launched in 1990, body-on-frame V8s through current EcoBoost crossovers. That platform history means a faster, more accurate diagnosis."
         },
         {
@@ -660,7 +660,7 @@ module.exports = {
       "whyIntro": "An Escape is a daily-driver crossover, and when it needs work you want it fixed right and back on the road fast. Ford dealers charge dealer rates and route your car through a service writer. At Scott's, one mechanic diagnoses and repairs your Escape, and explains exactly what it needs before any work begins.",
       "whyUs": [
         {
-          "title": "35 Years of Ford Experience",
+          "title": "Over 35 Years of Ford Experience",
           "desc": "We've serviced Ford crossovers since Scott's opened in 1990. From early Duratec V6 Escapes to the current EcoBoost models, that history means a faster, more accurate diagnosis."
         },
         {
@@ -859,7 +859,7 @@ module.exports = {
           "desc": "Lots of Rangers are manuals, and clutch replacement is one of our core services. We use quality OEM-spec clutch kits for every Ranger generation and follow the correct break-in procedure."
         },
         {
-          "title": "35 Years on Ford Trucks",
+          "title": "Over 35 Years on Ford Trucks",
           "desc": "We've serviced Rangers since the 1980s, old 4.0L compacts through the current EcoBoost midsize trucks. That platform history means a faster, more accurate diagnosis."
         },
         {
@@ -1035,7 +1035,7 @@ module.exports = {
       "whyIntro": "When your family crossover needs work, you want a straight answer and a fair price. Ford dealers charge dealer rates and route your car through a service writer you'll never see again. At Scott's, one mechanic diagnoses and repairs your Edge, and explains exactly what it needs before any work begins.",
       "whyUs": [
         {
-          "title": "35 Years of Ford Experience",
+          "title": "Over 35 Years of Ford Experience",
           "desc": "We've serviced Ford crossovers since Scott's opened in 1990. From Duratec V6 Edges to the EcoBoost models, that platform history means a faster, more accurate diagnosis."
         },
         {
@@ -1230,7 +1230,7 @@ module.exports = {
       "whyIntro": "A full-size SUV that hauls your family and tows your trailer deserves a shop that's straight with you. Ford dealers charge dealer rates and put a service-writer layer between you and the mechanic. At Scott's, one mechanic diagnoses and repairs your Expedition, with a clear explanation and a written estimate before anything begins.",
       "whyUs": [
         {
-          "title": "35 Years on Ford Trucks and SUVs",
+          "title": "Over 35 Years on Ford Trucks and SUVs",
           "desc": "We've serviced Expeditions since the model launched in 1997, Triton V8s through current EcoBoost models. That history with Ford's full-size platforms means a faster, more accurate diagnosis."
         },
         {

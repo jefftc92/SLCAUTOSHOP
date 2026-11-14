@@ -998,7 +998,7 @@ const brandContent = {
 // For non-detailed brands, generate generic but distinct content
 const defaultContent = (name) => ({
   issues: [
-    {t:`${name} Clutch Wear`,d:`We see ${name} clutch wear patterns specific to Salt Lake Valley driving, hill starts, canyon grades, and I-15 commuting all contribute. Our 35 years of experience means accurate diagnosis.`},
+    {t:`${name} Clutch Wear`,d:`We see ${name} clutch wear patterns specific to Salt Lake Valley driving, hill starts, canyon grades, and I-15 commuting all contribute. Over 35 years of experience means accurate diagnosis.`},
     {t:`${name} Brake Service`,d:`${name} brake systems require quality pads and rotors matched to the vehicle's weight and braking characteristics. We use OEM-equivalent or better components.`},
     {t:`${name} Cooling System`,d:`Utah's temperature extremes, hot summers and cold winters, stress ${name} cooling systems. We inspect and replace hoses, thermostats, and water pumps before they fail.`}
   ],
@@ -1345,7 +1345,7 @@ const extendedBrandContent = {
       'Lexus IS F and RC F V8 models need differential fluid changes every 30,000 miles. The performance rear differential runs hotter than standard models.'
     ],
     faqs: [
-      {q:'Can an independent shop service my Lexus?',a:'Absolutely. Lexus vehicles use Toyota mechanical components. Our 35 years of Toyota experience translates directly to Lexus. You\'ll get the same quality service at significantly less than Lexus dealer pricing.'},
+      {q:'Can an independent shop service my Lexus?',a:'Absolutely. Lexus vehicles use Toyota mechanical components. Over 35 years of Toyota experience translates directly to Lexus. You\'ll get the same quality service at significantly less than Lexus dealer pricing.'},
       {q:'Does my Lexus GX 470 need a timing belt?',a:'Yes. The 4.7L V8 in the GX 470 uses a timing belt that should be replaced every 90,000 miles along with the water pump, tensioner, and idler pulleys. This is critical, a broken belt destroys the engine.'},
       {q:'Why are my Lexus brakes so dusty?',a:'Lexus sport models use semi-metallic brake pads that produce heavy black dust. We can replace them with quality ceramic pads that produce 80% less dust while maintaining excellent stopping power. No compromise on safety.'}
     ]
@@ -3737,7 +3737,7 @@ const extendedBrandContent = {
     faqs: [
       {q:'What is GM AFM lifter failure?',a:'Active Fuel Management (AFM) deactivates cylinders for fuel economy. The special AFM lifters can collapse, causing misfires and ticking. It affects 5.3L and 6.2L V8 engines in Silverado, Sierra, Tahoe, Yukon, Suburban, and Escalade. We replace all 16 lifters and can disable AFM.'},
       {q:'Which GM vehicles have the timing chain issue?',a:'The 3.6L V6 timing chain issue affects: Chevy Traverse, Equinox, Camaro; GMC Acadia, Terrain; Buick Enclave, LaCrosse; Cadillac ATS, CTS, SRX, XT5. If you have any of these with 80,000+ miles and hear a cold-start rattle, have the chains inspected immediately.'},
-      {q:'Do you specialize in GM vehicles?',a:'GM vehicles represent a significant portion of our work. With 35 years of experience in the Salt Lake Valley, where GM trucks dominate, we\'ve seen every common GM issue hundreds of times. AFM lifters, timing chains, transmission service, these are routine repairs for our technicians.'}
+      {q:'Do you specialize in GM vehicles?',a:'GM vehicles represent a significant portion of our work. With over 35 years of experience in the Salt Lake Valley, where GM trucks dominate, we\'ve seen every common GM issue hundreds of times. AFM lifters, timing chains, transmission service, these are routine repairs for our technicians.'}
     ]
   }
 };

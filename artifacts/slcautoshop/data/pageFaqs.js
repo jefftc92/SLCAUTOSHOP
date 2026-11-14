@@ -300,7 +300,7 @@ function getLocationFaqs(location) {
   if (isHome) {
     return [
       {q:'Where is Scott\'s Auto & Clutch located?',a:"We are at 144 W Crystal Ave, South Salt Lake, UT 84115. Use the Get Directions link to plan your route to the shop."},
-      {q:'What are your hours?',a:'We\'re open Monday through Friday, 9:00 AM to 5:30 PM. Saturday appointments are available by request. Call (801) 485-4089 or text us to schedule.'},
+      {q:'What are your hours?',a:'We\'re open Monday through Friday, 9:00 AM to 5:30 PM. Saturday: By appointment only. Sunday: Closed. Call (801) 485-4089 or text us to schedule.'},
       {q:'Do you offer free estimates?',a:'Yes. We provide free visual inspections and estimates for most services. For complex diagnostics requiring specialized equipment, we charge a diagnostic fee that is applied toward the repair cost if you proceed with us.'}
     ];
   }

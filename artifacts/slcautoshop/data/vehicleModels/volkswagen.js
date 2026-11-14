@@ -60,7 +60,7 @@ module.exports = {
           "desc": "We road test, pull codes, and inspect before recommending anything. You receive a written estimate before we touch your Jetta, no diagnostic fee, no guessing."
         },
         {
-          "title": "35 Years at the Same South Salt Lake Location",
+          "title": "Over 35 Years at the Same South Salt Lake Location",
           "desc": "Scott's has been independently owned and operating at 144 W Crystal Ave since 1990. We're not a chain or a franchise, our reputation in this community is built one car at a time."
         }
       ],

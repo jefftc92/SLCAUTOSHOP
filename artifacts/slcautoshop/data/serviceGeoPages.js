@@ -1518,7 +1518,7 @@ const CONTENT = {
         metaDesc: 'Complete auto repair and maintenance for Riverton drivers. 12 miles northeast via Bangerter and I-15. Scott\'s Auto & Clutch Repair. (801) 485-4089.'
       },
       'herriman': {
-        intro: 'Herriman is the fastest-growing city in Utah, and many residents drive 20 minutes to our shop because there aren\'t many local options with 35 years of experience. We\'re 15 miles northeast, about 20 minutes.',
+        intro: 'Herriman is the fastest-growing city in Utah, and many residents drive 20 minutes to our shop because there aren\'t many local options with over 35 years of experience. We\'re 15 miles northeast, about 20 minutes.',
         localContent: 'Herriman is the fastest-growing city in Utah, and many residents have limited local options for comprehensive automotive service. The 20-minute drive to our shop at 144 W Crystal Ave is shorter than residents might expect from the Valley\'s southwest corner, and our track record since 1990 offers something newer local shops don\'t yet have. Herriman customers who make the drive for major repairs often establish us as their primary shop for routine service as well.',
         localTip: 'Herriman residents who haven\'t found a shop they trust locally are often best served by making the 20-minute drive to a shop with a 35-year history. The relationship is worth the distance when it means honest assessments and work done right the first time.',
         metaTitle: 'Complete Auto Service Near Herriman UT | Scott\'s Auto & Clutch Repair',

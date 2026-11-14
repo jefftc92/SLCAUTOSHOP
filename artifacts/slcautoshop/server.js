@@ -69,6 +69,10 @@ const businessSchema = {
     "latitude": 40.7183,
     "longitude": -111.8883
   },
+  "description": site.businessDescription,
+  "logo": site.domain + site.logo,
+  // Weekdays only. Saturday is by appointment and is described above,
+  // not published as a regular open interval.
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "17:30" }
   ],
@@ -93,7 +97,8 @@ const businessSchema = {
 const app = express();
 const PORT = process.env.PORT || 3000;
 const CSS_VER = process.env.CSS_VER || (() => { try { return require('child_process').execSync('git rev-parse --short HEAD').toString().trim(); } catch (e) { return 'prod'; } })();
-const PRIMARY_DOMAIN = 'https://slcautoshop.com';
+const CANONICAL_HOST = 'slcautoshop.com';
+const PRIMARY_DOMAIN = 'https://' + CANONICAL_HOST;
 const LEGACY_DOMAIN_HOSTS = new Set([
   'scottsautoandclutch.com',
   'www.scottsautoandclutch.com',
@@ -105,35 +110,54 @@ const LEGACY_CANONICAL_PATHS = new Map([
   ['/symptoms/rough-idle-over-bumps', '/symptoms/rough-ride-over-bumps'],
 ]);
 
-// Domain migration: consolidate the old site at the new canonical domain before
-// any other redirect or route can run. This preserves deep links, query strings,
-// and tracking parameters while avoiding a redirect chain.
-app.use((req, res, next) => {
-  const forwardedHost = req.headers['x-forwarded-host'];
-  const requestHost = String(forwardedHost || req.headers.host || '')
-    .split(',')[0]
-    .trim()
-    .split(':')[0]
-    .toLowerCase();
+// Replit's edge (Google Frontend) terminates TLS. Trust that one proxy hop so
+// req.protocol / req.secure follow X-Forwarded-Proto instead of the internal HTTP hop.
+app.set('trust proxy', 1);
 
-  if (!LEGACY_DOMAIN_HOSTS.has(requestHost)) return next();
+function firstHeaderValue(value) {
+  if (!value) return '';
+  const raw = Array.isArray(value) ? value[0] : String(value);
+  return raw.split(',')[0].trim();
+}
 
-  const originalUrl = req.originalUrl || req.url || '/';
+function requestHostname(req) {
+  const host = firstHeaderValue(req.headers['x-forwarded-host'] || req.headers.host);
+  return host.toLowerCase().replace(/:\d+$/, '').replace(/\.$/, '');
+}
+
+// Left-most X-Forwarded-Proto is the client protocol. Missing or unexpected
+// values are left alone so local dev and internal health checks are not redirected.
+function forwardedProto(req) {
+  const forwarded = firstHeaderValue(req.headers['x-forwarded-proto']).toLowerCase();
+  if (forwarded === 'http' || forwarded === 'https') return forwarded;
+  return '';
+}
+
+function canonicalRedirectTarget(req) {
+  const originalUrl = req.originalUrl || '/';
   const queryIndex = originalUrl.indexOf('?');
-  const rawPath = queryIndex === -1 ? originalUrl : originalUrl.slice(0, queryIndex);
+  let rawPath = queryIndex === -1 ? originalUrl : originalUrl.slice(0, queryIndex);
   const query = queryIndex === -1 ? '' : originalUrl.slice(queryIndex);
+  if (!rawPath.startsWith('/') || rawPath.startsWith('//') || rawPath.includes('\\') || /[\u0000\r\n]/.test(rawPath + query)) {
+    return PRIMARY_DOMAIN + '/';
+  }
   const normalizedPath = rawPath.length > 1 ? rawPath.replace(/\/+$/, '') : rawPath;
   const canonicalPath = LEGACY_CANONICAL_PATHS.get(normalizedPath) || normalizedPath;
+  return PRIMARY_DOMAIN + canonicalPath + query;
+}
 
-  return res.redirect(301, PRIMARY_DOMAIN + canonicalPath + query);
-});
-
-// Middleware
-app.set('trust proxy', 1);
+// One 301 to https://slcautoshop.com, preserving path and query.
+// Alias hosts (www, the legacy domain, the old Replit host) always move.
+// The apex host moves only when the edge says the client used plain HTTP.
+// Hosts we do not publish (pod health checks, localhost) are not redirected.
 app.use((req, res, next) => {
-  if (process.env.NODE_ENV !== 'production') return next();
-  if (req.secure || req.headers['x-forwarded-proto'] === 'https') return next();
-  return res.redirect(301, 'https://' + req.headers.host + req.url);
+  const hostname = requestHostname(req);
+  const proto = forwardedProto(req);
+  const alias = LEGACY_DOMAIN_HOSTS.has(hostname);
+  const canonical = hostname === CANONICAL_HOST;
+  if (!alias && !canonical) return next();
+  if (!alias && proto !== 'http') return next();
+  return res.redirect(301, canonicalRedirectTarget(req));
 });
 app.use(compression());
 // Generate a fresh nonce for every request — must run before Helmet so the
@@ -362,7 +386,7 @@ app.get('/', (req, res) => {
       "name": site.name,
       "alternateName": "SLC Auto Shop",
       "image": site.domain + site.heroImage,
-      "logo": site.domain + "/assets/logo.webp",
+      "logo": site.domain + site.logo,
       "telephone": site.phone,
       "url": site.domain,
       "priceRange": "$$",
@@ -374,7 +398,7 @@ app.get('/', (req, res) => {
         "jobTitle": site.owner.jobTitle,
         "worksFor": { "@id": site.domain + "/#business" }
       },
-      "description": "Family-owned auto repair shop in South Salt Lake since 1990. Brakes, clutch, transmission, engine, exhaust, and full service for all makes and models.",
+      "description": site.businessDescription,
       "slogan": "Honest diagnostics since 1990.",
       "paymentAccepted": ["Cash", "Credit Card", "Debit Card"],
       "currenciesAccepted": "USD",
@@ -470,7 +494,7 @@ app.get('/about', (req, res) => {
   res.render('about', {
     activePage: 'about',
     metaTitle: "About Scott's Auto & Clutch Repair | Our Story, Team, and Shop",
-    metaDesc: "Meet the family behind our shop. 36+ years keeping Salt Lake Valley drivers on the road with straight answers, careful work, and no surprises at checkout.",
+    metaDesc: "Meet the family behind our shop. Over 35 years keeping Salt Lake Valley drivers on the road with straight answers, careful work, and no surprises at checkout.",
     canonical: '/about',
     structuredData: [
       {
@@ -478,7 +502,7 @@ app.get('/about', (req, res) => {
         "@type": "AboutPage",
         "name": "About Scott's Auto & Clutch Repair",
         "url": site.domain + "/about",
-        "description": "Family-owned auto repair shop in South Salt Lake since 1990. Honest diagnosis, fair pricing, quality work for all makes and models.",
+        "description": "Family-owned auto repair shop in South Salt Lake for over 35 years, since 1990. Honest diagnosis, fair pricing, quality work for all makes and models.",
         "mainEntity": {
           "@type": "AutoRepair",
           "@id": site.domain + "/#business",
@@ -516,7 +540,7 @@ app.get('/contact', (req, res) => {
   res.render('contact', {
     activePage: 'contact',
     metaTitle: "Contact Us | Scott's Auto & Clutch Repair in South Salt Lake",
-    metaDesc: "Call, text, or visit for a free estimate. Located at 144 W Crystal Ave, open Mon–Fri 8 to 5:30. Walk-ins welcome. Reach us at (801) 485-4089.",
+    metaDesc: "Call, text, or visit for a free estimate. Located at 144 W Crystal Ave, open Mon–Fri 9:00 AM–5:30 PM. Saturday by appointment only. (801) 485-4089.",
     canonical: '/contact',
     structuredData: [
       {
@@ -530,6 +554,7 @@ app.get('/contact', (req, res) => {
           "name": site.name,
           "telephone": site.phone,
           "openingHours": "Mo-Fr 09:00-17:30",
+          "description": "Saturday: By appointment only. Sunday: Closed.",
           "address": { "@type": "PostalAddress", "streetAddress": site.address, "addressLocality": site.city, "addressRegion": site.state, "postalCode": site.zip, "addressCountry": "US" }
         }
       },

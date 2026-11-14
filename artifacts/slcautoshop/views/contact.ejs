@@ -36,7 +36,7 @@
 
     <div class="visit-grid mt-12">
       <div class="visit-detail"><h3>Shop Location</h3><p><%= site.fullAddress %></p></div>
-      <div class="visit-detail"><h3>Business Hours</h3><p><%= site.hoursShort %><br><%= site.satHours %></p></div>
+      <div class="visit-detail"><h3>Business Hours</h3><p><%= site.hours %><br><%= site.satHours %><br><%= site.sunHours %></p></div>
     </div>
     <a href="<%= site.directionsUrl %>" class="btn btn-outline" target="_blank" rel="noopener">Get Directions to Our Shop</a>
   </div>
@@ -51,7 +51,7 @@
         { title: "Clutch Specialists", desc: "Expert clutch repair and replacement for all makes and models" },
         { title: "All Makes & Models", desc: "From Honda to Ford, we service all vehicle brands" },
         { title: "Honest Quotes", desc: "Transparent pricing with no hidden fees or surprises" },
-        { title: "35+ Years Experience", desc: "Family-owned and operated since 1990" }
+        { title: "Over 35 Years Experience", desc: "Family-owned and operated since 1990" }
       ].forEach(v => { %>
       <div class="value-card">
         <h3><%= v.title %></h3>
