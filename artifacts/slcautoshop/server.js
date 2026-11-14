@@ -375,8 +375,8 @@ app.get('/', (req, res) => {
   res.render('home', {
     activePage: 'home',
     preloadImage: site.heroImage,
-    metaTitle: "Auto Repair South Salt Lake UT | Since 1990 | Scott's Auto & Clutch Repair",
-    metaDesc: "Family-owned shop serving the Salt Lake Valley since 1990. Clutch repair, brakes, CV axles, transmissions & more. Free estimates. Call (801) 485-4089.",
+    metaTitle: "Auto Repair Salt Lake City | Scott's Auto & Clutch Repair",
+    metaDesc: "Family-owned Salt Lake City auto repair since 1990. Clutch specialists at 144 W Crystal Ave in South Salt Lake. Call (801) 485-4089.",
     canonical: '/',
     structuredData: [
     {
@@ -570,8 +570,8 @@ app.get('/contact', (req, res) => {
 app.get('/services', (req, res) => {
   res.render('services-index', {
     activePage: 'services',
-    metaTitle: "Auto Repair Services South Salt Lake UT | Scott's Auto & Clutch Repair",
-    metaDesc: "Clutch repair, brake service, CV joints, timing chains, exhaust & more. All makes and models. Honest pricing, free diagnosis. Call (801) 485-4089.",
+    metaTitle: "Auto Repair Services | Scott's Auto & Clutch Repair",
+    metaDesc: "Clutch, brakes, exhaust, and full auto repair. Family shop in South Salt Lake since 1990. Call (801) 485-4089.",
     canonical: '/services',
     structuredData: [
       {

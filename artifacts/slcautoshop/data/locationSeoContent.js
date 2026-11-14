@@ -3,7 +3,7 @@
 
 const locationSeoContent = {
   'south-salt-lake-ut-auto-repair': {
-    keywordIntro: "Looking for an honest auto repair shop in South Salt Lake? Scott's Auto & Clutch Repair has been the trusted South Salt Lake mechanic since 1990. Our shop on Crystal Avenue serves drivers throughout South Salt Lake and the surrounding communities with complete automotive repair, clutch replacement, brake service, CV axle repair, timing chain work, exhaust repair, and full vehicle maintenance. If you need a reliable car mechanic in South Salt Lake, you've found your shop.",
+    keywordIntro: "Most of the cars that come in need a clutch, brakes, a CV axle, exhaust work, or regular maintenance. Bring it to 144 W Crystal Ave or call (801) 485-4089. We tell you what we found before any work starts.",
     commonNeeds: [
       { service: 'Clutch Repair', context: 'South Salt Lake drivers navigating State Street traffic and I-15 onramps put heavy wear on their clutches. We\'re the clutch specialists, it\'s literally our name.' },
       { service: 'Brake Service', context: 'Stop-and-go traffic on State Street and Main Street wears brake pads fast. South Salt Lake vehicles typically need brake service every 25,000-40,000 miles.' },
@@ -63,7 +63,7 @@ const locationSeoContent = {
     ]
   },
   "salt-lake-city-ut-auto-repair": {
-    "keywordIntro": "Our shop serves Salt Lake City drivers from South Salt Lake. We inspect the vehicle before recommending parts and explain whether the repair involves the clutch, transmission, brakes, engine, or another system. Use the service links below for details about the work you need.",
+    "keywordIntro": "Downtown, the Avenues, and the west side are a short drive to the shop in South Salt Lake. We look at the car before we recommend a clutch, brakes, exhaust, or anything else, and you get the estimate before work starts.",
     "commonNeeds": [
       {
         "service": "Clutch Repair",
@@ -186,7 +186,7 @@ const locationSeoContent = {
     ]
   },
   "west-jordan-ut-auto-repair": {
-    "keywordIntro": "Our shop serves West Jordan drivers from South Salt Lake. We inspect the vehicle before recommending parts and explain whether the repair involves the clutch, transmission, brakes, engine, or another system. Use the service links below for details about the work you need.",
+    "keywordIntro": "Jordan Landing, Copper Hills, and the rest of West Jordan are about a 12-minute drive. We look at the car first, then tell you whether it is the clutch, the brakes, the exhaust, or something else.",
     "commonNeeds": [
       {
         "service": "Clutch Repair",
