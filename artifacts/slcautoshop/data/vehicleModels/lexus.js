@@ -1165,7 +1165,7 @@ module.exports = {
       "whyUs": [
         {
           "title": "Toyota/Lexus Platform Experience Since 1990",
-          "desc": "The Lexus NX shares its platform and powertrain fundamentals with Toyota's proven architecture. We have deep experience with these engines, transmissions, and hybrid systems, the kind of knowledge that comes from 35 years of working on these vehicles."
+          "desc": "The Lexus NX shares its platform and powertrain fundamentals with Toyota's proven architecture. We have deep experience with these engines, transmissions, and hybrid systems, the kind of knowledge that comes from over 35 years of working on these vehicles."
         },
         {
           "title": "No Upsell, No Unnecessary Services",

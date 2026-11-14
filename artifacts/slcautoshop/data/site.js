@@ -10,11 +10,15 @@ module.exports = {
   zip: "84115",
   fullAddress: "144 W Crystal Ave, South Salt Lake, UT 84115",
   hours: "Mon-Fri: 9:00 AM - 5:30 PM",
-  hoursShort: "Mon-Fri: 9AM-5:30PM",
-  satHours: "Saturday: Closed",
+  hoursShort: "Mon-Fri: 9:00 AM - 5:30 PM",
+  // Saturday is by appointment only. Do not list it as regular open hours,
+  // and do not describe it as closed.
+  satHours: "Saturday: By appointment only",
   sunHours: "Sunday: Closed",
   founded: 1990,
-  yearsExperience: "36+",
+  yearsExperience: "over 35",
+  logo: "/assets/logo.webp",
+  businessDescription: "Family-owned auto repair shop in South Salt Lake for over 35 years, since 1990. Brakes, clutch, transmission, engine, exhaust, and full service for all makes and models. Open Monday through Friday, 9:00 AM to 5:30 PM. Saturday: By appointment only. Sunday: Closed.",
   // Single source of truth for the aggregate review rating shown in schema.
   // Must match the shop's real Google Business Profile so the homepage and
   // inner pages never publish conflicting numbers. Update here when GBP changes.
@@ -25,7 +29,7 @@ module.exports = {
   owner: {
     name: "Scott Bierman",
     jobTitle: "Owner",
-    yearsAtBusiness: "36+"
+    yearsAtBusiness: "over 35"
   },
   domain: "https://slcautoshop.com",
   directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=144%20W%20Crystal%20Ave%2C%20South%20Salt%20Lake%2C%20UT%2084115",

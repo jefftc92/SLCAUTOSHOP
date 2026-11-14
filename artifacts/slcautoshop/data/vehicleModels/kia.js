@@ -1098,7 +1098,7 @@ module.exports = {
       "whyIntro": "Kia dealers charge shop rates that don't make a lot of sense for a vehicle in the Rio's price class. At Scott's, you're not paying for a dealership waiting room or a service advisor middleman, you're paying for actual mechanical work done by the same person who diagnosed the car. We've been repairing small import platforms like the Rio since the shop opened in 1990, and we know where these cars save money and where they don't.",
       "whyUs": [
         {
-          "title": "35 Years on Small Import Platforms",
+          "title": "Over 35 Years on Small Import Platforms",
           "desc": "Small front-wheel-drive four-cylinders are what we do best. The Rio's drivetrain layout and engine family are right in our wheelhouse, diagnosis is fast and repairs are efficient because we've done them many times."
         },
         {

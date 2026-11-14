@@ -10,7 +10,7 @@ const services = [
     heroImage: "/assets/hero-600-DnXM3vMX.webp",
     metaTitle: "Clutch Repair Salt Lake City UT | Specialists Since 1990",
     heading: "Clutch Repair & Replacement in Salt Lake City, UT",
-    metaDesc: "Clutch slipping, grinding, or hard to shift? We've specialized in clutch replacement for 36+ years. Free diagnosis. Call (801) 485-4089.",
+    metaDesc: "Clutch slipping, grinding, or hard to shift? We've specialized in clutch replacement for over 35 years. Free diagnosis. Call (801) 485-4089.",
     heroIntro: "Scott's has specialized in clutch repair since 1990. It's literally in the name. Free diagnosis. Written estimate. No surprises.",
     shortDefinition: "A clutch connects your engine to your transmission so you can change gears, press the pedal, the connection breaks, you shift, release the pedal, it reconnects. The system has several components (disc, pressure plate, flywheel, hydraulic cylinders), and when any of them wear out, you feel it as slipping, grinding, or a pedal that doesn't feel right. Our service page explains exactly what we inspect and how we diagnose each issue.",
     intro: "",
@@ -149,7 +149,7 @@ const services = [
       },
       {
         q: "How do you tell if it's the clutch disc or the hydraulic system?",
-        a: "A hydraulic problem (air in the line, a failing master or slave cylinder) can produce symptoms identical to a worn disc: hard shifting, grinding, apparent slipping. We diagnose the hydraulic system first before making any recommendation about the disc assembly. In many cases the clutch itself is fine and only the hydraulic component needs repair. That diagnostic step is where 36 years of specialization shows."
+        a: "A hydraulic problem (air in the line, a failing master or slave cylinder) can produce symptoms identical to a worn disc: hard shifting, grinding, apparent slipping. We diagnose the hydraulic system first before making any recommendation about the disc assembly. In many cases the clutch itself is fine and only the hydraulic component needs repair. That diagnostic step is where over 35 years of specialization shows."
       },
       {
         q: "How long does a clutch repair take?",
@@ -2883,7 +2883,7 @@ const services = [
       },
       {
         title: "In Business Since 1990",
-        desc: "We've diagnosed check engine lights on every platform for 35 years. We know the patterns, which codes on which platforms are straightforward and which ones need deeper investigation."
+        desc: "We've diagnosed check engine lights on every platform for over 35 years. We know the patterns, which codes on which platforms are straightforward and which ones need deeper investigation."
       }
     ],
     processHeading: "How We Diagnose a Check Engine Light",
@@ -3094,7 +3094,7 @@ const services = [
       },
       {
         title: "In Business Since 1990",
-        desc: "We've diagnosed transmissions on every platform for 35 years. We know the patterns, which symptoms are fluid issues and which ones require teardown, and we tell you honestly which it is."
+        desc: "We've diagnosed transmissions on every platform for over 35 years. We know the patterns, which symptoms are fluid issues and which ones require teardown, and we tell you honestly which it is."
       }
     ],
     processHeading: "How We Diagnose a Transmission Problem",

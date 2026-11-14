@@ -262,7 +262,7 @@ module.exports = {
       "whyIntro": "A Corolla is an economical car, and repair costs should match. Dealers bill premium hourly rates and add a service-advisor markup; at Scott's, one mechanic diagnoses and repairs your Corolla start to finish. You get an honest estimate in plain language before we touch the car, keeping a reliable Corolla on the road shouldn't cost a fortune.",
       "whyUs": [
         {
-          "title": "35 Years of Toyota Experience",
+          "title": "Over 35 Years of Toyota Experience",
           "desc": "We've been working on Corollas since the shop opened in 1990, every generation and engine family. That depth of experience means quicker diagnosis and fewer surprises on your bill."
         },
         {
@@ -456,7 +456,7 @@ module.exports = {
           "desc": "We've serviced RAV4 all-wheel-drive systems for years, CV axles, transfer components, and driveline service. We know what AWD RAV4s need to keep traction reliable through Utah winters."
         },
         {
-          "title": "35 Years as an Independent Shop",
+          "title": "Over 35 Years as an Independent Shop",
           "desc": "Scott's has worked on Toyotas since 1990. That long experience with the RAV4 platform means faster diagnosis and accurate estimates on every generation."
         },
         {
@@ -646,7 +646,7 @@ module.exports = {
           "desc": "Tacomas that tow, haul, and run dirt roads work their suspension hard. We handle shock and strut replacement and inspect the front end thoroughly on every Tacoma that comes in."
         },
         {
-          "title": "35 Years of Toyota Truck Experience",
+          "title": "Over 35 Years of Toyota Truck Experience",
           "desc": "Scott's has worked on Toyota trucks since 1990. That long experience with the Tacoma platform means accurate diagnosis and no guesswork on your estimate."
         },
         {
@@ -832,7 +832,7 @@ module.exports = {
           "desc": "We've serviced the Highlander's V6 engines and all-wheel-drive systems for years, CV axles, cooling components, and driveline service that keeps traction reliable through Utah winters."
         },
         {
-          "title": "35 Years as an Independent Toyota Shop",
+          "title": "Over 35 Years as an Independent Toyota Shop",
           "desc": "Scott's has worked on Toyotas since 1990. That depth with the Highlander platform means faster diagnosis and accurate estimates on every generation."
         },
         {
@@ -1026,7 +1026,7 @@ module.exports = {
           "desc": "4Runners routinely pass 250,000 miles. We give honest assessments on high-mileage trucks, what needs attention now, what can wait, instead of pushing you toward a new vehicle."
         },
         {
-          "title": "35 Years of Toyota Truck Experience",
+          "title": "Over 35 Years of Toyota Truck Experience",
           "desc": "Scott's has worked on body-on-frame Toyotas since 1990. That long experience with the 4Runner platform means accurate diagnosis and no guesswork on your estimate."
         },
         {

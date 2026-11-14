@@ -36,7 +36,7 @@ module.exports = {
       "whyIntro": "When your Silverado is your work truck, downtime costs you money. At Scott's, the mechanic who diagnoses your truck is the one who repairs it, no service-advisor layer, no guessing games. You get a straight answer on what's wrong, a written estimate before anything starts, and a shop that's been keeping Salt Lake trucks on the road since 1990.",
       "whyUs": [
         {
-          "title": "35 Years of GM Truck Experience",
+          "title": "Over 35 Years of GM Truck Experience",
           "desc": "We've worked on Silverados since the C/K trucks that came before them. Every Vortec and EcoTec3 V8, every cab configuration. That depth means faster diagnosis and fewer surprises on your bill."
         },
         {
@@ -412,7 +412,7 @@ module.exports = {
       "whyIntro": "A Malibu is built to be an affordable, dependable car, and dealership repair bills can undercut that value fast. At Scott's, you skip the dealer hourly rate and the service-advisor middleman. One mechanic diagnoses your Malibu and repairs it, explains it in plain language, and gives you a written estimate before any work starts.",
       "whyUs": [
         {
-          "title": "35 Years on GM Sedans",
+          "title": "Over 35 Years on GM Sedans",
           "desc": "We've serviced Malibus and their Ecotec engines for decades. That experience means we recognize the common failure patterns quickly and get your diagnosis right the first time."
         },
         {
@@ -784,7 +784,7 @@ module.exports = {
       "whyIntro": "A Tahoe is a major investment, and dealer service rates on a full-size SUV climb fast. At Scott's, you skip the dealer hourly rate and the service-advisor handoff, one mechanic diagnoses your Tahoe and repairs it. You get a plain-language explanation and a written estimate before any work begins.",
       "whyUs": [
         {
-          "title": "35 Years of GM V8 SUV Experience",
+          "title": "Over 35 Years of GM V8 SUV Experience",
           "desc": "We've worked on Tahoes and their V8s since the GMT400 era. Every Vortec and EcoTec3 engine, two- and four-wheel drive. That depth gets your diagnosis right and your bill predictable."
         },
         {
@@ -974,7 +974,7 @@ module.exports = {
       "whyIntro": "A Suburban is a big-ticket family vehicle, and dealer rates on a full-size SUV add up quickly. At Scott's, there's no service-advisor middleman and no inflated dealer hourly rate, one mechanic diagnoses your Suburban and repairs it. You get a clear, plain-language explanation and a written estimate before any work starts.",
       "whyUs": [
         {
-          "title": "35 Years on Full-Size GM SUVs",
+          "title": "Over 35 Years on Full-Size GM SUVs",
           "desc": "We've serviced Suburbans since the GMT400 era, every V8, two- and four-wheel drive. That long experience with these big haulers means an accurate diagnosis and a predictable bill."
         },
         {
@@ -1156,7 +1156,7 @@ module.exports = {
       "whyIntro": "A Colorado is a do-it-all truck, and dealer service rates eat into that practicality fast. At Scott's, you skip the dealer hourly rate and the service-advisor handoff, one mechanic diagnoses your Colorado and does the work. You get a plain-language explanation and a written estimate before any work begins.",
       "whyUs": [
         {
-          "title": "35 Years on GM Trucks",
+          "title": "Over 35 Years on GM Trucks",
           "desc": "We've serviced Colorados and the S-10s before them since Scott's opened. That long experience with GM's midsize trucks means an accurate diagnosis and fewer surprises on your bill."
         },
         {

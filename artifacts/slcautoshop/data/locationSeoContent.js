@@ -91,7 +91,7 @@ const locationSeoContent = {
       },
       {
         "q": "What is the best auto repair for vehicles driven in the Avenues?",
-        "a": "The steep streets in the Avenues are particularly hard on clutches, brakes, and suspensions. We specialize in these exact repairs and understand the wear patterns that Avenues driving creates. Our 35+ years of Salt Lake City experience means we know what to look for."
+        "a": "The steep streets in the Avenues are particularly hard on clutches, brakes, and suspensions. We specialize in these exact repairs and understand the wear patterns that Avenues driving creates. Over 35 years of Salt Lake City experience means we know what to look for."
       }
     ]
   },
@@ -151,7 +151,7 @@ const locationSeoContent = {
     vehicleContext: "Cottonwood Heights has one of the highest concentrations of AWD and 4WD vehicles in the valley, Subaru Outbacks, Toyota 4Runners, Jeep Wranglers, and ski-capable SUVs everywhere. We also see luxury vehicles, performance cars, and family vehicles from the community\'s established neighborhoods.",
     routeInfo: "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from Cottonwood Heights with current traffic and your exact starting point.",
     extraFaqs: [
-      { q: 'Do you have experience with ski-season canyon driving wear?',  a: 'Absolutely. Cottonwood Heights drivers who ski Alta, Snowbird, Solitude, and Brighton face unique vehicle wear from winter canyon driving, brake heat, cooling system stress, AWD maintenance, tire chain damage. Our 35+ years in the Salt Lake Valley means we know exactly what to look for.' },
+      { q: 'Do you have experience with ski-season canyon driving wear?',  a: 'Absolutely. Cottonwood Heights drivers who ski Alta, Snowbird, Solitude, and Brighton face unique vehicle wear from winter canyon driving, brake heat, cooling system stress, AWD maintenance, tire chain damage. With over 35 years in the Salt Lake Valley, we know exactly what to look for.' },
       { q: 'What type of brake pads should Cottonwood Heights drivers use?', a: 'For drivers regularly descending Little Cottonwood or Big Cottonwood canyons, we typically recommend ceramic brake pads. Ceramic pads handle sustained heat better than semi-metallic and produce less brake dust. For serious canyon commuters, high-performance ceramic pads may be worth the upgrade.' }
     ]
   },
@@ -244,7 +244,7 @@ const locationSeoContent = {
     vehicleContext: "Riverton is primarily a family community with family-oriented vehicles, minivans, SUVs, family sedans, and work trucks. We see Toyota Highlanders, Honda Pilots, Ford Expeditions, Chevy Suburbans, and similar family haulers from Riverton customers.",
     routeInfo: "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from Riverton with current traffic and your exact starting point.",
     extraFaqs: [
-      { q: 'Is Scott\'s Auto worth the drive from Riverton?', a: 'Many Riverton customers think so. Our honest pricing, quality repairs, and 35+ years of experience save Riverton customers hundreds to thousands compared to dealer pricing. The 20-minute drive pays for itself on most repairs.' },
+      { q: 'Is Scott\'s Auto worth the drive from Riverton?', a: 'Many Riverton customers think so. Our honest pricing, quality repairs, and over 35 years of experience save Riverton customers hundreds to thousands compared to dealer pricing. The 20-minute drive pays for itself on most repairs.' },
       { q: 'Can I drop off my vehicle in the morning and pick up after work?', a: 'Call to confirm drop-off and pickup arrangements before your visit. Whether the vehicle will be ready that evening depends on the diagnosis, repair, and parts availability. If you plan to use transit, check the full trip from the shop address with UTA.' }
     ]
   },
@@ -259,7 +259,7 @@ const locationSeoContent = {
     vehicleContext: "Herriman families drive mostly SUVs, trucks, and family-friendly vehicles suitable for mountain access and winter driving. We see Toyota 4Runners, Subaru Outbacks, Ford Explorers, Honda Pilots, Jeep Grand Cherokees, and similar capable family vehicles from Herriman customers.",
     routeInfo: "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from Herriman with current traffic and your exact starting point.",
     extraFaqs: [
-      { q: 'Is the drive from Herriman to your shop worth it?', a: 'Many Herriman customers consistently make the drive because our pricing saves them hundreds on major repairs compared to closer dealer service centers. Our 35+ years of experience and satisfaction guarantee make the 25-minute drive worthwhile for most jobs.' },
+      { q: 'Is the drive from Herriman to your shop worth it?', a: 'Many Herriman customers consistently make the drive because our pricing saves them hundreds on major repairs compared to closer dealer service centers. Over 35 years of experience and satisfaction guarantee make the 25-minute drive worthwhile for most jobs.' },
       { q: 'Do you work on SUVs and trucks common in Herriman?', a: 'Yes. SUVs and trucks are among our most common vehicle types. From Ford F-150s and Chevy Silverados to Toyota 4Runners and Jeep Grand Cherokees, we have extensive experience with Herriman\'s preferred vehicle types.' }
     ]
   },

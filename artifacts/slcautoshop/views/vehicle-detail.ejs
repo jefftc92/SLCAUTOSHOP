@@ -125,7 +125,7 @@
         </div>
         <div class="location-detail">
           <h3>Hours</h3>
-          <p><%= site.hours %></p>
+          <p><%= site.hours %><br><%= site.satHours %><br><%= site.sunHours %></p>
         </div>
         <div class="location-detail">
           <h3>Phone</h3>
@@ -237,7 +237,7 @@
     <h2>Why <%= brand.name %> Drivers Choose Us</h2>
     <div class="values-grid">
       <% const whyUsItems = (brandContent && brandContent.whyUs && brandContent.whyUs.length) ? brandContent.whyUs : [
-        { title: "35+ Years Experience", desc: "Our technicians have decades of hands-on experience working on all vehicle makes and models." },
+        { title: "Over 35 Years Experience", desc: "Our technicians have decades of hands-on experience working on all vehicle makes and models." },
         { title: "Quality Parts", desc: "We use OEM and quality aftermarket parts that meet or exceed manufacturer specifications." },
         { title: "Same-Day Service", desc: "Many repairs completed same-day. We respect your time and work efficiently." },
         { title: "Honest Pricing", desc: "No surprises. We provide upfront quotes and explain every repair before we start." }

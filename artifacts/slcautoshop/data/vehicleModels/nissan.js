@@ -48,7 +48,7 @@ module.exports = {
           "desc": "The Altima's continuously variable transmission has a reputation, and a lot of owners come to us worried. We road test, check fluid condition, and give you an honest assessment of whether you're looking at a fluid service or something larger, no scare tactics."
         },
         {
-          "title": "35 Years Working on Nissan Sedans",
+          "title": "Over 35 Years Working on Nissan Sedans",
           "desc": "Scott's has been open since 1990, and the Altima has been a fixture in our bays for most of that time. We know the QR25 four-cylinder and VQ-series V6 failure points by model year."
         },
         {

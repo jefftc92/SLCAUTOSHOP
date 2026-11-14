@@ -40,7 +40,7 @@ module.exports = {
       "whyIntro": "Ram 1500 owners come to Scott's because dealer service advisors hand your truck to a technician you never meet and charge $160 an hour for the privilege. At Scott's, one mechanic diagnoses your truck and completes the repair, the same person, start to finish. We've been doing this since 1990, and Ram trucks are a regular fixture in our bays. You get a plain-language explanation of what we found, a written estimate, and nothing starts until you approve it.",
       "whyUs": [
         {
-          "title": "35 Years Working on Dodge and Ram Trucks",
+          "title": "Over 35 Years Working on Dodge and Ram Trucks",
           "desc": "We've been servicing Ram and Dodge trucks since Scott's opened in 1990. Every engine family from the 318 Magnum to the 5.7 Hemi and the 3.6 Pentastar is familiar ground for us."
         },
         {
