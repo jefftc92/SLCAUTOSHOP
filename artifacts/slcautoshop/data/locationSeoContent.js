@@ -64,31 +64,38 @@ const locationSeoContent = {
   },
   'murray-ut-auto-repair': {
     keywordIntro: "",
+    heroFollow: "Why? Because we don't play games with pricing. We never charge diagnostic fees, we don't start work without your approval, and we handle the logistics if your car breaks down.",
     hideClutchBlurb: true,
+    mapAtEnd: true,
     towing: {
-      title: "Can't Drive It? We Offer Free Towing.",
-      body: "If your car is stuck in your driveway in Murray, don't pay out of pocket for a tow truck. We offer Free Towing on all repairs over $1,000. We will bring your vehicle straight to our shop for a Free Diagnosis and call you with a firm price before we touch a wrench."
+      title: "If your car won't drive, we will tow it.",
+      paragraphs: [
+        "Paying for a tow truck before a mechanic even looks at your car is incredibly frustrating. If your vehicle is stuck in your driveway or a parking lot in Murray, we offer free towing to our shop on all repairs over $1,000.",
+        "We will send a truck to your house, your workplace, or the side of the road. Once the car gets here, we run a free diagnostic and call you with an exact price before we touch anything."
+      ]
     },
-    repairsTitle: "Common Repairs for Murray Drivers",
-    repairsIntro: "",
+    repairsTitle: "Why make the 8-minute drive up State Street?",
+    repairsIntro: "If your car is still drivable, here is why it's worth the quick trip to 144 W Crystal Ave:",
     commonNeeds: [
-      { service: 'Clutch & Transmission Repair', context: 'This is our specialty. If your pedal feels spongy, your gears are grinding, or the engine revs without accelerating, bring it in for an expert inspection.' },
-      { service: 'Brake Service', context: 'Stop-and-go traffic on State Street takes a toll on brake pads. If your brakes are grinding, squeaking, or the pedal feels soft, we offer same-day pad and rotor service.' },
-      { service: 'Struts & Suspension', context: 'If your ride has gotten bumpy or you hear clunking when turning, including in the lots around Fashion Place, we can inspect your shocks and struts to smooth out your commute.' },
-      { service: 'Exhaust & Engine Diagnostics', context: 'Is your check engine light on, or is the cabin smelling like exhaust? We find the actual root cause of the problem, not just the scanner code.' }
+      { service: 'Free Diagnostics', context: "We never charge a fee just to figure out what's wrong with your car." },
+      { service: 'Clutch & Transmission Experts', context: 'This is what we are known for in the valley. We handle everything from standard clutch replacements to dropping the transmission on a Lancer Evo for a new pressure plate.' },
+      { service: 'Everyday Maintenance', context: 'We do the normal stuff, too. Stop-and-go traffic on State Street is hard on cars, so we handle same-day brake pads, rotors, struts, and shocks. We also do water pumps, head gaskets, and timing belts.' },
+      { service: 'Honest Engine Diagnostics', context: 'If your check engine light is on or your car is running rough, we find the actual root cause of the problem—not just the scanner code.' },
+      { service: 'Guaranteed Work', context: 'Every repair we do is backed by a solid 2-Year Parts & Labor Warranty.' }
     ],
     vehicleContext: "We service domestic and import cars, trucks, and SUVs, including manual transmissions.",
     directions: {
       title: "Getting to the Shop",
-      body: "Location: 144 W Crystal Ave, South Salt Lake, UT 84115. From Murray, it is typically an 8-minute drive. Take State Street north, cross 3300 South, and turn west onto Crystal Avenue. The shop is just west of State."
+      body: "Location: 144 W Crystal Ave, South Salt Lake, UT 84115. From Murray: It's typically an 8-minute drive. Take State Street north, cross 3300 South, and turn west onto Crystal Avenue. The shop is just west of State."
     },
     routeInfo: "The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. From Murray, take State Street north, cross 3300 South, and turn west onto Crystal Avenue.",
     faqTitle: "Frequently Asked Questions",
     ctaTitle: "Call to Arrange a Drop-Off or Tow",
-    ctaDesc: "Call (801) 485-4089 to arrange a drop-off or a tow from Murray.",
+    ctaDesc: "Call (801) 485-4089. Monday - Friday: 9:00 AM - 5:30 PM.",
     faqs: [
-      { q: 'Where is the closest auto repair to Murray?', a: "Scott's Auto & Clutch Repair is located at 144 W Crystal Ave, about 4 miles north of Murray. We've been a family-owned staple in the valley since 1990." },
-      { q: 'Do you charge to look at my car?', a: 'No. We offer free diagnostics. You tell us what the car is doing, we inspect it, and we explain our exact recommendations and pricing before any work begins.' }
+      { q: 'Where is the closest auto repair to Murray?', a: "Scott's Auto & Clutch Repair is located at 144 W Crystal Ave, about 4 miles north of Murray. We've been a family-owned staple in the Salt Lake Valley since 1990." },
+      { q: 'Do you charge to look at my car?', a: 'No. We offer free diagnostics. You tell us what the car is doing, we inspect it, and we explain exactly what it needs and what it will cost before we start working.' },
+      { q: "What if I don't know what's wrong with it?", a: "You don't need to know the mechanical issue before you call. Just tell us what you're hearing, feeling, or seeing, and we will handle the rest." }
     ],
     extraFaqs: []
   },

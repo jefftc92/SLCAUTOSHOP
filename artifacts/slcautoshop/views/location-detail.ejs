@@ -8,6 +8,9 @@
   <div class="container">
     <h1><%= location.heading %></h1>
     <p><%= location.intro %></p>
+    <% if (locSeo && locSeo.heroFollow) { %>
+    <p class="mt-4"><%- linkifyServices(locSeo.heroFollow) %></p>
+    <% } %>
     <div class="hero-buttons">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
       <a href="sms:<%= site.phoneSms %>" class="btn btn-secondary">Text Us</a>
@@ -16,6 +19,9 @@
 </section>
 
 <!-- 1. Shop Info + Map — white -->
+<% var showShopMap = !(locSeo && locSeo.mapAtEnd); %>
+<% var showShopBody = location.whyChooseUs || (locSeo && locSeo.keywordIntro) || (clutchGeo && !(locSeo && locSeo.hideClutchBlurb)) || (locSeo && locSeo.routeInfo && !locSeo.directions); %>
+<% if (showShopBody || showShopMap) { %>
 <section class="content-section">
   <div class="container">
     <% var shopHeading = !location.isHome ? ('Auto Repair for ' + location.name + ' Drivers') : 'Your South Salt Lake Auto Shop'; %>
@@ -24,7 +30,9 @@
     <% } %>
     <div class="loc-shop-grid">
       <div class="loc-shop-info">
+        <% if (location.whyChooseUs) { %>
         <p><%- linkifyServices(location.whyChooseUs) %></p>
+        <% } %>
         <% if (locSeo && locSeo.keywordIntro) { %>
         <p class="mt-4"><%- linkifyServices(locSeo.keywordIntro) %></p>
         <% } %>
@@ -55,6 +63,7 @@
           <a href="tel:<%= site.phoneTel %>" class="btn btn-secondary">Call <%= site.phone %></a>
         </div>
       </div>
+      <% if (showShopMap) { %>
       <div class="loc-shop-map">
         <iframe
           src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
@@ -67,15 +76,22 @@
           title="Scott's Auto & Clutch Repair Location">
         </iframe>
       </div>
+      <% } %>
     </div>
   </div>
 </section>
+<% } %>
 
 <% if (locSeo && locSeo.towing) { %>
 <section class="content-section alt-bg">
   <div class="container">
     <h2><%= locSeo.towing.title %></h2>
-    <div class="prose"><p><%- linkifyServices(locSeo.towing.body) %></p></div>
+    <div class="prose">
+      <% var towingParas = (locSeo.towing.paragraphs && locSeo.towing.paragraphs.length) ? locSeo.towing.paragraphs : [locSeo.towing.body]; %>
+      <% towingParas.forEach(function(para) { %>
+      <p><%- linkifyServices(para) %></p>
+      <% }) %>
+    </div>
   </div>
 </section>
 <% } %>
@@ -181,4 +197,20 @@
   (locSeo && locSeo.ctaTitle) ? { ctaTitle: locSeo.ctaTitle } : {},
   (locSeo && locSeo.ctaDesc) ? { ctaDesc: locSeo.ctaDesc } : {}
 )) %>
+<% if (locSeo && locSeo.mapAtEnd) { %>
+<section class="content-section">
+  <div class="container">
+    <iframe
+      src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
+      width="100%"
+      height="360"
+      class="map-embed map-embed--md"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Scott's Auto & Clutch Repair Location">
+    </iframe>
+  </div>
+</section>
+<% } %>
 <%- include('partials/footer') %>

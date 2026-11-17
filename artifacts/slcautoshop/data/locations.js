@@ -25,8 +25,8 @@ const locations = [
   },
   {
     slug: "murray-ut-auto-repair", name: "Murray", state: "UT", distance: "4 miles", driveTime: "8 min", zipCodes: ["84107", "84121", "84123"], isHome: false,
-    intro: "We are located just 4 miles north of Murray. Most of our Murray customers take State Street north to our shop at 144 W Crystal Ave in South Salt Lake.",
-    whyChooseUs: "Since 1990, drivers from downtown Murray, the Vine Street area, and Fashion Place have made the short trip to us because we don't charge diagnostic fees and we never start work without your approval. Whether you need specialized manual transmission work or just a routine brake pad replacement, we make the process painless.",
+    intro: "We are located about 4 miles north of Murray in South Salt Lake. For over 30 years, drivers from downtown Murray, the Vine Street area, and around Fashion Place have been making the short drive up State Street to our shop.",
+    whyChooseUs: "",
     landmarks: [],
     neighborhoods: ["Downtown Murray", "Historic Murray", "Vine Street District", "Murray City Center", "Fashion Place"],
     aboutCity: ""
@@ -187,7 +187,7 @@ const locationMetaMap = {
   'south-salt-lake-ut-auto-repair': { t: "South Salt Lake Auto Repair | Scott's Auto & Clutch Repair", h: "Auto Repair in South Salt Lake", d: "Auto repair at 144 W Crystal Ave, South Salt Lake. Family-owned clutch shop since 1990, between I-15 and State Street. (801) 485-4089." },
   'sugar-house-ut-auto-repair':     { t: "Auto Repair Sugar House UT | Scott's Auto & Clutch Repair",            d: "Three miles south of Sugar House with TRAX drop-off. Drop your car, catch the train, pick up after work. Honest diagnosis. (801) 485-4089." },
   'millcreek-ut-auto-repair':       { t: "Auto Repair for Millcreek Drivers | Scott's Auto & Clutch Repair", h: "Auto Repair for Millcreek Drivers", d: "Millcreek drivers take 3300 South west to Scott's Auto & Clutch Repair at 144 W Crystal Ave. Family-owned since 1990. Free towing on repairs over $1,000. (801) 485-4089." },
-  'murray-ut-auto-repair':          { t: "Auto Repair for Murray Drivers | Scott's Auto & Clutch Repair", h: "Auto Repair for Murray Drivers", d: "Murray drivers take State Street north to Scott's Auto & Clutch Repair at 144 W Crystal Ave. Family-owned since 1990. Free towing on repairs over $1,000. (801) 485-4089." },
+  'murray-ut-auto-repair':          { t: "Auto Repair Near Murray, UT | Free Towing & Diagnostics", h: "Auto Repair for Murray Drivers", d: "Honest auto repair just 4 miles north of Murray at 144 W Crystal Ave. Free diagnostics, free towing on major repairs, and family-owned since 1990. (801) 485-4089." },
   'salt-lake-city-ut-auto-repair':  { t: "Salt Lake City Auto Repair | Scott's Auto & Clutch Repair", h: "Salt Lake City Auto Repair", d: "Auto repair for Salt Lake City, 4 miles south at 144 W Crystal Ave. Family-owned clutch shop since 1990. Free estimates. (801) 485-4089." },
   'taylorsville-ut-auto-repair':    { t: "Auto Repair Taylorsville UT | Scott's Auto & Clutch Repair",           d: "Taylorsville families, minivans, SUVs, and daily drivers, five miles east and over 35 years of trusted service to the community. (801) 485-4089." },
   'west-valley-city-ut-auto-repair':{ t: "Auto Repair West Valley City UT | Since 1990",                         d: "West Valley commercial vehicles, work trucks, and family cars get fast turnaround at our South Salt Lake shop. Seven miles east. Call (801) 485-4089." },
