@@ -1,4 +1,5 @@
 <%- include('partials/header') %>
+<% function pageCopy(text) { if (!text) return ''; if (locSeo && locSeo.plainCopy) return text; return linkifyServices(text); } %>
 
 <%- include("partials/breadcrumbs", {breadcrumbs: [{label:'Home',url:'/'},{label:'Service Areas',url:'/locations'},{label:location.name}]}) %>
 
@@ -9,7 +10,7 @@
     <h1><%= location.heading %></h1>
     <p><%= location.intro %></p>
     <% if (locSeo && locSeo.heroFollow) { %>
-    <p class="mt-4"><%- linkifyServices(locSeo.heroFollow) %></p>
+    <p class="mt-4"><%- pageCopy(locSeo.heroFollow) %></p>
     <% } %>
     <div class="hero-buttons">
       <a href="tel:<%= site.phoneTel %>" class="btn btn-primary">Call <%= site.phone %></a>
@@ -31,10 +32,10 @@
     <div class="loc-shop-grid">
       <div class="loc-shop-info">
         <% if (location.whyChooseUs) { %>
-        <p><%- linkifyServices(location.whyChooseUs) %></p>
+        <p><%- pageCopy(location.whyChooseUs) %></p>
         <% } %>
         <% if (locSeo && locSeo.keywordIntro) { %>
-        <p class="mt-4"><%- linkifyServices(locSeo.keywordIntro) %></p>
+        <p class="mt-4"><%- pageCopy(locSeo.keywordIntro) %></p>
         <% } %>
         <% if (clutchGeo && !(locSeo && locSeo.hideClutchBlurb)) { %>
         <p class="mt-4"><%= location.name %> drivers looking for a clutch specialist nearby can <a href="/services/<%= clutchGeo.slug %>">learn more about our clutch repair service for <%= location.name %> drivers</a>.</p>
@@ -89,7 +90,7 @@
     <div class="prose">
       <% var towingParas = (locSeo.towing.paragraphs && locSeo.towing.paragraphs.length) ? locSeo.towing.paragraphs : [locSeo.towing.body]; %>
       <% towingParas.forEach(function(para) { %>
-      <p><%- linkifyServices(para) %></p>
+      <p><%- pageCopy(para) %></p>
       <% }) %>
     </div>
   </div>
@@ -130,9 +131,9 @@
           <span class="landmark-distance"><%= lm.distance %></span>
         </div>
         <% if (lm.description) { %>
-        <p class="landmark-desc"><%- linkifyServices(lm.description) %></p>
+        <p class="landmark-desc"><%- pageCopy(lm.description) %></p>
         <% } %>
-        <p class="landmark-tip"><%- linkifyServices(lm.tip) %></p>
+        <p class="landmark-tip"><%- pageCopy(lm.tip) %></p>
       </div>
       <% }) %>
     </div>
@@ -150,7 +151,7 @@
     <div class="loc-common-needs">
       <% locSeo.commonNeeds.forEach(need => { %>
       <div class="loc-need-item">
-        <strong><%- linkifyServices(need.service) %>:</strong> <%- linkifyServices(need.context) %>
+        <strong><%- pageCopy(need.service) %>:</strong> <%- pageCopy(need.context) %>
       </div>
       <% }) %>
     </div>
@@ -162,7 +163,17 @@
 <section class="content-section alt-bg">
   <div class="container">
     <h2><%= locSeo.directions.title %></h2>
-    <div class="prose"><p><%- linkifyServices(locSeo.directions.body) %></p></div>
+    <div class="prose"><p><%- pageCopy(locSeo.directions.body) %></p></div>
+    <iframe
+      src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
+      width="100%"
+      height="360"
+      class="map-embed map-embed--md mt-8"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Scott's Auto & Clutch Repair Location">
+    </iframe>
   </div>
 </section>
 <% } %>
@@ -197,20 +208,4 @@
   (locSeo && locSeo.ctaTitle) ? { ctaTitle: locSeo.ctaTitle } : {},
   (locSeo && locSeo.ctaDesc) ? { ctaDesc: locSeo.ctaDesc } : {}
 )) %>
-<% if (locSeo && locSeo.mapAtEnd) { %>
-<section class="content-section">
-  <div class="container">
-    <iframe
-      src="https://maps.google.com/maps?q=144+W+Crystal+Ave,+South+Salt+Lake,+UT+84115&output=embed&hl=en&z=15"
-      width="100%"
-      height="360"
-      class="map-embed map-embed--md"
-      allowfullscreen
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-      title="Scott's Auto & Clutch Repair Location">
-    </iframe>
-  </div>
-</section>
-<% } %>
 <%- include('partials/footer') %>

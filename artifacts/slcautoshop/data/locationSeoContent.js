@@ -35,6 +35,8 @@ const locationSeoContent = {
   'millcreek-ut-auto-repair': {
     keywordIntro: "",
     hideClutchBlurb: true,
+    plainCopy: true,
+    mapAtEnd: true,
     towing: {
       title: "Can't Drive It? We Offer Free Towing.",
       body: "If your car is stuck in your driveway in Millcreek, don't pay out of pocket for a tow truck. We offer Free Towing on all repairs over $1,000. We will bring your vehicle straight to our shop for a Free Diagnosis and call you with a firm price before we touch a wrench."
@@ -66,6 +68,7 @@ const locationSeoContent = {
     keywordIntro: "",
     heroFollow: "Why? Because we don't play games with pricing. We never charge diagnostic fees, we don't start work without your approval, and we handle the logistics if your car breaks down.",
     hideClutchBlurb: true,
+    plainCopy: true,
     mapAtEnd: true,
     towing: {
       title: "If your car won't drive, we will tow it.",
@@ -166,6 +169,7 @@ const locationSeoContent = {
     keywordIntro: "",
     heroFollow: "Why? Because we don't play games with pricing. We offer free initial diagnostics, we don't start work without your approval, and we handle the logistics if your car breaks down.",
     hideClutchBlurb: true,
+    plainCopy: true,
     mapAtEnd: true,
     towing: {
       title: "If your car won't drive, we will tow it.",
