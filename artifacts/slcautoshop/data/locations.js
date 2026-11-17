@@ -84,8 +84,8 @@ const locations = [
   },
   {
     slug: "holladay-ut-auto-repair", name: "Holladay", state: "UT", distance: "5 miles", driveTime: "9 min", zipCodes: ["84117", "84121"], isHome: false,
-    intro: "We are located just 5 miles from Holladay. Most of our Holladay customers take 4500 South west to State Street, then State Street north, to our shop at 144 W Crystal Ave in South Salt Lake.",
-    whyChooseUs: "Since 1990, drivers from Holladay Village, Olympus Cove, and Knollwood have made the short trip to us because we don't charge diagnostic fees and we never start work without your approval. Whether you need specialized manual transmission work or just a routine brake pad replacement, we make the process painless.",
+    intro: "We are located about 5 miles from Holladay in South Salt Lake. For over 30 years, drivers from Holladay Village, Olympus Cove, and Knollwood have been making the short drive down 4500 South to our shop.",
+    whyChooseUs: "",
     landmarks: [],
     neighborhoods: ["Holladay Village", "Cottonwood", "Olympus Cove", "Holladay Hills", "Knollwood"],
     aboutCity: ""
@@ -191,7 +191,7 @@ const locationMetaMap = {
   'salt-lake-city-ut-auto-repair':  { t: "Salt Lake City Auto Repair | Scott's Auto & Clutch Repair", h: "Salt Lake City Auto Repair", d: "Auto repair for Salt Lake City, 4 miles south at 144 W Crystal Ave. Family-owned clutch shop since 1990. Free estimates. (801) 485-4089." },
   'taylorsville-ut-auto-repair':    { t: "Auto Repair Taylorsville UT | Scott's Auto & Clutch Repair",           d: "Taylorsville families, minivans, SUVs, and daily drivers, five miles east and over 35 years of trusted service to the community. (801) 485-4089." },
   'west-valley-city-ut-auto-repair':{ t: "Auto Repair West Valley City UT | Since 1990",                         d: "West Valley commercial vehicles, work trucks, and family cars get fast turnaround at our South Salt Lake shop. Seven miles east. Call (801) 485-4089." },
-  'holladay-ut-auto-repair':        { t: "Auto Repair for Holladay Drivers | Scott's Auto & Clutch Repair", h: "Auto Repair for Holladay Drivers", d: "Holladay drivers take 4500 South to State Street, then north to Scott's Auto & Clutch Repair at 144 W Crystal Ave. Family-owned since 1990. (801) 485-4089." },
+  'holladay-ut-auto-repair':        { t: "Auto Repair Near Holladay, UT | Free Towing & Diagnostics", h: "Auto Repair for Holladay Drivers", d: "Honest auto repair just 5 miles from Holladay at 144 W Crystal Ave. Free initial diagnostics, free towing on major repairs, and family-owned since 1990. (801) 485-4089." },
   'cottonwood-heights-ut-auto-repair':{ t: "Auto Repair Cottonwood Heights UT | Since 1990",                    d: "Ski-canyon commuters to Alta, Snowbird, Brighton, and Solitude trust our shop for winter-wear inspection and year-round service. (801) 485-4089." },
   'sandy-ut-auto-repair':           { t: "Auto Repair Sandy UT | 8 Miles | Free Diagnosis",                         d: "Sandy drivers trust Scott's Auto & Clutch Repair for clutch repair, brakes, and full auto service. Just 8 miles away. Free diagnosis. (801) 485-4089." },
   'draper-ut-auto-repair':          { t: "Auto Repair Draper UT | Scott's Auto & Clutch Repair",                 d: "Draper drivers make the 12-mile I-15 run for brakes, engine, drivetrain, and luxury service without dealership pricing. Call (801) 485-4089." },

@@ -164,31 +164,38 @@ const locationSeoContent = {
   },
   'holladay-ut-auto-repair': {
     keywordIntro: "",
+    heroFollow: "Why? Because we don't play games with pricing. We offer free initial diagnostics, we don't start work without your approval, and we handle the logistics if your car breaks down.",
     hideClutchBlurb: true,
+    mapAtEnd: true,
     towing: {
-      title: "Can't Drive It? We Offer Free Towing.",
-      body: "If your car is stuck in your driveway in Holladay, don't pay out of pocket for a tow truck. We offer Free Towing on all repairs over $1,000. We will bring your vehicle straight to our shop for a Free Diagnosis and call you with a firm price before we touch a wrench."
+      title: "If your car won't drive, we will tow it.",
+      paragraphs: [
+        "Paying for a tow truck before a mechanic even looks at your car is incredibly frustrating. If your vehicle is stuck in your driveway or a parking lot in Holladay, we offer free towing to our shop on all repairs over $1,000.",
+        "We will send a truck to your house, your workplace, or the side of the road. Once the car gets here, we run our diagnostics and call you with an exact price before we touch anything."
+      ]
     },
-    repairsTitle: "Common Repairs for Holladay Drivers",
-    repairsIntro: "",
+    repairsTitle: "Why make the 9-minute drive?",
+    repairsIntro: "If your car is still drivable, here is why it's worth the quick trip to 144 W Crystal Ave:",
     commonNeeds: [
-      { service: 'Clutch & Transmission Repair', context: 'This is our specialty. If your pedal feels spongy on the hills around Olympus Cove, your gears are grinding, or the engine revs without accelerating, bring it in for an expert inspection.' },
-      { service: 'Brake Service', context: 'Stop-and-go traffic on Highland Drive and 4500 South takes a toll on brake pads. If your brakes are grinding, squeaking, or the pedal feels soft, we offer same-day pad and rotor service.' },
-      { service: 'Struts & Suspension', context: 'If your ride has gotten bumpy or you hear clunking when turning on Holladay Boulevard, we can inspect your shocks and struts to smooth out your commute.' },
-      { service: 'Exhaust & Engine Diagnostics', context: 'Is your check engine light on, or is the cabin smelling like exhaust? We find the actual root cause of the problem, not just the scanner code.' }
+      { service: 'Free Initial Diagnostics', context: 'We never charge a fee for initial code pulls, test drives, and visual inspections.' },
+      { service: 'Clutch & Transmission Experts', context: 'This is what we are known for in the valley. We handle everything from standard clutch replacements to dropping the transmission on a Lancer Evo for a new pressure plate and throw-out bearing.' },
+      { service: 'Everyday Maintenance', context: 'We do the normal stuff, too. Stop-and-go traffic is hard on cars, so we handle same-day brake pads, rotors, struts, and shocks. We also do water pumps, head gaskets, and timing belts.' },
+      { service: 'Honest Engine Diagnostics', context: 'If your check engine light is on or your car is running rough, we find the actual root cause of the problem—like tracing a failing fuel pump on a Hyundai Sonata—not just the scanner code.' },
+      { service: 'Guaranteed Work', context: 'Every repair we do is backed by a solid 2-Year Parts & Labor Warranty.' }
     ],
     vehicleContext: "We service domestic and import cars, trucks, and SUVs, including manual transmissions.",
     directions: {
       title: "Getting to the Shop",
-      body: "Location: 144 W Crystal Ave, South Salt Lake, UT 84115. From Holladay, it is typically a 9-minute drive. Take 4500 South west to State Street, then State Street north. Cross 3300 South and turn west onto Crystal Avenue. The shop is just west of State."
+      body: "Location: 144 W Crystal Ave, South Salt Lake, UT 84115. From Holladay: It's typically a 9-minute drive. Take 4500 South west to State Street, then head north. Cross 3300 South and turn west onto Crystal Avenue. The shop is just west of State."
     },
-    routeInfo: "The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. From Holladay, take 4500 South west to State Street, then State Street north, and turn west onto Crystal Avenue.",
+    routeInfo: "The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. From Holladay, take 4500 South west to State Street, then head north, cross 3300 South, and turn west onto Crystal Avenue.",
     faqTitle: "Frequently Asked Questions",
     ctaTitle: "Call to Arrange a Drop-Off or Tow",
-    ctaDesc: "Call (801) 485-4089 to arrange a drop-off or a tow from Holladay.",
+    ctaDesc: "Call (801) 485-4089. Monday - Friday: 9:00 AM - 5:30 PM.",
     faqs: [
-      { q: 'Where is the closest auto repair to Holladay?', a: "Scott's Auto & Clutch Repair is located at 144 W Crystal Ave, about 5 miles from Holladay. We've been a family-owned staple in the valley since 1990." },
-      { q: 'Do you charge to look at my car?', a: 'No. We offer free diagnostics. You tell us what the car is doing, we inspect it, and we explain our exact recommendations and pricing before any work begins.' }
+      { q: 'How far is the shop from Holladay?', a: "We are located at 144 W Crystal Ave in South Salt Lake, which is about a 5-mile, 9-minute drive from central Holladay. We've been a family-owned staple in the Salt Lake Valley since 1990, and our Holladay customers tell us the honest pricing makes it worth the short trip." },
+      { q: 'Do you charge to look at my car?', a: 'We offer free initial diagnostics, which covers test drives, pulling codes, and visual inspections. If your car requires deep electrical tracing or engine teardowns to find the root cause, we will quote you a standard diagnostic fee for your approval before we proceed. You will never see a surprise fee on your bill.' },
+      { q: "What if I don't know what's wrong with it?", a: "You don't need to know the mechanical issue before you call. Just tell us what you're hearing, feeling, or seeing, and we will handle the rest." }
     ],
     extraFaqs: []
   },
