@@ -60,7 +60,7 @@ const locationSeoContent = {
     ctaDesc: "Call (801) 485-4089 to arrange a drop-off or a tow from Millcreek.",
     faqs: [
       { q: 'Where is the closest auto repair to Millcreek?', a: "Scott's Auto & Clutch Repair is located at 144 W Crystal Ave, about 3 miles west of central Millcreek. We've been a family-owned staple in the valley since 1990." },
-      { q: 'Do you charge to look at my car?', a: 'No. We offer free diagnostics. You tell us what the car is doing, we inspect it, and we explain our exact recommendations and pricing before any work begins.' }
+      { q: 'Do you charge to look at my car?', a: 'No. We offer free diagnosis. You tell us what the car is doing, we inspect it, and we explain our exact recommendations and pricing before any work begins.' }
     ],
     extraFaqs: []
   },
@@ -74,13 +74,13 @@ const locationSeoContent = {
       title: "If your car won't drive, we will tow it.",
       paragraphs: [
         "Paying for a tow truck before a mechanic even looks at your car is incredibly frustrating. If your vehicle is stuck in your driveway or a parking lot in Murray, we offer free towing to our shop on all repairs over $1,000.",
-        "We will send a truck to your house, your workplace, or the side of the road. Once the car gets here, we run a free diagnostic and call you with an exact price before we touch anything."
+        "We will send a truck to your house, your workplace, or the side of the road. Once the car gets here, we run a free diagnosis and call you with an exact price before we touch anything."
       ]
     },
     repairsTitle: "Why make the 8-minute drive up State Street?",
     repairsIntro: "If your car is still drivable, here is why it's worth the quick trip to 144 W Crystal Ave:",
     commonNeeds: [
-      { service: 'Free Diagnostics', context: "We never charge a fee just to figure out what's wrong with your car." },
+      { service: 'Free Diagnosis', context: "We never charge a fee just to figure out what's wrong with your car." },
       { service: 'Clutch & Transmission Experts', context: 'This is what we are known for in the valley. We handle everything from standard clutch replacements to dropping the transmission on a Lancer Evo for a new pressure plate.' },
       { service: 'Everyday Maintenance', context: 'We do the normal stuff, too. Stop-and-go traffic on State Street is hard on cars, so we handle same-day brake pads, rotors, struts, and shocks. We also do water pumps, head gaskets, and timing belts.' },
       { service: 'Honest Engine Diagnostics', context: 'If your check engine light is on or your car is running rough, we find the actual root cause of the problem—not just the scanner code.' },
@@ -97,7 +97,7 @@ const locationSeoContent = {
     ctaDesc: "Call (801) 485-4089. Monday - Friday: 9:00 AM - 5:30 PM.",
     faqs: [
       { q: 'Where is the closest auto repair to Murray?', a: "Scott's Auto & Clutch Repair is located at 144 W Crystal Ave, about 4 miles north of Murray. We've been a family-owned staple in the Salt Lake Valley since 1990." },
-      { q: 'Do you charge to look at my car?', a: 'No. We offer free diagnostics. You tell us what the car is doing, we inspect it, and we explain exactly what it needs and what it will cost before we start working.' },
+      { q: 'Do you charge to look at my car?', a: 'No. We offer free diagnosis. You tell us what the car is doing, we inspect it, and we explain exactly what it needs and what it will cost before we start working.' },
       { q: "What if I don't know what's wrong with it?", a: "You don't need to know the mechanical issue before you call. Just tell us what you're hearing, feeling, or seeing, and we will handle the rest." }
     ],
     extraFaqs: []
