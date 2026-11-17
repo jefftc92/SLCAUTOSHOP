@@ -17,19 +17,19 @@ const locations = [
   },
   {
     slug: "millcreek-ut-auto-repair", name: "Millcreek", state: "UT", distance: "3 miles", driveTime: "7 min", zipCodes: ["84106", "84109"], isHome: false,
-    intro: "Millcreek residents are just 3 miles from our shop, a quick 7-minute drive down 3300 South or Highland Drive. We've been the go-to mechanic for Millcreek families since 1990, especially for drivers who commute through Parley's Canyon or head up to the ski resorts.",
-    whyChooseUs: "Millcreek sits at the mouth of two major canyons, and that geography defines the driving conditions. Residents heading up Big Cottonwood or Millcreek Canyon deal with steep grades that stress clutches, brakes, and cooling systems more than any flatland driving.",
+    intro: "Millcreek is about 3 miles and a 7-minute drive from our shop at 144 W Crystal Ave in South Salt Lake. Scott's Auto & Clutch Repair has been family-owned since 1990. Clutch work is the specialty, and we also do brakes, exhaust, and everyday repairs. Open Mon-Fri 9:00 AM-5:30 PM, Saturday by appointment. Call (801) 485-4089.",
+    whyChooseUs: "We specialize in clutch repair and also handle brakes, CV axles, engine diagnostics, and transmission work. Tell us what the vehicle is doing so we can discuss the inspection and arrange a visit. We explain our findings and the recommended repair before work begins.",
     landmarks: [],
     neighborhoods: ["Canyon Rim", "Millcreek Proper", "Meadowmoor", "Mount Olympus", "Sunnydale"],
-    aboutCity: "Millcreek was incorporated as a city in 2016 after decades as an unincorporated Salt Lake County township, making it one of Utah's newest cities despite being one of the valley's oldest settled areas. Named for the creek flowing from the Wasatch Mountains, Millcreek is home to nearly 63,000 residents across a mix of established mid-century neighborhoods and newer developments. The city's eastern edge borders the Wasatch Mountains, giving residents direct access to Millcreek Canyon, Big Cottonwood Canyon, and the trails of the Wasatch Front."
+    aboutCity: ""
   },
   {
     slug: "murray-ut-auto-repair", name: "Murray", state: "UT", distance: "4 miles", driveTime: "8 min", zipCodes: ["84107", "84121", "84123"], isHome: false,
-    intro: "Murray drivers are just 4 miles from our shop, about 8 minutes straight up State Street. We've been serving Murray families since 1990, and many of our longest-running customers come from the Fashion Place Mall and Intermountain Medical Center areas.",
-    whyChooseUs: "Murray's central location means heavy traffic on State Street and I-15. The constant stop-and-go around Fashion Place Mall and the 5300 South interchange wears down brakes faster than highway driving, we see that pattern every day from Murray customers.",
+    intro: "Murray is about 4 miles and an 8-minute drive up State Street from our shop at 144 W Crystal Ave in South Salt Lake. Scott's Auto & Clutch Repair has been family-owned since 1990. Clutch work is the specialty, and we also do brakes, exhaust, and everyday repairs. Open Mon-Fri 9:00 AM-5:30 PM, Saturday by appointment. Call (801) 485-4089.",
+    whyChooseUs: "We specialize in clutch repair and also handle brakes, CV axles, engine diagnostics, and transmission work. Tell us what the vehicle is doing so we can discuss the inspection and arrange a visit. We explain our findings and the recommended repair before work begins.",
     landmarks: [],
     neighborhoods: ["Downtown Murray", "Historic Murray", "Vine Street District", "Murray City Center", "Fashion Place"],
-    aboutCity: "Murray was founded in 1903 as a smelter town processing ore from the Bingham Canyon Mine and has grown into one of Salt Lake County's largest cities with over 50,000 residents. Intermountain Medical Center is the region's flagship hospital, making Murray a healthcare hub for the entire valley. The city's central location along State Street and I-15 makes it one of the valley's most accessible communities, and its strong TRAX connectivity links Murray residents to downtown, the airport, and southern suburbs."
+    aboutCity: ""
   },
   {
     "slug": "salt-lake-city-ut-auto-repair",
@@ -84,11 +84,11 @@ const locations = [
   },
   {
     slug: "holladay-ut-auto-repair", name: "Holladay", state: "UT", distance: "5 miles", driveTime: "9 min", zipCodes: ["84117", "84121"], isHome: false,
-    intro: "Holladay is one of our closest neighboring communities, just 5 miles and 9 minutes from our shop on Highland Drive or 4500 South. Many Holladay residents drive through our area daily on their commute.",
-    whyChooseUs: "Holladay sits at the base of the Wasatch Mountains, and many residents commute up Big Cottonwood Canyon for skiing or recreation. That canyon driving creates specific wear patterns on brakes, clutches, and cooling systems that we know well.",
+    intro: "Holladay is about 5 miles and a 9-minute drive from our shop at 144 W Crystal Ave in South Salt Lake. Scott's Auto & Clutch Repair has been family-owned since 1990. Clutch work is the specialty, and we also do brakes, exhaust, and everyday repairs. Open Mon-Fri 9:00 AM-5:30 PM, Saturday by appointment. Call (801) 485-4089.",
+    whyChooseUs: "We specialize in clutch repair and also handle brakes, CV axles, engine diagnostics, and transmission work. Tell us what the vehicle is doing so we can discuss the inspection and arrange a visit. We explain our findings and the recommended repair before work begins.",
     landmarks: [],
     neighborhoods: ["Holladay Village", "Cottonwood", "Olympus Cove", "Holladay Hills", "Knollwood"],
-    aboutCity: "Holladay was incorporated in 1999 and is home to about 31,000 residents in one of the east bench's most desirable communities. Nestled between Mount Olympus and the broader Salt Lake Valley, Holladay offers established neighborhoods with mature trees, strong schools, and easy access to both Big and Little Cottonwood Canyons. The city has maintained its quiet residential character while continuing to develop its Holladay Village commercial core."
+    aboutCity: ""
   },
   {
     slug: "cottonwood-heights-ut-auto-repair", name: "Cottonwood Heights", state: "UT", distance: "6 miles", driveTime: "10 min", zipCodes: ["84121"], isHome: false,
@@ -186,12 +186,12 @@ const locations = [
 const locationMetaMap = {
   'south-salt-lake-ut-auto-repair': { t: "South Salt Lake Auto Repair | Scott's Auto & Clutch Repair", h: "Auto Repair in South Salt Lake", d: "Auto repair at 144 W Crystal Ave, South Salt Lake. Family-owned clutch shop since 1990, between I-15 and State Street. (801) 485-4089." },
   'sugar-house-ut-auto-repair':     { t: "Auto Repair Sugar House UT | Scott's Auto & Clutch Repair",            d: "Three miles south of Sugar House with TRAX drop-off. Drop your car, catch the train, pick up after work. Honest diagnosis. (801) 485-4089." },
-  'millcreek-ut-auto-repair':       { t: "Auto Repair Millcreek UT | Scott's Auto & Clutch Repair",              d: "Millcreek's independent mechanic since 1990. Subaru boxer engines, Honda, Toyota, and everything else this canyon-driving community owns. (801) 485-4089." },
-  'murray-ut-auto-repair':          { t: "Auto Repair Murray UT | 4 Miles | Free Diagnosis",                         d: "Murray drivers, Scott's Auto & Clutch Repair is just 4 miles away in South Salt Lake. Clutch, brakes, CV joints & more. (801) 485-4089." },
+  'millcreek-ut-auto-repair':       { t: "Millcreek Auto Repair | Scott's Auto & Clutch Repair", h: "Millcreek Auto Repair", d: "Auto repair 3 miles from Millcreek at 144 W Crystal Ave, South Salt Lake. Family-owned clutch shop since 1990. Free estimates. (801) 485-4089." },
+  'murray-ut-auto-repair':          { t: "Murray Auto Repair & Mechanic | Scott's Auto & Clutch Repair", h: "Murray Auto Repair", d: "Auto repair and clutch work 4 miles north of Murray at 144 W Crystal Ave, South Salt Lake. Family-owned since 1990. Free estimates. (801) 485-4089." },
   'salt-lake-city-ut-auto-repair':  { t: "Salt Lake City Auto Repair | Scott's Auto & Clutch Repair", h: "Salt Lake City Auto Repair", d: "Auto repair for Salt Lake City, 4 miles south at 144 W Crystal Ave. Family-owned clutch shop since 1990. Free estimates. (801) 485-4089." },
   'taylorsville-ut-auto-repair':    { t: "Auto Repair Taylorsville UT | Scott's Auto & Clutch Repair",           d: "Taylorsville families, minivans, SUVs, and daily drivers, five miles east and over 35 years of trusted service to the community. (801) 485-4089." },
   'west-valley-city-ut-auto-repair':{ t: "Auto Repair West Valley City UT | Since 1990",                         d: "West Valley commercial vehicles, work trucks, and family cars get fast turnaround at our South Salt Lake shop. Seven miles east. Call (801) 485-4089." },
-  'holladay-ut-auto-repair':        { t: "Auto Repair Holladay UT | Scott's Auto & Clutch Repair",               d: "Five miles from Holladay, and 30+ years of experience with luxury, import, and canyon-driving vehicles common to the neighborhood. (801) 485-4089." },
+  'holladay-ut-auto-repair':        { t: "Holladay Auto Repair | Scott's Auto & Clutch Repair", h: "Holladay Auto Repair", d: "Auto repair 5 miles from Holladay at 144 W Crystal Ave, South Salt Lake. Family-owned clutch shop since 1990. Free estimates. (801) 485-4089." },
   'cottonwood-heights-ut-auto-repair':{ t: "Auto Repair Cottonwood Heights UT | Since 1990",                    d: "Ski-canyon commuters to Alta, Snowbird, Brighton, and Solitude trust our shop for winter-wear inspection and year-round service. (801) 485-4089." },
   'sandy-ut-auto-repair':           { t: "Auto Repair Sandy UT | 8 Miles | Free Diagnosis",                         d: "Sandy drivers trust Scott's Auto & Clutch Repair for clutch repair, brakes, and full auto service. Just 8 miles away. Free diagnosis. (801) 485-4089." },
   'draper-ut-auto-repair':          { t: "Auto Repair Draper UT | Scott's Auto & Clutch Repair",                 d: "Draper drivers make the 12-mile I-15 run for brakes, engine, drivetrain, and luxury service without dealership pricing. Call (801) 485-4089." },
