@@ -18,17 +18,20 @@
 <!-- 1. Shop Info + Map — white -->
 <section class="content-section">
   <div class="container">
-    <h2><% if (!location.isHome) { %>Auto Repair for <%= location.name %> Drivers<% } else { %>Your South Salt Lake Auto Shop<% } %></h2>
+    <% var shopHeading = !location.isHome ? ('Auto Repair for ' + location.name + ' Drivers') : 'Your South Salt Lake Auto Shop'; %>
+    <% if (location.heading !== shopHeading) { %>
+    <h2><%= shopHeading %></h2>
+    <% } %>
     <div class="loc-shop-grid">
       <div class="loc-shop-info">
         <p><%- linkifyServices(location.whyChooseUs) %></p>
         <% if (locSeo && locSeo.keywordIntro) { %>
         <p class="mt-4"><%- linkifyServices(locSeo.keywordIntro) %></p>
         <% } %>
-        <% if (clutchGeo) { %>
+        <% if (clutchGeo && !(locSeo && locSeo.hideClutchBlurb)) { %>
         <p class="mt-4"><%= location.name %> drivers looking for a clutch specialist nearby can <a href="/services/<%= clutchGeo.slug %>">learn more about our clutch repair service for <%= location.name %> drivers</a>.</p>
         <% } %>
-        <% if (locSeo && locSeo.routeInfo) { %>
+        <% if (locSeo && locSeo.routeInfo && !locSeo.directions) { %>
         <p class="mt-4"><strong>Getting here:</strong> <%= locSeo.routeInfo %></p>
         <% } %>
         <div class="loc-shop-details">
@@ -67,6 +70,15 @@
     </div>
   </div>
 </section>
+
+<% if (locSeo && locSeo.towing) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2><%= locSeo.towing.title %></h2>
+    <div class="prose"><p><%- linkifyServices(locSeo.towing.body) %></p></div>
+  </div>
+</section>
+<% } %>
 
 <!-- 2. About City — grey -->
 <% if (location.aboutCity) { %>
@@ -114,10 +126,11 @@
 
 <!-- 4. What This City's Drivers Need — grey (only if commonNeeds exist) -->
 <% if (locSeo && locSeo.commonNeeds && locSeo.commonNeeds.length) { %>
-<section class="content-section alt-bg">
+<section class="content-section<%= (locSeo && locSeo.towing) ? '' : ' alt-bg' %>">
   <div class="container">
-    <h2>Repair and Maintenance for <%= location.name %> Drivers</h2>
-    <p class="section-subtitle">Tell us how you use your vehicle and what you have noticed. Here are some repairs and maintenance needs we can discuss.</p>
+    <% var repairsIntro = (locSeo && locSeo.repairsIntro !== undefined) ? locSeo.repairsIntro : 'Tell us how you use your vehicle and what you have noticed. Here are some repairs and maintenance needs we can discuss.'; %>
+    <h2><%= (locSeo && locSeo.repairsTitle) ? locSeo.repairsTitle : ('Repair and Maintenance for ' + location.name + ' Drivers') %></h2>
+    <% if (repairsIntro) { %><p class="section-subtitle"><%= repairsIntro %></p><% } %>
     <div class="loc-common-needs">
       <% locSeo.commonNeeds.forEach(need => { %>
       <div class="loc-need-item">
@@ -125,6 +138,15 @@
       </div>
       <% }) %>
     </div>
+  </div>
+</section>
+<% } %>
+
+<% if (locSeo && locSeo.directions) { %>
+<section class="content-section alt-bg">
+  <div class="container">
+    <h2><%= locSeo.directions.title %></h2>
+    <div class="prose"><p><%- linkifyServices(locSeo.directions.body) %></p></div>
   </div>
 </section>
 <% } %>
@@ -155,6 +177,8 @@
 
 <%- include('partials/testimonials') %>
 
-<% var ctaTitle = "Need Auto Repair Near " + location.name + "?"; var ctaDesc = "Contact Scott's Auto & Clutch Repair today for honest diagnostics and fair pricing." + (!location.isHome ? " We're just " + location.distance + " from " + location.name + "." : ""); %>
-<%- include('partials/cta') %>
+<%- include('partials/cta', Object.assign({},
+  (locSeo && locSeo.ctaTitle) ? { ctaTitle: locSeo.ctaTitle } : {},
+  (locSeo && locSeo.ctaDesc) ? { ctaDesc: locSeo.ctaDesc } : {}
+)) %>
 <%- include('partials/footer') %>
