@@ -393,6 +393,22 @@ a.tag:hover{border-color:var(--c-primary);color:var(--c-primary);background:var(
 .loc-shop-map{border-radius:10px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.1);min-height:340px}
 .loc-shop-map iframe{display:block;width:100%;height:100%;min-height:340px}
 
+/* Location page — formatted hours in shop card */
+.loc-hours{display:flex;flex-direction:column;gap:.3rem}
+.loc-hours-row{display:flex;justify-content:space-between;gap:1rem;font-size:.92rem;line-height:1.4}
+.loc-hours-row > span:first-child{color:var(--c-text-muted);font-weight:600}
+.loc-hours-row > span:last-child{color:var(--c-text);text-align:right}
+
+/* Location page — towing section with photo */
+.loc-towing-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:center;margin-top:.5rem}
+.loc-towing-media img{display:block;width:100%;height:auto;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.14)}
+.loc-towing-body h2{margin-top:0}
+@media(max-width:768px){
+  .loc-towing-grid{grid-template-columns:1fr;gap:1.25rem}
+  .loc-towing-media{order:2}
+  .loc-towing-body{order:1}
+}
+
 /* Location page — common needs inline list */
 .loc-common-needs{display:flex;flex-direction:column;gap:.75rem;margin-top:1rem;margin-bottom:.5rem}
 .loc-need-item{font-size:.95rem;line-height:1.6;color:var(--c-text);padding:.65rem 1rem;background:var(--c-bg);border-left:3px solid var(--c-primary);border-radius:0 6px 6px 0}
