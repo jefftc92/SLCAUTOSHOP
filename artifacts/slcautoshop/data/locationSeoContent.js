@@ -33,30 +33,33 @@ const locationSeoContent = {
     ]
   },
   'millcreek-ut-auto-repair': {
-    keywordIntro: "We do clutch work, brakes, exhaust, and everyday repairs for drivers in 84106 and 84109. The shop is 3 miles from Millcreek, about a 7-minute drive, at 144 W Crystal Ave in South Salt Lake.",
+    keywordIntro: "If you need auto repair in Millcreek, bring the car to 144 W Crystal Ave. We work on cars, trucks, and SUVs for drivers in 84106 and 84109, including manual transmissions.",
     commonNeeds: [
-      { service: 'Brake Service', context: 'If the brakes grind, pull, or the pedal feels soft, we inspect them before recommending a repair.' },
-      { service: 'Cooling System Service', context: 'If the temperature gauge runs high or you see a coolant leak, we inspect the cooling system before recommending a repair.' },
-      { service: 'Clutch Repair', context: 'If the clutch pedal feels different or the engine revs without the car accelerating, we inspect the clutch before recommending a repair.' },
-      { service: 'Timing Belt/Chain Service', context: 'If the engine runs roughly or you hear a new engine noise, we inspect the timing belt or chain before recommending a repair.' }
+      { service: 'Brake Service', context: '3300 South and Highland Drive mean a lot of stops. If the brakes grind, the car pulls, or the pedal feels soft, we inspect them before recommending a repair.' },
+      { service: 'Clutch Repair', context: 'Clutch work is the specialty. If the pedal feels different, or the engine revs without the car accelerating, we inspect the clutch before recommending a repair.' },
+      { service: 'Struts', context: 'If the car clunks or the ride has changed on 3300 South or the streets toward Millcreek Canyon, we inspect the struts before recommending a repair.' },
+      { service: 'Exhaust Repair', context: 'If the car is louder than it was, or you smell exhaust in the cabin, we inspect the exhaust before recommending a repair.' }
     ],
-    vehicleContext: "We work on the cars, trucks and SUVs people drive every day, including manual transmissions.",
-    routeInfo: "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from Millcreek with current traffic and your exact starting point.",
-    extraFaqs: []
+    vehicleContext: "We service domestic and import cars, trucks, and SUVs, including Toyota, Honda, Ford, and Chevy, and we work on manual transmissions.",
+    routeInfo: "The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. From Millcreek, 3300 South is the usual road west. Use Get Directions for the current route from your starting point.",
+    extraFaqs: [
+      { q: 'Where can I get auto repair near Millcreek?', a: "Scott's Auto & Clutch Repair is at 144 W Crystal Ave in South Salt Lake, about 3 miles from Millcreek. The shop has been family-owned since 1990. Call (801) 485-4089." },
+      { q: 'What repairs do Millcreek drivers bring in?', a: 'Clutch repair, brake service, exhaust work, and everyday repairs. Tell us what the car is doing. We inspect it and explain the recommendation before any work starts.' }
+    ]
   },
   'murray-ut-auto-repair': {
-    keywordIntro: "We do clutch work, brakes, exhaust, and everyday repairs for drivers in 84107, 84121, and 84123. The shop is 4 miles north of Murray, about an 8-minute drive up State Street, at 144 W Crystal Ave in South Salt Lake.",
+    keywordIntro: "If you need auto repair in Murray, the shop is at 144 W Crystal Ave. We work on cars, trucks, and SUVs for drivers in 84107, 84121, and 84123, including manual transmissions.",
     commonNeeds: [
-      { service: 'Brake Service', context: 'If the brakes grind, pull, or the pedal feels soft, we inspect them before recommending a repair.' },
-      { service: 'Clutch Repair', context: 'If the clutch pedal feels different or the engine revs without the car accelerating, we inspect the clutch before recommending a repair.' },
-      { service: 'Complete Auto Service', context: 'If something on the car feels off or a warning light is on, we inspect it before recommending a repair.' },
-      { service: 'CV Axle Repair', context: 'If you hear a click or clunk while turning, we inspect the CV axle before recommending a repair.' }
+      { service: 'Brake Service', context: 'State Street from Murray to the shop is a long row of lights. If the brakes grind, the car pulls, or the pedal feels soft, we inspect them before recommending a repair.' },
+      { service: 'Clutch Repair', context: 'State Street traffic means a lot of starts. If the clutch pedal feels different, or the engine revs without the car accelerating, we inspect the clutch before recommending a repair.' },
+      { service: 'CV Axle Repair', context: 'If you hear a click or clunk while turning, including in the lots around Fashion Place, we inspect the CV axle before recommending a repair.' },
+      { service: 'Exhaust Repair', context: 'If the car is louder than it was, or you smell exhaust in the cabin, we inspect the exhaust before recommending a repair.' }
     ],
-    vehicleContext: "We work on the cars, trucks and SUVs people drive every day, including manual transmissions.",
-    routeInfo: "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from Murray with current traffic and your exact starting point.",
+    vehicleContext: "We service domestic and import cars, trucks, and SUVs, including Toyota, Honda, Ford, and Chevy, and we work on manual transmissions.",
+    routeInfo: "The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. From Murray, State Street north is the direct road. Use Get Directions for the current route from your starting point.",
     extraFaqs: [
-      { q: 'Is there good auto repair near Intermountain Medical Center in Murray?', a: "Scott's Auto & Clutch Repair serves Murray drivers from 144 W Crystal Ave in South Salt Lake. Call to discuss the repair you need, and use Get Directions to check the route from the medical center or your starting address." },
-      { q: 'What is the fastest route from Murray to your shop?', a: 'The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. From Murray, head north on State Street. Use Get Directions for the current route from your starting point.' }
+      { q: 'Where can I get auto repair near Murray?', a: "Scott's Auto & Clutch Repair is at 144 W Crystal Ave in South Salt Lake, about 4 miles north of Murray. The shop has been family-owned since 1990. Call (801) 485-4089." },
+      { q: 'Is the shop close to Intermountain Medical Center?', a: 'Intermountain Medical Center is in Murray on 5300 South. The shop is about 4 miles north, at 144 W Crystal Ave in South Salt Lake. Use Get Directions from the medical center or from home.' }
     ]
   },
   "salt-lake-city-ut-auto-repair": {
@@ -123,16 +126,19 @@ const locationSeoContent = {
     ]
   },
   'holladay-ut-auto-repair': {
-    keywordIntro: "We do clutch work, brakes, exhaust, and everyday repairs for drivers in 84117 and 84121. The shop is 5 miles from Holladay, about a 9-minute drive, at 144 W Crystal Ave in South Salt Lake.",
+    keywordIntro: "If you need auto repair in Holladay, the shop is at 144 W Crystal Ave. We work on cars, trucks, and SUVs for drivers in 84117 and 84121, including manual transmissions.",
     commonNeeds: [
-      { service: 'Brake Service', context: 'If the brakes grind, pull, or the pedal feels soft, we inspect them before recommending a repair.' },
-      { service: 'Clutch Repair', context: 'If the clutch pedal feels different or the engine revs without the car accelerating, we inspect the clutch before recommending a repair.' },
-      { service: 'Cooling System Service', context: 'If the temperature gauge runs high or you see a coolant leak, we inspect the cooling system before recommending a repair.' },
-      { service: 'Suspension Service', context: 'If the car rides roughly or clunks over bumps, we inspect the suspension before recommending a repair.' }
+      { service: 'Brake Service', context: 'Highland Drive and 4500 South mean a lot of stops between Holladay Village and the valley. If the brakes grind, the car pulls, or the pedal feels soft, we inspect them before recommending a repair.' },
+      { service: 'Clutch Repair', context: 'If the clutch pedal feels different on the hills around Olympus Cove, or the engine revs without the car accelerating, we inspect the clutch before recommending a repair.' },
+      { service: 'Shocks', context: 'If the car clunks or the ride has changed on Holladay Boulevard or the streets toward the benches, we inspect the shocks before recommending a repair.' },
+      { service: 'Exhaust Repair', context: 'If the car is louder than it was, or you smell exhaust in the cabin, we inspect the exhaust before recommending a repair.' }
     ],
-    vehicleContext: "We work on the cars, trucks and SUVs people drive every day, including manual transmissions.",
-    routeInfo: "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from Holladay with current traffic and your exact starting point.",
-    extraFaqs: []
+    vehicleContext: "We service domestic and import cars, trucks, and SUVs, including Toyota, Honda, Ford, and Chevy, and we work on manual transmissions.",
+    routeInfo: "The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. From Holladay, Highland Drive and 4500 South (Murray-Holladay Road) are the usual roads west. Use Get Directions for the current route from your starting point.",
+    extraFaqs: [
+      { q: 'Where can I get auto repair near Holladay?', a: "Scott's Auto & Clutch Repair is at 144 W Crystal Ave in South Salt Lake, about 5 miles from Holladay. The shop has been family-owned since 1990. Call (801) 485-4089." },
+      { q: 'How do I get to the shop from Holladay Village?', a: 'Holladay Village is at Highland Drive and Murray-Holladay Road. The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions for the current route. Call (801) 485-4089 if you need help finding the driveway.' }
+    ]
   },
   'cottonwood-heights-ut-auto-repair': {
     keywordIntro: "Scott's Auto & Clutch Repair is Cottonwood Heights' trusted auto repair shop, 6 miles north in South Salt Lake. Since 1990, we've served Cottonwood Heights drivers, skiers, canyon commuters, and everyday families, with complete auto repair including clutch replacement, brake service, timing chain work, and cooling system service. Our Cottonwood Heights customers throughout 84047, 84093, and 84121 rely on us for honest pricing and canyon-aware expertise.",
