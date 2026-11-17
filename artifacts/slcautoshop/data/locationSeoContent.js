@@ -33,31 +33,74 @@ const locationSeoContent = {
     ]
   },
   'millcreek-ut-auto-repair': {
-    keywordIntro: "We do clutch work, brakes, exhaust, and everyday repairs for drivers in 84106 and 84109. The shop is 3 miles from Millcreek, about a 7-minute drive, at 144 W Crystal Ave in South Salt Lake.",
+    keywordIntro: "",
+    hideClutchBlurb: true,
+    plainCopy: true,
+    mapAtEnd: true,
+    towing: {
+      title: "Can't Drive It? We Offer Free Towing.",
+      body: "If your car is stuck in your driveway in Millcreek, don't pay out of pocket for a tow truck. We offer Free Towing on all repairs over $1,000. We will bring your vehicle straight to our shop for a Free Diagnosis and call you with a firm price before we touch a wrench."
+    },
+    repairsTitle: "Common Repairs for Millcreek Drivers",
+    repairsIntro: "",
     commonNeeds: [
-      { service: 'Brake Service', context: 'If the brakes grind, pull, or the pedal feels soft, we inspect them before recommending a repair.' },
-      { service: 'Cooling System Service', context: 'If the temperature gauge runs high or you see a coolant leak, we inspect the cooling system before recommending a repair.' },
-      { service: 'Clutch Repair', context: 'If the clutch pedal feels different or the engine revs without the car accelerating, we inspect the clutch before recommending a repair.' },
-      { service: 'Timing Belt/Chain Service', context: 'If the engine runs roughly or you hear a new engine noise, we inspect the timing belt or chain before recommending a repair.' }
+      { service: 'Clutch & Transmission Repair', context: 'This is our specialty. If your pedal feels spongy, your gears are grinding, or the engine revs without accelerating, bring it in for an expert inspection.' },
+      { service: 'Brake Service', context: 'Stop-and-go traffic down Highland Drive takes a toll on brake pads. If your brakes are grinding, squeaking, or the pedal feels soft, we offer same-day pad and rotor service.' },
+      { service: 'Struts & Suspension', context: 'If your ride has gotten bumpy or you hear clunking when turning, we can inspect your shocks and struts to smooth out your commute.' },
+      { service: 'Exhaust & Engine Diagnostics', context: 'Is your check engine light on, or is the cabin smelling like exhaust? We find the actual root cause of the problem, not just the scanner code.' }
     ],
-    vehicleContext: "We work on the cars, trucks and SUVs people drive every day, including manual transmissions.",
-    routeInfo: "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from Millcreek with current traffic and your exact starting point.",
+    vehicleContext: "We service domestic and import cars, trucks, and SUVs, including manual transmissions.",
+    directions: {
+      title: "Getting to the Shop",
+      body: "Location: 144 W Crystal Ave, South Salt Lake, UT 84115. From Millcreek, it is typically a 7-minute drive. Take 3300 South west to State Street, then head north and turn west onto Crystal Avenue. The shop is just west of State."
+    },
+    routeInfo: "The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. From Millcreek, take 3300 South west to State Street, then head north and turn west onto Crystal Avenue.",
+    faqTitle: "Frequently Asked Questions",
+    ctaTitle: "Call to Arrange a Drop-Off or Tow",
+    ctaDesc: "Call (801) 485-4089 to arrange a drop-off or a tow from Millcreek.",
+    faqs: [
+      { q: 'Where is the closest auto repair to Millcreek?', a: "Scott's Auto & Clutch Repair is located at 144 W Crystal Ave, about 3 miles west of central Millcreek. We've been a family-owned staple in the valley since 1990." },
+      { q: 'Do you charge to look at my car?', a: 'No. We offer free diagnostics. You tell us what the car is doing, we inspect it, and we explain our exact recommendations and pricing before any work begins.' }
+    ],
     extraFaqs: []
   },
   'murray-ut-auto-repair': {
-    keywordIntro: "We do clutch work, brakes, exhaust, and everyday repairs for drivers in 84107, 84121, and 84123. The shop is 4 miles north of Murray, about an 8-minute drive up State Street, at 144 W Crystal Ave in South Salt Lake.",
+    keywordIntro: "",
+    heroFollow: "Why? Because we don't play games with pricing. We never charge diagnostic fees, we don't start work without your approval, and we handle the logistics if your car breaks down.",
+    hideClutchBlurb: true,
+    plainCopy: true,
+    mapAtEnd: true,
+    towing: {
+      title: "If your car won't drive, we will tow it.",
+      paragraphs: [
+        "Paying for a tow truck before a mechanic even looks at your car is incredibly frustrating. If your vehicle is stuck in your driveway or a parking lot in Murray, we offer free towing to our shop on all repairs over $1,000.",
+        "We will send a truck to your house, your workplace, or the side of the road. Once the car gets here, we run a free diagnostic and call you with an exact price before we touch anything."
+      ]
+    },
+    repairsTitle: "Why make the 8-minute drive up State Street?",
+    repairsIntro: "If your car is still drivable, here is why it's worth the quick trip to 144 W Crystal Ave:",
     commonNeeds: [
-      { service: 'Brake Service', context: 'If the brakes grind, pull, or the pedal feels soft, we inspect them before recommending a repair.' },
-      { service: 'Clutch Repair', context: 'If the clutch pedal feels different or the engine revs without the car accelerating, we inspect the clutch before recommending a repair.' },
-      { service: 'Complete Auto Service', context: 'If something on the car feels off or a warning light is on, we inspect it before recommending a repair.' },
-      { service: 'CV Axle Repair', context: 'If you hear a click or clunk while turning, we inspect the CV axle before recommending a repair.' }
+      { service: 'Free Diagnostics', context: "We never charge a fee just to figure out what's wrong with your car." },
+      { service: 'Clutch & Transmission Experts', context: 'This is what we are known for in the valley. We handle everything from standard clutch replacements to dropping the transmission on a Lancer Evo for a new pressure plate.' },
+      { service: 'Everyday Maintenance', context: 'We do the normal stuff, too. Stop-and-go traffic on State Street is hard on cars, so we handle same-day brake pads, rotors, struts, and shocks. We also do water pumps, head gaskets, and timing belts.' },
+      { service: 'Honest Engine Diagnostics', context: 'If your check engine light is on or your car is running rough, we find the actual root cause of the problem—not just the scanner code.' },
+      { service: 'Guaranteed Work', context: 'Every repair we do is backed by a solid 2-Year Parts & Labor Warranty.' }
     ],
-    vehicleContext: "We work on the cars, trucks and SUVs people drive every day, including manual transmissions.",
-    routeInfo: "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from Murray with current traffic and your exact starting point.",
-    extraFaqs: [
-      { q: 'Is there good auto repair near Intermountain Medical Center in Murray?', a: "Scott's Auto & Clutch Repair serves Murray drivers from 144 W Crystal Ave in South Salt Lake. Call to discuss the repair you need, and use Get Directions to check the route from the medical center or your starting address." },
-      { q: 'What is the fastest route from Murray to your shop?', a: 'The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. From Murray, head north on State Street. Use Get Directions for the current route from your starting point.' }
-    ]
+    vehicleContext: "We service domestic and import cars, trucks, and SUVs, including manual transmissions.",
+    directions: {
+      title: "Getting to the Shop",
+      body: "Location: 144 W Crystal Ave, South Salt Lake, UT 84115. From Murray: It's typically an 8-minute drive. Take State Street north, cross 3300 South, and turn west onto Crystal Avenue. The shop is just west of State."
+    },
+    routeInfo: "The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. From Murray, take State Street north, cross 3300 South, and turn west onto Crystal Avenue.",
+    faqTitle: "Frequently Asked Questions",
+    ctaTitle: "Call to Arrange a Drop-Off or Tow",
+    ctaDesc: "Call (801) 485-4089. Monday - Friday: 9:00 AM - 5:30 PM.",
+    faqs: [
+      { q: 'Where is the closest auto repair to Murray?', a: "Scott's Auto & Clutch Repair is located at 144 W Crystal Ave, about 4 miles north of Murray. We've been a family-owned staple in the Salt Lake Valley since 1990." },
+      { q: 'Do you charge to look at my car?', a: 'No. We offer free diagnostics. You tell us what the car is doing, we inspect it, and we explain exactly what it needs and what it will cost before we start working.' },
+      { q: "What if I don't know what's wrong with it?", a: "You don't need to know the mechanical issue before you call. Just tell us what you're hearing, feeling, or seeing, and we will handle the rest." }
+    ],
+    extraFaqs: []
   },
   "salt-lake-city-ut-auto-repair": {
     "keywordIntro": "Downtown, the Avenues, and the west side are a short drive to the shop in South Salt Lake. We look at the car before we recommend a clutch, brakes, exhaust, or anything else, and you get the estimate before work starts.",
@@ -123,15 +166,41 @@ const locationSeoContent = {
     ]
   },
   'holladay-ut-auto-repair': {
-    keywordIntro: "We do clutch work, brakes, exhaust, and everyday repairs for drivers in 84117 and 84121. The shop is 5 miles from Holladay, about a 9-minute drive, at 144 W Crystal Ave in South Salt Lake.",
+    keywordIntro: "",
+    heroFollow: "Why? Because we don't play games with pricing. We offer free initial diagnostics, we don't start work without your approval, and we handle the logistics if your car breaks down.",
+    hideClutchBlurb: true,
+    plainCopy: true,
+    mapAtEnd: true,
+    towing: {
+      title: "If your car won't drive, we will tow it.",
+      paragraphs: [
+        "Paying for a tow truck before a mechanic even looks at your car is incredibly frustrating. If your vehicle is stuck in your driveway or a parking lot in Holladay, we offer free towing to our shop on all repairs over $1,000.",
+        "We will send a truck to your house, your workplace, or the side of the road. Once the car gets here, we run our diagnostics and call you with an exact price before we touch anything."
+      ]
+    },
+    repairsTitle: "Why make the 9-minute drive?",
+    repairsIntro: "If your car is still drivable, here is why it's worth the quick trip to 144 W Crystal Ave:",
     commonNeeds: [
-      { service: 'Brake Service', context: 'If the brakes grind, pull, or the pedal feels soft, we inspect them before recommending a repair.' },
-      { service: 'Clutch Repair', context: 'If the clutch pedal feels different or the engine revs without the car accelerating, we inspect the clutch before recommending a repair.' },
-      { service: 'Cooling System Service', context: 'If the temperature gauge runs high or you see a coolant leak, we inspect the cooling system before recommending a repair.' },
-      { service: 'Suspension Service', context: 'If the car rides roughly or clunks over bumps, we inspect the suspension before recommending a repair.' }
+      { service: 'Free Initial Diagnostics', context: 'We never charge a fee for initial code pulls, test drives, and visual inspections.' },
+      { service: 'Clutch & Transmission Experts', context: 'This is what we are known for in the valley. We handle everything from standard clutch replacements to dropping the transmission on a Lancer Evo for a new pressure plate and throw-out bearing.' },
+      { service: 'Everyday Maintenance', context: 'We do the normal stuff, too. Stop-and-go traffic is hard on cars, so we handle same-day brake pads, rotors, struts, and shocks. We also do water pumps, head gaskets, and timing belts.' },
+      { service: 'Honest Engine Diagnostics', context: 'If your check engine light is on or your car is running rough, we find the actual root cause of the problem—like tracing a failing fuel pump on a Hyundai Sonata—not just the scanner code.' },
+      { service: 'Guaranteed Work', context: 'Every repair we do is backed by a solid 2-Year Parts & Labor Warranty.' }
     ],
-    vehicleContext: "We work on the cars, trucks and SUVs people drive every day, including manual transmissions.",
-    routeInfo: "Our shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. Use Get Directions to plan your trip from Holladay with current traffic and your exact starting point.",
+    vehicleContext: "We service domestic and import cars, trucks, and SUVs, including manual transmissions.",
+    directions: {
+      title: "Getting to the Shop",
+      body: "Location: 144 W Crystal Ave, South Salt Lake, UT 84115. From Holladay: It's typically a 9-minute drive. Take 4500 South west to State Street, then head north. Cross 3300 South and turn west onto Crystal Avenue. The shop is just west of State."
+    },
+    routeInfo: "The shop is at 144 W Crystal Ave, South Salt Lake, UT 84115. From Holladay, take 4500 South west to State Street, then head north, cross 3300 South, and turn west onto Crystal Avenue.",
+    faqTitle: "Frequently Asked Questions",
+    ctaTitle: "Call to Arrange a Drop-Off or Tow",
+    ctaDesc: "Call (801) 485-4089. Monday - Friday: 9:00 AM - 5:30 PM.",
+    faqs: [
+      { q: 'How far is the shop from Holladay?', a: "We are located at 144 W Crystal Ave in South Salt Lake, which is about a 5-mile, 9-minute drive from central Holladay. We've been a family-owned staple in the Salt Lake Valley since 1990, and our Holladay customers tell us the honest pricing makes it worth the short trip." },
+      { q: 'Do you charge to look at my car?', a: 'We offer free initial diagnostics, which covers test drives, pulling codes, and visual inspections. If your car requires deep electrical tracing or engine teardowns to find the root cause, we will quote you a standard diagnostic fee for your approval before we proceed. You will never see a surprise fee on your bill.' },
+      { q: "What if I don't know what's wrong with it?", a: "You don't need to know the mechanical issue before you call. Just tell us what you're hearing, feeling, or seeing, and we will handle the rest." }
+    ],
     extraFaqs: []
   },
   'cottonwood-heights-ut-auto-repair': {

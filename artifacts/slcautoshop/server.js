@@ -778,7 +778,9 @@ app.get('/locations/:slug', (req, res) => {
   const locSeo = getLocationSeoContent(location.slug);
   const baseFaqs = getLocationFaqs(location);
   const extraFaqs = (locSeo && locSeo.extraFaqs) || [];
-  const allLocFaqs = [...baseFaqs, ...extraFaqs];
+  const allLocFaqs = (locSeo && Array.isArray(locSeo.faqs) && locSeo.faqs.length)
+    ? locSeo.faqs
+    : [...baseFaqs, ...extraFaqs];
 
   // Find the city-specific clutch geo page (e.g. clutch-repair-near-murray-ut)
   const citySlug = location.slug.replace(/-ut-auto-repair$/, '');
@@ -802,7 +804,7 @@ app.get('/locations/:slug', (req, res) => {
     clutchGeo,
     serviceGeoMap,
     pageFaqs: allLocFaqs,
-    faqTitle: 'Frequently Asked Questions: ' + location.name + ' Auto Repair',
+    faqTitle: (locSeo && locSeo.faqTitle) || ('Frequently Asked Questions: ' + location.name + ' Auto Repair'),
     faqAlt: false,
     pageTestimonials: pickReviews(4 + Math.floor(Math.random() * 3)),
     structuredData: [
