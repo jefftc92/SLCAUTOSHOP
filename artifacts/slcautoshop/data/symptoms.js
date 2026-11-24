@@ -50,7 +50,7 @@ const symptoms = [
   },
   {
     slug: "grinding-when-shifting",
-    heroIntro: "Scott's has diagnosed and repaired grinding transmission problems for Salt Lake City drivers since 1990.",
+    heroIntro: "Gears grind when the clutch does not fully release, or when the synchronizers cannot match gear speeds. A worn clutch disc or hydraulic problems can leave the clutch partly engaged. Grinding in only one or two gears points more toward worn synchronizers.",
     name: "Grinding Noise When Shifting",
     shortName: "Grinding When Shifting",
     priority: "High",
@@ -94,7 +94,7 @@ const symptoms = [
   },
   {
     "slug": "stiff-clutch-pedal",
-    "heroIntro": "Scott's has been diagnosing and repairing stiff clutch pedals for Salt Lake City drivers since 1990.",
+    "heroIntro": "A stiff clutch pedal takes more effort to press than it used to. A binding cable or linkage, a hydraulic fault, or a problem in the release mechanism can cause it. Dry or damaged pedal pivots can make the pedal stiff too.",
     "name": "Stiff Clutch Pedal",
     "shortName": "Stiff Clutch Pedal",
     "priority": "Medium",
@@ -234,7 +234,7 @@ const symptoms = [
 
   {
     slug: "hard-to-shift-gears",
-    heroIntro: "Scott's has diagnosed hard-shifting manual transmissions for Salt Lake City drivers since 1990.",
+    heroIntro: "Hard shifting means a gear is difficult to select, or the lever resists going in. A worn clutch disc or hydraulic problems can keep the clutch from fully releasing. Worn shift linkage or low transmission fluid can make it hard to shift too.",
     name: "Hard to Shift Gears",
     shortName: "Hard to Shift Gears",
     priority: "Medium",
@@ -322,7 +322,7 @@ const symptoms = [
   },
   {
     "slug": "soft-clutch-pedal",
-    "heroIntro": "Scott's has diagnosed and repaired soft and spongy clutch pedals for Salt Lake City drivers since 1990.",
+    "heroIntro": "A soft or spongy clutch pedal has less resistance than usual, or it travels farther before the clutch releases. Air in the line, a fluid leak, or a failing master or slave cylinder can cause that. If the pedal stays down or you cannot get it into gear, stop driving and call.",
     "name": "Clutch Pedal Feels Soft or Spongy",
     "shortName": "Soft Clutch Pedal",
     "priority": "Medium",
@@ -1567,12 +1567,12 @@ const symptoms = [
 
 const symptomMeta = {
   'clutch-slipping':           { metaTitle: "Clutch Slipping Repair Salt Lake City UT | Free Diagnosis", metaDesc: "Engine revving but car not accelerating? Your clutch disc is likely worn. Free clutch diagnosis at Scott's Auto. Call (801) 485-4089." },
-  'grinding-when-shifting':    { metaTitle: "Grinding When Shifting, Repair Salt Lake City UT", metaDesc: "Grinding into gear? Could be clutch, synchronizers, or throw-out bearing. We diagnose and fix it fast. Free inspection. (801) 485-4089." },
-  'stiff-clutch-pedal':        { metaTitle: "Stiff Clutch Pedal? What It Means | Scott's Auto Salt Lake City", metaDesc: "A hard-to-press clutch pedal usually traces to hydraulic failure or a worn pressure plate. Free diagnosis at our Salt Lake City shop. (801) 485-4089." },
+  'grinding-when-shifting':    { metaTitle: "Why Do Gears Grind When Shifting? Causes | Scott's Auto", metaDesc: "A clutch that won't fully release, hydraulic problems, or worn synchronizers can make gears grind. Scott's Auto, South Salt Lake. (801) 485-4089." },
+  'stiff-clutch-pedal':        { metaTitle: "What Causes a Stiff Clutch Pedal? | Scott's Auto", metaDesc: "A binding cable, a sticking cylinder, or a problem in the release mechanism can make a clutch pedal stiff. Scott's Auto, South Salt Lake. (801) 485-4089." },
   'transmission-slipping':     { metaTitle: "Transmission Slipping? Causes & Fixes | Scott's Auto Salt Lake City", metaDesc: "RPMs climb without acceleration, could be fluid, solenoid, or internal wear. We diagnose before recommending repair. Call (801) 485-4089." },
-  'hard-to-shift-gears':       { metaTitle: "Hard to Shift Gears? Manual Trans Help | Scott's Auto Salt Lake City", metaDesc: "Won't go into gear cleanly? Clutch, hydraulics, synchros, or linkage, we find the real cause. Manual transmission specialists. (801) 485-4089." },
+  'hard-to-shift-gears':       { metaTitle: "Hard to Shift a Manual? Common Causes | Scott's Auto", metaDesc: "A worn clutch disc, hydraulic problems, or worn shift linkage can make a manual hard to shift. Scott's Auto, South Salt Lake. (801) 485-4089." },
   'burning-smell':             { metaTitle: "Burning Clutch Smell? Don't Ignore It | Scott's Auto Salt Lake City", metaDesc: "A burning smell after hills or hard acceleration is a slipping clutch overheating. Get it inspected before damage spreads. Call (801) 485-4089." },
-  'soft-clutch-pedal':         { metaTitle: "Soft or Spongy Clutch Pedal | Scott's Auto Salt Lake City, UT", metaDesc: "Soft or sinking clutch pedal? We check leaks, cylinders, and clutch release before recommending repairs. Scott's Auto, South Salt Lake." },
+  'soft-clutch-pedal':         { metaTitle: "Why Is My Clutch Pedal Soft? Causes | Scott's Auto", metaDesc: "Air in the line, a fluid leak, or a failing master or slave cylinder can make a clutch pedal soft or spongy. Scott's Auto, South Salt Lake. (801) 485-4089." },
   'clicking-when-turning':     { metaTitle: "Clicking Noise When Turning | Scott's Auto Salt Lake City, UT", metaDesc: "Clicking during turns? We inspect CV joints, steering, suspension, and brake components to find the source. Scott's Auto, Salt Lake City." },
   'vibration-when-accelerating': { metaTitle: "Vibration When Accelerating | Scott's Auto Salt Lake City, UT", metaDesc: "Vibration that grows with speed could be CV joints, motor mounts, or driveline. Honest diagnosis, no guessing. Call (801) 485-4089." },
   'soft-brake-pedal':          { metaTitle: "Soft or Spongy Brake Pedal | South Salt Lake Brake Repair", metaDesc: "A brake pedal that sinks to the floor is a safety emergency. Fluid, hoses, or master cylinder, don't drive until it's fixed. (801) 485-4089." },
